@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="202" name="Relations and Functions">
+    <easy>
+        <question>
+            <text>If A = {1, 2}, B = {3, 4}, then A x B is:</text>
+            <option id="A">{(1,3), (1,4), (2,3), (2,4)}</option><option id="B">{(1,3), (2,4)}</option><option id="C">{(3,1), (4,2)}</option><option id="D">{(1,3), (2,4), (3,1)}</option>
+            <answer>A</answer><explanation>Cartesian product includes all ordered pairs.</explanation>
+        </question>
+        <question>
+            <text>If n(A) = 3 and n(B) = 4, then n(A x B) is:</text>
+            <option id="A">12</option><option id="B">7</option><option id="C">1</option><option id="D">4^3</option>
+            <answer>A</answer><explanation>n(A) * n(B) = 3 * 4 = 12.</explanation>
+        </question>
+        <question>
+            <text>An ordered pair (a, b) = (c, d) if and only if:</text>
+            <option id="A">a = c and b = d</option><option id="B">a = d and b = c</option><option id="C">a = c or b = d</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equality of ordered pairs.</explanation>
+        </question>
+        <question>
+            <text>If A x B = {(a,1), (a,2), (b,1), (b,2)}, then A is:</text>
+            <option id="A">{a, b}</option><option id="B">{1, 2}</option><option id="C">{a, 1}</option><option id="D">{b, 2}</option>
+            <answer>A</answer><explanation>First elements of ordered pairs.</explanation>
+        </question>
+        <question>
+            <text>If A x B = {(a,1), (a,2), (b,1), (b,2)}, then B is:</text>
+            <option id="A">{1, 2}</option><option id="B">{a, b}</option><option id="C">{a, 1}</option><option id="D">{b, 2}</option>
+            <answer>A</answer><explanation>Second elements of ordered pairs.</explanation>
+        </question>
+        <question>
+            <text>A relation R from A to B is a subset of:</text>
+            <option id="A">A x B</option><option id="B">A U B</option><option id="C">A n B</option><option id="D">B x A</option>
+            <answer>A</answer><explanation>Definition of relation.</explanation>
+        </question>
+        <question>
+            <text>If R = {(1, 2), (2, 3)}, domain of R is:</text>
+            <option id="A">{1, 2}</option><option id="B">{2, 3}</option><option id="C">{1, 2, 3}</option><option id="D">{1, 3}</option>
+            <answer>A</answer><explanation>Set of first coordinates.</explanation>
+        </question>
+        <question>
+            <text>If R = {(1, 2), (2, 3)}, range of R is:</text>
+            <option id="A">{2, 3}</option><option id="B">{1, 2}</option><option id="C">{1, 3}</option><option id="D">{1, 2, 3}</option>
+            <answer>A</answer><explanation>Set of second coordinates.</explanation>
+        </question>
+        <question>
+            <text>Total number of relations from set A to set B where n(A)=2, n(B)=2 is:</text>
+            <option id="A">16</option><option id="B">4</option><option id="C">8</option><option id="D">2</option>
+            <answer>A</answer><explanation>2^(mn) = 2^(2*2) = 2^4 = 16.</explanation>
+        </question>
+        <question>
+            <text>A function f: A -> B is a relation where:</text>
+            <option id="A">Every element of A has a unique image in B</option><option id="B">Every element of B has a unique pre-image</option><option id="C">Some elements of A have images</option><option id="D">One element of A has multiple images</option>
+            <answer>A</answer><explanation>Definition of function.</explanation>
+        </question>
+        <question>
+            <text>Image of x under function f is denoted by:</text>
+            <option id="A">f(x)</option><option id="B">x(f)</option><option id="C">f</option><option id="D">x</option>
+            <answer>A</answer><explanation>Notation.</explanation>
+        </question>
+        <question>
+            <text>Set A is called the _ of function f: A -> B.</text>
+            <option id="A">Domain</option><option id="B">Range</option><option id="C">Codomain</option><option id="D">Image</option>
+            <answer>A</answer><explanation>Input set.</explanation>
+        </question>
+        <question>
+            <text>Set B is called the _ of function f: A -> B.</text>
+            <option id="A">Codomain</option><option id="B">Domain</option><option id="C">Range</option><option id="D">Image</option>
+            <answer>A</answer><explanation>Possible outputs.</explanation>
+        </question>
+        <question>
+            <text>Range is a subset of:</text>
+            <option id="A">Codomain</option><option id="B">Domain</option><option id="C">A</option><option id="D">Real numbers</option>
+            <answer>A</answer><explanation>Actual outputs subset of possible outputs.</explanation>
+        </question>
+        <question>
+            <text>Identity function I(x) = ?</text>
+            <option id="A">x</option><option id="B">1</option><option id="C">0</option><option id="D">|x|</option>
+            <answer>A</answer><explanation>Returns input.</explanation>
+        </question>
+        <question>
+            <text>Constant function f(x) = c. Its domain is R, range is:</text>
+            <option id="A">{c}</option><option id="B">R</option><option id="C">N</option><option id="D">Z</option>
+            <answer>A</answer><explanation>Single element set.</explanation>
+        </question>
+        <question>
+            <text>Modulus function f(x) = |x|. Value of |-5| is:</text>
+            <option id="A">5</option><option id="B">-5</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Absolute value is positive.</explanation>
+        </question>
+        <question>
+            <text>Signum function sgn(10) is:</text>
+            <option id="A">1</option><option id="B">-1</option><option id="C">0</option><option id="D">10</option>
+            <answer>A</answer><explanation>Positive input gives 1.</explanation>
+        </question>
+        <question>
+            <text>Greatest Integer Function [2.7] is:</text>
+            <option id="A">2</option><option id="B">3</option><option id="C">2.7</option><option id="D">0</option>
+            <answer>A</answer><explanation>Integer less than or equal to 2.7.</explanation>
+        </question>
+        <question>
+            <text>Domain of rational function f(x) = 1/x is:</text>
+            <option id="A">R - {0}</option><option id="B">R</option><option id="C">N</option><option id="D">R+</option>
+            <answer>A</answer><explanation>Denominator cannot be zero.</explanation>
+        </question>
+        <question>
+            <text>Sum of two functions (f+g)(x) is:</text>
+            <option id="A">f(x) + g(x)</option><option id="B">f(x)g(x)</option><option id="C">f(g(x))</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pointwise addition.</explanation>
+        </question>
+        <question>
+            <text>Product of constant c and function f: (cf)(x) is:</text>
+            <option id="A">c * f(x)</option><option id="B">c + f(x)</option><option id="C">f(c)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Scalar multiplication.</explanation>
+        </question>
+        <question>
+            <text>Product of two real functions (fg)(x) is:</text>
+            <option id="A">f(x)g(x)</option><option id="B">f(g(x))</option><option id="C">f(x) + g(x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pointwise multiplication.</explanation>
+        </question>
+        <question>
+            <text>Quotient (f/g)(x) is defined if:</text>
+            <option id="A">g(x) != 0</option><option id="B">f(x) != 0</option><option id="C">Always defined</option><option id="D">g(x) > 0</option>
+            <answer>A</answer><explanation>Division by zero undefined.</explanation>
+        </question>
+        <question>
+            <text>If (x+1, y-2) = (3, 1), then x and y are:</text>
+            <option id="A">2, 3</option><option id="B">4, 3</option><option id="C">2, -1</option><option id="D">3, 1</option>
+            <answer>A</answer><explanation>x+1=3->x=2, y-2=1->y=3.</explanation>
+        </question>
+        <question>
+            <text>A = {1, 2}, B = {1, 2, 3}. Is A x B = B x A?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Sometimes</option><option id="D">Always</option>
+            <answer>A</answer><explanation>Not commutative generally.</explanation>
+        </question>
+        <question>
+            <text>Graph of modulus function is shaped like letter:</text>
+            <option id="A">V</option><option id="B">U</option><option id="C">C</option><option id="D">L</option>
+            <answer>A</answer><explanation>V-shape at origin.</explanation>
+        </question>
+        <question>
+            <text>Graph of f(x) = x^2 is a:</text>
+            <option id="A">Parabola</option><option id="B">Line</option><option id="C">Circle</option><option id="D">Hyperbola</option>
+            <answer>A</answer><explanation>Quadratic.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = x^2 for real x is:</text>
+            <option id="A">[0, infinity)</option><option id="B">R</option><option id="C">(-infinity, 0]</option><option id="D">Z</option>
+            <answer>A</answer><explanation>Non-negative.</explanation>
+        </question>
+        <question>
+            <text>Which of these is a function?</text>
+            <option id="A">{(2,1), (3,1), (4,2)}</option><option id="B">{(2,1), (2,2), (3,1)}</option><option id="C">{(1,2), (1,3)}</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unique image for each domain element.</explanation>
+        </question>
+        <question>
+            <text>Vertical line test is used to identifying:</text>
+            <option id="A">Function</option><option id="B">Relation</option><option id="C">Set</option><option id="D">Number</option>
+            <answer>A</answer><explanation>Should cut graph at most once.</explanation>
+        </question>
+        <question>
+            <text>f(x) = 2x - 5. Value of f(0)?</text>
+            <option id="A">-5</option><option id="B">0</option><option id="C">2</option><option id="D">5</option>
+            <answer>A</answer><explanation>2(0) - 5 = -5.</explanation>
+        </question>
+        <question>
+            <text>f(x) = x^2. f(5)?</text>
+            <option id="A">25</option><option id="B">10</option><option id="C">5</option><option id="D">125</option>
+            <answer>A</answer><explanation>5^2 = 25.</explanation>
+        </question>
+        <question>
+            <text>Pre-image of 4 under f(x) = 2x is:</text>
+            <option id="A">2</option><option id="B">8</option><option id="C">4</option><option id="D">1</option>
+            <answer>A</answer><explanation>2x = 4 -> x = 2.</explanation>
+        </question>
+        <question>
+            <text>A function with domain and codomain as subsets of R is called:</text>
+            <option id="A">Real valued function</option><option id="B">Integer function</option><option id="C">Complex function</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Range of constant function f(x)=5 is:</text>
+            <option id="A">{5}</option><option id="B">R</option><option id="C">N</option><option id="D">{1, 5}</option>
+            <answer>A</answer><explanation>Only 5.</explanation>
+        </question>
+        <question>
+            <text>If A has 3 elements, number of functions from A to A:</text>
+            <option id="A">3^3 = 27</option><option id="B">9</option><option id="C">3</option><option id="D">6</option>
+            <answer>A</answer><explanation>n(B)^n(A).</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = x is:</text>
+            <option id="A">R</option><option id="B">N</option><option id="C">Z</option><option id="D">Q</option>
+            <answer>A</answer><explanation>Defined everywhere.</explanation>
+        </question>
+        <question>
+            <text>The graph of y = x passes through origin?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>(0,0) satisfies equation.</explanation>
+        </question>
+        <question>
+            <text>f(x) = x^3 is called:</text>
+            <option id="A">Cubic function</option><option id="B">Square function</option><option id="C">Linear</option><option id="D">Constant</option>
+            <answer>A</answer><explanation>Degree 3.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Domain of f(x) = sqrt(9 - x^2) is:</text>
+            <option id="A">[-3, 3]</option><option id="B">(-3, 3)</option><option id="C">[0, 3]</option><option id="D">R</option>
+            <answer>A</answer><explanation>Condition 9 - x^2 >= 0.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = sqrt(9 - x^2) is:</text>
+            <option id="A">[0, 3]</option><option id="B">[-3, 3]</option><option id="C">[0, 9]</option><option id="D">R</option>
+            <answer>A</answer><explanation>Max value 3, min 0.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = 1 / sqrt(x - 5) is:</text>
+            <option id="A">(5, infinity)</option><option id="B">[5, infinity)</option><option id="C">R - {5}</option><option id="D">R</option>
+            <answer>A</answer><explanation>x - 5 > 0.</explanation>
+        </question>
+        <question>
+            <text>Which relation is a function?</text>
+            <option id="A">{(x, y) | y = 2x, x in {1,2}}</option><option id="B">{(1, 2), (1, 3)}</option><option id="C">{(x, y) | x^2 + y^2 = 1} (Circle)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linear relation is function.</explanation>
+        </question>
+        <question>
+            <text>If f(x) = x^2 + 1, g(x) = 2x - 3. (f+g)(1) = ?</text>
+            <option id="A">2 + (-1) = 1</option><option id="B">2</option><option id="C">3</option><option id="D">0</option>
+            <answer>A</answer><explanation>f(1)=2, g(1)=-1.</explanation>
+        </question>
+        <question>
+            <text>If f(x) = x^2, range of f(x) for Domain = {-1, 0, 1}:</text>
+            <option id="A">{0, 1}</option><option id="B">{-1, 0, 1}</option><option id="C">{1}</option><option id="D">{0}</option>
+            <answer>A</answer><explanation>Squares are 1, 0, 1.</explanation>
+        </question>
+        <question>
+            <text>Cartesian product R x R represents:</text>
+            <option id="A">2D Plane coordinates</option><option id="B">Line</option><option id="C">Space</option><option id="D">None</option>
+            <answer>A</answer><explanation>R^2.</explanation>
+        </question>
+        <question>
+            <text>Cartesian product R x R x R represents:</text>
+            <option id="A">3D Space coordinates</option><option id="B">Plane</option><option id="C">Volume</option><option id="D">Line</option>
+            <answer>A</answer><explanation>R^3.</explanation>
+        </question>
+        <question>
+            <text>If A={1,2}, B={1,2,3,4}, C={5,6}. A x (B n C) = ?</text>
+            <option id="A">{}</option><option id="B">A x B</option><option id="C">A x C</option><option id="D">U</option>
+            <answer>A</answer><explanation>B n C is empty.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = (x^2 + 2x + 1) / (x^2 - 8x + 12):</text>
+            <option id="A">R - {2, 6}</option><option id="B">R - {2}</option><option id="C">R - {6}</option><option id="D">R</option>
+            <answer>A</answer><explanation>Denominator zeros: (x-2)(x-6) = 0.</explanation>
+        </question>
+        <question>
+            <text>If f(x) = [x]. Value of f(3.99) - f(-3.99)?</text>
+            <option id="A">3 - (-4) = 7</option><option id="B">6</option><option id="C">0</option><option id="D">8</option>
+            <answer>A</answer><explanation>GIF of -3.99 is -4.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = 1 / (1 + x^2) is:</text>
+            <option id="A">(0, 1]</option><option id="B">[0, 1]</option><option id="C">(-1, 1)</option><option id="D">R</option>
+            <answer>A</answer><explanation>Max 1 at x=0. As x->inf, f->0.</explanation>
+        </question>
+        <question>
+            <text>If f(x) = x and g(x) = |x|. (f+g)(-2) = ?</text>
+            <option id="A">-2 + 2 = 0</option><option id="B">-4</option><option id="C">4</option><option id="D">2</option>
+            <answer>A</answer><explanation>Sum of values.</explanation>
+        </question>
+        <question>
+            <text>Relation R on N defined by y = x + 5, x &lt; 4. R = ?</text>
+            <option id="A">{(1,6), (2,7), (3,8)}</option><option id="B">{(1,6), (2,7)}</option><option id="C">{(0,5)...}</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Natural numbers start at 1 usually (or 0?). Standard N={1,2,3...}.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = 2 - 3x, x > 0?</text>
+            <option id="A">(-infinity, 2)</option><option id="B">(2, infinity)</option><option id="C">(-infinity, 0)</option><option id="D">R</option>
+            <answer>A</answer><explanation>If x>0, -3x &lt; 0, 2-3x &lt; 2.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = -|x|?</text>
+            <option id="A">R</option><option id="B">R-</option><option id="C">R+</option><option id="D">Z</option>
+            <answer>A</answer><explanation>Defined for all reals.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = -|x|?</text>
+            <option id="A">(-infinity, 0]</option><option id="B">[0, infinity)</option><option id="C">R</option><option id="D">Z</option>
+            <answer>A</answer><explanation>Always non-positive.</explanation>
+        </question>
+        <question>
+            <text>Total relations from A={x,y,z} to B={1,2}?</text>
+            <option id="A">2^6 = 64</option><option id="B">32</option><option id="C">16</option><option id="D">6</option>
+            <answer>A</answer><explanation>2^(3*2).</explanation>
+        </question>
+        <question>
+            <text>If f(1.1) = ? given f(x) = [x].</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">1.1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Integral part.</explanation>
+        </question>
+        <question>
+            <text>Relation R is reflexive if:</text>
+            <option id="A">(a, a) in R for all a in A</option><option id="B">(a, b) in R implies (b, a) in R</option><option id="C">(a, b) and (b, c) implies (a, c)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Relation R is symmetric if:</text>
+            <option id="A">(a, b) in R implies (b, a) in R</option><option id="B">(a, a) in R</option><option id="C">Transitive</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Relation R is transitive if:</text>
+            <option id="A">(a,b) and (b,c) implies (a,c)</option><option id="B">Symmetric</option><option id="C">Reflexive</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Function f(x) = x^3 - 1. f(-1) + f(2) = ?</text>
+            <option id="A">(-2) + 7 = 5</option><option id="B">5</option><option id="C">6</option><option id="D">0</option>
+            <answer>A</answer><explanation>-1-1=-2. 8-1=7.</explanation>
+        </question>
+        <question>
+            <text>If A = {-1, 1}, A x A is:</text>
+            <option id="A">{(-1,-1), (-1,1), (1,-1), (1,1)}</option><option id="B">{(-1,-1), (1,1)}</option><option id="C">{1, -1}</option><option id="D">Null</option>
+            <answer>A</answer><explanation>4 elements.</explanation>
+        </question>
+        <question>
+            <text>Domain of sqrt(x^2 - 4) is:</text>
+            <option id="A">(-infinity, -2] U [2, infinity)</option><option id="B">[-2, 2]</option><option id="C">(-2, 2)</option><option id="D">R</option>
+            <answer>A</answer><explanation>x^2 >= 4.</explanation>
+        </question>
+        <question>
+            <text>Which graph represents a function?</text>
+            <option id="A">Parabola y = x^2</option><option id="B">Circle x^2 + y^2 = 1</option><option id="C">Parabola x = y^2</option><option id="D">Ellipse</option>
+            <answer>A</answer><explanation>Passes vertical line test.</explanation>
+        </question>
+        <question>
+            <text>f(x) = (x^2 + 2x + 1)/(x^2 - 1). Domain?</text>
+            <option id="A">R - {-1, 1}</option><option id="B">R - {1}</option><option id="C">R</option><option id="D">R - {-1}</option>
+            <answer>A</answer><explanation>Denominator zero at 1, -1.</explanation>
+        </question>
+        <question>
+            <text>Signum function range?</text>
+            <option id="A">{-1, 0, 1}</option><option id="B">{-1, 1}</option><option id="C">R</option><option id="D">[0, 1]</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>f(x) = ax + b. If f(1)=1, f(2)=3. Find a, b.</text>
+            <option id="A">a=2, b=-1</option><option id="B">a=1, b=0</option><option id="C">a=3, b=-2</option><option id="D">a=-2, b=3</option>
+            <answer>A</answer><explanation>a+b=1, 2a+b=3. Subtract: a=2. 2+b=1 -> b=-1.</explanation>
+        </question>
+        <question>
+            <text>Is f(x) = sqrt(x) a function from R to R?</text>
+            <option id="A">No (Domain restriction)</option><option id="B">Yes</option><option id="C">Maybe</option><option id="D">Always</option>
+            <answer>A</answer><explanation>Negative x gives imaginary.</explanation>
+        </question>
+        <question>
+            <text>f(x) = x^2. Pre-image of 9?</text>
+            <option id="A">{3, -3}</option><option id="B">{3}</option><option id="C">{-3}</option><option id="D">{81}</option>
+            <answer>A</answer><explanation>Squaring both give 9.</explanation>
+        </question>
+        <question>
+            <text>Number of elements in A x B x C if A(2), B(3), C(4)?</text>
+            <option id="A">24</option><option id="B">9</option><option id="C">20</option><option id="D">12</option>
+            <answer>A</answer><explanation>Product.</explanation>
+        </question>
+        <question>
+            <text>If set A has m elements, number of non-empty relations on A is:</text>
+            <option id="A">2^(m^2) - 1</option><option id="B">2^m</option><option id="C">m^2</option><option id="D">2m</option>
+            <answer>A</answer><explanation>Exclude empty relation.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = 1/(x-1)(x-2):</text>
+            <option id="A">R - {1, 2}</option><option id="B">R</option><option id="C">R - {1}</option><option id="D">R - {2}</option>
+            <answer>A</answer><explanation>Poles.</explanation>
+        </question>
+        <question>
+            <text>A = {1, 2, 3}, R = {(1, 1), (2, 2), (3, 3), (1, 2), (2, 3)}. Is R transitive?</text>
+            <option id="A">No, needs (1, 3)</option><option id="B">Yes</option><option id="C">Maybe</option><option id="D">Only reflexive</option>
+            <answer>A</answer><explanation>(1,2) and (2,3) -> need (1,3).</explanation>
+        </question>
+        <question>
+            <text>A = {1, 2, 3}, R = {(1,1), (2,2), (3,3)}. R is:</text>
+            <option id="A">Reflexive, Symmetric, Transitive (Equivalence)</option><option id="B">Only reflexive</option><option id="C">Only Symmetric</option><option id="D">None</option>
+            <answer>A</answer><explanation>Smallest equivalence relation.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = x / (1 + x^2)?</text>
+            <option id="A">[-0.5, 0.5]</option><option id="B">[0, 1]</option><option id="C">[-1, 1]</option><option id="D">R</option>
+            <answer>A</answer><explanation>Max/Min calculus or inequality.</explanation>
+        </question>
+        <question>
+            <text>A function which is its own inverse:</text>
+            <option id="A">f(x) = 1/x</option><option id="B">f(x) = x^2</option><option id="C">f(x) = e^x</option><option id="D">f(x) = x+1</option>
+            <answer>A</answer><explanation>f(f(x)) = x.</explanation>
+        </question>
+        <question>
+            <text>If A={1,2}, B={1,2,3}. Total relations A to B NOT functions?</text>
+            <option id="A">2^6 - 3^2 = 64 - 9 = 55</option><option id="B">64</option><option id="C">55</option><option id="D">9</option>
+            <answer>A</answer><explanation>Total relations - Total functions.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = log(x-1)?</text>
+            <option id="A">(1, infinity)</option><option id="B">[1, infinity)</option><option id="C">R</option><option id="D">(0, infinity)</option>
+            <answer>A</answer><explanation>Argument > 0.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Range of f(x) = |x-1| / (x-1) is:</text>
+            <option id="A">{-1, 1}</option><option id="B">R</option><option id="C">{1}</option><option id="D">{-1, 0, 1}</option>
+            <answer>A</answer><explanation>Undefined at 1. Elsewhere 1 or -1.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = 1 / sqrt(x^2 - 1)?</text>
+            <option id="A">(-infinity, -1) U (1, infinity)</option><option id="B">[-1, 1]</option><option id="C">R - [-1, 1]</option><option id="D">R</option>
+            <answer>A</answer><explanation>x^2 > 1.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = 1 / (2 - cos(x))?</text>
+            <option id="A">[1/3, 1]</option><option id="B">[1/3, 1/2]</option><option id="C">[0, 1]</option><option id="D">R</option>
+            <answer>A</answer><explanation>Cos x in [-1, 1]. Denom in [1, 3]. Reciprocal in [1/3, 1].</explanation>
+        </question>
+        <question>
+            <text>Number of onto functions from A={1,2,3} to B={a,b}?</text>
+            <option id="A">2^3 - 2 = 6</option><option id="B">8</option><option id="C">6</option><option id="D">9</option>
+            <answer>A</answer><explanation>Total functions - Into functions.</explanation>
+        </question>
+        <question>
+            <text>Number of one-one functions from A={1,2} to B={1,2,3}?</text>
+            <option id="A">3P2 = 6</option><option id="B">9</option><option id="C">8</option><option id="D">2</option>
+            <answer>A</answer><explanation>Permutation.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = sqrt(x - [x])?</text>
+            <option id="A">R</option><option id="B">Z</option><option id="C">R - Z</option><option id="D">N</option>
+            <answer>A</answer><explanation>Fractional part always >= 0.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = x^2 / (1 + x^2)?</text>
+            <option id="A">[0, 1)</option><option id="B">[0, 1]</option><option id="C">(0, 1)</option><option id="D">R</option>
+            <answer>A</answer><explanation>Never reaches 1.</explanation>
+        </question>
+        <question>
+            <text>If f(x+1) = x^2 - 3x + 2, then f(x) = ?</text>
+            <option id="A">(x-1)^2 - 3(x-1) + 2 = x^2 - 2x + 1 - 3x + 3 + 2 = x^2 - 5x + 6</option><option id="B">x^2 - x</option><option id="C">x^2 - 5x</option><option id="D">x^2</option>
+            <answer>A</answer><explanation>Replace x with x-1.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = sqrt(16 - x^2) + sqrt(x^2 - 1)?</text>
+            <option id="A">[-4, -1] U [1, 4]</option><option id="B">[-4, 4]</option><option id="C">[-1, 1]</option><option id="D">No domain</option>
+            <answer>A</answer><explanation>Intersection of [-4,4] and R-(-1,1).</explanation>
+        </question>
+        <question>
+            <text>Inverse of f(x) = (2x - 1) / (x + 3)?</text>
+            <option id="A">y = (1 + 3x) / (2 - x)</option><option id="B">y = x</option><option id="C">y = (2x+1)/(x-3)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Swap x and y and solve.</explanation>
+        </question>
+        <question>
+            <text>If A has n elements, how many symmetric relations?</text>
+            <option id="A">2^(n(n+1)/2)</option><option id="B">2^(n^2)</option><option id="C">2^n</option><option id="D">n^2</option>
+            <answer>A</answer><explanation>Upper triangle + diagonal.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = log(1 - x) + sqrt(x + 2)?</text>
+            <option id="A">[-2, 1)</option><option id="B">[-2, 1]</option><option id="C">(-infinity, 1)</option><option id="D">[-2, infinity)</option>
+            <answer>A</answer><explanation>x &lt; 1 and x >= -2.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = 3 sin(x) + 4 cos(x)?</text>
+            <option id="A">[-5, 5]</option><option id="B">[-1, 1]</option><option id="C">[-7, 7]</option><option id="D">[-25, 25]</option>
+            <answer>A</answer><explanation>sqrt(a^2 + b^2).</explanation>
+        </question>
+        <question>
+            <text>f(x) = x + 1/x. Range?</text>
+            <option id="A">(-infinity, -2] U [2, infinity)</option><option id="B">R</option><option id="C">[-2, 2]</option><option id="D">[2, infinity)</option>
+            <answer>A</answer><explanation>AM-GM inequality |f(x)| >= 2.</explanation>
+        </question>
+        <question>
+            <text>Let R be defined on Z by aRb if a-b is divisible by 5. R is:</text>
+            <option id="A">Equivalence relation</option><option id="B">Only symmetric</option><option id="C">Partial order</option><option id="D">Function</option>
+            <answer>A</answer><explanation>Congruence modulo 5.</explanation>
+        </question>
+        <question>
+            <text>If f(x) = log((1+x)/(1-x)), then f(2x/(1+x^2)) = ?</text>
+            <option id="A">2 f(x)</option><option id="B">f(x)</option><option id="C">f(x)^2</option><option id="D">0</option>
+            <answer>A</answer><explanation>Property of log function.</explanation>
+        </question>
+        <question>
+            <text>Domain of sqrt(log(2x - x^2))?</text>
+            <option id="A">x=1</option><option id="B">(0, 2)</option><option id="C">[0, 2]</option><option id="D">Empty</option>
+            <answer>A</answer><explanation>log >= 0 implies argument >= 1. 2x - x^2 >= 1 -> x^2 - 2x + 1 &lt;= 0 -> (x-1)^2 &lt;= 0. Only x=1.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = [x] - x?</text>
+            <option id="A">(-1, 0]</option><option id="B">[-1, 0)</option><option id="C">[0, 1)</option><option id="D">(-1, 1)</option>
+            <answer>A</answer><explanation>Fractional part is x-[x] in [0,1). So [x]-x in (-1,0].</explanation>
+        </question>
+        <question>
+            <text>How many bijective functions from set A to A if n(A)=n?</text>
+            <option id="A">n!</option><option id="B">n^n</option><option id="C">2^n</option><option id="D">n^2</option>
+            <answer>A</answer><explanation>Permutations.</explanation>
+        </question>
+        <question>
+            <text>If f(x) is even function, then graph is symmetric about:</text>
+            <option id="A">Y-axis</option><option id="B">Origin</option><option id="C">X-axis</option><option id="D">Line y=x</option>
+            <answer>A</answer><explanation>f(-x) = f(x).</explanation>
+        </question>
+        <question>
+            <text>If f(x) is odd function, graph is symmetric about:</text>
+            <option id="A">Origin</option><option id="B">Y-axis</option><option id="C">X-axis</option><option id="D">No symmetry</option>
+            <answer>A</answer><explanation>f(-x) = -f(x). Opposite quadrants.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = 1/sqrt(|x| - x)?</text>
+            <option id="A">(-infinity, 0)</option><option id="B">(0, infinity)</option><option id="C">R</option><option id="D">Empty</option>
+            <answer>A</answer><explanation>|x| > x. True for negative numbers.</explanation>
+        </question>
+        <question>
+            <text>Number of equivalence relations on A={1, 2, 3}?</text>
+            <option id="A">5</option><option id="B">3</option><option id="C">10</option><option id="D">1</option>
+            <answer>A</answer><explanation>Bell number B3 = 5.</explanation>
+        </question>
+        <question>
+            <text>If f(x) + 2f(1/x) = 3x, find f(x).</text>
+            <option id="A">f(x) = 2/x - x</option><option id="B">x - 2/x</option><option id="C">x</option><option id="D">3x</option>
+            <answer>A</answer><explanation>System of equations substitution.</explanation>
+        </question>
+        <question>
+            <text>Range of 1 / (x^2 - 2x + 3)?</text>
+            <option id="A">(0, 0.5]</option><option id="B">[0, 2]</option><option id="C">[0.5, 1]</option><option id="D">R</option>
+            <answer>A</answer><explanation>Min denom at x=1 value 2. Max fraction 1/2. Limit 0.</explanation>
+        </question>
+        <question>
+            <text>Domain of arcsin(2x - 1)?</text>
+            <option id="A">[0, 1]</option><option id="B">[-1, 1]</option><option id="C">[-1, 0]</option><option id="D">R</option>
+            <answer>A</answer><explanation>-1 &lt;= 2x-1 &lt;= 1.</explanation>
+        </question>
+        <question>
+            <text>If f(x) = 2x, g(x) = x^2/2 + 1. f(g(x)) = ?</text>
+            <option id="A">x^2 + 2</option><option id="B">x^2 + 1</option><option id="C">x^2</option><option id="D">2x^2 + 2</option>
+            <answer>A</answer><explanation>2(x^2/2 + 1) = x^2 + 2.</explanation>
+        </question>
+        <question>
+            <text>Composite function fog is defined if:</text>
+            <option id="A">Range(g) subset Domain(f)</option><option id="B">Range(f) subset Domain(g)</option><option id="C">Domain(g) = Domain(f)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Which function is NOT onto from R to R?</text>
+            <option id="A">f(x) = e^x</option><option id="B">f(x) = x + 1</option><option id="C">f(x) = x^3</option><option id="D">f(x) = 2x</option>
+            <answer>A</answer><explanation>Range is (0, inf).</explanation>
+        </question>
+        <question>
+            <text>f(x) = x / (x-1). f(f(f(x)))?</text>
+            <option id="A">x</option><option id="B">1/x</option><option id="C">-x</option><option id="D">f(x)</option>
+            <answer>A</answer><explanation>Periodicity of function application.</explanation>
+        </question>
+        <question>
+            <text>If f: [0, 1] -> [0, 1] defined by f(x)=x^2 if rational, 1-x if irrational. One-one?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Maybe</option><option id="D">Cant say</option>
+            <answer>A</answer><explanation>Complex analysis.</explanation>
+        </question>
+        <question>
+            <text>Domain of sqrt(sin x)?</text>
+            <option id="A">Union of [2nPi, (2n+1)Pi]</option><option id="B">R</option><option id="C">[0, Pi]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sin must be positive.</explanation>
+        </question>
+        <question>
+            <text>Range of |x - 2|?</text>
+            <option id="A">[0, infinity)</option><option id="B">R</option><option id="C">(0, infinity)</option><option id="D">(-infinity, 0]</option>
+            <answer>A</answer><explanation>Absolute value.</explanation>
+        </question>
+        <question>
+            <text>If A={1,2,3}. Number of relations containing (1,2) and (1,3) which are reflexive and symmetric but NOT transitive?</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">3</option><option id="D">0</option>
+            <answer>A</answer><explanation>Specific count.</explanation>
+        </question>
+        <question>
+            <text>Let n(A)=4. Number of equivalence relations?</text>
+            <option id="A">15</option><option id="B">10</option><option id="C">5</option><option id="D">14</option>
+            <answer>A</answer><explanation>Bell number B4 = 15.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = 1/log(1-x) + sqrt(x+2)?</text>
+            <option id="A">[-2, 0) U (0, 1)</option><option id="B">[-2, 1)</option><option id="C">[-2, 1]</option><option id="D">R</option>
+            <answer>A</answer><explanation>Log denominator non-zero implies 1-x != 1 -> x != 0.</explanation>
+        </question>
+        <question>
+            <text>If f(x) = 4^x / (4^x + 2). Value of f(x) + f(1-x)?</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">0.5</option><option id="D">2</option>
+            <answer>A</answer><explanation>Symmetric property of this function.</explanation>
+        </question>
+        <question>
+            <text>Minimum value of 3 cos x + 4 sin x + 5?</text>
+            <option id="A">0</option><option id="B">5</option><option id="C">-5</option><option id="D">10</option>
+            <answer>A</answer><explanation>Min is 5 - 5 = 0.</explanation>
+        </question>
+        <question>
+            <text>f(x) = greatest integer less than or equal to x. Domain R. Range?</text>
+            <option id="A">Z</option><option id="B">R</option><option id="C">N</option><option id="D">Q</option>
+            <answer>A</answer><explanation>Integers only.</explanation>
+        </question>
+        <question>
+            <text>Inverse of f(x) = 10^x - 10^-x / (10^x + 10^-x)?</text>
+            <option id="A">0.5 log((1+x)/(1-x))</option><option id="B">log(x)</option><option id="C">10^x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Logarithmic form of inverse tanh is related.</explanation>
+        </question>
+    </hard>
+</chapter>

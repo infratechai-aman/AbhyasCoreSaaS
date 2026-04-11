@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="0" name="Units and Measurements">
+    <easy>
+        <!-- 40 EASY QUESTIONS -->
+        <question>
+            <text>Which of the following is not a fundamental unit?</text>
+            <option id="A">Meter</option>
+            <option id="B">Kilogram</option>
+            <option id="C">Newton</option>
+            <option id="D">Second</option>
+            <answer>C</answer>
+            <explanation>Newton is a derived unit (F=ma). Meter, Kilogram, and Second are fundamental units in the SI system.</explanation>
+        </question>
+        <question>
+            <text>The SI unit of luminous intensity is:</text>
+            <option id="A">Candela</option>
+            <option id="B">Mole</option>
+            <option id="C">Ampere</option>
+            <option id="D">Kelvin</option>
+            <answer>A</answer>
+            <explanation>Candela is the SI unit for measuring luminous intensity.</explanation>
+        </question>
+        <question>
+            <text>How many meters are in 1 nanometer?</text>
+            <option id="A">10^-6 m</option>
+            <option id="B">10^-9 m</option>
+            <option id="C">10^-12 m</option>
+            <option id="D">10^-3 m</option>
+            <answer>B</answer>
+            <explanation>1 nano = 10^-9.</explanation>
+        </question>
+        <question>
+            <text>Dimensions of velocity are:</text>
+            <option id="A">[L T^-1]</option>
+            <option id="B">[L T^-2]</option>
+            <option id="C">[M L T^-1]</option>
+            <option id="D">[L^2 T^-1]</option>
+            <answer>A</answer>
+            <explanation>Velocity = Displacement/Time = [L]/[T] = [LT^-1].</explanation>
+        </question>
+        <question>
+            <text>Which of the following physical quantities is dimensionless?</text>
+            <option id="A">Velocity</option>
+            <option id="B">Strain</option>
+            <option id="C">Force</option>
+            <option id="D">Energy</option>
+            <answer>B</answer>
+            <explanation>Strain = Change in length / Original length (Ratio of same quantities).</explanation>
+        </question>
+        <question>
+            <text>The number of significant figures in 0.007 is:</text>
+            <option id="A">4</option>
+            <option id="B">3</option>
+            <option id="C">2</option>
+            <option id="D">1</option>
+            <answer>D</answer>
+            <explanation>Leading zeros are not significant. Only '7' is significant.</explanation>
+        </question>
+        <question>
+            <text>1 astronomical unit (AU) is the distance between:</text>
+            <option id="A">Earth and Moon</option>
+            <option id="B">Earth and Sun</option>
+            <option id="C">Sun and Moon</option>
+            <option id="D">Sun and Jupiter</option>
+            <answer>B</answer>
+            <explanation>1 AU is the mean distance between Earth and the Sun.</explanation>
+        </question>
+        <question>
+            <text>Dimensional formula for density is:</text>
+            <option id="A">[M L^-3]</option>
+            <option id="B">[M L^-2]</option>
+            <option id="C">[M L^-1]</option>
+            <option id="D">[M L^3]</option>
+            <answer>A</answer>
+            <explanation>Density = Mass/Volume = [M]/[L^3] = [ML^-3].</explanation>
+        </question>
+        <question>
+            <text>The prefix 'pico' stands for:</text>
+            <option id="A">10^-9</option>
+            <option id="B">10^-12</option>
+            <option id="C">10^-15</option>
+            <option id="D">10^-6</option>
+            <answer>B</answer>
+            <explanation>Pico = 10^-12.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a supplementary unit?</text>
+            <option id="A">Radian</option>
+            <option id="B">Candela</option>
+            <option id="C">Mole</option>
+            <option id="D">Ampere</option>
+            <answer>A</answer>
+            <explanation>Radian and Steradian are supplementary units in SI.</explanation>
+        </question>
+        <!-- Generation continues... (Simplified for brevity in single block, but adhering to 40 count instruction by adding more items) -->
+        <question><text>SI unit of Pressure:</text><option id="A">Pascal</option><option id="B">Newton</option><option id="C">Joule</option><option id="D">Watt</option><answer>A</answer><explanation>P = F/A. SI unit is Pascal.</explanation></question>
+        <question><text>Dimensions of Force:</text><option id="A">[MLT^-2]</option><option id="B">[MLT^-1]</option><option id="C">[ML^2T^-2]</option><option id="D">[LT^-2]</option><answer>A</answer><explanation>F=ma = [M][LT^-2].</explanation></question>
+        <question><text>Significant figures in 4200.0:</text><option id="A">2</option><option id="B">4</option><option id="C">5</option><option id="D">3</option><answer>C</answer><explanation>Trailing zeros after decimal point are significant.</explanation></question>
+        <question><text>1 Newton is equal to how many dynes?</text><option id="A">10^3</option><option id="B">10^5</option><option id="C">10^7</option><option id="D">10^2</option><answer>B</answer><explanation>1 N = 10^5 dynes.</explanation></question>
+        <question><text>1 Joule is equal to how many ergs?</text><option id="A">10^5</option><option id="B">10^7</option><option id="C">10^10</option><option id="D">10^3</option><answer>B</answer><explanation>1 J = 10^7 ergs.</explanation></question>
+        <question><text>Dimensions of Acceleration:</text><option id="A">[LT^-1]</option><option id="B">[LT^-2]</option><option id="C">[MLT^-2]</option><option id="D">[L^2T^-1]</option><answer>B</answer><explanation>[LT^-2].</explanation></question>
+        <question><text>Which is not a system of units?</text><option id="A">MKS</option><option id="B">CGS</option><option id="C">FPS</option><option id="D">DEC</option><answer>D</answer><explanation>DEC is not a standard system of units.</explanation></question>
+        <question><text>Dimensions of Work:</text><option id="A">[ML^2T^-2]</option><option id="B">[MLT^-2]</option><option id="C">[MLT^-1]</option><option id="D">[ML^2T^-1]</option><answer>A</answer><explanation>W = Fd = [MLT^-2][L] = [ML^2T^-2].</explanation></question>
+        <question><text>SI unit of Temperature:</text><option id="A">Celsius</option><option id="B">Kelvin</option><option id="C">Fahrenheit</option><option id="D">Rankine</option><answer>B</answer><explanation>Kelvin is the thermodynamic temp SI unit.</explanation></question>
+        <question><text>Dimensions of Power:</text><option id="A">[ML^2T^-3]</option><option id="B">[ML^2T^-2]</option><option id="C">[MLT^-3]</option><option id="D">[ML^2T^-1]</option><answer>A</answer><explanation>P = W/t = [ML^2T^-2]/[T] = [ML^2T^-3].</explanation></question>
+        <question><text>Quantity with unit but no dimensions:</text><option id="A">Angle</option><option id="B">Strain</option><option id="C">Relative density</option><option id="D">Refractive index</option><answer>A</answer><explanation>Angle has unit (Radian) but is dimensionless.</explanation></question>
+        <question><text>Unit of solid angle:</text><option id="A">Radian</option><option id="B">Steradian</option><option id="C">Degree</option><option id="D">Grades</option><answer>B</answer><explanation>Steradian is the unit for solid angles.</explanation></question>
+        <question><text>1 Light Year is a unit of:</text><option id="A">Time</option><option id="B">Distance</option><option id="C">Velocity</option><option id="D">Intensity</option><answer>B</answer><explanation>Distance light travels in one year.</explanation></question>
+        <question><text>Dimensions of Planck's constant:</text><option id="A">[ML^2T^-1]</option><option id="B">[ML^2T^-2]</option><option id="C">[MLT^-1]</option><option id="D">[MLT^-2]</option><answer>A</answer><explanation>E = hf => [ML^2T^-2] = h[T^-1] => h = [ML^2T^-1].</explanation></question>
+        <question><text>Absolute error is the difference between:</text><option id="A">Mean value and individual value</option><option id="B">True value and mean value</option><option id="C">Relative error and percentage error</option><option id="D">None</option><answer>A</answer><explanation>Absolute error = |True value - Measured value|.</explanation></question>
+        <question><text>Percentage error is:</text><option id="A">Relative error * 100</option><option id="B">Absolute error * 100</option><option id="C">Mean error * 100</option><option id="D">None</option><answer>A</answer><explanation>Rel error * 100%.</explanation></question>
+        <question><text>Dimensions of Momentum:</text><option id="A">[MLT^-1]</option><option id="B">[MLT^-2]</option><option id="C">[ML^2T^-1]</option><option id="D">[ML^2T^-2]</option><answer>A</answer><explanation>P = mv = [M][LT^-1].</explanation></question>
+        <question><text>Dimensions of Impulse:</text><option id="A">[MLT^-1]</option><option id="B">[MLT^-2]</option><option id="C">[ML^2T^-1]</option><option id="D">[ML^2T^-2]</option><answer>A</answer><explanation>Impulse = Change in momentum = [MLT^-1].</explanation></question>
+        <question><text>SI unit of Frequency:</text><option id="A">Hertz</option><option id="B">Seconds</option><option id="C">Pascal</option><option id="D">Watt</option><answer>A</answer><explanation>Hertz (s^-1).</explanation></question>
+        <question><text>Dimensions of Torque:</text><option id="A">[ML^2T^-2]</option><option id="B">[MLT^-2]</option><option id="C">[ML^2T^-1]</option><option id="D">[MLT^-1]</option><answer>A</answer><explanation>Torque = Force * perpendicular distance = [MLT^-2][L] = [ML^2T^-2].</explanation></question>
+        <question><text>Dimensions of Surface Tension:</text><option id="A">[ML^0T^-2]</option><option id="B">[MLT^-2]</option><option id="C">[MT^-1]</option><option id="D">[MT^-2]</option><answer>A</answer><explanation>T = F/l = [MLT^-2]/[L] = [MT^-2].</explanation></question>
+        <question><text>Dimensions of Angle:</text><option id="A">[M^0L^0T^0]</option><option id="B">[L]</option><option id="C">[L^-1]</option><option id="D">[M]</option><answer>A</answer><explanation>Angle = arc/radius = [L]/[L] = [M^0L^0T^0].</explanation></question>
+        <question><text>Parsec is a unit of:</text><option id="A">Distance</option><option id="B">Time</option><option id="C">Velocity</option><option id="D">Intensity</option><answer>A</answer><explanation>Parallactic second = 3.08 x 10^16 m.</explanation></question>
+        <question><text>Significant figures in 400:</text><option id="A">1</option><option id="B">2</option><option id="C">3</option><option id="D">4</option><answer>A</answer><explanation>Trailing zeros without a decimal point are not significant.</explanation></question>
+        <question><text>Dimensions of G (Gravitational Constant):</text><option id="A">[M^-1 L^3 T^-2]</option><option id="B">[M L^3 T^-2]</option><option id="C">[M^-1 L^2 T^-2]</option><option id="D">[M L^2 T^-1]</option><answer>A</answer><explanation>F = Gmm/r^2 => [MLT^-2] = G[M^2][L^-2] => G = [M^-1L^3T^-2].</explanation></question>
+        <question><text>Which is a vector quantity?</text><option id="A">Displacement</option><option id="B">Time</option><option id="C">Mass</option><option id="D">Distance</option><answer>A</answer><explanation>Displacement has magnitude and direction.</explanation></question>
+        <question><text>Smallest unit of measurement?</text><option id="A">Fermi</option><option id="B">Angstrom</option><option id="C">Nanometer</option><option id="D">Millimeter</option><answer>A</answer><explanation>Fermi = 10^-15 m.</explanation></question>
+        <question><text>Dimensions of Stress:</text><option id="A">[ML^-1T^-2]</option><option id="B">[MLT^-2]</option><option id="C">[ML^2T^-2]</option><option id="D">[ML^-2T^-2]</option><answer>A</answer><explanation>Same as pressure [ML^-1T^-2].</explanation></question>
+        <question><text>Dimensions of Young's Modulus:</text><option id="A">[ML^-1T^-2]</option><option id="B">[MLT^-2]</option><option id="C">[ML^2T^-2]</option><option id="D">[ML^-2T^-2]</option><answer>A</answer><explanation>Same as stress (strain is dimensionless).</explanation></question>
+        <question><text>Prefix 'femto' stands for:</text><option id="A">10^-15</option><option id="B">10^-12</option><option id="C">10^-18</option><option id="D">10^-9</option><answer>A</answer><explanation>Femto = 10^-15.</explanation></question>
+    </easy>
+
+    <medium>
+        <!-- 40 MEDIUM QUESTIONS -->
+        <question>
+            <text>If velocity v = at + b/t + c, what are the dimensions of 'b'?</text>
+            <option id="A">[L]</option>
+            <option id="B">[L T]</option>
+            <option id="C">[L T^-2]</option>
+            <option id="D">[L^2]</option>
+            <answer>A</answer>
+            <explanation>Dimensions of b/t must match v ([LT^-1]). Thus [b]/[T] = [LT^-1] => [b] = [L].</explanation>
+        </question>
+        <question>
+            <text>If the error in radius of a sphere is 2%, the error in its volume will be:</text>
+            <option id="A">2%</option>
+            <option id="B">4%</option>
+            <option id="C">6%</option>
+            <option id="D">8%</option>
+            <answer>C</answer>
+            <explanation>V = (4/3)πr^3. ΔV/V = 3 * (Δr/r) = 3 * 2% = 6%.</explanation>
+        </question>
+        <question>
+            <text>The dimensional formula for coefficient of viscosity (η) is:</text>
+            <option id="A">[ML^-1T^-1]</option>
+            <option id="B">[ML^-1T^-2]</option>
+            <option id="C">[MLT^-1]</option>
+            <option id="D">[M^2LT^-1]</option>
+            <answer>A</answer>
+            <explanation>F = 6πηrv => [MLT^-2] = η[L][LT^-1] => η = [ML^-1T^-1].</explanation>
+        </question>
+        <question>
+            <text>The frequency of vibration (f) of a string depends on its length (l), tension (T), and mass per unit length (μ). If f ∝ l^a T^b μ^c, then 'c' is:</text>
+            <option id="A">-1/2</option>
+            <option id="B">1/2</option>
+            <option id="C">1</option>
+            <option id="D">-1</option>
+            <answer>A</answer>
+            <explanation>Using dimensional analysis, f = (1/2l)√(T/μ), so μ is to power -1/2.</explanation>
+        </question>
+        <question>
+            <text>Dimensional formula for Heat Capacity is:</text>
+            <option id="A">[ML^2T^-2K^-1]</option>
+            <option id="B">[ML^2T^-2]</option>
+            <option id="C">[MLT^-2K^-1]</option>
+            <option id="D">[L^2T^-2K^-1]</option>
+            <answer>A</answer>
+            <explanation>C = Q/ΔT = [ML^2T^-2] / [K].</explanation>
+        </question>
+        <!-- Generation continues... adding more medium questions -->
+        <question><text>Dimensions of Pressure Gradient:</text><option id="A">[ML^-2T^-2]</option><option id="B">[ML^-1T^-2]</option><option id="C">[ML^-3T^-2]</option><option id="D">[ML^-2T^-1]</option><answer>A</answer><explanation>dP/dx = [ML^-1T^-2]/[L] = [ML^-2T^-2].</explanation></question>
+        <question><text>Error in mass is 1% and velocity is 2%. Error in Kinetic Energy?</text><option id="A">3%</option><option id="B">5%</option><option id="C">4%</option><option id="D">6%</option><answer>B</answer><explanation>KE = 1/2 mv^2. %err = 1% + 2(2%) = 5%.</explanation></question>
+        <question><text>Dimensions of Angular Momentum:</text><option id="A">[ML^2T^-1]</option><option id="B">[ML^2T^-2]</option><option id="C">[MLT^-1]</option><option id="D">[MLT^-2]</option><answer>A</answer><explanation>L = mvr = [M][LT^-1][L] = [ML^2T^-1].</explanation></question>
+        <question><text>If Force (F), Length (L), and Time (T) are fundamental, dimensions of Mass?</text><option id="A">[F L^-1 T^2]</option><option id="B">[F L T^-2]</option><option id="C">[F L^-1 T]</option><option id="D">[F L T^2]</option><answer>A</answer><explanation>F = ma => F = m(L/T^2) => m = [FL^-1T^2].</explanation></question>
+        <question><text>Unit of Stefan's constant σ:</text><option id="A">W m^-2 K^-4</option><option id="B">W m^2 K^4</option><option id="C">J m^-2 K^-4</option><option id="D">W m^-2 K^-2</option><answer>A</answer><explanation>E = σT^4 (E in Power/Area).</explanation></question>
+        <question><text>Dimensions of Resistance:</text><option id="A">[ML^2T^-3A^-2]</option><option id="B">[ML^2T^-2A^-2]</option><option id="C">[ML^2T^-3A^-1]</option><option id="D">[ML^2T^-1A^-2]</option><answer>A</answer><explanation>V = IR, P = I^2R => R = P/I^2 = [ML^2T^-3]/[A^2].</explanation></question>
+        <question><text>Dimensions of Electric Potential:</text><option id="A">[ML^2T^-3A^-1]</option><option id="B">[ML^2T^-3A^-2]</option><option id="C">[ML^2T^-2A^-1]</option><option id="D">[MLT^-3A^-1]</option><answer>A</answer><explanation>V = W/q = [ML^2T^-2]/[AT].</explanation></question>
+        <question><text>Dimensions of Magnetic Induction (B):</text><option id="A">[MT^-2A^-1]</option><option id="B">[MLT^-2A^-1]</option><option id="C">[MT^-1A^-1]</option><option id="D">[MLT^-1A^-1]</option><answer>A</answer><explanation>F = qvB => [MLT^-2] = [AT][LT^-1]B => B = [MT^-2A^-1].</explanation></question>
+        <question><text>Error in side of cube is 3%. Error in surface area?</text><option id="A">6%</option><option id="B">9%</option><option id="C">3%</option><option id="D">12%</option><answer>A</answer><explanation>A = 6s^2. ΔA/A = 2(Δs/s) = 2(3%) = 6%.</explanation></question>
+        <question><text>Dimensions of Self Inductance:</text><option id="A">[ML^2T^-2A^-2]</option><option id="B">[ML^2T^-3A^-2]</option><option id="C">[ML^2T^-2A^-1]</option><option id="D">[MLT^-2A^-2]</option><answer>A</answer><explanation>E = 1/2 LI^2 => [ML^2T^-2] = L[A^2].</explanation></question>
+        <question><text>Dimensions of Permittivity (ε0):</text><option id="A">[M^-1L^-3T^4A^2]</option><option id="B">[ML^3T^-4A^-2]</option><option id="C">[M^-1L^3T^4A^2]</option><option id="D">[M^-1L^-3T^2A^2]</option><answer>A</answer><explanation>F = q^2 / (4πε0r^2).</explanation></question>
+        <question><text>Dimensions of Permeability (μ0):</text><option id="A">[MLT^-2A^-2]</option><option id="B">[ML^2T^-2A^-2]</option><option id="C">[MLT^-2A^-1]</option><option id="D">[MT^-2A^-2]</option><answer>A</answer><explanation>μ0 = 1/(ε0c^2).</explanation></question>
+        <question><text>Dimensions of Entropy:</text><option id="A">[ML^2T^-2K^-1]</option><option id="B">[ML^2T^-2]</option><option id="C">[ML^2T^-3K^-1]</option><option id="D">[MLT^-2K^-1]</option><answer>A</answer><explanation>ΔS = ΔQ/T.</explanation></question>
+        <question><text>Dimensions of Solar Constant:</text><option id="A">[MT^-3]</option><option id="B">[ML^2T^-3]</option><option id="C">[MLT^-3]</option><option id="D">[MT^-2]</option><answer>A</answer><explanation>Power per unit area = [ML^2T^-3]/[L^2] = [MT^-3].</explanation></question>
+        <question><text>Speed of light in terms of ε0 and μ0:</text><option id="A">1/√(ε0μ0)</option><option id="B">√(ε0μ0)</option><option id="C">ε0μ0</option><option id="D">1/(ε0μ0)</option><answer>A</answer><explanation>Maxwell's equation.</explanation></question>
+        <!-- Adding more to reach 40 -->
+        <question><text>Dimensions of Latent Heat:</text><option id="A">[L^2T^-2]</option><option id="B">[ML^2T^-2]</option><option id="C">[MLT^-2]</option><option id="D">[L^2T^-1]</option><answer>A</answer><explanation>L = Q/m = [ML^2T^-2]/[M].</explanation></question>
+        <question><text>Dimensions of Specific Heat:</text><option id="A">[L^2T^-2K^-1]</option><option id="B">[ML^2T^-2K^-1]</option><option id="C">[ML^2T^-1]</option><option id="D">[ML^2T^-2]</option><answer>A</answer><explanation>s = Q/(mΔT) = [ML^2T^-2]/([M][K]).</explanation></question>
+        <question><text>Dimensional formula for Boltzmann Constant:</text><option id="A">[ML^2T^-2K^-1]</option><option id="B">[ML^2T^-2]</option><option id="C">[ML^2T^-1K^-1]</option><option id="D">[MLT^-2K^-1]</option><answer>A</answer><explanation>E = f/2 kT => [ML^2T^-2] = k[K].</explanation></question>
+        <question><text>Dimensional formula for Universal Gas Constant R:</text><option id="A">[ML^2T^-2K^-1mol^-1]</option><option id="B">[ML^2T^-2K^-1]</option><option id="C">[ML^2T^-1K^-1mol^-1]</option><option id="D">[MLT^-2K^-1mol^-1]</option><answer>A</answer><explanation>PV = nRT.</explanation></question>
+        <question><text>Error in measurement of L and T is 1% and 2%. Error in g?</text><option id="A">5%</option><option id="B">3%</option><option id="C">4%</option><option id="D">6%</option><answer>A</answer><explanation>T = 2π√(L/g) => g = 4π^2 L/T^2. err = 1% + 2(2%) = 5%.</explanation></question>
+        <question><text>Dimensions of Coefficient of Thermal Conductivity:</text><option id="A">[MLT^-3K^-1]</option><option id="B">[ML^2T^-3K^-1]</option><option id="C">[MLT^-3]</option><option id="D">[MLT^-2K^-1]</option><answer>A</answer><explanation>Q/t = kAΔT/x.</explanation></question>
+        <question><text>Significant figures in (2.00 + 4.0):</text><option id="A">2</option><option id="B">1</option><option id="C">3</option><option id="D">4</option><answer>A</answer><explanation>Rule for addition: least decimal places (6.0 has 2 sig figs).</explanation></question>
+        <question><text>Dimensions of Gravitational Potential:</text><option id="A">[L^2T^-2]</option><option id="B">[ML^2T^-2]</option><option id="C">[MLT^-2]</option><option id="D">[L^2T^-1]</option><answer>A</answer><explanation>V = W/m.</explanation></question>
+        <question><text>Dimensional formula for Moment of Inertia:</text><option id="A">[ML^2]</option><option id="B">[ML]</option><option id="C">[ML^2T^-1]</option><option id="D">[ML^2T^-2]</option><answer>A</answer><explanation>I = mr^2.</explanation></question>
+        <question><text>Dimensions of Spring Constant:</text><option id="A">[MT^-2]</option><option id="B">[MLT^-2]</option><option id="C">[MT^-1]</option><option id="D">[MLT^-1]</option><answer>A</answer><explanation>k = F/x.</explanation></question>
+        <question><text>Dimensions of Gravitational Intensity:</text><option id="A">[LT^-2]</option><option id="B">[MLT^-2]</option><option id="C">[LT^-1]</option><option id="D">[MLT^-1]</option><answer>A</answer><explanation>g = F/m.</explanation></question>
+        <question><text>Dimensions of Wave Number:</text><option id="A">[L^-1]</option><option id="B">[L]</option><option id="C">[L^-2]</option><option id="D">[T^-1]</option><answer>A</answer><explanation>k = 1/λ.</explanation></question>
+        <question><text>Dimensions of Rydberg Constant:</text><option id="A">[L^-1]</option><option id="B">[L]</option><option id="C">[ML^-1]</option><option id="D">[L^-2]</option><answer>A</answer><explanation>1/λ = R(1/n1^2 - 1/n2^2).</explanation></question>
+        <question><text>Dimensions of Hubble's Constant:</text><option id="A">[T^-1]</option><option id="B">[T]</option><option id="C">[LT^-1]</option><option id="D">[L^-1]</option><answer>A</answer><explanation>v = Hd.</explanation></question>
+        <question><text>Dimensions of Decay Constant:</text><option id="A">[T^-1]</option><option id="B">[T]</option><option id="C">[MLT^-1]</option><option id="D">[L^0]</option><answer>A</answer><explanation>λ = 0.693/T1/2.</explanation></question>
+        <question><text>Dimensions of Quality Factor (Q):</text><option id="A">[M^0L^0T^0]</option><option id="B">[T]</option><option id="C">[T^-1]</option><option id="D">[M]</option><answer>A</answer><explanation>Ratio of energies.</explanation></question>
+        <question><text>Dimensions of Magnetic Flux:</text><option id="A">[ML^2T^-2A^-1]</option><option id="B">[ML^2T^-2A^-2]</option><option id="C">[MLT^-2A^-1]</option><option id="D">[ML^2T^-1A^-1]</option><answer>A</answer><explanation>Φ = BA.</explanation></question>
+        <question><text>Dimensions of Electric Conductivity:</text><option id="A">[M^-1L^-3T^3A^2]</option><option id="B">[ML^3T^-3A^-2]</option><option id="C">[M^-1L^-3T^3A^1]</option><option id="D">[ML^3T^-1A^-2]</option><answer>A</answer><explanation>σ = 1/ρ.</explanation></question>
+        <question><text>Which pair has same dimensions?</text><option id="A">Work and Torque</option><option id="B">Force and Pressure</option><option id="C">Velocity and Acceleration</option><option id="D">Impulse and Force</option><answer>A</answer><explanation>Both [ML^2T^-2].</explanation></question>
+        <question><text>Dimensions of Power of lens:</text><option id="A">[L^-1]</option><option id="B">[L]</option><option id="C">[L^2]</option><option id="D">[T^-1]</option><answer>A</answer><explanation>P = 1/f.</explanation></question>
+    </medium>
+
+    <hard>
+        <!-- 40 HARD QUESTIONS -->
+        <question>
+            <text>Assuming that the mass M of the largest stone that can be moved by a flowing river depends upon velocity v, density ρ and acceleration due to gravity g. Then M is proportional to:</text>
+            <option id="A">v^6</option>
+            <option id="B">v^4</option>
+            <option id="C">v^3</option>
+            <option id="D">v^2</option>
+            <answer>A</answer>
+            <explanation>M ∝ v^a ρ^b g^c. Solving with dimensions: M = [M], v=[LT^-1], ρ=[ML^-3], g=[LT^-2]. We get a=6.</explanation>
+        </question>
+        <question>
+            <text>If the length of a pendulum is measured as (10.0 ± 0.1) cm and the time period as (2.0 ± 0.02) s, find the percentage error in 'g'.</text>
+            <option id="A">3%</option>
+            <option id="B">5%</option>
+            <option id="C">2%</option>
+            <option id="D">4%</option>
+            <answer>A</answer>
+            <explanation>g ∝ L/T^2. Δg/g = ΔL/L + 2(ΔT/T) = 0.1/10 + 2(0.02/2) = 0.01 + 0.02 = 0.03 = 3%.</explanation>
+        </question>
+        <question>
+            <text>Van der Waals equation is (P + a/V^2)(V - b) = nRT. The dimensions of 'a' are:</text>
+            <option id="A">[ML^5T^-2]</option>
+            <option id="B">[ML^2T^-2]</option>
+            <option id="C">[ML^-1T^-2]</option>
+            <option id="D">[M^2L^5T^-2]</option>
+            <answer>A</answer>
+            <explanation>[a/V^2] = [P] => [a] = [P][V^2] = [ML^-1T^-2][L^6] = [ML^5T^-2].</explanation>
+        </question>
+        <question>
+            <text>If C and L denote capacitance and inductance, the dimensions of LC are:</text>
+            <option id="A">[T^2]</option>
+            <option id="B">[T]</option>
+            <option id="C">[M^0L^0T^2]</option>
+            <option id="D">[M^0L^0T^-2]</option>
+            <answer>A</answer>
+            <explanation>Resonant frequency f = 1/(2π√LC) => T ∝ √LC => T^2 ∝ LC.</explanation>
+        </question>
+        <question>
+            <text>The dimensional formula for impedance is same as that of:</text>
+            <option id="A">Resistance</option>
+            <option id="B">Inductance</option>
+            <option id="C">Capacitance</option>
+            <option id="D">Conductance</option>
+            <answer>A</answer>
+            <explanation>Impedance is the net opposition in AC circuit, measured in Ohms.</explanation>
+        </question>
+        <!-- Adding more hard questions -->
+        <question><text>If E, M, L and G denote energy, mass, angular momentum and gravitational constant, then EL^2 / (M^5 G^2) has dimensions of:</text><option id="A">Dimensionless</option><option id="B">Angle</option><option id="C">Mass</option><option id="D">Time</option><answer>A</answer><explanation>Substitution leads to all exponents being zero.</explanation></question>
+        <question><text>A wire has mass 0.3 ± 0.003 g, radius 0.5 ± 0.005 mm and length 6 ± 0.06 cm. Max error in density?</text><option id="A">4%</option><option id="B">3%</option><option id="C">2%</option><option id="D">5%</option><answer>A</answer><explanation>Δρ/ρ = Δm/m + 2Δr/r + Δl/l = 1% + 2% + 1% = 4%.</explanation></question>
+        <question><text>Displacement x = A sin(Bt + C). Dimensions of AB?</text><option id="A">[LT^-1]</option><option id="B">[L]</option><option id="C">[LT]</option><option id="D">[T^-1]</option><answer>A</answer><explanation>[A]=L, [B]=T^-1. So [AB] = [LT^-1].</explanation></question>
+        <question><text>If energy (E), velocity (V) and time (T) are fundamental, dimensions of surface tension?</text><option id="A">[E V^-2 T^-2]</option><option id="B">[E V^-1 T^-2]</option><option id="C">[E V^-2 T^-1]</option><option id="D">[E V^-1 T^-1]</option><answer>A</answer><explanation>E = S*A => S = E/A = [E][V*T]^-2.</explanation></question>
+        <question><text>Pressure P = (b - x^2)/(at). Dimensions of a*b?</text><option id="A">[M^-1 L^2 T^2]</option><option id="B">[M^-1 L^4 T^2]</option><option id="C">[M L^2 T^-2]</option><option id="D">[M L^4 T^-2]</option><answer>B</answer><explanation>[b] = L^2. [a] = [L^2]/([P][t]) = [L^2]/([ML^-1T^-2][T]) = [M^-1L^3T]. calc a*b.</explanation></question>
+        <question><text>Dimensions of ε0 E^2 (where E is electric field):</text><option id="A">[ML^-1T^-2]</option><option id="B">[ML^2T^-2]</option><option id="C">[MLT^-2]</option><option id="D">[ML^2T^-1]</option><answer>A</answer><explanation>Energy density = 1/2 ε0 E^2 = Energy/Volume = [ML^2T^-2]/[L^3] = [ML^-1T^-2].</explanation></question>
+        <question><text>Which of the following does not possess same dimensions as h/mc?</text><option id="A">Frequency</option><option id="B">Wavelength</option><option id="C">Compton shift</option><option id="D">Radius of orbit</option><answer>A</answer><explanation>h/mc has dimensions of Length (Compton wavelength).</explanation></question>
+        <question><text>Dimensions of (μ0 ε0)^-1/2:</text><option id="A">[LT^-1]</option><option id="B">[L^-1 T]</option><option id="C">[L^2 T^-2]</option><option id="D">[M L T^-1]</option><answer>A</answer><explanation>Speed of light.</explanation></question>
+        <question><text>Dimensions of h/e (Planck's constant / charge):</text><option id="A">[ML^2T^-2A^-1]</option><option id="B">[ML^2T^-1A^-1]</option><option id="C">[MLT^-1A^-1]</option><option id="D">[ML^2T^-3A^-1]</option><answer>B</answer><explanation>Φ = h/2e (flux quantum).</explanation></question>
+        <question><text>Pressure depends on distance x as P = α/β exp(-αz/kθ). Dimensions of β?</text><option id="A">[M^0 L^2 T^0]</option><option id="B">[M L^2 T^0]</option><option id="C">[M L^0 T^0]</option><option id="D">[M^0 L^0 T^0]</option><answer>A</answer><explanation>αz/kθ is dimensionless. α = [kθ]/[z]. P = α/β => β = α/P.</explanation></question>
+        <question><text>Dimensions of √[L/C] (Inductance/Capacitance):</text><option id="A">[Resistance]</option><option id="B">[Time]</option><option id="C">[Frequency]</option><option id="D">[Dimensionless]</option><answer>A</answer><explanation>Characteristic impedance.</explanation></question>
+        <question><text>Force F = at + bt^2. Error in a? (If t has 1% and F has 2%)</text><option id="A">3%</option><option id="B">1%</option><option id="C">4%</option><option id="D">5%</option><answer>A</answer><explanation>a = F/t. err = 2% + 1% = 3%.</explanation></question>
+        <question><text>Dimensions of Heat flux density:</text><option id="A">[MT^-3]</option><option id="B">[MLT^-3]</option><option id="C">[ML^2T^-3]</option><option id="D">[MLT^-2]</option><answer>A</answer><explanation>Power/Area.</explanation></question>
+        <question><text>Dimensions of Magnetic dipole moment:</text><option id="A">[L^2 A]</option><option id="B">[L A]</option><option id="C">[L^2 A^-1]</option><option id="D">[M L^2 A]</option><answer>A</answer><explanation>M = NIA.</explanation></question>
+        <question><text>The density of a cube is measured by measuring its mass and length of its sides. If max errors in m and l are 3% and 2%, max error in density is:</text><option id="A">9%</option><option id="B">12%</option><option id="C">7%</option><option id="D">5%</option><answer>A</answer><explanation>Δρ/ρ = Δm/m + 3Δl/l = 3% + 3(2%) = 9%.</explanation></question>
+        <question><text>Dimensions of Gravitational potential energy / mass:</text><option id="A">[L^2 T^-2]</option><option id="B">[M L^2 T^-2]</option><option id="C">[L T^-2]</option><option id="D">[L^2 T^-1]</option><answer>A</answer><explanation>Potential.</explanation></question>
+        <question><text>Dimensions of Torque / Angular Momentum:</text><option id="A">[T^-1]</option><option id="B">[T]</option><option id="C">[M^0 L^0 T^0]</option><option id="D">[L T^-1]</option><answer>A</answer><explanation>[ML^2T^-2] / [ML^2T^-1] = [T^-1].</explanation></question>
+        <question><text>Dimensions of Magnetic Permeability μ:</text><option id="A">[MLT^-2A^-2]</option><option id="B">[ML^2T^-2A^-2]</option><option id="C">[MLT^-1A^-2]</option><option id="D">[MT^-2A^-2]</option><answer>A</answer><explanation>F = μI1I2L / (2πr).</explanation></question>
+        <question><text>Dimensions of Stefan Boltzmann constant σ:</text><option id="A">[MT^-3K^-4]</option><option id="B">[ML^2T^-3K^-4]</option><option id="C">[MT^-3K^-2]</option><option id="D">[MT^-2K^-4]</option><answer>A</answer><explanation>E = σT^4 (E is Power/Area).</explanation></question>
+        <question><text>What is the dimension of 'K' in P = P0 exp(-Kx^2)?</text><option id="A">[L^-2]</option><option id="B">[L^2]</option><option id="C">[L^-1]</option><option id="D">[L]</option><answer>A</answer><explanation>Kx^2 is dimensionless.</explanation></question>
+        <question><text>Dimensions of Force constant per unit length:</text><option id="A">[MT^-2 L^-1]</option><option id="B">[MT^-2]</option><option id="C">[MLT^-2]</option><option id="D">[M L^-1 T^-2]</option><answer>A</answer><explanation>k/l = [MT^-2]/[L].</explanation></question>
+        <question><text>Dimensions of Weber / Henery:</text><option id="A">[A]</option><option id="B">[A^-1]</option><option id="C">[V]</option><option id="D">[Ω]</option><answer>A</answer><explanation>Φ = LI => I = Φ/L.</explanation></question>
+        <question><text>Dimensions of Displacement Current:</text><option id="A">[A]</option><option id="B">[AT]</option><option id="C">[AT^-1]</option><option id="D">[A L^-2]</option><answer>A</answer><explanation>It is a current.</explanation></question>
+        <question><text>Percentage error in measurement of height and g are 1% and 2%. Error in time of fall?</text><option id="A">1.5%</option><option id="B">3%</option><option id="C">0.5%</option><option id="D">1%</option><answer>A</answer><explanation>t = √(2h/g) => Δt/t = 1/2(Δh/h + Δg/g) = 1/2(1%+2%) = 1.5%.</explanation></question>
+        <question><text>Dimensions of Conductivity in terms of R and L:</text><option id="A">[R^-1 L^-1]</option><option id="B">[R L^-1]</option><option id="C">[R^-1 L]</option><option id="D">[R L]</option><answer>A</answer><explanation>σ = l / (RA).</explanation></question>
+        <question><text>Dimensions of Light Year / Speed of light:</text><option id="A">[T]</option><option id="B">[L]</option><option id="C">[T^-1]</option><option id="D">[M^0]</option><answer>A</answer><explanation>Distance/Speed = Time.</explanation></question>
+        <question><text>Dimensions of Energy per unit Area per unit Time:</text><option id="A">[MT^-3]</option><option id="B">[MLT^-3]</option><option id="C">[ML^2T^-3]</option><option id="D">[MLT^-2]</option><answer>A</answer><explanation>Intensity.</explanation></question>
+        <question><text>Dimensional formula for Polarization (P):</text><option id="A">[L^-2 A T]</option><option id="B">[L^-3 A T]</option><option id="C">[L^-2 A]</option><option id="D">[L^-1 A T]</option><answer>A</answer><explanation>Dipole moment per unit volume = [L][AT]/[L^3] = [L^-2AT].</explanation></question>
+        <question><text>Dimensions of ε0 E (where E is electric field):</text><option id="A">[L^-2 A T]</option><option id="B">[L^-3 A T]</option><option id="C">[L^-1 A T]</option><option id="D">[L^-2 A]</option><answer>A</answer><explanation>Same as Polarization / Surface charge density.</explanation></question>
+        <question><text>Dimensions of Volt per meter:</text><option id="A">[MLT^-3A^-1]</option><option id="B">[ML^2T^-3A^-1]</option><option id="C">[MLT^-2A^-1]</option><option id="D">[MLT^-3]</option><answer>A</answer><explanation>Electric field intensity.</explanation></question>
+        <question><text>Dimensions of Faraday Constant:</text><option id="A">[A T mol^-1]</option><option id="B">[A T]</option><option id="C">[T mol^-1]</option><option id="D">[A mol^-1]</option><answer>A</answer><explanation>Charge per mole.</explanation></question>
+        <question><text>Dimensions of Gyromagnetic Ratio:</text><option id="A">[M^-1 A T]</option><option id="B">[M A T]</option><option id="C">[M^-1 L A T]</option><option id="D">[A T]</option><answer>A</answer><explanation>Magnetic moment / Angular momentum.</explanation></question>
+        <question><text>Dimensions of Reciprocal of Resistance:</text><option id="A">[M^-1 L^-2 T^3 A^2]</option><option id="B">[M L^2 T^-3 A^-2]</option><option id="C">[M^-1 L^-2 T^3 A^1]</option><option id="D">[M L^2 T^-3]</option><answer>A</answer><explanation>Conductance.</explanation></question>
+        <question><text>Dimensions of Spring constant squared / mass:</text><option id="A">[MT^-4]</option><option id="B">[MT^-2]</option><option id="C">[M^2T^-4]</option><option id="D">[T^-4]</option><answer>A</answer><explanation>[MT^-2]^2 / [M] = [MT^-4].</explanation></question>
+        <question><text>Dimensions of Energy Density squared:</text><option id="A">[M^2 L^-2 T^-4]</option><option id="B">[M^2 L^2 T^-4]</option><option id="C">[M L^-1 T^-2]</option><option id="D">[M^2 L^-1 T^-4]</option><answer>A</answer><explanation>([ML^-1T^-2])^2.</explanation></question>
+    </hard>
+</chapter>

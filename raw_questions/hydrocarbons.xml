@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="110" name="Hydrocarbons">
+    <easy>
+        <question>
+            <text>General formula of Alkanes:</text>
+            <option id="A">CnH2n+2</option><option id="B">CnH2n</option><option id="C">CnH2n-2</option><option id="D">CnH2n+1</option>
+            <answer>A</answer><explanation>Saturated.</explanation>
+        </question>
+        <question>
+            <text>General formula of Alkenes:</text>
+            <option id="A">CnH2n</option><option id="B">CnH2n+2</option><option id="C">CnH2n-2</option><option id="D">CnHn</option>
+            <answer>A</answer><explanation>One double bond.</explanation>
+        </question>
+        <question>
+            <text>General formula of Alkynes:</text>
+            <option id="A">CnH2n-2</option><option id="B">CnH2n</option><option id="C">CnH2n+2</option><option id="D">CnHn</option>
+            <answer>A</answer><explanation>Triple bond.</explanation>
+        </question>
+        <question>
+            <text>Simplest alkane is:</text>
+            <option id="A">Methane</option><option id="B">Ethane</option><option id="C">Propane</option><option id="D">Butane</option>
+            <answer>A</answer><explanation>CH4.</explanation>
+        </question>
+        <question>
+            <text>Simplest alkene is:</text>
+            <option id="A">Ethene</option><option id="B">Methene</option><option id="C">Propene</option><option id="D">Ethyne</option>
+            <answer>A</answer><explanation>C2H4.</explanation>
+        </question>
+        <question>
+            <text>Simplest alkyne is:</text>
+            <option id="A">Ethyne</option><option id="B">Methyne</option><option id="C">Propyne</option><option id="D">Butyne</option>
+            <answer>A</answer><explanation>Acetylene.</explanation>
+        </question>
+        <question>
+            <text>Another name for Alkanes:</text>
+            <option id="A">Paraffins</option><option id="B">Olefins</option><option id="C">Acetylenes</option><option id="D">Arenes</option>
+            <answer>A</answer><explanation>Little affinity.</explanation>
+        </question>
+        <question>
+            <text>Another name for Alkenes:</text>
+            <option id="A">Olefins</option><option id="B">Paraffins</option><option id="C">Acetylenes</option><option id="D">Cyclic</option>
+            <answer>A</answer><explanation>Oil forming.</explanation>
+        </question>
+        <question>
+            <text>Hybridization of carbon in alkanes:</text>
+            <option id="A">sp3</option><option id="B">sp2</option><option id="C">sp</option><option id="D">dsp2</option>
+            <answer>A</answer><explanation>Tetrahedral.</explanation>
+        </question>
+        <question>
+            <text>Hybridization of carbon in ethene:</text>
+            <option id="A">sp2</option><option id="B">sp3</option><option id="C">sp</option><option id="D">dsp2</option>
+            <answer>A</answer><explanation>Planar.</explanation>
+        </question>
+        <question>
+            <text>Hybridization of carbon in ethyne:</text>
+            <option id="A">sp</option><option id="B">sp2</option><option id="C">sp3</option><option id="D">dsp2</option>
+            <answer>A</answer><explanation>Linear.</explanation>
+        </question>
+        <question>
+            <text>Bond angle in Methane:</text>
+            <option id="A">109.5 degrees</option><option id="B">120</option><option id="C">180</option><option id="D">90</option>
+            <answer>A</answer><explanation>Tetrahedral.</explanation>
+        </question>
+        <question>
+            <text>Bond angle in Ethene:</text>
+            <option id="A">120 degrees</option><option id="B">109.5</option><option id="C">180</option><option id="D">90</option>
+            <answer>A</answer><explanation>Trigonal planar.</explanation>
+        </question>
+        <question>
+            <text>Bond angle in Ethyne:</text>
+            <option id="A">180 degrees</option><option id="B">120</option><option id="C">109.5</option><option id="D">90</option>
+            <answer>A</answer><explanation>Linear.</explanation>
+        </question>
+        <question>
+            <text>Wurtz reaction uses:</text>
+            <option id="A">Sodium in dry ether</option><option id="B">Zinc dust</option><option id="C">Calcium</option><option id="D">Iron</option>
+            <answer>A</answer><explanation>Coupling of alkyl halides.</explanation>
+        </question>
+        <question>
+            <text>Wurtz reaction is used to prepare:</text>
+            <option id="A">Alkanes with even number of C atoms</option><option id="B">Alkenes</option><option id="C">Odd number alkanes</option><option id="D">Alkynes</option>
+            <answer>A</answer><explanation>Symmetric best yield.</explanation>
+        </question>
+        <question>
+            <text>Soda-lime is a mixture of:</text>
+            <option id="A">NaOH and CaO</option><option id="B">NaOH and KOH</option><option id="C">CaO and CaCO3</option><option id="D">NaCl and KCl</option>
+            <answer>A</answer><explanation>Decarboxylation.</explanation>
+        </question>
+        <question>
+            <text>Decarboxylation of Sodium Acetate gives:</text>
+            <option id="A">Methane</option><option id="B">Ethane</option><option id="C">Propane</option><option id="D">Hydrogen</option>
+            <answer>A</answer><explanation>Removes CO2.</explanation>
+        </question>
+        <question>
+            <text>Marsh gas is mainly:</text>
+            <option id="A">Methane</option><option id="B">Ethane</option><option id="C">Butane</option><option id="D">Propane</option>
+            <answer>A</answer><explanation>Natural gas.</explanation>
+        </question>
+        <question>
+            <text>LPG (Liquefied Petroleum Gas) is mainly:</text>
+            <option id="A">Butane and Isobutane</option><option id="B">Methane</option><option id="C">Hydrogen</option><option id="D">Acetylene</option>
+            <answer>A</answer><explanation>Bottled gas.</explanation>
+        </question>
+        <question>
+            <text>Octane number represents quality of:</text>
+            <option id="A">Petrol</option><option id="B">Diesel</option><option id="C">Kerosene</option><option id="D">LPG</option>
+            <answer>A</answer><explanation>Antiknock.</explanation>
+        </question>
+        <question>
+            <text>Cetane number represents quality of:</text>
+            <option id="A">Diesel</option><option id="B">Petrol</option><option id="C">LPG</option><option id="D">Coal</option>
+            <answer>A</answer><explanation>Ignition delay.</explanation>
+        </question>
+        <question>
+            <text>Benzene formula:</text>
+            <option id="A">C6H6</option><option id="B">C6H12</option><option id="C">C6H14</option><option id="D">C6H5</option>
+            <answer>A</answer><explanation>Aromatic.</explanation>
+        </question>
+        <question>
+            <text>Shape of Benzene:</text>
+            <option id="A">Planar Hexagon</option><option id="B">Chair</option><option id="C">Boat</option><option id="D">Tetrahedral</option>
+            <answer>A</answer><explanation>120 degree angles.</explanation>
+        </question>
+        <question>
+            <text>C-C bond length in Benzene is:</text>
+            <option id="A">Intermediate between single and double (139 pm)</option><option id="B">Single (154 pm)</option><option id="C">Double (134 pm)</option><option id="D">Triple (120 pm)</option>
+            <answer>A</answer><explanation>Resonance.</explanation>
+        </question>
+        <question>
+            <text>Characteristic reaction of Benzene:</text>
+            <option id="A">Electrophilic Substitution</option><option id="B">Electrophilic Addition</option><option id="C">Nucleophilic Substitution</option><option id="D">Elimination</option>
+            <answer>A</answer><explanation>Preserves aromaticity.</explanation>
+        </question>
+        <question>
+            <text>Characteristic reaction of Alkenes:</text>
+            <option id="A">Electrophilic Addition</option><option id="B">Substitution</option><option id="C">Elimination</option><option id="D">Rearrangement</option>
+            <answer>A</answer><explanation>Breaks pi bond.</explanation>
+        </question>
+        <question>
+            <text>Markovnikov's Rule applies to:</text>
+            <option id="A">Addition of HX to unsymmetrical alkene</option><option id="B">Symmetrical alkene</option><option id="C">Alkanes</option><option id="D">Benzene</option>
+            <answer>A</answer><explanation>Regioselectivity.</explanation>
+        </question>
+        <question>
+            <text>Anti-Markovnikov addition (Peroxide effect/Kharasch) is observed only with:</text>
+            <option id="A">HBr</option><option id="B">HCl</option><option id="C">HI</option><option id="D">HF</option>
+            <answer>A</answer><explanation>Bond energy reasons.</explanation>
+        </question>
+        <question>
+            <text>Addition of HBr to Propene gives mainly:</text>
+            <option id="A">2-Bromopropane</option><option id="B">1-Bromopropane</option><option id="C">Propane</option><option id="D">Propyne</option>
+            <answer>A</answer><explanation>Sec carbocation more stable.</explanation>
+        </question>
+        <question>
+            <text>Addition of HBr to Propene in presence of Peroxide gives:</text>
+            <option id="A">1-Bromopropane</option><option id="B">2-Bromopropane</option><option id="C">Propane</option><option id="D">Butane</option>
+            <answer>A</answer><explanation>Free radical mechanism.</explanation>
+        </question>
+        <question>
+            <text>Ozonolysis of Ethene gives:</text>
+            <option id="A">Methanal (Formaldehyde)</option><option id="B">Ethanal</option><option id="C">Propanone</option><option id="D">CO2</option>
+            <answer>A</answer><explanation>2 moles HCHO.</explanation>
+        </question>
+        <question>
+            <text>Structure of Acetylene is:</text>
+            <option id="A">H-C=C-H (Triple bond)</option><option id="B">H2C=CH2</option><option id="C">CH3-CH3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linear.</explanation>
+        </question>
+        <question>
+            <text>Acidic character of Acetylene is due to:</text>
+            <option id="A">sp hybridized Carbon (High electronegativity)</option><option id="B">sp2 C</option><option id="C">sp3 C</option><option id="D">Triple bond energy</option>
+            <answer>A</answer><explanation>Holds electrons tight, releases H+.</explanation>
+        </question>
+        <question>
+            <text>Reagent to distinguish Ethane and Ethene?</text>
+            <option id="A">Bromine water (Red-brown to Colorless)</option><option id="B">Water</option><option id="C">Litmus</option><option id="D">FeCl3</option>
+            <answer>A</answer><explanation>Ethene decolorizes.</explanation>
+        </question>
+        <question>
+            <text>Which hydrocarbon is liquid at room temp?</text>
+            <option id="A">Hexane (C6H14)</option><option id="B">Methane</option><option id="C">Ethane</option><option id="D">Propane</option>
+            <answer>A</answer><explanation>C1-C4 gases, C5-C17 liquids.</explanation>
+        </question>
+        <question>
+            <text>Boiling point of n-Pentane vs Isopentane?</text>
+            <option id="A">n-Pentane > Isopentane</option><option id="B">Isopentane > n-Pentane</option><option id="C">Equal</option><option id="D">Neither</option>
+            <answer>A</answer><explanation>Branching lowers surface area.</explanation>
+        </question>
+        <question>
+            <text>Complete combustion of hydrocarbon gives:</text>
+            <option id="A">CO2 + H2O</option><option id="B">CO + H2O</option><option id="C">C + H2</option><option id="D">CO2 + H2</option>
+            <answer>A</answer><explanation>Exothermic.</explanation>
+        </question>
+        <question>
+            <text>Catalytic hydrogenation of vegetable oils produces:</text>
+            <option id="A">Vanaspati Ghee (Solid fat)</option><option id="B">Saturated oil</option><option id="C">Soap</option><option id="D">Detergent</option>
+            <answer>A</answer><explanation>Reduction of double bonds.</explanation>
+        </question>
+        <question>
+            <text>Teflon is polymer of:</text>
+            <option id="A">Tetrafluoroethene</option><option id="B">Ethene</option><option id="C">Propene</option><option id="D">Styrene</option>
+            <answer>A</answer><explanation>non-stick.</explanation>
+        </question>
+
+    </easy>
+    <medium>
+        <question>
+            <text>Conformation of Ethane attached to C-C bond rotation?</text>
+            <option id="A">Staggered (most stable)</option><option id="B">Eclipsed (least stable)</option><option id="C">Skew</option><option id="D">Boat</option>
+            <answer>A</answer><explanation>Torsional strain min.</explanation>
+        </question>
+        <question>
+            <text>Newman projection views molecule:</text>
+            <option id="A">Along C-C bond axis</option><option id="B">From side</option><option id="C">From top</option><option id="D">Diagonal</option>
+            <answer>A</answer><explanation>Front carbon dot, back carbon circle.</explanation>
+        </question>
+        <question>
+            <text>Dehydration of Ethanol with conc H2SO4 at 443 K gives:</text>
+            <option id="A">Ethene</option><option id="B">Ether</option><option id="C">Ethane</option><option id="D">Ethyne</option>
+            <answer>A</answer><explanation>Elimination.</explanation>
+        </question>
+        <question>
+            <text>Dehydrohalogenation of alkyl halide (Beta elimination) requires:</text>
+            <option id="A">Alcoholic KOH</option><option id="B">Aqueous KOH</option><option id="C">Water</option><option id="D">Dilute acid</option>
+            <answer>A</answer><explanation>Saytzeff rule usually.</explanation>
+        </question>
+        <question>
+            <text>Saytzeff rule followed in elimination leads to:</text>
+            <option id="A">More substituted alkene (Major)</option><option id="B">Less substituted</option><option id="C">Alkane</option><option id="D">Alkyne</option>
+            <answer>A</answer><explanation>Stability.</explanation>
+        </question>
+        <question>
+            <text>Reaction of Calcium Carbide (CaC2) with water gives:</text>
+            <option id="A">Acetylene (Ethyne)</option><option id="B">Methane</option><option id="C">Ethene</option><option id="D">Benzene</option>
+            <answer>A</answer><explanation>Preparation.</explanation>
+        </question>
+        <question>
+            <text>Polymerization of Acetylene in red hot iron tube gives:</text>
+            <option id="A">Benzene</option><option id="B">Graphite</option><option id="C">Polythene</option><option id="D">Polyacetylene</option>
+            <answer>A</answer><explanation>Cyclic trimerization.</explanation>
+        </question>
+        <question>
+            <text>Ozonolysis of Benzene gives:</text>
+            <option id="A">Glyoxal (CHO-CHO)</option><option id="B">Methanol</option><option id="C">Ethanol</option><option id="D">Acetone</option>
+            <answer>A</answer><explanation>3 moles.</explanation>
+        </question>
+        <question>
+            <text>Friedel-Crafts Alkylation reagent:</text>
+            <option id="A">Alkyl halide + Anhydrous AlCl3</option><option id="B">Acyl halide</option><option id="C">Alcohol</option><option id="D">Alkene</option>
+            <answer>A</answer><explanation>Lewis acid catalyst.</explanation>
+        </question>
+        <question>
+            <text>Nitration of Benzene uses:</text>
+            <option id="A">Conc HNO3 + Conc H2SO4</option><option id="B">Dilute HNO3</option><option id="C">Nitrous acid</option><option id="D">NO2 gas</option>
+            <answer>A</answer><explanation>Nitrating mixture.</explanation>
+        </question>
+        <question>
+            <text>Sulfonation of Benzene uses:</text>
+            <option id="A">Fuming Sulfuric Acid (Oleum)</option><option id="B">Dilute H2SO4</option><option id="C">SO2 gas</option><option id="D">H2S</option>
+            <answer>A</answer><explanation>SO3 is electrophile.</explanation>
+        </question>
+        <question>
+            <text>Gammaxene (BHC) is formed by addition of:</text>
+            <option id="A">Cl2 to Benzene in sunlight</option><option id="B">Cl2 in dark</option><option id="C">HCl</option><option id="D">Chloral</option>
+            <answer>A</answer><explanation>Benzene Hexachloride.</explanation>
+        </question>
+        <question>
+            <text>Huckel Rule for aromaticity requires:</text>
+            <option id="A">(4n+2) pi electrons + Planar + Cyclic</option><option id="B">4n pi electrons</option><option id="C">Any number</option><option id="D">Non planar</option>
+            <answer>A</answer><explanation>n = 0, 1, 2...</explanation>
+        </question>
+        <question>
+            <text>Is Pyridine aromatic?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Anti-aromatic</option><option id="D">Non-aromatic</option>
+            <answer>A</answer><explanation>Heterocyclic aromatic.</explanation>
+        </question>
+        <question>
+            <text>Reaction of Acetylene with Ammoniacal AgNO3 (Tollen's):</text>
+            <option id="A">White ppt (Silver acetylide)</option><option id="B">Red ppt</option><option id="C">Green ppt</option><option id="D">Blue solution</option>
+            <answer>A</answer><explanation>Acidic Hydrogen test.</explanation>
+        </question>
+        <question>
+            <text>Reaction of Acetylene with Ammoniacal Cu2Cl2:</text>
+            <option id="A">Red ppt (Copper acetylide)</option><option id="B">White ppt</option><option id="C">Blue ppt</option><option id="D">Black</option>
+            <answer>A</answer><explanation>Test.</explanation>
+        </question>
+        <question>
+            <text>Addition of water to Acetylene (Hydration) gives:</text>
+            <option id="A">Acetaldehyde (Ethanal)</option><option id="B">Ethanol</option><option id="C">Acetone</option><option id="D">Acetic acid</option>
+            <answer>A</answer><explanation>In presence of HgSO4/H2SO4. Tautomerizes.</explanation>
+        </question>
+        <question>
+            <text>Addition of water to Propyne gives:</text>
+            <option id="A">Acetone (Propanone)</option><option id="B">Propanal</option><option id="C">Propanol</option><option id="D">Propane</option>
+            <answer>A</answer><explanation>Markovnikov addition followed by tautomerism.</explanation>
+        </question>
+        <question>
+            <text>Lindlar's Catalyst is:</text>
+            <option id="A">Pd/CaCO3 + Sulfur/Quinoline</option><option id="B">Ni</option><option id="C">Pt</option><option id="D">Fe</option>
+            <answer>A</answer><explanation>Partial reduction of alkyne to cis-alkene.</explanation>
+        </question>
+        <question>
+            <text>Birch Reduction (Na/Li in liquid NH3) reduces alkyne to:</text>
+            <option id="A">Trans-alkene</option><option id="B">Cis-alkene</option><option id="C">Alkane</option><option id="D">Alcohol</option>
+            <answer>A</answer><explanation>Stereospecific.</explanation>
+        </question>
+        <question>
+            <text>Kolbe's Electrolysis of Sodium Acetate gives:</text>
+            <option id="A">Ethane (Anode)</option><option id="B">Methane</option><option id="C">Propane</option><option id="D">Butane</option>
+            <answer>A</answer><explanation>Radical mechanism, dimerization.</explanation>
+        </question>
+        <question>
+            <text>Acidity Order: Ethyne vs Ethene vs Ethane?</text>
+            <option id="A">Ethyne > Ethene > Ethane</option><option id="B">Ethane > Ethene > Ethyne</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>s-character (50% > 33% > 25%).</explanation>
+        </question>
+        <question>
+            <text>Halogenation of alkanes is free radical substitution. Reactivity of Halogens?</text>
+            <option id="A">F2 > Cl2 > Br2 > I2</option><option id="B">I2 > Br2 > Cl2 > F2</option><option id="C">Cl2 > F2</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>F is explosive, I is reversible.</explanation>
+        </question>
+        <question>
+            <text>Selectivity in Halogenation: Bromination is:</text>
+            <option id="A">Highly selective (major product tertiary)</option><option id="B">Non-selective</option><option id="C">Same as Cl</option><option id="D">Slow</option>
+            <answer>A</answer><explanation>Reacts slow, searches for most stable radical.</explanation>
+        </question>
+        <question>
+            <text>Iodination of alkanes requires oxidizing agent (HIO3) because:</text>
+            <option id="A">Reaction is reversible due to HI formation</option><option id="B">Reaction is slow</option><option id="C">Iodine is solid</option><option id="D">Iodine oxidizes</option>
+            <answer>A</answer><explanation>Remove HI.</explanation>
+        </question>
+        <question>
+            <text>Which carbocation is most stable?</text>
+            <option id="A">Tertiary butyl</option><option id="B">Secondary propyl</option><option id="C">Ethyl</option><option id="D">Methyl</option>
+            <answer>A</answer><explanation>Hyperconjugation.</explanation>
+        </question>
+        <question>
+            <text>Major product of reaction of Propene with HBr:</text>
+            <option id="A">2-Bromopropane</option><option id="B">1-Bromopropane</option><option id="C">Propane</option><option id="D">Br-Propene</option>
+            <answer>A</answer><explanation>Markovnikov.</explanation>
+        </question>
+        <question>
+            <text>Peroxide effect is NOT observed with HCl because:</text>
+            <option id="A">H-Cl bond is stronger (step 2 endothermic)</option><option id="B">Cl is small</option><option id="C">HCl is acid</option><option id="D">Peroxide destroys HCl</option>
+            <answer>A</answer><explanation>Energetics.</explanation>
+        </question>
+        <question>
+            <text>Peroxide effect not with HI because:</text>
+            <option id="A">Iodine radicals combine to form I2 (step 1 endothermic? No, step 2)</option><option id="B">HI is strong</option><option id="C">I is large</option><option id="D">Slow</option>
+            <answer>A</answer><explanation>Energetics unfavorable.</explanation>
+        </question>
+        <question>
+            <text>Structure of Graphite:</text>
+            <option id="A">Layered, Hexagonal arrays, sp2 C</option><option id="B">Tetrahedral sp3</option><option id="C">Linear</option><option id="D">Ionic</option>
+            <answer>A</answer><explanation>Conductor.</explanation>
+        </question>
+        <question>
+            <text>Diamond structure:</text>
+            <option id="A">Network solid, sp3 C</option><option id="B">Layered</option><option id="C">Planar</option><option id="D">Ionic</option>
+            <answer>A</answer><explanation>Hardest.</explanation>
+        </question>
+        <question>
+            <text>Fullerenes (C60) resembles:</text>
+            <option id="A">Soccer ball (Buckminsterfullerene)</option><option id="B">Tube</option><option id="C">Sheet</option><option id="D">Diamond</option>
+            <answer>A</answer><explanation>Symmetry.</explanation>
+        </question>
+        <question>
+            <text>Geometrical isomerism shown by:</text>
+            <option id="A">But-2-ene</option><option id="B">But-1-ene</option><option id="C">Propene</option><option id="D">Isobutane</option>
+            <answer>A</answer><explanation>Internal double bond.</explanation>
+        </question>
+        <question>
+            <text>Melting point of Trans-isomer vs Cis-isomer?</text>
+            <option id="A">Trans > Cis</option><option id="B">Cis > Trans</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Symmetry/Packing typically better for Trans.</explanation>
+        </question>
+        <question>
+            <text>Boiling point of Cis-isomer vs Trans-isomer?</text>
+            <option id="A">Cis > Trans (usually)</option><option id="B">Trans > Cis</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dipole moment higher for Cis.</explanation>
+        </question>
+        <question>
+            <text>Dipole moment of Trans-but-2-ene:</text>
+            <option id="A">Zero</option><option id="B">High</option><option id="C">Low</option><option id="D">Negative</option>
+            <answer>A</answer><explanation>Canceled.</explanation>
+        </question>
+        <question>
+            <text>Carcinogenic hydrocarbon example:</text>
+            <option id="A">1,2-Benzanthracene / Benzopyrene</option><option id="B">Methane</option><option id="C">Toluene</option><option id="D">Hexane</option>
+            <answer>A</answer><explanation>Polynuclear structure.</explanation>
+        </question>
+        <question>
+            <text>Cracking (Pyrolysis) involves:</text>
+            <option id="A">Breaking higher alkanes to lower</option><option id="B">Combining</option><option id="C">Oxidation</option><option id="D">Reduction</option>
+            <answer>A</answer><explanation>Thermal decomposition.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is most acidic?</text>
+            <option id="A">Ethyne</option><option id="B">Benzene</option><option id="C">Ethene</option><option id="D">Ethane</option>
+            <answer>A</answer><explanation>sp carbon.</explanation>
+        </question>
+        <question>
+            <text>Which conformer of cyclohexane is chiral?</text>
+            <option id="A">Twist boat</option><option id="B">Chair</option><option id="C">Boat</option><option id="D">Half chair</option>
+            <answer>A</answer><explanation>Lack of symmetry elements.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Identify product: Propene + Cl2 at 773 K (High Temp)?</text>
+            <option id="A">Allyl chloride (Substitution)</option><option id="B">1,2-Dichloropropane (Addition)</option><option id="C">Propane</option><option id="D">Chloropropene</option>
+            <answer>A</answer><explanation>High temp favors radical substitution at allylic position.</explanation>
+        </question>
+        <question>
+            <text>Identify product: Propene + Cl2 in CCl4 at room temp?</text>
+            <option id="A">1,2-Dichloropropane (Addition)</option><option id="B">Allyl chloride</option><option id="C">Propyne</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electrophilic addition.</explanation>
+        </question>
+        <question>
+            <text>Ozonolysis of O-xylene gives:</text>
+            <option id="A">Glyoxal + Methylglyoxal + Dimethylglyoxal</option><option id="B">Only Glyoxal</option><option id="C">Only Methylglyoxal</option><option id="D">C</option>
+            <answer>A</answer><explanation>Resonance forms lead to mixture.</explanation>
+        </question>
+        <question>
+            <text>Major product of reaction of 2-Methylpropene with HBr?</text>
+            <option id="A">Tert-butyl bromide</option><option id="B">Isobutyl bromide</option><option id="C">Butyl bromide</option><option id="D">Propane</option>
+            <answer>A</answer><explanation>Tert carbocation stable.</explanation>
+        </question>
+        <question>
+            <text>Stability of conformational isomers of Cyclohexane?</text>
+            <option id="A">Chair > Twist Boat > Boat > Half Chair</option><option id="B">Boat > Chair</option><option id="C">Chair > Boat > Twist Boat</option><option id="D">Half Chair > Chair</option>
+            <answer>A</answer><explanation>Chair is strain free.</explanation>
+        </question>
+        <question>
+            <text>Number of signals in H-NMR for Benzene?</text>
+            <option id="A">1 (All H equivalent)</option><option id="B">6</option><option id="C">3</option><option id="D">2</option>
+            <answer>A</answer><explanation>Symmetry.</explanation>
+        </question>
+        <question>
+            <text>Reaction of Benzene + CO + HCl + AlCl3 (Gattermann-Koch):</text>
+            <option id="A">Benzaldehyde</option><option id="B">Benzoic acid</option><option id="C">Chlorobenzene</option><option id="D">Toluene</option>
+            <answer>A</answer><explanation>Formylation.</explanation>
+        </question>
+        <question>
+            <text>Reaction of Benzene with Cl2 in presence of UV (excess)?</text>
+            <option id="A">Hexachlorocyclohexane (BHC/C6H6Cl6)</option><option id="B">Chlorobenzene</option><option id="C">Hexachlorobenzene (C6Cl6)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Addition reaction dominates in light.</explanation>
+        </question>
+        <question>
+            <text>Correct name of 2,2,4-Trimethylpentane?</text>
+            <option id="A">Iso-octane (Common name)</option><option id="B">Neo-octane</option><option id="C">n-Octane</option><option id="D">Heptane</option>
+            <answer>A</answer><explanation>Reference standard for Octane number 100.</explanation>
+        </question>
+        <question>
+            <text>Which gives methane on hydrolysis?</text>
+            <option id="A">Al4C3 (Aluminum Carbide)</option><option id="B">CaC2</option><option id="C">Mg2C3</option><option id="D">SiC</option>
+            <answer>A</answer><explanation>Methanide.</explanation>
+        </question>
+        <question>
+            <text>Preparation of pure alkane (Corey-House synthesis)?</text>
+            <option id="A">R2CuLi + R'X</option><option id="B">RX + Na</option><option id="C">RX + Mg</option><option id="D">Alcohol</option>
+            <answer>A</answer><explanation>Gilman reagent. Suitable for unsymmetrical alkanes.</explanation>
+        </question>
+        <question>
+            <text>Hydroboration-Oxidation of Propene gives:</text>
+            <option id="A">Propan-1-ol (Anti-Markovnikov hydration)</option><option id="B">Propan-2-ol</option><option id="C">Propane</option><option id="D">Acetone</option>
+            <answer>A</answer><explanation>Syn-addition, anti-markovnikov alcohol.</explanation>
+        </question>
+        <question>
+            <text>Oxymercuration-Demercuration of Propene gives:</text>
+            <option id="A">Propan-2-ol (Markovnikov)</option><option id="B">Propan-1-ol</option><option id="C">Propanal</option><option id="D">Acetone</option>
+            <answer>A</answer><explanation>No rearrangement.</explanation>
+        </question>
+        <question>
+            <text>Mechanism of nitration of benzene involves:</text>
+            <option id="A">Sigma complex formation</option><option id="B">Carbanion</option><option id="C">Radical</option><option id="D">SN2</option>
+            <answer>A</answer><explanation>Arenium ion.</explanation>
+        </question>
+        <question>
+            <text>Which is most reactive towards electrophilic substitution?</text>
+            <option id="A">Toluene</option><option id="B">Benzene</option><option id="C">Nitrobenzene</option><option id="D">Chlorobenzene</option>
+            <answer>A</answer><explanation>Activated by methyl.</explanation>
+        </question>
+        <question>
+            <text>Which is least reactive towards electrophilic substitution?</text>
+            <option id="A">Nitrobenzene</option><option id="B">Benzene</option><option id="C">Toluene</option><option id="D">Phenol</option>
+            <answer>A</answer><explanation>Deactivated.</explanation>
+        </question>
+        <question>
+            <text>C-H bond length order: Ethyne vs Ethene vs Ethane?</text>
+            <option id="A">Ethane > Ethene > Ethyne</option><option id="B">Ethyne > Ethene > Ethane</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>s-character shortens bond.</explanation>
+        </question>
+        <question>
+            <text>Reaction of Acetylene with Sodium metal?</text>
+            <option id="A">Sodium acetylide + H2</option><option id="B">No reaction</option><option id="C">Reduction</option><option id="D">Oxidation</option>
+            <answer>A</answer><explanation>Acidic nature.</explanation>
+        </question>
+        <question>
+            <text>Identify P: Ethyl chloride + Na (dry ether) -> P?</text>
+            <option id="A">n-Butane</option><option id="B">Ethane</option><option id="C">Propane</option><option id="D">Ethene</option>
+            <answer>A</answer><explanation>Wurtz.</explanation>
+        </question>
+        <question>
+            <text>Identify C in: CaC2 -> H2O -> A -> Red hot tube -> B -> CH3Cl/AlCl3 -> C?</text>
+            <option id="A">Toluene</option><option id="B">Benzene</option><option id="C">Xylene</option><option id="D">Chlorobenzene</option>
+            <answer>A</answer><explanation>A=Ethyne, B=Benzene, C=Toluene.</explanation>
+        </question>
+        <question>
+            <text>Number of structural isomers of C6H14?</text>
+            <option id="A">5</option><option id="B">4</option><option id="C">6</option><option id="D">3</option>
+            <answer>A</answer><explanation>n, iso, neo... etc. n, 2-Me, 3-Me, 2,2-DiMe, 2,3-DiMe.</explanation>
+        </question>
+        <question>
+            <text>Eclipsed conformation energy is higher due to:</text>
+            <option id="A">Torsional stain and van der Waals repulsion</option><option id="B">Angle strain</option><option id="C">Bond strain</option><option id="D">None</option>
+            <answer>A</answer><explanation>Crowding.</explanation>
+        </question>
+        <question>
+            <text>Chlorination of Methane involves:</text>
+            <option id="A">Initiation, Propagation, Termination</option><option id="B">Ionization</option><option id="C">Precipitation</option><option id="D">None</option>
+            <answer>A</answer><explanation>Radical chain.</explanation>
+        </question>
+        <question>
+            <text>Initiation step produces:</text>
+            <option id="A">Chlorine free radicals</option><option id="B">Methyl radicals</option><option id="C">HCl</option><option id="D">CH3Cl</option>
+            <answer>A</answer><explanation>Homolysis of Cl-Cl.</explanation>
+        </question>
+        <question>
+            <text>Dipole moment of p-Dichlorobenzene?</text>
+            <option id="A">Zero</option><option id="B">Nonzero</option><option id="C">High</option><option id="D">Low</option>
+            <answer>A</answer><explanation>Symmetric.</explanation>
+        </question>
+        <question>
+            <text>Why does Nitrobenzene not undergo Friedel-Crafts?</text>
+            <option id="A">Deactivated ring and complex formation with AlCl3</option><option id="B">Unstable</option><option id="C">Steric</option><option id="D">None</option>
+            <answer>A</answer><explanation>AlCl3 coordinates with NO2.</explanation>
+        </question>
+        <question>
+            <text>Benzene is stable due to:</text>
+            <option id="A">Resonance energy (Delocalization)</option><option id="B">High bond energy</option><option id="C">Cyclic</option><option id="D">Kekule</option>
+            <answer>A</answer><explanation>36 kcal/mol.</explanation>
+        </question>
+        <question>
+            <text>Which alkene is most stable?</text>
+            <option id="A">R2C=CR2 (Tetrasubstituted)</option><option id="B">R2C=CHR</option><option id="C">RCH=CHR</option><option id="D">CH2=CH2</option>
+            <answer>A</answer><explanation>Hyperconjugation/Saytzeff rule.</explanation>
+        </question>
+        <question>
+            <text>Identify reagents for: Ethyl chloride -> Ethene?</text>
+            <option id="A">Alc. KOH, heat</option><option id="B">Aq. KOH</option><option id="C">Water</option><option id="D">Na</option>
+            <answer>A</answer><explanation>Elimination.</explanation>
+        </question>
+        <question>
+            <text>Reagents for: Ethene -> Ethanol?</text>
+            <option id="A">Acidified water (Hydration)</option><option id="B">Alc KOH</option><option id="C">H2/Ni</option><option id="D">HCl</option>
+            <answer>A</answer><explanation>Addition.</explanation>
+        </question>
+        <question>
+            <text>Reagents for: Ethanol -> Ethene?</text>
+            <option id="A">Conc H2SO4, 170 C</option><option id="B">Dilute H2SO4</option><option id="C">KMnO4</option><option id="D">PCC</option>
+            <answer>A</answer><explanation>Dehydration.</explanation>
+        </question>
+        <question>
+            <text>Propyne -> Acetone involves:</text>
+            <option id="A">Hg2+, H3O+</option><option id="B">KMnO4</option><option id="C">H2/Pd</option><option id="D">O3</option>
+            <answer>A</answer><explanation>Kucherov reaction.</explanation>
+        </question>
+        <question>
+            <text>Which C-H bond has highest bond dissociation energy?</text>
+            <option id="A">Acetylene (sp-H)</option><option id="B">Ethene (sp2-H)</option><option id="C">Ethane (sp3-H)</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>Percentage s character. Shorter bond is stronger.</explanation>
+        </question>
+        <question>
+            <text>Combustion of 1 mole Benzene gives how many moles H2O?</text>
+            <option id="A">3</option><option id="B">6</option><option id="C">1</option><option id="D">12</option>
+            <answer>A</answer><explanation>C6H6 + ... -> 6CO2 + 3H2O.</explanation>
+        </question>
+        <question>
+            <text>Which octane isomer has highest melting point?</text>
+            <option id="A">2,2,3,3-Tetramethylbutane</option><option id="B">n-Octane</option><option id="C">Iso-octane</option><option id="D">All same</option>
+            <answer>A</answer><explanation>Spherical symmetry/Packing.</explanation>
+        </question>
+        <question>
+            <text>Isomers obtained on monochlorination of n-Butane?</text>
+            <option id="A">2 (1-chloro, 2-chloro)</option><option id="B">1</option><option id="C">3</option><option id="D">4</option>
+            <answer>A</answer><explanation>Enantiomeric pair for 2-chloro?</explanation>
+        </question>
+        <question>
+            <text>Which has highest heat of hydrogenation?</text>
+            <option id="A">1-Butene (Least substituted/stable)</option><option id="B">cis-2-Butene</option><option id="C">trans-2-Butene</option><option id="D">Tetramethylethylene</option>
+            <answer>A</answer><explanation>Inverse to stability.</explanation>
+        </question>
+        <question>
+            <text>Identify X: CH3-C#C-H + NaNH2 -> X?</text>
+            <option id="A">CH3-C#C-Na (Sodium propynide)</option><option id="B">No reaction</option><option id="C">Reduction</option><option id="D">Oxidation</option>
+            <answer>A</answer><explanation>Acidic H removed by strong base.</explanation>
+        </question>
+
+        <question>
+            <text>Wolff-Kishner reduction uses:</text>
+            <option id="A">NH2NH2/KOH/Glycol</option><option id="B">Zn-Hg/HCl</option><option id="C">LiAlH4</option><option id="D">NaBH4</option>
+            <answer>A</answer><explanation>Carbonyl to Methylene in basic medium.</explanation>
+        </question>
+        <question>
+            <text>Clemmensen reduction uses:</text>
+            <option id="A">Zn-Hg/Conc HCl</option><option id="B">NH2NH2/KOH</option><option id="C">H2/Pd</option><option id="D">Red P/HI</option>
+            <answer>A</answer><explanation>Carbonyl to Methylene in acidic medium.</explanation>
+        </question>
+    </hard>
+</chapter>

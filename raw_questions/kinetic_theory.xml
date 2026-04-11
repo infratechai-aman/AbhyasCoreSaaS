@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="12" name="Kinetic Theory">
+    <easy>
+        <question>
+            <text>Equation of state for an Ideal Gas:</text>
+            <option id="A">PV = nRT</option><option id="B">PV = RT</option><option id="C">P/V = RT</option><option id="D">PT = nRV</option>
+            <answer>A</answer><explanation>Ideal Gas Law.</explanation>
+        </question>
+        <question>
+            <text>Mean free path happens in:</text>
+            <option id="A">Gases</option><option id="B">Solids</option><option id="C">Liquids</option><option id="D">Vacuum</option>
+            <answer>A</answer><explanation>Concept of Kinetic Theory.</explanation>
+        </question>
+        <question>
+            <text>Specific heat at constant pressure Cp is greater than Cv because:</text>
+            <option id="A">Work is done in expansion</option><option id="B">More heat needed to increase T</option><option id="C">Both A and B</option><option id="D">None</option>
+            <answer>C</answer><explanation>Heat goes to dU and dW.</explanation>
+        </question>
+        <question>
+            <text>For diatomic gas, gamma is:</text>
+            <option id="A">1.4</option><option id="B">1.67</option><option id="C">1.33</option><option id="D">1</option>
+            <answer>A</answer><explanation>7/5.</explanation>
+        </question>
+        <question>
+            <text>For monoatomic gas, gamma is:</text>
+            <option id="A">1.67</option><option id="B">1.4</option><option id="C">1.33</option><option id="D">1.5</option>
+            <answer>A</answer><explanation>5/3.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>3 moles of monoatomic gas mixed with 2 moles diatomic. Gamma mix?</text>
+            <option id="A">1.54</option><option id="B">1.4</option><option id="C">1.67</option><option id="D">1.33</option>
+            <answer>A</answer><explanation>gamma = (n1Cp1+n2Cp2)/(n1Cv1+n2Cv2). Cv1=1.5R, Cv2=2.5R. Cp1=2.5R, Cp2=3.5R. Num: 3*2.5 + 2*3.5 = 7.5+7=14.5R. Den: 3*1.5 + 2*2.5 = 4.5+5=9.5R. Ratio 14.5/9.5 = 1.526 ~ 1.53.</explanation>
+        </question>
+        <question>
+            <text>RMS speed of gas molecules proportional to:</text>
+            <option id="A">sqrt(T)</option><option id="B">T</option><option id="C">T^2</option><option id="D">1/T</option>
+            <answer>A</answer><explanation>v = sqrt(3RT/M).</explanation>
+        </question>
+        <question>
+            <text>If pressure is constant, volume of gas is proportional to:</text>
+            <option id="A">Temperature</option><option id="B">1/T</option><option id="C">T^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Charles' Law.</explanation>
+        </question>
+        <question>
+            <text>Average kinetic energy per molecule per degree of freedom?</text>
+            <option id="A">1/2 kT</option><option id="B">3/2 kT</option><option id="C">kT</option><option id="D">3/2 RT</option>
+            <answer>A</answer><explanation>Equipartition theorem.</explanation>
+        </question>
+        <question>
+            <text>A gas obeys P(V-b) = RT. Isotherms are:</text>
+            <option id="A">Hyperbolas shifted</option><option id="B">Parabolas</option><option id="C">Straight lines</option><option id="D">Ellipses</option>
+            <answer>A</answer><explanation>Rectangular hyperbola shifted by b.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Relation between Cp and Cv for ideal gas (Mayer's relation):</text>
+            <option id="A">Cp - Cv = R</option><option id="B">Cp + Cv = R</option><option id="C">Cp / Cv = R</option><option id="D">Cv - Cp = R</option>
+            <answer>A</answer><explanation>Standard relation.</explanation>
+        </question>
+        <question>
+            <text>Internal energy of real gas depends on:</text>
+            <option id="A">T and V</option><option id="B">T only</option><option id="C">P only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intermolecular potential depends on V.</explanation>
+        </question>
+        <question>
+            <text>Inversion temperature Ti:</text>
+            <option id="A">2a / Rb</option><option id="B">a/Rb</option><option id="C">2a/b</option><option id="D">a/b</option>
+            <answer>A</answer><explanation>Joule Thomson coeff is zero.</explanation>
+        </question>
+        <question>
+            <text>Critical Temperature Tc:</text>
+            <option id="A">8a / 27Rb</option><option id="B">a/Rb</option><option id="C">3b</option><option id="D">a/27b</option>
+            <answer>A</answer><explanation>Van der Waals constants.</explanation>
+        </question>
+    </hard>
+</chapter>

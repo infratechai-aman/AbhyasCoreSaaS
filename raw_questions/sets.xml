@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="201" name="Sets">
+    <easy>
+        <question>
+            <text>Which of the following is a null set?</text>
+            <option id="A">{x : x is a natural number, x &lt; 5 and x &gt; 7}</option><option id="B">{x : x is an even prime number}</option><option id="C">{0}</option><option id="D">{x : x^2 = 4, x is odd}</option>
+            <answer>A</answer><explanation>No natural number is both less than 5 and greater than 7.</explanation>
+        </question>
+        <question>
+            <text>The set of all vowels in the English alphabet is:</text>
+            <option id="A">{a, e, i, o, u}</option><option id="B">{a, b, c, d, e}</option><option id="C">{a, e, i, o}</option><option id="D">{a, e, i, o, u, y}</option>
+            <answer>A</answer><explanation>Standard vowels.</explanation>
+        </question>
+        <question>
+            <text>If A = {1, 2, 3, 4, 5}, then 3 belongs to A is written as:</text>
+            <option id="A">3 in A</option><option id="B">3 not in A</option><option id="C">3 subset A</option><option id="D">3 = A</option>
+            <answer>A</answer><explanation>Symbol for belongs to.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a singleton set?</text>
+            <option id="A">{x : x is an even prime number}</option><option id="B">{x : x is an odd prime number &lt; 5}</option><option id="C">{0, 1}</option><option id="D">{}</option>
+            <answer>A</answer><explanation>Only 2 is even prime. {2} is singleton.</explanation>
+        </question>
+        <question>
+            <text>The number of subsets of a set with n elements is:</text>
+            <option id="A">2^n</option><option id="B">n^2</option><option id="C">2n</option><option id="D">n</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>If A = {1, 2}, then the power set P(A) is:</text>
+            <option id="A">{{}, {1}, {2}, {1, 2}}</option><option id="B">{{1}, {2}}</option><option id="C">{{1}, {2}, {1, 2}}</option><option id="D">{1, 2}</option>
+            <answer>A</answer><explanation>Set of all subsets.</explanation>
+        </question>
+        <question>
+            <text>A set which contains all the sets under consideration is called:</text>
+            <option id="A">Universal Set</option><option id="B">Power Set</option><option id="C">Super Set</option><option id="D">Null Set</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>U = {1, 2, 3, 4, 5}, A = {1, 2}. Complement of A is:</text>
+            <option id="A">{3, 4, 5}</option><option id="B">{1, 2}</option><option id="C">{1, 2, 3}</option><option id="D">{}</option>
+            <answer>A</answer><explanation>U - A.</explanation>
+        </question>
+        <question>
+            <text>Union of sets A and B is denoted by:</text>
+            <option id="A">A U B</option><option id="B">A n B</option><option id="C">A - B</option><option id="D">A'</option>
+            <answer>A</answer><explanation>Symbol.</explanation>
+        </question>
+        <question>
+            <text>Intersection of sets A and B is denoted by:</text>
+            <option id="A">A n B</option><option id="B">A U B</option><option id="C">A - B</option><option id="D">B'</option>
+            <answer>A</answer><explanation>Inverted U.</explanation>
+        </question>
+        <question>
+            <text>Two sets A and B are disjoint if:</text>
+            <option id="A">A n B = {}</option><option id="B">A U B = {}</option><option id="C">A = B</option><option id="D">A - B = {}</option>
+            <answer>A</answer><explanation>No common elements.</explanation>
+        </question>
+        <question>
+            <text>If A is a subset of B, then A U B is:</text>
+            <option id="A">B</option><option id="B">A</option><option id="C">Null</option><option id="D">Universal</option>
+            <answer>A</answer><explanation>B contains A.</explanation>
+        </question>
+        <question>
+            <text>If A is a subset of B, then A n B is:</text>
+            <option id="A">A</option><option id="B">B</option><option id="C">Null</option><option id="D">Universal</option>
+            <answer>A</answer><explanation>Common part is A.</explanation>
+        </question>
+        <question>
+            <text>Commutative law for union states:</text>
+            <option id="A">A U B = B U A</option><option id="B">A U B = A</option><option id="C">A n B = B n A</option><option id="D">A - B = B - A</option>
+            <answer>A</answer><explanation>Order doesn't matter.</explanation>
+        </question>
+        <question>
+            <text>Associative law for intersection:</text>
+            <option id="A">(A n B) n C = A n (B n C)</option><option id="B">A n B = B n A</option><option id="C">A U B = B U A</option><option id="D">None</option>
+            <answer>A</answer><explanation>Grouping.</explanation>
+        </question>
+        <question>
+            <text>Difference of sets A - B means:</text>
+            <option id="A">Elements in A but not in B</option><option id="B">Elements in B but not in A</option><option id="C">Elements in both</option><option id="D">Elements in neither</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Symmetric difference of two sets is denoted by:</text>
+            <option id="A">A delta B</option><option id="B">A - B</option><option id="C">A U B</option><option id="D">A n B</option>
+            <answer>A</answer><explanation>Triangle symbol.</explanation>
+        </question>
+        <question>
+            <text>De Morgan's First Law:</text>
+            <option id="A">(A U B)' = A' n B'</option><option id="B">(A U B)' = A' U B'</option><option id="C">(A n B)' = A' n B'</option><option id="D">None</option>
+            <answer>A</answer><explanation>Complement of union is intersection of complements.</explanation>
+        </question>
+        <question>
+            <text>Set builder form of {2, 4, 6, 8} is:</text>
+            <option id="A">{x : x = 2n, n in N, n &lt;= 4}</option><option id="B">{x : x is even}</option><option id="C">{x : x is natural number}</option><option id="D">{2n}</option>
+            <answer>A</answer><explanation>Precise definition.</explanation>
+        </question>
+        <question>
+            <text>Roster form of {x : x is an integer and -3 &lt; x &lt; 7}:</text>
+            <option id="A">{-2, -1, 0, 1, 2, 3, 4, 5, 6}</option><option id="B">{-3, -2, 0, ... 7}</option><option id="C">{-2, -1, ... 7}</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strict inequality.</explanation>
+        </question>
+        <question>
+            <text>Which is an infinite set?</text>
+            <option id="A">Set of points on a line</option><option id="B">Set of humans on earth</option><option id="C">Set of leaves on a tree</option><option id="D">Set of stars (finite observable)</option>
+            <answer>A</answer><explanation>Uncountable.</explanation>
+        </question>
+        <question>
+            <text>A = {1, 2}, B = {1, 2, 3}. Is A a subset of B?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Improper</option><option id="D">None</option>
+            <answer>A</answer><explanation>Every element of A is in B.</explanation>
+        </question>
+        <question>
+            <text>Empty set is subset of:</text>
+            <option id="A">Every set</option><option id="B">Only empty set</option><option id="C">Only finite sets</option><option id="D">No set</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Assume A = B. Then:</text>
+            <option id="A">A is subset of B and B is subset of A</option><option id="B">A is subset of B only</option><option id="C">Neither</option><option id="D">Disjoint</option>
+            <answer>A</answer><explanation>Equality definition.</explanation>
+        </question>
+        <question>
+            <text>Number of elements in power set of null set:</text>
+            <option id="A">1 ({})</option><option id="B">0</option><option id="C">2</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>2^0 = 1.</explanation>
+        </question>
+        <question>
+            <text>Interval [a, b] represents:</text>
+            <option id="A">{x : a &lt;= x &lt;= b}</option><option id="B">{x : a &lt; x &lt; b}</option><option id="C">{x : a &lt;= x &lt; b}</option><option id="D">None</option>
+            <answer>A</answer><explanation>Closed interval.</explanation>
+        </question>
+        <question>
+            <text>Interval (a, b) represents:</text>
+            <option id="A">{x : a &lt; x &lt; b}</option><option id="B">{x : a &lt;= x &lt;= b}</option><option id="C">Closed</option><option id="D">None</option>
+            <answer>A</answer><explanation>Open interval.</explanation>
+        </question>
+        <question>
+            <text>Venn diagrams were named after:</text>
+            <option id="A">John Venn</option><option id="B">Euler</option><option id="C">Cantor</option><option id="D">Newton</option>
+            <answer>A</answer><explanation>English logician.</explanation>
+        </question>
+        <question>
+            <text>In Venn diagram, Universal set is usually represented by:</text>
+            <option id="A">Rectangle</option><option id="B">Circle</option><option id="C">Triangle</option><option id="D">Square</option>
+            <answer>A</answer><explanation>Convention.</explanation>
+        </question>
+        <question>
+            <text>Idempotent Law:</text>
+            <option id="A">A U A = A</option><option id="B">A U A = U</option><option id="C">A U A = {}</option><option id="D">None</option>
+            <answer>A</answer><explanation>Union with self.</explanation>
+        </question>
+        <question>
+            <text>Law of Identity (Union):</text>
+            <option id="A">A U {} = A</option><option id="B">A U U = A</option><option id="C">A U {} = {}</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity element is null set.</explanation>
+        </question>
+        <question>
+            <text>Law of U:</text>
+            <option id="A">A U U = U</option><option id="B">A U U = A</option><option id="C">Null</option><option id="D">None</option>
+            <answer>A</answer><explanation>Domination.</explanation>
+        </question>
+        <question>
+            <text>Distributive Law (Union over Intersection):</text>
+            <option id="A">A U (B n C) = (A U B) n (A U C)</option><option id="B">A U (B n C) = (A U B) U C</option><option id="C">A U B</option><option id="D">None</option>
+            <answer>A</answer><explanation>Expands like multiplication.</explanation>
+        </question>
+        <question>
+            <text>Complement of Universal set is:</text>
+            <option id="A">Null set</option><option id="B">Universal set</option><option id="C">A</option><option id="D">B</option>
+            <answer>A</answer><explanation>U' = {}.</explanation>
+        </question>
+        <question>
+            <text>Double Complement Law:</text>
+            <option id="A">(A')' = A</option><option id="B">A'</option><option id="C">U</option><option id="D">Null</option>
+            <answer>A</answer><explanation>Returns to original.</explanation>
+        </question>
+        <question>
+            <text>n(A U B) formula:</text>
+            <option id="A">n(A) + n(B) - n(A n B)</option><option id="B">n(A) + n(B)</option><option id="C">n(A) - n(B)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inclusion-Exclusion.</explanation>
+        </question>
+        <question>
+            <text>If A and B are disjoint, n(A U B) is:</text>
+            <option id="A">n(A) + n(B)</option><option id="B">n(A) * n(B)</option><option id="C">0</option><option id="D">n(A) - n(B)</option>
+            <answer>A</answer><explanation>Intersection is zero.</explanation>
+        </question>
+        <question>
+            <text>Set of letters in "BETTER":</text>
+            <option id="A">{B, E, T, R}</option><option id="B">{B, E, T, T, E, R}</option><option id="C">{B, E, T}</option><option id="D">None</option>
+            <answer>A</answer><explanation>No repetition.</explanation>
+        </question>
+        <question>
+            <text>Which is finite?</text>
+            <option id="A">{x : x in N, x &lt; 100}</option><option id="B">Set of integers</option><option id="C">Set of real numbers</option><option id="D">Lines parallel to x-axis</option>
+            <answer>A</answer><explanation>Countable and bounded.</explanation>
+        </question>
+        <question>
+            <text>Set {1, 2, 3} and {2, 1, 3} are:</text>
+            <option id="A">Equal</option><option id="B">Equivalent but not equal</option><option id="C">Disjoint</option><option id="D">Distinct</option>
+            <answer>A</answer><explanation>Order doesn't matter.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>If A = {1, 2}, B = {3, 4}. Find A x B.</text>
+            <option id="A">{(1,3), (1,4), (2,3), (2,4)}</option><option id="B">{(1,3), (2,4)}</option><option id="C">{1, 2, 3, 4}</option><option id="D">Null</option>
+            <answer>A</answer><explanation>Cartesian product.</explanation>
+        </question>
+        <question>
+            <text>If n(A) = 3, n(B) = 2. Number of elements in A x B?</text>
+            <option id="A">6</option><option id="B">5</option><option id="C">9</option><option id="D">8</option>
+            <answer>A</answer><explanation>3 * 2 = 6.</explanation>
+        </question>
+        <question>
+            <text>In a group of 400 people, 250 speak Hindi, 200 speak English. How many speak both?</text>
+            <option id="A">50</option><option id="B">100</option><option id="C">150</option><option id="D">450</option>
+            <answer>A</answer><explanation>n(Both) = n(H)+n(E)-n(Total) = 250+200-400 = 50.</explanation>
+        </question>
+        <question>
+            <text>If A subset B, then A n B is:</text>
+            <option id="A">A</option><option id="B">B</option><option id="C">Null</option><option id="D">U</option>
+            <answer>A</answer><explanation>Intersection is smaller set.</explanation>
+        </question>
+        <question>
+            <text>If A subset B, then A U B is:</text>
+            <option id="A">B</option><option id="B">A</option><option id="C">Null</option><option id="D">U</option>
+            <answer>A</answer><explanation>Union is larger set.</explanation>
+        </question>
+        <question>
+            <text>Representation of (A U B)' in Venn diagram:</text>
+            <option id="A">Region outside both circles</option><option id="B">Region inside intersection</option><option id="C">Region A only</option><option id="D">Region B only</option>
+            <answer>A</answer><explanation>Complement of union.</explanation>
+        </question>
+        <question>
+            <text>A = {x : x is a multiple of 3}, B = {x : x is a multiple of 5}. A n B is:</text>
+            <option id="A">Multiples of 15</option><option id="B">Multiples of 3</option><option id="C">Multiples of 5</option><option id="D">Null</option>
+            <answer>A</answer><explanation>LCM of 3 and 5.</explanation>
+        </question>
+        <question>
+            <text>Number of proper subsets of set {1, 2, 3}:</text>
+            <option id="A">7</option><option id="B">8</option><option id="C">6</option><option id="D">9</option>
+            <answer>A</answer><explanation>2^n - 1 = 8 - 1 = 7.</explanation>
+        </question>
+        <question>
+            <text>If A = {a, b}, B = {a, b, c}. A U B = ?</text>
+            <option id="A">{a, b, c}</option><option id="B">{a, b}</option><option id="C">{a, c}</option><option id="D">{c}</option>
+            <answer>A</answer><explanation>Combination.</explanation>
+        </question>
+        <question>
+            <text>If A = {x : x^2 - 5x + 6 = 0}, B = {2, 4}. A U B = ?</text>
+            <option id="A">{2, 3, 4}</option><option id="B">{2, 3}</option><option id="C">{2, 4}</option><option id="D">{2, 3, 4, 6}</option>
+            <answer>A</answer><explanation>A={2,3}. A U B = {2,3,4}.</explanation>
+        </question>
+        <question>
+            <text>n(A)=20, n(B)=35, n(A n B)=10. n(A U B)?</text>
+            <option id="A">45</option><option id="B">55</option><option id="C">65</option><option id="D">30</option>
+            <answer>A</answer><explanation>20+35-10=45.</explanation>
+        </question>
+        <question>
+            <text>If A and B are sets, A - B is equal to:</text>
+            <option id="A">A n B'</option><option id="B">A n B</option><option id="C">A' n B</option><option id="D">B - A</option>
+            <answer>A</answer><explanation>Set difference identity.</explanation>
+        </question>
+        <question>
+            <text>Symmetric difference A delta B is equal to:</text>
+            <option id="A">(A-B) U (B-A)</option><option id="B">(A-B) n (B-A)</option><option id="C">A U B</option><option id="D">A n B</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Assume U={1..10}, A={1,2,5}, B={6,7}. A n B'?</text>
+            <option id="A">{1, 2, 5}</option><option id="B">{6, 7}</option><option id="C">{1..10}</option><option id="D">Null</option>
+            <answer>A</answer><explanation>B' includes A. Intersection is A.</explanation>
+        </question>
+        <question>
+            <text>If A = {1, 2, 3, 4}, B = {3, 4, 5, 6}. A - B = ?</text>
+            <option id="A">{1, 2}</option><option id="B">{3, 4}</option><option id="C">{5, 6}</option><option id="D">{1, 2, 3, 4}</option>
+            <answer>A</answer><explanation>Remove B elements from A.</explanation>
+        </question>
+        <question>
+            <text>If A = {1, 2, 3, 4}, B = {3, 4, 5, 6}. B - A = ?</text>
+            <option id="A">{5, 6}</option><option id="B">{1, 2}</option><option id="C">{3, 4}</option><option id="D">None</option>
+            <answer>A</answer><explanation>Remove A elements from B.</explanation>
+        </question>
+        <question>
+            <text>Interval [-3, 5) contains:</text>
+            <option id="A">-3 but not 5</option><option id="B">5 but not -3</option><option id="C">Both</option><option id="D">Neither</option>
+            <answer>A</answer><explanation>Left closed, right open.</explanation>
+        </question>
+        <question>
+            <text>Length of interval [a, b] is:</text>
+            <option id="A">b - a</option><option id="B">a - b</option><option id="C">b + a</option><option id="D">None</option>
+            <answer>A</answer><explanation>Difference.</explanation>
+        </question>
+        <question>
+            <text>If A is set of letters of "ALLOY" and B is set of letters of "LOYAL", then:</text>
+            <option id="A">A = B</option><option id="B">A subset B</option><option id="C">B subset A</option><option id="D">Disjoint</option>
+            <answer>A</answer><explanation>Both {A, L, O, Y}.</explanation>
+        </question>
+        <question>
+            <text>Power set of {a, b, c} has how many elements?</text>
+            <option id="A">8</option><option id="B">9</option><option id="C">6</option><option id="D">16</option>
+            <answer>A</answer><explanation>2^3 = 8.</explanation>
+        </question>
+        <question>
+            <text>Consider A = {1}. {1} is _ of A.</text>
+            <option id="A">Subset</option><option id="B">Element</option><option id="C">Proper subset</option><option id="D">None</option>
+            <answer>A</answer><explanation>Set contains element 1.</explanation>
+        </question>
+        <question>
+            <text>Consider A = {{1}}. {1} is _ of A.</text>
+            <option id="A">Element</option><option id="B">Subset</option><option id="C">Not related</option><option id="D">None</option>
+            <answer>A</answer><explanation>Set contains set {1}.</explanation>
+        </question>
+        <question>
+            <text>If n(A)=4, n(B)=3, n(A x B x C)=24, then n(C)=?</text>
+            <option id="A">2</option><option id="B">3</option><option id="C">4</option><option id="D">1</option>
+            <answer>A</answer><explanation>4*3*C = 24. 12C = 24. C=2.</explanation>
+        </question>
+        <question>
+            <text>A = {x : x is real, x^2 + 1 = 0}. A is:</text>
+            <option id="A">Empty set</option><option id="B">{i, -i}</option><option id="C">{1, -1}</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>No real solution.</explanation>
+        </question>
+        <question>
+            <text>A' U A = ?</text>
+            <option id="A">U</option><option id="B">A</option><option id="C">Null</option><option id="D">A'</option>
+            <answer>A</answer><explanation>Everything.</explanation>
+        </question>
+        <question>
+            <text>A' n A = ?</text>
+            <option id="A">Null</option><option id="B">U</option><option id="C">A</option><option id="D">A'</option>
+            <answer>A</answer><explanation>Nothing.</explanation>
+        </question>
+        <question>
+            <text>(A')' is equal to:</text>
+            <option id="A">A</option><option id="B">A'</option><option id="C">U</option><option id="D">Null</option>
+            <answer>A</answer><explanation>Involution.</explanation>
+        </question>
+        <question>
+            <text>n(A U B U C) expansion starts with:</text>
+            <option id="A">n(A)+n(B)+n(C)</option><option id="B">n(A)n(B)n(C)</option><option id="C">n(A)+n(B)</option><option id="D">None</option>
+            <answer>A</answer><explanation>First terms.</explanation>
+        </question>
+        <question>
+            <text>If A = {1, 2, 3, 4}, number of non-empty proper subsets?</text>
+            <option id="A">14</option><option id="B">15</option><option id="C">16</option><option id="D">13</option>
+            <answer>A</answer><explanation>2^4 - 2 (empty and self) = 14.</explanation>
+        </question>
+        <question>
+            <text>Which is false?</text>
+            <option id="A">A - B = B - A always</option><option id="B">A U B = B U A</option><option id="C">A n B = B n A</option><option id="D">(A')' = A</option>
+            <answer>A</answer><explanation>Subtraction not commutative.</explanation>
+        </question>
+        <question>
+            <text>If A = {1, 2, 3}, B = {3, 4, 5}. (A U B) - (A n B) = ?</text>
+            <option id="A">{1, 2, 4, 5}</option><option id="B">{3}</option><option id="C">{1, 2, 3, 4, 5}</option><option id="D">Null</option>
+            <answer>A</answer><explanation>Symmetric diff. 1,2,4,5.</explanation>
+        </question>
+        <question>
+            <text>Equivalent sets have:</text>
+            <option id="A">Same number of elements</option><option id="B">Same elements</option><option id="C">Same subset</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cardinality.</explanation>
+        </question>
+        <question>
+            <text>Equal sets have:</text>
+            <option id="A">Exactly same elements</option><option id="B">Same number</option><option id="C">Same types</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equality.</explanation>
+        </question>
+        <question>
+            <text>Which is a subset of {1, 2, 3}?</text>
+            <option id="A">{1, 2}</option><option id="B">{1, 4}</option><option id="C">{0, 1}</option><option id="D">{3, 1, 2, 4}</option>
+            <answer>A</answer><explanation>Only elements from set.</explanation>
+        </question>
+        <question>
+            <text>Total number of subsets of a set with 0 elements?</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">2</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Empty set has 1 subset.</explanation>
+        </question>
+        <question>
+            <text>If n(A)=100, n(B)=100, n(A n B)=50. n(A U B)?</text>
+            <option id="A">150</option><option id="B">200</option><option id="C">100</option><option id="D">50</option>
+            <answer>A</answer><explanation>100+100-50 = 150.</explanation>
+        </question>
+        <question>
+            <text>A - (B U C) is equal to:</text>
+            <option id="A">(A - B) n (A - C)</option><option id="B">(A - B) U (A - C)</option><option id="C">A - B - C</option><option id="D">None</option>
+            <answer>A</answer><explanation>De Morgan analogue.</explanation>
+        </question>
+        <question>
+            <text>A x {} = ?</text>
+            <option id="A">{}</option><option id="B">A</option><option id="C">{0}</option><option id="D">U</option>
+            <answer>A</answer><explanation>Cartesian product with empty set.</explanation>
+        </question>
+        <question>
+            <text>If A = {x : x = 4n}, B = {x : x = 6n}. A n B?</text>
+            <option id="A">{x : x = 12n}</option><option id="B">{x : x = 24n}</option><option id="C">{x : x = 2n}</option><option id="D">{x : x = 10n}</option>
+            <answer>A</answer><explanation>LCM of 4,6 is 12.</explanation>
+        </question>
+        <question>
+            <text>Which set is finite?</text>
+            <option id="A">{x : x is a state in the US}</option><option id="B">{x : x is real number}</option><option id="C">{x : x is point on circle}</option><option id="D">{x : x is integer}</option>
+            <answer>A</answer><explanation>50 states.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>In a class of 60 students, 25 play Cricket, 20 play Tennis, 10 play both. Num playing none?</text>
+            <option id="A">25</option><option id="B">35</option><option id="C">15</option><option id="D">45</option>
+            <answer>A</answer><explanation>60 - (25+20-10) = 60 - 35 = 25.</explanation>
+        </question>
+        <question>
+            <text>n(A)=3, n(B)=? knowing A x B has 15 elements?</text>
+            <option id="A">5</option><option id="B">3</option><option id="C">12</option><option id="D">45</option>
+            <answer>A</answer><explanation>15/3 = 5.</explanation>
+        </question>
+        <question>
+            <text>If A, B, C are sets such that A U B = A U C and A n B = A n C, then:</text>
+            <option id="A">B = C</option><option id="B">A = B</option><option id="C">A = C</option><option id="D">A = B = C</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>In a survey of 400 students: 100 Apple, 150 Orange, 75 Banana. 25 A+O, 25 O+B, 20 A+B, 10 All three. How many None?</text>
+            <option id="A">135 (Wait: 100+150+75 - (25+25+20) + 10 = 325 - 70 + 10 = 265. 400-265=135)</option><option id="B">265</option><option id="C">100</option><option id="D">200</option>
+            <answer>A</answer><explanation>Inclusion-Exclusion Principle.</explanation>
+        </question>
+        <question>
+            <text>Number of elements in exactly two sets (from above data)?</text>
+            <option id="A">(25-10) + (25-10) + (20-10) = 15+15+10 = 40</option><option id="B">70</option><option id="C">50</option><option id="D">60</option>
+            <answer>A</answer><explanation>Sum of (Intersection of pair - Intersection of all three).</explanation>
+        </question>
+        <question>
+            <text>Number of subsets of A containing elements 1 and 2, where A={1,2,3,4,5}?</text>
+            <option id="A">8</option><option id="B">16</option><option id="C">32</option><option id="D">4</option>
+            <answer>A</answer><explanation>Specific elements fixed. Remaining 3 elements have 2^3 subsets.</explanation>
+        </question>
+        <question>
+            <text>If n(P(A)) = 256, n(A) = ?</text>
+            <option id="A">8</option><option id="B">7</option><option id="C">16</option><option id="D">9</option>
+            <answer>A</answer><explanation>2^8 = 256.</explanation>
+        </question>
+        <question>
+            <text>A = {1, 2, {3, 4}}, number of elements in P(A)?</text>
+            <option id="A">8</option><option id="B">16</option><option id="C">4</option><option id="D">3</option>
+            <answer>A</answer><explanation>Set has 3 elements: 1, 2, {3,4}. 2^3 = 8.</explanation>
+        </question>
+        <question>
+            <text>Two finite sets have m and n elements. Subsets of first is 112 more than second. Find m, n.</text>
+            <option id="A">m=7, n=4</option><option id="B">m=6, n=3</option><option id="C">m=8, n=5</option><option id="D">m=7, n=5</option>
+            <answer>A</answer><explanation>2^7 - 2^4 = 128 - 16 = 112.</explanation>
+        </question>
+        <question>
+            <text>Set A has 3 elements, B has 6. Min elements in A U B?</text>
+            <option id="A">6</option><option id="B">3</option><option id="C">9</option><option id="D">0</option>
+            <answer>A</answer><explanation>If A subset B.</explanation>
+        </question>
+        <question>
+            <text>Max elements in A U B (same A=3, B=6)?</text>
+            <option id="A">9</option><option id="B">6</option><option id="C">3</option><option id="D">18</option>
+            <answer>A</answer><explanation>If disjoint.</explanation>
+        </question>
+        <question>
+            <text>Min elements in A n B (same A=3, B=6)?</text>
+            <option id="A">0</option><option id="B">3</option><option id="C">6</option><option id="D">1</option>
+            <answer>A</answer><explanation>Disjoint.</explanation>
+        </question>
+        <question>
+            <text>X and Y are sets. X n (Y U X)' equals:</text>
+            <option id="A">Null</option><option id="B">X</option><option id="C">Y</option><option id="D">U</option>
+            <answer>A</answer><explanation>X n Y' n X' = {} n Y' = {}.</explanation>
+        </question>
+        <question>
+            <text>Let A = {1,2,3...10}. Subsets containing at least one odd number?</text>
+            <option id="A">2^10 - 2^5 = 1024 - 32 = 992</option><option id="B">1024</option><option id="C">512</option><option id="D">990</option>
+            <answer>A</answer><explanation>Total - All even.</explanation>
+        </question>
+        <question>
+            <text>Set A has m elements. Number of non-empty proper subsets?</text>
+            <option id="A">2^m - 2</option><option id="B">2^m - 1</option><option id="C">2^m</option><option id="D">2^m - 3</option>
+            <answer>A</answer><explanation>Remove empty and self.</explanation>
+        </question>
+        <question>
+            <text>In a town of 10,000 families, 40% buy A, 20% buy B, 10% buy C. 5% A+B, 3% B+C, 4% A+C, 2% All. Num families buy only A?</text>
+            <option id="A">40 - (5+4-2) = 40 - 7 = 33% = 3300</option><option id="B">4000</option><option id="C">3000</option><option id="D">3500</option>
+            <answer>A</answer><explanation>A_only = A - (A n B) - (A n C) + (A n B n C).</explanation>
+        </question>
+        <question>
+            <text>From above town, num buy none?</text>
+            <option id="A">40</option><option id="B">60</option><option id="C">10</option><option id="D">20</option>
+            <answer>A</answer><explanation>Total Union = 40+20+10 - (5+3+4) + 2 = 70 - 12 + 2 = 60%. None = 40% = 4000.</explanation>
+        </question>
+        <question>
+            <text>A = {x : x^2 - 3x + 2 = 0}, B = {x : x^2 + 4x - 12 = 0}. A - B?</text>
+            <option id="A">{1}</option><option id="B">{2}</option><option id="C">{1, 2}</option><option id="D">{-6}</option>
+            <answer>A</answer><explanation>A={1,2}. B={2,-6}. A-B={1}.</explanation>
+        </question>
+        <question>
+            <text>If P(A) = P(B), then:</text>
+            <option id="A">A = B</option><option id="B">A subset B</option><option id="C">A disjoint B</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Which represents shaded region A n B' in Venn?</text>
+            <option id="A">A - B</option><option id="B">B - A</option><option id="C">A U B</option><option id="D">Common</option>
+            <answer>A</answer><explanation>Only A.</explanation>
+        </question>
+        <question>
+            <text>If n(A)=4, n(B)=3. Number of disjoint subsets of pairs picking one from each?</text>
+            <option id="A">Need clarification. Assume relations: 2^(4*3) = 4096</option><option id="B">12</option><option id="C">7</option><option id="D">64</option>
+            <answer>A</answer><explanation>Relations A->B.</explanation>
+        </question>
+        <question>
+            <text>Out of 200 students, 35 failed Maths, 40 Science, 40 English. 20 M+S, 17 S+E, 15 M+E, 5 all. Failed in M only?</text>
+            <option id="A">35 - (20+15-5) = 35 - 30 = 5</option><option id="B">10</option><option id="C">15</option><option id="D">20</option>
+            <answer>A</answer><explanation>M_only.</explanation>
+        </question>
+        <question>
+            <text>From above, number passed in all 3 subjects?</text>
+            <option id="A">Wait, Failed U = 35+40+40 - (20+17+15) + 5 = 115 - 52 + 5 = 68. Passed all = 200 - 68 = 132</option><option id="B">132</option><option id="C">68</option><option id="D">100</option>
+            <answer>B</answer><explanation>Total - Union of Failed.</explanation>
+        </question>
+        <question>
+            <text>If X and Y are sets, X n (X U Y) is:</text>
+            <option id="A">X</option><option id="B">Y</option><option id="C">X U Y</option><option id="D">Null</option>
+            <answer>A</answer><explanation>Absorption Law.</explanation>
+        </question>
+        <question>
+            <text>Consider A = {phi, {phi}}. P(A) is:</text>
+            <option id="A">{phi, {phi}, {{phi}}, {phi, {phi}}}</option><option id="B">{phi, {phi}}</option><option id="C">4 elements</option><option id="D">2 elements</option>
+            <answer>A</answer><explanation>Power set construction.</explanation>
+        </question>
+        <question>
+            <text>Number of elements in P(P(P(phi))):</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">1</option><option id="D">16</option>
+            <answer>A</answer><explanation>n(phi)=0. P(phi)=1. P(P)=2. P(P(P))=2^2=4.</explanation>
+        </question>
+        <question>
+            <text>Assume A = {1, 2, 3, 4}. Number of subsets with sum of elements = 5?</text>
+            <option id="A">{1,4}, {2,3}. So 2 subsets.</option><option id="B">1</option><option id="C">3</option><option id="D">4</option>
+            <answer>A</answer><explanation>Counting.</explanation>
+        </question>
+        <question>
+            <text>A = {1, 2}, B = {2, 1}, C = {1, 2, 2}. Which is true?</text>
+            <option id="A">A = B = C</option><option id="B">A != C</option><option id="C">B != C</option><option id="D">None</option>
+            <answer>A</answer><explanation>Repetition ignored.</explanation>
+        </question>
+        <question>
+            <text>If A has n elements, how many relations on A?</text>
+            <option id="A">2^(n^2)</option><option id="B">2^n</option><option id="C">n^2</option><option id="D">2n</option>
+            <answer>A</answer><explanation>Subset of A x A.</explanation>
+        </question>
+        <question>
+            <text>Is Intersection distributive over Union?</text>
+            <option id="A">Yes: A n (B U C) = (A n B) U (A n C)</option><option id="B">No</option><option id="C">Only for finite</option><option id="D">Only for infinite</option>
+            <answer>A</answer><explanation>Yes.</explanation>
+        </question>
+        <question>
+            <text>If A delta B = A U B, then:</text>
+            <option id="A">A n B = {}</option><option id="B">A = B</option><option id="C">A subset B</option><option id="D">B subset A</option>
+            <answer>A</answer><explanation>Symmetric diff equals Union means Intersection empty.</explanation>
+        </question>
+        <question>
+            <text>Cartesian product A x B x C is set of:</text>
+            <option id="A">Ordered triplets</option><option id="B">Ordered pairs</option><option id="C">Sets</option><option id="D">None</option>
+            <answer>A</answer><explanation>Geometry.</explanation>
+        </question>
+        <question>
+            <text>Set of all triangles in a plane. R = {(T1, T2) : T1 congruent T2}. R is:</text>
+            <option id="A">Equivalence Relation</option><option id="B">Only reflexive</option><option id="C">Only symmetric</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sets foundation for relations.</explanation>
+        </question>
+        <question>
+            <text>If A = {x : x^2 = 1, x in R}, B = {x : x^4 = 1, x in R}. Then A delta B?</text>
+            <option id="A">{}</option><option id="B">{-1}</option><option id="C">{1}</option><option id="D">A</option>
+            <answer>A</answer><explanation>A={1,-1}, B={1,-1}. Equal sets. Diff is null.</explanation>
+        </question>
+        <question>
+            <text>Number of reflexive relations on set with n elements?</text>
+            <option id="A">2^(n^2 - n)</option><option id="B">2^n</option><option id="C">2^(n^2)</option><option id="D">n^2</option>
+            <answer>A</answer><explanation>Diagonal fixed.</explanation>
+        </question>
+        <question>
+            <text>If A U B = A n B, then:</text>
+            <option id="A">A = B</option><option id="B">A subset B</option><option id="C">Disjoint</option><option id="D">Null</option>
+            <answer>A</answer><explanation>Only if equal.</explanation>
+        </question>
+        <question>
+            <text>Which is correct Venn representation of A - B?</text>
+            <option id="A">Circle A with intersection bite taken out</option><option id="B">Circle A full</option><option id="C">Circle B</option><option id="D">Intersection</option>
+            <answer>A</answer><explanation>Visual.</explanation>
+        </question>
+        <question>
+            <text>Infinite set A is countable if:</text>
+            <option id="A">One-to-one correspondence with N</option><option id="B">Finite</option><option id="C">R is countable</option><option id="D">None</option>
+            <answer>A</answer><explanation>Set theory deep.</explanation>
+        </question>
+        <question>
+            <text>Cardinality of Power set of Power set of {1}?</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">16</option><option id="D">8</option>
+            <answer>A</answer><explanation>n=1 -> P:2 -> PP:4.</explanation>
+        </question>
+        <question>
+            <text>Which of the following sets is uncountable?</text>
+            <option id="A">R (Real numbers)</option><option id="B">Q (Rationals)</option><option id="C">Z (Integers)</option><option id="D">N (Naturals)</option>
+            <answer>A</answer><explanation>Cantor's proof.</explanation>
+        </question>
+    </hard>
+</chapter>

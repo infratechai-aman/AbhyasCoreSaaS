@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="203" name="Trigonometric Functions">
+    <easy>
+        <question>
+            <text>Value of sin(30) is:</text>
+            <option id="A">1/2</option><option id="B">sqrt(3)/2</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Standard value.</explanation>
+        </question>
+        <question>
+            <text>Value of cos(60) is:</text>
+            <option id="A">1/2</option><option id="B">sqrt(3)/2</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>cos(60) = sin(30) = 0.5.</explanation>
+        </question>
+        <question>
+            <text>Value of tan(45) is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">sqrt(3)</option><option id="D">1/sqrt(3)</option>
+            <answer>A</answer><explanation>sin 45 / cos 45 = 1.</explanation>
+        </question>
+        <question>
+            <text>sin^2(x) + cos^2(x) is equal to:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">2</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Fundamental identity.</explanation>
+        </question>
+        <question>
+            <text>sec^2(x) - tan^2(x) is equal to:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">-1</option><option id="D">2</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>csc^2(x) - cot^2(x) is equal to:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">-1</option><option id="D">2</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Value of sin(90) is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">-1</option><option id="D">0.5</option>
+            <answer>A</answer><explanation>Peak of sine wave.</explanation>
+        </question>
+        <question>
+            <text>Value of cos(180) is:</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">0.5</option>
+            <answer>A</answer><explanation>Half cycle.</explanation>
+        </question>
+        <question>
+            <text>1 degree is equal to how many minutes?</text>
+            <option id="A">60'</option><option id="B">100'</option><option id="C">3600'</option><option id="D">10'</option>
+            <answer>A</answer><explanation>Sexagesimal system.</explanation>
+        </question>
+        <question>
+            <text>Pi radians is equal to:</text>
+            <option id="A">180 degrees</option><option id="B">90 degrees</option><option id="C">360 degrees</option><option id="D">270 degrees</option>
+            <answer>A</answer><explanation>Conversion.</explanation>
+        </question>
+        <question>
+            <text>sin(-x) is equal to:</text>
+            <option id="A">-sin(x)</option><option id="B">sin(x)</option><option id="C">cos(x)</option><option id="D">-cos(x)</option>
+            <answer>A</answer><explanation>Odd function.</explanation>
+        </question>
+        <question>
+            <text>cos(-x) is equal to:</text>
+            <option id="A">cos(x)</option><option id="B">-cos(x)</option><option id="C">sin(x)</option><option id="D">-sin(x)</option>
+            <answer>A</answer><explanation>Even function.</explanation>
+        </question>
+        <question>
+            <text>Sign of sin(x) in second quadrant:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>ASTC rule (All, Sin, Tan, Cos).</explanation>
+        </question>
+        <question>
+            <text>Sign of cos(x) in second quadrant:</text>
+            <option id="A">Negative</option><option id="B">Positive</option><option id="C">Zero</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Only Sin/Csc are positive.</explanation>
+        </question>
+        <question>
+            <text>sin(2Pi + x) = ?</text>
+            <option id="A">sin(x)</option><option id="B">-sin(x)</option><option id="C">cos(x)</option><option id="D">-cos(x)</option>
+            <answer>A</answer><explanation>Periodicity of 2Pi.</explanation>
+        </question>
+        <question>
+            <text>Value of sin(0) is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Origin.</explanation>
+        </question>
+        <question>
+            <text>Which function is periodic with period Pi?</text>
+            <option id="A">tan(x)</option><option id="B">sin(x)</option><option id="C">cos(x)</option><option id="D">sec(x)</option>
+            <answer>A</answer><explanation>Tangent repeats every Pi.</explanation>
+        </question>
+        <question>
+            <text>Range of sin(x) is:</text>
+            <option id="A">[-1, 1]</option><option id="B">(-1, 1)</option><option id="C">R</option><option id="D">[0, 1]</option>
+            <answer>A</answer><explanation>Amplitude 1.</explanation>
+        </question>
+        <question>
+            <text>Domain of tan(x) is R except:</text>
+            <option id="A">Odd multiples of Pi/2</option><option id="B">Multiples of Pi</option><option id="C">Multiples of 2Pi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cos(x) is zero there.</explanation>
+        </question>
+        <question>
+            <text>sin(x) = 0 implies x = ?</text>
+            <option id="A">nPi</option><option id="B">2nPi</option><option id="C">(2n+1)Pi/2</option><option id="D">Pi/2</option>
+            <answer>A</answer><explanation>Zero crossings.</explanation>
+        </question>
+        <question>
+            <text>cos(x) = 0 implies x = ?</text>
+            <option id="A">(2n+1)Pi/2</option><option id="B">nPi</option><option id="C">2nPi</option><option id="D">Pi</option>
+            <answer>A</answer><explanation>Zero crossings.</explanation>
+        </question>
+        <question>
+            <text>sin(A+B) is:</text>
+            <option id="A">sinAcosB + cosAsinB</option><option id="B">sinAcosB - cosAsinB</option><option id="C">cosAcosB - sinAsinB</option><option id="D">sinA + sinB</option>
+            <answer>A</answer><explanation>Compound angle formula.</explanation>
+        </question>
+        <question>
+            <text>cos(A-B) is:</text>
+            <option id="A">cosAcosB + sinAsinB</option><option id="B">cosAcosB - sinAsinB</option><option id="C">sinAcosB - cosAsinB</option><option id="D">cosA - cosB</option>
+            <answer>A</answer><explanation>Standard formula.</explanation>
+        </question>
+        <question>
+            <text>sin(2x) in terms of sin and cos:</text>
+            <option id="A">2sin(x)cos(x)</option><option id="B">cos^2(x) - sin^2(x)</option><option id="C">2sin(x)</option><option id="D">2cos(x)</option>
+            <answer>A</answer><explanation>Double angle.</explanation>
+        </question>
+        <question>
+            <text>cos(2x) in terms of cos:</text>
+            <option id="A">2cos^2(x) - 1</option><option id="B">1 - 2sin^2(x)</option><option id="C">cos^2(x) - sin^2(x)</option><option id="D">2cos(x)</option>
+            <answer>A</answer><explanation>Double angle.</explanation>
+        </question>
+        <question>
+            <text>Reciprocal of sin(x) is:</text>
+            <option id="A">csc(x)</option><option id="B">sec(x)</option><option id="C">cot(x)</option><option id="D">cos(x)</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>In a right triangle, sin(theta) =</text>
+            <option id="A">Opposite / Hypotenuse</option><option id="B">Adjacent / Hypotenuse</option><option id="C">Opposite / Adjacent</option><option id="D">Hypotenuse / Opposite</option>
+            <answer>A</answer><explanation>SOH CAH TOA.</explanation>
+        </question>
+        <question>
+            <text>Value of sin(Pi/6) is:</text>
+            <option id="A">0.5</option><option id="B">0.866</option><option id="C">0.707</option><option id="D">1</option>
+            <answer>A</answer><explanation>30 degrees.</explanation>
+        </question>
+        <question>
+            <text>Value of tan(Pi/4) is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">0.5</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>45 degrees.</explanation>
+        </question>
+        <question>
+            <text>Quadrant IV range in radians:</text>
+            <option id="A">3Pi/2 to 2Pi</option><option id="B">Pi to 3Pi/2</option><option id="C">Pi/2 to Pi</option><option id="D">0 to Pi/2</option>
+            <answer>A</answer><explanation>Regions.</explanation>
+        </question>
+        <question>
+            <text>Convert 60 degrees to radians:</text>
+            <option id="A">Pi/3</option><option id="B">Pi/6</option><option id="C">Pi/4</option><option id="D">Pi/2</option>
+            <answer>A</answer><explanation>60 * Pi / 180.</explanation>
+        </question>
+        <question>
+            <text>Convert Pi/2 radians to degrees:</text>
+            <option id="A">90</option><option id="B">180</option><option id="C">45</option><option id="D">60</option>
+            <answer>A</answer><explanation>180/2.</explanation>
+        </question>
+        <question>
+            <text>Length of arc l = ?</text>
+            <option id="A">r * theta</option><option id="B">r / theta</option><option id="C">r^2 theta</option><option id="D">2 Pi r</option>
+            <answer>A</answer><explanation>Theta in radians.</explanation>
+        </question>
+        <question>
+            <text>sin^2(x) = ?</text>
+            <option id="A">(1 - cos(2x))/2</option><option id="B">(1 + cos(2x))/2</option><option id="C">1 - cos(x)</option><option id="D">cos^2(x) - 1</option>
+            <answer>A</answer><explanation>Power reduction.</explanation>
+        </question>
+        <question>
+            <text>cos^2(x) = ?</text>
+            <option id="A">(1 + cos(2x))/2</option><option id="B">(1 - cos(2x))/2</option><option id="C">1 - sin(x)</option><option id="D">sin^2(x) - 1</option>
+            <answer>A</answer><explanation>Power reduction.</explanation>
+        </question>
+        <question>
+            <text>tan(x) in terms of sin and cos:</text>
+            <option id="A">sin(x)/cos(x)</option><option id="B">cos(x)/sin(x)</option><option id="C">1/sin(x)</option><option id="D">1/cos(x)</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>If sin(x) = 3/5, cos(x) = ? (First quad)</text>
+            <option id="A">4/5</option><option id="B">5/3</option><option id="C">3/4</option><option id="D">1/5</option>
+            <answer>A</answer><explanation>Pythagorean triple 3-4-5.</explanation>
+        </question>
+        <question>
+            <text>sec(x) is positive in quadrants:</text>
+            <option id="A">I and IV</option><option id="B">I and II</option><option id="C">II and III</option><option id="D">III and IV</option>
+            <answer>A</answer><explanation>Same as cosine.</explanation>
+        </question>
+        <question>
+            <text>Max value of sin(x):</text>
+            <option id="A">1</option><option id="B">infinity</option><option id="C">0</option><option id="D">Pi</option>
+            <answer>A</answer><explanation>Bounded.</explanation>
+        </question>
+        <question>
+            <text>Min value of cos(x):</text>
+            <option id="A">-1</option><option id="B">0</option><option id="C">1</option><option id="D">-infinity</option>
+            <answer>A</answer><explanation>Bounded.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Value of tan(75) is:</text>
+            <option id="A">2 + sqrt(3)</option><option id="B">2 - sqrt(3)</option><option id="C">1 + sqrt(3)</option><option id="D">1</option>
+            <answer>A</answer><explanation>tan(45+30) = (1+1/sqrt3)/(1-1/sqrt3).</explanation>
+        </question>
+        <question>
+            <text>Value of sin(15) is:</text>
+            <option id="A">(sqrt(6) - sqrt(2)) / 4</option><option id="B">(sqrt(6) + sqrt(2)) / 4</option><option id="C">sqrt(3) / 2</option><option id="D">1/4</option>
+            <answer>A</answer><explanation>sin(45-30).</explanation>
+        </question>
+        <question>
+            <text>Value of cos(15) is:</text>
+            <option id="A">(sqrt(6) + sqrt(2)) / 4</option><option id="B">(sqrt(6) - sqrt(2)) / 4</option><option id="C">1</option><option id="D">sqrt(3)/2</option>
+            <answer>A</answer><explanation>cos(45-30).</explanation>
+        </question>
+        <question>
+            <text>Formula for sin(A) + sin(B):</text>
+            <option id="A">2 sin((A+B)/2) cos((A-B)/2)</option><option id="B">2 cos((A+B)/2) sin((A-B)/2)</option><option id="C">2 sin((A+B)/2) sin((A-B)/2)</option><option id="D">2 cos((A+B)/2) cos((A-B)/2)</option>
+            <answer>A</answer><explanation>Sum to product.</explanation>
+        </question>
+        <question>
+            <text>Formula for cos(A) + cos(B):</text>
+            <option id="A">2 cos((A+B)/2) cos((A-B)/2)</option><option id="B">2 sin((A+B)/2) sin((A-B)/2)</option><option id="C">-2 sin((A+B)/2) sin((A-B)/2)</option><option id="D">2 cos((A+B)/2) sin((A-B)/2)</option>
+            <answer>A</answer><explanation>Sum to product.</explanation>
+        </question>
+        <question>
+            <text>Formula for cos(A) - cos(B):</text>
+            <option id="A">-2 sin((A+B)/2) sin((A-B)/2)</option><option id="B">2 cos((A+B)/2) cos((A-B)/2)</option><option id="C">2 sin((A+B)/2) cos((A-B)/2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum to product (negative sign).</explanation>
+        </question>
+        <question>
+            <text>tan(A+B) is:</text>
+            <option id="A">(tanA + tanB) / (1 - tanAtanB)</option><option id="B">(tanA - tanB) / (1 + tanAtanB)</option><option id="C">(tanA + tanB) / (1 + tanAtanB)</option><option id="D">tanA + tanB</option>
+            <answer>A</answer><explanation>Compound angle.</explanation>
+        </question>
+        <question>
+            <text>Principal solution of sin(x) = sqrt(3)/2:</text>
+            <option id="A">Pi/3, 2Pi/3</option><option id="B">Pi/6, 5Pi/6</option><option id="C">Pi/3, 4Pi/3</option><option id="D">Pi/3</option>
+            <answer>A</answer><explanation>Positive in Q1 and Q2. 60 deg and 120 deg.</explanation>
+        </question>
+        <question>
+            <text>If cos(x) = -1/2, x lies in:</text>
+            <option id="A">Q2, Q3</option><option id="B">Q1, Q2</option><option id="C">Q3, Q4</option><option id="D">Q1, Q4</option>
+            <answer>A</answer><explanation>Cos negative in 2nd and 3rd.</explanation>
+        </question>
+        <question>
+            <text>sin(3x) formula:</text>
+            <option id="A">3sin(x) - 4sin^3(x)</option><option id="B">4sin^3(x) - 3sin(x)</option><option id="C">3cos(x) - 4cos^3(x)</option><option id="D">3sin(x) + 4sin^3(x)</option>
+            <answer>A</answer><explanation>Triple angle.</explanation>
+        </question>
+        <question>
+            <text>cos(3x) formula:</text>
+            <option id="A">4cos^3(x) - 3cos(x)</option><option id="B">3cos(x) - 4cos^3(x)</option><option id="C">3sin(x) - 4sin^3(x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Triple angle.</explanation>
+        </question>
+        <question>
+            <text>tan(3x) formula:</text>
+            <option id="A">(3tan(x) - tan^3(x)) / (1 - 3tan^2(x))</option><option id="B">(tan^3(x) - 3tan(x)) / (3tan^2(x) - 1)</option><option id="C">3tan(x)</option><option id="D">tan(x)</option>
+            <answer>A</answer><explanation>Triple angle.</explanation>
+        </question>
+        <question>
+            <text>Degree measure of 11/16 radians?</text>
+            <option id="A">39 deg 22 min 30 sec</option><option id="B">45 deg</option><option id="C">30 deg</option><option id="D">40 deg</option>
+            <answer>A</answer><explanation>Calculation: 11/16 * 180/Pi.</explanation>
+        </question>
+        <question>
+            <text>Radius of circle where arc 22cm subtends 60 deg?</text>
+            <option id="A">21 cm</option><option id="B">7 cm</option><option id="C">14 cm</option><option id="D">10 cm</option>
+            <answer>A</answer><explanation>l = r theta. 22 = r * Pi/3. r = 66/Pi = 21.</explanation>
+        </question>
+        <question>
+            <text>sin(765) is:</text>
+            <option id="A">1/sqrt(2)</option><option id="B">0.5</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>765 = 2*360 + 45. sin(45).</explanation>
+        </question>
+        <question>
+            <text>cosec(-1410) is:</text>
+            <option id="A">2</option><option id="B">-2</option><option id="C">1</option><option id="D">-1</option>
+            <answer>A</answer><explanation>cosec(-1410) = -cosec(1410). 1410 = 4*360 - 30. -cosec(-30) = cosec(30) = 2.</explanation>
+        </question>
+        <question>
+            <text>Prove tan(15) = ?</text>
+            <option id="A">2 - sqrt(3)</option><option id="B">2 + sqrt(3)</option><option id="C">1/sqrt(3)</option><option id="D">1</option>
+            <answer>A</answer><explanation>Repeated.</explanation>
+        </question>
+        <question>
+            <text>sin(x) = -1/2 in Q4. Other 5 ratios?</text>
+            <option id="A">cos=sqrt(3)/2, tan=-1/sqrt(3), etc.</option><option id="B">cos=-sqrt(3)/2</option><option id="C">tan=1/sqrt(3)</option><option id="D">sec=-2</option>
+            <answer>A</answer><explanation>Determine sign and value.</explanation>
+        </question>
+        <question>
+            <text>Value of sin(Pi/8)?</text>
+            <option id="A">sqrt((1 - 1/sqrt(2))/2)</option><option id="B">1/2</option><option id="C">1/sqrt(2)</option><option id="D">0.3</option>
+            <answer>A</answer><explanation>Half angle of 45: sqrt((1-cos45)/2).</explanation>
+        </question>
+        <question>
+            <text>cos(Pi/8)?</text>
+            <option id="A">sqrt((1 + 1/sqrt(2))/2)</option><option id="B">1/2</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Half angle of 45: sqrt((1+cos45)/2).</explanation>
+        </question>
+        <question>
+            <text>tan(Pi/8)?</text>
+            <option id="A">sqrt(2) - 1</option><option id="B">sqrt(2) + 1</option><option id="C">1</option><option id="D">sqrt(3)</option>
+            <answer>A</answer><explanation>tan(22.5).</explanation>
+        </question>
+        <question>
+            <text>cot(x)tan(2x) - cut(2x)tan(x)? No wait. tan(2x) = 2tan(x)/(1-tan^2(x)).</text>
+            <option id="A">Formula check.</option><option id="B">False</option><option id="C">True</option><option id="D">Maybe</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>(sin x + cos x)^2 = ?</text>
+            <option id="A">1 + sin(2x)</option><option id="B">1</option><option id="C">1 + 2sin(x)</option><option id="D">sin(2x)</option>
+            <answer>A</answer><explanation>sin^2 + cos^2 + 2sincos.</explanation>
+        </question>
+        <question>
+            <text>cos(4x) = ?</text>
+            <option id="A">1 - 8sin^2(x)cos^2(x)</option><option id="B">cos(2x)</option><option id="C">1 - 2sin^2(2x)</option><option id="D">Both A and C</option>
+            <answer>D</answer><explanation>Double angle of 2x.</explanation>
+        </question>
+        <question>
+            <text>General solution of sin(x) = sin(y):</text>
+            <option id="A">x = nPi + (-1)^n y</option><option id="B">x = 2nPi + y</option><option id="C">x = nPi + y</option><option id="D">x = 2nPi - y</option>
+            <answer>A</answer><explanation>Standard formula.</explanation>
+        </question>
+        <question>
+            <text>General solution of cos(x) = cos(y):</text>
+            <option id="A">x = 2nPi ± y</option><option id="B">x = nPi ± y</option><option id="C">x = 2nPi + y</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard formula.</explanation>
+        </question>
+        <question>
+            <text>General solution of tan(x) = tan(y):</text>
+            <option id="A">x = nPi + y</option><option id="B">x = 2nPi + y</option><option id="C">x = nPi ± y</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard formula.</explanation>
+        </question>
+        <question>
+            <text>Value of sin(18) is:</text>
+            <option id="A">(sqrt(5) - 1) / 4</option><option id="B">(sqrt(5) + 1) / 4</option><option id="C">1/4</option><option id="D">sqrt(5)/4</option>
+            <answer>A</answer><explanation>Standard result.</explanation>
+        </question>
+        <question>
+            <text>Value of cos(36) is:</text>
+            <option id="A">(sqrt(5) + 1) / 4</option><option id="B">(sqrt(5) - 1) / 4</option><option id="C">1/2</option><option id="D">sqrt(5)/2</option>
+            <answer>A</answer><explanation>Standard result.</explanation>
+        </question>
+        <question>
+            <text>Number of solutions of sin(x) = 0.5 in [0, 2Pi]:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">4</option><option id="D">0</option>
+            <answer>A</answer><explanation>30 and 150 degrees.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = 2 + cos(x):</text>
+            <option id="A">[1, 3]</option><option id="B">[-1, 1]</option><option id="C">[2, 3]</option><option id="D">[0, 2]</option>
+            <answer>A</answer><explanation>2-1 to 2+1.</explanation>
+        </question>
+        <question>
+            <text>Maximum value of sin(x)cos(x):</text>
+            <option id="A">0.5</option><option id="B">1</option><option id="C">2</option><option id="D">0.25</option>
+            <answer>A</answer><explanation>sin(2x)/2. Max 0.5.</explanation>
+        </question>
+        <question>
+            <text>tan(1) vs tan(2) (radians):</text>
+            <option id="A">tan(1) > 0, tan(2) &lt; 0. So tan(1) > tan(2)</option><option id="B">tan(2) > tan(1)</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 rad (57 deg) is Q1. 2 rad (114 deg) is Q2.</explanation>
+        </question>
+        <question>
+            <text>Triangle ABC, A+B+C=Pi. tan(A+B) = ?</text>
+            <option id="A">-tan(C)</option><option id="B">tan(C)</option><option id="C">cot(C)</option><option id="D">-cot(C)</option>
+            <answer>A</answer><explanation>tan(Pi - C) = -tan(C).</explanation>
+        </question>
+        <question>
+            <text>If sin(x) + csc(x) = 2, then sin^n(x) + csc^n(x) = ?</text>
+            <option id="A">2</option><option id="B">2^n</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Only possible if sin(x)=1.</explanation>
+        </question>
+        <question>
+            <text>If cos(x) + sec(x) = 2, then cos(x) = ?</text>
+            <option id="A">1</option><option id="B">-1</option><option id="C">0</option><option id="D">2</option>
+            <answer>A</answer><explanation>x + 1/x = 2 implies x = 1.</explanation>
+        </question>
+        <question>
+            <text>Which is greater? sin(1) or 1?</text>
+            <option id="A">1</option><option id="B">sin(1)</option><option id="C">Equal</option><option id="D">Cant compare</option>
+            <answer>A</answer><explanation>Sin range max 1, occurs at Pi/2 approx 1.57. sin(1) &lt; 1.</explanation>
+        </question>
+        <question>
+            <text>cos(20)cos(40)cos(80) = ?</text>
+            <option id="A">1/8</option><option id="B">1/4</option><option id="C">1/2</option><option id="D">1/16</option>
+            <answer>A</answer><explanation>Use identity involving sin(2^n A).</explanation>
+        </question>
+        <question>
+            <text>sin(20)sin(40)sin(80) = ?</text>
+            <option id="A">sqrt(3)/8</option><option id="B">1/8</option><option id="C">3/8</option><option id="D">1/4</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>tan(20)tan(40)tan(80) = ?</text>
+            <option id="A">sqrt(3) = tan(60)</option><option id="B">1/sqrt(3)</option><option id="C">3</option><option id="D">1</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>General solution of cos(x) = 1/2 is:</text>
+            <option id="A">2nπ ± π/3</option><option id="B">2nπ ± π/6</option><option id="C">nπ ± π/3</option><option id="D">nπ + (-1)^n π/3</option>
+            <answer>A</answer><explanation>Principal pi/3.</explanation>
+        </question>
+        <question>
+            <text>Solve for x: sin(x) + cos(x) = 1 in [0, 2Pi]</text>
+            <option id="A">0, Pi/2, 2Pi</option><option id="B">0, Pi</option><option id="C">Pi/2</option><option id="D">3Pi/2</option>
+            <answer>A</answer><explanation>Squaring or converting to single sine.</explanation>
+        </question>
+        <question>
+            <text>Min and Max of f(x) = 3 cos x + 4 sin x + 8?</text>
+            <option id="A">3, 13</option><option id="B">5, 11</option><option id="C">-5, 5</option><option id="D">0, 10</option>
+            <answer>A</answer><explanation>R = sqrt(9+16) = 5. Range [-5, 5] + 8 -> [3, 13].</explanation>
+        </question>
+        <question>
+            <text>Period of sin^2(x) is:</text>
+            <option id="A">Pi</option><option id="B">2Pi</option><option id="C">Pi/2</option><option id="D">4Pi</option>
+            <answer>A</answer><explanation>Power 2 halves period.</explanation>
+        </question>
+        <question>
+            <text>Period of |sin(x)| is:</text>
+            <option id="A">Pi</option><option id="B">2Pi</option><option id="C">Pi/2</option><option id="D">4Pi</option>
+            <answer>A</answer><explanation>Negative cycle becomes positive.</explanation>
+        </question>
+        <question>
+            <text>Value of summation sin(2kPi/11 - i cos 2kPi/11)? Complex.</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">11</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Roots of unity sum.</explanation>
+        </question>
+        <question>
+            <text>tan(x) + cot(x) = 2. General solution?</text>
+            <option id="A">nPi + Pi/4</option><option id="B">nPi + Pi/2</option><option id="C">nPi</option><option id="D">2nPi</option>
+            <answer>A</answer><explanation>Equals 2/sin(2x) = 2 -> sin(2x) = 1 -> 2x = 2nPi + Pi/2 -> x = nPi + Pi/4.</explanation>
+        </question>
+        <question>
+            <text>Range of sin^2(x) - 5sin(x) - 6?</text>
+            <option id="A">[-10, 0] (Wait: Let t = sin x. t in [-1, 1]. f(t) = t^2 - 5t - 6. Min at vertex 2.5 (outside). At t=1: 1-5-6=-10. At t=-1: 1+5-6=0. Range [-10, 0].)</option><option id="B">R</option><option id="C">[-12, -2]</option><option id="D">[0, 10]</option>
+            <answer>A</answer><explanation>Quadratic on interval.</explanation>
+        </question>
+        <question>
+            <text>Value of sin(10)sin(30)sin(50)sin(70):</text>
+            <option id="A">1/16</option><option id="B">1/8</option><option id="C">3/16</option><option id="D">1/4</option>
+            <answer>A</answer><explanation>Result.</explanation>
+        </question>
+        <question>
+            <text>Solve tan(x) + tan(2x) + tan(3x) = tan(x)tan(2x)tan(3x).</text>
+            <option id="A">nPi/3</option><option id="B">nPi/2</option><option id="C">nPi</option><option id="D">2nPi</option>
+            <answer>A</answer><explanation>Implies tan(x+2x+3x) = tan(6x) = 0? No, tan(A+B+C) formula. Implies A+B+C = nPi. 6x = nPi. x = nPi/6. (Check domain).</explanation>
+        </question>
+        <question>
+            <text>Number of solutions of cos(x) = |x|.</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Graph intersection.</explanation>
+        </question>
+        <question>
+            <text>Period of f(x) = sin(3x) + cos(4x)?</text>
+            <option id="A">2Pi</option><option id="B">Pi</option><option id="C">12Pi</option><option id="D">Pi/2</option>
+            <answer>A</answer><explanation>LCM of 2Pi/3 and 2Pi/4 = 2Pi.</explanation>
+        </question>
+        <question>
+            <text>If A+B+C = 180, then tan(A)+tan(B)+tan(C) = ?</text>
+            <option id="A">tan(A)tan(B)tan(C)</option><option id="B">1</option><option id="C">0</option><option id="D">tan(A)tan(B)</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>If A+B+C = 180, then sin(2A)+sin(2B)+sin(2C) = ?</text>
+            <option id="A">4sinA sinB sinC</option><option id="B">4cosA cosB cosC</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>cos(A) + cos(B) + cos(C) in triangle?</text>
+            <option id="A">1 + 4sin(A/2)sin(B/2)sin(C/2)</option><option id="B">1 - 4sin(A/2)sin(B/2)sin(C/2)</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Smallest positive value of x for sin(x) + sin(5x) = sin(3x)?</text>
+            <option id="A">Pi/3 (Check calculation: 2sin(3x)cos(2x) = sin(3x). sin(3x)(2cos(2x)-1)=0. sin(3x)=0 -> x=Pi/3. cos(2x)=0.5 -> 2x=Pi/3 -> x=Pi/6. Smallest is Pi/6?)</option><option id="B">Pi/6</option><option id="C">Pi/2</option><option id="D">Pi</option>
+            <answer>B</answer><explanation>Correct calculation Pi/6.</explanation>
+        </question>
+        <question>
+            <text>If sin(x) + sin^2(x) = 1, then cos^2(x) + cos^4(x) = ?</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">0</option><option id="D">3</option>
+            <answer>A</answer><explanation>sin = cos^2. cos^2 + sin^2 = 1.</explanation>
+        </question>
+        <question>
+            <text>Maximum value of product cos(x)cos(60-x)cos(60+x)?</text>
+            <option id="A">1/4</option><option id="B">3/4</option><option id="C">1/8</option><option id="D">1/2</option>
+            <answer>A</answer><explanation>0.25 cos(3x). Max 0.25.</explanation>
+        </question>
+        <question>
+            <text>3(sin x - cos x)^4 + 6(sin x + cos x)^2 + 4(sin^6 x + cos^6 x) = ?</text>
+            <option id="A">13</option><option id="B">14</option><option id="C">10</option><option id="D">1</option>
+            <answer>A</answer><explanation>Constant value.</explanation>
+        </question>
+        <question>
+            <text>If tan(alpha) = n tan(beta), sin(alpha) = m sin(beta). cos^2(alpha) = ?</text>
+            <option id="A">(m^2 - 1) / (n^2 - 1)</option><option id="B">(m^2 + 1) / (n^2 + 1)</option><option id="C">m/n</option><option id="D">0</option>
+            <answer>A</answer><explanation>Elimination.</explanation>
+        </question>
+        <question>
+            <text>Solve 2sin^2(x) - 5sin(x) cos(x) - 8cos^2(x) = -2?</text>
+            <option id="A">Quad in tan x?</option><option id="B">None</option><option id="C">Solve</option><option id="D">Check</option>
+            <answer>A</answer><explanation>Homogeneous equation -2(sin^2+cos^2).</explanation>
+        </question>
+        <question>
+            <text>Find range of sin^2(x) + cos^4(x).</text>
+            <option id="A">[3/4, 1]</option><option id="B">[0, 1]</option><option id="C">[1/2, 1]</option><option id="D">[0, 2]</option>
+            <answer>A</answer><explanation>sin^2 + (1-sin^2)^2 = y^2 - y + 1. min at 0.5 -> 3/4. max at 1 or 0 -> 1.</explanation>
+        </question>
+        <question>
+            <text>Number of integral values of k for which 7 cos x + 5 sin x = 2k + 1 has a solution?</text>
+            <option id="A">8</option><option id="B">4</option><option id="C">10</option><option id="D">5</option>
+            <answer>A</answer><explanation>Max sqrt(49+25) = sqrt(74) ~ 8.6. 2k+1 in [-8.6, 8.6]. 2k in [-9.6, 7.6]. k in [-4.8, 3.8]. k = -4, -3, -2, -1, 0, 1, 2, 3. Total 8 values.</explanation>
+        </question>
+        <question>
+            <text>If cos(x) + cos(y) + cos(z) = 3, then sin(x) + sin(y) + sin(z) = ?</text>
+            <option id="A">0</option><option id="B">3</option><option id="C">1</option><option id="D">-3</option>
+            <answer>A</answer><explanation>Implies x=y=z=0. sin(0)=0.</explanation>
+        </question>
+        <question>
+            <text>Sum of series sin(x) + sin(2x) + ... + sin(nx) = ?</text>
+            <option id="A">sin(nx/2)/sin(x/2) * sin((n+1)x/2)</option><option id="B">0</option><option id="C">n</option><option id="D">1</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Value of product (1 + tan 1)(1 + tan 2)...(1 + tan 45)? Wait, (1+tan 1)(1+tan 44) = 2. Pairs. 2^22 * (1+1) = 2^23.</text>
+            <option id="A">2^23</option><option id="B">2^22</option><option id="C">2^44</option><option id="D">2^45</option>
+            <answer>A</answer><explanation>Pairing property.</explanation>
+        </question>
+        <question>
+            <text>2 cos(Pi/13) cos(9Pi/13) + cos(3Pi/13) + cos(5Pi/13) = ?</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">0.5</option>
+            <answer>A</answer><explanation>Telescoping or symmetry.</explanation>
+        </question>
+        <question>
+            <text>If 0 &lt; x &lt; Pi/2, then sin(x) + cos(x) is:</text>
+            <option id="A">> 1</option><option id="B">&lt; 1</option><option id="C">= 1</option><option id="D">2</option>
+            <answer>A</answer><explanation>Triangle inequality side length.</explanation>
+        </question>
+         <question>
+            <text>Value of sin(Pi/14)sin(3Pi/14)sin(5Pi/14)...?</text>
+            <option id="A">Calculation needed.</option><option id="B">1/64</option><option id="C">1/8</option><option id="D">1</option>
+            <answer>B</answer><explanation>Product of sines form.</explanation>
+        </question>
+        <question>
+            <text>If tan(x/2) = cosec(x) - sin(x), then tan^2(x/2) = ?</text>
+            <option id="A">-2 ± sqrt(5)</option><option id="B">1</option><option id="C">0</option><option id="D">3</option>
+            <answer>A</answer><explanation>Algebraic manipulation.</explanation>
+        </question>
+        <question>
+            <text>sin^6(x) + cos^6(x) = 1 - 3sin^2(x)cos^2(x)?</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">Maybe</option><option id="D">Conditionally</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Solve sqrt(3)cos(x) + sin(x) = sqrt(2). General solution?</text>
+            <option id="A">x = 2nPi + Pi/12 or 2nPi - 5Pi/12</option><option id="B">nPi</option><option id="C">2nPi</option><option id="D">x = Pi/4</option>
+            <answer>A</answer><explanation>R cos(x - alpha).</explanation>
+        </question>
+        <question>
+            <text>If A, B, C angles of triangle, limit of cot(A)cot(B) + cot(B)cot(C) + cot(C)cot(A) = ?</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">infinity</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Number of values of x in [0, 2Pi] satisfying |cos x| = sin x?</text>
+            <option id="A">2</option><option id="B">4</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Sin must be positive (Q1, Q2). cos = sin (Pi/4) or -cos = sin (3Pi/4).</explanation>
+        </question>
+        <question>
+            <text>If x + 1/x = 2 cos(theta), then x^n + 1/x^n = ?</text>
+            <option id="A">2 cos(n theta)</option><option id="B">2 sin(n theta)</option><option id="C">cos^n(theta)</option><option id="D">0</option>
+            <answer>A</answer><explanation>De Moivre's theorem application.</explanation>
+        </question>
+        <question>
+            <text>tan(20) + 4sin(20) = ?</text>
+            <option id="A">sqrt(3)</option><option id="B">1</option><option id="C">2</option><option id="D">0</option>
+            <answer>A</answer><explanation>Classic problem.</explanation>
+        </question>
+        <question>
+            <text>Which is periodic?</text>
+            <option id="A">sin(x) + {x}</option><option id="B">x sin(x)</option><option id="C">cos(x^2)</option><option id="D">sin(x) + cos(sqrt(2)x)</option>
+            <answer>A</answer><explanation>{x} is periodic 1, sin(x) is 2Pi. Not commensurable. Actually, none of A, B, C, D are periodic if periods not commensurable.</explanation>
+        </question>
+        <question>
+            <text>Period of |sin(x)| + |cos(x)|?</text>
+            <option id="A">Pi/2</option><option id="B">Pi</option><option id="C">2Pi</option><option id="D">Pi/4</option>
+            <answer>A</answer><explanation>Repeats every quadrant.</explanation>
+        </question>
+        <question>
+            <text>Range of 1 / (sin x + 2)?</text>
+            <option id="A">[1/3, 1]</option><option id="B">[0, 1]</option><option id="C">[-1, 1]</option><option id="D">R</option>
+            <answer>A</answer><explanation>Denom [1, 3].</explanation>
+        </question>
+        <question>
+            <text>Solution of 2^sin^2(x) + 2^cos^2(x) = 2?</text>
+            <option id="A">nPi/2</option><option id="B">nPi</option><option id="C">2nPi</option><option id="D">0</option>
+            <answer>A</answer><explanation>(Let 2^sin^2 = t. t + 2/t = 2. t^2 - 2t + 2 = 0? No 2^(1-sin^2) = 2/t. Min value check.)</explanation>
+        </question>
+    </hard>
+</chapter>

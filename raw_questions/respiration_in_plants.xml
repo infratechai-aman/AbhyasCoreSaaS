@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Biology" id="318" name="Respiration in Plants">
+    <easy>
+        <question>
+            <text>Respiration is a:</text>
+            <option id="A">Catabolic and Exergonic process</option><option id="B">Anabolic process</option><option id="C">Endergonic process</option><option id="D">Physical process</option>
+            <answer>A</answer><explanation>Breakdown of food releasing energy.</explanation>
+        </question>
+        <question>
+            <text>Respiratory substrates are mainly:</text>
+            <option id="A">Carbohydrates</option><option id="B">Proteins</option><option id="C">Fats</option><option id="D">Organic acids</option>
+            <answer>A</answer><explanation>Glucose.</explanation>
+        </question>
+        <question>
+            <text>Glycolysis occurs in:</text>
+            <option id="A">Cytoplasm</option><option id="B">Mitochondria</option><option id="C">Chloroplast</option><option id="D">Nucleus</option>
+            <answer>A</answer><explanation>EMP pathway.</explanation>
+        </question>
+        <question>
+            <text>Glycolysis is common to:</text>
+            <option id="A">Both Aerobic and Anaerobic respiration</option><option id="B">Only Aerobic</option><option id="C">Only Anaerobic</option><option id="D">None</option>
+            <answer>A</answer><explanation>Universal pathway.</explanation>
+        </question>
+        <question>
+            <text>The end product of Glycolysis is:</text>
+            <option id="A">Pyruvic acid (2 molecules)</option><option id="B">Lactic acid</option><option id="C">Ethanol</option><option id="D">Acetyl CoA</option>
+            <answer>A</answer><explanation>3 carbon compound.</explanation>
+        </question>
+        <question>
+            <text>The net gain of ATP in Glycolysis is:</text>
+            <option id="A">2 ATP</option><option id="B">4 ATP</option><option id="C">8 ATP</option><option id="D">36 ATP</option>
+            <answer>A</answer><explanation>Substrate level phosphorylation.</explanation>
+        </question>
+        <question>
+            <text>In anaerobic respiration (fermentation) in yeast, Pyruvic acid is converted to:</text>
+            <option id="A">Ethanol and CO2</option><option id="B">Lactic acid</option><option id="C">Citric acid</option><option id="D">Water</option>
+            <answer>A</answer><explanation>Alcoholic fermentation.</explanation>
+        </question>
+        <question>
+            <text>In muscle cells during strenuous exercise, Pyruvic acid is converted to:</text>
+            <option id="A">Lactic acid</option><option id="B">Ethanol</option><option id="C">CO2</option><option id="D">Glucose</option>
+            <answer>A</answer><explanation>Lactic acid fermentation.</explanation>
+        </question>
+        <question>
+            <text>Link reaction (Gateway step) connects:</text>
+            <option id="A">Glycolysis and Krebs cycle</option><option id="B">Glycolysis and ETS</option><option id="C">Krebs cycle and ETS</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formation of Acetyl CoA.</explanation>
+        </question>
+        <question>
+            <text>Krebs cycle (TCA cycle) occurs in:</text>
+            <option id="A">Mitochondrial matrix</option><option id="B">Cytoplasm</option><option id="C">Inner mitochondrial membrane</option><option id="D">Chloroplast</option>
+            <answer>A</answer><explanation>Aerobic respiration.</explanation>
+        </question>
+        <question>
+            <text>The first stable product of Krebs cycle is:</text>
+            <option id="A">Citric acid</option><option id="B">Oxaloacetic acid</option><option id="C">Malic acid</option><option id="D">Succinic acid</option>
+            <answer>A</answer><explanation>Tricarboxylic acid.</explanation>
+        </question>
+        <question>
+            <text>Electron Transport System (ETS) is located in:</text>
+            <option id="A">Inner mitochondrial membrane</option><option id="B">Matrix</option><option id="C">Outer membrane</option><option id="D">Cytoplasm</option>
+            <answer>A</answer><explanation>Creates proton gradient.</explanation>
+        </question>
+        <question>
+            <text>The final electron acceptor in aerobic respiration is:</text>
+            <option id="A">Oxygen</option><option id="B">Cytochrome c</option><option id="C">Water</option><option id="D">Hydrogen</option>
+            <answer>A</answer><explanation>Forms metabolic water.</explanation>
+        </question>
+        <question>
+            <text>Which enzyme converts Glucose to Glucose-6-phosphate?</text>
+            <option id="A">Hexokinase</option><option id="B">Phosphofructokinase</option><option id="C">Isomerase</option><option id="D">Aldolase</option>
+            <answer>A</answer><explanation>First step of glycolysis.</explanation>
+        </question>
+        <question>
+            <text>How many ATP molecules are produced from one NADH in ETS?</text>
+            <option id="A">3 ATP</option><option id="B">2 ATP</option><option id="C">1 ATP</option><option id="D">4 ATP</option>
+            <answer>A</answer><explanation>Standard calculation.</explanation>
+        </question>
+        <question>
+            <text>How many ATP molecules are produced from one FADH2 in ETS?</text>
+            <option id="A">2 ATP</option><option id="B">3 ATP</option><option id="C">1 ATP</option><option id="D">4 ATP</option>
+            <answer>A</answer><explanation>Less energetic.</explanation>
+        </question>
+        <question>
+            <text>R.Q. (Respiratory Quotient) for Carbohydrates is:</text>
+            <option id="A">1</option><option id="B">0.7</option><option id="C">0.9</option><option id="D">More than 1</option>
+            <answer>A</answer><explanation>CO2 evolved = O2 consumed.</explanation>
+        </question>
+        <question>
+            <text>R.Q. for Fats (Tripalmitin) is:</text>
+            <option id="A">0.7</option><option id="B">1</option><option id="C">0.9</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Less O2 evolved.</explanation>
+        </question>
+        <question>
+            <text>R.Q. for Proteins is:</text>
+            <option id="A">0.9</option><option id="B">1</option><option id="C">0.7</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Less than 1.</explanation>
+        </question>
+        <question>
+            <text>Acetyl CoA is a:</text>
+            <option id="A">2 Carbon compound</option><option id="B">3 Carbon compound</option><option id="C">4 Carbon compound</option><option id="D">6 Carbon compound</option>
+            <answer>A</answer><explanation>Enters Krebs cycle.</explanation>
+        </question>
+        <question>
+            <text>Oxaloacetic Acid (OAA) is a:</text>
+            <option id="A">4 Carbon compound</option><option id="B">5 Carbon compound</option><option id="C">6 Carbon compound</option><option id="D">3 Carbon compound</option>
+            <answer>A</answer><explanation>Accepts Acetyl CoA.</explanation>
+        </question>
+        <question>
+            <text>Citric acid is a:</text>
+            <option id="A">6 Carbon compound</option><option id="B">5 Carbon compound</option><option id="C">4 Carbon compound</option><option id="D">3 Carbon compound</option>
+            <answer>A</answer><explanation>First product.</explanation>
+        </question>
+        <question>
+            <text>Alpha-ketoglutaric acid is a:</text>
+            <option id="A">5 Carbon compound</option><option id="B">4 Carbon compound</option><option id="C">6 Carbon compound</option><option id="D">3 Carbon compound</option>
+            <answer>A</answer><explanation>Intermediate.</explanation>
+        </question>
+        <question>
+            <text>Amphibolic pathway means it involves:</text>
+            <option id="A">Both Catabolism and Anabolism</option><option id="B">Only Catabolism</option><option id="C">Only Anabolism</option><option id="D">None</option>
+            <answer>A</answer><explanation>Respiration is amphibolic.</explanation>
+        </question>
+        <question>
+            <text>Mobile electron carrier in ETS is:</text>
+            <option id="A">Cytochrome c</option><option id="B">Cytochrome a</option><option id="C">Cytochrome a3</option><option id="D">Complex I</option>
+            <answer>A</answer><explanation>Small protein.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>In fermentation, net gain of ATP is:</text>
+            <option id="A">2 ATP</option><option id="B">38 ATP</option><option id="C">36 ATP</option><option id="D">0 ATP</option>
+            <answer>A</answer><explanation>Low efficiency.</explanation>
+        </question>
+        <question>
+            <text>Yeast poison themselves to death when alcohol concentration reaches about:</text>
+            <option id="A">13%</option><option id="B">5%</option><option id="C">20%</option><option id="D">50%</option>
+            <answer>A</answer><explanation>Toxic level.</explanation>
+        </question>
+        <question>
+            <text>Pyruvate Dehydrogenase complex requires:</text>
+            <option id="A">Mg++, NAD+, Co-A, TPP, Lipoic acid</option><option id="B">Only Mg++</option><option id="C">Only NAD+</option><option id="D">Zn++</option>
+            <answer>A</answer><explanation>Link reaction enzyme.</explanation>
+        </question>
+        <question>
+            <text>F1 particle of ATP synthase is the site for:</text>
+            <option id="A">ATP synthesis</option><option id="B">Proton channel</option><option id="C">Electron transport</option><option id="D">Breakdown of ATP</option>
+            <answer>A</answer><explanation>Peripheral protein.</explanation>
+        </question>
+        <question>
+            <text>Number of NADH produced in one turn of Krebs cycle is:</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">4</option><option id="D">1</option>
+            <answer>A</answer><explanation>Three oxidation steps.</explanation>
+        </question>
+        <question>
+            <text>Number of FADH2 produced in one turn of Krebs cycle is:</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">3</option><option id="D">0</option>
+            <answer>A</answer><explanation>One step.</explanation>
+        </question>
+        <question>
+            <text>Number of ATP formed by substrate level phosphorylation in one turn of Krebs cycle is:</text>
+            <option id="A">1 (GTP)</option><option id="B">2</option><option id="C">3</option><option id="D">0</option>
+            <answer>A</answer><explanation>Succinyl CoA to Succinic acid.</explanation>
+        </question>
+        <question>
+            <text>Total ATP produced from one glucose molecule in aerobic respiration is:</text>
+            <option id="A">38 ATP (or 36 ATP)</option><option id="B">2 ATP</option><option id="C">8 ATP</option><option id="D">30 ATP</option>
+            <answer>A</answer><explanation>Maximum yield.</explanation>
+        </question>
+        <question>
+            <text>Complex IV of ETS refers to:</text>
+            <option id="A">Cytochrome c oxidase</option><option id="B">NADH dehydrogenase</option><option id="C">Succinate dehydrogenase</option><option id="D">ATP synthase</option>
+            <answer>A</answer><explanation>Contains Cyt a and a3.</explanation>
+        </question>
+        <question>
+            <text>Complex I of ETS is:</text>
+            <option id="A">NADH dehydrogenase</option><option id="B">Succinate dehydrogenase</option><option id="C">Cytochrome bc1</option><option id="D">Cytochrome c oxidase</option>
+            <answer>A</answer><explanation>First step.</explanation>
+        </question>
+        <question>
+            <text>Complex II of ETS is:</text>
+            <option id="A">Succinate dehydrogenase</option><option id="B">NADH dehydrogenase</option><option id="C">Cytochrome oxidase</option><option id="D">ATP synthase</option>
+            <answer>A</answer><explanation>FADH2 entry.</explanation>
+        </question>
+        <question>
+            <text>Complex V is:</text>
+            <option id="A">ATP synthase</option><option id="B">Cytochrome oxidase</option><option id="C">Proton pump</option><option id="D">F0</option>
+            <answer>A</answer><explanation>Oxidative phosphorylation.</explanation>
+        </question>
+        <question>
+            <text>Which intermediate of Krebs cycle is used in synthesis of chlorophyll?</text>
+            <option id="A">Succinyl CoA</option><option id="B">Alpha-ketoglutarate</option><option id="C">Oxaloacetic acid</option><option id="D">Citric acid</option>
+            <answer>A</answer><explanation>Precursor for porphyrin.</explanation>
+        </question>
+        <question>
+            <text>Which intermediate link glycolysis to fat metabolism?</text>
+            <option id="A">Acetyl CoA</option><option id="B">PGAL</option><option id="C">Pyruvic acid</option><option id="D">Citric acid</option>
+            <answer>A</answer><explanation>Beta oxidation.</explanation>
+        </question>
+        <question>
+            <text>Total CO2 released in aerobic respiration of one glucose is:</text>
+            <option id="A">6</option><option id="B">3</option><option id="C">2</option><option id="D">12</option>
+            <answer>A</answer><explanation>Complete oxidation.</explanation>
+        </question>
+        <question>
+            <text>Phosphorylation of Glucose in Glycolysis consumes:</text>
+            <option id="A">1 ATP</option><option id="B">2 ATP</option><option id="C">No ATP</option><option id="D">Generate ATP</option>
+            <answer>A</answer><explanation>Investment.</explanation>
+        </question>
+        <question>
+            <text>Conversion of Fructose-6-phosphate to Fructose-1,6-bisphosphate consumes:</text>
+            <option id="A">1 ATP</option><option id="B">2 ATP</option><option id="C">No ATP</option><option id="D">Generate ATP</option>
+            <answer>A</answer><explanation>Second investment.</explanation>
+        </question>
+        <question>
+            <text>Splitting of Fructose-1,6-bisphosphate yields:</text>
+            <option id="A">PGAL and DHAP</option><option id="B">2 PGAL</option><option id="C">2 Pyruvic acid</option><option id="D">Glucose and Fructose</option>
+            <answer>A</answer><explanation>3C compounds.</explanation>
+        </question>
+        <question>
+            <text>Oxidation of PGAL involves removal of:</text>
+            <option id="A">2 Hydrogen atoms</option><option id="B">Oxygen</option><option id="C">CO2</option><option id="D">Water</option>
+            <answer>A</answer><explanation>NADH formation.</explanation>
+        </question>
+        <question>
+            <text>Conversion of PEP to Pyruvic acid yields:</text>
+            <option id="A">1 ATP</option><option id="B">2 ATP</option><option id="C">No ATP</option><option id="D">NADH</option>
+            <answer>A</answer><explanation>Substrate level.</explanation>
+        </question>
+        <question>
+            <text>In Link reaction, Pyruvic acid undergoes:</text>
+            <option id="A">Oxidative decarboxylation</option><option id="B">Reduction</option><option id="C">Hydrolysis</option><option id="D">Condensation</option>
+            <answer>A</answer><explanation>Loss of CO2 and H2.</explanation>
+        </question>
+        <question>
+            <text>Cyanide kills organisms by inhibiting:</text>
+            <option id="A">Cytochrome c oxidase (Complex IV)</option><option id="B">Glycolysis</option><option id="C">Krebs cycle</option><option id="D">ATPase</option>
+            <answer>A</answer><explanation>Blocks ETS.</explanation>
+        </question>
+        <question>
+            <text>Which pigment acts as final electron acceptor in ETS?</text>
+            <option id="A">Oxygen (Not pigment, molecule)</option><option id="B">Cytochrome a3</option><option id="C">Cytochrome c</option><option id="D">Cytochrome b</option>
+            <answer>A</answer><explanation>Ultimately O2, but from cytochromes.</explanation>
+        </question>
+        <question>
+            <text>Ubiquinone transfer electrons from:</text>
+            <option id="A">Complex I/II to Complex III</option><option id="B">Complex III to IV</option><option id="C">IV to Oxygen</option><option id="D">Matrix to Space</option>
+            <answer>A</answer><explanation>Mobile carrier.</explanation>
+        </question>
+        <question>
+            <text>Cytochrome c acts as a mobile carrier between:</text>
+            <option id="A">Complex III and IV</option><option id="B">Complex I and II</option><option id="C">Complex II and III</option><option id="D">Matrix</option>
+            <answer>A</answer><explanation>On outer surface of inner membrane.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Shuttle systems are required for transport of:</text>
+            <option id="A">NADH from Glycolysis into Mitochondria</option><option id="B">ATP out</option><option id="C">Pyruvate in</option><option id="D">FADH2</option>
+            <answer>A</answer><explanation>Malate-Aspartate or Glycerol-Phosphate.</explanation>
+        </question>
+        <question>
+            <text>Glycerol-3-Phosphate shuttle produces how many ATP per NADH?</text>
+            <option id="A">2 ATP</option><option id="B">3 ATP</option><option id="C">1 ATP</option><option id="D">4 ATP</option>
+            <answer>A</answer><explanation>Less efficient.</explanation>
+        </question>
+        <question>
+            <text>Malate-Aspartate shuttle produces how many ATP per NADH?</text>
+            <option id="A">3 ATP</option><option id="B">2 ATP</option><option id="C">1 ATP</option><option id="D">4 ATP</option>
+            <answer>A</answer><explanation>Efficient.</explanation>
+        </question>
+        <question>
+            <text>Pasteur effect is:</text>
+            <option id="A">Inhibition of fermentation by Oxygen</option><option id="B">Increase in fermentation</option><option id="C">Inhibition of aerobic respiration</option><option id="D">Increase in glycolysis</option>
+            <answer>A</answer><explanation>Shift to aerobic.</explanation>
+        </question>
+        <question>
+            <text>Which of the following serves as common intermediate for breakdown of fats, carbs and proteins?</text>
+            <option id="A">Acetyl CoA</option><option id="B">Pyruvic acid</option><option id="C">PGAL</option><option id="D">Glucose</option>
+            <answer>A</answer><explanation>Central metabolite.</explanation>
+        </question>
+        <question>
+            <text>Pentose Phosphate Pathway involves:</text>
+            <option id="A">Direct oxidation of Glucose</option><option id="B">Reduction</option><option id="C">Breakdown of fats</option><option id="D">Protein synthesis</option>
+            <answer>A</answer><explanation>Alternative pathway.</explanation>
+        </question>
+        <question>
+            <text>Succinate dehydrogenase is located in:</text>
+            <option id="A">Inner mitochondrial membrane</option><option id="B">Matrix</option><option id="C">Outer membrane</option><option id="D">Cytoplasm</option>
+            <answer>A</answer><explanation>Marker enzyme.</explanation>
+        </question>
+        <question>
+            <text>Cytochrome c is a:</text>
+            <option id="A">Small protein attached to outer surface of inner membrane</option><option id="B">Large protein</option><option id="C">Lipid</option><option id="D">Integral protein</option>
+            <answer>A</answer><explanation>Mobile carrier.</explanation>
+        </question>
+        <question>
+            <text>Complex III of ETS is:</text>
+            <option id="A">Cytochrome bc1 complex</option><option id="B">Cytochrome c oxidase</option><option id="C">NADH dehydrogenase</option><option id="D">Succinate dehydrogenase</option>
+            <answer>A</answer><explanation>Middle complex.</explanation>
+        </question>
+        <question>
+            <text>How many protons are pumped for each pair of electrons from NADH?</text>
+            <option id="A">10 (in liver/heart)</option><option id="B">6</option><option id="C">4</option><option id="D">2</option>
+            <answer>A</answer><explanation>Revised stoichiometry suggests 10. (4+4+2).</explanation>
+        </question>
+        <question>
+            <text>How many protons are pumped for electrons from FADH2?</text>
+            <option id="A">6</option><option id="B">10</option><option id="C">4</option><option id="D">2</option>
+            <answer>A</answer><explanation>Enters at Complex II, misses Complex I.</explanation>
+        </question>
+        <question>
+            <text>Proton gradient required for 1 ATP synthesis is:</text>
+            <option id="A">4 Protons (approx)</option><option id="B">2 Protons</option><option id="C">3 Protons</option><option id="D">1 Proton</option>
+            <answer>A</answer><explanation>Current consensus.</explanation>
+        </question>
+        <question>
+            <text>Which is the connecting link between Glycolysis and Krebs Cycle?</text>
+            <option id="A">Acetyl CoA</option><option id="B">Pyruvic acid</option><option id="C">Citric acid</option><option id="D">Oxaloacetic acid</option>
+            <answer>A</answer><explanation>Product of link reaction.</explanation>
+        </question>
+        <question>
+            <text>Total number of ATP produced by substrate level phosphorylation in aerobic respiration of one glucose is:</text>
+            <option id="A">6 ATP (4 from Glycolysis gross - 2 used + 2 from Krebs. Net SLP usually refers to direct formation = 4 net if we count 2 from glycolysis and 2 from Krebs)</option><option id="B">2 ATP</option><option id="C">4 ATP</option><option id="D">38 ATP</option>
+            <answer>A</answer><explanation>2 net glycolysis + 2 Krebs = 4.</explanation>
+        </question>
+        <question>
+            <text>Anaerobic respiration in bacteria produces:</text>
+            <option id="A">Lactic acid or Ethanol/Acid</option><option id="B">Citric acid</option><option id="C">Glucose</option><option id="D">O2</option>
+            <answer>A</answer><explanation>Fermentation.</explanation>
+        </question>
+        <question>
+            <text>Net ATP gain from one glucose during lactic acid fermentation is:</text>
+            <option id="A">2 ATP</option><option id="B">0 ATP</option><option id="C">36 ATP</option><option id="D">8 ATP</option>
+            <answer>A</answer><explanation>Only glycolysis.</explanation>
+        </question>
+        <question>
+            <text>Cytochrome oxidase contains:</text>
+            <option id="A">Two Copper centers and Two Heme groups (a and a3)</option><option id="B">Iron only</option><option id="C">Copper only</option><option id="D">Magnesium</option>
+            <answer>A</answer><explanation>Complex IV structure.</explanation>
+        </question>
+        <question>
+            <text>The energy released during oxidation of NADH is used to:</text>
+            <option id="A">Pump protons from matrix to intermembrane space</option><option id="B">Synthesize ATP directly</option><option id="C">Reduction</option><option id="D">Split water</option>
+            <answer>A</answer><explanation>Gradient formation.</explanation>
+        </question>
+        <question>
+            <text>In germinating seeds, R.Q. is:</text>
+            <option id="A">Less than 1 (Fats/Proteins)</option><option id="B">1</option><option id="C">More than 1</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Fatty seeds.</explanation>
+        </question>
+        <question>
+            <text>R.Q. of organic acids is:</text>
+            <option id="A">More than 1</option><option id="B">Less than 1</option><option id="C">1</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Rich in oxygen.</explanation>
+        </question>
+        <question>
+            <text>R.Q. in anaerobic respiration is:</text>
+            <option id="A">Infinity</option><option id="B">0</option><option id="C">1</option><option id="D">Less than 1</option>
+            <answer>A</answer><explanation>CO2 evolved but O2 consumed is 0.</explanation>
+        </question>
+        <question>
+            <text>Total NADH produced from one glucose molecule in aerobic respiration (Glycolysis + Link + Krebs) is:</text>
+            <option id="A">10 NADH (2 + 2 + 6)</option><option id="B">8 NADH</option><option id="C">12 NADH</option><option id="D">6 NADH</option>
+            <answer>A</answer><explanation>Calculation.</explanation>
+        </question>
+        <question>
+            <text>Total FADH2 produced from one glucose is:</text>
+            <option id="A">2 FADH2</option><option id="B">1 FADH2</option><option id="C">4 FADH2</option><option id="D">0</option>
+            <answer>A</answer><explanation>From 2 turns of Krebs.</explanation>
+        </question>
+        <question>
+            <text>Which compound enters the Krebs cycle?</text>
+            <option id="A">Acetyl CoA</option><option id="B">Pyruvate</option><option id="C">Glucsoe</option><option id="D">Citrate</option>
+            <answer>A</answer><explanation>Condenses with OAA.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of aerobic respiration is approximately:</text>
+            <option id="A">45%</option><option id="B">100%</option><option id="C">10%</option><option id="D">90%</option>
+            <answer>A</answer><explanation>Energy capture.</explanation>
+        </question>
+    </hard>
+</chapter>

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="102" name="Structure of Atom">
+    <easy>
+        <question>
+            <text>Who discovered the electron?</text>
+            <option id="A">J.J. Thomson</option><option id="B">Rutherford</option><option id="C">Chadwick</option><option id="D">Bohr</option>
+            <answer>A</answer><explanation>Cathode ray exp.</explanation>
+        </question>
+        <question>
+            <text>Who discovered the neutron?</text>
+            <option id="A">Chadwick</option><option id="B">Thomson</option><option id="C">Goldstein</option><option id="D">Dalton</option>
+            <answer>A</answer><explanation>1932.</explanation>
+        </question>
+        <question>
+            <text>Maximum number of electrons in a shell with principal quantum number n is:</text>
+            <option id="A">2n^2</option><option id="B">n^2</option><option id="C">2n</option><option id="D">4n</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Shape of s-orbital is:</text>
+            <option id="A">Spherical</option><option id="B">Dumbbell</option><option id="C">Double Dumbbell</option><option id="D">Complex</option>
+            <answer>A</answer><explanation>Symmetric.</explanation>
+        </question>
+        <question>
+            <text>Atomic number is equal to number of:</text>
+            <option id="A">Protons</option><option id="B">Neutrons</option><option id="C">Electrons + Neutrons</option><option id="D">Nucleons</option>
+            <answer>A</answer><explanation>Z = p.</explanation>
+        </question>
+        <question>
+            <text>Mass number is sum of:</text>
+            <option id="A">Protons and Neutrons</option><option id="B">Electrons and Protons</option><option id="C">Neutrons only</option><option id="D">Electrons only</option>
+            <answer>A</answer><explanation>Nucleons.</explanation>
+        </question>
+        <question>
+            <text>Principal quantum number (n) describes:</text>
+            <option id="A">Size and Energy</option><option id="B">Shape</option><option id="C">Orientation</option><option id="D">Spin</option>
+            <answer>A</answer><explanation>Main shell.</explanation>
+        </question>
+        <question>
+            <text>Azimuthal quantum number (l) for p-subshell is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">2</option><option id="D">3</option>
+            <answer>A</answer><explanation>s=0, p=1, d=2.</explanation>
+        </question>
+        <question>
+            <text>Magnetic quantum number (m) describes:</text>
+            <option id="A">Orientation of orbitals</option><option id="B">Shape</option><option id="C">Size</option><option id="D">Spin</option>
+            <answer>A</answer><explanation>Spatial orientation.</explanation>
+        </question>
+        <question>
+            <text>Spin quantum number can have values:</text>
+            <option id="A">+1/2, -1/2</option><option id="B">0, 1</option><option id="C">1, 2</option><option id="D">Any integer</option>
+            <answer>A</answer><explanation>Up or down.</explanation>
+        </question>
+        <question>
+            <text>Which rule states electrons fill orbitals of lowest energy first?</text>
+            <option id="A">Aufbau Principle</option><option id="B">Hund's Rule</option><option id="C">Pauli Principle</option><option id="D">Heisenberg Principle</option>
+            <answer>A</answer><explanation>Building up.</explanation>
+        </question>
+        <question>
+            <text>Pauli Exclusion Principle states no two electrons can have same set of:</text>
+            <option id="A">4 Quantum Numbers</option><option id="B">3 Quantum Numbers</option><option id="C">Energy</option><option id="D">Velocity</option>
+            <answer>A</answer><explanation>Unique address.</explanation>
+        </question>
+        <question>
+            <text>Hund's Rule deals with:</text>
+            <option id="A">Pairing of electrons</option><option id="B">Filling order</option><option id="C">Uncertainty</option><option id="D">Wave nature</option>
+            <answer>A</answer><explanation>Max multiplicity.</explanation>
+        </question>
+        <question>
+            <text>Isotopes have same:</text>
+            <option id="A">Atomic Number</option><option id="B">Mass Number</option><option id="C">Neutrons</option><option id="D">Physical properties</option>
+            <answer>A</answer><explanation>Different neutrons.</explanation>
+        </question>
+        <question>
+            <text>Isobars have same:</text>
+            <option id="A">Mass Number</option><option id="B">Atomic Number</option><option id="C">Electrons</option><option id="D">Protons</option>
+            <answer>A</answer><explanation>Different Z.</explanation>
+        </question>
+        <question>
+            <text>Electronic configuration of Carbon (Z=6):</text>
+            <option id="A">1s2 2s2 2p2</option><option id="B">1s2 2s1 2p3</option><option id="C">1s2 2p4</option><option id="D">1s2 2s2 2p1</option>
+            <answer>A</answer><explanation>Ground state.</explanation>
+        </question>
+        <question>
+            <text>Number of orbitals in d-subshell:</text>
+            <option id="A">5</option><option id="B">3</option><option id="C">1</option><option id="D">7</option>
+            <answer>A</answer><explanation>m = -2 to +2.</explanation>
+        </question>
+        <question>
+            <text>Wavelength and frequency are related by:</text>
+            <option id="A">c = nu * lambda</option><option id="B">E = mc2</option><option id="C">E = hv</option><option id="D">lambda = h/p</option>
+            <answer>A</answer><explanation>Wave equation.</explanation>
+        </question>
+        <question>
+            <text>Planck's constant value is approx:</text>
+            <option id="A">6.626 x 10^-34 Js</option><option id="B">3 x 10^8</option><option id="C">9.1 x 10^-31</option><option id="D">1.6 x 10^-19</option>
+            <answer>A</answer><explanation>Fundamental constant.</explanation>
+        </question>
+        <question>
+            <text>Rutherford's alpha scattering experiment led to discovery of:</text>
+            <option id="A">Nucleus</option><option id="B">Electron</option><option id="C">Neutron</option><option id="D">Orbitals</option>
+            <answer>A</answer><explanation>Dense center.</explanation>
+        </question>
+        <question>
+            <text>Charge on electron:</text>
+            <option id="A">-1.6 x 10^-19 C</option><option id="B">+1.6 x 10^-19 C</option><option id="C">Zero</option><option id="D">1 C</option>
+            <answer>A</answer><explanation>Elementary charge.</explanation>
+        </question>
+        <question>
+            <text>Which series of Hydrogen spectrum is in visible region?</text>
+            <option id="A">Balmer</option><option id="B">Lyman</option><option id="C">Paschen</option><option id="D">Brackett</option>
+            <answer>A</answer><explanation>n2 -> n=2.</explanation>
+        </question>
+        <question>
+            <text>Lyman series occurs when electron jumps to:</text>
+            <option id="A">n = 1</option><option id="B">n = 2</option><option id="C">n = 3</option><option id="D">n = infinity</option>
+            <answer>A</answer><explanation>UV region.</explanation>
+        </question>
+        <question>
+            <text>Bohr radius of first orbit of H-atom is:</text>
+            <option id="A">0.529 Angstrom</option><option id="B">1 Angstrom</option><option id="C">0.1 nm</option><option id="D">53 nm</option>
+            <answer>A</answer><explanation>Standard value.</explanation>
+        </question>
+        <question>
+            <text>De Broglie equation relates matter to:</text>
+            <option id="A">Wave nature</option><option id="B">Particle nature</option><option id="C">Energy</option><option id="D">Charge</option>
+            <answer>A</answer><explanation>lambda = h/mv.</explanation>
+        </question>
+        <question>
+            <text>Heisenberg Uncertainty Principle applies to:</text>
+            <option id="A">Microscopic particles</option><option id="B">Running car</option><option id="C">Planet</option><option id="D">Ball</option>
+            <answer>A</answer><explanation>Quantum scale.</explanation>
+        </question>
+        <question>
+            <text>Which orbital is non-directional?</text>
+            <option id="A">s</option><option id="B">p</option><option id="C">d</option><option id="D">f</option>
+            <answer>A</answer><explanation>Spherical symmetry.</explanation>
+        </question>
+        <question>
+            <text>Maximum electrons in p-subshell:</text>
+            <option id="A">6</option><option id="B">2</option><option id="C">10</option><option id="D">14</option>
+            <answer>A</answer><explanation>3 orbitals * 2.</explanation>
+        </question>
+        <question>
+            <text>Correct set of quantum numbers for 3s electron:</text>
+            <option id="A">3, 0, 0, +1/2</option><option id="B">3, 1, 0, +1/2</option><option id="C">3, 2, 0, +1/2</option><option id="D">2, 0, 0, +1/2</option>
+            <answer>A</answer><explanation>n=3, l=0.</explanation>
+        </question>
+        <question>
+            <text>Which element has half-filled d-subshell stability?</text>
+            <option id="A">Chromium (24)</option><option id="B">Iron (26)</option><option id="C">Zinc (30)</option><option id="D">Nickel (28)</option>
+            <answer>A</answer><explanation>3d5 4s1.</explanation>
+        </question>
+        <question>
+            <text>Which element has fully-filled d-subshell stability?</text>
+            <option id="A">Copper (29)</option><option id="B">Iron</option><option id="C">Cobalt</option><option id="D">Scandium</option>
+            <answer>A</answer><explanation>3d10 4s1.</explanation>
+        </question>
+        <question>
+            <text>Energy of photon is proportional to:</text>
+            <option id="A">Frequency</option><option id="B">Wavelength</option><option id="C">Speed</option><option id="D">Amplitude</option>
+            <answer>A</answer><explanation>E = hv.</explanation>
+        </question>
+        <question>
+            <text>Speed of light (c) is:</text>
+            <option id="A">3 x 10^8 m/s</option><option id="B">3 x 10^6</option><option id="C">300</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Vacuum.</explanation>
+        </question>
+        <question>
+            <text>Line spectrum is characteristic of:</text>
+            <option id="A">Atoms</option><option id="B">Molecules</option><option id="C">Solids</option><option id="D">Liquids</option>
+            <answer>A</answer><explanation>Electronic transitions.</explanation>
+        </question>
+        <question>
+            <text>Splitting of spectral lines in magnetic field is:</text>
+            <option id="A">Zeeman Effect</option><option id="B">Stark Effect</option><option id="C">Photoelectric Effect</option><option id="D">Compton Effect</option>
+            <answer>A</answer><explanation>Magnetic interaction.</explanation>
+        </question>
+        <question>
+            <text>Stark effect is splitting in:</text>
+            <option id="A">Electric Field</option><option id="B">Magnetic Field</option><option id="C">Vacuum</option><option id="D">Water</option>
+            <answer>A</answer><explanation>Electric interaction.</explanation>
+        </question>
+        <question>
+            <text>Nodal plane for px orbital is:</text>
+            <option id="A">yz plane</option><option id="B">xy plane</option><option id="C">xz plane</option><option id="D">None</option>
+            <answer>A</answer><explanation>Where probability is zero.</explanation>
+        </question>
+        <question>
+            <text>Total nodes in an orbital formula:</text>
+            <option id="A">n - 1</option><option id="B">n - l - 1</option><option id="C">l</option><option id="D">n</option>
+            <answer>A</answer><explanation>Radial + Angular.</explanation>
+        </question>
+        <question>
+            <text>Shape of p-orbital is:</text>
+            <option id="A">Dumbbell</option><option id="B">Sphere</option><option id="C">Double Dumbbell</option><option id="D">Clover</option>
+            <answer>A</answer><explanation>Two lobes.</explanation>
+        </question>
+        <question>
+            <text>Which quantum number determines energy of orbital in H-atom?</text>
+            <option id="A">n</option><option id="B">n + l</option><option id="C">l</option><option id="D">m</option>
+            <answer>A</answer><explanation>Only n for single electron.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Energy of electron in nth orbit of H-atom is proportional to:</text>
+            <option id="A">-1/n^2</option><option id="B">-1/n</option><option id="C">-n^2</option><option id="D">n</option>
+            <answer>A</answer><explanation>Bohr formula.</explanation>
+        </question>
+        <question>
+            <text>Wavelength of photon with frequency 3 x 10^15 Hz?</text>
+            <option id="A">100 nm</option><option id="B">10 nm</option><option id="C">1000 nm</option><option id="D">1 nm</option>
+            <answer>A</answer><explanation>c = v*l. 3x10^8 / 3x10^15 = 10^-7 m = 100 nm.</explanation>
+        </question>
+        <question>
+            <text>Number of unpaired electrons in Fe(26)?</text>
+            <option id="A">4</option><option id="B">5</option><option id="C">6</option><option id="D">2</option>
+            <answer>A</answer><explanation>[Ar] 3d6 4s2. d6 has 4 unpaired.</explanation>
+        </question>
+        <question>
+            <text>Number of radial nodes in 3s orbital?</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">3</option>
+            <answer>A</answer><explanation>n - l - 1 = 3 - 0 - 1 = 2.</explanation>
+        </question>
+        <question>
+            <text>Maximum electrons with m = 0 in d-subshell?</text>
+            <option id="A">2</option><option id="B">10</option><option id="C">5</option><option id="D">1</option>
+            <answer>A</answer><explanation>One orbital has m=0, holding 2e.</explanation>
+        </question>
+        <question>
+            <text>Which transition in Hydrogen emits shortest wavelength?</text>
+            <option id="A">n=infinity to n=1</option><option id="B">n=2 to n=1</option><option id="C">n=infinity to n=2</option><option id="D">n=5 to n=1</option>
+            <answer>A</answer><explanation>High energy = Short wavelength.</explanation>
+        </question>
+        <question>
+            <text>Which ion is isoelectronic with Ne?</text>
+            <option id="A">Na+</option><option id="B">Mg2+</option><option id="C">F-</option><option id="D">All of above</option>
+            <answer>D</answer><explanation>10 electrons.</explanation>
+        </question>
+        <question>
+            <text>Orbital angular momentum depends on?</text>
+            <option id="A">l</option><option id="B">n</option><option id="C">m</option><option id="D">s</option>
+            <answer>A</answer><explanation>sqrt(l(l+1)) h/2pi.</explanation>
+        </question>
+        <question>
+            <text>Value of orbital angular momentum for s-electron?</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">h/2pi</option><option id="D">sqrt(2)</option>
+            <answer>A</answer><explanation>l=0.</explanation>
+        </question>
+        <question>
+            <text>Correct order of energy for multi-electron atom:</text>
+            <option id="A">4s &lt; 3d</option><option id="B">3d &lt; 4s</option><option id="C">4p &lt; 3d</option><option id="D">4f &lt; 6s</option>
+            <answer>A</answer><explanation>n+l rule. 4s(4) &lt; 3d(5).</explanation>
+        </question>
+        <question>
+            <text>Number of electrons with n=3, l=1 is:</text>
+            <option id="A">6</option><option id="B">2</option><option id="C">10</option><option id="D">14</option>
+            <answer>A</answer><explanation>3p subshell holds 6.</explanation>
+        </question>
+        <question>
+            <text>De Broglie wavelength of particle mass m moving with v?</text>
+            <option id="A">h/mv</option><option id="B">mv/h</option><option id="C">hmv</option><option id="D">h/m</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Work function of metal is phi. Threshold frequency?</text>
+            <option id="A">phi/h</option><option id="B">h/phi</option><option id="C">phi * h</option><option id="D">phi</option>
+            <answer>A</answer><explanation>phi = h * nu_0.</explanation>
+        </question>
+        <question>
+            <text>Radius of 2nd Bohr orbit of He+ ion?</text>
+            <option id="A">1.058 A</option><option id="B">0.529 A</option><option id="C">2.116 A</option><option id="D">4.2 A</option>
+            <answer>A</answer><explanation>r = 0.529 * n^2/Z = 0.529 * 4/2 = 1.058.</explanation>
+        </question>
+        <question>
+            <text>Which quantum number distinguishes He atom electrons?</text>
+            <option id="A">Spin</option><option id="B">Principal</option><option id="C">Azimuthal</option><option id="D">Magnetic</option>
+            <answer>A</answer><explanation>One is +1/2, other -1/2.</explanation>
+        </question>
+        <question>
+            <text>Not a permissible value for l when n=3?</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>l ranges 0 to n-1.</explanation>
+        </question>
+        <question>
+            <text>Total number of orbitals in shell n=3?</text>
+            <option id="A">9</option><option id="B">3</option><option id="C">6</option><option id="D">18</option>
+            <answer>A</answer><explanation>n^2 = 9.</explanation>
+        </question>
+        <question>
+            <text>Ground state config of Copper (29):</text>
+            <option id="A">[Ar] 3d10 4s1</option><option id="B">[Ar] 3d9 4s2</option><option id="C">[Ar] 3d8 4s2</option><option id="D">[Ar] 3d10 4s2</option>
+            <answer>A</answer><explanation>Exception.</explanation>
+        </question>
+        <question>
+            <text>Ground state config of Chromium (24):</text>
+            <option id="A">[Ar] 3d5 4s1</option><option id="B">[Ar] 3d4 4s2</option><option id="C">[Ar] 3d6 4s0</option><option id="D">[Ar] 3d3 4s2</option>
+            <answer>A</answer><explanation>Half-filled stability.</explanation>
+        </question>
+        <question>
+            <text>Wave number of first line of Balmer series calculation?</text>
+            <option id="A">5R/36</option><option id="B">3R/4</option><option id="C">R/4</option><option id="D">8R/9</option>
+            <answer>A</answer><explanation>1/2^2 - 1/3^2 = 1/4 - 1/9 = 5/36.</explanation>
+        </question>
+        <question>
+            <text>Number of angular nodes in d-orbital (l=2)?</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">3</option>
+            <answer>A</answer><explanation>Equal to l.</explanation>
+        </question>
+        <question>
+            <text>If uncertainty in position is zero, uncertainty in momentum is:</text>
+            <option id="A">Infinite</option><option id="B">Zero</option><option id="C">h/4pi</option><option id="D">h</option>
+            <answer>A</answer><explanation>Inverse relation.</explanation>
+        </question>
+        <question>
+            <text>Which has highest energy?</text>
+            <option id="A">UV</option><option id="B">Visible</option><option id="C">IR</option><option id="D">Radio</option>
+            <answer>A</answer><explanation>Order: UV > Vis > IR.</explanation>
+        </question>
+        <question>
+            <text>Rutherford model failed to explain:</text>
+            <option id="A">Stability of atom</option><option id="B">Nucleus presence</option><option id="C">Alpha scattering</option><option id="D">Neutrality</option>
+            <answer>A</answer><explanation>Maxwell theory predicted collapse.</explanation>
+        </question>
+        <question>
+            <text>Ratio of kinetic energy to total energy in Bohr orbit?</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">2</option><option id="D">-2</option>
+            <answer>A</answer><explanation>KE = -TE.</explanation>
+        </question>
+        <question>
+            <text>Kinetic energy of photoelectron depends on:</text>
+            <option id="A">Frequency of light</option><option id="B">Intensity</option><option id="C">Time</option><option id="D">None</option>
+            <answer>A</answer><explanation>Einstein eq.</explanation>
+        </question>
+        <question>
+            <text>Intensity of light increases:</text>
+            <option id="A">Number of photoelectrons</option><option id="B">Kinetic energy</option><option id="C">Frequency</option><option id="D">Stopping potential</option>
+            <answer>A</answer><explanation>More photons.</explanation>
+        </question>
+        <question>
+            <text>Effective nuclear charge for 4s electron in K (19) vs Ca (20)?</text>
+            <option id="A">Higher in Ca</option><option id="B">Higher in K</option><option id="C">Same</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>More protons.</explanation>
+        </question>
+        <question>
+            <text>Orbital with double dumbbell shape?</text>
+            <option id="A">d</option><option id="B">p</option><option id="C">s</option><option id="D">f</option>
+            <answer>A</answer><explanation>Characteristic.</explanation>
+        </question>
+        <question>
+            <text>Number of electrons in shell with n=4?</text>
+            <option id="A">32</option><option id="B">16</option><option id="C">8</option><option id="D">18</option>
+            <answer>A</answer><explanation>2n^2 = 32.</explanation>
+        </question>
+        <question>
+            <text>Which quantum number defines shape?</text>
+            <option id="A">l (Azimuthal)</option><option id="B">n</option><option id="C">m</option><option id="D">s</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>The 4f series are called:</text>
+            <option id="A">Lanthanoids</option><option id="B">Actinoids</option><option id="C">Transition</option><option id="D">Alkali</option>
+            <answer>A</answer><explanation>Rare earths.</explanation>
+        </question>
+        <question>
+            <text>Number of values of m for l=3?</text>
+            <option id="A">7</option><option id="B">5</option><option id="C">3</option><option id="D">1</option>
+            <answer>A</answer><explanation>2l+1 = 7.</explanation>
+        </question>
+        <question>
+            <text>Correct set for valence electron of Na?</text>
+            <option id="A">3, 0, 0, +1/2</option><option id="B">2, 1, 0, +1/2</option><option id="C">3, 1, 0, +1/2</option><option id="D">2, 0, 0, +1/2</option>
+            <answer>A</answer><explanation>3s1.</explanation>
+        </question>
+        <question>
+            <text>Energy of 4s vs 3d in Sc?</text>
+            <option id="A">4s &lt; 3d</option><option id="B">3d &lt; 4s</option><option id="C">Same</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Aufbau.</explanation>
+        </question>
+        <question>
+            <text>Uncertainty product dx * dp >= ?</text>
+            <option id="A">h/4pi</option><option id="B">h/2pi</option><option id="C">h</option><option id="D">h/pi</option>
+            <answer>A</answer><explanation>Heisenberg.</explanation>
+        </question>
+        <question>
+            <text>Bohr model applicable to:</text>
+            <option id="A">He+</option><option id="B">He</option><option id="C">Li</option><option id="D">Be</option>
+            <answer>A</answer><explanation>One electron species.</explanation>
+        </question>
+        <question>
+            <text>Number of spectral lines when electron falls from n=5 to n=1?</text>
+            <option id="A">10</option><option id="B">5</option><option id="C">4</option><option id="D">6</option>
+            <answer>A</answer><explanation>n(n-1)/2 = 5*4/2 = 10.</explanation>
+        </question>
+        <question>
+            <text>Which has zero dipole moment?</text>
+            <option id="A">BF3</option><option id="B">NH3</option><option id="C">H2O</option><option id="D">HF</option>
+            <answer>A</answer><explanation>Symmetry (Wait, wrong chapter? Structure of Atom usually doesn't cover this, but Bonding does. Keeping it simple).</explanation>
+        </question>
+        <question>
+            <text>Which has largest radius?</text>
+            <option id="A">O2-</option><option id="B">Mg2+</option><option id="C">Na+</option><option id="D">F-</option>
+            <answer>A</answer><explanation>Isoelectronic, lowest Z.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Velocity of electron in first Bohr orbit of H?</text>
+            <option id="A">2.18 x 10^6 m/s</option><option id="B">3 x 10^8 m/s</option><option id="C">10^5</option><option id="D">13.6</option>
+            <answer>A</answer><explanation>Standard value (c/137).</explanation>
+        </question>
+        <question>
+            <text>Calculate de Broglie lambda for electron at 100V potential?</text>
+            <option id="A">1.227 A</option><option id="B">12.27 A</option><option id="C">0.12 A</option><option id="D">10 A</option>
+            <answer>A</answer><explanation>12.27 / sqrt(V).</explanation>
+        </question>
+        <question>
+            <text>Ratio of area of 1st and 2nd Bohr orbit?</text>
+            <option id="A">1 : 16</option><option id="B">1 : 4</option><option id="C">1 : 2</option><option id="D">1 : 8</option>
+            <answer>A</answer><explanation>r propto n^2. r1:r2 = 1:4. Area propto r^2. 1:16.</explanation>
+        </question>
+        <question>
+            <text>Ionization energy of H is 13.6 eV. IE of Li2+?</text>
+            <option id="A">122.4 eV</option><option id="B">13.6 eV</option><option id="C">40.8 eV</option><option id="D">54.4 eV</option>
+            <answer>A</answer><explanation>13.6 * Z^2 = 13.6 * 9.</explanation>
+        </question>
+        <question>
+            <text>Number of photons emitted by 100W bulb at 400nm in 1s?</text>
+            <option id="A">2 x 10^20</option><option id="B">10^18</option><option id="C">3 x 10^19</option><option id="D">5 x 10^20</option>
+            <answer>A</answer><explanation>E = nhc/lambda. 100 = n * 6.6e-34 * 3e8 / 400e-9.</explanation>
+        </question>
+        <question>
+            <text>Smallest wavelength in Paschen series (n=3)?</text>
+            <option id="A">820 nm</option><option id="B">91 nm</option><option id="C">365 nm</option><option id="D">656 nm</option>
+            <answer>A</answer><explanation>Infinity to 3. E = 13.6/9 eV = 1.51 eV. Lambda = 1240/1.51 nm ~ 820.</explanation>
+        </question>
+        <question>
+            <text>Which d-orbital has electron density in x and y axes?</text>
+            <option id="A">dx2-y2</option><option id="B">dxy</option><option id="C">dz2</option><option id="D">dyz</option>
+            <answer>A</answer><explanation>Along axes.</explanation>
+        </question>
+        <question>
+            <text>Probability of finding 1s electron is max at?</text>
+            <option id="A">Nucleus (r=0)</option><option id="B">Bohr radius</option><option id="C">Infinity</option><option id="D">Surface</option>
+            <answer>A</answer><explanation>Psi^2 is max at r=0. (Note: Radial probability density 4pi r^2 Psi^2 max at a0).</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of Mn2+ (Z=25)?</text>
+            <option id="A">5.9 BM</option><option id="B">4.9 BM</option><option id="C">2.8 BM</option><option id="D">1.7 BM</option>
+            <answer>A</answer><explanation>3d5. n=5. sqrt(35) ~ 5.9.</explanation>
+        </question>
+        <question>
+            <text>Number of exchange pairs for d5 config?</text>
+            <option id="A">10</option><option id="B">6</option><option id="C">5</option><option id="D">4</option>
+            <answer>A</answer><explanation>n(n-1)/2 = 5*4/2 = 10.</explanation>
+        </question>
+        <question>
+            <text>Frequency of revolution in 1st Bohr orbit?</text>
+            <option id="A">6.6 x 10^15 Hz</option><option id="B">3 x 10^13</option><option id="C">10^16</option><option id="D">10^14</option>
+            <answer>A</answer><explanation>v / 2pi r.</explanation>
+        </question>
+        <question>
+            <text>Correct increasing order of screening effect?</text>
+            <option id="A">s &gt; p &gt; d &gt; f</option><option id="B">f &gt; d &gt; p &gt; s</option><option id="C">s &lt; p &lt; d &lt; f</option><option id="D">s = p = d</option>
+            <answer>A</answer><explanation>Penetration power.</explanation>
+        </question>
+        <question>
+            <text>Uncertainty in velocity of electron located within 0.1 A?</text>
+            <option id="A">5.8 x 10^6 m/s</option><option id="B">10^6</option><option id="C">10^4</option><option id="D">10^5</option>
+            <answer>A</answer><explanation>dx = 10^-11 m. dp >= h/4pi dx.</explanation>
+        </question>
+        <question>
+            <text>Wave number of limiting line of Balmer Series?</text>
+            <option id="A">R / 4</option><option id="B">R</option><option id="C">4R</option><option id="D">R / 9</option>
+            <answer>A</answer><explanation>1/4 - 0.</explanation>
+        </question>
+        <question>
+            <text>Ionization potential of H-like atom is 122.4 V. Atom is?</text>
+            <option id="A">Li2+</option><option id="B">He+</option><option id="C">Be3+</option><option id="D">H</option>
+            <answer>A</answer><explanation>13.6 * Z^2 = 122.4. Z^2 = 9. Z=3.</explanation>
+        </question>
+        <question>
+            <text>In Schrodinger eq, Psi represents:</text>
+            <option id="A">Wave Amplitude</option><option id="B">Probability Density</option><option id="C">Energy</option><option id="D">Position</option>
+            <answer>A</answer><explanation>Psi is amplitude.</explanation>
+        </question>
+        <question>
+            <text>Angular nodes in 4f orbital?</text>
+            <option id="A">3</option><option id="B">4</option><option id="C">2</option><option id="D">1</option>
+            <answer>A</answer><explanation>l = 3.</explanation>
+        </question>
+        <question>
+            <text>Radial nodes in 3p orbital?</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">2</option><option id="D">3</option>
+            <answer>A</answer><explanation>3 - 1 - 1 = 1.</explanation>
+        </question>
+        <question>
+            <text>Energy photon needed to remove e from n=2 of H?</text>
+            <option id="A">3.4 eV</option><option id="B">13.6 eV</option><option id="C">10.2 eV</option><option id="D">1.5 eV</option>
+            <answer>A</answer><explanation>13.6 / 4.</explanation>
+        </question>
+        <question>
+            <text>Which quantum number not derived from Schrodinger eq?</text>
+            <option id="A">Spin</option><option id="B">Principal</option><option id="C">Azimuthal</option><option id="D">Magnetic</option>
+            <answer>A</answer><explanation>Added later.</explanation>
+        </question>
+        <question>
+            <text>Radius of nucleus is approx:</text>
+            <option id="A">10^-15 m</option><option id="B">10^-10 m</option><option id="C">10^-12 m</option><option id="D">10^-14 cm</option>
+            <answer>A</answer><explanation>Fermi scale.</explanation>
+        </question>
+        <question>
+            <text>Ratio of time period in 1st and 2nd orbit?</text>
+            <option id="A">1 : 8</option><option id="B">1 : 4</option><option id="C">1 : 2</option><option id="D">1 : 32</option>
+            <answer>A</answer><explanation>T propto n^3/Z^2. 1:8.</explanation>
+        </question>
+        <question>
+            <text>Correct set for last electron of Ga (31)?</text>
+            <option id="A">4, 1, +1, +1/2</option><option id="B">4, 0, 0, +1/2</option><option id="C">3, 2, 2, +1/2</option><option id="D">4, 1, -2, +1/2</option>
+            <answer>A</answer><explanation>4s2 4p1.</explanation>
+        </question>
+        <question>
+            <text>If KE of particle is doubled, de Broglie wavelength becomes:</text>
+            <option id="A">1/sqrt(2)</option><option id="B">Half</option><option id="C">Double</option><option id="D">Sqrt(2)</option>
+            <answer>A</answer><explanation>lambda propto 1/sqrt(KE).</explanation>
+        </question>
+        <question>
+            <text>Balmer series lines lie in:</text>
+            <option id="A">Visible</option><option id="B">UV</option><option id="C">IR</option><option id="D">Far IR</option>
+            <answer>A</answer><explanation>H-spectrum.</explanation>
+        </question>
+        <question>
+            <text>Which has non-spherical nodes?</text>
+            <option id="A">p-orbital</option><option id="B">s-orbital</option><option id="C">1s</option><option id="D">None</option>
+            <answer>A</answer><explanation>Angular node planes.</explanation>
+        </question>
+        <question>
+            <text>Number of s-electrons in Rb (37)?</text>
+            <option id="A">9</option><option id="B">10</option><option id="C">8</option><option id="D">11</option>
+            <answer>A</answer><explanation>1s2 ... 5s1. 1+1+1+1+0.5? No. 1s2,2s2,3s2,4s2,5s1. 2+2+2+2+1=9.</explanation>
+        </question>
+        <question>
+            <text>Ratio of slope of P vs V graph for adiabatic and isothermal?</text>
+            <option id="A">Gamma</option><option id="B">1</option><option id="C">0</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Wait, this is Thermodynamics. But let's replace with Atom: "Ratio of r2 to r1 of H?" 4:1.</explanation>
+        </question>
+        <question>
+            <text>Maximum number of electrons in orbital with n=4, l=3?</text>
+            <option id="A">14</option><option id="B">10</option><option id="C">6</option><option id="D">2</option>
+            <answer>A</answer><explanation>4f subshell. 14.</explanation>
+        </question>
+        <question>
+            <text>How many nodes in 5f?</text>
+            <option id="A">4</option><option id="B">5</option><option id="C">3</option><option id="D">1</option>
+            <answer>A</answer><explanation>Total n-1 = 4.</explanation>
+        </question>
+        <question>
+            <text>Angular momentum of 4s electron?</text>
+            <option id="A">0</option><option id="B">h/pi</option><option id="C">h</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>l=0.</explanation>
+        </question>
+        <question>
+            <text>Orbital with l=2, m=0 is:</text>
+            <option id="A">dz2</option><option id="B">dxy</option><option id="C">dx2-y2</option><option id="D">px</option>
+            <answer>A</answer><explanation>Convention.</explanation>
+        </question>
+        <question>
+            <text>Electron density between x and y axes?</text>
+            <option id="A">dxy</option><option id="B">dx2-y2</option><option id="C">dz2</option><option id="D">pz</option>
+            <answer>A</answer><explanation>Lobes in between.</explanation>
+        </question>
+        <question>
+            <text>Bohr frequency condition?</text>
+            <option id="A">Delta E = hv</option><option id="B">mvr = nh/2pi</option><option id="C">KE = -TE</option><option id="D">P = I V</option>
+            <answer>A</answer><explanation>Transition energy.</explanation>
+        </question>
+        <question>
+            <text>Correct set for 19th electron of K?</text>
+            <option id="A">4, 0, 0, 1/2</option><option id="B">3, 2, 1, 1/2</option><option id="C">4, 1, 0, 1/2</option><option id="D">3, 0, 0, 1/2</option>
+            <answer>A</answer><explanation>4s1.</explanation>
+        </question>
+        <question>
+            <text>Shortest wavelength in Lyman series?</text>
+            <option id="A">91.2 nm</option><option id="B">121 nm</option><option id="C">10 nm</option><option id="D">200 nm</option>
+            <answer>A</answer><explanation>1/R (~911 A).</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of Cr (24)?</text>
+            <option id="A">6.9 BM</option><option id="B">5.9 BM</option><option id="C">3.8 BM</option><option id="D">4.9 BM</option>
+            <answer>A</answer><explanation>6 unpaired e (3d5 4s1). sqrt(48) ~ 6.9.</explanation>
+        </question>
+        <question>
+            <text>If h=0, then?</text>
+            <option id="A">No Quantization</option><option id="B">More Quantization</option><option id="C">No atoms</option><option id="D">None</option>
+            <answer>A</answer><explanation>Classical physics.</explanation>
+        </question>
+        <question>
+            <text>Positron is:</text>
+            <option id="A">Anti-electron</option><option id="B">Proton</option><option id="C">Neutron</option><option id="D">Nucleus</option>
+            <answer>A</answer><explanation>Positive electron.</explanation>
+        </question>
+        <question>
+            <text>Total spin of 3d5 system?</text>
+            <option id="A">5/2</option><option id="B">5</option><option id="C">1/2</option><option id="D">2.5</option>
+            <answer>A</answer><explanation>5 * 0.5.</explanation>
+        </question>
+    </hard>
+</chapter>

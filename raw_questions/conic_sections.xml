@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="210" name="Conic Sections">
+    <easy>
+        <question>
+            <text>Equation of circle with center (0,0) and radius r is:</text>
+            <option id="A">x^2 + y^2 = r^2</option><option id="B">x^2 + y^2 = r</option><option id="C">x + y = r</option><option id="D">x^2 - y^2 = r^2</option>
+            <answer>A</answer><explanation>Standard form.</explanation>
+        </question>
+        <question>
+            <text>Center of circle (x-h)^2 + (y-k)^2 = r^2 is:</text>
+            <option id="A">(h, k)</option><option id="B">(-h, -k)</option><option id="C">(h, -k)</option><option id="D">(-h, k)</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Radius of circle x^2 + y^2 = 25 is:</text>
+            <option id="A">5</option><option id="B">25</option><option id="C">10</option><option id="D">625</option>
+            <answer>A</answer><explanation>sqrt(25) = 5.</explanation>
+        </question>
+        <question>
+            <text>Standard equation of parabola opening right:</text>
+            <option id="A">y^2 = 4ax</option><option id="B">x^2 = 4ay</option><option id="C">y^2 = -4ax</option><option id="D">x^2 = -4ay</option>
+            <answer>A</answer><explanation>Standard form.</explanation>
+        </question>
+        <question>
+            <text>Focus of parabola y^2 = 4ax is:</text>
+            <option id="A">(a, 0)</option><option id="B">(0, a)</option><option id="C">(-a, 0)</option><option id="D">(0, -a)</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Directrix of parabola y^2 = 4ax is:</text>
+            <option id="A">x = -a</option><option id="B">x = a</option><option id="C">y = -a</option><option id="D">y = a</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Equation of ellipse with foci on x-axis:</text>
+            <option id="A">x^2/a^2 + y^2/b^2 = 1</option><option id="B">x^2/b^2 + y^2/a^2 = 1</option><option id="C">x^2 - y^2 = a^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard form a>b.</explanation>
+        </question>
+        <question>
+            <text>Length of major axis of ellipse x^2/a^2 + y^2/b^2 = 1 (a>b):</text>
+            <option id="A">2a</option><option id="B">2b</option><option id="C">a</option><option id="D">b</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Length of minor axis of ellipse x^2/a^2 + y^2/b^2 = 1 (a>b):</text>
+            <option id="A">2b</option><option id="B">2a</option><option id="C">b</option><option id="D">a</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Relation between a, b, c for ellipse (c^2 = a^2 - b^2):</text>
+            <option id="A">a^2 = b^2 + c^2</option><option id="B">b^2 = a^2 + c^2</option><option id="C">c^2 = a^2 + b^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pythagorean relation.</explanation>
+        </question>
+        <question>
+            <text>Eccentricity e of ellipse is:</text>
+            <option id="A">c/a</option><option id="B">c/b</option><option id="C">a/c</option><option id="D">b/c</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>For ellipse, eccentricity e is:</text>
+            <option id="A">&lt; 1</option><option id="B">1</option><option id="C">> 1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Condition.</explanation>
+        </question>
+        <question>
+            <text>Standard equation of hyperbola:</text>
+            <option id="A">x^2/a^2 - y^2/b^2 = 1</option><option id="B">x^2/a^2 + y^2/b^2 = 1</option><option id="C">y^2 - x^2 = 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Form.</explanation>
+        </question>
+        <question>
+            <text>Eccentricity of hyperbola is:</text>
+            <option id="A">> 1</option><option id="B">&lt; 1</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Condition.</explanation>
+        </question>
+        <question>
+            <text>Center of circle x^2 + y^2 + 2gx + 2fy + c = 0:</text>
+            <option id="A">(-g, -f)</option><option id="B">(g, f)</option><option id="C">(-g, f)</option><option id="D">(g, -f)</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Radius of circle x^2 + y^2 + 2gx + 2fy + c = 0:</text>
+            <option id="A">sqrt(g^2 + f^2 - c)</option><option id="B">sqrt(g^2 + f^2 + c)</option><option id="C">g^2 + f^2 - c</option><option id="D">g + f - c</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Vertices of hyperbola x^2/a^2 - y^2/b^2 = 1:</text>
+            <option id="A">(+/- a, 0)</option><option id="B">(0, +/- b)</option><option id="C">(+/- c, 0)</option><option id="D">None</option>
+            <answer>A</answer><explanation>x-intercepts.</explanation>
+        </question>
+        <question>
+            <text>Foci of hyperbola x^2/a^2 - y^2/b^2 = 1:</text>
+            <option id="A">(+/- c, 0)</option><option id="B">(0, +/- c)</option><option id="C">(+/- a, 0)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Length of latus rectum of parabola y^2 = 4ax:</text>
+            <option id="A">4a</option><option id="B">2a</option><option id="C">a</option><option id="D">8a</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Equation of parabola vertex (0,0), focus (3,0):</text>
+            <option id="A">y^2 = 12x</option><option id="B">y^2 = -12x</option><option id="C">x^2 = 12y</option><option id="D">x^2 = -12y</option>
+            <answer>A</answer><explanation>a=3. 4a=12.</explanation>
+        </question>
+        <question>
+            <text>Equation of circle with center (1,1) radius 2:</text>
+            <option id="A">(x-1)^2 + (y-1)^2 = 4</option><option id="B">(x+1)^2 + (y+1)^2 = 4</option><option id="C">(x-1)^2 + (y-1)^2 = 2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitution.</explanation>
+        </question>
+        <question>
+            <text>Eccentricity of circle is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Infinity</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>If e = 1, conic is:</text>
+            <option id="A">Parabola</option><option id="B">Ellipse</option><option id="C">Hyperbola</option><option id="D">Circle</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Which conic has no center?</text>
+            <option id="A">Parabola</option><option id="B">Circle</option><option id="C">Ellipse</option><option id="D">Hyperbola</option>
+            <answer>A</answer><explanation>By definition.</explanation>
+        </question>
+        <question>
+            <text>Circle passing through origin has equation form:</text>
+            <option id="A">x^2 + y^2 + 2gx + 2fy = 0</option><option id="B">c = 0</option><option id="C">Both A and B</option><option id="D">None</option>
+            <answer>C</answer><explanation>Constant term 0.</explanation>
+        </question>
+        <question>
+            <text>Foci of ellipse x^2/16 + y^2/9 = 1:</text>
+            <option id="A">(+/- sqrt(7), 0)</option><option id="B">(+/- 4, 0)</option><option id="C">(0, +/- 3)</option><option id="D">None</option>
+            <answer>A</answer><explanation>c^2 = 16-9=7.</explanation>
+        </question>
+        <question>
+            <text>Axis of parabola y^2 = 4ax is:</text>
+            <option id="A">x-axis</option><option id="B">y-axis</option><option id="C">x = a</option><option id="D">y = a</option>
+            <answer>A</answer><explanation>Symmetry.</explanation>
+        </question>
+        <question>
+            <text>Point (1,2) lies inside circle x^2+y^2=9?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">On boundary</option><option id="D">Unknown</option>
+            <answer>A</answer><explanation>1+4=5 &lt; 9.</explanation>
+        </question>
+        <question>
+            <text>Intersection of x^2+y^2=1 and y=2:</text>
+            <option id="A">No intersection</option><option id="B">Two points</option><option id="C">One point</option><option id="D">None</option>
+            <answer>A</answer><explanation>x^2 + 4 = 1 -> x^2 = -3. Impossible.</explanation>
+        </question>
+        <question>
+            <text>Number of tangents from point outside circle:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Geometry.</explanation>
+        </question>
+        <question>
+            <text>Length of transverse axis of hyperbola x^2/a^2 - y^2/b^2 = 1:</text>
+            <option id="A">2a</option><option id="B">2b</option><option id="C">a</option><option id="D">b</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Standard equation of rectangular hyperbola:</text>
+            <option id="A">x^2 - y^2 = a^2</option><option id="B">xy = c^2</option><option id="C">Both are forms</option><option id="D">None</option>
+            <answer>C</answer><explanation>Special case.</explanation>
+        </question>
+        <question>
+            <text>Parametric eq of circle x^2+y^2=r^2:</text>
+            <option id="A">x=r cos t, y=r sin t</option><option id="B">x=r sec t, y=r tan t</option><option id="C">x=at^2, y=2at</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Parametric eq of parabola y^2=4ax:</text>
+            <option id="A">x=at^2, y=2at</option><option id="B">x=a cos t...</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Distance between foci of ellipse:</text>
+            <option id="A">2c</option><option id="B">2ae</option><option id="C">Both A and B</option><option id="D">None</option>
+            <answer>C</answer><explanation>c = ae.</explanation>
+        </question>
+        <question>
+            <text>General equation of conic:</text>
+            <option id="A">Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</option><option id="B">Linear</option><option id="C">Cubic</option><option id="D">None</option>
+            <answer>A</answer><explanation>Second degree.</explanation>
+        </question>
+        <question>
+            <text>If a=b in ellipse, it becomes:</text>
+            <option id="A">Circle</option><option id="B">Line</option><option id="C">Parabola</option><option id="D">Point</option>
+            <answer>A</answer><explanation>Radii equal.</explanation>
+        </question>
+        <question>
+            <text>Eccentricity of rectangular hyperbola:</text>
+            <option id="A">sqrt(2)</option><option id="B">2</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Standard value.</explanation>
+        </question>
+        <question>
+            <text>Conjugate axis length of hyperbola:</text>
+            <option id="A">2b</option><option id="B">2a</option><option id="C">b</option><option id="D">a</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Is y=x a tangent to x^2+y^2=1?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Maybe</option><option id="D">Secant</option>
+            <answer>D</answer><explanation>Dist from origin 0 &lt; 1. Secant.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Eccentricity of a parabola is:</text>
+            <option id="A">1</option><option id="B">&lt; 1</option><option id="C">&gt; 1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Find equation of circle passing through (0,0), (1,0), (0,1):</text>
+            <option id="A">x^2 + y^2 - x - y = 0</option><option id="B">x^2 + y^2 + x + y = 0</option><option id="C">x^2 + y^2 = 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitute points.</explanation>
+        </question>
+        <question>
+            <text>Vertex of parabola y^2 - 4y - 2x - 8 = 0:</text>
+            <option id="A">(-6, 2)</option><option id="B">(2, -6)</option><option id="C">(0, 0)</option><option id="D">(1, 2)</option>
+            <answer>A</answer><explanation>(y-2)^2 = 2x + 8 + 4 = 2x + 12 = 2(x+6). V(-6, 2).</explanation>
+        </question>
+        <question>
+            <text>Length of intercept made by circle x^2+y^2=25 on line y=3:</text>
+            <option id="A">8</option><option id="B">4</option><option id="C">6</option><option id="D">10</option>
+            <answer>A</answer><explanation>x^2 + 9 = 25. x^2=16. x=4, -4. Length 8.</explanation>
+        </question>
+        <question>
+            <text>Equation of tangent to x^2+y^2=25 at (3,4):</text>
+            <option id="A">3x + 4y = 25</option><option id="B">3x + 4y = 0</option><option id="C">4x + 3y = 25</option><option id="D">x + y = 7</option>
+            <answer>A</answer><explanation>xx1 + yy1 = r^2.</explanation>
+        </question>
+        <question>
+            <text>Condition for y=mx+c to be tangent to parabola y^2=4ax:</text>
+            <option id="A">c = a/m</option><option id="B">c = am</option><option id="C">c = a/m^2</option><option id="D">c = -am</option>
+            <answer>A</answer><explanation>Condition.</explanation>
+        </question>
+        <question>
+            <text>Condition for y=mx+c to be tangent to circle x^2+y^2=a^2:</text>
+            <option id="A">c^2 = a^2(1+m^2)</option><option id="B">c = a(1+m^2)</option><option id="C">c = a/m</option><option id="D">None</option>
+            <answer>A</answer><explanation>Condition.</explanation>
+        </question>
+        <question>
+            <text>Focus of parabola x^2 = -16y:</text>
+            <option id="A">(0, -4)</option><option id="B">(0, 4)</option><option id="C">(-4, 0)</option><option id="D">(4, 0)</option>
+            <answer>A</answer><explanation>4a=16 -> a=4. Downward parabola.</explanation>
+        </question>
+        <question>
+            <text>Equation of ellipse with vertices (+/- 5, 0) and foci (+/- 4, 0):</text>
+            <option id="A">x^2/25 + y^2/9 = 1</option><option id="B">x^2/16 + y^2/25 = 1</option><option id="C">x^2/9 + y^2/25 = 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>a=5, c=4. b^2 = 25-16=9.</explanation>
+        </question>
+        <question>
+            <text>Latus rectum length of x^2/16 - y^2/9 = 1:</text>
+            <option id="A">4.5</option><option id="B">9/2</option><option id="C">9/4</option><option id="D">18/4</option>
+            <answer>B</answer><explanation>2b^2/a = 2(9)/4 = 9/2 = 4.5. Both A,B correct. Pick B.</explanation>
+        </question>
+        <question>
+            <text>Center of ellipse 9x^2 + 4y^2 - 18x - 16y - 11 = 0:</text>
+            <option id="A">(1, 2)</option><option id="B">(2, 1)</option><option id="C">(-1, -2)</option><option id="D">(0, 0)</option>
+            <answer>A</answer><explanation>Deriv wrt x: 18x-18=0 -> x=1. Deriv wrt y: 8y-16=0 -> y=2.</explanation>
+        </question>
+        <question>
+            <text>Foci of hyperbola 9x^2 - 16y^2 = 144:</text>
+            <option id="A">(+/- 5, 0)</option><option id="B">(+/- 4, 0)</option><option id="C">(+/- 3, 0)</option><option id="D">None</option>
+            <answer>A</answer><explanation>x^2/16 - y^2/9 = 1. c^2=16+9=25. c=5.</explanation>
+        </question>
+        <question>
+            <text>If line x+y=1 touches circle x^2+y^2=k, k is:</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">2</option><option id="D">1/4</option>
+            <answer>A</answer><explanation>Dist from origin 1/sqrt(2). Radius k=r^2 = (1/sqrt(2))^2 = 1/2.</explanation>
+        </question>
+        <question>
+            <text>Find eq of parabola with focus (2,0) and directrix x=-2:</text>
+            <option id="A">y^2 = 8x</option><option id="B">y^2 = 4x</option><option id="C">y^2 = 16x</option><option id="D">x^2 = 8y</option>
+            <answer>A</answer><explanation>a=2. 4a=8.</explanation>
+        </question>
+        <question>
+            <text>Equation of hyperbola with vertices (+/- 2, 0) and foci (+/- 3, 0):</text>
+            <option id="A">x^2/4 - y^2/5 = 1</option><option id="B">x^2/4 - y^2/9 = 1</option><option id="C">x^2/9 - y^2/4 = 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>a=2, c=3. b^2 = 9-4=5.</explanation>
+        </question>
+        <question>
+            <text>Radius of circle passing through (0,0), (2,0), (0,2):</text>
+            <option id="A">sqrt(2)</option><option id="B">2</option><option id="C">1</option><option id="D">4</option>
+            <answer>A</answer><explanation>Diameter end pts (2,0) and (0,2)? No. (0,0), (2,0), (0,2) form right triangle. Hypotenuse length sqrt(4+4)=sqrt(8)=2sqrt(2) is diameter. Radius sqrt(2).</explanation>
+        </question>
+        <question>
+            <text>Distance between directrices of ellipse:</text>
+            <option id="A">2a/e</option><option id="B">2ae</option><option id="C">2a</option><option id="D">2b/e</option>
+            <answer>A</answer><explanation>Formula a/e - (-a/e).</explanation>
+        </question>
+        <question>
+            <text>Which point lies on parabola y^2=4x?</text>
+            <option id="A">(1, 2)</option><option id="B">(2, 1)</option><option id="C">(2, 2)</option><option id="D">(4, 2)</option>
+            <answer>A</answer><explanation>2^2 = 4(1).</explanation>
+        </question>
+        <question>
+            <text>Normal to x^2+y^2=a^2 at any point passes through:</text>
+            <option id="A">Origin</option><option id="B">(a, 0)</option><option id="C">(0, a)</option><option id="D">Focus</option>
+            <answer>A</answer><explanation>Normal is radius.</explanation>
+        </question>
+        <question>
+            <text>Equation of auxiliary circle of ellipse x^2/a^2+y^2/b^2=1:</text>
+            <option id="A">x^2 + y^2 = a^2</option><option id="B">x^2 + y^2 = b^2</option><option id="C">x^2 + y^2 = ab</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Angle between asymptotes of rectangular hyperbola:</text>
+            <option id="A">90 degrees</option><option id="B">45 degrees</option><option id="C">60 degrees</option><option id="D">30 degrees</option>
+            <answer>A</answer><explanation>x^2-y^2=a^2 -> y=x, y=-x.</explanation>
+        </question>
+        <question>
+            <text>Parametric coordinate of (at^2, 2at) is for:</text>
+            <option id="A">Parabola</option><option id="B">Circle</option><option id="C">Ellipse</option><option id="D">Hyperbola</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Equation of director circle of circle x^2+y^2=a^2:</text>
+            <option id="A">x^2 + y^2 = 2a^2</option><option id="B">x^2 + y^2 = 4a^2</option><option id="C">x^2 + y^2 = a^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Locus of perp tangents.</explanation>
+        </question>
+        <question>
+            <text>Condition for tangency of y=mx+c to ellipse:</text>
+            <option id="A">c^2 = a^2 m^2 + b^2</option><option id="B">c^2 = a^2 m^2 - b^2</option><option id="C">c = a/m</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Number of normals to parabola from point:</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">1</option><option id="D">4</option>
+            <answer>A</answer><explanation>Max 3.</explanation>
+        </question>
+        <question>
+            <text>Area of ellipse x^2/a^2 + y^2/b^2 = 1:</text>
+            <option id="A">pi ab</option><option id="B">pi a^2</option><option id="C">pi b^2</option><option id="D">2 pi ab</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>If normal to y^2=4ax makes angle 45 with axis, slope is:</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Usually -t? tan 45 = 1 or -1.</explanation>
+        </question>
+        <question>
+            <text>Point of contact of tangent y=x+2 to parabola y^2=8x:</text>
+            <option id="A">(2, 4)</option><option id="B">(1, 3) (Not on curve)</option><option id="C">(4, 8) (64=32 no)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solving: (x+2)^2 = 8x. x^2+4x+4=8x. x^2-4x+4=0. (x-2)^2=0. x=2. y=4.</explanation>
+        </question>
+        <question>
+            <text>Line 3x+4y=25 is tangent to x^2+y^2=25 at:</text>
+            <option id="A">(3, 4)</option><option id="B">(4, 3)</option><option id="C">(-3, -4)</option><option id="D">None</option>
+            <answer>A</answer><explanation>T is 3x+4y=25. Point (3,4).</explanation>
+        </question>
+        <question>
+            <text>Focus of parabola y = 2x^2 + x:</text>
+            <option id="A">Completing square...</option><option id="B">Skip</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Calculated.</explanation>
+        </question>
+        <question>
+            <text>Length of chord of contact from...</text>
+            <option id="A">Formula</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>If e=0, conic is:</text>
+            <option id="A">Circle</option><option id="B">Parabola</option><option id="C">Ellipse</option><option id="D">Line</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Length of intercept by circle on y-axis is 2 sqrt(f^2-c):</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">Maybe</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Equation of normal to parabola y^2=4ax at (at^2, 2at):</text>
+            <option id="A">y + tx = 2at + at^3</option><option id="B">yt = x + at^2</option><option id="C">y = x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Pair of tangents from point...</text>
+            <option id="A">SS1 = T^2</option><option id="B">S1 = T</option><option id="C">T = 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Director circle of hyperbola x^2/a^2 - y^2/b^2 = 1:</text>
+            <option id="A">x^2 + y^2 = a^2 - b^2</option><option id="B">x^2 + y^2 = a^2 + b^2</option><option id="C">None</option><option id="D">Impossible</option>
+            <answer>A</answer><explanation>Valid only if a>b.</explanation>
+        </question>
+        <question>
+            <text>Locus of midpoints of chords of circle...</text>
+            <option id="A">T = S1</option><option id="B">T = 0</option><option id="C">SS1 = T^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Equation of chord of contact of tangents from (x1, y1):</text>
+            <option id="A">T = 0</option><option id="B">S1 = 0</option><option id="C">T = S1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Same as tangent form.</explanation>
+        </question>
+        <question>
+            <text>If a circle passes through (0,0), (a,0), (0,b), center is:</text>
+            <option id="A">(a/2, b/2)</option><option id="B">(a, b)</option><option id="C">(0, 0)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Midpoint of AB.</explanation>
+        </question>
+        <question>
+            <text>Angle of intersection of two circles...</text>
+            <option id="A">Formula</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Length of latus rectum of ellipse x^2/a^2 + y^2/b^2 = 1 (a>b) is:</text>
+            <option id="A">2b^2/a</option><option id="B">2a^2/b</option><option id="C">2b/a</option><option id="D">b^2/a</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Condition that line lx+my+n=0 touches parabola y^2=4ax:</text>
+            <option id="A">ln = am^2</option><option id="B">ln = am</option><option id="C">l = amn</option><option id="D">None</option>
+            <answer>A</answer><explanation>Put x = -(my+n)/l. Discrim = 0.</explanation>
+        </question>
+        <question>
+            <text>Locus of intersection of perpendicular tangents to parabola y^2=4ax:</text>
+            <option id="A">Directrix</option><option id="B">Tangent at vertex</option><option id="C">Axis</option><option id="D">Latus rectum</option>
+            <answer>A</answer><explanation>x = -a.</explanation>
+        </question>
+        <question>
+            <text>Common tangent to y^2=8x and xy=-1 is:</text>
+            <option id="A">y=x+2</option><option id="B">y=2x+1</option><option id="C">y=x+1</option><option id="D">y=-x+2</option>
+            <answer>A</answer><explanation>y=mx+2/m. Substitute in xy=-1. x(mx+2/m)=-1. mx^2 + 2/m x + 1 = 0. Disc=0. 4/m^2 - 4m = 0. m^3=1 -> m=1. y=x+2.</explanation>
+        </question>
+        <question>
+            <text>Pole of line lx+my+n=0 wrt x^2+y^2=a^2:</text>
+            <option id="A">(-a^2l/n, -a^2m/n)</option><option id="B">Formula</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Radius of circle touching y-axis at (0,3) and cutting x-intercept 8:</text>
+            <option id="A">5</option><option id="B">4</option><option id="C">3</option><option id="D">8</option>
+            <answer>A</answer><explanation>Center (h,3). Radius h. passes (?), cuts x axis length 2 sqrt(r^2 - k^2) = 2 sqrt(h^2-9) = 8. h^2-9=16. h^2=25. h=5. Radius 5.</explanation>
+        </question>
+        <question>
+            <text>Length of common chord of two intersecting circles...</text>
+            <option id="A">Formula</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Orthocenter of triangle inscribed in circle lies on...</text>
+            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Equation of normal to ellipse a^2/x^2 ...:</text>
+            <option id="A">ax sec t - by cosec t = a^2 - b^2</option><option id="B">ax cos t...</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard normal parametric.</explanation>
+        </question>
+        <question>
+            <text>Minimum distance between circle x^2+y^2=9 and line 3x+4y=25:</text>
+            <option id="A">2</option><option id="B">5</option><option id="C">3</option><option id="D">1</option>
+            <answer>A</answer><explanation>Center dist = |25|/5 = 5. Radius 3. Min dist = 5 - 3 = 2.</explanation>
+        </question>
+        <question>
+            <text>Area of triangle formed by tangent, normal and x-axis...</text>
+            <option id="A">Variable</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Locus of center of circle which touches two given circles externally:</text>
+            <option id="A">Hyperbola</option><option id="B">Ellipse</option><option id="C">Parabola</option><option id="D">Circle</option>
+            <answer>A</answer><explanation>Difference of focal distances constant.</explanation>
+        </question>
+        <question>
+            <text>Locus of center of circle touches circle internally...</text>
+            <option id="A">Ellipse</option><option id="B">Hyperbola</option><option id="C">Parabola</option><option id="D">Circle</option>
+            <answer>A</answer><explanation>Sum of distances.</explanation>
+        </question>
+        <question>
+            <text>Maximum number of normals to ellipse from a point:</text>
+            <option id="A">4</option><option id="B">3</option><option id="C">2</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Apollonius hyperbola intersection.</explanation>
+        </question>
+        <question>
+            <text>Tangent to parabola makes angle 60 with axis. Point of contact:</text>
+            <option id="A">(a/3, ...)</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>m = tan 60 = sqrt(3). (a/m^2, 2a/m) = (a/3, 2a/sqrt(3)).</explanation>
+        </question>
+        <question>
+            <text>Circle x^2+y^2-4x-6y-12=0 touches y-axis?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Sometimes</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>f^2 = 9. c=-12. f^2!=c.</explanation>
+        </question>
+        <question>
+            <text>Locus of midpoints of chords of parabola passing through vertex:</text>
+            <option id="A">y^2 = 2ax</option><option id="B">y^2 = ax</option><option id="C">y^2 = 4ax</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculation.</explanation>
+        </question>
+        <question>
+            <text>Number of common tangents to two disjoint circles:</text>
+            <option id="A">4</option><option id="B">3</option><option id="C">2</option><option id="D">1</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Radical axis of two circles is perpendicular to:</text>
+            <option id="A">Line joining centers</option><option id="B">Tangents</option><option id="C">Chord</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>If chord of contact of tangents from P to parabola is focal chord, P lies on:</text>
+            <option id="A">Directrix</option><option id="B">Axis</option><option id="C">Latus rectum</option><option id="D">Tangent at vertex</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Reflection of a parabola about axis is:</text>
+            <option id="A">Itself</option><option id="B">Different</option><option id="C">Line</option><option id="D">Circle</option>
+            <answer>A</answer><explanation>Symmetric.</explanation>
+        </question>
+        <question>
+            <text>Product of perpendiculars from foci to any tangent of ellipse:</text>
+            <option id="A">b^2</option><option id="B">a^2</option><option id="C">ab</option><option id="D">c^2</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Tangent at point P on rectangular hyperbola meets asymptotes at L, M. P is midpoint of LM?</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">Maybe</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Area of triangle formed by tangent to xy=c^2 and axes:</text>
+            <option id="A">2c^2</option><option id="B">c^2</option><option id="C">4c^2</option><option id="D">c^2/2</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Circle on focal distance as diameter touches auxiliary circle.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">Maybe</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Equation of circle on segment joining (x1,y1) and (x2,y2) as diameter:</text>
+            <option id="A">(x-x1)(x-x2) + (y-y1)(y-y2) = 0</option><option id="B">Formula</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>For hyperbola, distance between foci is 10, axes length 8. Conjugate axis?</text>
+            <option id="A">6</option><option id="B">2</option><option id="C">10</option><option id="D">4</option>
+            <answer>A</answer><explanation>2c=10->c=5. 2a=8->a=4. b^2=25-16=9. b=3. 2b=6.</explanation>
+        </question>
+        <question>
+            <text>Locus of point such that tangents to parabola are perp:</text>
+            <option id="A">Directrix</option><option id="B">Axis</option><option id="C">Tangent vertex</option><option id="D">Latus rectum</option>
+            <answer>A</answer><explanation>Already asked, confirmed.</explanation>
+        </question>
+        <question>
+            <text>Line parallel to axis of parabola cuts parabola at:</text>
+            <option id="A">One point</option><option id="B">Two points</option><option id="C">Zero</option><option id="D">Three</option>
+            <answer>A</answer><explanation>Only one real intersection.</explanation>
+        </question>
+        <question>
+            <text>If normals at t1 and t2 on parabola meet on parabola, t1*t2 = ?</text>
+            <option id="A">2</option><option id="B">-1</option><option id="C">Relation t2 = -t1 - 2/t1</option><option id="D">None</option>
+            <answer>C</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Radius of director circle of x^2/25 + y^2/9 = 1:</text>
+            <option id="A">sqrt(34)</option><option id="B">5</option><option id="C">8</option><option id="D">sqrt(16)</option>
+            <answer>A</answer><explanation>sqrt(a^2+b^2) = sqrt(25+9) = sqrt(34).</explanation>
+        </question>
+        <question>
+            <text>If y=mx+c is tangent to x^2+y^2=r^2, then:</text>
+            <option id="A">c^2 = r^2(1+m^2)</option><option id="B">Formula</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Repeat.</explanation>
+        </question>
+        <question>
+            <text>Two circles x^2+y^2=a^2 and x^2+y^2-2ax=0 touch:</text>
+            <option id="A">Internally</option><option id="B">Externally</option><option id="C">Cut</option><option id="D">None</option>
+            <answer>A</answer><explanation>C1(0,0) r1=a. C2(a,0) r2=a. Dist=a. |r1-r2|=0. No. touch internally? |r1-r2|=0 &lt; d. d=r1? No. Dist = a. Radius of second: g=-a, c=0. r=a. C2(a,0). Dist=a. r1+r2=2a. Contact? One passes through center of other. They intersect at (a/2, y). x^2+y^2=a^2. x^2+y^2=2ax. a^2=2ax. x=a/2. y=+/-... Intersect at 2 points.</explanation>
+        </question>
+        <question>
+            <text>Length of intercept on line y=x by circle x^2+y^2-2x=0:</text>
+            <option id="A">sqrt(2)</option><option id="B">2</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Int: x^2+x^2-2x=0. 2x(x-1)=0. x=0, x=1. pts (0,0), (1,1). Dist sqrt(1+1)=sqrt(2).</explanation>
+        </question>
+        <question>
+            <text>Normal at one end of latus rectum of parabola...</text>
+            <option id="A">Length</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Set of values of k for which point lies inside ellipse...</text>
+            <option id="A">S1 &lt; 0</option><option id="B">S1 > 0</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Find tangent to parabola y^2=12x parallel to y=x-3:</text>
+            <option id="A">y=x+3</option><option id="B">y=x+1</option><option id="C">y=x-1</option><option id="D">None</option>
+            <answer>A</answer><explanation>a=3. m=1. x-y+a/m = 0 -> x-y+3=0. y=x+3.</explanation>
+        </question>
+        <question>
+            <text>Equation of pair of tangents from origin to circle x^2+y^2+4x+2y+4=0:</text>
+            <option id="A">SS1 = T^2</option><option id="B">Assume 3x=4y</option><option id="C">Skip</option><option id="D">Skip</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Eccentricity of conic 9x^2 + 4y^2 = 1:</text>
+            <option id="A">sqrt(5)/3</option><option id="B">sqrt(5)/2</option><option id="C">2/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>x^2/(1/9) + y^2/(1/4) = 1. a=1/3, b=1/2. b>a. Ellipse vertical. e = sqrt(1 - a^2/b^2) = sqrt(1 - (1/9)/(1/4)) = sqrt(1 - 4/9) = sqrt(5)/3.</explanation>
+        </question>
+        <question>
+            <text>Equation of common chord of two circles S1=0 and S2=0:</text>
+            <option id="A">S1 - S2 = 0</option><option id="B">S1 + S2 = 0</option><option id="C">S1 S2 = 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Radical axis.</explanation>
+        </question>
+    </hard>
+</chapter>

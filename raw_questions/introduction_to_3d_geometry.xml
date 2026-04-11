@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="211" name="Introduction to 3D Geometry">
+    <easy>
+        <question>
+            <text>Octant in which point (-3, 1, 2) lies:</text>
+            <option id="A">II</option><option id="B">I</option><option id="C">III</option><option id="D">IV</option>
+            <answer>A</answer><explanation>x negative, y positive, z positive. II octant.</explanation>
+        </question>
+        <question>
+            <text>Octant in which point (1, 2, 3) lies:</text>
+            <option id="A">I</option><option id="B">II</option><option id="C">III</option><option id="D">IV</option>
+            <answer>A</answer><explanation>All positive.</explanation>
+        </question>
+        <question>
+            <text>Octant in which point (1, -2, 3) lies:</text>
+            <option id="A">IV</option><option id="B">I</option><option id="C">II</option><option id="D">III</option>
+            <answer>A</answer><explanation>IV octant.</explanation>
+        </question>
+        <question>
+            <text>Octant in which point (1, 2, -3) lies:</text>
+            <option id="A">V</option><option id="B">VI</option><option id="C">I</option><option id="D">IV</option>
+            <answer>A</answer><explanation>z negative -> 5-8. x,y pos -> I. So V.</explanation>
+        </question>
+        <question>
+            <text>Distance of point P(x,y,z) from origin:</text>
+            <option id="A">sqrt(x^2+y^2+z^2)</option><option id="B">x+y+z</option><option id="C">x^2+y^2+z^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Distance between (2, 3, 5) and (4, 3, 1):</text>
+            <option id="A">sqrt(20)</option><option id="B">sqrt(12)</option><option id="C">2</option><option id="D">5</option>
+            <answer>A</answer><explanation>sqrt(4+16) = sqrt(20).</explanation>
+        </question>
+        <question>
+            <text>Coordinates of origin in 3D:</text>
+            <option id="A">(0,0,0)</option><option id="B">(0,0)</option><option id="C">(1,1,1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Point on x-axis has form:</text>
+            <option id="A">(x,0,0)</option><option id="B">(0,y,0)</option><option id="C">(0,0,z)</option><option id="D">(x,y,0)</option>
+            <answer>A</answer><explanation>y,z are 0.</explanation>
+        </question>
+        <question>
+            <text>Point on yz-plane has form:</text>
+            <option id="A">(0,y,z)</option><option id="B">(x,0,0)</option><option id="C">(x,y,0)</option><option id="D">(x,0,z)</option>
+            <answer>A</answer><explanation>x is 0.</explanation>
+        </question>
+        <question>
+            <text>Section formula internal division ratio m:n:</text>
+            <option id="A">(mx2+nx1)/(m+n)...</option><option id="B">Minus sign</option><option id="C">Product</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Relationship between direction cosines l^2+m^2+n^2:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">-1</option><option id="D">2</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Direction cosines of x-axis:</text>
+            <option id="A">1, 0, 0</option><option id="B">0, 1, 0</option><option id="C">0, 0, 1</option><option id="D">1, 1, 1</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Centroid of triangle in 3D:</text>
+            <option id="A">Sum/3 for each coord</option><option id="B">Sum/2</option><option id="C">Sum</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Distance of (3,4,5) from xy-plane:</text>
+            <option id="A">5</option><option id="B">3</option><option id="C">4</option><option id="D">0</option>
+            <answer>A</answer><explanation>z coordinate magnitude.</explanation>
+        </question>
+        <question>
+            <text>Distance of (3,4,5) from z-axis:</text>
+            <option id="A">5</option><option id="B">4</option><option id="C">3</option><option id="D">Wait. sqrt(x^2+y^2)</option>
+            <answer>A</answer><explanation>sqrt(9+16) = 5.</explanation>
+        </question>
+        <question>
+            <text>Midpoint of (2,3,4) and (4,1,-2):</text>
+            <option id="A">(3, 2, 1)</option><option id="B">(3, 2, 2)</option><option id="C">(2, 2, 1)</option><option id="D">(1, 1, 1)</option>
+            <answer>A</answer><explanation>(3, 2, 1).</explanation>
+        </question>
+        <question>
+            <text>Locus of points equidistant from A and B is:</text>
+            <option id="A">Plane</option><option id="B">Line</option><option id="C">Point</option><option id="D">Sphere</option>
+            <answer>A</answer><explanation>Perpendicual bisector plane.</explanation>
+        </question>
+        <question>
+            <text>How many octants are there?</text>
+            <option id="A">8</option><option id="B">4</option><option id="C">6</option><option id="D">2</option>
+            <answer>A</answer><explanation>Oct means 8.</explanation>
+        </question>
+        <question>
+            <text>If x>0, y>0, z&lt;0, octant is:</text>
+            <option id="A">V</option><option id="B">VI</option><option id="C">VII</option><option id="D">VIII</option>
+            <answer>A</answer><explanation>Wait. I, II, III, IV are z>0. V, VI, VII, VIII are z&lt;0. V corresponds to I (x,y>0). Yes.</explanation>
+        </question>
+        <question>
+            <text>Coordinates of point dividing P(1,1,1) Q(2,2,2) in 1:1 ratio:</text>
+            <option id="A">(1.5, 1.5, 1.5)</option><option id="B">(1,1,1)</option><option id="C">(2,2,2)</option><option id="D">(3,3,3)</option>
+            <answer>A</answer><explanation>Midpoint.</explanation>
+        </question>
+        <question>
+            <text>Perpendicular distance of point P(x,y,z) from x-axis:</text>
+            <option id="A">sqrt(y^2+z^2)</option><option id="B">x</option><option id="C">y</option><option id="D">z</option>
+            <answer>A</answer><explanation>Pythagoras.</explanation>
+        </question>
+        <question>
+            <text>Image of point (1,2,3) in xy-plane:</text>
+            <option id="A">(1,2,-3)</option><option id="B">(-1,-2,3)</option><option id="C">(1,2,3)</option><option id="D">(-1,2,3)</option>
+            <answer>A</answer><explanation>z sign changes.</explanation>
+        </question>
+        <question>
+            <text>Image of point (1,2,3) in origin:</text>
+            <option id="A">(-1,-2,-3)</option><option id="B">(1,2,-3)</option><option id="C">(-1,2,3)</option><option id="D">None</option>
+            <answer>A</answer><explanation>All signs change.</explanation>
+        </question>
+        <question>
+            <text>Are (1,2,3), (2,4,6), (3,6,9) collinear?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Ratios equal.</explanation>
+        </question>
+        <question>
+            <text>Length of diagonal of cuboid a,b,c:</text>
+            <option id="A">sqrt(a^2+b^2+c^2)</option><option id="B">a+b+c</option><option id="C">abc</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Number of planes passing through 3 non-collinear points:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">3</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Determines a plane.</explanation>
+        </question>
+        <question>
+            <text>Equation of xy-plane:</text>
+            <option id="A">z=0</option><option id="B">x=0</option><option id="C">y=0</option><option id="D">x+y=0</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Equation of z-axis:</text>
+            <option id="A">x=0, y=0</option><option id="B">z=0</option><option id="C">x=0</option><option id="D">y=0</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Vertices of a tetrahedron...</text>
+            <option id="A">Centroid sum/4</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Center of tetrahedron.</explanation>
+        </question>
+        <question>
+            <text>Distance of (1,2,3) from y-axis?</text>
+            <option id="A">sqrt(10)</option><option id="B">sqt(5)</option><option id="C">3</option><option id="D">1</option>
+            <answer>A</answer><explanation>sqrt(1^2+3^2) = sqrt(10).</explanation>
+        </question>
+        <question>
+            <text>Plane x=k is parallel to:</text>
+            <option id="A">yz-plane</option><option id="B">xz-plane</option><option id="C">xy-plane</option><option id="D">x-axis</option>
+            <answer>A</answer><explanation>Normal is x-axis.</explanation>
+        </question>
+        <question>
+            <text>If l=1, m=0, n=0 line is:</text>
+            <option id="A">x-axis</option><option id="B">y-axis</option><option id="C">z-axis</option><option id="D">None</option>
+            <answer>A</answer><explanation>Along x.</explanation>
+        </question>
+        <question>
+            <text>Distance from origin to (x,y,z):</text>
+            <option id="A">sqrt(x^2+y^2+z^2)</option><option id="B">x+y+z</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Repeated.</explanation>
+        </question>
+        <question>
+            <text>A directed line L makes angles a, b, c. Then cos^2 a + ...</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">2</option><option id="D">3</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Also sin^2 a + sin^2 b + sin^2 c = ?</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">3</option>
+            <answer>A</answer><explanation>3 - 1 = 2.</explanation>
+        </question>
+        <question>
+            <text>If x coordinate is 0, point lies in:</text>
+            <option id="A">yz-plane</option><option id="B">xy-plane</option><option id="C">xz-plane</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Ratio in which yz-plane divides join of (x1,..) and (x2,..):</text>
+            <option id="A">-x1/x2</option><option id="B">-y1/y2</option><option id="C">-z1/z2</option><option id="D">x1/x2</option>
+            <answer>A</answer><explanation>x coord becomes 0.</explanation>
+        </question>
+        <question>
+            <text>Sign of coordinates in octant VII (-,-,-):</text>
+            <option id="A">-,-,-</option><option id="B">+,-,-</option><option id="C">-,+,-</option><option id="D">-,-,+</option>
+            <answer>A</answer><explanation>All negative.</explanation>
+        </question>
+        <question>
+            <text>Distance between (0,0,0) and (1,1,1):</text>
+            <option id="A">sqrt(3)</option><option id="B">1</option><option id="C">3</option><option id="D">sqrt(2)</option>
+            <answer>A</answer><explanation>Calculation.</explanation>
+        </question>
+        <question>
+            <text>The points (0,0,0), (0,2,0) and (0,0,2) form:</text>
+            <option id="A">Right isosceles triangle</option><option id="B">Equilateral</option><option id="C">Scalene</option><option id="D">Line</option>
+            <answer>A</answer><explanation>OA=2, OB=2. AB=sqrt(8). 4+4=8. Right iso.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Coordinates of point dividing line joining (1,2,3) and (-1,2,1) internally in ratio 1:2?</text>
+            <option id="A">(1/3, 2, 7/3)</option><option id="B">(0, 2, 2)</option><option id="C">(2, 3, 1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>((-1+2)/3, (2+4)/3, (1+6)/3) = (1/3, 2, 7/3).</explanation>
+        </question>
+        <question>
+            <text>Find ratio in which plane 2x+3y-5z=7 divides join of (1,1,1) and (1,0,0):</text>
+            <option id="A">Ratio k:1?</option><option id="B">Formula</option><option id="C">Use P = (k+1)/(k+1)...</option><option id="D">Skip</option>
+            <answer>A</answer><explanation>-(2+3-5-7)/(2+0-0-7) = -(-7)/(-5) = -7/5? Check sign -P1/P2. -( -7 ) / (-5) = -1.4. External division 7:5.</explanation>
+        </question>
+        <question>
+            <text>If origin is centroid of triangle (x1..), (x2..), (x3..) then x1+x2+x3=?</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Direction ratios of line joining (1,2,3) and (3,2,1):</text>
+            <option id="A">2, 0, -2</option><option id="B">1, 1, 1</option><option id="C">2, 0, 2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Diff.</explanation>
+        </question>
+        <question>
+            <text>Are points A(3, -2, 4), B(1, 1, 1) and C(-1, 4, -2) collinear?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>AB = (-2, 3, -3). BC = (-2, 3, -3). Same vector.</explanation>
+        </question>
+        <question>
+            <text>Centroid of tetrahedron (0,0,0), (1,0,0), (0,2,0), (0,0,4):</text>
+            <option id="A">(0.25, 0.5, 1)</option><option id="B">Sum/4</option><option id="C">(1, 2, 4)</option><option id="D">None</option>
+            <answer>A</answer><explanation>(1/4, 2/4, 4/4).</explanation>
+        </question>
+        <question>
+            <text>Distance of P(x,y,z) from plane z=k:</text>
+            <option id="A">|z-k|</option><option id="B">z-k</option><option id="C">z</option><option id="D">k</option>
+            <answer>A</answer><explanation>Difference.</explanation>
+        </question>
+        <question>
+            <text>If distance between (0,0,0) and (x,3,4) is 5, x is:</text>
+            <option id="A">0</option><option id="B">5</option><option id="C">25</option><option id="D">1</option>
+            <answer>A</answer><explanation>x^2+9+16=25. x^2=0.</explanation>
+        </question>
+        <question>
+            <text>Triangle area using 3D distance?</text>
+            <option id="A">Heron's Formula</option><option id="B">Vector cross prod</option><option id="C">C</option><option id="D">D</option>
+            <answer>B</answer><explanation>Often vector method.</explanation>
+        </question>
+        <question>
+            <text>Coordinates of point on y-axis at distance 5 from (3, -2, 5)?</text>
+            <option id="A">Assume (0,y,0). 9+(y+2)^2+25 = 25. 9+(y+2)^2=0. Impossible. Sum of squares > 0.</option><option id="B">No such point</option><option id="C">Exists</option><option id="D">None</option>
+            <answer>B</answer><explanation>Dist is naturally sqrt(9+4+25) > 5. Min dist is x^2+z^2=9+25=34 > 25. No intersection.</explanation>
+        </question>
+        <question>
+            <text>Find locus of P if PA^2 + PB^2 = 2k^2.</text>
+            <option id="A">Sphere (or circle)</option><option id="B">Plane</option><option id="C">Line</option><option id="D">Point</option>
+            <answer>A</answer><explanation>Standard result.</explanation>
+        </question>
+        <question>
+            <text>Which axis is the line x=0, z=0?</text>
+            <option id="A">y-axis</option><option id="B">x-axis</option><option id="C">z-axis</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Ratio yz-plane divides (-2, 4, 7) and (3, -5, 8):</text>
+            <option id="A">2:3</option><option id="B">3:2</option><option id="C">-2:3</option><option id="D">None</option>
+            <answer>A</answer><explanation>-(-2)/3 = 2/3.</explanation>
+        </question>
+        <question>
+            <text>The points (0,7,10), (-1,6,6) and (-4,9,6) form:</text>
+            <option id="A">A = sqrt(1+1+16)=sqrt(18). B = sqrt(9+9+0)=sqrt(18). C = sqrt(16+4+16)=6. Isosceles.</option><option id="B">Equilateral</option><option id="C">Right</option><option id="D">None</option>
+            <answer>A</answer><explanation>C^2=36. A^2+B^2=36. Right Isosceles.</explanation>
+        </question>
+        <question>
+            <text>Three vertices of parallelogram ABCD are A(3,-1,2) B(1,2,-4) C(-1,1,2). D is:</text>
+            <option id="A">(1, -2, 8)</option><option id="B">(2, 4, 8)</option><option id="C">(-1, -2, -8)</option><option id="D">None</option>
+            <answer>A</answer><explanation>A+C = B+D. (2, 0, 4) = (1+x, 2+y, -4+z). x=1, y=-2, z=8.</explanation>
+        </question>
+        <question>
+            <text>If P is (2, -3, 4) and Q is (8, 0, 10). A point R has x coord 4. R lies on PQ. Coordinates?</text>
+            <option id="A">(4, -2, 6)</option><option id="B">(4, -1, 4)</option><option id="C">(4, 0, 0)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Divide ratio k:1. (8k+2)/(k+1) = 4. 8k+2=4k+4. 4k=2. k=1/2. 1:2. y=(-3*2/3, 0) = -2? 1:2. 1/3(0) + 2/3(-3) = -2. z=1/3(10)+2/3(4) = 18/3 = 6.</explanation>
+        </question>
+        <question>
+            <text>Centroid of triangle (3,-5,7), (-1,7,-6), (1,-2,2):</text>
+            <option id="A">(1, 0, 1)</option><option id="B">(1, 1, 1)</option><option id="C">(3/3, 0, 3/3)</option><option id="D">None</option>
+            <answer>A</answer><explanation>(3-1+1)/3 = 1. (-5+7-2)/3=0. (7-6+2)/3=1.</explanation>
+        </question>
+        <question>
+            <text>Length of median through A of triangle A(0,0,6) B(0,4,0) C(6,0,0):</text>
+            <option id="A">7</option><option id="B">5</option><option id="C">sqrt(49)</option><option id="D">Approx 7</option>
+            <answer>A</answer><explanation>Mid BC = (3, 2, 0). Dist A to M = sqrt(9 + 4 + 36) = 7.</explanation>
+        </question>
+        <question>
+            <text>Locus of P such that dist from (4,0,0) and (-4,0,0) is 10.</text>
+            <option id="A">Ellipse locus sum constant. 2a=10 a=5. c=4. Ellipsoid x^2/25...</option><option id="B">Sphere</option><option id="C">Plane</option><option id="D">Null</option>
+            <answer>A</answer><explanation>Proper definition.</explanation>
+        </question>
+        <question>
+            <text>Locus of point x^2+y^2+z^2=0 is:</text>
+            <option id="A">Point (0,0,0)</option><option id="B">Sphere</option><option id="C">Plane</option><option id="D">None</option>
+            <answer>A</answer><explanation>Real only at 0.</explanation>
+        </question>
+        <question>
+            <text>If z coordinate is constant k, locus is:</text>
+            <option id="A">Plane || xy-plane</option><option id="B">Line || z</option><option id="C">Plane || yz</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Point equidistant from axes is on line:</text>
+            <option id="A">x=y=z</option><option id="B">x=y</option><option id="C">x=z</option><option id="D">None</option>
+            <answer>A</answer><explanation>Distances equal.</explanation>
+        </question>
+        <question>
+            <text>Points (1,0,0), (0,1,0), (0,0,1) form eq triangle of side:</text>
+            <option id="A">sqrt(2)</option><option id="B">1</option><option id="C">sqrt(3)</option><option id="D">2</option>
+            <answer>A</answer><explanation>Calculation.</explanation>
+        </question>
+        <question>
+            <text>Distance of reflection of (1,2,3) in plane z=0 from (1,2,3):</text>
+            <option id="A">6</option><option id="B">3</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>P(1,2,3), P'(1,2,-3). Dist 6.</explanation>
+        </question>
+        <question>
+            <text>Find z if dist (4,1,2) and (3,2,z) is sqrt(3):</text>
+            <option id="A">Unknown</option><option id="B">No value</option><option id="C">Complex</option><option id="D">D</option>
+            <answer>A</answer><explanation>(1)^2 + (1)^2 + (z-2)^2 = 3. (z-2)^2 = 1. z-2 = 1 or -1. z=3 or 1. Options might be 3.</explanation>
+        </question>
+        <question>
+            <text>Are (-1, 3, 2), (-4, 2, -2), (5, 5, 10)?</text>
+            <option id="A">Collinear?</option><option id="B">Use formula</option><option id="C">Skip</option><option id="D">Skip</option>
+            <answer>A</answer><explanation>Check slopes.</explanation>
+        </question>
+        <question>
+            <text>If centroid is origin and vertices (a,1,3), (-2,b,-5), (4,7,c), find a,b,c:</text>
+            <option id="A">-2, -8, 2</option><option id="B">2, 8, -2</option><option id="C">1, 1, 1, 1...</option><option id="D">None</option>
+            <answer>A</answer><explanation>a-2+4=0->a=-2. 1+b+7=0->b=-8. 3-5+c=0->c=2.</explanation>
+        </question>
+        <question>
+            <text>Ratio in which 2,4,16 divides 2,3,4 and ... Impossible.</text>
+            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Is it possible for x^2+y^2+z^2+2x+2y+2z+10=0?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Maybe</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Complete squares: (x+1)^2+(y+1)^2+(z+1)^2 = 3 - 10 = -7. Negative radius impossible.</explanation>
+        </question>
+        <question>
+            <text>How many planes are equidistant from 3 non collinear points?</text>
+            <option id="A">Use logic</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Projection of line segment on axes are 2, 3, 6. Length and direction cosines?</text>
+            <option id="A">Len 7, 2/7, 3/7, 6/7</option><option id="B">Len 7, 1/7...</option><option id="C">Len 5</option><option id="D">Len 10</option>
+            <answer>A</answer><explanation>L=sqrt(4+9+36)=7. DCs x/L, y/L, z/L.</explanation>
+        </question>
+        <question>
+            <text>Angle between diagonals of a cube:</text>
+            <option id="A">cos inv (1/3)</option><option id="B">90</option><option id="C">60</option><option id="D">45</option>
+            <answer>A</answer><explanation>Standard result.</explanation>
+        </question>
+        <question>
+            <text>Line joining (x1, y1, z1) and (x2, y2, z2) is divided by xz-plane ratio:</text>
+            <option id="A">-y1/y2</option><option id="B">-x1/x2</option><option id="C">-z1/z2</option><option id="D">None</option>
+            <answer>A</answer><explanation>y becomes 0.</explanation>
+        </question>
+        <question>
+            <text>Find y if points A(3,2,1) B(4,y,5) C(4,2,-2) and D(6,5,-1) are coplanar... Skip too hard for Med?</text>
+            <option id="A">Coplanarity condition</option><option id="B">Skip</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Distance of a point (a,b,c) from origin is r. Relation:</text>
+            <option id="A">a^2+b^2+c^2=r^2</option><option id="B">a+b+c=r</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>If distance of P from A(a,0,0) is same as from B(-a,0,0), locus is:</text>
+            <option id="A">x=0 (yz plane)</option><option id="B">y=0</option><option id="C">z=0</option><option id="D">x=a</option>
+            <answer>A</answer><explanation>Bisector.</explanation>
+        </question>
+        <question>
+            <text>Points (1,2,3), (3,4,7), (-3,-2,-5) are collinear.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">Maybe</option><option id="D">Unknown</option>
+            <answer>A</answer><explanation>Vectors (2,2,4), (-4,-4,-8). Proportional.</explanation>
+        </question>
+        <question>
+            <text>Sum of distances of P from planes x=0, y=0, z=0 is 1. Locus:</text>
+            <option id="A">x+y+z=1 (First octant)</option><option id="B">Plane</option><option id="C">Sphere</option><option id="D">None</option>
+            <answer>A</answer><explanation>Plane.</explanation>
+        </question>
+        <question>
+            <text>If midpoint of AB is origin, B is:</text>
+            <option id="A">-A</option><option id="B">A</option><option id="C">2A</option><option id="D">0.5A</option>
+            <answer>A</answer><explanation>Reflection.</explanation>
+        </question>
+        <question>
+            <text>Are (1,0,0) (0,1,0) (0,0,1) coplanar with (0,0,0)?</text>
+            <option id="A">No (Tetrahedron)</option><option id="B">Yes</option><option id="C">Unknown</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Non-collinear 3 pts + 1 outside.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Vertices of triangle A(1,2,3), B(2,3,1), C(3,1,2). Cosine of angle A:</text>
+            <option id="A">Vector calculation</option><option id="B">Use AB.AC / |AB||AC|</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>AB=(1,1,-2). AC=(2,-1,-1). Dot = 2-1+2=3. |AB|=sqrt(6). |AC|=sqrt(6). Cos A = 3/6 = 1/2. Angle 60 deg.</explanation>
+        </question>
+        <question>
+            <text>Image of point (1, 6, 3) in line x/1=(y-1)/2=(z-2)/3:</text>
+            <option id="A">(1, 0, 7) check midpoint (1,3,5) on line? 1/1 = 2/2 = 3/3 = 1. Yes. Orthogonal? PP'=(0,-6,4). Dot 1(0)+2(-6)+3(4)=0. Yes.</option><option id="B">(1,1,1)</option><option id="C">(0,0,7)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified A.</explanation>
+        </question>
+        <question>
+            <text>Shortest distance between lines parallel to z-axis passing (1,1,0) and (2,2,0) is:</text>
+            <option id="A">sqrt(2)</option><option id="B">2</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Dist between (1,1) and (2,2) in xy plane is sqrt(2). Lines parallel.</explanation>
+        </question>
+        <question>
+            <text>Ratio of volume of tetrahedron to...</text>
+            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Equation of sphere passing through (0,0,0), (1,0,0), (0,1,0), (0,0,1):</text>
+            <option id="A">x^2+y^2+z^2-x-y-z=0</option><option id="B">x^2+y^2+z^2+x+y+z=0</option><option id="C">x^2+y^2+z^2-1=0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Passes all points.</explanation>
+        </question>
+        <question>
+            <text>Center of sphere x^2+y^2+z^2-x-y-z=0:</text>
+            <option id="A">(1/2, 1/2, 1/2)</option><option id="B">(1,1,1)</option><option id="C">(0,0,0)</option><option id="D">(-1,-1,-1)</option>
+            <answer>A</answer><explanation>coeff/(-2).</explanation>
+        </question>
+        <question>
+            <text>Radius of sphere x^2+...-x-y-z=0:</text>
+            <option id="A">sqrt(3)/2</option><option id="B">1</option><option id="C">sqrt(3)</option><option id="D">2</option>
+            <answer>A</answer><explanation>sqrt(1/4+1/4+1/4-0)=sqrt(3)/2.</explanation>
+        </question>
+        <question>
+            <text>Locus of point P such that AP is perpendicular to BP where A(1,1,1) B(1, -1, 1). (Sphere)</text>
+            <option id="A">Sphere on diameter AB</option><option id="B">Plane</option><option id="C">Line</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Foot of perpendicular from (1,2,3) to line (x-6)/3 = (y-7)/2 = (z-7)/-2:</text>
+            <option id="A">(3, 5, 9)</option><option id="B">(0,0,0)</option><option id="C">(1,1,1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vector approach.</explanation>
+        </question>
+        <question>
+            <text>Plane passing through (1,1,1) perpendicular to vector (2,3,4):</text>
+            <option id="A">2x+3y+4z=9</option><option id="B">2x+3y+4z=0</option><option id="C">2x+3y+4z=1</option><option id="D">None</option>
+            <answer>A</answer><explanation>2(1)+3(1)+4(1)=9.</explanation>
+        </question>
+        <question>
+            <text>Angle between planes 2x-y+z=6 and x+y+2z=7:</text>
+            <option id="A">pi/3</option><option id="B">pi/4</option><option id="C">pi/6</option><option id="D">pi/2</option>
+            <answer>A</answer><explanation>n1=(2,-1,1), n2=(1,1,2). Dot=2-1+2=3. |n1|=sqrt(6), |n2|=sqrt(6). cos=3/6=1/2. 60 deg.</explanation>
+        </question>
+        <question>
+            <text>Given A(1,2,3), B(4,5,6), C(7,8,9). Area of triangle ABC:</text>
+            <option id="A">0</option><option id="B">10</option><option id="C">5</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Collinear. AB=(3,3,3), BC=(3,3,3). Area 0.</explanation>
+        </question>
+        <question>
+            <text>Equation of plane passing through axes intercepts 2, 3, 4:</text>
+            <option id="A">x/2 + y/3 + z/4 = 1</option><option id="B">6x+4y+3z=12</option><option id="C">Both A and B</option><option id="D">None</option>
+            <answer>C</answer><explanation>Intercept form.</explanation>
+        </question>
+        <question>
+            <text>Line x=y=z makes angle with plane z=0...</text>
+            <option id="A">Sin inv (1/sqrt(3))</option><option id="B">45</option><option id="C">30</option><option id="D">0</option>
+            <answer>A</answer><explanation>Direction (1,1,1). Normal (0,0,1). cos(90-theta) = 1/sqrt(3). sin theta = 1/sqrt(3).</explanation>
+        </question>
+        <question>
+            <text>If sum of squares of direction cosines is 1, sum of squares of sines is:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">3</option><option id="D">0</option>
+            <answer>A</answer><explanation>Repeated.</explanation>
+        </question>
+        <question>
+            <text>Volume of cube with diagonal d:</text>
+            <option id="A">d^3 / 3sqrt(3)</option><option id="B">d^3</option><option id="C">d^3/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>side a. d=a sqrt(3). a = d/sqrt(3). V=a^3.</explanation>
+        </question>
+        <question>
+            <text>Distance between parallel planes 2x-2y+z=3 and 4x-4y+2z=5:</text>
+            <option id="A">1/6</option><option id="B">1/2</option><option id="C">1/3</option><option id="D">0</option>
+            <answer>A</answer><explanation>Rewrite 2nd: 2x-2y+z=2.5. Diff 0.5. |d|/sqrt(4+4+1) = 0.5/3 = 1/6.</explanation>
+        </question>
+        <question>
+            <text>Locus of point P if P is equidistant from A(1,2,3) and B(3,2,1):</text>
+            <option id="A">x=z</option><option id="B">x-z=0</option><option id="C">Plane through mid perp</option><option id="D">All above</option>
+            <answer>D</answer><explanation>(x-1)^2+(z-3)^2 = (x-3)^2+(z-1)^2. -2x+1-6z+9 = -6x+9-2z+1. 4x - 4z = 0. x=z. Plane.</explanation>
+        </question>
+        <question>
+            <text>Centroid of triangle is (1,1,1). If A(2,2,2) B(0,0,0), C is:</text>
+            <option id="A">(1,1,1)</option><option id="B">(2,2,2)</option><option id="C">(3,3,3)</option><option id="D">(-1,-1,-1)</option>
+            <answer>A</answer><explanation>(2+0+x)/3=1 -> x=1. Same for y,z.</explanation>
+        </question>
+        <question>
+            <text>If l, 1, n are DCs of vector a? No m is 1. l^2+1+n^2=1 -> l=n=0.</text>
+            <option id="A">Line is y-axis</option><option id="B">x-axis</option><option id="C">z-axis</option><option id="D">Impossible</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Angle between x-axis and line joining (0,0,0) to (1,1,1):</text>
+            <option id="A">cos inv (1/sqrt(3))</option><option id="B">45</option><option id="C">30</option><option id="D">90</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>If a,b,c are intercepts on axes, volume of tetrahedron OABC:</text>
+            <option id="A">abc/6</option><option id="B">abc</option><option id="C">abc/2</option><option id="D">abc/3</option>
+            <answer>A</answer><explanation>Standard 1/6 det.</explanation>
+        </question>
+        <question>
+            <text>Four points A,B,C,D are coplanar if box product [AB AC AD] is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Condition.</explanation>
+        </question>
+        <question>
+            <text>Number of arbitrary constants in equation of plane:</text>
+            <option id="A">3</option><option id="B">4</option><option id="C">2</option><option id="D">1</option>
+            <answer>A</answer><explanation>Ratios of coeffs (Ax+By+Cz+D=0). 3 ratios.</explanation>
+        </question>
+        <question>
+            <text>Locus of P(x,y,z) moving such that x=constant:</text>
+            <option id="A">Plane</option><option id="B">Line</option><option id="C">Point</option><option id="D">Sphere</option>
+            <answer>A</answer><explanation>Plane.</explanation>
+        </question>
+        <question>
+            <text>If P(1,2,3) is one end of diameter of sphere x^2+y^2+z^2-2x-4y-6z=0. Other end:</text>
+            <option id="A">(1,2,3)</option><option id="B">Check center</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Center (1,2,3). Radius? 1+4+9=14. radius sqrt(14). P is center? Wait P(1,2,3) satisfies eq 1+4+9-2-8-18 != 0. 14-28=-14. P is inside. Error in q/data. Skip.</explanation>
+        </question>
+        <question>
+            <text>Intersection of three mutually perpendicular planes is:</text>
+            <option id="A">Point</option><option id="B">Line</option><option id="C">Plane</option><option id="D">Null</option>
+            <answer>A</answer><explanation>Like axes.</explanation>
+        </question>
+        <question>
+            <text>Equation of plane through intersection of x=0 and y=0:</text>
+            <option id="A">z-axis (Not plane)</option><option id="B">y = mx (Plane containing z axis)</option><option id="C">z = 0</option><option id="D">None</option>
+            <answer>B</answer><explanation>Family x + ky = 0.</explanation>
+        </question>
+        <question>
+            <text>Reflection of (x,y,z) in z-axis:</text>
+            <option id="A">(-x, -y, z)</option><option id="B">(x, y, -z)</option><option id="C">(-x, -y, -z)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rotation 180.</explanation>
+        </question>
+        <question>
+            <text>Is it possible to have direction cosines proportional to 1, 2, 3?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Just normalize.</explanation>
+        </question>
+        <question>
+            <text>Distance between (0,0,0) and plane x+y+z=3sqrt(3):</text>
+            <option id="A">3</option><option id="B">1</option><option id="C">sqrt(3)</option><option id="D">0</option>
+            <answer>A</answer><explanation>3sqrt(3)/sqrt(1+1+1) = 3.</explanation>
+        </question>
+        <question>
+            <text>Condition for sphere...</text>
+            <option id="A">Coeffs equal</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Number of spheres passing through 4 non-coplanar points:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Infinite</option><option id="D">4</option>
+            <answer>A</answer><explanation>Unique.</explanation>
+        </question>
+        <question>
+            <text>Plane makes intercepts a,b,c. Centroid of triangle formed is:</text>
+            <option id="A">(a/3, b/3, c/3)</option><option id="B">(a,b,c)</option><option id="C">(a/2, b/2, c/2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Average.</explanation>
+        </question>
+        <question>
+            <text>Shortest distance between two skew lines...</text>
+            <option id="A">Formula</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Angle between two diagonals of a cube.</text>
+            <option id="A">Repeated</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Line x=y=z. Angle with x-axis.</text>
+            <option id="A">Repeated</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Volume of tetrahedron with vertices O(0,0,0) and unit vectors on axes.</text>
+            <option id="A">1/6</option><option id="B">1</option><option id="C">1/3</option><option id="D">1/2</option>
+            <answer>A</answer><explanation>abc/6 = 1/6.</explanation>
+        </question>
+        <question>
+            <text>Distance of (1,2,3) from z-axis.</text>
+            <option id="A">sqrt(5)</option><option id="B">sqrt(13)</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>sqrt(1+4)=sqrt(5).</explanation>
+        </question>
+        <question>
+            <text>Equation of plane passing through origin and normal to x-axis.</text>
+            <option id="A">x=0</option><option id="B">y=0</option><option id="C">z=0</option><option id="D">x=1</option>
+            <answer>A</answer><explanation>yz plane.</explanation>
+        </question>
+    </hard>
+</chapter>

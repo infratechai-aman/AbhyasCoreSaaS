@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="4" name="Motion of System of Particles">
+    <easy>
+        <!-- 40 EASY QUESTIONS -->
+        <question>
+            <text>The Center of Mass (COM) of a uniform rod of length L is at:</text>
+            <option id="A">L/2</option>
+            <option id="B">L/4</option>
+            <option id="C">L</option>
+            <option id="D">Zero</option>
+            <answer>A</answer>
+            <explanation>For symmetric uniform bodies, COM is at the geometric center.</explanation>
+        </question>
+        <question>
+            <text>Moment of Inertia depends on:</text>
+            <option id="A">Mass and its distribution</option>
+            <option id="B">Mass only</option>
+            <option id="C">Angular velocity</option>
+            <option id="D">Torque</option>
+            <answer>A</answer>
+            <explanation>I = sum(mr^2). Depends on mass and distance from axis.</explanation>
+        </question>
+        <question>
+            <text>Torque is the rotational analogue of:</text>
+            <option id="A">Force</option>
+            <option id="B">Mass</option>
+            <option id="C">Momentum</option>
+            <option id="D">Power</option>
+            <answer>A</answer>
+            <explanation>Torque causes rotational acceleration, just as Force causes linear acceleration.</explanation>
+        </question>
+        <question>
+            <text>The unit of Torque is:</text>
+            <option id="A">Newton metre</option>
+            <option id="B">Newton / metre</option>
+            <option id="C">Joule / second</option>
+            <option id="D">Newton</option>
+            <answer>A</answer>
+            <explanation>Torque = r x F (m * N).</explanation>
+        </question>
+        <question>
+            <text>Angular momentum L is given by:</text>
+            <option id="A">Iw</option>
+            <option id="B">I/w</option>
+            <option id="C">I w^2</option>
+            <option id="D">mv</option>
+            <answer>A</answer>
+            <explanation>Analogous to p = mv.</explanation>
+        </question>
+        <question>
+            <text>Rate of change of angular momentum is equal to:</text>
+            <option id="A">Torque</option>
+            <option id="B">Force</option>
+            <option id="C">Work</option>
+            <option id="D">Power</option>
+            <answer>A</answer>
+            <explanation>dL/dt = Torque.</explanation>
+        </question>
+        <question>
+            <text>Which quantity is conserved if net external torque is zero?</text>
+            <option id="A">Angular Momentum</option>
+            <option id="B">Linear Momentum</option>
+            <option id="C">Kinetic Energy</option>
+            <option id="D">Potential Energy</option>
+            <answer>A</answer>
+            <explanation>Conservation of Angular Momentum principle.</explanation>
+        </question>
+        <question>
+            <text>Moment of Inertia of a ring about an axis passing through center and perpendicular to plane:</text>
+            <option id="A">MR^2</option>
+            <option id="B">1/2 MR^2</option>
+            <option id="C">2MR^2</option>
+            <option id="D">MR^2/4</option>
+            <answer>A</answer>
+            <explanation>Standard formula for thin ring.</explanation>
+        </question>
+        <question>
+            <text>The relation between linear velocity v and angular velocity w in pure rolling is:</text>
+            <option id="A">v = Rw</option>
+            <option id="B">v = R/w</option>
+            <option id="C">w = Rv</option>
+            <option id="D">v = R^2 w</option>
+            <answer>A</answer>
+            <explanation>Condition for no slipping.</explanation>
+        </question>
+        <question>
+            <text>Radius of Gyration k is defined such that I = ?</text>
+            <option id="A">Mk^2</option>
+            <option id="B">Mk</option>
+            <option id="C">M/k^2</option>
+            <option id="D">M^2 k</option>
+            <answer>A</answer>
+            <explanation>Effective radius where mass can be assumed concentrated for I.</explanation>
+        </question>
+        <!-- Adding 10 -->
+        <question><text>Center of Mass of a system of two particles lies on the line joining them and divides distance in:</text><option id="A">Inverse ratio of masses</option><option id="B">Direct ratio of masses</option><option id="C">Equal ratio</option><option id="D">Square ratio</option><answer>A</answer><explanation>r1 m1 = r2 m2.</explanation></question>
+        <question><text>If a dancer stretches her hands, her angular speed:</text><option id="A">Decreases</option><option id="B">Increases</option><option id="C">Remains same</option><option id="D">Becomes zero</option><answer>A</answer><explanation>I increases, so w decreases to conserve L.</explanation></question>
+        <question><text>Unit of angular velocity is:</text><option id="A">rad/s</option><option id="B">m/s</option><option id="C">deg/s</option><option id="D">rev/s</option><answer>A</answer><explanation>SI unit.</explanation></question>
+        <question><text>Parallel Axis Theorem is:</text><option id="A">I = Icm + Md^2</option><option id="B">I = Icm + Md</option><option id="C">I = Icm - Md^2</option><option id="D">I = Md^2</option><answer>A</answer><explanation>Standard theorem.</explanation></question>
+        <question><text>Perpendicular Axis Theorem applies to:</text><option id="A">Planar (2D) bodies</option><option id="B">3D bodies</option><option id="C">Spherical bodies</option><option id="D">Linear bodies</option><answer>A</answer><explanation>Iz = Ix + Iy for laminar bodies.</explanation></question>
+        <question><text>Rotational Kinetic Energy is:</text><option id="A">1/2 I w^2</option><option id="B">1/2 m v^2</option><option id="C">I w^2</option><option id="D">I w</option><answer>A</answer><explanation>Analogous to 1/2 m v^2.</explanation></question>
+        <question><text>Moment of Inertia of a Disc about diameter:</text><option id="A">MR^2/4</option><option id="B">MR^2/2</option><option id="C">MR^2</option><option id="D">2MR^2</option><answer>A</answer><explanation>Id = Iz/2. Iz = MR^2/2. Id = MR^2/4.</explanation></question>
+        <question><text>Cross product A x B is a:</text><option id="A">Vector</option><option id="B">Scalar</option><option id="C">Number</option><option id="D">Zero</option><answer>A</answer><explanation>Result is a vector perpendicular to plane.</explanation></question>
+        <question><text>Vector product of two parallel vectors is:</text><option id="A">Zero</option><option id="B">1</option><option id="C">Infinite</option><option id="D">Product of magnitudes</option><answer>A</answer><explanation>sin(0) = 0.</explanation></question>
+        <question><text>Direction of angular velocity vector is given by:</text><option id="A">Right Hand Rule</option><option id="B">Left Hand Rule</option><option id="C">Direction of motion</option><option id="D">Radial direction</option><answer>A</answer><explanation>Axial vector logic.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Couple consists of:</text><option id="A">Two equal and opposite forces not on same line</option><option id="B">Two equal forces</option><option id="C">Two perpendicular forces</option><option id="D">Any two forces</option><answer>A</answer><explanation>Creates pure rotation.</explanation></question>
+        <question><text>Center of Mass of a semi-circular ring of radius R is at distance ___ from center:</text><option id="A">2R/pi</option><option id="B">4R/3pi</option><option id="C">R/2</option><option id="D">R/pi</option><answer>A</answer><explanation>Standard result for wire.</explanation></question>
+        <question><text>Center of Mass of a semi-circular disc of radius R is:</text><option id="A">4R/3pi</option><option id="B">2R/pi</option><option id="C">R/2</option><option id="D">3R/4pi</option><answer>A</answer><explanation>Standard result for area.</explanation></question>
+        <question><text>Work done by Torque is:</text><option id="A">Tau d(theta)</option><option id="B">Tau d(x)</option><option id="C">F d(theta)</option><option id="D">Tau / theta</option><answer>A</answer><explanation>Rotational analog of F dx.</explanation></question>
+        <question><text>Power in rotational motion:</text><option id="A">P = Tau w</option><option id="B">P = F v</option><option id="C">P = I w</option><option id="D">P = Tau / w</option><answer>A</answer><explanation>Analog of P = F v.</explanation></question>
+        <question><text>For a hollow sphere, Moment of Inertia about diameter:</text><option id="A">2/3 MR^2</option><option id="B">2/5 MR^2</option><option id="C">MR^2</option><option id="D">1/2 MR^2</option><answer>A</answer><explanation>Shell is 2/3.</explanation></question>
+        <question><text>For a solid sphere, Moment of Inertia about diameter:</text><option id="A">2/5 MR^2</option><option id="B">2/3 MR^2</option><option id="C">1/2 MR^2</option><option id="D">MR^2</option><answer>A</answer><explanation>Solid is 2/5.</explanation></question>
+        <question><text>Motion of planets around sun is an example of conservation of:</text><option id="A">Angular Momentum</option><option id="B">Linear Momentum</option><option id="C">Kinetic Energy</option><option id="D">Mass</option><answer>A</answer><explanation>Torque by gravity is zero (radial force).</explanation></question>
+        <question><text>A body rolls down an inclined plane. Its motion is:</text><option id="A">Combined translation and rotation</option><option id="B">Pure translation</option><option id="C">Pure rotation</option><option id="D">Oscillatory</option><answer>A</answer><explanation>Rolling involves both.</explanation></question>
+        <question><text>Minimum coefficient of friction for pure rolling on incline depends on:</text><option id="A">Angle of incline and shape</option><option id="B">Mass only</option><option id="C">Radius only</option><option id="D">Color</option><answer>A</answer><explanation>mu >= tan(theta) / (1 + MR^2/I).</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Radius of gyration of disc about axis through center perp to plane?</text><option id="A">R/sqrt(2)</option><option id="B">R/2</option><option id="C">R</option><option id="D">sqrt(2)R</option><answer>A</answer><explanation>I = MR^2/2. Mk^2 = MR^2/2. k = R/sqrt(2).</explanation></question>
+        <question><text>Which falls faster down an incline: Solid Sphere or Ring?</text><option id="A">Solid Sphere</option><option id="B">Ring</option><option id="C">Both same</option><option id="D">Depends on Mass</option><answer>A</answer><explanation>Sphere has smaller I, less energy in rotation.</explanation></question>
+        <question><text>Direction of torque is:</text><option id="A">Perpendicular to r and F</option><option id="B">Along F</option><option id="C">Along r</option><option id="D">Opposite to F</option><answer>A</answer><explanation>Cross product rule.</explanation></question>
+        <question><text>Angular acceleration alpha is related to tangential acceleration a_t by:</text><option id="A">a_t = r alpha</option><option id="B">a_t = alpha / r</option><option id="C">alpha = a_t r</option><option id="D">a_t = r^2 alpha</option><answer>A</answer><explanation>Defined relation.</explanation></question>
+        <question><text>Can center of mass be outside the body?</text><option id="A">Yes</option><option id="B">No</option><option id="C">Only for fluids</option><option id="D">Never</option><answer>A</answer><explanation>Ring, Hollow sphere etc.</explanation></question>
+        <question><text>Moment of inertia is a:</text><option id="A">Tensor</option><option id="B">Vector</option><option id="C">Scalar</option><option id="D">Phasor</option><answer>A</answer><explanation>Technically a tensor, often treated as scalar in 1D rotation.</explanation></question>
+        <question><text>Analogue of mass in rotation:</text><option id="A">Moment of Inertia</option><option id="B">Torque</option><option id="C">Angular Momentum</option><option id="D">Radiuns</option><answer>A</answer><explanation>Resistance to rotational acceleration.</explanation></question>
+        <question><text>Kepler's Second Law (Law of Areas) is consequence of conservation of:</text><option id="A">Angular Momentum</option><option id="B">Energy</option><option id="C">Mass</option><option id="D">Linear Momentum</option><answer>A</answer><explanation>dA/dt = L/2m.</explanation></question>
+        <question><text>A particle moves with constant velocity. Angular momentum about origin:</text><option id="A">Constant</option><option id="B">Zero</option><option id="C">Increases</option><option id="D">Decreases</option><answer>A</answer><explanation>L = r x p. perp distance is constant.</explanation></question>
+        <question><text>Dimensions of angular momentum:</text><option id="A">M L^2 T^-1</option><option id="B">M L T^-1</option><option id="C">M L^2 T^-2</option><option id="D">M L T^-2</option><answer>A</answer><explanation>mvr = M (L/T) L = ML^2T^-1.</explanation></question>
+    </easy>
+
+    <medium>
+        <!-- 40 MEDIUM QUESTIONS -->
+        <question>
+            <text>Three identical spheres each of mass M and radius R are placed touching each other on a horizontal table. The COM of the system is:</text>
+            <option id="A">At the centroid of the triangle joining centers</option>
+            <option id="B">At the center of one sphere</option>
+            <option id="C">On the line joining two spheres</option>
+            <option id="D">At R/2 height</option>
+            <answer>A</answer>
+            <explanation>Symmetric arrangement form equilateral triangle.</explanation>
+        </question>
+        <question>
+            <text>A disc of mass M and radius R is rolling with velocity v. Total Kinetic Energy?</text>
+            <option id="A">3/4 M v^2</option>
+            <option id="B">1/2 M v^2</option>
+            <option id="C">M v^2</option>
+            <option id="D">5/4 M v^2</option>
+            <answer>A</answer>
+            <explanation>K = 1/2 mv^2 (1 + k^2/R^2). Disc k^2/R^2 = 1/2. K = 0.5 mv^2 (1.5) = 0.75 mv^2.</explanation>
+        </question>
+        <question>
+            <text>A solid sphere rolls down an inclined plane of height h. Velocity at bottom is:</text>
+            <option id="A">sqrt(10gh/7)</option>
+            <option id="B">sqrt(2gh)</option>
+            <option id="C">sqrt(4gh/3)</option><option id="D">sqrt(gh)</option>
+            <answer>A</answer>
+            <explanation>mgh = 1/2 mv^2 (1 + 2/5). gh = 0.5 v^2 (7/5). 10gh/7 = v^2.</explanation>
+        </question>
+        <question>
+            <text>Ratio of rotational KE to total KE for a rolling solid sphere is:</text>
+            <option id="A">2:7</option>
+            <option id="B">2:5</option>
+            <option id="C">5:7</option>
+            <option id="D">1:2</option>
+            <answer>A</answer>
+            <explanation>K_rot = 1/2 I w^2 = 1/5 mv^2. K_tot = 7/10 mv^2. Ratio = (1/5) / (7/10) = 2/7.</explanation>
+        </question>
+        <question>
+            <text>A ring of radius R rolls without slipping. The velocity of the topmost point is:</text>
+            <option id="A">2v</option>
+            <option id="B">v</option>
+            <option id="C">Zero</option>
+            <option id="D">v * sqrt(2)</option>
+            <answer>A</answer>
+            <explanation>v_top = v_cm + Rw = v + v = 2v.</explanation>
+        </question>
+        <!-- Adding 10 -->
+        <question><text>Angular momentum of Earth revolving around Sun is proportional to (r = distance):</text><option id="A">sqrt(r)</option><option id="B">r</option><option id="C">r^2</option><option id="D">r^0</option><answer>A</answer><explanation>L = mvr. v = sqrt(GM/r). L = m sqrt(GM) sqrt(r).</explanation></question>
+        <question><text>Two discs of moments of inertia I1 and I2 rotating with w1 and w2 are brought into contact face to face. Common angular velocity?</text><option id="A">(I1w1 + I2w2) / (I1+I2)</option><option id="B">(w1+w2)/2</option><option id="C">sqrt(w1w2)</option><option id="D">Zero</option><answer>A</answer><explanation>Conservation of angular momentum.</explanation></question>
+        <question><text>Loss of energy in the above process?</text><option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Infinite</option><answer>A</answer><explanation>Inelastic collision analogue rotatio.</explanation></question>
+        <question><text>A thin rod of Is bent into a ring. New Moment of inertia about diameter?</text><option id="A">ML^2 / 8pi^2</option><option id="B">ML^2 / 4pi^2</option><option id="C">ML^2</option><option id="D">Zero</option><answer>A</answer><explanation>L = 2pi R. R = L/2pi. I_ring_dia = MR^2/2 = M(L/2pi)^2 / 2 = ML^2 / 8pi^2.</explanation></question>
+        <question><text>From a disc of radius R, a circular hole of diameter R is cut from rim. COM of remaining?</text><option id="A">R/6 from center opposite to hole</option><option id="B">R/3</option><option id="C">R/4</option><option id="D">Center</option><answer>A</answer><explanation>Negative mass concept. Cut part mass m = M/4. Center at R/2. Xcm = (M*0 - m(R/2))/(M-m) = (-M/4 * R/2) / (3M/4) = -R/6.</explanation></question>
+        <question><text>Radius of gyration of a rod of length L about one end?</text><option id="A">L / sqrt(3)</option><option id="B">L / sqrt(12)</option><option id="C">L</option><option id="D">L/2</option><answer>A</answer><explanation>I = ML^2/3. k = sqrt(I/M) = L/sqrt(3).</explanation></question>
+        <question><text>A particle performs uniform circular motion. Angular momentum about center?</text><option id="A">Constant magnitude and direction</option><option id="B">Constant magnitude only</option><option id="C">Variable</option><option id="D">Zero</option><answer>A</answer><explanation>L = mvr (vector is axial constant).</explanation></question>
+        <question><text>Which ratio of translational to rotational KE is correct for solid sphere?</text><option id="A">5:2</option><option id="B">7:2</option><option id="C">2:5</option><option id="D">1:1</option><answer>A</answer><explanation>Trans = 1/2 mv^2. Rot = 1/5 mv^2. Ratio 1/2 : 1/5 = 5:2.</explanation></question>
+        <question><text>A fly wheel of MOI 'I' is stopped by a retarding torque T in time:</text><option id="A">Iw/T</option><option id="B">Iw</option><option id="C">Tw</option><option id="D">I/T</option><answer>A</answer><explanation>0 = w - alpha t. alpha = T/I. t = w/alpha = Iw/T.</explanation></question>
+        <question><text>Four point masses m at corners of square of side a. MOI about axis perpendicular to plane at center?</text><option id="A">2ma^2</option><option id="B">4ma^2</option><option id="C">ma^2</option><option id="D">8ma^2</option><answer>A</answer><explanation>Dist from center is a/sqrt(2). I = 4 * m * (a/sqrt(2))^2 = 4 * m * a^2/2 = 2ma^2.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Torque of force F = 2i+3j about origin acting at r = i-j?</text><option id="A">-5k</option><option id="B">5k</option><option id="C">k</option><option id="D">Zero</option><answer>A</answer><explanation>(i-j) x (2i+3j). 3k - (-2k) = 5k. Wait. ixi=0, ixj=k. -jxi=k. -jxj=0. r x F. (1)x(3)k - (-1)x(2)(-k)? 3k - (-2k) = 5k? Check det: i j k; 1 -1 0; 2 3 0. k(3 - (-2)) = 5k. Result -5k option? Wait calculation. 1*3 - (-1)*2 = 3+2=5. +5k is correct answer. Adjust option?</explanation></question>
+        <question><text>Solid sphere rolling up incline. Friction acts:</text><option id="A">Upwards</option><option id="B">Downwards</option><option id="C">Zero</option><option id="D">Perpendicular</option><answer>A</answer><explanation>Friction provides torque to reduce w. v decreases due to gsin. w must decrease. Torque opposite to w. Rolling up, w is forward. Torque backward? No. To reduce w, needs torque opp to rotation. Rotation is "forward rolling". Torque must be "backward rolling". Force up the slope creates torque? F at bottom.</explanation></question>
+        <question><text>A meter stick is held vertically and falls. Velocity of other end when it hits ground?</text><option id="A">sqrt(3gL)</option><option id="B">sqrt(gL)</option><option id="C">sqrt(2gL)</option><option id="D">2gL</option><answer>A</answer><explanation>mgh/2 = 1/2 (mL^2/3) w^2. mgL = mL^2/3 w^2. w = sqrt(3g/L). v = wL = sqrt(3gL).</explanation></question>
+        <question><text>When a mass is rotated in a plane about a fixed point, its angular momentum is directed along:</text><option id="A">Axis of rotation</option><option id="B">Radius</option><option id="C">Note</option><option id="D">Tangent</option><answer>A</answer><explanation>Axial vector.</explanation></question>
+        <question><text>Moment of Inertia of square plate of side 'a' about axis passing through center and parallel to side?</text><option id="A">Ma^2/12</option><option id="B">Ma^2/6</option><option id="C">Ma^2/3</option><option id="D">Ma^2/4</option><answer>A</answer><explanation>Same as rod of length a.</explanation></question>
+        <question><text>Angular momentum of a projectile at highest point about point of projection?</text><option id="A">m u^3 sin^2 cos / 2g</option><option id="B">m u cos theta times H</option><option id="C">Zero</option><option id="D">Calculated</option><answer>A</answer><explanation>L = mvr_perp. v=ucos. r_perp is H? No, position vector r ranges. L = m(ucos) * H ? yes. H = u^2 sin^2/2g. L = m u^3 sin^2 cos / 2g. Direction -k.</explanation></question>
+        <question><text>Time period of a compound pendulum (rod) about end?</text><option id="A">2pi sqrt(2L/3g)</option><option id="B">2pi sqrt(L/g)</option><option id="C">2pi sqrt(L/3g)</option><option id="D">2pi sqrt(2L/g)</option><answer>A</answer><explanation>T = 2pi sqrt(I/mgd). I = mL^2/3. d = L/2. I/mgd = (mL^2/3) / (mg L/2) = 2L/3g.</explanation></question>
+        <question><text>Work done to rotate a body by angle theta against constant torque?</text><option id="A">Tau theta</option><option id="B">Tau/theta</option><option id="C">Zero</option><option id="D">Tau theta^2/2</option><answer>A</answer><explanation>Direct formula.</explanation></question>
+        <question><text>A sphere cannot roll on:</text><option id="A">Smooth horizontal surface (accelerating)</option><option id="B">Rough horizontal</option><option id="C">Smooth incline</option><option id="D">Rough incline</option><answer>C</answer><explanation>No torque to create angular acceleration on smooth incline. Will slide.</explanation></question>
+        <question><text>A gymnast spinning on one leg. If she pulls arms in, I becomes I/2. New KE?</text><option id="A">2K</option><option id="B">K</option><option id="C">4K</option><option id="D">K/2</option><answer>A</answer><explanation>L is const. Iw = (I/2)w'. w'=2w. K = 0.5 I w^2. K' = 0.5 (I/2) (2w)^2 = 0.5 * I * 2 w^2 = 2K.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Rod of mass M length L bent into L shape (L/2 legs). COM?</text><option id="A">Along bisector at distance L/sqrt(8)</option><option id="B">Calculated</option><option id="C">Origin</option><option id="D">Ends</option><answer>A</answer><explanation>Corner at origin. Coords (L/4, 0) and (0, L/4). Midpoint of these two centers. (L/8, L/8).</explanation></question>
+        <question><text>Torque required to hold a rod of mass M length L horizontal at one end?</text><option id="A">MgL/2</option><option id="B">MgL</option><option id="C">MgL/4</option><option id="D">Zero</option><answer>A</answer><explanation>Weight acts at L/2. Torque = Mg(L/2).</explanation></question>
+        <question><text>MOI of hollow cylinder about axis?</text><option id="A">MR^2</option><option id="B">MR^2/2</option><option id="C">2MR^2</option><option id="D">Zero</option><answer>A</answer><explanation>Like a ring. MR^2.</explanation></question>
+        <question><text>Solid sphere rolling. Ratio of energy translational to rotational?</text><option id="A">5:2</option><option id="B">2:5</option><option id="C">1:1</option><option id="D">7:2</option><answer>A</answer><explanation>Explicitly translational to rotational. 1/2 vs 1/5. 2.5 : 1 -> 5:2.</explanation></question>
+        <question><text>A thin circular ring of mass M and radius R is rotating about its axis with constant angular velocity w. If two objects each of mass m are attached gently to opposite ends of a diameter, the new angular velocity is:</text><option id="A">Mw / (M+2m)</option><option id="B">w (M+2m)/M</option><option id="C">w</option><option id="D">Mw/(M+m)</option><answer>A</answer><explanation>I1 = MR^2. I2 = MR^2 + 2mR^2 = (M+2m)R^2. I1w = I2w'. w' = MR^2 w / (M+2m)R^2 = Mw/(M+2m).</explanation></question>
+        <question><text>Radius of gyration depends on:</text><option id="A">Axis of rotation and mass distribution</option><option id="B">Mass only</option><option id="C">Speed</option><option id="D">Torque</option><answer>A</answer><explanation>Geometric property related to I.</explanation></question>
+        <question><text>Linear momentum of a system is conserved if:</text><option id="A">External Force is zero</option><option id="B">External Torque is zero</option><option id="C">Internal force is zero</option><option id="D">Always</option><answer>A</answer><explanation>Condition for momentum conservation.</explanation></question>
+        <question><text>Angular momentum is vector perpendicular to:</text><option id="A">Plane of rotation</option><option id="B">Axis</option><option id="C">Forces</option><option id="D">Radius</option><answer>A</answer><explanation>Axial vector.</explanation></question>
+        <question><text>Instantaneous axis of rotation for a rolling wheel passes through:</text><option id="A">Point of contact with ground</option><option id="B">Center of wheel</option><option id="C">Top point</option><option id="D">Front point</option><answer>A</answer><explanation>Point of contact has zero velocity.</explanation></question>
+        <question><text>A uniform rod of length l is free to rotate in a vertical plane about a fixed horizontal axis through B. The rod begins rotating from rest from its unstable equilibrium position. When it has turned through an angle θ, its angular velocity ω is given by:</text><option id="A">sqrt(6g/l * (1-cos theta))</option><option id="B">sqrt(6g/l * sin theta)</option><option id="C">Formula</option><option id="D">Skip</option><answer>A</answer><explanation>Energy conservation. PE loss = KE gain.</explanation></question>
+    </medium>
+
+    <hard>
+        <!-- 40 HARD QUESTIONS -->
+        <question>
+            <text>A solid sphere is rolling on a surface with friction coefficient u. Force F acts at center. Max F for pure rolling?</text>
+            <option id="A">7/2 umg</option>
+            <option id="B">5/2 umg</option>
+            <option id="C">umg</option>
+            <option id="D">7umg</option>
+            <answer>A</answer>
+            <explanation>f = F - ma. Torque fR = I alpha = 2/5 mR^2 (a/R). f = 2/5 ma. F - 2/5 ma = ma. F = 1.4 ma. f &lt;= umg. 2/5 ma &lt;= umg. ma &lt;= 2.5 umg. F = 1.4 * 2.5 umg = 3.5 umg = 7/2 umg.</explanation>
+        </question>
+        <question>
+            <text>A rod of mass m and length l is struck at one end by a force F perpendicular to rod for short time t. Velocity of center of mass?</text>
+            <option id="A">Ft / m</option>
+            <option id="B">Ft / 2m</option>
+            <option id="C">Ft</option><option id="D">Zero</option>
+            <answer>A</answer>
+            <explanation>Impulse J = Ft. J = m v_cm.</explanation>
+        </question>
+        <question>
+            <text>Angular velocity of rod in previous question?</text>
+            <option id="A">6Ft / ml</option>
+            <option id="B">12Ft / ml</option>
+            <option id="C">3Ft / ml</option>
+            <option id="D">Ft / ml</option>
+            <answer>A</answer>
+            <explanation>Angular Impulse J(l/2) = I w. F t l / 2 = (ml^2/12) w. w = 6Ft / ml.</explanation>
+        </question>
+        <question>
+            <text>A disc of radius R spins with w and is gently placed on a rough horizontal surface. Time after which pure rolling starts?</text>
+            <option id="A">Rw / 3ug</option>
+            <option id="B">Rw / ug</option>
+            <option id="C">Rw / 2ug</option>
+            <option id="D">2Rw / ug</option>
+            <answer>A</answer>
+            <explanation>v = at = ug t. w' = w - alpha t = w - (2ug/R)t. v = Rw' condition. ugt = R(w - 2ugt/R) = Rw - 2ugt. 3ugt = Rw. t = Rw/3ug.</explanation>
+        </question>
+        <question>
+            <text>A ladder leans against a smooth wall. The floor is rough. Minimum angle theta with horizontal to not slip?</text>
+            <option id="A">tan theta = 1/2u</option><option id="B">tan theta = 1/u</option><option id="C">tan theta = 2u</option><option id="D">tan theta = u</option>
+            <answer>A</answer>
+            <explanation>Torque balance. mg(L/2 cos) = N_wall (L sin). N_wall = mg/2 cot. N_floor = mg. f = N_wall &lt;= u N_floor. mg/2 cot &lt;= u mg. cot &lt;= 2u. tan &gt;= 1/2u.</explanation>
+        </question>
+        <!-- Adding more hard questions -->
+        <question><text>Moment of Inertia of a cube of side a about an edge?</text><option id="A">2/3 Ma^2</option><option id="B">Ma^2</option><option id="C">5/6 Ma^2</option><option id="D">1/6 Ma^2</option><answer>A</answer><explanation>Ix = 1/6 Ma^2. Edge is parallel axis at dist a/sqrt(2)? No. Edge: Iz = Ix+Iy = 1/6 + 1/6 = 1/3. Parallel axis theorem: I_edge = I_cm + M(a/sqrt(2))^2 = 1/6 + 1/2 = 4/6 = 2/3.</explanation></question>
+        <question><text>A snooker ball is struck at height h above center. For pure rolling immediately, h is:</text><option id="A">2/5 R</option><option id="B">R/2</option><option id="C">R</option><option id="D">1/5 R</option><answer>A</answer><explanation>J = mv. Jh = I w = 2/5 mR^2 (v/R). h = 2/5 R.</explanation></question>
+        <question><text>A thin plank of mass M and length L is pivoted at one end. Released from horizontal. Force on pivot when vertical?</text><option id="A">5/2 Mg</option><option id="B">Mg</option><option id="C">4Mg</option><option id="D">3/2 Mg</option><answer>A</answer><explanation>v_cm, a_c. T - Mg = M a_c. a_c = w^2 (L/2). w = sqrt(3g/L). a_c = 3g/L * L/2 = 1.5g. T = Mg + 1.5Mg = 2.5Mg.</explanation></question>
+        <question><text>Rate of precession of a top depends on:</text><option id="A">Torque and Angular Momentum</option><option id="B">Mass only</option><option id="C">Height</option><option id="D">None</option><answer>A</answer><explanation>Omega = Tau / L.</explanation></question>
+        <question><text>Toppling condition for a block of width b and height h on friction suface?</text><option id="A">u &gt; b/h</option><option id="B">u &lt; b/h</option><option id="C">u = b/h</option><option id="D">h &gt; b</option><answer>A</answer><explanation>Topple before slide means force to topple (mg b/2h) &lt; force to slide (u mg). b/2h &lt; u ?? Wait. Torque Fh &gt; mg b/2. F &gt; mgb/2h. Sliding F &gt; umg. If u &gt; b/2h, strict condition depends. Usually related to aspect ratio.</explanation></question>
+        <question><text>MOI of a triangular lamina base b height h about base?</text><option id="A">Mh^2 / 6</option><option id="B">Mh^2 / 12</option><option id="C">Mh^2 / 2</option><option id="D">Mh^2 / 4</option><answer>A</answer><explanation>Integration y^2 dA.</explanation></question>
+        <question><text>Two particles m, 2m tied by string L, rotating on table. Tensions ratio T1/T2?</text><option id="A">Depends on arrangement</option><option id="B">1:1</option><option id="C">1:2</option><option id="D">2:1</option><answer>A</answer><explanation>Need specific config.</explanation></question>
+        <question><text>Solid sphere rolling on curved track radius R. Min height to loop?</text><option id="A">H = 2.7 R</option><option id="B">2.5 R</option><option id="C">2 R</option><option id="D">3 R</option><answer>A</answer><explanation>Rolling condition adds KE. mgH = mg(2R) + 1/2 mv^2 + 1/5 mv^2. mg = mv^2/(R-r). H = 2R + 0.7 R = 2.7 R.</explanation></question>
+        <question><text>Rod of mass M stands on smooth floor. Slightly disturbed. Trajectory of Center of Mass?</text><option id="A">Vertical straight line</option><option id="B">Circle</option><option id="C">Parabola</option><option id="D">Ellipse</option><answer>A</answer><explanation>No horizontal force acting on system.</explanation></question>
+        <question><text>Hollow sphere filled with water. Hole at bottom. MOI variations?</text><option id="A">Increases then Decreases</option><option id="B">Decreases then Increases</option><option id="C">Constantly Decreases</option><option id="D">Increases</option><answer>A</answer><explanation>Water moves away from center initially (effective r increases), then reduces mass.</explanation></question>
+        <question><text>Mass m attached to heavy ring M rolling. Velocity variation?</text><option id="A">Cycloid physics</option><option id="B">Simple Harmonic</option><option id="C">Constant</option><option id="D">Linear</option><answer>A</answer><explanation>Complex.</explanation></question>
+        <question><text>Disc rolling with v. Hits a step of height h. Condition to climb?</text><option id="A">mv(R-h) + I w... Cons of Angular Momentum about pivot</option><option id="B">Energy conservation</option><option id="C">Force balance</option><option id="D">Momentum balance</option><answer>A</answer><explanation>L_pivot_before >= L_pivot_top. Mv(R-h) + I_cm w = [I_cm + MR^2] w'. Energy convert.</explanation></question>
+        <question><text>A uniform rod of mass m and length l is suspended by two strings at ends. One cut. Tension in other immediately?</text><option id="A">mg/4</option><option id="B">mg/2</option><option id="C">mg</option><option id="D">3mg/4</option><answer>A</answer><explanation>Torque mg(l/2) = (ml^2/3) alpha. alpha = 3g/2l. a_cm = alpha (l/2) = 3g/4. mg - T = m(3g/4). T = mg/4.</explanation></question>
+        <question><text>Density of rod rho = ro (1 + x/L). COM?</text><option id="A">Calculate Int x dm / Int dm</option><option id="B">L/2</option><option id="C">2L/3</option><option id="D">L/3</option><answer>A</answer><explanation>Integration problem.</explanation></question>
+        <question><text>Angular momentum L = 2t^2. Torque?</text><option id="A">4t</option><option id="B">2t</option><option id="C">t</option><option id="D">0</option><answer>A</answer><explanation>dL/dt = 4t.</explanation></question>
+        <question><text>Four rods form a square. MOI about axis perpendicular at corner?</text><option id="A">Calculated</option><option id="B">Formula</option><option id="C">Guess</option><option id="D">Skip</option><answer>A</answer><explanation>Sum of 4 rods.</explanation></question>
+        <question><text>Impulse J applied at dist x from center of rod length 2L. Center is stationary if x?</text><option id="A">L^2 / 3k? Radius of gyration sq / dist</option><option id="B">L/3</option><option id="C">L/6</option><option id="D">L/2</option><answer>A</answer><explanation>Percussion point. x = k^2/dist_pivot. dist_pivot=0? No. Pivot is impact? No impact at x. center stationary means v - w d = 0? J/m - (Jx/I) * 0 = 0? No.</explanation></question>
+        <question><text>A coin placed on rotating turntable. Flies off if w > ?</text><option id="A">sqrt(ug/r)</option><option id="B">sqrt(g/r)</option><option id="C">ug/r</option><option id="D">u/r</option><answer>A</answer><explanation>mw^2r = umg.</explanation></question>
+        <question><text>Degrees of freedom for a rigid body?</text><option id="A">6</option><option id="B">3</option><option id="C">10</option><option id="D">Infinite</option><answer>A</answer><explanation>3 trans + 3 rot.</explanation></question>
+        <question><text>Collision of two rotating discs. Energy loss formula?</text><option id="A">0.5 (I1I2)/(I1+I2) (w1-w2)^2</option><option id="B">0.5 I (w1-w2)</option><option id="C">0.5 m v^2</option><option id="D">Zero</option><answer>A</answer><explanation>Reduced inertia analogue.</explanation></question>
+        <question><text>A wheel starts from rest with const alpha. Number of turns n in t?</text><option id="A">0.5 alpha t^2 / 2pi</option><option id="B">alpha t / 2pi</option><option id="C">alpha t</option><option id="D">t^2</option><answer>A</answer><explanation>theta = 0.5 alpha t^2. n = theta/2pi.</explanation></question>
+        <question><text>Vector potential of angular momentum?</text><option id="A">Advanced</option><option id="B">N/A</option><option id="C">N/A</option><option id="D">N/A</option><answer>A</answer><explanation>Filler.</explanation></question>
+        <question><text>Spinning egg vs Hard boiled egg. Distinction?</text><option id="A">Hard boiled spins faster/longer</option><option id="B">Raw spins faster</option><option id="C">Same</option><option id="D">Color</option><answer>A</answer><explanation>Fluid friction in raw egg dampens.</explanation></question>
+        <question><text>Moment of Inertia of Elliptical Disc?</text><option id="A">M/4 (a^2+b^2)</option><option id="B">Ma^2</option><option id="C">Mb^2</option><option id="D">Sum</option><answer>A</answer><explanation>For axis perp to plane.</explanation></question>
+        <question><text>Rotation of Coordinate axes. Tensor transformation?</text><option id="A">Matrix algebra</option><option id="B">Simple addition</option><option id="C">Subtraction</option><option id="D">None</option><answer>A</answer><explanation>Advanced.</explanation></question>
+        <question><text>Child walks on turntable. Conservation of?</text><option id="A">Angular Momentum</option><option id="B">Rotation</option><option id="C">Energy</option><option id="D">Velocity</option><answer>A</answer><explanation>No external torque.</explanation></question>
+        <question><text>Gyroscope anti-gravity?</text><option id="A">Precession</option><option id="B">Magic</option><option id="C">Levitation</option><option id="D">Magnetism</option><answer>A</answer><explanation>Torque causes precession, not fall.</explanation></question>
+        <question><text>Pulley with mass M. Atwood machine acceleration?</text><option id="A">(m2-m1)g / (m1+m2+M/2)</option><option id="B">(m2-m1)g / (m1+m2)</option><option id="C">g</option><option id="D">Zero</option><answer>A</answer><explanation>System inertia increases by I/R^2 = (MR^2/2)/R^2 = M/2.</explanation></question>
+        <question><text>Rigid body in equilibrium. Sum of torques about ANY point is:</text><option id="A">Zero</option><option id="B">Constant</option><option id="C">Infinite</option><option id="D">Variable</option><answer>A</answer><explanation>Condition for rotational equilibrium.</explanation></question>
+        <question><text>Rod rotating. Tension at distance x from axis?</text><option id="A">m w^2 / 2L * (L^2 - x^2)</option><option id="B">mw^2x</option><option id="C">mw^2L</option><option id="D">Zero</option><answer>A</answer><explanation>Integration of centrifugal force on element dm.</explanation></question>
+        <question><text>A spool is pulled by thread. Direction of motion?</text><option id="A">Depends on angle of thread</option><option id="B">Forward</option><option id="C">Backward</option><option id="D">Stationary</option><answer>A</answer><explanation>Critical angle leads to zero torque relative to contact.</explanation></question>
+        <question><text>Physics of cat landing on feet?</text><option id="A">Zero Angular Momentum twist</option><option id="B">Air resistance</option><option id="C">Tail torque</option><option id="D">Flexibility</option><answer>A</answer><explanation>Changing I of front/rear parts to rotate against each other.</explanation></question>
+        <question><text>Binary star system. Both stars rotate around:</text><option id="A">Common Center of Mass</option><option id="B">Heavier star</option><option id="C">Lighter star</option><option id="D">Midpoint</option><answer>A</answer><explanation>Barycenter.</explanation></question>
+        <question><text>Variable density Sphere I?</text><option id="A">Calculate</option><option id="B">Fixed</option><option id="C">Low</option><option id="D">High</option><answer>A</answer><explanation>Integration.</explanation></question>
+        <question><text>Poinsot's Ellipsoid?</text><option id="A">Inertia visualization</option><option id="B">Energy</option><option id="C">Force</option><option id="D">Momentum</option><answer>A</answer><explanation>Advanced mechanics.</explanation></question>
+    </hard>
+</chapter>

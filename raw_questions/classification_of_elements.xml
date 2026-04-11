@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="103" name="Classification of Elements and Periodicity">
+    <easy>
+        <question>
+            <text>Modern Periodic Law is based on:</text>
+            <option id="A">Atomic Number</option><option id="B">Atomic Mass</option><option id="C">Neutron Number</option><option id="D">Density</option>
+            <answer>A</answer><explanation>Moseley's law.</explanation>
+        </question>
+        <question>
+            <text>Mendeleev's Periodic Table was based on:</text>
+            <option id="A">Atomic Mass</option><option id="B">Atomic Number</option><option id="C">Electronic Config</option><option id="D">Valency</option>
+            <answer>A</answer><explanation>Periodic functions of mass.</explanation>
+        </question>
+        <question>
+            <text>Number of periods in Modern Periodic Table:</text>
+            <option id="A">7</option><option id="B">18</option><option id="C">8</option><option id="D">9</option>
+            <answer>A</answer><explanation>Horizontal rows.</explanation>
+        </question>
+        <question>
+            <text>Number of groups in Modern Periodic Table:</text>
+            <option id="A">18</option><option id="B">7</option><option id="C">10</option><option id="D">14</option>
+            <answer>A</answer><explanation>Vertical columns.</explanation>
+        </question>
+        <question>
+            <text>Elements of Group 1 are called:</text>
+            <option id="A">Alkali Metals</option><option id="B">Alkaline Earth Metals</option><option id="C">Halogens</option><option id="D">Noble Gases</option>
+            <answer>A</answer><explanation>Basic oxides.</explanation>
+        </question>
+        <question>
+            <text>Elements of Group 17 are called:</text>
+            <option id="A">Halogens</option><option id="B">Chalcogens</option><option id="C">Noble Gases</option><option id="D">Metalloids</option>
+            <answer>A</answer><explanation>Salt formers.</explanation>
+        </question>
+        <question>
+            <text>Which block contains transition elements?</text>
+            <option id="A">d-block</option><option id="B">s-block</option><option id="C">p-block</option><option id="D">f-block</option>
+            <answer>A</answer><explanation>Between s and p.</explanation>
+        </question>
+        <question>
+            <text>f-block elements are also known as:</text>
+            <option id="A">Inner Transition Elements</option><option id="B">Transition Elements</option><option id="C">Representative Elements</option><option id="D">Inert Gases</option>
+            <answer>A</answer><explanation>Inside transition series.</explanation>
+        </question>
+        <question>
+            <text>General electronic config of s-block:</text>
+            <option id="A">ns 1-2</option><option id="B">ns2 np 1-6</option><option id="C">(n-1)d 1-10 ns 1-2</option><option id="D">nf 1-14</option>
+            <answer>A</answer><explanation>Outermost s.</explanation>
+        </question>
+        <question>
+            <text>Most electronegative element is:</text>
+            <option id="A">Fluorine</option><option id="B">Oxygen</option><option id="C">Chlorine</option><option id="D">Nitrogen</option>
+            <answer>A</answer><explanation>Using Pauling scale.</explanation>
+        </question>
+        <question>
+            <text>Atomic radius down a group:</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Remains same</option><option id="D">First inc then dec</option>
+            <answer>A</answer><explanation>More shells added.</explanation>
+        </question>
+        <question>
+            <text>Atomic radius across a period (left to right):</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">Constant</option><option id="D">Irregular</option>
+            <answer>A</answer><explanation>Effective nuclear charge increases.</explanation>
+        </question>
+        <question>
+            <text>Cation radius is always _____ than parent atom.</text>
+            <option id="A">Smaller</option><option id="B">Larger</option><option id="C">Equal</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Loss of shell or increased Zeff.</explanation>
+        </question>
+        <question>
+            <text>Anion radius is always _____ than parent atom.</text>
+            <option id="A">Larger</option><option id="B">Smaller</option><option id="C">Equal</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Repulsion increases.</explanation>
+        </question>
+        <question>
+            <text>Which group has zero valency (inert)?</text>
+            <option id="A">Group 18</option><option id="B">Group 17</option><option id="C">Group 1</option><option id="D">Group 14</option>
+            <answer>A</answer><explanation>Noble gases.</explanation>
+        </question>
+        <question>
+            <text>Group 2 elements are:</text>
+            <option id="A">Alkaline Earth Metals</option><option id="B">Alkali Metals</option><option id="C">Halogens</option><option id="D">Pnictogens</option>
+            <answer>A</answer><explanation>Oxides found in earth.</explanation>
+        </question>
+        <question>
+            <text>Which element is liquid at room temperature (Metal)?</text>
+            <option id="A">Mercury</option><option id="B">Bromine</option><option id="C">Gallium</option><option id="D">Cesium</option>
+            <answer>A</answer><explanation>Hg.</explanation>
+        </question>
+        <question>
+            <text>Which non-metal is liquid at room temp?</text>
+            <option id="A">Bromine</option><option id="B">Mercury</option><option id="C">Iodine</option><option id="D">Chlorine</option>
+            <answer>A</answer><explanation>Br2.</explanation>
+        </question>
+        <question>
+            <text>Valency of Group 1 elements is:</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">0</option><option id="D">7</option>
+            <answer>A</answer><explanation>ns1 configuration.</explanation>
+        </question>
+        <question>
+            <text>Element with Z=11 is:</text>
+            <option id="A">Sodium</option><option id="B">Magnesium</option><option id="C">Neon</option><option id="D">Lithium</option>
+            <answer>A</answer><explanation>Na.</explanation>
+        </question>
+        <question>
+            <text>Which element has highest electron affinity?</text>
+            <option id="A">Chlorine</option><option id="B">Fluorine</option><option id="C">Oxygen</option><option id="D">Sulfur</option>
+            <answer>A</answer><explanation>Cl (F is small, repulsion).</explanation>
+        </question>
+        <question>
+            <text>Which is a metalloid?</text>
+            <option id="A">Silicon</option><option id="B">Carbon</option><option id="C">Aluminum</option><option id="D">Sodium</option>
+            <answer>A</answer><explanation>Semi-metal.</explanation>
+        </question>
+        <question>
+            <text>Ionization energy is energy required to:</text>
+            <option id="A">Remove an electron</option><option id="B">Add an electron</option><option id="C">Break a bond</option><option id="D">Form a bond</option>
+            <answer>A</answer><explanation>From isolated gaseous atom.</explanation>
+        </question>
+        <question>
+            <text>First IP of Nitrogen is higher than Oxygen because:</text>
+            <option id="A">Half-filled stability</option><option id="B">Size</option><option id="C">Nuclear charge</option><option id="D">Shielding</option>
+            <answer>A</answer><explanation>2p3 is stable.</explanation>
+        </question>
+        <question>
+            <text>General property of metals:</text>
+            <option id="A">Lose electrons</option><option id="B">Gain electrons</option><option id="C">Form anions</option><option id="D">Brittle</option>
+            <answer>A</answer><explanation>Electropositive.</explanation>
+        </question>
+        <question>
+            <text>Oxides of non-metals are generally:</text>
+            <option id="A">Acidic</option><option id="B">Basic</option><option id="C">Amphoteric</option><option id="D">Neutral</option>
+            <answer>A</answer><explanation>Forms acids with water.</explanation>
+        </question>
+        <question>
+            <text>Oxides of metals are generally:</text>
+            <option id="A">Basic</option><option id="B">Acidic</option><option id="C">Neutral</option><option id="D">Amphoteric</option>
+            <answer>A</answer><explanation>Forms bases.</explanation>
+        </question>
+        <question>
+            <text>Noble gases have:</text>
+            <option id="A">Stable octet</option><option id="B">Unstable octet</option><option id="C">One electron</option><option id="D">Incomplete shell</option>
+            <answer>A</answer><explanation>ns2 np6.</explanation>
+        </question>
+        <question>
+            <text>Total elements in Period 1:</text>
+            <option id="A">2</option><option id="B">8</option><option id="C">18</option><option id="D">32</option>
+            <answer>A</answer><explanation>H and He.</explanation>
+        </question>
+        <question>
+            <text>Total elements in Period 2 and 3:</text>
+            <option id="A">8</option><option id="B">18</option><option id="C">32</option><option id="D">2</option>
+            <answer>A</answer><explanation>Short periods.</explanation>
+        </question>
+        <question>
+            <text>Representative elements belong to:</text>
+            <option id="A">s and p block</option><option id="B">d block</option><option id="C">f block</option><option id="D">s block only</option>
+            <answer>A</answer><explanation>Main groups.</explanation>
+        </question>
+        <question>
+            <text>IUPAC name for Z=104:</text>
+            <option id="A">Unnilquadium</option><option id="B">Unnilunium</option><option id="C">Unniltrium</option><option id="D">Unnilpentium</option>
+            <answer>A</answer><explanation>1-0-4.</explanation>
+        </question>
+        <question>
+            <text>Actinoids start from:</text>
+            <option id="A">Th (90)</option><option id="B">Ac (89)</option><option id="C">La (57)</option><option id="D">Ce (58)</option>
+            <answer>A</answer><explanation>After Actinium.</explanation>
+        </question>
+        <question>
+            <text>Lanthanoids involve filling of:</text>
+            <option id="A">4f</option><option id="B">5f</option><option id="C">3d</option><option id="D">4d</option>
+            <answer>A</answer><explanation>Inner transition.</explanation>
+        </question>
+        <question>
+            <text>He belongs to which block?</text>
+            <option id="A">s-block</option><option id="B">p-block</option><option id="C">d-block</option><option id="D">f-block</option>
+            <answer>A</answer><explanation>1s2 config (placed with p due to properties, but technically s).</explanation>
+        </question>
+        <question>
+            <text>Highest ionization energy element:</text>
+            <option id="A">Helium</option><option id="B">Fluorine</option><option id="C">Cesium</option><option id="D">Francium</option>
+            <answer>A</answer><explanation>Given closed shell and small size.</explanation>
+        </question>
+        <question>
+            <text>Lowest ionization energy element:</text>
+            <option id="A">Cesium</option><option id="B">Lithium</option><option id="C">Fluorine</option><option id="D">Helium</option>
+            <answer>A</answer><explanation>Largest size.</explanation>
+        </question>
+        <question>
+            <text>Which is Amphoteric Oxide?</text>
+            <option id="A">Al2O3</option><option id="B">Na2O</option><option id="C">MgO</option><option id="D">SO2</option>
+            <answer>A</answer><explanation>Reacts with both acid and base.</explanation>
+        </question>
+        <question>
+            <text>Group 16 elements are called:</text>
+            <option id="A">Chalcogens</option><option id="B">Halogens</option><option id="C">Pnictogens</option><option id="D">Noble Gases</option>
+            <answer>A</answer><explanation>Ore forming.</explanation>
+        </question>
+        <question>
+            <text>Group 15 elements are called:</text>
+            <option id="A">Pnictogens</option><option id="B">Chalcogens</option><option id="C">Halogens</option><option id="D">Noble</option>
+            <answer>A</answer><explanation>Suffocating.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Order of ionic radii: N3-, O2-, F-, Na+?</text>
+            <option id="A">N3- > O2- > F- > Na+</option><option id="B">Na+ > F- > O2- > N3-</option><option id="C">All equal</option><option id="D">Random</option>
+            <answer>A</answer><explanation>Isoelectronic: size decreases as Z increases.</explanation>
+        </question>
+        <question>
+            <text>Why Electron Gain Enthalpy of F is less than Cl?</text>
+            <option id="A">Small size repulsion</option><option id="B">F is less electronegative</option><option id="C">F has no d-orbitals</option><option id="D">Cl is gas</option>
+            <answer>A</answer><explanation>Electronic repulsion dominates.</explanation>
+        </question>
+        <question>
+            <text>Which has largest size?</text>
+            <option id="A">K</option><option id="B">Na</option><option id="C">Li</option><option id="D">Mg</option>
+            <answer>A</answer><explanation>Lower in group.</explanation>
+        </question>
+        <question>
+            <text>Correct order of IE1?</text>
+            <option id="A">B &lt; Be</option><option id="B">Be &lt; B</option><option id="C">B = Be</option><option id="D">Li > Be</option>
+            <answer>A</answer><explanation>Be (2s2) stable vs B (2p1) easy removal.</explanation>
+        </question>
+        <question>
+            <text>Which element shows diagonal relationship with Li?</text>
+            <option id="A">Mg</option><option id="B">Al</option><option id="C">Na</option><option id="D">Si</option>
+            <answer>A</answer><explanation>Similar charge/size ratio.</explanation>
+        </question>
+        <question>
+            <text>Diagonal relationship of Be is with:</text>
+            <option id="A">Al</option><option id="B">Mg</option><option id="C">B</option><option id="D">Si</option>
+            <answer>A</answer><explanation>Be-Al.</explanation>
+        </question>
+        <question>
+            <text>Diagonal relationship of B is with:</text>
+            <option id="A">Si</option><option id="B">C</option><option id="C">Al</option><option id="D">Ga</option>
+            <answer>A</answer><explanation>B-Si.</explanation>
+        </question>
+        <question>
+            <text>Screening effect order:</text>
+            <option id="A">s > p > d > f</option><option id="B">f > d > p > s</option><option id="C">p > s > d > f</option><option id="D">d > f > s > p</option>
+            <answer>A</answer><explanation>Penetration.</explanation>
+        </question>
+        <question>
+            <text>Poor shielding of d-electrons causes:</text>
+            <option id="A">High IE of Ga > Al (roughly)</option><option id="B">Low IE</option><option id="C">Large radius</option><option id="D">None</option>
+            <answer>A</answer><explanation>Zeff increases.</explanation>
+        </question>
+        <question>
+            <text>Lanthanoid contraction is due to:</text>
+            <option id="A">Poor shielding of 4f</option><option id="B">Good shielding of 4f</option><option id="C">High nuclear charge only</option><option id="D">High mass</option>
+            <answer>A</answer><explanation>4f don't shield well.</explanation>
+        </question>
+        <question>
+            <text>Consequence of Lanthanoid Contraction:</text>
+            <option id="A">Zr and Hf same size</option><option id="B">Zr > Hf</option><option id="C">Zr &lt; Hf</option><option id="D">No effect</option>
+            <answer>A</answer><explanation>4d and 5d series similarity.</explanation>
+        </question>
+        <question>
+            <text>Oxidation state of Group 1:</text>
+            <option id="A">+1</option><option id="B">+2</option><option id="C">-1</option><option id="D">Variable</option>
+            <answer>A</answer><explanation>One valence e.</explanation>
+        </question>
+        <question>
+            <text>Most non-metallic element in Group 15?</text>
+            <option id="A">N</option><option id="B">P</option><option id="C">As</option><option id="D">Bi</option>
+            <answer>A</answer><explanation>Top of group.</explanation>
+        </question>
+        <question>
+            <text>Elements with ns2 np5 configuration:</text>
+            <option id="A">Halogens</option><option id="B">Chalcogens</option><option id="C">Noble Gases</option><option id="D">Alkali</option>
+            <answer>A</answer><explanation>Group 17.</explanation>
+        </question>
+        <question>
+            <text>Which oxide is neutral?</text>
+            <option id="A">CO</option><option id="B">CO2</option><option id="C">SO2</option><option id="D">Na2O</option>
+            <answer>A</answer><explanation>CO, NO, N2O are neutral.</explanation>
+        </question>
+        <question>
+            <text>Electronegativity ______ across a period.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Constant</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Tendency to attract electrons inc.</explanation>
+        </question>
+        <question>
+            <text>Which has highest EA?</text>
+            <option id="A">S or O? S</option><option id="B">O</option><option id="C">Se</option><option id="D">Te</option>
+            <answer>A</answer><explanation>S > O (same reason as Cl > F).</explanation>
+        </question>
+        <question>
+            <text>Element with Z=35 belongs to:</text>
+            <option id="A">Period 4, Group 17</option><option id="B">Period 3, Group 17</option><option id="C">Period 4, Group 16</option><option id="D">Period 5, Group 17</option>
+            <answer>A</answer><explanation>Br.</explanation>
+        </question>
+        <question>
+            <text>Which is transition element?</text>
+            <option id="A">Fe</option><option id="B">Na</option><option id="C">Al</option><option id="D">S</option>
+            <answer>A</answer><explanation>d-block.</explanation>
+        </question>
+        <question>
+            <text>Why noble gases have positive electron gain enthalpy?</text>
+            <option id="A">Stable config</option><option id="B">High Z</option><option id="C">Small size</option><option id="D">Gases</option>
+            <answer>A</answer><explanation>Must put electron in higher shell.</explanation>
+        </question>
+        <question>
+            <text>Largest ion among isoelectronic?</text>
+            <option id="A">S2-</option><option id="B">Cl-</option><option id="C">K+</option><option id="D">Ca2+</option>
+            <answer>A</answer><explanation>Lowest Z (16).</explanation>
+        </question>
+        <question>
+            <text>Smallest ion among isoelectronic?</text>
+            <option id="A">Ca2+</option><option id="B">K+</option><option id="C">Cl-</option><option id="D">S2-</option>
+            <answer>A</answer><explanation>Highest Z (20).</explanation>
+        </question>
+        <question>
+            <text>Van der Waals radius is ______ than Covalent radius.</text>
+            <option id="A">Larger</option><option id="B">Smaller</option><option id="C">Equal</option><option id="D">Half</option>
+            <answer>A</answer><explanation>No overlap.</explanation>
+        </question>
+        <question>
+            <text>Identify metalloid in Period 3:</text>
+            <option id="A">Si</option><option id="B">Al</option><option id="C">P</option><option id="D">S</option>
+            <answer>A</answer><explanation>Silicon.</explanation>
+        </question>
+        <question>
+            <text>Basic strength of oxides down a group:</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Constant</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Metallic character increases.</explanation>
+        </question>
+        <question>
+            <text>Acidic strength of oxides across period:</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Constant</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Non-metallic character increases.</explanation>
+        </question>
+        <question>
+            <text>Which forms colored ions typically?</text>
+            <option id="A">Transition metals</option><option id="B">s-block</option><option id="C">Noble gases</option><option id="D">C</option>
+            <answer>A</answer><explanation>d-d transitions.</explanation>
+        </question>
+        <question>
+            <text>Variable valency is shown by:</text>
+            <option id="A">d-block elements</option><option id="B">s-block</option><option id="C">Noble gases</option><option id="D">F</option>
+            <answer>A</answer><explanation>ns and (n-1)d energies close.</explanation>
+        </question>
+        <question>
+            <text>Which group has highest electron gain enthalpy (magnitude)?</text>
+            <option id="A">Halogens</option><option id="B">Oxygen family</option><option id="C">Nitrogen family</option><option id="D">Noble gases</option>
+            <answer>A</answer><explanation>Need 1 electron to complete octet.</explanation>
+        </question>
+        <question>
+            <text>Which element is liquid metal?</text>
+            <option id="A">Hg</option><option id="B">Br</option><option id="C">Ga</option><option id="D">Cs</option>
+            <answer>A</answer><explanation>Duplicate, but valid.</explanation>
+        </question>
+        <question>
+            <text>Which element has max density in solid?</text>
+            <option id="A">Os / Ir</option><option id="B">Pb</option><option id="C">Hg</option><option id="D">Au</option>
+            <answer>A</answer><explanation>Osmium/Iridium.</explanation>
+        </question>
+        <question>
+            <text>An element has electronic config [Ar] 3d10 4s1. It belongs to:</text>
+            <option id="A">Group 11</option><option id="B">Group 1</option><option id="C">Group 12</option><option id="D">Group 10</option>
+            <answer>A</answer><explanation>Cu group. 10+1 = 11.</explanation>
+        </question>
+        <question>
+            <text>Which is most acidic?</text>
+            <option id="A">Cl2O7</option><option id="B">SO3</option><option id="C">P4O10</option><option id="D">SiO2</option>
+            <answer>A</answer><explanation>High oxidation state + non-metal.</explanation>
+        </question>
+        <question>
+            <text>Which is most basic?</text>
+            <option id="A">Na2O</option><option id="B">MgO</option><option id="C">Al2O3</option><option id="D">SiO2</option>
+            <answer>A</answer><explanation>Alkali metal oxide.</explanation>
+        </question>
+        <question>
+            <text>First IP of Be vs B?</text>
+            <option id="A">Be > B</option><option id="B">B > Be</option><option id="C">Equal</option><option id="D">B >> Be</option>
+            <answer>A</answer><explanation>2s2 vs 2p1.</explanation>
+        </question>
+        <question>
+            <text>Second IP of Na vs Mg?</text>
+            <option id="A">Na > Mg</option><option id="B">Mg > Na</option><option id="C">Equal</option><option id="D">Mg >> Na</option>
+            <answer>A</answer><explanation>Na+ is noble gas config.</explanation>
+        </question>
+        <question>
+            <text>Which can form anion most easily?</text>
+            <option id="A">F</option><option id="B">O</option><option id="C">N</option><option id="D">C</option>
+            <answer>A</answer><explanation>High electronegativity.</explanation>
+        </question>
+        <question>
+            <text>Hydration energy depends on:</text>
+            <option id="A">Charge/Size ratio</option><option id="B">Mass</option><option id="C">Neutrons</option><option id="D">Color</option>
+            <answer>A</answer><explanation>Higher charge density, more hydration.</explanation>
+        </question>
+        <question>
+            <text>Lithium shows similarity to Magnesium due to:</text>
+            <option id="A">Diagonal relationship</option><option id="B">Same group</option><option id="C">Same period</option><option id="D">Both alkali</option>
+            <answer>A</answer><explanation>Similar Z/r.</explanation>
+        </question>
+        <question>
+            <text>Highest melting point in Period 3:</text>
+            <option id="A">Si</option><option id="B">Al</option><option id="C">P</option><option id="D">S</option>
+            <answer>A</answer><explanation>Giant covalent network.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Successive ionization energies of an element are 500, 1000, 5000 kJ/mol. Valence electrons?</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">3</option><option id="D">4</option>
+            <answer>A</answer><explanation>Jump after 2nd removal.</explanation>
+        </question>
+        <question>
+            <text>Explain why IE1 of O &lt; N?</text>
+            <option id="A">Electron repulsion in paired 2p orbital of O</option><option id="B">O is larger</option><option id="C">N is unstable</option><option id="D">O has high Z</option>
+            <answer>A</answer><explanation>N is 2p3 (stable). O is 2p4 (pairing energy).</explanation>
+        </question>
+        <question>
+            <text>Correct order of Electron affinity (negative enthalpy):</text>
+            <option id="A">Cl > F > Br > I</option><option id="B">F > Cl > Br > I</option><option id="C">I > Br > Cl > F</option><option id="D">Cl > Br > F > I</option>
+            <answer>A</answer><explanation>Cl highest due to F repulsion.</explanation>
+        </question>
+        <question>
+            <text>Which has highest hydration enthalpy?</text>
+            <option id="A">Li+</option><option id="B">Na+</option><option id="C">K+</option><option id="D">Rb+</option>
+            <answer>A</answer><explanation>Smallest size.</explanation>
+        </question>
+        <question>
+            <text>Which oxide is amphoteric?</text>
+            <option id="A">SnO2</option><option id="B">CaO</option><option id="C">CO2</option><option id="D">Na2O</option>
+            <answer>A</answer><explanation>Sn, Pb, Al, Zn, Be form amphoteric.</explanation>
+        </question>
+        <question>
+            <text>Correct order of size for I, I+, I-?</text>
+            <option id="A">I- > I > I+</option><option id="B">I+ > I > I-</option><option id="C">I > I- > I+</option><option id="D">I > I+ > I-</option>
+            <answer>A</answer><explanation>Anion > Neutral > Cation.</explanation>
+        </question>
+        <question>
+            <text>Element with Z=114 belongs to group:</text>
+            <option id="A">14</option><option id="B">16</option><option id="C">18</option><option id="D">10</option>
+            <answer>A</answer><explanation>Under Pb (82). 82+32 = 114. Group 14.</explanation>
+        </question>
+        <question>
+            <text>Maximum oxidation state of Osmium?</text>
+            <option id="A">+8</option><option id="B">+7</option><option id="C">+6</option><option id="D">+4</option>
+            <answer>A</answer><explanation>OsO4.</explanation>
+        </question>
+        <question>
+            <text>Why Gd (64) has 4f7 5d1 6s2 config?</text>
+            <option id="A">Half filled f stability</option><option id="B">Aufbau exception</option><option id="C">Full filled</option><option id="D">Random</option>
+            <answer>A</answer><explanation>Stable f7.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of divalent ion in aqueous solution if it's Ti (Z=22)?</text>
+            <option id="A">2.84 BM</option><option id="B">1.73 BM</option><option id="C">0</option><option id="D">3.87 BM</option>
+            <answer>A</answer><explanation>Ti2+: 3d2. n=2. sqrt(8).</explanation>
+        </question>
+        <question>
+            <text>Ionic mobility in aqueous solution is max for:</text>
+            <option id="A">Cs+</option><option id="B">Li+</option><option id="C">Na+</option><option id="D">K+</option>
+            <answer>A</answer><explanation>Smallest hydrated radius (Cs+ is largest raw, smallest hydrated).</explanation>
+        </question>
+        <question>
+            <text>Which d-block element is not a transition element?</text>
+            <option id="A">Zn</option><option id="B">Cu</option><option id="C">Ag</option><option id="D">Au</option>
+            <answer>A</answer><explanation>Full d10 in ground and excited states.</explanation>
+        </question>
+        <question>
+            <text>Which set has all amphoteric oxides?</text>
+            <option id="A">Al2O3, ZnO, PbO, SnO2</option><option id="B">MgO, ZnO, PbO</option><option id="C">Al2O3, Na2O, K2O</option><option id="D">CO2, NO, N2O</option>
+            <answer>A</answer><explanation>Classic list.</explanation>
+        </question>
+        <question>
+            <text>Europium (Eu) shows +2 state commonly because:</text>
+            <option id="A">f7 config (half filled)</option><option id="B">f0</option><option id="C">f14</option><option id="D">Inert pair</option>
+            <answer>A</answer><explanation>Eu(63) is 4f7 6s2. Eu2+ is 4f7.</explanation>
+        </question>
+        <question>
+            <text>Correct order of acidic strength of hydrides?</text>
+            <option id="A">HF &lt; HCl &lt; HBr &lt; HI</option><option id="B">HI &lt; HBr &lt; HCl &lt; HF</option><option id="C">HF &lt; HI &lt; HBr</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>Bond length increases, easier dissociation.</explanation>
+        </question>
+        <question>
+            <text>Which has highest 2nd Electron Gain Enthalpy (positive)?</text>
+            <option id="A">O</option><option id="B">S</option><option id="C">Se</option><option id="D">Te</option>
+            <answer>A</answer><explanation>O- -> O2- requires much energy due to small size repulsion.</explanation>
+        </question>
+        <question>
+            <text>Pair with almost same size due to Lanthanoid contraction?</text>
+            <option id="A">Zr - Hf</option><option id="B">Nb - Ta</option><option id="C">Mo - W</option><option id="D">All of above</option>
+            <answer>D</answer><explanation>4d and 5d series twins.</explanation>
+        </question>
+        <question>
+            <text>Atomic volume curve (Lother Meyer) peaks occupied by:</text>
+            <option id="A">Alkali metals</option><option id="B">Halogens</option><option id="C">Transition metals</option><option id="D">Noble gases</option>
+            <answer>A</answer><explanation>Largest atomic volume.</explanation>
+        </question>
+        <question>
+            <text>Inert pair effect is most prominent in:</text>
+            <option id="A">Group 13, 14 (lower elements like Tl, Pb)</option><option id="B">Group 1, 2</option><option id="C">Transition</option><option id="D">Lanthanoids</option>
+            <answer>A</answer><explanation>Reluctance of s-electrons to bond.</explanation>
+        </question>
+        <question>
+            <text>Stability of +1 state of Thallium is due to:</text>
+            <option id="A">Inert pair effect</option><option id="B">Small size</option><option id="C">High IE</option><option id="D">f-block</option>
+            <answer>A</answer><explanation>Tl (+1) > Tl (+3).</explanation>
+        </question>
+        <question>
+            <text>Most electropositive element in periodic table?</text>
+            <option id="A">Cs (stable), Fr (radioactive, but technically yes)</option><option id="B">F</option><option id="C">O</option><option id="D">Li</option>
+            <answer>A</answer><explanation>Lowest IE.</explanation>
+        </question>
+        <question>
+            <text>Formula of oxide of element with Z=113 (Nihonium) expected?</text>
+            <option id="A">E2O3</option><option id="B">E2O</option><option id="C">EO</option><option id="D">EO2</option>
+            <answer>A</answer><explanation>Group 13. +3 valency. (Wait, lower elements might be +1, but general oxide E2O3).</explanation>
+        </question>
+        <question>
+            <text>Calculation of effective nuclear charge using Slater's Rules for N (2p electron)?</text>
+            <option id="A">Zeff = 7 - (2*0.35 + 2*0.85) = 7 - 2.4 = 4.6? Need check</option><option id="B">3.9</option><option id="C">5.2</option><option id="D">2.5</option>
+            <answer>B</answer><explanation>Config: 1s2 (2s2p)3. Screening= 4*0.35 + 2*0.85 = 1.4+1.7=3.1. Zeff=7-3.1=3.9.</explanation>
+        </question>
+        <question>
+            <text>Oxide of chlorine Cl2O7 is:</text>
+            <option id="A">Strongly acidic</option><option id="B">Weakly acidic</option><option id="C">Neutral</option><option id="D">Amphoteric</option>
+            <answer>A</answer><explanation>Perchloric anhydride.</explanation>
+        </question>
+        <question>
+            <text>Order of electronegativity on hybridization?</text>
+            <option id="A">sp > sp2 > sp3</option><option id="B">sp3 > sp2 > sp</option><option id="C">sp2 > sp > sp3</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>More s-character = more EN.</explanation>
+        </question>
+        <question>
+            <text>Largest gap between IE2 and IE3 observed for:</text>
+            <option id="A">Mg</option><option id="B">Al</option><option id="C">Na</option><option id="D">Si</option>
+            <answer>A</answer><explanation>Mg2+ is stable.</explanation>
+        </question>
+        <question>
+            <text>Correct order of radii?</text>
+            <option id="A">H- > H > H+</option><option id="B">H > H+ > H-</option><option id="C">H+ > H > H-</option><option id="D">H- > H+ > H</option>
+            <answer>A</answer><explanation>Anion largest.</explanation>
+        </question>
+        <question>
+            <text>Which compound is used to prepare oxygen in lab?</text>
+            <option id="A">KClO3</option><option id="B">KMnO4</option><option id="C">MnO2</option><option id="D">H2O</option>
+            <answer>A</answer><explanation>Decomposition.</explanation>
+        </question>
+        <question>
+            <text>Polonium is:</text>
+            <option id="A">Radioactive</option><option id="B">Gas</option><option id="C">Liquid</option><option id="D">Non-metal</option>
+            <answer>A</answer><explanation>Discovered by Curie.</explanation>
+        </question>
+        <question>
+            <text>First ionization energy of Mg is higher than Al because?</text>
+            <option id="A">3s2 full filled stability in Mg</option><option id="B">Mg is smaller</option><option id="C">Al is metal</option><option id="D">Al has higher Z</option>
+            <answer>A</answer><explanation>Penetration of s.</explanation>
+        </question>
+        <question>
+            <text>Generally, EA becomes less negative down a group. Exception?</text>
+            <option id="A">F and Cl</option><option id="B">Li and Na</option><option id="C">He and Ne</option><option id="D">C and Si</option>
+            <answer>A</answer><explanation>2nd period anomaly.</explanation>
+        </question>
+        <question>
+            <text>Which element was named Eka-Silicon by Mendeleev?</text>
+            <option id="A">Germanium</option><option id="B">Gallium</option><option id="C">Scandium</option><option id="D">Titanium</option>
+            <answer>A</answer><explanation>Ge.</explanation>
+        </question>
+        <question>
+            <text>Eka-Aluminum was:</text>
+            <option id="A">Gallium</option><option id="B">Germanium</option><option id="C">Indium</option><option id="D">Thallium</option>
+            <answer>A</answer><explanation>Ga.</explanation>
+        </question>
+        <question>
+            <text>Highest conductivity among metals?</text>
+            <option id="A">Ag</option><option id="B">Cu</option><option id="C">Au</option><option id="D">Al</option>
+            <answer>A</answer><explanation>Silver.</explanation>
+        </question>
+        <question>
+            <text>Zero group introduced by?</text>
+            <option id="A">Ramsey</option><option id="B">Mendeleev</option><option id="C">Moseley</option><option id="D">Dalton</option>
+            <answer>A</answer><explanation>Noble gases.</explanation>
+        </question>
+        <question>
+            <text>Correct set of isoelectronic species?</text>
+            <option id="A">K+, Ca2+, Sc3+, Cl-</option><option id="B">Na+, Mg2+, Al3+, Cl-</option><option id="C">K+, Cl-, Mg2+, Sc3+</option><option id="D">Na+, K+, Rb+</option>
+            <answer>A</answer><explanation>18 electrons.</explanation>
+        </question>
+        <question>
+            <text>Smallest cation?</text>
+            <option id="A">H+</option><option id="B">Li+</option><option id="C">Be2+</option><option id="D">Al3+</option>
+            <answer>A</answer><explanation>Proton (bare nucleus radius ~10^-15m).</explanation>
+        </question>
+        <question>
+            <text>Which element is a Liquid Non-metal?</text>
+            <option id="A">Bromine</option><option id="B">Iodine</option><option id="C">Carbon</option><option id="D">Sulfur</option>
+            <answer>A</answer><explanation>Br2.</explanation>
+        </question>
+        <question>
+            <text>Total gaseous elements in periodic table?</text>
+            <option id="A">11</option><option id="B">6</option><option id="C">5</option><option id="D">12</option>
+            <answer>A</answer><explanation>H, N, O, F, Cl + 6 Noble gases.</explanation>
+        </question>
+        <question>
+            <text>Which has highest melting point among metals?</text>
+            <option id="A">Tungsten (W)</option><option id="B">Iron</option><option id="C">Titanium</option><option id="D">Osmium</option>
+            <answer>A</answer><explanation>Filaments.</explanation>
+        </question>
+    </hard>
+</chapter>

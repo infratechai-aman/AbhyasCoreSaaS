@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="1" name="Kinematics">
+    <easy>
+        <!-- 40 EASY QUESTIONS -->
+        <question>
+            <text>A particle moves along a circular path of radius R. The distance travelled when it completes half a circle is:</text>
+            <option id="A">πR</option>
+            <option id="B">2R</option>
+            <option id="C">2πR</option>
+            <option id="D">Zero</option>
+            <answer>A</answer>
+            <explanation>Distance is the actual path length. Half circumference = πR.</explanation>
+        </question>
+        <question>
+            <text>A body starts from rest and moves with uniform acceleration 'a'. The distance moved in the nth second is:</text>
+            <option id="A">a/2 (2n - 1)</option>
+            <option id="B">a/2 (2n + 1)</option>
+            <option id="C">a/2 (n - 1)</option>
+            <option id="D">an</option>
+            <answer>A</answer>
+            <explanation>Distance in nth second Sn = u + a/2(2n - 1). Here u=0.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a vector quantity?</text>
+            <option id="A">Speed</option>
+            <option id="B">Distance</option>
+            <option id="C">Displacement</option>
+            <option id="D">Mass</option>
+            <answer>C</answer>
+            <explanation>Displacement has both magnitude and direction.</explanation>
+        </question>
+        <question>
+            <text>The area under a velocity-time graph represents:</text>
+            <option id="A">Acceleration</option>
+            <option id="B">Displacement</option>
+            <option id="C">Force</option>
+            <option id="D">Speed</option>
+            <answer>B</answer>
+            <explanation>Integral of v dt is displacement.</explanation>
+        </question>
+        <question>
+            <text>A stone dropped from a tower reaches the ground in 4 seconds. The height of the tower is (g = 10 m/s²):</text>
+            <option id="A">80 m</option>
+            <option id="B">40 m</option>
+            <option id="C">160 m</option>
+            <option id="D">20 m</option>
+            <answer>A</answer>
+            <explanation>h = 1/2 gt² = 0.5 * 10 * 16 = 80m.</explanation>
+        </question>
+        <question>
+            <text>If a car travels at 60 km/h for 2 hours, the distance covered is:</text>
+            <option id="A">120 km</option>
+            <option id="B">60 km</option>
+            <option id="C">30 km</option>
+            <option id="D">240 km</option>
+            <answer>A</answer>
+            <explanation>Distance = Speed * Time = 60 * 2 = 120 km.</explanation>
+        </question>
+        <question>
+            <text>The rate of change of displacement with time is called:</text>
+            <option id="A">Speed</option>
+            <option id="B">Acceleration</option>
+            <option id="C">Velocity</option>
+            <option id="D">Retardation</option>
+            <answer>C</answer>
+            <explanation>Velocity is the derivative of displacement.</explanation>
+        </question>
+        <question>
+            <text>A body is thrown vertically upwards. At the highest point, its velocity is:</text>
+            <option id="A">Maximum</option>
+            <option id="B">Zero</option>
+            <option id="C">Equal to initial velocity</option>
+            <option id="D">Half of initial velocity</option>
+            <answer>B</answer>
+            <explanation>Velocity becomes zero at the maximum height before returning.</explanation>
+        </question>
+        <question>
+            <text>The slope of a displacement-time graph gives:</text>
+            <option id="A">Velocity</option>
+            <option id="B">Acceleration</option>
+            <option id="C">Impulse</option>
+            <option id="D">Force</option>
+            <answer>A</answer>
+            <explanation>Slope dx/dt represents velocity.</explanation>
+        </question>
+        <question>
+            <text>Which of these remains constant in uniform circular motion?</text>
+            <option id="A">Velocity</option>
+            <option id="B">Speed</option>
+            <option id="C">Acceleration</option>
+            <option id="D">Displacement</option>
+            <answer>B</answer>
+            <explanation>Speed is constant; velocity and acceleration change direction.</explanation>
+        </question>
+        <!-- Adding 10 -->
+        <question><text>If A + B = C and A^2 + B^2 = C^2, then the angle between A and B is:</text><option id="A">0</option><option id="B">90</option><option id="C">180</option><option id="D">45</option><answer>B</answer><explanation>Pythagoras theorem holds for 90 degrees.</explanation></question>
+        <question><text>A scalar quantity has:</text><option id="A">Magnitude only</option><option id="B">Direction only</option><option id="C">Both Magnitude and Direction</option><option id="D">None</option><answer>A</answer><explanation>Definition of scalar.</explanation></question>
+        <question><text>Equation of motion v = u + at applies when:</text><option id="A">Acceleration is constant</option><option id="B">Acceleration is variable</option><option id="C">Velocity is constant</option><option id="D">Force is variable</option><answer>A</answer><explanation>Kinematic equations are valid for constant acceleration.</explanation></question>
+        <question><text>40 m/s in km/h is:</text><option id="A">144 km/h</option><option id="B">100 km/h</option><option id="C">72 km/h</option><option id="D">120 km/h</option><answer>A</answer><explanation>40 * 18/5 = 8 * 18 = 144.</explanation></question>
+        <question><text>A body moves with constant speed in a circle. Work done by centripetal force is:</text><option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Infinite</option><answer>C</answer><explanation>Force is perpendicular to displacement.</explanation></question>
+        <question><text>Displacement is always ____ distance.</text><option id="A">Greater than</option><option id="B">Less than or equal to</option><option id="C">Equal to</option><option id="D">Greater than or equal to</option><answer>B</answer><explanation>Displacement is shortest path.</explanation></question>
+        <question><text>Unit of acceleration is:</text><option id="A">m/s</option><option id="B">m/s^2</option><option id="C">m^2/s</option><option id="D">km/s</option><answer>B</answer><explanation>Change in velocity per unit time.</explanation></question>
+        <question><text>If velocity and acceleration have opposite signs, speed:</text><option id="A">Increases</option><option id="B">Decreases</option><option id="C">Remains constant</option><option id="D">Becomes zero instantly</option><answer>B</answer><explanation>Deceleration occurs.</explanation></question>
+        <question><text>An object in free fall covers distance proportional to:</text><option id="A">t</option><option id="B">t^2</option><option id="C">t^3</option><option id="D">1/t</option><answer>B</answer><explanation>s = 1/2 gt^2.</explanation></question>
+        <question><text>Maximum range of projectile is at angle:</text><option id="A">30</option><option id="B">45</option><option id="C">60</option><option id="D">90</option><answer>B</answer><explanation>sin(2theta) is max at 2theta=90 -> theta=45.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Vector A dot Vector B is zero. Angle between them?</text><option id="A">0</option><option id="B">90</option><option id="C">180</option><option id="D">45</option><answer>B</answer><explanation>Dot product is zero for perpendicular vectors.</explanation></question>
+        <question><text>Cross product of parallel vectors is:</text><option id="A">Zero</option><option id="B">1</option><option id="C">AB</option><option id="D">Infinite</option><answer>A</answer><explanation>sin(0) = 0.</explanation></question>
+        <question><text>Magnitude of unit vector is:</text><option id="A">0</option><option id="B">1</option><option id="C">Infinity</option><option id="D">Variable</option><answer>B</answer><explanation>Definition of unit vector.</explanation></question>
+        <question><text>Path of a projectile is:</text><option id="A">Linear</option><option id="B">Circular</option><option id="C">Parabolic</option><option id="D">Elliptical</option><answer>C</answer><explanation>Trajectory equation is quadratic.</explanation></question>
+        <question><text>Acceleration due to gravity is max at:</text><option id="A">Equator</option><option id="B">Poles</option><option id="C">Center of earth</option><option id="D">Space</option><answer>B</answer><explanation>Radius is min at poles.</explanation></question>
+        <question><text>Reaction time is the time taken to:</text><option id="A">Stop a car</option><option id="B">Observe, think and act</option><option id="C">Accelerate</option><option id="D">Sleep</option><answer>B</answer><explanation>Definition of reaction time.</explanation></question>
+        <question><text>Relative velocity of A with respect to B is:</text><option id="A">Va + Vb</option><option id="B">Va - Vb</option><option id="C">Vb - Va</option><option id="D">Va * Vb</option><answer>B</answer><explanation>V_ab = V_a - V_b.</explanation></question>
+        <question><text>A speedometer measures:</text><option id="A">Average speed</option><option id="B">Instantaneous speed</option><option id="C">Average velocity</option><option id="D">Instantaneous velocity</option><answer>B</answer><explanation>Speed at that instant.</explanation></question>
+        <question><text>Odometer measures:</text><option id="A">Speed</option><option id="B">Distance</option><option id="C">Displacement</option><option id="D">Acceleration</option><answer>B</answer><explanation>Total path length covered.</explanation></question>
+        <question><text>Position vector of point (x,y,z) is:</text><option id="A">xi + yj + zk</option><option id="B">xi - yj</option><option id="C">x+y+z</option><option id="D">xyz</option><answer>A</answer><explanation>r = xi + yj + zk.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Component of vector A along B is:</text><option id="A">A cos theta</option><option id="B">A sin theta</option><option id="C">A tan theta</option><option id="D">A</option><answer>A</answer><explanation>Projection formula.</explanation></question>
+        <question><text>Resultant of two forces 3N and 4N acting perpendicularly is:</text><option id="A">7N</option><option id="B">1N</option><option id="C">5N</option><option id="D">12N</option><answer>C</answer><explanation>sqrt(3^2 + 4^2) = 5.</explanation></question>
+        <question><text>Velocity at top of trajectory of projectile is (u = initial velocity, theta = angle):</text><option id="A">0</option><option id="B">u cos theta</option><option id="C">u sin theta</option><option id="D">u</option><answer>B</answer><explanation>Only horizontal component remains. Vertical is zero.</explanation></question>
+        <question><text>Time of flight for projectile:</text><option id="A">u sin theta / g</option><option id="B">2u sin theta / g</option><option id="C">u cos theta / g</option><option id="D">u^2 / g</option><answer>B</answer><explanation>T = 2uy / g.</explanation></question>
+        <question><text>Horizontal range for projectile:</text><option id="A">u^2 sin 2theta / g</option><option id="B">u^2 sin theta / g</option><option id="C">u sin 2theta / g</option><option id="D">u^2 / 2g</option><answer>A</answer><explanation>Range formula.</explanation></question>
+        <question><text>Max height for projectile:</text><option id="A">u^2 sin^2 theta / 2g</option><option id="B">u^2 sin theta / 2g</option><option id="C">u^2 / 2g</option><option id="D">u sin theta / g</option><answer>A</answer><explanation>H formula.</explanation></question>
+        <question><text>Angular velocity is:</text><option id="A">d(theta)/dt</option><option id="B">dx/dt</option><option id="C">dv/dt</option><option id="D">d(theta)/dx</option><answer>A</answer><explanation>Rate of change of angular displacement.</explanation></question>
+        <question><text>Relation between linear velocity v and angular velocity w:</text><option id="A">v = rw</option><option id="B">v = r/w</option><option id="C">w = rv</option><option id="D">v = r^2 w</option><answer>A</answer><explanation>v = r omega.</explanation></question>
+        <question><text>Centripetal acceleration is:</text><option id="A">v^2/r</option><option id="B">v/r</option><option id="C">v^2 r</option><option id="D">v r</option><answer>A</answer><explanation>a = v^2/r directed towards center.</explanation></question>
+        <question><text>Tangential acceleration changes:</text><option id="A">Direction</option><option id="B">Magnitude of velocity</option><option id="C">Mass</option><option id="D">Radius</option><answer>B</answer><explanation>Tangential changes speed, Centripetal changes direction.</explanation></question>
+    </easy>
+
+    <medium>
+        <!-- 40 MEDIUM QUESTIONS -->
+        <question>
+            <text>A bus travelling the first one-third distance at a speed of 10 km/h, the next one-third at 20 km/h and at last one-third at 60 km/h. The average speed of the bus is:</text>
+            <option id="A">9 km/h</option>
+            <option id="B">16 km/h</option>
+            <option id="C">18 km/h</option>
+            <option id="D">48 km/h</option>
+            <answer>C</answer>
+            <explanation>3/Vavg = 1/v1 + 1/v2 + 1/v3 = 1/10 + 1/20 + 1/60 = (6+3+1)/60 = 10/60 = 1/6. Vavg = 18.</explanation>
+        </question>
+        <question>
+            <text>A ball is dropped from a high rise platform at t = 0 starting from rest. After 6 seconds another ball is thrown downwards from the same platform with a speed v. The two balls meet at t = 18 s. What is the value of v?</text>
+            <option id="A">75 m/s</option>
+            <option id="B">55 m/s</option>
+            <option id="C">40 m/s</option>
+            <option id="D">60 m/s</option>
+            <answer>A</answer>
+            <explanation>S1 = 0.5g(18)^2. S2 for 2nd ball in 12s = v(12) + 0.5g(12)^2. S1=S2 => 0.5*10*324 = 12v + 0.5*10*144. 1620 = 12v + 720. 12v = 900. v=75.</explanation>
+        </question>
+        <question>
+            <text>A particle is moving eastwards with a velocity of 5 m/s. In 10 seconds the velocity changes to 5 m/s northwards. The average acceleration in this time is:</text>
+            <option id="A">Zero</option>
+            <option id="B">1/√2 m/s^2 towards N-E</option>
+            <option id="C">1/√2 m/s^2 towards N-W</option>
+            <option id="D">1/2 m/s^2 towards N-W</option>
+            <answer>C</answer>
+            <explanation>Change in vel = Vf - Vi = 5j - 5i. Mag = 5√2. a = 5√2 / 10 = 1/√2. Dir is N-W.</explanation>
+        </question>
+        <question>
+            <text>A projectile is thrown with initial velocity u at angle θ. Its velocity is perpendicular to the initial velocity after time t. Then t is:</text>
+            <option id="A">u sin θ / g</option>
+            <option id="B">u / (g sin θ)</option>
+            <option id="C">u / (g cos θ)</option>
+            <option id="D">u tan θ / g</option>
+            <answer>B</answer>
+            <explanation>v dot u = 0. v = (u cos θ)i + (u sin θ - gt)j. Dot with u cos θ i + u sin θ j. u^2 cos^2 θ + u^2 sin^2 θ - u sin θ gt = 0. u^2 = u g t sin θ. t = u / (g sin θ).</explanation>
+        </question>
+        <question>
+            <text>A river is flowing from west to east at a speed of 5 meters per minute. A man on the south bank of the river, capable of swimming at 10 meters per minute in still water, wants to swim across the river in the shortest time. He should swim in a direction:</text>
+            <option id="A">Due North</option>
+            <option id="B">30 degrees east of North</option>
+            <option id="C">30 degrees west of North</option>
+            <option id="D">60 degrees east of North</option>
+            <answer>A</answer>
+            <explanation>Shortest time implies maximizing velocity component perpendicular to flow -> 90 degrees (North).</explanation>
+        </question>
+        <question>
+            <text>The ranges of a projectile for two angles of projection θ and (90-θ) are in the ratio:</text>
+            <option id="A">1:1</option>
+            <option id="B">1:2</option>
+            <option id="C">2:1</option>
+            <option id="D">tanθ : 1</option>
+            <answer>A</answer>
+            <explanation>Range is same for complementary angles.</explanation>
+        </question>
+        <question>
+            <text>Two vectors A and B have magnitudes 3 units and 4 units respectively. What should be the angle between them if the magnitude of the resultant is 1 unit?</text>
+            <option id="A">0</option>
+            <option id="B">180</option>
+            <option id="C">90</option>
+            <option id="D">45</option>
+            <answer>B</answer>
+            <explanation>R = |A-B| = |3-4| = 1. Requires opposite direction (180 deg).</explanation>
+        </question>
+        <question>
+            <text>Which of the following v-t graphs represents uniform motion?</text>
+            <option id="A">Line parallel to time axis</option>
+            <option id="B">Line parallel to velocity axis</option>
+            <option id="C">Line passing through origin with slope</option>
+            <option id="D">Parabola</option>
+            <answer>A</answer>
+            <explanation>Uniform motion means constant velocity.</explanation>
+        </question>
+        <question>
+            <text>A boat crosses a river with a velocity of 8 km/h. If the resulting velocity of boat is 10 km/h, then the velocity of river water is:</text>
+            <option id="A">4 km/h</option>
+            <option id="B">6 km/h</option>
+            <option id="C">8 km/h</option>
+            <option id="D">2 km/h</option>
+            <answer>B</answer>
+            <explanation>10^2 = 8^2 + Vr^2 => 100 = 64 + Vr^2 => Vr^2 = 36 => Vr = 6.</explanation>
+        </question>
+        <question>
+            <text>A person travels along a straight road for half distance with velocity v1 and the remaining half distance with velocity v2. The average velocity is given by:</text>
+            <option id="A">v1v2</option>
+            <option id="B">v2^2 / v1^2</option>
+            <option id="C">(v1+v2)/2</option>
+            <option id="D">2v1v2 / (v1+v2)</option>
+            <answer>D</answer>
+            <explanation>Harmonic mean formula for equal distances.</explanation>
+        </question>
+        <!-- Adding 10 -->
+        <question><text>Rain is falling vertically with a speed of 30 m/s. A woman rides a bicycle with a speed of 10 m/s in the north to south direction. What is the direction in which she should hold her umbrella?</text><option id="A">tan^-1(1/3) with vertical toward south</option><option id="B">tan^-1(1/3) with vertical toward north</option><option id="C">tan^-1(3) with vertical</option><option id="D">Vertical</option><answer>A</answer><explanation>Relative velocity of rain wrt woman. Vr = 30(-k), Vm = 10(j). Vrm = Vr - Vm = -30k - 10j. Angle with vertical = tan^-1(10/30) = tan^-1(1/3).</explanation></question>
+        <question><text>The horizontal range of a projectile is 4√3 times its maximum height. The angle of projection is:</text><option id="A">45</option><option id="B">60</option><option id="C">90</option><option id="D">30</option><answer>D</answer><explanation>R = 4√3 H. u^2 sin2θ/g = 4√3 u^2 sin^2 θ / 2g. 2sinθcosθ = 2√3 sin^2 θ. cotθ = √3. θ = 30.</explanation></question>
+        <question><text>A particle has initial velocity (2i + 3j) and acceleration (0.3i + 0.2j). The magnitude of velocity after 10 seconds will be:</text><option id="A">5 units</option><option id="B">9 units</option><option id="C">5√2 units</option><option id="D">9√2 units</option><answer>C</answer><explanation>v = u + at = (2i+3j) + 10(0.3i+0.2j) = 2i+3j+3i+2j = 5i+5j. Mag = 5√2.</explanation></question>
+        <question><text>At the top of the trajectory of a projectile, the directions of its velocity and acceleration are:</text><option id="A">Perpendicular to each other</option><option id="B">Parallel to each other</option><option id="C">Inclined to each other at 45°</option><option id="D">Antiparallel to each other</option><answer>A</answer><explanation>Velocity is horizontal, Acceleration (g) is vertical.</explanation></question>
+        <question><text>A stone dropped from the top of a tower touches the ground in 4 sec. The height of the tower is close to:</text><option id="A">80 m</option><option id="B">40 m</option><option id="C">20 m</option><option id="D">160 m</option><answer>A</answer><explanation>0.5 * 10 * 16 = 80.</explanation></question>
+        <question><text>Two cars P and Q start from a point at the same time in a straight line and their positions are represented by xp(t)=at+bt^2 and xq(t)=ft-t^2. At what time do the cars have the same velocity?</text><option id="A">(f-a)/2(1+b)</option><option id="B">(a-f)/(1+b)</option><option id="C">(a+f)/2(b-1)</option><option id="D">(f+a)/2(1+b)</option><answer>A</answer><explanation>Vp = a + 2bt. Vq = f - 2t. a+2bt = f-2t. 2t(b+1) = f-a. t = (f-a)/2(1+b).</explanation></question>
+        <question><text>A car accelerates from rest at a constant rate for some time and then decelerates at a constant rate to come to rest. If total time elapsed is t, max velocity acquired is:</text><option id="A">Zero</option><option id="B">Infinite</option><option id="C">Depends on rates</option><option id="D">Constant</option><answer>C</answer><explanation>Vmax = t * (a1a2)/(a1+a2).</explanation></question>
+        <question><text>Given A = 2i + 3j and B = i + j. The component of A along B is:</text><option id="A">5/√2</option><option id="B">5</option><option id="C">5/2</option><option id="D">2.5</option><answer>A</answer><explanation>A dot B / |B| = (2+3)/√2 = 5/√2.</explanation></question>
+        <question><text>Angular speed of second hand of a clock is:</text><option id="A">π/30 rad/s</option><option id="B">π/60 rad/s</option><option id="C">2π/60 rad/s</option><option id="D">2π rad/s</option><answer>A</answer><explanation>2π / 60 = π/30.</explanation></question>
+        <question><text>A wheel completes 2000 revolutions to cover 9.5 km distance. Diameter is:</text><option id="A">1.5m</option><option id="B">1.5cm</option><option id="C">1.5km</option><option id="D">15m</option><answer>A</answer><explanation>n * πD = Distance. 2000 * 3.14 * D = 9500. D = 9500/6280 ≈ 1.5.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Ratio of max height to range is 1:4. Angle of projection?</text><option id="A">30</option><option id="B">45</option><option id="C">60</option><option id="D">90</option><answer>B</answer><explanation>tan θ = 4H/R = 4(1/4) = 1. θ = 45.</explanation></question>
+        <question><text>If two vectors have magnitudes 5 and 12 and are perpendicular, resultant is:</text><option id="A">17</option><option id="B">7</option><option id="C">13</option><option id="D">10</option><answer>C</answer><explanation>Pythagorean triplet 5, 12, 13.</explanation></question>
+        <question><text>A ball thrown up takes 4s to return. Max height?</text><option id="A">20m</option><option id="B">40m</option><option id="C">80m</option><option id="D">10m</option><answer>A</answer><explanation>Time to top = 2s. H = 0.5 * 10 * 4 = 20m.</explanation></question>
+        <question><text>Displacement-time graph is a parabola. Acceleration is:</text><option id="A">Zero</option><option id="B">Constant</option><option id="C">Variable</option><option id="D">Infinite</option><answer>B</answer><explanation>x = kt^2 => v=2kt => a=2k (constant).</explanation></question>
+        <question><text>From a balloon rising at 10m/s, a stone is dropped. Relative velocity of stone wrt balloon just after drop:</text><option id="A">0</option><option id="B">10m/s</option><option id="C">20m/s</option><option id="D">5m/s</option><answer>A</answer><explanation>Inertia gives stone same velocity initially.</explanation></question>
+        <question><text>A body in circular motion covers arc s = t^2. Tangential acceleration?</text><option id="A">2t</option><option id="B">2</option><option id="C">t</option><option id="D">0</option><answer>B</answer><explanation>v = ds/dt = 2t. at = dv/dt = 2.</explanation></question>
+        <question><text>Radius of curvature for a projectile at the top is:</text><option id="A">u^2 cos^2 theta / g</option><option id="B">u^2 / g</option><option id="C">u^2 / g cos theta</option><option id="D">u^2 sin^2 theta / g</option><answer>A</answer><explanation>a_normal = v^2/R. At top v=ucosθ, a_normal=g. R = (cosθ)^2 / g.</explanation></question>
+        <question><text>Can a body have zero velocity and non-zero acceleration?</text><option id="A">Yes</option><option id="B">No</option><option id="C">Only in vacuum</option><option id="D">Never</option><answer>A</answer><explanation>Thrown ball at max height.</explanation></question>
+        <question><text>Area under a-t graph represents:</text><option id="A">Change in velocity</option><option id="B">Displacement</option><option id="C">Speed</option><option id="D">Distance</option><answer>A</answer><explanation>Integral of a dt = delta v.</explanation></question>
+        <question><text>Vector P = 3k. Vector Q = 2i. P cross Q is:</text><option id="A">6j</option><option id="B">-6j</option><option id="C">6k</option><option id="D">0</option><answer>A</answer><explanation>k x i = j. 3*2 = 6.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Scalar product of A and B is negative means angle is:</text><option id="A">Acute</option><option id="B">Obtuse</option><option id="C">90</option><option id="D">0</option><answer>B</answer><explanation>cos theta &lt; 0 for obtuse.</explanation></question>
+        <question><text>Two bullets fired horizontally with different speeds from same height hit ground:</text><option id="A">Simultaneously</option><option id="B">Slower first</option><option id="C">Faster first</option><option id="D">Never</option><answer>A</answer><explanation>Vertical motion is independent of horizontal speed.</explanation></question>
+        <question><text>A train 100m long crosses a bridge 200m long at 72 km/h. Time taken?</text><option id="A">15s</option><option id="B">10s</option><option id="C">20s</option><option id="D">5s</option><answer>A</answer><explanation>Total dist = 300m. Speed = 20m/s. T = 300/20 = 15.</explanation></question>
+        <question><text>A body starts from rest with acceleration 2 m/s^2. Disp in 5th second?</text><option id="A">9m</option><option id="B">10m</option><option id="C">25m</option><option id="D">5m</option><answer>A</answer><explanation>Sn = u + a/2(2n-1) = 0 + 1(10-1) = 9.</explanation></question>
+        <question><text>Stopping distance is proportional to (for constant retardation):</text><option id="A">u</option><option id="B">u^2</option><option id="C">√u</option><option id="D">1/u</option><answer>B</answer><explanation>v^2 = u^2 + 2as -> 0 = u^2 - 2as -> s = u^2/2a.</explanation></question>
+        <question><text>Circular motion is Example of:</text><option id="A">1D motion</option><option id="B">2D motion</option><option id="C">3D motion</option><option id="D">None</option><answer>B</answer><explanation>Motion in a plane.</explanation></question>
+        <question><text>A stone tied to a string is whirled. If string breaks, stone flies:</text><option id="A">Radially out</option><option id="B">Tangentially</option><option id="C">Inward</option><option id="D">Stops</option><answer>B</answer><explanation>Due to inertia of direction.</explanation></question>
+        <question><text>A swimmer swims downstream with 14 km/h and upstream with 6 km/h. Velocity of water?</text><option id="A">4 km/h</option><option id="B">10 km/h</option><option id="C">8 km/h</option><option id="D">2 km/h</option><answer>A</answer><explanation>(14-6)/2 = 4.</explanation></question>
+        <question><text>Angular acceleration is zero. Then:</text><option id="A">Angular velocity is constant</option><option id="B">Angular velocity is zero</option><option id="C">Linear velocity is zero</option><option id="D">None</option><answer>A</answer><explanation>alpha = dw/dt = 0 => w = const.</explanation></question>
+        <question><text>Position x = t^3. Work done by force in first second:</text><option id="A">Proportional to m</option><option id="B">Zero</option><option id="C">Constant</option><option id="D">Infinite</option><answer>A</answer><explanation>W = Delta KE. Need mass.</explanation></question>
+    </medium>
+
+    <hard>
+        <!-- 40 HARD QUESTIONS -->
+        <question>
+            <text>A projectile is fired at 45 degrees. At the highest point, its speed is v. Its initial speed was:</text>
+            <option id="A">v</option>
+            <option id="B">v√2</option>
+            <option id="C">v/2</option>
+            <option id="D">2v</option>
+            <answer>B</answer>
+            <explanation>At top, speed = u cos(45) = u/√2 = v. => u = v√2.</explanation>
+        </question>
+        <question>
+            <text>The trajectory of a projectile is y = ax - bx^2. The horizontal range is:</text>
+            <option id="A">a/b</option>
+            <option id="B">b/a</option>
+            <option id="C">a/2b</option>
+            <option id="D">2a/b</option>
+            <answer>A</answer>
+            <explanation>Put y=0 for range. ax - bx^2 = 0 => x(a-bx) = 0. x = a/b.</explanation>
+        </question>
+        <question>
+            <text>Two stones are thrown up simultaneously from the edge of a cliff 240m high with initial speeds 10 m/s and 40 m/s. Which of the following graph best represents the time variation of relative position of the second stone with respect to the first?</text>
+            <option id="A">Straight line then Parabola</option>
+            <option id="B">Parabola then Straight line</option>
+            <option id="C">Straight line</option>
+            <option id="D">Parabola</option>
+            <answer>A</answer>
+            <explanation>Assuming up to ground hit. While both in air, rel accel is 0 (g-g). So rel vel is const -> straight line. When 1 hits ground, 2 is in air -> parabola.</explanation>
+        </question>
+        <question>
+            <text>A boy playing on the roof of a 10m high building throws a ball with a speed of 10 m/s at an angle of 30º with the horizontal. How far from the throwing point will the ball be at the height of 10m from the ground?</text>
+            <option id="A">8.66 m</option>
+            <option id="B">5.20 m</option>
+            <option id="C">4.33 m</option>
+            <option id="D">2.60 m</option>
+            <answer>A</answer>
+            <explanation>Range = (u^2 sin 2theta)/g = 100 sin(60)/10 = 10 * 0.866 = 8.66. Since it returns to same level (roof is 10m high, target is 10m high).</explanation>
+        </question>
+        <question>
+            <text>A point moves with uniform acceleration and v1, v2, v3 denote the average velocities in three successive intervals of time t1, t2, t3. Which of the following relations is correct?</text>
+            <option id="A">(v1 - v2) : (v2 - v3) = (t1 + t2) : (t2 + t3)</option>
+            <option id="B">v1 - v2 = v2 - v3</option>
+            <option id="C">(v1 - v2) / (v2 - v3) = (t1 - t2) / (t2 - t3)</option>
+            <option id="D">None</option>
+            <answer>A</answer>
+            <explanation>Avg vel in linear motion with const acc is (u+v)/2. Using algebra, v1-v2 = -a(t1+t2)/2. Ratio holds.</explanation>
+        </question>
+        <!-- Adding more hard questions -->
+        <question><text>Velocity v(t) = k(y i + x j). Path of particle is:</text><option id="A">Circle</option><option id="B">Parabola</option><option id="C">Hyperbola</option><option id="D">Ellipse</option><answer>C</answer><explanation>dx/dt = ky, dy/dt = kx. dy/dx = x/y => ydy = xdx. y^2 - x^2 = C. Hyperbola.</explanation></question>
+        <question><text>A stone falls from a balloon that is descending at a uniform rate of 12 m/s. The displacement of the stone from the point of release after 10 sec is:</text><option id="A">610 m</option><option id="B">620 m</option><option id="C">720 m</option><option id="D">500 m</option><answer>B</answer><explanation>u = 12 (down). s = ut + 0.5gt^2 = 120 + 0.5(10)(100) = 120 + 500 = 620.</explanation></question>
+        <question><text>A particle moves such that x = A cos(wt) and y = A sin(wt). The velocity is:</text><option id="A">Perpendicular to position vector</option><option id="B">Parallel to position vector</option><option id="C">Radially outward</option><option id="D">Zero</option><answer>A</answer><explanation>Uniform circular motion. r dot v = 0.</explanation></question>
+        <question><text>Two particles are projected from the same point with the same speed u such that they have the same range R, but different maximum heights h1 and h2. Which of the following is correct?</text><option id="A">R^2 = 4 h1 h2</option><option id="B">R^2 = 16 h1 h2</option><option id="C">R^2 = 2 h1 h2</option><option id="D">R^2 = h1 h2</option><answer>B</answer><explanation>h1 = u^2 sin^2 theta / 2g, h2 = u^2 cos^2 theta / 2g. h1h2 = (u^2/2g)^2 (sin theta cos theta)^2. R^2 = (2 u^2 sin theta cos theta / g)^2 = 4 * (u^4 sin^2 cos^2)/g^2. So 16 h1 h2 = 16 * (u^4 sin^2 cos^2 / 4g^2) = 4 * ... = R^2.</explanation></question>
+        <question><text>A particle has a velocity u = 3i + 4j and acceleration a = 0.4i + 0.3j. Speed after 10s is:</text><option id="A">7 units</option><option id="B">7√2 units</option><option id="C">8.5 units</option><option id="D">10 units</option><answer>B</answer><explanation>v = (3+4)i + (4+3)j = 7i + 7j. Speed = 7√2.</explanation></question>
+        <question><text>A projectile is fired with velocity u at angle θ. Radius of curvature at top is:</text><option id="A">u^2 cos^2 θ / g</option><option id="B">u^2 / g</option><option id="C">u^2 sin^2 θ / g</option><option id="D">Infinity</option><answer>A</answer><explanation>R = v^2/a_normal = (u cos θ)^2 / g.</explanation></question>
+        <question><text>A boat is moved by a rope pulled from a point on the bank. If rope is pulled with v, boat moves with speed:</text><option id="A">v</option><option id="B">v cos θ</option><option id="C">v / cos θ</option><option id="D">v sin θ</option><answer>C</answer><explanation>Constrained motion. x direction speed > rope speed.</explanation></question>
+        <question><text>Two trains move towards each other with speed 40 m/s. Distance between them is 2km. A bird flies to and fro at 60 m/s. Total dist covered by bird?</text><option id="A">3000 m</option><option id="B">1500 m</option><option id="C">2000 m</option><option id="D">1000 m</option><answer>B</answer><explanation>Time to collide = 2000 / (40+40) = 25s. Dist = 60 * 25 = 1500.</explanation></question>
+        <question><text>For a body projected vertically upward, the distance travelled in last second of upward motion is:</text><option id="A">g/2</option><option id="B">g</option><option id="C">2g</option><option id="D">Independent of g</option><answer>A</answer><explanation>Like free fall from rest for 1s. s = 0.5 g (1)^2 = g/2.</explanation></question>
+        <question><text>An elevator is accelerating up with a. A coin is dropped. Acceleration of coin wrt elevator is:</text><option id="A">g a</option><option id="B">g - a</option><option id="C">g + a</option><option id="D">g</option><answer>C</answer><explanation>a_rel = g - (-a) = g+a.</explanation></question>
+        <question><text>Horizontal range is max when angle is 45. What is the relation between H_max and R_max?</text><option id="A">R = 4H</option><option id="B">R = 2H</option><option id="C">R = H</option><option id="D">R = 8H</option><answer>A</answer><explanation>at 45, R = u^2/g. H = u^2/4g. R=4H.</explanation></question>
+        <question><text>Water drops from a tap at 5m height at regular intervals. 3rd drop leaves when 1st hits ground. Height of 2nd drop at that instant?</text><option id="A">3.75 m</option><option id="B">2.50 m</option><option id="C">1.25 m</option><option id="D">4.00 m</option><answer>A</answer><explanation>Time T for 1st drop. 2nd drop travels for T/2. Dist = 1/4 of total = 5/4 = 1.25. Height from ground = 5 - 1.25 = 3.75.</explanation></question>
+        <question><text>A stone is projected from ground with velocity 50 m/s at 30 deg. It crosses a wall after 3 sec. How far beyond the wall does it strike ground? (g=10)</text><option id="A">86.6 m</option><option id="B">120 m</option><option id="C">43.3 m</option><option id="D">Total range - x</option><answer>A</answer><explanation>T = 2*50*0.5/10 = 5s. Wall crossed at 3s. Hits ground at 5s. Time remaining 2s. Horiz speed = 50 cos30 = 43.3. Dist = 43.3 * 2 = 86.6.</explanation></question>
+        <question><text>A car accelerates from rest at rate A, then retards at rate B to come to rest. If total time is T, max velocity is:</text><option id="A">ABT/(A+B)</option><option id="B">A^2 T / B</option><option id="C">ABT</option><option id="D">(A+B)T / AB</option><answer>A</answer><explanation>V max formula.</explanation></question>
+        <question><text>Ship A is at 10km West of B. A moves South at 30 km/h, B moves North at 10 km/h. Shortest distance?</text><option id="A">10 km</option><option id="B">0 km</option><option id="C">Cannot approach</option><option id="D">Depends on time</option><answer>A</answer><explanation>Their horizontal separation (West-East) never changes. Relative vertical velocity only changes vertical separation. But initial separation is purely horizontal. Wait, A moves South, B moves North. They move APART vertically. Shortest distance is at t=0.</explanation></question>
+        <question><text>Position x = t - sin t. Velocity is:</text><option id="A">Always positive</option><option id="B">Positive or zero</option><option id="C">Negative</option><option id="D">Zero</option><answer>B</answer><explanation>v = 1 - cos t. max 2, min 0. Non-negative.</explanation></question>
+        <question><text>A frictionless wire is fixed between A and B on a circle of radius R in vertical plane. A bead slides from A(top) to B. Time taken is:</text><option id="A">Depends on chord length</option><option id="B">Independent of chord length</option><option id="C">Proportional to R</option><option id="D">Constant for all chords from top</option><answer>D</answer><explanation>Time along any chord from highest point A is same: sqrt(4R/g).</explanation></question>
+        <question><text>Rain appears to fall vertically to a man moving at 4 m/s. Whatever speed he hits 4 m/s. But if he doubles his speed to 8 m/s, rain makes 45 deg angle. Actual speed of rain?</text><option id="A">4 m/s</option><option id="B">4√2 m/s</option><option id="C">8 m/s</option><option id="D">2 m/s</option><answer>B</answer><explanation>V_rain_x = 4. When V_man=8, V_rm_x = 4-8 = -4. tan 45 = |Vx/Vy| = 4/Vy => Vy=4. V_rain = sqrt(4^2 + 4^2) = 4√2.</explanation></question>
+        <question><text>A particle moves in xy plane with v = a i + b x j. Equation of path?</text><option id="A">Parabola</option><option id="B">Ellipse</option><option id="C">Hyperbola</option><option id="D">Straight line</option><answer>A</answer><explanation>dx/dt = a => x = at. dy/dt = bx = bat. y = 1/2 b a t^2. y proportional to x^2.</explanation></question>
+        <question><text>Escalator problem: Person walks up t1, escalator carries t2. Time if person walks on moving escalator?</text><option id="A">t1t2/(t1+t2)</option><option id="B">(t1+t2)/2</option><option id="C">sqrt(t1t2)</option><option id="D">t1+t2</option><answer>A</answer><explanation>v_eff = v_p + v_e. L/t = L/t1 + L/t2.</explanation></question>
+        <question><text>A particle starts from rest with const acceleration a for time t1, then const retardation 2a for time t2 to come to rest. Relation between t1 and t2?</text><option id="A">t1 = 2t2</option><option id="B">t2 = 2t1</option><option id="C">t1 = t2</option><option id="D">t1 = 4t2</option><answer>A</answer><explanation>v_max = a t1. 0 = v_max - 2a t2 => a t1 = 2a t2 => t1 = 2t2.</explanation></question>
+        <question><text>Velocity-displacement graph is a straight line v = v0 - kx. Time to stop?</text><option id="A">Infinity</option><option id="B">v0/k</option><option id="C">1/k log(v0)</option><option id="D">1/k</option><answer>A</answer><explanation>v = dx/dt = v0 - kx. Int dx/(v0-kx) = Int dt. -1/k ln(v0-kx) = t. If v=0, v0=kx. ln(0) -> infinity.</explanation></question>
+        <question><text>Horizontal acceleration of projectile?</text><option id="A">g</option><option id="B">9.8</option><option id="C">0</option><option id="D">Variable</option><answer>C</answer><explanation>No horizontal force (ignoring air).</explanation></question>
+        <question><text>Which quantity is invariant for projectiles?</text><option id="A">KE</option><option id="B">PE</option><option id="C">Horizontal velocity</option><option id="D">Momentum</option><answer>C</answer><explanation>Horizontal component of velocity remains constant.</explanation></question>
+        <question><text>Two projectiles A and B thrown with same speed at 30 and 60 deg. H_A / H_B?</text><option id="A">1:3</option><option id="B">1:1</option><option id="C">3:1</option><option id="D">1:√3</option><answer>A</answer><explanation>sin^2 30 / sin^2 60 = (1/4) / (3/4) = 1/3.</explanation></question>
+        <question><text>A ball is dropped. Distance in 1st, 2nd, 3rd second Ratio?</text><option id="A">1:2:3</option><option id="B">1:4:9</option><option id="C">1:3:5</option><option id="D">1:1:1</option><answer>C</answer><explanation>Galileo's ratio of odd numbers for uniform acceleration.</explanation></question>
+        <question><text>Object moves with v = k x^(1/2). Work done in time t?</text><option id="A">Proportional to t^2</option><option id="B">Proportional to t</option><option id="C">Zero</option><option id="D">Infinite</option><answer>A</answer><explanation>Corresponds to const acceleration a = v dv/dx = k√x * k/2√x = k^2/2. Work = Fs = ma * (1/2 a t^2) ~ t^2.</explanation></question>
+        <question><text>Retardation of a particle is kv. Velocity reduces to u/2 in time t. k?</text><option id="A">ln 2 / t</option><option id="B">2/t</option><option id="C">1/t</option><option id="D">ln 2</option><answer>A</answer><explanation>dv/dt = -kv. Int dv/v = -k dt. ln(v) = -kt + C. ln(u/2) - ln(u) = -kt. ln(1/2) = -kt. kt = ln 2.</explanation></question>
+        <question><text>Three displacement vectors form a closed triangle. Resultant is:</text><option id="A">Zero</option><option id="B">2A</option><option id="C">Undefined</option><option id="D">A+B+C</option><answer>A</answer><explanation>Closed polygon rule.</explanation></question>
+        <question><text>Angular position theta = 2t^3 - 6t^2. Torque on wheel is zero at t = ?</text><option id="A">1s</option><option id="B">2s</option><option id="C">0s</option><option id="D">3s</option><answer>A</answer><explanation>alpha = 0 (I*alpha=torque). alpha = d2theta/dt2 = 12t - 12. 12t = 12 => t = 1.</explanation></question>
+        <question><text>Ratio of angular speeds of minute and hour hands?</text><option id="A">12:1</option><option id="B">60:1</option><option id="C">1:12</option><option id="D">24:1</option><answer>A</answer><explanation>Minute hand moves 12x faster.</explanation></question>
+        <question><text>A stone thrown horizontally from h with u. Speed at hitting ground?</text><option id="A">u + gh</option><option id="B">sqrt(u^2 + 2gh)</option><option id="C">u</option><option id="D">2gh</option><answer>B</answer><explanation>Conservation of energy. 1/2 m v2 = 1/2 m u2 + mgh.</explanation></question>
+        <question><text>Two vectors A and B are such that |A+B|=|A-B|. Angle?</text><option id="A">90</option><option id="B">0</option><option id="C">180</option><option id="D">45</option><answer>A</answer><explanation>Diagonal of parallelogram equal -> Rectangle -> 90 deg.</explanation></question>
+        <question><text>Minimum number of non-coplanar vectors to give zero resultant?</text><option id="A">3</option><option id="B">4</option><option id="C">2</option><option id="D">5</option><answer>B</answer><explanation>Minimum 4.</explanation></question>
+        <question><text>Particle moves on circle with constant tangential acceleration. Angle turned after n revolutions?</text><option id="A">2 pi n</option><option id="B">pi n</option><option id="C">4 pi n</option><option id="D">n</option><answer>A</answer><explanation>Angle is 2pi * n.</explanation></question>
+        <question><text>If Earth stops rotating, value of g at equator:</text><option id="A">Increases</option><option id="B">Decreases</option><option id="C">Remains same</option><option id="D">Becomes zero</option><answer>A</answer><explanation>g_eff = g - w^2 R. If w=0, g_eff increases.</explanation></question>
+        <question><text>Projectile angle for complementary ranges:</text><option id="A">30 and 60</option><option id="B">45 and 90</option><option id="C">10 and 90</option><option id="D">Any pair</option><answer>A</answer><explanation>Sum must be 90.</explanation></question>
+        <question><text>Area under v-t graph?</text><option id="A">Displacement</option><option id="B">Distance (if |v| taken)</option><option id="C">Both</option><option id="D">Acceleration</option><answer>A</answer><explanation>Displacement by definition.</explanation></question>
+        <question><text>Instantaneous velocity is slope of:</text><option id="A">x-t graph</option><option id="B">v-t graph</option><option id="C">a-t graph</option><option id="D">None</option><answer>A</answer><explanation>Tangent to position-time.</explanation></question>
+        <question><text>Average acceleration = Instantaneous acceleration when:</text><option id="A">Motion is uniform</option><option id="B">Acceleration is constant</option><option id="C">Never</option><option id="D">Always</option><answer>B</answer><explanation>By definition.</explanation></question>
+    </hard>
+</chapter>

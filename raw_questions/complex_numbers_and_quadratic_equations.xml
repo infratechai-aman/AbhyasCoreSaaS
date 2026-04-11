@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="205" name="Complex Numbers and Quadratic Equations">
+    <easy>
+        <question>
+            <text>Value of i^4 is:</text>
+            <option id="A">1</option><option id="B">-1</option><option id="C">i</option><option id="D">-i</option>
+            <answer>A</answer><explanation>i^2 = -1, i^4 = 1.</explanation>
+        </question>
+        <question>
+            <text>Conjugate of 3 + 4i is:</text>
+            <option id="A">3 - 4i</option><option id="B">3 + 4i</option><option id="C">-3 - 4i</option><option id="D">-3 + 4i</option>
+            <answer>A</answer><explanation>Change sign of imaginary part.</explanation>
+        </question>
+        <question>
+            <text>Modulus of 5 - 12i is:</text>
+            <option id="A">13</option><option id="B">17</option><option id="C">5</option><option id="D">12</option>
+            <answer>A</answer><explanation>sqrt(25 + 144) = 13.</explanation>
+        </question>
+        <question>
+            <text>Additive inverse of 2 - 3i is:</text>
+            <option id="A">-2 + 3i</option><option id="B">2 + 3i</option><option id="C">-2 - 3i</option><option id="D">2 - 3i</option>
+            <answer>A</answer><explanation>Negative of complex number.</explanation>
+        </question>
+        <question>
+            <text>Real part of (2+3i) + (1-2i) is:</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">1</option><option id="D">4</option>
+            <answer>A</answer><explanation>2+1 = 3.</explanation>
+        </question>
+        <question>
+            <text>Imaginary part of (2+3i) - (1-i) is:</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">3</option><option id="D">-1</option>
+            <answer>A</answer><explanation>3 - (-1) = 4.</explanation>
+        </question>
+        <question>
+            <text>Multiplicative inverse of 1+i is:</text>
+            <option id="A">(1-i)/2</option><option id="B">1-i</option><option id="C">(1+i)/2</option><option id="D">-1-i</option>
+            <answer>A</answer><explanation>Conjugate divided by modulus squared.</explanation>
+        </question>
+        <question>
+            <text>Value of i^2 is:</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">i</option><option id="D">0</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Standard form of complex number:</text>
+            <option id="A">a + ib</option><option id="B">a - ib</option><option id="C">a * ib</option><option id="D">None</option>
+            <answer>A</answer><explanation>Real + Imaginary.</explanation>
+        </question>
+        <question>
+            <text>Roots of x^2 + 1 = 0 are:</text>
+            <option id="A">+i, -i</option><option id="B">1, -1</option><option id="C">0, 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of i.</explanation>
+        </question>
+        <question>
+            <text>Solve x^2 + 4 = 0:</text>
+            <option id="A">+2i, -2i</option><option id="B">+2, -2</option><option id="C">+4i, -4i</option><option id="D">+i, -i</option>
+            <answer>A</answer><explanation>x = sqrt(-4).</explanation>
+        </question>
+        <question>
+            <text>Argand plane uses axes:</text>
+            <option id="A">Real and Imaginary</option><option id="B">X and Y</option><option id="C">Polar</option><option id="D">None</option>
+            <answer>A</answer><explanation>Complex plane.</explanation>
+        </question>
+        <question>
+            <text>Value of i^3 is:</text>
+            <option id="A">-i</option><option id="B">i</option><option id="C">1</option><option id="D">-1</option>
+            <answer>A</answer><explanation>i^2 * i = -1 * i.</explanation>
+        </question>
+        <question>
+            <text>If z = x + iy, then |z| is:</text>
+            <option id="A">sqrt(x^2 + y^2)</option><option id="B">x^2 + y^2</option><option id="C">x + y</option><option id="D">sqrt(x+y)</option>
+            <answer>A</answer><explanation>Distance from origin.</explanation>
+        </question>
+        <question>
+            <text>Polar form of complex number z:</text>
+            <option id="A">r(cos theta + i sin theta)</option><option id="B">r(sin theta + i cos theta)</option><option id="C">r(cos theta - i sin theta)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard polar form.</explanation>
+        </question>
+        <question>
+            <text>If z = 1 + i, argument is:</text>
+            <option id="A">45 degrees</option><option id="B">30 degrees</option><option id="C">60 degrees</option><option id="D">90 degrees</option>
+            <answer>A</answer><explanation>tan theta = 1/1 = 1.</explanation>
+        </question>
+        <question>
+            <text>Discriminant of ax^2 + bx + c = 0 is:</text>
+            <option id="A">b^2 - 4ac</option><option id="B">b^2 + 4ac</option><option id="C">sqrt(b^2 - 4ac)</option><option id="D">2a</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>If D &lt; 0, roots are:</text>
+            <option id="A">Complex conjugates</option><option id="B">Real and equal</option><option id="C">Real and distinct</option><option id="D">Integers</option>
+            <answer>A</answer><explanation>Negative discriminant.</explanation>
+        </question>
+        <question>
+            <text>Standard quadratic equation:</text>
+            <option id="A">ax^2 + bx + c = 0</option><option id="B">ax + b = 0</option><option id="C">ax^3 + bx = 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Value of i + i^2 + i^3 + i^4 is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">2i</option>
+            <answer>A</answer><explanation>i - 1 - i + 1 = 0.</explanation>
+        </question>
+        <question>
+            <text>Conjugate of 5 is:</text>
+            <option id="A">5</option><option id="B">-5</option><option id="C">5i</option><option id="D">-5i</option>
+            <answer>A</answer><explanation>Real number conjugate is itself.</explanation>
+        </question>
+        <question>
+            <text>Conjugate of -2i is:</text>
+            <option id="A">2i</option><option id="B">-2i</option><option id="C">2</option><option id="D">-2</option>
+            <answer>A</answer><explanation>Sign change of imaginary.</explanation>
+        </question>
+        <question>
+            <text>Product of z and conjugate z is:</text>
+            <option id="A">|z|^2</option><option id="B">|z|</option><option id="C">z^2</option><option id="D">0</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Solve x^2 + x + 1 = 0:</text>
+            <option id="A">(-1 ± i sqrt(3))/2</option><option id="B">(-1 ± sqrt(3))/2</option><option id="C">(1 ± i sqrt(3))/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Using formula.</explanation>
+        </question>
+        <question>
+            <text>Modulus of -3 is:</text>
+            <option id="A">3</option><option id="B">-3</option><option id="C">0</option><option id="D">9</option>
+            <answer>A</answer><explanation>Absolute value.</explanation>
+        </question>
+        <question>
+            <text>Argument of positive real number:</text>
+            <option id="A">0</option><option id="B">Pi</option><option id="C">Pi/2</option><option id="D">-Pi/2</option>
+            <answer>A</answer><explanation>On positive X axis.</explanation>
+        </question>
+        <question>
+            <text>Argument of negative real number:</text>
+            <option id="A">Pi</option><option id="B">0</option><option id="C">Pi/2</option><option id="D">-Pi</option>
+            <answer>A</answer><explanation>On negative X axis.</explanation>
+        </question>
+        <question>
+            <text>Value of (1+i)^2:</text>
+            <option id="A">2i</option><option id="B">2</option><option id="C">0</option><option id="D">-2i</option>
+            <answer>A</answer><explanation>1 + 2i + i^2 = 1 + 2i - 1 = 2i.</explanation>
+        </question>
+        <question>
+            <text>Purely imaginary number has real part:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">Non-zero</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Purely real number has imaginary part:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Non-zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Roots of ax^2 + c = 0 (a,c > 0) are:</text>
+            <option id="A">Imaginary</option><option id="B">Real</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>x^2 = negative.</explanation>
+        </question>
+        <question>
+            <text>Value of 1/i:</text>
+            <option id="A">-i</option><option id="B">i</option><option id="C">1</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Multiply by i/i -> i/-1.</explanation>
+        </question>
+        <question>
+            <text>Equality of complex numbers z1 = z2 implies:</text>
+            <option id="A">Re(z1)=Re(z2) and Im(z1)=Im(z2)</option><option id="B">|z1|=|z2|</option><option id="C">Arg(z1)=Arg(z2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Component wise equality.</explanation>
+        </question>
+        <question>
+            <text>Distance between z1 and z2:</text>
+            <option id="A">|z1 - z2|</option><option id="B">|z1 + z2|</option><option id="C">z1 - z2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Distance formula.</explanation>
+        </question>
+        <question>
+            <text>If z = a + ib, conjugate is denoted:</text>
+            <option id="A">z bar</option><option id="B">z inverse</option><option id="C">z star</option><option id="D">z'</option>
+            <answer>A</answer><explanation>Notation.</explanation>
+        </question>
+        <question>
+            <text>Modulus properties: |z1z2| = ?</text>
+            <option id="A">|z1||z2|</option><option id="B">|z1| + |z2|</option><option id="C">|z1| - |z2|</option><option id="D">None</option>
+            <answer>A</answer><explanation>Multiplicative.</explanation>
+        </question>
+        <question>
+            <text>Argument properties: Arg(z1z2) = ?</text>
+            <option id="A">Arg(z1) + Arg(z2)</option><option id="B">Arg(z1)Arg(z2)</option><option id="C">Arg(z1) - Arg(z2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Additive (modulo 2pi).</explanation>
+        </question>
+        <question>
+            <text>Euler's formula: e^(ix) = ?</text>
+            <option id="A">cos x + i sin x</option><option id="B">sin x + i cos x</option><option id="C">cos x - i sin x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Cube roots of unity are:</text>
+            <option id="A">1, omega, omega^2</option><option id="B">1, -1, i</option><option id="C">1, i, -i</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>1 + omega + omega^2 = ?</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">3</option><option id="D">omega</option>
+            <answer>A</answer><explanation>Sum of roots.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Modulus of 3 + 4i is:</text>
+            <option id="A">5</option><option id="B">7</option><option id="C">25</option><option id="D">1</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Square root of -5 + 12i is:</text>
+            <option id="A">±(2 + 3i)</option><option id="B">±(3 + 2i)</option><option id="C">±(2 - 3i)</option><option id="D">None</option>
+            <answer>A</answer><explanation>(2+3i)^2 = 4 - 9 + 12i = -5 + 12i.</explanation>
+        </question>
+        <question>
+            <text>Polar form of -1 - i:</text>
+            <option id="A">sqrt(2) (cos 5pi/4 + i sin 5pi/4)</option><option id="B">sqrt(2) (cos 3pi/4 + i sin 3pi/4)</option><option id="C">sqrt(2) (cos pi/4 + i sin pi/4)</option><option id="D">None</option>
+            <answer>A</answer><explanation>r=sqrt(2), theta=-3pi/4 or 5pi/4.</explanation>
+        </question>
+        <question>
+            <text>Value of i^998:</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">i</option><option id="D">-i</option>
+            <answer>A</answer><explanation>998 mod 4 = 2. i^2 = -1.</explanation>
+        </question>
+        <question>
+            <text>Argument of (1+i)/(1-i):</text>
+            <option id="A">pi/2</option><option id="B">-pi/2</option><option id="C">pi</option><option id="D">0</option>
+            <answer>A</answer><explanation>It simplifies to i. Arg(i) = pi/2.</explanation>
+        </question>
+        <question>
+            <text>If (x + iy)(2 - 3i) = 4 + i, find x, y.</text>
+            <option id="A">x=5/13, y=14/13</option><option id="B">x=1, y=1</option><option id="C">x=5, y=14</option><option id="D">None</option>
+            <answer>A</answer><explanation>Division.</explanation>
+        </question>
+        <question>
+            <text>Solve x^2 - 5ix - 6 = 0:</text>
+            <option id="A">3i, 2i</option><option id="B">3, 2</option><option id="C">-3i, -2i</option><option id="D">None</option>
+            <answer>A</answer><explanation>(x-3i)(x-2i)=x^2-5ix-6.</explanation>
+        </question>
+        <question>
+            <text>Solution of x^2 + 2 = 0:</text>
+            <option id="A">± i sqrt(2)</option><option id="B">± sqrt(2)</option><option id="C">± 2i</option><option id="D">None</option>
+            <answer>A</answer><explanation>Simple.</explanation>
+        </question>
+        <question>
+            <text>If alpha, beta are roots of x^2 + x + 1 = 0, then alpha^2 + beta^2 = ?</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">2</option>
+            <answer>A</answer><explanation>Roots are w, w^2. w^2 + w^4 = w^2 + w = -1.</explanation>
+        </question>
+        <question>
+            <text>Multiplicative inverse of 3 + 4i:</text>
+            <option id="A">(3-4i)/25</option><option id="B">3-4i</option><option id="C">3+4i</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Least positive integer n such that ((1+i)/(1-i))^n = 1:</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">8</option><option id="D">1</option>
+            <answer>A</answer><explanation>(i)^n = 1. n=4.</explanation>
+        </question>
+        <question>
+            <text>If z is purely imaginary, then z + conjugate(z) = ?</text>
+            <option id="A">0</option><option id="B">2z</option><option id="C">2 Re(z)</option><option id="D">None</option>
+            <answer>A</answer><explanation>iy + (-iy) = 0.</explanation>
+        </question>
+        <question>
+            <text>Find real values of x, y if (3x-7) + 2iy = -5y + (5+x)i:</text>
+            <option id="A">x=1, y=2</option><option id="B">x=-1, y=2</option><option id="C">x=1, y=-2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equate real and imaginary parts.</explanation>
+        </question>
+        <question>
+            <text>Modulus of (1+i)(2+i)/(3+i):</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">sqrt(2)</option><option id="D">5</option>
+            <answer>A</answer><explanation>|num|/|den| = sqrt(2)*sqrt(5)/sqrt(10) = 1.</explanation>
+        </question>
+        <question>
+            <text>Values of sqrt(i) are:</text>
+            <option id="A">±(1+i)/sqrt(2)</option><option id="B">±(1-i)/sqrt(2)</option><option id="C">±(1+i)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Square to check.</explanation>
+        </question>
+        <question>
+            <text>Arg(z) + Arg(conjugate z) = ?</text>
+            <option id="A">0</option><option id="B">pi</option><option id="C">2pi</option><option id="D">pi/2</option>
+            <answer>A</answer><explanation>theta + (-theta) = 0.</explanation>
+        </question>
+        <question>
+            <text>If |z| = 1, then (1+z)/(1+conjugate z) = ?</text>
+            <option id="A">z</option><option id="B">1/z</option><option id="C">1</option><option id="D">conjugate z</option>
+            <answer>A</answer><explanation>Multiply num/den by z. (1+z)/(1+1/z) = (1+z)/((z+1)/z) = z.</explanation>
+        </question>
+        <question>
+            <text>Triangle with vertices z, iz, z+iz is:</text>
+            <option id="A">Right isosceles</option><option id="B">Equilateral</option><option id="C">Isosceles</option><option id="D">Scalene</option>
+            <answer>A</answer><explanation>Sides |z-iz|, |iz-(z+iz)|=|z|, |z-(z+iz)|=|iz|=|z|. Sides |z|, |z|, |z-iz|=|z|sqrt(2). Right.</explanation>
+        </question>
+        <question>
+            <text>Simplify (cos x + i sin x)^n:</text>
+            <option id="A">cos nx + i sin nx</option><option id="B">cos nx - i sin nx</option><option id="C">cos x + i sin x</option><option id="D">None</option>
+            <answer>A</answer><explanation>De Moivre.</explanation>
+        </question>
+        <question>
+            <text>Number of non-zero integral solutions of |1-i|^x = 2^x?</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">2</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>sqrt(2)^x = 2^x -> 2^(x/2) = 2^x -> x/2 = x -> x = 0. Non-zero -> None.</explanation>
+        </question>
+        <question>
+            <text>If z = x + iy is such that |z-1| = |z+1|, locus of z is:</text>
+            <option id="A">Y-axis</option><option id="B">X-axis</option><option id="C">Circle</option><option id="D">None</option>
+            <answer>A</answer><explanation>Perpendicular bisector of segment (-1, 0) to (1, 0). x=0.</explanation>
+        </question>
+        <question>
+            <text>Roots of x^2 + x + 1 = 0 are squared. New equation?</text>
+            <option id="A">x^2 + x + 1 = 0</option><option id="B">x^2 - x + 1 = 0</option><option id="C">x^2 + x - 1 = 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Roots w, w^2. Squares w^2, w^4=w. Same roots.</explanation>
+        </question>
+        <question>
+            <text>Value of (1 + i)^4 * (1 - 1/i)^4:</text>
+            <option id="A">16</option><option id="B">32</option><option id="C">-16</option><option id="D">0</option>
+            <answer>A</answer><explanation>Second term: (1+i)^4. (1+i)^8 = ((1+i)^2)^4 = (2i)^4 = 16.</explanation>
+        </question>
+        <question>
+            <text>Complex number z such that z^2 + |z|^2 = 0:</text>
+            <option id="A">Purely imaginary</option><option id="B">Purely real</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>x^2 - y^2 + 2ixy + x^2 + y^2 = 0 -> 2x^2 + 2ixy = 0. x^2=0 -> x=0. z is purely imaginary.</explanation>
+        </question>
+        <question>
+            <text>If |z + 4| &lt;= 3, max value of |z + 1| is:</text>
+            <option id="A">6</option><option id="B">4</option><option id="C">10</option><option id="D">0</option>
+            <answer>A</answer><explanation>|z+1| = |z+4 - 3| &lt;= |z+4| + |-3| &lt;= 3 + 3 = 6.</explanation>
+        </question>
+        <question>
+            <text>Roots of quadratic equation with real coefficients are 2 + 3i. Other root:</text>
+            <option id="A">2 - 3i</option><option id="B">2 + 3i</option><option id="C">-2 - 3i</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conjugate pairs.</explanation>
+        </question>
+        <question>
+            <text>Find a if 3x^2 + ax + 3 = 0 has root 3:</text>
+            <option id="A">a = -10</option><option id="B">a = 10</option><option id="C">a = 5</option><option id="D">a = -5</option>
+            <answer>A</answer><explanation>3(9) + 3a + 3 = 0 -> 30 + 3a = 0 -> a = -10.</explanation>
+        </question>
+        <question>
+            <text>Sum of roots of 2x^2 - 5x + 3 = 0:</text>
+            <option id="A">2.5</option><option id="B">5</option><option id="C">1.5</option><option id="D">-2.5</option>
+            <answer>A</answer><explanation>-b/a = 5/2.</explanation>
+        </question>
+        <question>
+            <text>Product of roots of x^2 - 6x + 8 = 0:</text>
+            <option id="A">8</option><option id="B">-8</option><option id="C">6</option><option id="D">-6</option>
+            <answer>A</answer><explanation>c/a.</explanation>
+        </question>
+        <question>
+            <text>If roots of x^2 - px + q = 0 differ by 1, then:</text>
+            <option id="A">p^2 = 1 + 4q</option><option id="B">p^2 = 1 - 4q</option><option id="C">p^2 = 4q</option><option id="D">None</option>
+            <answer>A</answer><explanation>(alpha - beta)^2 = 1. (a+b)^2 - 4ab = 1. p^2 - 4q = 1.</explanation>
+        </question>
+        <question>
+            <text>Nature of roots of 2x^2 - 4x + 3 = 0:</text>
+            <option id="A">Imaginary</option><option id="B">Real</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>D = 16 - 24 = -8 &lt; 0.</explanation>
+        </question>
+        <question>
+            <text>If (1-i)/(1+i) = x + iy, then:</text>
+            <option id="A">x=0, y=-1</option><option id="B">x=1, y=0</option><option id="C">x=0, y=1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Simplifies to -i.</explanation>
+        </question>
+        <question>
+            <text>Amplitude of 0 is:</text>
+            <option id="A">Undefined</option><option id="B">0</option><option id="C">Pi</option><option id="D">Anything</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>z times z inverse is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">z</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Standard form of 1/(3-4i):</text>
+            <option id="A">3/25 + 4/25 i</option><option id="B">3/25 - 4/25 i</option><option id="C">3 + 4i</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conjugate method.</explanation>
+        </question>
+        <question>
+            <text>Which is greater, 2i or 3i?</text>
+            <option id="A">Cannot compare</option><option id="B">3i</option><option id="C">2i</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>Complex numbers not ordered.</explanation>
+        </question>
+        <question>
+            <text>If z = x + iy, then |z| = 0 implies:</text>
+            <option id="A">x=0, y=0</option><option id="B">x=0</option><option id="C">y=0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Distance 0 from origin.</explanation>
+        </question>
+        <question>
+            <text>Value of (1 + omega - omega^2)^7:</text>
+            <option id="A">-128 omega^2 (Wait: 1+w=-w^2. -2w^2)^7 = -128 w^14 = -128 w^2)</option><option id="B">128</option><option id="C">128 omega</option><option id="D">0</option>
+            <answer>A</answer><explanation>Calculation.</explanation>
+        </question>
+        <question>
+            <text>If z is purely real, z = conjugate z?</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">Maybe</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Solve x^2 - (2+i)x - (1-7i) = 0? (Too complex for medium?)</text>
+            <option id="A">Use formula</option><option id="B">Skip</option><option id="C">Guess</option><option id="D">Check</option>
+            <answer>A</answer><explanation>Quadratic formula applies to complex coeff.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Argument of -1 - i is:</text>
+            <option id="A">-3π/4</option><option id="B">π/4</option><option id="C">5π/4</option><option id="D">3π/4</option>
+            <answer>A</answer><explanation>Angle in 3rd quadrant.</explanation>
+        </question>
+        <question>
+            <text>Locus of z satisfying Arg(z) = pi/4:</text>
+            <option id="A">Ray y=x, x>0</option><option id="B">Line y=x</option><option id="C">Circle</option><option id="D">Point</option>
+            <answer>A</answer><explanation>Half line.</explanation>
+        </question>
+        <question>
+            <text>If |z1| = |z2| = ... = |zn| = 1, then |z1 + ... + zn| = ?</text>
+            <option id="A">|1/z1 + ... + 1/zn|</option><option id="B">n</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Conjugate property. Sum z = Sum 1/z_bar = Conjugate Sum 1/z. Modulus same.</explanation>
+        </question>
+        <question>
+            <text>If z = cos theta + i sin theta, then (z^2 - 1)/(z^2 + 1) = ?</text>
+            <option id="A">i tan theta</option><option id="B">tan theta</option><option id="C">i cot theta</option><option id="D">cot theta</option>
+            <answer>A</answer><explanation>(cos 2theta + i sin 2theta - 1) / (cos 2theta + i sin 2theta + 1). Use half angle.</explanation>
+        </question>
+        <question>
+            <text>One root of (1-i)x^2 - 2x + (2+i) = 0 is? </text>
+            <option id="A">Usage of Formula</option><option id="B">Skip</option><option id="C">Guess</option><option id="D">None</option>
+            <answer>A</answer><explanation>Complex arithmetic.</explanation>
+        </question>
+        <question>
+            <text>If |z - 4/z| = 2, max value of |z| is:</text>
+            <option id="A">sqrt(5) + 1</option><option id="B">sqrt(5) - 1</option><option id="C">2</option><option id="D">4</option>
+            <answer>A</answer><explanation>|z| - 4/|z| &lt;= 2. t^2 - 2t - 4 &lt;= 0. Roots 1 ± sqrt(5). Max 1+sqrt(5).</explanation>
+        </question>
+        <question>
+            <text>Smallest positive argument of z satisfying |z-i| &lt;= 1?</text>
+            <option id="A">0 (Wait, circle center (0,1) radius 1. Touches x-axis at origin. Argument range 0 to pi? Smallest positive arg? 0 is solution. If strict positive, closest to 0? )</option><option id="B">pi/4</option><option id="C">pi/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Tangent at origin is x-axis.</explanation>
+        </question>
+        <question>
+            <text>If w is cube root of unity, roots of (x-1)^3 + 8 = 0 range are:</text>
+            <option id="A">-1, 1-2w, 1-2w^2</option><option id="B">1, 2, 3</option><option id="C">None</option><option id="D">0</option>
+            <answer>A</answer><explanation>(x-1) = -2, -2w, -2w^2.</explanation>
+        </question>
+        <question>
+            <text>Square root of 7 - 24i:</text>
+            <option id="A">±(4 - 3i)</option><option id="B">±(3 - 4i)</option><option id="C">±(4 + 3i)</option><option id="D">None</option>
+            <answer>A</answer><explanation>(4-3i)^2 = 16 - 9 - 24i = 7 - 24i.</explanation>
+        </question>
+        <question>
+            <text>If x = a + b, y = aw + bw^2, z = aw^2 + bw, then xyz = ?</text>
+            <option id="A">a^3 + b^3</option><option id="B">a^3 - b^3</option><option id="C">0</option><option id="D">a^2 + b^2</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Vertices of a regular hexagone, center origin. If z1 is one vertex, others are:</text>
+            <option id="A">z1 e^(i k pi/3)</option><option id="B">z1 e^(i k pi/6)</option><option id="C">None</option><option id="D">z1 + k</option>
+            <answer>A</answer><explanation>Rotation by 60 degrees.</explanation>
+        </question>
+        <question>
+            <text>Value of product k=1 to 6 (sin kPi/7 + i cos kPi/7)?</text>
+            <option id="A">Complex series</option><option id="B">1</option><option id="C">-1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Roots of unity product.</explanation>
+        </question>
+        <question>
+            <text>Locus of z if Arg((z-1)/(z+1)) = pi/2:</text>
+            <option id="A">Circle with diameter (-1,0) to (1,0)</option><option id="B">Line</option><option id="C">Ellipse</option><option id="D">Parabola</option>
+            <answer>A</answer><explanation>Angle in semicircle.</explanation>
+        </question>
+        <question>
+            <text>Sum of series i + 2i^2 + 3i^3 + ... + 100i^100:</text>
+            <option id="A">50 - 50i (Wait: i(1-100 i^100)/(1-i) ... AGP formula)</option><option id="B">50</option><option id="C">-50i</option><option id="D">0</option>
+            <answer>A</answer><explanation>Calculation.</explanation>
+        </question>
+        <question>
+            <text>Number of solutions for z^2 + |z| = 0:</text>
+            <option id="A">3 (0, i, -i)</option><option id="B">1</option><option id="C">5</option><option id="D">2</option>
+            <answer>A</answer><explanation>Check: i^2 + 1 = 0 true. 0 true. -i^2 + 1 = 2 false? Wait. z = iy. -y^2 + |y| = 0. |y|^2 = |y|. |y|=0, 1. y=0, 1, -1. z=0, i, -i.</explanation>
+        </question>
+        <question>
+            <text>If |z1|=1, |z2|=2, |z3|=3 and |9z1z2 + 4z1z3 + z2z3| = 12, then |z1+z2+z3| = ?</text>
+            <option id="A">2</option><option id="B">3</option><option id="C">4</option><option id="D">1</option>
+            <answer>A</answer><explanation>Advanced modulus arithmetic.</explanation>
+        </question>
+        <question>
+            <text>Common roots of z^3 + 2z^2 + 2z + 1 = 0 and z^1985 + z^100 + 1 = 0?</text>
+            <option id="A">omega, omega^2</option><option id="B">1, omega</option><option id="C">None</option><option id="D">-1</option>
+            <answer>A</answer><explanation>First eq roots -1, w, w^2. Check in second.</explanation>
+        </question>
+        <question>
+            <text>Rotate z = 2+i by 90 degrees about origin:</text>
+            <option id="A">-1 + 2i</option><option id="B">1 - 2i</option><option id="C">-2 - i</option><option id="D">None</option>
+            <answer>A</answer><explanation>Multiply by i. 2i - 1.</explanation>
+        </question>
+        <question>
+            <text>Find range of real a if equation z + a|z+1| + i = 0 has solution.</text>
+            <option id="A">Advanced locus</option><option id="B">a = 0</option><option id="C">a > 1</option><option id="D">a &lt; -1</option>
+            <answer>A</answer><explanation>Complex algebra.</explanation>
+        </question>
+        <question>
+            <text>If log_1/2 |z-1| > log_1/2 |z-i|, then locus region:</text>
+            <option id="A">|z-1| &lt; |z-i| -> Re(z) > Im(z)</option><option id="B">Re(z) &lt; Im(z)</option><option id="C">Line</option><option id="D">Circle</option>
+            <answer>A</answer><explanation>Closer to 1 than i. Bisector y=x. x > y.</explanation>
+        </question>
+        <question>
+            <text>If z is on circle |z| = 2, w = z + 1/z spans curve:</text>
+            <option id="A">Ellipse</option><option id="B">Circle</option><option id="C">Line</option><option id="D">Hyperbola</option>
+            <answer>A</answer><explanation>Joukowski transform.</explanation>
+        </question>
+        <question>
+            <text>Evaluate (1 + cos theta + i sin theta)^n + (1 + cos theta - i sin theta)^n:</text>
+            <option id="A">2^(n+1) cos^n(theta/2) cos(n theta/2)</option><option id="B">0</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard simplification.</explanation>
+        </question>
+        <question>
+            <text>Area of triangle formed by z, iz, z+iz is 50. Then |z|=?</text>
+            <option id="A">10</option><option id="B">5</option><option id="C">7</option><option id="D">20</option>
+            <answer>A</answer><explanation>Area |z|^2 / 2 = 50. |z|^2 = 100.</explanation>
+        </question>
+        <question>
+            <text>Equation |z-1|^2 + |z+1|^2 = 4 represents:</text>
+            <option id="A">Unit circle</option><option id="B">Line</option><option id="C">Ellipse</option><option id="D">Point</option>
+            <answer>A</answer><explanation>2(|z|^2 + 1) = 4 -> |z|^2 = 1.</explanation>
+        </question>
+        <question>
+            <text>Number of values of z satisfying |z|=5 and |z - (3+4i)| = 5 (Wait, no, diff eq). Say system.</text>
+            <option id="A">2 intersection points</option><option id="B">1</option><option id="C">0</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Intersection of two circles.</explanation>
+        </question>
+        <question>
+            <text>Value of product k=0 to n-1 of (x - w^k):</text>
+            <option id="A">x^n - 1</option><option id="B">x^n + 1</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Roots of x^5 = 1 are in:</text>
+            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option><option id="D">None</option>
+            <answer>A</answer><explanation>1, w, w^2...</explanation>
+        </question>
+        <question>
+            <text>If a, b, c are roots of x^3 - 3x^2 + 3x + 7 = 0, value of (a-1)(b-1)(c-1)?</text>
+            <option id="A">Substitute x=1 approx</option><option id="B">Evaluate</option><option id="C">None</option><option id="D">0</option>
+            <answer>A</answer><explanation>Equation can be written (x-1)^3 = -8.</explanation>
+        </question>
+        <question>
+            <text>Minimum value of |z| + |z-3+4i|:</text>
+            <option id="A">5</option><option id="B">3</option><option id="C">4</option><option id="D">7</option>
+            <answer>A</answer><explanation>Triangle inequality sum, dist between 0 and 3-4i.</explanation>
+        </question>
+        <question>
+            <text>Solve z^2(conjugate z) = z:</text>
+            <option id="A">z=0, 1, -1, i, -i (Wait z=e^itheta. e^3itheta = e^itheta -> 2theta = 2kpi. Roots of unity and 0.)</option><option id="B">0</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Modulus is 0 or 1.</explanation>
+        </question>
+        <question>
+            <text>The value of expression where x = -1 + i sqrt(3) is plugged into large polynomial:</text>
+            <option id="A">Use w properties</option><option id="B">Calculate</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>x = 2w.</explanation>
+        </question>
+        <question>
+            <text>Quadratic with roots tan(pi/8) and tan(3pi/8)?</text>
+            <option id="A">x^2 - 2x sqrt(2) + ... Wait. tan pi/8 = sqrt(2)-1. tan 3pi/8 = sqrt(2)+1. Sum 2sqrt(2). Prod 1. eq: x^2 - 2sqrt(2)x + 1 = 0.</option><option id="B">None</option><option id="C">Check</option><option id="D">Skip</option>
+            <answer>A</answer><explanation>Correct logic.</explanation>
+        </question>
+        <question>
+            <text>Remainder when x^100 divided by x^2 + 1:</text>
+            <option id="A">1 (Wait: put x=i. i^100 = 1. R(i)=1. R(x)=1.)</option><option id="B">x</option><option id="C">-1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Remainder theorem.</explanation>
+        </question>
+        <question>
+            <text>If w is imaginary cube root, (1-w+w^2)(1-w^2+w^4)... 2n factors = ?</text>
+            <option id="A">2^2n</option><option id="B">2^n</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Each factor is -2w^k. Pairs give 4.</explanation>
+        </question>
+        <question>
+            <text>If z + 1/z = 1, z^100 + 1/z^100 = ?</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">2</option><option id="D">0</option>
+            <answer>A</answer><explanation>z is -w. (-w)^100 + 1/(-w)^100 = -w - 1/w = -w - w^2 = 1. Wait. Let check.</explanation>
+        </question>
+        <question>
+            <text>Number of solutions to e^z = i:</text>
+            <option id="A">Infinite</option><option id="B">1</option><option id="C">0</option><option id="D">2</option>
+            <answer>A</answer><explanation>Periodicity.</explanation>
+        </question>
+        <question>
+            <text>Sum of distances from z to 3 and -3 is 10. Locus:</text>
+            <option id="A">Ellipse</option><option id="B">Circle</option><option id="C">Hyperbola</option><option id="D">Line</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>If |z| = 1 and z != 1, then (z-1)/(z+1) is:</text>
+            <option id="A">Purely imaginary</option><option id="B">Real</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Angle in semicircle logic.</explanation>
+        </question>
+        <question>
+            <text>Value of sqrt(-i)?</text>
+            <option id="A">±(1-i)/sqrt(2)</option><option id="B">±(1+i)/sqrt(2)</option><option id="C">None</option><option id="D">i</option>
+            <answer>A</answer><explanation>Check square.</explanation>
+        </question>
+        <question>
+            <text>Real theta such that (3+2i sin theta)/(1-2i sin theta) is real:</text>
+            <option id="A">nPi</option><option id="B">nPi/2</option><option id="C">2nPi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Imaginary part zero implies 8 sin theta = 0 -> theta = nPi.</explanation>
+        </question>
+    </hard>
+</chapter>

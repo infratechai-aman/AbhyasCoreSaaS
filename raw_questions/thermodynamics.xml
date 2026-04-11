@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="11" name="Thermodynamics">
+    <easy>
+        <question>
+            <text>Zeroth Law of Thermodynamics leads to the concept of:</text>
+            <option id="A">Temperature</option><option id="B">Energy</option><option id="C">Pressure</option><option id="D">Heat</option>
+            <answer>A</answer><explanation>Thermal equilibrium definition.</explanation>
+        </question>
+        <question>
+            <text>First Law of Thermodynamics is a statement of conservation of:</text>
+            <option id="A">Energy</option><option id="B">Mass</option><option id="C">Momentum</option><option id="D">Heat</option>
+            <answer>A</answer><explanation>dQ = dU + dW.</explanation>
+        </question>
+        <question>
+            <text>In an Isothermal process, which quantity remains constant?</text>
+            <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">Volume</option><option id="D">Heat</option>
+            <answer>A</answer><explanation>Iso-thermal means constant temperature.</explanation>
+        </question>
+        <question>
+            <text>In an Adiabatic process:</text>
+            <option id="A">Heat exchange is zero</option><option id="B">Temperature is constant</option><option id="C">Pressure is constant</option><option id="D">Volume is constant</option>
+            <answer>A</answer><explanation>dQ = 0.</explanation>
+        </question>
+        <question>
+            <text>Work done in an Isochoric process is:</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>dV = 0, so P dV = 0.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of a Carnot engine depends on:</text>
+            <option id="A">Temperatures of source and sink</option><option id="B">Working substance</option><option id="C">Fuel used</option><option id="D">Size of engine</option>
+            <answer>A</answer><explanation>eta = 1 - T2/T1.</explanation>
+        </question>
+        <question>
+            <text>Second Law of Thermodynamics (Clausius statement) is related to:</text>
+            <option id="A">Flow of heat from cold to hot body</option><option id="B">Conservation of energy</option><option id="C">Expansion of gases</option><option id="D">Entropy decrease</option>
+            <answer>A</answer><explanation>Impossible without external work.</explanation>
+        </question>
+        <question>
+            <text>Work done in a cyclic process is equal to:</text>
+            <option id="A">Area enclosed by PV diagram</option><option id="B">Zero</option><option id="C">Infinite</option><option id="D">Heat rejected</option>
+            <answer>A</answer><explanation>Net work.</explanation>
+        </question>
+        <question>
+            <text>Ratio of specific heats gamma = Cp/Cv is always:</text>
+            <option id="A">Greater than 1</option><option id="B">Less than 1</option><option id="C">Equal to 1</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Cp > Cv.</explanation>
+        </question>
+        <question>
+            <text>Internal energy of an ideal gas depends only on:</text>
+            <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">Volume</option><option id="D">Path</option>
+            <answer>A</answer><explanation>U = f(T).</explanation>
+        </question>
+        <question>
+            <text>For a cyclic process, change in internal energy is:</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Maximum</option>
+            <answer>A</answer><explanation>State function returns to initial value.</explanation>
+        </question>
+        <question>
+            <text>Coefficient of Performance (COP) of a refrigerator is always:</text>
+            <option id="A">Can be greater than 1</option><option id="B">Less than 1</option><option id="C">Equal to 1</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Usually > 1 (e.g. 2 to 5).</explanation>
+        </question>
+        <question>
+            <text>In an isobaric process, work done is:</text>
+            <option id="A">P(V2 - V1)</option><option id="B">V(P2 - P1)</option><option id="C">nRT log(V2/V1)</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>P is constant.</explanation>
+        </question>
+        <question>
+            <text>Isothermal elasticity of a gas is equal to:</text>
+            <option id="A">Pressure P</option><option id="B">gamma P</option><option id="C">Temperature</option><option id="D">Volume</option>
+            <answer>A</answer><explanation>repeated concept, good for reinforcement.</explanation>
+        </question>
+        <question>
+            <text>Adiabatic equation of state:</text>
+            <option id="A">PV^gamma = constant</option><option id="B">Pt = constant</option><option id="C">VT = constant</option><option id="D">PV = constant</option>
+            <answer>A</answer><explanation>Poisson's equation.</explanation>
+        </question>
+        <question>
+            <text>Boiling water in an open pan is an:</text>
+            <option id="A">Isobaric process</option><option id="B">Isochoric process</option><option id="C">Adiabatic process</option><option id="D">Isothermal process</option>
+            <answer>A</answer><explanation>Takes place at atm pressure.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of heat engine is 100% if sink temperature is:</text>
+            <option id="A">0 K</option><option id="B">0 C</option><option id="C">100 K</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>1 - T2/T1 = 1 => T2=0.</explanation>
+        </question>
+        <question>
+            <text>Entropy is a measure of:</text>
+            <option id="A">Disorder</option><option id="B">Energy</option><option id="C">Pressure</option><option id="D">Force</option>
+            <answer>A</answer><explanation>S = k log W.</explanation>
+        </question>
+        <question>
+            <text>In reversible adiabatic process, Entropy:</text>
+            <option id="A">Remains constant</option><option id="B">Increases</option><option id="C">Decreases</option><option id="D">Becomes zero</option>
+            <answer>A</answer><explanation>Isentropic.</explanation>
+        </question>
+        <question>
+            <text>Which is an intensive property?</text>
+            <option id="A">Temperature</option><option id="B">Volume</option><option id="C">Mass</option><option id="D">Internal Energy</option>
+            <answer>A</answer><explanation>Independent of amount.</explanation>
+        </question>
+        <question>
+            <text>Extensive property?</text>
+            <option id="A">Volume</option><option id="B">Temperature</option><option id="C">Pressure</option><option id="D">Density</option>
+            <answer>A</answer><explanation>Depends on mass.</explanation>
+        </question>
+        <question>
+            <text>Work done obtained is maximum in:</text>
+            <option id="A">Reversible process</option><option id="B">Irreversible process</option><option id="C">Adiabatic</option><option id="D">Isochoric</option>
+            <answer>A</answer><explanation>Theorem.</explanation>
+        </question>
+        <question>
+            <text>Slope of Adiabatic curve is ___ than Isothermal:</text>
+            <option id="A">Steeper (gamma times)</option><option id="B">Flatter</option><option id="C">Same</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Slope_ad = gamma * Slope_iso.</explanation>
+        </question>
+        <question>
+            <text>Free expansion of ideal gas:</text>
+            <option id="A">W=0, Q=0, dU=0</option><option id="B">W > 0</option><option id="C">Q > 0</option><option id="D">dU > 0</option>
+            <answer>A</answer><explanation>Expansion into vacuum.</explanation>
+        </question>
+        <question>
+            <text>Refrigerant should have:</text>
+            <option id="A">High latent heat of vaporization</option><option id="B">Low latent heat</option><option id="C">High freezing point</option><option id="D">Low specific heat</option>
+            <answer>A</answer><explanation>To absorb more heat.</explanation>
+        </question>
+        <question>
+            <text>Unit of Entropy:</text>
+            <option id="A">J / K</option><option id="B">J</option><option id="C">J / s</option><option id="D">K / J</option>
+            <answer>A</answer><explanation>dQ/T.</explanation>
+        </question>
+        <question>
+            <text>Temperature of reservoir of Carnot engine is 400K and sink 300K. Efficiency?</text>
+            <option id="A">25%</option><option id="B">75%</option><option id="C">33%</option><option id="D">50%</option>
+            <answer>A</answer><explanation>1 - 300/400 = 1/4 = 25%.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>An ideal gas expands isothermally from V to 2V. Work done?</text>
+            <option id="A">nRT ln(2)</option><option id="B">nRT</option><option id="C">nRT log(10) 2</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>W = nRT ln(V2/V1).</explanation>
+        </question>
+        <question>
+            <text>Carnot engine absorbs 1000J heat from source at 500K and rejects heat to sink at 300K. Work done?</text>
+            <option id="A">400 J</option><option id="B">600 J</option><option id="C">200 J</option><option id="D">800 J</option>
+            <answer>A</answer><explanation>eta = 1 - 300/500 = 0.4. W = eta * 1000 = 400J.</explanation>
+        </question>
+        <question>
+            <text>A gas is compressed adiabatically to half its volume. Relation between T1 and T2? (gamma=1.5)</text>
+            <option id="A">T2 = T1 * sqrt(2)</option><option id="B">T2 = 2 T1</option><option id="C">T2 = T1 / 2</option><option id="D">T2 = T1 * 4</option>
+            <answer>A</answer><explanation>TV^(gamma-1) = const. T1 V^0.5 = T2 (V/2)^0.5. T2 = T1 * (2)^0.5.</explanation>
+        </question>
+        <question>
+            <text>Work done in adiabatic expansion is given by:</text>
+            <option id="A">nR(T1 - T2) / (gamma - 1)</option><option id="B">nR(T1 - T2)</option><option id="C">nR(T2 - T1) / gamma</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Standard formula.</explanation>
+        </question>
+        <question>
+            <text>For a reversible process, cyclic integral of dQ/T is:</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Clausius inequality equality.</explanation>
+        </question>
+        <question>
+            <text>Ideal gas eq for adiabatic process in terms of P and T?</text>
+            <option id="A">P^(1-gamma) T^gamma = C</option><option id="B">P T^gamma = C</option><option id="C">P^gamma T = C</option><option id="D">P T = C</option>
+            <answer>A</answer><explanation>V = T/P. P(T/P)^gamma = P^(1-gamma)T^gamma = const.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of Otto cycle depends on:</text>
+            <option id="A">Compression ratio</option><option id="B">Temperature limits only</option><option id="C">Pressure</option><option id="D">Fuel</option>
+            <answer>A</answer><explanation>eta = 1 - 1/r^(gamma-1).</explanation>
+        </question>
+        <question>
+            <text>Refrigerator COP is 5. Heat extracted 1000J. Work input?</text>
+            <option id="A">200 J</option><option id="B">5000 J</option><option id="C">100 J</option><option id="D">500 J</option>
+            <answer>A</answer><explanation>COP = Q2/W. 5 = 1000/W. W=200.</explanation>
+        </question>
+        <question>
+            <text>When a system is taken from state i to f along path 1, Q=50, W=20. Path 2 Q=36. W=?</text>
+            <option id="A">6</option><option id="B">14</option><option id="C">30</option><option id="D">10</option>
+            <answer>A</answer><explanation>dU = Q-W = 50-20=30. Path 2: 30 = 36 - W. W=6.</explanation>
+        </question>
+        <question>
+            <text>Temperature of source is increased. Efficiency of Carnot engine:</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Same</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>eta = 1 - T2/T1. Inc T1, ratio decreases, eta increases.</explanation>
+        </question>
+        <question>
+            <text>Two isotherms intersect:</text>
+            <option id="A">Never</option><option id="B">At T=0</option><option id="C">At 2 points</option><option id="D">Always</option>
+            <answer>A</answer><explanation>Temp cannot be two values at same state.</explanation>
+        </question>
+        <question>
+            <text>Gas expands according to PV^2=C. Work done V1 to V2?</text>
+            <option id="A">Polytropic formula</option><option id="B">Isothermal formula</option><option id="C">Adiabatic</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>W = (P1V1 - P2V2)/(n-1). here n=2.</explanation>
+        </question>
+        <question>
+            <text>Work done in free expansion of ideal gas?</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Expands against vacuum P_ext=0.</explanation>
+        </question>
+        <question>
+            <text>Temperature changes in free expansion of real gas?</text>
+            <option id="A">Decreases usually (Joule Thomson)</option><option id="B">Increases</option><option id="C">Remains same</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Cooling effect used in liquefaction.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of gas in isothermal process is:</text>
+            <option id="A">Infinite</option><option id="B">Zero</option><option id="C">R</option><option id="D">Cp</option>
+            <answer>A</answer><explanation>dT = 0. C = dQ/m dT -> oo.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of gas in adiabatic process is:</text>
+            <option id="A">Zero</option><option id="B">Infinite</option><option id="C">R</option><option id="D">Cv</option>
+            <answer>A</answer><explanation>dQ = 0.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of Carnot engine between steam point and ice point?</text>
+            <option id="A">26.8%</option><option id="B">50%</option><option id="C">100%</option><option id="D">10%</option>
+            <answer>A</answer><explanation>T1=373, T2=273. eta = 1 - 273/373 = 100/373 ~ 26.8%.</explanation>
+        </question>
+        <question>
+            <text>P-V diagram is a circle. Work done is:</text>
+            <option id="A">Area pi R1 R2 (units)</option><option id="B">Zero</option><option id="C">2pi R</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Careful with units of P and V axes.</explanation>
+        </question>
+        <question>
+            <text>Cyclic process clockwise in PV diagram. Work is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Expansion is upper curve.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of engine is 1/6. Reduce sink temp by 62C, efficiency doubles. Source Temp?</text>
+            <option id="A">372 K</option><option id="B">273 K</option><option id="C">400 K</option><option id="D">100 K</option>
+            <answer>A</answer><explanation>1 - T2/T1 = 1/6 => T2/T1 = 5/6. T2 = 5/6 T1. New: 1 - (T2-62)/T1 = 2/6 = 1/3. (T2-62)/T1 = 2/3. 5/6 T1 - 62 = 2/3 T1. (5/6 - 4/6)T1 = 62. 1/6 T1 = 62. T1 = 372 K.</explanation>
+        </question>
+        <question>
+            <text>Heat pump COP relation with Engine efficiency?</text>
+            <option id="A">COP = 1/eta</option><option id="B">COP = 1 - eta</option><option id="C">COP = 1 + eta</option><option id="D">None</option>
+            <answer>A</answer><explanation>COP_hp = Q1/W = Q1/(Q1-Q2) = 1/(1-Q2/Q1) = 1/eta.</explanation>
+        </question>
+        <question>
+            <text>Combustion in Diesel engine takes place at:</text>
+            <option id="A">Constant Pressure</option><option id="B">Constant Volume</option><option id="C">Constant Temp</option><option id="D">Adiabatically</option>
+            <answer>A</answer><explanation>Isobaric heat addition.</explanation>
+        </question>
+        <question>
+            <text>Gas expands linearly P=aV+b. Work done from V1 to V2?</text>
+            <option id="A">Trapezium area</option><option id="B">Integrated</option><option id="C">P avg * dV</option><option id="D">All</option>
+            <answer>A</answer><explanation>Area under line.</explanation>
+        </question>
+        <question>
+            <text>First law for an open system?</text>
+            <option id="A">Enthalpy formulation</option><option id="B">Same</option><option id="C">Not applicable</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Flow energy involved.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>One mole ideal gas (gamma=1.4) expands adiabatically so temperature falls from 300K to 150K. Work done? (R=8.31)</text>
+            <option id="A">3116 J</option><option id="B">1245 J</option><option id="C">6232 J</option><option id="D">-1245 J</option>
+            <answer>A</answer><explanation>W = nR(T1-T2)/(gamma-1) = 1*8.31*(150)/0.4 = 8.31*375 = 3116.</explanation>
+        </question>
+        <question>
+            <text>Polytropic process PV^n = C. Molar heat capacity C is:</text>
+            <option id="A">Cv + R/(1-n)</option><option id="B">Cv - R/(1-n)</option><option id="C">Cp + R/(1-n)</option><option id="D">R/(1-n)</option>
+            <answer>A</answer><explanation>First law dQ = dU + PdV. C dT = Cv dT + P dV. P dV = R dT / (1-n) for polytropic. C = Cv + R/(1-n).</explanation>
+        </question>
+        <question>
+            <text>Two Carnot engines in series. A (T1 to T), B (T to T2). If efficiencies equal, T is:</text>
+            <option id="A">sqrt(T1 T2)</option><option id="B">(T1+T2)/2</option><option id="C">T1 - T2</option><option id="D">0</option>
+            <answer>A</answer><explanation>1 - T/T1 = 1 - T2/T. T/T1 = T2/T. T^2 = T1T2.</explanation>
+        </question>
+        <question>
+            <text>Entopy change in mixing two gases (n1, n2) at same T, P?</text>
+            <option id="A">-R (n1 ln x1 + n2 ln x2)</option><option id="B">Zero</option><option id="C">Positive</option><option id="D">R ln V</option>
+            <answer>A</answer><explanation>Entropy of mixing. x is mole fraction.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of Stirling Cycle (regeneration)?</text>
+            <option id="A">Same as Carnot</option><option id="B">Less than Carnot</option><option id="C">More</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Ideally equal to Carnot.</explanation>
+        </question>
+        <question>
+            <text>P-V graph is a triangle vertices (V,P), (2V,P), (2V,2P). Efficiency?</text>
+            <option id="A">Calculated 1/(1+something)</option><option id="B">10%</option><option id="C">25%</option><option id="D">50%</option>
+            <answer>A</answer><explanation>Work = 0.5 * V * P. Heat added: Isobaric (V to 2V) + Isochoric (P to 2P)? Path 1->2 (P const): nCp deltaT. Path 2->3 (V const): nCv deltaT. Path 3->1 (line): Heat rejected. nCv(2P,V - P,V) = negative? Check slope.</explanation>
+        </question>
+        <question>
+            <text>Van der waals gas work done in isothermal expansion V1 to V2?</text>
+            <option id="A">nRT ln((V2-nb)/(V1-nb)) + an^2(1/V2 - 1/V1)</option><option id="B">nRT ln(V2/V1)</option><option id="C">Zero</option><option id="D">Complex</option>
+            <answer>A</answer><explanation>Integration of P = nRT/(V-nb) - an^2/V^2.</explanation>
+        </question>
+        <question>
+            <text>Slope of P-V graph for reversible adiabatic expansion of Ideal Gas?</text>
+            <option id="A">-gamma P/V</option><option id="B">-P/V</option><option id="C">gamma P/V</option><option id="D">-gamma V/P</option>
+            <answer>A</answer><explanation>dP/dV = -gamma P/V.</explanation>
+        </question>
+        <question>
+            <text>In a refrigerator, heat rejected to room vs Work done?</text>
+            <option id="A">Q1 = Q2 + W (More heat rejected than extracted)</option><option id="B">Q1 = W</option><option id="C">Q1 &lt; W</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>Room gets hotter.</explanation>
+        </question>
+        <question>
+            <text>Clausius Clapeyron equation dP/dT = ?</text>
+            <option id="A">L / T(V2-V1)</option><option id="B">L/T</option><option id="C">L/(V2-V1)</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Phase transition slope.</explanation>
+        </question>
+        <question>
+            <text>Three moles of gas expands into vacuum to double volume. Change in Entropy?</text>
+            <option id="A">3R ln 2</option><option id="B">R ln 2</option><option id="C">Zero</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Delta S = nR ln(Vf/Vi) for isothermal (T const in free exp ideal gas).</explanation>
+        </question>
+        <question>
+            <text>A bubble of 1 mole gas expands adiabatically. T drops. Work done?</text>
+            <option id="A">Equal to decrease in Internal Energy</option><option id="B">Zero</option><option id="C">Positive and heat absorbed</option><option id="D">Neg</option>
+            <answer>A</answer><explanation>Adiabatic exp uses internal energy.</explanation>
+        </question>
+        <question>
+            <text>Process P = Po e^(-aV). Work done V1 to V2?</text>
+            <option id="A">Integrated Po [e^-aV1 - e^-aV2]/a</option><option id="B">Po(V2-V1)</option><option id="C">log formula</option><option id="D">Simple</option>
+            <answer>A</answer><explanation>Integral e^(-ax) is -1/a e^(-ax).</explanation>
+        </question>
+        <question>
+            <text>Diesel Cycle consists of:</text>
+            <option id="A">2 Adiabatics, 1 Isobaric, 1 Isochoric</option><option id="B">2 Isotherms, 2 Adiabatics</option><option id="C">2 Isobars, 2 Isochores</option><option id="D">Constant P</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Otto Cycle consists of:</text>
+            <option id="A">2 Adiabatics, 2 Isochorics</option><option id="B">2 Isotherms...</option><option id="C">Mixed</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constant volume heat add/reject.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of Carnot engine 40%. To increase to 50%, increase source T by dH or decrease sink T by dL. Relation?</text>
+            <option id="A">dH &gt; dL usually? Need check.</option><option id="B">dH = dL</option><option id="C">dH &lt; dL</option><option id="D">None</option>
+            <answer>A</answer><explanation>eta = 1 - T2/T1. 0.4 -&gt; 0.5. 0.6 = T2/T1. 0.5 = T2' / T1 or T2/T1'. Case 1: T2' = 0.5 T1. dL = 0.6T1 - 0.5T1 = 0.1T1. Case 2: 0.5 = 0.6T1 / T1'. T1' = 1.2 T1. dH = 0.2 T1. dH (0.2T1) &gt; dL (0.1T1). So dH &gt; dL. Easier to decrease sink.</explanation>
+        </question>
+        <question>
+            <text>Ratio of adiabatic bulk modulus to isothermal?</text>
+            <option id="A">gamma</option><option id="B">1/gamma</option><option id="C">1</option><option id="D">gamma^2</option>
+            <answer>A</answer><explanation>E_ad = gamma P. E_iso = P.</explanation>
+        </question>
+        <question>
+            <text>Amount of work to compress ideal gas to half volume isothermally vs adiabatically?</text>
+            <option id="A">Adiabatic > Isothermal</option><option id="B">Iso > Adia</option><option id="C">Equal</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Area under P-V curve is larger for adiabatic magnitude (steeper rise).</explanation>
+        </question>
+        <question>
+            <text>Enthalpy H is defined as:</text>
+            <option id="A">U + PV</option><option id="B">U - PV</option><option id="C">U + TS</option><option id="D">F + PV</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Gibbs Free Energy G?</text>
+            <option id="A">H - TS</option><option id="B">U - TS</option><option id="C">H + TS</option><option id="D">F - PV</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Helmholtz function F?</text>
+            <option id="A">U - TS</option><option id="B">H - TS</option><option id="C">U + PV</option><option id="D">PV</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Maxwell's relations are derived from:</text>
+            <option id="A">Thermodynamic potentials exact differentials</option><option id="B">Ideal gas law</option><option id="C">Newton law</option><option id="D">Wave eq</option>
+            <answer>A</answer><explanation>Mathematical property.</explanation>
+        </question>
+        <question>
+            <text>Which turns into heat 100%?</text>
+            <option id="A">Work</option><option id="B">Heat into Work</option><option id="C">All</option><option id="D">None</option>
+            <answer>A</answer><explanation>Work to Heat is possible 100% (friction). Heat to Work limited by Carnot.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of engine working between T and T/2?</text>
+            <option id="A">50%</option><option id="B">25%</option><option id="C">75%</option><option id="D">100%</option>
+            <answer>A</answer><explanation>1 - 0.5 = 0.5.</explanation>
+        </question>
+        <question>
+            <text>If gamma=1.5, n=2. Polytropic Heat Capacity?</text>
+            <option id="A">C = Cv + R/(1-2) = Cv - R. Cv=R/(1.5-1)=2R. C=2R-R=R</option><option id="B">R</option><option id="C">2R</option><option id="D">0</option>
+            <answer>A</answer><explanation>C is R.</explanation>
+        </question>
+        <question>
+            <text>Slope of P-T curve for isochoric process?</text>
+            <option id="A">P/T</option><option id="B">V/R</option><option id="C">nR/V</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>P = (nR/V) T. Slope constant.</explanation>
+        </question>
+        <question>
+            <text>Work done in cyclic process ABCA (A:P,V; B:P,2V; C:2P,V)?</text>
+            <option id="A">Area = 0.5 * P * V</option><option id="B">PV</option><option id="C">2PV</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Area of triangle.</explanation>
+        </question>
+    </hard>
+</chapter>

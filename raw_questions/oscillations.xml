@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="13" name="Oscillations">
+    <easy>
+        <question>
+            <text>Simple Harmonic Motion (SHM) is a special type of periodic motion where restoring force is proportional to:</text>
+            <option id="A">Displacement</option><option id="B">Velocity</option><option id="C">Time</option><option id="D">Mass</option>
+            <answer>A</answer><explanation>F = -kx.</explanation>
+        </question>
+        <question>
+            <text>The time period of a simple pendulum depends on:</text>
+            <option id="A">Length and g</option><option id="B">Mass of bob</option><option id="C">Amplitude (small)</option><option id="D">Material of bob</option>
+            <answer>A</answer><explanation>T = 2pi sqrt(L/g).</explanation>
+        </question>
+        <question>
+            <text>In SHM, velocity is maximum at:</text>
+            <option id="A">Mean position</option><option id="B">Extreme position</option><option id="C">Midway</option><option id="D">Nowhere</option>
+            <answer>A</answer><explanation>x=0 implies v_max = Aw.</explanation>
+        </question>
+        <question>
+            <text>In SHM, acceleration is maximum at:</text>
+            <option id="A">Extreme position</option><option id="B">Mean position</option><option id="C">Midway</option><option id="D">Nowhere</option>
+            <answer>A</answer><explanation>a = -w^2 x. Max at x=A.</explanation>
+        </question>
+        <question>
+            <text>Resonance occurs when driving frequency equals:</text>
+            <option id="A">Natural frequency</option><option id="B">Zero</option><option id="C">Double natural frequency</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Max amplitude condition.</explanation>
+        </question>
+        <question>
+            <text>A seconds pendulum has a time period of:</text>
+            <option id="A">2 seconds</option><option id="B">1 second</option><option id="C">0.5 second</option><option id="D">4 seconds</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Total energy in SHM is proportional to:</text>
+            <option id="A">Square of Amplitude</option><option id="B">Amplitude</option><option id="C">Frequency</option><option id="D">Mass</option>
+            <answer>A</answer><explanation>E = 0.5 k A^2.</explanation>
+        </question>
+        <question>
+            <text>Phase difference between velocity and displacement in SHM:</text>
+            <option id="A">pi/2 (90 deg)</option><option id="B">pi (180 deg)</option><option id="C">0</option><option id="D">2pi</option>
+            <answer>A</answer><explanation>v = A w cos(wt) vs x = A sin(wt).</explanation>
+        </question>
+        <question>
+            <text>Phase difference between acceleration and displacement in SHM:</text>
+            <option id="A">pi (180 deg)</option><option id="B">pi/2</option><option id="C">0</option><option id="D">2pi</option>
+            <answer>A</answer><explanation>a = -w^2 x. Negative sign is 180 phase.</explanation>
+        </question>
+        <question>
+            <text>Unit of spring constant k:</text>
+            <option id="A">N/m</option><option id="B">N m</option><option id="C">N/m^2</option><option id="D">J/m</option>
+            <answer>A</answer><explanation>F=kx.</explanation>
+        </question>
+        <question>
+            <text>Which physical quantity remains constant during SHM?</text>
+            <option id="A">Total Mechanical Energy</option><option id="B">Kinetic Energy</option><option id="C">Potential Energy</option><option id="D">Acceleration</option>
+            <answer>A</answer><explanation>Conservation of energy.</explanation>
+        </question>
+        <question>
+            <text>Two springs k1 and k2 in series. Effective k?</text>
+            <option id="A">k1 k2 / (k1+k2)</option><option id="B">k1+k2</option><option id="C">k1-k2</option><option id="D">zero</option>
+            <answer>A</answer><explanation>Like capacitors in series.</explanation>
+        </question>
+        <question>
+            <text>Two springs k1 and k2 in parallel. Effective k?</text>
+            <option id="A">k1 + k2</option><option id="B">k1 k2 / (k1+k2)</option><option id="C">k1/k2</option><option id="D">1</option>
+            <answer>A</answer><explanation>Forces add.</explanation>
+        </question>
+        <question>
+            <text>Length of seconds pendulum is approx:</text>
+            <option id="A">1 meter (99.3 cm)</option><option id="B">2 meters</option><option id="C">50 cm</option><option id="D">10 cm</option>
+            <answer>A</answer><explanation>For T=2s.</explanation>
+        </question>
+        <question>
+            <text>A particle executing SHM passes through mean position with velocity:</text>
+            <option id="A">Maximum</option><option id="B">Zero</option><option id="C">Minimum</option><option id="D">Constant</option>
+            <answer>A</answer><explanation>Peak KE.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Equation of SHM is x = 5 sin(20t + pi/3). Amplitude is:</text>
+            <option id="A">5</option><option id="B">20</option><option id="C">10</option><option id="D">1</option>
+            <answer>A</answer><explanation>Coeff of sine.</explanation>
+        </question>
+        <question>
+            <text>In above equation, angular frequency w is:</text>
+            <option id="A">20 rad/s</option><option id="B">5</option><option id="C">pi/3</option><option id="D">100</option>
+            <answer>A</answer><explanation>Coeff of t.</explanation>
+        </question>
+        <question>
+            <text>Max acceleration in SHM with A=2m, w=10 rad/s?</text>
+            <option id="A">200 m/s^2</option><option id="B">20 m/s^2</option><option id="C">100</option><option id="D">2</option>
+            <answer>A</answer><explanation>a_max = w^2 A = 100 * 2 = 200.</explanation>
+        </question>
+        <question>
+            <text>Ratio of max velocity to max acceleration?</text>
+            <option id="A">1/w</option><option id="B">w</option><option id="C">w^2</option><option id="D">A</option>
+            <answer>A</answer><explanation>Aw / w^2 A = 1/w.</explanation>
+        </question>
+        <question>
+            <text>Total energy of particle of mass m in SHM?</text>
+            <option id="A">1/2 m w^2 A^2</option><option id="B">1/2 m w A^2</option><option id="C">m w^2 A</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>KE_max.</explanation>
+        </question>
+        <question>
+            <text>A spring is cut into 3 equal parts. Spring constant of each part?</text>
+            <option id="A">3k</option><option id="B">k/3</option><option id="C">k</option><option id="D">9k</option>
+            <answer>A</answer><explanation>k prop 1/L. L becomes L/3, k becomes 3k.</explanation>
+        </question>
+        <question>
+            <text>Time period of pendulum in a lift accelerating up with a?</text>
+            <option id="A">2pi sqrt(L/(g+a))</option><option id="B">2pi sqrt(L/(g-a))</option><option id="C">2pi sqrt(L/g)</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>g_eff increases.</explanation>
+        </question>
+        <question>
+            <text>Pendulum in a satellite?</text>
+            <option id="A">Does not oscillate (T infinite)</option><option id="B">T approx 0</option><option id="C">Normal</option><option id="D">Fast</option>
+            <answer>A</answer><explanation>g_eff = 0.</explanation>
+        </question>
+        <question>
+            <text>Average KE in SHM over one period?</text>
+            <option id="A">1/4 m w^2 A^2</option><option id="B">1/2 m w^2 A^2</option><option id="C">Zero</option><option id="D">Total E</option>
+            <answer>A</answer><explanation>Avg of cos^2 is 1/2. Total E is 1/2 m w^2 A^2. Avg KE = 1/2 * Total E.</explanation>
+        </question>
+        <question>
+            <text>At what displacement is KE = PE in SHM?</text>
+            <option id="A">A / sqrt(2)</option><option id="B">A/2</option><option id="C">A</option><option id="D">0</option>
+            <answer>A</answer><explanation>0.5 k x^2 = 0.5 * 0.5 k A^2. x^2 = A^2/2.</explanation>
+        </question>
+        <question>
+            <text>Length of simple pendulum increased by 1%. Change in T? (L=1m)</text>
+            <option id="A">0.5% increase</option><option id="B">1% increase</option><option id="C">0.5% decrease</option><option id="D">1% decrease</option>
+            <answer>A</answer><explanation>T ~ sqrt(L).</explanation>
+        </question>
+        <question>
+            <text>A particle traverses distance A/2 from mean in time t1, and A/2 to A in t2. Ratio?</text>
+            <option id="A">t1 &lt; t2</option><option id="B">t1 &gt; t2</option><option id="C">t1 = t2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Moves faster near mean. t1 = T/12. t2 = T/6. t1 &lt; t2. (Wait: asin(0.5)=30deg=T/12. asin(1)-asin(0.5)=90-30=60deg=T/6).</explanation>
+        </question>
+        <question>
+            <text>Two SHMs x1=sin(wt), x2=sin(wt+pi/2). Locus?</text>
+            <option id="A">Circle</option><option id="B">Straight Line</option><option id="C">Ellipse</option><option id="D">Parabola</option>
+            <answer>A</answer><explanation>x^2 + y^2 = 1. Circle.</explanation>
+        </question>
+        <question>
+            <text>Lissajous figure for freq ratio 1:1 and phase pi/2?</text>
+            <option id="A">Circle</option><option id="B">Line</option><option id="C">Eight</option><option id="D">Parabola</option>
+            <answer>A</answer><explanation>Circle/Ellipse.</explanation>
+        </question>
+        <question>
+            <text>Mass m attached to two springs k1, k2 in series. Freq?</text>
+            <option id="A">1/2pi sqrt(k_eq/m)</option><option id="B">sqrt(k1k2)</option><option id="C">Sum</option><option id="D">Diff</option>
+            <answer>A</answer><explanation>Standard formula.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Damped oscillation equation m d2x/dt2 + b dx/dt + kx = 0. Angular frequency w' is:</text>
+            <option id="A">sqrt(k/m - (b/2m)^2)</option><option id="B">sqrt(k/m)</option><option id="C">sqrt(k/m - b/m)</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Modification due to damping.</explanation>
+        </question>
+        <question>
+            <text>Condition for critical damping is:</text>
+            <option id="A">b^2 = 4mk</option><option id="B">b = 0</option><option id="C">b^2 > 4mk</option><option id="D">b^2 &lt; 4mk</option>
+            <answer>A</answer><explanation>Discriminant zero.</explanation>
+        </question>
+        <question>
+            <text>Quality Factor Q of a resonator is:</text>
+            <option id="A">w0 / delta w (Bandwidth)</option><option id="B">Energy loss per cycle</option><option id="C">1</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Sharpness of resonance.</explanation>
+        </question>
+        <question>
+            <text>A large block M executes SHM. A small block m placed on it. Coeff friction mu. Max Amplitude for no slip?</text>
+            <option id="A">mu g / w^2</option><option id="B">mu g w^2</option><option id="C">mu g</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Max accel = w^2 A. Pseudo force m w^2 A &lt;= mu mg. A &lt;= mu g / w^2.</explanation>
+        </question>
+        <question>
+            <text>Liquid in U-tube length L. Time period of oscillation?</text>
+            <option id="A">2pi sqrt(L/2g)</option><option id="B">2pi sqrt(L/g)</option><option id="C">2pi sqrt(2L/g)</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Restoring force 2x rho A g. M = L A rho. T = 2pi sqrt(M/k) = 2pi sqrt(L/2g).</explanation>
+        </question>
+        <question>
+            <text>A tunnel through Earth. Particle dropped. SHM period?</text>
+            <option id="A">84.6 min</option><option id="B">24 hours</option><option id="C">Infinite</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Same as satellite orbit T.</explanation>
+        </question>
+        <question>
+            <text>Two simple pendulums lengths 1m and 1.44m start in phase. Phase again after?</text>
+            <option id="A">2 vibrations of longer</option><option id="B">3</option><option id="C">5</option><option id="D">1</option>
+            <answer>A</answer><explanation>Ratio T1/T2 = sqrt(1/1.44) = 1/1.2 = 10/12 = 5/6. 5T2 = 6T1. After 5 osc of longer.</explanation>
+        </question>
+        <question>
+            <text>Equation y = sin^2(wt) represents:</text>
+            <option id="A">SHM with frequency 2w</option><option id="B">SHM with freq w</option><option id="C">Periodic not SHM</option><option id="D">None</option>
+            <answer>A</answer><explanation>Can be written as Const - Cos(2wt). SHM.</explanation>
+        </question>
+        <question>
+            <text>Compound pendulum time period?</text>
+            <option id="A">2pi sqrt(I / mgd)</option><option id="B">Simple pendulum formula</option><option id="C">2pi sqrt(I/m)</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Rigid body oscillation.</explanation>
+        </question>
+        <question>
+            <text>Torsional pendulum T?</text>
+            <option id="A">2pi sqrt(I/C)</option><option id="B">2pi sqrt(I/m)</option><option id="C">Zero</option><option id="D">Inf</option>
+            <answer>A</answer><explanation>C = torsional constant.</explanation>
+        </question>
+        <question>
+            <text>For forced oscillation amplitude is A = F0 / sqrt(m^2(w^2-w0^2)^2 + b^2w^2). Max A at:</text>
+            <option id="A">w approx w0 (slightly less for damped)</option><option id="B">w = 0</option><option id="C">w = inf</option><option id="D">Random</option>
+            <answer>A</answer><explanation>Resonance peak.</explanation>
+        </question>
+        <question>
+            <text>Effective length of simple pendulum with bob of radius r?</text>
+            <option id="A">L + r</option><option id="B">L</option><option id="C">L-r</option><option id="D">L + r^2/L</option>
+            <answer>A</answer><explanation>COM to pivot.</explanation>
+        </question>
+        <question>
+            <text>Hollow sphere filled with water as bob. Water leaks. Period?</text>
+            <option id="A">Increases then decreases</option><option id="B">Increases</option><option id="C">Decreases</option><option id="D">Same</option>
+            <answer>A</answer><explanation>COM lowers then rises back to center.</explanation>
+        </question>
+        <question>
+            <text>Oscillation of a magnet in magnetic field?</text>
+            <option id="A">T = 2pi sqrt(I / MB)</option><option id="B">T = 2pi sqrt(M/IB)</option><option id="C">Zero</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Angular SHM formula.</explanation>
+        </question>
+        <question>
+            <text>Particle on rotating turntable projected on diameter executes:</text>
+            <option id="A">SHM</option><option id="B">Circular</option><option id="C">Linear</option><option id="D">Random</option>
+            <answer>A</answer><explanation>Geometric definition of SHM.</explanation>
+        </question>
+        <question>
+            <text>If Earth tunnel passes through chord, period?</text>
+            <option id="A">Same 2pi sqrt(R/g)</option><option id="B">Less</option><option id="C">More</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Independent of chord.</explanation>
+        </question>
+        <question>
+            <text>Spring mass system on smooth incline plane theta. Period?</text>
+            <option id="A">2pi sqrt(m/k)</option><option id="B">2pi sqrt(m/k sin theta)</option><option id="C">Depends on g</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gravity only changes mean position, not k or m.</explanation>
+        </question>
+        <question>
+            <text>Two pendulums lengths ratio 1:4. Frequency ratio?</text>
+            <option id="A">2:1</option><option id="B">1:2</option><option id="C">1:4</option><option id="D">4:1</option>
+            <answer>A</answer><explanation>f ~ 1/sqrt(L). 1/1 : 1/2 = 2:1.</explanation>
+        </question>
+    </hard>
+</chapter>

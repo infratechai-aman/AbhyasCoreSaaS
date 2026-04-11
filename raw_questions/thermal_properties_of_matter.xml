@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="10" name="Thermal Properties of Matter">
+    <easy>
+        <question>
+            <text>SI unit of Heat:</text>
+            <option id="A">Joule</option><option id="B">Calorie</option><option id="C">Watt</option><option id="D">Kelvin</option>
+            <answer>A</answer><explanation>Energy form.</explanation>
+        </question>
+        <question>
+            <text>Absolute Zero is temperature where:</text>
+            <option id="A">Molecular motion ceases</option><option id="B">Water freezes</option><option id="C">Volume becomes max</option><option id="D">Pressure becomes max</option>
+            <answer>A</answer><explanation>0 Kelvin.</explanation>
+        </question>
+        <question>
+            <text>Triple point of water involves:</text>
+            <option id="A">Ice, Water, Vapor in equilibrium</option><option id="B">Ice and Water</option><option id="C">Water and Vapor</option><option id="D">All gases</option>
+            <answer>A</answer><explanation>Specific P, T.</explanation>
+        </question>
+        <question>
+            <text>Relationship between Celsius and Kelvin:</text>
+            <option id="A">K = C + 273.15</option><option id="B">K = C - 273.15</option><option id="C">K = 273 C</option><option id="D">No relation</option>
+            <answer>A</answer><explanation>Offset.</explanation>
+        </question>
+        <question>
+            <text>1 Calorie is approximately:</text>
+            <option id="A">4.18 Joules</option><option id="B">1 Joule</option><option id="C">10 Joules</option><option id="D">4.18 ergs</option>
+            <answer>A</answer><explanation>Mechanical equivalent of heat.</explanation>
+        </question>
+        <question>
+            <text>Heat capacity depends on:</text>
+            <option id="A">Mass and nature of substance</option><option id="B">Temperature change needed</option><option id="C">Time</option><option id="D">Rate</option>
+            <answer>A</answer><explanation>ms.</explanation>
+        </question>
+        <question>
+            <text>Latent heat involves change of:</text>
+            <option id="A">State</option><option id="B">Temperature</option><option id="C">Pressure</option><option id="D">Volume only</option>
+            <answer>A</answer><explanation>Temperature remains constant.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Latent heat of steam is:</text>
+            <option id="A">540 cal/g</option><option id="B">80 cal/g</option><option id="C">540 J/kg</option><option id="D">80 J/kg</option>
+            <answer>A</answer><explanation>Standard value.</explanation>
+        </question>
+        <question>
+            <text>During melting of ice at 0 deg C:</text>
+            <option id="A">Q > 0, W &lt; 0 (slight), dU > 0</option><option id="B">dU = 0</option><option id="C">Temp rises</option><option id="D">Adiabatic</option>
+            <answer>A</answer><explanation>Ice contracts on melting, W neg. Heat absorbed, U increases. T const.</explanation>
+        </question>
+        <question>
+            <text>A bullet hits a target and stops. 50% energy heats bullet. Rise in T?</text>
+            <option id="A">v^2 / 4s</option><option id="B">v^2 / 2s</option><option id="C">mv^2 / 2s</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>0.5 * 0.5 mv^2 = ms dT. dT = v^2/4s (s=specific heat).</explanation>
+        </question>
+        <question>
+            <text>100g of ice at 0 mixed with 100g water at 80. Final temp?</text>
+            <option id="A">0 deg C</option><option id="B">40 deg C</option><option id="C">20 deg C</option><option id="D">10 deg C</option>
+            <answer>A</answer><explanation>Heat from water: 100*1*80 = 8000 cal. Heat to melt ice: 100*80 = 8000 cal. All ice melts, no heat left to raise temp. Mix at 0.</explanation>
+        </question>
+        <question>
+            <text>Change in entropy when 1g ice melts at 0C?</text>
+            <option id="A">0.293 cal/K</option><option id="B">80 cal/K</option><option id="C">Zero</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>dS = dQ/T = 80 cal / 273 K = 0.293.</explanation>
+        </question>
+        <question>
+            <text>Molar heat capacity of water?</text>
+            <option id="A">~ 75 J/mol K</option><option id="B">4.18 J/mol K</option><option id="C">18 J/mol K</option><option id="D">4200 J/mol K</option>
+            <answer>A</answer><explanation>18g * 4.18 J/g K = 75.24.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Steam burn is worse than water burn at 100C because:</text>
+            <option id="A">Latent heat of condensation released</option><option id="B">Steam is hotter</option><option id="C">Steam penetrates</option><option id="D">Chemical reaction</option>
+            <answer>A</answer><explanation>Extra energy.</explanation>
+        </question>
+        <question>
+            <text>Triple point of water temperature?</text>
+            <option id="A">273.16 K</option><option id="B">273.15 K</option><option id="C">0 K</option><option id="D">100 C</option>
+            <answer>A</answer><explanation>Defines Kelvin scale.</explanation>
+        </question>
+        <question>
+            <text>Newton's Law of Cooling:</text>
+            <option id="A">Rate of cooling prop to temp diff</option><option id="B">Prop to temp</option><option id="C">Prop to time</option><option id="D">Area</option>
+            <answer>A</answer><explanation>Small dT.</explanation>
+        </question>
+        <question>
+            <text>Solar constant is approximately:</text>
+            <option id="A">1.36 kW/m^2</option><option id="B">100 W</option><option id="C">500 W</option><option id="D">10 kW</option>
+            <answer>A</answer><explanation>Energy from sun.</explanation>
+        </question>
+        <question>
+            <text>Wien's Displacement Law?</text>
+            <option id="A">lambda_max T = b</option><option id="B">lambda T^2 = b</option><option id="C">E = sigma T^4</option><option id="D">None</option>
+            <answer>A</answer><explanation>b = 2.898 mm K.</explanation>
+        </question>
+    </hard>
+</chapter>

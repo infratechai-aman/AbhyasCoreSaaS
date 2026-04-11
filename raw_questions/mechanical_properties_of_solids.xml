@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="8" name="Mechanical Properties of Solids">
+    <easy>
+        <question>
+            <text>Hooke's Law states that within elastic limit, stress is proportional to:</text>
+            <option id="A">Strain</option><option id="B">Force</option><option id="C">Area</option><option id="D">Young's Modulus</option>
+            <answer>A</answer><explanation>Stress = E * Strain.</explanation>
+        </question>
+        <question>
+            <text>The SI unit of Young's Modulus is:</text>
+            <option id="A">Pascal (N/m^2)</option><option id="B">Newton</option><option id="C">Joule</option><option id="D">No unit</option>
+            <answer>A</answer><explanation>Same as components of stress.</explanation>
+        </question>
+        <question>
+            <text>Which is more elastic: Steel or Rubber?</text>
+            <option id="A">Steel</option><option id="B">Rubber</option><option id="C">Both same</option><option id="D">Depends on temp</option>
+            <answer>A</answer><explanation>Steel requires more force for same strain (Higher Young's Modulus).</explanation>
+        </question>
+        <question>
+            <text>Dimensional formula of Stress is:</text>
+            <option id="A">M L^-1 T^-2</option><option id="B">M L T^-2</option><option id="C">M L^2 T^-2</option><option id="D">M L^-1 T^-1</option>
+            <answer>A</answer><explanation>Force/Area.</explanation>
+        </question>
+        <question>
+            <text>Stress is a:</text>
+            <option id="A">Tensor</option><option id="B">Vector</option><option id="C">Scalar</option><option id="D">Phasor</option>
+            <answer>A</answer><explanation>Technically tensor, often treated as scalar magnitude in 1D.</explanation>
+        </question>
+        <question>
+            <text>Relation between Y (Youngs), K (Bulk), n (Shear) is:</text>
+            <option id="A">9/Y = 1/K + 3/n</option><option id="B">Y = 3K(1-2sigma)</option><option id="C">See formulas</option><option id="D">None</option>
+            <answer>A</answer><explanation>Interrelations.</explanation>
+        </question>
+        <question>
+            <text>Shear modulus is also called:</text>
+            <option id="A">Modulus of Rigidity</option><option id="B">Bulk Modulus</option><option id="C">Young's Modulus</option><option id="D">Poisson's Ratio</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Poisson's ratio sigma is:</text>
+            <option id="A">Lateral strain / Longitudinal strain</option><option id="B">Longitudinal / Lateral</option><option id="C">Stress / Strain</option><option id="D">Force / Area</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Theoretical limits of Poisson's ratio:</text>
+            <option id="A">-1 to 0.5</option><option id="B">0 to 1</option><option id="C">0 to 0.5</option><option id="D">-0.5 to 0.5</option>
+            <answer>A</answer><explanation>Elastic theory limits.</explanation>
+        </question>
+        <question>
+            <text>Breaking stress depends on:</text>
+            <option id="A">Material</option><option id="B">Area</option><option id="C">Length</option><option id="D">Shape</option>
+            <answer>A</answer><explanation>Intrinsic property.</explanation>
+        </question>
+        <question>
+            <text>A wire is stretched by force F. Potential energy stored?</text>
+            <option id="A">1/2 F x</option><option id="B">F x</option><option id="C">F/x</option><option id="D">1/2 k x</option>
+            <answer>A</answer><explanation>Where x is extension. 1/2 Stress x Strain x Vol.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>A wire extends by x when loaded by weight W. Energy stored per unit volume?</text>
+            <option id="A">1/2 * Stress * Strain</option><option id="B">Stress * Strain</option><option id="C">Y * Strain</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Energy density formula.</explanation>
+        </question>
+        <question>
+            <text>If a wire is stretched to double its length, Strain is:</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">0.5</option><option id="D">0</option>
+            <answer>A</answer><explanation>Delta L = L. Strain = L/L = 1 (100%).</explanation>
+        </question>
+        <question>
+            <text>Two wires A and B separate length ratio 1:2, radii 1:2. Loaded same. Strains ratio?</text>
+            <option id="A">4:1</option><option id="B">1:4</option><option id="C">1:2</option><option id="D">2:1</option>
+            <answer>A</answer><explanation>Strain prop 1/r^2. (1/1^2) / (1/2^2) = 1/(1/4) = 4.</explanation>
+        </question>
+        <question>
+            <text>Work done in stretching a wire of cross section A, length L by x?</text>
+            <option id="A">Y A x^2 / 2L</option><option id="B">Y A x / L</option><option id="C">Y A x^2 / L</option><option id="D">Y Ax</option>
+            <answer>A</answer><explanation>U = 0.5 * stress * strain * vol = 0.5 * (Y x/L) * (x/L) * AL = 0.5 Y A x^2 / L.</explanation>
+        </question>
+        <question>
+            <text>Force required to double length of wire of radius r?</text>
+            <option id="A">pi r^2 Y</option><option id="B">Y</option><option id="C">pi r Y</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Strain=1. Stress=Y. F/A=Y. F=AY.</explanation>
+        </question>
+        <question>
+            <text>Stress-Strain graph for ductile material points P (Limit), E (Yield), B (Break). order?</text>
+            <option id="A">P, E, Yield, B</option><option id="B">B, P, E</option><option id="C">Random</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard curve.</explanation>
+        </question>
+        <question>
+            <text>Elastomers (like aorta) have:</text>
+            <option id="A">Large elastic region</option><option id="B">Small elastic region</option><option id="C">No plastic region</option><option id="D">Brittle</option>
+            <answer>A</answer><explanation>Can stretch usually without perm deform.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Work done to stretch a wire depends on:</text>
+            <option id="A">Young's modulus</option><option id="B">Shear modulus</option><option id="C">Bulk modulus</option><option id="D">Color</option>
+            <answer>A</answer><explanation>U = 0.5 Y strain^2.</explanation>
+        </question>
+        <question>
+            <text>A uniform rod rotating in gravity free space. Tensile stress?</text>
+            <option id="A">Max at center, zero at ends</option><option id="B">Constant</option><option id="C">Max at ends</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Centrifugal force integration.</explanation>
+        </question>
+        <question>
+            <text>Value of max stress in rotating rod length L?</text>
+            <option id="A">rho w^2 L^2 / 8</option><option id="B">rho w^2 L^2 / 2</option><option id="C">rho w^2 L / 8</option><option id="D">zero</option>
+            <answer>A</answer><explanation>Integration T = Int(x to L/2) dm w^2 r.</explanation>
+        </question>
+        <question>
+            <text>Hysteresis Loop in Stress-Strain represents:</text>
+            <option id="A">Energy dissipated as heat</option><option id="B">Elastic energy</option><option id="C">Work done</option><option id="D">Magnetic</option>
+            <answer>A</answer><explanation>Rubber hysteresis.</explanation>
+        </question>
+        <question>
+            <text>Wire breaks under own weight. Length required?</text>
+            <option id="A">Stress = L rho g. L = Stress/rho g</option><option id="B">Infinite</option><option id="C">Zero</option><option id="D">1 m</option>
+            <answer>A</answer><explanation>Strength limit.</explanation>
+        </question>
+        <question>
+            <text>Elastic Fatigue?</text>
+            <option id="A">Loss of strength due to repeated cycles</option><option id="B">Breaking</option><option id="C">Tiredness</option><option id="D">Creep</option>
+            <answer>A</answer><explanation>Material property.</explanation>
+        </question>
+        <question>
+            <text>Modulus of rigidity for liquid?</text>
+            <option id="A">Zero</option><option id="B">Infinite</option><option id="C">1</option><option id="D">High</option>
+            <answer>A</answer><explanation>Cannot resist shear static.</explanation>
+        </question>
+        <question>
+            <text>Change in volume of sphere due to pressure P?</text>
+            <option id="A">PV/K</option><option id="B">PV</option><option id="C">PK</option><option id="D">P/K</option>
+            <answer>A</answer><explanation>Bulk modulus def.</explanation>
+        </question>
+        <question>
+            <text>Fractional change in radius of sphere under Pressure P?</text>
+            <option id="A">P/3K</option><option id="B">P/K</option><option id="C">3P/K</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>dV/V = 3 dr/r.</explanation>
+        </question>
+    </hard>
+</chapter>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="108" name="Redox Reactions">
+    <easy>
+        <question>
+            <text>Oxidation is defined as:</text>
+            <option id="A">Loss of electrons</option><option id="B">Gain of electrons</option><option id="C">Gain of Hydrogen</option><option id="D">Loss of Oxygen</option>
+            <answer>A</answer><explanation>Modern definition.</explanation>
+        </question>
+        <question>
+            <text>Reduction is:</text>
+            <option id="A">Gain of electrons</option><option id="B">Loss of electrons</option><option id="C">Gain of Oxygen</option><option id="D">Loss of Hydrogen</option>
+            <answer>A</answer><explanation>Decrease in ON.</explanation>
+        </question>
+        <question>
+            <text>Oxidizing agent (Oxidant):</text>
+            <option id="A">Accepts electrons</option><option id="B">Donates electrons</option><option id="C">Gets oxidized</option><option id="D">Increases ON</option>
+            <answer>A</answer><explanation>Undergoes reduction.</explanation>
+        </question>
+        <question>
+            <text>Reducing agent (Reductant):</text>
+            <option id="A">Donates electrons</option><option id="B">Accepts electrons</option><option id="C">Gets reduced</option><option id="D">Decreases ON</option>
+            <answer>A</answer><explanation>Undergoes oxidation.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Oxygen in H2O2 is:</text>
+            <option id="A">-1</option><option id="B">-2</option><option id="C">0</option><option id="D">+1</option>
+            <answer>A</answer><explanation>Peroxide linkage.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Oxygen in OF2 is:</text>
+            <option id="A">+2</option><option id="B">-2</option><option id="C">-1</option><option id="D">+1</option>
+            <answer>A</answer><explanation>F is more electronegative.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Hydrogen in CaH2 is:</text>
+            <option id="A">-1</option><option id="B">+1</option><option id="C">0</option><option id="D">+2</option>
+            <answer>A</answer><explanation>Metal hydride.</explanation>
+        </question>
+        <question>
+            <text>Reaction 2Na + Cl2 -> 2NaCl is:</text>
+            <option id="A">Redox reaction</option><option id="B">Precipitation</option><option id="C">Neutralization</option><option id="D">Hydrolysis</option>
+            <answer>A</answer><explanation>Na ox, Cl red.</explanation>
+        </question>
+        <question>
+            <text>Maximum oxidation state of Mn is:</text>
+            <option id="A">+7</option><option id="B">+6</option><option id="C">+5</option><option id="D">+4</option>
+            <answer>A</answer><explanation>KMnO4.</explanation>
+        </question>
+        <question>
+            <text>Common oxidation state of Group 1 metals:</text>
+            <option id="A">+1</option><option id="B">+2</option><option id="C">0</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Alkali metals.</explanation>
+        </question>
+        <question>
+            <text>Oxidation state of Cr in K2Cr2O7:</text>
+            <option id="A">+6</option><option id="B">+3</option><option id="C">+4</option><option id="D">+7</option>
+            <answer>A</answer><explanation>2 + 2x - 14 = 0.</explanation>
+        </question>
+        <question>
+            <text>Disproportionation reaction involves:</text>
+            <option id="A">Same element oxidized and reduced</option><option id="B">Double displacement</option><option id="C">Only oxidation</option><option id="D">Formation of precipitate</option>
+            <answer>A</answer><explanation>e.g. H2O2.</explanation>
+        </question>
+        <question>
+            <text>Which cannot act as reducing agent?</text>
+            <option id="A">KMnO4</option><option id="B">H2O2</option><option id="C">FeSO4</option><option id="D">SnCl2</option>
+            <answer>A</answer><explanation>Mn is in max ox state (+7).</explanation>
+        </question>
+        <question>
+            <text>Which acts as both oxidant and reductant?</text>
+            <option id="A">H2O2</option><option id="B">KMnO4</option><option id="C">K2Cr2O7</option><option id="D">H2SO4 (conc)</option>
+            <answer>A</answer><explanation>O has -1 state (can go to -2 or 0).</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of S in H2SO4:</text>
+            <option id="A">+6</option><option id="B">+4</option><option id="C">+2</option><option id="D">0</option>
+            <answer>A</answer><explanation>2 + x - 8 = 0.</explanation>
+        </question>
+        <question>
+            <text>Electrochemical cell converts chemical energy to:</text>
+            <option id="A">Electrical energy</option><option id="B">Heat</option><option id="C">Mechanical</option><option id="D">Light</option>
+            <answer>A</answer><explanation>Galvanic cell.</explanation>
+        </question>
+        <question>
+            <text>In Galvanic cell, Anode is:</text>
+            <option id="A">Negative</option><option id="B">Positive</option><option id="C">Neutral</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Oxidation occurs (Source of electrons).</explanation>
+        </question>
+        <question>
+            <text>In Electrolytic cell, Anode is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Neutral</option><option id="D">None</option>
+            <answer>A</answer><explanation>Connected to +ve terminal.</explanation>
+        </question>
+        <question>
+            <text>Standard Hydrogen Electrode (SHE) potential is:</text>
+            <option id="A">0.00 V</option><option id="B">1.00 V</option><option id="C">-1.00 V</option><option id="D">0.059 V</option>
+            <answer>A</answer><explanation>Reference.</explanation>
+        </question>
+        <question>
+            <text>Metal with negative standard reduction potential:</text>
+            <option id="A">Displaces H2 from acids</option><option id="B">Cannot displace H2</option><option id="C">Noble metal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Active metal.</explanation>
+        </question>
+        <question>
+            <text>Fluorine is strongest oxidizing agent because:</text>
+            <option id="A">High E0 value</option><option id="B">Low E0</option><option id="C">Small size</option><option id="D">High electronegativity</option>
+            <answer>A</answer><explanation>Explanation focuses on Potential.</explanation>
+        </question>
+        <question>
+            <text>Salt bridge contains:</text>
+            <option id="A">Inert electrolyte (KCl, KNO3)</option><option id="B">Metal wire</option><option id="C">Water</option><option id="D">Acid</option>
+            <answer>A</answer><explanation>Agar-agar jelly.</explanation>
+        </question>
+        <question>
+            <text>Function of salt bridge:</text>
+            <option id="A">Maintain electrical neutrality</option><option id="B">Transfer electrons</option><option id="C">Start reaction</option><option id="D">Stop reaction</option>
+            <answer>A</answer><explanation>Prevents accumulation of charges.</explanation>
+        </question>
+        <question>
+            <text>Nernst equation relates cell potential to:</text>
+            <option id="A">Concentration and Temperature</option><option id="B">Only Temperature</option><option id="C">Pressure</option><option id="D">Volume</option>
+            <answer>A</answer><explanation>E = E0 - RT/nF ln Q.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of C in CH4:</text>
+            <option id="A">-4</option><option id="B">+4</option><option id="C">0</option><option id="D">+2</option>
+            <answer>A</answer><explanation>H is +1.</explanation>
+        </question>
+        <question>
+            <text>Stock notation for MnO2:</text>
+            <option id="A">Manganese(IV) oxide</option><option id="B">Manganese(II) oxide</option><option id="C">Manganese oxide</option><option id="D">Mn oxide</option>
+            <answer>A</answer><explanation>Roman numeral for ON.</explanation>
+        </question>
+        <question>
+            <text>Reaction Cu + 2Ag+ -> Cu2+ + 2Ag:</text>
+            <option id="A">Cu is oxidized</option><option id="B">Ag is oxidized</option><option id="C">Cu is reduced</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increase in ON.</explanation>
+        </question>
+        <question>
+            <text>Which is redox reaction?</text>
+            <option id="A">Zn + CuSO4 -> ZnSO4 + Cu</option><option id="B">NaCl + AgNO3 -> AgCl + NaNO3</option><option id="C">CaCO3 -> CaO + CO2</option><option id="D">NaOH + HCl -> NaCl + H2O</option>
+            <answer>A</answer><explanation>Displacement.</explanation>
+        </question>
+        <question>
+            <text>Oxidation state of N in HNO3:</text>
+            <option id="A">+5</option><option id="B">+3</option><option id="C">+2</option><option id="D">+4</option>
+            <answer>A</answer><explanation>1 + x - 6 = 0.</explanation>
+        </question>
+        <question>
+            <text>Oxidation state of Fe in Fe3O4:</text>
+            <option id="A">+8/3 (Average)</option><option id="B">+2</option><option id="C">+3</option><option id="D">+4</option>
+            <answer>A</answer><explanation>Mixed oxide (FeO.Fe2O3).</explanation>
+        </question>
+        <question>
+            <text>Identify oxidant in 2Na + Cl2 -> 2NaCl:</text>
+            <option id="A">Cl2</option><option id="B">Na</option><option id="C">NaCl</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gets reduced.</explanation>
+        </question>
+        <question>
+            <text>Reduction means decrease in:</text>
+            <option id="A">Oxidation number</option><option id="B">Valency</option><option id="C">Mass</option><option id="D">Protons</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>In K2MnO4, oxidation state of Mn is:</text>
+            <option id="A">+6</option><option id="B">+7</option><option id="C">+4</option><option id="D">+2</option>
+            <answer>A</answer><explanation>Green manganate.</explanation>
+        </question>
+        <question>
+            <text>Standard reduction potential of Zn is:</text>
+            <option id="A">-0.76 V</option><option id="B">+0.76 V</option><option id="C">0.34 V</option><option id="D">-0.44 V</option>
+            <answer>A</answer><explanation>Anode in Daniell cell.</explanation>
+        </question>
+        <question>
+            <text>Standard reduction potential of Cu is:</text>
+            <option id="A">+0.34 V</option><option id="B">-0.34 V</option><option id="C">0.76 V</option><option id="D">0 V</option>
+            <answer>A</answer><explanation>Cathode in Daniell cell.</explanation>
+        </question>
+        <question>
+            <text>Daniell cell reaction:</text>
+            <option id="A">Zn + Cu2+ -> Zn2+ + Cu</option><option id="B">Cu + Zn2+ -> Cu2+ + Zn</option><option id="C">Zn + Cu -> Zn2+</option><option id="D">None</option>
+            <answer>A</answer><explanation>Spontaneous.</explanation>
+        </question>
+        <question>
+            <text>Flow of electrons in Daniell cell:</text>
+            <option id="A">Zn to Cu (External circuit)</option><option id="B">Cu to Zn</option><option id="C">Solution to Zn</option><option id="D">No flow</option>
+            <answer>A</answer><explanation>Anode to Cathode.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of elemental form (O2, P4, S8):</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Variable</option><option id="D">Max</option>
+            <answer>A</answer><explanation>Standard state.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Na in Na(Hg) Amalgam?</text>
+            <option id="A">0</option><option id="B">+1</option><option id="C">-1</option><option id="D">Variable</option>
+            <answer>A</answer><explanation>Alloy mixture, ON usually considered 0 for metals in elementary state or solution? Wait. In amalgam, Na is Na(0). It's a mixture. But if reacting, it becomes +1. Question refers to amalgam itself.</explanation>
+        </question>
+        <question>
+            <text>Which is strongest reducing agent?</text>
+            <option id="A">Li</option><option id="B">Na</option><option id="C">K</option><option id="D">Cs</option>
+            <answer>A</answer><explanation>Most negative electrode potential (-3.05 V) in aqueous solution (due to hydration energy).</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Oxidation number of Cr in CrO5?</text>
+            <option id="A">+6</option><option id="B">+10</option><option id="C">+5</option><option id="D">+3</option>
+            <answer>A</answer><explanation>Butterfly structure (Two peroxide rings).</explanation>
+        </question>
+        <question>
+            <text>Balance: MnO4- + 8H+ + 5e- -> ?</text>
+            <option id="A">Mn2+ + 4H2O</option><option id="B">Mn4+</option><option id="C">MnO2</option><option id="D">Mn</option>
+            <answer>A</answer><explanation>Acidic medium reduction.</explanation>
+        </question>
+        <question>
+            <text>Equivalent weight of KMnO4 in acidic medium?</text>
+            <option id="A">M/5</option><option id="B">M/1</option><option id="C">M/3</option><option id="D">M/6</option>
+            <answer>A</answer><explanation>Change in ON is 5.</explanation>
+        </question>
+        <question>
+            <text>Equivalent weight of KMnO4 in neutral/faintly alkaline?</text>
+            <option id="A">M/3</option><option id="B">M/5</option><option id="C">M/1</option><option id="D">M/2</option>
+            <answer>A</answer><explanation>Mn7+ -> Mn4+ (Change 3).</explanation>
+        </question>
+        <question>
+            <text>Equivalent weight of K2Cr2O7 in acidic medium?</text>
+            <option id="A">M/6</option><option id="B">M/3</option><option id="C">M/5</option><option id="D">M/2</option>
+            <answer>A</answer><explanation>Cr2 (+12) -> 2Cr3+ (+6). Change 6.</explanation>
+        </question>
+        <question>
+            <text>Oxidation state of S in S2O3 2-?</text>
+            <option id="A">+2 (Average)</option><option id="B">+4</option><option id="C">+6</option><option id="D">0</option>
+            <answer>A</answer><explanation>Distinct S atoms have -2 and +6? Average +2.</explanation>
+        </question>
+        <question>
+            <text>Paradox: Oxidation state of C in C3O2 (Carbon suboxide)?</text>
+            <option id="A">+4/3</option><option id="B">+4</option><option id="C">+2</option><option id="D">0</option>
+            <answer>A</answer><explanation>O=C=C=C=O. +2, 0, +2.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of S in S4O6 2-?</text>
+            <option id="A">+2.5</option><option id="B">+2</option><option id="C">+3</option><option id="D">+4</option>
+            <answer>A</answer><explanation>Tetrathionate. O3S-S-S-SO3. +5, 0, 0, +5. Average 10/4 = 2.5.</explanation>
+        </question>
+        <question>
+            <text>Reaction of P4 with NaOH gives PH3 and:</text>
+            <option id="A">NaH2PO2 (Sodium hypophosphite)</option><option id="B">H3PO4</option><option id="C">Na3PO4</option><option id="D">HPO3</option>
+            <answer>A</answer><explanation>Disproportionation of P4.</explanation>
+        </question>
+        <question>
+            <text>Which element shows disproportionation?</text>
+            <option id="A">P, S, Cl</option><option id="B">F</option><option id="C">Na</option><option id="D">He</option>
+            <answer>A</answer><explanation>Intermediate oxidation states.</explanation>
+        </question>
+        <question>
+            <text>Why F2 does not disproportionate?</text>
+            <option id="A">Most electronegative (only -1 state)</option><option id="B">Small size</option><option id="C">Gas</option><option id="D">Color</option>
+            <answer>A</answer><explanation>Cannot be oxidized.</explanation>
+        </question>
+        <question>
+            <text>Standard EMF of Daniell cell?</text>
+            <option id="A">1.10 V</option><option id="B">1.5 V</option><option id="C">2.0 V</option><option id="D">0.5 V</option>
+            <answer>A</answer><explanation>0.34 - (-0.76).</explanation>
+        </question>
+        <question>
+            <text>Cell representation: Zn | Zn2+ || Cu2+ | Cu. Anode is?</text>
+            <option id="A">Left (Zn)</option><option id="B">Right (Cu)</option><option id="C">Middle</option><option id="D">None</option>
+            <answer>A</answer><explanation>IUPAC convention.</explanation>
+        </question>
+        <question>
+            <text>For reaction to be spontaneous, E0 cell must be:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Greater than 10</option>
+            <answer>A</answer><explanation>Delta G = -nFE.</explanation>
+        </question>
+        <question>
+            <text>If E0 cell is negative, Delta G is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Non-spontaneous.</explanation>
+        </question>
+        <question>
+            <text>Number of electrons involved in Cr2O7 2- -> Cr3+ reduction?</text>
+            <option id="A">6</option><option id="B">3</option><option id="C">2</option><option id="D">1</option>
+            <answer>A</answer><explanation>Per molecule reduction.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Fe in Brown Ring complex [Fe(H2O)5(NO)]2+?</text>
+            <option id="A">+1</option><option id="B">+2</option><option id="C">+3</option><option id="D">0</option>
+            <answer>A</answer><explanation>NO is NO+ (+1). Fe is +1.</explanation>
+        </question>
+        <question>
+            <text>Bleaching action of SO2 is due to:</text>
+            <option id="A">Reduction</option><option id="B">Oxidation</option><option id="C">Hydrolysis</option><option id="D">Dehydration</option>
+            <answer>A</answer><explanation>Temporary.</explanation>
+        </question>
+        <question>
+            <text>Bleaching action of Chlorine is due to:</text>
+            <option id="A">Oxidation (Nascent Oxygen from HOCl)</option><option id="B">Reduction</option><option id="C">Hydration</option><option id="D">Acidity</option>
+            <answer>A</answer><explanation>Permanent.</explanation>
+        </question>
+        <question>
+            <text>Volume of 0.1M KMnO4 required to oxidize 100ml 0.1M FeSO4 in acid?</text>
+            <option id="A">20 ml</option><option id="B">100 ml</option><option id="C">50 ml</option><option id="D">10 ml</option>
+            <answer>A</answer><explanation>N1V1=N2V2. Mn change 5. Fe change 1.
+            Normality KMnO4: 0.1*5 = 0.5N.
+            Normality FeSO4: 0.1*1 = 0.1N.
+            0.5 * V = 0.1 * 100
+            V = 10 / 0.5 = 20 ml.</explanation>
+        </question>
+        <question>
+            <text>Which halogen oxidizes water to Oxygen?</text>
+            <option id="A">F2</option><option id="B">Cl2</option><option id="C">Br2</option><option id="D">I2</option>
+            <answer>A</answer><explanation>2F2 + 2H2O -> 4HF + O2.</explanation>
+        </question>
+        <question>
+            <text>H2SO4 acts as strong oxidizing agent when:</text>
+            <option id="A">Concentrated and Hot</option><option id="B">Dilute</option><option id="C">Cold</option><option id="D">Mixed with water</option>
+            <answer>A</answer><explanation>Reduces to SO2.</explanation>
+        </question>
+        <question>
+            <text>Disproportionation of H3PO3 on heating gives:</text>
+            <option id="A">PH3 + H3PO4</option><option id="B">P2O5</option><option id="C">P4</option><option id="D">H2</option>
+            <answer>A</answer><explanation>Phosphorous acid -> Phosphine + Orthophosphoric acid.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Ni in Ni(CO)4?</text>
+            <option id="A">0</option><option id="B">+2</option><option id="C">+4</option><option id="D">-1</option>
+            <answer>A</answer><explanation>CO neutral ligand.</explanation>
+        </question>
+        <question>
+            <text>Reaction Cu + 4HNO3 (conc) -> ?</text>
+            <option id="A">Cu(NO3)2 + 2NO2 + 2H2O</option><option id="B">NO</option><option id="C">N2O</option><option id="D">NH3</option>
+            <answer>A</answer><explanation>Conc gives NO2. Dilute gives NO.</explanation>
+        </question>
+        <question>
+            <text>Identify the spectator ion in Zn + CuSO4 -> ...</text>
+            <option id="A">SO4 2-</option><option id="B">Zn2+</option><option id="C">Cu2+</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unchanged.</explanation>
+        </question>
+        <question>
+            <text>Standard electrode potential is measured at:</text>
+            <option id="A">298 K, 1 M, 1 bar</option><option id="B">0 K</option><option id="C">100 C</option><option id="D">Any</option>
+            <answer>A</answer><explanation>STP conditions for thermodynamics.</explanation>
+        </question>
+        <question>
+            <text>If E_red(A) = -0.5V, E_red(B) = -1.5V. Which reduces other?</text>
+            <option id="A">B reduces A</option><option id="B">A reduces B</option><option id="C">No reaction</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>B has lower potential, stronger reductant. A higher potential, stronger oxidant.</explanation>
+        </question>
+        <question>
+            <text>Which compound has O in -1, 0, -2 state?</text>
+            <option id="A">Wait. O2 is 0. H2O2 is -1. H2O is -2.</option><option id="B">O3</option><option id="C">OF2</option><option id="D">KO2</option>
+            <answer>A</answer><explanation>Reference to substances.</explanation>
+        </question>
+        <question>
+            <text>Correct Nernst equation for M^n+ + ne -> M?</text>
+            <option id="A">E = E0 - (RT/nF) ln(1/[M^n+])</option><option id="B">E = E0 + ln[M]</option><option id="C">E = E0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Product (Solid) / Reactant (Ion).</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Br in Br3O8?</text>
+            <option id="A">Two +6, One +4</option><option id="B">Average 16/3</option><option id="C">All +5</option><option id="D">+6</option>
+            <answer>A</answer><explanation>Structure O3Br-Br(O2)-BrO3.</explanation>
+        </question>
+        <question>
+            <text>Valency factor (n-factor) for Mohr's Salt in redox titration?</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">5</option><option id="D">6</option>
+            <answer>A</answer><explanation>Fe2+ -> Fe3+.</explanation>
+        </question>
+        <question>
+            <text>Which is a disproportionation reaction?</text>
+            <option id="A">2H2O2 -> 2H2O + O2</option><option id="B">CaCO3 -> CaO + CO2</option><option id="C">N2 + 3H2 -> 2NH3</option><option id="D">NaCl + H2SO4</option>
+            <answer>A</answer><explanation>O (-1) goes to -2 and 0.</explanation>
+        </question>
+        <question>
+            <text>Combustion of Methane is:</text>
+            <option id="A">Redox reaction</option><option id="B">Non-redox</option><option id="C">Precipitation</option><option id="D">Complexation</option>
+            <answer>A</answer><explanation>C oxidized, O reduced.</explanation>
+        </question>
+        <question>
+            <text>Which is used in Breathalyzer test?</text>
+            <option id="A">K2Cr2O7 (Orange to Green)</option><option id="B">KMnO4</option><option id="C">CuSO4</option><option id="D">FeSO4</option>
+            <answer>A</answer><explanation>Alcohol oxidizes, Cr reduces.</explanation>
+        </question>
+        <question>
+            <text>Reaction in lead storage battery during discharge?</text>
+            <option id="A">Pb + PbO2 + H2SO4 -> PbSO4</option><option id="B">PbSO4 -> Pb</option><option id="C">H2O -> H2 + O2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Disproportionation reverse? Comproportionation.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of N in NH4NO3?</text>
+            <option id="A">-3 and +5</option><option id="B">Average +1</option><option id="C">+3</option><option id="D">0</option>
+            <answer>A</answer><explanation>NH4+ (-3) and NO3- (+5).</explanation>
+        </question>
+        <question>
+            <text>In reaction 3Br2 + 6CO3 2- + 3H2O -> 5Br- + BrO3- + 6HCO3-:</text>
+            <option id="A">Bromine is disproportionated</option><option id="B">Oxidized only</option><option id="C">Reduced only</option><option id="D">None</option>
+            <answer>A</answer><explanation>0 to -1 and +5.</explanation>
+        </question>
+        <question>
+            <text>Standard potential of SHE is zero at:</text>
+            <option id="A">All temperatures</option><option id="B">298 K only</option><option id="C">0 K</option><option id="D">High T</option>
+            <answer>A</answer><explanation>Convention.</explanation>
+        </question>
+        <question>
+            <text>Which metal cannot reduce CuSO4?</text>
+            <option id="A">Ag</option><option id="B">Zn</option><option id="C">Fe</option><option id="D">Mg</option>
+            <answer>A</answer><explanation>Less reactive (Higher potential).</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Calculate Equilibrium constant K if E0 cell = 0.59 V (n=1, T=298K)?</text>
+            <option id="A">10^10</option><option id="B">10</option><option id="C">100</option><option id="D">1</option>
+            <answer>A</answer><explanation>log K = E0/0.059 = 10.</explanation>
+        </question>
+        <question>
+            <text>Given E(Cu2+/Cu) = 0.34, E(Cu+/Cu) = 0.52. Calculate E(Cu2+/Cu+)?</text>
+            <option id="A">0.16 V</option><option id="B">0.18 V</option><option id="C">-0.16 V</option><option id="D">0.34 V</option>
+            <answer>A</answer><explanation>Latimer diagram. 2*0.34 = 1*0.52 + 1*x. 0.68 = 0.52 + x. x = 0.16.</explanation>
+        </question>
+        <question>
+            <text>Why does Cu not evolve H2 from acids?</text>
+            <option id="A">Positive E0 value (+0.34)</option><option id="B">Metal deficiency</option><option id="C">Kinetic barrier</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cannot reduce H+.</explanation>
+        </question>
+        <question>
+            <text>Permanganate titration doesn't use HCl because:</text>
+            <option id="A">KMnO4 oxidizes HCl to Cl2</option><option id="B">HCl forms complex</option><option id="C">Reaction stops</option><option id="D">HCl is weak</option>
+            <answer>A</answer><explanation>Side redox reaction.</explanation>
+        </question>
+        <question>
+            <text>Indicator used in Dichromate titration?</text>
+            <option id="A">Diphenylamine</option><option id="B">Phenolphthalein</option><option id="C">Methyl Orange</option><option id="D">Self indicator</option>
+            <answer>A</answer><explanation>Redox indicator.</explanation>
+        </question>
+        <question>
+            <text>Balance: As2S3 + NO3- -> AsO4 3- + SO4 2- + NO (Acidic)?</text>
+            <option id="A">28 NO3- involved</option><option id="B">3 NO3-</option><option id="C">10</option><option id="D">5</option>
+            <answer>A</answer><explanation>Complex balancing. As (+3 -> +5)x2=4. S(-2 -> +6)x3=24. Total ox 28. N (+5 -> +2) change 3.
+            Factor 3 (As2S3) and 28 (NO3). 3 As2S3 + 28 NO3- ...</explanation>
+        </question>
+        <question>
+            <text>For cell Zn|Zn2+(C1) || Zn2+(C2)|Zn. E > 0 if:</text>
+            <option id="A">C2 > C1</option><option id="B">C1 > C2</option><option id="C">C1 = C2</option><option id="D">Never</option>
+            <answer>A</answer><explanation>Concentration cell. Spontaneous from low to high conc? No.
+            Zn -> Zn2+(C1) + 2e. Zn2+(C2) + 2e -> Zn. Net: Zn2+(C2) -> Zn2+(C1).
+            Q = C1/C2. E = -0.059/2 log(C1/C2).
+            For E > 0, log(C1/C2) must be negative. C1/C2 < 1. C1 < C2.
+            So C2 > C1.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of K in K?</text>
+            <option id="A">0</option><option id="B">+1</option><option id="C">-1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Element.</explanation>
+        </question>
+        <question>
+            <text>Iodometric titration involves:</text>
+            <option id="A">Liberation of I2 giving blue with starch</option><option id="B">Iodine absorption</option><option id="C">AgI ppt</option><option id="D">None</option>
+            <answer>A</answer><explanation>End point.</explanation>
+        </question>
+        <question>
+            <text>Number of moles of electrons to deposit 1 mol Al from AlCl3?</text>
+            <option id="A">3 moles (3 Faradays)</option><option id="B">1</option><option id="C">2</option><option id="D">4</option>
+            <answer>A</answer><explanation>Al3+ + 3e -> Al.</explanation>
+        </question>
+        <question>
+            <text>Which oxide is amphoteric?</text>
+            <option id="A">Al2O3</option><option id="B">Na2O</option><option id="C">SO3</option><option id="D">CaO</option>
+            <answer>A</answer><explanation>Reacts with acid and base.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Fe in Hemoglobin?</text>
+            <option id="A">+2</option><option id="B">+3</option><option id="C">0</option><option id="D">+4</option>
+            <answer>A</answer><explanation>Ferrous.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Os in OsO4?</text>
+            <option id="A">+8</option><option id="B">+6</option><option id="C">+4</option><option id="D">+7</option>
+            <answer>A</answer><explanation>Highest known.</explanation>
+        </question>
+        <question>
+            <text>Why standard electrode potentials are reduction potentials?</text>
+            <option id="A">IUPAC convention</option><option id="B">Random</option><option id="C">Easier to measure</option><option id="D">None</option>
+            <answer>A</answer><explanation>Consistency.</explanation>
+        </question>
+        <question>
+            <text>Corrosion of Iron is:</text>
+            <option id="A">Electrochemical process</option><option id="B">Simple Oxidation</option><option id="C">Reduction</option><option id="D">Hydration</option>
+            <answer>A</answer><explanation>Formation of micro-cells.</explanation>
+        </question>
+        <question>
+            <text>Cathodic protection uses:</text>
+            <option id="A">Sacrificial anode (Mg, Zn)</option><option id="B">Coating</option><option id="C">Washing</option><option id="D">Heating</option>
+            <answer>A</answer><explanation>Active metal oxidizes instead.</explanation>
+        </question>
+        <question>
+            <text>E0 cell depends on:</text>
+            <option id="A">Nature of electrodes</option><option id="B">Use of Salt bridge</option><option id="C">Size of electrode</option><option id="D">Amount of solution</option>
+            <answer>A</answer><explanation>Intensive property.</explanation>
+        </question>
+        <question>
+            <text>Difference between EMF and Cell Potential?</text>
+            <option id="A">EMF is at zero current</option><option id="B">Same</option><option id="C">EMF < Potential</option><option id="D">None</option>
+            <answer>A</answer><explanation>EMF is max potential.</explanation>
+        </question>
+        <question>
+            <text>In electrolysis of aqueous NaCl, product at anode is:</text>
+            <option id="A">Cl2</option><option id="B">O2</option><option id="C">H2</option><option id="D">Na</option>
+            <answer>A</answer><explanation>Overpotential of O2 favors Cl2.</explanation>
+        </question>
+        <question>
+            <text>Product at cathode in aq NaCl electrolysis?</text>
+            <option id="A">H2 (from water reaction/H+)</option><option id="B">Na</option><option id="C">Cl2</option><option id="D">O2</option>
+            <answer>A</answer><explanation>Reduction potential of water > Na+.</explanation>
+        </question>
+        <question>
+            <text>Calculate n-factor for FeC2O4 -> Fe3+ + CO2?</text>
+            <option id="A">3</option><option id="B">1</option><option id="C">2</option><option id="D">4</option>
+            <answer>A</answer><explanation>Fe (+2 -> +3, change 1). C2 (+3 -> +4, change 1*2=2). Total 3.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of fuel cell?</text>
+            <option id="A">Delta G / Delta H</option><option id="B">Delta H / Delta G</option><option id="C">TdS / H</option><option id="D">Unknown</option>
+            <answer>A</answer><explanation>Useful work ratio.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Pt in Zeise's salt K[PtCl3(C2H4)]?</text>
+            <option id="A">+2</option><option id="B">+4</option><option id="C">0</option><option id="D">+1</option>
+            <answer>A</answer><explanation>Cl is -1 (3). C2H4 is 0. K is +1. x - 3 + 1 = 0 -> x = +2.</explanation>
+        </question>
+        <question>
+            <text>Which of these reactions is not possible?</text>
+            <option id="A">2KCl + I2 -> 2KI + Cl2</option><option id="B">2KI + Cl2 -> 2KCl + I2</option><option id="C">2KBr + Cl2 -> 2KCl + Br2</option><option id="D">Zn + H2SO4</option>
+            <answer>A</answer><explanation>Iodine cannot displace Chlorine.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of Cl in CaOCl2 (Bleaching powder)?</text>
+            <option id="A">+1 and -1</option><option id="B">Average 0</option><option id="C">+1</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Structure Ca(OCl)Cl.</explanation>
+        </question>
+        <question>
+            <text>Reaction of thiosulfate with iodine (Iodometry) gives:</text>
+            <option id="A">Tetrathionate (S4O6 2-)</option><option id="B">Sulfate</option><option id="C">Sulfite</option><option id="D">Sulfur</option>
+            <answer>A</answer><explanation>2S2O3 2- + I2 -> S4O6 2- + 2I-.</explanation>
+        </question>
+        <question>
+            <text>Ratio of moles of oxidant to reductant in: MnO4- + Fe2+ -> Mn2+ + Fe3+?</text>
+            <option id="A">1 : 5</option><option id="B">5 : 1</option><option id="C">1 : 1</option><option id="D">2 : 5</option>
+            <answer>A</answer><explanation>Mn change 5. Fe change 1. Cross multiply 1 MnO4- : 5 Fe2+.</explanation>
+        </question>
+        <question>
+            <text>Oxidation of glycerol by KMnO4 involves:</text>
+            <option id="A">Destructive oxidation?</option><option id="B">Precipitation</option><option id="C">Complexation</option><option id="D">None</option>
+            <answer>A</answer><explanation>Explosive perhaps.</explanation>
+        </question>
+        <question>
+            <text>Which is pseudo-halogen?</text>
+            <option id="A">(CN)2</option><option id="B">F2</option><option id="C">ICl</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cyanogen behaves like halogen.</explanation>
+        </question>
+        <question>
+            <text>Redox potential of Quinhydrone electrode depends on:</text>
+            <option id="A">pH</option><option id="B">Pressure</option><option id="C">Volume</option><option id="D">Metal</option>
+            <answer>A</answer><explanation>Involves H+.</explanation>
+        </question>
+        <question>
+            <text>Reaction in Mercury cell Anode:</text>
+            <option id="A">Zn(Hg) + 2OH- -> ZnO + H2O + 2e</option><option id="B">Zn -> Zn2+</option><option id="C">HgO -> Hg</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used in watches.</explanation>
+        </question>
+        <question>
+            <text>Concentration of H2O2 is expressed as:</text>
+            <option id="A">Volume strength (e.g. 10V)</option><option id="B">Molarity only</option><option id="C">Molality</option><option id="D">pH</option>
+            <answer>A</answer><explanation>Volume of O2 evolved.</explanation>
+        </question>
+        <question>
+            <text>10 volume H2O2 means:</text>
+            <option id="A">1 L solution gives 10 L O2 at STP</option><option id="B">10%</option><option id="C">10 M</option><option id="D">10 g/L</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Oxidation state of Cr in CrO2Cl2 (Chromyl chloride)?</text>
+            <option id="A">+6</option><option id="B">+4</option><option id="C">+3</option><option id="D">+5</option>
+            <answer>A</answer><explanation>Similar to CrO3.</explanation>
+        </question>
+        <question>
+            <text>Reaction 2Cu+ -> Cu + Cu2+ is example of:</text>
+            <option id="A">Disproportionation</option><option id="B">Comproportionation</option><option id="C">Oxidation</option><option id="D">Reduction</option>
+            <answer>A</answer><explanation>+1 to 0 and +2.</explanation>
+        </question>
+        <question>
+            <text>Which determines equivalent weight of Oxidant?</text>
+            <option id="A">Molar mass / Electrons gained per mole</option><option id="B">Molar mass / Valency</option><option id="C">Mass / 2</option><option id="D">Mass</option>
+            <answer>A</answer><explanation>Redox n-factor.</explanation>
+        </question>
+        <question>
+            <text>If Delta G0 = -212 kJ for Daniell Cell, K is approx:</text>
+            <option id="A">e^85 (~ 10^37)</option><option id="B">1</option><option id="C">0</option><option id="D">100</option>
+            <answer>A</answer><explanation>Large value.</explanation>
+        </question>
+        <question>
+            <text>Oxidation number of K in K2O is:</text>
+            <option id="A">+1</option><option id="B">+2</option><option id="C">-1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Alkali metal.</explanation>
+        </question>
+        <question>
+            <text>Formula for rust?</text>
+            <option id="A">Fe2O3. xH2O</option><option id="B">FeO</option><option id="C">Fe3O4</option><option id="D">Fe(OH)2</option>
+            <answer>A</answer><explanation>Hydrated oxide.</explanation>
+        </question>
+        <question>
+            <text>Relation w = ZIt (Faraday's First Law). Z is:</text>
+            <option id="A">Electrochemical equivalent</option><option id="B">Atomic mass</option><option id="C">Charge</option><option id="D">Time</option>
+            <answer>A</answer><explanation>Mass per Coulomb.</explanation>
+        </question>
+    </hard>
+</chapter>

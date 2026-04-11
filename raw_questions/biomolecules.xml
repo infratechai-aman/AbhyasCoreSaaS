@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Biology" id="303" name="Biomolecules">
+    <easy>
+        <question>
+            <text>Which of the following is the most abundant protein in the animal world?</text>
+            <option id="A">Collagen</option><option id="B">Insulin</option><option id="C">Haemoglobin</option><option id="D">Trypsin</option>
+            <answer>A</answer><explanation>Connective tissue protein.</explanation>
+        </question>
+        <question>
+            <text>The most abundant enzyme in the biosphere is:</text>
+            <option id="A">RuBisCO</option><option id="B">Invertase</option><option id="C">Amylase</option><option id="D">Catalase</option>
+            <answer>A</answer><explanation>Ribulose bisphosphate carboxylase-oxygenase.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a non-reducing sugar?</text>
+            <option id="A">Sucrose</option><option id="B">Glucose</option><option id="C">Maltose</option><option id="D">Lactose</option>
+            <answer>A</answer><explanation>Glycosidic bond involves both anomeric carbons.</explanation>
+        </question>
+        <question>
+            <text>Glycogen is a polymer of:</text>
+            <option id="A">Glucose</option><option id="B">Fructose</option><option id="C">Galactose</option><option id="D">Ribose</option>
+            <answer>A</answer><explanation>Animal starch.</explanation>
+        </question>
+        <question>
+            <text>The bond connecting two amino acids in a protein is called:</text>
+            <option id="A">Peptide bond</option><option id="B">Glycosidic bond</option><option id="C">Phosphodiester bond</option><option id="D">Ionic bond</option>
+            <answer>A</answer><explanation>Amide linkage.</explanation>
+        </question>
+        <question>
+            <text>In a polysaccharide, monosaccharides are linked by:</text>
+            <option id="A">Glycosidic bond</option><option id="B">Peptide bond</option><option id="C">Hydrogen bond</option><option id="D">Ester bond</option>
+            <answer>A</answer><explanation>Ether linkage.</explanation>
+        </question>
+        <question>
+            <text>ATP stands for:</text>
+            <option id="A">Adenosine triphosphate</option><option id="B">Adenine triphosphate</option><option id="C">Adenosine tetraphosphate</option><option id="D">Alanine triphosphate</option>
+            <answer>A</answer><explanation>Energy currency.</explanation>
+        </question>
+        <question>
+            <text>Which of the following amino acids is essential?</text>
+            <option id="A">Lysine</option><option id="B">Glycine</option><option id="C">Alanine</option><option id="D">Serine</option>
+            <answer>A</answer><explanation>Cannot be synthesized by body.</explanation>
+        </question>
+        <question>
+            <text>Enzymes are generally:</text>
+            <option id="A">Proteins</option><option id="B">Carbohydrates</option><option id="C">Lipids</option><option id="D">Vitamins</option>
+            <answer>A</answer><explanation>Biocatalysts.</explanation>
+        </question>
+        <question>
+            <text>Which vitamin is water soluble?</text>
+            <option id="A">Vitamin B and C</option><option id="B">Vitamin A</option><option id="C">Vitamin D</option><option id="D">Vitamin E</option>
+            <answer>A</answer><explanation>Others are fat soluble (ADEK).</explanation>
+        </question>
+        <question>
+            <text>DNA differs from RNA in having:</text>
+            <option id="A">Thymine</option><option id="B">Uracil</option><option id="C">Adenine</option><option id="D">Cytosine</option>
+            <answer>A</answer><explanation>RNA has Uracil.</explanation>
+        </question>
+        <question>
+            <text>The sugar present in DNA is:</text>
+            <option id="A">Deoxyribose</option><option id="B">Ribose</option><option id="C">Glucose</option><option id="D">Fructose</option>
+            <answer>A</answer><explanation>Pentose sugar.</explanation>
+        </question>
+        <question>
+            <text>Which structure of protein is necessary for biological activity of enzymes?</text>
+            <option id="A">Tertiary</option><option id="B">Primary</option><option id="C">Secondary</option><option id="D">Quaternary</option>
+            <answer>A</answer><explanation>3D shape determines active site.</explanation>
+        </question>
+        <question>
+            <text>Lecithin is a:</text>
+            <option id="A">Phospholipid</option><option id="B">Carbohydrate</option><option id="C">Protein</option><option id="D">Vitamin</option>
+            <answer>A</answer><explanation>Found in cell membranes.</explanation>
+        </question>
+        <question>
+            <text>Chitin is found in:</text>
+            <option id="A">Exoskeleton of Arthropods</option><option id="B">Cell wall of plants</option><option id="C">Bones</option><option id="D">Skin</option>
+            <answer>A</answer><explanation>N-acetyl glucosamine polymer.</explanation>
+        </question>
+        <question>
+            <text>Which element is found in proteins but not in carbohydrates?</text>
+            <option id="A">Nitrogen</option><option id="B">Carbon</option><option id="C">Hydrogen</option><option id="D">Oxygen</option>
+            <answer>A</answer><explanation>Amino group.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a pyrimidine?</text>
+            <option id="A">Cytosine</option><option id="B">Adenine</option><option id="C">Guanine</option><option id="D">None</option>
+            <answer>A</answer><explanation>CUT (Cytosine, Uracil, Thymine).</explanation>
+        </question>
+        <question>
+            <text>Nucleosides contain:</text>
+            <option id="A">Sugar + Nitrogenous base</option><option id="B">Sugar + Phosphate</option><option id="C">Base + Phosphate</option><option id="D">Sugar + Base + Phosphate</option>
+            <answer>A</answer><explanation>Nucleotide has phosphate.</explanation>
+        </question>
+        <question>
+            <text>In DNA, Adenine pairs with:</text>
+            <option id="A">Thymine</option><option id="B">Guanine</option><option id="C">Cytosine</option><option id="D">Uracil</option>
+            <answer>A</answer><explanation>Double hydrogen bond.</explanation>
+        </question>
+        <question>
+            <text>The backbone of a DNA strand is made of:</text>
+            <option id="A">Sugar and Phosphate</option><option id="B">Sugar and Base</option><option id="C">Base and Phosphate</option><option id="D">Sugar only</option>
+            <answer>A</answer><explanation>Phosphodiester linkage.</explanation>
+        </question>
+        <question>
+            <text>Which bond stabilizes the alpha-helix structure?</text>
+            <option id="A">Hydrogen bond</option><option id="B">Peptide bond</option><option id="C">Disulfide bond</option><option id="D">Ionic bond</option>
+            <answer>A</answer><explanation>Intramolecular.</explanation>
+        </question>
+        <question>
+            <text>Cellulose is a polymer of:</text>
+            <option id="A">Beta-D-Glucose</option><option id="B">Alpha-D-Glucose</option><option id="C">Fructose</option><option id="D">Galactose</option>
+            <answer>A</answer><explanation>Structural polysaccharide.</explanation>
+        </question>
+        <question>
+            <text>Starch consists of:</text>
+            <option id="A">Amylose and Amylopectin</option><option id="B">Glucose and Fructose</option><option id="C">Maltose</option><option id="D">Sucrose</option>
+            <answer>A</answer><explanation>Storage polysaccharide.</explanation>
+        </question>
+        <question>
+            <text>The double helix model of DNA was proposed by:</text>
+            <option id="A">Watson and Crick</option><option id="B">Schleiden and Schwann</option><option id="C">Singer and Nicolson</option><option id="D">Mendel</option>
+            <answer>A</answer><explanation>1953.</explanation>
+        </question>
+        <question>
+            <text>Which lipid is used to derive steroid hormones?</text>
+            <option id="A">Cholesterol</option><option id="B">Lecithin</option><option id="C">Palmitic acid</option><option id="D">Glycerol</option>
+            <answer>A</answer><explanation>Precursor.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Co-factor for the proteolytic enzyme Carboxypeptidase is:</text>
+            <option id="A">Zinc</option><option id="B">Iron</option><option id="C">Magnesium</option><option id="D">Copper</option>
+            <answer>A</answer><explanation>Metal ion cofactor.</explanation>
+        </question>
+        <question>
+            <text>Turnover number of an enzyme refers to:</text>
+            <option id="A">Number of substrate molecules converted per minute</option><option id="B">Number of enzymes produced</option><option id="C">Reaction rate</option><option id="D">Half life</option>
+            <answer>A</answer><explanation>Catalytic efficiency.</explanation>
+        </question>
+        <question>
+            <text>Km value in Michaelis-Menten equation represents:</text>
+            <option id="A">Substrate conc at half Vmax</option><option id="B">Max velocity</option><option id="C">Enzyme conc</option><option id="D">Inhibitor constant</option>
+            <answer>A</answer><explanation>Affinity inverse.</explanation>
+        </question>
+        <question>
+            <text>Competitive inhibitor of Succinic dehydrogenase is:</text>
+            <option id="A">Malonate</option><option id="B">Oxaloacetate</option><option id="C">Citrate</option><option id="D">Fumarate</option>
+            <answer>A</answer><explanation>Structural analog of Succinate.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a Zwitterion?</text>
+            <option id="A">Amino acid at isoelectric pH</option><option id="B">Lipid</option><option id="C">Carbohydrate</option><option id="D">Nucleotide</option>
+            <answer>A</answer><explanation>Dipolar ion.</explanation>
+        </question>
+        <question>
+            <text>Identify the aromatic amino acid:</text>
+            <option id="A">Tyrosine</option><option id="B">Valine</option><option id="C">Glycine</option><option id="D">Alanine</option>
+            <answer>A</answer><explanation>Contains ring.</explanation>
+        </question>
+        <question>
+            <text>Quaternary structure is present in:</text>
+            <option id="A">Haemoglobin</option><option id="B">Myoglobin</option><option id="C">Insulin</option><option id="D">Keratin</option>
+            <answer>A</answer><explanation>4 subunits (2 alpha, 2 beta).</explanation>
+        </question>
+        <question>
+            <text>Inulin is a polymer of:</text>
+            <option id="A">Fructose</option><option id="B">Glucose</option><option id="C">Amino acids</option><option id="D">Nucleotides</option>
+            <answer>A</answer><explanation>Found in Dahlia roots.</explanation>
+        </question>
+        <question>
+            <text>Palmitic acid has how many carbons including carboxyl carbon?</text>
+            <option id="A">16</option><option id="B">18</option><option id="C">20</option><option id="D">14</option>
+            <answer>A</answer><explanation>Saturated fatty acid.</explanation>
+        </question>
+        <question>
+            <text>Arachidonic acid has how many carbons?</text>
+            <option id="A">20</option><option id="B">18</option><option id="C">16</option><option id="D">22</option>
+            <answer>A</answer><explanation>Unsaturated.</explanation>
+        </question>
+        <question>
+            <text>Apoenzyme is:</text>
+            <option id="A">Protein part of holoenzyme</option><option id="B">Non-protein part</option><option id="C">Total enzyme</option><option id="D">Inhibitor</option>
+            <answer>A</answer><explanation>Apoenzyme + Cofactor = Holoenzyme.</explanation>
+        </question>
+        <question>
+            <text>Prosthetic groups are:</text>
+            <option id="A">Tightly bound organic cofactors</option><option id="B">Loosely bound</option><option id="C">Metal ions</option><option id="D">Inorganic</option>
+            <answer>A</answer><explanation>e.g., Haem in peroxidase.</explanation>
+        </question>
+        <question>
+            <text>B-DNA has a pitch of:</text>
+            <option id="A">34 Angstrom</option><option id="B">3.4 Angstrom</option><option id="C">20 Angstrom</option><option id="D">10 Angstrom</option>
+            <answer>A</answer><explanation>One turn.</explanation>
+        </question>
+        <question>
+            <text>Distance between base pairs in B-DNA is:</text>
+            <option id="A">3.4 Angstrom</option><option id="B">34 A</option><option id="C">0.34 nm</option><option id="D">2 nm</option>
+            <answer>A</answer><explanation>34/10.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a secondary metabolite?</text>
+            <option id="A">Vinblastine (Alkaloid)</option><option id="B">Glucose</option><option id="C">Amino acid</option><option id="D">Ribose</option>
+            <answer>A</answer><explanation>Not involved in primary growth.</explanation>
+        </question>
+        <question>
+            <text>Transition state in an enzyme reaction is:</text>
+            <option id="A">Short-lived and unstable</option><option id="B">Stable</option><option id="C">Permanent</option><option id="D">Low energy</option>
+            <answer>A</answer><explanation>High energy state.</explanation>
+        </question>
+        <question>
+            <text>Enzymes lower the:</text>
+            <option id="A">Activation energy</option><option id="B">Free energy change</option><option id="C">Reaction enthalpy</option><option id="D">Substrate energy</option>
+            <answer>A</answer><explanation>Speed up reaction.</explanation>
+        </question>
+        <question>
+            <text>Which class of enzymes catalyzes hydrolysis of bonds?</text>
+            <option id="A">Hydrolases</option><option id="B">Lyases</option><option id="C">Ligases</option><option id="D">Oxidoreductases</option>
+            <answer>A</answer><explanation>Add water.</explanation>
+        </question>
+        <question>
+            <text>Isomerases catalyze:</text>
+            <option id="A">Interconversion of optical/geometric isomers</option><option id="B">Joining bonds</option><option id="C">Only breakdown</option><option id="D">Redox</option>
+            <answer>A</answer><explanation>Structural rearrangement.</explanation>
+        </question>
+        <question>
+            <text>Which is an example of a simple lipid?</text>
+            <option id="A">Triglyceride</option><option id="B">Phospholipid</option><option id="C">Glycolipid</option><option id="D">Steroid</option>
+            <answer>A</answer><explanation>Ester of fatty acid and glycerol.</explanation>
+        </question>
+        <question>
+            <text>Glycerol is chemically:</text>
+            <option id="A">Trihydroxy propane</option><option id="B">Dihydroxy propane</option><option id="C">Tetrahydroxy butane</option><option id="D">Butanol</option>
+            <answer>A</answer><explanation>CH2OH-CHOH-CH2OH.</explanation>
+        </question>
+        <question>
+            <text>Identify the acidic amino acid:</text>
+            <option id="A">Glutamic acid</option><option id="B">Lysine</option><option id="C">Valine</option><option id="D">Arginine</option>
+            <answer>A</answer><explanation>Extra COOH group.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic amino acid:</text>
+            <option id="A">Lysine</option><option id="B">Valine</option><option id="C">Aspartic acid</option><option id="D">Glutamic acid</option>
+            <answer>A</answer><explanation>Extra NH2 group.</explanation>
+        </question>
+        <question>
+            <text>Reducing end of glycogen is:</text>
+            <option id="A">Right end</option><option id="B">Left end</option><option id="C">Both</option><option id="D">Neither</option>
+            <answer>A</answer><explanation>Left is non-reducing.</explanation>
+        </question>
+        <question>
+            <text>Which bonds link phosphate to nucleoside?</text>
+            <option id="A">Phosphoester bond</option><option id="B">N-Glycosidic</option><option id="C">Peptide</option><option id="D">Hydrogen</option>
+            <answer>A</answer><explanation>At 5' OH.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>In competitive inhibition, Vmax and Km change as:</text>
+            <option id="A">Vmax same, Km increases</option><option id="B">Vmax decreases, Km same</option><option id="C">Both decrease</option><option id="D">Both increase</option>
+            <answer>A</answer><explanation>Inhibitor competes for active site.</explanation>
+        </question>
+        <question>
+            <text>Non-competitive inhibition leads to:</text>
+            <option id="A">Vmax decreases, Km same</option><option id="B">Vmax same, Km increases</option><option id="C">Both decrease</option><option id="D">Both increase</option>
+            <answer>A</answer><explanation>Binds to allosteric site.</explanation>
+        </question>
+        <question>
+            <text>Ramachandran plot is used to confirm:</text>
+            <option id="A">Protein structure (Dihedral angles)</option><option id="B">DNA sequence</option><option id="C">Lipid saturation</option><option id="D">Carbohydrate linkage</option>
+            <answer>A</answer><explanation>Psi and Phi angles.</explanation>
+        </question>
+        <question>
+            <text>Which acts as a ribozyme (RNA enzyme)?</text>
+            <option id="A">23S rRNA</option><option id="B">mRNA</option><option id="C">tRNA</option><option id="D">DNA polymerase</option>
+            <answer>A</answer><explanation>Peptidyl transferase in bacteria.</explanation>
+        </question>
+        <question>
+            <text>Number of hydrogen bonds between G and C?</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">1</option><option id="D">4</option>
+            <answer>A</answer><explanation>Stronger than A-T.</explanation>
+        </question>
+        <question>
+            <text>Which protein structure involves hydrogen bonds between CO and NH groups of peptide bond?</text>
+            <option id="A">Secondary structure (Alpha helix/Beta sheet)</option><option id="B">Primary</option><option id="C">Tertiary</option><option id="D">Quaternary</option>
+            <answer>A</answer><explanation>Backbone interaction.</explanation>
+        </question>
+        <question>
+            <text>Disulfide bridges are most critical for:</text>
+            <option id="A">Tertiary structure stability</option><option id="B">Primary</option><option id="C">Secondary</option><option id="D">None</option>
+            <answer>A</answer><explanation>Covalent link between Cysteines.</explanation>
+        </question>
+        <question>
+            <text>An enzyme with E.C. number 1.1.1.1 belongs to:</text>
+            <option id="A">Oxidoreductases</option><option id="B">Transferases</option><option id="C">Hydrolases</option><option id="D">Lyases</option>
+            <answer>A</answer><explanation>Class 1.</explanation>
+        </question>
+        <question>
+            <text>Chitin monomer is:</text>
+            <option id="A">N-acetyl glucosamine (NAG)</option><option id="B">N-acetyl muramic acid (NAM)</option><option id="C">Glucose</option><option id="D">Fructose</option>
+            <answer>A</answer><explanation>Polymer.</explanation>
+        </question>
+        <question>
+            <text>If DNA has 20 percent Adenine, what is the percent of Cytosine?</text>
+            <option id="A">30 %</option><option id="B">20 %</option><option id="C">40 %</option><option id="D">60 %</option>
+            <answer>A</answer><explanation>A=T=20. G+C=60. C=30.</explanation>
+        </question>
+        <question>
+            <text>Identify the Sulphur containing amino acid:</text>
+            <option id="A">Cysteine and Methionine</option><option id="B">Serine</option><option id="C">Proline</option><option id="D">Tryptophan</option>
+            <answer>A</answer><explanation>Disulfide bond source.</explanation>
+        </question>
+        <question>
+            <text>Which is an imino acid?</text>
+            <option id="A">Proline</option><option id="B">Glycine</option><option id="C">Alanine</option><option id="D">Leucine</option>
+            <answer>A</answer><explanation>Secondary amine ring.</explanation>
+        </question>
+        <question>
+            <text>Essential fatty acids (EFA) include:</text>
+            <option id="A">Linoleic, Linolenic, Arachidonic</option><option id="B">Palmitic, Stearic</option><option id="C">Oleic</option><option id="D">Butyric</option>
+            <answer>A</answer><explanation>Polyunsaturated.</explanation>
+        </question>
+        <question>
+            <text>Example of Lectin?</text>
+            <option id="A">Concanavalin A</option><option id="B">Ricin</option><option id="C">Morphine</option><option id="D">Codeine</option>
+            <answer>A</answer><explanation>Carbohydrate binding protein.</explanation>
+        </question>
+        <question>
+            <text>Example of Toxin (Secondary metabolite)?</text>
+            <option id="A">Abrin, Ricin</option><option id="B">Vinblastine</option><option id="C">Curcumin</option><option id="D">Gum</option>
+            <answer>A</answer><explanation>Poisonous.</explanation>
+        </question>
+        <question>
+            <text>Which sugar is present in ATP?</text>
+            <option id="A">Ribose</option><option id="B">Deoxyribose</option><option id="C">Glucose</option><option id="D">Fructose</option>
+            <answer>A</answer><explanation>Ribonucleotide.</explanation>
+        </question>
+        <question>
+            <text>Feedback inhibition of enzymes is typically:</text>
+            <option id="A">Allosteric inhibition</option><option id="B">Competitive</option><option id="C">Irreversible</option><option id="D">None</option>
+            <answer>A</answer><explanation>End product inhibits first enzyme.</explanation>
+        </question>
+        <question>
+            <text>Which forms the z-DNA?</text>
+            <option id="A">Alternating Purine and Pyrimidine (GC rich)</option><option id="B">A-T rich</option><option id="C">Random</option><option id="D">Only A</option>
+            <answer>A</answer><explanation>Left-handed helix.</explanation>
+        </question>
+        <question>
+            <text>Diameter of B-DNA is:</text>
+            <option id="A">20 Angstrom</option><option id="B">34 A</option><option id="C">10 A</option><option id="D">15 A</option>
+            <answer>A</answer><explanation>Helix width.</explanation>
+        </question>
+        <question>
+            <text>Which vitamin serves as a co-enzyme precursor for NAD?</text>
+            <option id="A">Niacin (B3)</option><option id="B">Riboflavin (B2)</option><option id="C">Thiamine (B1)</option><option id="D">Pyridoxine (B6)</option>
+            <answer>A</answer><explanation>Nicotinamide adenine dinucleotide.</explanation>
+        </question>
+        <question>
+            <text>Which is the simplest amino acid?</text>
+            <option id="A">Glycine</option><option id="B">Alanine</option><option id="C">Valine</option><option id="D">Leucine</option>
+            <answer>A</answer><explanation>R = H. Optically inactive.</explanation>
+        </question>
+        <question>
+            <text>Most diverse macromolecules are:</text>
+            <option id="A">Proteins</option><option id="B">Carbohydrates</option><option id="C">Nucleic acids</option><option id="D">Lipids</option>
+            <answer>A</answer><explanation>Functional diversity.</explanation>
+        </question>
+        <question>
+            <text>The sequence of amino acids is:</text>
+            <option id="A">Primary structure</option><option id="B">Secondary</option><option id="C">Tertiary</option><option id="D">Quaternary</option>
+            <answer>A</answer><explanation>Positional information.</explanation>
+        </question>
+        <question>
+            <text>Which is not a polymeric substance?</text>
+            <option id="A">Lipid</option><option id="B">Protein</option><option id="C">Polysaccharide</option><option id="D">Nucleic acid</option>
+            <answer>A</answer><explanation>Aggregates, not covalent polymers.</explanation>
+        </question>
+        <question>
+            <text>Bond energy of covalent bond is approx:</text>
+            <option id="A">50-100 kcal/mol</option><option id="B">2-5 kcal/mol</option><option id="C">0.5 kcal</option><option id="D">1000 kcal</option>
+            <answer>A</answer><explanation>Strong bond.</explanation>
+        </question>
+    </hard>
+</chapter>

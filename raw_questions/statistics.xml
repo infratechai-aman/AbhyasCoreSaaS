@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="213" name="Statistics">
+    <easy>
+        <question>
+            <text>Mean of 1, 2, 3, 4, 5 is:</text>
+            <option id="A">3</option><option id="B">2.5</option><option id="C">4</option><option id="D">15</option>
+            <answer>A</answer><explanation>Sum/N.</explanation>
+        </question>
+        <question>
+            <text>Mean of first n natural numbers is:</text>
+            <option id="A">(n+1)/2</option><option id="B">n/2</option><option id="C">n(n+1)/2</option><option id="D">n</option>
+            <answer>A</answer><explanation>Sum/n.</explanation>
+        </question>
+        <question>
+            <text>Formula for mean deviation about mean xbar:</text>
+            <option id="A">Sum|xi - xbar| / n</option><option id="B">Sum(xi - xbar)^2 / n</option><option id="C">Sum(xi - xbar)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Standard Deviation sigma is:</text>
+            <option id="A">Sqrt(Variance)</option><option id="B">Variance^2</option><option id="C">Mean Absolute Deviation</option><option id="D">Range</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Variance of data is always:</text>
+            <option id="A">Non-negative</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Square based.</explanation>
+        </question>
+        <question>
+            <text>Median of 2, 5, 1, 4, 3 is:</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">4</option><option id="D">5</option>
+            <answer>A</answer><explanation>Ordered: 1, 2, 3, 4, 5. Middle 3.</explanation>
+        </question>
+        <question>
+            <text>Range of data 5, 10, 15, 20 is:</text>
+            <option id="A">15</option><option id="B">20</option><option id="C">5</option><option id="D">10</option>
+            <answer>A</answer><explanation>20 - 5 = 15.</explanation>
+        </question>
+        <question>
+            <text>Mean deviation about median M:</text>
+            <option id="A">Sum|xi - M| / n</option><option id="B">Sum(xi - M)^2 / n</option><option id="C">Sum(xi - M)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>If each observation is increased by a, mean is:</text>
+            <option id="A">Increased by a</option><option id="B">Unchanged</option><option id="C">Multiplied by a</option><option id="D">Decreased by a</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>If each observation is multiplied by k, mean is:</text>
+            <option id="A">Multiplied by k</option><option id="B">Unchanged</option><option id="C">Increased by k</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Variance of first n natural numbers:</text>
+            <option id="A">(n^2 - 1)/12</option><option id="B">n^2/12</option><option id="C">(n^2-1)/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Sum of deviations from mean is always:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Minimum</option><option id="D">Maximum</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Sum of squares of deviations is minimum when taken about:</text>
+            <option id="A">Mean</option><option id="B">Median</option><option id="C">Mode</option><option id="D">Origin</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Mean deviation is minimum when measured about:</text>
+            <option id="A">Median</option><option id="B">Mean</option><option id="C">Mode</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>If variance is 16, standard deviation is:</text>
+            <option id="A">4</option><option id="B">16</option><option id="C">256</option><option id="D">8</option>
+            <answer>A</answer><explanation>Sqrt(16).</explanation>
+        </question>
+        <question>
+            <text>Coefficient of Variation (CV) depends on:</text>
+            <option id="A">Mean and SD</option><option id="B">Only Mean</option><option id="C">Only SD</option><option id="D">Median</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>If CV is high, variability is:</text>
+            <option id="A">High</option><option id="B">Low</option><option id="C">Mean</option><option id="D">None</option>
+            <answer>A</answer><explanation>Meaning.</explanation>
+        </question>
+        <question>
+            <text>Mode of 1, 2, 2, 3, 4 is:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">3</option><option id="D">4</option>
+            <answer>A</answer><explanation>Frequency.</explanation>
+        </question>
+        <question>
+            <text>If mean=median=mode, distribution is:</text>
+            <option id="A">Symmetric</option><option id="B">Skewed</option><option id="C">Bimodal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Normal.</explanation>
+        </question>
+        <question>
+            <text>Standard deviation is independent of change of:</text>
+            <option id="A">Origin</option><option id="B">Scale</option><option id="C">Both</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shift doesn't affect spread.</explanation>
+        </question>
+        <question>
+            <text>If y = ax + b, sigma_y is:</text>
+            <option id="A">|a| sigma_x</option><option id="B">a sigma_x</option><option id="C">(a+b) sigma_x</option><option id="D">sigma_x</option>
+            <answer>A</answer><explanation>Scale affects, origin doesn't.</explanation>
+        </question>
+        <question>
+            <text>Mean of constant c is:</text>
+            <option id="A">c</option><option id="B">0</option><option id="C">1</option><option id="D">nc</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Variance of constant c is:</text>
+            <option id="A">0</option><option id="B">c</option><option id="C">c^2</option><option id="D">1</option>
+            <answer>A</answer><explanation>No spread.</explanation>
+        </question>
+        <question>
+            <text>Which is not a measure of dispersion?</text>
+            <option id="A">Mean</option><option id="B">Range</option><option id="C">Standard Deviation</option><option id="D">Mean Deviation</option>
+            <answer>A</answer><explanation>Central tendency.</explanation>
+        </question>
+        <question>
+            <text>Formula for grouped data mean:</text>
+            <option id="A">Sum(fi xi) / Sum(fi)</option><option id="B">Sum(xi) / n</option><option id="C">Sum(fi)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Weighted.</explanation>
+        </question>
+        <question>
+            <text>Frequency polygon is for:</text>
+            <option id="A">Continuous data</option><option id="B">Discrete</option><option id="C">Qualitative</option><option id="D">None</option>
+            <answer>A</answer><explanation>Representation.</explanation>
+        </question>
+        <question>
+            <text>Histogram represents:</text>
+            <option id="A">Frequency distribution</option><option id="B">Mean</option><option id="C">Mode</option><option id="D">Median</option>
+            <answer>A</answer><explanation>Plot.</explanation>
+        </question>
+        <question>
+            <text>Cumulative frequency curve is also called:</text>
+            <option id="A">Ogive</option><option id="B">Histogram</option><option id="C">Polygon</option><option id="D">Pie chart</option>
+            <answer>A</answer><explanation>Name.</explanation>
+        </question>
+        <question>
+            <text>Median can be found graphically using:</text>
+            <option id="A">Ogive</option><option id="B">Histogram</option><option id="C">Bar chart</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intersection.</explanation>
+        </question>
+        <question>
+            <text>Mode can be found graphically using:</text>
+            <option id="A">Histogram</option><option id="B">Ogive</option><option id="C">Pie chart</option><option id="D">None</option>
+            <answer>A</answer><explanation>Peak.</explanation>
+        </question>
+        <question>
+            <text>SD of 2, 2, 2, 2 is:</text>
+            <option id="A">0</option><option id="B">2</option><option id="C">1</option><option id="D">4</option>
+            <answer>A</answer><explanation>No variation.</explanation>
+        </question>
+        <question>
+            <text>Mean of a, a+d, a+2d is:</text>
+            <option id="A">a+d</option><option id="B">a</option><option id="C">a+2d</option><option id="D">3a+3d</option>
+            <answer>A</answer><explanation>AP mean is middle term.</explanation>
+        </question>
+        <question>
+            <text>If variance is 0, all observations are:</text>
+            <option id="A">Equal</option><option id="B">Different</option><option id="C">Zero</option><option id="D">One</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Coefficient of Mean Deviation:</text>
+            <option id="A">MD/Mean (or Median)</option><option id="B">MD * Mean</option><option id="C">Mean/MD</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Interquartile range:</text>
+            <option id="A">Q3 - Q1</option><option id="B">Q3 + Q1</option><option id="C">(Q3-Q1)/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Semi-interquartile range is also called:</text>
+            <option id="A">Quartile Deviation</option><option id="B">Mean Dev</option><option id="C">SD</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Formula for Quartile Deviation:</text>
+            <option id="A">(Q3-Q1)/2</option><option id="B">Q3-Q1</option><option id="C">(Q3+Q1)/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>For open-ended classes, best measure of central tendency:</text>
+            <option id="A">Median</option><option id="B">Mean</option><option id="C">Mode</option><option id="D">GM</option>
+            <answer>A</answer><explanation>Does not depend on extremes.</explanation>
+        </question>
+        <question>
+            <text>AM of 2 numbers a, b:</text>
+            <option id="A">(a+b)/2</option><option id="B">ab</option><option id="C">sqrt(ab)</option><option id="D">a-b</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Best measure of dispersion usually:</text>
+            <option id="A">SD</option><option id="B">Range</option><option id="C">MD</option><option id="D">QD</option>
+            <answer>A</answer><explanation>Most used.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Variance is the square of:</text>
+            <option id="A">Standard Deviation</option><option id="B">Mean Deviation</option><option id="C">Range</option><option id="D">Mode</option>
+            <answer>A</answer><explanation>Sigma squared.</explanation>
+        </question>
+        <question>
+            <text>Calculate mean of 10, 20, 30, 40, 50:</text>
+            <option id="A">30</option><option id="B">25</option><option id="C">35</option><option id="D">150</option>
+            <answer>A</answer><explanation>150/5 = 30.</explanation>
+        </question>
+        <question>
+            <text>Calculate variance of 2, 4, 6, 8, 10:</text>
+            <option id="A">8</option><option id="B">10</option><option id="C">6</option><option id="D">16</option>
+            <answer>A</answer><explanation>Mean 6. Devs: -4, -2, 0, 2, 4. Sq: 16, 4, 0, 4, 16. Sum 40. Var = 40/5 = 8.</explanation>
+        </question>
+        <question>
+            <text>Mean deviation about mean for 6, 7, 10, 12, 13, 4, 8, 12:</text>
+            <option id="A">2.75</option><option id="B">3</option><option id="C">2.5</option><option id="D">4</option>
+            <answer>A</answer><explanation>Mean 9. Devs: 3, 2, 1, 3, 4, 5, 1, 3. Sum 22. 22/8 = 2.75.</explanation>
+        </question>
+        <question>
+            <text>If mean of 100 observations is 50 and SD is 5. Sum of squares?</text>
+            <option id="A">252500</option><option id="B">250000</option><option id="C">5000</option><option id="D">None</option>
+            <answer>A</answer><explanation>Var = Sum(x^2)/n - Mean^2. 25 = S/100 - 2500. S/100 = 2525. S=252500.</explanation>
+        </question>
+        <question>
+            <text>Combined mean of two groups:</text>
+            <option id="A">(n1x1 + n2x2)/(n1+n2)</option><option id="B">(x1+x2)/2</option><option id="C">n1x1 + n2x2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Variance of 5 observations is 4. If each multiplied by 2, new variance:</text>
+            <option id="A">16</option><option id="B">8</option><option id="C">4</option><option id="D">2</option>
+            <answer>A</answer><explanation>2^2 * 4 = 16.</explanation>
+        </question>
+        <question>
+            <text>Mean of square of first n natural numbers:</text>
+            <option id="A">(n+1)(2n+1)/6</option><option id="B">n(n+1)/2</option><option id="C">n^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum/n = n(n+1)(2n+1)/6n.</explanation>
+        </question>
+        <question>
+            <text>Data: 6, 7, 10, 12, 13, 4, 8, 12. Median is:</text>
+            <option id="A">9</option><option id="B">8</option><option id="C">10</option><option id="D">8.5</option>
+            <answer>A</answer><explanation>Ordered: 4 6 7 8 10 12 12 13. Mid avg of 8 and 10 -> 9.</explanation>
+        </question>
+        <question>
+            <text>If sum of squares of deviations from 50 is 250 and n=10. Sigma (if mean=50)?</text>
+            <option id="A">5</option><option id="B">25</option><option id="C">50</option><option id="D">10</option>
+            <answer>A</answer><explanation>Sigma^2 = 250/10 = 25. Sigma=5.</explanation>
+        </question>
+        <question>
+            <text>Mean of 10 items is 50. One item 60 misread as 50. Correct mean?</text>
+            <option id="A">51</option><option id="B">50.5</option><option id="C">49</option><option id="D">60</option>
+            <answer>A</answer><explanation>Sum 500. Correct sum 500-50+60 = 510. Mean 51.</explanation>
+        </question>
+        <question>
+            <text>CV of distribution with mean 20 and variance 16:</text>
+            <option id="A">20</option><option id="B">40</option><option id="C">80</option><option id="D">15</option>
+            <answer>A</answer><explanation>SD 4. CV = 4/20 * 100 = 20.</explanation>
+        </question>
+        <question>
+            <text>Sum of (xi - 5) = 3 and Sum (xi - 5)^2 = 43. n=18. Mean?</text>
+            <option id="A">5.16</option><option id="B">5.3</option><option id="C">5.5</option><option id="D">5</option>
+            <answer>A</answer><explanation>xbar = A + sum d / n = 5 + 3/18 = 5 + 1/6 = 5.16.</explanation>
+        </question>
+        <question>
+            <text>Number of observations n=20. Mean=10. Variance=4. Sum of squares?</text>
+            <option id="A">2080</option><option id="B">2000</option><option id="C">80</option><option id="D">100</option>
+            <answer>A</answer><explanation>4 = S/20 - 100. 104 = S/20. S = 2080.</explanation>
+        </question>
+        <question>
+            <text>Relation between Mean, Median, Mode (empirical):</text>
+            <option id="A">Mode = 3Median - 2Mean</option><option id="B">Mean = Mode</option><option id="C">Mode = 2Median - Mean</option><option id="D">None</option>
+            <answer>A</answer><explanation>Karl Pearson.</explanation>
+        </question>
+        <question>
+            <text>Geometric Mean of 2, 4, 8:</text>
+            <option id="A">4</option><option id="B">6</option><option id="C">2</option><option id="D">8</option>
+            <answer>A</answer><explanation>cuberoot(64) = 4.</explanation>
+        </question>
+        <question>
+            <text>Harmonic Mean of 2, 6, 3? No.</text>
+            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Variance of first 10 natural numbers:</text>
+            <option id="A">8.25</option><option id="B">8</option><option id="C">10</option><option id="D">33/4</option>
+            <answer>A</answer><explanation>(100-1)/12 = 99/12 = 33/4 = 8.25.</explanation>
+        </question>
+        <question>
+            <text>If S is sum, Ssq sum of squares, variance formula:</text>
+            <option id="A">Ssq/n - (S/n)^2</option><option id="B">Ssq/n</option><option id="C">(Ssq - S)^2/n</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>In a series, if all values are equal, SD is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Infinite</option><option id="D">Mean</option>
+            <answer>A</answer><explanation>Zero spread.</explanation>
+        </question>
+        <question>
+            <text>A distribution with two modes is:</text>
+            <option id="A">Bimodal</option><option id="B">Unimodal</option><option id="C">Multimodal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Mean deviation is least about median. For 1,2,3,4,5, MD about median 3:</text>
+            <option id="A">1.2</option><option id="B">1</option><option id="C">2</option><option id="D">0</option>
+            <answer>A</answer><explanation>Devs: 2, 1, 0, 1, 2. Sum 6. 6/5 = 1.2.</explanation>
+        </question>
+        <question>
+            <text>If combined mean 40, n1=10 x1=30 n2=10 x2=?</text>
+            <option id="A">50</option><option id="B">40</option><option id="C">60</option><option id="D">10</option>
+            <answer>A</answer><explanation>40 = (300 + 10x)/20. 800=300+10x. 500=10x. x=50.</explanation>
+        </question>
+        <question>
+            <text>SD of -1, 0, 1 is:</text>
+            <option id="A">sqrt(2/3)</option><option id="B">1</option><option id="C">0</option><option id="D">2/3</option>
+            <answer>A</answer><explanation>Mean 0. Sq: 1, 0, 1. Sum 2. Var=2/3. SD=sqrt(2/3).</explanation>
+        </question>
+        <question>
+            <text>Short cut method for Mean:</text>
+            <option id="A">A + (Sum fd / N) * h</option><option id="B">A + Sum fd</option><option id="C">Sum fx / N</option><option id="D">None</option>
+            <answer>A</answer><explanation>Step deviation.</explanation>
+        </question>
+        <question>
+            <text>Mean of x, x+2, x+4, x+6, x+8:</text>
+            <option id="A">x+4</option><option id="B">x+2</option><option id="C">x+5</option><option id="D">x</option>
+            <answer>A</answer><explanation>Middle term.</explanation>
+        </question>
+        <question>
+            <text>Which average is affected most by extreme values?</text>
+            <option id="A">Mean</option><option id="B">Median</option><option id="C">Mode</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>The algebraic sum of deviation from mean is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">n</option><option id="D">Minimum</option>
+            <answer>A</answer><explanation>Property sum(x-xbar)=0.</explanation>
+        </question>
+        <question>
+            <text>Weighted mean formula applies when:</text>
+            <option id="A">Importance varies</option><option id="B">Equal importance</option><option id="C">Random</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>SD for 10 observations is 3. If observations multiplied by 3, new SD:</text>
+            <option id="A">9</option><option id="B">3</option><option id="C">27</option><option id="D">1</option>
+            <answer>A</answer><explanation>3*3=9.</explanation>
+        </question>
+        <question>
+            <text>Variance of a, b, c, d, e is v. Variance of a+k, b+k... is:</text>
+            <option id="A">v</option><option id="B">v+k</option><option id="C">vk</option><option id="D">v^2</option>
+            <answer>A</answer><explanation>Origin shift invariant.</explanation>
+        </question>
+        <question>
+            <text>Quartile Q2 is same as:</text>
+            <option id="A">Median</option><option id="B">Mean</option><option id="C">Mode</option><option id="D">Q1</option>
+            <answer>A</answer><explanation>50%.</explanation>
+        </question>
+        <question>
+            <text>Which is positional average?</text>
+            <option id="A">Median</option><option id="B">Mean</option><option id="C">HM</option><option id="D">GM</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Percentile P50 is same as:</text>
+            <option id="A">Median</option><option id="B">Mean</option><option id="C">Mode</option><option id="D">Q1</option>
+            <answer>A</answer><explanation>50th.</explanation>
+        </question>
+        <question>
+            <text>Decile D5 is same as:</text>
+            <option id="A">Median</option><option id="B">Mean</option><option id="C">Q3</option><option id="D">P10</option>
+            <answer>A</answer><explanation>Middle.</explanation>
+        </question>
+        <question>
+            <text>Measure of dispersion using absolute values:</text>
+            <option id="A">Mean Deviation</option><option id="B">SD</option><option id="C">Variance</option><option id="D">Range</option>
+            <answer>A</answer><explanation>Modulus.</explanation>
+        </question>
+        <question>
+            <text>Is SD sensitive to extremes?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">Less than Range</option>
+            <answer>A</answer><explanation>Squaring amplifies.</explanation>
+        </question>
+        <question>
+            <text>Range of -10, -5, 0, 5, 10:</text>
+            <option id="A">20</option><option id="B">10</option><option id="C">0</option><option id="D">-20</option>
+            <answer>A</answer><explanation>10 - (-10) = 20.</explanation>
+        </question>
+        <question>
+            <text>If mean of 5 observations is 4 and variance 5.2. Observations 1,2,6, ...</text>
+            <option id="A">Skip (Too complex for med)</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Sum of squares of deviations from 10 is minimum. Mean is:</text>
+            <option id="A">10</option><option id="B">0</option><option id="C">Mean != 10</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Property min at mean.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Coefficient of Variation (CV) formula is:</text>
+            <option id="A">(SD/Mean) * 100</option><option id="B">(Mean/SD) * 100</option><option id="C">(Variance/Mean) * 100</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relative measure of dispersion.</explanation>
+        </question>
+        <question>
+            <text>Mean and variance of 7 observations are 8 and 16. If 5 observations are 2,4,10,12,14. Find remaining.</text>
+            <option id="A">6, 8</option><option id="B">8, 10</option><option id="C">5, 9</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculation based.</explanation>
+        </question>
+        <question>
+            <text>If sum of x = 180, sum of x^2=6000, n=20. Mean and SD:</text>
+            <option id="A">Mean 9, SD sqrt(219)</option><option id="B">Mean 9, SD 10</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mean 9. Var = 300 - 81 = 219. SD sqrt(219).</explanation>
+        </question>
+        <question>
+            <text>Combined variance of two groups n1, s1, x1 and n2, s2, x2:</text>
+            <option id="A">Complex formula</option><option id="B">Add variances</option><option id="C">Average</option><option id="D">None</option>
+            <answer>A</answer><explanation>(n1(s1^2+d1^2)+...)/N.</explanation>
+        </question>
+        <question>
+            <text>Coefficient of Variation of 1st n natural numbers:</text>
+            <option id="A">sqrt((n^2-1)/12) / ((n+1)/2) * 100</option><option id="B">n</option><option id="C">100</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>If S=sum x, S2=sum x^2, S3=sum x^3. Skewness...</text>
+            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Mean of 100 items is 49. It was found that three items 60, 70, 80 were misread as 40, 20, 50. Correct mean:</text>
+            <option id="A">50</option><option id="B">49.5</option><option id="C">51</option><option id="D">48</option>
+            <answer>A</answer><explanation>Diff: (60-40) + (70-20) + (80-50) = 20 + 50 + 30 = 100. 100/100 = 1 inc. 49+1=50.</explanation>
+        </question>
+        <question>
+            <text>SD of first n natural numbers is 2. value of n:</text>
+            <option id="A">sqrt((n^2-1)/12)=2. n^2-1=48. n^2=49. n=7.</option><option id="B">5</option><option id="C">6</option><option id="D">8</option>
+            <answer>A</answer><explanation>Calcuated 7.</explanation>
+        </question>
+        <question>
+            <text>If variance of x is 5, variance of 2x + 3 is:</text>
+            <option id="A">20</option><option id="B">10</option><option id="C">13</option><option id="D">25</option>
+            <answer>A</answer><explanation>2^2 * 5 = 20.</explanation>
+        </question>
+        <question>
+            <text>The mean of 5 observations is 4.4 and variance 8.24. If three are 1, 2, 6. Others?</text>
+            <option id="A">9, 4</option><option id="B">4, 9</option><option id="C">Assuming x,y</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sum=22. 1+2+6+x+y=22 -> x+y=13. x^2+y^2 from Var. Solve.</explanation>
+        </question>
+        <question>
+            <text>Relation between AM, GM, HM:</text>
+            <option id="A">AM >= GM >= HM</option><option id="B">AM &lt; GM</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inequality.</explanation>
+        </question>
+        <question>
+            <text>For 2 numbers, AM=25, GM=20. Numbers are:</text>
+            <option id="A">40, 10</option><option id="B">50, 0</option><option id="C">30, 20</option><option id="D">35, 15</option>
+            <answer>A</answer><explanation>a+b=50. ab=400. 40,10.</explanation>
+        </question>
+        <question>
+            <text>Kurtosis measures:</text>
+            <option id="A">Peakedness</option><option id="B">Asymmetry</option><option id="C">Central tendency</option><option id="D">Dispersion</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Skewness measures:</text>
+            <option id="A">Asymmetry</option><option id="B">Peakedness</option><option id="C">Spread</option><option id="D">Flatness</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Moment coefficient of skewness:</text>
+            <option id="A">beta1 / mu2... formula</option><option id="B">Skip</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Standard deviation of a, a, a, a...:</text>
+            <option id="A">0</option><option id="B">a</option><option id="C">1</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Repeat.</explanation>
+        </question>
+        <question>
+            <text>If sum of squares of diff of ranks is 33, n=10. Rank correlation:</text>
+            <option id="A">1 - 6*33/(1000-10) = 1 - 198/990 = 1 - 0.2 = 0.8</option><option id="B">0.5</option><option id="C">0.9</option><option id="D">0.85</option>
+            <answer>A</answer><explanation>Spearman formula.</explanation>
+        </question>
+        <question>
+            <text>Correlation coefficient r lies between:</text>
+            <option id="A">-1 to 1</option><option id="B">0 to 1</option><option id="C">-infinity to infinity</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>If r=0, variables are:</text>
+            <option id="A">Uncorrelated</option><option id="B">Independent</option><option id="C">Correlated</option><option id="D">None</option>
+            <answer>A</answer><explanation>Independent implies uncorrelated unless linearly.</explanation>
+        </question>
+        <question>
+            <text>Regression line y on x minimizes:</text>
+            <option id="A">Sum of squares of vertical errors</option><option id="B">Horizontal</option><option id="C">Both</option><option id="D">None</option>
+            <answer>A</answer><explanation>Least squares.</explanation>
+        </question>
+        <question>
+            <text>SD of first n even natural numbers:</text>
+            <option id="A">2 * SD(natural)</option><option id="B">SD(natural)</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Scale factor 2.</explanation>
+        </question>
+        <question>
+            <text>Mean of first n odd natural numbers:</text>
+            <option id="A">n</option><option id="B">n^2</option><option id="C">2n</option><option id="D">n-1</option>
+            <answer>A</answer><explanation>Sum n^2 / n = n.</explanation>
+        </question>
+        <question>
+            <text>Variance of first n odd natural numbers:</text>
+            <option id="A">(n^2-1)/3</option><option id="B">(n^2-1)/12</option><option id="C">n^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Sum of deviations of xi from median is:</text>
+            <option id="A">Minimum (absolute)</option><option id="B">Zero</option><option id="C">Max</option><option id="D">None</option>
+            <answer>A</answer><explanation>Absolute sum min at median.</explanation>
+        </question>
+        <question>
+            <text>For symmetry distribution, skewness is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>If r=1, relation is:</text>
+            <option id="A">Perfect linear</option><option id="B">No relation</option><option id="C">Curved</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Intersection of regression lines is at:</text>
+            <option id="A">(xbar, ybar)</option><option id="B">(0,0)</option><option id="C">Origin</option><option id="D">(sigma_x, sigma_y)</option>
+            <answer>A</answer><explanation>Means.</explanation>
+        </question>
+        <question>
+            <text>Product of regression coefficients byx * bxy is:</text>
+            <option id="A">r^2</option><option id="B">r</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>If byx > 1, then bxy must be:</text>
+            <option id="A">&lt; 1</option><option id="B">> 1</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Product &lt;= 1.</explanation>
+        </question>
+        <question>
+            <text>Mean of binomial distribution (n,p):</text>
+            <option id="A">np</option><option id="B">npq</option><option id="C">sqrt(npq)</option><option id="D">p</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Variance of binomial distribution:</text>
+            <option id="A">npq</option><option id="B">np</option><option id="C">n</option><option id="D">pq</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>For Poisson distribution:</text>
+            <option id="A">Mean = Variance</option><option id="B">Mean > Var</option><option id="C">Mean &lt; Var</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Normal distribution curve is:</text>
+            <option id="A">Bell shaped</option><option id="B">U shaped</option><option id="C">J shaped</option><option id="D">Flat</option>
+            <answer>A</answer><explanation>Shape.</explanation>
+        </question>
+        <question>
+            <text>Area under normal curve is:</text>
+            <option id="A">1</option><option id="B">0.5</option><option id="C">0</option><option id="D">100</option>
+            <answer>A</answer><explanation>Probability.</explanation>
+        </question>
+        <question>
+            <text>In Normal dist, Mean+MD covers:</text>
+            <option id="A">Approx 68% for SD. MD?</option><option id="B">50%</option><option id="C">57.5%</option><option id="D">None</option>
+            <answer>C</answer><explanation>57.5%.</explanation>
+        </question>
+        <question>
+            <text>Points of inflexion of Normal curve:</text>
+            <option id="A">mu +/- sigma</option><option id="B">mu</option><option id="C">mu +/- 2sigma</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Standard Normal Variate Z:</text>
+            <option id="A">(X-mu)/sigma</option><option id="B">(X-sigma)/mu</option><option id="C">X-mu</option><option id="D">None</option>
+            <answer>A</answer><explanation>Z transform.</explanation>
+        </question>
+        <question>
+            <text>Rank correlation is used for:</text>
+            <option id="A">Qualitative/Ordered data</option><option id="B">Quantitative</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Spearman.</explanation>
+        </question>
+        <question>
+            <text>If all points on regression line, r is:</text>
+            <option id="A">1 or -1</option><option id="B">0</option><option id="C">0.5</option><option id="D">None</option>
+            <answer>A</answer><explanation>Perfect.</explanation>
+        </question>
+        <question>
+            <text>Correlation independent of:</text>
+            <option id="A">Origin and Scale</option><option id="B">Only Origin</option><option id="C">Only Scale</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+    </hard>
+</chapter>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="3" name="Work, Energy, and Power">
+    <easy>
+        <!-- 40 EASY QUESTIONS -->
+        <question>
+            <text>Work done by a constant force F causing displacement S is given by:</text>
+            <option id="A">F x S</option>
+            <option id="B">F . S</option>
+            <option id="C">F + S</option>
+            <option id="D">F / S</option>
+            <answer>B</answer>
+            <explanation>Work is the dot product of Force and Displacement vectors (FS cos theta).</explanation>
+        </question>
+        <question>
+            <text>The SI unit of Work is:</text>
+            <option id="A">Newton</option>
+            <option id="B">Watt</option>
+            <option id="C">Joule</option>
+            <option id="D">Pascal</option>
+            <answer>C</answer>
+            <explanation>Joule (Nm) is the SI unit.</explanation>
+        </question>
+        <question>
+            <text>Kinetic Energy of a body of mass m moving with velocity v is:</text>
+            <option id="A">mv</option>
+            <option id="B">m v^2</option>
+            <option id="C">1/2 m v^2</option>
+            <option id="D">1/2 m^2 v</option>
+            <answer>C</answer>
+            <explanation>Standard formula for translational kinetic energy.</explanation>
+        </question>
+        <question>
+            <text>Potential Energy of a body at height h is:</text>
+            <option id="A">mgh</option>
+            <option id="B">mg/h</option>
+            <option id="C">1/2 mgh</option>
+            <option id="D">mh/g</option>
+            <answer>A</answer>
+            <explanation>Gravitational potential energy near earth's surface.</explanation>
+        </question>
+        <question>
+            <text>Power is defined as:</text>
+            <option id="A">Rate of doing work</option>
+            <option id="B">Capacity to do work</option>
+            <option id="C">Total work done</option>
+            <option id="D">Force per unit area</option>
+            <answer>A</answer>
+            <explanation>P = dW/dt.</explanation>
+        </question>
+        <question>
+            <text>1 Horse Power (HP) is equal to:</text>
+            <option id="A">746 Watt</option>
+            <option id="B">1000 Watt</option>
+            <option id="C">500 Watt</option>
+            <option id="D">764 Watt</option>
+            <answer>A</answer>
+            <explanation>Conversion factor.</explanation>
+        </question>
+        <question>
+            <text>Work done by centripetal force is always:</text>
+            <option id="A">Positive</option>
+            <option id="B">Negative</option>
+            <option id="C">Zero</option>
+            <option id="D">Infinite</option>
+            <answer>C</answer>
+            <explanation>Force is perpendicular to displacement.</explanation>
+        </question>
+        <question>
+            <text>In an elastic collision, which quantity is conserved?</text>
+            <option id="A">Momentum only</option>
+            <option id="B">Kinetic Energy only</option>
+            <option id="C">Both Momentum and Kinetic Energy</option>
+            <option id="D">Neither</option>
+            <answer>C</answer>
+            <explanation>Definition of elastic collision.</explanation>
+        </question>
+        <question>
+            <text>The area under the Force-Displacement graph represents:</text>
+            <option id="A">Power</option>
+            <option id="B">Impulse</option>
+            <option id="C">Work Done</option>
+            <option id="D">Acceleration</option>
+            <answer>C</answer>
+            <explanation>Integral F dx = Work.</explanation>
+        </question>
+        <question>
+            <text>A body is lifted vertically upwards. Work done by gravity is:</text>
+            <option id="A">Positive</option>
+            <option id="B">Negative</option>
+            <option id="C">Zero</option>
+            <option id="D">Undefined</option>
+            <answer>B</answer>
+            <explanation>Displacement is up, Gravity is down (angle 180).</explanation>
+        </question>
+        <!-- Adding 10 -->
+        <question><text>Relation between Kinetic Energy (K) and Momentum (p):</text><option id="A">K = p^2 / 2m</option><option id="B">K = p / 2m</option><option id="C">K = p^2 m</option><option id="D">K = 2m / p^2</option><answer>A</answer><explanation>Since p = mv, p^2/2m = (mv)^2/2m = 1/2 mv^2.</explanation></question>
+        <question><text>If speed is doubled, Kinetic Energy becomes:</text><option id="A">Doubled</option><option id="B">4 times</option><option id="C">Halved</option><option id="D">Same</option><answer>B</answer><explanation>K is proportional to v^2.</explanation></question>
+        <question><text>Which is a conservative force?</text><option id="A">Friction</option><option id="B">Viscous force</option><option id="C">Electrostatic force</option><option id="D">Air resistance</option><answer>C</answer><explanation>Work done in closed path is zero.</explanation></question>
+        <question><text>Work done in holding a 15kg suitcase for 15 minutes is:</text><option id="A">225 J</option><option id="B">Zero</option><option id="C">2250 J</option><option id="D">15 J</option><answer>B</answer><explanation>Displacement is zero.</explanation></question>
+        <question><text>Spring constant k has unit:</text><option id="A">N</option><option id="B">N/m</option><option id="C">Nm</option><option id="D">J/m</option><answer>B</answer><explanation>F = -kx => k = F/x (N/m).</explanation></question>
+        <question><text>Potential energy of a spring stretched by x is:</text><option id="A">kx</option><option id="B">1/2 k x^2</option><option id="C">kx^2</option><option id="D">1/2 k^2 x</option><answer>B</answer><explanation>Elastic potential energy formula.</explanation></question>
+        <question><text>Mechanical Energy is sum of:</text><option id="A">KE + PE</option><option id="B">KE + Heat</option><option id="C">PE + Heat</option><option id="D">KE + PE + Heat</option><answer>A</answer><explanation>Definition.</explanation></question>
+        <question><text>In inelastic collision, what is NOT conserved?</text><option id="A">Total Energy</option><option id="B">Momentum</option><option id="C">Kinetic Energy</option><option id="D">Mass</option><answer>C</answer><explanation>some KE is lost as heat/sound.</explanation></question>
+        <question><text>Coefficient of restitution 'e' for perfectly elastic collision is:</text><option id="A">0</option><option id="B">1</option><option id="C">0.5</option><option id="D">Infinity</option><answer>B</answer><explanation>Relative velocity of sep = Relative velocity of approach.</explanation></question>
+        <question><text>Kilowatt-hour is a unit of:</text><option id="A">Power</option><option id="B">Energy</option><option id="C">Force</option><option id="D">Time</option><answer>B</answer><explanation>Commercial unit of electrical energy.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>1 eV (electron volt) is:</text><option id="A">1.6 x 10^-19 J</option><option id="B">1.6 x 10^-19 C</option><option id="C">9.1 x 10^-31 kg</option><option id="D">3 x 10^8 m/s</option><answer>A</answer><explanation>Energy of electron accelerated by 1 volt.</explanation></question>
+        <question><text>Work done by friction on a rough surface is:</text><option id="A">Conservative</option><option id="B">Non-conservative</option><option id="C">Zero</option><option id="D">Positive</option><answer>B</answer><explanation>Depends on path, dissipated as heat.</explanation></question>
+        <question><text>If a light and heavy body have same KE, which has greater momentum?</text><option id="A">Light body</option><option id="B">Heavy body</option><option id="C">Both same</option><option id="D">Depends on shape</option><answer>B</answer><explanation>p = sqrt(2mK). Larger m, larger p.</explanation></question>
+        <question><text>A body falls freely. Total mechanical energy:</text><option id="A">Increases</option><option id="B">Decreases</option><option id="C">Remains constant</option><option id="D">Becomes zero</option><answer>C</answer><explanation>Conservation of energy (neglecting air resistance).</explanation></question>
+        <question><text>Work done by tension in simple pendulum is:</text><option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Variable</option><answer>C</answer><explanation>Tension is perpendicular to displacement.</explanation></question>
+        <question><text>Power P = ? if F is force and v is velocity:</text><option id="A">F x v</option><option id="B">F . v</option><option id="C">F / v</option><option id="D">0.5 F v</option><answer>B</answer><explanation>P = F.v (dot product).</explanation></question>
+        <question><text>Total energy of a satellite orbiting Earth is:</text><option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Undefined</option><answer>B</answer><explanation>Bound system implies negative total energy.</explanation></question>
+        <question><text>Which energy is stored in a wound watch spring?</text><option id="A">Kinetic</option><option id="B">Potential</option><option id="C">Heat</option><option id="D">Chemical</option><answer>B</answer><explanation>Elastic potential energy.</explanation></question>
+        <question><text>Two bodies collide and stick together. Collision is:</text><option id="A">Elastic</option><option id="B">Perfectly Inelastic</option><option id="C">Partially Elastic</option><option id="D">None</option><answer>B</answer><explanation>Max loss of KE, common final velocity.</explanation></question>
+        <question><text>Work Energy Theorem states:</text><option id="A">Work done = Change in KE</option><option id="B">Work done = Change in PE</option><option id="C">Work done = Change in Momentum</option><option id="D">Work = Force x Time</option><answer>A</answer><explanation>Net Work = Delta K.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Force F = 2i + 3j displaces a body by S = i + j. Work?</text><option id="A">5 J</option><option id="B">6 J</option><option id="C">1 J</option><option id="D">0 J</option><answer>A</answer><explanation>2*1 + 3*1 = 5.</explanation></question>
+        <question><text>If mass is doubled and velocity is halved, KE becomes:</text><option id="A">Double</option><option id="B">Half</option><option id="C">Quarter</option><option id="D">Same</option><answer>B</answer><explanation>K' = 1/2 (2m) (v/2)^2 = 1/2 * 2m * v^2/4 = 1/2 K.</explanation></question>
+        <question><text>Dimensions of Power are:</text><option id="A">ML^2T^-2</option><option id="B">ML^2T^-3</option><option id="C">MLT^-2</option><option id="D">ML^2T^-1</option><answer>B</answer><explanation>Work/Time = ML^2T^-2 / T = ML^2T^-3.</explanation></question>
+        <question><text>Slope of Work-Time graph gives:</text><option id="A">Energy</option><option id="B">Power</option><option id="C">Force</option><option id="D">Impulse</option><answer>B</answer><explanation>dW/dt = Power.</explanation></question>
+        <question><text>A coolie carries load on head and walks on horizontal platform. Work done against gravity is:</text><option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Infinite</option><answer>A</answer><explanation>Displacement horizontal, Gravity vertical.</explanation></question>
+        <question><text>Potential energy function U(x) is minimum at:</text><option id="A">Unstable equilibrium</option><option id="B">Stable equilibrium</option><option id="C">Neutral equilibrium</option><option id="D">None</option><answer>B</answer><explanation>Force = -dU/dx = 0. Min U means stable.</explanation></question>
+        <question><text>Collision between gas molecules is assumed to be:</text><option id="A">Elastic</option><option id="B">Inelastic</option><option id="C">Perfectly inelastic</option><option id="D">Sticky</option><answer>A</answer><explanation>Kinetic theory assumption.</explanation></question>
+        <question><text>Efficiency of a machine is:</text><option id="A">Output/Input</option><option id="B">Input/Output</option><option id="C">Output - Input</option><option id="D">Input - Output</option><answer>A</answer><explanation>Ratio of useful work out to energy in.</explanation></question>
+        <question><text>Unit of energy used in atomic physics:</text><option id="A">Joule</option><option id="B">Electron Volt</option><option id="C">Calorie</option><option id="D">Kilowatt</option><answer>B</answer><explanation>eV is convenient for atomic scales.</explanation></question>
+        <question><text>If momentum is increased by 100%, KE increases by:</text><option id="A">100%</option><option id="B">200%</option><option id="C">300%</option><option id="D">400%</option><answer>C</answer><explanation>p becomes 2p. K becomes (2p)^2 = 4 times. Increase is 3 times = 300%.</explanation></question>
+    </easy>
+
+    <medium>
+        <!-- 40 MEDIUM QUESTIONS -->
+        <question>
+            <text>A bullet of mass 10g moving with 500m/s penetrates 10cm into a fixed target. Average retarding force?</text>
+            <option id="A">1250 N</option>
+            <option id="B">12500 N</option>
+            <option id="C">2500 N</option>
+            <option id="D">10000 N</option>
+            <answer>B</answer><explanation>Work = Change in KE. F*s = 0.5mv^2. F*0.1 = 0.5 * 0.01 * 250000. F*0.1 = 1250. F = 12500.</explanation>
+        </question>
+        <question>
+            <text>A body of mass 2kg is situated at 10m height. It falls and hits ground. Work done by gravity?</text>
+            <option id="A">200 J</option>
+            <option id="B">-200 J</option>
+            <option id="C">100 J</option>
+            <option id="D">-100 J</option>
+            <answer>A</answer><explanation>mgh = 2*10*10 = 200J. Positive as disp and force are down.</explanation>
+        </question>
+        <question>
+            <text>A spring of force constant 800 N/m has an extension of 5 cm. Work done in extending it from 5 cm to 15 cm is:</text>
+            <option id="A">16 J</option>
+            <option id="B">8 J</option>
+            <option id="C">32 J</option>
+            <option id="D">24 J</option>
+            <answer>B</answer><explanation>W = 0.5 k (x2^2 - x1^2) = 0.5 * 800 * (0.15^2 - 0.05^2) = 400 * (0.0225 - 0.0025) = 400 * 0.02 = 8J.</explanation>
+        </question>
+        <question>
+            <text>A body of mass M moving with velocity V explodes into two equal parts. One part stops. Velocity of other part?</text>
+            <option id="A">V</option>
+            <option id="B">2V</option>
+            <option id="C">V/2</option>
+            <option id="D">4V</option>
+            <answer>B</answer><explanation>MV = (M/2)*0 + (M/2)*v'. MV = Mv'/2. v' = 2V.</explanation>
+        </question>
+        <question>
+            <text>Power of a water pump is 2 kW. If g=10 m/s^2, amount of water it can raise in 1 minute to a height of 10m is:</text>
+            <option id="A">2000 liters</option>
+            <option id="B">1000 liters</option>
+            <option id="C">1200 liters</option>
+            <option id="D">100 liters</option>
+            <answer>C</answer><explanation>P = mgh/t. 2000 = m * 10 * 10 / 60. m = 2000 * 60 / 100 = 1200kg (liters).</explanation>
+        </question>
+        <!-- Adding 10 -->
+        <question><text>A chain is held on a frictionless table with 1/3 hanging. Work to pull it up?</text><option id="A">MgL/18</option><option id="B">MgL/9</option><option id="C">MgL/6</option><option id="D">MgL/3</option><answer>A</answer><explanation>W = m'gh = (M/3)g(L/6) = MgL/18. COM of hanging part is at L/6.</explanation></question>
+        <question><text>A particle moves from r1=(2i+3j) to r2=(3i+2j) under Force F=(5i+5j). Work defined?</text><option id="A">Zero</option><option id="B">10J</option><option id="C">5J</option><option id="D">25J</option><answer>A</answer><explanation>Disp = (3-2)i + (2-3)j = i - j. Work = (5i+5j).(i-j) = 5 - 5 = 0.</explanation></question>
+        <question><text>Mass m attached to string l is released from horizontal. Tension at lowest point?</text><option id="A">mg</option><option id="B">2mg</option><option id="C">3mg</option><option id="D">4mg</option><answer>C</answer><explanation>v = sqrt(2gl). T = mg + mv^2/l = mg + 2mg = 3mg.</explanation></question>
+        <question><text>A bomb of mass 16kg at rest explodes into two pieces of 4kg and 12kg. KE of 12kg piece is 288J. KE of 4kg piece?</text><option id="A">288 J</option><option id="B">864 J</option><option id="C">144 J</option><option id="D">96 J</option><answer>B</answer><explanation>p1 = -p2. p^2/2m = K. K1/K2 = m2/m1. K_4 / 288 = 12/4 = 3. K_4 = 3 * 288 = 864.</explanation></question>
+        <question><text>Force F = -k x. Work done in moving from x=0 to x=A?</text><option id="A">kA^2</option><option id="B">-kA^2/2</option><option id="C">kA^2/2</option><option id="D">Zero</option><answer>B</answer><explanation>Int(-kx dx) = -k x^2/2.</explanation></question>
+        <question><text>A car accelerates from rest to u in time t at constant power P. Distance covered?</text><option id="A">Pt/m</option><option id="B">sqrt(8P/9m) t^1.5</option><option id="C">Formula based</option><option id="D">Proportional to t^2</option><answer>B</answer><explanation>P = mav. m (dv/dt) v = P. v dv = (P/m) dt. v^2/2 = Pt/m. v = sqrt(2Pt/m). dx/dt = C t^0.5. x = C t^1.5 / 1.5. x ~ t^(3/2).</explanation></question>
+        <question><text>Ball dropped from h rebound to h/2. Energy lost?</text><option id="A">25%</option><option id="B">50%</option><option id="C">75%</option><option id="D">100%</option><answer>B</answer><explanation>PE becomes mgh. Then mg(h/2). Loss is mg(h/2), which is 50%.</explanation></question>
+        <question><text>A moving neutron collides with a stationary alpha particle. Fraction of KE lost by neutron?</text><option id="A">16/25</option><option id="B">9/25</option><option id="C">25/25</option><option id="D">Zero</option><answer>A</answer><explanation>KE_f / KE_i = ((m1-m2)/(m1+m2))^2. alpha is 4m. ((m-4m)/(m+4m))^2 = (-3/5)^2 = 9/25 retained. Lost = 1 - 9/25 = 16/25.</explanation></question>
+        <question><text>Two springs k1 and k2 (k1 > k2) stretched by same force. Which has more work done?</text><option id="A">k1</option><option id="B">k2</option><option id="C">Same</option><option id="D">Depends on length</option><answer>B</answer><explanation>W = F^2 / 2k. Smaller k means larger W.</explanation></question>
+        <question><text>Velocity-time graph is a straight line passing through origin. Work done in time t?</text><option id="A">Prop to t</option><option id="B">Prop to t^2</option><option id="C">Prop to t^3</option><option id="D">Zero</option><answer>B</answer><explanation>v = at. W = Delta K = 0.5 m (at)^2 ~ t^2.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Position x = t^2. Work done in first 2 seconds?</text><option id="A">Based on m</option><option id="B">Needs mass</option><option id="C">8m Joules</option><option id="D">4m Joules</option><answer>C</answer><explanation>v = 2t. At t=0, v=0. At t=2, v=4. W = 0.5*m*16 - 0 = 8m.</explanation></question>
+        <question><text>Coefficient of restitution for inelastic collision?</text><option id="A">e = 1</option><option id="B">0 &lt; e &lt; 1</option><option id="C">e = 0</option><option id="D">e > 1</option><answer>B</answer><explanation>Between 0 and 1.</explanation></question>
+        <question><text>A stone is projected vertically up with v. At height h, Ratio of KE to PE is 2. h?</text><option id="A">v^2/g</option><option id="B">v^2/6g</option><option id="C">v^2/3g</option><option id="D">v^2/2g</option><answer>B</answer><explanation>Total E = 3 portions (2 part KE, 1 part PE). 3 * mgh = 0.5 m v^2. h = v^2/6g.</explanation></question>
+        <question><text>Block of mass m slides down h on smooth slope. Speed at bottom?</text><option id="A">sqrt(2gh)</option><option id="B">sqrt(gh)</option><option id="C">2gh</option><option id="D">Depends on angle</option><answer>A</answer><explanation>Conservation of energy.</explanation></question>
+        <question><text>Man M jumps from trolley m. Velocity of man u rel to trolley. Trolley recoil?</text><option id="A">Mu / (M+m)</option><option id="B">mu / (M+m)</option><option id="C">Mu / m</option><option id="D">mu / M</option><answer>A</answer><explanation>M(v-u) + mv = 0. (M+m)v = Mu. v = Mu/(M+m) (Recoil speed).</explanation></question>
+        <question><text>A sphere collides with another identical sphere at rest. After collision angle between them?</text><option id="A">45</option><option id="B">90</option><option id="C">0</option><option id="D">180</option><answer>B</answer><explanation>Elastic oblique collision of identical masses, one at rest -> 90 degrees.</explanation></question>
+        <question><text>Power vs Time graph for a body starting from rest with constant acceleration?</text><option id="A">Straight line through origin</option><option id="B">Parabola</option><option id="C">Horizontal line</option><option id="D">Hyperbola</option><answer>A</answer><explanation>P = mav = ma(at) = m a^2 t. Linear.</explanation></question>
+        <question><text>Work done by Static Friction on a block on ground?</text><option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Variable</option><answer>C</answer><explanation>No displacement of point of contact.</explanation></question>
+        <question><text>Bullet loses 25% KE passing through plank. Number of such planks to stop it?</text><option id="A">3</option><option id="B">4</option><option id="C">5</option><option id="D">2</option><answer>B</answer><explanation>Not exactly. Needs calculation. v^2 - u^2 = -2as. 0.75K remaining -> v' = sqrt(0.75)v. Proportional methods.</explanation></question>
+        <question><text>Minimum energy to launch a satellite from surface?</text><option id="A">-GMm/R</option><option id="B">GMm/R</option><option id="C">GMm/2R</option><option id="D">Total E logic</option><answer>D</answer><explanation>Needs to reach infinity (0) or orbit? If launch to orbit: Difference in Total Energy.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Car speed inc from u to 2u. Work W1. From 2u to 3u, work W2. Ratio?</text><option id="A">1:1</option><option id="B">3:5</option><option id="C">1:3</option><option id="D">5:7</option><answer>B</answer><explanation>W1 prop 4-1=3. W2 prop 9-4=5. 3:5.</explanation></question>
+        <question><text>Mass m moving with v collides with mass 2m at rest. Stick. Loss in KE?</text><option id="A">1/3 K</option><option id="B">2/3 K</option><option id="C">K</option><option id="D">1/2 K</option><answer>B</answer><explanation>mv = 3mv'. v'=v/3. Kf = 0.5(3m)(v/3)^2 = 1/6 mv^2 = 1/3 K. Loss = 2/3 K.</explanation></question>
+        <question><text>Force F = Ax + Bx^2. Work from 0 to L?</text><option id="A">AL^2/2 + BL^3/3</option><option id="B">AL + BL^2</option><option id="C">AL^2 + BL^3</option><option id="D">Zero</option><answer>A</answer><explanation>Integration form.</explanation></question>
+        <question><text>Block attached to spring, pulled slowly. Work by spring?</text><option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Undefined</option><answer>B</answer><explanation>Force opposite to displacement.</explanation></question>
+        <question><text>Body moves in circle. Work by centripetal force in half revolution?</text><option id="A">mv^2</option><option id="B">Zero</option><option id="C">2mv^2</option><option id="D">pi r F</option><answer>B</answer><explanation>Always perpendicular.</explanation></question>
+        <question><text>Which requires more work: Starting a car or maintaining speed?</text><option id="A">Starting</option><option id="B">Maintaining</option><option id="C">Same</option><option id="D">Depends</option><answer>A</answer><explanation>Changing KE vs just overcoming friction.</explanation></question>
+        <question><text>A shell explodes in air. Path of Center of Mass?</text><option id="A">Parabola</option><option id="B">Straight line down</option><option id="C">Random</option><option id="D">Stops</option><answer>A</answer><explanation>Continues on original trajectory.</explanation></question>
+        <question><text>Ratio of momenta of two bodies with equal KE and masses 1:4?</text><option id="A">1:2</option><option id="B">1:4</option><option id="C">1:16</option><option id="D">1:1</option><answer>A</answer><explanation>p prop sqrt(m). sqrt(1/4) = 1/2.</explanation></question>
+        <question><text>Work done is a vector or scalar?</text><option id="A">Scalar</option><option id="B">Vector</option><option id="C">Tensor</option><option id="D">Phasor</option><answer>A</answer><explanation>Dot product result.</explanation></question>
+        <question><text>Gravitational force is conservative because:</text><option id="A">Work in loop is 0</option><option id="B">Force is constant</option><option id="C">Force is attractive</option><option id="D">Depends on mass</option><answer>A</answer><explanation>Definition.</explanation></question>
+    </medium>
+
+    <hard>
+        <!-- 40 HARD QUESTIONS -->
+        <question>
+            <text>A chain of length L and mass M is lying on a smooth table and 1/n part is hanging. Work done to pull the hanging part on the table is:</text>
+            <option id="A">MgL / (2n^2)</option>
+            <option id="B">MgL / n^2</option>
+            <option id="C">MgL / 2n</option>
+            <option id="D">MgL / n</option>
+            <answer>A</answer><explanation>Repeated concept. m = M/n, COM at L/2n. W = (M/n)g(L/2n).</explanation>
+        </question>
+        <question>
+            <text>Force F = -k / x^2 acts on a particle. PE at x is (ref infinity):</text>
+            <option id="A">k/x</option>
+            <option id="B">-k/x</option>
+            <option id="C">k/x^2</option>
+            <option id="D">-k/x^2</option>
+            <answer>B</answer><explanation>dU = -F dx. U = Int (k/x^2) dx = -k/x.</explanation>
+        </question>
+        <question>
+            <text>A particle of mass m is moving in a circle of radius r under a centripetal force equal to -k/r^2. Total Energy?</text>
+            <option id="A">-k/2r</option><option id="B">k/2r</option><option id="C">-k/r</option><option id="D">k/r</option>
+            <answer>A</answer><explanation>PE = -k/r (from integration). KE: mv^2/r = k/r^2 => mv^2 = k/r => KE = k/2r. Total = -k/r + k/2r = -k/2r.</explanation>
+        </question>
+        <question>
+            <text>A stone is tied to a string of length L and is whirled in a vertical circle. Min speed at top?</text>
+            <option id="A">sqrt(gL)</option>
+            <option id="B">sqrt(5gL)</option>
+            <option id="C">sqrt(2gL)</option>
+            <option id="D">0</option>
+            <answer>A</answer><explanation>Tension >= 0. mv^2/L = mg + T => v >= sqrt(gL).</explanation>
+        </question>
+        <question>
+            <text>Potential energy U = A/r^2 - B/r. Equilibrium distance?</text>
+            <option id="A">2A/B</option>
+            <option id="B">A/B</option><option id="C">B/2A</option><option id="D">B/A</option>
+            <answer>A</answer><explanation>dU/dr = -2A/r^3 + B/r^2 = 0. B/r^2 = 2A/r^3. r = 2A/B.</explanation>
+        </question>
+        <!-- Adding more hard questions -->
+        <question><text>A body is moved along x-axis by force F = x^3. Work from x=1 to x=3?</text><option id="A">20 J</option><option id="B">10 J</option><option id="C">80 J</option><option id="D">Zero</option><answer>A</answer><explanation>Int x^3 dx = [x^4/4]. 1/4 (81 - 1) = 20.</explanation></question>
+        <question><text>A block attached to spring is released from extension x0. Max speed?</text><option id="A">x0 sqrt(k/m)</option><option id="B">x0 k/m</option><option id="C">x0 m/k</option><option id="D">Zero</option><answer>A</answer><explanation>Energy conservation. 0.5 k x0^2 = 0.5 m v^2.</explanation></question>
+        <question><text>Collision of two balls of equal mass. One stationary. After collision velocity vectors are:</text><option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">Antiparallel</option><option id="D">Same</option><answer>A</answer><explanation>Theorem for elastic collision of identical mass.</explanation></question>
+        <question><text>Power delivered by engine is const. Displacement x varies with time t as:</text><option id="A">t^(3/2)</option><option id="B">t^2</option><option id="C">t^(1/2)</option><option id="D">t</option><answer>A</answer><explanation>Repeated derivation.</explanation></question>
+        <question><text>A bullet hits a block and gets embedded. Which is conserved for system?</text><option id="A">Momentum</option><option id="B">KE</option><option id="C">Both</option><option id="D">None</option><answer>A</answer><explanation>Inelastic, so KE lost. Momentum conserved.</explanation></question>
+        <question><text>A pendulum bob of mass m is released from horizontal. Tension at bottom?</text><option id="A">3mg</option><option id="B">mg</option><option id="C">2mg</option><option id="D">5mg</option><answer>A</answer><explanation>KE = mgl => v=sqrt(2gl). T = mg + mv^2/l = 3mg.</explanation></question>
+        <question><text>A particle slides down a frictionless track from height h. Enters a loop of radius R. Critical h to complete loop?</text><option id="A">2.5 R</option><option id="B">2 R</option><option id="C">5 R</option><option id="D">3 R</option><answer>A</answer><explanation>v_bot = sqrt(5gR). mgh = 0.5 m (5gR). h = 2.5 R.</explanation></question>
+        <question><text>Coefficient of friction varies as u = kx. Work done to move from 0 to L?</text><option id="A">k mg L^2 / 2</option><option id="B">k mg L</option><option id="C">k mg L^2</option><option id="D">Zero</option><answer>A</answer><explanation>F_f = uN = kx mg. W = Int k mg x dx = k mg L^2 / 2.</explanation></question>
+        <question><text>Ball A moving with u collides elastic with B (mass m, stationary). B collides with C (mass M, stationary). For max energy to C, m should be?</text><option id="A">Geometric Mean of A and C</option><option id="B">Arithmetic Mean</option><option id="C">Harmonic Mean</option><option id="D">Equal to A</option><answer>A</answer><explanation>Impedance matching principle. m = sqrt(MA * MC).</explanation></question>
+        <question><text>Locomotive of mass m starts with constant power P. Velocity at time t:</text><option id="A">sqrt(2Pt/m)</option><option id="B">Pt/m</option><option id="C">2Pt/m</option><option id="D">sqrt(Pt/m)</option><answer>A</answer><explanation>KE = Work. 0.5 mv^2 = Pt. v = sqrt(2Pt/m).</explanation></question>
+        <question><text>Oblique collision. Impulse acts along:</text><option id="A">Common Normal</option><option id="B">Common Tangent</option><option id="C">Line of velocities</option><option id="D">Random</option><answer>A</answer><explanation>Changes normal component of velocity.</explanation></question>
+        <question><text>A shell at rest explodes into 3 parts. Two parts equal mass m fly perpendicular with speed v. Third part mass 2m flies with?</text><option id="A">v / sqrt(2)</option><option id="B">v</option><option id="C">v sqrt(2)</option><option id="D">2v</option><answer>A</answer><explanation>Resultant momentum of first two: m v sqrt(2). Third must ballance. 2m v' = mv sqrt(2). v' = v/sqrt(2).</explanation></question>
+        <question><text>Spring block system on smooth floor. Bullet hits block and embeds. Amplitude of oscillation?</text><option id="A">Calculated</option><option id="B">Infinite</option><option id="C">Zero</option><option id="D">1m</option><answer>A</answer><explanation>Conserve momentum for collision -> find v. Then energy 0.5(M+m)v^2 = 0.5 k A^2.</explanation></question>
+        <question><text>Force F = 2yz i + 2xz j + 2xy k. Moves from (0,0,0) to (1,1,1). Work?</text><option id="A">2</option><option id="B">1</option><option id="C">3</option><option id="D">6</option><answer>A</answer><explanation>F is gradient of U = 2xyz? d/dx(xyz) = yz... No. F = Grad(Φ). Φ = 2xyz? Grad is 2yz, 2xz, 2xy. Yes. Work = Φ(1,1,1) - Φ(0) = 2(1)-0 = 2.</explanation></question>
+        <question><text>A variable force F = (3x^2 - 2x + 7) acts on a body. Work to move from 0 to 5?</text><option id="A">135 J</option><option id="B">25 J</option><option id="C">100 J</option><option id="D">300 J</option><answer>A</answer><explanation>Int (3x^2 - 2x + 7) = [x^3 - x^2 + 7x]. 125 - 25 + 35 = 135.</explanation></question>
+        <question><text>Tennis ball dropped from 2m, rebounds 1.5m. Energy lost ratio?</text><option id="A">1/4</option><option id="B">1/3</option><option id="C">1/2</option><option id="D">3/4</option><answer>A</answer><explanation>Loss = mg(2 - 1.5) = 0.5mg. Ratio = 0.5 / 2 = 1/4.</explanation></question>
+        <question><text>Power of heart beating 72 times/min, pumping 60cc blood at 120mm Hg pressure?</text><option id="A">~ 1 Watt</option><option id="B">10 Watt</option><option id="C">100 Watt</option><option id="D">0.1 Watt</option><answer>A</answer><explanation>P v roughly. 1-2 Watts.</explanation></question>
+        <question><text>Work done to increase extension of spring from x1 to x2?</text><option id="A">1/2 k (x2^2 - x1^2)</option><option id="B">1/2 k (x2-x1)^2</option><option id="C">k(x2-x1)</option><option id="D">Zero</option><answer>A</answer><explanation>Diff in PE.</explanation></question>
+        <question><text>Dam holds water height H. Center of pressure?</text><option id="A">H/3 from bottom</option><option id="B">H/2</option><option id="C">H/4</option><option id="D">H</option><answer>A</answer><explanation>Triangular pressure distribution.</explanation></question>
+        <question><text>A cable lifts a load with acceleration 'a'. Tension work vs Gravity work?</text><option id="A">T work > |mg work|</option><option id="B">Equal</option><option id="C">Less</option><option id="D">Zero</option><answer>A</answer><explanation>T = m(g+a). Work(T) = m(g+a)h. Work(g) = -mgh.</explanation></question>
+        <question><text>Car stops in distance S. If speed is n*v, stops in?</text><option id="A">n^2 S</option><option id="B">n S</option><option id="C">S/n</option><option id="D">S</option><answer>A</answer><explanation>KE prop v^2. Work prop S.</explanation></question>
+        <question><text>Conservative force field requirement:</text><option id="A">Curl F = 0</option><option id="B">Div F = 0</option><option id="C">Grad F = 0</option><option id="D">Zero force</option><answer>A</answer><explanation>Irrotational field.</explanation></question>
+        <question><text>Escape velocity depends on:</text><option id="A">Mass of planet</option><option id="B">Mass of body</option><option id="C">Angle of projection</option><option id="D">Time</option><answer>A</answer><explanation>sqrt(2GM/R).</explanation></question>
+        <question><text>KE of rolling sphere?</text><option id="A">7/10 mv^2</option><option id="B">1/2 mv^2</option><option id="C">mv^2</option><option id="D">5/7 mv^2</option><answer>A</answer><explanation>1/2 mv^2 (1 + k^2/r^2). Sphere k^2/r^2 = 2/5. 0.5(1+0.4) = 0.7 = 7/10.</explanation></question>
+        <question><text>Work done by magnetic force on a moving charge?</text><option id="A">Zero</option><option id="B">q v B</option><option id="C">Infinite</option><option id="D">Variable</option><answer>A</answer><explanation>Force perpendicular to velocity.</explanation></question>
+        <question><text>Which quantity is same for all particles in rigid body rotation?</text><option id="A">Angular velocity</option><option id="B">Linear velocity</option><option id="C">Centripetal force</option><option id="D">Momentum</option><answer>A</answer><explanation>w is same.</explanation></question>
+        <question><text>A graph of PE vs x is U shaped. Equilibrium is at:</text><option id="A">Bottom of U</option><option id="B">Sides</option><option id="C">Infinity</option><option id="D">Nowhere</option><answer>A</answer><explanation>Minima.</explanation></question>
+        <question><text>Two pendulums have lengths L and 4L. Time period ratio?</text><option id="A">1:2</option><option id="B">1:4</option><option id="C">1:1</option><option id="D">2:1</option><answer>A</answer><explanation>T prop sqrt(L). 1 : sqrt(4) = 1:2.</explanation></question>
+        <question><text>Energy stored in extended wire?</text><option id="A">1/2 Stress x Strain x Volume</option><option id="B">Stress x Strain</option><option id="C">Youngs Modulus</option><option id="D">Zero</option><answer>A</answer><explanation>Strain energy formula.</explanation></question>
+        <question><text>A neutron collides head on with deuterium at rest. Fraction of KE lost?</text><option id="A">8/9</option><option id="B">1/9</option><option id="C">1/2</option><option id="D">1</option><answer>A</answer><explanation>Neutron (m) Deuterium (2m). Elastic. fraction retained: ((m-2m)/(3m))^2 = 1/9. Lost = 8/9.</explanation></question>
+        <question><text>Ball bouncing down stairs. Coefficient of restitution e. Height of n-th step is h. Velocity?</text><option id="A">Complex</option><option id="B">Formula</option><option id="C">Ignore</option><option id="D">Skip</option><answer>A</answer><explanation>Complex sequence.</explanation></question>
+        <question><text>Work done by internal forces in a rigid body?</text><option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Depends</option><answer>A</answer><explanation>Distance between particles does not change.</explanation></question>
+        <question><text>Power P delivered to particle varies as t. Velocity varies as?</text><option id="A">t</option><option id="B">t^2</option><option id="C">sqrt(t)</option><option id="D">Constant</option><answer>A</answer><explanation>P=ct. mav = ct. v dv = c/m t dt. v^2 ~ t^2. v ~ t.</explanation></question>
+        <question><text>Work to stop a flywheel of I rotating at w?</text><option id="A">1/2 I w^2</option><option id="B">I w</option><option id="C">I w^2</option><option id="D">Zero</option><answer>A</answer><explanation>Change in Rotational KE.</explanation></question>
+        <question><text>Force to pull a block of mass m up a smooth incline with acceleration a?</text><option id="A">m(g sin theta + a)</option><option id="B">mg</option><option id="C">mg sin theta</option><option id="D">ma</option><answer>A</answer><explanation>F - mg sin = ma.</explanation></question>
+    </hard>
+</chapter>

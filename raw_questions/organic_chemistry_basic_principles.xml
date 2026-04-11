@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="109" name="Organic Chemistry - Some Basic Principles and Techniques">
+    <easy>
+        <question>
+            <text>Vital Force Theory was proposed by:</text>
+            <option id="A">Berzelius</option><option id="B">Wohler</option><option id="C">Lavoisier</option><option id="D">Kekule</option>
+            <answer>A</answer><explanation>Disproved by Wohler.</explanation>
+        </question>
+        <question>
+            <text>First organic compound synthesized in lab:</text>
+            <option id="A">Urea</option><option id="B">Methane</option><option id="C">Acetic acid</option><option id="D">Alcohol</option>
+            <answer>A</answer><explanation>From Ammonium cyanate.</explanation>
+        </question>
+        <question>
+            <text>General formula of Alkanes:</text>
+            <option id="A">CnH2n+2</option><option id="B">CnH2n</option><option id="C">CnH2n-2</option><option id="D">CnH2n+1</option>
+            <answer>A</answer><explanation>Saturated.</explanation>
+        </question>
+        <question>
+            <text>Functional group of Alcohol:</text>
+            <option id="A">-OH</option><option id="B">-CHO</option><option id="C">-COOH</option><option id="D">-CO-</option>
+            <answer>A</answer><explanation>Hydroxyl.</explanation>
+        </question>
+        <question>
+            <text>Functional group of Aldehyde:</text>
+            <option id="A">-CHO</option><option id="B">-OH</option><option id="C">-CO-</option><option id="D">-COOH</option>
+            <answer>A</answer><explanation>Carbonyl at end.</explanation>
+        </question>
+        <question>
+            <text>Functional group of Ketone:</text>
+            <option id="A">-CO-</option><option id="B">-CHO</option><option id="C">-O-</option><option id="D">-COO-</option>
+            <answer>A</answer><explanation>Carbonyl in middle.</explanation>
+        </question>
+        <question>
+            <text>Functional group of Carboxylic Acid:</text>
+            <option id="A">-COOH</option><option id="B">-COOR</option><option id="C">-CONH2</option><option id="D">-OH</option>
+            <answer>A</answer><explanation>Acidic.</explanation>
+        </question>
+        <question>
+            <text>IUPAC name of CH3OH:</text>
+            <option id="A">Methanol</option><option id="B">Ethanol</option><option id="C">Methane</option><option id="D">Methyl alcohol</option>
+            <answer>A</answer><explanation>1 Carbon.</explanation>
+        </question>
+        <question>
+            <text>IUPAC name of CH3COOH:</text>
+            <option id="A">Ethanoic acid</option><option id="B">Methanoic acid</option><option id="C">Propanoic acid</option><option id="D">Acetic acid</option>
+            <answer>A</answer><explanation>2 Carbons.</explanation>
+        </question>
+        <question>
+            <text>Standard state of Carbon for organic chemistry is typically:</text>
+            <option id="A">Tetravalent</option><option id="B">Divalent</option><option id="C">Trivalent</option><option id="D">Pentavalent</option>
+            <answer>A</answer><explanation>Valency 4.</explanation>
+        </question>
+        <question>
+            <text>Isomers have same molecular formula but different:</text>
+            <option id="A">Properties/Structure</option><option id="B">Mass</option><option id="C">Atoms</option><option id="D">Elements</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Chain isomerism is due to difference in:</text>
+            <option id="A">Carbon skeleton</option><option id="B">Functional group</option><option id="C">Position of group</option><option id="D">Valency</option>
+            <answer>A</answer><explanation>n-Butane vs Isobutane.</explanation>
+        </question>
+        <question>
+            <text>Position isomerism involves different position of:</text>
+            <option id="A">Functional group or double bond</option><option id="B">Chain length</option><option id="C">Function type</option><option id="D">Formula</option>
+            <answer>A</answer><explanation>e.g. Propan-1-ol vs Propan-2-ol.</explanation>
+        </question>
+        <question>
+            <text>Functional isomerism example:</text>
+            <option id="A">Alcohol and Ether</option><option id="B">Alkane and Alkene</option><option id="C">Acid and Base</option><option id="D">Ketone and Acid</option>
+            <answer>A</answer><explanation>C2H6O (Ethanol vs Dimethyl ether).</explanation>
+        </question>
+        <question>
+            <text>Homolytic cleavage gives:</text>
+            <option id="A">Free radicals</option><option id="B">Ions</option><option id="C">Carbocations</option><option id="D">Carbanions</option>
+            <answer>A</answer><explanation>Reactions in light.</explanation>
+        </question>
+        <question>
+            <text>Heterolytic cleavage gives:</text>
+            <option id="A">Ions (Cation/Anion)</option><option id="B">Free radicals</option><option id="C">Neutral molecules</option><option id="D">Nothing</option>
+            <answer>A</answer><explanation>Unequal sharing.</explanation>
+        </question>
+        <question>
+            <text>Nucleophile is:</text>
+            <option id="A">Electron rich</option><option id="B">Electron deficient</option><option id="C">Neutral always</option><option id="D">Positive charge</option>
+            <answer>A</answer><explanation>Nucleus loving.</explanation>
+        </question>
+        <question>
+            <text>Electrophile is:</text>
+            <option id="A">Electron loving (deficient)</option><option id="B">Nucleus loving</option><option id="C">Electron rich</option><option id="D">Negative charge</option>
+            <answer>A</answer><explanation>Seeks electrons.</explanation>
+        </question>
+        <question>
+            <text>Shape of methyl free radical:</text>
+            <option id="A">Planar</option><option id="B">Pyramidal</option><option id="C">Tetrahedral</option><option id="D">Linear</option>
+            <answer>A</answer><explanation>sp2 hybridized C.</explanation>
+        </question>
+        <question>
+            <text>Shape of methyl carbocation:</text>
+            <option id="A">Planar</option><option id="B">Pyramidal</option><option id="C">Linear</option><option id="D">Bent</option>
+            <answer>A</answer><explanation>sp2.</explanation>
+        </question>
+        <question>
+            <text>Inductive effect operates through:</text>
+            <option id="A">Sigma bonds</option><option id="B">Pi bonds</option><option id="C">Space</option><option id="D">Solvent</option>
+            <answer>A</answer><explanation>Permanent displacement.</explanation>
+        </question>
+        <question>
+            <text>Which group shows +I effect?</text>
+            <option id="A">Methyl (-CH3)</option><option id="B">-Cl</option><option id="C">-NO2</option><option id="D">-COOH</option>
+            <answer>A</answer><explanation>Electron donating alkyl.</explanation>
+        </question>
+        <question>
+            <text>Which group shows -I effect?</text>
+            <option id="A">-NO2</option><option id="B">-CH3</option><option id="C">-H</option><option id="D">-C2H5</option>
+            <answer>A</answer><explanation>Electron withdrawing.</explanation>
+        </question>
+        <question>
+            <text>Resonance effect involves delocalization of:</text>
+            <option id="A">Pi electrons</option><option id="B">Sigma electrons</option><option id="C">Protons</option><option id="D">Atoms</option>
+            <answer>A</answer><explanation>Conjugation.</explanation>
+        </question>
+        <question>
+            <text>Benzene exhibits:</text>
+            <option id="A">Resonance</option><option id="B">Inductive only</option><option id="C">Electromeric only</option><option id="D">No effect</option>
+            <answer>A</answer><explanation>Structure stability.</explanation>
+        </question>
+        <question>
+            <text>Suffix for Aldehyde in IUPAC:</text>
+            <option id="A">-al</option><option id="B">-ol</option><option id="C">-one</option><option id="D">-oic acid</option>
+            <answer>A</answer><explanation>Methanal.</explanation>
+        </question>
+        <question>
+            <text>Suffix for Ketone:</text>
+            <option id="A">-one</option><option id="B">-al</option><option id="C">-ol</option><option id="D">-ine</option>
+            <answer>A</answer><explanation>Propanone.</explanation>
+        </question>
+        <question>
+            <text>Suffix for Alcohol:</text>
+            <option id="A">-ol</option><option id="B">-al</option><option id="C">-yl</option><option id="D">-ic</option>
+            <answer>A</answer><explanation>Methanol.</explanation>
+        </question>
+        <question>
+            <text>Purification of solid organic compounds usually by:</text>
+            <option id="A">Crystallization</option><option id="B">Distillation</option><option id="C">Filtration</option><option id="D">Sedimentation</option>
+            <answer>A</answer><explanation>Solubility difference.</explanation>
+        </question>
+        <question>
+            <text>Distillation is used for:</text>
+            <option id="A">Liquids with different boiling points</option><option id="B">Solids</option><option id="C">Gases</option><option id="D">Elements</option>
+            <answer>A</answer><explanation>Separation.</explanation>
+        </question>
+        <question>
+            <text>Chromatography is based on:</text>
+            <option id="A">Differential adsorption/partition</option><option id="B">Boiling point</option><option id="C">Density</option><option id="D">Mass</option>
+            <answer>A</answer><explanation>Stationary/Mobile phase.</explanation>
+        </question>
+        <question>
+            <text>Lassaigne's test detects:</text>
+            <option id="A">N, S, Halogens</option><option id="B">C, H, O</option><option id="C">Metals</option><option id="D">Gases</option>
+            <answer>A</answer><explanation>Sodium fusion extract.</explanation>
+        </question>
+        <question>
+            <text>Blue color in Lassaigne's test for Nitrogen is due to:</text>
+            <option id="A">Ferric ferrocyanide (Prussian Blue)</option><option id="B">Sodium cyanide</option><option id="C">Nitrobenzene</option><option id="D">Ammonia</option>
+            <answer>A</answer><explanation>Complex formation.</explanation>
+        </question>
+        <question>
+            <text>Beilstein test detects:</text>
+            <option id="A">Halogens (Green flame with Cu)</option><option id="B">Nitrogen</option><option id="C">Sulfur</option><option id="D">Carbon</option>
+            <answer>A</answer><explanation>Preliminary.</explanation>
+        </question>
+        <question>
+            <text>Dumas method is for estimation of:</text>
+            <option id="A">Nitrogen</option><option id="B">Halogens</option><option id="C">Sulfur</option><option id="D">Phosphorus</option>
+            <answer>A</answer><explanation>Measuring N2 gas volume.</explanation>
+        </question>
+        <question>
+            <text>Kjeldahl method is for estimation of:</text>
+            <option id="A">Nitrogen</option><option id="B">Carbon</option><option id="C">Oxygen</option><option id="D">Sulfur</option>
+            <answer>A</answer><explanation>Ammonia titration.</explanation>
+        </question>
+        <question>
+            <text>Carius method is for:</text>
+            <option id="A">Halogens and Sulfur</option><option id="B">Nitrogen</option><option id="C">Hydrogen</option><option id="D">Oxygen</option>
+            <answer>A</answer><explanation>AgX precipitate.</explanation>
+        </question>
+        <question>
+            <text>Molecular mass can be determined by:</text>
+            <option id="A">Mass Spectrometry/Victor Meyer</option><option id="B">Titration</option><option id="C">Distillation</option><option id="D">Filtration</option>
+            <answer>A</answer><explanation>Vapor density.</explanation>
+        </question>
+        <question>
+            <text>Empirical formula represents:</text>
+            <option id="A">Simplest whole number ratio</option><option id="B">Exact number of atoms</option><option id="C">Mass ratio</option><option id="D">Volume ratio</option>
+            <answer>A</answer><explanation>CH for Benzene (C6H6).</explanation>
+        </question>
+        <question>
+            <text>Bond line notation for Propane:</text>
+            <option id="A">/\ (Zigzag)</option><option id="B">-</option><option id="C">|</option><option id="D">triangle</option>
+            <answer>A</answer><explanation>3 carbons.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Stability order of Carbocations?</text>
+            <option id="A">Tertiary > Secondary > Primary</option><option id="B">Primary > Secondary > Tertiary</option><option id="C">All equal</option><option id="D">Secondary > Tertiary > Primary</option>
+            <answer>A</answer><explanation>Inductive and Hyperconjugation.</explanation>
+        </question>
+        <question>
+            <text>Stability order of Carbanions?</text>
+            <option id="A">Primary > Secondary > Tertiary</option><option id="B">Tertiary > Secondary > Primary</option><option id="C">Tertiary > Primary</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>Inverse of carbocation.</explanation>
+        </question>
+        <question>
+            <text>Stability or Free Radicals?</text>
+            <option id="A">Tertiary > Secondary > Primary</option><option id="B">Primary > Secondary</option><option id="C">Primary highest</option><option id="D">None</option>
+            <answer>A</answer><explanation>Similar to carbocations.</explanation>
+        </question>
+        <question>
+            <text>Hyperconjugation involves delocalization of:</text>
+            <option id="A">Sigma electrons of C-H bond into p-orbital</option><option id="B">Pi electrons</option><option id="C">Lone pair</option><option id="D">C-C bond</option>
+            <answer>A</answer><explanation>No-bond resonance.</explanation>
+        </question>
+        <question>
+            <text>Number of hyperconjugative structures in Propene?</text>
+            <option id="A">3 (Due to 3 alpha H)</option><option id="B">6</option><option id="C">0</option><option id="D">9</option>
+            <answer>A</answer><explanation>Equals alpha Hydrogen atoms.</explanation>
+        </question>
+        <question>
+            <text>Electromeric effect (E) is:</text>
+            <option id="A">Temporary</option><option id="B">Permanent</option><option id="C">Both</option><option id="D">None</option>
+            <answer>A</answer><explanation>Only in presence of reagent.</explanation>
+        </question>
+        <question>
+            <text>Which is meta-directing group?</text>
+            <option id="A">-NO2</option><option id="B">-CH3</option><option id="C">-OH</option><option id="D">-Cl</option>
+            <answer>A</answer><explanation>Electron withdrawing deactivates Ring.</explanation>
+        </question>
+        <question>
+            <text>Which is ortho-para directing?</text>
+            <option id="A">-CH3</option><option id="B">-NO2</option><option id="C">-CHO</option><option id="D">-COOH</option>
+            <answer>A</answer><explanation>Activating groups.</explanation>
+        </question>
+        <question>
+            <text>Halogen (-Cl) is ortho-para directing but:</text>
+            <option id="A">Deactivating</option><option id="B">Activating</option><option id="C">Neutral</option><option id="D">Meta directing</option>
+            <answer>A</answer><explanation>Inductive withdrawal dominates reactivity, Resonance controls orientation.</explanation>
+        </question>
+        <question>
+            <text>Most acidic compound?</text>
+            <option id="A">Trichloroacetic acid</option><option id="B">Dichloroacetic acid</option><option id="C">Chloroacetic acid</option><option id="D">Acetic acid</option>
+            <answer>A</answer><explanation>-I effect increases acidity.</explanation>
+        </question>
+        <question>
+            <text>IUPAC name of Neopentane?</text>
+            <option id="A">2,2-Dimethylpropane</option><option id="B">2-Methylbutane</option><option id="C">Pentane</option><option id="D">2-Methylpropane</option>
+            <answer>A</answer><explanation>Structure C(CH3)4.</explanation>
+        </question>
+        <question>
+            <text>Geometrical isomerism is shown by:</text>
+            <option id="A">Alkenes (Restricted rotation)</option><option id="B">Alkanes</option><option id="C">Alkynes</option><option id="D">Alcohols</option>
+            <answer>A</answer><explanation>Cis-Trans.</explanation>
+        </question>
+        <question>
+            <text>Which exhibits Cis-Trans isomerism?</text>
+            <option id="A">But-2-ene</option><option id="B">Propene</option><option id="C">Ethene</option><option id="D">But-1-ene</option>
+            <answer>A</answer><explanation>Groups on double bonded carbons must be different.</explanation>
+        </question>
+        <question>
+            <text>Chiral carbon must have:</text>
+            <option id="A">4 different groups attached</option><option id="B">3 different</option><option id="C">Double bond</option><option id="D">Symmetry</option>
+            <answer>A</answer><explanation>Asymmetric.</explanation>
+        </question>
+        <question>
+            <text>Enantiomers are:</text>
+            <option id="A">Non-superimposable mirror images</option><option id="B">Superimposable</option><option id="C">Different formula</option><option id="D">Different reaction</option>
+            <answer>A</answer><explanation>Optical isomers.</explanation>
+        </question>
+        <question>
+            <text>Racemic mixture is:</text>
+            <option id="A">Optically inactive</option><option id="B">Dextrorotatory</option><option id="C">Levorotatory</option><option id="D">Pure</option>
+            <answer>A</answer><explanation>External compensation.</explanation>
+        </question>
+        <question>
+            <text>Rf value in chromatography is always:</text>
+            <option id="A">&lt;= 1</option><option id="B">&gt; 1</option><option id="C">0</option><option id="D">Negative</option>
+            <answer>A</answer><explanation>Ratio of distances.</explanation>
+        </question>
+        <question>
+            <text>Steam distillation is used for substances that are:</text>
+            <option id="A">Steam volatile and insoluble in water</option><option id="B">Water soluble</option><option id="C">Non-volatile</option><option id="D">Gases</option>
+            <answer>A</answer><explanation>Lowers boiling point of mixture.</explanation>
+        </question>
+        <question>
+            <text>Vacuum distillation is used for:</text>
+            <option id="A">Substances that decompose at BP</option><option id="B">Stable liquids</option><option id="C">Low BP liquids</option><option id="D">Water</option>
+            <answer>A</answer><explanation>Glycerol.</explanation>
+        </question>
+        <question>
+            <text>Metamerism is shown by:</text>
+            <option id="A">Ethers</option><option id="B">Alcohols</option><option id="C">Aldehydes</option><option id="D">Acids</option>
+            <answer>A</answer><explanation>Different alkyl chains around group.</explanation>
+        </question>
+        <question>
+            <text>Example of Metamers:</text>
+            <option id="A">Ethoxyethane and Methoxypropane</option><option id="B">Ethanol and Methanol</option><option id="C">Propane and Butane</option><option id="D">None</option>
+            <answer>A</answer><explanation>C-O-C skeleton difference.</explanation>
+        </question>
+        <question>
+            <text>Tautomerism involves shift of:</text>
+            <option id="A">Hydrogen atom (Proton)</option><option id="B">Carbon</option><option id="C">Oxygen</option><option id="D">Pi bond only</option>
+            <answer>A</answer><explanation>Keto-Enol.</explanation>
+        </question>
+        <question>
+            <text>Keto form is generally:</text>
+            <option id="A">More stable than Enol</option><option id="B">Less stable</option><option id="C">Equal</option><option id="D">Unstable</option>
+            <answer>A</answer><explanation>Bond energy C=O.</explanation>
+        </question>
+        <question>
+            <text>Which compound shows Tautomerism?</text>
+            <option id="A">Acetone</option><option id="B">Benzophenone</option><option id="C">Formaldehyde</option><option id="D">Ether</option>
+            <answer>A</answer><explanation>Needs alpha-Hydrogen.</explanation>
+        </question>
+        <question>
+            <text>Calculate %N if 1.4 g compound yields 0.1 mol NH3 (Kjeldahl)?</text>
+            <option id="A">Wait. 0.1 mol N = 1.4g. 1.4/1.4 = 100%?</option><option id="B">50%</option><option id="C">10%</option><option id="D">20%</option>
+            <answer>A</answer><explanation>Usually percentage involves simple math. N is 14g/mol. 0.1 mol is 1.4g. 100%.</explanation>
+        </question>
+        <question>
+            <text>IUPAC Name: CH3-CH=CH-COOH?</text>
+            <option id="A">But-2-enoic acid</option><option id="B">But-1-enoic acid</option><option id="C">Prop-2-enoic</option><option id="D">Butanoic acid</option>
+            <answer>A</answer><explanation>Principal group COOH is C1.</explanation>
+        </question>
+        <question>
+            <text>Order of priority: -COOH vs -OH?</text>
+            <option id="A">-COOH > -OH</option><option id="B">-OH > -COOH</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Acid highest.</explanation>
+        </question>
+        <question>
+            <text>Order of priority: -CHO vs -CO-?</text>
+            <option id="A">-CHO > -CO-</option><option id="B">-CO- > -CHO</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Aldehyde higher.</explanation>
+        </question>
+        <question>
+            <text>Identify the electrophile in nitration of benzene:</text>
+            <option id="A">NO2+</option><option id="B">NO2-</option><option id="C">NO3-</option><option id="D">NO</option>
+            <answer>A</answer><explanation>Nitronium ion.</explanation>
+        </question>
+        <question>
+            <text>Identify nucleophile in hydrolysis of alkyl halide:</text>
+            <option id="A">OH-</option><option id="B">H+</option><option id="C">K+</option><option id="D">Cl-</option>
+            <answer>A</answer><explanation>Attacks carbon.</explanation>
+        </question>
+        <question>
+            <text>Reagent for detection of Sulphur (Lead Acetate test) gives:</text>
+            <option id="A">Black ppt (PbS)</option><option id="B">White ppt</option><option id="C">Yellow ppt</option><option id="D">Red color</option>
+            <answer>A</answer><explanation>Sulfide formation.</explanation>
+        </question>
+        <question>
+            <text>Sodium nitroprusside test for Sulphur gives:</text>
+            <option id="A">Purple/Violet color</option><option id="B">Blue</option><option id="C">Red</option><option id="D">Green</option>
+            <answer>A</answer><explanation>Complex [Fe(CN)5NOS]4-.</explanation>
+        </question>
+        <question>
+            <text>Layer test (CS2/CHCl3) is for:</text>
+            <option id="A">Bromine/Iodine detection</option><option id="B">Chlorine</option><option id="C">Fluorine</option><option id="D">C</option>
+            <answer>A</answer><explanation>Organic layer color.</explanation>
+        </question>
+        <question>
+            <text>Example of elimination reaction:</text>
+            <option id="A">Ethanol -> Ethene</option><option id="B">Ethene -> Ethanol</option><option id="C">Methane -> Chloromethane</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dehydration.</explanation>
+        </question>
+        <question>
+            <text>Addition reaction characteristic of:</text>
+            <option id="A">Unsaturated compounds</option><option id="B">Saturated</option><option id="C">Aromatic</option><option id="D">Acids</option>
+            <answer>A</answer><explanation>Breaks pi bond.</explanation>
+        </question>
+        <question>
+            <text>Substitution reaction characteristic of:</text>
+            <option id="A">Saturated compounds / Aromatic</option><option id="B">Alkenes</option><option id="C">Alkynes</option><option id="D">Polymers</option>
+            <answer>A</answer><explanation>Replacement.</explanation>
+        </question>
+        <question>
+            <text>Friedel-Crafts alkylation electrophile is:</text>
+            <option id="A">Carbocation (R+)</option><option id="B">Carbanion</option><option id="C">Radical</option><option id="D">Acyl</option>
+            <answer>A</answer><explanation>Generated by AlCl3.</explanation>
+        </question>
+        <question>
+            <text>Hybridization of Carbon in carbocation:</text>
+            <option id="A">sp2</option><option id="B">sp3</option><option id="C">sp</option><option id="D">dsp2</option>
+            <answer>A</answer><explanation>3 sigma bonds, empty p.</explanation>
+        </question>
+        <question>
+            <text>Hybridization of Carbon in carbanion:</text>
+            <option id="A">sp3</option><option id="B">sp2</option><option id="C">sp</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pyramidal.</explanation>
+        </question>
+        <question>
+            <text>Is CCl4 organic?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">Inorganic</option>
+            <answer>A</answer><explanation>Derivative of methane.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Number of sigma and pi bonds in Naphthalene?</text>
+            <option id="A">19 Sigma, 5 Pi</option><option id="B">10 Sigma, 5 Pi</option><option id="C">19 S, 4 P</option><option id="D">15 S, 5 P</option>
+            <answer>A</answer><explanation>Structure C10H8. Sum bonds.</explanation>
+        </question>
+        <question>
+            <text>Carius method: 0.2g compound gave 0.188g AgBr. %Br?</text>
+            <option id="A">40% approx</option><option id="B">20%</option><option id="C">80%</option><option id="D">10%</option>
+            <answer>A</answer><explanation>AgBr = 188 g/mol. 0.188g is 0.001 mol. Br is 80g/mol. Mass Br = 0.08g. (0.08/0.2)*100 = 40%.</explanation>
+        </question>
+        <question>
+            <text>Specific rotation depends on:</text>
+            <option id="A">Nature of substance, length, conc, T, wavelength</option><option id="B">Only Conc</option><option id="C">Only Length</option><option id="D">Pressure</option>
+            <answer>A</answer><explanation>Physical property.</explanation>
+        </question>
+        <question>
+            <text>Meso compound is:</text>
+            <option id="A">Optically inactive due to internal compensation</option><option id="B">Active</option><option id="C">Racemic</option><option id="D">Mirror image</option>
+            <answer>A</answer><explanation>Plane of symmetry.</explanation>
+        </question>
+        <question>
+            <text>Diastereomers are:</text>
+            <option id="A">Stereoisomers not mirror images</option><option id="B">Mirror images</option><option id="C">Structural Isomers</option><option id="D">Identical</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Stability of Benzyl carbocation vs t-Butyl?</text>
+            <option id="A">Usually Benzyl ~ t-Butyl (or slightly less/more depending on solvent)</option><option id="B">Benzyl &lt; t-Butyl</option><option id="C">Benzyl &gt; t-Butyl</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>Resonance vs Hyperconjugation. Generally comparable.</explanation>
+        </question>
+        <question>
+            <text>Anti-aromatic compound has:</text>
+            <option id="A">4n pi electrons (Planar, Cyclic)</option><option id="B">4n+2</option><option id="C">2n</option><option id="D">Incomplete conjugation</option>
+            <answer>A</answer><explanation>Unstable.</explanation>
+        </question>
+        <question>
+            <text>Cyclobutadiene is:</text>
+            <option id="A">Anti-aromatic</option><option id="B">Aromatic</option><option id="C">Non-aromatic</option><option id="D">Stable</option>
+            <answer>A</answer><explanation>4 pi electrons.</explanation>
+        </question>
+        <question>
+            <text>Huckel Rule for aromaticity:</text>
+            <option id="A">(4n+2) pi electrons</option><option id="B">4n</option><option id="C">2n+2</option><option id="D">n</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Acid strength: Phenol vs Alcohol?</text>
+            <option id="A">Phenol > Alcohol</option><option id="B">Alcohol > Phenol</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Phenoxide stabilized by resonance.</explanation>
+        </question>
+        <question>
+            <text>Acid strength: Formic acid vs Acetic acid?</text>
+            <option id="A">Formic > Acetic</option><option id="B">Acetic > Formic</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Methyl group +I destabilizes anion.</explanation>
+        </question>
+        <question>
+            <text>Basic strength: Methylamine vs Ammonia (in gas)?</text>
+            <option id="A">Methylamine > Ammonia</option><option id="B">Ammonia > Methylamine</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>+I effect stabilizes cation.</explanation>
+        </question>
+        <question>
+            <text>Basic strength in water: (CH3)2NH vs CH3NH2 vs (CH3)3N?</text>
+            <option id="A">2 deg > 1 deg > 3 deg</option><option id="B">3 > 2 > 1</option><option id="C">1 > 2 > 3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Steric + Solvation + Inductive trade-off.</explanation>
+        </question>
+        <question>
+            <text>Conformation of Ethane with minimal energy?</text>
+            <option id="A">Staggered</option><option id="B">Eclipsed</option><option id="C">Skew</option><option id="D">Gauche</option>
+            <answer>A</answer><explanation>Min repulsion.</explanation>
+        </question>
+        <question>
+            <text>Energy barrier in Ethane rotation?</text>
+            <option id="A">12.5 kJ/mol</option><option id="B">100 kJ</option><option id="C">0</option><option id="D">500 kJ</option>
+            <answer>A</answer><explanation>Torsional strain.</explanation>
+        </question>
+        <question>
+            <text>Calculate %C in compound (0.2g gives 0.44g CO2)?</text>
+            <option id="A">60%</option><option id="B">44%</option><option id="C">20%</option><option id="D">12%</option>
+            <answer>A</answer><explanation>0.44g CO2 is 0.01 mol. C is 0.12g. (0.12/0.2)*100 = 60%.</explanation>
+        </question>
+        <question>
+            <text>Identify product of ozonolysis of But-2-ene:</text>
+            <option id="A">Ethanal (2 moles)</option><option id="B">Methanal</option><option id="C">Propanone</option><option id="D">CO2</option>
+            <answer>A</answer><explanation>Symmetric split CH3-CH=CH-CH3.</explanation>
+        </question>
+        <question>
+            <text>Test for unsaturation?</text>
+            <option id="A">Bromine water (Decolorize) / Baeyer's Reagent</option><option id="B">Litmus</option><option id="C">Heating</option><option id="D">HCl</option>
+            <answer>A</answer><explanation>Double bond detection.</explanation>
+        </question>
+        <question>
+            <text>Baeyer's Reagent is:</text>
+            <option id="A">Dilute alkaline KMnO4</option><option id="B">Conc H2SO4</option><option id="C">Br2 in CCl4</option><option id="D">HCl</option>
+            <answer>A</answer><explanation>Pink to Brown.</explanation>
+        </question>
+        <question>
+            <text>Compound C4H10O has how many structural isomers (Alcohol+Ether)?</text>
+            <option id="A">7</option><option id="B">4</option><option id="C">3</option><option id="D">2</option>
+            <answer>A</answer><explanation>4 Alcohols (n, iso, sec, t) + 3 Ethers (diethyl, methyl-propyl, methyl-iso-propyl).</explanation>
+        </question>
+        <question>
+            <text>In chromatography, Stationary phase is Solid. Type is:</text>
+            <option id="A">Adsorption Chromatography</option><option id="B">Partition</option><option id="C">Gas</option><option id="D">Paper</option>
+            <answer>A</answer><explanation>Column/TLC.</explanation>
+        </question>
+        <question>
+            <text>Calculation of S in Carius. Factor for BaSO4?</text>
+            <option id="A">32/233 * Mass BaSO4</option><option id="B">32/100</option><option id="C">96/233</option><option id="D">M/2</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Nitrogen estimation failing for:</text>
+            <option id="A">Nitro, Azo comp, Pyridine (Precipitation/Ring N)</option><option id="B">Amines</option><option id="C">Amide</option><option id="D">Urea</option>
+            <answer>A</answer><explanation>Kjeldahl limitations.</explanation>
+        </question>
+        <question>
+            <text>Singlet Carbene structure:</text>
+            <option id="A">Bent, sp2, Paired electrons</option><option id="B">Linear, sp, Unpaired</option><option id="C">Tetrahedral</option><option id="D">Planar</option>
+            <answer>A</answer><explanation>Electrons in sp2 orbital.</explanation>
+        </question>
+        <question>
+            <text>Triplet Carbene structure:</text>
+            <option id="A">Linear, sp, Unpaired electrons (Biradical)</option><option id="B">Bent</option><option id="C">Planar</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hund's rule.</explanation>
+        </question>
+        <question>
+            <text>Mechanism of SN1 reaction:</text>
+            <option id="A">Two steps, Carbocation intermediate</option><option id="B">One step</option><option id="C">Carbanion</option><option id="D">Radical</option>
+            <answer>A</answer><explanation>Unimolecular Nucleophilic Substitution.</explanation>
+        </question>
+        <question>
+            <text>Identify 2,4-DNP test:</text>
+            <option id="A">For Carbonyl group (Orange ppt)</option><option id="B">Alcohol</option><option id="C">Acid</option><option id="D">Halide</option>
+            <answer>A</answer><explanation>Brady's reagent.</explanation>
+        </question>
+        <question>
+            <text>Separation of o- and p-nitrophenol?</text>
+            <option id="A">Steam distillation</option><option id="B">Filtration</option><option id="C">Crystallization</option><option id="D">Chemical</option>
+            <answer>A</answer><explanation>Ortho is volatile (Intra-H bond).</explanation>
+        </question>
+        <question>
+            <text>Absolute configuration (R/S) is determined by:</text>
+            <option id="A">CIP Rules (Cahn-Ingold-Prelog)</option><option id="B">Alphabetical</option><option id="C">Mass</option><option id="D">Density</option>
+            <answer>A</answer><explanation>Priority.</explanation>
+        </question>
+        <question>
+            <text>Identify meso-tartaric acid:</text>
+            <option id="A">Optically inactive</option><option id="B">Active</option><option id="C">Gas</option><option id="D">Liquid</option>
+            <answer>A</answer><explanation>Symmetry.</explanation>
+        </question>
+        <question>
+            <text>Number of Stereoisomers for 2,3-dichlorobutane?</text>
+            <option id="A">3 (Meso, d, l)</option><option id="B">4</option><option id="C">2</option><option id="D">1</option>
+            <answer>A</answer><explanation>Formula 2^(n-1) + 2^(n/2-1) for symmetric.</explanation>
+        </question>
+        <question>
+            <text>Correct stability of carbanions: Allyl vs Methyl?</text>
+            <option id="A">Allyl > Methyl</option><option id="B">Methyl > Allyl</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Resonance stabilization.</explanation>
+        </question>
+        <question>
+            <text>Inductive effect disappears after:</text>
+            <option id="A">3-4 bonds</option><option id="B">1 bond</option><option id="C">10 bonds</option><option id="D">Never</option>
+            <answer>A</answer><explanation>Distance dependent.</explanation>
+        </question>
+        <question>
+            <text>IUPAC name: C6H5-CO-CH3?</text>
+            <option id="A">Acetophenone</option><option id="B">Benzophenone</option><option id="C">Phenyl methanone</option><option id="D">Methyl benzoate</option>
+            <answer>A</answer><explanation>Phenyl methyl ketone.</explanation>
+        </question>
+        <question>
+            <text>Hybridization of C in HCHO?</text>
+            <option id="A">sp2</option><option id="B">sp3</option><option id="C">sp</option><option id="D">dsp2</option>
+            <answer>A</answer><explanation>Double bond.</explanation>
+        </question>
+        <question>
+            <text>Toluene on oxidation with KMnO4 gives:</text>
+            <option id="A">Benzoic acid</option><option id="B">Benzaldehyde</option><option id="C">Benzyl alcohol</option><option id="D">Benzene</option>
+            <answer>A</answer><explanation>Side chain oxidation.</explanation>
+        </question>
+        <question>
+            <text>Ortho-effect in benzoic acids:</text>
+            <option id="A">Increases acidity (Steric inhibition of resonance?)</option><option id="B">Decreases acidity</option><option id="C">No effect</option><option id="D">Basic</option>
+            <answer>A</answer><explanation>Ortho substituted is stronger.</explanation>
+        </question>
+        <question>
+            <text>Nucleophilicity order in polar protic solvent: I- vs F-?</text>
+            <option id="A">I- > F-</option><option id="B">F- > I-</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>F- is highly solvated (H-bonded), less mobile.</explanation>
+        </question>
+        <question>
+            <text>In polar aprotic solvent: F- vs I-?</text>
+            <option id="A">F- > I-</option><option id="B">I- > F-</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basicity dictates.</explanation>
+        </question>
+    </hard>
+</chapter>

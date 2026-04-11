@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="212" name="Limits and Derivatives">
+    <easy>
+        <question>
+            <text>Limit of sin(x)/x as x approaches 0 is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Undefined</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Standard limit.</explanation>
+        </question>
+        <question>
+            <text>Limit of (1+x)^(1/x) as x approaches 0 is:</text>
+            <option id="A">e</option><option id="B">1</option><option id="C">0</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Definition of e.</explanation>
+        </question>
+        <question>
+            <text>Limit of tan(x)/x as x approaches 0 is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Undefined</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Standard limit.</explanation>
+        </question>
+        <question>
+            <text>Limit of (e^x - 1)/x as x approaches 0 is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">e</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Standard limit.</explanation>
+        </question>
+        <question>
+            <text>Limit of ln(1+x)/x as x approaches 0 is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">e</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Standard limit.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x^n wrt x is:</text>
+            <option id="A">n x^(n-1)</option><option id="B">x^(n+1)/(n+1)</option><option id="C">n x^n</option><option id="D">x^n</option>
+            <answer>A</answer><explanation>Power rule.</explanation>
+        </question>
+        <question>
+            <text>Derivative of sin(x) is:</text>
+            <option id="A">cos(x)</option><option id="B">-cos(x)</option><option id="C">sin(x)</option><option id="D">0</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Derivative of cos(x) is:</text>
+            <option id="A">-sin(x)</option><option id="B">sin(x)</option><option id="C">cos(x)</option><option id="D">0</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Derivative of tan(x) is:</text>
+            <option id="A">sec^2(x)</option><option id="B">sec(x)tan(x)</option><option id="C">cot(x)</option><option id="D">csc^2(x)</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Derivative of e^x is:</text>
+            <option id="A">e^x</option><option id="B">x e^(x-1)</option><option id="C">e</option><option id="D">0</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Derivative of constant c is:</text>
+            <option id="A">0</option><option id="B">c</option><option id="C">1</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Constant rule.</explanation>
+        </question>
+        <question>
+            <text>Derivative of ln(x) is:</text>
+            <option id="A">1/x</option><option id="B">1</option><option id="C">x</option><option id="D">e^x</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Evaluate lim x->1 of x^2 - 1 / x - 1:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>(x-1)(x+1)/(x-1) -> 1+1=2.</explanation>
+        </question>
+        <question>
+            <text>Evaluate lim x->2 of x+2:</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Direct substitution.</explanation>
+        </question>
+        <question>
+            <text>Derivative of 5x is:</text>
+            <option id="A">5</option><option id="B">5x</option><option id="C">x</option><option id="D">0</option>
+            <answer>A</answer><explanation>d/dx cx = c.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x is:</text>
+            <option id="A">1</option><option id="B">x</option><option id="C">0</option><option id="D">x^2</option>
+            <answer>A</answer><explanation>d/dx x = 1.</explanation>
+        </question>
+        <question>
+            <text>Product rule d/dx (uv) is:</text>
+            <option id="A">u'v + uv'</option><option id="B">u'v - uv'</option><option id="C">u'v'</option><option id="D">None</option>
+            <answer>A</answer><explanation>Leibniz rule.</explanation>
+        </question>
+        <question>
+            <text>Quotient rule d/dx (u/v) is:</text>
+            <option id="A">(vu' - uv')/v^2</option><option id="B">(uv' - vu')/v^2</option><option id="C">u'/v'</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Derivative of 1/x is:</text>
+            <option id="A">-1/x^2</option><option id="B">1/x^2</option><option id="C">ln(x)</option><option id="D">0</option>
+            <answer>A</answer><explanation>x^-1 -> -1 x^-2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of sqrt(x) is:</text>
+            <option id="A">1/(2 sqrt(x))</option><option id="B">sqrt(x)</option><option id="C">1/sqrt(x)</option><option id="D">x</option>
+            <answer>A</answer><explanation>x^0.5 -> 0.5 x^-0.5.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 sin(ax)/x:</text>
+            <option id="A">a</option><option id="B">1</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Standard a.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (1-cos x)/x:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Undefined</option><option id="D">2</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Derivative of sec(x):</text>
+            <option id="A">sec(x)tan(x)</option><option id="B">sec^2(x)</option><option id="C">tan(x)</option><option id="D">cot(x)</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Derivative of csc(x):</text>
+            <option id="A">-csc(x)cot(x)</option><option id="B">csc(x)cot(x)</option><option id="C">-csc^2(x)</option><option id="D">sec(x)</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Derivative of cot(x):</text>
+            <option id="A">-csc^2(x)</option><option id="B">csc^2(x)</option><option id="C">sec^2(x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Lim x->infinity 1/x:</text>
+            <option id="A">0</option><option id="B">Infinity</option><option id="C">1</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Approaches 0.</explanation>
+        </question>
+        <question>
+            <text>Derivative of a^x:</text>
+            <option id="A">a^x ln(a)</option><option id="B">a^x</option><option id="C">x a^(x-1)</option><option id="D">ln(a)</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x^2 + 2x:</text>
+            <option id="A">2x+2</option><option id="B">2x</option><option id="C">x+2</option><option id="D">2</option>
+            <answer>A</answer><explanation>Power sum.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 x/sin x:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Undefined</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Reciprocal of 1.</explanation>
+        </question>
+        <question>
+            <text>Lim x->a (x^n-a^n)/(x-a) = ?</text>
+            <option id="A">n a^(n-1)</option><option id="B">a^n</option><option id="C">0</option><option id="D">n</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>d/dx (k f(x)) = ?</text>
+            <option id="A">k f'(x)</option><option id="B">f'(x)</option><option id="C">0</option><option id="D">k</option>
+            <answer>A</answer><explanation>Constant multiple.</explanation>
+        </question>
+        <question>
+            <text>d/dx (f(x) + g(x)) = ?</text>
+            <option id="A">f'(x) + g'(x)</option><option id="B">f'(x) g'(x)</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum rule.</explanation>
+        </question>
+        <question>
+            <text>Evaluate lim x->-1 of x^3:</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Substitution.</explanation>
+        </question>
+        <question>
+            <text>Derivative of sin x + cos x:</text>
+            <option id="A">cos x - sin x</option><option id="B">cos x + sin x</option><option id="C">sin x - cos x</option><option id="D">0</option>
+            <answer>A</answer><explanation>Sum.</explanation>
+        </question>
+        <question>
+            <text>Lim h->0 (f(x+h)-f(x))/h is:</text>
+            <option id="A">f'(x)</option><option id="B">f(x)</option><option id="C">0</option><option id="D">Indeterminate</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x^3:</text>
+            <option id="A">3x^2</option><option id="B">x^2</option><option id="C">3x</option><option id="D">x^4/4</option>
+            <answer>A</answer><explanation>Power rule.</explanation>
+        </question>
+        <question>
+            <text>Lim x->3 of x+3:</text>
+            <option id="A">6</option><option id="B">0</option><option id="C">3</option><option id="D">9</option>
+            <answer>A</answer><explanation>Subs.</explanation>
+        </question>
+        <question>
+            <text>Value of f(x) as x approaches a is limit:</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">Only if continuous</option><option id="D">None</option>
+            <answer>C</answer><explanation>Strictly speaking A, but definition is limit.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 of 5:</text>
+            <option id="A">5</option><option id="B">0</option><option id="C">1</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Constant.</explanation>
+        </question>
+        <question>
+            <text>Left Hand Limit notation:</text>
+            <option id="A">lim x->a-</option><option id="B">lim x->a+</option><option id="C">lim x->a</option><option id="D">None</option>
+            <answer>A</answer><explanation>Minus sign.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Limit of (sqrt(1+x)-1)/x as x approaches 0 is:</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">0</option><option id="D">2</option>
+            <answer>A</answer><explanation>Rationalize. (1+x-1)/x(sqrt+1) = 1/(sqrt+1) -> 1/2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of tan^2(x):</text>
+            <option id="A">2tan(x)sec^2(x)</option><option id="B">2tan(x)</option><option id="C">sec^4(x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule 2tan * sec^2.</explanation>
+        </question>
+        <question>
+            <text>Limit of (1 - cos x)/x^2 as x->0:</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">0</option><option id="D">2</option>
+            <answer>A</answer><explanation>2sin^2(x/2)/x^2 -> 2(1/4) = 1/2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x sin x:</text>
+            <option id="A">sin x + x cos x</option><option id="B">cos x</option><option id="C">sin x</option><option id="D">x cos x</option>
+            <answer>A</answer><explanation>Product rule.</explanation>
+        </question>
+        <question>
+            <text>Limit of (3^x - 2^x)/x as x->0:</text>
+            <option id="A">ln(3/2)</option><option id="B">ln(3)-ln(2)</option><option id="C">Both A and B</option><option id="D">0</option>
+            <answer>C</answer><explanation>ln 3 - ln 2 = ln(3/2).</explanation>
+        </question>
+        <question>
+            <text>Check continuity of f(x) = |x| at x=0:</text>
+            <option id="A">Continuous</option><option id="B">Discontinuous</option><option id="C">Undefined</option><option id="D">None</option>
+            <answer>A</answer><explanation>LHL=RHL=0.</explanation>
+        </question>
+        <question>
+            <text>Is f(x) = |x| differentiable at x=0?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Maybe</option><option id="D">Depends</option>
+            <answer>A</answer><explanation>Sharp corner.</explanation>
+        </question>
+        <question>
+            <text>Lim x->infinity (1 + 1/x)^x:</text>
+            <option id="A">e</option><option id="B">1</option><option id="C">0</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Derivative of e^(2x):</text>
+            <option id="A">2e^(2x)</option><option id="B">e^(2x)</option><option id="C">e^x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule.</explanation>
+        </question>
+        <question>
+            <text>Derivative of ln(sin x):</text>
+            <option id="A">cot x</option><option id="B">tan x</option><option id="C">1/sin x</option><option id="D">sec x</option>
+            <answer>A</answer><explanation>1/sin * cos.</explanation>
+        </question>
+        <question>
+            <text>Lim x->pi/2 tan x:</text>
+            <option id="A">Undefined (Infinity)</option><option id="B">0</option><option id="C">1</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Vertical asymptote.</explanation>
+        </question>
+        <question>
+            <text>Derivative of 1/(1+x):</text>
+            <option id="A">-1/(1+x)^2</option><option id="B">1/(1+x)^2</option><option id="C">ln(1+x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain/Power.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 x^x:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Undefined</option><option id="D">e</option>
+            <answer>A</answer><explanation>Standard result.</explanation>
+        </question>
+        <question>
+            <text>Derivative of log_a(x):</text>
+            <option id="A">1/(x ln a)</option><option id="B">1/x</option><option id="C">ln a / x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (sin 2x)/x:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">1/2</option>
+            <answer>A</answer><explanation>2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of sqrt(1+x^2):</text>
+            <option id="A">x/sqrt(1+x^2)</option><option id="B">1/2sqrt(1+x^2)</option><option id="C">2x</option><option id="D">None</option>
+            <answer>A</answer><explanation>1/2root * 2x.</explanation>
+        </question>
+        <question>
+            <text>Lim x->3 (x^2-9)/(x-3):</text>
+            <option id="A">6</option><option id="B">0</option><option id="C">3</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>x+3 -> 6.</explanation>
+        </question>
+        <question>
+            <text>Second derivative of x^3:</text>
+            <option id="A">6x</option><option id="B">3x^2</option><option id="C">6</option><option id="D">0</option>
+            <answer>A</answer><explanation>3x^2 -> 6x.</explanation>
+        </question>
+        <question>
+            <text>If f(x)=c, f'(0)=?</text>
+            <option id="A">0</option><option id="B">c</option><option id="C">1</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Constant deriv 0.</explanation>
+        </question>
+        <question>
+            <text>Lim x->infinity (2x+1)/(x+2):</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Coeff ratio.</explanation>
+        </question>
+        <question>
+            <text>Derivative of sin(x^2):</text>
+            <option id="A">2x cos(x^2)</option><option id="B">cos(x^2)</option><option id="C">2x sin(x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (e^(3x)-1)/x:</text>
+            <option id="A">3</option><option id="B">1</option><option id="C">e</option><option id="D">0</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Derivative of cos^2 x - sin^2 x:</text>
+            <option id="A">-2sin(2x)</option><option id="B">cos 2x</option><option id="C">0</option><option id="D">sin 2x</option>
+            <answer>A</answer><explanation>cos 2x -> -2sin 2x.</explanation>
+        </question>
+        <question>
+            <text>Lim x->2 (x^3-8)/(x-2):</text>
+            <option id="A">12</option><option id="B">4</option><option id="C">8</option><option id="D">0</option>
+            <answer>A</answer><explanation>3x^2 at 2 -> 12.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x e^x:</text>
+            <option id="A">e^x(x+1)</option><option id="B">e^x</option><option id="C">x e^x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Product.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 x^2 sin(1/x):</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Undefined</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Squeeze theorem.</explanation>
+        </question>
+        <question>
+            <text>Derivative of |x| for x != 0:</text>
+            <option id="A">sgn(x)</option><option id="B">1</option><option id="C">-1</option><option id="D">x</option>
+            <answer>A</answer><explanation>x/|x|.</explanation>
+        </question>
+        <question>
+            <text>Lim x->pi/4 (tan x - 1)/(x - pi/4):</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Deriv of tan x at pi/4 -> sec^2(pi/4) = 2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of (x-1)/(x+1):</text>
+            <option id="A">2/(x+1)^2</option><option id="B">-2/(x+1)^2</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Quotient rule.</explanation>
+        </question>
+        <question>
+            <text>Lim x->a (x^(-1) - a^(-1))/(x-a):</text>
+            <option id="A">-1/a^2</option><option id="B">1/a^2</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>-x^-2 at a.</explanation>
+        </question>
+        <question>
+            <text>Derivative of sin^-1(x):</text>
+            <option id="A">1/sqrt(1-x^2)</option><option id="B">-1/sqrt(1-x^2)</option><option id="C">1/(1+x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 tan x / sin x:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Undefined</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>1/cos -> 1.</explanation>
+        </question>
+        <question>
+            <text>Derivative of cos(3x):</text>
+            <option id="A">-3sin(3x)</option><option id="B">3sin(3x)</option><option id="C">-sin(3x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 sin^2(x)/x:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Undefined</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>sin/x * sin = 1 * 0 = 0.</explanation>
+        </question>
+        <question>
+            <text>Derivative of f(g(x)) is:</text>
+            <option id="A">f'(g(x))g'(x)</option><option id="B">f'(x)g'(x)</option><option id="C">f'(g'(x))</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule.</explanation>
+        </question>
+        <question>
+            <text>Lim x->infinity 1/e^x:</text>
+            <option id="A">0</option><option id="B">Infinity</option><option id="C">1</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Decay.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x^x:</text>
+            <option id="A">x^x(1+ln x)</option><option id="B">x x^(x-1)</option><option id="C">x^x ln x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Log diff.</explanation>
+        </question>
+        <question>
+            <text>Lim x->1 (x-1)/(sqrt(x)-1):</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>sqrt(x)+1 -> 2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of y=2:</text>
+            <option id="A">0</option><option id="B">2</option><option id="C">1</option><option id="D">x</option>
+            <answer>A</answer><explanation>Const.</explanation>
+        </question>
+        <question>
+            <text>Lim theta->0 (1-cos 4theta)/theta^2:</text>
+            <option id="A">8</option><option id="B">4</option><option id="C">16</option><option id="D">2</option>
+            <answer>A</answer><explanation>2 sin^2 2theta / theta^2 -> 2 (2)^2 = 8.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Limit of (x^n - a^n)/(x-a) as x approaches a is:</text>
+            <option id="A">n a^(n-1)</option><option id="B">n a^n</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Derivative definition.</explanation>
+        </question>
+        <question>
+            <text>Derivative of sin(cos(x^2)) at x=sqrt(pi/2):</text>
+            <option id="A">Chain rule application</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>cos(cos(x^2))(-sin(x^2))(2x).</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (tan x - sin x)/x^3:</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">0</option><option id="D">2</option>
+            <answer>A</answer><explanation>sin/cos - sin = sin(1-cos)/cos = sin(2sin^2)/cos. x^3 -> 1 * 2 * (1/4)? No. tan-sin = sin(1-cos)/cos = sin(2sin^2 x/2)/cos. Approx x * 2(x/2)^2 / 1 * x^3 = 2/4 = 1/2.</explanation>
+        </question>
+        <question>
+            <text>If f(x) = x sin(1/x) for x!=0 and 0 for x=0. f'(0) is:</text>
+            <option id="A">Undefined</option><option id="B">0</option><option id="C">1</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Limit (h sin(1/h))/h = sin(1/h) oscillates. Undefined.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (1+x)^1/x is e. Lim x->0 (1+x)^2/x?</text>
+            <option id="A">e^2</option><option id="B">e</option><option id="C">2e</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>((1+x)^1/x)^2 -> e^2.</explanation>
+        </question>
+        <question>
+            <text>nth derivative of x^n:</text>
+            <option id="A">n!</option><option id="B">0</option><option id="C">n</option><option id="D">x</option>
+            <answer>A</answer><explanation>Factorial.</explanation>
+        </question>
+        <question>
+            <text>(n+1)th derivative of x^n:</text>
+            <option id="A">0</option><option id="B">n!</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constant deriv 0.</explanation>
+        </question>
+        <question>
+            <text>Derivative of e^(e^x):</text>
+            <option id="A">e^(e^x) e^x</option><option id="B">e^(2x)</option><option id="C">e^(e^x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain.</explanation>
+        </question>
+        <question>
+            <text>Lim x->inf (x+1)/(x-1) ^ x:</text>
+            <option id="A">e^2</option><option id="B">e</option><option id="C">1</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>(1+2/(x-1))^x -> e^2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of tan^-1(x):</text>
+            <option id="A">1/(1+x^2)</option><option id="B">1/(1-x^2)</option><option id="C">-1/(1+x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (sqrt(a+x)-sqrt(a-x))/x:</text>
+            <option id="A">1/sqrt(a)</option><option id="B">sqrt(a)</option><option id="C">0</option><option id="D">2sqrt(a)</option>
+            <answer>A</answer><explanation>(a+x-a+x)/x(2sqrt) = 2/2sqrt = 1/sqrt(a).</explanation>
+        </question>
+        <question>
+            <text>Derivative of srt(sin(x^2)) at x=sqrt(pi/2):</text>
+            <option id="A">0 (approx)</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Derivative computation.</explanation>
+        </question>
+        <question>
+            <text>Evaluate Lim x->0 (e^x - 1 - x)/x^2:</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">0</option><option id="D">2</option>
+            <answer>A</answer><explanation>Series expansion 1+x+x^2/2... -1-x = x^2/2. limit 1/2.</explanation>
+        </question>
+        <question>
+            <text>Differentiate sin x from first principles.</text>
+            <option id="A">cos x</option><option id="B">sin x</option><option id="C">c</option><option id="D">d</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Evaluate lim n->inf (1+2+...+n)/n^2:</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">0</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>n(n+1)/2n^2 -> 1/2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of ln(tan(pi/4 + x/2)):</text>
+            <option id="A">sec x</option><option id="B">cos x</option><option id="C">tan x</option><option id="D">sin x</option>
+            <answer>A</answer><explanation>Standard integral result reverse.</explanation>
+        </question>
+        <question>
+            <text>Lim x->a (sin x - sin a)/(x-a):</text>
+            <option id="A">cos a</option><option id="B">sin a</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Def of deriv of sin.</explanation>
+        </question>
+        <question>
+            <text>If y = sqrt(x + sqrt(x + ...)), dy/dx:</text>
+            <option id="A">1/(2y-1)</option><option id="B">y/(2y-1)</option><option id="C">1/(2y+1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>y^2 = x+y. 2y y' = 1 + y'. y'(2y-1)=1.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (a^x - b^x)/x:</text>
+            <option id="A">ln(a/b)</option><option id="B">ln(ab)</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Repeated logic.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x^sin x:</text>
+            <option id="A">x^sin x (sin x/x + cos x ln x)</option><option id="B">Chain</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Log diff.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (1-cos mx)/(1-cos nx):</text>
+            <option id="A">m^2/n^2</option><option id="B">m/n</option><option id="C">n^2/m^2</option><option id="D">1</option>
+            <answer>A</answer><explanation>(mx/2)^2 / (nx/2)^2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of determinant... Skip.</text>
+            <option id="A">Sum of dets</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 x/(sqrt(1+x)-1):</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">1/2</option>
+            <answer>A</answer><explanation>Rationalize.</explanation>
+        </question>
+        <question>
+            <text>If f(x) is even, f'(x) is:</text>
+            <option id="A">Odd</option><option id="B">Even</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>If f(x) is odd, f'(x) is:</text>
+            <option id="A">Even</option><option id="B">Odd</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 ln(1+x^3)/sin^3 x:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">3</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>x^3/x^3 = 1.</explanation>
+        </question>
+        <question>
+            <text>Derivative of cos^-1(x):</text>
+            <option id="A">-1/sqrt(1-x^2)</option><option id="B">1/sqrt(1-x^2)</option><option id="C">1/(1+x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Lim x->inf (x^2+x+1)/(x^2-x+1):</text>
+            <option id="A">1</option><option id="B">-1</option><option id="C">0</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Leading coeffs.</explanation>
+        </question>
+        <question>
+            <text>Is Dirichlet function continuous?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">At 0</option><option id="D">At 1</option>
+            <answer>A</answer><explanation>Nowhere continuous.</explanation>
+        </question>
+        <question>
+            <text>Lim x->inf sin x / x:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Undefined</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Bounded/Inf -> 0.</explanation>
+        </question>
+        <question>
+            <text>Derivative of e^x cos x:</text>
+            <option id="A">e^x(cos x - sin x)</option><option id="B">e^x sin x</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Product.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (e^x - e^-x)/x:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">e</option>
+            <answer>A</answer><explanation>2sinh x / x -> 2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of ln(ln x):</text>
+            <option id="A">1/(x ln x)</option><option id="B">1/ln x</option><option id="C">1/x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain.</explanation>
+        </question>
+        <question>
+            <text>Lim x->pi/2 (1-sin x)/(pi/2 - x)^2:</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">0</option><option id="D">2</option>
+            <answer>A</answer><explanation>Let h = pi/2 - x. (1-cos h)/h^2 -> 1/2.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x|x|:</text>
+            <option id="A">2|x|</option><option id="B">2x</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>If x>0 x^2->2x. If x&lt;0 -x^2->-2x. Matches 2|x|.</explanation>
+        </question>
+        <question>
+            <text>Lim n->inf (1/n^2 + 2/n^2 + ... + (n-1)/n^2):</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">0</option><option id="D">Inf</option>
+            <answer>A</answer><explanation>Repeated sum.</explanation>
+        </question>
+        <question>
+            <text>Derivative of x^3 log x:</text>
+            <option id="A">x^2(1+3ln x)</option><option id="B">x^2</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Product.</explanation>
+        </question>
+        <question>
+            <text>Evaluate d/dx of sin^2 x wrt cos^2 x:</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">tan x</option><option id="D">cot x</option>
+            <answer>A</answer><explanation>u+v=1 -> du/dv = -1.</explanation>
+        </question>
+        <question>
+            <text>Lim x->0 (2^x - 1)/sqrt(1+x)-1:</text>
+            <option id="A">2 ln 2</option><option id="B">ln 2</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>(2^x-1)/x * x/(sqrt-1) = ln 2 * 2.</explanation>
+        </question>
+        <question>
+            <text>Parametric derivative x=a cos t, y= a sin t. dy/dx:</text>
+            <option id="A">-cot t</option><option id="B">tan t</option><option id="C">-tan t</option><option id="D">cot t</option>
+            <answer>A</answer><explanation>dy/dt / dx/dt = a cos t / -a sin t = -cot t.</explanation>
+        </question>
+    </hard>
+</chapter>

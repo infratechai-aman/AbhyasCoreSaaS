@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="214" name="Probability">
+    <easy>
+        <question>
+            <text>Probability of an impossible event is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">0.5</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Probability of sure event is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">100</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Certainty.</explanation>
+        </question>
+        <question>
+            <text>P(E) + P(not E) = ?</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">0.5</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Complement.</explanation>
+        </question>
+        <question>
+            <text>If P(A) = 0.3, P(not A) is:</text>
+            <option id="A">0.7</option><option id="B">0.3</option><option id="C">0</option><option id="D">-0.7</option>
+            <answer>A</answer><explanation>1 - 0.3 = 0.7.</explanation>
+        </question>
+        <question>
+            <text>Sample space of tossing a coin:</text>
+            <option id="A">{H, T}</option><option id="B">{H}</option><option id="C">{T}</option><option id="D">{HT}</option>
+            <answer>A</answer><explanation>Two outcomes.</explanation>
+        </question>
+        <question>
+            <text>Number of outcome in tossing 2 coins:</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">3</option><option id="D">8</option>
+            <answer>A</answer><explanation>2^2 = 4.</explanation>
+        </question>
+        <question>
+            <text>Number of outcomes in tossing 3 coins:</text>
+            <option id="A">8</option><option id="B">6</option><option id="C">9</option><option id="D">3</option>
+            <answer>A</answer><explanation>2^3 = 8.</explanation>
+        </question>
+        <question>
+            <text>Sample space of rolling a die:</text>
+            <option id="A">{1, 2, 3, 4, 5, 6}</option><option id="B">{1, 6}</option><option id="C">6</option><option id="D">1</option>
+            <answer>A</answer><explanation>Standard die.</explanation>
+        </question>
+        <question>
+            <text>Probability of getting a head in one toss:</text>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">0</option><option id="D">1/4</option>
+            <answer>A</answer><explanation>1 out of 2.</explanation>
+        </question>
+        <question>
+            <text>Probability of getting 7 on a die:</text>
+            <option id="A">0</option><option id="B">1/6</option><option id="C">1/7</option><option id="D">1</option>
+            <answer>A</answer><explanation>Impossible.</explanation>
+        </question>
+        <question>
+            <text>Probability of even number on a die:</text>
+            <option id="A">1/2</option><option id="B">1/3</option><option id="C">1/6</option><option id="D">2/3</option>
+            <answer>A</answer><explanation>2, 4, 6. 3/6 = 1/2.</explanation>
+        </question>
+        <question>
+            <text>If A and B are mutually exclusive, P(A n B) is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">P(A)P(B)</option><option id="D">P(A)+P(B)</option>
+            <answer>A</answer><explanation>Disjoint.</explanation>
+        </question>
+        <question>
+            <text>P(A u B) for mutually exclusive events:</text>
+            <option id="A">P(A) + P(B)</option><option id="B">P(A)P(B)</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Zero intersection.</explanation>
+        </question>
+        <question>
+            <text>Probability lies between:</text>
+            <option id="A">0 and 1</option><option id="B">-1 and 1</option><option id="C">0 and 100</option><option id="D">None</option>
+            <answer>A</answer><explanation>Axiom.</explanation>
+        </question>
+        <question>
+            <text>Sum of probabilities of all outcomes:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Infinite</option><option id="D">n</option>
+            <answer>A</answer><explanation>Certainty.</explanation>
+        </question>
+        <question>
+            <text>Event having only one sample point is:</text>
+            <option id="A">Simple or Elementary</option><option id="B">Compound</option><option id="C">Impossible</option><option id="D">Sure</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>A card is drawn from 52. P(Ace):</text>
+            <option id="A">4/52 = 1/13</option><option id="B">1/52</option><option id="C">1/4</option><option id="D">1/2</option>
+            <answer>A</answer><explanation>4 Aces.</explanation>
+        </question>
+        <question>
+            <text>P(Red card) from 52:</text>
+            <option id="A">1/2</option><option id="B">1/4</option><option id="C">1/13</option><option id="D">26</option>
+            <answer>A</answer><explanation>26 red cards.</explanation>
+        </question>
+        <question>
+            <text>P(Face card) from 52:</text>
+            <option id="A">12/52 = 3/13</option><option id="B">4/52</option><option id="C">3/4</option><option id="D">1/13</option>
+            <answer>A</answer><explanation>12 Face cards.</explanation>
+        </question>
+        <question>
+            <text>Odds in favor is a:b. Probability is:</text>
+            <option id="A">a/(a+b)</option><option id="B">b/(a+b)</option><option id="C">a/b</option><option id="D">b/a</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>If P(E) = 1, E is called:</text>
+            <option id="A">Sure event</option><option id="B">Impossible</option><option id="C">Null</option><option id="D">Simple</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Subset of sample space is called:</text>
+            <option id="A">Event</option><option id="B">Outcome</option><option id="C">Trial</option><option id="D">Set</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>P(A u B) = P(A) + P(B) - ?</text>
+            <option id="A">P(A n B)</option><option id="B">P(A ')</option><option id="C">P(B ')</option><option id="D">0</option>
+            <answer>A</answer><explanation>Addition theorem.</explanation>
+        </question>
+        <question>
+            <text>A and B exhaustive means A u B = ?</text>
+            <option id="A">S (Sample space)</option><option id="B">Null</option><option id="C">A n B</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>P(Head and Tail) in one coin toss:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">1/2</option><option id="D">1/4</option>
+            <answer>A</answer><explanation>Impossible.</explanation>
+        </question>
+        <question>
+            <text>Outcomes of rolling 2 dice:</text>
+            <option id="A">36</option><option id="B">12</option><option id="C">6</option><option id="D">2</option>
+            <answer>A</answer><explanation>6*6.</explanation>
+        </question>
+        <question>
+            <text>P(sum=12) with 2 dice:</text>
+            <option id="A">1/36</option><option id="B">1/12</option><option id="C">1/6</option><option id="D">0</option>
+            <answer>A</answer><explanation>(6,6) only.</explanation>
+        </question>
+        <question>
+            <text>P(sum=2) with 2 dice:</text>
+            <option id="A">1/36</option><option id="B">2/36</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>(1,1) only.</explanation>
+        </question>
+        <question>
+            <text>Complement of event 'at least one':</text>
+            <option id="A">None</option><option id="B">All</option><option id="C">Some</option><option id="D">One</option>
+            <answer>A</answer><explanation>De Morgan.</explanation>
+        </question>
+        <question>
+            <text>If S = {1,2,3}, event {1,2} is:</text>
+            <option id="A">Compound</option><option id="B">Simple</option><option id="C">Impossible</option><option id="D">Null</option>
+            <answer>A</answer><explanation>>1 point.</explanation>
+        </question>
+        <question>
+            <text>Number of spades in deck:</text>
+            <option id="A">13</option><option id="B">4</option><option id="C">26</option><option id="D">12</option>
+            <answer>A</answer><explanation>Suit size.</explanation>
+        </question>
+        <question>
+            <text>Classical definition validity condition:</text>
+            <option id="A">Equally likely outcomes</option><option id="B">Infinite outcomes</option><option id="C">Biased outcomes</option><option id="D">None</option>
+            <answer>A</answer><explanation>Assumption.</explanation>
+        </question>
+        <question>
+            <text>P(A) is 0.4, P(B) is 0.5. Mutually exclusive. P(A u B):</text>
+            <option id="A">0.9</option><option id="B">0.2</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Sum.</explanation>
+        </question>
+        <question>
+            <text>Two events are mutually exclusive if intersection is:</text>
+            <option id="A">Null set</option><option id="B">S</option><option id="C">A</option><option id="D">B</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Getting a number > 6 on die is:</text>
+            <option id="A">Impossible</option><option id="B">Sure</option><option id="C">Likely</option><option id="D">Compound</option>
+            <answer>A</answer><explanation>Max 6.</explanation>
+        </question>
+        <question>
+            <text>Prob of choosing vowel from word 'MATHEMATICS':</text>
+            <option id="A">4/11</option><option id="B">3/11</option><option id="C">4/10</option><option id="D">None</option>
+            <answer>A</answer><explanation>A, E, A, I. 4 vowels. 11 letters Total.</explanation>
+        </question>
+        <question>
+            <text>Which cannot be a probability?</text>
+            <option id="A">1.5</option><option id="B">2/3</option><option id="C">15%</option><option id="D">0.7</option>
+            <answer>A</answer><explanation>>1.</explanation>
+        </question>
+        <question>
+            <text>Tossing a coin is:</text>
+            <option id="A">Random experiment</option><option id="B">Deterministic</option><option id="C">Calculation</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>P(A') is:</text>
+            <option id="A">1-P(A)</option><option id="B">1/P(A)</option><option id="C">P(A)-1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Sample space size for 3 coins:</text>
+            <option id="A">8</option><option id="B">6</option><option id="C">3</option><option id="D">9</option>
+            <answer>A</answer><explanation>Repeated.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Two dice thrown. P(sum=7):</text>
+            <option id="A">6/36 = 1/6</option><option id="B">1/12</option><option id="C">5/36</option><option id="D">7/36</option>
+            <answer>A</answer><explanation>(1,6), (2,5), (3,4), (4,3), (5,2), (6,1).</explanation>
+        </question>
+        <question>
+            <text>Two dice thrown. P(doublet):</text>
+            <option id="A">6/36 = 1/6</option><option id="B">1/12</option><option id="C">1/36</option><option id="D">5/36</option>
+            <answer>A</answer><explanation>(1,1) to (6,6).</explanation>
+        </question>
+        <question>
+            <text>A coin tossed twice. At least one head:</text>
+            <option id="A">3/4</option><option id="B">1/2</option><option id="C">1/4</option><option id="D">1</option>
+            <answer>A</answer><explanation>HH, HT, TH.</explanation>
+        </question>
+        <question>
+            <text>Card drawn. P(King or Queen):</text>
+            <option id="A">8/52 = 2/13</option><option id="B">4/52</option><option id="C">2/52</option><option id="D">1/13</option>
+            <answer>A</answer><explanation>4+4=8.</explanation>
+        </question>
+        <question>
+            <text>P(A)=0.5, P(B)=0.3. Intersection 0.1. P(A u B):</text>
+            <option id="A">0.7</option><option id="B">0.8</option><option id="C">0.9</option><option id="D">0.6</option>
+            <answer>A</answer><explanation>0.5+0.3-0.1.</explanation>
+        </question>
+        <question>
+            <text>Odds against event 2:3. P(E):</text>
+            <option id="A">3/5</option><option id="B">2/5</option><option id="C">2/3</option><option id="D">3/2</option>
+            <answer>A</answer><explanation>Against a:b -> P(not E)=a/(a+b). P(E) = b/(a+b) = 3/5.</explanation>
+        </question>
+        <question>
+            <text>Three coins tossed. Exactly 2 heads:</text>
+            <option id="A">3/8</option><option id="B">2/8</option><option id="C">1/8</option><option id="D">4/8</option>
+            <answer>A</answer><explanation>HHT, HTH, THH.</explanation>
+        </question>
+        <question>
+            <text>Letter chosen from 'ASSASSINATION'. P(S):</text>
+            <option id="A">4/13</option><option id="B">2/13</option><option id="C">1/13</option><option id="D">3/13</option>
+            <answer>A</answer><explanation>4 S's. 13 letters.</explanation>
+        </question>
+        <question>
+            <text>P(Diamond or Ace):</text>
+            <option id="A">16/52 = 4/13</option><option id="B">17/52</option><option id="C">13/52</option><option id="D">None</option>
+            <answer>A</answer><explanation>13 Diamonds + 3 Aces = 16. Or 13+4-1 = 16.</explanation>
+        </question>
+        <question>
+            <text>In leap year, probability of 53 Sundays:</text>
+            <option id="A">2/7</option><option id="B">1/7</option><option id="C">53/366</option><option id="D">None</option>
+            <answer>A</answer><explanation>366 = 52*7 + 2. 2 days can be (Sat,Sun) or (Sun,Mon).</explanation>
+        </question>
+        <question>
+            <text>Non-leap year, 53 Sundays:</text>
+            <option id="A">1/7</option><option id="B">2/7</option><option id="C">0</option><option id="D">53/365</option>
+            <answer>A</answer><explanation>1 extra day.</explanation>
+        </question>
+        <question>
+            <text>P(A)=1/2, P(B)=1/3, mutually excl. P(A or B):</text>
+            <option id="A">5/6</option><option id="B">1/6</option><option id="C">2/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum.</explanation>
+        </question>
+        <question>
+            <text>Box: 10 Red, 20 Blue, 30 Green. P(Red):</text>
+            <option id="A">10/60 = 1/6</option><option id="B">1/3</option><option id="C">1/2</option><option id="D">1/10</option>
+            <answer>A</answer><explanation>10/60.</explanation>
+        </question>
+        <question>
+            <text>Two dice. Sum is prime:</text>
+            <option id="A">15/36 = 5/12</option><option id="B">1/2</option><option id="C">1/3</option><option id="D">4/9</option>
+            <answer>A</answer><explanation>2, 3, 5, 7, 11.</explanation>
+        </question>
+        <question>
+            <text>If A and B are exhaustive, P(A u B):</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">0.5</option><option id="D">P(A)</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>If odds in favor 3:2, P(E):</text>
+            <option id="A">3/5</option><option id="B">2/5</option><option id="C">3/2</option><option id="D">1</option>
+            <answer>A</answer><explanation>3/(3+2).</explanation>
+        </question>
+        <question>
+            <text>Probability of choosing a number divisible by 3 from 1 to 20:</text>
+            <option id="A">6/20 = 3/10</option><option id="B">1/3</option><option id="C">7/20</option><option id="D">5/20</option>
+            <answer>A</answer><explanation>3, 6, 9, 12, 15, 18.</explanation>
+        </question>
+        <question>
+            <text>P(not A) = 0.65. P(A) = ?</text>
+            <option id="A">0.35</option><option id="B">0.65</option><option id="C">0.30</option><option id="D">1.65</option>
+            <answer>A</answer><explanation>1-0.65.</explanation>
+        </question>
+        <question>
+            <text>Probability of drawing a black face card:</text>
+            <option id="A">6/52 = 3/26</option><option id="B">6/26</option><option id="C">12/52</option><option id="D">3/13</option>
+            <answer>A</answer><explanation>6 black face cards.</explanation>
+        </question>
+        <question>
+            <text>P(A)=3/5, P(B)=1/5, Mutually exclusive. P(not A or B)? No P(A or B):</text>
+            <option id="A">4/5</option><option id="B">2/5</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Sum. If q was 'neither', 1/5.</explanation>
+        </question>
+        <question>
+            <text>From 1 to 100, one num selected. P(Div by 5 or 7):</text>
+            <option id="A">32/100</option><option id="B">34/100</option><option id="C">30/100</option><option id="D">35/100</option>
+            <answer>A</answer><explanation>5s: 20. 7s: 14. 35s: 2. 20+14-2=32.</explanation>
+        </question>
+        <question>
+            <text>Probability of getting 53 Fridays in leap year:</text>
+            <option id="A">2/7</option><option id="B">1/7</option><option id="C">53/366</option><option id="D">None</option>
+            <answer>A</answer><explanation>Same as Sunday.</explanation>
+        </question>
+        <question>
+            <text>4 coins tossed. Probability of all heads:</text>
+            <option id="A">1/16</option><option id="B">1/8</option><option id="C">1/4</option><option id="D">1/2</option>
+            <answer>A</answer><explanation>1 outcome.</explanation>
+        </question>
+        <question>
+            <text>A and B independent. P(A n B) = ?</text>
+            <option id="A">P(A)P(B)</option><option id="B">0</option><option id="C">Sum</option><option id="D">1</option>
+            <answer>A</answer><explanation>Def (Usually 12th topic but elementary).</explanation>
+        </question>
+        <question>
+            <text>Set of outcomes {H1, H2.. H6, T1.. T6}. Experiment:</text>
+            <option id="A">Coin then die</option><option id="B">Die then coin</option><option id="C">2 coins</option><option id="D">2 dice</option>
+            <answer>A</answer><explanation>Structure.</explanation>
+        </question>
+        <question>
+            <text>If A is subset of B, then P(A) &lt;= P(B):</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Monotonicity.</explanation>
+        </question>
+        <question>
+            <text>Number of elements in sample space of 3 dice:</text>
+            <option id="A">216</option><option id="B">36</option><option id="C">18</option><option id="D">6</option>
+            <answer>A</answer><explanation>6^3.</explanation>
+        </question>
+        <question>
+            <text>Two dice. Sum &lt;= 4:</text>
+            <option id="A">6/36 = 1/6</option><option id="B">5/36</option><option id="C">4/36</option><option id="D">1/9</option>
+            <answer>A</answer><explanation>2(1,1), 3(1,2, 2,1), 4(1,3, 2,2, 3,1). 1+2+3=6.</explanation>
+        </question>
+        <question>
+            <text>If P(A)=0.5, P(B)=0.2. A and B mut excl. P(not A and not B):</text>
+            <option id="A">0.3</option><option id="B">0.7</option><option id="C">0.5</option><option id="D">0.8</option>
+            <answer>A</answer><explanation>P(AuB)=0.7. Comp = 0.3.</explanation>
+        </question>
+        <question>
+            <text>Ticket drawn from 1 to 20. Multiple of 3 or 7:</text>
+            <option id="A">8/20 = 2/5</option><option id="B">9/20</option><option id="C">3/10</option><option id="D">None</option>
+            <answer>A</answer><explanation>3s: 6. 7s: 2. Common (21) None. 6+2=8.</explanation>
+        </question>
+        <question>
+            <text>P(A)=1/4, P(A or B)=1/2, P(B)=? Given mut excl.</text>
+            <option id="A">1/4</option><option id="B">1/2</option><option id="C">1/3</option><option id="D">0</option>
+            <answer>A</answer><explanation>1/2 = 1/4 + x. x=1/4.</explanation>
+        </question>
+        <question>
+            <text>3 workers. Prob solving: 1/2, 1/3, 1/4. Prob problem solved:</text>
+            <option id="A">3/4</option><option id="B">1/4</option><option id="C">1/24</option><option id="D">1</option>
+            <answer>A</answer><explanation>1 - P(None) = 1 - 1/2*2/3*3/4 = 1 - 1/4 = 3/4.</explanation>
+        </question>
+        <question>
+            <text>Card drawn. Neither Heart nor King:</text>
+            <option id="A">36/52 = 9/13</option><option id="B">13/52</option><option id="C">4/13</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hearts 13. Kings 3 others. Total 16 to avoid. 52-16=36.</explanation>
+        </question>
+        <question>
+            <text>Coins tossed until head appears or 3 tails. Sample space size:</text>
+            <option id="A">H, TH, TTH, TTT -> 4?</option><option id="B">3</option><option id="C">8</option><option id="D">6</option>
+            <answer>A</answer><explanation>Correct.</explanation>
+        </question>
+        <question>
+            <text>P(A)=2/3, P(B)=4/9, P(A n B)=14/45. P(A u B):</text>
+            <option id="A">4/5</option><option id="B">1/5</option><option id="C">9/10</option><option id="D">None</option>
+            <answer>A</answer><explanation>30/45 + 20/45 - 14/45 = 36/45 = 4/5.</explanation>
+        </question>
+        <question>
+            <text>Arrangement of letters of WORD. P(vowel at middle? No even). P(WORD):</text>
+            <option id="A">1/24</option><option id="B">1/4</option><option id="C">1/12</option><option id="D">1</option>
+            <answer>A</answer><explanation>4! = 24.</explanation>
+        </question>
+        <question>
+            <text>Number of people 2. P(Same bday):</text>
+            <option id="A">1/365</option><option id="B">364/365</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Ignorning leap.</explanation>
+        </question>
+        <question>
+            <text>P(Different bday) for 2:</text>
+            <option id="A">364/365</option><option id="B">1/365</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Complement.</explanation>
+        </question>
+        <question>
+            <text>Die loaded: P(even)=2*P(odd). P(1)?</text>
+            <option id="A">1/9</option><option id="B">2/9</option><option id="C">1/6</option><option id="D">1/3</option>
+            <answer>A</answer><explanation>o, 2o, o, 2o, o, 2o. Sum 9o=1. o=1/9. 1 is odd -> 1/9.</explanation>
+        </question>
+        <question>
+            <text>Two dice. Sum 8:</text>
+            <option id="A">5/36</option><option id="B">1/6</option><option id="C">4/36</option><option id="D">1/12</option>
+            <answer>A</answer><explanation>(2,6) to (6,2). 5 outcomes.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Three letters to 3 envelopes. P(All correct):</text>
+            <option id="A">1/6</option><option id="B">1/3</option><option id="C">1/2</option><option id="D">5/6</option>
+            <answer>A</answer><explanation>3! = 6 perms. 1 correct.</explanation>
+        </question>
+        <question>
+            <text>Three letters. P(at least one correct) [Derangement]:</text>
+            <option id="A">4/6 = 2/3</option><option id="B">1/3</option><option id="C">1/2</option><option id="D">5/6</option>
+            <answer>A</answer><explanation>Total 6. None correct (Derangement D3) = 2. At least one = 6-2=4.</explanation>
+        </question>
+        <question>
+            <text>P(None correct) 3 letters:</text>
+            <option id="A">2/6 = 1/3</option><option id="B">2/3</option><option id="C">1/2</option><option id="D">1/6</option>
+            <answer>A</answer><explanation>See above.</explanation>
+        </question>
+        <question>
+            <text>A speaks truth 70%, B 80%. P(Agree):</text>
+            <option id="A">0.56 + 0.06 = 0.62</option><option id="B">0.5</option><option id="C">0.38</option><option id="D">0.42</option>
+            <answer>A</answer><explanation>Both true (0.7*0.8) + Both false (0.3*0.2) = 0.56 + 0.06.</explanation>
+        </question>
+        <question>
+            <text>P(Contradict) above:</text>
+            <option id="A">0.38</option><option id="B">0.62</option><option id="C">0.5</option><option id="D">0.4</option>
+            <answer>A</answer><explanation>1 - 0.62.</explanation>
+        </question>
+        <question>
+            <text>4 cards drawn. P(One from each suit):</text>
+            <option id="A">13^4 / 52C4</option><option id="B">4/52</option><option id="C">1/52</option><option id="D">None</option>
+            <answer>A</answer><explanation>(13C1)^4 / 52C4.</explanation>
+        </question>
+        <question>
+            <text>Urn: 6 W, 4 B. Two drawn. P(same color):</text>
+            <option id="A">(15+6)/45 = 21/45 = 7/15</option><option id="B">8/15</option><option id="C">1/2</option><option id="D">4/9</option>
+            <answer>A</answer><explanation>6C2 + 4C2 / 10C2 = (15 + 6) / 45.</explanation>
+        </question>
+        <question>
+            <text>Two dice. Sum is 7 given first is 3:</text>
+            <option id="A">1/6</option><option id="B">1/36</option><option id="C">1/2</option><option id="D">0</option>
+            <answer>A</answer><explanation>First 3 -> {3,1...3,6}. (3,4) is only success. 1/6.</explanation>
+        </question>
+        <question>
+            <text>Committee of 2 from 2 men 2 women. P(at least 1 woman):</text>
+            <option id="A">5/6</option><option id="B">1/6</option><option id="C">1/2</option><option id="D">2/3</option>
+            <answer>A</answer><explanation>Total 4C2=6. No women (2 men) = 2C2=1. 1-1/6 = 5/6.</explanation>
+        </question>
+        <question>
+            <text>Integer chosen 1 to 100. Divisible by 4 or 6:</text>
+            <option id="A">25+16-8 = 33/100</option><option id="B">30/100</option><option id="C">41/100</option><option id="D">None</option>
+            <answer>A</answer><explanation>4(25), 6(16), 12(8).</explanation>
+        </question>
+        <question>
+            <text>Probability of drawing king, queen, jack in order replacement:</text>
+            <option id="A">(4/52)^3</option><option id="B">4/52 * 4/51 * 4/50</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Independent.</explanation>
+        </question>
+        <question>
+            <text>Coin tossed 6 times. P(Head > Tail):</text>
+            <option id="A">22/64 = 11/32</option><option id="B">1/2</option><option id="C">3/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>6H (1), 5H (6), 4H (15). 1+6+15=22. 22/64.</explanation>
+        </question>
+        <question>
+            <text>P(A u B) = 0.6, P(A n B) = 0.2. P(not A) + P(not B):</text>
+            <option id="A">1.2</option><option id="B">0.8</option><option id="C">1</option><option id="D">0.6</option>
+            <answer>A</answer><explanation>(1-A) + (1-B) = 2 - (A+B). A+B = AuB + AnB = 0.8. 2 - 0.8 = 1.2.</explanation>
+        </question>
+        <question>
+            <text>Leap year. 53 Mondays or 53 Tuesdays:</text>
+            <option id="A">3/7</option><option id="B">2/7</option><option id="C">4/7</option><option id="D">1/7</option>
+            <answer>A</answer><explanation>(Sun,Mon), (Mon,Tue), (Tue,Wed). 3 favorable pairs.</explanation>
+        </question>
+        <question>
+            <text>Number x from 1-9, y from 1-9. P(x+y=10):</text>
+            <option id="A">9/81 = 1/9</option><option id="B">10/81</option><option id="C">8/81</option><option id="D">1/10</option>
+            <answer>A</answer><explanation>(1,9) to (9,1). 9 pairs.</explanation>
+        </question>
+        <question>
+            <text>One card drawn. P(King | Red):</text>
+            <option id="A">2/26 = 1/13</option><option id="B">1/26</option><option id="C">4/52</option><option id="D">1/4</option>
+            <answer>A</answer><explanation>Reduced sample space.</explanation>
+        </question>
+        <question>
+            <text>A and B independent. P(A)=0.3 P(B)=0.6. P(Neither):</text>
+            <option id="A">0.28</option><option id="B">0.72</option><option id="C">0.9</option><option id="D">0.1</option>
+            <answer>A</answer><explanation>0.7 * 0.4 = 0.28.</explanation>
+        </question>
+        <question>
+            <text>Bag 5W 7R. 3 drawn. P(1W 2R):</text>
+            <option id="A">5C1 * 7C2 / 12C3</option><option id="B">1/2</option><option id="C">3/12</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hypergeometric.</explanation>
+        </question>
+        <question>
+            <text>Determinant of 2x2 matrix with 0,1 entries. P(Positive):</text>
+            <option id="A">3/16</option><option id="B">5/16</option><option id="C">10/16</option><option id="D">None</option>
+            <answer>A</answer><explanation>ad-bc > 0. (1,1)-(0,0) type. 1-0. ad=1 implies a=1,d=1. bc=0 implies cases. 3 cases.</explanation>
+        </question>
+        <question>
+            <text>A, B, C race. P(A wins)=2P(B). P(B wins)=2P(C). P(A wins):</text>
+            <option id="A">4/7</option><option id="B">2/7</option><option id="C">1/7</option><option id="D">3/7</option>
+            <answer>A</answer><explanation>4x + 2x + x = 7x = 1. x=1/7 (C). A=4/7.</explanation>
+        </question>
+        <question>
+            <text>If P(A) = 0.4, P(B) = p, P(A u B) = 0.6. If independent, p is:</text>
+            <option id="A">1/3</option><option id="B">0.2</option><option id="C">0.5</option><option id="D">0.4</option>
+            <answer>A</answer><explanation>0.4 + p - 0.4p = 0.6. 0.6p = 0.2. p=1/3.</explanation>
+        </question>
+        <question>
+            <text>Probability that a quadratic equation has real roots... (coeffs 1,2,3):</text>
+            <option id="A">Depends on sample</option><option id="B">Skip</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>7 people round table. P(2 specific together):</text>
+            <option id="A">2! 5! / 6! = 2/6 = 1/3</option><option id="B">1/7</option><option id="C">2/7</option><option id="D">1/2</option>
+            <answer>A</answer><explanation>Circular perm.</explanation>
+        </question>
+        <question>
+            <text>Five digit number from 0,1,2,3,4 reps allowed. Div by 5:</text>
+            <option id="A">1/5</option><option id="B">1/4</option><option id="C">4/5</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ends in 0 (4 reps?). End digit prob is 1/5 for 0.</explanation>
+        </question>
+        <question>
+            <text>P(sum of 3 dice is 4):</text>
+            <option id="A">3/216 = 1/72</option><option id="B">1/216</option><option id="C">2/216</option><option id="D">None</option>
+            <answer>A</answer><explanation>1,1,2 perms -> 3.</explanation>
+        </question>
+        <question>
+            <text>Odds against student passing 3:7. Odds against student B passing 3:5. Independent. P(Both pass):</text>
+            <option id="A">7/10 * 5/8 = 7/16</option><option id="B">3/10</option><option id="C">1/16</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prob Pass A = 7/10. Pass B = 5/8.</explanation>
+        </question>
+        <question>
+            <text>Two cards. P(Both Kings or Both Queens):</text>
+            <option id="A">2 * 4C2 / 52C2 = 12 / 1326</option><option id="B">1/221</option><option id="C">2/221</option><option id="D">4/221</option>
+            <answer>A</answer><explanation>Roughly 2/221 (6+6 / 1326 ?? 4C2=6. 12. 12/1326 = 2/221). Yes.</explanation>
+        </question>
+        <question>
+            <text>Number of subsets of {1,2,3...n}. One chosen. P(subset A and B disjoint)?</text>
+            <option id="A">3^n / 4^n</option><option id="B">1/2</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard problem. (3/4)^n.</explanation>
+        </question>
+        <question>
+            <text>If P(A)=0.8, P(B)=0.5, P(B|A)=0.4. P(A n B):</text>
+            <option id="A">0.32</option><option id="B">0.4</option><option id="C">0.2</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.8 * 0.4.</explanation>
+        </question>
+        <question>
+            <text>Binomial prob n=10, p=1/2. P(X=5):</text>
+            <option id="A">10C5 / 1024</option><option id="B">1/2</option><option id="C">1/10</option><option id="D">None</option>
+            <answer>A</answer><explanation>252/1024.</explanation>
+        </question>
+        <question>
+            <text>Box I: 2W, Hall (Box II, etc) ... Bayes:</text>
+            <option id="A">Formula</option><option id="B">Skip</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>P(A) + P(B) - P(A n B) = P(A) then:</text>
+            <option id="A">P(B|A) = 1? No. P(B)=P(AnB) -> B subset A</option><option id="B">A subset B</option><option id="C">Independent</option><option id="D">None</option>
+            <answer>A</answer><explanation>Actually B subset A.</explanation>
+        </question>
+        <question>
+            <text>Variance of standard normal:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">sigma</option><option id="D">mu</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Probability of getting full marks in this test by guessing:</text>
+            <option id="A">(1/4)^120</option><option id="B">0</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Joke.</explanation>
+        </question>
+        <question>
+            <text>12 balls dist into 3 boxes. P(first contains 3):</text>
+            <option id="A">Bernoulli</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>Letter lock 3 rings 10 dig. Failures:</text>
+            <option id="A">999</option><option id="B">1000</option><option id="C">30</option><option id="D">None</option>
+            <answer>A</answer><explanation>1000 total - 1 success.</explanation>
+        </question>
+        <question>
+            <text>Two squares chosen on chess board. P(Common side):</text>
+            <option id="A">Common side pairs / 64C2</option><option id="B">1/18</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>112 / 2016 = 1/18.</explanation>
+        </question>
+        <question>
+            <text>From 1..2n, 3 integers chosen in AP. Prob:</text>
+            <option id="A">3n(n-1)/...</option><option id="B">Known result</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+        <question>
+            <text>A and B toss coin. A starts. P(A wins):</text>
+            <option id="A">2/3</option><option id="B">1/3</option><option id="C">1/2</option><option id="D">3/4</option>
+            <answer>A</answer><explanation>Sum of GP 1/2 + 1/8...</explanation>
+        </question>
+        <question>
+            <text>Mean and var of binomial 4 and 2. Distribution:</text>
+            <option id="A">n=8, p=1/2</option><option id="B">n=4</option><option id="C">n=16</option><option id="D">None</option>
+            <answer>A</answer><explanation>np=4 nrq=2 -> q=1/2 p=1/2 n=8.</explanation>
+        </question>
+    </hard>
+</chapter>

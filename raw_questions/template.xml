@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    TEMPLATE FOR ONE CHAPTER (LEVEL)
+    Save this file as: subject_chaptername.xml (e.g., physics_kinematics.xml)
+-->
+<chapter subject="Physics" id="1" name="Kinematics">
+    
+    <!-- EASY MODE POOL (Aim for 50 Questions) -->
+    <easy>
+        <question>
+            <text>What is the SI unit of velocity?</text>
+            <option id="A">m/s</option>
+            <option id="B">km/h</option>
+            <option id="C">m/s^2</option>
+            <option id="D">N/m</option>
+            <answer>A</answer>
+            <explanation>Velocity is displacement over time (meters per second).</explanation>
+        </question>
+        
+        <question>
+            <text>Question 2 text here...</text>
+            <option id="A">Option A</option>
+            <option id="B">Option B</option>
+            <option id="C">Option C</option>
+            <option id="D">Option D</option>
+            <answer>C</answer>
+            <explanation>Explanation here.</explanation>
+        </question>
+        <!-- Add more questions... -->
+    </easy>
+
+    <!-- MEDIUM MODE POOL (Aim for 50 Questions) -->
+    <medium>
+        <question>
+            <text>A car accelerates from 0 to 20m/s in 5s. Find acceleration.</text>
+            <option id="A">2 m/s^2</option>
+            <option id="B">4 m/s^2</option>
+            <option id="C">5 m/s^2</option>
+            <option id="D">10 m/s^2</option>
+            <answer>B</answer>
+            <explanation>a = (v-u)/t = (20-0)/5 = 4</explanation>
+        </question>
+    </medium>
+
+    <!-- HARD MODE POOL (Aim for 50 Questions) -->
+    <hard>
+        <question>
+            <text>A projectile is fired at 45 degrees...</text>
+            <option id="A">...</option>
+            <option id="B">...</option>
+            <option id="C">...</option>
+            <option id="D">...</option>
+            <answer>D</answer>
+            <explanation>...</explanation>
+        </question>
+    </hard>
+
+</chapter>

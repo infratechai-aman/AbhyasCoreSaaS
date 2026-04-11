@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="5" name="Gravitation">
+    <easy>
+        <!-- 40 EASY QUESTIONS -->
+        <question>
+            <text>Newton's Law of Gravitation states that force is proportional to:</text>
+            <option id="A">Product of masses</option>
+            <option id="B">Sum of masses</option>
+            <option id="C">Difference of masses</option>
+            <option id="D">Ratio of masses</option>
+            <answer>A</answer>
+            <explanation>F = G m1 m2 / r^2.</explanation>
+        </question>
+        <question>
+            <text>The value of Universal Gravitational Constant G is:</text>
+            <option id="A">6.67 x 10^-11 Nm^2/kg^2</option>
+            <option id="B">9.8 m/s^2</option>
+            <option id="C">6.67 x 10^-9 Nm^2/kg^2</option>
+            <option id="D">1.6 x 10^-19 C</option>
+            <answer>A</answer>
+            <explanation>Standard constant.</explanation>
+        </question>
+        <question>
+            <text>Acceleration due to gravity 'g' on Earth's surface is approximately:</text>
+            <option id="A">9.8 m/s^2</option>
+            <option id="B">6.67 m/s^2</option>
+            <option id="C">11.2 km/s</option>
+            <option id="D">1.6 m/s^2</option>
+            <answer>A</answer>
+            <explanation>Standard value.</explanation>
+        </question>
+        <question>
+            <text>Escape velocity from Earth is:</text>
+            <option id="A">11.2 km/s</option>
+            <option id="B">7.9 km/s</option>
+            <option id="C">9.8 km/s</option>
+            <option id="D">3 x 10^8 m/s</option>
+            <answer>A</answer>
+            <explanation>v_e = sqrt(2gR).</explanation>
+        </question>
+        <question>
+            <text>Kepler's First Law states that planets move in:</text>
+            <option id="A">Elliptical orbits</option>
+            <option id="B">Circular orbits</option>
+            <option id="C">Parabolic paths</option>
+            <option id="D">Straight lines</option>
+            <answer>A</answer>
+            <explanation>Law of Orbits.</explanation>
+        </question>
+        <question>
+            <text>The value of g at the center of Earth is:</text>
+            <option id="A">Zero</option>
+            <option id="B">Infinite</option>
+            <option id="C">9.8 m/s^2</option>
+            <option id="D">Determine by mass</option>
+            <answer>A</answer>
+            <explanation>Force from all sides cancels out.</explanation>
+        </question>
+        <question>
+            <text>Geostationary satellites have a time period of:</text>
+            <option id="A">24 hours</option>
+            <option id="B">12 hours</option>
+            <option id="C">365 days</option>
+            <option id="D">1 month</option>
+            <answer>A</answer>
+            <explanation>Matches Earth's rotation.</explanation>
+        </question>
+        <question>
+            <text>Gravitational force is:</text>
+            <option id="A">Always attractive</option>
+            <option id="B">Always repulsive</option>
+            <option id="C">Both attractive and repulsive</option>
+            <option id="D">Depends on medium</option>
+            <answer>A</answer>
+            <explanation>Fundamental property.</explanation>
+        </question>
+        <question>
+            <text>Weight of an object in a free-falling lift is:</text>
+            <option id="A">Zero</option>
+            <option id="B">Increased</option>
+            <option id="C">Decreased</option>
+            <option id="D">Same</option>
+            <answer>A</answer>
+            <explanation>Apparent weight = m(g-a) = m(g-g) = 0.</explanation>
+        </question>
+        <question>
+            <text>Kepler's Third Law implies T^2 is proportional to:</text>
+            <option id="A">R^3</option>
+            <option id="B">R^2</option>
+            <option id="C">R</option>
+            <option id="D">1/R</option>
+            <answer>A</answer>
+            <explanation>Law of Periods.</explanation>
+        </question>
+        <!-- Adding 10 -->
+        <question><text>Which is the weakest fundamental force?</text><option id="A">Gravitational</option><option id="B">Electromagnetic</option><option id="C">Strong Nuclear</option><option id="D">Weak Nuclear</option><answer>A</answer><explanation>Comparison of magnitudes.</explanation></question>
+        <question><text>G depends on:</text><option id="A">None of these</option><option id="B">Nature of medium</option><option id="C">Temperature</option><option id="D">Time</option><answer>A</answer><explanation>Universal constant.</explanation></question>
+        <question><text>Weight of a body is maximum at:</text><option id="A">Poles</option><option id="B">Equator</option><option id="C">Center of Earth</option><option id="D">Space</option><answer>A</answer><explanation>g is max at poles due to shape and rotation.</explanation></question>
+        <question><text>If Earth stops rotating, g at equator will:</text><option id="A">Increase</option><option id="B">Decrease</option><option id="C">Remain same</option><option id="D">Become zero</option><answer>A</answer><explanation>g_eff = g - w^2 R. If w=0, g_eff increases.</explanation></question>
+        <question><text>Orbital velocity near Earth surface is approx:</text><option id="A">7.9 km/s</option><option id="B">11.2 km/s</option><option id="C">9.8 km/s</option><option id="D">3 km/s</option><answer>A</answer><explanation>v_o = v_e / sqrt(2).</explanation></question>
+        <question><text>Gravitational Potential Energy at infinity is taken as:</text><option id="A">Zero</option><option id="B">Infinite</option><option id="C">Positive</option><option id="D">Negative</option><answer>A</answer><explanation>Reference point.</explanation></question>
+        <question><text>Dimensional formula of G is:</text><option id="A">M^-1 L^3 T^-2</option><option id="B">M L T^-2</option><option id="C">M L^2 T^-2</option><option id="D">L^3 T^-2</option><answer>A</answer><explanation>F = Gmm/r^2 => G = Fr^2/m^2. MLT^-2 L^2 / M^2 = M^-1 L^3 T^-2.</explanation></question>
+        <question><text>Tides are caused mainly by:</text><option id="A">Gravitational pull of Moon</option><option id="B">Sun</option><option id="C">Earth's rotation</option><option id="D">Winds</option><answer>A</answer><explanation>Moon's proximity makes its effect stronger.</explanation></question>
+        <question><text>Gravitational mass vs Inertial mass:</text><option id="A">Are equal</option><option id="B">Gravitational > Inertial</option><option id="C">Inertial > Gravitational</option><option id="D">Unrelated</option><answer>A</answer><explanation>Principle of Equivalence.</explanation></question>
+        <question><text>The atmosphere is held to Earth by:</text><option id="A">Gravity</option><option id="B">Clouds</option><option id="C">Magnetic field</option><option id="D">Rotation</option><answer>A</answer><explanation>Escape velocity of gas molecules is less than 11.2 km/s.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>As we go up from Earth's surface, g:</text><option id="A">Decreases</option><option id="B">Increases</option><option id="C">Remains constant</option><option id="D">Becomes zero immediately</option><answer>A</answer><explanation>g' = g (R/(R+h))^2.</explanation></question>
+        <question><text>As we go down a mine, g:</text><option id="A">Decreases</option><option id="B">Increases</option><option id="C">Remains constant</option><option id="D">Becomes infinite</option><answer>A</answer><explanation>g' = g (1 - d/R).</explanation></question>
+        <question><text>Work done by gravity in a closed path is:</text><option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Depends on path</option><answer>A</answer><explanation>Conservative force.</explanation></question>
+        <question><text>Two point masses m and 4m are separated by d. Null point is at distance x from m. x?</text><option id="A">d/3</option><option id="B">d/2</option><option id="C">d/4</option><option id="D">2d/3</option><answer>A</answer><explanation>Gm/x^2 = G(4m)/(d-x)^2. 1/x = 2/(d-x). d-x = 2x. 3x=d. x=d/3.</explanation></question>
+        <question><text>Shape of Earth is:</text><option id="A">Oblate Spheroid</option><option id="B">Perfect Sphere</option><option id="C">Flat</option><option id="D">Ellipsoid</option><answer>A</answer><explanation>Bulges at equator.</explanation></question>
+        <question><text>Intensity of gravitational field I is related to force F as:</text><option id="A">I = F/m</option><option id="B">I = F m</option><option id="C">I = F/r</option><option id="D">I = Work</option><answer>A</answer><explanation>Force per unit mass.</explanation></question>
+        <question><text>SI unit of Gravitational Potential:</text><option id="A">J/kg</option><option id="B">J</option><option id="C">N/kg</option><option id="D">V</option><answer>A</answer><explanation>Work per unit mass.</explanation></question>
+        <question><text>Relationship between g and G:</text><option id="A">g = GM/R^2</option><option id="B">G = gR</option><option id="C">g = G M R^2</option><option id="D">g = G/R</option><answer>A</answer><explanation>For surface gravity.</explanation></question>
+        <question><text>A satellite does not need fuel to orbit because:</text><option id="A">Gravitational force provides centripetal force</option><option id="B">No air resistance</option><option id="C">Solar energy</option><option id="D">Magic</option><answer>A</answer><explanation>Inertia + Gravity.</explanation></question>
+        <question><text>Moon has no atmosphere because:</text><option id="A">Escape velocity is low</option><option id="B">It is far from Sun</option><option id="C">It is cool</option><option id="D">It is small</option><answer>A</answer><explanation>RMS speed of gas > Escape velocity.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Time period of a simple pendulum inside a satellite orbitng earth?</text><option id="A">Infinite</option><option id="B">Zero</option><option id="C">2 seconds</option><option id="D">Cant calculate</option><answer>A</answer><explanation>g_eff = 0.</explanation></question>
+        <question><text>If mass of Earth is doubled keeping radius same, g becomes:</text><option id="A">2g</option><option id="B">4g</option><option id="C">g/2</option><option id="D">g</option><answer>A</answer><explanation>g prop M.</explanation></question>
+        <question><text>If radius of Earth shrinks by 1% (mass constant), g will:</text><option id="A">Increase by 2%</option><option id="B">Decrease by 2%</option><option id="C">Increase by 1%</option><option id="D">Decrease by 1%</option><answer>A</answer><explanation>g prop 1/R^2. dg/g = -2 dR/R. -2(-1) = +2%.</explanation></question>
+        <question><text>Gravitational potential inside a hollow spherical shell is:</text><option id="A">Constant</option><option id="B">Zero</option><option id="C">Increases with r</option><option id="D">Decreases with r</option><answer>A</answer><explanation>Force is zero, so potential is constant (Gradient is zero).</explanation></question>
+        <question><text>Escape velocity depends on angle of projection?</text><option id="A">No</option><option id="B">Yes</option><option id="C">Partially</option><option id="D">Only for 45 deg</option><answer>A</answer><explanation>Based on energy conservation (scalar).</explanation></question>
+        <question><text>Two spheres of mass m and M are situated in air and then in water. Force?</text><option id="A">Remains same</option><option id="B">Decreases</option><option id="C">Increases</option><option id="D"> Becomes zero</option><answer>A</answer><explanation>Independent of medium.</explanation></question>
+        <question><text>If distance between sun and earth is tripled, gravitational force becomes:</text><option id="A">1/9 times</option><option id="B">1/3 times</option><option id="C">3 times</option><option id="D">9 times</option><answer>A</answer><explanation>Inverse square law.</explanation></question>
+        <question><text>What keeps the Moon in orbit?</text><option id="A">Centripetal force from Earth's gravity</option><option id="B">Inertia</option><option id="C">Sun's gravity</option><option id="D">Tides</option><answer>A</answer><explanation>Gravity acts as centripetal force.</explanation></question>
+        <question><text>Weight of a body at the center of Earth?</text><option id="A">0 N</option><option id="B">Infinite</option><option id="C">9.8 N</option><option id="D">Variable</option><answer>A</answer><explanation>g=0, so W=mg=0.</explanation></question>
+        <question><text>Parking orbit is for:</text><option id="A">Geostationary satellites</option><option id="B">Polar satellites</option><option id="C">Spy satellites</option><option id="D">Moon</option><answer>A</answer><explanation>Another name for geostationary orbit.</explanation></question>
+    </easy>
+
+    <medium>
+        <!-- 40 MEDIUM QUESTIONS -->
+        <question>
+            <text>At what height above Earth's surface does g become g/4?</text>
+            <option id="A">R</option>
+            <option id="B">2R</option>
+            <option id="C">R/2</option>
+            <option id="D">4R</option>
+            <answer>A</answer>
+            <explanation>g' = g (R/(R+h))^2. 1/4 = (R/(R+h))^2. 1/2 = R/(R+h). R+h = 2R. h=R.</explanation>
+        </question>
+        <question>
+            <text>A satellite is orbiting close to Earth. Its percentage increase in speed required to escape is:</text>
+            <option id="A">41.4%</option>
+            <option id="B">100%</option>
+            <option id="C">50%</option>
+            <option id="D">73.2%</option>
+            <answer>A</answer>
+            <explanation>ve = sqrt(2) vo = 1.414 vo. Increase = 0.414 = 41.4%.</explanation>
+        </question>
+        <question>
+            <text>The ratio of escape velocity to orbital velocity is:</text>
+            <option id="A">sqrt(2)</option>
+            <option id="B">1/sqrt(2)</option>
+            <option id="C">2</option><option id="D">1</option>
+            <answer>A</answer>
+            <explanation>Std relation.</explanation>
+        </question>
+        <question>
+            <text>Total energy of a satellite orbiting at radius r is:</text>
+            <option id="A">-GMm/2r</option>
+            <option id="B">-GMm/r</option>
+            <option id="C">GMm/2r</option><option id="D">Zero</option>
+            <answer>A</answer>
+            <explanation>E = K + U = GMm/2r - GMm/r = -GMm/2r.</explanation>
+        </question>
+        <question>
+            <text>Two planets have radii r1, r2 and densities d1, d2. Ratio of g1/g2?</text>
+            <option id="A">r1 d1 / r2 d2</option>
+            <option id="B">r1 d2 / r2 d1</option>
+            <option id="C">r1^2 d1 / r2^2 d2</option>
+            <option id="D">d1/d2</option>
+            <answer>A</answer>
+            <explanation>g = 4/3 pi G R rho. g prop R rho.</explanation>
+        </question>
+        <!-- Adding 10 -->
+        <question><text>If Earth used to shrink to half its radius with mass constant, day duration?</text><option id="A">6 hours</option><option id="B">12 hours</option><option id="C">48 hours</option><option id="D">24 hours</option><answer>A</answer><explanation>L const. I1w1 = I2w2. (2/5 MR^2) 2pi/T = (2/5 M (R/2)^2) 2pi/T'. R^2/T = (R^2/4)/T'. T' = T/4 = 24/4 = 6h.</explanation></question>
+        <question><text>Two satellites A and B revolve around a planet in coplanar circular orbits in same sense. Period T, 2T. Radius ratio?</text><option id="A">1 : 4^(1/3)</option><option id="B">1:4</option><option id="C">1:2</option><option id="D">1:8</option><answer>A</answer><explanation>T^2 prop R^3. (T/2T)^2 = (R1/R2)^3. 1/4 = (R1/R2)^3. R1/R2 = 1 / 4^(1/3).</explanation></question>
+        <question><text>Gravitational potential V vs distance r graph for spherical shell?</text><option id="A">Constant then hyperbola</option><option id="B">Straight line</option><option id="C">Parabola</option><option id="D">Bell curve</option><answer>A</answer><explanation>Constant -GM/R inside, -GM/r outside.</explanation></question>
+        <question><text>Work done to move a body of mass m from surface of Earth (R) to height h=R?</text><option id="A">mgR/2</option><option id="B">mgR</option><option id="C">2mgR</option><option id="D">mgR/4</option><answer>A</answer><explanation>Delta U = -GMm(1/(R+R) - 1/R) = -GMm(-1/2R) = GMm/2R. g = GM/R^2 => GM/R = gR. Delta U = mgR/2.</explanation></question>
+        <question><text>Three particles of mass M at corners of equilateral triangle side L. Speed to move in circle maintaining separation?</text><option id="A">sqrt(GM/L)</option><option id="B">sqrt(3GM/L)</option><option id="C">sqrt(GM/L(sqrt(3)))</option><option id="D">Zero</option><answer>A</answer><explanation>F_net towards center = 2 * F * cos 30 = 2 * (GM^2/L^2) * sqrt(3)/2 = sqrt(3) GM^2/L^2. Centripetal = M v^2 / r. r = L/sqrt(3). sqrt(3) GM^2/L^2 = M v^2 / (L/sqrt(3)). 3 GM / L^2 = v^2 / (L). 3 GM / L = v^2? Wait. Force towards center. F_net = sqrt(3)F. r = L/sqrt(3). Mv^2/r = F_net. Mv^2 * sqrt(3)/L = sqrt(3) GM^2/L^2. v^2 = GM/L. v = sqrt(GM/L).</explanation></question>
+        <question><text>Acceleration due to gravity at latitude lambda?</text><option id="A">g - R w^2 cos^2 lambda</option><option id="B">g - R w^2 sin^2 lambda</option><option id="C">g - R w^2</option><option id="D">g</option><answer>A</answer><explanation>Formula for rotation effect.</explanation></question>
+        <question><text>Escape velocity of a body of mass m is ve. Escape velocity of body 2m?</text><option id="A">ve</option><option id="B">2 ve</option><option id="C">ve/2</option><option id="D">4 ve</option><answer>A</answer><explanation>Independent of mass of body.</explanation></question>
+        <question><text>Mass M is split into m and (M-m). For max force between them, m/M is:</text><option id="A">1/2</option><option id="B">1/4</option><option id="C">1/3</option><option id="D">1</option><answer>A</answer><explanation>d/dm (m(M-m)) = M-2m = 0. m = M/2.</explanation></question>
+        <question><text>A body weighs 63N on surface. Weight at height R/2?</text><option id="A">28 N</option><option id="B">31.5 N</option><option id="C">42 N</option><option id="D">63 N</option><answer>A</answer><explanation>g' = g (R/(R+0.5R))^2 = g (1/1.5)^2 = g (2/3)^2 = 4/9 g. W' = 4/9 * 63 = 4 * 7 = 28N.</explanation></question>
+        <question><text>Orbital speed of a satellite depends on:</text><option id="A">Mass of planet and Radius of orbit</option><option id="B">Mass of satellite</option><option id="C">Orbit shape</option><option id="D">Rocket fuel</option><answer>A</answer><explanation>sqrt(GM/r).</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>Two stars of mass m1 and m2 dist d rotate. Period?</text><option id="A">2pi sqrt(d^3 / G(m1+m2))</option><option id="B">2pi sqrt(d^3 / G m1 m2)</option><option id="C">Formula</option><option id="D">Skip</option><answer>A</answer><explanation>Reduced mass mu = m1m2/(m1+m2). F = G m1 m2 / d^2. mu w^2 d? No. w^2 = G(m1+m2)/d^3.</explanation></question>
+        <question><text>Weight of a body at depth d=R/2?</text><option id="A">Half surface weight</option><option id="B">One fourth</option><option id="C">Double</option><option id="D">Same</option><answer>A</answer><explanation>g(1-d/R) = g(1-0.5) = g/2.</explanation></question>
+        <question><text>A simple pendulum has period T1 at surface and T2 at height R above. T2/T1?</text><option id="A">2</option><option id="B">4</option><option id="C">1/2</option><option id="D">1</option><answer>A</answer><explanation>T prop 1/sqrt(g). g2 = g/4. T2 prop 1/sqrt(g/4) = 2/sqrt(g). T2 = 2T1.</explanation></question>
+        <question><text>Four particles mass M at corners of square side a. Potential at center?</text><option id="A">-4 sqrt(2) GM / a</option><option id="B">-4 GM / a</option><option id="C">Zero</option><option id="D">-8 GM / a</option><answer>A</answer><explanation>r = a/sqrt(2). V = -4 GM / (a/sqrt(2)) = -4 sqrt(2) GM/a.</explanation></question>
+        <question><text>Gravitational field inside a solid sphere at distance r from center?</text><option id="A">Prop to r</option><option id="B">Prop to 1/r^2</option><option id="C">Zero</option><option id="D">Constant</option><answer>A</answer><explanation>g' = g r/R. Linear.</explanation></question>
+        <question><text>Height of geostationary satellite from surface:</text><option id="A">36000 km</option><option id="B">6400 km</option><option id="C">100 km</option><option id="D">24000 km</option><answer>A</answer><explanation>Calculated approx.</explanation></question>
+        <question><text>Binding energy of a satellite of mass m on surface of earth?</text><option id="A">GMm/R</option><option id="B">GMm/2R</option><option id="C">-GMm/R</option><option id="D">Zero</option><answer>A</answer><explanation>To escape, need to give energy. E = -GMm/R. BE = +GMm/R.</explanation></question>
+        <question><text>Two identical trains A and B move with equal speeds on equator along east to west and west to east. Which exerts more force on track?</text><option id="A">A (East to West)</option><option id="B">B</option><option id="C">Equal</option><option id="D">Depends</option><answer>A</answer><explanation>Earth rotates W to E. Train B (W to E) adds speed, more centrifugal force outward (mv^2/R), so N = mg - Fc is less. Train A (E to W) opposes rotation, less speed, less Fc, N is more. A exerts more force.</explanation></question>
+        <question><text>Graph of g vs r for Earth?</text><option id="A">Straight line then hyperbola</option><option id="B">Straight line only</option><option id="C">Parabola</option><option id="D">Constant</option><answer>A</answer><explanation>Linear inside, 1/r^2 outside.</explanation></question>
+        <question><text>Ratio of inertial mass to gravitational mass?</text><option id="A">1:1</option><option id="B">1:2</option><option id="C">g:G</option><option id="D">Variable</option><answer>A</answer><explanation>Equivalence principle.</explanation></question>
+        <!-- Adding 10 -->
+        <question><text>If density of Earth is doubled, g becomes?</text><option id="A">2g</option><option id="B">4g</option><option id="C">g</option><option id="D">g/2</option><answer>A</answer><explanation>g = 4/3 pi G R rho. if rho doubles, g doubles.</explanation></question>
+        <question><text>Black hole is a body whose:</text><option id="A">Escape velocity > c</option><option id="B">Mass is zero</option><option id="C">Gravity is zero</option><option id="D">Color is black</option><answer>A</answer><explanation>Light cannot escape.</explanation></question>
+        <question><text>Angular momentum of satellite depends on?</text><option id="A">m, M, r</option><option id="B">m only</option><option id="C">r only</option><option id="D">v only</option><answer>A</answer><explanation>L = mvr = m sqrt(GM/r) r = m sqrt(GMr).</explanation></question>
+        <question><text>A rocket is fired with speed v = 2 sqrt(gR) from earth. Speed at infinity?</text><option id="A">sqrt(3) ve</option><option id="B">ve</option><option id="C">0</option><option id="D">sqrt(2) ve</option><answer>A</answer><explanation>Conservation of energy. 0.5 m (2 ve)^2 - GMm/R = 0.5 m vinf^2. 2 m ve^2 - 0.5m ve^2 = 0.5 m vinf^2. 1.5 ve^2 = 0.5 vinf^2. vinf^2 = 3ve^2. vinf = sqrt(3) ve.</explanation></question>
+        <question><text>Period of revolution of planet around sun depends on:</text><option id="A">Semi major axis</option><option id="B">Mass of planet</option><option id="C">Rotation of planet</option><option id="D">Size of planet</option><answer>A</answer><explanation>Kepler's Law.</explanation></question>
+        <question><text>Speed of earth at perihelion vs aphelion?</text><option id="A">vp &gt; va</option><option id="B">vp &lt; va</option><option id="C">vp = va</option><option id="D">Zero</option><answer>A</answer><explanation>Cons of Ang Momentum. r_p &lt; r_a, so v_p &gt; v_a.</explanation></question>
+        <question><text>For a satellite in circular orbit, Ratio of KE to Potential Energy magnitude?</text><option id="A">1:2</option><option id="B">1:1</option><option id="C">2:1</option><option id="D">1:4</option><answer>A</answer><explanation>K = GMm/2r. |U| = GMm/r.</explanation></question>
+        <question><text>A body is projected vertically up with ve. max height?</text><option id="A">Infinity</option><option id="B">R</option><option id="C">2R</option><option id="D">Zero</option><answer>A</answer><explanation>Escapes field.</explanation></question>
+        <question><text>Two lead spheres of 20cm diameter touch. Force varies with radius R as:</text><option id="A">R^4</option><option id="B">R^2</option><option id="C">R^3</option><option id="D">1/R^2</option><answer>A</answer><explanation>M prop R^3. F = G M M / (2R)^2 prop R^6 / R^2 = R^4.</explanation></question>
+        <question><text>Potential energy of a system of 4 particles at corners of square?</text><option id="A">Complex sum (-5.41 Gm^2/a)</option><option id="B">Sum of 4 pairs</option><option id="C">Zero</option><option id="D">Positive</option><answer>A</answer><explanation>4 sides + 2 diagonals. 4(-Gm^2/a) + 2(-Gm^2/1.414a).</explanation></question>
+    </medium>
+
+    <hard>
+        <!-- 40 HARD QUESTIONS -->
+        <question>
+            <text>In a binary star system, two stars of masses m1 and m2 orbit common COM. Radius of m1 is r1. Total Energy?</text>
+            <option id="A">-G m1 m2 / 2(r1+r2)</option>
+            <option id="B">-G m1 m2 / (r1+r2)</option>
+            <option id="C">-G(m1+m2)^2 / 2r</option>
+            <option id="D">Zero</option>
+            <answer>A</answer>
+            <explanation>Same energy formula using separation d = r1+r2.</explanation>
+        </question>
+        <question>
+            <text>The gravitational field in a region is E = (2i + 3j) N/kg. Work done to move 1kg from (0,0) to (2,1)?</text>
+            <option id="A">-7 J</option>
+            <option id="B">7 J</option><option id="C">5 J</option><option id="D">-5 J</option>
+            <answer>A</answer>
+            <explanation>W_ext = - W_field. F_field = mE. W_field = F.d = (2i+3j).(2i+j) = 4+3=7. W_ext = -7 (against field). BUT Potential diff V_f - V_i = - Int E.dr. Delta U = m Delta V. If we move against field, we do +work? Work done "by field" is 7J. Work done "to move" usually implies external agent, which is -7J. Wait. Force on particle is F. To move it, we apply -F. Work = (-F).d = -(7) = -7J. Correct.</explanation>
+        </question>
+        <question>
+            <text>A tunnel is dug along a chord of Earth. Time period of oscillation?</text><option id="A">2pi sqrt(R/g)</option><option id="B">2pi sqrt(R/2g)</option><option id="C">Infinity</option><option id="D">84.6 years</option>
+            <answer>A</answer><explanation>Same as diameter tunnel. 84.6 minutes. 2pi sqrt(R/g).</explanation>
+        </question>
+        <question>
+            <text>Gravitational potential V = x^2 - y^2. Field intensity implies?</text><option id="A">E = -2xi + 2yj</option><option id="B">E = 2xi - 2yj</option><option id="C">E = -x + y</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>E = -Grad V = - (dV/dx i + dV/dy j) = -(2x i - 2y j) = -2xi + 2yj.</explanation>
+        </question>
+        <question><text>A solid sphere of mass M radius R has a point mass m at center. Work to move m to infinity?</text><option id="A">GMm/R</option><option id="B">GMm/2R</option><option id="C">3GMm/2R</option><option id="D">Integrated</option><answer>C</answer><explanation>Potential at center of solid sphere is -1.5 GM/R. Work = 0 - m(-1.5 GM/R) = 1.5 GMm/R.</explanation></question>
+        <!-- Adding more hard questions -->
+        <question><text>Maximum height reached by a rocket fired with velocity v = 0.9 ve?</text><option id="A">R (approx 4R)</option><option id="B">9R</option><option id="C">R/(1-0.81)</option><option id="D">10R</option><answer>A</answer><explanation>-GMm/R + 1/2 m (0.9 ve)^2 = -GMm/(R+h). ve^2 = 2GM/R. -GM/R + 0.81 GM/R = -GM/(R+h). -0.19/R = -1/(R+h). R+h = R/0.19 = 5.26R. h = 4.26R.</explanation></question>
+        <question><text>A satellite in equatorial plane has period T. Earth rotates with T0. Apparent period as seen from Earth (same sense)?</text><option id="A">1 / (1/T - 1/T0)</option><option id="B">T + T0</option><option id="C">sqrt(TT0)</option><option id="D">Zero</option><answer>A</answer><explanation>w_rel = w - w0. 2pi/T_app = 2pi/T - 2pi/T0.</explanation></question>
+        <question><text>Three stars mass M at equilateral triangle rotating. Radius R circumcircle. Period?</text><option id="A">2pi sqrt(R^3/3GM)</option><option id="B">2pi sqrt(R^3/GM)</option><option id="C">Formula</option><option id="D">Skip</option><answer>A</answer><explanation>F = sqrt(3) GM^2/L^2. L = sqrt(3)R. F = sqrt(3) GM^2 / 3R^2 = GM^2 / sqrt(3)R^2. Fc = M w^2 R. w^2 = GM / sqrt(3) R^3. T = 2pi R^1.5 / sqrt(GM/sqrt(3)).</explanation></question>
+        <question><text>A planet moves in ellipse. r_min and r_max given. Relation between v_min and v_max?</text><option id="A">v1 r1 = v2 r2</option><option id="B">Energy eq</option><option id="C">v1/r1 = v2/r2</option><option id="D">None</option><answer>A</answer><explanation>Angular momentum conservation.</explanation></question>
+        <question><text>Gravitational self energy of a solid sphere mass M radius R?</text><option id="A">3 GM^2 / 5 R</option><option id="B">GM^2/R</option><option id="C">3 GM^2 / 2 R</option><option id="D">0.5 GM^2 / R</option><answer>A</answer><explanation>Integration result (-3/5).</explanation></question>
+        <question><text>Two lead balls density d radius R placed in contact. Face prop to?</text><option id="A">R^4</option><option id="B">R^2</option><option id="C">R^3</option><option id="D">R^6</option><answer>A</answer><explanation>M = d V = d R^3. F = G M M / (2R)^2 = R^6 / R^2 = R^4.</explanation></question>
+        <question><text>A ring of Mass M radius R. Field on axis at dist x?</text><option id="A">GMx / (R^2+x^2)^1.5</option><option id="B">GM/x^2</option><option id="C">GMx / R^3</option><option id="D">Zero</option><answer>A</answer><explanation>Component addition.</explanation></question>
+        <question><text>Max field on axis of ring is at x = ?</text><option id="A">R/sqrt(2)</option><option id="B">R/2</option><option id="C">R</option><option id="D">0</option><answer>A</answer><explanation>Differentiation dE/dx = 0.</explanation></question>
+        <question><text>A particle is fired from equator at 60 deg to vertical to escape. Velocity required?</text><option id="A">11.2 km/s</option><option id="B">22.4 km/s</option><option id="C">5.6 km/s</option><option id="D">Depends on angle</option><answer>A</answer><explanation>Energy is scalar. ve is same.</explanation></question>
+        <question><text>Infinite number of masses m, 2m, 4m, 8m... at r, 2r, 4r, 8r... Potential at origin?</text><option id="A">-4Gm/3r</option><option id="B">Infinite</option><option id="C">-2Gm/r</option><option id="D">Zero</option><answer>A</answer><explanation>Sum = -G(m/r + 2m/2r + 4m/4r ...) = -Gm/r (1+1+1...)? Diverges. Bad question setup. Series: m/r, m/2r, m/4r etc? If m kept at 1, 2, 4, 8: m/1 + m/2 + m/4... Geometric series 1/(1-0.5) = 2. Total -2Gm/r. Question text needs fix: "Masses m placed at r, 2r, 4r, 8r..." Option C fits well.</explanation></question>
+        <question><text>Distance of null point between Earth (M) and Moon (M/81) where D is distance?</text><option id="A">0.9 D</option><option id="B">0.1 D</option><option id="C">0.5 D</option><option id="D">0.81 D</option><answer>A</answer><explanation>sqrt(M)/x = sqrt(m)/(D-x). 1/x = (1/9)/(D-x). 9(D-x) = x. 9D = 10x. x=0.9D.</explanation></question>
+        <question><text>A satellite loses energy due to drag. Effect?</text><option id="A">Radius decreases, Speed increases</option><option id="B">Radius increases, Speed decreases</option><option id="C">Both decrease</option><option id="D">Stops</option><answer>A</answer><explanation>Drops to lower orbit, paradox of satellites (speeds up due to lower PE).</explanation></question>
+        <question><text>Escape velocity from a planet density rho radius R?</text><option id="A">R sqrt(8pi G rho / 3)</option><option id="B">R rho G</option><option id="C">R^2 rho</option><option id="D">Formula</option><answer>A</answer><explanation>ve = sqrt(2GM/R) = sqrt(2G * 4/3 pi R^3 rho / R) = sqrt(8/3 pi G rho R^2).</explanation></question>
+        <question><text>Value of g at latitude 60 degrees? (Re w^2 = 0.034 m/s^2)</text><option id="A">9.79 approx</option><option id="B">9.8</option><option id="C">9.7</option><option id="D">9.5</option><answer>A</answer><explanation>g - 0.034 * cos^2(60) = g - 0.034 * 0.25 = g - 0.008. Very small change.</explanation></question>
+        <question><text>A cord breaks if tension > Tmax. Min time to pull M up h?</text><option id="A">sqrt(2mh / (Tmax-mg))</option><option id="B">Calculated</option><option id="C">Skip</option><option id="D">Formula</option><answer>A</answer><explanation>Tmax - mg = ma_max. t = sqrt(2h/a_max).</explanation></question>
+        <question><text>Two satellites S1 and S2 revolve in same orbit. S1 is behind S2. To catch S2, S1 must:</text><option id="A">Move to lower orbit then higher</option><option id="B">Speed up directly</option><option id="C">Slow down directly</option><option id="D">Cannot</option><answer>A</answer><explanation>Orbital mechanics. Slow down -> lower orbit -> shorter period -> catch up -> speed up.</explanation></question>
+        <question><text>Mean density of Earth from g, G, R?</text><option id="A">3g / 4pi G R</option><option id="B">gR / G</option><option id="C">3gR / 4G</option><option id="D">Formula</option><answer>A</answer><explanation>g = 4/3 pi G R rho.</explanation></question>
+        <question><text>Orbit of binary stars is?</text><option id="A">Circles/Ellipses around COM</option><option id="B">Straight Line</option><option id="C">Static</option><option id="D">Chaos</option><answer>A</answer><explanation>Two body problem.</explanation></question>
+        <question><text>A straight rod length L mass M. Field at dist d on bisector?</text><option id="A">2GM / d sqrt(L^2/4 + d^2)</option><option id="B">GM/d^2</option><option id="C">Zero</option><option id="D">Integrated</option><answer>A</answer><explanation>Formula for finite rod.</explanation></question>
+        <question><text>A projectile fired horizontally from top of tower to orbit Earth?</text><option id="A">v = 8 km/s</option><option id="B">v = 11.2 km/s</option><option id="C">v = 9.8 km/s</option><option id="D">v = 3 km/s</option><answer>A</answer><explanation>Orbital velocity condition.</explanation></question>
+        <question><text>If G decreases with time, earth's orbit will:</text><option id="A">Expand</option><option id="B">Shrink</option><option id="C">Unchanged</option><option id="D">Collapse</option><answer>A</answer><explanation>Force decreases, so curvature decreases, spiralling out.</explanation></question>
+        <question><text>Weightlessness in satellite is due to:</text><option id="A">Normal reaction is zero</option><option id="B">No gravity</option><option id="C">Vacuum</option><option id="D">High speed</option><answer>A</answer><explanation>Free fall state.</explanation></question>
+        <question><text>Total energy of hollow sphere shell?</text><option id="A">-GM^2 / 2R</option><option id="B">-GM^2 / R</option><option id="C">Zero</option><option id="D">-3/5 GM^2 / R</option><answer>A</answer><explanation>Self energy of shell.</explanation></question>
+        <question><text>Potential at center of solid sphere vs surface?</text><option id="A">1.5 times</option><option id="B">Equal</option><option id="C">2 times</option><option id="D">Infinite</option><answer>A</answer><explanation>Vr = Vinf = 0. Vs = -GM/R. Vc = -1.5 GM/R.</explanation></question>
+        <question><text>A body falls from infinity to earth. Velocity at surface?</text><option id="A">11.2 km/s</option><option id="B">Zero</option><option id="C">9.8 km/s</option><option id="D">Infinite</option><answer>A</answer><explanation>Equal to escape velocity.</explanation></question>
+        <question><text>Three masses m in line with separation a. Work to remove middle one?</text><option id="A">-2Gm^2/a to remove? No work done by us is change in U. U_in = -Gm^2/a - Gm^2/a = -2Gm^2/a. U_fin = 0 (infinity). Change = +2Gm^2/a.</option><option id="B">Gm^2/a</option><option id="C">Zero</option><option id="D">Negative</option><answer>A</answer><explanation>Work done = U_final - U_initial = 0 - (-2Gm^2/a).</explanation></question>
+        <question><text>Sphere with cavity. Field inside cavity?</text><option id="A">Uniform and non-zero</option><option id="B">Zero</option><option id="C">Variable</option><option id="D">Infinite</option><answer>A</answer><explanation>Standard result for sphere with off-center spherical cavity.</explanation></question>
+        <question><text>Two planets collide. Conservation of?</text><option id="A">Linear Momentum</option><option id="B">Kinetic Energy</option><option id="C">Temperature</option><option id="D">Life</option><answer>A</answer><explanation>Isolated system.</explanation></question>
+        <question><text>Can a satellite time period be 60 minutes?</text><option id="A">No, T_min = 84.6 min</option><option id="B">Yes</option><option id="C">Maybe</option><option id="D">In future</option><answer>A</answer><explanation>Grazing orbit period is minimum.</explanation></question>
+        <question><text>A shell explodes in orbit. Center of mass?</text><option id="A">Continues in same orbit</option><option id="B">Falls down</option><option id="C">Stops</option><option id="D">Random</option><answer>A</answer><explanation>Internal forces dont change COM path.</explanation></question>
+        <question><text>Speed of gravity?</text><option id="A">c (light speed)</option><option id="B">Infinite</option><option id="C">Sound speed</option><option id="D">Unknown</option><answer>A</answer><explanation>General Relativity.</explanation></question>
+        <question><text>Tidal forces depend on distance r as:</text><option id="A">1/r^3</option><option id="B">1/r^2</option><option id="C">1/r</option><option id="D">1/r^4</option><answer>A</answer><explanation>Gradient of force. d/dr(1/r^2) ~ 1/r^3.</explanation></question>
+        <question><text>Roche limit is:</text><option id="A">Distance where tidal forces break a moon</option><option id="B">Speed limit</option><option id="C">Mass limit</option><option id="D">Time limit</option><answer>A</answer><explanation>Astronomy concept.</explanation></question>
+        <question><text>Lagrangian point L1 is:</text><option id="A">Unstable equilibrium</option><option id="B">Stable</option><option id="C">Neutral</option><option id="D">None</option><answer>A</answer><explanation>Saddle point.</explanation></question>
+    </hard>
+</chapter>

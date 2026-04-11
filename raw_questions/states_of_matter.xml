@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="105" name="States of Matter">
+    <easy>
+        <question>
+            <text>Which force is weakest among intermolecular forces?</text>
+            <option id="A">London Dispersion Force</option><option id="B">Dipole-Dipole</option><option id="C">Hydrogen Bond</option><option id="D">Ion-Dipole</option>
+            <answer>A</answer><explanation>Temporary dipole.</explanation>
+        </question>
+        <question>
+            <text>Boyle's Law states relation between Pressure and Volume at constant:</text>
+            <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">Volume</option><option id="D">Mass</option>
+            <answer>A</answer><explanation>P inversely proportional to V.</explanation>
+        </question>
+        <question>
+            <text>Mathematical expression of Boyle's Law:</text>
+            <option id="A">PV = Constant (P1V1 = P2V2)</option><option id="B">V/T = Constant</option><option id="C">P/T = Constant</option><option id="D">V = n</option>
+            <answer>A</answer><explanation>Isothermal.</explanation>
+        </question>
+        <question>
+            <text>Charles' Law states relation between Volume and Temperature at constant:</text>
+            <option id="A">Pressure</option><option id="B">Volume</option><option id="C">Temperature</option><option id="D">Mole</option>
+            <answer>A</answer><explanation>Isobaric.</explanation>
+        </question>
+        <question>
+            <text>Mathematical expression of Charles' Law:</text>
+            <option id="A">V/T = Constant (V1/T1 = V2/T2)</option><option id="B">PV = Constant</option><option id="C">P/T = Constant</option><option id="D">V = n</option>
+            <answer>A</answer><explanation>Directly proportional.</explanation>
+        </question>
+        <question>
+            <text>Absolute Zero temperature is:</text>
+            <option id="A">-273.15 C (0 K)</option><option id="B">0 C</option><option id="C">-100 C</option><option id="D">273 C</option>
+            <answer>A</answer><explanation>Volume becomes zero theoretically.</explanation>
+        </question>
+        <question>
+            <text>Gay Lussac's Law relates Pressure and Temperature at constant:</text>
+            <option id="A">Volume</option><option id="B">Temperature</option><option id="C">Pressure</option><option id="D">Mole</option>
+            <answer>A</answer><explanation>Isochoric.</explanation>
+        </question>
+        <question>
+            <text>Avogadro's Law states equal volumes of all gases contain equal number of:</text>
+            <option id="A">Molecules (at same T and P)</option><option id="B">Atoms</option><option id="C">Electrons</option><option id="D">Protons</option>
+            <answer>A</answer><explanation>V proportional to n.</explanation>
+        </question>
+        <question>
+            <text>Ideal Gas Equation is:</text>
+            <option id="A">PV = nRT</option><option id="B">PV = RT</option><option id="C">P = nRT</option><option id="D">V = nRT</option>
+            <answer>A</answer><explanation>Combination of gas laws.</explanation>
+        </question>
+        <question>
+            <text>Value of R (Universal Gas Constant) in L atm per K per mol:</text>
+            <option id="A">0.0821</option><option id="B">8.314</option><option id="C">1.987</option><option id="D">0.083</option>
+            <answer>A</answer><explanation>Common unit.</explanation>
+        </question>
+        <question>
+            <text>Value of R in SI units (J per K per mol):</text>
+            <option id="A">8.314</option><option id="B">0.0821</option><option id="C">2</option><option id="D">10</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>STP conditions (Standard Temperature and Pressure) currently defined as:</text>
+            <option id="A">273.15 K and 1 bar</option><option id="B">273.15 K and 1 atm</option><option id="C">298 K and 1 bar</option><option id="D">0 K and 0 P</option>
+            <answer>A</answer><explanation>IUPAC.</explanation>
+        </question>
+        <question>
+            <text>Molar volume of ideal gas at STP (1 bar, 273.15 K):</text>
+            <option id="A">22.7 L</option><option id="B">22.4 L (Old definition 1 atm)</option><option id="C">24.8 L</option><option id="D">1 L</option>
+            <answer>A</answer><explanation>Slightly larger than 22.4.</explanation>
+        </question>
+        <question>
+            <text>Dalton's Law of Partial Pressures applies to:</text>
+            <option id="A">Non-reacting gases</option><option id="B">Reacting gases</option><option id="C">Liquids</option><option id="D">Solids</option>
+            <answer>A</answer><explanation>Total P = Sum of partial Ps.</explanation>
+        </question>
+        <question>
+            <text>Partial pressure of a gas = Mole fraction x ?</text>
+            <option id="A">Total Pressure</option><option id="B">Volume</option><option id="C">Temperature</option><option id="D">R</option>
+            <answer>A</answer><explanation>p_i = x_i * P_total.</explanation>
+        </question>
+        <question>
+            <text>Kinetic theory assumes gas particles are:</text>
+            <option id="A">Point masses with no volume</option><option id="B">Large spheres</option><option id="C">Attracting each other</option><option id="D">Static</option>
+            <answer>A</answer><explanation>Negligible volume.</explanation>
+        </question>
+        <question>
+            <text>Kinetic theory assumes intermolecular forces are:</text>
+            <option id="A">Negligible</option><option id="B">Strong</option><option id="C">Repulsive</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Ideal gas.</explanation>
+        </question>
+        <question>
+            <text>Average Kinetic Energy of gas is proportional to:</text>
+            <option id="A">Absolute Temperature</option><option id="B">Pressure</option><option id="C">Volume</option><option id="D">Mass</option>
+            <answer>A</answer><explanation>KE = 3/2 RT.</explanation>
+        </question>
+        <question>
+            <text>Gas that obeys gas laws at all conditions is called:</text>
+            <option id="A">Ideal Gas</option><option id="B">Real Gas</option><option id="C">Noble Gas</option><option id="D">Vapor</option>
+            <answer>A</answer><explanation>Hypothetical.</explanation>
+        </question>
+        <question>
+            <text>Real gases show deviation from ideal behavior at:</text>
+            <option id="A">High Pressure and Low Temperature</option><option id="B">Low Pressure and High Temperature</option><option id="C">High T Low P</option><option id="D">STP</option>
+            <answer>A</answer><explanation>Forces become significant.</explanation>
+        </question>
+        <question>
+            <text>Real gases behave ideally at:</text>
+            <option id="A">Low Pressure and High Temperature</option><option id="B">High Pressure Low Temperature</option><option id="C">High P High T</option><option id="D">Low P Low T</option>
+            <answer>A</answer><explanation>Far apart.</explanation>
+        </question>
+        <question>
+            <text>Compressibility factor Z for ideal gas is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">>1</option><option id="D"><1</option>
+            <answer>A</answer><explanation>PV/nRT = 1.</explanation>
+        </question>
+        <question>
+            <text>If Z > 1, the gas shows:</text>
+            <option id="A">Positive deviation (Less compressible)</option><option id="B">Negative deviation</option><option id="C">Ideal behavior</option><option id="D">None</option>
+            <answer>A</answer><explanation>Repulsive forces dominate.</explanation>
+        </question>
+        <question>
+            <text>If Z < 1, the gas shows:</text>
+            <option id="A">Negative deviation (More compressible)</option><option id="B">Positive</option><option id="C">Ideal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Attractive forces dominate.</explanation>
+        </question>
+        <question>
+            <text>Van der Waals equation modification for Pressure accounts for:</text>
+            <option id="A">Intermolecular forces (a)</option><option id="B">Volume</option><option id="C">Temperature</option><option id="D">R</option>
+            <answer>A</answer><explanation>Correction term.</explanation>
+        </question>
+        <question>
+            <text>Van der Waals equation modification for Volume accounts for:</text>
+            <option id="A">Finite size of molecules (b)</option><option id="B">Forces</option><option id="C">Pressure</option><option id="D">Temperature</option>
+            <answer>A</answer><explanation>Excluded volume.</explanation>
+        </question>
+        <question>
+            <text>Unit of van der Waals constant 'a':</text>
+            <option id="A">atm L2 mol-2</option><option id="B">L mol-1</option><option id="C">atm</option><option id="D">L</option>
+            <answer>A</answer><explanation>Pressure correction.</explanation>
+        </question>
+        <question>
+            <text>Unit of van der Waals constant 'b':</text>
+            <option id="A">L mol-1</option><option id="B">atm</option><option id="C">L2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Volume correction.</explanation>
+        </question>
+        <question>
+            <text>Critical Temperature (Tc) is temperature above which:</text>
+            <option id="A">Gas cannot be liquefied by pressure alone</option><option id="B">Gas becomes liquid</option><option id="C">Gas becomes solid</option><option id="D">Explodes</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Surface Tension unit:</text>
+            <option id="A">N/m (Newton per meter)</option><option id="B">N/m2</option><option id="C">J</option><option id="D">Pa</option>
+            <answer>A</answer><explanation>Force per unit length.</explanation>
+        </question>
+        <question>
+            <text>Viscosity is:</text>
+            <option id="A">Internal resistance to flow</option><option id="B">Surface phenomenon</option><option id="C">Pressure</option><option id="D">Volume</option>
+            <answer>A</answer><explanation>Friction between layers.</explanation>
+        </question>
+        <question>
+            <text>Unit of Coefficient of Viscosity (Eta):</text>
+            <option id="A">Poise (or Pa s)</option><option id="B">Newton</option><option id="C">Joule</option><option id="D">Meter</option>
+            <answer>A</answer><explanation>Pascal second.</explanation>
+        </question>
+        <question>
+            <text>Does viscosity increase or decrease with temperature for liquids?</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Flows easily when hot.</explanation>
+        </question>
+        <question>
+            <text>Vapor pressure involves equilibrium between:</text>
+            <option id="A">Liquid and its Vapor</option><option id="B">Solid and Vapor</option><option id="C">Solid and Liquid</option><option id="D">None</option>
+            <answer>A</answer><explanation>At constant T.</explanation>
+        </question>
+        <question>
+            <text>Boiling point is temperature at which Vapor Pressure equals:</text>
+            <option id="A">Atmospheric Pressure</option><option id="B">1 atm</option><option id="C">0</option><option id="D">Critical Pressure</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>At high altitude, boiling point of water:</text>
+            <option id="A">Decreases (Cooks slowly)</option><option id="B">Increases</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lower atmospheric pressure.</explanation>
+        </question>
+        <question>
+            <text>Surface tension causes liquids to assume:</text>
+            <option id="A">Spherical shape (Minimizes surface area)</option><option id="B">Cube</option><option id="C">Flat</option><option id="D">Pyramid</option>
+            <answer>A</answer><explanation>Minimum energy.</explanation>
+        </question>
+        <question>
+            <text>Capillary action is due to:</text>
+            <option id="A">Surface tension (Adhesion/Cohesion)</option><option id="B">Viscosity</option><option id="C">Density</option><option id="D">Gravity</option>
+            <answer>A</answer><explanation>Rise of liquid.</explanation>
+        </question>
+        <question>
+            <text>Which gas has highest rate of diffusion?</text>
+            <option id="A">H2 (Lightest)</option><option id="B">O2</option><option id="C">N2</option><option id="D">CO2</option>
+            <answer>A</answer><explanation>Graham's Law.</explanation>
+        </question>
+        <question>
+            <text>Graham's Law of Diffusion states rate is inversely proportional to:</text>
+            <option id="A">Square root of Molar Mass (Density)</option><option id="B">Molar Mass</option><option id="C">Temperature</option><option id="D">Volume</option>
+            <answer>A</answer><explanation>r proportional to 1/sqrt(M).</explanation>
+        </question>
+        <question>
+            <text>Dipole-Induced Dipole force exists between:</text>
+            <option id="A">Polar molecule and Non-polar molecule</option><option id="B">Two polar</option><option id="C">Two non-polar</option><option id="D">Ions</option>
+            <answer>A</answer><explanation>Induction.</explanation>
+        </question>
+        <question>
+            <text>London Dispersion forces are significant in:</text>
+            <option id="A">Non-polar molecules (Noble gases)</option><option id="B">Ions</option><option id="C">Polar</option><option id="D">Metals</option>
+            <answer>A</answer><explanation>Instantaneous dipole.</explanation>
+        </question>
+        <question>
+            <text>Strength of London forces usually increases with:</text>
+            <option id="A">Molecular size / Surface area / Polarizability</option><option id="B">Temperature</option><option id="C">Pressure</option><option id="D">None</option>
+            <answer>A</answer><explanation>More electrons.</explanation>
+        </question>
+        <question>
+            <text>Hydrogen bond is a special case of:</text>
+            <option id="A">Dipole-Dipole interaction</option><option id="B">Dispersion</option><option id="C">Ionic</option><option id="D">Covalent</option>
+            <answer>A</answer><explanation>Strong.</explanation>
+        </question>
+        <question>
+            <text>S I unit of Pressure:</text>
+            <option id="A">Pascal (Pa or N/m2)</option><option id="B">atm</option><option id="C">bar</option><option id="D">torr</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>1 bar is equal to:</text>
+            <option id="A">10^5 Pa</option><option id="B">10^6 Pa</option><option id="C">1 Pa</option><option id="D">100 Pa</option>
+            <answer>A</answer><explanation>Approx 0.987 atm.</explanation>
+        </question>
+        <question>
+            <text>1 atm is equal to:</text>
+            <option id="A">101325 Pa (1.01325 bar)</option><option id="B">100000 Pa</option><option id="C">10 Pa</option><option id="D">1 Pa</option>
+            <answer>A</answer><explanation>Standard atmosphere.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Correct order of deviation from ideal behavior (a values)?</text>
+            <option id="A">NH3 > CH4 > N2 > H2</option><option id="B">H2 > N2 > CH4 > NH3</option><option id="C">Equal</option><option id="D">None</option>
+            <answer>A</answer><explanation>H-bonding makes 'a' largest for NH3.</explanation>
+        </question>
+        <question>
+            <text>Root Mean Square Velocity (Urms) formula:</text>
+            <option id="A">sqrt(3RT/M)</option><option id="B">sqrt(2RT/M)</option><option id="C">sqrt(8RT/piM)</option><option id="D">3RT/M</option>
+            <answer>A</answer><explanation>Maxwell Boltzmann.</explanation>
+        </question>
+        <question>
+            <text>Average Velocity (Uavg) formula:</text>
+            <option id="A">sqrt(8RT/piM)</option><option id="B">sqrt(3RT/M)</option><option id="C">sqrt(2RT/M)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mean speed.</explanation>
+        </question>
+        <question>
+            <text>Most Probable Velocity (Ump) formula:</text>
+            <option id="A">sqrt(2RT/M)</option><option id="B">sqrt(3RT/M)</option><option id="C">sqrt(8RT/piM)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Peak of curve.</explanation>
+        </question>
+        <question>
+            <text>Ratio Ump : Uavg : Urms is approx:</text>
+            <option id="A">1 : 1.128 : 1.224</option><option id="B">1 : 1 : 1</option><option id="C">1.224 : 1.128 : 1</option><option id="D">2 : 3 : 8</option>
+            <answer>A</answer><explanation>Order Urms > Uavg > Ump.</explanation>
+        </question>
+        <question>
+            <text>Boyle Temperature (Tb) is given by:</text>
+            <option id="A">a / Rb</option><option id="B">2a / Rb</option><option id="C">8a / 27Rb</option><option id="D">a / b</option>
+            <answer>A</answer><explanation>Temperature where ideal behavior exists over range of pressure.</explanation>
+        </question>
+        <question>
+            <text>Critical Temperature (Tc) formula:</text>
+            <option id="A">8a / 27Rb</option><option id="B">a / Rb</option><option id="C">2a / Rb</option><option id="D">a / 27b</option>
+            <answer>A</answer><explanation>Highest T for liquefaction.</explanation>
+        </question>
+        <question>
+            <text>Critical Pressure (Pc) formula:</text>
+            <option id="A">a / 27b^2</option><option id="B">a / b^2</option><option id="C">8a / 27b</option><option id="D">3b</option>
+            <answer>A</answer><explanation>Pressure at Tc.</explanation>
+        </question>
+        <question>
+            <text>Critical Volume (Vc) formula:</text>
+            <option id="A">3b</option><option id="B">b</option><option id="C">2b</option><option id="D">b/3</option>
+            <answer>A</answer><explanation>Volume at Tc Pc.</explanation>
+        </question>
+        <question>
+            <text>Value of Z at critical point (Zc = PcVc/RTc):</text>
+            <option id="A">3/8 (0.375)</option><option id="B">1</option><option id="C">0.5</option><option id="D">0</option>
+            <answer>A</answer><explanation>Universal constant for vdw gas.</explanation>
+        </question>
+        <question>
+            <text>Inversion Temperature (Ti) for Joule-Thomson effect:</text>
+            <option id="A">2a / Rb</option><option id="B">a / Rb</option><option id="C">8a / 27Rb</option><option id="D">2Tb</option>
+            <answer>A</answer><explanation>Below which cooling occurs.</explanation>
+        </question>
+        <question>
+            <text>Relationship between Inversion Temp and Boyle Temp:</text>
+            <option id="A">Ti = 2 Tb</option><option id="B">Ti = Tb</option><option id="C">Ti = 0.5 Tb</option><option id="D">None</option>
+            <answer>A</answer><explanation>2a/Rb vs a/Rb.</explanation>
+        </question>
+        <question>
+            <text>Total kinetic energy of n moles of ideal gas:</text>
+            <option id="A">3/2 nRT</option><option id="B">3/2 RT</option><option id="C">1/2 mv2</option><option id="D">RT</option>
+            <answer>A</answer><explanation>Translational.</explanation>
+        </question>
+        <question>
+            <text>Average kinetic energy per molecule depends only on:</text>
+            <option id="A">Temperature (3/2 kT)</option><option id="B">Mass</option><option id="C">Pressure</option><option id="D">Volume</option>
+            <answer>A</answer><explanation>Nature of gas does not matter.</explanation>
+        </question>
+        <question>
+            <text>Boltzmann constant k is:</text>
+            <option id="A">R / Na (Gas constant / Avogadro num)</option><option id="B">R * Na</option><option id="C">h / mv</option><option id="D">None</option>
+            <answer>A</answer><explanation>Per molecule gas constant.</explanation>
+        </question>
+        <question>
+            <text>Density of gas formula from ideal gas equation:</text>
+            <option id="A">d = PM / RT</option><option id="B">d = RT / PM</option><option id="C">d = n/V</option><option id="D">d = PM</option>
+            <answer>A</answer><explanation>M is molar mass.</explanation>
+        </question>
+        <question>
+            <text>Rate of diffusion of H2 vs O2 (M=2 vs 32):</text>
+            <option id="A">H2 diffuses 4 times faster (sqrt(32/2) = 4)</option><option id="B">16 times</option><option id="C">2 times</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>Graham's law.</explanation>
+        </question>
+        <question>
+            <text>Payload of a balloon depends on:</text>
+            <option id="A">Weight of displaced air - Weight of balloon</option><option id="B">Volume</option><option id="C">Pressure</option><option id="D">Temp</option>
+            <answer>A</answer><explanation>Archimedes principle.</explanation>
+        </question>
+        <question>
+            <text>Surface tension decreases with rise in temperature because:</text>
+            <option id="A">Kinetic energy increases, intermolecular forces decrease</option><option id="B">Viscosity increases</option><option id="C">Density increases</option><option id="D">None</option>
+            <answer>A</answer><explanation>Molecules move apart.</explanation>
+        </question>
+        <question>
+            <text>At critical temperature, surface tension becomes:</text>
+            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">Minimum</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Meniscus disappears.</explanation>
+        </question>
+        <question>
+            <text>Viscosity of gases _______ with temperature.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>More collision momentum transfer.</explanation>
+        </question>
+        <question>
+            <text>Viscosity of liquids _______ with temperature.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Forces weaken.</explanation>
+        </question>
+        <question>
+            <text>Laminar flow implies:</text>
+            <option id="A">Layers sliding smoothly</option><option id="B">Turbulence</option><option id="C">Mixing</option><option id="D">None</option>
+            <answer>A</answer><explanation>Viscosity definition.</explanation>
+        </question>
+        <question>
+            <text>Unit of surface energy:</text>
+            <option id="A">J/m2 (Same as Surface Tension N/m)</option><option id="B">J</option><option id="C">N</option><option id="D">W</option>
+            <answer>A</answer><explanation>Energy per unit area.</explanation>
+        </question>
+        <question>
+            <text>Which liquid forms convex meniscus in glass capillary?</text>
+            <option id="A">Mercury</option><option id="B">Water</option><option id="C">Alcohol</option><option id="D">Ether</option>
+            <answer>A</answer><explanation>Cohesion > Adhesion.</explanation>
+        </question>
+        <question>
+            <text>Which liquid forms concave meniscus?</text>
+            <option id="A">Water</option><option id="B">Mercury</option><option id="C">None</option><option id="D">All</option>
+            <answer>A</answer><explanation>Adhesion > Cohesion.</explanation>
+        </question>
+        <question>
+            <text>Vapor pressure depends on:</text>
+            <option id="A">Temperature and Nature of liquid</option><option id="B">Surface area</option><option id="C">Volume of container</option><option id="D">None</option>
+            <answer>A</answer><explanation>Independent of amount.</explanation>
+        </question>
+        <question>
+            <text>Comparing boiling points: H2O (100 C) vs Ethanol (78 C) vs Ether (35 C). Strongest force?</text>
+            <option id="A">H2O (H-bond)</option><option id="B">Ether</option><option id="C">Ethanol</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>Volatility.</explanation>
+        </question>
+        <question>
+            <text>Graph of P vs V at constant T (Isotherm) shape?</text>
+            <option id="A">Rectangular Hyperbola</option><option id="B">Straight line</option><option id="C">Parabola</option><option id="D">Circle</option>
+            <answer>A</answer><explanation>Boyle's law.</explanation>
+        </question>
+        <question>
+            <text>Graph of V vs T at constant P (Isobar) is:</text>
+            <option id="A">Straight line passing through origin (if T in Kelvin)</option><option id="B">Hyperbola</option><option id="C">Curve</option><option id="D">None</option>
+            <answer>A</answer><explanation>Charles.</explanation>
+        </question>
+        <question>
+            <text>Graph of P vs 1/V is:</text>
+            <option id="A">Straight line through origin</option><option id="B">Hyperbola</option><option id="C">Parabola</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direct proportion.</explanation>
+        </question>
+        <question>
+            <text>Graph of PV vs P for ideal gas:</text>
+            <option id="A">Horizontal line parallel to P axis</option><option id="B">Slope</option><option id="C">Curve</option><option id="D">Origin</option>
+            <answer>A</answer><explanation>Constant.</explanation>
+        </question>
+        <question>
+            <text>For H2 and He, Z is usually:</text>
+            <option id="A">Always > 1 at normal conditions (Repulsive forces dominate due to small size)</option><option id="B">< 1</option><option id="C">1</option><option id="D">0</option>
+            <answer>A</answer><explanation>Positive deviation.</explanation>
+        </question>
+        <question>
+            <text>For CO2 and CH4, Z shows dip (<1) at low pressure because:</text>
+            <option id="A">Attractive forces are significant</option><option id="B">Size is large</option><option id="C">Repulsion</option><option id="D">None</option>
+            <answer>A</answer><explanation>Compressible.</explanation>
+        </question>
+        <question>
+            <text>Liquefaction of gas requires:</text>
+            <option id="A">High Pressure and Low Temperature (Below Tc)</option><option id="B">High T</option><option id="C">Low P</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conditions.</explanation>
+        </question>
+        <question>
+            <text>At high pressure, Van der Waals equation reduces to:</text>
+            <option id="A">P(V-nb) = nRT ? No. Z = 1 + Pb/RT</option><option id="B">Z = 1</option><option id="C">Z = 1 - a/VRT</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exclude 'a'. P(V-b)=RT. PV-Pb=RT. PV=RT+Pb. Z=1+Pb/RT.</explanation>
+        </question>
+        <question>
+            <text>At low pressure, Van der Waals equation reduces to:</text>
+            <option id="A">Z = 1 - a/VRT</option><option id="B">Z = 1 + Pb/RT</option><option id="C">Ideal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Neglect b. (P+a/V2)V = RT. PV + a/V = RT. Z = 1 - a/VRT.</explanation>
+        </question>
+        <question>
+            <text>Which causes cooling in Joule-Thomson effect?</text>
+            <option id="A">Work done against intermolecular attraction</option><option id="B">Kinetic energy</option><option id="C">Friction</option><option id="D">None</option>
+            <answer>A</answer><explanation>Expansion.</explanation>
+        </question>
+        <question>
+            <text>H2 and He show heating in Joule-Thomson expansion at room temp because:</text>
+            <option id="A">Their Inversion Temp is very low</option><option id="B">High Ti</option><option id="C">Ideal gas</option><option id="D">None</option>
+            <answer>A</answer><explanation>Expansion causes heating above Ti.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Calculate density of CO2 at 27 C and 2 atm:</text>
+            <option id="A">3.57 g/L</option><option id="B">1.5 g/L</option><option id="C">10 g/L</option><option id="D">22.4 g/L</option>
+            <answer>A</answer><explanation>d = PM/RT = 2 * 44 / (0.0821 * 300) = 88 / 24.63 approx 3.57.</explanation>
+        </question>
+        <question>
+            <text>Ratio of rates of effusion of He and CH4 (M=4 vs 16):</text>
+            <option id="A">He effuses 2 times faster</option><option id="B">4 times</option><option id="C">Equal</option><option id="D">Half</option>
+            <answer>A</answer><explanation>sqrt(16/4) = 2.</explanation>
+        </question>
+        <question>
+            <text>Mean Free Path (?) is proportional to:</text>
+            <option id="A">T / P (Directly to T, Inversely to P)</option><option id="B">P / T</option><option id="C">P</option><option id="D">None</option>
+            <answer>A</answer><explanation>Density inversely proportional.</explanation>
+        </question>
+        <question>
+            <text>Collision frequency (Z) depends on:</text>
+            <option id="A">P^2 / sqrt(T) roughly</option><option id="B">Independent</option><option id="C">V</option><option id="D">None</option>
+            <answer>A</answer><explanation>Complex formula.</explanation>
+        </question>
+        <question>
+            <text>Most probable (Ump) : Average (Uavg) : RMS (Urms) ratio EXACTLY:</text>
+            <option id="A">sqrt(2) : sqrt(2.55) : sqrt(3) -> 1.414 : 1.59 : 1.732 -> 1 : 1.128 : 1.224</option><option id="B">1 : 2 : 3</option><option id="C">3 : 2 : 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Values.</explanation>
+        </question>
+        <question>
+            <text>Volume occupied by 1 molecule of water (density 1 g/mL):</text>
+            <option id="A">3 x 10^-23 mL</option><option id="B">22.4 L</option><option id="C">18 mL</option><option id="D">1 mL</option>
+            <answer>A</answer><explanation>18 g is 18 mL is 6x10^23 molecules. 18/6e23.</explanation>
+        </question>
+        <question>
+            <text>Units of 'a' in SI:</text>
+            <option id="A">Pa m6 mol-2</option><option id="B">atm L2</option><option id="C">bar dm6</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conversion.</explanation>
+        </question>
+        <question>
+            <text>Effect of temperature on mean free path?</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Constant</option><option id="D">None</option>
+            <answer>A</answer><explanation>Molecules far apart.</explanation>
+        </question>
+        <question>
+            <text>For a gas with Z < 1, molar volume is:</text>
+            <option id="A">Less than 22.4 L (Vm ideal)</option><option id="B">More</option><option id="C">Equal</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Compressed.</explanation>
+        </question>
+        <question>
+            <text>Which has highest 'a' value?</text>
+            <option id="A">SO2 (Polar, large)</option><option id="B">H2</option><option id="C">N2</option><option id="D">He</option>
+            <answer>A</answer><explanation>Liquidity.</explanation>
+        </question>
+        <question>
+            <text>Which gas is easiest to liquefy?</text>
+            <option id="A">Has highest Critical Temp (NH3, SO2)</option><option id="B">Lowest Tc (He)</option><option id="C">H2</option><option id="D">N2</option>
+            <answer>A</answer><explanation>Strong forces.</explanation>
+        </question>
+        <question>
+            <text>Clausius-Clapeyron equation relates:</text>
+            <option id="A">Vapor pressure and Temperature</option><option id="B">P and V</option><option id="C">V and T</option><option id="D">None</option>
+            <answer>A</answer><explanation>ln(P2/P1) = Hvap/R (1/T1 - 1/T2).</explanation>
+        </question>
+        <question>
+            <text>Heat of vaporization of water is high due to:</text>
+            <option id="A">H-bonding</option><option id="B">Mass</option><option id="C">Covalent bond</option><option id="D">Ionic</option>
+            <answer>A</answer><explanation>40.7 kJ/mol.</explanation>
+        </question>
+        <question>
+            <text>Critical Constant ratio PcVc / RTc equals:</text>
+            <option id="A">0.375</option><option id="B">1</option><option id="C">0.75</option><option id="D">0.5</option>
+            <answer>A</answer><explanation>For vdw gas.</explanation>
+        </question>
+        <question>
+            <text>Slope of Z vs P curve at P=0 is:</text>
+            <option id="A">b - a/RT</option><option id="B">b</option><option id="C">a</option><option id="D">1</option>
+            <answer>A</answer><explanation>Initial slope.</explanation>
+        </question>
+        <question>
+            <text>Temperature at which real gas behaves ideally for appreciable pressure range:</text>
+            <option id="A">Boyle Temperature</option><option id="B">Critical Temp</option><option id="C">Inversion Temp</option><option id="D">0 K</option>
+            <answer>A</answer><explanation>Tb.</explanation>
+        </question>
+        <question>
+            <text>Pressure of moist gas is given by:</text>
+            <option id="A">P_dry + Aqueous Tension</option><option id="B">P_dry</option><option id="C">Aqueous Tension</option><option id="D">None</option>
+            <answer>A</answer><explanation>Correction.</explanation>
+        </question>
+        <question>
+            <text>Aqueous tension depends only on:</text>
+            <option id="A">Temperature</option><option id="B">Volume</option><option id="C">Pressure</option><option id="D">Amount</option>
+            <answer>A</answer><explanation>Vapor pressure of water.</explanation>
+        </question>
+        <question>
+            <text>If pressure is doubled at constant T, mean free path:</text>
+            <option id="A">Halved</option><option id="B">Doubled</option><option id="C">Unchanged</option><option id="D">Squared</option>
+            <answer>A</answer><explanation>Crowding.</explanation>
+        </question>
+        <question>
+            <text>Vapor pressure of a liquid in a closed container:</text>
+            <option id="A">Is independent of shape/size of container</option><option id="B">Depends on volume</option><option id="C">Depends on mass of liquid</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intensive property.</explanation>
+        </question>
+        <question>
+            <text>Why drops are spherical?</text>
+            <option id="A">Surface tension minimizes surface area/energy</option><option id="B">Gravity</option><option id="C">Viscosity</option><option id="D">Pressure</option>
+            <answer>A</answer><explanation>Geometric.</explanation>
+        </question>
+        <question>
+            <text>Stalagmoometer is used to measure:</text>
+            <option id="A">Surface Tension (Drop weight method)</option><option id="B">Viscosity</option><option id="C">Pressure</option><option id="D">Density</option>
+            <answer>A</answer><explanation>Instrument.</explanation>
+        </question>
+        <question>
+            <text>Ostwald Viscometer measures:</text>
+            <option id="A">Viscosity</option><option id="B">Surface Tension</option><option id="C">Pressure</option><option id="D">Temp</option>
+            <answer>A</answer><explanation>Instrument.</explanation>
+        </question>
+        <question>
+            <text>Effect of adding detergent to water on Surface Tension:</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">No change</option><option id="D">None</option>
+            <answer>A</answer><explanation>Surfactant.</explanation>
+        </question>
+        <question>
+            <text>At what temperature density of water is maximum?</text>
+            <option id="A">4 C</option><option id="B">0 C</option><option id="C">100 C</option><option id="D">-10 C</option>
+            <answer>A</answer><explanation>Anomaly.</explanation>
+        </question>
+        <question>
+            <text>Barometer uses Mercury because:</text>
+            <option id="A">High density, Low vapor pressure</option><option id="B">Cheap</option><option id="C">Transparent</option><option id="D">Light</option>
+            <answer>A</answer><explanation>Manageable height.</explanation>
+        </question>
+        <question>
+            <text>Manometer measures:</text>
+            <option id="A">Pressure of gas in container</option><option id="B">Atmospheric pressure</option><option id="C">Temp</option><option id="D">Volume</option>
+            <answer>A</answer><explanation>Difference.</explanation>
+        </question>
+        <question>
+            <text>1 torr is equal to:</text>
+            <option id="A">1 mm Hg</option><option id="B">1 atm</option><option id="C">1 Pa</option><option id="D">760 mm</option>
+            <answer>A</answer><explanation>Torricelli.</explanation>
+        </question>
+        <question>
+            <text>Standard molar volume at 0 C, 1 atm?</text>
+            <option id="A">22.414 L</option><option id="B">22.7 L</option><option id="C">24 L</option><option id="D">1 L</option>
+            <answer>A</answer><explanation>Old STP.</explanation>
+        </question>
+        <question>
+            <text>Standard molar volume at 25 C, 1 bar (SATP)?</text>
+            <option id="A">24.8 L</option><option id="B">22.4 L</option><option id="C">22.7 L</option><option id="D">25 L</option>
+            <answer>A</answer><explanation>Room temp.</explanation>
+        </question>
+        <question>
+            <text>Density of gas relative to air (Vapor Density):</text>
+            <option id="A">Molar Mass / 2 (approx)</option><option id="B">M</option><option id="C">M/29</option><option id="D">2M</option>
+            <answer>A</answer><explanation>VD = M/2.</explanation>
+        </question>
+        <question>
+            <text>Excluded volume 'b' is equal to:</text>
+            <option id="A">4 x Volume of molecules (4 x 4/3 pi r^3 Na)</option><option id="B">Volume of molecules</option><option id="C">2 x Vol</option><option id="D">Half</option>
+            <answer>A</answer><explanation>Collision diameter consideration.</explanation>
+        </question>
+        <question>
+            <text>Unit of compressibility factor Z:</text>
+            <option id="A">Dimensionless</option><option id="B">atm</option><option id="C">L</option><option id="D">K</option>
+            <answer>A</answer><explanation>Ratio.</explanation>
+        </question>
+        <question>
+            <text>Which gas is used in scuba diving tanks to avoid bends?</text>
+            <option id="A">Helium (low solubility in blood)</option><option id="B">N2</option><option id="C">Ar</option><option id="D">H2</option>
+            <answer>A</answer><explanation>Diluent.</explanation>
+        </question>
+        <question>
+            <text>Dalton's law fails for:</text>
+            <option id="A">NH3 + HCl (React to form NH4Cl)</option><option id="B">N2 + O2</option><option id="C">H2 + N2</option><option id="D">He + Ne</option>
+            <answer>A</answer><explanation>Reaction prevents simple additivity.</explanation>
+        </question>
+        <question>
+            <text>Amagat's Law of partial volumes:</text>
+            <option id="A">Total Volume = Sum of partial volumes</option><option id="B">Pressure</option><option id="C">Temp</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mixture.</explanation>
+        </question>
+        <question>
+            <text>Average distance between collisions:</text>
+            <option id="A">Mean Free Path</option><option id="B">Diameter</option><option id="C">Radius</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Why hot air rises?</text>
+            <option id="A">Less dense than cold air (Charles Law)</option><option id="B">More dense</option><option id="C">Pressure</option><option id="D">None</option>
+            <answer>A</answer><explanation>Convection.</explanation>
+        </question>
+        <question>
+            <text>Isobars are lines of constant:</text>
+            <option id="A">Pressure</option><option id="B">Temp</option><option id="C">Vol</option><option id="D">Mole</option>
+            <answer>A</answer><explanation>Graph term.</explanation>
+        </question>
+        <question>
+            <text>Isotherms are lines of constant:</text>
+            <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">Volume</option><option id="D">Energy</option>
+            <answer>A</answer><explanation>Graph term.</explanation>
+        </question>
+        <question>
+            <text>Isochores are lines of constant:</text>
+            <option id="A">Volume</option><option id="B">Pressure</option><option id="C">Temp</option><option id="D">None</option>
+            <answer>A</answer><explanation>Graph term.</explanation>
+        </question>
+    </hard>
+</chapter>

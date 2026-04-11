@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="106" name="Chemical Thermodynamics">
+    <easy>
+        <question>
+            <text>Thermodynamics deals with:</text>
+            <option id="A">Macroscopic properties</option><option id="B">Microscopic</option><option id="C">Atomic</option><option id="D">Electron</option>
+            <answer>A</answer><explanation>Bulk matter.</explanation>
+        </question>
+        <question>
+            <text>System which exchanges neither matter nor energy with surroundings:</text>
+            <option id="A">Isolated System</option><option id="B">Closed System</option><option id="C">Open System</option><option id="D">Heterogeneous System</option>
+            <answer>A</answer><explanation>Perfect insulation.</explanation>
+        </question>
+        <question>
+            <text>Closed system exchanges:</text>
+            <option id="A">Energy but not matter</option><option id="B">Matter but not energy</option><option id="C">Both</option><option id="D">Neither</option>
+            <answer>A</answer><explanation>e.g. Copper vessel.</explanation>
+        </question>
+        <question>
+            <text>Which is an extensive property?</text>
+            <option id="A">Mass</option><option id="B">Temperature</option><option id="C">Pressure</option><option id="D">Density</option>
+            <answer>A</answer><explanation>Depends on quantity of matter.</explanation>
+        </question>
+        <question>
+            <text>Which is an intensive property?</text>
+            <option id="A">Temperature</option><option id="B">Volume</option><option id="C">Mass</option><option id="D">Internal Energy</option>
+            <answer>A</answer><explanation>Independent of quantity.</explanation>
+        </question>
+        <question>
+            <text>First Law of Thermodynamics is conservation of:</text>
+            <option id="A">Energy</option><option id="B">Mass</option><option id="C">Momentum</option><option id="D">Charge</option>
+            <answer>A</answer><explanation>Energy can't be created.</explanation>
+        </question>
+        <question>
+            <text>Internal energy (U) is a:</text>
+            <option id="A">State function</option><option id="B">Path function</option><option id="C">Constant</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends on state.</explanation>
+        </question>
+        <question>
+            <text>Work (w) is a:</text>
+            <option id="A">Path function</option><option id="B">State function</option><option id="C">Intensive property</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends on path.</explanation>
+        </question>
+        <question>
+            <text>Mathematical form of First Law:</text>
+            <option id="A">Delta U = q + w</option><option id="B">q = w</option><option id="C">Delta H = U + PV</option><option id="D">Delta S = q/T</option>
+            <answer>A</answer><explanation>IUPAC convention.</explanation>
+        </question>
+        <question>
+            <text>If heat is absorbed by system, q is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Imaginary</option>
+            <answer>A</answer><explanation>Energy increases.</explanation>
+        </question>
+        <question>
+            <text>If work is done on the system, w is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Unknown</option>
+            <answer>A</answer><explanation>Compression work.</explanation>
+        </question>
+        <question>
+            <text>Enthalpy (H) is defined as:</text>
+            <option id="A">H = U + PV</option><option id="B">H = U - PV</option><option id="C">H = q + w</option><option id="D">H = TS</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>For exothermic reaction, Delta H is:</text>
+            <option id="A">Negative</option><option id="B">Positive</option><option id="C">Zero</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Heat released.</explanation>
+        </question>
+        <question>
+            <text>For endothermic reaction, Delta H is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Heat absorbed.</explanation>
+        </question>
+        <question>
+            <text>Heat capacity at constant volume (Cv) is:</text>
+            <option id="A">Delta U / Delta T</option><option id="B">Delta H / Delta T</option><option id="C">P / T</option><option id="D">None</option>
+            <answer>A</answer><explanation>Change in U with T.</explanation>
+        </question>
+        <question>
+            <text>Standard state pressure is:</text>
+            <option id="A">1 bar</option><option id="B">1 atm</option><option id="C">1 Pa</option><option id="D">760 mmHg</option>
+            <answer>A</answer><explanation>IUPAC (10^5 Pa).</explanation>
+        </question>
+        <question>
+            <text>Standard enthalpy of formation of O2(g) is:</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">100 kJ</option>
+            <answer>A</answer><explanation>Element in standard state.</explanation>
+        </question>
+        <question>
+            <text>Hess's Law deals with:</text>
+            <option id="A">Constant Heat Summation</option><option id="B">Gas volume</option><option id="C">Rate of reaction</option><option id="D">Equilibrium</option>
+            <answer>A</answer><explanation>State function nature of H.</explanation>
+        </question>
+        <question>
+            <text>Entropy (S) is measure of:</text>
+            <option id="A">Randomness</option><option id="B">Energy</option><option id="C">Work</option><option id="D">Enthalpy</option>
+            <answer>A</answer><explanation>Disorder.</explanation>
+        </question>
+        <question>
+            <text>Unit of Entropy:</text>
+            <option id="A">J K^-1 mol^-1</option><option id="B">kJ mol^-1</option><option id="C">J mol^-1</option><option id="D">K mol^-1</option>
+            <answer>A</answer><explanation>Energy per degree temp.</explanation>
+        </question>
+        <question>
+            <text>Second Law of Thermodynamics introduces:</text>
+            <option id="A">Entropy</option><option id="B">Internal Energy</option><option id="C">Enthalpy</option><option id="D">Temperature</option>
+            <answer>A</answer><explanation>Spontaneity criterion.</explanation>
+        </question>
+        <question>
+            <text>For spontaneous process, Delta S_total is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Constant</option>
+            <answer>A</answer><explanation>Universe entropy increases.</explanation>
+        </question>
+        <question>
+            <text>Gibbs Energy (G) equation:</text>
+            <option id="A">G = H - TS</option><option id="B">G = H + TS</option><option id="C">G = U - TS</option><option id="D">G = PV - TS</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Condition for spontaneity at constant T, P:</text>
+            <option id="A">Delta G < 0</option><option id="B">Delta G > 0</option><option id="C">Delta G = 0</option><option id="D">Delta H = 0</option>
+            <answer>A</answer><explanation>Decrease in free energy.</explanation>
+        </question>
+        <question>
+            <text>If Delta G = 0, system is:</text>
+            <option id="A">At equilibrium</option><option id="B">Spontaneous</option><option id="C">Non-spontaneous</option><option id="D">Unstable</option>
+            <answer>A</answer><explanation>No net change.</explanation>
+        </question>
+        <question>
+            <text>Third Law says entropy of perfect crystal at 0 K is:</text>
+            <option id="A">Zero</option><option id="B">Infinite</option><option id="C">Maximum</option><option id="D">Negative</option>
+            <answer>A</answer><explanation>Perfect order.</explanation>
+        </question>
+        <question>
+            <text>Cp - Cv for ideal gas equals:</text>
+            <option id="A">R</option><option id="B">0</option><option id="C">2R</option><option id="D">R/2</option>
+            <answer>A</answer><explanation>Mayer's relation.</explanation>
+        </question>
+        <question>
+            <text>Bond dissociation enthalpy is always:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Variable</option>
+            <answer>A</answer><explanation>Energy needed to break bond.</explanation>
+        </question>
+        <question>
+            <text>Combustion is always:</text>
+            <option id="A">Exothermic</option><option id="B">Endothermic</option><option id="C">Adiabatic</option><option id="D">Isothermal</option>
+            <answer>A</answer><explanation>Releases heat.</explanation>
+        </question>
+        <question>
+            <text>Work done in free expansion of ideal gas:</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Against vacuum.</explanation>
+        </question>
+        <question>
+            <text>Relation between Delta H and Delta U for gas reaction:</text>
+            <option id="A">Delta H = Delta U + Delta n_g RT</option><option id="B">Delta H = Delta U</option><option id="C">Delta H = Delta U - RT</option><option id="D">Delta H = P Delta V</option>
+            <answer>A</answer><explanation>Stoichiometry change.</explanation>
+        </question>
+        <question>
+            <text>Which state has highest entropy?</text>
+            <option id="A">Gas</option><option id="B">Liquid</option><option id="C">Solid</option><option id="D">Crystal</option>
+            <answer>A</answer><explanation>Maximum disorder.</explanation>
+        </question>
+        <question>
+            <text>Process occurring at constant temperature:</text>
+            <option id="A">Isothermal</option><option id="B">Adiabatic</option><option id="C">Isobaric</option><option id="D">Isochoric</option>
+            <answer>A</answer><explanation>dT = 0.</explanation>
+        </question>
+        <question>
+            <text>Process occurring at constant pressure:</text>
+            <option id="A">Isobaric</option><option id="B">Isochoric</option><option id="C">Isothermal</option><option id="D">Adiabatic</option>
+            <answer>A</answer><explanation>dP = 0.</explanation>
+        </question>
+        <question>
+            <text>Adiabatic process means:</text>
+            <option id="A">q = 0</option><option id="B">Delta T = 0</option><option id="C">w = 0</option><option id="D">Delta P = 0</option>
+            <answer>A</answer><explanation>No heat exchange.</explanation>
+        </question>
+        <question>
+            <text>Unit of enthalpy:</text>
+            <option id="A">Joule or kJ</option><option id="B">Watt</option><option id="C">Newton</option><option id="D">Pascal</option>
+            <answer>A</answer><explanation>Energy unit.</explanation>
+        </question>
+        <question>
+            <text>Measurement of Delta U is done by:</text>
+            <option id="A">Bomb Calorimeter</option><option id="B">Thermometer</option><option id="C">Barometer</option><option id="D">Manometer</option>
+            <answer>A</answer><explanation>Constant volume.</explanation>
+        </question>
+        <question>
+            <text>Phase change from Solid to Liquid is:</text>
+            <option id="A">Fusion</option><option id="B">Vaporization</option><option id="C">Sublimation</option><option id="D">Condensation</option>
+            <answer>A</answer><explanation>Melting.</explanation>
+        </question>
+        <question>
+            <text>Enthalpy of neutralization of strong acid and strong base:</text>
+            <option id="A">-57.1 kJ/mol</option><option id="B">-100</option><option id="C">Zero</option><option id="D">Positive</option>
+            <answer>A</answer><explanation>Constant value.</explanation>
+        </question>
+        <question>
+            <text>Specific heat capacity is per:</text>
+            <option id="A">Unit mass</option><option id="B">Mole</option><option id="C">Volume</option><option id="D">Atom</option>
+            <answer>A</answer><explanation>Per gram/kg.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Work done in reversible isothermal expansion of ideal gas:</text>
+            <option id="A">-nRT ln(V2/V1)</option><option id="B">-P dV</option><option id="C">nRT log(V2/V1)</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Integration of PdV.</explanation>
+        </question>
+        <question>
+            <text>For adiabatic expansion of ideal gas:</text>
+            <option id="A">TV^(gamma-1) = constant</option><option id="B">PV = constant</option><option id="C">V/T = constant</option><option id="D">PT = constant</option>
+            <answer>A</answer><explanation>Poisson's equation.</explanation>
+        </question>
+        <question>
+            <text>Relation between Cp and Cv generally?</text>
+            <option id="A">Cp > Cv</option><option id="B">Cv > Cp</option><option id="C">Cp = Cv</option><option id="D">Cp = 0</option>
+            <answer>A</answer><explanation>Work done in constant pressure expansion.</explanation>
+        </question>
+        <question>
+            <text>Atomization enthalpy of CH4 involves:</text>
+            <option id="A">Breaking 4 C-H bonds</option><option id="B">Sublimation of C</option><option id="C">Breaking 1 C-H</option><option id="D">Formation of C-H</option>
+            <answer>A</answer><explanation>Total dissociation.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of heat engine is given by:</text>
+            <option id="A">(T2 - T1) / T2</option><option id="B">T2 / T1</option><option id="C">100%</option><option id="D">Work / Input Heat</option>
+            <answer>A</answer><explanation>Carnot efficiency.</explanation>
+        </question>
+        <question>
+            <text>If Delta G is positive, reaction is:</text>
+            <option id="A">Non-spontaneous</option><option id="B">Spontaneous</option><option id="C">Equilibrium</option><option id="D">Fast</option>
+            <answer>A</answer><explanation>Requires energy input (electrolysis).</explanation>
+        </question>
+        <question>
+            <text>Born-Haber cycle determines:</text>
+            <option id="A">Lattice Enthalpy</option><option id="B">Reaction Enthalpy</option><option id="C">Bond Energy</option><option id="D">Electron Affinity</option>
+            <answer>A</answer><explanation>Ionic solids.</explanation>
+        </question>
+        <question>
+            <text>Calculating Delta rH from bond energies:</text>
+            <option id="A">Sum of BE(Reactants) - Sum of BE(Products)</option><option id="B">Prod - React</option><option id="C">Average</option><option id="D">React + Prod</option>
+            <answer>A</answer><explanation>Energy in - Energy out.</explanation>
+        </question>
+        <question>
+            <text>Standard state of Carbon is:</text>
+            <option id="A">Graphite</option><option id="B">Diamond</option><option id="C">Coal</option><option id="D">Fullerene</option>
+            <answer>A</answer><explanation>Most stable allotrope.</explanation>
+        </question>
+        <question>
+            <text>For H2O(l) -> H2O(g), Delta S is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">Unknown</option>
+            <answer>A</answer><explanation>Liquid to Gas disorder increases.</explanation>
+        </question>
+        <question>
+            <text>Calculate Delta n_g for: N2(g) + 3H2(g) -> 2NH3(g)?</text>
+            <option id="A">-2</option><option id="B">2</option><option id="C">0</option><option id="D">4</option>
+            <answer>A</answer><explanation>2 - (1+3) = -2.</explanation>
+        </question>
+        <question>
+            <text>Reaction is spontaneous at all temps if:</text>
+            <option id="A">Delta H < 0, Delta S > 0</option><option id="B">Delta H > 0, Delta S < 0</option><option id="C">Both positive</option><option id="D">Both negative</option>
+            <answer>A</answer><explanation>G always negative.</explanation>
+        </question>
+        <question>
+            <text>Reaction is non-spontaneous at all temps if:</text>
+            <option id="A">Delta H > 0, Delta S < 0</option><option id="B">Delta H < 0</option><option id="C">Both positive</option><option id="D">Both negative</option>
+            <answer>A</answer><explanation>G always positive.</explanation>
+        </question>
+        <question>
+            <text>If both Delta H and Delta S are positive, reaction is spontaneous at:</text>
+            <option id="A">High temperatures</option><option id="B">Low temperatures</option><option id="C">All temps</option><option id="D">Never</option>
+            <answer>A</answer><explanation>T*DeltaS must exceed DeltaH.</explanation>
+        </question>
+        <question>
+            <text>Work done during isochoric process is:</text>
+            <option id="A">Zero</option><option id="B">P Delta V</option><option id="C">Infinite</option><option id="D">Maximum</option>
+            <answer>A</answer><explanation>dV = 0.</explanation>
+        </question>
+        <question>
+            <text>Internal energy of ideal gas depends only on:</text>
+            <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">Volume</option><option id="D">Mass</option>
+            <answer>A</answer><explanation>Joule's law.</explanation>
+        </question>
+        <question>
+            <text>Relationship Delta G = -2.303 RT log K allows calculation of:</text>
+            <option id="A">Equilibrium Constant</option><option id="B">Rate</option><option id="C">Time</option><option id="D">Concentration</option>
+            <answer>A</answer><explanation>Standard Free Energy and K.</explanation>
+        </question>
+        <question>
+            <text>Enthalpy of combustion of Benzene is -3267. This means:</text>
+            <option id="A">It is stable relative to elements</option><option id="B">Releases heat on burning</option><option id="C">Absorbs heat</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exothermic.</explanation>
+        </question>
+        <question>
+            <text>Which determines flow of heat?</text>
+            <option id="A">Temperature difference</option><option id="B">Internal energy</option><option id="C">Enthalpy</option><option id="D">Pressure</option>
+            <answer>A</answer><explanation>High to low T.</explanation>
+        </question>
+        <question>
+            <text>Mixing of two ideal gases, Delta S_mix is:</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">One</option>
+            <answer>A</answer><explanation>Randomness increases.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of water?</text>
+            <option id="A">4.18 J/g K</option><option id="B">1 J/g K</option><option id="C">100 J</option><option id="D">0.5 J</option>
+            <answer>A</answer><explanation>High value.</explanation>
+        </question>
+        <question>
+            <text>A process that is adiabatic and reversible is called:</text>
+            <option id="A">Isentropic</option><option id="B">Isothermal</option><option id="C">Isobaric</option><option id="D">Isochoric</option>
+            <answer>A</answer><explanation>Constant entropy.</explanation>
+        </question>
+        <question>
+            <text>Work done in vacuum expansion?</text>
+            <option id="A">0</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>P_ext = 0.</explanation>
+        </question>
+        <question>
+            <text>Enthalpy of sublimation equals:</text>
+            <option id="A">Fusion + Vaporization</option><option id="B">Fusion - Vaporization</option><option id="C">Vaporization - Fusion</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hess's Law path.</explanation>
+        </question>
+        <question>
+            <text>Which is not a state function?</text>
+            <option id="A">Heat (q)</option><option id="B">Enthalpy</option><option id="C">Entropy</option><option id="D">Free Energy</option>
+            <answer>A</answer><explanation>Path dependent.</explanation>
+        </question>
+        <question>
+            <text>Standard formation enthalpy of Diamond?</text>
+            <option id="A">1.9 kJ/mol (Non-zero)</option><option id="B">0</option><option id="C">Negative</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>Not standard state.</explanation>
+        </question>
+        <question>
+            <text>Decrease in enthalpy and increase in entropy favors:</text>
+            <option id="A">Spontaneity</option><option id="B">Non-spontaneity</option><option id="C">Reversibility</option><option id="D">Equilibrium</option>
+            <answer>A</answer><explanation>Driving forces.</explanation>
+        </question>
+        <question>
+            <text>Calorific value is heat produced by burning:</text>
+            <option id="A">1 g of fuel</option><option id="B">1 mole</option><option id="C">1 kg</option><option id="D">1 Liter</option>
+            <answer>A</answer><explanation>Per unit mass.</explanation>
+        </question>
+        <question>
+            <text>Enthalpy of neutralizing HF is higher than HCl because:</text>
+            <option id="A">Hydration of F- is very high</option><option id="B">HF is strong acid</option><option id="C">HF is gas</option><option id="D">F is small</option>
+            <answer>A</answer><explanation>Hydration energy compensates bond breaking.</explanation>
+        </question>
+        <question>
+            <text>Standard Entropy of elements is:</text>
+            <option id="A">Non-zero (positive)</option><option id="B">Zero</option><option id="C">Negative</option><option id="D">100</option>
+            <answer>A</answer><explanation>Third Law, only 0 at 0K.</explanation>
+        </question>
+        <question>
+            <text>Change in Gibbs energy for reversible phase change at Transition Temp:</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">Infinite</option>
+            <answer>A</answer><explanation>At equilibrium T.</explanation>
+        </question>
+        <question>
+            <text>If CP = 20 J, what is CV (approx)?</text>
+            <option id="A">11.7 J (20 - 8.314)</option><option id="B">20</option><option id="C">28</option><option id="D">10</option>
+            <answer>A</answer><explanation>Cp - Cv = R.</explanation>
+        </question>
+        <question>
+            <text>Residual entropy is shown by:</text>
+            <option id="A">CO, NO (orientation disorder)</option><option id="B">Diamond</option><option id="C">He</option><option id="D">NaCl</option>
+            <answer>A</answer><explanation>At 0K not perfectly ordered.</explanation>
+        </question>
+        <question>
+            <text>Dissolution of NH4Cl in water is:</text>
+            <option id="A">Endothermic</option><option id="B">Exothermic</option><option id="C">No heat change</option><option id="D">Explosive</option>
+            <answer>A</answer><explanation>Cooling effect.</explanation>
+        </question>
+        <question>
+            <text>Dissolution of NaOH in water is:</text>
+            <option id="A">Exothermic</option><option id="B">Endothermic</option><option id="C">Neutral</option><option id="D">None</option>
+            <answer>A</answer><explanation>Heating effect.</explanation>
+        </question>
+        <question>
+            <text>Entropy of universe tends to:</text>
+            <option id="A">Maximum</option><option id="B">Minimum</option><option id="C">Zero</option><option id="D">Constant</option>
+            <answer>A</answer><explanation>Second Law.</explanation>
+        </question>
+        <question>
+            <text>Energy of universe is:</text>
+            <option id="A">Constant</option><option id="B">Increasing</option><option id="C">Decreasing</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>First Law.</explanation>
+        </question>
+        <question>
+            <text>Which is highest quality energy?</text>
+            <option id="A">Electrical/Mechanical work</option><option id="B">Heat</option><option id="C">Internal</option><option id="D">Sound</option>
+            <answer>A</answer><explanation>Low entropy.</explanation>
+        </question>
+        <question>
+            <text>Entropy of vaporization of water at 100C (DH = 40.66 kJ)?</text>
+            <option id="A">109 J/mol K</option><option id="B">40.66</option><option id="C">0</option><option id="D">200</option>
+            <answer>A</answer><explanation>Delta S = Delta H / T = 40660 / 373 = 109.</explanation>
+        </question>
+        <question>
+            <text>Most stable form of Sulfur?</text>
+            <option id="A">Rhombic</option><option id="B">Monoclinic</option><option id="C">Plastic</option><option id="D">Vapor</option>
+            <answer>A</answer><explanation>Standard state.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Calculate Delta G for reaction with K = 10 at 300K? (2.303*8.314*300*1)</text>
+            <option id="A">-5.7 kJ</option><option id="B">5.7 kJ</option><option id="C">-2.3 kJ</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>-RTlnK.</explanation>
+        </question>
+        <question>
+            <text>Maximum work obtained from a cell?</text>
+            <option id="A">-nFE</option><option id="B">nFE</option><option id="C">Delta H</option><option id="D">Delta S</option>
+            <answer>A</answer><explanation>Gibbs Energy change equals non-expansion work.</explanation>
+        </question>
+        <question>
+            <text>Coupling of non-spontaneous reaction with spontaneous one makes it:</text>
+            <option id="A">Possible (Spontaneous overall)</option><option id="B">Impossible</option><option id="C">Slow</option><option id="D">Reversible</option>
+            <answer>A</answer><explanation>Biological systems (ATP).</explanation>
+        </question>
+        <question>
+            <text>Value of Gamma (Cp/Cv) for monoatomic gas?</text>
+            <option id="A">1.66</option><option id="B">1.4</option><option id="C">1.33</option><option id="D">1</option>
+            <answer>A</answer><explanation>5/3.</explanation>
+        </question>
+        <question>
+            <text>Gamma for diatomic gas?</text>
+            <option id="A">1.4</option><option id="B">1.66</option><option id="C">1.33</option><option id="D">1.5</option>
+            <answer>A</answer><explanation>7/5.</explanation>
+        </question>
+        <question>
+            <text>Joule-Thomson effect for ideal gas?</text>
+            <option id="A">Zero temperature change</option><option id="B">Cooling</option><option id="C">Heating</option><option id="D">Variable</option>
+            <answer>A</answer><explanation>No intermolecular forces.</explanation>
+        </question>
+        <question>
+            <text>Inversion temperature (Ti) relation?</text>
+            <option id="A">2a / Rb</option><option id="B">a / Rb</option><option id="C">2b / Ra</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Van der Waals constants.</explanation>
+        </question>
+        <question>
+            <text>Entropy of diamond vs graphite?</text>
+            <option id="A">Diamond &lt; Graphite</option><option id="B">Diamond > Graphite</option><option id="C">Equal</option><option id="D">Unknown</option>
+            <answer>A</answer><explanation>Diamond is more ordered.</explanation>
+        </question>
+        <question>
+            <text>Adiabatic Free Expansion of Real Gas leads to:</text>
+            <option id="A">Cooling (usually)</option><option id="B">No change</option><option id="C">Heating</option><option id="D">Work</option>
+            <answer>A</answer><explanation>Work against Intermolecular forces.</explanation>
+        </question>
+        <question>
+            <text>Which step in Born-Haber cycle for NaCl is exothermic?</text>
+            <option id="A">Electronic Affinity of Cl</option><option id="B">Sublimation of Na</option><option id="C">Ionization of Na</option><option id="D">Dissociation of Cl2</option>
+            <answer>A</answer><explanation>Cl + e -> Cl- releases energy.</explanation>
+        </question>
+        <question>
+            <text>Slope of Gibbs-Helmholtz equation plot (G/T vs 1/T)?</text>
+            <option id="A">H</option><option id="B">-H</option><option id="C">S</option><option id="D">-S</option>
+            <answer>A</answer><explanation>d(G/T)/d(1/T) = H.</explanation>
+        </question>
+        <question>
+            <text>Clapeyron-Clausius equation relates:</text>
+            <option id="A">Vapor pressure and Temperature</option><option id="B">P and V</option><option id="C">H and U</option><option id="D">None</option>
+            <answer>A</answer><explanation>Phase equilibrium.</explanation>
+        </question>
+        <question>
+            <text>If C(graphite) -> C(diamond), Delta H is +1.9 kJ. Favorable conditions?</text>
+            <option id="A">High P, High T? (Wait. Diamond is denser. High P favors Diamond. Endothermic -> High T favors Diamond?)</option><option id="B">Low P, Low T</option><option id="C">Low P, High T</option><option id="D">High P, Low T</option>
+            <answer>A</answer><explanation>Le Chatelier.</explanation>
+        </question>
+        <question>
+            <text>Kirchoff's equation calculation of reaction enthalpy at T2?</text>
+            <option id="A">Delta H2 = Delta H1 + Delta Cp (T2-T1)</option><option id="B">Delta H2 = Delta H1</option><option id="C">Delta H2 = Delta Cp</option><option id="D">Double</option>
+            <answer>A</answer><explanation>Temp dependence of H.</explanation>
+        </question>
+        <question>
+            <text>Residual entropy of ice at 0K?</text>
+            <option id="A">3.4 J/mol K</option><option id="B">0</option><option id="C">10</option><option id="D">100</option>
+            <answer>A</answer><explanation>Pauling value.</explanation>
+        </question>
+        <question>
+            <text>Work done in isothermal reversible compression of 1 mol ideal gas from 1 bar to 10 bar at 300K?</text>
+            <option id="A">+5.74 kJ</option><option id="B">-5.74 kJ</option><option id="C">Zero</option><option id="D">10 kJ</option>
+            <answer>A</answer><explanation>w = -nRT ln(P1/P2) = -1*RT ln(1/10) = +RT ln10 = +5.74 kJ.</explanation>
+        </question>
+        <question>
+            <text>Absolute entropy of H+ (aq) is assumed to be:</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">1</option>
+            <answer>A</answer><explanation>Convention.</explanation>
+        </question>
+        <question>
+            <text>Criteria for equilibrium in terms of G?</text>
+            <option id="A">dG_T,P = 0</option><option id="B">dG > 0</option><option id="C">dG < 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Minimum free energy.</explanation>
+        </question>
+        <question>
+            <text>Criteria for spontaneity using Entropy only?</text>
+            <option id="A">dS_univ > 0</option><option id="B">dS_sys > 0</option><option id="C">dS_surr > 0</option><option id="D">dS = 0</option>
+            <answer>A</answer><explanation>Second Law.</explanation>
+        </question>
+        <question>
+            <text>Relation between Kp and Kc for Delta n_g = 1?</text>
+            <option id="A">Kp = Kc (RT)</option><option id="B">Kp = Kc</option><option id="C">Kp = Kc (RT)^2</option><option id="D">Kp = Kc / RT</option>
+            <answer>A</answer><explanation>Kp = Kc(RT)^dn.</explanation>
+        </question>
+        <question>
+            <text>Boiling point of water at high altitude:</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">Same</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Low pressure.</explanation>
+        </question>
+        <question>
+            <text>Trouton's Rule states Delta S_vap is approx:</text>
+            <option id="A">88 J/mol K</option><option id="B">100</option><option id="C">40</option><option id="D">0</option>
+            <answer>A</answer><explanation>For non-associated liquids.</explanation>
+        </question>
+        <question>
+            <text>Correct relation for Cv?</text>
+            <option id="A">(dU/dT)_V</option><option id="B">(dH/dT)_P</option><option id="C">P/V</option><option id="D">Work</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Work is maximum in:</text>
+            <option id="A">Reversible expansion</option><option id="B">Irreversible expansion</option><option id="C">Free expansion</option><option id="D">Compression</option>
+            <answer>A</answer><explanation>Maximum driving force.</explanation>
+        </question>
+        <question>
+            <text>Unit of Pre-exponential factor A?</text>
+            <option id="A">Same as rate constant</option><option id="B">Time</option><option id="C">Energy</option><option id="D">None</option>
+            <answer>A</answer><explanation>From Arrhenius.</explanation>
+        </question>
+        <question>
+            <text>Chemical potential (mu) is also:</text>
+            <option id="A">Partial molar Gibbs Energy</option><option id="B">Partial H</option><option id="C">Partial V</option><option id="D">Force</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>For cyclic process:</text>
+            <option id="A">dU = 0, dH = 0</option><option id="B">w = 0</option><option id="C">q = 0</option><option id="D">All zero</option>
+            <answer>A</answer><explanation>Return to initial state (State functions zero).</explanation>
+        </question>
+        <question>
+            <text>Enthalpy of Graphite -> Diamond is transition enthalpy. It is:</text>
+            <option id="A">Endothermic</option><option id="B">Exothermic</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Graphite is more stable.</explanation>
+        </question>
+        <question>
+            <text>Van 't Hoff reaction isotherm gives:</text>
+            <option id="A">Delta G = -RT ln K + RT ln Q</option><option id="B">Arrhenius</option><option id="C">Nernst</option><option id="D">None</option>
+            <answer>A</answer><explanation>Non-standard conditions.</explanation>
+        </question>
+        <question>
+            <text>Activity of pure solid or liquid is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Infinite</option><option id="D">Variable</option>
+            <answer>A</answer><explanation>Convention.</explanation>
+        </question>
+        <question>
+            <text>Mixing of non-reacting gases is driven by:</text>
+            <option id="A">Increase in Entropy</option><option id="B">Decrease in Enthalpy</option><option id="C">Pressure</option><option id="D">Temperature</option>
+            <answer>A</answer><explanation>Delta H mix is 0 for ideal gases.</explanation>
+        </question>
+        <question>
+            <text>Which thermodynamic variable is undefined for single particle?</text>
+            <option id="A">Temperature</option><option id="B">Kinetic Energy</option><option id="C">Mass</option><option id="D">Velocity</option>
+            <answer>A</answer><explanation>Statistical property.</explanation>
+        </question>
+        <question>
+            <text>Work done on expanding gas against constant external pressure?</text>
+            <option id="A">-P_ext (V2 - V1)</option><option id="B">-nRT ln V</option><option id="C">PV</option><option id="D">0</option>
+            <answer>A</answer><explanation>Irreversible.</explanation>
+        </question>
+        <question>
+            <text>Compressibility factor Z for ideal gas?</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">>1</option><option id="D"><1</option>
+            <answer>A</answer><explanation>PV/nRT.</explanation>
+        </question>
+        <question>
+            <text>Fugacity is effective:</text>
+            <option id="A">Pressure</option><option id="B">Volume</option><option id="C">Temp</option><option id="D">Conc</option>
+            <answer>A</answer><explanation>Real gas correction.</explanation>
+        </question>
+        <question>
+            <text>Why is Delta S > 0 for egg boiling?</text>
+            <option id="A">Denaturation of proteins (random coil)</option><option id="B">Water evaporates</option><option id="C">Hardening</option><option id="D">Heat absorbed</option>
+            <answer>A</answer><explanation>Structure breaks down.</explanation>
+        </question>
+        <question>
+            <text>Maximum random disorder is in:</text>
+            <option id="A">Steam at 100C</option><option id="B">Water at 100C</option><option id="C">Ice at 0C</option><option id="D">Water at 0C</option>
+            <answer>A</answer><explanation>Gas phase entropy.</explanation>
+        </question>
+        <question>
+            <text>Is it possible for a process to be Adiabatic and Isothermal?</text>
+            <option id="A">Yes, e.g. expansion into vacuum for Ideal gas</option><option id="B">No</option><option id="C">Always</option><option id="D">Reversible only</option>
+            <answer>A</answer><explanation>q=0, w=0 -> dU=0 -> dT=0 (Ideal).</explanation>
+        </question>
+        <question>
+            <text>Calorimeter measures heat at constant V, which corresponds to:</text>
+            <option id="A">Internal Energy change (Delta U)</option><option id="B">Enthalpy change (Delta H)</option><option id="C">Free Energy</option><option id="D">Entropy</option>
+            <answer>A</answer><explanation>q_v = Delta U.</explanation>
+        </question>
+        <question>
+            <text>Coffee cup calorimeter measures:</text>
+            <option id="A">Delta H (q_p)</option><option id="B">Delta U</option><option id="C">Delta G</option><option id="D">T</option>
+            <answer>A</answer><explanation>Constant Pressure.</explanation>
+        </question>
+    </hard>
+</chapter>

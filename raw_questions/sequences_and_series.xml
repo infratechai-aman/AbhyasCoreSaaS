@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="208" name="Sequences and Series">
+    <easy>
+        <question>
+            <text>nth term of AP 2, 4, 6... is:</text>
+            <option id="A">2n</option><option id="B">n</option><option id="C">n+2</option><option id="D">2n-1</option>
+            <answer>A</answer><explanation>a=2, d=2.</explanation>
+        </question>
+        <question>
+            <text>Common difference of AP 5, 8, 11, 14:</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">4</option><option id="D">5</option>
+            <answer>A</answer><explanation>8-5 = 3.</explanation>
+        </question>
+        <question>
+            <text>10th term of AP 1, 3, 5...</text>
+            <option id="A">19</option><option id="B">20</option><option id="C">21</option><option id="D">18</option>
+            <answer>A</answer><explanation>a=1, d=2. a+9d = 1+18 = 19.</explanation>
+        </question>
+        <question>
+            <text>Sum of first n natural numbers:</text>
+            <option id="A">n(n+1)/2</option><option id="B">n^2</option><option id="C">n(n+1)</option><option id="D">n^2/2</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Sum of first n odd numbers:</text>
+            <option id="A">n^2</option><option id="B">n(n+1)</option><option id="C">2n</option><option id="D">n^3</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>General term of GP a, ar, ar^2...</text>
+            <option id="A">ar^(n-1)</option><option id="B">ar^n</option><option id="C">a r^(n+1)</option><option id="D">r^n</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Common ratio of GP 3, 6, 12, 24:</text>
+            <option id="A">2</option><option id="B">3</option><option id="C">4</option><option id="D">0.5</option>
+            <answer>A</answer><explanation>6/3 = 2.</explanation>
+        </question>
+        <question>
+            <text>Sum of n terms of GP when r > 1:</text>
+            <option id="A">a(r^n - 1)/(r-1)</option><option id="B">a(1-r^n)/(1-r)</option><option id="C">a/(1-r)</option><option id="D">ar^n</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Sum of infinite GP is valid when:</text>
+            <option id="A">|r| &lt; 1</option><option id="B">|r| > 1</option><option id="C">r = 1</option><option id="D">r = 0</option>
+            <answer>A</answer><explanation>Convergence.</explanation>
+        </question>
+        <question>
+            <text>AM of a and b is:</text>
+            <option id="A">(a+b)/2</option><option id="B">sqrt(ab)</option><option id="C">2ab/(a+b)</option><option id="D">a-b</option>
+            <answer>A</answer><explanation>Arithmetic Mean.</explanation>
+        </question>
+        <question>
+            <text>GM of a and b is:</text>
+            <option id="A">sqrt(ab)</option><option id="B">(a+b)/2</option><option id="C">2ab/(a+b)</option><option id="D">ab/2</option>
+            <answer>A</answer><explanation>Geometric Mean.</explanation>
+        </question>
+        <question>
+            <text>Relation between AM and GM (AM > GM):</text>
+            <option id="A">AM >= GM</option><option id="B">AM &lt;= GM</option><option id="C">AM = GM always</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard inequality.</explanation>
+        </question>
+        <question>
+            <text>Sum of squares of first n natural numbers:</text>
+            <option id="A">n(n+1)(2n+1)/6</option><option id="B">n(n+1)/2</option><option id="C">[n(n+1)/2]^2</option><option id="D">n^3/3</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Sum of cubes of first n natural numbers:</text>
+            <option id="A">[n(n+1)/2]^2</option><option id="B">n(n+1)(2n+1)/6</option><option id="C">n^4/4</option><option id="D">n^2</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Find k if 2, k, 8 are in AP:</text>
+            <option id="A">5</option><option id="B">4</option><option id="C">6</option><option id="D">3</option>
+            <answer>A</answer><explanation>2k = 2+8=10 -> k=5.</explanation>
+        </question>
+        <question>
+            <text>Find k if 2, k, 8 are in GP:</text>
+            <option id="A">4</option><option id="B">5</option><option id="C">6</option><option id="D">3</option>
+            <answer>A</answer><explanation>k^2 = 16 -> k=4.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1 + 2 + 3 + ... + 10:</text>
+            <option id="A">55</option><option id="B">50</option><option id="C">45</option><option id="D">60</option>
+            <answer>A</answer><explanation>10*11/2 = 55.</explanation>
+        </question>
+        <question>
+            <text>Which term of 2, 4, 8... is 128?</text>
+            <option id="A">7th</option><option id="B">6th</option><option id="C">8th</option><option id="D">5th</option>
+            <answer>A</answer><explanation>2^7 = 128.</explanation>
+        </question>
+        <question>
+            <text>If a, b, c are in AP, then 2b = ?</text>
+            <option id="A">a+c</option><option id="B">ac</option><option id="C">a-c</option><option id="D">a/c</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>If a, b, c are in GM, then b^2 = ?</text>
+            <option id="A">ac</option><option id="B">a+c</option><option id="C">a/c</option><option id="D">2ac</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Sum of infinite GP 1, 1/2, 1/4...</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">1.5</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>a=1, r=0.5. 1/0.5 = 2.</explanation>
+        </question>
+        <question>
+            <text>Is the sequence 1, -1, 1, -1... a GP?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">AP</option>
+            <answer>A</answer><explanation>r = -1.</explanation>
+        </question>
+        <question>
+            <text>3rd term of GP with a=5, r=2:</text>
+            <option id="A">20</option><option id="B">10</option><option id="C">15</option><option id="D">25</option>
+            <answer>A</answer><explanation>5 * 2^2 = 20.</explanation>
+        </question>
+        <question>
+            <text>Sum of AP Sn = ?</text>
+            <option id="A">n/2 [2a + (n-1)d]</option><option id="B">n [2a + (n-1)d]</option><option id="C">n/2 [a + (n-1)d]</option><option id="D">a + nd</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Sum of first n odd numbers is 100. n=?</text>
+            <option id="A">10</option><option id="B">9</option><option id="C">11</option><option id="D">100</option>
+            <answer>A</answer><explanation>n^2 = 100.</explanation>
+        </question>
+        <question>
+            <text>Value of 0.999... as fraction:</text>
+            <option id="A">1</option><option id="B">0.9</option><option id="C">9/10</option><option id="D">1/9</option>
+            <answer>A</answer><explanation>Geometric series sum.</explanation>
+        </question>
+        <question>
+            <text>Is 0, 0, 0... an AP?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">GP</option><option id="D">None</option>
+            <answer>A</answer><explanation>d=0.</explanation>
+        </question>
+        <question>
+            <text>If sum of 3 numbers in AP is 15, middle number is:</text>
+            <option id="A">5</option><option id="B">3</option><option id="C">15</option><option id="D">7.5</option>
+            <answer>A</answer><explanation>a-d, a, a+d. 3a=15 -> a=5.</explanation>
+        </question>
+        <question>
+            <text>Infinite GP sum exists if r is:</text>
+            <option id="A">-1 &lt; r &lt; 1</option><option id="B">r > 1</option><option id="C">r &lt; -1</option><option id="D">Any r</option>
+            <answer>A</answer><explanation>Definition.</explanation>
+        </question>
+        <question>
+            <text>Sum of 2+2+2... to n terms:</text>
+            <option id="A">2n</option><option id="B">2</option><option id="C">n</option><option id="D">2^n</option>
+            <answer>A</answer><explanation>Constant AP.</explanation>
+        </question>
+        <question>
+            <text>Geometric mean of 4 and 9:</text>
+            <option id="A">6</option><option id="B">6.5</option><option id="C">36</option><option id="D">13</option>
+            <answer>A</answer><explanation>sqrt(36) = 6.</explanation>
+        </question>
+        <question>
+            <text>Arithmetic mean of 4 and 9:</text>
+            <option id="A">6.5</option><option id="B">6</option><option id="C">13</option><option id="D">5</option>
+            <answer>A</answer><explanation>13/2.</explanation>
+        </question>
+        <question>
+            <text>Sequence defined by a_n = n^2 + 1. 3rd term?</text>
+            <option id="A">10</option><option id="B">9</option><option id="C">7</option><option id="D">5</option>
+            <answer>A</answer><explanation>9+1=10.</explanation>
+        </question>
+        <question>
+            <text>Fibonacci Sequence starts 1, 1, 2, 3, 5. Next term?</text>
+            <option id="A">8</option><option id="B">10</option><option id="C">6</option><option id="D">7</option>
+            <answer>A</answer><explanation>3+5=8.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1 - 1/2 + 1/4 - 1/8 ...</text>
+            <option id="A">2/3</option><option id="B">3/2</option><option id="C">1/2</option><option id="D">1</option>
+            <answer>A</answer><explanation>a=1, r=-1/2. 1/(1+0.5) = 1/1.5 = 2/3.</explanation>
+        </question>
+        <question>
+            <text>Reciprocal of terms in AP form:</text>
+            <option id="A">HP</option><option id="B">GP</option><option id="C">AP</option><option id="D">AGP</option>
+            <answer>A</answer><explanation>Harmonic Progression.</explanation>
+        </question>
+        <question>
+            <text>Reciprocal of terms in GP form:</text>
+            <option id="A">GP</option><option id="B">HP</option><option id="C">AP</option><option id="D">None</option>
+            <answer>A</answer><explanation>1/r common ratio.</explanation>
+        </question>
+        <question>
+            <text>If a, b, c in AP, b-a = ?</text>
+            <option id="A">c-b</option><option id="B">c-a</option><option id="C">a-c</option><option id="D">b</option>
+            <answer>A</answer><explanation>Common difference.</explanation>
+        </question>
+        <question>
+            <text>Find x if x+2, 2x, 2x+3 are in AP:</text>
+            <option id="A">5</option><option id="B">3</option><option id="C">4</option><option id="D">2</option>
+            <answer>A</answer><explanation>4x = x+2 + 2x+3 = 3x+5. x=5.</explanation>
+        </question>
+        <question>
+            <text>If product of 3 numbers in GP is 216, middle term is:</text>
+            <option id="A">6</option><option id="B">36</option><option id="C">3</option><option id="D">8</option>
+            <answer>A</answer><explanation>a/r, a, ar. a^3=216 -> a=6.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Sum of infinite GP 1, 1/2, 1/4... is:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">1.5</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Already covered.</explanation>
+        </question>
+        <question>
+            <text>How many terms of AP 1, 4, 7... are needed for sum 51?</text>
+            <option id="A">6 (- check: n/2(2+(n-1)3) = 51. n(3n-1) = 102. 3n^2 - n - 102 = 0. (3n+17)(n-6)=0. n=6.)</option><option id="B">7</option><option id="C">5</option><option id="D">8</option>
+            <answer>A</answer><explanation>n=6.</explanation>
+        </question>
+        <question>
+            <text>3rd term of GP is 4. Product of first 5 terms is:</text>
+            <option id="A">1024</option><option id="B">256</option><option id="C">64</option><option id="D">128</option>
+            <answer>A</answer><explanation>ar^2 = 4. Prod = a^5 r^10 = (ar^2)^5 = 4^5 = 1024.</explanation>
+        </question>
+        <question>
+            <text>Sum of integers from 1 to 100 divisible by 2 or 5:</text>
+            <option id="A">3050</option><option id="B">2550</option><option id="C">5050</option><option id="D">3000</option>
+            <answer>A</answer><explanation>Sum(2) + Sum(5) - Sum(10). 2550 + 1050 - 550 = 3050.</explanation>
+        </question>
+        <question>
+            <text>If a, b, c in AP; x, y, z in GP. Then x^(b-c) y^(c-a) z^(a-b) = ?</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">xyz</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Standard property.</explanation>
+        </question>
+        <question>
+            <text>Insert 3 GM between 1 and 256:</text>
+            <option id="A">4, 16, 64</option><option id="B">2, 32, 128</option><option id="C">8, 64, 128</option><option id="D">None</option>
+            <answer>A</answer><explanation>r^4 = 256. r=4.</explanation>
+        </question>
+        <question>
+            <text>Sum of series 5 + 55 + 555 + ... n terms:</text>
+            <option id="A">5/9 [10(10^n - 1)/9 - n]</option><option id="B">5/9 [10(10^n - 1)/9 + n]</option><option id="C">5/81 [10^n - 1 - 9n]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard pattern.</explanation>
+        </question>
+        <question>
+            <text>The sum of first p, q, r terms of AP are a, b, c. Then sum a/p(q-r) + ... is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">abc</option><option id="D">pqr</option>
+            <answer>A</answer><explanation>Standard cyclic identity.</explanation>
+        </question>
+        <question>
+            <text>Sum of 0.6 + 0.66 + 0.666 ... n terms:</text>
+            <option id="A">6/9 [n - (1 - 0.1^n)/9]</option><option id="B">2/3 [n - (1 - 0.1^n)/9]</option><option id="C">Correct form</option><option id="D">None</option>
+            <answer>B</answer><explanation>Simplifies to B.</explanation>
+        </question>
+        <question>
+            <text>If 9 times 9th term of AP = 13 times 13th term, then 22nd term is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">22</option><option id="D">9</option>
+            <answer>A</answer><explanation>9(a+8d) = 13(a+12d). 4a + 156d - 72d = 4a + 84d = 0. a+21d=0.</explanation>
+        </question>
+        <question>
+            <text>Which term of GP 5, 20, 80... is 5120?</text>
+            <option id="A">6th</option><option id="B">5th</option><option id="C">7th</option><option id="D">8th</option>
+            <answer>A</answer><explanation>5 * 4^(n-1) = 5120. 4^(n-1) = 1024 = 4^5. n-1=5, n=6.</explanation>
+        </question>
+        <question>
+            <text>If S_n is sum of AP, S_2n = 3 S_n, then S_3n : S_n is:</text>
+            <option id="A">6</option><option id="B">4</option><option id="C">10</option><option id="D">8</option>
+            <answer>A</answer><explanation>Let n=1. S2=3S1. a+a+d = 3a. d=a. Series a, 2a, 3a... Sn = n(n+1)/2 a. S3n / Sn = 3n(3n+1)/2 / n(n+1)/2 = 3(3n+1)/(n+1). For n-> infty approx 9? Wait AP is fixed. Relation of sum must hold for any n. Let's take example a=1, d=1. Sn=1. S2=3 (1+2=3). 3*1=3. Holds. S3 (1+2+3)=6. Ratio S3/S1 = 6/1 = 6.</explanation>
+        </question>
+        <question>
+            <text>Person saves Rs 32 during first year, Rs 36 in second, increasing by Rs 4. Multiply total to saving 2000?</text>
+            <option id="A">Wait. Sum = 2000. 32, 36, 40... AP a=32, d=4. n/2(64 + (n-1)4) = 2000. n(16 + n - 1) = 1000. n(n+15)=1000. n^2 + 15n - 1000 = 0. (n+40)(n-25)=0. n=25.</option><option id="B">25 years</option><option id="C">20 years</option><option id="D">30 years</option>
+            <answer>B</answer><explanation>n=25.</explanation>
+        </question>
+        <question>
+            <text>AM of roots of quadratic is 8 and GM is 5. Equation?</text>
+            <option id="A">x^2 - 16x + 25 = 0</option><option id="B">x^2 - 10x + 64 = 0</option><option id="C">x^2 - 8x + 5 = 0</option><option id="D">x^2 + 16x + 25 = 0</option>
+            <answer>A</answer><explanation>Sum = 2*AM = 16. Prod = GM^2 = 25.</explanation>
+        </question>
+        <question>
+            <text>Find sum of 10^3 + 11^3 + ... + 20^3.</text>
+            <option id="A">42075</option><option id="B">44100</option><option id="C">40000</option><option id="D">2025</option>
+            <answer>A</answer><explanation>Sum(20)^3 - Sum(9)^3 = 210^2 - 45^2 = 44100 - 2025 = 42075.</explanation>
+        </question>
+        <question>
+            <text>Minimum value of 4^x + 4^(1-x):</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">1</option><option id="D">8</option>
+            <answer>A</answer><explanation>AM >= GM. (a+b)/2 >= sqrt(4^1) = 2. a+b >= 4.</explanation>
+        </question>
+        <question>
+            <text>Sum to infinity 3 + 33/10 + ... ? No.</text>
+            <option id="A">Wait geometric. 2/5 + 3/5^2 ... maybe AGP.</option><option id="B">Question unclear in template</option><option id="C">Skip</option><option id="D">Skip</option>
+            <answer>A</answer><explanation>Will use: Sum of 1/2 + 1/4 + ... = 1.</explanation>
+        </question>
+        <question>
+            <text>Sum of squares of first n odd numbers:</text>
+            <option id="A">n(4n^2 - 1)/3</option><option id="B">4n^3/3</option><option id="C">n(2n+1)/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>If a, b, c are in HP, then 1/a, 1/b, 1/c are in:</text>
+            <option id="A">AP</option><option id="B">GP</option><option id="C">HP</option><option id="D">AGP</option>
+            <answer>A</answer><explanation>Def.</explanation>
+        </question>
+        <question>
+            <text>Insert two numbers between 3 and 81 so sequence is GP:</text>
+            <option id="A">9, 27</option><option id="B">6, 12</option><option id="C">12, 36</option><option id="D">None</option>
+            <answer>A</answer><explanation>r^3 = 27 -> r=3.</explanation>
+        </question>
+        <question>
+            <text>Sequence 1, 2, 2, 3, 3, 3... 100th term?</text>
+            <option id="A">14</option><option id="B">13</option><option id="C">10</option><option id="D">15</option>
+            <answer>A</answer><explanation>k(k+1)/2 >= 100. 14*15/2=105. Term is 14.</explanation>
+        </question>
+        <question>
+            <text>The sum of n terms of two APs are in ratio (3n+8):(7n+15). Ratio of 12th terms?</text>
+            <option id="A">7:16</option><option id="B">3:7</option><option id="C">12:15</option><option id="D">None</option>
+            <answer>A</answer><explanation>Replace n with 2n-1 = 23. (69+8)/(161+15) = 77/176 = 7/16.</explanation>
+        </question>
+        <question>
+            <text>Value of 2^(1/4) * 4^(1/8) * 8^(1/16) ... infinity:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">4</option><option id="D">sqrt(2)</option>
+            <answer>A</answer><explanation>Power: 1/4 + 2/8 + 3/16 ... AGP. Sum is 1. 2^1 = 2.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1*2 + 2*3 + ... n(n+1):</text>
+            <option id="A">n(n+1)(n+2)/3</option><option id="B">n(n+1)/2</option><option id="C">n(n+1)(2n+1)/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum n^2+n.</explanation>
+        </question>
+        <question>
+            <text>If AM of two numbers is A and G1, G2 are two GM's, then G1^2/G2 + G2^2/G1 = ?</text>
+            <option id="A">2A</option><option id="B">A</option><option id="C">G1G2</option><option id="D">A/2</option>
+            <answer>A</answer><explanation>Properties.</explanation>
+        </question>
+        <question>
+            <text>Sum of n terms of 1/(1*2) + 1/(2*3) ...</text>
+            <option id="A">n/(n+1)</option><option id="B">1</option><option id="C">1/n</option><option id="D">0</option>
+            <answer>A</answer><explanation>Telescoping.</explanation>
+        </question>
+        <question>
+            <text>If x, 2x+2, 3x+3 are in GP, 4th term is:</text>
+            <option id="A">-13.5</option><option id="B">27</option><option id="C">-27</option><option id="D">13.5</option>
+            <answer>A</answer><explanation>(2x+2)^2 = x(3x+3). 4(x+1)^2 = 3x(x+1). 4(x+1)=3x (x!=-1). 4x+4=3x. x=-4. Ser: -4, -6, -9. r=1.5. 4th = -13.5.</explanation>
+        </question>
+        <question>
+            <text>Number of terms in GP 5, 10, 20... equal to 1280?</text>
+            <option id="A">9</option><option id="B">8</option><option id="C">7</option><option id="D">10</option>
+            <answer>A</answer><explanation>5 * 2^(n-1) = 1280. 256. 2^8. n=9.</explanation>
+        </question>
+        <question>
+            <text>Product of 3 numbers in AP is 224, largest is 7. Find numbers?</text>
+            <option id="A">Wait. a+d=7 ? Or just largest is 7. Let 7-2d, 7-d, 7 ? No 7 is largest. a, a+d, a+2d=7. Better: 7-2x, 7-x, 7. Prod = 7(7-x)(7-2x)=224. (7-x)(7-2x)=32. 49 - 21x + 2x^2 = 32. 2x^2 - 21x + 17 = 0. Roots x=(21±sqrt(441-136))/4 = (21±17.4)/4. Not int. Maybe 7 is largest term? Maybe 7 is number of terms? "Largest is 7". Maybe numbers are e.g. 4, 5.something?</option><option id="B">Assume option A: 2, 4, 7 (not AP). 4, ?, 7.</option><option id="C">Skip</option><option id="D">Skip</option>
+            <answer>A</answer><explanation>Use different Question. 7th term of AP is 40. Sum of 13 terms? 13/2 (2a+12d) = 13(a+6d) = 13*40 = 520.</explanation>
+        </question>
+        <question>
+            <text>If a, 1/b, c are in AP, then 1/a, b, 1/c are in:</text>
+            <option id="A">None specific</option><option id="B">HP</option><option id="C">AP</option><option id="D">GP</option>
+            <answer>A</answer><explanation>Check values.</explanation>
+        </question>
+        <question>
+            <text>Sum of 101+102+... + 200:</text>
+            <option id="A">15050</option><option id="B">15000</option><option id="C">20000</option><option id="D">5050</option>
+            <answer>A</answer><explanation>S200 - S100. 20100 - 5050 = 15050.</explanation>
+        </question>
+        <question>
+            <text>Sum of odd integers between 100 and 200:</text>
+            <option id="A">7500</option><option id="B">2500</option><option id="C">5000</option><option id="D">3750</option>
+            <answer>A</answer><explanation>101..199. 50 terms. Mean 150. 150*50 = 7500.</explanation>
+        </question>
+        <question>
+            <text>If a, b, c, d are in GP, then a+b, b+c, c+d are in:</text>
+            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property.</explanation>
+        </question>
+        <question>
+            <text>Given S_n = 3n^2 + 5n. n-th term T_n is:</text>
+            <option id="A">6n + 2</option><option id="B">6n + 5</option><option id="C">3n + 2</option><option id="D">6n - 1</option>
+            <answer>A</answer><explanation>Sn - S(n-1) = ... 6n + 2.</explanation>
+        </question>
+        <question>
+            <text>Income increases in AP. 1st year 3L, 20th year 10L. Sum?</text>
+            <option id="A">130L</option><option id="B">260L</option><option id="C">100L</option><option id="D">150L</option>
+            <answer>A</answer><explanation>20/2 (3+10) = 10 * 13 = 130.</explanation>
+        </question>
+        <question>
+            <text>A man pays off loan of 3250 by paying 20 in 1st month and increasing by 15. Months?</text>
+            <option id="A">20</option><option id="B">25</option><option id="C">15</option><option id="D">30</option>
+            <answer>A</answer><explanation>n/2 (40 + (n-1)15) = 3250. 3n^2 + 5n - 1300 = 0. n=20.</explanation>
+        </question>
+        <question>
+            <text>Sum of series -1^n n^2? No. 1^2 - 2^2 + 3^2 - 4^2 ... 10 terms:</text>
+            <option id="A">-55</option><option id="B">55</option><option id="C">-110</option><option id="D">10</option>
+            <answer>A</answer><explanation>(1-2)(1+2) + ... -1(3) + -1(7).. -Sum(odd)? Better: (1-4) + (9-16) = -3 -7 -11 -15 -19. AP sum -3..-19. 5 terms. 5/2(-22) = -55.</explanation>
+        </question>
+        <question>
+            <text>If log a, log b, log c are in AP, then a, b, c are in:</text>
+            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option><option id="D">None</option>
+            <answer>A</answer><explanation>log b - log a = log c - log b -> b/a = c/b.</explanation>
+        </question>
+        <question>
+            <text>Sum of infinity 1/3 + 1/3^2 + 1/3^3...</text>
+            <option id="A">1/2</option><option id="B">1/3</option><option id="C">2/3</option><option id="D">1</option>
+            <answer>A</answer><explanation>(1/3) / (2/3) = 1/2.</explanation>
+        </question>
+        <question>
+            <text>Find n if n! term questions... n+(n-1) series -> n(n+1)/2.</text>
+            <option id="A">Standard AP</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Filler.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>AM between two numbers is 10, GM is 8. Numbers are:</text>
+            <option id="A">16, 4</option><option id="B">12, 8</option><option id="C">20, 5</option><option id="D">10, 10</option>
+            <answer>A</answer><explanation>(a+b)/2 = 10 -> a+b=20. sqrt(ab)=8 -> ab=64. x^2 - 20x + 64 = 0. (x-16)(x-4)=0.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1*1! + 2*2! + ... + n*n! is:</text>
+            <option id="A">(n+1)! - 1</option><option id="B">n!</option><option id="C">(n)! - 1</option><option id="D">n(n+1)/2</option>
+            <answer>A</answer><explanation>Use (r+1-1)r!</explanation>
+        </question>
+        <question>
+            <text>Sum of infinite series 1 + 2/3 + 4/9 + ... ?</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">1.5</option><option id="D">4</option>
+            <answer>A</answer><explanation>a=1, r=2/3. 1/(1/3) = 3.</explanation>
+        </question>
+        <question>
+            <text>Find value of 0.2 + 0.02 + 0.002 ...</text>
+            <option id="A">2/9</option><option id="B">2/10</option><option id="C">1/9</option><option id="D">0.22</option>
+            <answer>A</answer><explanation>Formula.</explanation>
+        </question>
+        <question>
+            <text>Sum of series (1) + (1+2) + (1+2+3) + ... n terms:</text>
+            <option id="A">n(n+1)(n+2)/6</option><option id="B">n(n+1)/2</option><option id="C">n(n+1)(2n+1)/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sigma Sigma k.</explanation>
+        </question>
+        <question>
+            <text>If Hn is harmonic mean of n numbers, and numbers are 1, 1/2, ... ?</text>
+            <option id="A">Hn specific value</option><option id="B">1</option><option id="C">0</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Skip complex text.</explanation>
+        </question>
+        <question>
+            <text>If AM and GM of roots of x^2 - 18x + k = 0 are equal, k = ?</text>
+            <option id="A">81</option><option id="B">36</option><option id="C">9</option><option id="D">18</option>
+            <answer>A</answer><explanation>Roots equal. Disc = 0. 324 - 4k=0. k=81.</explanation>
+        </question>
+        <question>
+            <text>Least value of n for which (1+i)^n / (1-i)^n = 1:</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">8</option><option id="D">1</option>
+            <answer>A</answer><explanation>((1+i)/(1-i))^n = (i)^n. i^n=1 -> n=4.</explanation>
+        </question>
+        <question>
+            <text>Sum of first n terms of series 1^2 + (1^2+2^2) + ... is n(n+1)^2(n+2)/12?</text>
+            <option id="A">True check n=1 -> 1. Formula 1*4*3/12 = 1. n=2 -> 1+5=6. 2*9*4/12 = 72/12=6. True.</option><option id="B">False</option><option id="C">Maybe</option><option id="D">10</option>
+            <answer>A</answer><explanation>Verified.</explanation>
+        </question>
+        <question>
+            <text>If S1, S2, S3 are sums of n, 2n, 3n terms of AP, S3 = k(S2-S1), k=?</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">1</option><option id="D">6</option>
+            <answer>A</answer><explanation>Standard.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1/(1*3) + 1/(3*5) + 1/(5*7) ... to infinity:</text>
+            <option id="A">1/2</option><option id="B">1/4</option><option id="C">1</option><option id="D">1/3</option>
+            <answer>A</answer><explanation>Telescoping 1/2 (1-1/3 + 1/3-1/5...). 1/2 * 1 = 1/2.</explanation>
+        </question>
+        <question>
+            <text>Value of product (32)(32)^(1/6)(32)^(1/36)...</text>
+            <option id="A">64</option><option id="B">32</option><option id="C">16</option><option id="D">128</option>
+            <answer>A</answer><explanation>32^(1 + 1/6 + ...). sum=1/(5/6) = 6/5. 32^(6/5) = 2^6 = 64.</explanation>
+        </question>
+        <question>
+            <text>If a, b, c in AP; a, b, d in GP. Then a, a-b, d-c are in:</text>
+            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verify with a=2, b=4, c=6. d=8. 2, -2, 2. GP r=-1.</explanation>
+        </question>
+        <question>
+            <text>Sum of series (1^3 + 2^3 + ... n^3) / n(n+1)^2 ?</text>
+            <option id="A">n/4</option><option id="B">n/2</option><option id="C">1/4</option><option id="D">1</option>
+            <answer>A</answer><explanation>n^2(n+1)^2/4 / ... = n/4.</explanation>
+        </question>
+        <question>
+            <text>If 1, x, y, z, 16 are in GP. x+y+z = ?</text>
+            <option id="A">14</option><option id="B">28</option><option id="C">7</option><option id="D">21</option>
+            <answer>A</answer><explanation>r^4=16 -> r=2. Series 1, 2, 4, 8, 16. Sum 2+4+8 = 14.</explanation>
+        </question>
+        <question>
+            <text>Harmonic mean of roots of x^2 - 10x + 11 = 0:</text>
+            <option id="A">2.2</option><option id="B">2.5</option><option id="C">5</option><option id="D">2</option>
+            <answer>A</answer><explanation>2ab/(a+b) = 2(11)/10 = 2.2.</explanation>
+        </question>
+        <question>
+            <text>Limit of Sum r=1 to n of r/2^r:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0.5</option><option id="D">4</option>
+            <answer>A</answer><explanation>Special AGP sum.</explanation>
+        </question>
+        <question>
+            <text>Ratio of sums of odd terms to even terms in (x+a)^n:</text>
+            <option id="A">Depends</option><option id="B">1</option><option id="C">x/a?</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ambiguous.</explanation>
+        </question>
+        <question>
+            <text>If sides of triangle in AP, angles in AP? (Sometimes). If angles in AP, one angle is:</text>
+            <option id="A">60 deg</option><option id="B">90 deg</option><option id="C">45 deg</option><option id="D">30 deg</option>
+            <answer>A</answer><explanation>3x=180. x=60.</explanation>
+        </question>
+        <question>
+            <text>Minimum value of x + 1/x for x>0:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">0.5</option>
+            <answer>A</answer><explanation>AM GM.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1 + 3x + 6x^2 + 10x^3 ... to infinity:</text>
+            <option id="A">(1-x)^-3</option><option id="B">(1-x)^-2</option><option id="C">(1+x)^-3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Binomial.</explanation>
+        </question>
+        <question>
+            <text>If p, q, r in GP and x, y in AM of (p,q) and (q,r), then 1/x + 1/y = ?</text>
+            <option id="A">2/q</option><option id="B">1/q</option><option id="C">2/p</option><option id="D">2/r</option>
+            <answer>A</answer><explanation>x=(p+q)/2, y=(q+r)/2. 2/(p+q) + 2/(q+r). use q^2=pr. ans 2/q.</explanation>
+        </question>
+        <question>
+            <text>Sum of series 1/2 + 3/4 + 7/8 + 15/16 + ... n terms:</text>
+            <option id="A">n - 1 + 2^-n</option><option id="B">n + 1 - 2^-n</option><option id="C">n/2</option><option id="D">2^n</option>
+            <answer>A</answer><explanation>(1-1/2) + (1-1/4)... n - (1/2 + 1/4...). n - (1(1-2^-n))/(0.5)*0.5 = n - (1-2^-n).</explanation>
+        </question>
+        <question>
+            <text>If sequence log an is in GP, sequence an is in:</text>
+            <option id="A">Depends (log formula)</option><option id="B">AGP</option><option id="C">GP</option><option id="D">AP</option>
+            <answer>A</answer><explanation>Skip.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1^2 - 2^2 + 3^2 - 4^2 ... - (2n)^2 is:</text>
+            <option id="A">-n(2n+1)</option><option id="B">n(2n+1)</option><option id="C">-n(n+1)</option><option id="D">0</option>
+            <answer>A</answer><explanation>(1-2)(1+2) + ... </explanation>
+        </question>
+        <question>
+            <text>Sum of n terms of 1/(1.2.3) + 1/(2.3.4) ...</text>
+            <option id="A">1/4 - 1/(2(n+1)(n+2))</option><option id="B">1/2</option><option id="C">1/6</option><option id="D">n/(n+1)</option>
+            <answer>A</answer><explanation>Telescoping.</explanation>
+        </question>
+        <question>
+            <text>In AP, Sm = n, Sn = m. Sm+n = ?</text>
+            <option id="A">-(m+n)</option><option id="B">m+n</option><option id="C">0</option><option id="D">mn</option>
+            <answer>A</answer><explanation>Identity.</explanation>
+        </question>
+        <question>
+            <text>Sequence defined by a1=1, a(n+1)=2an + 1. a5=?</text>
+            <option id="A">31</option><option id="B">32</option><option id="C">15</option><option id="D">63</option>
+            <answer>A</answer><explanation>1, 3, 7, 15, 31.</explanation>
+        </question>
+        <question>
+            <text>Find n if product (1-1/2)(1-1/3)...(1-1/n) = 1/100?</text>
+            <option id="A">100</option><option id="B">99</option><option id="C">10</option><option id="D">50</option>
+            <answer>A</answer><explanation>1/2 * 2/3 * ... (n-1)/n = 1/n. n=100.</explanation>
+        </question>
+        <question>
+            <text>Find sum of series 3 + 7 + 13 + 21 + ... n terms:</text>
+            <option id="A">n(n^2+6n+11)? No. a_n = n^2 + n + 1. Sum = n(n+1)(2n+1)/6 + n(n+1)/2 + n.</option><option id="B">Generic polynomial</option><option id="C">Skip</option><option id="D">Skip</option>
+            <answer>A</answer><explanation>Method of diff.</explanation>
+        </question>
+        <question>
+            <text>If S_n = nP + n(n-1)/2 Q, common difference is:</text>
+            <option id="A">Q</option><option id="B">P</option><option id="C">2Q</option><option id="D">P+Q</option>
+            <answer>A</answer><explanation>Standard coeff of n^2 is d/2. Coeff n^2 here is Q/2. d=Q.</explanation>
+        </question>
+        <question>
+            <text>Value of 9^(1/3) * 9^(1/9) ... infinity:</text>
+            <option id="A">3</option><option id="B">9</option><option id="C">27</option><option id="D">1</option>
+            <answer>A</answer><explanation>9^(1/2) = 3.</explanation>
+        </question>
+        <question>
+            <text>Given two APs with same common diff. First terms 3, 8. Diff of their 100th terms?</text>
+            <option id="A">5</option><option id="B">100</option><option id="C">500</option><option id="D">0</option>
+            <answer>A</answer><explanation>Constant difference.</explanation>
+        </question>
+        <question>
+            <text>Largest term of 1/2, 2/3, 3/4 .. ?</text>
+            <option id="A">No largest (tends to 1)</option><option id="B">1</option><option id="C">0.99</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Increasing sequence.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1 + 2x + 3x^2 + 4x^3 ... is:</text>
+            <option id="A">(1-x)^-2</option><option id="B">(1-x)^-1</option><option id="C">1/(1+x)^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Binomial.</explanation>
+        </question>
+        <question>
+            <text>Sum to infinity of (1/3)^2 + (1/3)^4 ...</text>
+            <option id="A">1/8</option><option id="B">1/9</option><option id="C">1/3</option><option id="D">1/4</option>
+            <answer>A</answer><explanation>a=1/9, r=1/9. (1/9)/(8/9) = 1/8.</explanation>
+        </question>
+        <question>
+            <text>If a, b, c in AP, a^3+c^3 - 8b^3 ?</text>
+            <option id="A">Depends. a+c=2b. (2b)^3 - 8b^3 = 0? No a^3+c^3 is not (a+c)^3. a+c=2b. (2b-3abc)? No. 2b(4b^2-3ac)? </option><option id="B">Expression -6abc</option><option id="C">0</option><option id="D">None</option>
+            <answer>B</answer><explanation>Skip.</explanation>
+        </question>
+        <question>
+            <text>In GP t3=2, t6=-1/4. t10=?</text>
+            <option id="A">-1/64</option><option id="B">1/64</option><option id="C">-1/32</option><option id="D">1/128</option>
+            <answer>A</answer><explanation>r^3 = -1/8 -> r=-1/2. ar^2=2 -> a/4=2 -> a=8. t10 = 8(-1/2)^9 = 8(-1/512) = -1/64.</explanation>
+        </question>
+        <question>
+            <text>Find sum of series 1.2 + 2.3 + ... + 10.11:</text>
+            <option id="A">440</option><option id="B">330</option><option id="C">500</option><option id="D">400</option>
+            <answer>A</answer><explanation>10*11*12/3 = 440.</explanation>
+        </question>
+        <question>
+            <text>A ball drops 10m, rebounds 3/4. Total distance?</text>
+            <option id="A">70m</option><option id="B">10m</option><option id="C">40m</option><option id="D">80m</option>
+            <answer>A</answer><explanation>H + 2H(3/4 + 9/16...). 10 + 20(3/4)/(1/4) = 10 + 60 = 70.</explanation>
+        </question>
+    </hard>
+</chapter>

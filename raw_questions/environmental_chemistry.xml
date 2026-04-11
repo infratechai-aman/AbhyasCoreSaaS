@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="114" name="Environmental Chemistry">
+    <easy>
+        <question>
+            <text>Environmental chemistry deals with:</text>
+            <option id="A">Study of chemical species in environment</option><option id="B">Only pollutants</option><option id="C">Biology</option><option id="D">Physics</option>
+            <answer>A</answer><explanation>Interdisciplinary.</explanation>
+        </question>
+        <question>
+            <text>Which layer of atmosphere contains ozone that protects us?</text>
+            <option id="A">Stratosphere</option><option id="B">Troposphere</option><option id="C">Mesosphere</option><option id="D">Thermosphere</option>
+            <answer>A</answer><explanation>Ozonosphere.</explanation>
+        </question>
+        <question>
+            <text>Which gas is major cause of Global Warming?</text>
+            <option id="A">CO2</option><option id="B">O2</option><option id="C">N2</option><option id="D">Ar</option>
+            <answer>A</answer><explanation>Greenhouse effect.</explanation>
+        </question>
+        <question>
+            <text>Acid rain is caused by oxides of:</text>
+            <option id="A">Sulfur and Nitrogen (SO2, NO2)</option><option id="B">Carbon only</option><option id="C">Hydrogen</option><option id="D">Phosphorus</option>
+            <answer>A</answer><explanation>Forms H2SO4 and HNO3.</explanation>
+        </question>
+        <question>
+            <text>pH of acid rain is approximately:</text>
+            <option id="A">Less than 5.6</option><option id="B">7</option><option id="C">More than 7</option><option id="D">14</option>
+            <answer>A</answer><explanation>Normal rain is 5.6 due to CO2.</explanation>
+        </question>
+        <question>
+            <text>Depletion of ozone layer is mainly caused by:</text>
+            <option id="A">CFCs (Chlorofluorocarbons)</option><option id="B">CO2</option><option id="C">CH4</option><option id="D">SO2</option>
+            <answer>A</answer><explanation>Freons.</explanation>
+        </question>
+        <question>
+            <text>Which metal poisoning causes Minamata disease?</text>
+            <option id="A">Mercury (Hg)</option><option id="B">Lead (Pb)</option><option id="C">Cadmium (Cd)</option><option id="D">Arsenic (As)</option>
+            <answer>A</answer><explanation>Neurological.</explanation>
+        </question>
+        <question>
+            <text>Itai-Itai disease is caused by:</text>
+            <option id="A">Cadmium (Cd)</option><option id="B">Mercury</option><option id="C">Lead</option><option id="D">Iron</option>
+            <answer>A</answer><explanation>Osteomalacia.</explanation>
+        </question>
+        <question>
+            <text>Blue Baby Syndrome (Methemoglobinemia) is caused by excess of:</text>
+            <option id="A">Nitrate in drinking water</option><option id="B">Sulfate</option><option id="C">Fluoride</option><option id="D">Chloride</option>
+            <answer>A</answer><explanation>Reduces O2 carrying capacity.</explanation>
+        </question>
+        <question>
+            <text>Excess Fluoride in drinking water causes:</text>
+            <option id="A">Fluorosis (Mottling of teeth / Bone damage)</option><option id="B">Goiter</option><option id="C">Anemia</option><option id="D">None</option>
+            <answer>A</answer><explanation>> 2 ppm.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Fluoride in drinking water:</text>
+            <option id="A">1 ppm</option><option id="B">10 ppm</option><option id="C">100 ppm</option><option id="D">0.1 ppm</option>
+            <answer>A</answer><explanation>Prevent tooth decay.</explanation>
+        </question>
+        <question>
+            <text>BOD stands for:</text>
+            <option id="A">Biochemical Oxygen Demand</option><option id="B">Biological Oxide Demand</option><option id="C">Basic Oxygen Demand</option><option id="D">None</option>
+            <answer>A</answer><explanation>Measure of organic pollution.</explanation>
+        </question>
+        <question>
+            <text>COD stands for:</text>
+            <option id="A">Chemical Oxygen Demand</option><option id="B">Calcium Oxygen Demand</option><option id="C">Control</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total organic matter.</explanation>
+        </question>
+        <question>
+            <text>Highly polluted water has BOD value:</text>
+            <option id="A">High (&gt; 17 ppm)</option><option id="B">Low (&lt; 5 ppm)</option><option id="C">Zero</option><option id="D">1</option>
+            <answer>A</answer><explanation>Low DO.</explanation>
+        </question>
+        <question>
+            <text>Clean water has BOD value:</text>
+            <option id="A">Less than 5 ppm</option><option id="B">More than 17 ppm</option><option id="C">100 ppm</option><option id="D">50 ppm</option>
+            <answer>A</answer><explanation>High DO.</explanation>
+        </question>
+        <question>
+            <text>Eutrophication leads to:</text>
+            <option id="A">Algal bloom and oxygen depletion</option><option id="B">Cleaner water</option><option id="C">More fish</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nutrient enrichment (N, P).</explanation>
+        </question>
+        <question>
+            <text>Green Chemistry aims to:</text>
+            <option id="A">Reduce hazardous substances in design/process</option><option id="B">Plant trees</option><option id="C">Use green color</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sustainability.</explanation>
+        </question>
+        <question>
+            <text>Which is a primary pollutant?</text>
+            <option id="A">SO2 / CO / NO / Particulates</option><option id="B">PAN</option><option id="C">O3</option><option id="D">Acid rain</option>
+            <answer>A</answer><explanation>Emitted directly.</explanation>
+        </question>
+        <question>
+            <text>Which is a secondary pollutant?</text>
+            <option id="A">PAN / O3 / Acid rain</option><option id="B">SO2</option><option id="C">CO2</option><option id="D">NO</option>
+            <answer>A</answer><explanation>Formed by reaction.</explanation>
+        </question>
+        <question>
+            <text>Gas responsible for Bhopal Gas Tragedy:</text>
+            <option id="A">Methyl Isocyanate (MIC)</option><option id="B">CO</option><option id="C">Chlorine</option><option id="D">Ammonia</option>
+            <answer>A</answer><explanation>CH3NCO.</explanation>
+        </question>
+        <question>
+            <text>Main component of Photochemical Smog:</text>
+            <option id="A">Ozone, PAN, NO2</option><option id="B">SO2</option><option id="C">Smoke + Fog</option><option id="D">CO2</option>
+            <answer>A</answer><explanation>Oxidizing smog.</explanation>
+        </question>
+        <question>
+            <text>Main component of Classical Smog (London Smog):</text>
+            <option id="A">Smoke + Fog + SO2</option><option id="B">Ozone</option><option id="C">PAN</option><option id="D">NO2</option>
+            <answer>A</answer><explanation>Reducing smog.</explanation>
+        </question>
+        <question>
+            <text>London smog occurs in:</text>
+            <option id="A">Cool humid climate</option><option id="B">Warm dry sunny climate</option><option id="C">Deserts</option><option id="D">Forests</option>
+            <answer>A</answer><explanation>Winter.</explanation>
+        </question>
+        <question>
+            <text>Los Angeles smog (Photochemical) occurs in:</text>
+            <option id="A">Warm dry sunny climate</option><option id="B">Cool humid</option><option id="C">Night</option><option id="D">Winter</option>
+            <answer>A</answer><explanation>Summer.</explanation>
+        </question>
+        <question>
+            <text>PAN stands for:</text>
+            <option id="A">Peroxyacetyl Nitrate</option><option id="B">Polyacrylonitrile</option><option id="C">Peroxy acid</option><option id="D">Pollution</option>
+            <answer>A</answer><explanation>Eye irritant.</explanation>
+        </question>
+        <question>
+            <text>Harmful effect of CO:</text>
+            <option id="A">Forms Carboxyhemoglobin (blocks O2 transport)</option><option id="B">Acid rain</option><option id="C">Greenhouse</option><option id="D">Ozone hole</option>
+            <answer>A</answer><explanation>Suffocation.</explanation>
+        </question>
+        <question>
+            <text>Affinity of CO for hemoglobin compared to O2?</text>
+            <option id="A">300 times more</option><option id="B">Equal</option><option id="C">Less</option><option id="D">None</option>
+            <answer>A</answer><explanation>Very strong.</explanation>
+        </question>
+        <question>
+            <text>Taj Mahal is affected by:</text>
+            <option id="A">Acid Rain (SO2 -> H2SO4) attacking marble (CaCO3)</option><option id="B">CO</option><option id="C">Ozone</option><option id="D">Dust</option>
+            <answer>A</answer><explanation>Stone leprosy.</explanation>
+        </question>
+        <question>
+            <text>Which gas is produced by incomplete combustion of fossil fuels?</text>
+            <option id="A">CO</option><option id="B">CO2</option><option id="C">SO2</option><option id="D">NO2</option>
+            <answer>A</answer><explanation>Carbon monoxide.</explanation>
+        </question>
+        <question>
+            <text>Freons are:</text>
+            <option id="A">CFCs (e.g., CCl2F2)</option><option id="B">Hydrocarbons</option><option id="C">Alcohols</option><option id="D">Acids</option>
+            <answer>A</answer><explanation>Stable, non-toxic, non-flammable.</explanation>
+        </question>
+        <question>
+            <text>Ozone hole was first observed over:</text>
+            <option id="A">Antarctica</option><option id="B">Arctic</option><option id="C">Equator</option><option id="D">India</option>
+            <answer>A</answer><explanation>South pole.</explanation>
+        </question>
+        <question>
+            <text>DDT is:</text>
+            <option id="A">Non-biodegradable pesticide</option><option id="B">Biodegradable</option><option id="C">Fertilizer</option><option id="D">Medicine</option>
+            <answer>A</answer><explanation>Bioaccumulation.</explanation>
+        </question>
+        <question>
+            <text>Bioamplification / Biomagnification refers to:</text>
+            <option id="A">Increase in concentration of pollutant at higher trophic levels</option><option id="B">Decrease</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Food chain.</explanation>
+        </question>
+        <question>
+            <text>Major source of Methane (CH4) pollutant:</text>
+            <option id="A">Paddy fields / Ruminant animals / Swamps</option><option id="B">Factories</option><option id="C">Cars</option><option id="D">Volcano</option>
+            <answer>A</answer><explanation>Anaerobic decomposition.</explanation>
+        </question>
+        <question>
+            <text>Viable particulates include:</text>
+            <option id="A">Bacteria, Fungi, Moulds, Algae</option><option id="B">Smoke</option><option id="C">Dust</option><option id="D">Mist</option>
+            <answer>A</answer><explanation>Living organisms.</explanation>
+        </question>
+        <question>
+            <text>Non-viable particulates include:</text>
+            <option id="A">Smoke, Dust, Mist, Fumes</option><option id="B">Bacteria</option><option id="C">Virus</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dead matter.</explanation>
+        </question>
+        <question>
+            <text>Smoke is:</text>
+            <option id="A">Solid or liquid particles from combustion</option><option id="B">Gas</option><option id="C">Liquid</option><option id="D">None</option>
+            <answer>A</answer><explanation>Colloidal.</explanation>
+        </question>
+        <question>
+            <text>Mist is produced by:</text>
+            <option id="A">Condensation of vapors</option><option id="B">Grinding</option><option id="C">Burning</option><option id="D">None</option>
+            <answer>A</answer><explanation>Liquid droplets.</explanation>
+        </question>
+        <question>
+            <text>Troposphere extends up to:</text>
+            <option id="A">10 km from sea level</option><option id="B">50 km</option><option id="C">100 km</option><option id="D">1 km</option>
+            <answer>A</answer><explanation>Lowest layer.</explanation>
+        </question>
+        <question>
+            <text>Stratosphere extends from:</text>
+            <option id="A">10 to 50 km</option><option id="B">0 to 10 km</option><option id="C">50 to 85 km</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains Ozone.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Reaction responsible for ozone depletion by Cl radical:</text>
+            <option id="A">Cl + O3 -> ClO + O2; ClO + O -> Cl + O2 (Chain)</option><option id="B">Cl + O3 -> ClO3</option><option id="C">Cl + O2 -> ClO2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Catalytic cycle.</explanation>
+        </question>
+        <question>
+            <text>Polar Stratospheric Clouds (PSCs) play a role in:</text>
+            <option id="A">Ozone hole formation (Provide surface for reaction)</option><option id="B">Rain</option><option id="C">Snow</option><option id="D">None</option>
+            <answer>A</answer><explanation>Winter in Antarctica.</explanation>
+        </question>
+        <question>
+            <text>Sink for Carbon Monoxide (CO):</text>
+            <option id="A">Microorganisms in soil</option><option id="B">Ocean</option><option id="C">Plants</option><option id="D">None</option>
+            <answer>A</answer><explanation>Natural removal.</explanation>
+        </question>
+        <question>
+            <text>Naked eye irritation in smog is caused by:</text>
+            <option id="A">PAN and Acrolein</option><option id="B">CO2</option><option id="C">N2</option><option id="D">O2</option>
+            <answer>A</answer><explanation>Lachrymators.</explanation>
+        </question>
+        <question>
+            <text>Acrolein formula:</text>
+            <option id="A">CH2=CH-CHO</option><option id="B">CH3CHO</option><option id="C">HCHO</option><option id="D">CH3COCH3</option>
+            <answer>A</answer><explanation>Propenal.</explanation>
+        </question>
+        <question>
+            <text>Formaldehyde (HCHO) in smog causes:</text>
+            <option id="A">Eye/Throat irritation</option><option id="B">Cancer</option><option id="C">Blindness</option><option id="D">None</option>
+            <answer>A</answer><explanation>Aldehyde.</explanation>
+        </question>
+        <question>
+            <text>Dobson Unit (DU) measures:</text>
+            <option id="A">Ozone layer thickness</option><option id="B">Sound</option><option id="C">Radiation</option><option id="D">Pressure</option>
+            <answer>A</answer><explanation>1 DU = 0.01 mm STP.</explanation>
+        </question>
+        <question>
+            <text>Natural sink for CO2:</text>
+            <option id="A">Photosynthesis / Oceans</option><option id="B">Soil</option><option id="C">Animals</option><option id="D">None</option>
+            <answer>A</answer><explanation>Carbon cycle.</explanation>
+        </question>
+        <question>
+            <text>TLV stands for:</text>
+            <option id="A">Threshold Limit Value</option><option id="B">Total Limit</option><option id="C">Time Limit</option><option id="D">None</option>
+            <answer>A</answer><explanation>Permissible exposure.</explanation>
+        </question>
+        <question>
+            <text>Herbicide used in Vietnam War (Agent Orange):</text>
+            <option id="A">Mixture of 2,4-D and 2,4,5-T</option><option id="B">DDT</option><option id="C">BHC</option><option id="D">None</option>
+            <answer>A</answer><explanation>Defoliant.</explanation>
+        </question>
+        <question>
+            <text>2,4-D is:</text>
+            <option id="A">2,4-Dichlorophenoxyacetic acid (Herbicide)</option><option id="B">Pesticide</option><option id="C">Fertilizer</option><option id="D">Combustible</option>
+            <answer>A</answer><explanation>Weed killer.</explanation>
+        </question>
+        <question>
+            <text>Sodium Arsenite is used as:</text>
+            <option id="A">Herbicide</option><option id="B">Pesticide</option><option id="C">Fungicide</option><option id="D">Fertilizer</option>
+            <answer>A</answer><explanation>Toxic.</explanation>
+        </question>
+        <question>
+            <text>Most dangerous metal pollutant from automobile exhaust:</text>
+            <option id="A">Lead (Pb)</option><option id="B">Cd</option><option id="C">Hg</option><option id="D">Fe</option>
+            <answer>A</answer><explanation>From anti-knock agents (formerly).</explanation>
+        </question>
+        <question>
+            <text>Effect of SO2 on plants:</text>
+            <option id="A">Chlorosis (Loss of chlorophyll)</option><option id="B">Growth</option><option id="C">None</option><option id="D">Colors</option>
+            <answer>A</answer><explanation>Yellowing of leaves.</explanation>
+        </question>
+        <question>
+            <text>Kyoto Protocol is related to:</text>
+            <option id="A">Greenhouse gas emission reduction</option><option id="B">Ozone</option><option id="C">Biodiversity</option><option id="D">Water</option>
+            <answer>A</answer><explanation>Climate change.</explanation>
+        </question>
+        <question>
+            <text>Montreal Protocol is related to:</text>
+            <option id="A">Ozone depleting substances (Limit CFCs)</option><option id="B">CO2</option><option id="C">Tiger conservation</option><option id="D">Water</option>
+            <answer>A</answer><explanation>Successful international treaty.</explanation>
+        </question>
+        <question>
+            <text>Pneumoconiosis is caused by:</text>
+            <option id="A">Inhalation of Coal dust (Black Lung)</option><option id="B">Silica</option><option id="C">Asbestos</option><option id="D">Cotton</option>
+            <answer>A</answer><explanation>Occupational hazard.</explanation>
+        </question>
+        <question>
+            <text>Silicosis is caused by:</text>
+            <option id="A">Silica dust (Stone grinding)</option><option id="B">Coal</option><option id="C">Iron</option><option id="D">Lead</option>
+            <answer>A</answer><explanation>Lung fibrosis.</explanation>
+        </question>
+        <question>
+            <text>Asbestosis causes:</text>
+            <option id="A">Lung cancer (Mesothelioma)</option><option id="B">Blindness</option><option id="C">Skin cancer</option><option id="D">None</option>
+            <answer>A</answer><explanation>Asbestos fibers.</explanation>
+        </question>
+        <question>
+            <text>Identify Biodegradable pollutant:</text>
+            <option id="A">Domestic sewage / Paper / Cow dung</option><option id="B">Plastic</option><option id="C">DDT</option><option id="D">Mercury</option>
+            <answer>A</answer><explanation>Decomposed by microbes.</explanation>
+        </question>
+        <question>
+            <text>Identify Non-biodegradable pollutant:</text>
+            <option id="A">Plastic / DDT / Glass / Al cans</option><option id="B">Wood</option><option id="C">Paper</option><option id="D">Cotton</option>
+            <answer>A</answer><explanation>Persists.</explanation>
+        </question>
+        <question>
+            <text>Contamination of water with Cd causes:</text>
+            <option id="A">Kidney damage / Itai-itai</option><option id="B">Brain damage</option><option id="C">Liver</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pain in bones.</explanation>
+        </question>
+        <question>
+            <text>Contamination of water with Pb causes:</text>
+            <option id="A">Kidney/Liver/Reproductive system damage</option><option id="B">Bone</option><option id="C">None</option><option id="D">Fever</option>
+            <answer>A</answer><explanation>Plumbism.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Lead in drinking water:</text>
+            <option id="A">50 ppb (0.05 ppm)</option><option id="B">1 ppm</option><option id="C">10 ppm</option><option id="D">100 ppm</option>
+            <answer>A</answer><explanation>Very low.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Nitrate:</text>
+            <option id="A">50 ppm</option><option id="B">1 ppm</option><option id="C">500 ppm</option><option id="D">10 ppm</option>
+            <answer>A</answer><explanation>Methemoglobinemia limit.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Sulfate:</text>
+            <option id="A">500 ppm</option><option id="B">100 ppm</option><option id="C">2000 ppm</option><option id="D">50 ppm</option>
+            <answer>A</answer><explanation>Laxative effect > 500.</explanation>
+        </question>
+        <question>
+            <text>Laxative effect is caused by excess:</text>
+            <option id="A">Sulfates</option><option id="B">Nitrates</option><option id="C">Chlorides</option><option id="D">Fluorides</option>
+            <answer>A</answer><explanation>Diarrhea.</explanation>
+        </question>
+        <question>
+            <text>Green Chemistry synthesis of Ibuprofen uses:</text>
+            <option id="A">Less steps, less waste (Atom economy)</option><option id="B">More steps</option><option id="C">Toxic solvents</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example.</explanation>
+        </question>
+        <question>
+            <text>Use of liquid CO2 (supercritical) is for:</text>
+            <option id="A">Dry cleaning of clothes (replaces C2Cl4)</option><option id="B">Drinking</option><option id="C">Fire</option><option id="D">None</option>
+            <answer>A</answer><explanation>Green solvent.</explanation>
+        </question>
+        <question>
+            <text>H2O2 is used in Green Chemistry for:</text>
+            <option id="A">Bleaching paper (replaces Chlorine)</option><option id="B">Fuel</option><option id="C">Food</option><option id="D">None</option>
+            <answer>A</answer><explanation>Non-toxic byproduct (Water).</explanation>
+        </question>
+        <question>
+            <text>Fly ash is produced by:</text>
+            <option id="A">Thermal power plants (Coal combustion)</option><option id="B">Nuclear plant</option><option id="C">Hydro</option><option id="D">Solar</option>
+            <answer>A</answer><explanation>Particulate waste.</explanation>
+        </question>
+        <question>
+            <text>Catalytic converters in cars convert:</text>
+            <option id="A">CO, NO, Hydrocarbons -> CO2, N2, H2O</option><option id="B">CO2 -> CO</option><option id="C">H2O -> H2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduce pollution using Pt/Pd/Rh.</explanation>
+        </question>
+        <question>
+            <text>In catalytic converters, catalyst used is:</text>
+            <option id="A">Pt, Pd, Rh</option><option id="B">Fe, Ni</option><option id="C">Cu</option><option id="D">Zn</option>
+            <answer>A</answer><explanation>Precious metals.</explanation>
+        </question>
+        <question>
+            <text>Reaction of NO + O3 in stratosphere:</text>
+            <option id="A">NO2 + O2 (Ozone depletion)</option><option id="B">NO3</option><option id="C">No reaction</option><option id="D">N2O</option>
+            <answer>A</answer><explanation>SST exhaust (Supersonic transports).</explanation>
+        </question>
+        <question>
+            <text>Identify Gas Y: SO2 + O2 --(particulate matter)--> Y:</text>
+            <option id="A">SO3</option><option id="B">S</option><option id="C">H2S</option><option id="D">None</option>
+            <answer>A</answer><explanation>Catalyzed oxidation.</explanation>
+        </question>
+        <question>
+            <text>SO3 + H2O gives:</text>
+            <option id="A">H2S04 (Acid rain component)</option><option id="B">H2SO3</option><option id="C">S</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strong acid.</explanation>
+        </question>
+        <question>
+            <text>Reactions in Photochemical smog involve:</text>
+            <option id="A">Free radicals</option><option id="B">Ions</option><option id="C">Nucleophiles</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sunlight initiated.</explanation>
+        </question>
+        <question>
+            <text>Brown haze in traffic is due to:</text>
+            <option id="A">NO2</option><option id="B">CO</option><option id="C">SO2</option><option id="D">O3</option>
+            <answer>A</answer><explanation>Nitrogen dioxide color.</explanation>
+        </question>
+        <question>
+            <text>Common insecticide:</text>
+            <option id="A">BHC (Gammaxene) / Malathion</option><option id="B">Urea</option><option id="C">Potash</option><option id="D">None</option>
+            <answer>A</answer><explanation>Benzene Hexachloride.</explanation>
+        </question>
+        <question>
+            <text>Structure of BHC:</text>
+            <option id="A">1,2,3,4,5,6-Hexachlorocyclohexane</option><option id="B">Hexachlorobenzene</option><option id="C">Benzene</option><option id="D">None</option>
+            <answer>A</answer><explanation>Not benzene derivative in aromatic sense (addition product).</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Mechanism of Ozone depletion: Step 1 ClO + O -> ?</text>
+            <option id="A">Cl + O2</option><option id="B">Cl2</option><option id="C">ClO2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cl is regenerated.</explanation>
+        </question>
+        <question>
+            <text>What acts as Chlorine sink in stratosphere (preventing depletion)?</text>
+            <option id="A">Formation of ClONO2 and HCl</option><option id="B">Formation of Cl2</option><option id="C">Formation of NaCl</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reservoirs.</explanation>
+        </question>
+        <question>
+            <text>In spring, PSCs melt and release:</text>
+            <option id="A">HOCl and Cl2 which photolyze to give Cl radicals</option><option id="B">O2</option><option id="C">N2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ozone hole appears in spring.</explanation>
+        </question>
+        <question>
+            <text> Reaction ClONO2 + H2O -> ?</text>
+            <option id="A">HOCl + HNO3</option><option id="B">HCl</option><option id="C">ClO</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hydrolysis on PSC surface.</explanation>
+        </question>
+        <question>
+            <text> Reaction ClONO2 + HCl -> ?</text>
+            <option id="A">Cl2 + HNO3</option><option id="B">HOCl</option><option id="C">ClO</option><option id="D">None</option>
+            <answer>A</answer><explanation>Release of molecular chlorine.</explanation>
+        </question>
+        <question>
+            <text>Which frequency range is absorbed by Ozone?</text>
+            <option id="A">UV-B (280-320 nm)</option><option id="B">Visible</option><option id="C">IR</option><option id="D">Radio</option>
+            <answer>A</answer><explanation>Harmful.</explanation>
+        </question>
+        <question>
+            <text>Which soil pollution source leads to 'Salination'?</text>
+            <option id="A">Excessive irrigation / fertilizers</option><option id="B">Pesticides</option><option id="C">Acid rain</option><option id="D">None</option>
+            <answer>A</answer><explanation>Salt accumulation.</explanation>
+        </question>
+        <question>
+            <text>Atom Economy formula:</text>
+            <option id="A">(Formula weight of desired product / Sum of FW of all reactants) * 100</option><option id="B">Yield</option><option id="C">Mass of product / Mass of reactant</option><option id="D">None</option>
+            <answer>A</answer><explanation>Green metric.</explanation>
+        </question>
+        <question>
+            <text>Synthesis of Ethanal from Ethene (Green route) uses catalyst:</text>
+            <option id="A">Pd(II) / Cu(II) in water</option><option id="B">H2SO4</option><option id="C">KMnO4</option><option id="D">None</option>
+            <answer>A</answer><explanation>One step oxidation.</explanation>
+        </question>
+        <question>
+            <text>Classical smog is chemically:</text>
+            <option id="A">Reducing</option><option id="B">Oxidizing</option><option id="C">Neutral</option><option id="D">None</option>
+            <answer>A</answer><explanation>SO2 + C.</explanation>
+        </question>
+        <question>
+            <text>Photochemical smog is chemically:</text>
+            <option id="A">Oxidizing</option><option id="B">Reducing</option><option id="C">Neutral</option><option id="D">None</option>
+            <answer>A</answer><explanation>High conc of oxidants.</explanation>
+        </question>
+        <question>
+            <text>Control of photochemical smog involves:</text>
+            <option id="A">Catalytic converters (Reduce NO and HC emissions) / Plant Pinus</option><option id="B">Adding S</option><option id="C">Burning coal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prevention.</explanation>
+        </question>
+        <question>
+            <text>Plants like Pinus, Juniparus, Quercus help by:</text>
+            <option id="A">Metabolizing NOx</option><option id="B">Absorbing CO2</option><option id="C">Releasing O2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Smog control.</explanation>
+        </question>
+        <question>
+            <text>Which pesticide is a Carbamate?</text>
+            <option id="A">Carbaryl (Sevin) / Carbofuran</option><option id="B">DDT (Organochlorine)</option><option id="C">Parathion (Organophosphate)</option><option id="D">Aldrin</option>
+            <answer>A</answer><explanation>Classification.</explanation>
+        </question>
+        <question>
+            <text>Organophosphates include:</text>
+            <option id="A">Malathion / Parathion</option><option id="B">DDT</option><option id="C">BHC</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nerve poisons.</explanation>
+        </question>
+        <question>
+            <text>PCBs (Polychlorinated Biphenyls) are used as:</text>
+            <option id="A">Cleansing solvent / Coolant</option><option id="B">Fertilizer</option><option id="C">Food</option><option id="D">Fuel</option>
+            <answer>A</answer><explanation>Carcinogenic pollutant.</explanation>
+        </question>
+        <question>
+            <text>Relative contribution to Global Warming: CO2 > CH4 > CFCs > N2O. Order?</text>
+            <option id="A">CO2 (60%) > CH4 (20%) > CFCs (14%) > N2O (6%)</option><option id="B">CH4 > CO2</option><option id="C">CFC > CO2</option><option id="D">Equal</option>
+            <answer>A</answer><explanation>IPCC data.</explanation>
+        </question>
+        <question>
+            <text>Why normal rain water is slightly acidic?</text>
+            <option id="A">Dissolution of CO2 forming Carbonic acid</option><option id="B">Pollution</option><option id="C">Dust</option><option id="D">None</option>
+            <answer>A</answer><explanation>pH 5.6.</explanation>
+        </question>
+        <question>
+            <text>Which reaction is used in SCR (Selective Catalytic Reduction)?</text>
+            <option id="A">NO + NH3 + O2 -> N2 + H2O</option><option id="B">NO + O2 -> NO2</option><option id="C">NO + CO -> N2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Power plant emission control.</explanation>
+        </question>
+        <question>
+            <text>Electrostatic Precipitators are used to remove:</text>
+            <option id="A">Particulate matter (Fly ash)</option><option id="B">SO2</option><option id="C">NO2</option><option id="D">CO</option>
+            <answer>A</answer><explanation>Charge separation.</explanation>
+        </question>
+        <question>
+            <text>Scrubbers are used to remove:</text>
+            <option id="A">SO2 (using Lime water)</option><option id="B">Particulates only</option><option id="C">CO</option><option id="D">Hydrocarbons</option>
+            <answer>A</answer><explanation>Gas absorption.</explanation>
+        </question>
+        <question>
+            <text>Cyclone collectors depend on:</text>
+            <option id="A">Centrifugal force to settle particulates</option><option id="B">Electric field</option><option id="C">Filtration</option><option id="D">Water</option>
+            <answer>A</answer><explanation>Dust removal.</explanation>
+        </question>
+        <question>
+            <text>Incineration converts waste to:</text>
+            <option id="A">Ash and Gas CO2/H2O</option><option id="B">Manure</option><option id="C">Plastic</option><option id="D">None</option>
+            <answer>A</answer><explanation>Combustion.</explanation>
+        </question>
+        <question>
+            <text>Effect of CO on plants?</text>
+            <option id="A">Drop in leaves / Curling</option><option id="B">Growth</option><option id="C">Color</option><option id="D">None</option>
+            <answer>A</answer><explanation>High concentration.</explanation>
+        </question>
+        <question>
+            <text>Methemoglobin is:</text>
+            <option id="A">Oxidized form of hemoglobin (Fe3+ instead of Fe2+)</option><option id="B">Reduced form</option><option id="C">Complex with CO</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cannot bind O2.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Fe in drinking water:</text>
+            <option id="A">0.2 ppm</option><option id="B">5 ppm</option><option id="C">10 ppm</option><option id="D">100 ppm</option>
+            <answer>A</answer><explanation>Taste/Stain.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Mn:</text>
+            <option id="A">0.05 ppm</option><option id="B">1 ppm</option><option id="C">5 ppm</option><option id="D">0.5 ppm</option>
+            <answer>A</answer><explanation>Low.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Al:</text>
+            <option id="A">0.2 ppm</option><option id="B">0.05 ppm</option><option id="C">5 ppm</option><option id="D">1 ppm</option>
+            <answer>A</answer><explanation>Neurotoxin suspicion.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Zn:</text>
+            <option id="A">5 ppm</option><option id="B">1 ppm</option><option id="C">50 ppm</option><option id="D">0.05 ppm</option>
+            <answer>A</answer><explanation>Taste.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Cu:</text>
+            <option id="A">3 ppm (Check standard, usually ~1-2 ppm)</option><option id="B">0.05 ppm</option><option id="C">10 ppm</option><option id="D">0.01 ppm</option>
+            <answer>A</answer><explanation>Usually 3 ppm is WHO limit.</explanation>
+        </question>
+        <question>
+            <text>Permissible limit of Cd:</text>
+            <option id="A">0.005 ppm</option><option id="B">0.05 ppm</option><option id="C">1 ppm</option><option id="D">0.1 ppm</option>
+            <answer>A</answer><explanation>Very toxic.</explanation>
+        </question>
+        <question>
+            <text>Amount of DO in clean water:</text>
+            <option id="A">4-6 ppm (Required > 5 ppm for fish)</option><option id="B">1-2 ppm</option><option id="C">0 ppm</option><option id="D">100 ppm</option>
+            <answer>A</answer><explanation>Dissolved Oxygen.</explanation>
+        </question>
+        <question>
+            <text>Max DO in water at room temp (saturation):</text>
+            <option id="A">~8-9 ppm</option><option id="B">100 ppm</option><option id="C">1 ppm</option><option id="D">50 ppm</option>
+            <answer>A</answer><explanation>Temperature dependent.</explanation>
+        </question>
+        <question>
+            <text>Effect of temperature on DO?</text>
+            <option id="A">DO decreases as Temp increases</option><option id="B">Increase</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gas solubility.</explanation>
+        </question>
+        <question>
+            <text>Which region of atmosphere has lowest temperature?</text>
+            <option id="A">Mesosphere (-100 C)</option><option id="B">Stratosphere</option><option id="C">Thermosphere</option><option id="D">Troposphere</option>
+            <answer>A</answer><explanation>Mesopause.</explanation>
+        </question>
+        <question>
+            <text>Thermosphere temperature:</text>
+            <option id="A">Increases with height (up to 1200 C)</option><option id="B">Decreases</option><option id="C">Constant</option><option id="D">Zero</option>
+            <answer>A</answer><explanation>Ionization.</explanation>
+        </question>
+        <question>
+            <text>Rate of degradation of organic matter is fastest in:</text>
+            <option id="A">Aerobic conditions</option><option id="B">Anaerobic</option><option id="C">Cold</option><option id="D">Dry</option>
+            <answer>A</answer><explanation>Oxygen efficiency.</explanation>
+        </question>
+        <question>
+            <text>Which is NOT a greenhouse gas?</text>
+            <option id="A">N2, O2</option><option id="B">Water vapor</option><option id="C">Ozone</option><option id="D">CFCs</option>
+            <answer>A</answer><explanation>Transparent to IR.</explanation>
+        </question>
+        <question>
+            <text>Most effective greenhouse gas per molecule?</text>
+            <option id="A">CFCs / SF6</option><option id="B">CO2</option><option id="C">CH4</option><option id="D">Water</option>
+            <answer>A</answer><explanation>Global Warming Potential.</explanation>
+        </question>
+        <question>
+            <text>Most abundant hydrocarbon pollutant:</text>
+            <option id="A">Methane</option><option id="B">Ethane</option><option id="C">Benzene</option><option id="D">Butane</option>
+            <answer>A</answer><explanation>Swamps.</explanation>
+        </question>
+    </hard>
+</chapter>
