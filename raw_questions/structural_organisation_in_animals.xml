@@ -1,384 +1,559 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Biology" id="302" name="Structural Organisation in Animals">
+<chapter subject="Biology" id="307" name="Structural Organisation in Animals">
     <easy>
         <question>
-            <text>Which tissue has a free surface facing the body fluid or outside environment?</text>
-            <option id="A">Epithelial tissue</option><option id="B">Connective tissue</option><option id="C">Muscular tissue</option><option id="D">Neural tissue</option>
-            <answer>A</answer><explanation>Provides covering or lining.</explanation>
+            <text>Group of similar cells along with intercellular substances performing specific function is ____.</text>
+            <option id="A">Tissue</option><option id="B">Organ</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Four basic types: Epithelial, Connective, Muscular, Neural.</explanation>
         </question>
         <question>
-            <text>Squamous epithelium is found in:</text>
-            <option id="A">Walls of blood vessels and air sacs of lungs</option><option id="B">Tubular parts of nephrons</option><option id="C">Lining of stomach</option><option id="D">Skin surface</option>
-            <answer>A</answer><explanation>Diffusion boundary.</explanation>
+            <text>Tissue that has a free surface and provides lining for body parts is ____.</text>
+            <option id="A">Epithelial tissue</option><option id="B">Connective tissue</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cells are compactly packed with little intercellular matrix.</explanation>
         </question>
         <question>
-            <text>Cuboidal epithelium is found in:</text>
-            <option id="A">Ducts of glands and tubular parts of nephrons</option><option id="B">Lining of intestine</option><option id="C">Skin</option><option id="D">Blood vessels</option>
-            <answer>A</answer><explanation>Secretion and absorption.</explanation>
+            <text>Epithelium composed of a single layer of cells is ____.</text>
+            <option id="A">Simple epithelium</option><option id="B">Compound epithelium</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Functions as lining for body cavities, ducts and tubes.</explanation>
         </question>
         <question>
-            <text>Columnar epithelium with microvilli is found in:</text>
-            <option id="A">Lining of intestine</option><option id="B">Lining of blood vessels</option><option id="C">Skin</option><option id="D">Lung alveoli</option>
-            <answer>A</answer><explanation>Absorption surface area.</explanation>
+            <text>Epithelium made of two or more cell layers and having protective function is ____.</text>
+            <option id="A">Compound / Stratified epithelium</option><option id="B">Simple</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Found in skin and buccal cavity.</explanation>
         </question>
         <question>
-            <text>Ciliated epithelium is mainly present in:</text>
-            <option id="A">Bronchioles and Fallopian tubes</option><option id="B">Intestine</option><option id="C">Stomach</option><option id="D">Blood vessels</option>
-            <answer>A</answer><explanation>Moves particles/mucus.</explanation>
+            <text>Simple epithelium made of single thin layer of flattened cells with irregular boundaries is ____.</text>
+            <option id="A">Squamous</option><option id="B">Cuboidal</option><option id="C">Columnar</option><option id="D">None</option>
+            <answer>A</answer><explanation>Found in walls of blood vessels and air sacs of lungs.</explanation>
         </question>
         <question>
-            <text>Which of the following is a unicellular gland?</text>
-            <option id="A">Goblet cell</option><option id="B">Salivary gland</option><option id="C">Thyroid</option><option id="D">Pancreas</option>
-            <answer>A</answer><explanation>Mucus secreting.</explanation>
+            <text>Simple epithelium composed of single layer of cube-like cells is ____.</text>
+            <option id="A">Cuboidal</option><option id="B">Squamous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Commonly found in ducts of glands and tubular parts of nephrons.</explanation>
         </question>
         <question>
-            <text>Exocrine glands secrete:</text>
-            <option id="A">Mucus, saliva, earwax, oil, milk</option><option id="B">Hormones directly into fluid</option><option id="C">Only sweat</option><option id="D">Only enzymes</option>
-            <answer>A</answer><explanation>Through ducts.</explanation>
+            <text>Simple epithelium composed of single layer of tall and slender cells is ____.</text>
+            <option id="A">Columnar</option><option id="B">Cuboidal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nuclei are located at the base.</explanation>
         </question>
         <question>
-            <text>Which junction helps to stop substances from leaking across a tissue?</text>
-            <option id="A">Tight junction</option><option id="B">Adhering junction</option><option id="C">Gap junction</option><option id="D">Synapse</option>
-            <answer>A</answer><explanation>Barrier.</explanation>
+            <text>Ciliated epithelium has ____ on the free surface of columnar or cuboidal cells.</text>
+            <option id="A">Cilia</option><option id="B">Microvilli</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Helps in moving particles or mucus in a specific direction.</explanation>
         </question>
         <question>
-            <text>Gap junctions facilitate communication by:</text>
-            <option id="A">Connecting cytoplasm of adjoining cells</option><option id="B">Cementing cells together</option><option id="C">Preventing leakage</option><option id="D">Fusing membranes</option>
-            <answer>A</answer><explanation>Ion transfer.</explanation>
+            <text>Glandular epithelium specialized for secretion can be ____ or ____.</text>
+            <option id="A">Unicellular / Multicellular</option><option id="B">Cuboidal / Squamous</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unicellular example: Goblet cells of alimentary canal.</explanation>
         </question>
         <question>
-            <text>Which is the most abundant tissue in the complex animals?</text>
-            <option id="A">Connective tissue</option><option id="B">Epithelial tissue</option><option id="C">Muscular tissue</option><option id="D">Neural tissue</option>
-            <answer>A</answer><explanation>Support and linking.</explanation>
+            <text>Glands that release secretions through ducts are ____.</text>
+            <option id="A">Exocrine glands</option><option id="B">Endocrine glands</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Secrete mucus, saliva, earwax, oil, milk, etc.</explanation>
         </question>
         <question>
-            <text>Areolar tissue is a type of:</text>
-            <option id="A">Loose connective tissue</option><option id="B">Dense connective tissue</option><option id="C">Specialized connective tissue</option><option id="D">Epithelium</option>
-            <answer>A</answer><explanation>Beneath skin.</explanation>
+            <text>Ductless glands that secrete hormones directly into fluid bathing them are ____.</text>
+            <option id="A">Endocrine glands</option><option id="B">Exocrine glands</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hypothalamus, Pituitary, etc.</explanation>
         </question>
         <question>
-            <text>Adipose tissue is specialized to store:</text>
-            <option id="A">Fats</option><option id="B">Proteins</option><option id="C">Carbohydrates</option><option id="D">Vitamins</option>
-            <answer>A</answer><explanation>Insulation.</explanation>
+            <text>Most abundant and widely distributed tissue in body of complex animals is ____.</text>
+            <option id="A">Connective tissue</option><option id="B">Epithelial tissue</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Names from its function of linking and supporting other tissues.</explanation>
         </question>
         <question>
-            <text>Tendons connect:</text>
-            <option id="A">Skeletal muscle to bone</option><option id="B">Bone to bone</option><option id="C">Muscle to muscle</option><option id="D">Skin to muscle</option>
-            <answer>A</answer><explanation>Dense regular connective tissue.</explanation>
+            <text>Loose connective tissue present beneath skin is ____.</text>
+            <option id="A">Areolar tissue</option><option id="B">Adipose tissue</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Serves as support framework for epithelium.</explanation>
         </question>
         <question>
-            <text>Ligaments connect:</text>
-            <option id="A">Bone to bone</option><option id="B">Muscle to bone</option><option id="C">Muscle to muscle</option><option id="D">Nerve to muscle</option>
-            <answer>A</answer><explanation>Hold skeleton together.</explanation>
+            <text>Loose connective tissue specialized to store fats is ____.</text>
+            <option id="A">Adipose tissue</option><option id="B">Areolar tissue</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Found mainly beneath skin.</explanation>
         </question>
         <question>
-            <text>Chondrocytes are cells of:</text>
-            <option id="A">Cartilage</option><option id="B">Bone</option><option id="C">Blood</option><option id="D">Muscle</option>
-            <answer>A</answer><explanation>Enclosed in small cavities (lacunae).</explanation>
+            <text>Dense connective tissue where collagen fibres are present in rows between parallel bundles? ____.</text>
+            <option id="A">Dense Regular</option><option id="B">Dense Irregular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Tendons and Ligaments.</explanation>
         </question>
         <question>
-            <text>Osteocytes are cells of:</text>
-            <option id="A">Bone</option><option id="B">Cartilage</option><option id="C">Blood</option><option id="D">Nerve</option>
-            <answer>A</answer><explanation>Hard matrix.</explanation>
+            <text>Dense irregular connective tissue is found in the ____.</text>
+            <option id="A">Skin</option><option id="B">Muscle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Has fibroblasts and many fibres oriented differently.</explanation>
         </question>
         <question>
-            <text>Skeletal muscle tissue is:</text>
-            <option id="A">Striated and Voluntary</option><option id="B">Striated and Involuntary</option><option id="C">Smooth and Voluntary</option><option id="D">Smooth and Involuntary</option>
-            <answer>A</answer><explanation>Attached to bones.</explanation>
+            <text>Pliable, solid-resisting compression tissue is ____.</text>
+            <option id="A">Cartilage</option><option id="B">Bone</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Chondrocytes are enclosed in small cavities.</explanation>
         </question>
         <question>
-            <text>Smooth muscle fibers are:</text>
-            <option id="A">Fusiform (tapering at both ends)</option><option id="B">Cylindrical</option><option id="C">Branched</option><option id="D">Rectangular</option>
-            <answer>A</answer><explanation>Unstriated.</explanation>
+            <text>Hard, non-pliable ground substance rich in calcium salts and collagen is ____.</text>
+            <option id="A">Bone</option><option id="B">Cartilage</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Main tissue for structural frame of body.</explanation>
         </question>
         <question>
-            <text>Cardiac muscle tissue is found in:</text>
-            <option id="A">Heart</option><option id="B">Lungs</option><option id="C">Stomach</option><option id="D">Brain</option>
-            <answer>A</answer><explanation>Contractile tissue of heart.</explanation>
+            <text>Only fluid connective tissue is ____.</text>
+            <option id="A">Blood</option><option id="B">Lymph</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Contains plasma, RBCs, WBCs and platelets.</explanation>
         </question>
         <question>
-            <text>Intercalated discs are characteristic of:</text>
-            <option id="A">Cardiac muscle</option><option id="B">Skeletal muscle</option><option id="C">Smooth muscle</option><option id="D">Neural tissue</option>
-            <answer>A</answer><explanation>Communication junctions.</explanation>
+            <text>Connective tissue that links bone to bone is ____.</text>
+            <option id="A">Ligament</option><option id="B">Tendon</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Very elastic.</explanation>
         </question>
         <question>
-            <text>Neurons are:</text>
-            <option id="A">Excitable cells</option><option id="B">Contractile cells</option><option id="C">Secretory cells</option><option id="D">Dead cells</option>
-            <answer>A</answer><explanation>Carry impulses.</explanation>
+            <text>Connective tissue that links skeletal muscles to bone is ____.</text>
+            <option id="A">Tendon</option><option id="B">Ligament</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dense regular tissue.</explanation>
         </question>
         <question>
-            <text>Neuroglial cells make up how much of neural tissue volume?</text>
-            <option id="A">More than one-half</option><option id="B">Less than 10%</option><option id="C">20%</option><option id="D">90%</option>
-            <answer>A</answer><explanation>Support and protect neurons.</explanation>
+            <text>Muscle fibers that are parallel to each other and show striations are ____ muscles.</text>
+            <option id="A">Skeletal / Striated</option><option id="B">Smooth</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Voluntary muscles attached to bones.</explanation>
         </question>
         <question>
-            <text>The scientific name of the common Indian Bullfrog is:</text>
-            <option id="A">Rana tigrina (Hoplobatrachus tigerinus)</option><option id="B">Rana sylvatica</option><option id="C">Bufo bufo</option><option id="D">Hyla</option>
-            <answer>A</answer><explanation>Amphibian.</explanation>
+            <text>Muscle tissue whose cells taper at both ends (fusiform) and do not show striations is ____.</text>
+            <option id="A">Smooth muscle</option><option id="B">Cardiac muscle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involuntary, found in walls of internal organs.</explanation>
         </question>
         <question>
-            <text>Frogs are:</text>
-            <option id="A">Poikilotherms (Cold blooded)</option><option id="B">Homoiotherms</option><option id="C">Warm blooded</option><option id="D">Endotherms</option>
+            <text>Contractile tissue found only in the heart is ____.</text>
+            <option id="A">Cardiac muscle</option><option id="B">Skeletal muscle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Striated and involuntary; cells are branched.</explanation>
+        </question>
+        <question>
+            <text>Neural tissue that exerts greatest control over body's responsiveness is ____.</text>
+            <option id="A">Neuron</option><option id="B">Neuroglia</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unit of neural system.</explanation>
+        </question>
+        <question>
+            <text>Supporting cells of neural system that make up more than half its volume are ____.</text>
+            <option id="A">Neuroglia</option><option id="B">Nephrons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Protect and support neurons.</explanation>
+        </question>
+        <question>
+            <text>Commonly used animal for studying structural organization in textbooks? ____.</text>
+            <option id="A">Cockroach (Periplaneta americana)</option><option id="B">Frog</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Member of Phylum Arthropoda.</explanation>
+        </question>
+        <question>
+            <text>Earthworm scientific name is ____.</text>
+            <option id="A">Pheretima posthuma</option><option id="B">Periplaneta</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Invertebrate found in moist soil.</explanation>
+        </question>
+        <question>
+            <text>Body of Cockroach is divided into three regions: Head, ____ and ____.</text>
+            <option id="A">Thorax / Abdomen</option><option id="B">Legs / Wings</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thorax consists of Prothorax, Mesothorax and Metathorax.</explanation>
+        </question>
+        <question>
+            <text>First segment of Earthworm is called ____.</text>
+            <option id="A">Peristomium</option><option id="B">Prostomium</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Buccal segment; contains mouth.</explanation>
+        </question>
+        <question>
+            <text>Fleshy lobe covering mouth in Earthworm is ____.</text>
+            <option id="A">Prostomium</option><option id="B">Peristomium</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sensory and aids in burrowing.</explanation>
+        </question>
+        <question>
+            <text>Glandular tissue in Earthworm segments 14-16 is ____.</text>
+            <option id="A">Clitellum</option><option id="B">Setae</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Secretes of cocoon material.</explanation>
+        </question>
+        <question>
+            <text>Excretory organs in Earthworm are ____.</text>
+            <option id="A">Nephridia</option><option id="B">Malpighian tubules</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Segmentally arranged coiled tubes.</explanation>
+        </question>
+        <question>
+            <text>Respiratory system of Cockroach consists of network of ____.</text>
+            <option id="A">Trachea</option><option id="B">Gills</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Open to outside by 10 pairs of spiracles.</explanation>
+        </question>
+        <question>
+            <text>Excretory organs of Cockroach are ____ tubules.</text>
+            <option id="A">Malpighian</option><option id="B">Nephridia</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Located at junction of midgut and hindgut.</explanation>
+        </question>
+        <question>
+            <text>Heart of Cockroach is ____-shaped chambers.</text>
+            <option id="A">Funnel</option><option id="B">S-shaped</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>13 chambers arranged along dorsal line.</explanation>
+        </question>
+        <question>
+            <text>Blood of Cockroach is called ____.</text>
+            <option id="A">Hemolymph</option><option id="B">Plasma</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Colorless plasma and hemocytes.</explanation>
+        </question>
+        <question>
+            <text>Visual units of Cockroach compound eye are ____.</text>
+            <option id="A">Ommatidia</option><option id="B">Lenses</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Approx 2000 in each eye.</explanation>
+        </question>
+        <question>
+            <text>Frog scientific name is ____.</text>
+            <option id="A">Rana tigrina</option><option id="B">Bufo</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Most common species in India.</explanation>
+        </question>
+        <question>
+            <text>Frogs are poikilotherms, meaning they are ____.</text>
+            <option id="A">Cold-blooded</option><option id="B">Warm-blooded</option><option id="C">phi</option><option id="D">None</option>
             <answer>A</answer><explanation>Body temp varies with environment.</explanation>
-        </question>
-        <question>
-            <text>Camouflage in frogs is called:</text>
-            <option id="A">Mimicry</option><option id="B">Hibernation</option><option id="C">Aestivation</option><option id="D">Evolution</option>
-            <answer>A</answer><explanation>Protection from enemies.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>How many lobes does the liver of a frog have?</text>
-            <option id="A">3 (Right, Left, Median)</option><option id="B">2</option><option id="C">4</option><option id="D">5</option>
-            <answer>A</answer><explanation>Left lobe is larger/divided.</explanation>
+            <text>Cell junctions that stop substances from leaking across a tissue are ____.</text>
+            <option id="A">Tight junctions</option><option id="B">Gap junctions</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prevent paracellular transport.</explanation>
         </question>
         <question>
-            <text>In frogs, respiration by lungs is called:</text>
-            <option id="A">Pulmonary respiration</option><option id="B">Cutaneous respiration</option><option id="C">Buccal respiration</option><option id="D">Branchial respiration</option>
-            <answer>A</answer><explanation>On land.</explanation>
+            <text>Cell junctions that perform cementing to keep neighboring cells together are ____.</text>
+            <option id="A">Adhering junctions</option><option id="B">Gap junctions</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Example: Desmosomes.</explanation>
         </question>
         <question>
-            <text>The heart of a frog has:</text>
-            <option id="A">3 chambers (2 atria, 1 ventricle)</option><option id="B">4 chambers</option><option id="C">2 chambers</option><option id="D">3 chambers (1 atrium, 2 ventricles)</option>
-            <answer>A</answer><explanation>Incomplete double circulation.</explanation>
+            <text>Cell junctions that facilitate communication between cells via ions and molecules are ____.</text>
+            <option id="A">Gap junctions</option><option id="B">Tight junctions</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Connexons form the channels.</explanation>
         </question>
         <question>
-            <text>The triangular structure joining the right atrium in frog heart is:</text>
-            <option id="A">Sinus venosus</option><option id="B">Truncus arteriosus</option><option id="C">Conus arteriosus</option><option id="D">Vena cava</option>
-            <answer>A</answer><explanation>Receives blood from vena cava.</explanation>
+            <text>Which epithelium lines the PCT of nephron with microvilli?</text>
+            <option id="A">Cuboidal</option><option id="B">Squamous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Brush-bordered cuboidal epithelium for reabsorption.</explanation>
         </question>
         <question>
-            <text>The ventricle opens into:</text>
-            <option id="A">Conus arteriosus</option><option id="B">Sinus venosus</option><option id="C">Aorta</option><option id="D">Pulmonary vein</option>
-            <answer>A</answer><explanation>On ventral side.</explanation>
+            <text>Connective tissue fibers are secreted by cells called ____.</text>
+            <option id="A">Fibroblasts</option><option id="B">Mast cells</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Secrete both fibres (collagen/elastin) and matrix.</explanation>
         </question>
         <question>
-            <text>Special venous connection between liver and intestine in frog?</text>
-            <option id="A">Hepatic portal system</option><option id="B">Renal portal system</option><option id="C">Pulmonary system</option><option id="D">Systemic arch</option>
-            <answer>A</answer><explanation>Carries blood from gut to liver.</explanation>
+            <text>Which cells in areolar tissue secrete histamine, heparin and serotonin?</text>
+            <option id="A">Mast cells</option><option id="B">Fibroblasts</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involved in inflammatory reactions.</explanation>
         </question>
         <question>
-            <text>Renal portal system connects:</text>
-            <option id="A">Kidney and lower body</option><option id="B">Liver and intestine</option><option id="C">Heart and lungs</option><option id="D">Brain and Heart</option>
-            <answer>A</answer><explanation>Feature of frog.</explanation>
+            <text>Intercalated discs are found in ____ muscle.</text>
+            <option id="A">Cardiac</option><option id="B">Skeletal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Communication junctions that allow heart to contract as a unit.</explanation>
         </question>
         <question>
-            <text>Excretory product of adult frog is:</text>
-            <option id="A">Urea (Ureotelic)</option><option id="B">Ammonia (Ammonotelic)</option><option id="C">Uric acid (Uricotelic)</option><option id="D">Guanine</option>
-            <answer>A</answer><explanation>Larva is ammonotelic.</explanation>
+            <text>Each spinal segment of earthworm bears S-shaped ____ for locomotion.</text>
+            <option id="A">Setae</option><option id="B">Parapodia</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Embedded in epidermal pits.</explanation>
         </question>
         <question>
-            <text>How many cranial nerves are present in frog?</text>
-            <option id="A">10 pairs</option><option id="B">12 pairs</option><option id="C">8 pairs</option><option id="D">6 pairs</option>
-            <answer>A</answer><explanation>Humans have 12.</explanation>
+            <text>Muscular structure in earthworm for grinding soil particles is ____.</text>
+            <option id="A">Gizzard</option><option id="B">Pharynx</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Located in 8th-9th segments.</explanation>
         </question>
         <question>
-            <text>Optic lobes in frog brain are located in:</text>
-            <option id="A">Midbrain</option><option id="B">Forebrain</option><option id="C">Hindbrain</option><option id="D">Medulla</option>
-            <answer>A</answer><explanation>Pair of lobes.</explanation>
+            <text>Internal fold of intestine in earthworm to increase area of absorption is ____.</text>
+            <option id="A">Typhlosole</option><option id="B">Villi</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Present from 26th segment onwards.</explanation>
         </question>
         <question>
-            <text>Structure representing ear in frog:</text>
-            <option id="A">Tympanum</option><option id="B">Pinna</option><option id="C">Cochlea</option><option id="D">Eustachian tube</option>
-            <answer>A</answer><explanation>External ear absent.</explanation>
+            <text>Blood glands of Earthworm (segments 4-6) produce ____.</text>
+            <option id="A">Blood cells and Hemoglobin</option><option id="B">Bile</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hemoglobin is dissolved in blood plasma.</explanation>
         </question>
         <question>
-            <text>Bidder's canal is found in:</text>
-            <option id="A">Kidney of male frog</option><option id="B">Kidney of female frog</option><option id="C">Liver of frog</option><option id="D">Testis of frog</option>
-            <answer>A</answer><explanation>Passage for sperm.</explanation>
+            <text>Earthworms are ____ (sexuality).</text>
+            <option id="A">Hermaphrodite (Bisexual)</option><option id="B">Dioecious</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Testes and ovaries in same individual; cross fertilization occurs.</explanation>
         </question>
         <question>
-            <text>Amplexus helps in:</text>
-            <option id="A">Mating (Copulatory pad)</option><option id="B">Respiration</option><option id="C">Excretion</option><option id="D">Digestion</option>
-            <answer>A</answer><explanation>Nuptial pad on forelimb.</explanation>
+            <text>Mouth parts of Cockroach are ____ type.</text>
+            <option id="A">Biting and Chewing</option><option id="B">Sucking</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Consists of labrum, mandibles, maxillae and labium.</explanation>
         </question>
         <question>
-            <text>Frog tadpole undergoes:</text>
-            <option id="A">Metamorphosis</option><option id="B">Moulting only</option><option id="C">Direct development</option><option id="D">Hibernation</option>
-            <answer>A</answer><explanation>Larva to adult.</explanation>
+            <text>Muscular part of Cockroach foregut for grinding food into fine particles is ____.</text>
+            <option id="A">Gizzard (Proventriculus)</option><option id="B">Crop</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Has six highly chitinous teeth.</explanation>
         </question>
         <question>
-            <text>Fibroblasts secrete:</text>
-            <option id="A">Collagen or Elastin fibres</option><option id="B">Matrix only</option><option id="C">Heparin</option><option id="D">Histamine</option>
-            <answer>A</answer><explanation>Structural proteins.</explanation>
+            <text>Thin-walled structure for storage of food in Cockroach is ____.</text>
+            <option id="A">Crop</option><option id="B">Gizzard</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Part of foregut.</explanation>
         </question>
         <question>
-            <text>Which epithelium forms the inner lining of ducts of salivary glands?</text>
-            <option id="A">Compound epithelium</option><option id="B">Simple squamous</option><option id="C">Simple cuboidal</option><option id="D">Columnar</option>
-            <answer>A</answer><explanation>Protection against stress.</explanation>
+            <text>Blind tubules at junction of foregut and midgut in Cockroach are ____.</text>
+            <option id="A">Hepatic / Gastric caeca</option><option id="B">Malpighian tubules</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Secrete digestive juice.</explanation>
         </question>
         <question>
-            <text>Smooth muscles are held together by:</text>
-            <option id="A">Cell junctions and connective tissue sheath</option><option id="B">Tendons</option><option id="C">Ligaments</option><option id="D">Bone</option>
-            <answer>A</answer><explanation>Involuntary bundles.</explanation>
+            <text>Cockroach excretes nitrogenous waste as ____.</text>
+            <option id="A">Uric acid (Uricotelic)</option><option id="B">Urea</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Conservation of water.</explanation>
         </question>
         <question>
-            <text>Haversian system is a feature of:</text>
-            <option id="A">Mammalian bone</option><option id="B">Frog bone</option><option id="C">Cartilage</option><option id="D">Spongy bone</option>
-            <answer>A</answer><explanation>Compact bone structure.</explanation>
+            <text>Mushroom glands are found in the ____ reproductive system of Cockroach.</text>
+            <option id="A">Male (6th-7th segments)</option><option id="B">Female</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Accessory reproductive glands.</explanation>
         </question>
         <question>
-            <text>Mast cells are found in:</text>
-            <option id="A">Areolar tissue</option><option id="B">Adipose tissue</option><option id="C">Bone</option><option id="D">Cartilage</option>
-            <answer>A</answer><explanation>Secrete histamine.</explanation>
+            <text>External genitalia in male Cockroach are ____.</text>
+            <option id="A">Phallomeres / Gonapophyses</option><option id="B">Aedeagus</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Chitinous asymmetrical structures.</explanation>
         </question>
         <question>
-            <text>Dense irregular connective tissue is present in:</text>
-            <option id="A">Skin</option><option id="B">Tendon</option><option id="C">Ligament</option><option id="D">Bone</option>
-            <answer>A</answer><explanation>Resist tension in many directions.</explanation>
+            <text>Development of Cockroach is ____ (paurometabolous).</text>
+            <option id="A">Hemimetabolous (Nymph stages)</option><option id="B">Direct</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nymph undergoes 13 molts to become adult.</explanation>
         </question>
         <question>
-            <text>Frog heart is:</text>
-            <option id="A">Myogenic</option><option id="B">Neurogenic</option><option id="C">Both</option><option id="D">None</option>
-            <answer>A</answer><explanation>Beat originates in muscle.</explanation>
+            <text>Frogs use ____ for respiration in water.</text>
+            <option id="A">Skin (Cutaneous)</option><option id="B">Lungs</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Diffusion through moist skin.</explanation>
         </question>
         <question>
-            <text>Vasa efferentia in frog arise from:</text>
-            <option id="A">Testes</option><option id="B">Kidney</option><option id="C">Fat bodies</option><option id="D">Cloaca</option>
-            <answer>A</answer><explanation>Enter kidney.</explanation>
+            <text>Frogs use ____ for respiration on land.</text>
+            <option id="A">Skin and Lungs (Pulmonary)</option><option id="B">Gills</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Buccal cavity also acts as respiratory surface.</explanation>
         </question>
         <question>
-            <text>Function of nictitating membrane in frog:</text>
-            <option id="A">Protects eye in water</option><option id="B">Vision in dark</option><option id="C">Hearing</option><option id="D">Smell</option>
-            <answer>A</answer><explanation>Third eyelid.</explanation>
+            <text>Hibernation is ____ sleep, Aestivation is ____ sleep.</text>
+            <option id="A">Winter / Summer</option><option id="B">Summer / Winter</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strategies to cope with extreme temperatures.</explanation>
         </question>
         <question>
-            <text>Vocal sacs in male frog act as:</text>
-            <option id="A">Resonators</option><option id="B">Respiratory organ</option><option id="C">Digestive organ</option><option id="D">Excretory organ</option>
-            <answer>A</answer><explanation>Amplify croaking.</explanation>
+            <text>Heart of Frog is ____-chambered.</text>
+            <option id="A">Three (2 Atria, 1 Ventricle)</option><option id="B">Four</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Separation of oxygenated and deoxygenated blood is incomplete.</explanation>
         </question>
         <question>
-            <text>Digestion of food in frog takes place by action of:</text>
-            <option id="A">HCl and Gastric juices</option><option id="B">Only Saliva</option><option id="C">Bile only</option><option id="D">Water</option>
-            <answer>A</answer><explanation>Similar to humans.</explanation>
+            <text>Ventral triangular structure receiving blood from major veins in frog heart is ____.</text>
+            <option id="A">Sinus venosus</option><option id="B">Conus arteriosus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Located on dorsal side actually (correction: opens into right atrium).</explanation>
+        </question>
+        <question>
+            <text>Portal system in frog between liver and intestine is ____.</text>
+            <option id="A">Hepatic portal system</option><option id="B">Renal portal system</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shared feature with mammals.</explanation>
+        </question>
+        <question>
+            <text>Portal system in frog between kidney and lower body parts is ____.</text>
+            <option id="A">Renal portal system</option><option id="B">Hepatic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Absent in mammals.</explanation>
+        </question>
+        <question>
+            <text>Male frog is distinguished by vocal sacs and a ____ pad on first digit of forelimb.</text>
+            <option id="A">Copulatory / Nuptial</option><option id="B">Clawed</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Helps in gripping female during amplexus.</explanation>
+        </question>
+        <question>
+            <text>Nervous system of frog involves ____ pairs of cranial nerves.</text>
+            <option id="A">10</option><option id="B">12</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mammals have 12 pairs.</explanation>
+        </question>
+        <question>
+            <text>Fertilization in frogs is ____.</text>
+            <option id="A">External (in water)</option><option id="B">Internal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Female lays thousands of ova.</explanation>
+        </question>
+        <question>
+            <text>Larva of frog is ____.</text>
+            <option id="A">Tadpole</option><option id="B">Nymph</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Undergoes metamorphosis to become adult.</explanation>
+        </question>
+        <question>
+            <text>Excretory waste of Frog is ____.</text>
+            <option id="A">Urea (Ureotelic)</option><option id="B">Ammonia</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Tadpole is Ammonotelic.</explanation>
+        </question>
+        <question>
+            <text>White fibrous tissue is rich in ____ fibers.</text>
+            <option id="A">Collagen</option><option id="B">Elastin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>High tensile strength, inelastic.</explanation>
+        </question>
+        <question>
+            <text>Yellow elastic tissue is rich in ____ fibers.</text>
+            <option id="A">Elastin</option><option id="B">Collagen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Highly elastic, branched.</explanation>
+        </question>
+        <question>
+            <text>Epithelium which is multi-layered and helps in protection against mechanical stress is ____.</text>
+            <option id="A">Compound / Stratified Squamous</option><option id="B">Transitional</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Found in skin (keratinized) or pharynx.</explanation>
+        </question>
+        <question>
+            <text>Epithelium that can stretch, lining the urinary bladder? ____.</text>
+            <option id="A">Transitional</option><option id="B">Stratified</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Special compound epithelium for stretching.</explanation>
+        </question>
+        <question>
+            <text>Presence of chondroitin salts makes ____ pliable.</text>
+            <option id="A">Cartilage</option><option id="B">Bone</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contrast with bony matrix.</explanation>
+        </question>
+        <question>
+            <text>Bone cells are called ____.</text>
+            <option id="A">Osteocytes</option><option id="B">Chondrocytes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reside in lacunae.</explanation>
+        </question>
+        <question>
+            <text>Cartilage cells are called ____.</text>
+            <option id="A">Chondrocytes</option><option id="B">Osteocytes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Found in nose tip, outer ear joints.</explanation>
+        </question>
+        <question>
+            <text>Muscles of stomach and blood vessels are ____.</text>
+            <option id="A">Unstriated and Involuntary (Smooth)</option><option id="B">Striated</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Under autonomic control.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>Which type of junction performs cementing to keep neighboring cells together?</text>
-            <option id="A">Adhering junction</option><option id="B">Tight junction</option><option id="C">Gap junction</option><option id="D">Desmosome</option>
-            <answer>A</answer><explanation>Adhere.</explanation>
+            <text>Pseudo-stratified epithelium is composed of ____ layer(s) but appears multi-layered.</text>
+            <option id="A">Single</option><option id="B">Double</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nuclei at different levels.</explanation>
         </question>
         <question>
-            <text>Cartilage is pliable due to:</text>
-            <option id="A">Chondroitin salts</option><option id="B">Calcium salts</option><option id="C">Phosphate</option><option id="D">Iron</option>
-            <answer>A</answer><explanation>Resists compression.</explanation>
+            <text>Wharton's jelly in umbilical cord is a ____ connective tissue.</text>
+            <option id="A">Mucoid</option><option id="B">Areolar</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Embryonic connective tissue.</explanation>
         </question>
         <question>
-            <text>Bone is hard due to:</text>
-            <option id="A">Calcium salts and collagen</option><option id="B">Chondroitin</option><option id="C">Elastic fibres</option><option id="D">Fluid matrix</option>
-            <answer>A</answer><explanation>Non-pliable.</explanation>
+            <text>Brown fat is found in ____.</text>
+            <option id="A">Infants / Hibernating animals</option><option id="B">Adults mostly</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Produces more heat than white fat due to mitochondria.</explanation>
         </question>
         <question>
-            <text>White fibres are made of:</text>
-            <option id="A">Collagen</option><option id="B">Elastin</option><option id="C">Myosin</option><option id="D">Actin</option>
-            <answer>A</answer><explanation>Tough.</explanation>
+            <text>Haversian system (Osteon) is characteristic of ____ bones.</text>
+            <option id="A">Mammalian long</option><option id="B">Frog</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Facilitates nutrient transport in thick bones.</explanation>
         </question>
         <question>
-            <text>Yellow fibres are made of:</text>
-            <option id="A">Elastin</option><option id="B">Collagen</option><option id="C">Reticulin</option><option id="D">Fibrin</option>
-            <answer>A</answer><explanation>Elastic.</explanation>
+            <text>Volkmann's canals connect ____.</text>
+            <option id="A">Haversian canals with each other</option><option id="B">Bone to marrow</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Horizontal channels in bone.</explanation>
         </question>
         <question>
-            <text>The transformation of larva into adult is controlled by:</text>
-            <option id="A">Thyroxine</option><option id="B">Insulin</option><option id="C">Adrenaline</option><option id="D">Growth hormone</option>
-            <answer>A</answer><explanation>Iodine is essential.</explanation>
+            <text>Sarcolemma is the plasma membrane of ____.</text>
+            <option id="A">Muscle fiber</option><option id="B">Neuron</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains sarcoplasm.</explanation>
         </question>
         <question>
-            <text>In frog, the ureters act as:</text>
-            <option id="A">Urinogenital duct in male</option><option id="B">Urinogenital duct in female</option><option id="C">Only ureter in male</option><option id="D">Only genital duct</option>
-            <answer>A</answer><explanation>Sperm and urine.</explanation>
+            <text>Myofibrils in striated muscle show alternate light ____ and dark ____ bands.</text>
+            <option id="A">I (Isotropic) / A (Anisotropic)</option><option id="B">A / I</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Based on Actin and Myosin protein distribution.</explanation>
         </question>
         <question>
-            <text>Ovaries in frog are located near kidneys but:</text>
-            <option id="A">Have no functional connection with kidneys</option><option id="B">Connected to kidneys</option><option id="C">Inside kidneys</option><option id="D">Absent</option>
-            <answer>A</answer><explanation>Oviduct opens separately into cloaca.</explanation>
+            <text>In earthworm, 4 pairs of ____ are present in 6th to 9th segments.</text>
+            <option id="A">Spermathecae</option><option id="B">Hearts</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Store spermatozoa during copulation.</explanation>
         </question>
         <question>
-            <text>Medulla oblongata passes out through:</text>
-            <option id="A">Foramen magnum</option><option id="B">Foramen of Monro</option><option id="C">Fenestra ovalis</option><option id="D">Foramen ovale</option>
-            <answer>A</answer><explanation>Enters spinal cord.</explanation>
+            <text>Pumping organs in Earthworm are ____ pairs of heart.</text>
+            <option id="A">4 (Lateral and Lateral-esophageal)</option><option id="B">2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Found in segments 7, 9, 12 and 13.</explanation>
         </question>
         <question>
-            <text>Total number of vertebrae in frog?</text>
-            <option id="A">10 (9 + Urostyle)</option><option id="B">26</option><option id="C">33</option><option id="D">12</option>
-            <answer>A</answer><explanation>Short vertebral column.</explanation>
+            <text>Yellow cells in Earthworm corresponding to vertebrate liver are ____.</text>
+            <option id="A">Chloragogen cells</option><option id="B">Flame cells</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Site of glycogen synthesis and deamination.</explanation>
         </question>
         <question>
-            <text>The skull of frog is:</text>
-            <option id="A">Dicondylic</option><option id="B">Monocondylic</option><option id="C">Tricondylic</option><option id="D">Polycondylic</option>
-            <answer>A</answer><explanation>Two occipital condyles.</explanation>
+            <text>Nervous system of Cockroach is ____ (position).</text>
+            <option id="A">Ventral, double and solid (with ganglia)</option><option id="B">Dorsal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard invertebrate neural plan.</explanation>
         </question>
         <question>
-            <text>Mucus helps frog in:</text>
-            <option id="A">Cutaneous respiration (keeps skin moist)</option><option id="B">Digestion</option><option id="C">Vision</option><option id="D">Hearing</option>
-            <answer>A</answer><explanation>Diffusion of gases.</explanation>
+            <text>Superposition image in Cockroach is found in ____ light.</text>
+            <option id="A">Dim (Nocturnal vision)</option><option id="B">Bright</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Results in overlapping of images; high sensitivity, low resolution.</explanation>
         </question>
         <question>
-            <text>Which valve prevents backflow of blood from ventricle to atrium in frog?</text>
-            <option id="A">Atrioventricular valve</option><option id="B">Semilunar valve</option><option id="C">Spiral valve</option><option id="D">Mitral valve</option>
-            <answer>A</answer><explanation>AV valve.</explanation>
+            <text>Ootheca of Cockroach contains ____ eggs.</text>
+            <option id="A">14 - 16</option><option id="B">50</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Protective capsule for embryos.</explanation>
         </question>
         <question>
-            <text>Microvilli are associated with:</text>
-            <option id="A">Brush bordered epithelium</option><option id="B">Ciliated epithelium</option><option id="C">Squamous epithelium</option><option id="D">Glandular epithelium</option>
-            <answer>A</answer><explanation>Increase surface area.</explanation>
+            <text>In male Cockroach, anal styles are present on ____ segment.</text>
+            <option id="A">9th</option><option id="B">10th</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Absent in females.</explanation>
         </question>
         <question>
-            <text>Compound epithelium plays a major role in:</text>
-            <option id="A">Protection against chemical and mechanical stress</option><option id="B">Absorption</option><option id="C">Secretion</option><option id="D">Diffusion</option>
-            <answer>A</answer><explanation>Multi-layered.</explanation>
+            <text>Anal cerci are present on ____ segment in both sexes of Cockroach.</text>
+            <option id="A">10th</option><option id="B">9th</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Multi-jointed filamentous structures.</explanation>
         </question>
         <question>
-            <text>Bones have a hard and non-pliable ground substance rich in:</text>
-            <option id="A">Calcium salts and collagen fibres</option><option id="B">Calcium and elastin</option><option id="C">Magnesium and actin</option><option id="D">None</option>
-            <answer>A</answer><explanation>Structural strength.</explanation>
+            <text>Bidder's organ in male frog is found in ____.</text>
+            <option id="A">Anterior part of kidney/testes</option><option id="B">Heart</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rudimentary ovary-like structure.</explanation>
         </question>
         <question>
-            <text>Ear of frog consists of:</text>
-            <option id="A">Middle and Internal ear only</option><option id="B">External, Middle, Internal</option><option id="C">Only Internal</option><option id="D">Only Tympanum</option>
-            <answer>A</answer><explanation>Pinna absent.</explanation>
+            <text>Urino-genital duct in male frog carries ____.</text>
+            <option id="A">Sperm and Urine</option><option id="B">Only eggs</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Connects to cloaca.</explanation>
         </question>
         <question>
-            <text>Mushroom gland in cockroach is function of:</text>
-            <option id="A">Male reproductive system</option><option id="B">Excretion</option><option id="C">Digestion</option><option id="D">Respiration</option>
-            <answer>A</answer><explanation>(Just in case user asks, but Frog is focus). Accessory gland.</explanation>
+            <text>Vasa efferentia in male frog arise from ____.</text>
+            <option id="A">Testes (10-12 pairs)</option><option id="B">Ovaries</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Enter Kidneys to open into Bidder's canal.</explanation>
         </question>
         <question>
-            <text>Sperm transfer in frog is:</text>
-            <option id="A">External fertilization in water</option><option id="B">Internal</option><option id="C">Asexual</option><option id="D">None</option>
-            <answer>A</answer><explanation>Spawning.</explanation>
+            <text>Mesenchyme is the ____ connective tissue.</text>
+            <option id="A">Undifferentiated embryonic</option><option id="B">Mature</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Originate most other tissues.</explanation>
         </question>
         <question>
-            <text>Fat bodies in frog are associated with:</text>
-            <option id="A">Testes/Kidneys (Nutrient storage)</option><option id="B">Heart</option><option id="C">Lungs</option><option id="D">Brain</option>
-            <answer>A</answer><explanation>Provide energy during hibernation/breeding.</explanation>
+            <text>Syncytium condition (multinucleate) is found in ____.</text>
+            <option id="A">Skeletal muscle fiber</option><option id="B">Smooth muscle</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Result of cell fusions.</explanation>
         </question>
         <question>
-            <text>Which part of frog brain controls equilibrium?</text>
-            <option id="A">Cerebellum</option><option id="B">Cerebrum</option><option id="C">Medulla</option><option id="D">Olfactory lobes</option>
-            <answer>A</answer><explanation>Hindbrain.</explanation>
+            <text>Phagocytic cells of connective tissue are ____.</text>
+            <option id="A">Macrophages (Histiocytes)</option><option id="B">Lymphocytes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Engulf pathogens and debris.</explanation>
         </question>
         <question>
-            <text>Ventricle wall in frog is:</text>
-            <option id="A">Thick and muscular</option><option id="B">Thin</option><option id="C">Membranous</option><option id="D">Absent</option>
-            <answer>A</answer><explanation>Pumps blood.</explanation>
+            <text>Blood brain barrier is primarily formed by ____ neuroglia.</text>
+            <option id="A">Astrocytes</option><option id="B">Microglia</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Star-shaped support cells.</explanation>
         </question>
         <question>
-            <text>Chyme enters intestine in frog through:</text>
-            <option id="A">Pyloric valve</option><option id="B">Cardiac valve</option><option id="C">Sphincter of Oddi</option><option id="D">Glottis</option>
-            <answer>A</answer><explanation>Stomach exit.</explanation>
+            <text>Keratinized stratified squamous epithelium found in ____.</text>
+            <option id="A">Dry skin (Epidermis)</option><option id="B">Cornea</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Provides waterproofing and resistance.</explanation>
         </question>
         <question>
-            <text>Mesorchium is:</text>
-            <option id="A">Peritoneum fold suspending testis</option><option id="B">Kidney covering</option><option id="C">Heart covering</option><option id="D">Lung covering</option>
-            <answer>A</answer><explanation>Attachment.</explanation>
+            <text>Brush border epithelium in small intestine is ____.</text>
+            <option id="A">Columnar</option><option id="B">Cuboidal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Tall cells with microvilli.</explanation>
         </question>
         <question>
-            <text>Function of spiral valve in frog heart?</text>
-            <option id="A">Directs blood in Truncus arteriosus</option><option id="B">Prevents backflow in veins</option><option id="C">Separates atria</option><option id="D">None</option>
-            <answer>A</answer><explanation>Selectively guides blood.</explanation>
+            <text>Epithelium lining the fallopian tubes and bronchioles? ____.</text>
+            <option id="A">Ciliated</option><option id="B">Squamous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Propels ovum or mucus.</explanation>
+        </question>
+        <question>
+            <text>Which of the following lacks blood supply directly in its matrix?</text>
+            <option id="A">Cartilage (Avascular)</option><option id="B">Bone</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Nutrients diffuse from perichondrium.</explanation>
+        </question>
+        <question>
+            <text>Calcified cartilage is found in ____.</text>
+            <option id="A">Suprascapula of frog</option><option id="B">Human ear</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hardened by calcium deposits.</explanation>
+        </question>
+        <question>
+            <text>Largest gland in Frog is ____.</text>
+            <option id="A">Liver</option><option id="B">Pancreas</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Secretes bile stored in gall bladder.</explanation>
+        </question>
+        <question>
+            <text>Tympanic membrane in frog is sensitive to ____.</text>
+            <option id="A">Sound waves</option><option id="B">Light</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Facilitates hearing.</explanation>
+        </question>
+        <question>
+            <text>Final check for Structural Organization: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </hard>
 </chapter>

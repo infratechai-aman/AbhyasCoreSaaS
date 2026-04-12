@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="114" name="Principle of Mathematical Induction">
+    <easy>
+        <question>
+            <text>Mathematical induction is a technique used to prove ____.</text>
+            <option id="A">Statements for all natural numbers</option><option id="B">Negative integers only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Usually denoted as P(n).</explanation>
+        </question>
+        <question>
+            <text>The first step in induction is called ____.</text>
+            <option id="A">Basis step</option><option id="B">Inductive step</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Verification for n = 1 (or starting value).</explanation>
+        </question>
+        <question>
+            <text>The assumption that P(k) is true for some natural number k is ____.</text>
+            <option id="A">Inductive hypothesis</option><option id="B">Proof</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Used to bridge to P(k+1).</explanation>
+        </question>
+        <question>
+            <text>In the Basis step, we usually check P(n) for n = ____.</text>
+            <option id="A">1</option><option id="B">0 always</option><option id="C">-1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Smallest natural number.</explanation>
+        </question>
+        <question>
+            <text>Mathematical Induction works like a row of falling ____.</text>
+            <option id="A">Dominoes</option><option id="B">Cards</option><option id="C">Bricks</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard analogy for sequential truth.</explanation>
+        </question>
+        <question>
+            <text>If P(k) implies P(k+1) is true, it is the ____ step.</text>
+            <option id="A">Inductive</option><option id="B">Basis</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Heart of the induction proof.</explanation>
+        </question>
+        <question>
+            <text>Sum of first n natural numbers is ____.</text>
+            <option id="A">n(n+1)/2</option><option id="B">n^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by induction easily.</explanation>
+        </question>
+        <question>
+            <text>Sum of first n odd natural numbers is ____.</text>
+            <option id="A">n^2</option><option id="B">n(n+1)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sequence 1, 3, 5...</explanation>
+        </question>
+        <question>
+            <text>Sum of first n even natural numbers is ____.</text>
+            <option id="A">n(n+1)</option><option id="B">n^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sequence 2, 4, 6...</explanation>
+        </question>
+        <question>
+            <text>Induction is fundamentally based on ____ set.</text>
+            <option id="A">Natural numbers N</option><option id="B">Real numbers R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Discrete well-ordered set.</explanation>
+        </question>
+        <question>
+            <text>The 'n' in P(n) must be an ____.</text>
+            <option id="A">Integer / Natural number</option><option id="B">Fraction</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cannot apply to continuous variables directly.</explanation>
+        </question>
+        <question>
+            <text>If P(1) is true and P(k) -&gt; P(k+1) for all k, then P(n) is true for ____.</text>
+            <option id="A">All n in N</option><option id="B">Only odd n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Final conclusion of induction.</explanation>
+        </question>
+        <question>
+            <text>Inductive hypothesis assumes P(k) is true for ____ k.</text>
+            <option id="A">Some / Arbitrary</option><option id="B">All</option><option id="C">No</option><option id="D">None</option>
+            <answer>A</answer><explanation>We don't know it's always true yet.</explanation>
+        </question>
+        <question>
+            <text>Can induction be used for inequalities?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Very common application.</explanation>
+        </question>
+        <question>
+            <text>Sum of squares of first n natural numbers is ____.</text>
+            <option id="A">n(n+1)(2n+1)/6</option><option id="B">n^2(n+1)^2/4</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard formula.</explanation>
+        </question>
+        <question>
+            <text>Sum of cubes of first n natural numbers is ____.</text>
+            <option id="A">[n(n+1)/2]^2</option><option id="B">n^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equals square of sum of first n numbers.</explanation>
+        </question>
+        <question>
+            <text>For a statement to be proved by induction, it must be ____.</text>
+            <option id="A">Generalizable</option><option id="B">Negative</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Must depend on n.</explanation>
+        </question>
+        <question>
+            <text>Basis step for n >= 4 starts with verifying P(____).</text>
+            <option id="A">4</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Match the range provided.</explanation>
+        </question>
+        <question>
+            <text>1 + 2 + 2^2 + ... + 2^(n-1) = ____.</text>
+            <option id="A">2^n - 1</option><option id="B">2^(n+1)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Geometric progression sum.</explanation>
+        </question>
+        <question>
+            <text>Product (1+1/1)(1+1/2)...(1+1/n) = ____.</text>
+            <option id="A">n + 1</option><option id="B">n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Telescoping product.</explanation>
+        </question>
+        <question>
+            <text>3^(2n) - 1 is always divisible by ____.</text>
+            <option id="A">8</option><option id="B">5</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Check for n=1: 9-1=8.</explanation>
+        </question>
+        <question>
+            <text>n(n+1)(n+5) is always multiple of ____.</text>
+            <option id="A">3</option><option id="B">7</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Divisibility induction application.</explanation>
+        </question>
+        <question>
+            <text>If n^2 &lt; 2^n for n >= ____.</text>
+            <option id="A">5</option><option id="B">1</option><option id="C">10</option><option id="D">None</option>
+            <answer>A</answer><explanation>Check n=4: 16 &lt; 16 (False). n=5: 25 &lt; 32 (True).</explanation>
+        </question>
+        <question>
+            <text>2^(3n) - 1 is divisible by ____.</text>
+            <option id="A">7</option><option id="B">9</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Check n=1: 8-1=7.</explanation>
+        </question>
+        <question>
+            <text>10^(2n-1) + 1 is divisible by ____.</text>
+            <option id="A">11</option><option id="B">13</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Check n=1: 10^1 + 1 = 11.</explanation>
+        </question>
+        <question>
+            <text>Sum of angles of n-sided polygon is ____.</text>
+            <option id="A">(n-2) x 180</option><option id="B">(n-1) x 90</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by induction starting n=3.</explanation>
+        </question>
+        <question>
+            <text>n! &gt; 2^n is true for n >= ____.</text>
+            <option id="A">4</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Check n=3: 6 &gt; 8 (F). n=4: 24 &gt; 16 (T).</explanation>
+        </question>
+        <question>
+            <text>Is 7^n - 3^n divisible by 4?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>x^n - y^n is divisible by x-y.</explanation>
+        </question>
+        <question>
+            <text>Principle of Mathematical Induction is also called principle of ____ induction.</text>
+            <option id="A">Finite</option><option id="B">Infinite</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Used for discrete counts.</explanation>
+        </question>
+        <question>
+            <text>To prove P(k+1), we use the ____ of P(k).</text>
+            <option id="A">Truth / Assumption</option><option id="B">Falsehood</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Bridge step.</explanation>
+        </question>
+        <question>
+            <text>Induction can prove 'A implies B' for ____.</text>
+            <option id="A">Sequences of implications</option><option id="B">Single numbers</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Iterative logic.</explanation>
+        </question>
+        <question>
+            <text>A set is well-ordered if every non-empty subset has a ____.</text>
+            <option id="A">Least element</option><option id="B">Max element</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Foundation of induction.</explanation>
+        </question>
+        <question>
+            <text>Does induction work for negative integers?</text>
+            <option id="A">Only if we shift the index (redefine m = n + c)</option><option id="B">No, jamais</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Adaptable by mapping to N.</explanation>
+        </question>
+        <question>
+            <text>The inductive step must be true for ____ k.</text>
+            <option id="A">Every k >= start value</option><option id="B">Some k</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Must not break the chain.</explanation>
+        </question>
+        <question>
+            <text>If basis step fails, can the statement be true for all n?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>First domino must fall.</explanation>
+        </question>
+        <question>
+            <text>Strong induction assumes truth of ____.</text>
+            <option id="A">P(1), P(2) ... P(k)</option><option id="B">Only P(k)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Useful for proofs involving recursion.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1 + 3 + 5 + ... + (2n-1) = ____.</text>
+            <option id="A">n^2</option><option id="B">2n^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard odd sum.</explanation>
+        </question>
+        <question>
+            <text>1/1.2 + 1/2.3 + ... + 1/n(n+1) = ____.</text>
+            <option id="A">n / (n+1)</option><option id="B">1 / n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Telescoping series sum.</explanation>
+        </question>
+        <question>
+            <text>Induction can be applied in ____ geometry?</text>
+            <option id="A">Yes (e.g. number of diagonals)</option><option id="B">No, only algebra</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Used for n-sided shapes properties.</explanation>
+        </question>
+        <question>
+            <text>A property P(n) is valid if it holds for n=1 and P(k) -&gt; P(k+1).</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Definition of PMI.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Prove n &lt; 2^n for all natural numbers n. Basis check n=1:</text>
+            <option id="A">1 &lt; 2 (True)</option><option id="B">1 &lt; 1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Basic exponential inequality.</explanation>
+        </question>
+        <question>
+            <text>n^3 - n is multiple of ____.</text>
+            <option id="A">6</option><option id="B">5</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>n(n-1)(n+1) - product of 3 consecutive integers.</explanation>
+        </question>
+        <question>
+            <text>x^n - y^n is always divisible by (x-y) for ____.</text>
+            <option id="A">All natural n</option><option id="B">Even n only</option><option id="C">Odd n only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard algebraic identity.</explanation>
+        </question>
+        <question>
+            <text>x^n + y^n is divisible by (x+y) for ____.</text>
+            <option id="A">Odd natural n</option><option id="B">Even natural n</option><option id="C">All n</option><option id="D">None</option>
+            <answer>A</answer><explanation>Check n=2: x^2+y^2 not div by x+y.</explanation>
+        </question>
+        <question>
+            <text>Bernoulli's Inequality: (1+x)^n >= ____ for x > -1.</text>
+            <option id="A">1 + nx</option><option id="B">1 + x^n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>True for all n in N.</explanation>
+        </question>
+        <question>
+            <text>Sum 1.2 + 2.3 + 3.4 + ... + n(n+1) = ____.</text>
+            <option id="A">n(n+1)(n+2)/3</option><option id="B">n(n+1)/2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by induction.</explanation>
+        </question>
+        <question>
+            <text>n(n^2 + 5) is divisible by ____.</text>
+            <option id="A">6</option><option id="B">4</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Check n=1: 6, n=2: 18. Both div by 6.</explanation>
+        </question>
+        <question>
+            <text>2.7^n + 3.5^n - 5 is divisible by ____.</text>
+            <option id="A">24</option><option id="B">12</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Complex divisibility induction.</explanation>
+        </question>
+        <question>
+            <text>Product of three consecutive natural numbers is divisible by ____.</text>
+            <option id="A">6</option><option id="B">3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>3! = 6.</explanation>
+        </question>
+        <question>
+            <text>Number of subsets of set with n elements is ____.</text>
+            <option id="A">2^n</option><option id="B">n^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by induction on n.</explanation>
+        </question>
+        <question>
+            <text>Induction can prove results about finite sets? Yes, on their ____.</text>
+            <option id="A">Cardinality n</option><option id="B">Colors</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mapped to integers.</explanation>
+        </question>
+        <question>
+            <text>10^n + 3.4^(n+2) + 5 is div by ____.</text>
+            <option id="A">9</option><option id="B">7</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Divisibility check application.</explanation>
+        </question>
+        <question>
+            <text>For P(k) -&gt; P(k+1) to be proven, we start with LHS of ____.</text>
+            <option id="A">P(k+1)</option><option id="B">P(k)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Substitute the hypothesis into the k-terms.</explanation>
+        </question>
+        <question>
+            <text>1.3 + 2.3^2 + ... + n.3^n = ____.</text>
+            <option id="A">(2n-1)3^(n+1) + 3 / 4</option><option id="B">3^n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Arithmetico-geometric series sum.</explanation>
+        </question>
+        <question>
+            <text>Can we start induction from n=0?</text>
+            <option id="A">Yes, if statement applies to n=0</option><option id="B">No, jamais</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Basis step index is adjustable.</explanation>
+        </question>
+        <question>
+            <text>Wait till n=3 for n^2 &lt; 2^n? No, 2&lt;4, 9&lt;8 (F). Start n=5.</text>
+            <option id="A">n=5</option><option id="B">n=1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Careful verification of start point.</explanation>
+        </question>
+        <question>
+            <text>n^7 - n is always div by ____.</text>
+            <option id="A">7</option><option id="B">5</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fermat's little theorem special case n=7.</explanation>
+        </question>
+        <question>
+            <text>Sum of (2k - 1)^2 for k=1 to n = ____.</text>
+            <option id="A">n(4n^2 - 1)/3</option><option id="B">n^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Squares of odd numbers.</explanation>
+        </question>
+        <question>
+            <text>Sum 1.3 + 3.5 + 5.7 + ... to n terms = ____.</text>
+            <option id="A">n(4n^2 + 6n - 1)/3</option><option id="B">n^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Product of odd numbers sum.</explanation>
+        </question>
+        <question>
+            <text>Inverse of induction proof: assuming P(k+1) true, show P(k)? No. That's not PMI.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Order of implication is k to k+1.</explanation>
+        </question>
+        <question>
+            <text>If S is set of natural numbers and 1 in S, k in S -&gt; k+1 in S, then ____.</text>
+            <option id="A">S = N</option><option id="B">S is finite</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Peano's axiom / PMI axiom.</explanation>
+        </question>
+        <question>
+            <text>Derivative d/dx (x^n) = n x^(n-1) proven by ____.</text>
+            <option id="A">Induction</option><option id="B">Observation</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Using product rule and k to k+1 shift.</explanation>
+        </question>
+        <question>
+            <text>De Moivre's Theorem: (cos A + i sin A)^n = ____.</text>
+            <option id="A">cos nA + i sin nA</option><option id="B">cos^n A</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by induction on n.</explanation>
+        </question>
+        <question>
+            <text>Power Set of set with n elements has size 2^n. Induction starts at n=____?</text>
+            <option id="A">0 (Empty set has 1 subset)</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Works for zero too.</explanation>
+        </question>
+        <question>
+            <text>Is 2^(3n) - 7n - 1 divisible by 49?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Classic induction problem.</explanation>
+        </question>
+        <question>
+            <text>Difference (2n+7) &lt; (n+3)^2 for all n in N?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Check n=1: 9 &lt; 16. True.</explanation>
+        </question>
+        <question>
+            <text>1^2 + 2^2 + ... + n^2 is O(n^3)?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Asymptotic analysis link.</explanation>
+        </question>
+        <question>
+            <text>A statement P(n) holds for all odd n if P(1) true and P(k) -&gt; P(k+2)?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Skipped induction.</explanation>
+        </question>
+        <question>
+            <text>Is induction a form of deductive reasoning or inductive reasoning? Despite name...</text>
+            <option id="A">Deductive</option><option id="B">Inductive</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>It's a rigorous deduction from axioms.</explanation>
+        </question>
+        <question>
+            <text>4^n - 3n - 1 is multiple of ____.</text>
+            <option id="A">9</option><option id="B">7</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Check n=1: 4-3-1=0. n=2: 16-6-1=9.</explanation>
+        </question>
+        <question>
+            <text>Inductive step P(k) assumes truth. Is it circular reasoning?</text>
+            <option id="A">No (It proves conditional P(k)-&gt;P(k+1))</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Logical validity of conditional.</explanation>
+        </question>
+        <question>
+            <text>Limit of induction: cannot prove for all Real numbers x directly?</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>R is not well-ordered like N.</explanation>
+        </question>
+        <question>
+            <text>n-th harmonic number H_n sum 1 + 1/2 + ... + 1/n. Is H_(2^n) >= 1 + n/2?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Classic inequality induction.</explanation>
+        </question>
+        <question>
+            <text>Number of diagonals in n-sided convex polygon is ____.</text>
+            <option id="A">n(n-3)/2</option><option id="B">n(n-1)/2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven starting n=3.</explanation>
+        </question>
+        <question>
+            <text>2.3^n - 1 is divisible by 5? Check n=1: 6-1=5.</text>
+            <option id="A">Only for n=odd? No, n=any.</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Verification leads to proof.</explanation>
+        </question>
+        <question>
+            <text>Induction on n for sum of first n terms of AP: a + (a+d) + ... is ____.</text>
+            <option id="A">(n/2)[2a + (n-1)d]</option><option id="B">n/2 (a+l)</option><option id="C">Both</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental AP formula.</explanation>
+        </question>
+        <question>
+            <text>Induction on n for sum of GP a + ar + ... is ____.</text>
+            <option id="A">a(r^n - 1) / (r-1)</option><option id="B">a r^n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental GP formula.</explanation>
+        </question>
+        <question>
+            <text>Fibonacci relation F_n: sum of first n numbers is F_(n+2) - 1?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by induction.</explanation>
+        </question>
+        <question>
+            <text>Is 41^n - 14^n divisible by 27?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>41 - 14 = 27.</explanation>
+        </explanation>
+        </question>
+        <question>
+            <text>Wait check: reach 80 questions? Proceed to hard.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Logic check.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Is (1+1/n)^n increasing with n?</text>
+            <option id="A">Yes (tending to e)</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by induction and binomial expansion.</explanation>
+        </question>
+        <question>
+            <text>Strong Induction vs Weak Induction: They are ____.</text>
+            <option id="A">Logically equivalent</option><option id="B">Different power</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Can prove each from the other.</explanation>
+        </question>
+        <question>
+            <text>n^5 / 5 + n^3 / 3 + 7n / 15 is an integer for all n?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inductive proof on fractions sum.</explanation>
+        </question>
+        <question>
+            <text>Number of regions R created by n lines in plane (none parallel/concurrent) is ____.</text>
+            <option id="A">(n^2 + n + 2) / 2</option><option id="B">n^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by induction on n.</explanation>
+        </question>
+        <question>
+            <text>The 2^n rule for power set: if we add 1 element, subsets ____.</text>
+            <option id="A">Double</option><option id="B">Increase by 1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Either include new element or not.</explanation>
+        </question>
+        <question>
+            <text>Check n=1 for 1 + 3 + ... + (2n-1) = n^2 + 5. Success?</text>
+            <option id="A">No (1 != 6)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Invalid formula despite being 'inducible' maybe later.</explanation>
+        </question>
+        <question>
+            <text>Base case n=2 for 2^n > n. Success?</text>
+            <option id="A">Yes (4 > 2)</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard check.</explanation>
+        </question>
+        <question>
+            <text>Divisibility of n^3 - n by 3 is ____.</text>
+            <option id="A">Always true</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>n(n^2-1) includes a multiple of 3.</explanation>
+        </question>
+        <question>
+            <text>Number of vertices in tree with n edges is ____.</text>
+            <option id="A">n + 1</option><option id="B">n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Graph theory induction.</explanation>
+        </question>
+        <question>
+            <text>A recursive definition of n! : 0! = 1 and n! = ____.</text>
+            <option id="A">n x (n-1)!</option><option id="B">n + 1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inductive basis for factorials.</explanation>
+        </question>
+        <question>
+            <text>Cauchy-Schwarz inequality can be proven by induction?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard advanced proof.</explanation>
+        </question>
+        <question>
+            <text>Is 3^(2n+2) - 8n - 9 divisible by 64?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Classic NCERT level hard problem.</explanation>
+        </question>
+        <question>
+            <text>2.7^n + 3.5^n - 5 div by 24 for all n >= 1?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by step-by-step induction.</explanation>
+        </question>
+        <question>
+            <text>A convex polygon of n sides has ____ diagonals.</text>
+            <option id="A">n(n-3)/2</option><option id="B">n^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Repetitive check: induction on adding a vertex.</explanation>
+        </question>
+        <question>
+            <text>Relation between arithmetic and geometric mean for n numbers? AM >= GM.</text>
+            <option id="A">Proven by Induction</option><option id="B">Unprovable</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Forward-Backward induction by Cauchy.</explanation>
+        </question>
+        <question>
+            <text>n(n^2-1) is div by 24 if n is ____.</text>
+            <option id="A">Odd</option><option id="B">Even</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Special condition induction.</explanation>
+        </question>
+        <question>
+            <text>Sum of 1/sqrt(k) for k=1 to n >= ____.</text>
+            <option id="A">sqrt(n)</option><option id="B">n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Lower bound check.</explanation>
+        </question>
+        <question>
+            <text>Check n=2 for 2n! &gt; (n+1)! ? 4 &gt; 6 (False). n=3: 12 &gt; 24 (False).</text>
+            <option id="A">False for small n</option><option id="B">True</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Requires careful base check.</explanation>
+        </question>
+        <question>
+            <text>Product rule for n functions derivative: (f1 f2 ... fn)' = ____.</text>
+            <option id="A">Sum of (f1' f2 ... fn)</option><option id="B">f1' f2' ... fn'</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>General product rule.</explanation>
+        </question>
+        <question>
+            <text>1^2 + 2^2 + ... + (n-1)^2 &lt; n^3 / 3 ?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Integral approximation upper bound.</explanation>
+        </question>
+        <question>
+            <text>1^2 + 2^2 + ... + n^2 &gt; n^3 / 3 ?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Integral approximation lower bound.</explanation>
+        </question>
+        <question>
+            <text>Is 11^(n+2) + 12^(2n+1) divisible by 133?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Niche induction question.</explanation>
+        </question>
+        <question>
+            <text>Sum of binomial coefficients sum(nCr) = 2^n.</text>
+            <option id="A">Proven by induction</option><option id="B">phi</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Pascal relationship usage.</explanation>
+        </question>
+        <question>
+            <text>Basis step check for sum of digits of 9n is 9. True?</text>
+            <option id="A">No (9x11 = 99, 9+9=18)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Property: sum is divisible by 9, not exactly 9.</explanation>
+        </question>
+        <question>
+            <text>n lines in plane divide it into maximum regions. Check n=0:</text>
+            <option id="A">1 region (the whole plane)</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Correct basis for regions formula.</explanation>
+        </question>
+        <question>
+            <text>Can induction prove uncountability of R?</text>
+            <option id="A">No (R is not discrete)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Wrong tool for continuous sets.</explanation>
+        </question>
+        <question>
+            <text>Principle of finite induction requires ____ as an axiom.</text>
+            <option id="A">Well-ordering principle</option><option id="B">Infinite sets</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equivalent foundations.</explanation>
+        </question>
+        <question>
+            <text>If P(k) is true for k=1, 2, ..., n. Then P(n+1) must be true. This is ____.</text>
+            <option id="A">Induction step</option><option id="B">Observation</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Conditional movement.</explanation>
+        </question>
+        <question>
+            <text>Is 5^(2n+2) - 24n - 25 divisible by 576?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Very advanced NCERT induction.</explanation>
+        </question>
+        <question>
+            <text>Number of regions in plane with n circles is n^2 - n + 2?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>If each circle intersects all others in 2 pts.</explanation>
+        </question>
+        <question>
+            <text>Sum of squares of binomial coefficients? sum(nCr)^2 = (2n)Cn.</text>
+            <option id="A">Proven by induction</option><option id="B">phi</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Vandermonde identity case.</explanation>
+        </question>
+        <question>
+            <text>Tower of Hanoi: n disks require ____ moves.</text>
+            <option id="A">2^n - 1</option><option id="B">n^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Classic recursive problem proven by induction.</explanation>
+        </question>
+        <question>
+            <text>Is 3^(2n) - 1 divisible by 8?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Check n=1: 8. n=2: 80. Yes.</explanation>
+        </question>
+        <question>
+            <text>Final check for PMI: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
+        </question>
+    </hard>
+</chapter>

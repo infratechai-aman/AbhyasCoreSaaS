@@ -1,384 +1,564 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Biology" id="311" name="Biological Classification">
+<chapter subject="Biology" id="302" name="Biological Classification">
     <easy>
         <question>
-            <text>Five Kingdom classification was proposed by:</text>
-            <option id="A">R.H. Whittaker (1969)</option><option id="B">Linnaeus</option><option id="C">Aristotle</option><option id="D">Haeckel</option>
-            <answer>A</answer><explanation>Monera, Protista, Fungi, Plantae, Animalia.</explanation>
+            <text>Who is the father of biological classification?</text>
+            <option id="A">Aristotle</option><option id="B">Linnaeus</option><option id="C">Whittaker</option><option id="D">None</option>
+            <answer>A</answer><explanation>He classified plants into herbs, shrubs, trees and animals based on red blood.</explanation>
         </question>
         <question>
-            <text>Bacteria found in extreme saline conditions are called:</text>
-            <option id="A">Halophiles</option><option id="B">Thermoacidophiles</option><option id="C">Methanogens</option><option id="D">Cyanobacteria</option>
-            <answer>A</answer><explanation>Salt lovers.</explanation>
+            <text>Who gave the Two Kingdom classification (Plantae and Animalia)?</text>
+            <option id="A">Carolus Linnaeus</option><option id="B">Aristotle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on presence/absence of cell wall and locomotion.</explanation>
         </question>
         <question>
-            <text>Methanogens are found in:</text>
-            <option id="A">Gut of ruminants and Marshy areas</option><option id="B">Hot springs</option><option id="C">Salty areas</option><option id="D">Fresh water</option>
-            <answer>A</answer><explanation>Produce methane.</explanation>
+            <text>Who proposed the Five Kingdom system of classification?</text>
+            <option id="A">R.H. Whittaker (1969)</option><option id="B">Bentham</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Criteria: Cell structure, thallus, nutrition, reproduction, phylogeny.</explanation>
         </question>
         <question>
-            <text>Cyanobacteria are also known as:</text>
-            <option id="A">Blue-Green Algae</option><option id="B">Red Algae</option><option id="C">Green Algae</option><option id="D">Brown Algae</option>
-            <answer>A</answer><explanation>Photosynthetic autotrophs.</explanation>
+            <text>Organisms belonging to Kingdom Monera are ____.</text>
+            <option id="A">Prokaryotic</option><option id="B">Eukaryotic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lack a well-defined nucleus and membrane-bound organelles.</explanation>
         </question>
         <question>
-            <text>Heterocysts are specialized cells found in:</text>
-            <option id="A">Nostoc and Anabaena</option><option id="B">E.coli</option><option id="C">Vibrio</option><option id="D">Salmonella</option>
-            <answer>A</answer><explanation>Nitrogen fixation.</explanation>
+            <text>Sole members of Kingdom Monera are ____.</text>
+            <option id="A">Bacteria</option><option id="B">Amoeba</option><option id="C">Fungi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Most abundant and diverse prokaryotes.</explanation>
         </question>
         <question>
-            <text>Mycoplasma are organisms that:</text>
-            <option id="A">Completely lack cell wall</option><option id="B">Have thick cell wall</option><option id="C">Are eukaryotes</option><option id="D">Have chitinous wall</option>
-            <answer>A</answer><explanation>Smallest living cells.</explanation>
+            <text>Spherical bacteria are called ____.</text>
+            <option id="A">Coccus</option><option id="B">Bacillus</option><option id="C">Spirillum</option><option id="D">None</option>
+            <answer>A</answer><explanation>Singular: Coccus, Plural: Cocci.</explanation>
         </question>
         <question>
-            <text>Chrysophytes include:</text>
-            <option id="A">Diatoms and Golden algae (Desmids)</option><option id="B">Dinoflagellates</option><option id="C">Euglenoids</option><option id="D">Slime moulds</option>
-            <answer>A</answer><explanation>Soap box like.</explanation>
+            <text>Rod-shaped bacteria are called ____.</text>
+            <option id="A">Bacillus</option><option id="B">Coccus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: E. coli.</explanation>
         </question>
         <question>
-            <text>Diatomaceous earth is formed by cell walls of:</text>
-            <option id="A">Diatoms</option><option id="B">Dinoflagellates</option><option id="C">Euglenoids</option><option id="D">Slime moulds</option>
-            <answer>A</answer><explanation>Silica deposition.</explanation>
+            <text>Comma-shaped bacteria are called ____.</text>
+            <option id="A">Vibrio</option><option id="B">Spirillum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Example: Vibrio cholerae.</explanation>
         </question>
         <question>
-            <text>Red tides are caused by:</text>
-            <option id="A">Gonyaulax (Dinoflagellates)</option><option id="B">Trypanosoma</option><option id="C">Plasmodium</option><option id="D">Paramecium</option>
-            <answer>A</answer><explanation>Rapid multiplication.</explanation>
+            <text>Bacteria found in extreme salty areas are ____.</text>
+            <option id="A">Halophiles</option><option id="B">Methanogens</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Part of Archaebacteria.</explanation>
         </question>
         <question>
-            <text>Which of the following is a link between plants and animals?</text>
-            <option id="A">Euglena</option><option id="B">Paramecium</option><option id="C">Amoeba</option><option id="D">Plasmodium</option>
-            <answer>A</answer><explanation>Mixotrophic nutrition.</explanation>
+            <text>Bacteria found in hot springs are ____.</text>
+            <option id="A">Thermoacidophiles</option><option id="B">Halophiles</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Survival due to different cell wall structure.</explanation>
         </question>
         <question>
-            <text>Slime moulds are:</text>
-            <option id="A">Saprophytic protists</option><option id="B">Parasitic</option><option id="C">Autotrophic</option><option id="D">Prokaryotic</option>
-            <answer>A</answer><explanation>Fungus like.</explanation>
+            <text>Bacteria found in marshy areas and gut of ruminants? ____.</text>
+            <option id="A">Methanogens</option><option id="B">Cyanobacteria</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Produce methane (biogas) from dung.</explanation>
         </question>
         <question>
-            <text>Protozoans are:</text>
-            <option id="A">Heterotrophs (Predators or Parasites)</option><option id="B">Autotrophs</option><option id="C">Prokaryotes</option><option id="D">Fungi</option>
-            <answer>A</answer><explanation>Primitive relatives of animals.</explanation>
+            <text>Cyanobacteria are also known as ____ algae.</text>
+            <option id="A">Blue-Green</option><option id="B">Red</option><option id="C">Green</option><option id="D">None</option>
+            <answer>A</answer><explanation>Have chlorophyll 'a' similar to green plants.</explanation>
         </question>
         <question>
-            <text>Amoeboid protozoans move by:</text>
-            <option id="A">Pseudopodia</option><option id="B">Cilia</option><option id="C">Flagella</option><option id="D">Tentacles</option>
+            <text>Specialized cells used for Nitrogen fixation in Nostoc and Anabaena are ____.</text>
+            <option id="A">Heterocysts</option><option id="B">Spores</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thick-walled anaerobic cells.</explanation>
+        </question>
+        <question>
+            <text>Smallest living cells known that lack a cell wall are ____.</text>
+            <option id="A">Mycoplasma</option><option id="B">Bacteria</option><option id="C">Yeast</option><option id="D">None</option>
+            <answer>A</answer><explanation>PPLO (Pleuro Pneumonia Like Organisms).</explanation>
+        </question>
+        <question>
+            <text>Kingdom Protista includes all single-celled ____.</text>
+            <option id="A">Eukaryotes</option><option id="B">Prokaryotes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Form a link with fungi, plants and animals.</explanation>
+        </question>
+        <question>
+            <text>Golden algae and Diatoms are included in ____.</text>
+            <option id="A">Chrysophytes</option><option id="B">Dinoflagellates</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Found in freshwater and marine environments.</explanation>
+        </question>
+        <question>
+            <text>Accumulation of diatom cell walls forms ____ earth.</text>
+            <option id="A">Diatomaceous</option><option id="B">Plastic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Used in polishing and filtration.</explanation>
+        </question>
+        <question>
+            <text>Example of Euglenoids is ____.</text>
+            <option id="A">Euglena</option><option id="B">Paramoecium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shows both autotrophic and heterotrophic nutrition.</explanation>
+        </question>
+        <question>
+            <text>Euglena has a protein-rich layer called ____ instead of cell wall.</text>
+            <option id="A">Pellicle</option><option id="B">Capsule</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Makes their body flexible.</explanation>
+        </question>
+        <question>
+            <text>Saprophytic protists that aggregate to form Plasmodium are ____.</text>
+            <option id="A">Slime Moulds</option><option id="B">Protozoans</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Move along decaying twigs engulfing organic material.</explanation>
+        </question>
+        <question>
+            <text>Amoeba uses ____ for capturing prey.</text>
+            <option id="A">Pseudopodia</option><option id="B">Flagella</option><option id="C">None</option><option id="D">D</option>
             <answer>A</answer><explanation>False feet.</explanation>
         </question>
         <question>
-            <text>Trypanosoma causes:</text>
-            <option id="A">Sleeping sickness</option><option id="B">Malaria</option><option id="C">Dysentery</option><option id="D">Cholera</option>
-            <answer>A</answer><explanation>Flagellated protozoan.</explanation>
+            <text>Sleeping sickness is caused by ____ protozoan.</text>
+            <option id="A">Trypanosoma</option><option id="B">Plasmodium</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Flagellated parasite.</explanation>
         </question>
         <question>
-            <text>Paramecium moves by:</text>
-            <option id="A">Cilia</option><option id="B">Flagella</option><option id="C">Pseudopodia</option><option id="D">Legs</option>
-            <answer>A</answer><explanation>Ciliated protozoan.</explanation>
+            <text>Malaria is caused by ____ protozoan.</text>
+            <option id="A">Plasmodium</option><option id="B">Amoeba</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sporozoan with infectious spore stage.</explanation>
         </question>
         <question>
-            <text>Plasmodium (Malarial parasite) belongs to:</text>
-            <option id="A">Sporozoans</option><option id="B">Ciliates</option><option id="C">Flagellates</option><option id="D">Amoeboids</option>
-            <answer>A</answer><explanation>Infectious spore like stage.</explanation>
+            <text>Kingdom Fungi consists of ____ organisms.</text>
+            <option id="A">Heterotrophic</option><option id="B">Autotrophic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Absorptive nutrition.</explanation>
         </question>
         <question>
-            <text>Cell wall of Fungi is made of:</text>
-            <option id="A">Chitin and Polysaccharides</option><option id="B">Cellulose</option><option id="C">Peptidoglycan</option><option id="D">Silica</option>
-            <answer>A</answer><explanation>Fungal cellulose.</explanation>
+            <text>Cell walls of Fungi are composed of ____.</text>
+            <option id="A">Chitin and Polysaccharides</option><option id="B">Cellulose</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chitin is a nitrogen-containing glucose polymer.</explanation>
         </question>
         <question>
-            <text>Network of hyphae is known as:</text>
-            <option id="A">Mycelium</option><option id="B">Thallus</option><option id="C">Tissue</option><option id="D">Plasmodium</option>
-            <answer>A</answer><explanation>Fungal body.</explanation>
+            <text>Network of hyphae in fungi is called ____.</text>
+            <option id="A">Mycelium</option><option id="B">Thallus</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Can be septate or coenocytic.</explanation>
         </question>
         <question>
-            <text>Phycomycetes are also known as:</text>
-            <option id="A">Algal fungi</option><option id="B">Sac fungi</option><option id="C">Club fungi</option><option id="D">Imperfect fungi</option>
-            <answer>A</answer><explanation>Rhizopus, Mucor.</explanation>
+            <text>Symbiotic association of fungi with algae is ____.</text>
+            <option id="A">Lichen</option><option id="B">Mycorrhiza</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Phycobiont + Mycobiont.</explanation>
         </question>
         <question>
-            <text>Sac fungi refers to:</text>
-            <option id="A">Ascomycetes</option><option id="B">Basidiomycetes</option><option id="C">Deuteromycetes</option><option id="D">Phycomycetes</option>
-            <answer>A</answer><explanation>Yeast, Penicillium.</explanation>
+            <text>Symbiotic association of fungi with roots of higher plants is ____.</text>
+            <option id="A">Mycorrhiza</option><option id="B">Lichen</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Helps in phosphorus absorption.</explanation>
         </question>
         <question>
-            <text>Basidiomycetes include:</text>
-            <option id="A">Mushrooms, Bracket fungi, Puffballs</option><option id="B">Yeast</option><option id="C">Alternaria</option><option id="D">Rhizopus</option>
-            <answer>A</answer><explanation>Club fungi.</explanation>
+            <text>Bread mould is scientificly known as ____.</text>
+            <option id="A">Rhizopus</option><option id="B">Mucor</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Phycomycete fungus.</explanation>
         </question>
         <question>
-            <text>Fungi Imperfecti refers to:</text>
-            <option id="A">Deuteromycetes</option><option id="B">Ascomycetes</option><option id="C">Basidiomycetes</option><option id="D">Phycomycetes</option>
-            <answer>A</answer><explanation>Sexual stage not known.</explanation>
+            <text>Penicillium belongs to ____ group of fungi.</text>
+            <option id="A">Ascomycetes (Sac fungi)</option><option id="B">Basidiomycetes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Source of first antibiotic.</explanation>
         </question>
         <question>
-            <text>Lichens are symbiotic association between:</text>
-            <option id="A">Algae and Fungi</option><option id="B">Fungi and Roots</option><option id="C">Algae and Roots</option><option id="D">Bacteria and Fungi</option>
-            <answer>A</answer><explanation>Phycobiont and Mycobiont.</explanation>
+            <text>Agaricus (Mushroom) belongs to ____ group.</text>
+            <option id="A">Basidiomycetes (Club fungi)</option><option id="B">Ascomycetes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Produce basidiospores exogenously.</explanation>
         </question>
         <question>
-            <text>Mycorrhiza is association of:</text>
-            <option id="A">Fungi with roots of higher plants</option><option id="B">Algae with fungi</option><option id="C">Bacteria with roots</option><option id="D">Virus with bacteria</option>
-            <answer>A</answer><explanation>Symbiosis.</explanation>
+            <text>Fungi Imperfecti refers to ____.</text>
+            <option id="A">Deuteromycetes</option><option id="B">Phycomycetes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sexual stage is not yet known.</explanation>
         </question>
         <question>
-            <text>Viruses are:</text>
-            <option id="A">Nucleoprotein particles</option><option id="B">Cells</option><option id="C">Bacteria</option><option id="D">Fungi</option>
-            <answer>A</answer><explanation>Genetic material + Protein coat.</explanation>
+            <text>Virus means ____ in Latin.</text>
+            <option id="A">Venom / Poisonous fluid</option><option id="B">Cell</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Name given by Pasteur / Ivanowsky.</explanation>
+        </question>
+        <question>
+            <text>Viruses consist of genetic material (DNA or RNA) and a ____ coat.</text>
+            <option id="A">Protein (Capsid)</option><option id="B">Sugar</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Subunits called capsomeres.</explanation>
+        </question>
+        <question>
+            <text>Infectious RNA particles without protein coat are ____.</text>
+            <option id="A">Viroids</option><option id="B">Prions</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Discovered by T.O. Diener (1971).</explanation>
+        </question>
+        <question>
+            <text>Abnormally folded proteins that cause BSE (Mad Cow) are ____.</text>
+            <option id="A">Prions</option><option id="B">Viruses</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Size similar to viruses but only protein.</explanation>
+        </question>
+        <question>
+            <text>Tobacco Mosaic Virus (TMV) has ____ as genetic material.</text>
+            <option id="A">ssRNA</option><option id="B">dsDNA</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Helical structure.</explanation>
+        </question>
+        <question>
+            <text>Viruses that infect bacteria are ____.</text>
+            <option id="A">Bacteriophages</option><option id="B">Phycophages</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Usually have dsDNA.</explanation>
+        </question>
+        <question>
+            <text>Lichens are good indicators of ____.</text>
+            <option id="A">Air Pollution (SO2)</option><option id="B">Water purity</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Do not grow in polluted areas.</explanation>
+        </question>
+        <question>
+            <text>Causal agent of Potato spindle tuber disease is ____.</text>
+            <option id="A">Viroid</option><option id="B">Virus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lower molecular weight RNA.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>Genetic material of TMV (Tobacco Mosaic Virus) is:</text>
-            <option id="A">ssRNA</option><option id="B">dsDNA</option><option id="C">ssDNA</option><option id="D">dsRNA</option>
-            <answer>A</answer><explanation>Single stranded RNA.</explanation>
+            <text>Three domain system (Archaea, Bacteria, Eukarya) was proposed by ____.</text>
+            <option id="A">Carl Woese</option><option id="B">Whittaker</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on 16S rRNA sequences.</explanation>
         </question>
         <question>
-            <text>Bacteriophages usually have:</text>
-            <option id="A">dsDNA</option><option id="B">ssRNA</option><option id="C">ssDNA</option><option id="D">dsRNA</option>
-            <answer>A</answer><explanation>Viruses infecting bacteria.</explanation>
+            <text>Algae and Fungi were incorrectly placed together in earlier systems because of ____.</text>
+            <option id="A">Cell wall</option><option id="B">Chlorophyll</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Modern systems separates them by nutrition and wall chemistry.</explanation>
         </question>
         <question>
-            <text>Viroids are:</text>
-            <option id="A">Free RNA without protein coat</option><option id="B">Protein only</option><option id="C">DNA only</option><option id="D">Complete virus</option>
-            <answer>A</answer><explanation>Discovered by T.O. Diener.</explanation>
+            <text>Criteria for Five Kingdom: Cell type of Monera is ____.</text>
+            <option id="A">Prokaryotic</option><option id="B">Eukaryotic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>All others (Protista to Animalia) are Eukaryotic.</explanation>
         </question>
         <question>
-            <text>Prions cause:</text>
-            <option id="A">Bovine Spongiform Encephalopathy (Mad Cow Disease)</option><option id="B">AIDS</option><option id="C">Flu</option><option id="D">Polio</option>
-            <answer>A</answer><explanation>Abnormally folded proteins.</explanation>
+            <text>Cell wall of Cyanobacteria contains ____.</text>
+            <option id="A">Peptidoglycan / Murein</option><option id="B">Cellulose</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unlike typical algae.</explanation>
         </question>
         <question>
-            <text>Aristotle classified animals into:</text>
-            <option id="A">Enailma (with red blood) and Anaima (without red blood)</option><option id="B">Vertebrates and Invertebrates</option><option id="C">Chordates and Non-chordates</option><option id="D">Aquatic and Terrestrial</option>
-            <answer>A</answer><explanation>Earliest classification.</explanation>
+            <text>Diatom walls are embedded with ____ making them indestructible.</text>
+            <option id="A">Silica</option><option id="B">Calcium</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fits like a soap box.</explanation>
         </question>
         <question>
-            <text>Bacteria replicate mainly by:</text>
-            <option id="A">Fission</option><option id="B">Spores</option><option id="C">Budding</option><option id="D">Sexual reproduction</option>
-            <answer>A</answer><explanation>Binary fission.</explanation>
+            <text>Red Tides in oceans are caused by rapid multiplication of ____.</text>
+            <option id="A">Gonyaulax (Dinoflagellates)</option><option id="B">Diatoms</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Toxins released can kill marine life.</explanation>
         </question>
         <question>
-            <text>Citrus Canker is caused by:</text>
-            <option id="A">Bacteria (Xanthomonas)</option><option id="B">Virus</option><option id="C">Fungi</option><option id="D">Mycoplasma</option>
-            <answer>A</answer><explanation>Bacterial disease.</explanation>
+            <text>Nutrition in Euglena: ____ in light, ____ in dark.</text>
+            <option id="A">Autotrophic / Heterotrophic (Mixotrophic)</option><option id="B">Only auto</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Transition between plant-like and animal-like.</explanation>
         </question>
         <question>
-            <text>Chief producers in oceans are:</text>
-            <option id="A">Diatoms</option><option id="B">Dinoflagellates</option><option id="C">Blue Green Algae</option><option id="D">Green Algae</option>
-            <answer>A</answer><explanation>Photosynthetic.</explanation>
+            <text>Sexual cycle in Fungi involves 3 steps: Plasmogamy, ____, and Meiosis.</text>
+            <option id="A">Karyogamy</option><option id="B">Mitosis</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fusion of nuclei.</explanation>
         </question>
         <question>
-            <text>Which pigment is identical to that of higher plants in Euglenoids?</text>
-            <option id="A">Chlorophyll a</option><option id="B">Chlorophyll b</option><option id="C">Xanthophyll</option><option id="D">Carotene</option>
-            <answer>A</answer><explanation>Photosynthetic ability.</explanation>
+            <text>Phase in some fungi where two nuclei per cell (n+n) exist is ____.</text>
+            <option id="A">Dikaryophase</option><option id="B">Diplophase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Occurs in Ascomycetes and Basidiomycetes.</explanation>
         </question>
         <question>
-            <text>Plasmodium (Slime mould) forms fruiting bodies during:</text>
-            <option id="A">Unfavourable conditions</option><option id="B">Favourable conditions</option><option id="C">Rainy season</option><option id="D">Summer</option>
-            <answer>A</answer><explanation>To survive.</explanation>
+            <text>Asexual spores of Ascomycetes produced exogenously on conidiophores are ____.</text>
+            <option id="A">Conidia</option><option id="B">Zoospores</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Non-motile spores.</explanation>
         </question>
         <question>
-            <text>Which of the following causes Amoebic dysentery?</text>
-            <option id="A">Entamoeba histolytica</option><option id="B">Amoeba proteus</option><option id="C">Plasmodium</option><option id="D">Trypanosoma</option>
-            <answer>A</answer><explanation>Parasitic amoeboid.</explanation>
+            <text>Ascospores are produced ____ in sac-like asci.</text>
+            <option id="A">Endogenously</option><option id="B">Exogenously</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sexual spores.</explanation>
         </question>
         <question>
-            <text>Coenocytic hyphae are:</text>
-            <option id="A">Aseptate and multinucleate</option><option id="B">Septate and uninucleate</option><option id="C">Septate and multinucleate</option><option id="D">Aseptate and uninucleate</option>
-            <answer>A</answer><explanation>Phycomycetes.</explanation>
+            <text>Basidiospores are produced ____ on the basidium.</text>
+            <option id="A">Exogenously</option><option id="B">Endogenously</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sexual spores of mushrooms/rusts.</explanation>
         </question>
         <question>
-            <text>Asexual spores in Phycomycetes are:</text>
-            <option id="A">Zoospores (motile) and Aplanospores (non-motile)</option><option id="B">Conidia</option><option id="C">Basidiospores</option><option id="D">Ascospores</option>
-            <answer>A</answer><explanation>Endogenous.</explanation>
+            <text>Rust and Smut diseases are caused by ____ Group.</text>
+            <option id="A">Basidiomycetes (Ustilago / Puccinia)</option><option id="B">Phycomycetes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Obligate parasites / biotrophs.</explanation>
         </question>
         <question>
-            <text>Yeast reproduces by:</text>
-            <option id="A">Budding</option><option id="B">Fission</option><option id="C">Fragmentation</option><option id="D">Spores</option>
-            <answer>A</answer><explanation>Unicellular fungus.</explanation>
+            <text>Causal agent of Wheat Rust is ____.</text>
+            <option id="A">Puccinia</option><option id="B">Albugo</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Heteroecious fungus.</explanation>
         </question>
         <question>
-            <text>Penicillium produces asexual spores called:</text>
-            <option id="A">Conidia</option><option id="B">Zoospores</option><option id="C">Sporangiospores</option><option id="D">Oospores</option>
-            <answer>A</answer><explanation>Exogenous.</explanation>
+            <text>Chemical used to determine bacterial Gram type is ____.</text>
+            <option id="A">Crystal Violet (plus Iodine)</option><option id="B">Safranin only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Gram +ve retain it, -ve lose it after washing.</explanation>
         </question>
         <question>
-            <text>Dikaryophase (n+n) is seen in:</text>
-            <option id="A">Ascomycetes and Basidiomycetes</option><option id="B">Phycomycetes</option><option id="C">Deuteromycetes</option><option id="D">Monera</option>
-            <answer>A</answer><explanation>Before karyogamy.</explanation>
+            <text>Photosynthetic pigments in Cyanobacteria include ____.</text>
+            <option id="A">Chl a, Phycocyanin, Phycoerythrin</option><option id="B">Only Chl b</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Assists in light harvesting.</explanation>
         </question>
         <question>
-            <text>Example of Basidiomycetes:</text>
-            <option id="A">Agaricus (Mushroom), Ustilago (Smut), Puccinia (Rust)</option><option id="B">Alternaria, Colletotrichum</option><option id="C">Mucor, Rhizopus</option><option id="D">Yeast, Penicillium</option>
-            <answer>A</answer><explanation>Club fungi.</explanation>
+            <text>Bloom-forming bacteria in polluted water bodies are usually ____.</text>
+            <option id="A">Cyanobacteria</option><option id="B">Archaebacteria</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Colonies surrounded by gelatinous sheath.</explanation>
         </question>
         <question>
-            <text>Deuteromycetes reproduce only by:</text>
-            <option id="A">Asexual spores (Conidia)</option><option id="B">Sexual spores</option><option id="C">Zoospores</option><option id="D">Oospores</option>
-            <answer>A</answer><explanation>Imperfect fungi.</explanation>
+            <text>Chemosynthetic autotrophs oxidize ____ and use energy for ATP production.</text>
+            <option id="A">Nitrates, nitrites, ammonia</option><option id="B">Glucose</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Important for nutrient recycling.</explanation>
         </question>
         <question>
-            <text>Bladderwort and Venus fly trap are:</text>
-            <option id="A">Insectivorous plants</option><option id="B">Parasitic plants</option><option id="C">Saprophytic plants</option><option id="D">Symbiotic</option>
-            <answer>A</answer><explanation>Partially heterotrophic.</explanation>
+            <text>Majority of bacteria are ____ (as per nutrition).</text>
+            <option id="A">Heterotrophic decomposers</option><option id="B">Autotrophic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vital for breaking down organic matter.</explanation>
         </question>
         <question>
-            <text>Cuscuta is a:</text>
-            <option id="A">Parasitic plant</option><option id="B">Insectivorous plant</option><option id="C">Symbiotic plant</option><option id="D">Saprophyte</option>
-            <answer>A</answer><explanation>Amarbel.</explanation>
+            <text>Citrus Canker is a ____ disease.</text>
+            <option id="A">Bacterial (Xanthomonas)</option><option id="B">Viral</option><option id="C">Fungal</option><option id="D">None</option>
+            <answer>A</answer><explanation>Causes lesions on fruit and leaves.</explanation>
         </question>
         <question>
-            <text>Protein coat of virus is called:</text>
-            <option id="A">Capsid</option><option id="B">Envelope</option><option id="C">Capsomere</option><option id="D">Sheath</option>
-            <answer>A</answer><explanation>Made of capsomeres.</explanation>
+            <text>Chief producers in the oceans are ____.</text>
+            <option id="A">Diatoms</option><option id="B">Cyanobacteria</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Provide food for marine ecosystems.</explanation>
         </question>
         <question>
-            <text>Contagium vivum fluidum was proposed by:</text>
-            <option id="A">M.W. Beijerinck</option><option id="B">Ivanowsky</option><option id="C">Stanley</option><option id="D">Pasteur</option>
-            <answer>A</answer><explanation>Infectious living fluid.</explanation>
+            <text>Ciliated protozoans (Paramecium) have a cavity called ____.</text>
+            <option id="A">Gullet</option><option id="B">Gizzards</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Opens to outside of cell surface.</explanation>
         </question>
         <question>
-            <text>Who crystallized viruses?</text>
-            <option id="A">W.M. Stanley</option><option id="B">Ivanowsky</option><option id="C">Beijerinck</option><option id="D">Pasteur</option>
-            <answer>A</answer><explanation>Viruses are crystallizable.</explanation>
+            <text>Fungi that thrive on dung are called ____.</text>
+            <option id="A">Coprophilous</option><option id="B">Saprophytic only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Example: Pilobolus.</explanation>
         </question>
         <question>
-            <text>In Lichens, the algal component is called:</text>
-            <option id="A">Phycobiont</option><option id="B">Mycobiont</option><option id="C">Symbiont</option><option id="D">Parasite</option>
-            <answer>A</answer><explanation>Autotrophic.</explanation>
+            <text>Neurospora (Ascomycete) is used extensively in ____.</text>
+            <option id="A">Biochemical and Genetic work</option><option id="B">Making bread</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Known as 'Drosophila of plant kingdom'.</explanation>
         </question>
         <question>
-            <text>Lichens are good pollution indicators because:</text>
-            <option id="A">They do not grow in polluted areas</option><option id="B">They grow fast in pollution</option><option id="C">They change colour</option><option id="D">They eat pollution</option>
-            <answer>A</answer><explanation>Sensitive to SO2.</explanation>
+            <text>Morels and Truffles are ____ fungi.</text>
+            <option id="A">Edible and Delicacies</option><option id="B">Poisonous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Highly prized mushrooms.</explanation>
+        </question>
+        <question>
+            <text>White spots on mustard leaves are due to ____.</text>
+            <option id="A">Albugo (Parasitic fungus)</option><option id="B">Virus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Member of Phycomycetes.</explanation>
+        </question>
+        <question>
+            <text>Asexual reproduction in fungi can occur by ____.</text>
+            <option id="A">Fragmention, Fission, Budding</option><option id="B">Only seeds</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Vegetative means are also common.</explanation>
+        </question>
+        <question>
+            <text>Mycoplasma can survive without ____.</text>
+            <option id="A">Oxygen</option><option id="B">Carbon</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Anaerobic growth possible.</explanation>
+        </question>
+        <question>
+            <text>Most Archaebacteria differ from others in having different ____ structure.</text>
+            <option id="A">Cell Wall (Lacks peptidoglycan)</option><option id="B">DNA</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Allows survival in extreme environments.</explanation>
+        </question>
+        <question>
+            <text>Which kingdom has no clear boundaries because it merges with others?</text>
+            <option id="A">Protista</option><option id="B">Monera</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains ancestors of Fungi, Plants, and Animals.</explanation>
+        </question>
+        <question>
+            <text>Who crystallized TMV and showed it acts like inert chemicals outside host?</text>
+            <option id="A">W.M. Stanley</option><option id="B">Ivanowsky</option><option id="C">Beijerinck</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contributed to understanding virus as non-living/living link.</explanation>
+        </question>
+        <question>
+            <text>Term 'Contagium vivum fluidum' (infectious living fluid) given by ____.</text>
+            <option id="A">M.W. Beijerinck</option><option id="B">Pasteur</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>After filtering TMV through bacteria-proof filters.</explanation>
+        </question>
+        <question>
+            <text>Creutzfeldt-Jakob Disease (CJD) in humans is caused by ____.</text>
+            <option id="A">Prions</option><option id="B">Bacteria</option><option id="C">Viroids</option><option id="D">None</option>
+            <answer>A</answer><explanation>Neurodegenerative disorder.</explanation>
+        </question>
+        <question>
+            <text>In lichens, phycobiont is ____ and mycobiont is ____.</text>
+            <option id="A">Autotrophic / Heterotrophic</option><option id="B">Hetero / Auto</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Alga provides food, Fungus provides shelter and minerals.</explanation>
+        </question>
+        <question>
+            <text>Mumps and Herpes are caused by ____.</text>
+            <option id="A">Viruses</option><option id="B">Bacteria</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Viral infections in humans.</explanation>
+        </question>
+        <question>
+            <text>Leaf rolling and curling in plants are signs of ____ infection.</text>
+            <option id="A">Viral</option><option id="B">Fungal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard symptoms of plant viruses.</explanation>
+        </question>
+        <question>
+            <text>Dinoflagellates have ____ flagella.</text>
+            <option id="A">Two (One longitudinal, one transverse)</option><option id="B">Four</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Produces a spinning motion.</explanation>
+        </question>
+        <question>
+            <text>Flagella of Monera is made of ____ protein.</text>
+            <option id="A">Flagellin</option><option id="B">Tubulin</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Distinct from eukaryotic flagella.</explanation>
+        </question>
+        <question>
+            <text>Sexual spores of Phycomycetes are ____ (Isogamous/Anisogamous).</text>
+            <option id="A">Zygospores</option><option id="B">Oospores</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formed by fusion of gametes.</explanation>
+        </question>
+        <question>
+            <text>Genetic recombination in bacteria occurs by primitive ____ transfer.</text>
+            <option id="A">DNA (Conjugation, Transformation, Transduction)</option><option id="B">Spore</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increases genetic diversity without true sex.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>Which of the following statements is incorrect about Cyanobacteria?</text>
-            <option id="A">They lack heterocysts.</option><option id="B">They are photosynthetic autotrophs.</option><option id="C">They form blooms in polluted water.</option><option id="D">They can fix atmospheric nitrogen.</option>
-            <answer>A</answer><explanation>Some have heterocysts.</explanation>
+            <text>Whittaker's Kingdom Protista incorrectly merged which groups formerly seen as plants?</text>
+            <option id="A">Spirogyra and Chlamydomonas (now with Algae? No.)</option><option id="B">Bacteria</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Single celled eukaryotes from any group go to Protista.</explanation>
         </question>
         <question>
-            <text>Archaebacteria differ from Eubacteria in:</text>
-            <option id="A">Cell wall structure</option><option id="B">Mode of nutrition</option><option id="C">Cell shape</option><option id="D">Mode of reproduction</option>
-            <answer>A</answer><explanation>Allows survival in extreme conditions.</explanation>
+            <text>Genetic material of Viroids is ____ RNA.</text>
+            <option id="A">Circular ssRNA with low molecular weight</option><option id="B">dsDNA</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No protein capsid exists.</explanation>
         </question>
         <question>
-            <text>Which of the following is correct about Viroids?</text>
-            <option id="A">They have RNA with low molecular weight and lack protein coat.</option><option id="B">They have DNA.</option><option id="C">They have protein coat.</option><option id="D">They are larger than viruses.</option>
-            <answer>A</answer><explanation>Potato Spindle Tuber disease.</explanation>
+            <text>Life cycle of virus outside host: ____ metabolism.</text>
+            <option id="A">Nil / zero</option><option id="B">Low</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Obligate intracellular parasites.</explanation>
         </question>
         <question>
-            <text>Isogamous sexual reproduction with non-flagellated gametes is seen in:</text>
-            <option id="A">Spirogyra</option><option id="B">Ulothrix</option><option id="C">Volvox</option><option id="D">Fucus</option>
-            <answer>A</answer><explanation>Algae.</explanation>
+            <text>Numerical Taxonomy uses ____ analysis of characters.</text>
+            <option id="A">Computerized / Mathematical</option><option id="B">Evolutionary</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equal weight to all traits.</explanation>
         </question>
         <question>
-            <text>Which class of Fungi is called 'Club Fungi'?</text>
-            <option id="A">Basidiomycetes</option><option id="B">Ascomycetes</option><option id="C">Phycomycetes</option><option id="D">Deuteromycetes</option>
-            <answer>A</answer><explanation>Basidium structure.</explanation>
+            <text>Cytotaxonomy uses information from ____ study.</text>
+            <option id="A">Chromosomes (number, structure, behavior)</option><option id="B">Leaf shape</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cellular level details.</explanation>
         </question>
         <question>
-            <text>Karyogamy and Meiosis take place in Basidium producing:</text>
-            <option id="A">4 Basidiospores (Exogenously)</option><option id="B">8 Ascospores</option><option id="C">Zoospores</option><option id="D">Conidia</option>
-            <answer>A</answer><explanation>Sexual reproduction.</explanation>
+            <text>Chemotaxonomy uses ____ of organisms.</text>
+            <option id="A">Chemical constituents (DNA, proteins)</option><option id="B">Locomotion</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Resolves confusions in classification.</explanation>
         </question>
         <question>
-            <text>Claviceps and Neurospora belong to:</text>
-            <option id="A">Ascomycetes</option><option id="B">Basidiomycetes</option><option id="C">Phycomycetes</option><option id="D">Deuteromycetes</option>
-            <answer>A</answer><explanation>Used in biochemical work.</explanation>
+            <text>The term 'Systematics' was first used by ____.</text>
+            <option id="A">Linnaeus</option><option id="B">De Candolle</option><option id="C">Pliny</option><option id="D">None</option>
+            <answer>A</answer><explanation>In his book Systema Naturae.</explanation>
         </question>
         <question>
-            <text>Morels and Truffles are edible members of:</text>
-            <option id="A">Ascomycetes</option><option id="B">Basidiomycetes</option><option id="C">Phycomycetes</option><option id="D">Fungi Imperfecti</option>
-            <answer>A</answer><explanation>Delicacies.</explanation>
+            <text>Archaebacteria can produce methane from dung using ____ enzyme system.</text>
+            <option id="A">Anaerobic methanogenesis</option><option id="B">Aerobic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Restricted to extreme anaerobic niches.</explanation>
         </question>
         <question>
-            <text>Which of the following are imperfect fungi because only asexual or vegetative phases are known?</text>
-            <option id="A">Deuteromycetes</option><option id="B">Basidiomycetes</option><option id="C">Ascomycetes</option><option id="D">Phycomycetes</option>
-            <answer>A</answer><explanation>Sexual stage missing.</explanation>
+            <text>Nostoc and Anabaena fix atmospheric nitrogen in ____ cells.</text>
+            <option id="A">Heterocysts</option><option id="B">Akinetes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thick wall prevents oxygen interference with Nitrogenase.</explanation>
         </question>
         <question>
-            <text>Cell wall of diatoms is indestructible because of:</text>
-            <option id="A">Silica</option><option id="B">Chitin</option><option id="C">Calcium carbonate</option><option id="D">Cellulose</option>
-            <answer>A</answer><explanation>Embedded in wall.</explanation>
+            <text>Photosynthetic dinoflagellates are ____ in color depending on pigments.</text>
+            <option id="A">Yellow, green, brown, blue, red</option><option id="B">Only green</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High diversity of accessory pigments.</explanation>
         </question>
         <question>
-            <text>Bacteria involve in genetic recombination by:</text>
-            <option id="A">Primitive DNA transfer (Conjugation, Transformation, Transduction)</option><option id="B">Meiosis</option><option id="C">Fertilization</option><option id="D">Mitosis</option>
-            <answer>A</answer><explanation>Primitive sexual reproduction.</explanation>
+            <text>In Protista, locomotion occurs by ____.</text>
+            <option id="A">Flagella, Cilia, Pseudopodia, Contraction</option><option id="B">Only drift</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Various mechanisms exist.</explanation>
         </question>
         <question>
-            <text>Red rust of tea is caused by:</text>
-            <option id="A">Green algae (Cephaleuros)</option><option id="B">Fungi</option><option id="C">Bacteria</option><option id="D">Virus</option>
-            <answer>A</answer><explanation>Parasitic algae.</explanation>
+            <text>Coenocytic hyphae are ____.</text>
+            <option id="A">Multinucleate without septa</option><option id="B">Uninucleate</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Seen in Phycomycetes.</explanation>
         </question>
         <question>
-            <text>Mad cow disease in cattle is analogous to which disease in humans?</text>
-            <option id="A">Cr-Jacob disease (CJD)</option><option id="B">Parkinson's</option><option id="C">Alzheimer's</option><option id="D">Flu</option>
-            <answer>A</answer><explanation>Prion disease.</explanation>
+            <text>Yeast is used for ____.</text>
+            <option id="A">Fermentation (Bread, Beer)</option><option id="B">Killing insects</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Saccharomyces cerevisiae.</explanation>
         </question>
         <question>
-            <text>Mosaic formation, leaf rolling and curling, yellowing and vein clearing are symptoms of:</text>
-            <option id="A">Viral diseases in plants</option><option id="B">Fungal diseases</option><option id="C">Bacterial diseases</option><option id="D">Nematode infection</option>
-            <answer>A</answer><explanation>Common symptoms.</explanation>
+            <text>Ergot of rye is caused by ____.</text>
+            <option id="A">Claviceps (Ascomycete)</option><option id="B">Ustilago</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains toxic alkaloids.</explanation>
         </question>
         <question>
-            <text>Which of the following is incorrect?</text>
-            <option id="A">Prions consist of abnormally folded nucleic acids.</option><option id="B">Viroids lack a protein coat.</option><option id="C">Viruses are obligate parasites.</option><option id="D">Infectious constituent in viruses is the genetic material.</option>
-            <answer>A</answer><explanation>Prions are proteins.</explanation>
+            <text>Deuteromycetes reproduce only by ____ spores.</text>
+            <option id="A">Asexual (Conidia)</option><option id="B">Sexual</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Often moved to Ascomycetes once sexual stage found.</explanation>
         </question>
         <question>
-            <text>Heterotrophic bacteria are most abundant in nature and majority are:</text>
-            <option id="A">Decomposers</option><option id="B">Producers</option><option id="C">Nitrogen fixers</option><option id="D">Pathogens</option>
-            <answer>A</answer><explanation>Recycling nutrients.</explanation>
+            <text>Most effective de-nitrifying bacteria? ____.</text>
+            <option id="A">Pseudomonas, Thiobacillus</option><option id="B">Rhizobium</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Return Nitrogen to atmosphere.</explanation>
         </question>
         <question>
-            <text>Under suitable conditions, slime moulds form:</text>
-            <option id="A">Plasmodium (Aggregation)</option><option id="B">Fruiting bodies</option><option id="C">Spores</option><option id="D">Cysts</option>
-            <answer>A</answer><explanation>Can grow and spread.</explanation>
+            <text>Red Algae of oceans (Dinoflagellates) are called Red Tides. Red sea is due to ____?</text>
+            <option id="A">Trichodesmium erythraeum (Cyanobacteria)</option><option id="B">Gonyaulax</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Often confused; Trichodesmium is the blue-green algae found in Red Sea.</explanation>
         </question>
         <question>
-            <text>Identify the correct match:</text>
-            <option id="A">Puccinia - Rust fungus</option><option id="B">Ustilago - Mushroom</option><option id="C">Agaricus - Smut</option><option id="D">Albugo - Ascomycetes</option>
-            <answer>A</answer><explanation>Wheat rust.</explanation>
+            <text>Genetic material of HIV is ____.</text>
+            <option id="A">Two identical strands of ssRNA</option><option id="B">One dsDNA</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Retrovirus family.</explanation>
         </question>
         <question>
-            <text>Which of the following is used in making bread and beer?</text>
-            <option id="A">Saccharomyces (Yeast)</option><option id="B">Rhizopus</option><option id="C">Penicillium</option><option id="D">Neurospora</option>
-            <answer>A</answer><explanation>Fermentation.</explanation>
+            <text>Reverse Transcriptase converts ____ into ____.</text>
+            <option id="A">RNA -> DNA</option><option id="B">DNA -> RNA</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property of Retroviruses.</explanation>
         </question>
         <question>
-            <text>Sexual reproduction in Fungi occurs by:</text>
-            <option id="A">Oospores, Ascospores, Basidiospores</option><option id="B">Conidia, Zoospores</option><option id="C">Budding</option><option id="D">Fission</option>
-            <answer>A</answer><explanation>Sexual spores.</explanation>
+            <text>Parasitic protozoan with sexual life cycle involving mosquitoes? ____.</text>
+            <option id="A">Plasmodium vivax</option><option id="B">Trypanosoma</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vector transmission.</explanation>
         </question>
         <question>
-            <text>Fusion of protoplasms between two motile or non-motile gametes is called:</text>
-            <option id="A">Plasmogamy</option><option id="B">Karyogamy</option><option id="C">Meiosis</option><option id="D">Cytokinesis</option>
-            <answer>A</answer><explanation>First step.</explanation>
+            <text>Bioluminescence is shown by some ____.</text>
+            <option id="A">Dinoflagellates (Noctiluca)</option><option id="B">Fungi</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Night-light of the sea.</explanation>
         </question>
         <question>
-            <text>Fusion of two nuclei is called:</text>
-            <option id="A">Karyogamy</option><option id="B">Plasmogamy</option><option id="C">Meiosis</option><option id="D">Mitosis</option>
-            <answer>A</answer><explanation>Second step.</explanation>
+            <text>Cellular Slime Moulds aggregate into ____.</text>
+            <option id="A">Pseudoplasmodium (slug)</option><option id="B">Hard shell</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Multicellular aggregation without fusion.</explanation>
         </question>
         <question>
-            <text>Members of Phycomycetes are found in:</text>
-            <option id="A">Aquatic habitats and decaying wood</option><option id="B">Only soil</option><option id="C">Only animals</option><option id="D">Dry areas</option>
-            <answer>A</answer><explanation>Moist damp places.</explanation>
+            <text>Mycelium of Phycomycetes is ____.</text>
+            <option id="A">Aseptate and Coenocytic</option><option id="B">Septate</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unique primitive condition.</explanation>
         </question>
         <question>
-            <text>Albugo is a parasitic fungi on:</text>
-            <option id="A">Mustard</option><option id="B">Wheat</option><option id="C">Rice</option><option id="D">Potato</option>
-            <answer>A</answer><explanation>White spots.</explanation>
+            <text>Ascus consists of how many ascospores?</text>
+            <option id="A">8 (usually)</option><option id="B">4</option><option id="C">32</option><option id="D">None</option>
+            <answer>A</answer><explanation>Meiosis followed by one mitosis.</explanation>
         </question>
         <question>
-            <text>Coprophilous fungi grow on:</text>
-            <option id="A">Dung</option><option id="B">Wood</option><option id="C">Leaves</option><option id="D">Animals</option>
-            <answer>A</answer><explanation>Dung lovers.</explanation>
+            <text>Basidium consists of how many basidiospores?</text>
+            <option id="A">4</option><option id="B">8</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard meiosis result.</explanation>
+        </question>
+        <question>
+            <text>Karyogamy in Basidiomycetes is delayed? ____.</text>
+            <option id="A">Yes (long dikaryophase)</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Characteristic of the group.</explanation>
+        </question>
+        <question>
+            <text>Smallest bacteria name? ____.</text>
+            <option id="A">Dialister pneumosintes</option><option id="B">E. coli</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard micro-biology trivial fact.</explanation>
+        </question>
+        <question>
+            <text>Largest bacterium found in sturgeon? ____.</text>
+            <option id="A">Epulopiscium fishelsoni</option><option id="B">Thiomargarita</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Visible to naked eye.</explanation>
+        </question>
+        <question>
+            <text>Kingdom that includes eukaryotes but is mostly unicellular: ____.</text>
+            <option id="A">Protista</option><option id="B">Plantae</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Defined by number of cells.</explanation>
+        </question>
+        <question>
+            <text>Taxonomic classification is an ____ process.</text>
+            <option id="A">Ever-evolving (Refining with new tech)</option><option id="B">Final / Static</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Changes from 2 to 6 kingdoms show this.</explanation>
+        </question>
+        <question>
+            <text>Final check for Biological Classification: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </hard>
 </chapter>

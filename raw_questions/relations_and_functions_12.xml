@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="211" name="Relations and Functions">
+    <easy>
+        <question>
+            <text>A relation R in set A is subset of ____.</text>
+            <option id="A">A x A</option><option id="B">A + A</option><option id="C">A</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cartesian product subset.</explanation>
+        </question>
+        <question>
+            <text>Identity relation I on A has (a,b) in I iff ____.</text>
+            <option id="A">a = b</option><option id="B">a != b</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Every element related only to itself.</explanation>
+        </question>
+        <question>
+            <text>Empty relation contains ____ elements.</text>
+            <option id="A">Zero / Null</option><option id="B">One</option><option id="C">Many</option><option id="D">None</option>
+            <answer>A</answer><explanation>Symbol: phi.</explanation>
+        </question>
+        <question>
+            <text>Universal relation in A is ____.</text>
+            <option id="A">A x A</option><option id="B">A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains all possible pairs.</explanation>
+        </question>
+        <question>
+            <text>R is reflexive if (a,a) belongs to R for ____ a in A.</text>
+            <option id="A">Every</option><option id="B">At least one</option><option id="C">Some</option><option id="D">None</option>
+            <answer>A</answer><explanation>Self-relation requirement.</explanation>
+        </question>
+        <question>
+            <text>R is symmetric if (a,b) in R implies ____.</text>
+            <option id="A">(b,a) in R</option><option id="B">(a,a) in R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Order swap symmetry.</explanation>
+        </question>
+        <question>
+            <text>R is transitive if (a,b) in R and (b,c) in R implies ____.</text>
+            <option id="A">(a,c) in R</option><option id="B">(b,a) in R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Chain linkage requirement.</explanation>
+        </question>
+        <question>
+            <text>A relation which is reflexive, symmetric and transitive is ____.</text>
+            <option id="A">Equivalence relation</option><option id="B">Function</option><option id="C">Partial order</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental classification.</explanation>
+        </question>
+        <question>
+            <text>A function f: A-&gt;B is injective if different inputs have ____.</text>
+            <option id="A">Different outputs</option><option id="B">Same outputs</option><option id="C">No outputs</option><option id="D">None</option>
+            <answer>A</answer><explanation>One-to-one function.</explanation>
+        </question>
+        <question>
+            <text>A function f: A-&gt;B is surjective if Range = ____.</text>
+            <option id="A">Codomain B</option><option id="B">Domain A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Onto function.</explanation>
+        </question>
+        <question>
+            <text>A function which is both injective and surjective is ____.</text>
+            <option id="A">Bijective</option><option id="B">Many-to-one</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Invertible function.</explanation>
+        </question>
+        <question>
+            <text>Inverse of f exists if f is ____.</text>
+            <option id="A">Bijective</option><option id="B">Injective only</option><option id="C">Surjective only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Necessary and sufficient condition.</explanation>
+        </question>
+        <question>
+            <text>Composition of f: A-B and g: B-C is denoted by ____.</text>
+            <option id="A">g o f</option><option id="B">f o g</option><option id="C">f + g</option><option id="D">None</option>
+            <answer>A</answer><explanation>Evaluation g(f(x)).</explanation>
+        </question>
+        <question>
+            <text>A binary operation * on set A is a function from ____.</text>
+            <option id="A">A x A to A</option><option id="B">A to A</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Takes two inputs, gives one output.</explanation>
+        </question>
+        <question>
+            <text>Operation * is commutative if a * b = ____.</text>
+            <option id="A">b * a</option><option id="B">a * a</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Order independent.</explanation>
+        </question>
+        <question>
+            <text>Operation * is associative if (a * b) * c = ____.</text>
+            <option id="A">a * (b * c)</option><option id="B">a * b * c</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Grouping independent.</explanation>
+        </question>
+        <question>
+            <text>Identity element e for * satisfies a * e = e * a = ____.</text>
+            <option id="A">a</option><option id="B">e</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>Neutral element.</explanation>
+        </question>
+        <question>
+            <text>Inverse of a for * is b if a * b = b * a = ____.</text>
+            <option id="A">e (Identity)</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reciprocal-like element.</explanation>
+        </question>
+        <question>
+            <text>Number of relations from set with m elements to set with n elements is ____.</text>
+            <option id="A">2^(mn)</option><option id="B">m x n</option><option id="C">mn^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total subsets of A x B.</explanation>
+        </question>
+        <question>
+            <text>Number of functions from set (m) to set (n) is ____.</text>
+            <option id="A">n^m</option><option id="B">m^n</option><option id="C">m x n</option><option id="D">None</option>
+            <answer>A</answer><explanation>Each of m elements has n choices.</explanation>
+        </question>
+        <question>
+            <text>Set of all first elements of ordered pairs in R is ____.</text>
+            <option id="A">Domain</option><option id="B">Range</option><option id="C">Codomain</option><option id="D">None</option>
+            <answer>A</answer><explanation>Input set.</explanation>
+        </question>
+        <question>
+            <text>Set of all second elements of ordered pairs in R is ____.</text>
+            <option id="A">Range</option><option id="B">Domain</option><option id="C">Codomain</option><option id="D">None</option>
+            <answer>A</answer><explanation>Output subset.</explanation>
+        </question>
+        <question>
+            <text>Identity function f(x) = ____.</text>
+            <option id="A">x</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maps element to itself.</explanation>
+        </question>
+        <question>
+            <text>Constant function f(x) = ____.</text>
+            <option id="A">c (some constant)</option><option id="B">x</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Same output for all inputs.</explanation>
+        </question>
+        <question>
+            <text>Modulus function f(x) = ____.</text>
+            <option id="A">|x|</option><option id="B">x^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Absolute value.</explanation>
+        </question>
+        <question>
+            <text>Signum function sgn(x) = 1 for ____.</text>
+            <option id="A">x &gt; 0</option><option id="B">x &lt; 0</option><option id="C">x = 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Piecewise definition.</explanation>
+        </question>
+        <question>
+            <text>Greatest integer function f(x) = [x] is also called ____.</text>
+            <option id="A">Floor function</option><option id="B">Ceiling function</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Step function.</explanation>
+        </question>
+        <question>
+            <text>If f: R-R, f(x) = x^2, is it injective?</text>
+            <option id="A">No (f(1)=f(-1))</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fails horizontal line test.</explanation>
+        </question>
+        <question>
+            <text>If f: R-R, f(x) = x^3, is it injective?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Strictly increasing.</explanation>
+        </question>
+        <question>
+            <text>Subset of Universal relation is ____.</text>
+            <option id="A">Any relation</option><option id="B">Only Empty</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>By definition of universal set.</explanation>
+        </question>
+        <question>
+            <text>Relation 'is brother of' in a set of females is ____.</text>
+            <option id="A">Empty</option><option id="B">Universal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Logical impossibility.</explanation>
+        </question>
+        <question>
+            <text>Relation 'is sister of' in set of females is ____.</text>
+            <option id="A">Can be universal/any</option><option id="B">Empty always</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Possible pairs.</explanation>
+        </question>
+        <question>
+            <text>A partition of set A is a collection of disjoint sets whose union is ____.</text>
+            <option id="A">A</option><option id="B">phi</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equivalence classes create a partition.</explanation>
+        </question>
+        <question>
+            <text>Range of Signum function is ____.</text>
+            <option id="A">{-1, 0, 1}</option><option id="B">R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Only three possible outputs.</explanation>
+        </question>
+        <question>
+            <text>Range of Modulus function is ____.</text>
+            <option id="A">[0, infinity)</option><option id="B">R</option><option id="C">(-inf, 0]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Never negative.</explanation>
+        </question>
+        <question>
+            <text>A constant function is ____? No. (Except if domain has 1 element).</text>
+            <option id="A">Many-to-one (usually)</option><option id="B">Injective</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>All inputs go to same output.</explanation>
+        </question>
+        <question>
+            <text>Smallest equivalence relation on A is ____.</text>
+            <option id="A">Identity relation I(A)</option><option id="B">phi</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Minimal set for RST properties.</explanation>
+        </question>
+        <question>
+            <text>Largest equivalence relation on A is ____.</text>
+            <option id="A">Universal relation A x A</option><option id="B">A</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Maximum possible pairs.</explanation>
+        </question>
+        <question>
+            <text>Function f: A-B, if A and B have same finite size n, f is inj iff ____.</text>
+            <option id="A">f is surj</option><option id="B">f exists</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Pigeonhole principle implication.</explanation>
+        </question>
+        <question>
+            <text>f(x) = log(x) has domain ____.</text>
+            <option id="A">(0, infinity)</option><option id="B">R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Only for positive numbers.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Composition of two bijections is a ____.</text>
+            <option id="A">Bijection</option><option id="B">Injection only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard theorem.</explanation>
+        </question>
+        <question>
+            <text>f: R-R, f(x) = 2x + 3. Inverse f^-1(y) = ____.</text>
+            <option id="A">(y - 3) / 2</option><option id="B">2y - 3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Solve y = 2x+3 for x.</explanation>
+        </question>
+        <question>
+            <text>A relation R in N defined by (x,y) in R if x+y=10. Is it symmetric?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>x+y = y+x.</explanation>
+        </question>
+        <question>
+            <text>A relation R in N defined by (x,y) in R if x &lt; y. Is it symmetric?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>1 &lt; 2 does not imply 2 &lt; 1.</explanation>
+        </question>
+        <question>
+            <text>Relation R is reflexive if (a,a) in R. If R is identity, it is ____.</text>
+            <option id="A">Also reflexive</option><option id="B">Not reflexive</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>ID is a special case of reflexive.</explanation>
+        </question>
+        <question>
+            <text>If n(A) = 3, n(B) = 4, number of injective functions A-B is ____.</text>
+            <option id="A">4 x 3 x 2 = 24</option><option id="B">12</option><option id="C">64</option><option id="D">None</option>
+            <answer>A</answer><explanation>nPm = 4P3.</explanation>
+        </question>
+        <question>
+            <text>If n(A) = 4, n(B) = 3, number of injective functions A-B is ____.</text>
+            <option id="A">0</option><option id="B">12</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>m &gt; n, pigeonhole principle.</explanation>
+        </question>
+        <question>
+            <text>For any function f, f o I(A) = ____.</text>
+            <option id="A">f</option><option id="B">I(A)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity function property.</explanation>
+        </question>
+        <question>
+            <text>For any invertible function f, f o f^-1 = ____.</text>
+            <option id="A">I(A) / I(B)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inverse property.</explanation>
+        </question>
+        <question>
+            <text>Total number of binary operations on set with n elements is ____.</text>
+            <option id="A">n^(n^2)</option><option id="B">2^n</option><option id="C">n^n</option><option id="D">None</option>
+            <answer>A</answer><explanation>Functions from A x A to A.</explanation>
+        </question>
+        <question>
+            <text>Operation + on N is ____ but - is NOT.</text>
+            <option id="A">Closed</option><option id="B">Open</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substraction can lead to negatives (not in N).</explanation>
+        </question>
+        <question>
+            <text>Identity for + on Z is ____.</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>a + 0 = a.</explanation>
+        </question>
+        <question>
+            <text>Identity for x on Z is ____.</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>a x 1 = a.</explanation>
+        </question>
+        <question>
+            <text>Inverse of integer a under + is ____.</text>
+            <option id="A">-a</option><option id="B">1/a</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Add to zero.</explanation>
+        </question>
+        <question>
+            <text>Inverse of non-zero rational a under x is ____.</text>
+            <option id="A">1/a</option><option id="B">-a</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Multiply to one.</explanation>
+        </question>
+        <question>
+            <text>Number of commutative binary operations on set with n elements is ____.</text>
+            <option id="A">n ^ [n(n+1)/2]</option><option id="B">n^n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Combinatorics of symmetric table.</explanation>
+        </question>
+        <question>
+            <text>A relation R in R defined by xRy if x^2 + y^2 = 1 is ____.</text>
+            <option id="A">Symmetric</option><option id="B">Reflexive? No (1,1) fails. Transitive? No.</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Switching x and y doesn't change sum.</explanation>
+        </question>
+        <question>
+            <text>Relation R = {(1,2), (2,1)} on {1,2,3}. It is ____ only.</text>
+            <option id="A">Symmetric</option><option id="B">Reflexive</option><option id="C">Transitive</option><option id="D">None</option>
+            <answer>A</answer><explanation>Checks for (1,1) etc fail.</explanation>
+        </question>
+        <question>
+            <text>If n(A) = n, total number of reflexive relations is ____.</text>
+            <option id="A">2^(n^2 - n)</option><option id="B">2^(n^2)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Diagonal pairs (n) must be in R. Rest (n^2-n) are choice.</explanation>
+        </question>
+        <question>
+            <text>Number of symmetric relations on set A (n) is ____.</text>
+            <option id="A">2^[n(n+1)/2]</option><option id="B">2^n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Independent pairs in upper triangle + diagonal.</explanation>
+        </question>
+        <question>
+            <text>If f: A-B and g: B-C are injections, g o f is ____.</text>
+            <option id="A">Injection</option><option id="B">Surjection</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direct property.</explanation>
+        </question>
+        <question>
+            <text>If f: A-B and g: B-C are surjections, g o f is ____.</text>
+            <option id="A">Surjection</option><option id="B">Injection</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Direct property.</explanation>
+        </question>
+        <question>
+            <text>Which function is its own inverse?</text>
+            <option id="A">1/x (for non-zero x)</option><option id="B">x^2</option><option id="C">log(x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reciprocal of reciprocal is original.</explanation>
+        </question>
+        <question>
+            <text>f(x) = sin(x) is bijective if restricted to ____.</text>
+            <option id="A">[-pi/2, pi/2]</option><option id="B">[0, pi]</option><option id="C">R</option><option id="D">None</option>
+            <answer>A</answer><explanation>Principal value branch.</explanation>
+        </question>
+        <question>
+            <text>f(x) = cos(x) is bijective if restricted to ____.</text>
+            <option id="A">[0, pi]</option><option id="B">[-pi/2, pi/2]</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Principal value branch.</explanation>
+        </question>
+        <question>
+            <text>A linear function f(x) = ax + b (a!=0) is ____ on R.</text>
+            <option id="A">Bijective</option><option id="B">Injective only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Continuous and strictly monotonic.</explanation>
+        </question>
+        <question>
+            <text>Value of [1.9] is ____.</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">1.9</option><option id="D">None</option>
+            <answer>A</answer><explanation>Floor function result.</explanation>
+        </question>
+        <question>
+            <text>Value of [-1.1] is ____.</text>
+            <option id="A">-2</option><option id="B">-1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Floor function result on negative.</explanation>
+        </question>
+        <question>
+            <text>Identity element for subtraction on Z is ____.</text>
+            <option id="A">None (0 works for a-0, but 0-a != a)</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Requires two-sided identity.</explanation>
+        </question>
+        <question>
+            <text>Relation R = {(a,b) : a <= b} on R is ____.</text>
+            <option id="A">Reflexive and Transitive</option><option id="B">Symmetric</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Order relations standard properties.</explanation>
+        </question>
+        <question>
+            <text>Function f(x) = tan(x) is NOT defined at ____.</text>
+            <option id="A">Odd multiples of pi/2</option><option id="B">Multiples of pi</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Asymptotic points.</explanation>
+        </question>
+        <question>
+            <text>Set of integers Z has ____ cardinality.</text>
+            <option id="A">Countable infinity</option><option id="B">Finite</option><option id="C">Uncountable</option><option id="D">None</option>
+            <answer>A</answer><explanation>Can be mapped to N.</explanation>
+        </question>
+        <question>
+            <text>Set of real numbers R has ____ cardinality.</text>
+            <option id="A">Uncountable infinity</option><option id="B">Countable</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cannot be mapped to N (Cantor's proof).</explanation>
+        </question>
+        <question>
+            <text>Is 'smaller than' in set of circles an equivalence relation?</text>
+            <option id="A">No (not reflexive/symmetric)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Strict inequality never RST.</explanation>
+        </question>
+        <question>
+            <text>Is 'congruent to' for triangles an equivalence relation?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Satisfies RST.</explanation>
+        </question>
+        <question>
+            <text>Is 'similar to' for triangles an equivalence relation?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Satisfies RST.</explanation>
+        </question>
+        <question>
+            <text>Complement of surjective property: if f not surj, it is ____.</text>
+            <option id="A">Into function</option><option id="B">Onto</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Range is proper subset of codomain.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = 1 / sqrt(x-1) is ____.</text>
+            <option id="A">(1, infinity)</option><option id="B">[1, infinity)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Must be positive and non-zero.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = x^2 + 1 is ____.</text>
+            <option id="A">[1, infinity)</option><option id="B">R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Offset from zero.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = constant c is ____.</text>
+            <option id="A">{c}</option><option id="B">R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Single point set.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Total number of equivalence relations on set {1, 2, 3} is ____.</text>
+            <option id="A">5 (Bell number B3)</option><option id="B">3</option><option id="C">8</option><option id="D">None</option>
+            <answer>A</answer><explanation>Partition combinations.</explanation>
+        </question>
+        <question>
+            <text>Total number of surjective functions from set (n) to set (2) is ____.</text>
+            <option id="A">2^n - 2</option><option id="B">2^n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Total (2^n) minus two constant functions.</explanation>
+        </question>
+        <question>
+            <text>Relationship for equivalence classes: [a] = [b] iff ____.</text>
+            <option id="A">(a,b) in R</option><option id="B">a=b</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Elements in same class relate.</explanation>
+        </question>
+        <question>
+            <text>If g o f is injective, then f must be ____.</text>
+            <option id="A">Injective</option><option id="B">Surjective</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard logic proof.</explanation>
+        </question>
+        <question>
+            <text>If g o f is surjective, then g must be ____.</text>
+            <option id="A">Surjective</option><option id="B">Injective</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard logic proof.</explanation>
+        </question>
+        <question>
+            <text>Is f(x) = |x|/x (sgn) surjective onto R?</text>
+            <option id="A">No (Range has 2/3 elements)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fails to hit other reals.</explanation>
+        </question>
+        <question>
+            <text>Identity of * on P(A) defined by A * B = A ∩ B is ____.</text>
+            <option id="A">Universal set A</option><option id="B">phi</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>A ∩ X = X.</explanation>
+        </question>
+        <question>
+            <text>Identity of * on P(A) defined by A * B = A ∪ B is ____.</text>
+            <option id="A">phi</option><option id="B">A</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>X ∪ phi = X.</explanation>
+        </question>
+        <question>
+            <text>Is matrix multiplication commutative?</text>
+            <option id="A">No (usually AB != BA)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Basic property of linear algebra.</explanation>
+        </question>
+        <question>
+            <text>Inverse of f(x) = (ax+b)/(cx+d): interchange a,d with signs? No. f^-1(x) = ____.</text>
+            <option id="A">(dx - b) / (-cx + a)</option><option id="B">Same</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Formula for inverse of linear fractional transformation.</explanation>
+        </question>
+        <question>
+            <text>Number of reflexive relations on {1,2} (n=2):</text>
+            <option id="A">4 (2^(4-2))</option><option id="B">2</option><option id="C">16</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculation check.</explanation>
+        </question>
+        <question>
+            <text>Condition for symmetry: (a,b) in R implies (b,a) in R. What if R is empty?</text>
+            <option id="A">Vacuously symmetric</option><option id="B">Not symmetric</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>IF-part never true, so logic holds.</explanation>
+        </question>
+        <question>
+            <text>If f: A-B and g: B-A such that g o f = I(A) and f o g = I(B), then g is ____.</text>
+            <option id="A">f^-1</option><option id="B">f</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Uniqueness of inverse.</explanation>
+        </question>
+        <question>
+            <text>A group is a set with binary operation that is ____.</text>
+            <option id="A">Associative, has identity, has inverse</option><option id="B">Only commutative</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Abstract algebra basics.</explanation>
+        </question>
+        <question>
+            <text>Is (Z, -) a group?</text>
+            <option id="A">No (Not associative)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(1-2)-3 != 1-(2-3).</explanation>
+        </question>
+        <question>
+            <text>Is (R, +) a group?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard abelian group.</explanation>
+        </question>
+        <question>
+            <text>Relation R is antisymmetric if (a,b) in R and (b,a) in R implies ____.</text>
+            <option id="A">a = b</option><option id="B">a != b</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Characteristic of partial orders.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is an antisymmetric relation?</text>
+            <option id="A">Less than or equal to (<=)</option><option id="B">Equality only? No. Equal is also symmetric.</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>If a<=b and b<=a then a=b.</explanation>
+        </question>
+        <question>
+            <text>Number of elements in equivalence class [a] is always same for all a?</text>
+            <option id="A">No (e.g. partition subsets can vary in size)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Depends on specific relation structure.</explanation>
+        </question>
+        <question>
+            <text>If n(A)=n, number of bijective functions f: A-A is ____.</text>
+            <option id="A">n!</option><option id="B">2^n</option><option id="C">n^n</option><option id="D">None</option>
+            <answer>A</answer><explanation>Permutations of n elements.</explanation>
+        </question>
+        <question>
+            <text>Can the product of two functions with different domains be found?</text>
+            <option id="A">Yes, on the intersection of domains</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Common inputs needed.</explanation>
+        </question>
+        <question>
+            <text>Domain of f(x) = sqrt(1-x^2) is ____.</text>
+            <option id="A">[-1, 1]</option><option id="B">(-1, 1)</option><option id="C">R</option><option id="D">None</option>
+            <answer>A</answer><explanation>1-x^2 >= 0.</explanation>
+        </question>
+        <question>
+            <text>Range of f(x) = cot(x) is ____.</text>
+            <option id="A">R</option><option id="B">[-1, 1]</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Follows tangent range.</explanation>
+        </question>
+        <question>
+            <text>Composition f o g is defined if Range(g) is subset of ____.</text>
+            <option id="A">Domain(f)</option><option id="B">Codomain(f)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inputs must be valid for f.</explanation>
+        </question>
+        <question>
+            <text>Is f o (g+h) = f o g + f o h always true?</text>
+            <option id="A">No (Composition doesn't distribute over addition usually)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>f(g(x)+h(x)) != f(g(x)) + f(h(x)) in general.</explanation>
+        </question>
+        <question>
+            <text>Is (g+h) o f = g o f + h o f always true?</text>
+            <option id="A">Yes (Addition of functions at specific point f(x))</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(g+h)(f(x)) = g(f(x)) + h(f(x)).</explanation>
+        </question>
+        <question>
+            <text>Binary operation on R defined by a*b = 1 + ab. Is it associative?</text>
+            <option id="A">No (a*(b*c) = 1 + a(1+bc) = 1+a+abc)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(a*b)*c = 1+(1+ab)c = 1+c+abc. Differs in mid term.</explanation>
+        </question>
+        <question>
+            <text>Binary operation on R defined by a*b = a+b/2. Is it associative?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard counter example for average op.</explanation>
+        </question>
+        <question>
+            <text>A bijective function from set A to itself is called ____.</text>
+            <option id="A">Permutation</option><option id="B">Subset</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reordering of elements.</explanation>
+        </question>
+        <question>
+            <text>The identity relation on A is symmetric? Yes. Transitive? Yes. Reflexive? Yes.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Purest equivalence relation.</explanation>
+        </question>
+        <question>
+            <text>Is the relation 'perpendicular to' in set of lines an equivalence relation?</text>
+            <option id="A">No (Not reflexive, line not perp to itself)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Also not transitive (perp to perp is parallel).</explanation>
+        </question>
+        <question>
+            <text>Is 'parallel to' in set of lines an equivalence relation?</text>
+            <option id="A">Yes (if we include line parallel to itself)</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard equivalence example.</explanation>
+        </question>
+        <question>
+            <text>Function f: Z-Z, f(n) = n+1 is ____.</text>
+            <option id="A">Bijective</option><option id="B">Into</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Successor function on integers covers all.</explanation>
+        </question>
+        <question>
+            <text>Function f: N-N, f(n) = n+1 is ____.</text>
+            <option id="A">Injective but NOT surjective</option><option id="B">Bijective</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Hits no n=1 in codomain N.</explanation>
+        </question>
+        <question>
+            <text>Operation * on set with 1 element has ____ possibilities.</text>
+            <option id="A">1 (1^(1^2) = 1)</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fixed value only.</explanation>
+        </question>
+        <question>
+            <text>Dual of (A ∪ B) ∩ C is ____.</text>
+            <option id="A">(A ∩ B) ∪ C</option><option id="B">Same</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Swap ops.</explanation>
+        </question>
+        <question>
+            <text>Is set of rational numbers Q a subgroup of (R, +)?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Maintains group properties.</explanation>
+        </question>
+        <question>
+            <text>Identity element of a group is ____.</text>
+            <option id="A">Unique</option><option id="B">Depends on inverse</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proven by contradiction.</explanation>
+        </question>
+        <question>
+            <text>Inverse of (a * b) in group is ____.</text>
+            <option id="A">b^-1 * a^-1 (Socks and shoes rule)</option><option id="B">a^-1 * b^-1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reverse order requirement.</explanation>
+        </question>
+        <question>
+            <text>Final check for relations and functions: reach 120 count?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
+        </question>
+    </hard>
+</chapter>

@@ -6,10 +6,7 @@ import { sampleQuestion } from "@/lib/data";
 
 export default function MockLivePage() {
   return (
-    <DashboardShell
-      title="Real exam simulation"
-      subtitle="A focused three-panel exam interface designed to mirror serious test-taking conditions."
-    >
+    <DashboardShell>
       <section className="grid gap-6 xl:grid-cols-[260px_minmax(0,1fr)_280px]">
         <Card className="rounded-[30px] p-5">
           <div className="flex items-center gap-2 text-sm text-brand-4">

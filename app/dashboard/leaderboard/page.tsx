@@ -6,10 +6,7 @@ export default function LeaderboardPage() {
   const topThree = leaderboard.slice(0, 3);
 
   return (
-    <DashboardShell
-      title="Leaderboard"
-      subtitle="Healthy competition, consistency rewards, and visible momentum for ambitious students."
-    >
+    <DashboardShell>
       <section className="grid gap-6 xl:grid-cols-[0.9fr_1.1fr]">
         <Card className="rounded-[32px] border-slate-200 bg-[linear-gradient(135deg,#0f1435,#191f4d)] p-6 text-white">
           <div className="text-sm uppercase tracking-[0.2em] text-indigo-200">Top momentum</div>

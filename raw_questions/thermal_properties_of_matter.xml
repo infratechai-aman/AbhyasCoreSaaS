@@ -1,99 +1,584 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Physics" id="10" name="Thermal Properties of Matter">
+<chapter subject="Physics" id="110" name="Thermal Properties of Matter">
     <easy>
         <question>
-            <text>SI unit of Heat:</text>
-            <option id="A">Joule</option><option id="B">Calorie</option><option id="C">Watt</option><option id="D">Kelvin</option>
-            <answer>A</answer><explanation>Energy form.</explanation>
+            <text>Degrees of hotness or coldness of a body is called ____.</text>
+            <option id="A">Temperature</option><option id="B">Heat</option><option id="C">Energy</option><option id="D">None</option>
+            <answer>A</answer><explanation>Measured using thermometers.</explanation>
         </question>
         <question>
-            <text>Absolute Zero is temperature where:</text>
-            <option id="A">Molecular motion ceases</option><option id="B">Water freezes</option><option id="C">Volume becomes max</option><option id="D">Pressure becomes max</option>
-            <answer>A</answer><explanation>0 Kelvin.</explanation>
+            <text>Form of energy that flows from body at higher temp to lower temp is ____.</text>
+            <option id="A">Heat</option><option id="B">Temperature</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Energy in transit.</explanation>
         </question>
         <question>
-            <text>Triple point of water involves:</text>
-            <option id="A">Ice, Water, Vapor in equilibrium</option><option id="B">Ice and Water</option><option id="C">Water and Vapor</option><option id="D">All gases</option>
-            <answer>A</answer><explanation>Specific P, T.</explanation>
+            <text>SI unit of Heat is ____.</text>
+            <option id="A">Joule (J)</option><option id="B">Calorie</option><option id="C">Celsius</option><option id="D">None</option>
+            <answer>A</answer><explanation>Metric unit of energy.</explanation>
         </question>
         <question>
-            <text>Relationship between Celsius and Kelvin:</text>
-            <option id="A">K = C + 273.15</option><option id="B">K = C - 273.15</option><option id="C">K = 273 C</option><option id="D">No relation</option>
-            <answer>A</answer><explanation>Offset.</explanation>
+            <text>SI unit of Temperature is ____.</text>
+            <option id="A">Kelvin (K)</option><option id="B">Celsius</option><option id="C">Fahrenheit</option><option id="D">None</option>
+            <answer>A</answer><explanation>Absolute scale.</explanation>
         </question>
         <question>
-            <text>1 Calorie is approximately:</text>
-            <option id="A">4.18 Joules</option><option id="B">1 Joule</option><option id="C">10 Joules</option><option id="D">4.18 ergs</option>
-            <answer>A</answer><explanation>Mechanical equivalent of heat.</explanation>
+            <text>Normal human body temperature is approx ____ Celsius.</text>
+            <option id="A">37</option><option id="B">98.6</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equivalent to 98.6 Fahrenheit.</explanation>
         </question>
         <question>
-            <text>Heat capacity depends on:</text>
-            <option id="A">Mass and nature of substance</option><option id="B">Temperature change needed</option><option id="C">Time</option><option id="D">Rate</option>
-            <answer>A</answer><explanation>ms.</explanation>
+            <text>Triple point of water is ____ Kelvin.</text>
+            <option id="A">273.16</option><option id="B">273.15</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Point where all three phases coexist.</explanation>
         </question>
         <question>
-            <text>Latent heat involves change of:</text>
-            <option id="A">State</option><option id="B">Temperature</option><option id="C">Pressure</option><option id="D">Volume only</option>
-            <answer>A</answer><explanation>Temperature remains constant.</explanation>
+            <text>Increase in dimensions of a body due to heating is ____.</text>
+            <option id="A">Thermal Expansion</option><option id="B">Conduction</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Result of increased molecular vibrations.</explanation>
+        </question>
+        <question>
+            <text>Expansion in length is called ____ expansion.</text>
+            <option id="A">Linear</option><option id="B">Areal</option><option id="C">Volume</option><option id="D">None</option>
+            <answer>A</answer><explanation>Defined by coefficient α.</explanation>
+        </question>
+        <question>
+            <text>Coefficient of linear expansion is denoted by ____.</text>
+            <option id="A">α (Alpha)</option><option id="B">β (Beta)</option><option id="C">γ (Gamma)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Units per degree Celsius or Kelvin.</explanation>
+        </question>
+        <question>
+            <text>Relationship between ΔL, L and ΔT is ΔL = ____.</text>
+            <option id="A">α L ΔT</option><option id="B">α L / ΔT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Linear relationship for small temp changes.</explanation>
+        </question>
+        <question>
+            <text>Coeff of volume expansion is approx ____ times coeff of linear expansion.</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>γ = 3α for isotropic solids.</explanation>
+        </question>
+        <question>
+            <text>Water has maximum density at ____ Celsius.</text>
+            <option id="A">4</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Anomalous expansion property.</explanation>
+        </question>
+        <question>
+            <text>Amount of heat needed to raise temp of 1kg of substance by 1K is ____.</text>
+            <option id="A">Specific Heat Capacity (s)</option><option id="B">Latent Heat</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Property of the material.</explanation>
+        </question>
+        <question>
+            <text>Heat required to change state of unit mass without temp change is ____.</text>
+            <option id="A">Latent Heat (L)</option><option id="B">Specific Heat</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Hidden heat used to break bonds.</explanation>
+        </question>
+        <question>
+            <text>Latent heat of fusion of ice is approx ____ J/kg.</text>
+            <option id="A">3.33 x 10^5</option><option id="B">2.26 x 10^6</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Heat for melting ice at 0 deg C.</explanation>
+        </question>
+        <question>
+            <text>Latent heat of vaporization of water is approx ____ J/kg.</text>
+            <option id="A">22.6 x 10^5 / 2.26 x 10^6</option><option id="B">3.33 x 10^5</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Heat for boiling water at 100 deg C.</explanation>
+        </question>
+        <question>
+            <text>Process of heat transfer in solids by vibration interaction is ____.</text>
+            <option id="A">Conduction</option><option id="B">Convection</option><option id="C">Radiation</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires medium and direct contact.</explanation>
+        </question>
+        <question>
+            <text>Process of heat transfer in fluids by bulk motion of matter is ____.</text>
+            <option id="A">Convection</option><option id="B">Conduction</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Natural or forced.</explanation>
+        </question>
+        <question>
+            <text>Process of heat transfer requiring no medium is ____.</text>
+            <option id="A">Radiation</option><option id="B">Conduction</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Through electromagnetic waves (infrared).</explanation>
+        </question>
+        <question>
+            <text>Rate of loss of heat proportional to temp difference is ____ Law of Cooling.</text>
+            <option id="A">Newton's</option><option id="B">Stefan's</option><option id="C">Wien's</option><option id="D">None</option>
+            <answer>A</answer><explanation>Valid for small temp differences.</explanation>
+        </question>
+        <question>
+            <text>Ideal gas scale of temperature is based on ____ of gas at constant volume.</text>
+            <option id="A">Pressure</option><option id="B">Density</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>P ∝ T at constant V.</explanation>
+        </question>
+        <question>
+            <text>Absolute zero is ____ on Celsius scale.</text>
+            <option id="A">-273.15</option><option id="B">0</option><option id="C">-100</option><option id="D">None</option>
+            <answer>A</answer><explanation>Entropy and enthalpy reach minimum.</explanation>
+        </question>
+        <question>
+            <text>Relation between C and F temperature: C/5 = ____.</text>
+            <option id="A">(F - 32) / 9</option><option id="B">F / 9</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Conversion formula.</explanation>
+        </question>
+        <question>
+            <text>Bimetallic strip used in thermostats works on difference in ____.</text>
+            <option id="A">Coeff of expansion</option><option id="B">Specific heat</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Strips bend toward material with lower expansion.</explanation>
+        </question>
+        <question>
+            <text>Change from solid to direct vapor state is ____.</text>
+            <option id="A">Sublimation</option><option id="B">Melting</option><option id="C">Freezing</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Camphor, Dry Ice.</explanation>
+        </question>
+        <question>
+            <text>Device that isolates system from thermal contact with surroundings is ____.</text>
+            <option id="A">Calorimeter (Dewar flask / Thermos)</option><option id="B">Manometer</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Minimizes conduction, convection and radiation.</explanation>
+        </question>
+        <question>
+            <text>Regelation is melting of ice under ____ and refreezing when removed.</text>
+            <option id="A">Pressure</option><option id="B">Vacuum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basis of making snowballs.</explanation>
+        </question>
+        <question>
+            <text>Boiling point of liquid ____ with increase in pressure.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Remains same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reason why pressure cookers cook faster.</explanation>
+        </question>
+        <question>
+            <text>Thermal conductivity SI unit is ____.</text>
+            <option id="A">W / (m.K)</option><option id="B">J/K</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Watts per meter per Kelvin.</explanation>
+        </question>
+        <question>
+            <text>Stefan-Boltzmann Law: E = ____.</text>
+            <option id="A">σ T^4</option><option id="B">σ T^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy emitted per unit area per sec.</explanation>
+        </question>
+        <question>
+            <text>Wien's Displacement Law: λ_max T = ____.</text>
+            <option id="A">Constant (b)</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Peak wavelength shifts to lower values as T increases.</explanation>
+        </question>
+        <question>
+            <text>Specific heat capacity of water is approx ____ J/(kg.K).</text>
+            <option id="A">4186 / 4200</option><option id="B">1000</option><option id="C">500</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relatively high compared to most substances.</explanation>
+        </question>
+        <question>
+            <text>Unit of Heat '1 calorie' is energy to raise 1g water by 1 deg C at ____ atm.</text>
+            <option id="A">1</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Specifically between 14.5 and 15.5 C usually.</explanation>
+        </question>
+        <question>
+            <text>Which state of matter has highest thermal expansion?</text>
+            <option id="A">Gases</option><option id="B">Liquids</option><option id="C">Solids</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intermolecular forces are weakest.</explanation>
+        </question>
+        <question>
+            <text>In a liquid, the bulk expansion is denoted by ____.</text>
+            <option id="A">γ (Gamma)</option><option id="B">α</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Characteristic of fluids.</explanation>
+        </question>
+        <question>
+            <text>Black body is a perfect ____ and ____ of radiation.</text>
+            <option id="A">Absorber / Emitter</option><option id="B">Reflector</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Absorbs all wavelengths incident on it.</explanation>
+        </question>
+        <question>
+            <text>Emissivity of a black body is ____.</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">0.5</option><option id="D">None</option>
+            <answer>A</answer><explanation>Theoretical maximum.</explanation>
+        </question>
+        <question>
+            <text>Kirchhoff's Law of Radiation: a_λ = ____.</text>
+            <option id="A">e_λ (Absorptivity = Emissivity)</option><option id="B">1 - e_λ</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Good absorbers are good emitters.</explanation>
+        </question>
+        <question>
+            <text>Heat capacity S = ____.</text>
+            <option id="A">m x s (Mass x specific heat)</option><option id="B">m / s</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Total heat for entire body per degree.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of gases is defined at ____ or ____.</text>
+            <option id="A">Constant P / Constant V</option><option id="B">Constant T</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>C_p and C_v.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>Latent heat of steam is:</text>
-            <option id="A">540 cal/g</option><option id="B">80 cal/g</option><option id="C">540 J/kg</option><option id="D">80 J/kg</option>
-            <answer>A</answer><explanation>Standard value.</explanation>
+            <text>Relationship between expansion coefficients: α : β : γ = ____.</text>
+            <option id="A">1 : 2 : 3</option><option id="B">1 : 1 : 1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>For isotropic solids.</explanation>
         </question>
         <question>
-            <text>During melting of ice at 0 deg C:</text>
-            <option id="A">Q > 0, W &lt; 0 (slight), dU > 0</option><option id="B">dU = 0</option><option id="C">Temp rises</option><option id="D">Adiabatic</option>
-            <answer>A</answer><explanation>Ice contracts on melting, W neg. Heat absorbed, U increases. T const.</explanation>
+            <text>Temperature at which Celsius and Fahrenheit scales read same is ____.</text>
+            <option id="A">-40</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solving C/5 = (C-32)/9 gives C = -40.</explanation>
         </question>
         <question>
-            <text>A bullet hits a target and stops. 50% energy heats bullet. Rise in T?</text>
-            <option id="A">v^2 / 4s</option><option id="B">v^2 / 2s</option><option id="C">mv^2 / 2s</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>0.5 * 0.5 mv^2 = ms dT. dT = v^2/4s (s=specific heat).</explanation>
+            <text>Mercury is used in thermometers because it has ____ expansion.</text>
+            <option id="A">Uniform and high</option><option id="B">Low</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also doesn't wet glass and is opaque.</explanation>
         </question>
         <question>
-            <text>100g of ice at 0 mixed with 100g water at 80. Final temp?</text>
-            <option id="A">0 deg C</option><option id="B">40 deg C</option><option id="C">20 deg C</option><option id="D">10 deg C</option>
-            <answer>A</answer><explanation>Heat from water: 100*1*80 = 8000 cal. Heat to melt ice: 100*80 = 8000 cal. All ice melts, no heat left to raise temp. Mix at 0.</explanation>
+            <text>Molar heat capacity C = ____.</text>
+            <option id="A">ΔQ / (n ΔT)</option><option id="B">ΔQ / (m ΔT)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Heat per mole per degree.</explanation>
         </question>
         <question>
-            <text>Change in entropy when 1g ice melts at 0C?</text>
-            <option id="A">0.293 cal/K</option><option id="B">80 cal/K</option><option id="C">Zero</option><option id="D">Infinite</option>
-            <answer>A</answer><explanation>dS = dQ/T = 80 cal / 273 K = 0.293.</explanation>
+            <text>Mayer's Formula for ideal gas: C_p - C_v = ____.</text>
+            <option id="A">R (Gas constant)</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Work done in expansion at constant P.</explanation>
         </question>
         <question>
-            <text>Molar heat capacity of water?</text>
-            <option id="A">~ 75 J/mol K</option><option id="B">4.18 J/mol K</option><option id="C">18 J/mol K</option><option id="D">4200 J/mol K</option>
-            <answer>A</answer><explanation>18g * 4.18 J/g K = 75.24.</explanation>
+            <text>Dulong and Petit's Law: Molar heat capacity of solids is approx ____.</text>
+            <option id="A">3R</option><option id="B">R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>At high temperatures for most elements.</explanation>
+        </question>
+        <question>
+            <text>Latent heat involves change in ____ energy.</text>
+            <option id="A">Potential (Molecular configuration)</option><option id="B">Kinetic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Temp doesn't rise, so kinetic energy stays constant.</explanation>
+        </question>
+        <question>
+            <text>Thermal resistance of a conductor is R = ____.</text>
+            <option id="A">L / (k A)</option><option id="B">k A / L</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Analogous to electrical resistance.</explanation>
+        </question>
+        <question>
+            <text>Rate of heat conduction H = ____.</text>
+            <option id="A">k A (T1 - T2) / L</option><option id="B">k L / (A ΔT)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fourier's Law of conduction.</explanation>
+        </question>
+        <question>
+            <text>Stefan's constant σ is approx ____ W / (m^2 K^4).</text>
+            <option id="A">5.67 x 10^-8</option><option id="B">6.63 x 10^-34</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental constant of radiation.</explanation>
+        </question>
+        <question>
+            <text>Wien's constant b is approx ____ m.K.</text>
+            <option id="A">2.9 x 10^-3</option><option id="B">1.0 x 10^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Peak wavelength multiplier.</explanation>
+        </question>
+        <question>
+            <text>Anomalous expansion of water allows life in ____ lakes.</text>
+            <option id="A">Frozen (Top layer ice, bottom 4C water)</option><option id="B">Hot</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Prevents deep freezing of large bodies.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of water is max at ____ temperature? No. It's high throughout liquid range.</text>
+            <option id="A">Room temp approx</option><option id="B">100 C</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>4200 J/kgK is extremely large.</explanation>
+        </question>
+        <question>
+            <text>Coefficient of thermal expansion for gases at constant P is ____.</text>
+            <option id="A">1 / T</option><option id="B">Zero</option><option id="C">alpha</option><option id="D">None</option>
+            <answer>A</answer><explanation>From PV = nRT, V ∝ T implies ΔV/V = ΔT/T.</explanation>
+        </question>
+        <question>
+            <text>Solar constant is energy received from sun per unit ____ per unit time.</text>
+            <option id="A">Area (Normal to rays)</option><option id="B">Volume</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Approx 1360 W/m^2 at Earth's distance.</explanation>
+        </question>
+        <question>
+            <text>Greenhouse effect is due to trap of ____ radiation by atmosphere.</text>
+            <option id="A">Infrared</option><option id="B">UV</option><option id="C">Visible</option><option id="D">None</option>
+            <answer>A</answer><explanation>CO2 and Water vapor are transparent to visible but opaque to IR.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of steam is ____ than water.</text>
+            <option id="A">Lower (~2000 J/kgK)</option><option id="B">Higher</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Different phase properties.</explanation>
+        </question>
+        <question>
+            <text>Density of ice is ____ than water at 0 Celsius.</text>
+            <option id="A">Less</option><option id="B">More</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reason why ice floats.</explanation>
+        </question>
+        <question>
+            <text>Thermal conductivity of air is ____ than metals.</text>
+            <option id="A">Much lower</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Trapped air is a good insulator.</explanation>
+        </question>
+        <question>
+            <text>Equivalent thermal conductivity of two rods in series: K = ____.</text>
+            <option id="A">2 K1 K2 / (K1 + K2)</option><option id="B">(K1 + K2) / 2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Harmonic mean for equal lengths.</explanation>
+        </question>
+        <question>
+            <text>Equivalent thermal conductivity of two rods in parallel: K = ____.</text>
+            <option id="A">(K1 + K2) / 2</option><option id="B">2 K1 K2 / (K1 + K2)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Arithmetic mean for equal areas.</explanation>
+        </question>
+        <question>
+            <text>Sea breeze occurs during ____ due to convection.</text>
+            <option id="A">Day</option><option id="B">Night</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Land heats faster than water.</explanation>
+        </question>
+        <question>
+            <text>Land breeze occurs during ____.</text>
+            <option id="A">Night</option><option id="B">Day</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Land cools faster than water.</explanation>
+        </question>
+        <question>
+            <text>Calorimetry principle: Heat Lost = ____.</text>
+            <option id="A">Heat Gained</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conservation of energy in isolated thermal system.</explanation>
+        </question>
+        <question>
+            <text>Melting point of paraffin wax ____ with increase in pressure.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Expansion on melting occurs.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of most materials ____ as temperature approaches absolute zero.</text>
+            <option id="A">Decreases to zero</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Third Law of Thermodynamics implication.</explanation>
+        </question>
+        <question>
+            <text>Ideal gas law assumes molecules are ____ points.</text>
+            <option id="A">Massive</option><option id="B">Non-existent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Negligible volume and no interaction.</explanation>
+        </question>
+        <question>
+            <text>In convection, heat transfer is ____ in upward direction.</text>
+            <option id="A">Maximum</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hot fluid rises due to buoyancy.</explanation>
+        </question>
+        <question>
+            <text>Emissive power E is energy per unit ____ per unit ____.</text>
+            <option id="A">Area , Time</option><option id="B">Volume, Time</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Basic radiation definition.</explanation>
+        </question>
+        <question>
+            <text>Blackened surface has high ____ power.</text>
+            <option id="A">Emissive (and absorptive)</option><option id="B">Reflective</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Good radiator.</explanation>
+        </question>
+        <question>
+            <text>Shiny surface has high ____ power.</text>
+            <option id="A">Reflective</option><option id="B">Absorptive</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Poor emitter.</explanation>
+        </question>
+        <question>
+            <text>Pressure cooker works by raising liquid ____.</text>
+            <option id="A">Boiling Point</option><option id="B">Melting Point</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High pressure allows water to be liquid at > 100 C.</explanation>
+        </question>
+        <question>
+            <text>Slab of ice melting at 0 Celsius in a room at 25 Celsius. Heat transfer is ____.</text>
+            <option id="A">Positive into ice</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Direction is from hot to cold.</explanation>
+        </question>
+        <question>
+            <text>Coefficient of thermal expansion of steel is approx ____ x 10^-6 /K.</text>
+            <option id="A">12</option><option id="B">1</option><option id="C">100</option><option id="D">None</option>
+            <answer>A</answer><explanation>Similar to concrete (good for reinforced concrete).</explanation>
+        </question>
+        <question>
+            <text>Water expansion has a 'dip' at ____ C.</text>
+            <option id="A">4</option><option id="B">0</option><option id="C">10</option><option id="D">None</option>
+            <answer>A</answer><explanation>Volume is lowest there.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of liquids is usually ____ than solids.</text>
+            <option id="A">Higher</option><option id="B">Lower</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>More degrees of freedom / fluid nature.</explanation>
+        </question>
+        <question>
+            <text>Phase diagram shows state at specific P and ____.</text>
+            <option id="A">T (Temperature)</option><option id="B">V</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>PV is often replaced by PT for simplicity.</explanation>
+        </question>
+        <question>
+            <text>Critical temperature T_c is temp above which gas cannot be ____ by pressure.</text>
+            <option id="A">Liquefied</option><option id="B">Heated</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unique property for each substance.</explanation>
+        </question>
+        <question>
+            <text>Coefficient of restitution? No. Wrong chapter. Skip. Thermal stress = ____.</text>
+            <option id="A">Y α ΔT</option><option id="B">Y ΔT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Stress induced if expansion is restricted.</explanation>
+        </question>
+        <question>
+            <text>Rate of cooling depends on ____ area of body.</text>
+            <option id="A">Surface</option><option id="B">Cross-section</option><option id="C">Volume</option><option id="D">None</option>
+            <answer>A</answer><explanation>More area -> more radiation/convection loss.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>Steam burn is worse than water burn at 100C because:</text>
-            <option id="A">Latent heat of condensation released</option><option id="B">Steam is hotter</option><option id="C">Steam penetrates</option><option id="D">Chemical reaction</option>
-            <answer>A</answer><explanation>Extra energy.</explanation>
+            <text>Adiabatic cooling occurs in a gas when it expands ____.</text>
+            <option id="A">Suddenly (without heat exchange)</option><option id="B">Slowly</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Internal energy is used for work.</explanation>
         </question>
         <question>
-            <text>Triple point of water temperature?</text>
-            <option id="A">273.16 K</option><option id="B">273.15 K</option><option id="C">0 K</option><option id="D">100 C</option>
-            <answer>A</answer><explanation>Defines Kelvin scale.</explanation>
+            <text>Stefan's Law includes emissivity 'e': E = ____.</text>
+            <option id="A">e σ T^4</option><option id="B">σ T^4 / e</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>For non-black bodies.</explanation>
         </question>
         <question>
-            <text>Newton's Law of Cooling:</text>
-            <option id="A">Rate of cooling prop to temp diff</option><option id="B">Prop to temp</option><option id="C">Prop to time</option><option id="D">Area</option>
-            <answer>A</answer><explanation>Small dT.</explanation>
+            <text>Increase in boiling point with depth in a lake: ΔT_b is ____.</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pressure increases with depth.</explanation>
         </question>
         <question>
-            <text>Solar constant is approximately:</text>
-            <option id="A">1.36 kW/m^2</option><option id="B">100 W</option><option id="C">500 W</option><option id="D">10 kW</option>
-            <answer>A</answer><explanation>Energy from sun.</explanation>
+            <text>Specific heat of Saturated Vapor can be ____.</text>
+            <option id="A">Negative</option><option id="B">Always positive</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Thermodynamic anomaly for some substances.</explanation>
         </question>
         <question>
-            <text>Wien's Displacement Law?</text>
-            <option id="A">lambda_max T = b</option><option id="B">lambda T^2 = b</option><option id="C">E = sigma T^4</option><option id="D">None</option>
-            <answer>A</answer><explanation>b = 2.898 mm K.</explanation>
+            <text>Heat required to convert 1g ice at -10 C to 1g steam at 100 C is approx ____ cal.</text>
+            <option id="A">725</option><option id="B">540</option><option id="C">80</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of heating ice (5) + Melting (80) + Heating water (100) + Boiling (540).</explanation>
+        </question>
+        <question>
+            <text>Rate of flow in a cylinder of radius R and length L where conductivity k(r) varies: ____.</text>
+            <option id="A">Requires integration over radius</option><option id="B">k A ΔT / L</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Non-uniform material case.</explanation>
+        </question>
+        <question>
+            <text>Newton's Law of Cooling is a linear approximation of ____ Law.</text>
+            <option id="A">Stefan's</option><option id="B">Wien's</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Using Taylor expansion for T approx T0.</explanation>
+        </question>
+        <question>
+            <text>Radiated power from sun (T=5800K, R=7e8m) is approx ____ W.</text>
+            <option id="A">3.9 x 10^26</option><option id="B">1.4 x 10^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Using 4πR^2 σ T^4.</explanation>
+        </question>
+        <question>
+            <text>Fraction of volume expansion during melting of ice is ____.</text>
+            <option id="A">-9% (Contraction)</option><option id="B">10% (Expansion)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unusual density increase.</explanation>
+        </question>
+        <question>
+            <text>Apparent expansion of liquid in glass = γ_real - ____.</text>
+            <option id="A">γ_glass (Expansion of container)</option><option id="B">α_glass</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Observer sees relative change.</explanation>
+        </question>
+        <question>
+            <text>Correction for time in an oscillating pendulum due to temp ΔT: Δt/t = ____.</text>
+            <option id="A">1/2 α ΔT</option><option id="B">α ΔT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>From T = 2π sqrt(L/g) using approximation.</explanation>
+        </question>
+        <question>
+            <text>Substance with highest Latent Heat of Fusion known?</text>
+            <option id="A">Ice (Water)</option><option id="B">Gold</option><option id="C">mercury</option><option id="D">None</option>
+            <answer>A</answer><explanation>Water is unusually high.</explanation>
+        </question>
+        <question>
+            <text>In convection, heat transfer H ∝ ____.</text>
+            <option id="A">Area x ΔT^(5/4) approx for natural convection</option><option id="B">ΔT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Non-linear dependency on temp difference.</explanation>
+        </question>
+        <question>
+            <text>Thermal boundary layer thickness increases with ____ from leading edge.</text>
+            <option id="A">Distance</option><option id="B">Temperature</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Analogy to velocity boundary layer.</explanation>
+        </question>
+        <question>
+            <text>Coefficient of thermal conductivity for copper vs steel ratio?</text>
+            <option id="A">~10 times (400 vs 40)</option><option id="B">2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Copper is excellent conductor.</explanation>
+        </question>
+        <question>
+            <text>Emittance is ratio of ____ to ____.</text>
+            <option id="A">Emission from body to black body at same T</option><option id="B">Input to output</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Dimensionless property.</explanation>
+        </question>
+        <question>
+            <text>Perfect black body can be simulated by a ____.</text>
+            <option id="A">Small hole in a large hollow cavity (Ferry's)</option><option id="B">Mirror</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Multiple reflections ensure absorption.</explanation>
+        </question>
+        <question>
+            <text>Net power loss by radiation P = ____.</text>
+            <option id="A">e σ A (T^4 - Ts^4)</option><option id="B">e σ T^4</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ts is surrounding temperature.</explanation>
+        </question>
+        <question>
+            <text>Color of a star indicates its ____.</text>
+            <option id="A">Surface Temperature</option><option id="B">Mass</option><option id="C">Distance</option><option id="D">None</option>
+            <answer>A</answer><explanation>Application of Wien's law.</explanation>
+        </question>
+        <question>
+            <text>Red stars are ____ than Blue stars.</text>
+            <option id="A">Cooler</option><option id="B">Hotter</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Red is longer wavelength/lower T.</explanation>
+        </question>
+        <question>
+            <text>Variation of vapor pressure with temperature: ΔP/ΔT = ____.</text>
+            <option id="A">L / [T(Vv - Vl)] (Clausius-Clapeyron)</option><option id="B">PV/T</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Thermodynamic relation for phase transitions.</explanation>
+        </question>
+        <question>
+            <text>Latent heat of fusion depends on pressure? Yes. If volume increases on melting, BP/MP ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Generally true for most solids.</explanation>
+        </question>
+        <question>
+            <text>Water MP decreases with pressure. This corresponds to ____ volume expansion.</text>
+            <option id="A">Negative (Contraction)</option><option id="B">Positive</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>V_ice > V_water.</explanation>
+        </question>
+        <question>
+            <text>A sphere, cube and thin circular plate of same mass and material heated to same T. Which cools fastest?</text>
+            <option id="A">Circular plate (Max surface area)</option><option id="B">Sphere (Min area)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Radiation loss proportional to Area.</explanation>
+        </question>
+        <question>
+            <text>Which cools slowest in earlier case?</text>
+            <option id="A">Sphere</option><option id="B">Plate</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Minimum surface area for given volume.</explanation>
+        </question>
+        <question>
+            <text>Temp gradient in a rod of length L is ____.</text>
+            <option id="A">(T1 - T2) / L</option><option id="B">T / L</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Degree/meter.</explanation>
+        </question>
+        <question>
+            <text>Expansion of a hole in a metal sheet on heating: hole ____.</text>
+            <option id="A">Increases in size</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Body behaves as if it contains the hole's material.</explanation>
+        </question>
+        <question>
+            <text>Can a body have negative emissivity?</text>
+            <option id="A">No (Impossible physically)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Minimum is zero.</explanation>
+        </question>
+        <question>
+            <text>Prandtl number relates ____ layer to ____ boundary layer.</text>
+            <option id="A">Thermal / Velocity</option><option id="B">Gas / Liquid</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Dimensionless fluid property.</explanation>
+        </question>
+        <question>
+            <text>Is solar radiation monochromatic?</text>
+            <option id="A">No (Continuous spectrum with absorption lines)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fraunhofer lines included.</explanation>
+        </question>
+        <question>
+            <text>Energy density inside a black body cavity is ∝ ____.</text>
+            <option id="A">T^4</option><option id="B">T</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard blackbody result.</explanation>
+        </question>
+        <question>
+            <text>Planck's Law explains ____ for black bodies.</text>
+            <option id="A">Full spectrum energy distribution</option><option id="B">Only high frequency</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Resolved ultraviolet catastrophe.</explanation>
+        </question>
+        <question>
+            <text>Heat transfer by radiation follows inverse ____ law for distance.</text>
+            <option id="A">Square (1/d^2)</option><option id="B">Linear</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Intensity from point source.</explanation>
+        </question>
+        <question>
+            <text>Time taken for a cup of tea to cool from 90 to 80 is t1, and 80 to 70 is t2. T_room = 25.</text>
+            <option id="A">t2 > t1</option><option id="B">t1 > t2</option><option id="C">t1 = t2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate of cooling decreases as temp difference decreases.</explanation>
+        </question>
+        <question>
+            <text>Final check for Thermal properties: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </hard>
 </chapter>

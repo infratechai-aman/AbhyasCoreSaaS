@@ -1,79 +1,524 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Physics" id="12" name="Kinetic Theory">
+<chapter subject="Physics" id="112" name="Kinetic Theory of Gases">
     <easy>
         <question>
-            <text>Equation of state for an Ideal Gas:</text>
-            <option id="A">PV = nRT</option><option id="B">PV = RT</option><option id="C">P/V = RT</option><option id="D">PT = nRV</option>
-            <answer>A</answer><explanation>Ideal Gas Law.</explanation>
+            <text>Kinetic theory explains macroscopic properties using ____ behavior of molecules.</text>
+            <option id="A">Microscopic</option><option id="B">Atomic only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Statistical study of motion.</explanation>
         </question>
         <question>
-            <text>Mean free path happens in:</text>
-            <option id="A">Gases</option><option id="B">Solids</option><option id="C">Liquids</option><option id="D">Vacuum</option>
-            <answer>A</answer><explanation>Concept of Kinetic Theory.</explanation>
+            <text>Ideal gas law assumes molecules are ____ points.</text>
+            <option id="A">Massive</option><option id="B">Non-existent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Volume of molecules is negligible compared to gas volume.</explanation>
         </question>
         <question>
-            <text>Specific heat at constant pressure Cp is greater than Cv because:</text>
-            <option id="A">Work is done in expansion</option><option id="B">More heat needed to increase T</option><option id="C">Both A and B</option><option id="D">None</option>
-            <answer>C</answer><explanation>Heat goes to dU and dW.</explanation>
+            <text>According to kinetic theory, collisions between gas molecules are perfectly ____.</text>
+            <option id="A">Elastic</option><option id="B">Inelastic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Momentum and Kinetic energy are conserved.</explanation>
         </question>
         <question>
-            <text>For diatomic gas, gamma is:</text>
-            <option id="A">1.4</option><option id="B">1.67</option><option id="C">1.33</option><option id="D">1</option>
-            <answer>A</answer><explanation>7/5.</explanation>
+            <text>Pressure of a gas is result of ____ transfer to the walls.</text>
+            <option id="A">Momentum</option><option id="B">Heat</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to continuous bombardment.</explanation>
         </question>
         <question>
-            <text>For monoatomic gas, gamma is:</text>
-            <option id="A">1.67</option><option id="B">1.4</option><option id="C">1.33</option><option id="D">1.5</option>
-            <answer>A</answer><explanation>5/3.</explanation>
+            <text>Average kinetic energy of a molecule is proportional to its ____ temperature.</text>
+            <option id="A">Absolute (Kelvin)</option><option id="B">Celsius</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>E_avg = 3/2 kT.</explanation>
+        </question>
+        <question>
+            <text>Avogadro's number (NA) is approximately ____ molecules per mole.</text>
+            <option id="A">6.022 x 10^23</option><option id="B">1.38 x 10^-23</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental constant for mole definition.</explanation>
+        </question>
+        <question>
+            <text>Boltzmann constant k is related to R and NA by k = ____.</text>
+            <option id="A">R / NA</option><option id="B">R x NA</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Gas constant per molecule.</explanation>
+        </question>
+        <question>
+            <text>Boyle's Law states that at constant T, Pressure is ____ proportional to Volume.</text>
+            <option id="A">Inversely</option><option id="B">Directly</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>PV = constant.</explanation>
+        </question>
+        <question>
+            <text>Charles' Law states that at constant P, Volume is ____ proportional to Temperature.</text>
+            <option id="A">Directly</option><option id="B">Inversely</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>V / T = constant.</explanation>
+        </question>
+        <question>
+            <text>Ideal gas equation for n moles: PV = ____.</text>
+            <option id="A">nRT</option><option id="B">RT / n</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equation of state for ideal gas.</explanation>
+        </question>
+        <question>
+            <text>Value of Universal Gas Constant R is approx ____ J/(mol.K).</text>
+            <option id="A">8.314</option><option id="B">0.0821</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>In SI units.</explanation>
+        </question>
+        <question>
+            <text>Dalton's Law: Total pressure of mixture of non-reacting gases is ____ of partial pressures.</text>
+            <option id="A">Sum</option><option id="B">Product</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P_total = P1 + P2 + ...</explanation>
+        </question>
+        <question>
+            <text>Mean free path is average distance between two successive ____.</text>
+            <option id="A">Collisions</option><option id="B">Containers</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Quantifies how far a molecule travels freely.</explanation>
+        </question>
+        <question>
+            <text>Square root of average of squares of velocities is ____ speed.</text>
+            <option id="A">Root Mean Square (rms)</option><option id="B">Average</option><option id="C">Most probable</option><option id="D">None</option>
+            <answer>A</answer><explanation>v_rms = √(3kT/m).</explanation>
+        </question>
+        <question>
+            <text>Most probable speed is the speed possessed by ____ number of molecules.</text>
+            <option id="A">Maximum</option><option id="B">Minimum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Peak of Maxwell-Boltzmann distribution.</explanation>
+        </question>
+        <question>
+            <text>Degrees of freedom for a monatomic gas like Helium: ____.</text>
+            <option id="A">3 (translational)</option><option id="B">5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Can move in 3 independent spatial directions.</explanation>
+        </question>
+        <question>
+            <text>Degrees of freedom for a diatomic gas (H2, O2) at room temp: ____.</text>
+            <option id="A">5 (3 trans + 2 rot)</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Assumption: rigid rotator (vibrational ignored).</explanation>
+        </question>
+        <question>
+            <text>Law of Equipartition of Energy: Energy per degree of freedom is ____.</text>
+            <option id="A">1/2 kT</option><option id="B">3/2 kT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equally shared among all degrees.</explanation>
+        </question>
+        <question>
+            <text>Ratio of specific heats γ for monatomic gas: ____.</text>
+            <option id="A">5/3 (1.67)</option><option id="B">7/5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>γ = 1 + 2/f = 1 + 2/3.</explanation>
+        </question>
+        <question>
+            <text>Ratio of specific heats γ for diatomic gas (rigid): ____.</text>
+            <option id="A">7/5 (1.4)</option><option id="B">5/3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>γ = 1 + 2/5.</explanation>
+        </question>
+        <question>
+            <text>Mean free path increases as density of gas ____.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>More space between collisions.</explanation>
+        </question>
+        <question>
+            <text>In kinetic theory, intermolecular forces are ____.</text>
+            <option id="A">Neglected / zero</option><option id="B">Attractive always</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ideal gas assumption.</explanation>
+        </question>
+        <question>
+            <text>Pressure of gas P = ____ ρ v_rms^2.</text>
+            <option id="A">1/3</option><option id="B">1/2</option><option id="C">3/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental kinetic theory equation.</explanation>
+        </question>
+        <question>
+            <text>Average speed v_avg is ____ than v_rms.</text>
+            <option id="A">Smaller</option><option id="B">Larger</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>v_rms > v_avg > v_mp.</explanation>
+        </question>
+        <question>
+            <text>Boltzmann constant unit is ____.</text>
+            <option id="A">J / K</option><option id="B">J . K</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Energy per Kelvin.</explanation>
+        </question>
+        <question>
+            <text>Graham's Law: Rate of diffusion is ____ proportional to sqrt of density.</text>
+            <option id="A">Inversely</option><option id="B">Directly</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Heat molecules move faster.</explanation>
+        </question>
+        <question>
+            <text>Real gases behave most like ideal gases at ____ pressure and ____ temperature.</text>
+            <option id="A">Low , High</option><option id="B">High , Low</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Molecules are far apart and moving fast.</explanation>
+        </question>
+        <question>
+            <text>Diatomic molecules have ____ vibrational degrees at very high temp.</text>
+            <option id="A">2 extra</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total becomes 7.</explanation>
+        </question>
+        <question>
+            <text>Value of Cp - Cv for 1 mole of gas is ____.</text>
+            <option id="A">R</option><option id="B">n R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mayer's relation.</explanation>
+        </question>
+        <question>
+            <text>The parameter 'f' in equipartition law stands for ____.</text>
+            <option id="A">Degrees of freedom</option><option id="B">Frequency</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Total independent coordinates needed to define state.</explanation>
+        </question>
+        <question>
+            <text>Internal energy of 1 mole monatomic gas: ____.</text>
+            <option id="A">3/2 RT</option><option id="B">RT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>3 x 1/2 RT.</explanation>
+        </question>
+        <question>
+            <text>Internal energy of 1 mole diatomic gas (rigid): ____.</text>
+            <option id="A">5/2 RT</option><option id="B">3/2 RT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>5 x 1/2 RT.</explanation>
+        </question>
+        <question>
+            <text>Mean free path formula λ = ____.</text>
+            <option id="A">1 / (sqrt(2) n π d^2)</option><option id="B">1 / (n d^2)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>n is number density, d is molecular diameter.</explanation>
+        </question>
+        <question>
+            <text>Absolute sense of temperature is a measure of molecular ____.</text>
+            <option id="A">Kinetic Energy</option><option id="B">Potential Energy</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>T = 0 implies KE = 0 in classical limit.</explanation>
+        </question>
+        <question>
+            <text>Gas exerts pressure ____ in all directions inside the box.</text>
+            <option id="A">Equally</option><option id="B">Unequally</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Isotropic nature of gas motion.</explanation>
+        </question>
+        <question>
+            <text>RMS speed of hydrogen at 0 deg C is ____ than oxygen.</text>
+            <option id="A">Larger (approx 4 times)</option><option id="B">Smaller</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>v ~ 1/sqrt(M). M_O2 = 32, M_H2 = 2.</explanation>
+        </question>
+        <question>
+            <text>A gas flask is heated from 300K to 600K. RMS speed becomes ____ times.</text>
+            <option id="A">sqrt(2)</option><option id="B">2</option><option id="C">4</option><option id="D">None</option>
+            <answer>A</answer><explanation>v_rms ∝ sqrt(T). 600/300 = 2.</explanation>
+        </question>
+        <question>
+            <text>Vapor pressure is the pressure of vapor in equilibrium with ____.</text>
+            <option id="A">Liquid phase</option><option id="B">Solid phase only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Specific to temperature.</explanation>
+        </question>
+        <question>
+            <text>Specific heat Cv for monatomic gas is ____.</text>
+            <option id="A">3/2 R</option><option id="B">5/2 R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From U = 3/2 RT, dU/dT = 3/2 R.</explanation>
+        </question>
+        <question>
+            <text>Specific heat Cp for monatomic gas is ____.</text>
+            <option id="A">5/2 R</option><option id="B">3/2 R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cp = Cv + R.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>3 moles of monoatomic gas mixed with 2 moles diatomic. Gamma mix?</text>
-            <option id="A">1.54</option><option id="B">1.4</option><option id="C">1.67</option><option id="D">1.33</option>
-            <answer>A</answer><explanation>gamma = (n1Cp1+n2Cp2)/(n1Cv1+n2Cv2). Cv1=1.5R, Cv2=2.5R. Cp1=2.5R, Cp2=3.5R. Num: 3*2.5 + 2*3.5 = 7.5+7=14.5R. Den: 3*1.5 + 2*2.5 = 4.5+5=9.5R. Ratio 14.5/9.5 = 1.526 ~ 1.53.</explanation>
+            <text>Maxwell-Boltzmann distribution curve: as T increases, the peak shifts to ____.</text>
+            <option id="A">Higher speeds and becomes flatter</option><option id="B">Lower speeds</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>More molecules have high kinetic energy.</explanation>
         </question>
         <question>
-            <text>RMS speed of gas molecules proportional to:</text>
-            <option id="A">sqrt(T)</option><option id="B">T</option><option id="C">T^2</option><option id="D">1/T</option>
-            <answer>A</answer><explanation>v = sqrt(3RT/M).</explanation>
+            <text>Number density 'n' in mean free path formula is ____.</text>
+            <option id="A">moles / volume? No. molecules / volume.</option><option id="B">mass / volume</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>n = N / V.</explanation>
         </question>
         <question>
-            <text>If pressure is constant, volume of gas is proportional to:</text>
-            <option id="A">Temperature</option><option id="B">1/T</option><option id="C">T^2</option><option id="D">None</option>
-            <answer>A</answer><explanation>Charles' Law.</explanation>
+            <text>Relative RMS speeds comparison: v_rms : v_avg : v_mp = ____.</text>
+            <option id="A">√(3) : √(8/π) : √(2)</option><option id="B">1 : 1 : 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Approx 1.73 : 1.60 : 1.41.</explanation>
         </question>
         <question>
-            <text>Average kinetic energy per molecule per degree of freedom?</text>
-            <option id="A">1/2 kT</option><option id="B">3/2 kT</option><option id="C">kT</option><option id="D">3/2 RT</option>
-            <answer>A</answer><explanation>Equipartition theorem.</explanation>
+            <text>Energy related to 1 mole of gas per degree of freedom: ____.</text>
+            <option id="A">1/2 RT</option><option id="B">1/2 kT</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>For a mole, use R instead of k.</explanation>
         </question>
         <question>
-            <text>A gas obeys P(V-b) = RT. Isotherms are:</text>
-            <option id="A">Hyperbolas shifted</option><option id="B">Parabolas</option><option id="C">Straight lines</option><option id="D">Ellipses</option>
-            <answer>A</answer><explanation>Rectangular hyperbola shifted by b.</explanation>
+            <text>If pressure of gas is doubled isothermally, mean free path becomes ____.</text>
+            <option id="A">Half</option><option id="B">Double</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>λ ∝ 1/n and n ∝ P for const T.</explanation>
+        </question>
+        <question>
+            <text>Diatomic gas with one vibrational mode has total ____ degrees of freedom.</text>
+            <option id="A">7</option><option id="B">5</option><option id="C">3</option><option id="D">None</option>
+            <answer>A</answer><explanation>3 trans + 2 rot + 2 vib (KE+PE of vib).</explanation>
+        </question>
+        <question>
+            <text>Brownian motion is evidence of ____ of molecules.</text>
+            <option id="A">Random thermal motion</option><option id="B">Orderly flow</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>First described by Robert Brown, explained by Einstein.</explanation>
+        </question>
+        <question>
+            <text>Mean free path λ depends on molecular diameter 'd' as ____.</text>
+            <option id="A">1 / d^2</option><option id="B">1 / d</option><option id="C">d^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Area of 'scattering' cross-section is πd^2.</explanation>
+        </question>
+        <question>
+            <text>Universal Gas Constant R / Boltzmann Constant k = ____.</text>
+            <option id="A">NA (Avogadro's number)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition link.</explanation>
+        </question>
+        <question>
+            <text>Root mean square speed of oxygen at 300K (M=32 g/mol) is approx ____ m/s.</text>
+            <option id="A">480</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calulated using √(3RT/M).</explanation>
+        </question>
+        <question>
+            <text>Total internal energy of 1 mole polyatomic gas with 'f' degrees: ____.</text>
+            <option id="A">f/2 RT</option><option id="B">f RT</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Generalized equipartition result.</explanation>
+        </question>
+        <question>
+            <text>Dulong and Petit Law: Molar heat capacity of solid elements C is ____.</text>
+            <option id="A">3R</option><option id="B">6R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Solids have 3 vibrational degrees (each has 2 energy components).</explanation>
+        </question>
+        <question>
+            <text>Mean velocity of gas molecules in equilibrium is ____.</text>
+            <option id="A">Zero (Vector sum)</option><option id="B">Max</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Random directions cancel out.</explanation>
+        </question>
+        <question>
+            <text>Molecular mass of gas A is 4 times gas B. Ratio of rms speeds vA/vB at same T is ____.</text>
+            <option id="A">1 / 2</option><option id="B">2</option><option id="C">4</option><option id="D">None</option>
+            <answer>A</answer><explanation>v ∝ 1/sqrt(M).</explanation>
+        </question>
+        <question>
+            <text>If temperature of gas rises by 1 degree, Cv ____.</text>
+            <option id="A">Remains constant (for ideal gas)</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Independent of T in ideal range.</explanation>
+        </question>
+        <question>
+            <text>Gas molecule has 5 degrees of freedom. Molar heat capacity at constant V is ____.</text>
+            <option id="A">5/2 R</option><option id="B">7/2 R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>dU/dT result.</explanation>
+        </question>
+        <question>
+            <text>Adiabatic exponent γ for gas with 'f' degrees is ____.</text>
+            <option id="A">1 + 2/f</option><option id="B">f/2 + 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>(Cv+R)/Cv = (f/2 R + R) / f/2 R = 1 + 2/f.</explanation>
+        </question>
+        <question>
+            <text>Specific heat of water in terms of R (molecules as oscillators): ____.</text>
+            <option id="A">9R (3 atoms x 3 degrees x 2 energy types = 18 d.f.? No. 9R approx)</option><option id="B">3R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>H2O has 3 atoms, each moves in 3D: total 9 components x R.</explanation>
+        </question>
+        <question>
+            <text>Pressure exerted by 1 mole gas in 1 m^3 at T Kelvin is P = ____.</text>
+            <option id="A">RT</option><option id="B">R/T</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From PV = nRT.</explanation>
+        </question>
+        <question>
+            <text>At what temperature is v_rms of H2 double of v_rms of H2 at 300K?</text>
+            <option id="A">1200 K</option><option id="B">600 K</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>v^2 ∝ T. 2^2 = 4. 4 x 300 = 1200.</explanation>
+        </question>
+        <question>
+            <text>Isothermal bulk modulus of ideal gas at pressure P is ____.</text>
+            <option id="A">P</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>B = - V (dP/dV) = P for isot. PV=C.</explanation>
+        </question>
+        <question>
+            <text>Adiabatic bulk modulus of ideal gas is ____.</text>
+            <option id="A">γ P</option><option id="B">P</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>For PV^γ = C.</explanation>
+        </question>
+        <question>
+            <text>Mean free path for Oxygen molecules (d=0.3nm) at STP is approx ____ m.</text>
+            <option id="A">10^-7</option><option id="B">10^-3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculation based on standard number density.</explanation>
+        </question>
+        <question>
+            <text>Pressure of gas is independent of ____ of molecules (vector sum).</text>
+            <option id="A">Mean velocity</option><option id="B">RMS speed</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pressure depends on speed^2, which is scalar.</explanation>
+        </question>
+        <question>
+            <text>In Maxwell distribution, v_rms is the ____ of the three speeds.</text>
+            <option id="A">Largest</option><option id="B">Smallest</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>v_rms > v_avg > v_mp.</explanation>
+        </question>
+        <question>
+            <text>Internal energy of an ideal gas consists only of ____ energy.</text>
+            <option id="A">Kinetic</option><option id="B">Potential</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>PE is zero by assumption.</explanation>
+        </question>
+        <question>
+            <text>Mean Kinetic Energy per mole of any gas at T is ____.</text>
+            <option id="A">3/2 RT (Translational only)</option><option id="B">Total f/2 RT</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Usually refers to translational unless 'total' specified.</explanation>
+        </question>
+        <question>
+            <text>Molecules of different gases at same T have same ____.</text>
+            <option id="A">Average Kinetic Energy per molecule (trans)</option><option id="B">Speed</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>E = 3/2 kT for all.</explanation>
+        </question>
+        <question>
+            <text>Number of moles n = ____ / Molar Mass.</text>
+            <option id="A">Total Mass (m)</option><option id="B">Volume</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>n = m/M.</explanation>
+        </question>
+        <question>
+            <text>Avogadro's Hypothesis: Equal volumes of gases at same P and T contain equal ____.</text>
+            <option id="A">Number of molecules</option><option id="B">Mass</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Implicit in PV = (N/NA) RT.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>Relation between Cp and Cv for ideal gas (Mayer's relation):</text>
-            <option id="A">Cp - Cv = R</option><option id="B">Cp + Cv = R</option><option id="C">Cp / Cv = R</option><option id="D">Cv - Cp = R</option>
-            <answer>A</answer><explanation>Standard relation.</explanation>
+            <text>Van der Waals equation for real gas (1 mole): (P + a/V^2)(V - b) = ____.</text>
+            <option id="A">RT</option><option id="B">nRT</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>a accounts for attraction, b for molecular volume.</explanation>
         </question>
         <question>
-            <text>Internal energy of real gas depends on:</text>
-            <option id="A">T and V</option><option id="B">T only</option><option id="C">P only</option><option id="D">None</option>
-            <answer>A</answer><explanation>Intermolecular potential depends on V.</explanation>
+            <text>The term 'b' in van der Waals equation is approx ____ times the molecular volume.</text>
+            <option id="A">4</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Excluded volume per molecule pair calculation.</explanation>
         </question>
         <question>
-            <text>Inversion temperature Ti:</text>
-            <option id="A">2a / Rb</option><option id="B">a/Rb</option><option id="C">2a/b</option><option id="D">a/b</option>
-            <answer>A</answer><explanation>Joule Thomson coeff is zero.</explanation>
+            <text>Unit of van der Waals constant 'a' is ____.</text>
+            <option id="A">Pa . m^6 / mol^2</option><option id="B">Pa / m^3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pressure x Volume^2.</explanation>
         </question>
         <question>
-            <text>Critical Temperature Tc:</text>
-            <option id="A">8a / 27Rb</option><option id="B">a/Rb</option><option id="C">3b</option><option id="D">a/27b</option>
-            <answer>A</answer><explanation>Van der Waals constants.</explanation>
+            <text>Speed of sound in ideal gas: v = sqrt( ____ P / ρ ).</text>
+            <option id="A">γ</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Newton-Laplace formula.</explanation>
+        </question>
+        <question>
+            <text>Gas starts at 27 C. Temperature to double v_rms is ____ C.</text>
+            <option id="A">927</option><option id="B">600</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>300K x 4 = 1200 K. 1200 - 273 = 927.</explanation>
+        </question>
+        <question>
+            <text>Equipartition holds at very low temperatures? No, due to ____ effects.</text>
+            <option id="A">Quantum (Level spacing &gt; kT)</option><option id="B">Relativistic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Degrees of freedom 'freeze out'.</explanation>
+        </question>
+        <question>
+            <text>Degrees of freedom for a linear triatomic molecule (CO2): ____.</text>
+            <option id="A">5 (rigid) / 7 or more (vib)</option><option id="B">6</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>2 rotational only as rotation about axis is negligible.</explanation>
+        </question>
+        <question>
+            <text>Average translational KE of gas molecule at T is ____.</text>
+            <option id="A">3/2 kT</option><option id="B">1/2 kT</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Always 3/2 kT regardless of polyatomicity.</explanation>
+        </question>
+        <question>
+            <text>Average rotational KE of diatomic molecule at T is ____.</text>
+            <option id="A">kT</option><option id="B">3/2 kT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>2 x 1/2 kT.</explanation>
+        </question>
+        <question>
+            <text>Relation v_rms = sqrt( 3 P / ρ ) implies speed of sound is strictly ____ than rms speed.</text>
+            <option id="A">Smaller (sqrt(γ/3) factor)</option><option id="B">Larger</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>For air, γ=1.4, sqrt(1.4/3) approx 0.68.</explanation>
+        </question>
+        <question>
+            <text>Boltzmann constant k value in SI: ____.</text>
+            <option id="A">1.38 x 10^-23 J/K</option><option id="B">6.626 x 10^-34</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental constant.</explanation>
+        </question>
+        <question>
+            <text>If Re of gas is 10^-10 (Knudsen number limit), kinetic theory must be used ____.</text>
+            <option id="A">Individually (Discrete particle flow)</option><option id="B">As continuum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Navier-Stokes fails in rarefied gases.</explanation>
+        </question>
+        <question>
+            <text>Number of molecules in 1 cm^3 of ideal gas at STP (Loschmidt number) is approx ____.</text>
+            <option id="A">2.69 x 10^19</option><option id="B">6.02 x 10^23</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Density of molecules at standard conditions.</explanation>
+        </question>
+        <question>
+            <text>Root mean square speed is independent of ____ at constant T.</text>
+            <option id="A">Pressure / Volume</option><option id="B">Mass</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Only depends on T and M.</explanation>
+        </question>
+        <question>
+            <text>Fraction of molecules between v and v+dv is given by ____.</text>
+            <option id="A">Maxwell-Boltzmann Distribution</option><option id="B">Equipartition</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(v) dv = 4π (m/2πkT)^1.5 v^2 exp(-mv^2/2kT) dv.</explanation>
+        </question>
+        <question>
+            <text>Escape velocity from Earth is approx 11 km/s. Molecules with v_rms >= escape velocity ____.</text>
+            <option id="A">Evaporate into space (Atmospheric loss)</option><option id="B">Stay</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Why Moon has no atmosphere (low v_esc).</explanation>
+        </question>
+        <question>
+            <text>Ratio of v_rms for H2 at 800K and He at 400K: ____.</text>
+            <option id="A">2 (sqrt( (800/2) / (400/4) ) = sqrt(400/100) = 2)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>v ∝ sqrt(T/M).</explanation>
+        </question>
+        <question>
+            <text>If Mean Free Path is λ, Collision Frequency is ____.</text>
+            <option id="A">v_avg / λ</option><option id="B">λ / v_avg</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate of collisions per second.</explanation>
+        </question>
+        <question>
+            <text>Effusion is the flow of gas through a hole ____ than mean free path.</text>
+            <option id="A">Smaller</option><option id="B">Larger</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Individual molecules pass without collisions in hole.</explanation>
+        </question>
+        <question>
+            <text>Degrees of freedom for water vapor molecule at high temp (vib included): ____.</text>
+            <option id="A">9 (3t + 3r + 3v? No. 3 vib modes -> 6 df. Total 12? No approx 9-12)</option><option id="B">6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Non-linear: 3 trans, 3 rot, plus vib modes.</explanation>
+        </question>
+        <question>
+            <text>Internal energy of N molecules of monatomic gas: U = ____.</text>
+            <option id="A">3/2 N kT</option><option id="B">3/2 RT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>N molecules vs n moles distinction.</explanation>
+        </question>
+        <question>
+            <text>Pressure of gas is also equal to ____ of energy density (U/V).</text>
+            <option id="A">2 / 3</option><option id="B">1 / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>P = 2/3 (U/V) for monatomic gas.</explanation>
+        </question>
+        <question>
+            <text>Total KE of mixture of 1g H2 and 1g He at T: ____.</text>
+            <option id="A">3/2 (1/2 + 1/4) RT = 9/8 RT</option><option id="B">2 RT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sum of nRT terms per gas (approx trans KE).</explanation>
+        </question>
+        <question>
+            <text>If a gas is compressed adiabatically, rms speed ____.</text>
+            <option id="A">Increases (T increases)</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Work turns to agitation energy.</explanation>
+        </question>
+        <question>
+            <text>Collision cross-section area σ for molecule of radius r is ____.</text>
+            <option id="A">π (2r)^2 = 4 π r^2</option><option id="B">π r^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Effective contact radius is 2r.</explanation>
+        </question>
+        <question>
+            <text>Boyle temperature is T at which real gas obeys ideal law for ____ pressure range.</text>
+            <option id="A">Long / Wide</option><option id="B">Small</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>T_B = a / Rb.</explanation>
+        </question>
+        <question>
+            <text>Ratio of v_rms to speed of sound in monatomic gas: ____.</text>
+            <option id="A">sqrt(3/1.67) approx 1.34</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Molecules move faster than pulse travels.</explanation>
+        </question>
+        <question>
+            <text>Most probable speed v_mp = sqrt( ____ kT / m ).</text>
+            <option id="A">2</option><option id="B">3</option><option id="C">8/π</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard formula.</explanation>
+        </question>
+        <question>
+            <text>Probability of finding molecule with zero speed is ____.</text>
+            <option id="A">Zero</option><option id="B">Max</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Factor v^2 in distribution makes it zero at origin.</explanation>
+        </question>
+        <question>
+            <text>Degrees of freedom for rigid body in 3D: ____.</text>
+            <option id="A">6</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>3 translational + 3 rotational.</explanation>
+        </question>
+        <question>
+            <text>Equipartition theorem for harmonic oscillator: total mean energy is ____.</text>
+            <option id="A">kT (1/2 kT for KE + 1/2 kT for PE)</option><option id="B">1/2 kT</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Has two quadratic energy terms.</explanation>
+        </question>
+        <question>
+            <text>Specific heat Cv for diatomic gas at very high temperatures ____.</text>
+            <option id="A">Increases to 7/2 R</option><option id="B">Stays 5/2 R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Excitation of vibrational modes.</explanation>
+        </question>
+        <question>
+            <text>Final check for Kinetic Theory: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </hard>
 </chapter>

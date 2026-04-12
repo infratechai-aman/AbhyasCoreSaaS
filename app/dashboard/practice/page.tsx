@@ -3,10 +3,7 @@ import { Card } from "@/components/ui/card";
 
 export default function PracticePage() {
   return (
-    <DashboardShell
-      title="Practice modes"
-      subtitle="Flexible chapter-wise and subject-wise drilling for focused improvement between mocks."
-    >
+    <DashboardShell>
       <section className="grid gap-6 md:grid-cols-3">
         {["Chapter-wise sprints", "Adaptive difficulty sets", "Revision mode with bookmarks"].map((item) => (
           <Card key={item} className="rounded-[30px] p-6">

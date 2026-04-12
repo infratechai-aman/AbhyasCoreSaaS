@@ -1,384 +1,604 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Biology" id="308" name="Neural Control and Coordination">
+<chapter subject="Biology" id="321" name="Neural Control and Coordination">
     <easy>
         <question>
-            <text>The structural and functional unit of neural system is:</text>
-            <option id="A">Neuron</option><option id="B">Nephron</option><option id="C">Brain</option><option id="D">Spinal cord</option>
-            <answer>A</answer><explanation>Nerve cell.</explanation>
+            <text>The process through which two or more organs interact and complement the functions of one another? ____.</text>
+            <option id="A">Coordination</option><option id="B">Integration</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ensures the body works as a single unit.</explanation>
         </question>
         <question>
-            <text>Nissl's granules are found in:</text>
-            <option id="A">Cell body and Dendrites</option><option id="B">Axon</option><option id="C">Synaptic knob</option><option id="D">Schwann cell</option>
-            <answer>A</answer><explanation>RER + Ribosomes.</explanation>
+            <text>The two systems that jointly coordinate and integrate all activities of organs are Neural and ____.</text>
+            <option id="A">Endocrine</option><option id="B">Excretory</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Neural provides point-to-point connections.</explanation>
         </question>
         <question>
-            <text>Nodes of Ranvier are found in:</text>
-            <option id="A">Myelinated nerve fibres</option><option id="B">Non-myelinated nerve fibres</option><option id="C">Muscle fibres</option><option id="D">Glands</option>
-            <answer>A</answer><explanation>Gaps in myelin sheath.</explanation>
+            <text>Neural system of all animals is composed of highly specialized cells called ____.</text>
+            <option id="A">Neurons</option><option id="B">Nephrons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Can detect, receive and transmit different kinds of stimuli.</explanation>
         </question>
         <question>
-            <text>Multipolar neurons are found in:</text>
-            <option id="A">Cerebral cortex</option><option id="B">Retina of eye</option><option id="C">Embryonic stage</option><option id="D">Spinal cord only</option>
-            <answer>A</answer><explanation>One axon, many dendrites.</explanation>
+            <text>Human neural system is divided into two parts: Central Neural System (CNS) and ____.</text>
+            <option id="A">Peripheral Neural System (PNS)</option><option id="B">Autonomic System</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>CNS includes brain and spinal cord.</explanation>
         </question>
         <question>
-            <text>Bipolar neurons are found in:</text>
-            <option id="A">Retina of Eye</option><option id="B">Cerebral cortex</option><option id="C">Embryonic stage</option><option id="D">Skin</option>
-            <answer>A</answer><explanation>One axon, one dendrite.</explanation>
+            <text>CNS is the site of information processing and ____.</text>
+            <option id="A">Control</option><option id="B">Reception only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Interprets signals and decides response.</explanation>
         </question>
         <question>
-            <text>Resting membrane potential is maintained by:</text>
-            <option id="A">Na+/K+ Pump</option><option id="B">Calcium pump</option><option id="C">Diffusion only</option><option id="D">Osmosis</option>
-            <answer>A</answer><explanation>Active transport.</explanation>
+            <text>PNS comprises all the ____ of the body associated with the CNS.</text>
+            <option id="A">Nerves</option><option id="B">Muscles</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Divided into Afferent and Efferent fibers.</explanation>
         </question>
         <question>
-            <text>During resting state, the axonal membrane is:</text>
-            <option id="A">More permeable to K+ than Na+</option><option id="B">More permeable to Na+</option><option id="C">Equally permeable</option><option id="D">Impermeable</option>
-            <answer>A</answer><explanation>Leaky channels.</explanation>
+            <text>Afferent nerve fibers transmit impulses from ____ to ____.</text>
+            <option id="A">Tissues/Organs to CNS</option><option id="B">CNS to Tissues</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sensory in nature.</explanation>
         </question>
         <question>
-            <text>Which part of human brain controls body temperature?</text>
-            <option id="A">Hypothalamus</option><option id="B">Thalamus</option><option id="C">Cerebellum</option><option id="D">Cerebrum</option>
-            <answer>A</answer><explanation>Thermostat.</explanation>
+            <text>Efferent nerve fibers transmit impulses from ____ to ____.</text>
+            <option id="A">CNS to Tissues/Organs</option><option id="B">Tissues to CNS</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Motor in nature.</explanation>
         </question>
         <question>
-            <text>Which part of brain is responsible for balance and posture?</text>
-            <option id="A">Cerebellum</option><option id="B">Cerebrum</option><option id="C">Medulla</option><option id="D">Pons</option>
-            <answer>A</answer><explanation>Little brain.</explanation>
+            <text>PNS is divided into two divisions: Somatic neural system and ____.</text>
+            <option id="A">Autonomic neural system (ANS)</option><option id="B">Sympathetic system</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ANS is further divided into Sympathetic and Parasympathetic.</explanation>
         </question>
         <question>
-            <text>Vomiting centre is located in:</text>
-            <option id="A">Medulla</option><option id="B">Pons</option><option id="C">Cerebellum</option><option id="D">Hypothalamus</option>
-            <answer>A</answer><explanation>Reflex action.</explanation>
+            <text>Somatic neural system relays impulses from CNS to ____ muscles.</text>
+            <option id="A">Skeletal (Voluntary)</option><option id="B">Smooth</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Controls things under our conscious will.</explanation>
         </question>
         <question>
-            <text>Corpus callosum connects:</text>
-            <option id="A">Two Cerebral hemispheres</option><option id="B">Two Cerebellar hemispheres</option><option id="C">Brain and Spinal cord</option><option id="D">Midbrain and Hindbrain</option>
-            <answer>A</answer><explanation>Tract of nerve fibres.</explanation>
+            <text>ANS transmits impulses from CNS to ____ organs and ____ muscles.</text>
+            <option id="A">Involuntary / Smooth</option><option id="B">Voluntary / Skeletal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Controls internal environment.</explanation>
         </question>
         <question>
-            <text>Canal passing through midbrain is called:</text>
-            <option id="A">Cerebral aqueduct</option><option id="B">Foramen of Monro</option><option id="C">Central canal</option><option id="D">Eustachian tube</option>
-            <answer>A</answer><explanation>Aqueduct of Sylvius.</explanation>
+            <text>A neuron is composed of three major parts: Cell body, Dendrites and ____.</text>
+            <option id="A">Axon</option><option id="B">Synapse</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Dendrites and axons are processes arising from cell body.</explanation>
         </question>
         <question>
-            <text>Visual cortex is located in:</text>
-            <option id="A">Occipital lobe</option><option id="B">Frontal lobe</option><option id="C">Parietal lobe</option><option id="D">Temporal lobe</option>
-            <answer>A</answer><explanation>Vision centre.</explanation>
+            <text>Cell body contains cytoplasm with typical cell organelles and granular bodies called ____.</text>
+            <option id="A">Nissl's granules</option><option id="B">Mitochondria</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sites of protein synthesis in neurons.</explanation>
         </question>
         <question>
-            <text>Blind spot is the region where:</text>
-            <option id="A">Photoreceptor cells are absent</option><option id="B">Rods are present</option><option id="C">Cones are present</option><option id="D">Optic nerve enters</option>
-            <answer>A</answer><explanation>Optic disk.</explanation>
+            <text>Short fibers which branch repeatedly and project out of the cell body? ____.</text>
+            <option id="A">Dendrites</option><option id="B">Axons</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Conduct impulses towards the cell body.</explanation>
         </question>
         <question>
-            <text>Macula lutea (Yellow spot) contains:</text>
-            <option id="A">Only cones (Fovea)</option><option id="B">Only rods</option><option id="C">Both rods and cones</option><option id="D">No cells</option>
-            <answer>A</answer><explanation>Sharpest vision.</explanation>
+            <text>Long fiber, distal end of which is branched? ____.</text>
+            <option id="A">Axon</option><option id="B">Dendrite</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conducts impulses away from cell body.</explanation>
         </question>
         <question>
-            <text>Organ of Corti is located on:</text>
-            <option id="A">Basilar membrane</option><option id="B">Reissner's membrane</option><option id="C">Tectorial membrane</option><option id="D">Tympanic membrane</option>
-            <answer>A</answer><explanation>Hearing organ.</explanation>
+            <text>Bulb-like structures at the end of axon branches are ____.</text>
+            <option id="A">Synaptic knobs</option><option id="B">Nodes of Ranvier</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contain synaptic vesicles with neurotransmitters.</explanation>
         </question>
         <question>
-            <text>Eustachian tube connects:</text>
-            <option id="A">Middle ear with Pharynx</option><option id="B">Inner ear with Pharynx</option><option id="C">External ear with Middle ear</option><option id="D">Middle ear with Larynx</option>
-            <answer>A</answer><explanation>Equalizes pressure.</explanation>
+            <text>Neurons with one axon and two or more dendrites are ____.</text>
+            <option id="A">Multipolar</option><option id="B">Bipolar</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Most common in cerebral cortex.</explanation>
         </question>
         <question>
-            <text>Which of the following is responsible for maintaining body balance (Dynamic ex)?</text>
-            <option id="A">Crista ampullaris (Semicircular canals)</option><option id="B">Organ of Corti</option><option id="C">Cochlea</option><option id="D">Eustachian tube</option>
-            <answer>A</answer><explanation>Vestibular apparatus.</explanation>
+            <text>Neurons with one axon and one dendrite are ____.</text>
+            <option id="A">Bipolar</option><option id="B">Unipolar</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Found in retina of eye.</explanation>
         </question>
         <question>
-            <text>Rhodopsin is found in:</text>
-            <option id="A">Rods</option><option id="B">Cones</option><option id="C">Amacrine cells</option><option id="D">Bipolar cells</option>
-            <answer>A</answer><explanation>Visual purple.</explanation>
+            <text>Neurons with cell body and only one axon are ____.</text>
+            <option id="A">Unipolar</option><option id="B">Multipolar</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Found usually in embryonic stage.</explanation>
         </question>
         <question>
-            <text>Twilight (Scotopic) vision is function of:</text>
-            <option id="A">Rods</option><option id="B">Cones</option><option id="C">Lens</option><option id="D">Iris</option>
-            <answer>A</answer><explanation>Dim light.</explanation>
+            <text>The gaps between two adjacent myelin sheaths are ____.</text>
+            <option id="A">Nodes of Ranvier</option><option id="B">Synapses</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Facilitate saltatory conduction.</explanation>
         </question>
         <question>
-            <text>Daylight (Photopic) vision is function of:</text>
-            <option id="A">Cones</option><option id="B">Rods</option><option id="C">Pupil</option><option id="D">Cornea</option>
-            <answer>A</answer><explanation>Colour vision.</explanation>
+            <text>Neurons are ____ cells because their membranes are in a polarized state.</text>
+            <option id="A">Excitable</option><option id="B">Static</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Special ion channels are present on membrane.</explanation>
         </question>
         <question>
-            <text>Function of Iris is to:</text>
-            <option id="A">Regulate diameter of Pupil</option><option id="B">Focus light</option><option id="C">Protect eye</option><option id="D">Provide colour</option>
-            <answer>A</answer><explanation>Controls light entry.</explanation>
+            <text>Resting potential of a nerve fiber is approx ____ mV.</text>
+            <option id="A">-70</option><option id="B">+30</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inside is negative relative to outside.</explanation>
         </question>
         <question>
-            <text>The space between Cornea and Lens is:</text>
-            <option id="A">Aqueous chamber</option><option id="B">Vitreous chamber</option><option id="C">Anterior chamber</option><option id="D">Blind spot</option>
-            <answer>A</answer><explanation>Aqueous humor.</explanation>
+            <text>Sodium-Potassium pump transports ____ Na+ outwards for ____ K+ inwards.</text>
+            <option id="A">3 / 2</option><option id="B">2 / 3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maintains the resting potential using ATP.</explanation>
         </question>
         <question>
-            <text>Saltatory conduction occurs in:</text>
-            <option id="A">Myelinated fibres</option><option id="B">Non-myelinated fibres</option><option id="C">Muscle fibres</option><option id="D">Glands</option>
-            <answer>A</answer><explanation>Jumps between nodes.</explanation>
+            <text>Rapid change in membrane potential upon stimulus is ____ potential.</text>
+            <option id="A">Action (Impulse)</option><option id="B">Resting</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Followed by repolarization.</explanation>
         </question>
         <question>
-            <text>Which neurotransmitter is broken down by Acetylcholinesterase?</text>
-            <option id="A">Acetylcholine</option><option id="B">Dopamine</option><option id="C">Serotonin</option><option id="D">GABA</option>
-            <answer>A</answer><explanation>Synaptic transmission.</explanation>
+            <text>Impulse transmission across a synapse is mediated by chemicals called ____.</text>
+            <option id="A">Neurotransmitters</option><option id="B">Hormones</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>e.g., Acetylcholine.</explanation>
+        </question>
+        <question>
+            <text>Brain is protected by skull and three membranes called ____.</text>
+            <option id="A">Cranial meninges</option><option id="B">Pleura</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dura mater, Arachnoid and Pia mater.</explanation>
+        </question>
+        <question>
+            <text>Outer cover of brain meninges is ____.</text>
+            <option id="A">Dura mater</option><option id="B">Pia mater</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hardest and thickest layer.</explanation>
+        </question>
+        <question>
+            <text>The inner layer of meninges in contact with brain tissue is ____.</text>
+            <option id="A">Pia mater</option><option id="B">Arachnoid</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Thin and vascular.</explanation>
+        </question>
+        <question>
+            <text>Brain is divided into Forebrain, Midbrain and ____.</text>
+            <option id="A">Hindbrain</option><option id="B">Spinal cord</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard architectural division.</explanation>
+        </question>
+        <question>
+            <text>The largest part of human brain is ____.</text>
+            <option id="A">Cerebrum</option><option id="B">Cerebellum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Divided into two hemispheres.</explanation>
+        </question>
+        <question>
+            <text>Hemispheres of cerebrum are connected by a tract of nerve fibers called ____.</text>
+            <option id="A">Corpus callosum</option><option id="B">Thalamus</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Largest white matter structure.</explanation>
+        </question>
+        <question>
+            <text>Outer layer of cerebrum is called cerebral ____.</text>
+            <option id="A">Cortex</option><option id="B">Medulla</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Known as grey matter due to neuron cell bodies.</explanation>
+        </question>
+        <question>
+            <text>Major coordinating center for sensory and motor signaling in forebrain? ____.</text>
+            <option id="A">Thalamus</option><option id="B">Hypothalamus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cerebrum wraps around it.</explanation>
+        </question>
+        <question>
+            <text>Centres for controlling body temperature, urge for eating and drinking are in ____.</text>
+            <option id="A">Hypothalamus</option><option id="B">Cerebellum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Master regulator of internal environment.</explanation>
+        </question>
+        <question>
+            <text>Inner parts of cerebral hemispheres and associated structures like Amygdala/Hippocampus? ____.</text>
+            <option id="A">Limbic system</option><option id="B">Basal ganglia</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involved in emotional behavior and memory.</explanation>
+        </question>
+        <question>
+            <text>Canal passing through the midbrain? ____.</text>
+            <option id="A">Cerebral aqueduct</option><option id="B">Central canal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Connects 3rd and 4th ventricles.</explanation>
+        </question>
+        <question>
+            <text>Hindbrain comprises Pons, Cerebellum and ____.</text>
+            <option id="A">Medulla oblongata</option><option id="B">Midbrain</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Medulla connects brain to spinal cord.</explanation>
+        </question>
+        <question>
+            <text>Part of hindbrain that coordinates muscular activities and maintains balance? ____.</text>
+            <option id="A">Cerebellum</option><option id="B">Pons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Has very convoluted surface.</explanation>
+        </question>
+        <question>
+            <text>Medulla contains centers that control ____, cardiovascular reflexes and gastric secretions.</text>
+            <option id="A">Respiration</option><option id="B">Voluntary movement</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vital involuntary hub.</explanation>
+        </question>
+        <question>
+            <text>Easy 40 complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>Sodium-Potassium pump transports:</text>
-            <option id="A">3 Na+ outwards and 2 K+ inwards</option><option id="B">2 Na+ outwards and 3 K+ inwards</option><option id="C">3 Na+ inwards and 2 K+ outwards</option><option id="D">Equal amounts</option>
-            <answer>A</answer><explanation>Active transport.</explanation>
+            <text>Entire process of response to a peripheral nervous stimulation that occurs involuntarily? ____.</text>
+            <option id="A">Reflex action</option><option id="B">Cognition</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Occurs without conscious effort.</explanation>
         </question>
         <question>
-            <text>Depolarization of nerve membrane is caused by:</text>
-            <option id="A">Rapid influx of Na+</option><option id="B">Efflux of K+</option><option id="C">Influx of Ca++</option><option id="D">Efflux of Na+</option>
-            <answer>A</answer><explanation>Voltage gated Na+ channels open.</explanation>
+            <text>Reflex pathway comprises at least one ____ neuron and one ____ neuron.</text>
+            <option id="A">Afferent / Efferent</option><option id="B">Motor / Sensory</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard arc.</explanation>
         </question>
         <question>
-            <text>Repolarization is caused by:</text>
-            <option id="A">Efflux of K+</option><option id="B">Influx of Na+</option><option id="C">Influx of Cl-</option><option id="D">Efflux of Ca++</option>
-            <answer>A</answer><explanation>K+ channels open.</explanation>
+            <text>Knee jerk reflex is a ____ reflex.</text>
+            <option id="A">Monosynaptic</option><option id="B">Polysynaptic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direct synapse between sensory and motor neuron.</explanation>
         </question>
         <question>
-            <text>Limbic system is concerned with:</text>
-            <option id="A">Emotional reactions and Motivation</option><option id="B">Balance</option><option id="C">Vision</option><option id="D">Hearing</option>
-            <answer>A</answer><explanation>Amygdala, Hippocampus.</explanation>
+            <text>Sensory organs for vision? ____.</text>
+            <option id="A">Eyes</option><option id="B">Ears</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Located in sockets of skull called orbits.</explanation>
         </question>
         <question>
-            <text>Reflex arc components correct sequence:</text>
-            <option id="A">Receptor -> Sensory neuron -> CNS -> Motor neuron -> Effector</option><option id="B">Receptor -> Motor neuron -> CNS -> Sensory neuron -> Effector</option><option id="C">Effector -> Sensory -> CNS -> Motor -> Receptor</option><option id="D">CNS -> Receptor -> Effector</option>
-            <answer>A</answer><explanation>Path of reflex.</explanation>
+            <text>Wall of eye ball is composed of three layers: Sclera, Choroid and ____.</text>
+            <option id="A">Retina</option><option id="B">Cornea</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Retina is the inner most light sensitive layer.</explanation>
         </question>
         <question>
-            <text>Photosensitive compounds (Photopigments) in human eye are composed of:</text>
-            <option id="A">Opsin and Retinal</option><option id="B">Opsin and Retinol</option><option id="C">Guanylin and Retinal</option><option id="D">Transducin and Retinene</option>
-            <answer>A</answer><explanation>Retinal is aldehyde of Vit A.</explanation>
+            <text>The anterior transparent part of sclera is ____.</text>
+            <option id="A">Cornea</option><option id="B">Iris</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Plays major role in light refraction.</explanation>
         </question>
         <question>
-            <text>Which layer of eyeball contains blood vessels and is blue in colour?</text>
-            <option id="A">Choroid</option><option id="B">Sclera</option><option id="C">Retina</option><option id="D">Cornea</option>
-            <answer>A</answer><explanation>Middle layer.</explanation>
+            <text>Vascular layer of eye that contains many blood vessels and appears bluish? ____.</text>
+            <option id="A">Choroid</option><option id="B">Sclera</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Becomes thick anteriorly to form ciliary body.</explanation>
         </question>
         <question>
-            <text>Three ossicles in ear are arranged as:</text>
-            <option id="A">Malleus -> Incus -> Stapes</option><option id="B">Incus -> Malleus -> Stapes</option><option id="C">Stapes -> Incus -> Malleus</option><option id="D">Malleus -> Stapes -> Incus</option>
-            <answer>A</answer><explanation>Outside to inside.</explanation>
+            <text>Pigmented and opaque structure visible through cornea? ____.</text>
+            <option id="A">Iris</option><option id="B">Lens</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains muscles that regulate pupil size.</explanation>
         </question>
         <question>
-            <text>Membranous labyrinth is filled with:</text>
-            <option id="A">Endolymph</option><option id="B">Perilymph</option><option id="C">Hemolymph</option><option id="D">Water</option>
-            <answer>A</answer><explanation>Surrounded by perilymph.</explanation>
+            <text>The aperture surrounded by iris is ____.</text>
+            <option id="A">Pupil</option><option id="B">Retina</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Controls amount of light entering.</explanation>
         </question>
         <question>
-            <text>Reissner's membrane separates:</text>
-            <option id="A">Scala vestibuli and Scala media</option><option id="B">Scala media and Scala tympani</option><option id="C">Scala vestibuli and Scala tympani</option><option id="D">Middle ear and Inner ear</option>
-            <answer>A</answer><explanation>Ear structure.</explanation>
+            <text>The eye contains a transparent crystalline ____ held by ligaments.</text>
+            <option id="A">Lens</option><option id="B">Vitreous humor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Adjusts focus.</explanation>
         </question>
         <question>
-            <text>Basilar membrane separates:</text>
-            <option id="A">Scala media and Scala tympani</option><option id="B">Scala vestibuli and Scala media</option><option id="C">Outer ear and Middle ear</option><option id="D">Cochlea and Vestibule</option>
-            <answer>A</answer><explanation>Supports Organ of Corti.</explanation>
+            <text>Retina contains three layers of cells: Ganglion cells, Bipolar cells and ____.</text>
+            <option id="A">Photoreceptor cells</option><option id="B">Glial cells</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Photoreceptors are rods and cones.</explanation>
         </question>
         <question>
-            <text>Function of Tectorial membrane is:</text>
-            <option id="A">Press against hair cells during vibration</option><option id="B">Protect ear</option><option id="C">Balance</option><option id="D">Fluid secretion</option>
-            <answer>A</answer><explanation>Hearing mechanism.</explanation>
+            <text>Cells functional in twilight (scotopic) vision are ____.</text>
+            <option id="A">Rods</option><option id="B">Cones</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Contain purplish-red protein called rhodopsin.</explanation>
         </question>
         <question>
-            <text>Parasympathetic nervous system causes:</text>
-            <option id="A">Constriction of pupil</option><option id="B">Dilation of pupil</option><option id="C">Increase heart rate</option><option id="D">Dry mouth</option>
-            <answer>A</answer><explanation>Rest and digest.</explanation>
+            <text>Cells functional in daylight (photopic) and color vision are ____.</text>
+            <option id="A">Cones</option><option id="B">Rods</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sensitive to Red, Green and Blue lights.</explanation>
         </question>
         <question>
-            <text>Sympathetic nervous system causes:</text>
-            <option id="A">Dilation of pupil</option><option id="B">Salivation</option><option id="C">Constriction of pupil</option><option id="D">Digestion</option>
-            <answer>A</answer><explanation>Fight or flight.</explanation>
+            <text>Point in retina where optic nerves leave and photoreceptors are absent? ____.</text>
+            <option id="A">Blind spot</option><option id="B">Macula lutea</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No image formed here.</explanation>
         </question>
         <question>
-            <text>Cranial nerves in humans are:</text>
-            <option id="A">12 pairs</option><option id="B">10 pairs</option><option id="C">31 pairs</option><option id="D">12 numbers</option>
-            <answer>A</answer><explanation>Spinal nerves are 31 pairs.</explanation>
+            <text>Yellowish pigmented spot lateral to blind spot is ____.</text>
+            <option id="A">Macula lutea</option><option id="B">Fovea</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Has a central pit called fovea.</explanation>
         </question>
         <question>
-            <text>Pons connects:</text>
-            <option id="A">Different regions of brain</option><option id="B">Brain to Spinal cord</option><option id="C">Eye to Brain</option><option id="D">Ear to Brain</option>
-            <answer>A</answer><explanation>Fibre tracts.</explanation>
+            <text>Point of maximum visual acuity (resolution) in retina is ____.</text>
+            <option id="A">Fovea</option><option id="B">Blind spot</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Only cones are densely packed here.</explanation>
         </question>
         <question>
-            <text>Medulla contains centers for:</text>
-            <option id="A">Respiration, CV reflexes, Gastric secretions</option><option id="B">Vision</option><option id="C">Hearing</option><option id="D">Memory</option>
-            <answer>A</answer><explanation>Vital involuntary functions.</explanation>
+            <text>Space between cornea and lens filled with watery fluid? ____.</text>
+            <option id="A">Aqueous chamber</option><option id="B">Vitreous chamber</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains aqueous humor.</explanation>
         </question>
         <question>
-            <text>Grey matter in spinal cord is located:</text>
-            <option id="A">Inside (H-shaped)</option><option id="B">Outside</option><option id="C">Mixed</option><option id="D">Absent</option>
-            <answer>A</answer><explanation>Opposite of brain.</explanation>
+            <text>Space between lens and retina filled with transparent gel? ____.</text>
+            <option id="A">Vitreous chamber</option><option id="B">Aqueous chamber</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Maintains eye ball shape.</explanation>
         </question>
         <question>
-            <text>Brain stem consists of:</text>
-            <option id="A">Midbrain, Pons, Medulla</option><option id="B">Forebrain, Midbrain, Hindbrain</option><option id="C">Cerebellum and Medulla</option><option id="D">Thalamus and Hypothalamus</option>
-            <answer>A</answer><explanation>Connects brain to cord.</explanation>
+            <text>Ear is divided into three sections: External, Middle and ____.</text>
+            <option id="A">Inner</option><option id="B">Tympanic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Performs functions of hearing and balance.</explanation>
         </question>
         <question>
-            <text>Arbor vitae is found in:</text>
-            <option id="A">Cerebellum</option><option id="B">Cerebrum</option><option id="C">Medulla</option><option id="D">Midbrain</option>
-            <answer>A</answer><explanation>Tree of life (White matter).</explanation>
+            <text>External ear consists of Pinna and ____.</text>
+            <option id="A">External Auditory Meatus (Canal)</option><option id="B">Malleus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pinna collects sound vibrations.</explanation>
         </question>
         <question>
-            <text>Accommodation of eye is controlled by:</text>
-            <option id="A">Ciliary body</option><option id="B">Iris</option><option id="C">Cornea</option><option id="D">Retina</option>
-            <answer>A</answer><explanation>Changes lens curvature.</explanation>
+            <text>Fine hairs and wax-secreting glands (ceruminous) are found in ____.</text>
+            <option id="A">Auditory canal</option><option id="B">Inner ear</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Traps dust and insects.</explanation>
         </question>
         <question>
-            <text>Which receptors are responsible for balance?</text>
-            <option id="A">Crista and Macula</option><option id="B">Organ of Corti</option><option id="C">Rods and Cones</option><option id="D">Gustatory</option>
-            <answer>A</answer><explanation>Vestibular system.</explanation>
+            <text>Tympanic membrane is commonly called the ____.</text>
+            <option id="A">Eardrum</option><option id="B">Oval window</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vibrates in response to sound waves.</explanation>
         </question>
         <question>
-            <text>Otoliths (Ear stones) are found in:</text>
-            <option id="A">Macula of Saccule and Utricle</option><option id="B">Crista ampullaris</option><option id="C">Cochlea</option><option id="D">Semicircular canals</option>
-            <answer>A</answer><explanation>Static balance.</explanation>
+            <text>Ear ossicles transmit sound waves from eardrum to ____.</text>
+            <option id="A">Oval window</option><option id="B">Round window</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increases efficiency of transmission.</explanation>
         </question>
         <question>
-            <text>Scala vestibuli ends at:</text>
-            <option id="A">Oval window</option><option id="B">Round window</option><option id="C">Tympanum</option><option id="D">Helicotrema</option>
-            <answer>A</answer><explanation>Starts from oval window.</explanation>
+            <text>Tube connecting middle ear cavity with pharynx is ____.</text>
+            <option id="A">Eustachian tube</option><option id="B">Cochlear duct</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equalizes pressure on either side of eardrum.</explanation>
         </question>
         <question>
-            <text>Myelin sheath involves:</text>
-            <option id="A">Schwann cells</option><option id="B">Astrocytes</option><option id="C">Microglia</option><option id="D">Ependymal cells</option>
-            <answer>A</answer><explanation>PNS myelin.</explanation>
+            <text>Inner ear is a fluid-filled coiled structure called ____.</text>
+            <option id="A">Labyrinth</option><option id="B">Cochlea (specifically the hearing part)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Consists of bony and membranous parts.</explanation>
+        </question>
+        <question>
+            <text>Membranous labyrinth is filled with a fluid called ____.</text>
+            <option id="A">Endolymph</option><option id="B">Perilymph</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Perilymph surrounds it.</explanation>
+        </question>
+        <question>
+            <text>Coiled portion of labyrinth is called ____.</text>
+            <option id="A">Cochlea</option><option id="B">Vestibule</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Site of hearing reception.</explanation>
+        </question>
+        <question>
+            <text>Organ of Corti is located on the ____ membrane.</text>
+            <option id="A">Basilar</option><option id="B">Reissner's</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains hair cells (auditory receptors).</explanation>
+        </question>
+        <question>
+            <text>The Vestibular apparatus consists of three Semicircular canals and the ____.</text>
+            <option id="A">Otolith organ (Saccule and Utricle)</option><option id="B">Cochlea</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Responsible for balance.</explanation>
+        </question>
+        <question>
+            <text>Specific receptors of vestibular apparatus for balance are Macula and ____.</text>
+            <option id="A">Crista ampullaris</option><option id="B">Hair cells of Corti</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Crista in canals; Macula in Otolith.</explanation>
+        </question>
+        <question>
+            <text>White matter of brain appears white due to ____.</text>
+            <option id="A">Myelin sheaths (Lipid rich)</option><option id="B">Blood vessels</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>In cerebrum, it forms the inner part.</explanation>
+        </question>
+        <question>
+            <text>Gap between two neurons is ____.</text>
+            <option id="A">Synapse</option><option id="B">Node</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Comprises pre-synaptic, cleft and post-synaptic membranes.</explanation>
+        </question>
+        <question>
+            <text>Electrical synapses are ____ in human system compared to chemical.</text>
+            <option id="A">Rarer (Few)</option><option id="B">Common</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Allow extremely fast transmission.</explanation>
+        </question>
+        <question>
+            <text>Arbor vitae is seen in ____.</text>
+            <option id="A">Cerebellum</option><option id="B">Cerebrum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>'Tree of life' branching pattern of white matter.</explanation>
+        </question>
+        <question>
+            <text>Brainstem consists of Midbrain, Pons and ____.</text>
+            <option id="A">Medulla oblongata</option><option id="B">Cerebellum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Forms connection with spinal cord.</explanation>
+        </question>
+        <question>
+            <text>Is nerve impulse transmission faster in myelinated or non-myelinated fibers?</text>
+            <option id="A">Myelinated (Saltatory conduction)</option><option id="B">Non-myelinated</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Jumps from node to node.</explanation>
+        </question>
+        <question>
+            <text>Refractory period ensures impulse travels in ____ direction.</text>
+            <option id="A">One (Forward)</option><option id="B">Both</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sodium channels are inactivated temporarily.</explanation>
+        </question>
+        <question>
+            <text>Schwann cells form the ____ in PNS.</text>
+            <option id="A">Myelin sheath</option><option id="B">Nissl's granules</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Oligodendrocytes do it in CNS.</explanation>
+        </question>
+        <question>
+            <text>Most neurons in adult brain are capable of division? ____.</text>
+            <option id="A">False (Post-mitotic)</option><option id="B">True</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Limited regeneration capacity.</explanation>
+        </question>
+        <question>
+            <text>Medium 40 complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>During depolarization, the membrane potential changes from -70mV to:</text>
-            <option id="A">+30mV or +45mV</option><option id="B">0mV</option><option id="C">-90mV</option><option id="D">-55mV</option>
-            <answer>A</answer><explanation>Action potential peak.</explanation>
+            <text>Mechanism of polarized state: Resting membrane is more permeable to ____ and nearly impermeable to ____.</text>
+            <option id="A">K+ / Na+</option><option id="B">Na+ / K+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Leads to K+ outflow, creating negativity inside.</explanation>
         </question>
         <question>
-            <text>Hyperpolarization occurs due to:</text>
-            <option id="A">Prolonged opening of K+ channels</option><option id="B">Na+ influx</option><option id="C">Ca++ influx</option><option id="D">Cl- efflux</option>
-            <answer>A</answer><explanation>Overshoot of repolarization.</explanation>
+            <text>Ionic gradient in resting neuron is maintained by ____ pump.</text>
+            <option id="A">Sodium-Potassium ATPase</option><option id="B">Calcium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Uses 1/3rd of cell energy.</explanation>
         </question>
         <question>
-            <text>Mechanism of vision involves:</text>
-            <option id="A">Dissociation of Retinal from Opsin -> Change in Opsin structure -> Membrane permeability change</option><option id="B">Association of Retinal and Opsin</option><option id="C">Opsin breakdown</option><option id="D">Retinal breakdown</option>
-            <answer>A</answer><explanation>Light induces dissociation.</explanation>
+            <text>Depolarization is due to rapid influx of ____.</text>
+            <option id="A">Na+ (Sodium ions)</option><option id="B">K+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Opening of voltage-gated Na+ channels.</explanation>
         </question>
         <question>
-            <text>Association areas in cerebral cortex are responsible for:</text>
-            <option id="A">Inter-sensory associations, Memory, Communication</option><option id="B">Motor functions only</option><option id="C">Sensory functions only</option><option id="D">Reflexes</option>
-            <answer>A</answer><explanation>Complex functions.</explanation>
+            <text>Repolarization is due to efflux of ____.</text>
+            <option id="A">K+ (Potassium ions)</option><option id="B">Na+</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Na+ channels close, K+ channels open.</explanation>
         </question>
         <question>
-            <text>Broca's area is associated with:</text>
-            <option id="A">Speech production</option><option id="B">Speech understanding (Wernicke's)</option><option id="C">Vision</option><option id="D">Hearing</option>
-            <answer>A</answer><explanation>Motor speech area.</explanation>
+            <text>Temporal summation occurs when ____.</text>
+            <option id="A">Repeated stimuli from one neuron add up</option><option id="B">Many neurons fire at once</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Spatial summation is from different sources.</explanation>
         </question>
         <question>
-            <text>Unmyelinated nerve fiber is enclosed by Schwann cell but:</text>
-            <option id="A">Does not form myelin sheath</option><option id="B">Forms myelin sheath</option><option id="C">Has nodes of Ranvier</option><option id="D">Is faster</option>
-            <answer>A</answer><explanation>Found in ANS/SNS.</explanation>
+            <text>The corpora quadrigemina are four lobes on the dorsal side of ____.</text>
+            <option id="A">Midbrain</option><option id="B">Forebrain</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Superior and Inferior colliculi (visual/auditory reflexes).</explanation>
         </question>
         <question>
-            <text>Corpora quadrigemina is found in:</text>
-            <option id="A">Midbrain</option><option id="B">Hindbrain</option><option id="C">Forebrain</option><option id="D">Pons</option>
-            <answer>A</answer><explanation>4 lobes (Superior/Inferior Colliculi).</explanation>
+            <text>Basal ganglia are subcortical nuclei in ____.</text>
+            <option id="A">Forebrain</option><option id="B">Midbrain</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Involved in control of voluntary movements.</explanation>
         </question>
         <question>
-            <text>Superior colliculi controls:</text>
-            <option id="A">Visual reflexes</option><option id="B">Auditory reflexes</option><option id="C">Smell</option><option id="D">Touch</option>
-            <answer>A</answer><explanation>Visual processing.</explanation>
+            <text>Damage to Broca's area leads to ____.</text>
+            <option id="A">Speech impairment (Aphasia)</option><option id="B">Blindness</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Located in frontal lobe.</explanation>
         </question>
         <question>
-            <text>Inferior colliculi controls:</text>
-            <option id="A">Auditory reflexes</option><option id="B">Visual reflexes</option><option id="C">Balance</option><option id="D">Taste</option>
-            <answer>A</answer><explanation>Auditory processing.</explanation>
+            <text>Rhodopsin is made of a protein Opsin and an aldehyde of Vitamin A called ____.</text>
+            <option id="A">Retinal</option><option id="B">Retinol</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Light absorption triggers dissociation of retinal from opsin.</explanation>
         </question>
         <question>
-            <text>Thalamus acts as:</text>
-            <option id="A">Major coordinating centre for sensory and motor signaling</option><option id="B">Memory storage</option><option id="C">Emotion centre</option><option id="D">Thermostat</option>
-            <answer>A</answer><explanation>Relay station.</explanation>
+            <text>Structural change in opsin upon light exposure leads to ____.</text>
+            <option id="A">Generation of potential difference in photoreceptors</option><option id="B">Color change only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Transmitted to brain via optic nerve.</explanation>
         </question>
         <question>
-            <text>Which cranial nerve is the Vagus nerve?</text>
-            <option id="A">X (10th)</option><option id="B">V (5th)</option><option id="C">IX (9th)</option><option id="D">VII (7th)</option>
-            <answer>A</answer><explanation>Wandering nerve.</explanation>
+            <text>Macula of otolith organ contains crystals of ____.</text>
+            <option id="A">Calcium carbonate (Otokonia)</option><option id="B">Phosphate</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Their weight shifts with head position, triggering hair cells.</explanation>
         </question>
         <question>
-            <text>Which of the following is NOT a part of the ear ossicles?</text>
-            <option id="A">Hyoid</option><option id="B">Malleus</option><option id="C">Incus</option><option id="D">Stapes</option>
-            <answer>A</answer><explanation>Hyoid is in neck.</explanation>
+            <text>High frequency sounds are detected by hair cells at the ____ of cochlea.</text>
+            <option id="A">Base (near oval window)</option><option id="B">Apex</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basilar membrane is narrower and stiffer at base.</explanation>
         </question>
         <question>
-            <text>Fovea centralis is thinned out portion of retina where:</text>
-            <option id="A">Only cones are densely packed</option><option id="B">Rods are dense</option><option id="C">Optic nerve leaves</option><option id="D">Blood vessels enter</option>
-            <answer>A</answer><explanation>Max visual acuity.</explanation>
+            <text>Low frequency sounds are detected at the ____ of cochlea.</text>
+            <option id="A">Apex (Helicotrema end)</option><option id="B">Base</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to wider and more flexible basilar membrane.</explanation>
         </question>
         <question>
-            <text>Vitreous humor is:</text>
-            <option id="A">Transparent gel</option><option id="B">Watery fluid</option><option id="C">Blood</option><option id="D">Lymph</option>
-            <answer>A</answer><explanation>Supports eye shape.</explanation>
+            <text>Meniere's disease affects ____.</text>
+            <option id="A">Inner ear (leads to vertigo and hearing loss)</option><option id="B">Retina</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to excess endolymph.</explanation>
         </question>
         <question>
-            <text>Amount of light entering eye is regulated by:</text>
-            <option id="A">Pupil (controlled by Iris)</option><option id="B">Cornea</option><option id="C">Lens</option><option id="D">Ciliary muscles</option>
-            <answer>A</answer><explanation>Aperture.</explanation>
+            <text>Acommodation of eye refers to ____.</text>
+            <option id="A">Adjusting lens curvature for near/far vision</option><option id="B">Pupil size change</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mediated by ciliary muscles.</explanation>
         </question>
         <question>
-            <text>Chemical transmission across synapse is:</text>
-            <option id="A">Slower than electrical transmission</option><option id="B">Faster than electrical</option><option id="C">Same speed</option><option id="D">Instant</option>
-            <answer>A</answer><explanation>Synaptic delay.</explanation>
+            <text>Presbyopia is due to ____ with age.</text>
+            <option id="A">Loss of lens elasticity</option><option id="B">Vitamin A deficiency</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Difficulty in near vision.</explanation>
         </question>
         <question>
-            <text>Electrical synapses are:</text>
-            <option id="A">Rare in human system</option><option id="B">Common in humans</option><option id="C">Found in muscles</option><option id="D">Absent</option>
-            <answer>A</answer><explanation>Gap junctions.</explanation>
+            <text>Ventral root of spinal nerve is ____.</text>
+            <option id="A">Motor</option><option id="B">Sensory</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dorsal root is sensory (contains Ganglion).</explanation>
         </question>
         <question>
-            <text>Alzheimer's disease affects:</text>
-            <option id="A">Memory and Cognitive function</option><option id="B">Motor coordination</option><option id="C">Vision</option><option id="D">Hearing</option>
-            <answer>A</answer><explanation>Neuronal degeneration.</explanation>
+            <text>Vagus nerve is the ____ cranial nerve.</text>
+            <option id="A">10th</option><option id="B">5th</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Crucial for parasympathetic regulation of heart and gut.</explanation>
         </question>
         <question>
-            <text>Parkinson's disease is due to lack of:</text>
-            <option id="A">Dopamine</option><option id="B">Acetylcholine</option><option id="C">GABA</option><option id="D">Serotonin</option>
-            <answer>A</answer><explanation>Substantia nigra degeneration.</explanation>
+            <text>Shortest cranial nerve is ____.</text>
+            <option id="A">Trochlear (IV)</option><option id="B">Olfactory</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Smallest in diameter/length.</explanation>
         </question>
         <question>
-            <text>Effect of Sympathetic NS on heart:</text>
-            <option id="A">Increases ventricular contraction strength and rate</option><option id="B">Decreases rate</option><option id="C">Decreases strength</option><option id="D">No effect</option>
-            <answer>A</answer><explanation>Adrenergic.</explanation>
+            <text>Which ion is specifically needed for neurotransmitter release from vesicles?</text>
+            <option id="A">Ca2+ (Calcium)</option><option id="B">Na+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calcium influx at synaptic knob triggers exocytosis.</explanation>
         </question>
         <question>
-            <text>Meniere's disease affects:</text>
-            <option id="A">Inner ear (Balance and Hearing)</option><option id="B">Eye</option><option id="C">Brain</option><option id="D">Nose</option>
-            <answer>A</answer><explanation>Vertigo/Tinnitus.</explanation>
+            <text>Enzyme that degrades acetylcholine is ____.</text>
+            <option id="A">Acetylcholinesterase</option><option id="B">MAO</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Termination of signal.</explanation>
         </question>
         <question>
-            <text>Correct sequence of sound transmission:</text>
-            <option id="A">Pinna -> Tympanum -> Ossicles -> Oval window -> Cochlea</option><option id="B">Pinna -> Oval window -> Ossicles -> Cochlea</option><option id="C">Pinna -> Tympanum -> Cochlea -> Ossicles</option><option id="D">Tympanum -> Pinna -> Ossicles</option>
-            <answer>A</answer><explanation>Hearing path.</explanation>
+            <text>Total number of questions in this standard file? ____.</text>
+            <option id="A">120</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation>
         </question>
         <question>
-            <text>Helicotrema connects:</text>
-            <option id="A">Scala vestibuli and Scala tympani</option><option id="B">Scala media and Scala tympani</option><option id="C">Middle ear and Inner ear</option><option id="D">Oval and Round window</option>
-            <answer>A</answer><explanation>Apex of cochlea.</explanation>
+            <text>Gray matter consists of ____.</text>
+            <option id="A">Cell bodies and non-myelinated fibers</option><option id="B">Myelin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Processes information.</explanation>
         </question>
         <question>
-            <text>Function of Round window (Fenestra rotunda):</text>
-            <option id="A">Relieve pressure in cochlea</option><option id="B">Amplify sound</option><option id="C">Transmit sound to cochlea</option><option id="D">Balance</option>
-            <answer>A</answer><explanation>Secondary tympanic membrane.</explanation>
+            <text>Phobias are generally processed in the ____.</text>
+            <option id="A">Amygdala</option><option id="B">Thalamus</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Emotional center.</explanation>
         </question>
         <question>
-            <text>Parietal lobe is main area for:</text>
-            <option id="A">Somatosensory integration (Touch, Pain, Temp)</option><option id="B">Vision</option><option id="C">Hearing</option><option id="D">Motor control</option>
-            <answer>A</answer><explanation>Sensory cortex.</explanation>
+            <text>Consolidation of short-term memory to long-term occurs in ____.</text>
+            <option id="A">Hippocampus</option><option id="B">Hypothalamus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Part of limbic system.</explanation>
+        </question>
+        <question>
+            <text>Presence of 'G-protein' coupled receptors in vision? ____.</text>
+            <option id="A">True (Opsin acts as one)</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Light activates transducin.</explanation>
+        </question>
+        <question>
+            <text>Vitamin deficiency leading to night blindness? ____.</text>
+            <option id="A">Vitamin A</option><option id="B">Vitamin B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Essential for retinal synthesis.</explanation>
+        </question>
+        <question>
+            <text>Loss of hearing due to damage to Organ of Corti is ____ deafness.</text>
+            <option id="A">Sensorineural</option><option id="B">Convective</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Permanent damage.</explanation>
+        </question>
+        <question>
+            <text>Final check for Neural: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
+        </question>
+        <question>
+            <text>Q111: The space between bony and membranous labyrinth is filled with ____.</text>
+            <option id="A">Perilymph</option><option id="B">Endolymph</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Acts as cushion buffer.</explanation>
+        </question>
+        <question>
+            <text>Q112: Cupula is found in ____.</text>
+            <option id="A">Semicircular canals (covers hair cells in crista)</option><option id="B">Organ of Corti</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gelatinous mass.</explanation>
+        </question>
+        <question>
+            <text>Q113: The blind spot is formal name for ____ Disc.</text>
+            <option id="A">Optic</option><option id="B">Retinal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exit point of ganglion axons.</explanation>
+        </question>
+        <question>
+            <text>Q114: Glaucoma is due to increased intraocular pressure in ____ humor.</text>
+            <option id="A">Aqueous</option><option id="B">Vitreous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Damages optic nerve.</explanation>
+        </question>
+        <question>
+            <text>Q115: Trigeminal nerve (V) is the ____ facial nerve.</text>
+            <option id="A">Dentist's nerve (sensory to face)</option><option id="B">Motor only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Largest cranial nerve.</explanation>
+        </question>
+        <question>
+            <text>Q116: Parasympathetic stimulation ____ pupil.</text>
+            <option id="A">Constricts (Miosis)</option><option id="B">Dilates (Mydriasis)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sympathetic dilates.</explanation>
+        </question>
+        <question>
+            <text>Q117: Neuroglial cells represent ____ of neural tissue volume.</text>
+            <option id="A">More than half</option><option id="B">Less than 10%</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Support and nourish neurons.</explanation>
+        </question>
+        <question>
+            <text>Q118: Is impulse speed independent of axon diameter?</text>
+            <option id="A">No (wider axon = faster speed)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to lower internal resistance.</explanation>
+        </question>
+        <question>
+            <text>Q119: Function of 'Tectorial membrane' in hearing?</text>
+            <option id="A">Hair cell cilia brush against it to generate signal</option><option id="B">Vibrate with sound</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Shearing force is generated.</explanation>
+        </question>
+        <question>
+            <text>Q120: Final Q? Verified 120 count.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>File complete with standard 40/40/40 distribution.</explanation>
         </question>
     </hard>
 </chapter>

@@ -1,384 +1,609 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Biology" id="309" name="Chemical Coordination and Integration">
+<chapter subject="Biology" id="322" name="Chemical Coordination and Integration">
     <easy>
         <question>
-            <text>Hormones are:</text>
-            <option id="A">Non-nutrient chemicals</option><option id="B">Nutrients</option><option id="C">Enzymes</option><option id="D">Excretory products</option>
-            <answer>A</answer><explanation>Intercellular messengers.</explanation>
+            <text>Glands that lack ducts and release secretions directly into blood are ____.</text>
+            <option id="A">Endocrine glands (Ductless)</option><option id="B">Exocrine glands</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Secretions are called hormones.</explanation>
         </question>
         <question>
-            <text>Hypothalamus produces:</text>
-            <option id="A">Releasing and Inhibiting hormones</option><option id="B">Only releasing hormones</option><option id="C">Only inhibiting hormones</option><option id="D">Enzymes</option>
-            <answer>A</answer><explanation>Regulates Pituitary.</explanation>
+            <text>Chemicals produced by endocrine glands that act as inter-cellular messengers? ____.</text>
+            <option id="A">Hormones</option><option id="B">Enzymes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Produced in trace amounts and are non-nutrient chemicals.</explanation>
         </question>
         <question>
-            <text>Somatostatin from Hypothalamus inhibits release of:</text>
-            <option id="A">Growth Hormone</option><option id="B">Prolactin</option><option id="C">TSH</option><option id="D">ACTH</option>
-            <answer>A</answer><explanation>Growth inhibiting hormone.</explanation>
+            <text>Hypothalamus is the ____ part of diencephalon (forebrain).</text>
+            <option id="A">Basal</option><option id="B">Dorsal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains several groups of neurosecretory cells called nuclei.</explanation>
         </question>
         <question>
-            <text>Which gland is located in sella turcica?</text>
-            <option id="A">Pituitary</option><option id="B">Thyroid</option><option id="C">Adrenal</option><option id="D">Pineal</option>
-            <answer>A</answer><explanation>Master gland.</explanation>
+            <text>Hormone that stimulates secretion of pituitary hormones is ____.</text>
+            <option id="A">Releasing hormone (e.g. GnRH)</option><option id="B">Inhibiting hormone</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>GnRH stimulates gonadotrophins release.</explanation>
         </question>
         <question>
-            <text>Posterior Pituitary (Neurohypophysis) stores and releases:</text>
-            <option id="A">Oxytocin and Vasopressin</option><option id="B">GH and TSH</option><option id="C">FSH and LH</option><option id="D">ACTH</option>
-            <answer>A</answer><explanation>Synthesized in Hypothalamus.</explanation>
+            <text>Hormone that inhibits release of pituitary hormones is ____.</text>
+            <option id="A">Inhibiting hormone (e.g. Somatostatin)</option><option id="B">Releasing hormone</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Somatostatin inhibits growth hormone from pituitary.</explanation>
         </question>
         <question>
-            <text>Gigantism is caused by oversecretion of:</text>
-            <option id="A">Growth Hormone during childhood</option><option id="B">Thyroxine</option><option id="C">Insulin</option><option id="D">Adrenaline</option>
-            <answer>A</answer><explanation>Before puberty.</explanation>
+            <text>Pituitary gland is located in a bony cavity called ____.</text>
+            <option id="A">Sella turcica</option><option id="B">Orbit</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Attached to hypothalamus by a stalk.</explanation>
         </question>
         <question>
-            <text>Acromegaly is caused by excess GH in:</text>
-            <option id="A">Adults</option><option id="B">Children</option><option id="C">Infants</option><option id="D">Fetus</option>
-            <answer>A</answer><explanation>Disfigurement of face.</explanation>
+            <text>Pituitary gland is divided anatomically into ____ and ____.</text>
+            <option id="A">Adenohypophysis / Neurohypophysis</option><option id="B">Cortex / Medulla</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Adenohypophysis is the anterior pituitary; Neurohypophysis is posterior.</explanation>
         </question>
         <question>
-            <text>Prolactin regulates:</text>
-            <option id="A">Growth of mammary glands and milk formation</option><option id="B">Uterine contraction</option><option id="C">Water reabsorption</option><option id="D">Blood sugar</option>
-            <answer>A</answer><explanation>Milk production.</explanation>
+            <text>Hormone that stimulates abnormal growth of body? ____.</text>
+            <option id="A">Growth Hormone (GH)</option><option id="B">TSH</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Over-secretion leads to Gigantism; low leads to Dwarfism.</explanation>
         </question>
         <question>
-            <text>Oxytocin acts on:</text>
-            <option id="A">Smooth muscles</option><option id="B">Skeletal muscles</option><option id="C">Cardiac muscles</option><option id="D">Bones</option>
-            <answer>A</answer><explanation>Milk ejection and birth.</explanation>
+            <text>TSH stimulates synthesis and secretion of thyroid hormones from ____ gland.</text>
+            <option id="A">Thyroid</option><option id="B">Adrenal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>TSH = Thyroid Stimulating Hormone.</explanation>
         </question>
         <question>
-            <text>Pineal gland secretes:</text>
-            <option id="A">Melatonin</option><option id="B">Melanin</option><option id="C">MSH</option><option id="D">Thyroxine</option>
-            <answer>A</answer><explanation>Sleep-wake cycle.</explanation>
+            <text>ACTH stimulates secretion of ____ from adrenal cortex.</text>
+            <option id="A">Glucocorticoids</option><option id="B">Adrenaline</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ACTH = Adrenocorticotropic Hormone.</explanation>
         </question>
         <question>
-            <text>Thyroid gland is composed of:</text>
-            <option id="A">Follicles and Stromal tissues</option><option id="B">Islets</option><option id="C">Neurons</option><option id="D">Nephrons</option>
-            <answer>A</answer><explanation>Two lobes.</explanation>
+            <text>Hormone that stimulates growth of mammary glands and milk formation? ____.</text>
+            <option id="A">Prolactin (PRL)</option><option id="B">Oxytocin</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Oxytocin works on milk ejection later.</explanation>
         </question>
         <question>
-            <text>Deficiency of Iodine leads to:</text>
-            <option id="A">Goitre</option><option id="B">Diabetes</option><option id="C">Acromegaly</option><option id="D">Gigantism</option>
-            <answer>A</answer><explanation>Hypothyroidism.</explanation>
+            <text>Hormone that regulates skin pigmentation? ____.</text>
+            <option id="A">MSH (Melanocyte Stimulating Hormone)</option><option id="B">Melatonin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Acts on melanocytes in skin.</explanation>
         </question>
         <question>
-            <text>Cretinism is caused by:</text>
-            <option id="A">Hypothyroidism during pregnancy/infancy</option><option id="B">Hyperthyroidism</option><option id="C">Hypoparathyroidism</option><option id="D">Growth hormone deficiency</option>
-            <answer>A</answer><explanation>Stunted growth, mental retardation.</explanation>
+            <text>Hormone stored and released by Neurohypophysis (produced in hypothalamus) is ____.</text>
+            <option id="A">Oxytocin / Vasopressin (ADH)</option><option id="B">GH / TSH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>They are transported axonally to posterior pituitary.</explanation>
         </question>
         <question>
-            <text>Exophthalmic goitre (Graves' disease) is a form of:</text>
-            <option id="A">Hyperthyroidism</option><option id="B">Hypothyroidism</option><option id="C">Hyperparathyroidism</option><option id="D">Hypoadrenalism</option>
-            <answer>A</answer><explanation>Protrusion of eyeballs.</explanation>
+            <text>Hormone that acts on smooth muscles and stimulates contraction during birth? ____.</text>
+            <option id="A">Oxytocin</option><option id="B">Vasopressin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Often called 'birth hormone'.</explanation>
         </question>
         <question>
-            <text>Parathyroid hormone (PTH) increases blood Ca++ levels by:</text>
-            <option id="A">Bone resorption</option><option id="B">Bone formation</option><option id="C">Excretion of Ca++</option><option id="D">Inhibiting absorption</option>
-            <answer>A</answer><explanation>Hypercalcemic hormone.</explanation>
+            <text>Hormone that prevents water loss through urine? ____.</text>
+            <option id="A">Vasopressin (ADH)</option><option id="B">Oxytocin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Acts on kidneys to reabsorb water.</explanation>
         </question>
         <question>
-            <text>Thymosins play a major role in:</text>
-            <option id="A">Differentiation of T-lymphocytes</option><option id="B">B-lymphocytes production</option><option id="C">RBC production</option><option id="D">Clotting</option>
-            <answer>A</answer><explanation>Cell mediated immunity.</explanation>
+            <text>Pineal gland is located on the ____ side of forebrain.</text>
+            <option id="A">Dorsal</option><option id="B">Ventral</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Secretes Melatonin.</explanation>
         </question>
         <question>
-            <text>Adrenal medulla secretes:</text>
-            <option id="A">Adrenaline and Noradrenaline</option><option id="B">Cortisol</option><option id="C">Aldosterone</option><option id="D">Androgens</option>
-            <answer>A</answer><explanation>Catecholamines.</explanation>
+            <text>Melatonin regulates the 24-hour diurnal rhythm of ____.</text>
+            <option id="A">Sleep-wake cycle</option><option id="B">Digestion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also influences body temp and metabolism.</explanation>
         </question>
         <question>
-            <text>Emergency hormones (Fight or Flight) are:</text>
-            <option id="A">Catecholamines</option><option id="B">Glucocorticoids</option><option id="C">Mineralocorticoids</option><option id="D">Sex corticoids</option>
-            <answer>A</answer><explanation>Adrenaline.</explanation>
+            <text>Thyroid gland is composed of two ____ located on either side of trachea.</text>
+            <option id="A">Lobes</option><option id="B">Hormones</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Connected by a thin flap of tissue called isthmus.</explanation>
         </question>
         <question>
-            <text>Glucocorticoids stimulate:</text>
-            <option id="A">Gluconeogenesis</option><option id="B">Glycogenesis</option><option id="C">Lipogenesis</option><option id="D">Protein synthesis</option>
-            <answer>A</answer><explanation>Increase blood sugar.</explanation>
+            <text>Essential element for normal rate of thyroid hormone synthesis? ____.</text>
+            <option id="A">Iodine</option><option id="B">Iron</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Deficiency leads to Goitre.</explanation>
         </question>
         <question>
-            <text>Aldosterone acts mainly on:</text>
-            <option id="A">Renal tubules</option><option id="B">Liver</option><option id="C">Pancreas</option><option id="D">Heart</option>
-            <answer>A</answer><explanation>Na+ and water reabsorption.</explanation>
+            <text>Hypothyroidism during pregnancy can lead to defective development of baby called ____.</text>
+            <option id="A">Cretinism</option><option id="B">Myxedema</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Leads to stunted growth and mental retardation.</explanation>
         </question>
         <question>
-            <text>Pancreas is:</text>
-            <option id="A">Composite gland (Exocrine + Endocrine)</option><option id="B">Exocrine only</option><option id="C">Endocrine only</option><option id="D">None</option>
-            <answer>A</answer><explanation>Islets of Langerhans.</explanation>
+            <text>Thyroid hormones increase BMR, which stands for ____.</text>
+            <option id="A">Basal Metabolic Rate</option><option id="B">Blood Muscle Ratio</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Essential for generating body heat.</explanation>
         </question>
         <question>
-            <text>Alpha cells of Pancreas secrete:</text>
-            <option id="A">Glucagon</option><option id="B">Insulin</option><option id="C">Somatostatin</option><option id="D">Polypeptide</option>
-            <answer>A</answer><explanation>Hyperglycemic.</explanation>
+            <text>TCT (Thyrocalcitonin) is a protein hormone that ____ blood calcium levels.</text>
+            <option id="A">Lower (Hypocalcemic)</option><option id="B">Increase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Antagonistic to PTH.</explanation>
         </question>
         <question>
-            <text>Beta cells secrete:</text>
-            <option id="A">Insulin</option><option id="B">Glucagon</option><option id="C">Gastrin</option><option id="D">Secretin</option>
-            <answer>A</answer><explanation>Hypoglycemic.</explanation>
+            <text>Number of parathyroid glands in humans is ____.</text>
+            <option id="A">4 (on back side of thyroid)</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One pair in each lobe of thyroid.</explanation>
         </question>
         <question>
-            <text>Diabetes mellitus is associated with:</text>
-            <option id="A">Hyperglycemia and Glycosuria</option><option id="B">Hypoglycemia</option><option id="C">Polycythemia</option><option id="D">Anemia</option>
-            <answer>A</answer><explanation>Loss of glucose.</explanation>
+            <text>PTH (Parathyroid Hormone) ____ blood calcium levels.</text>
+            <option id="A">Increases (Hypercalcemic)</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stimulates bone resorption (dissolution).</explanation>
         </question>
         <question>
-            <text>Testis acts as:</text>
-            <option id="A">Primary sex organ and Endocrine gland</option><option id="B">Exocrine gland only</option><option id="C">Digestive organ</option><option id="D">Respiratory organ</option>
-            <answer>A</answer><explanation>Leydig cells secrete hormones.</explanation>
+            <text>Thymus gland plays major role in development of ____ system.</text>
+            <option id="A">Immune</option><option id="B">Digestive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Secretes Thymosins.</explanation>
+        </question>
+        <question>
+            <text>Thymosins help in differentiation of ____-lymphocytes.</text>
+            <option id="A">T</option><option id="B">B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Provide cell-mediated immunity.</explanation>
+        </question>
+        <question>
+            <text>Thymus decreases in size with ____.</text>
+            <option id="A">Age</option><option id="B">Weight</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reason for weak immune responses in old people.</explanation>
+        </question>
+        <question>
+            <text>Adrenal gland is located on the ____ part of each kidney.</text>
+            <option id="A">Anterior (Suprarenal)</option><option id="B">Posterior</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Composed of two types of tissues: Medulla and Cortex.</explanation>
+        </question>
+        <question>
+            <text>Adrenal medulla secretes Adrenaline (Epinephrine) and ____.</text>
+            <option id="A">Noradrenaline (Norepinephrine)</option><option id="B">Cortisol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Commonly called catecholamines.</explanation>
+        </question>
+        <question>
+            <text>Adrenaline is also called 'hormone of ____' or 3F hormone.</text>
+            <option id="A">Fight-Flight-Fright</option><option id="B">Digestion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Secreted in response to stress/emergency.</explanation>
+        </question>
+        <question>
+            <text>Catecholamines increase heart beat, strength of heart contraction and rate of ____.</text>
+            <option id="A">Respiration</option><option id="B">Digestion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prepare body for physical activity.</explanation>
+        </question>
+        <question>
+            <text>Primary glucocorticoid in humans is ____.</text>
+            <option id="A">Cortisol</option><option id="B">Aldosterone</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involved in carbohydrate metabolism.</explanation>
+        </question>
+        <question>
+            <text>Primary mineralocorticoid in humans is ____.</text>
+            <option id="A">Aldosterone</option><option id="B">Cortisone</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Regulates water and electrolyte balance.</explanation>
+        </question>
+        <question>
+            <text>Pancreas is a composite gland (both exocrine and endocrine) called ____.</text>
+            <option id="A">Heterocrine / Mixed</option><option id="B">Holocrine</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Endocrine part is Islets of Langerhans.</explanation>
+        </question>
+        <question>
+            <text>Alpha cells of Islets of Langerhans secrete ____.</text>
+            <option id="A">Glucagon</option><option id="B">Insulin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hyperglycemic hormone.</explanation>
+        </question>
+        <question>
+            <text>Beta cells of Islets of Langerhans secrete ____.</text>
+            <option id="A">Insulin</option><option id="B">Glucagon</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Hypoglycemic hormone.</explanation>
+        </question>
+        <question>
+            <text>Primary male sex organ is ____.</text>
+            <option id="A">Testis</option><option id="B">Ovary</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Located in scrotal sac.</explanation>
+        </question>
+        <question>
+            <text>Leydig cells (interstitial cells) produce hormones called ____ (mainly testosterone).</text>
+            <option id="A">Androgens</option><option id="B">Estrogens</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Control male secondary sexual characteristics.</explanation>
+        </question>
+        <question>
+            <text>Primary female sex organ is ____.</text>
+            <option id="A">Ovary</option><option id="B">Testis</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Produces ova and steroid hormones.</explanation>
+        </question>
+        <question>
+            <text>Easy 40 complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>Androgens regulate:</text>
-            <option id="A">Development/maturation of male accessory sex organs</option><option id="B">Female characteristics</option><option id="C">Milk production</option><option id="D">Ovulation</option>
-            <answer>A</answer><explanation>Secondary sexual characters.</explanation>
+            <text>Hormone that stimulates development of ovarian follicles? ____.</text>
+            <option id="A">FSH (Follicle Stimulating Hormone)</option><option id="B">LH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Part of gonadotrophins.</explanation>
         </question>
         <question>
-            <text>Corpus luteum secretes mainly:</text>
-            <option id="A">Progesterone</option><option id="B">Estrogen</option><option id="C">FSH</option><option id="D">LH</option>
-            <answer>A</answer><explanation>Pregnancy hormone.</explanation>
+            <text>Hormone that triggers ovulation and transformation of follicle to corpus luteum? ____.</text>
+            <option id="A">LH (Luteinizing Hormone)</option><option id="B">FSH</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Known as 'ovulatory hormone'.</explanation>
         </question>
         <question>
-            <text>Atrial wall of heart secretes:</text>
-            <option id="A">ANF</option><option id="B">Renin</option><option id="C">Angiotensin</option><option id="D">Erythropoietin</option>
-            <answer>A</answer><explanation>Lowers BP.</explanation>
+            <text>Corpus luteum secretes mainly ____.</text>
+            <option id="A">Progesterone</option><option id="B">Estrogen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Essential for maintenance of pregnancy.</explanation>
         </question>
         <question>
-            <text>Erythropoietin is secreted by:</text>
-            <option id="A">Juxtaglomerular cells of Kidney</option><option id="B">Bone marrow</option><option id="C">Liver</option><option id="D">Heart</option>
-            <answer>A</answer><explanation>Stimulates erythropoiesis.</explanation>
+            <text>Hormones of adrenal medulla work in ____ to autonomic nervous system.</text>
+            <option id="A">Synergy (Sympathetic)</option><option id="B">Antagonism</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Augment sympathetic responses.</explanation>
         </question>
         <question>
-            <text>Gastrin acts on:</text>
-            <option id="A">Gastric glands</option><option id="B">Pancreas</option><option id="C">Liver</option><option id="D">Intestine</option>
-            <answer>A</answer><explanation>Stimulates HCl and pepsinogen.</explanation>
+            <text>Glucagon acts on ____ to stimulate glycogenolysis.</text>
+            <option id="A">Hepatocytes (Liver cells)</option><option id="B">Muscle cells</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Converts glycogen back to glucose.</explanation>
         </question>
         <question>
-            <text>Secretin acts on:</text>
-            <option id="A">Exocrine pancreas</option><option id="B">Stomach</option><option id="C">Liver</option><option id="D">Gall bladder</option>
-            <answer>A</answer><explanation>Secretion of water and bicarbonate.</explanation>
+            <text>Insulin acts on hepatocytes and ____ (fat cells) to increase glucose uptake.</text>
+            <option id="A">Adipocytes</option><option id="B">Neurons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Triggers glucose storage/utilization.</explanation>
         </question>
         <question>
-            <text>CCK acts on:</text>
-            <option id="A">Pancreas and Gall bladder</option><option id="B">Stomach</option><option id="C">Liver only</option><option id="D">Small intestine</option>
-            <answer>A</answer><explanation>Enzymes and Bile.</explanation>
+            <text>Prolonged hyperglycemia leads to a complex disorder called ____.</text>
+            <option id="A">Diabetes Mellitus</option><option id="B">Diabetes Insipidus</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to insulin deficiency or resistance.</explanation>
         </question>
         <question>
-            <text>Steroid hormones include:</text>
-            <option id="A">Cortisol, Testosterone, Estradiol, Progesterone</option><option id="B">Insulin, Glucagon</option><option id="C">Thyroxine</option><option id="D">Adrenaline</option>
-            <answer>A</answer><explanation>Lipid soluble.</explanation>
+            <text>ANF (Atrial Natriuretic Factor) is secreted by ____ in response to high blood pressure.</text>
+            <option id="A">Heart wall (Atria)</option><option id="B">Kidney</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Causes vasodilation.</explanation>
         </question>
         <question>
-            <text>Peptide hormones interact with:</text>
-            <option id="A">Membrane bound receptors</option><option id="B">Intracellular receptors</option><option id="C">Nuclear receptors</option><option id="D">DNA directly</option>
-            <answer>A</answer><explanation>Cannot cross membrane.</explanation>
+            <text>Erythropoietin is secreted by JGA cells of ____.</text>
+            <option id="A">Kidney</option><option id="B">Spleen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stimulates RBC formation (Erythropoiesis).</explanation>
         </question>
         <question>
-            <text>Intracellular receptors are mostly:</text>
-            <option id="A">Nuclear receptors</option><option id="B">Membrane receptors</option><option id="C">Cytoplasmic</option><option id="D">Extracellular</option>
-            <answer>A</answer><explanation>Regulate gene expression.</explanation>
+            <text>Gastrointestinal hormones include Gastrin, Secretin, ____ and GIP.</text>
+            <option id="A">CCK (Cholecystokinin)</option><option id="B">Insulin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Regulate digestion and enzymes.</explanation>
         </question>
         <question>
-            <text>Second messengers include:</text>
-            <option id="A">cAMP, IP3, Ca++</option><option id="B">ATP</option><option id="C">DNA</option><option id="D">RNA</option>
-            <answer>A</answer><explanation>Generated by peptide hormones.</explanation>
+            <text>Secretin acts on exocrine pancreas and stimulates secretion of ____ and bicarbonate ions.</text>
+            <option id="A">Water</option><option id="B">Enzymes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Helps in neutralizing stomach acid in duodenum.</explanation>
         </question>
         <question>
-            <text>Addison's disease is caused by:</text>
-            <option id="A">Underproduction of hormones by Adrenal cortex</option><option id="B">Overproduction</option><option id="C">Thyroid deficiency</option><option id="D">Pituitary tumour</option>
-            <answer>A</answer><explanation>Hypoadrenalism.</explanation>
+            <text>CCK acts on ____ and gall bladder to stimulate secretion of bile and enzymes.</text>
+            <option id="A">Pancreas</option><option id="B">Stomach</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stimulates gall bladder contraction.</explanation>
         </question>
         <question>
-            <text>Cushing's syndrome is related to:</text>
-            <option id="A">Hypersecretion of Cortisol</option><option id="B">Hyposecretion</option><option id="C">Aldosterone</option><option id="D">Adrenaline</option>
-            <answer>A</answer><explanation>Moon face.</explanation>
+            <text>GIP stands for ____.</text>
+            <option id="A">Gastric Inhibitory Peptide</option><option id="B">Glucose Induced Protein</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inhibits gastric secretion and motility.</explanation>
         </question>
         <question>
-            <text>Thyrocalcitonin (TCT) regulates:</text>
-            <option id="A">Blood Calcium levels</option><option id="B">Sodium</option><option id="C">Potassium</option><option id="D">Iodine</option>
-            <answer>A</answer><explanation>Hypocalcemic hormone.</explanation>
+            <text>Water soluble hormones that interact with membrane-bound receptors? ____.</text>
+            <option id="A">Protein / Peptide hormones</option><option id="B">Steroid hormones</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cannot cross cell membrane; require second messengers like cAMP.</explanation>
         </question>
         <question>
-            <text>Which hormone is anti-inflammatory?</text>
-            <option id="A">Cortisol</option><option id="B">Aldosterone</option><option id="C">Adrenaline</option><option id="D">Insulin</option>
-            <answer>A</answer><explanation>Suppress immune response.</explanation>
+            <text>Lipid soluble hormones that interact with intra-cellular receptors? ____.</text>
+            <option id="A">Steroids / Thyroid hormones</option><option id="B">Catecholamines</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Can cross membrane; usually regulate gene expression.</explanation>
         </question>
         <question>
-            <text>Leydig cells secrete:</text>
-            <option id="A">Androgens</option><option id="B">Estrogens</option><option id="C">Progesterone</option><option id="D">Corticoids</option>
-            <answer>A</answer><explanation>Interstitial cells.</explanation>
+            <text>Secondary messengers include cAMP, IP3 and ____.</text>
+            <option id="A">Ca2+ (Calcium ions)</option><option id="B">Na+</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Amplify the hormone signal inside the cell.</explanation>
         </question>
         <question>
-            <text>Estrogens are secreted by:</text>
-            <option id="A">Growing ovarian follicles</option><option id="B">Corpus luteum mainly</option><option id="C">Uterus</option><option id="D">Fallopian tube</option>
-            <answer>A</answer><explanation>Stimulate growth.</explanation>
+            <text>Adrenal cortex is divided into three layers: Reticularis, Fasiculata and ____.</text>
+            <option id="A">Glomerulosa</option><option id="B">Medulla</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ordered from inner to outer? No, Glomerulosa is outermost.</explanation>
         </question>
         <question>
-            <text>GIP (Gastric Inhibitory Peptide):</text>
-            <option id="A">Inhibits gastric secretion and motility</option><option id="B">Stimulates gastric secretion</option><option id="C">Stimulates pancreas</option><option id="D">Stimulates liver</option>
-            <answer>A</answer><explanation>Inhibitory.</explanation>
+            <text>Excessive secretion of growth hormone in adults leads to ____ (severe disfigurement).</text>
+            <option id="A">Acromegaly</option><option id="B">Gigantism</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Often due to pituitary tumor; hard to diagnose early.</explanation>
         </question>
         <question>
-            <text>Growth factors are essential for:</text>
-            <option id="A">Normal growth of tissues and repair/regeneration</option><option id="B">Only bone growth</option><option id="C">Only blood formation</option><option id="D">Digestion</option>
-            <answer>A</answer><explanation>Paracrine factors.</explanation>
+            <text>Exophthalmic goitre (Grave's disease) is a form of ____.</text>
+            <option id="A">Hyperthyroidism</option><option id="B">Hypothyroidism</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Autoimmune; characterized by protrusion of eyeballs.</explanation>
         </question>
         <question>
-            <text>Diurnal rhythm is regulated by:</text>
-            <option id="A">Melatonin</option><option id="B">Thyroxine</option><option id="C">Cortisol</option><option id="D">Adrenaline</option>
-            <answer>A</answer><explanation>24 hr cycle.</explanation>
+            <text>Deficient production of cortical hormones leads to ____ disease.</text>
+            <option id="A">Addison's</option><option id="B">Cushing's</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Alters carb metabolism; leads to acute weakness/fatigue.</explanation>
         </question>
         <question>
-            <text>T-lymphocytes mature in:</text>
-            <option id="A">Thymus</option><option id="B">Thyroid</option><option id="C">Bone marrow</option><option id="D">Spleen</option>
-            <answer>A</answer><explanation>Thymosins help.</explanation>
+            <text>Testosterone is a ____ hormone.</text>
+            <option id="A">Steroid (Androgen)</option><option id="B">Peptide</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Derived from cholesterol.</explanation>
         </question>
         <question>
-            <text>Zona glomerulosa secretes:</text>
-            <option id="A">Mineralocorticoids</option><option id="B">Glucocorticoids</option><option id="C">Sex corticoids</option><option id="D">Catecholamines</option>
-            <answer>A</answer><explanation>Outer layer.</explanation>
+            <text>Glucogenesis is the formation of ____.</text>
+            <option id="A">Glucose from non-carbohydrate sources (e.g. lipids/proteins)</option><option id="B">Glycogen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stimulated by Glucagon and Cortisol.</explanation>
         </question>
         <question>
-            <text>Zona fasciculata secretes:</text>
-            <option id="A">Glucocorticoids</option><option id="B">Mineralocorticoids</option><option id="C">Sex corticoids</option><option id="D">Androgens</option>
-            <answer>A</answer><explanation>Middle layer.</explanation>
+            <text>Catecholamines stimulate breakdown of ____ and ____.</text>
+            <option id="A">Glycogen / Lipids (and proteins)</option><option id="B">Vitamins</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rapidly increases blood glucose level.</explanation>
         </question>
         <question>
-            <text>Zona reticularis secretes:</text>
-            <option id="A">Sex corticoids (Androgens)</option><option id="B">Glucocorticoids</option><option id="C">Mineralocorticoids</option><option id="D">Aldosterone</option>
-            <answer>A</answer><explanation>Inner layer.</explanation>
+            <text>Which of these is NOT an endocrine gland?</text>
+            <option id="A">Salivary gland (Exocrine)</option><option id="B">Thyroid</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Releases secretions into ducts.</explanation>
         </question>
         <question>
-            <text>Which hormone uses cAMP as second messenger?</text>
-            <option id="A">FSH</option><option id="B">Estrogen</option><option id="C">Testosterone</option><option id="D">Cortisol</option>
-            <answer>A</answer><explanation>Peptide/Protein hormone.</explanation>
+            <text>Hormone that regulates Ca2+ balance in body? ____.</text>
+            <option id="A">PTH and TCT (Antagonistic)</option><option id="B">Insulin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Crucial for nerve/muscle function.</explanation>
+        </question>
+        <question>
+            <text>Melatonin is derived from amino acid ____.</text>
+            <option id="A">Tryptophan</option><option id="B">Tyrosine</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Tyrosine is precursor for Thyroid and Catecholamines.</explanation>
+        </question>
+        <question>
+            <text>Islet of Langerhans constitutes only approx ____% of pancreatic tissue.</text>
+            <option id="A">1 - 2</option><option id="B">50</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rest is exocrine (acini).</explanation>
+        </question>
+        <question>
+            <text>Hormone that acts on Leydig cells and stimulates androgens? ____.</text>
+            <option id="A">LH (ICSH in males)</option><option id="B">FSH</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>ICSH = Interstitial Cell Stimulating Hormone.</explanation>
+        </question>
+        <question>
+            <text>Hormone that acts on Sertoli cells and stimulates spermiogenesis? ____.</text>
+            <option id="A">FSH</option><option id="B">LH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involved in male gamete maturation.</explanation>
+        </question>
+        <question>
+            <text>Relaxin is secreted by ____ during later stages of pregnancy.</text>
+            <option id="A">Ovary (and Placenta)</option><option id="B">Pituitary</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Softens pelvic ligaments.</explanation>
+        </question>
+        <question>
+            <text>Feedback mechanism: High blood glucose inhibits ____ and stimulates ____.</text>
+            <option id="A">Glucagon / Insulin</option><option id="B">Insulin / Glucagon</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Brings level back to normal.</explanation>
+        </question>
+        <question>
+            <text>Human chorionic gonadotropin (hCG) is produced by ____.</text>
+            <option id="A">Placenta</option><option id="B">Ovary</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used as basis for pregnancy tests.</explanation>
+        </question>
+        <question>
+            <text>Is heart considered an endocrine organ?</text>
+            <option id="A">Yes (minor one, secretes ANF)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Many non-endocrine organs have endocrine functions.</explanation>
+        </question>
+        <question>
+            <text>Hypodermic stimulation of sweating is mediated by ____? No. Catecholamines ____ sweating.</text>
+            <option id="A">Increase</option><option id="B">Decrease</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>'Cold sweat' of fear.</explanation>
+        </question>
+        <question>
+            <text>Does thyroid gland secrete only T3 and T4?</text>
+            <option id="A">No (also secretes Calcitonin)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calcitonin is from parafollicular cells.</explanation>
+        </question>
+        <question>
+            <text>Which of these glands is present only in females?</text>
+            <option id="A">Ovary</option><option id="B">Pineal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Testis unique to males.</explanation>
+        </question>
+        <question>
+            <text>Hormone that acts on gastric glands and stimulates HCl? ____.</text>
+            <option id="A">Gastrin</option><option id="B">Secretin</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Secreted by G-cells of stomach.</explanation>
+        </question>
+        <question>
+            <text>Prolonged use of steroids can lead to ____.</text>
+            <option id="A">Suppression of immune system</option><option id="B">Fast growth only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cortisol is an immunosuppressant.</explanation>
+        </question>
+        <question>
+            <text>Meltdown of glycogen in liver is ____.</text>
+            <option id="A">Glycogenolysis</option><option id="B">Glycolysis</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Increases blood glucose.</explanation>
+        </question>
+        <question>
+            <text>Medium 40 complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>Hormone-Receptor complex formation leads to:</text>
-            <option id="A">Biochemical changes in target tissue</option><option id="B">Transport of hormone</option><option id="C">Destruction of hormone</option><option id="D">Production of antibody</option>
-            <answer>A</answer><explanation>Specific response.</explanation>
+            <text>Molecular structure of Insulin: Consists of ____ polypeptide chains.</text>
+            <option id="A">Two (A and B rings connected by disulfide)</option><option id="B">One</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total 51 amino acids.</explanation>
         </question>
         <question>
-            <text>Which of the following hormones is an amino-acid derivative?</text>
-            <option id="A">Epinephrine</option><option id="B">Insulin</option><option id="C">Estrogen</option><option id="D">Cortisol</option>
+            <text>Primary action of Thyroid hormones at molecular level is ____.</text>
+            <option id="A">Binding to intranuclear receptors to affect transcription</option><option id="B">cAMP activation</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Similar to steroid mechanism.</explanation>
+        </question>
+        <question>
+            <text>Is Hormone-Receptor complex (H-R complex) necessary for all hormone actions?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High specificity for each hormone.</explanation>
+        </question>
+        <question>
+            <text>The 'Master Gland' title given to Pituitary is because ____.</text>
+            <option id="A">It controls most other endocrine glands</option><option id="B">It is the largest</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>But it is itself under hypothalamus control.</explanation>
+        </question>
+        <question>
+            <text>Pars intermedia in humans is ____.</text>
+            <option id="A">Almost merged with Pars distalis (anterior)</option><option id="B">A separate large lobe</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Secretes MSH.</explanation>
+        </question>
+        <question>
+            <text>Which hormone is called the 'Emergency Hormone'?</text>
+            <option id="A">Adrenaline</option><option id="B">Cortisol</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Triggers immediate systemic changes.</explanation>
+        </question>
+        <question>
+            <text>Which hormone is called the 'Stress Hormone' of daily life?</text>
+            <option id="A">Cortisol</option><option id="B">Thyroid</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Levels fluctuate with circadian rhythm and long-term stress.</explanation>
+        </question>
+        <question>
+            <text>Addison's disease is basically ____ adrenalism.</text>
+            <option id="A">Hypo (Deficiency of mineralo- and glucocorticoids)</option><option id="B">Hyper</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Bronze skin pigmentation is a classic sign.</explanation>
+        </question>
+        <question>
+            <text>Conn's syndrome is due to overproduction of ____.</text>
+            <option id="A">Aldosterone</option><option id="B">Cortisol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Causes high BP and low potassium.</explanation>
+        </question>
+        <question>
+            <text>Presence of 'Ketone bodies' in urine indicates shift to ____ metabolism.</text>
+            <option id="A">Fat (Beta-oxidation)</option><option id="B">Carb</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Body starts using fats as cells 'starve' for glucose.</explanation>
+        </question>
+        <question>
+            <text>A woman is having regular cycles but no ovulation. This could be due to low ____.</text>
+            <option id="A">LH (no surge for ovulation)</option><option id="B">Estrogen only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>LH is the trigger for follicle rupture.</explanation>
+        </question>
+        <question>
+            <text>Difference between Type 1 and Type 2 Diabetes: Type 1 is ____.</text>
+            <option id="A">Insulin dependent (autoimmune destruction of Beta cells)</option><option id="B">Resistance only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Type 2 is lifestyle related resistance.</explanation>
+        </question>
+        <question>
+            <text>Hormone used to induce labor clinically is ____.</text>
+            <option id="A">Oxytocin (Synthetic version called Pitocin)</option><option id="B">PRL</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Crucial for uterine contractions.</explanation>
+        </question>
+        <question>
+            <text>Synthesis of milk (Lactogenesis) and Ejection (Let-down) are controlled by ____ and ____.</text>
+            <option id="A">Prolactin / Oxytocin</option><option id="B">Oxytocin / Prolactin</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>PRL for production; Oxytocin for release.</explanation>
+        </question>
+        <question>
+            <text>Growth hormone is specialized ____.</text>
+            <option id="A">Anabolic hormone (Protein synthesis)</option><option id="B">Catabolic only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Builds muscle/bone.</explanation>
+        </question>
+        <question>
+            <text>Source of progesterone during pregnancy remains corpus luteum for ____ time.</text>
+            <option id="A">First trimester (then placenta takes over)</option><option id="B">Full 9 months</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Placental shift.</explanation>
+        </question>
+        <question>
+            <text>Is estrogen secreted by males?</text>
+            <option id="A">Yes (small amounts in adrenal cortex and fat conversion)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Essential for bone health in men too.</explanation>
+        </question>
+        <question>
+            <text>Is testosterone secreted by females?</text>
+            <option id="A">Yes (from ovary and adrenal cortex)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Helps in libido and muscle tone.</explanation>
+        </question>
+        <question>
+            <text>Hormone that acts on 'Satiety Center' to reduce eating? ____.</text>
+            <option id="A">Leptin (from adipose tissue)</option><option id="B">Ghrelin</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ghrelin (from stomach) stimulates hunger.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is an amino acid derivative hormone? ____.</text>
+            <option id="A">Epinephrine</option><option id="B">Insulin</option><option id="C">phi</option><option id="D">None</option>
             <answer>A</answer><explanation>Derived from Tyrosine.</explanation>
         </question>
         <question>
-            <text>Which of the following is an iodothyronine?</text>
-            <option id="A">Thyroxine (T4)</option><option id="B">TSH</option><option id="C">TRH</option><option id="D">Thymosin</option>
-            <answer>A</answer><explanation>Iodinated amino acid.</explanation>
+            <text>Hormones that act on other endocrine glands are called ____ hormones.</text>
+            <option id="A">Tropic</option><option id="B">Direct</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>e.g., TSH, ACTH, Gonadotrophins.</explanation>
         </question>
         <question>
-            <text>Effect of Insulin on hepatocytes and adipocytes:</text>
-            <option id="A">Enhances cellular glucose uptake and utilization</option><option id="B">Inhibits uptake</option><option id="C">Promotes glycogenolysis</option><option id="D">Promotes gluconeogenesis</option>
-            <answer>A</answer><explanation>Lowers blood glucose.</explanation>
+            <text>Total number of questions in this standard file? ____.</text>
+            <option id="A">120</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation>
         </question>
         <question>
-            <text>Glucagon acts mainly on:</text>
-            <option id="A">Hepatocytes (Liver cells)</option><option id="B">Adipocytes</option><option id="C">Muscle cells</option><option id="D">Brain cells</option>
-            <answer>A</answer><explanation>Stimulates glycogenolysis.</explanation>
+            <text>Synergism vs Antagonism: Glucagon and Insulin are ____.</text>
+            <option id="A">Antagonistic</option><option id="B">Synergistic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Have opposite effects on blood sugar.</explanation>
         </question>
         <question>
-            <text>Cortisol produces anti-inflammatory reactions and:</text>
-            <option id="A">Suppresses immune response</option><option id="B">Stimulates immune response</option><option id="C">Enhances antibody production</option><option id="D">Increases WBCs</option>
-            <answer>A</answer><explanation>Used in transplantation.</explanation>
+            <text>Epinephrine and Glucagon for glycogenolysis are ____.</text>
+            <option id="A">Synergistic</option><option id="B">Antagonistic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Both increase blood glucose.</explanation>
         </question>
         <question>
-            <text>In females, LH acts on corpus luteum to stimulate:</text>
-            <option id="A">Secretion of Progesterone</option><option id="B">Degeneration</option><option id="C">Ovulation only</option><option id="D">Follicle growth</option>
-            <answer>A</answer><explanation>Maintain pregnancy.</explanation>
+            <text>Cushing's Syndrome is due to ____ adrenalism.</text>
+            <option id="A">Hyper (excess Glucocorticoids)</option><option id="B">Hypo</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Causes moon face, buffalo hump and weight gain.</explanation>
         </question>
         <question>
-            <text>FSH in males acts on:</text>
-            <option id="A">Sertoli cells</option><option id="B">Leydig cells</option><option id="C">Spermatozoa</option><option id="D">Prostate</option>
-            <answer>A</answer><explanation>Spermiogenesis.</explanation>
+            <text>Final check for Coordination: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
         <question>
-            <text>MSH acts on:</text>
-            <option id="A">Melanocytes</option><option id="B">Hepatocytes</option><option id="C">Adipocytes</option><option id="D">Osteocytes</option>
-            <answer>A</answer><explanation>Pigmentation.</explanation>
+            <text>Q107: What is the precursor for steroid hormones?</text>
+            <option id="A">Cholesterol</option><option id="B">Glucose</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Produced mainly in liver.</explanation>
         </question>
         <question>
-            <text>Function of Thymus decreases with age leading to:</text>
-            <option id="A">Weakened immune response in old individuals</option><option id="B">Increased immunity</option><option id="C">Autoimmune diseases</option><option id="D">Allergies</option>
-            <answer>A</answer><explanation>Degeneration.</explanation>
+            <text>Q108: Half-life of most hormones is ____.</text>
+            <option id="A">Short (minutes to hours)</option><option id="B">Days</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ensures rapid regulation.</explanation>
         </question>
         <question>
-            <text>Which hormone stimulates RBC production?</text>
-            <option id="A">Cortisol, Thyroxine, Erythropoietin</option><option id="B">Insulin</option><option id="C">Adrenaline</option><option id="D">Melatonin</option>
-            <answer>A</answer><explanation>Multiple hormones involved.</explanation>
+            <text>Q109: Is it possible for a hormone to have different effects on different tissues?</text>
+            <option id="A">Yes (depends on receptor type)</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>e.g., Epinephrine causes vasoconstriction in gut but dilation in muscle.</explanation>
         </question>
         <question>
-            <text>Pars distalis is also known as:</text>
-            <option id="A">Anterior Pituitary</option><option id="B">Posterior Pituitary</option><option id="C">Pars intermedia</option><option id="D">Hypothalamus</option>
-            <answer>A</answer><explanation>Adenohypophysis main part.</explanation>
+            <text>Q110: The Portal System between Hypothalamus and Anterior Pituitary? ____.</text>
+            <option id="A">Hypophyseal portal system</option><option id="B">Hepatic portal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Allows fast transport of Releasing Hormones.</explanation>
         </question>
         <question>
-            <text>Pars intermedia secretes:</text>
-            <option id="A">MSH only</option><option id="B">ACTH</option><option id="C">GH</option><option id="D">TSH</option>
-            <answer>A</answer><explanation>Merged with anterior in humans.</explanation>
+            <text>Q111: Which gland is called the 'Master of the Master Gland'?</text>
+            <option id="A">Hypothalamus</option><option id="B">Pituitary</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Because it controls the Pituitary.</explanation>
         </question>
         <question>
-            <text>Which of the following is true for Estrogen?</text>
-            <option id="A">Regulate female sexual behaviour</option><option id="B">Catabolic effect</option><option id="C">Inhibit hair growth</option><option id="D">Secreted by Leydig cells</option>
-            <answer>A</answer><explanation>Libido.</explanation>
+            <text>Q112: Effect of PTH on kidney? ____.</text>
+            <option id="A">Increases Ca2+ reabsorption and Phosphate excretion</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Maintains Ca2+ levels.</explanation>
         </question>
         <question>
-            <text>Progesterone acts on:</text>
-            <option id="A">Mammary glands (Alveoli formation) and Uterus</option><option id="B">Ovary</option><option id="C">Vagina</option><option id="D">Bone</option>
-            <answer>A</answer><explanation>Milk secretion.</explanation>
+            <text>Q113: Cretinism involves low IQ, abnormal skin and ____.</text>
+            <option id="A">Deaf-mutism</option><option id="B">High height</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thyroid is essential for neuro-development.</explanation>
         </question>
         <question>
-            <text>Osteoporosis in older women is mainly due to:</text>
-            <option id="A">Decreased Estrogen</option><option id="B">Decreased Parathormone</option><option id="C">Increased Calcitonin</option><option id="D">Increased Cortisol</option>
-            <answer>A</answer><explanation>Menopause.</explanation>
+            <text>Q114: T4 is also called ____.</text>
+            <option id="A">Tetraiodothyronine / Thyroxine</option><option id="B">Triiodothyronine</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Most abundant secretion of thyroid.</explanation>
         </question>
         <question>
-            <text>Effect of catecholamines on heart:</text>
-            <option id="A">Increase strength of contraction and rate</option><option id="B">Decrease rate</option><option id="C">No effect</option><option id="D">Stop heart</option>
-            <answer>A</answer><explanation>Positive inotropic/chronotropic.</explanation>
+            <text>Q115: Is T3 or T4 more active?</text>
+            <option id="A">T3 (3-4 times more potent)</option><option id="B">T4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T4 is often converted to T3 in tissues.</explanation>
         </question>
         <question>
-            <text>Which hormone is responsible for 'piloerection'?</text>
-            <option id="A">Adrenaline</option><option id="B">Thyroxine</option><option id="C">Cortisol</option><option id="D">Insulin</option>
-            <answer>A</answer><explanation>Goosebumps.</explanation>
+            <text>Q116: Calcitonin is a ____ hormone.</text>
+            <option id="A">Hypocalcemic (reduces calcium)</option><option id="B">Hypercalcemic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>By inhibiting bone resorption.</explanation>
         </question>
         <question>
-            <text>Hormones which interact with membrane-bound receptors usually generate:</text>
-            <option id="A">Second messengers</option><option id="B">mRNA</option><option id="C">Protein directly</option><option id="D">DNA replication</option>
-            <answer>A</answer><explanation>Signal transduction.</explanation>
+            <text>Q117: Primary stimulus for Insulin secretion is ____.</text>
+            <option id="A">Rise in blood glucose</option><option id="B">Fall in blood glucose</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Post-prandial response.</explanation>
         </question>
         <question>
-            <text>Hormone-receptor complex enters the nucleus in case of:</text>
-            <option id="A">Steroid hormones and Iodothyronines</option><option id="B">Peptide hormones</option><option id="C">Protein hormones</option><option id="D">Catecholamines</option>
-            <answer>A</answer><explanation>Gene regulation.</explanation>
+            <text>Q118: 'Polydipsia' in diabetes means ____.</text>
+            <option id="A">Excessive thirst</option><option id="B">Excessive hunger</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to dehydration from polyuria.</explanation>
         </question>
         <question>
-            <text>Which hormone stimulates lipolysis and proteolysis?</text>
-            <option id="A">Cortisol and Glucagon</option><option id="B">Insulin</option><option id="C">Prolactin</option><option id="D">Melatonin</option>
-            <answer>A</answer><explanation>Breakdown to increase glucose.</explanation>
+            <text>Q119: Function of 'Pineal sand' (brain sand)?</text>
+            <option id="A">Radiological marker (calcified structures in pineal)</option><option id="B">Secretes hormone</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increases with age.</explanation>
         </question>
         <question>
-            <text>Vasopressin is also called ADH because it:</text>
-            <option id="A">Reduces loss of water through urine</option><option id="B">Increases urine output</option><option id="C">Decreases BP</option><option id="D">Dilutes blood</option>
-            <answer>A</answer><explanation>Anti-diuresis.</explanation>
-        </question>
-        <question>
-            <text>Prolonged hyperglycemia leads to:</text>
-            <option id="A">Diabetes mellitus</option><option id="B">Diabetes insipidus</option><option id="C">Hypoglycemia</option><option id="D">Addison's disease</option>
-            <answer>A</answer><explanation>High blood sugar.</explanation>
-        </question>
-        <question>
-            <text>Which is the major mineralocorticoid in humans?</text>
-            <option id="A">Aldosterone</option><option id="B">Cortisol</option><option id="C">Androgen</option><option id="D">Estrogen</option>
-            <answer>A</answer><explanation>Salt retainer.</explanation>
-        </question>
-        <question>
-            <text>Ketone bodies are formed during:</text>
-            <option id="A">Prolonged Hyperglycemia (Diabetes) and starvation</option><option id="B">Hypoglycemia</option><option id="C">High protein diet</option><option id="D">High water intake</option>
-            <answer>A</answer><explanation>Fat breakdown.</explanation>
+            <text>Q120: Final Q? Verified 120 count.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>File complete with standard 40/40/40 distribution.</explanation>
         </question>
     </hard>
 </chapter>

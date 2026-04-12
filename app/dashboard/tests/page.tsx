@@ -12,10 +12,7 @@ const tests = [
 
 export default function TestsPage() {
   return (
-    <DashboardShell
-      title="Test library"
-      subtitle="Choose the right pressure level, from focused chapter practice to full exam simulations."
-    >
+    <DashboardShell>
       <section className="grid gap-6 md:grid-cols-2">
         {tests.map((test) => {
           const Icon = test.icon;

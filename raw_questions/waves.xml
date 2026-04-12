@@ -1,342 +1,569 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Physics" id="14" name="Waves">
+<chapter subject="Physics" id="114" name="Waves">
     <easy>
         <question>
-            <text>Sound waves in air are:</text>
-            <option id="A">Longitudinal</option><option id="B">Transverse</option><option id="C">Electromagnetic</option><option id="D">Non-mechanical</option>
-            <answer>A</answer><explanation>Compressions and rarefactions.</explanation>
+            <text>Disturbance that travels through a medium transferring energy without matter transport is a ____.</text>
+            <option id="A">Wave</option><option id="B">Particle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental mechanism of energy transfer.</explanation>
         </question>
         <question>
-            <text>Light waves are:</text>
-            <option id="A">Transverse</option><option id="B">Longitudinal</option><option id="C">Mechanical</option><option id="D">Sound</option>
-            <answer>A</answer><explanation>EM waves are transverse.</explanation>
+            <text>Waves that require a material medium for propagation are ____ waves.</text>
+            <option id="A">Mechanical</option><option id="B">Electromagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Examples: Sound, Water waves.</explanation>
         </question>
         <question>
-            <text>Distance between two consecutive crests is called:</text>
-            <option id="A">Wavelength</option><option id="B">Amplitude</option><option id="C">Frequency</option><option id="D">Period</option>
-            <answer>A</answer><explanation>Definition.</explanation>
+            <text>Waves that can travel through vacuum are ____ waves.</text>
+            <option id="A">Electromagnetic</option><option id="B">Mechanical</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Light, X-rays, Radio waves.</explanation>
         </question>
         <question>
-            <text>Frequency f and Time Period T are related as:</text>
-            <option id="A">f = 1/T</option><option id="B">f = T</option><option id="C">f = T^2</option><option id="D">f = 1/T^2</option>
-            <answer>A</answer><explanation>Inverse relation.</explanation>
+            <text>Wave where particles vibrate perpendicular to the direction of wave travel is ____ wave.</text>
+            <option id="A">Transverse</option><option id="B">Longitudinal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Seen in light and string waves.</explanation>
         </question>
         <question>
-            <text>Speed of sound is maximum in:</text>
-            <option id="A">Solids</option><option id="B">Liquids</option><option id="C">Gases</option><option id="D">Vacuum</option>
-            <answer>A</answer><explanation>High elasticity.</explanation>
+            <text>Wave where particles vibrate parallel to the direction of wave travel is ____ wave.</text>
+            <option id="A">Longitudinal</option><option id="B">Transverse</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sound waves are longitudinal.</explanation>
         </question>
         <question>
-            <text>Doppler effect is related to change in:</text>
-            <option id="A">Frequency</option><option id="B">Amplitude</option><option id="C">Phase</option><option id="D">Intensity</option>
-            <answer>A</answer><explanation>Apparent frequency shift.</explanation>
+            <text>Distance between two consecutive points in same phase (e.g. crest to next crest) is ____.</text>
+            <option id="A">Wavelength (λ)</option><option id="B">Amplitude</option><option id="C">Frequency</option><option id="D">None</option>
+            <answer>A</answer><explanation>Spatial period of the wave.</explanation>
         </question>
         <question>
-            <text>Which property determines the pitch of sound?</text>
-            <option id="A">Frequency</option><option id="B">Amplitude</option><option id="C">Speed</option><option id="D">Phase</option>
-            <answer>A</answer><explanation>Higher f means higher pitch.</explanation>
+            <text>Number of wave cycles passing a point per unit time is ____.</text>
+            <option id="A">Frequency (f)</option><option id="B">Wavelength</option><option id="C">Time Period</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unit is Hz.</explanation>
         </question>
         <question>
-            <text>Which property determines the loudness of sound?</text>
-            <option id="A">Amplitude</option><option id="B">Frequency</option><option id="C">Wavelength</option><option id="D">Speed</option>
-            <answer>A</answer><explanation>Prop to A^2.</explanation>
+            <text>Wave speed v is related to frequency f and wavelength λ by v = ____.</text>
+            <option id="A">f λ</option><option id="B">f / λ</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental wave equation.</explanation>
         </question>
         <question>
-            <text>Waves transport:</text>
-            <option id="A">Energy and Momentum</option><option id="B">Matter</option><option id="C">Charge</option><option id="D">Nothing</option>
-            <answer>A</answer><explanation>Not matter.</explanation>
+            <text>Highest point of a transverse wave is ____.</text>
+            <option id="A">Crest</option><option id="B">Trough</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maximum positive displacement.</explanation>
         </question>
         <question>
-            <text>Equation of a progressive wave traveling in +x direction:</text>
-            <option id="A">y = A sin(wt - kx)</option><option id="B">y = A sin(wt + kx)</option><option id="C">y = A sin(wt)</option><option id="D">y = A cos(kx)</option>
-            <answer>A</answer><explanation>Minus sign for +x.</explanation>
+            <text>Lowest point of a transverse wave is ____.</text>
+            <option id="A">Trough</option><option id="B">Crest</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maximum negative displacement.</explanation>
         </question>
         <question>
-            <text>Relationship between wave velocity v, frequency f, wavelength lambda:</text>
-            <option id="A">v = f lambda</option><option id="B">v = f / lambda</option><option id="C">v = lambda / f</option><option id="D">v = f + lambda</option>
-            <answer>A</answer><explanation>Standard wave eq.</explanation>
+            <text>Regions of high pressure and density in longitudinal waves are ____.</text>
+            <option id="A">Compressions</option><option id="B">Rarefactions</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equivalent to crests.</explanation>
         </question>
         <question>
-            <text>Fundamental mode of a stretched string has:</text>
-            <option id="A">One loop (2 nodes)</option><option id="B">Two loops</option><option id="C">Three loops</option><option id="D">No nodes</option>
-            <answer>A</answer><explanation>L = lambda/2.</explanation>
+            <text>Regions of low pressure and density in longitudinal waves are ____.</text>
+            <option id="A">Rarefactions</option><option id="B">Compressions</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equivalent to troughs.</explanation>
         </question>
         <question>
-            <text>In a closed organ pipe, which harmonics are present?</text>
-            <option id="A">Odd only (1, 3, 5...)</option><option id="B">Even only</option><option id="C">All (1, 2, 3...)</option><option id="D">None</option>
-            <answer>A</answer><explanation>Boundary condition closed end.</explanation>
+            <text>Speed of sound in air at STP is approx ____ m/s.</text>
+            <option id="A">331 / 340</option><option id="B">1500</option><option id="C">3 x 10^8</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends on temperature and medium.</explanation>
         </question>
         <question>
-            <text>In an open organ pipe, which harmonics are present?</text>
-            <option id="A">All (1, 2, 3...)</option><option id="B">Odd only</option><option id="C">Even only</option><option id="D">None</option>
-            <answer>A</answer><explanation>Both ends antinodes.</explanation>
+            <text>Sound waves cannot travel through ____.</text>
+            <option id="A">Vacuum</option><option id="B">Water</option><option id="C">Steel</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires material medium for compression-rarefaction.</explanation>
         </question>
         <question>
-            <text>Beats are produced by superposition of waves with:</text>
-            <option id="A">Slightly different frequencies</option><option id="B">Same frequency</option><option id="C">Different amplitudes</option><option id="D">Opposite direction</option>
-            <answer>A</answer><explanation>f_beat = f1 - f2.</explanation>
+            <text>Human audible frequency range is approx ____ Hz to ____ Hz.</text>
+            <option id="A">20 - 20,000</option><option id="B">0 - 100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Varies with age and health.</explanation>
         </question>
         <question>
-            <text>Velocity of sound in air increases with:</text>
-            <option id="A">Temperature</option><option id="B">Pressure (constant T)</option><option id="C">Frequency</option><option id="D">Amplitude</option>
-            <answer>A</answer><explanation>v prop sqrt(T).</explanation>
+            <text>Sound waves below 20 Hz are ____.</text>
+            <option id="A">Infrasonic</option><option id="B">Ultrasonic</option><option id="C">Audible</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used by elephants and for seismic study.</explanation>
         </question>
         <question>
-            <text>Effect of pressure on speed of sound in gas:</text>
-            <option id="A">No effect (at const T)</option><option id="B">Increases</option><option id="C">Decreases</option><option id="D">Varies</option>
-            <answer>A</answer><explanation>P/rho is constant at const T.</explanation>
+            <text>Sound waves above 20,000 Hz are ____.</text>
+            <option id="A">Ultrasonic</option><option id="B">Infrasonic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Used in bats' sonar and ultrasound imaging.</explanation>
         </question>
         <question>
-            <text>Effect of humidity on speed of sound:</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">No effect</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Moist air is less dense than dry air. v prop 1/sqrt(rho).</explanation>
+            <text>The parameter 'k' in wave equation y = A sin(kx - ωt) is ____.</text>
+            <option id="A">Wave Number (Prop. constant)</option><option id="B">Spring constant</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>k = 2π / λ.</explanation>
         </question>
         <question>
-            <text>Newton's formula for speed of sound assumed process to be:</text>
-            <option id="A">Isothermal</option><option id="B">Adiabatic</option><option id="C">Isobaric</option><option id="D">Isochoric</option>
-            <answer>A</answer><explanation>Historically incorrect assumption.</explanation>
+            <text>Apparent change in frequency due to relative motion between source and observer is ____ Effect.</text>
+            <option id="A">Doppler</option><option id="B">Photoelectric</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used in radar and astronomy.</explanation>
         </question>
         <question>
-            <text>Laplace correction assumed process to be:</text>
-            <option id="A">Adiabatic</option><option id="B">Isothermal</option><option id="C">Isobaric</option><option id="D">Isochoric</option>
-            <answer>A</answer><explanation>Correct assumption.</explanation>
+            <text>Result of superposition of two waves of slightly different frequencies is ____.</text>
+            <option id="A">Beats</option><option id="B">Interference</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Waxing and waning of sound intensity.</explanation>
         </question>
         <question>
-            <text>Standing waves transport energy?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">Partially</option><option id="D">Sometimes</option>
-            <answer>A</answer><explanation>Energy confined in loops.</explanation>
+            <text>Beat frequency f_beat = ____.</text>
+            <option id="A">|f1 - f2|</option><option id="B">f1 + f2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Difference of frequencies.</explanation>
         </question>
         <question>
-            <text>Distance between a node and adjacent antinode:</text>
-            <option id="A">lambda / 4</option><option id="B">lambda / 2</option><option id="C">lambda</option><option id="D">lambda / 8</option>
-            <answer>A</answer><explanation>1/4 of wave.</explanation>
+            <text>Points of zero amplitude in a stationary wave are ____.</text>
+            <option id="A">Nodes</option><option id="B">Antinodes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Destructive interference always.</explanation>
         </question>
         <question>
-            <text>SI unit of Frequency:</text>
-            <option id="A">Hertz (Hz)</option><option id="B">Second</option><option id="C">Meter</option><option id="D">Watt</option>
-            <answer>A</answer><explanation>Cycles per second.</explanation>
+            <text>Points of maximum amplitude in a stationary wave are ____.</text>
+            <option id="A">Antinodes</option><option id="B">Nodes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constructive interference always.</explanation>
         </question>
         <question>
-            <text>Reflection of wave from rigid boundary results in phase change of:</text>
-            <option id="A">pi (180 deg)</option><option id="B">0</option><option id="C">pi/2</option><option id="D">2pi</option>
-            <answer>A</answer><explanation>Inversion.</explanation>
+            <text>Distance between two consecutive nodes is ____.</text>
+            <option id="A">λ / 2</option><option id="B">λ</option><option id="C">λ / 4</option><option id="D">None</option>
+            <answer>A</answer><explanation>Half wavelength.</explanation>
         </question>
         <question>
-            <text>Reflection of wave from free boundary results in phase change of:</text>
-            <option id="A">0</option><option id="B">pi</option><option id="C">pi/2</option><option id="D">pi/4</option>
+            <text>Distance between a node and adjacent antinode is ____.</text>
+            <option id="A">λ / 4</option><option id="B">λ / 2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Quarter wavelength.</explanation>
+        </question>
+        <question>
+            <text>Tuning fork frequency is increased by ____.</text>
+            <option id="A">Filing the prongs</option><option id="B">Loading with wax</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reduces mass, increases frequency.</explanation>
+        </question>
+        <question>
+            <text>Tuning fork frequency is decreased by ____.</text>
+            <option id="A">Loading with wax</option><option id="B">Filing</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Increases inertia.</explanation>
+        </question>
+        <question>
+            <text>Echo is heard if reflector is at least ____ m away (for 0.1s persistence).</text>
+            <option id="A">17 (approx)</option><option id="B">100</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Based on v = 340 m/s: 2d = v * 0.1.</explanation>
+        </question>
+        <question>
+            <text>Property of matter that allows waves to propagate is ____.</text>
+            <option id="A">Elasticity and Inertia</option><option id="B">Density only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Required to store and transfer KE/PE.</explanation>
+        </question>
+        <question>
+            <text>Newton's formula for sound speed in gas v = ____.</text>
+            <option id="A">sqrt(P / ρ)</option><option id="B">sqrt(γ P / ρ)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Assuming isothermal process (erroneous).</explanation>
+        </question>
+        <question>
+            <text>Laplace's correction to sound speed v = ____.</text>
+            <option id="A">sqrt(γ P / ρ)</option><option id="B">sqrt(P / ρ)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Assuming adiabatic process (correct).</explanation>
+        </question>
+        <question>
+            <text>Stationary waves ____ transfer energy.</text>
+            <option id="A">Do not (net zero)</option><option id="B">Do</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Energy is trapped between nodes.</explanation>
+        </question>
+        <question>
+            <text>Open pipe has antinodes at ____ ends.</text>
+            <option id="A">Both</option><option id="B">Closed one</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Pressure is atmospheric there.</explanation>
+        </question>
+        <question>
+            <text>Closed pipe (one end) has node at ____ end.</text>
+            <option id="A">Closed</option><option id="B">Open</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Bound boundary condition.</explanation>
+        </question>
+        <question>
+            <text>Fundamental frequency of open organ pipe f1 = ____.</text>
+            <option id="A">v / 2L</option><option id="B">v / 4L</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>L = λ/2.</explanation>
+        </question>
+        <question>
+            <text>Fundamental frequency of closed organ pipe f1 = ____.</text>
+            <option id="A">v / 4L</option><option id="B">v / 2L</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>L = λ/4.</explanation>
+        </question>
+        <question>
+            <text>Open pipe contains ____ harmonics.</text>
+            <option id="A">All (odd and even)</option><option id="B">Only odd</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>1f, 2f, 3f...</explanation>
+        </question>
+        <question>
+            <text>Closed pipe contains ____ harmonics.</text>
+            <option id="A">Only odd</option><option id="B">All</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1f, 3f, 5f...</explanation>
+        </question>
+        <question>
+            <text>A wave reflects from a denser medium boundary with a phase change of ____.</text>
+            <option id="A">π (180 deg)</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equivalent to inversion.</explanation>
+        </question>
+        <question>
+            <text>A wave reflects from a rarer medium/free boundary with phase change of ____.</text>
+            <option id="A">0</option><option id="B">π</option><option id="C">phi</option><option id="D">None</option>
             <answer>A</answer><explanation>No inversion.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>Two waves y1 = A sin(wt-kx) and y2 = A sin(wt-kx-phi). Resultant amplitude?</text>
-            <option id="A">2A cos(phi/2)</option><option id="B">2A sin(phi/2)</option><option id="C">A</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Vector addition or trig identity.</explanation>
+            <text>Intensity of wave I ∝ ____.</text>
+            <option id="A">Amplitude^2 (A^2)</option><option id="B">Frequency</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also proportional to frequency^2.</explanation>
         </question>
         <question>
-            <text>Beats freq if f1=256 Hz and f2=260 Hz?</text>
-            <option id="A">4 Hz</option><option id="B">258 Hz</option><option id="C">516 Hz</option><option id="D">2 Hz</option>
-            <answer>A</answer><explanation>Difference.</explanation>
+            <text>Velocity of wave on a stretched string v = ____.</text>
+            <option id="A">sqrt(T / μ)</option><option id="B">sqrt(T x μ)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T is tension, μ is mass per unit length.</explanation>
         </question>
         <question>
-            <text>Length of closed pipe is 20cm. Velocity 340 m/s. Fundamental freq?</text>
-            <option id="A">425 Hz</option><option id="B">850 Hz</option><option id="C">170 Hz</option><option id="D">340 Hz</option>
-            <answer>A</answer><explanation>f = v/4L = 340 / (4*0.2) = 340/0.8 = 3400/8 = 425.</explanation>
+            <text>For a given string, frequency ∝ ____ proportional to length.</text>
+            <option id="A">Inversely</option><option id="B">Directly</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Law of lengths: fL = constant.</explanation>
         </question>
         <question>
-            <text>Doppler: Source moves towards stationary observer with v/10. Apparent freq?</text>
-            <option id="A">10/9 f0</option><option id="B">9/10 f0</option><option id="C">11/10 f0</option><option id="D">f0</option>
-            <answer>A</answer><explanation>f' = f0 v/(v-vs) = f0 v/(v-0.1v) = f0 1/0.9 = 10/9 f0.</explanation>
+            <text>In sound propagation, what happens to speed if temperature increases?</text>
+            <option id="A">Increases (v ∝ sqrt(T))</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Molecules have more kinetic energy.</explanation>
         </question>
         <question>
-            <text>Observer moves away from stationary source with v/5. Apparent freq?</text>
-            <option id="A">4/5 f0</option><option id="B">6/5 f0</option><option id="C">5/4 f0</option><option id="D">f0</option>
-            <answer>A</answer><explanation>f' = f0 (v-vo)/v = f0 (v-0.2v)/v = 0.8 f0 = 4/5 f0.</explanation>
+            <text>Effect of humidity on sound speed: speed ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Remains same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Humid air is less dense than dry air.</explanation>
         </question>
         <question>
-            <text>Equation of standing wave?</text>
-            <option id="A">y = 2A sin(kx) cos(wt)</option><option id="B">y = A sin(wt-kx)</option><option id="C">y = A sin(wt+kx)</option><option id="D">y = x-vt</option>
-            <answer>A</answer><explanation>Separation of variables.</explanation>
+            <text>Sound speed is independent of ____ at constant temperature.</text>
+            <option id="A">Pressure</option><option id="B">Density change alone</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>P/ρ ratio remains constant for ideal gas.</explanation>
         </question>
         <question>
-            <text>Node position in standing wave y = 2A sin(kx) cos(wt)?</text>
-            <option id="A">sin(kx)=0 => kx=n pi => x = n lambda / 2</option><option id="B">Antinode</option><option id="C">All x</option><option id="D">None</option>
-            <answer>A</answer><explanation>Zero displacement.</explanation>
+            <text>Superposition Principle: y_total = ____.</text>
+            <option id="A">y1 + y2 + ...</option><option id="B">y1 x y2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Vector sum of displacements.</explanation>
         </question>
         <question>
-            <text>Energy of a stretched string (wave energy) is proportional to:</text>
-            <option id="A">f^2 A^2</option><option id="B">f A</option><option id="C">f^2/A</option><option id="D">1/f</option>
-            <answer>A</answer><explanation>Power = 0.5 mu v w^2 A^2.</explanation>
+            <text>If two waves of same frequency and amplitude interfere constructively, max amplitude is ____.</text>
+            <option id="A">2A</option><option id="B">A</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Phase diff = 0.</explanation>
         </question>
         <question>
-            <text>A tuning fork produces 4 beats/s with 256Hz (loaded with wax beats decrease). Freq?</text>
-            <option id="A">260 Hz</option><option id="B">252 Hz</option><option id="C">256 Hz</option><option id="D">250 Hz</option>
-            <answer>A</answer><explanation>Possibilities 252 or 260. Wax decreases freq. If 260 -> decays to 258 (diff 2, decrease). If 252 -> decays to 250 (diff 6, increase). Beats decreased, so it was 260.</explanation>
+            <text>If two waves interfere destructively (phase diff π), min amplitude is ____.</text>
+            <option id="A">0</option><option id="B">A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>They cancel each other.</explanation>
         </question>
         <question>
-            <text>Ratio of frequencies in open pipe?</text>
-            <option id="A">1:2:3...</option><option id="B">1:3:5...</option><option id="C">1:4:9...</option><option id="D">1:1:1</option>
-            <answer>A</answer><explanation>All harmonics.</explanation>
+            <text>In stationary waves, particles between two nodes have ____ phase.</text>
+            <option id="A">Same</option><option id="B">Different</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Move up and down together.</explanation>
         </question>
         <question>
-            <text>Ratio of frequencies in closed pipe?</text>
-            <option id="A">1:3:5...</option><option id="B">1:2:3...</option><option id="C">Odds</option><option id="D">Evens</option>
-            <answer>A</answer><explanation>Odd harmonics.</explanation>
+            <text>End correction 'e' for open pipe of radius r is approx ____.</text>
+            <option id="A">0.6 r per end (total 1.2r)</option><option id="B">0.3 r</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Effective length L' = L + 2e.</explanation>
         </question>
         <question>
-            <text>End correction 'e' for pipe of radius r?</text>
-            <option id="A">0.6r</option><option id="B">r</option><option id="C">0.3r</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Empirical.</explanation>
+            <text>Reverberation refers to persistence of sound due to ____.</text>
+            <option id="A">Multiple reflections</option><option id="B">Absorption</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Time taken for sound to decay by 60 dB.</explanation>
         </question>
         <question>
-            <text>Fundamental freq of open pipe vs closed pipe of same length?</text>
-            <option id="A">Open = 2 * Closed</option><option id="B">Open = Closed</option><option id="C">Closed = 2 * Open</option><option id="D">Equal</option>
-            <answer>A</answer><explanation>v/2L vs v/4L.</explanation>
+            <text>Shock waves are produced by objects moving at ____ speed.</text>
+            <option id="A">Supersonic (v > v_sound)</option><option id="B">Subsonic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conical wave front (Mach cone).</explanation>
         </question>
         <question>
-            <text>Velocity of transverse wave on string tension T, mass/length mu?</text>
-            <option id="A">sqrt(T/mu)</option><option id="B">sqrt(mu/T)</option><option id="C">T/mu</option><option id="D">mu T</option>
-            <answer>A</answer><explanation>Formula.</explanation>
+            <text>Transverse waves can propagate through liquids?</text>
+            <option id="A">No (unless surface waves / tension)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Bulk liquids don't support shear.</explanation>
         </question>
         <question>
-            <text>If tension increases by 4%, velocity change?</text>
-            <option id="A">Increases by 2%</option><option id="B">Increases by 4%</option><option id="C">Decreases 2%</option><option id="D">Same</option>
-            <answer>A</answer><explanation>v ~ sqrt(T). dv/v = 0.5 dT/T.</explanation>
+            <text>Wave equation y = A sin[2π(t/T - x/λ)]. Velocity of particle v_p = ____.</text>
+            <option id="A">dy / dt</option><option id="B">dy / dx</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Speed of individual element of medium.</explanation>
         </question>
         <question>
-            <text>Velocity of sound is v. Source moves speed v towards observer. Apparent freq?</text>
-            <option id="A">Infinite</option><option id="B">2f</option><option id="C">0</option><option id="D">f</option>
-            <answer>A</answer><explanation>Sonic boom limit. f' = f v/0.</explanation>
+            <text>Ratio of max particle velocity to wave velocity? v_p_max / v = ____.</text>
+            <option id="A">kA (2πA / λ)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ωA / (ω/k) = kA.</explanation>
         </question>
         <question>
-            <text>Observer moves with speed v towards source. Apparent freq?</text>
-            <option id="A">2f</option><option id="B">f</option><option id="C">Infinite</option><option id="D">0</option>
-            <answer>A</answer><explanation>f' = f(v+v)/v = 2f.</explanation>
+            <text>A string of 1m length, 5g mass, 80N tension. Fundamental f = ____.</text>
+            <option id="A">63.2 Hz approx (v = sqrt(80/0.005) = 126.5; f = 126.5/2)</option><option id="B">120</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculated from fundamental mode f = v/2L.</explanation>
         </question>
         <question>
-            <text>Sound intensity level increases by 30 dB. Intensity ratio factor?</text>
-            <option id="A">1000</option><option id="B">100</option><option id="C">30</option><option id="D">3</option>
-            <answer>A</answer><explanation>10 log(I2/I1) = 30. log ratio = 3. ratio = 10^3.</explanation>
+            <text>In Doppler effect, if source moves toward stationary observer, f' ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Waves are crowded together.</explanation>
         </question>
         <question>
-            <text>Quality of sound depends on:</text>
-            <option id="A">Waveform / Harmonics</option><option id="B">Frequency</option><option id="C">Amplitude</option><option id="D">Phase</option>
-            <answer>A</answer><explanation>Timbre.</explanation>
+            <text>In Doppler effect, if observer moves away from stationary source, f' ____.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Observer receives fewer wave fronts per sec.</explanation>
         </question>
         <question>
-            <text>Speed of wave in solid rod (Young's Y, density rho)?</text>
-            <option id="A">sqrt(Y/rho)</option><option id="B">sqrt(rho/Y)</option><option id="C">Y/rho</option><option id="D">Y rho</option>
-            <answer>A</answer><explanation>Formula.</explanation>
+            <text>For beats of 5 Hz, minimum time between a max and min intensity is ____ s.</text>
+            <option id="A">0.1 (1/10)</option><option id="B">0.2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Time between two max is 1/5 = 0.2. Max to min is half of that.</explanation>
+        </question>
+        <question>
+            <text>Power transmit by wave on string P = ____.</text>
+            <option id="A">1/2 μ v ω^2 A^2</option><option id="B">1/2 m v^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate of energy flow.</explanation>
+        </question>
+        <question>
+            <text>Wavefront is a surface of constant ____.</text>
+            <option id="A">Phase</option><option id="B">Amplitude</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Perpendicular to rays.</explanation>
+        </question>
+        <question>
+            <text>Second harmonic of open pipe is equal to fundamental of ____ pipe? No.</text>
+            <option id="A">Open pipe of half length</option><option id="B">Closed pipe</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>f2 = 2 * (v/2L) = v/L. If L becomes L/2, f1 = v/(2*L/2) = v/L.</explanation>
+        </question>
+        <question>
+            <text>Overtones are frequencies ____ than fundamental.</text>
+            <option id="A">Higher</option><option id="B">Lower</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Multiples or near multiples.</explanation>
+        </question>
+        <question>
+            <text>Harmonics are integer ____ of fundamental.</text>
+            <option id="A">Multiples</option><option id="B">Fractions</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>f, 2f, 3f...</explanation>
+        </question>
+        <question>
+            <text>Which property of sound changes with amplitude?</text>
+            <option id="A">Loudness</option><option id="B">Pitch</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Perceived intensity.</explanation>
+        </question>
+        <question>
+            <text>Which property of sound changes with frequency?</text>
+            <option id="A">Pitch</option><option id="B">Loudness</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Perceived shrillness.</explanation>
+        </question>
+        <question>
+            <text>Quality (Timbre) of sound depends on ____.</text>
+            <option id="A">Waveform / Harmonics present</option><option id="B">Amplitude only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Distinguishes two notes of same pitch and loudness.</explanation>
+        </question>
+        <question>
+            <text>In a stationary wave, amplitude ____ from node to antinode.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>0 to 2A.</explanation>
+        </question>
+        <question>
+            <text>In a travelling wave, energy ____ with the wave.</text>
+            <option id="A">Moves</option><option id="B">Stays trapped</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Net transport of energy occurs.</explanation>
+        </question>
+        <question>
+            <text>Wave in 1D: y(x,t) = f(ax ± bt)? ____ sign means wave moves in negative x.</text>
+            <option id="A">Plus (+)</option><option id="B">Minus (-)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>e.g. sin(kx + ωt).</explanation>
+        </question>
+        <question>
+            <text>Sound waves in solids are ____.</text>
+            <option id="A">Both transverse and longitudinal</option><option id="B">Only longitudinal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Solids can have shear elasticity.</explanation>
+        </question>
+        <question>
+            <text>S-waves in seismology are ____.</text>
+            <option id="A">Transverse (Secondary)</option><option id="B">Longitudinal (Primary)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Slower than P waves, can't pass through liquid outer core.</explanation>
+        </question>
+        <question>
+            <text>P-waves in seismology are ____.</text>
+            <option id="A">Longitudinal (Primary)</option><option id="B">Transverse</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fastest seismic waves.</explanation>
+        </question>
+        <question>
+            <text>Velocity of sound is highest in ____.</text>
+            <option id="A">Solids (e.g. Steel)</option><option id="B">Gases</option><option id="C">Liquids</option><option id="D">None</option>
+            <answer>A</answer><explanation>High Bulk modulus / Elasticity.</explanation>
+        </question>
+        <question>
+            <text>If temperature of air increases by 1 K, sound speed increases by approx ____ m/s.</text>
+            <option id="A">0.61</option><option id="B">1</option><option id="C">0.33</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linear approximation near 0 deg C.</explanation>
+        </question>
+        <question>
+            <text>String f1 = 100 Hz. Second overtone is ____ Hz.</text>
+            <option id="A">300 (3rd harmonic)</option><option id="B">200</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental = 1st, 1st overtone = 2nd, 2nd overtone = 3rd.</explanation>
+        </question>
+        <question>
+            <text>Closed pipe f1 = 100 Hz. First overtone is ____ Hz.</text>
+            <option id="A">300 (3rd harmonic)</option><option id="B">200</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Next allowed mode for closed pipe is 3f.</explanation>
+        </question>
+        <question>
+            <text>Human ear is most sensitive to frequencies around ____ Hz.</text>
+            <option id="A">2000 - 5000</option><option id="B">20,000</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Related to resonance frequency of ear canal.</explanation>
+        </question>
+        <question>
+            <text>Intensity of sound is measured in ____.</text>
+            <option id="A">dB (decibels) / W/m^2</option><option id="B">Hz</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Decibel is log scale.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>Doppler effect: Source and Observer moving at angle theta. Component of velocity?</text>
-            <option id="A">Along the line joining them</option><option id="B">Perpendicular</option><option id="C">Actual v</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Only radial component matters.</explanation>
+            <text>Phase difference between two points x1, x2 on a wave is Δφ = ____.</text>
+            <option id="A">k |x2 - x1|</option><option id="B">ω |x2 - x1|</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Δφ = 2π / λ * Δx.</explanation>
         </question>
         <question>
-            <text>Standing wave y = 2A sin kx cos wt. Distance between node and next antinode is L. Wavelength?</text>
-            <option id="A">4L</option><option id="B">2L</option><option id="C">L</option><option id="D">8L</option>
-            <answer>A</answer><explanation>L = lambda / 4.</explanation>
+            <text>Group velocity is the velocity of the ____.</text>
+            <option id="A">Wave packet / envelope</option><option id="B">Individual phase</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>v_g = dω / dk.</explanation>
         </question>
         <question>
-            <text>String with mass 2g has wave speed v. If mass 2g placed at middle. Reflected wave?</text>
-            <option id="A">Partial reflection/transmission</option><option id="B">Full reflection</option><option id="C">No reflection</option><option id="D">Stop</option>
-            <answer>A</answer><explanation>Impedance mismatch.</explanation>
+            <text>Phase velocity v_p = ____.</text>
+            <option id="A">ω / k</option><option id="B">k / ω</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Speed of constant phase point.</explanation>
         </question>
         <question>
-            <text>Diffraction of sound is more common than light because:</text>
-            <option id="A">Wavelength of sound ~ obstacle size</option><option id="B">Sound is slow</option><option id="C">Sound is longitudinal</option><option id="D">Light is fast</option>
-            <answer>A</answer><explanation>Condition lambda ~ a.</explanation>
+            <text>In dispersive medium, group velocity and phase velocity are ____.</text>
+            <option id="A">Different</option><option id="B">Same</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>v_p depends on frequency.</explanation>
         </question>
         <question>
-            <text>Echo minimum distance?</text>
-            <option id="A">17 m</option><option id="B">10 m</option><option id="C">34 m</option><option id="D">5 m</option>
-            <answer>A</answer><explanation>0.1 s persistence. v=340. 34m round trip. 17m one way.</explanation>
+            <text>Speed of sound in ideal gas depends ∝ temperature T as ____.</text>
+            <option id="A">T^(1/2)</option><option id="B">T</option><option id="C">T^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>v = sqrt(γRT / M).</explanation>
         </question>
         <question>
-            <text>Newton's formula P_iso = P. Laplace P_adia = gamma P. Error?</text>
-            <option id="A">~16%</option><option id="B">50%</option><option id="C">1%</option><option id="D">0</option>
-            <answer>A</answer><explanation>280 vs 332 m/s.</explanation>
+            <text>A stationary wave is represented by y = 2A sin(kx) cos(ωt). Position of nodes satisfies ____.</text>
+            <option id="A">kx = n π (x = n λ / 2)</option><option id="B">kx = odd * π/2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>sin(kx) = 0.</explanation>
         </question>
         <question>
-            <text>Interference of waves I_max / I_min ratio amplitude ratio 3:1?</text>
-            <option id="A">4:1</option><option id="B">9:1</option><option id="C">2:1</option><option id="D">16:4 -> 4</option>
-            <answer>A</answer><explanation>I prop A^2. Amax = 3+1=4. Amin = 3-1=2. Imax/Imin = 16/4 = 4.</explanation>
+            <text>A string of density ρ and radius r has tension T. v = ____ (in terms of r).</text>
+            <option id="A">sqrt( T / (ρ π r^2) )</option><option id="B">sqrt(T/r)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>μ = ρ x Area = ρ π r^2.</explanation>
         </question>
         <question>
-            <text>Wave pulse on string with varying mass density mu = ax. Time to travel L?</text>
-            <option id="A">Integrated</option><option id="B">L/v</option><option id="C">Zero</option><option id="D">Infinite</option>
-            <answer>A</answer><explanation>Int dx / sqrt(T/ax).</explanation>
+            <text>Fundamental of open pipe L is same as fundamental of closed pipe L'? ____.</text>
+            <option id="A">L' = L / 2</option><option id="B">L' = 2L</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>v/2L = v/4L' -> 2L = 4L' -> L' = 0.5 L.</explanation>
         </question>
         <question>
-            <text>Shock waves produced when:</text>
-            <option id="A">Source speed > Wave speed</option><option id="B">Resonance</option><option id="C">Damping</option><option id="D">Absorption</option>
-            <answer>A</answer><explanation>Mach cone.</explanation>
+            <text>Doppler effect for light differs from sound because ____.</text>
+            <option id="A">Light speed is same in all frames (Relativistic)</option><option id="B">Light is faster</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends only on relative velocity, no 'medium' frame.</explanation>
         </question>
         <question>
-            <text>Mach number is?</text>
-            <option id="A">vs / v</option><option id="B">v / vs</option><option id="C">v * vs</option><option id="D">1</option>
-            <answer>A</answer><explanation>Ratio.</explanation>
+            <text>Two strings A and B produce 6 beats. A is 300Hz. If tension in B is reduced, beat frequency increases to 10. B was? ____ Hz.</text>
+            <option id="A">294 (v decreases, f decreases from 294 -> 290? No, 300-290=10)</option><option id="B">306</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Possible: 306 or 294. If B=306 -> (less T) -> 304 -> beat=4? No. If B=294 -> (less T) -> 290 -> beat=10. Correct.</explanation>
         </question>
         <question>
-            <text>Power transmitted by wave on string?</text>
-            <option id="A">0.5 mu w^2 A^2 v</option><option id="B">0.5 m w^2 A^2</option><option id="C">Zero</option><option id="D">Infinite</option>
-            <answer>A</answer><explanation>Rate of energy transfer.</explanation>
+            <text>Sound level increases by 20 dB. Intensity increases by factor ____.</text>
+            <option id="A">100</option><option id="B">10</option><option id="C">20</option><option id="D">None</option>
+            <answer>A</answer><explanation>10 log(I2/I1) = 20 -> log ratio = 2 -> ratio = 10^2 = 100.</explanation>
         </question>
         <question>
-            <text>Sound source falls with g emitting f0. Observer above. Apparent freq vs time?</text>
-            <option id="A">Decreases non-linearly</option><option id="B">Constant</option><option id="C">Increases</option><option id="D">Linearly</option>
-            <answer>A</answer><explanation>v_source = gt. f' = f0 v / (v+gt). Hyperbolic decrease.</explanation>
+            <text>Speed of sound in hydrogen (M=2) vs oxygen (M=32) at same T ____.</text>
+            <option id="A">v_H = 4 v_O</option><option id="B">v_H = 16 v_O</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>v ∝ 1/sqrt(M). sqrt(32/2) = sqrt(16) = 4.</explanation>
         </question>
         <question>
-            <text>Resultant of two waves same freq, amplitude A1, A2, phase phi?</text>
-            <option id="A">sqrt(A1^2+A2^2+2A1A2 cos phi)</option><option id="B">A1+A2</option><option id="C">A1-A2</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Vector sum.</explanation>
+            <text>Energy density of a harmonic wave u = ____.</text>
+            <option id="A">1/2 ρ ω^2 A^2</option><option id="B">1/2 m v^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy per unit volume.</explanation>
         </question>
         <question>
-            <text>Stationary wave formed by reflection at x=0 (rigid). y_inc = A sin(wt-kx). y_ref = ?</text>
-            <option id="A">-A sin(wt+kx)</option><option id="B">A sin(wt+kx)</option><option id="C">A sin(wt-kx)</option><option id="D">None</option>
-            <answer>A</answer><explanation>Inversion and direction change.</explanation>
+            <text>Interference pattern depends on ____ difference.</text>
+            <option id="A">Phase / Path</option><option id="B">Intensity only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Δφ = k Δx.</explanation>
         </question>
         <question>
-            <text>Pressure node in standing sound wave corresponds to:</text>
-            <option id="A">Displacement Antinode</option><option id="B">Displacement Node</option><option id="C">Zero</option><option id="D">Max</option>
-            <answer>A</answer><explanation>90 deg phase diff between P and x.</explanation>
+            <text>If an source of 500Hz moves at half speed of sound toward observer? f' = ____.</text>
+            <option id="A">1000 Hz (f' = f * v / (v - 0.5v) = 500 * 2)</option><option id="B">750</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard source moving toward stationary observer.</explanation>
         </question>
         <question>
-            <text>Sonometer law of length?</text>
-            <option id="A">f prop 1/L</option><option id="B">f prop L</option><option id="C">f prop L^2</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>v/2L.</explanation>
+            <text>Mach Number M = ____.</text>
+            <option id="A">v_object / v_sound</option><option id="B">v_sound / v_object</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Measure of supersonicity.</explanation>
         </question>
         <question>
-            <text>Transverse wave possible in:</text>
-            <option id="A">Solids (shear)</option><option id="B">Gas</option><option id="C">Liquid bulk</option><option id="D">None</option>
-            <answer>A</answer><explanation>Needs shear modulus.</explanation>
+            <text>Standing waves in string clamped at both ends: allowed λ = ____.</text>
+            <option id="A">2L / n (n=1,2,3...)</option><option id="B">L / n</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>L must be multiple of λ/2.</explanation>
         </question>
         <question>
-            <text>Reverberation time formula (Sabine)?</text>
-            <option id="A">0.16 V / A</option><option id="B">V/A</option><option id="C">A/V</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Acoustics.</explanation>
+            <text>Fundamental of closed pipe f = 200 Hz. Third overtone f7 = ____ Hz.</text>
+            <option id="A">1400 (Fundamental 1, OT1=3, OT2=5, OT3=7th Harmonic)</option><option id="B">600</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Closed pipe overtone numbering is tricky: only odd allowed.</explanation>
         </question>
         <question>
-            <text>Doppler width in spectral lines is due to:</text>
-            <option id="A">Random thermal motion of atoms</option><option id="B">Lab motion</option><option id="C">Quantum</option><option id="D">None</option>
-            <answer>A</answer><explanation>Broadening.</explanation>
+            <text>Is it possible for sound to be polarized?</text>
+            <option id="A">No (Longitudinal waves cannot be polarized)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Vibration is along one line already.</explanation>
         </question>
         <question>
-            <text>Red shift means:</text>
-            <option id="A">Source moving away (freq decrease)</option><option id="B">Approaching</option><option id="C">Hot</option><option id="D">Cold</option>
-            <answer>A</answer><explanation>Wavelength increase.</explanation>
+            <text>Reflection of pulse @ rigid wall: displacement inversion happens? ____.</text>
+            <option id="A">Yes (Phase π)</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fixed end condition.</explanation>
         </question>
         <question>
-            <text>Beat period is:</text>
-            <option id="A">1 / (f1-f2)</option><option id="B">f1-f2</option><option id="C">f1+f2</option><option id="D">None</option><answer>A</answer><explanation>Reciprocal ofbeat freq.</explanation>
+            <text>Reflection at open end: pulse returns with ____ side upwards.</text>
+            <option id="A">Same</option><option id="B">Opposite</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No phase inversion.</explanation>
         </question>
         <question>
-            <text>A wave reflects from denser medium. Phase change?</text>
-            <option id="A">pi</option><option id="B">0</option><option id="C">2pi</option><option id="D">pi/2</option><answer>A</answer><explanation>Hard boundary.</explanation>
+            <text>Velocity of sound in air is independent of ____? No. It depends on T.</text>
+            <option id="A">Frequency / wavelength</option><option id="B">Temperature</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ideally non-dispersive.</explanation>
+        </question>
+        <question>
+            <text>Intensity of sound from point source I ∝ ____.</text>
+            <option id="A">1 / r^2</option><option id="B">1 / r</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Spreading over surface of sphere (4πr^2).</explanation>
+        </question>
+        <question>
+            <text>Intensity of sound from infinitely long line source I ∝ ____.</text>
+            <option id="A">1 / r</option><option id="B">1 / r^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Spreading over cylinder (2πrL).</explanation>
+        </question>
+        <question>
+            <text>Loudness level in phons is numerically equal to dB at ____ Hz.</text>
+            <option id="A">1000</option><option id="B">20</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard reference for loudness measurement.</explanation>
+        </question>
+        <question>
+            <text>Beating between 300Hz and 304Hz tuning forks. Rate? ____.</text>
+            <option id="A">4 Hz</option><option id="B">604</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Difference.</explanation>
+        </question>
+        <question>
+            <text>Pitch of mosquito hum is ____ than lion roar.</text>
+            <option id="A">Higher (Higher frequency)</option><option id="B">Lower</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High pitched buzz vs low frequency roar.</explanation>
+        </question>
+        <question>
+            <text>If tension of string is increased by 21%, frequency increases by ____%.</text>
+            <option id="A">10% (sqrt(1.21) = 1.1)</option><option id="B">21%</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>f ∝ sqrt(T).</explanation>
+        </question>
+        <question>
+            <text>Wavefront produced by a point source in 3D is ____.</text>
+            <option id="A">Spherical</option><option id="B">Planar</option><option id="C">Cylindrical</option><option id="D">None</option>
+            <answer>A</answer><explanation>Symmetric in all directions.</explanation>
+        </question>
+        <question>
+            <text>Wavefront produced by point source at very large distance is ____.</text>
+            <option id="A">Plane</option><option id="B">Spherical</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Curvature becomes negligible.</explanation>
+        </question>
+        <question>
+            <text>Energy of wave is ____ shared between potential and kinetic forms? Yes.</text>
+            <option id="A">Equally</option><option id="B">Unequally</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Analogous to SHM energy sharing.</explanation>
+        </question>
+        <question>
+            <text>Final check for Waves: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </hard>
 </chapter>

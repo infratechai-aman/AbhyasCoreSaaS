@@ -1,444 +1,584 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Physics" id="9" name="Mechanical Properties of Fluids">
+<chapter subject="Physics" id="109" name="Mechanical Properties of Fluids">
     <easy>
         <question>
-            <text>Hydraulic lift works on the principle of:</text>
-            <option id="A">Pascal's Law</option><option id="B">Archimedes' Principle</option><option id="C">Bernoulli's Principle</option><option id="D">Boyle's Law</option>
-            <answer>A</answer><explanation>Pressure transmitted equally in fluid.</explanation>
+            <text>Fluids are substances that can ____.</text>
+            <option id="A">Flow</option><option id="B">Break</option><option id="C">Stay rigid</option><option id="D">None</option>
+            <answer>A</answer><explanation>Includes liquids and gases.</explanation>
         </question>
         <question>
-            <text>The SI unit of Pressure is:</text>
-            <option id="A">Pascal</option><option id="B">Newton</option><option id="C">Watt</option><option id="D">Joule</option>
-            <answer>A</answer><explanation>N/m^2.</explanation>
+            <text>Normal force per unit area exerted by fluid at rest is ____.</text>
+            <option id="A">Pressure</option><option id="B">Stress</option><option id="C">Force</option><option id="D">None</option>
+            <answer>A</answer><explanation>P = F/A.</explanation>
         </question>
         <question>
-            <text>A body floats in a liquid if buoyant force is:</text>
-            <option id="A">Equal to or greater than weight</option><option id="B">Less than weight</option><option id="C">Zero</option><option id="D">Variable</option>
-            <answer>A</answer><explanation>Flotation condition.</explanation>
+            <text>SI unit of Pressure is ____.</text>
+            <option id="A">Pascal (Pa)</option><option id="B">Newton</option><option id="C">Bar</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 Pa = 1 N/m^2.</explanation>
         </question>
         <question>
-            <text>Bernoulli's theorem is based on conservation of:</text>
-            <option id="A">Energy</option><option id="B">Mass</option><option id="C">Momentum</option><option id="D">Charge</option>
-            <answer>A</answer><explanation>Sum of P, K, U energy densities is constant.</explanation>
+            <text>Pressure at a point in fluid at rest is ____ in all directions.</text>
+            <option id="A">Same</option><option id="B">Different</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pascal's Law for fluids.</explanation>
         </question>
         <question>
-            <text>Viscosity is the property of:</text>
-            <option id="A">Fluids</option><option id="B">Solids only</option><option id="C">Gases only</option><option id="D">Vacuum</option>
-            <answer>A</answer><explanation>Resistance to flow in liquids and gases.</explanation>
+            <text>Pressure exerted by a liquid column of height h and density ρ is ____.</text>
+            <option id="A">hρg</option><option id="B">ρg/h</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Derived from weight of fluid column.</explanation>
         </question>
         <question>
-            <text>Raindrops are spherical in shape due to:</text>
-            <option id="A">Surface Tension</option><option id="B">Viscosity</option><option id="C">Gravity</option><option id="D">Air resistance</option>
-            <answer>A</answer><explanation>Minimizing surface area.</explanation>
+            <text>Atmospheric pressure at sea level is approximately ____ Pa.</text>
+            <option id="A">1.013 x 10^5</option><option id="B">1.0 x 10^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equivalent to 1 atmosphere (atm).</explanation>
         </question>
         <question>
-            <text>SI unit of Surface Tension is:</text>
-            <option id="A">N/m</option><option id="B">N/m^2</option><option id="C">N m</option><option id="D">Joule</option>
-            <answer>A</answer><explanation>Force per unit length.</explanation>
+            <text>Device used to measure atmospheric pressure is ____.</text>
+            <option id="A">Barometer</option><option id="B">Manometer</option><option id="C">Thermometer</option><option id="D">None</option>
+            <answer>A</answer><explanation>Invented by Torricelli.</explanation>
         </question>
         <question>
-            <text>Angle of contact for pure water and glass is:</text>
-            <option id="A">0 degrees (Approx)</option><option id="B">90 degrees</option><option id="C">135 degrees</option><option id="D">180 degrees</option>
-            <answer>A</answer><explanation>Wets surface completely.</explanation>
+            <text>Difference between absolute pressure and atmospheric pressure is ____ pressure.</text>
+            <option id="A">Gauge</option><option id="B">Total</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P_gauge = P - P_atm.</explanation>
         </question>
         <question>
-            <text>1 Atmospheric pressure is approx:</text>
-            <option id="A">10^5 Pa</option><option id="B">10^3 Pa</option><option id="C">100 Pa</option><option id="D">10 Pa</option>
-            <answer>A</answer><explanation>1.013 x 10^5 Pa.</explanation>
+            <text>Hydraulic lift works on ____ Law.</text>
+            <option id="A">Pascal's</option><option id="B">Archimedes'</option><option id="C">Newton's</option><option id="D">None</option>
+            <answer>A</answer><explanation>Transmission of fluid pressure.</explanation>
         </question>
         <question>
-            <text>Density of water is max at:</text>
-            <option id="A">4 degrees Celsius</option><option id="B">0 degrees Celsius</option><option id="C">100 degrees Celsius</option><option id="D">-4 degrees Celsius</option>
-            <answer>A</answer><explanation>Anomalous expansion.</explanation>
+            <text>Upward force exerted by a fluid on a submerged body is ____ force.</text>
+            <option id="A">Buoyant</option><option id="B">Drag</option><option id="C">Viscous</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also called upthrust.</explanation>
         </question>
         <question>
-            <text>Instrument to measure atmospheric pressure:</text>
-            <option id="A">Barometer</option><option id="B">Manometer</option><option id="C">Thermometer</option><option id="D">Hydrometer</option>
-            <answer>A</answer><explanation>Torricelli's device.</explanation>
+            <text>Archimedes' Principle states that buoyant force equals ____ of fluid displaced.</text>
+            <option id="A">Weight</option><option id="B">Mass</option><option id="C">Volume</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reason for objects floating or sinking.</explanation>
         </question>
         <question>
-            <text>Upthrust depends upon:</text>
-            <option id="A">Volume of fluid displaced and density of fluid</option><option id="B">Weight of body</option><option id="C">Color of body</option><option id="D">Depth</option>
-            <answer>A</answer><explanation>V_imm * rho_liq * g.</explanation>
+            <text>A body floats if its density is ____ than fluid density.</text>
+            <option id="A">Less or Equal</option><option id="B">Greater</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equilibrium condition for floating.</explanation>
         </question>
         <question>
-            <text>Relative Density has unit:</text>
-            <option id="A">No unit</option><option id="B">kg/m^3</option><option id="C">N/m^3</option><option id="D">g/cc</option>
-            <answer>A</answer><explanation>Ratio of densities.</explanation>
+            <text>Fluids in motion: Study of fluid flow is ____.</text>
+            <option id="A">Fluid Dynamics</option><option id="B">Statics</option><option id="C">Kinematics only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involves forces and motion.</explanation>
         </question>
         <question>
-            <text>Stokes' Law is related to:</text>
-            <option id="A">Viscous drag</option><option id="B">Pressure</option><option id="C">Surface Tension</option><option id="D">Elasticity</option>
-            <answer>A</answer><explanation>F = 6 pi eta r v.</explanation>
+            <text>Steady flow where velocity at a point doesn't change with time is ____ flow.</text>
+            <option id="A">Streamline / Laminar</option><option id="B">Turbulent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Characterized by smooth paths.</explanation>
         </question>
         <question>
-            <text>Terminal velocity is acquired when:</text>
-            <option id="A">Net force is zero</option><option id="B">Gravity is zero</option><option id="C">Viscosity is zero</option><option id="D">Always</option>
-            <answer>A</answer><explanation>Weight = Upthrust + Viscous Drag.</explanation>
+            <text>Flow where velocity changes erratically in magnitude and direction is ____ flow.</text>
+            <option id="A">Turbulent</option><option id="B">Streamline</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Occurs at high velocities.</explanation>
         </question>
         <question>
-            <text>Reynolds number determines:</text>
-            <option id="A">Nature of flow (Laminar/Turbulent)</option><option id="B">Viscosity</option><option id="C">Density</option><option id="D">Velocity</option>
-            <answer>A</answer><explanation>Critical value concept.</explanation>
+            <text>Equation of Continuity for incompressible fluid: A1V1 = ____.</text>
+            <option id="A">A2V2</option><option id="B">A2/V2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mass conservation in flow.</explanation>
         </question>
         <question>
-            <text>Magnitude of buoyant force is given by:</text>
-            <option id="A">Weight of liquid displaced</option><option id="B">Volume of liquid</option><option id="C">Density of body</option><option id="D">Mass of body</option>
-            <answer>A</answer><explanation>Archimedes principle.</explanation>
+            <text>Bernoulli's Principle relates pressure, speed, and ____.</text>
+            <option id="A">Height (Potential energy)</option><option id="B">Color</option><option id="C">Temperature</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy conservation for ideal fluid flow.</explanation>
         </question>
         <question>
-            <text>What happens to viscosity of liquid with rise in temperature?</text>
-            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">Remains same</option><option id="D">Becomes zero</option>
-            <answer>A</answer><explanation>Intermolecular forces weaken.</explanation>
+            <text>Internal friction of a fluid that resists flow is ____.</text>
+            <option id="A">Viscosity</option><option id="B">Surface tension</option><option id="C">Density</option><option id="D">None</option>
+            <answer>A</answer><explanation>Analogous to friction in solids.</explanation>
         </question>
         <question>
-            <text>What happens to viscosity of Gas with rise in temperature?</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">No change</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Collision frequency increases.</explanation>
+            <text>SI unit of coefficient of viscosity (η) is ____.</text>
+            <option id="A">Poiseuille (Pa.s)</option><option id="B">Poise</option><option id="C">N/m</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 Poiseuille = 10 Poise.</explanation>
         </question>
         <question>
-            <text>Capillary rise is due to:</text>
-            <option id="A">Surface Tension</option><option id="B">Viscosity</option><option id="C">Gravity</option><option id="D">Friction</option>
-            <answer>A</answer><explanation>Pressure diff across meniscus.</explanation>
+            <text>Stokes' Law gives viscous drag on a sphere: F = ____.</text>
+            <option id="A">6 π η r v</option><option id="B">π r^2 h</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Applies for small velocities in viscous medium.</explanation>
         </question>
         <question>
-            <text>Excess pressure inside a liquid drop:</text>
-            <option id="A">2T/R</option><option id="B">4T/R</option><option id="C">T/R</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>One surface.</explanation>
+            <text>Constant velocity attained by a body falling through viscous fluid is ____ velocity.</text>
+            <option id="A">Terminal</option><option id="B">Critical</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>When drag + buoyancy = weight.</explanation>
         </question>
         <question>
-            <text>Excess pressure inside a soap bubble:</text>
-            <option id="A">4T/R</option><option id="B">2T/R</option><option id="C">T/R</option><option id="D">8T/R</option>
-            <answer>A</answer><explanation>Two surfaces.</explanation>
+            <text>Dimensionless number that determines nature of flow is ____ Number.</text>
+            <option id="A">Reynolds (Re)</option><option id="B">Mach</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Re = ρvd / η.</explanation>
         </question>
         <question>
-            <text>Torricelli's Law gives velocity of efflux as:</text>
-            <option id="A">sqrt(2gh)</option><option id="B">sqrt(gh)</option><option id="C">2gh</option><option id="D">gh</option>
-            <answer>A</answer><explanation>Similar to free fall.</explanation>
+            <text>Force per unit length acting in the surface of a liquid is ____.</text>
+            <option id="A">Surface Tension</option><option id="B">Viscosity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>T = F/l.</explanation>
         </question>
         <question>
-            <text>Ideal fluid is:</text>
-            <option id="A">Incompressible and Non-viscous</option><option id="B">Viscous and Compressible</option><option id="C">Turbulent</option><option id="D">Real</option>
-            <answer>A</answer><explanation>Hypothetical assumption for Bernoulli.</explanation>
+            <text>SI unit of Surface Tension is ____.</text>
+            <option id="A">N/m</option><option id="B">N/m^2</option><option id="C">J/m</option><option id="D">None</option>
+            <answer>A</answer><explanation>Force per length.</explanation>
         </question>
         <question>
-            <text>Venturimeter is used to measure:</text>
-            <option id="A">Rate of flow of fluid</option><option id="B">Pressure</option><option id="C">Density</option><option id="D">Viscosity</option>
-            <answer>A</answer><explanation>Application of Bernoulli.</explanation>
+            <text>Curvature of liquid surface in a container is called ____.</text>
+            <option id="A">Meniscus</option><option id="B">Lens</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Concave or convex depending on adhesion/cohesion.</explanation>
         </question>
         <question>
-            <text>Equation of continuity A1v1 = A2v2 comes from conservation of:</text>
-            <option id="A">Mass</option><option id="B">Energy</option><option id="C">Momentum</option><option id="D">Force</option>
-            <answer>A</answer><explanation>Incompressible flow.</explanation>
+            <text>Angle between tangent to liquid surface and solid surface is Angle of ____.</text>
+            <option id="A">Contact</option><option id="B">Incidence</option><option id="C">Refraction</option><option id="D">None</option>
+            <answer>A</answer><explanation>Determines wetting property.</explanation>
         </question>
         <question>
-            <text>Angle of contact for Mercury and Glass:</text>
-            <option id="A">Obtuse (~135)</option><option id="B">Acute</option><option id="C">Zero</option><option id="D">90</option>
-            <answer>A</answer><explanation>Non-wetting.</explanation>
+            <text>Rise or fall of liquid in a narrow tube is ____.</text>
+            <option id="A">Capillarity</option><option id="B">Viscosity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to surface tension and small diameter.</explanation>
         </question>
         <question>
-            <text>Magnus effect is related to:</text>
-            <option id="A">Spinning ball in air</option><option id="B">Floating ship</option><option id="C">Capillary</option><option id="D">Elasticity</option>
-            <answer>A</answer><explanation>Lift due to pressure difference.</explanation>
+            <text>Pressure difference across a spherical liquid drop is ____.</text>
+            <option id="A">2T / R</option><option id="B">4T / R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Excess pressure inside drop.</explanation>
         </question>
         <question>
-            <text>Unit of coefficient of viscosity eta:</text>
-            <option id="A">Poiseuille (Pl)</option><option id="B">Pascal</option><option id="C">Newton</option><option id="D">Joule</option>
-            <answer>A</answer><explanation>N s / m^2 or Pa s.</explanation>
+            <text>Pressure difference across a soap bubble (2 surfaces) is ____.</text>
+            <option id="A">4T / R</option><option id="B">2T / R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Double because of inner and outer surface.</explanation>
+        </question>
+        <question>
+            <text>Effect of temperature increase on surface tension is ____.</text>
+            <option id="A">Decrease</option><option id="B">Increase</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Molecular kinetic energy overcomes attraction.</explanation>
+        </question>
+        <question>
+            <text>Density of water is max at ____ Celsius.</text>
+            <option id="A">4</option><option id="B">0</option><option id="C">100</option><option id="D">None</option>
+            <answer>A</answer><explanation>Anomalous expansion property.</explanation>
+        </question>
+        <question>
+            <text>Velocity of efflux through a hole is √(2gh). This is ____ theorem.</text>
+            <option id="A">Torricelli's</option><option id="B">Bernoulli's</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Special case of Bernoulli's.</explanation>
+        </question>
+        <question>
+            <text>Venturi meter measures ____ of fluid flow.</text>
+            <option id="A">Speed / Rate</option><option id="B">Pressure only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Uses pressure difference between throat and wide part.</explanation>
+        </question>
+        <question>
+            <text>Ratio of density of substance to density of water is ____.</text>
+            <option id="A">Relative Density / Specific Gravity</option><option id="B">Mass density</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Dimensionless quantity.</explanation>
+        </question>
+        <question>
+            <text>Blood pressure in humans is measured using ____.</text>
+            <option id="A">Sphygmomanometer</option><option id="B">Barometer</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Measures gauge pressure in artery.</explanation>
+        </question>
+        <question>
+            <text>Viscosity of gases ____ with increase in temperature.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to increased molecular collisions.</explanation>
+        </question>
+        <question>
+            <text>Viscosity of liquids ____ with increase in temperature.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cohesive forces weaken.</explanation>
+        </question>
+        <question>
+            <text>Dynamic lift on a spinning ball in air is called ____ Effect.</text>
+            <option id="A">Magnus</option><option id="B">Doppler</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to pressure difference induced by spin.</explanation>
+        </question>
+        <question>
+            <text>Atomizer works on the basis of ____.</text>
+            <option id="A">Bernoulli's Principle</option><option id="B">Pascal's Law</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High speed air creates low pressure zone.</explanation>
+        </question>
+        <question>
+            <text>Surface of a liquid behaves like a stretched elastic ____.</text>
+            <option id="A">Membrane</option><option id="B">Wire</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to surface tension.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>Water flows through a horizontal pipe. At a constriction, velocity increases. Pressure will:</text>
-            <option id="A">Decrease</option><option id="B">Increase</option><option id="C">Remain same</option><option id="D">Become zero</option>
-            <answer>A</answer><explanation>Bernoulli: P + 0.5 rho v^2 = const. High v -> Low P.</explanation>
+            <text>Hydraulic brake system uses fluid to multiply ____.</text>
+            <option id="A">Force</option><option id="B">Pressure</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Small force on pedal -> large force on brake pads.</explanation>
         </question>
         <question>
-            <text>Two soap bubbles radii r1 and r2 (r1>r2) coalesce. Common surface curvature usually?</text>
-            <option id="A">Bulges towards larger bubble</option><option id="B">Bulges towards smaller</option><option id="C">Flat</option><option id="D">None</option>
-            <answer>A</answer><explanation>P2 > P1. Pressure is higher in smaller bubble. Radius of interface R = r1r2/(r1-r2). Concave towards smaller.</explanation>
+            <text>Bernoulli's equation P + 1/2ρv^2 + ρgh = ____.</text>
+            <option id="A">Constant</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Along a streamline for non-viscous flow.</explanation>
         </question>
         <question>
-            <text>Work done in blowing a soap bubble from radius 0 to R?</text>
-            <option id="A">8 pi R^2 T</option><option id="B">4 pi R^2 T</option><option id="C">2 pi R T</option><option id="D">pi R^2 T</option>
-            <answer>A</answer><explanation>Area = 2 * 4piR^2 (inner/outer). Work = T * 8piR^2.</explanation>
+            <text>Terminal velocity depends on square of ____ of falling body.</text>
+            <option id="A">Radius (r^2)</option><option id="B">Mass</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Formula contains term (2r^2 g (ρ-σ) / 9η).</explanation>
         </question>
         <question>
-            <text>Terminal velocity of a sphere radius r falls in viscous fluid. v is proportional to:</text>
-            <option id="A">r^2</option><option id="B">r</option><option id="C">1/r</option><option id="D">1/r^2</option>
-            <answer>A</answer><explanation>Stokes law derivation result.</explanation>
+            <text>Critical velocity is velocity above which flow becomes ____.</text>
+            <option id="A">Turbulent</option><option id="B">Steady</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>End of streamline regime.</explanation>
         </question>
         <question>
-            <text>Pressure at depth h in liquid of density d:</text>
-            <option id="A">P0 + hfg</option><option id="B">hfg</option><option id="C">P0 - hfg</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Gauge + Atm.</explanation>
+            <text>For a drop to be spherical, potential energy of surface must be ____.</text>
+            <option id="A">Minimum</option><option id="B">Maximum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sphere has minimum area for given volume.</explanation>
         </question>
         <question>
-            <text>Iceberg floats in water. Fraction submerged?</text>
-            <option id="A">~90%</option><option id="B">50%</option><option id="C">10%</option><option id="D">100%</option>
-            <answer>A</answer><explanation>rho_ice = 0.9 rho_water.</explanation>
+            <text>Excess pressure in a cylindrical bubble in liquid is ____.</text>
+            <option id="A">T / R</option><option id="B">2T / R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>One principal radius of curvature is infinity.</explanation>
         </question>
         <question>
-            <text>Ice floating in a beaker of water melts. Water level:</text>
-            <option id="A">Remains same</option><option id="B">Rises</option><option id="C">Falls</option><option id="D">Varies</option>
-            <answer>A</answer><explanation>Displaced weight = weight of ice. Melted water volume = volume of ice water equivalent.</explanation>
+            <text>Capillary rise h = ____.</text>
+            <option id="A">2T cos θ / (rρg)</option><option id="B">T / (rρg)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Balancing weight with surface tension force.</explanation>
         </question>
         <question>
-            <text>Capillary tube dipped in water. Rise h. If tube is tilted 45 deg, vertical height?</text>
-            <option id="A">Remains h</option><option id="B">h sqrt(2)</option><option id="C">h/sqrt(2)</option><option id="D">0</option>
-            <answer>A</answer><explanation>Vertical height depends on T, r, rho, g. Independent of angle.</explanation>
+            <text>If Re &lt; 1000, the flow is usually ____.</text>
+            <option id="A">Streamline</option><option id="B">Turbulent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Low Reynolds number indicates laminar flow.</explanation>
         </question>
         <question>
-            <text>Length of liquid column in tilted capillary?</text>
-            <option id="A">h sqrt(2)</option><option id="B">h</option><option id="C">h/sqrt(2)</option><option id="D">2h</option>
-            <answer>A</answer><explanation>l = h / cos(45) = h sqrt(2).</explanation>
+            <text>If Re > 2000, the flow is usually ____.</text>
+            <option id="A">Turbulent</option><option id="B">Streamline</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inertia forces dominate over viscous forces.</explanation>
         </question>
         <question>
-            <text>A large tank has a hole at depth h. Range of water jet on ground (if tank on ground)?</text>
-            <option id="A">2 sqrt(h(H-h))</option><option id="B">2h</option><option id="C">H-h</option><option id="D">h</option>
-            <answer>A</answer><explanation>Range R formula.</explanation>
+            <text>Dimension of Surface Energy is same as ____.</text>
+            <option id="A">Surface Tension</option><option id="B">Work</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy per area [M T^-2].</explanation>
         </question>
         <question>
-            <text>Max range occurs when hole is at depth?</text>
-            <option id="A">H/2</option><option id="B">H</option><option id="C">0</option><option id="D">H/4</option>
-            <answer>A</answer><explanation>Differentiation.</explanation>
+            <text>Work done in blowing a soap bubble of radius R is ____.</text>
+            <option id="A">8 π R^2 T</option><option id="B">4 π R^2 T</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>2 x Area x T.</explanation>
         </question>
         <question>
-            <text>Water flows in pipe radius 2cm at 2m/s. Velocity in radius 1cm?</text>
-            <option id="A">8 m/s</option><option id="B">4 m/s</option><option id="C">2 m/s</option><option id="D">1 m/s</option>
-            <answer>A</answer><explanation>A1v1 = A2v2. r^2 v = const. 4*2 = 1*v2. v2=8.</explanation>
+            <text>Angle of contact for pure water and clean glass is ____.</text>
+            <option id="A">Zero</option><option id="B">90</option><option id="C">135</option><option id="D">None</option>
+            <answer>A</answer><explanation>Complete wetting.</explanation>
         </question>
         <question>
-            <text>Bulk modulus of an incompressible liquid is:</text>
-            <option id="A">Infinite</option><option id="B">Zero</option><option id="C">1</option><option id="D">100 GPa</option>
-            <answer>A</answer><explanation>Delta V = 0. K = -V dP/dV.</explanation>
+            <text>Angle of contact for mercury and glass is ____.</text>
+            <option id="A">Obtuse (~135 deg)</option><option id="B">Acute</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mercury doesn't wet glass.</explanation>
         </question>
         <question>
-            <text>When a large bubble rises from bottom of lake to top, its radius:</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Same</option><option id="D">Bursts</option>
-            <answer>A</answer><explanation>Pressure decreases, Volume increases (Boyle's law).</explanation>
+            <text>In a horizontal pipe, where area is narrow, pressure is ____.</text>
+            <option id="A">Lower</option><option id="B">Higher</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increased speed leads to decreased pressure.</explanation>
         </question>
         <question>
-            <text>Which liquid has highest surface tension?</text>
-            <option id="A">Mercury</option><option id="B">Water</option><option id="C">Soap solution</option><option id="D">Alcohol</option>
-            <answer>A</answer><explanation>Strong cohesive forces.</explanation>
+            <text>Bernoulli's equation represents conservation of ____ pulse? No. Energy.</text>
+            <option id="A">Energy per unit volume</option><option id="B">Momentum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Work-energy theorem for fluids.</explanation>
         </question>
         <question>
-            <text>Two water droplets merge. Temperature:</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Same</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Surface area decreases. Energy released. Temp rises.</explanation>
+            <text>Effect of salt on surface tension of water ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Highly soluble impurities increase T.</explanation>
         </question>
         <question>
-            <text>Isothermal elasticity of gas is equal to:</text>
-            <option id="A">Pressure P</option><option id="B">gamma P</option><option id="C">Temperature T</option><option id="D">1/P</option>
-            <answer>A</answer><explanation>Standard result PV=const.</explanation>
+            <text>Effect of detergents on surface tension of water ____.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Makes water spread and penetrate more.</explanation>
         </question>
         <question>
-            <text>Adiabatic elasticity of gas is:</text>
-            <option id="A">gamma P</option><option id="B">P</option><option id="C">T</option><option id="D">gamma T</option>
-            <answer>A</answer><explanation>gamma is Cp/Cv.</explanation>
+            <text>Poiseuille's formula for flow rate Q through tube: Q = ____.</text>
+            <option id="A">pi P r^4 / (8 η L)</option><option id="B">P r / η</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Rate proportional to 4th power of radius.</explanation>
         </question>
         <question>
-            <text>Manometer reads pressure difference. If fluid density is rho, height diff h:</text>
-            <option id="A">dP = h rho g</option><option id="B">dP = hg</option><option id="C">dP = h</option><option id="D">dP = rho g</option>
-            <answer>A</answer><explanation>Hydrostatic law.</explanation>
+            <text>Hydraulic machine multiplier is F2 = F1 x (____).</text>
+            <option id="A">A2 / A1</option><option id="B">A1 / A2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Pressure is constant, so F1/A1 = F2/A2.</explanation>
         </question>
         <question>
-            <text>A wooden block floats with 1/2 vol submerged in water and 1/2 in oil. Density?</text>
-            <option id="A">Calculated</option><option id="B">Zero</option><option id="C">Avg</option><option id="D">Sum</option>
-            <answer>A</answer><explanation>Weight balance.</explanation>
+            <text>Total pressure at bottom of a pool is P_atm + ____.</text>
+            <option id="A">hρg</option><option id="B">2 hρg</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sum of air and water pressure.</explanation>
         </question>
         <question>
-            <text>Why does a flag flutter in wind?</text>
-            <option id="A">Bernoulli effect / Instability</option><option id="B">Weight</option><option id="C">Surface tension</option><option id="D">Viscosity</option>
-            <answer>A</answer><explanation>Pressure variations.</explanation>
+            <text>If an object is submerged, apparent weight = Actual weight - ____.</text>
+            <option id="A">Buoyant force</option><option id="B">Viscous force</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Net downward pull.</explanation>
         </question>
         <question>
-            <text>Why two ships moving parallel attract?</text>
-            <option id="A">Velocity between them high, Pressure low</option><option id="B">Gravity</option><option id="C">Magnetic</option><option id="D">Viscosity</option>
-            <answer>A</answer><explanation>Bernoulli.</explanation>
+            <text>Water rises in a capillary. If the tube is tilted, the vertical height h ____.</text>
+            <option id="A">Stays same</option><option id="B">Increases</option><option id="C">Decreases</option><option id="D">None</option>
+            <answer>A</answer><explanation>But length of liquid column increases.</explanation>
         </question>
         <question>
-            <text>Why grease is used as lubricant?</text>
-            <option id="A">High viscosity</option><option id="B">Low viscosity</option><option id="C">High density</option><option id="D">Color</option>
-            <answer>A</answer><explanation>Stays in place.</explanation>
+            <text>Streamlines never ____ each other.</text>
+            <option id="A">Intersect</option><option id="B">Touch</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Velocity at a point must be unique.</explanation>
         </question>
         <question>
-            <text>Poiseuille equation for flow Q?</text>
-            <option id="A">pi P r^4 / 8 eta L</option><option id="B">pi P r^2 / 8 eta L</option><option id="C">8 pi eta L / P</option><option id="D">Skip</option>
-            <answer>A</answer><explanation>Formula.</explanation>
+            <text>Terminal velocity is attained when acceleration is ____.</text>
+            <option id="A">Zero</option><option id="B">Max</option><option id="C">9.8</option><option id="D">None</option>
+            <answer>A</answer><explanation>Net force is zero.</explanation>
         </question>
         <question>
-            <text>Dimension of Coefficient of Viscosity:</text>
-            <option id="A">ML^-1 T^-1</option><option id="B">MLT^-2</option><option id="C">M L^2 T^-1</option><option id="D">Dimensionless</option>
-            <answer>A</answer><explanation>F = eta A dv/dx.</explanation>
+            <text>Coefficient of viscosity for air is ____ than water.</text>
+            <option id="A">Much less</option><option id="B">More</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gases have lower viscosity than liquids usually.</explanation>
         </question>
         <question>
-            <text>Flow is laminar if Reynolds number Re is:</text>
-            <option id="A">&lt; 1000 (or 2000)</option><option id="B">&gt; 3000</option><option id="C">0</option><option id="D">Infinite</option>
-            <answer>A</answer><explanation>Usually &lt; 2000 considered laminar.</explanation>
+            <text>Viscous force is independent of area of layers? No. F = η A (____).</text>
+            <option id="A">dv/dx (Velocity gradient)</option><option id="B">v</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Proportional to area and gradient.</explanation>
         </question>
         <question>
-            <text>Bernoulli eq P + rho gh + 0.5 rho v^2 = C. Terms are energy per:</text>
-            <option id="A">Unit Volume</option><option id="B">Unit Mass</option><option id="C">Unit Weight</option><option id="D">Area</option>
-            <answer>A</answer><explanation>Pressure is energy density.</explanation>
+            <text>Pressure depends on shape of container?</text>
+            <option id="A">No (Hydrostatic paradox)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Only depth and density matter.</explanation>
+        </question>
+        <question>
+            <text>A piece of wood floats in water with 1/2 outside. Relative density is ____.</text>
+            <option id="A">0.5</option><option id="B">1.0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fraction submerged = ρ_body / ρ_fluid.</explanation>
+        </question>
+        <question>
+            <text>If Re of flow is changed from 500 to 1500, flow remains ____.</text>
+            <option id="A">Laminar (often transitioning / unstable)</option><option id="B">Turbulent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Transition typically 1000-2000.</explanation>
+        </question>
+        <question>
+            <text>Pressure of 10m of water column is approx ____ atm.</text>
+            <option id="A">1</option><option id="B">10</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</explanation>10^5 Pa approx.</explanation>
+        </question>
+        <question>
+            <text>Surface of liquid in a capillary tube is flat if contact angle is ____.</text>
+            <option id="A">90 deg</option><option id="B">0</option><option id="C">180</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pressure difference is zero (cos 90 = 0).</explanation>
+        </question>
+        <question>
+            <text>Effect of increase in pressure on viscosity of water ____.</text>
+            <option id="A">Decreases (initially)</option><option id="B">Increases always</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Anomalous behavior of water.</explanation>
+        </question>
+        <question>
+            <text>Effect of increase in pressure on viscosity of most other liquids ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Molecules are packed tighter.</explanation>
+        </question>
+        <question>
+            <text>Velocity of efflux depends on density of liquid?</text>
+            <option id="A">No (v = sqrt(2gh))</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Independent for open tanks.</explanation>
+        </question>
+        <question>
+            <text>Laminar flow is characterized by ____ layers.</text>
+            <option id="A">Parallel</option><option id="B">Crossing</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>No mixing between layers.</explanation>
+        </question>
+        <question>
+            <text>Small drops are spherical due to ____.</text>
+            <option id="A">Surface Tension</option><option id="B">Gravity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Large drops are flattened by gravity.</explanation>
+        </question>
+        <question>
+            <text>Internal energy of a liquid surface is ____ than bulk.</text>
+            <option id="A">Higher</option><option id="B">Lower</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Surface molecules are in un-balanced force state.</explanation>
+        </question>
+        <question>
+            <text>A capillary tube of radius r is in water. h is rise. If r is doubled, h becomes ____.</text>
+            <option id="A">h/2</option><option id="B">h/4</option><option id="C">2h</option><option id="D">None</option>
+            <answer>A</answer><explanation>By Jurin's Law, h ∝ 1/r.</explanation>
+        </question>
+        <question>
+            <text>Pressure across a soap bubble of 2cm diameter (T=0.03 N/m) is ____ Pa.</text>
+            <option id="A">12</option><option id="B">6</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>ΔP = 4T/R = 4(0.03)/0.01 = 12.</explanation>
+        </question>
+        <question>
+            <text>Viscosity is a ____ property.</text>
+            <option id="A">Transport (momentum)</option><option id="B">Colligative</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Relates to transfer of momentum between layers.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>A cylindrical vessel filled with water is rotated about its axis with w. The surface profile is:</text>
-            <option id="A">Paraboloid</option><option id="B">Ellipsoid</option><option id="C">Hyperboloid</option><option id="D">Plane</option>
-            <answer>A</answer><explanation>Height y = w^2 r^2 / 2g.</explanation>
+            <text>Excess pressure inside a drop of radius R submerged in another liquid is ____.</text>
+            <option id="A">2T / R</option><option id="B">4T / R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Only one interface.</explanation>
         </question>
         <question>
-            <text>Calculated height diff between center and rim of bucket radius R rotating w?</text>
-            <option id="A">w^2 R^2 / 2g</option><option id="B">w^2 R^2 / g</option><option id="C">w R / g</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Bernoulli in rotating frame.</explanation>
+            <text>Two soap bubbles of radii r1, r2 coalesce at constant temp. New radius R satisfies ____.</text>
+            <option id="A">R^2 = r1^2 + r2^2</option><option id="B">R^3 = r1^3 + r2^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Surface area is conserved? No. Energy conservation/isothermal condition.</explanation>
         </question>
         <question>
-            <text>A capillary tube of insufficient length is used. Water will:</text>
-            <option id="A">Reach top and form flatter meniscus</option><option id="B">Overflow like fountain</option><option id="C">Not rise</option><option id="D">Depress</option>
-            <answer>A</answer><explanation>Radius of curvature adjusts. hR = const.</explanation>
+            <text>Velocity profile of liquid in pipe (laminar) is ____.</text>
+            <option id="A">Parabolic</option><option id="B">Linear</option><option id="C">Uniform</option><option id="D">None</option>
+            <answer>A</answer><explanation>V_max at center, zero at walls.</explanation>
         </question>
         <question>
-            <text>Two soap bubbles r1, r2 coalesce. If V is volume change and S is surface change, energy eq?</text>
-            <option id="A">3PV + 4ST = 0 ?</option><option id="B">PV = ST</option><option id="C">Complex</option><option id="D">Simple</option>
-            <answer>A</answer><explanation>Energy conservation P1V1 + P2V2? No, surface energy release.</explanation>
+            <text>Kinematic viscosity is defined as η / ____.</text>
+            <option id="A">ρ (Density)</option><option id="B">v (Velocity)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Units m^2/s.</explanation>
         </question>
         <question>
-            <text>A liquid drop of radius R breaks into n identical drops. Change in energy?</text>
-            <option id="A">4 pi R^2 T (n^(1/3) - 1)</option><option id="B">4 pi R^2 T (n - 1)</option><option id="C">Zero</option><option id="D">Negative</option>
-            <answer>A</answer><explanation>Area increases. E = T Delta A.</explanation>
+            <text>In Bernoulli's principle, if P and v decrease then height must ____?</text>
+            <option id="A">Increase</option><option id="B">Decrease</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>To keep constant sum.</explanation>
         </question>
         <question>
-            <text>Viscous force on a ball radius r moving v. If we take into account density rho of fluid, force depends on?</text>
-            <option id="A">Stokes valid for low Re. High Re uses Drag Eq.</option><option id="B">Stokes</option><option id="C">Pressure</option><option id="D">None</option>
-            <answer>A</answer><explanation>At high speeds F = 0.5 C rho A v^2.</explanation>
+            <text>Equation of motion for a fluid particle is ____ Equation.</text>
+            <option id="A">Euler's</option><option id="B">Newton's second only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>F_net = ma for fluid volume.</explanation>
         </question>
         <question>
-            <text>A solid sphere falls in viscous liquid. Velocity vs Time graph?</text>
-            <option id="A">Exponential approach to Vt</option><option id="B">Straight line</option><option id="C">Parabola</option><option id="D">Step</option>
-            <answer>A</answer><explanation>dv/dt = g - kv. Solution v = Vt (1 - e^-kt).</explanation>
+            <text>Work done against surface tension to break a drop of R into n small drops? ____.</text>
+            <option id="A">4 π R^2 T (n^(1/3) - 1)</option><option id="B">4 π R^2 T n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Increased surface area x T.</explanation>
         </question>
         <question>
-            <text>Bubble at depth h. Radius r. Atmospheric P0. Pressure inside?</text>
-            <option id="A">P0 + rho g h + 2T/r</option><option id="B">P0 + 2T/r</option><option id="C">P0 + rho g h</option><option id="D">P0 + rho g h + 4T/r</option>
-            <answer>A</answer><explanation>Air bubble in liquid has 1 surface from inside. P_liq = P0+hgd. P_in = P_liq + 2T/r.</explanation>
+            <text>Coefficient of viscosity for water is around ____ Pa.s at room temp.</text>
+            <option id="A">10^-3</option><option id="B">1</option><option id="C">10</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 centiPoise.</explanation>
         </question>
         <question>
-            <text>A vessel containing water accelerates upwards with a. Effective Pressure depth relation?</text>
-            <option id="A">P = h rho (g+a)</option><option id="B">P = h rho (g-a)</option><option id="C">P = h rho g</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Pseudo force adds to g.</explanation>
+            <text>Laminar boundary layer is layer near wall where velocity is ____.</text>
+            <option id="A">Changing from 0 to bulk velocity</option><option id="B">Max</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Viscous effects are dominant here.</explanation>
         </question>
         <question>
-            <text>Vessel accelerates horizontally with a. Free surface angle theta?</text>
-            <option id="A">tan theta = a/g</option><option id="B">tan theta = g/a</option><option id="C">sin theta = a/g</option><option id="D">0</option>
-            <answer>A</answer><explanation>Resultant of g and -a.</explanation>
+            <text>Pitot tube measures ____ at a point in fluid flow.</text>
+            <option id="A">Velocity</option><option id="B">Static pressure only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>By converting kinetic energy to pressure head.</explanation>
         </question>
         <question>
-            <text>Solid cube floats with vertical oscillation. Time period?</text>
-            <option id="A">2pi sqrt(h/g) where h is submerged depth</option><option id="B">2pi sqrt(m/k)</option><option id="C">2pi sqrt(L/g)</option><option id="D">None</option>
-            <answer>A</answer><explanation>Restoring force = -rho A x g.</explanation>
+            <text>Ideal fluid is ____ and ____.</text>
+            <option id="A">Incompressible , Non-viscous</option><option id="B">Compressible</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Assumptions for Bernoulli's derivation.</explanation>
         </question>
         <question>
-            <text>A Siphon works when?</text>
-            <option id="A">h1 &lt; h2 ??</option><option id="B">Vacuum</option><option id="C">Gravity</option><option id="D">Pump</option>
-            <answer>A</answer><explanation>Needs atm pressure and levels.</explanation>
+            <text>Stability of a floating body depends on position of ____.</text>
+            <option id="A">Metacentre</option><option id="B">Centre of gravity only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Must be above Centre of Gravity for stable equilibrium.</explanation>
         </question>
         <question>
-            <text>Force to separate two glass plates with water film?</text>
-            <option id="A">2AT/d</option><option id="B">2T/d</option><option id="C">AT/d</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Pressure diff 2T/d * Area.</explanation>
+            <text>Torricelli's vacuum is the space above mercury in ____.</text>
+            <option id="A">Barometer</option><option id="B">Manometer</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Contains only mercury vapor (negligible pressure).</explanation>
         </question>
         <question>
-            <text>U-tube with two liquids. Level diff?</text>
-            <option id="A">Balance P1=P2</option><option id="B">Volume</option><option id="C">Mass</option><option id="D">Temp</option>
-            <answer>A</answer><explanation>rho1 h1 = rho2 h2.</explanation>
+            <text>If Re of a flow is doubled, viscous drag becomes ____?</text>
+            <option id="A">Depends on flow regime (linear for laminar, square for turbulent)</option><option id="B">Double</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Physics of drag changes.</explanation>
         </question>
         <question>
-            <text>Bernoulli for gas (compressible)?</text>
-            <option id="A">V^2/2 + Int dP/rho ...</option><option id="B">Same</option><option id="C">Invalid</option><option id="D">PV=nRT</option>
-            <answer>A</answer><explanation>Thermodynamics integration needed.</explanation>
+            <text>Correction for liquid rise in wider capillary includes ____.</text>
+            <option id="A">r/3 term for volume of meniscus</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Advanced capillary rise formula h' = h + r/3.</explanation>
         </question>
         <question>
-            <text>A hole is made in bottom of tank. Time to empty?</text>
-            <option id="A">A/a sqrt(2H/g)</option><option id="B">infinity</option><option id="C">A/a sqrt(gH)</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Integration -A dh = a v dt.</explanation>
+            <text>Surface tension vanishes at ____ temperature.</text>
+            <option id="A">Critical</option><option id="B">Boiling</option><option id="C">Freezing</option><option id="D">None</option>
+            <answer>A</answer><explanation>Interface disappears.</explanation>
         </question>
         <question>
-            <text>Velocity of efflux if pressure P applied on top?</text>
-            <option id="A">sqrt(2gh + 2P/rho)</option><option id="B">sqrt(2gh)</option><option id="C">sqrt(2P/rho)</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Bernoulli with Pressure head.</explanation>
+            <text>Hydraulic force on side wall of tank: F = ____.</text>
+            <option id="A">1/2 ρ g L H^2</option><option id="B">ρ g L H</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Average pressure ρgH/2 x Area LH.</explanation>
         </question>
         <question>
-            <text>A stone mass m density d lies at bottom of lake density rho. Force required to lift?</text>
-            <option id="A">mg (1 - rho/d)</option><option id="B">mg</option><option id="C">mg (1 + rho/d)</option><option id="D">mg(rho/d)</option>
-            <answer>A</answer><explanation>Apparent weight.</explanation>
+            <text>Pressure inside a fluid is a ____ quantity?</text>
+            <option id="A">Scalar</option><option id="B">Vector</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Direction is always normal to surface.</explanation>
         </question>
         <question>
-            <text>Height of atmosphere if density constant?</text>
-            <option id="A">~ 8 km (P/rho g)</option><option id="B">100 km</option><option id="C">Infinite</option><option id="D">1 km</option>
-            <answer>A</answer><explanation>H = P_atm / (rho_air * g).</explanation>
+            <text>Terminal velocity of rain drop is small because ____ η is small? No. Because r is small.</text>
+            <option id="A">r is small</option><option id="B">η is high</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>v ~ r^2.</explanation>
         </question>
         <question>
-            <text>A balloon lifts m. Acceleration?</text>
-            <option id="A">(B - mg)/m</option><option id="B">g</option><option id="C">B/m</option><option id="D">0</option>
-            <answer>A</answer><explanation>Newton's 2nd law.</explanation>
+            <text>Work done against surface tension to merge two drops into one? ____ is released.</text>
+            <option id="A">Energy</option><option id="B">Force</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Surface area decreases.</explanation>
         </question>
         <question>
-            <text>Why hot soup tastes better?</text>
-            <option id="A">Low surface tension spreads on tongue</option><option id="B">Viscosity</option><option id="C">Temp</option><option id="D">Density</option>
-            <answer>A</answer><explanation>Spreading.</explanation>
+            <text>Pressure of gas on walls is due to ____ of molecules.</text>
+            <option id="A">Momentum transfer during collisions</option><option id="B">Weight</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Kinetic theory origin.</explanation>
         </question>
         <question>
-            <text>Detergents clean clothes by?</text>
-            <option id="A">Lowering surface tension</option><option id="B">Increasing ST</option><option id="C">Viscosity</option><option id="D">Friction</option>
-            <answer>A</answer><explanation>Allows penetration.</explanation>
+            <text>Isothermal bulk modulus of ideal gas is P. Adiabatic is ____ P.</text>
+            <option id="A">gamma</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>C_p / C_v factor.</explanation>
         </question>
         <question>
-            <text>A solid floats in liquid in a lift accelerating up. Upthrust?</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Same</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>Both weight and buoyant force increase by factor (g+a). Effect cancels for floatation level?</explanation>
+            <text>Coefficient of viscosity depends on ____ of fluid?</text>
+            <option id="A">Nature and Pressure/Temperature</option><option id="B">Only velocity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Intrinsic material property.</explanation>
         </question>
         <question>
-            <text>Fraction submerged in above case?</text>
-            <option id="A">Remains same</option><option id="B">Increases</option><option id="C">Decreases</option><option id="D">Zero</option>
-            <answer>A</answer><explanation>mg_eff = V rho g_eff. g_eff cancels.</explanation>
+            <text>Dynamic pressure in Bernoulli's is ____.</text>
+            <option id="A">1/2 ρ v^2</option><option id="B">P</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Velocity head contribution.</explanation>
         </question>
         <question>
-            <text>Pressure at center of Earth (fluid model)?</text>
-            <option id="A">3 GM^2 / 8 pi R^4</option><option id="B">Infinite</option><option id="C">Zero</option><option id="D">P_atm</option>
-            <answer>A</answer><explanation>Integration of hydrostatic eq.</explanation>
+            <text>Static pressure in Bernoulli's is ____.</text>
+            <option id="A">P</option><option id="B">ρgh</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Thermodynamic pressure.</explanation>
         </question>
         <question>
-            <text>Equation of state for adiabatic process in terms of P and T?</text>
-            <option id="A">P^(1-gamma) T^gamma = C</option><option id="B">PT = C</option><option id="C">PT^gamma</option><option id="D">None</option>
-            <answer>A</answer><explanation>From PV^g and PV=RT.</explanation>
+            <text>Poiseuille's law assumes ____ flow.</text>
+            <option id="A">Viscous laminar</option><option id="B">Ideal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Required for velocity profile derivation.</explanation>
         </question>
         <question>
-            <text>Isothermal bulk modulus vs Adiabatic bulk modulus?</text>
-            <option id="A">Adiabatic &gt; Isothermal (gamma times)</option><option id="B">Equal</option><option id="C">Iso &lt; Adiabatic</option><option id="D">None</option>
-            <answer>A</answer><explanation>K_ad = gamma P. K_iso = P.</explanation>
+            <text>Reynolds number for flow in tube using diameter d: Re = ____.</text>
+            <option id="A">ρ v d / η</option><option id="B">v / d</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard definition.</explanation>
         </question>
         <question>
-            <text>Velocity head in Bernoulli?</text>
-            <option id="A">v^2/2g</option><option id="B">v^2</option><option id="C">v</option><option id="D">v^2/g</option>
-            <answer>A</answer><explanation>Dimension of length.</explanation>
+            <text>Effect of narrowing a pipe on Re? (Assume constant rate Q): Re ____.</text>
+            <option id="A">Increases (v ~ 1/d^2, Re ~ v d ~ 1/d)</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Narrowing increases turbulence risk.</explanation>
         </question>
         <question>
-            <text>Pressure head?</text>
-            <option id="A">P/rho g</option><option id="B">P</option><option id="C">P/g</option><option id="D">P/rho</option>
-            <answer>A</answer><explanation>Dimension of length.</explanation>
+            <text>Blood is ____ fluid.</text>
+            <option id="A">Non-Newtonian (Viscosity varies with shear)</option><option id="B">Newtonian</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Depends on flow speed.</explanation>
         </question>
         <question>
-            <text>Torricelli vacuum is?</text>
-            <option id="A">Space above mercury in barometer</option><option id="B">Outer space</option><option id="C">Pump</option><option id="D">None</option>
-            <answer>A</answer><explanation>Hg vapor pressure is low.</explanation>
+            <text>Maximum height of water suckable by a pump from ground is ~____ m.</text>
+            <option id="A">10.3</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Limit of atmospheric pressure at vacuum side.</explanation>
         </question>
         <question>
-            <text>Spring balance readings in air, water, oil. Find density.</text>
-            <option id="A">Apparent weight method</option><option id="B">Easy</option><option id="C">Hard</option><option id="D">Skip</option>
-            <answer>A</answer><explanation>Lab problem.</explanation>
+            <text>Specific gravity depends on g?</text>
+            <option id="A">No (Ratio of densities)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mass property ratio.</explanation>
+        </question>
+        <question>
+            <text>Barometric leveling: Pressure decreases ____ with height.</text>
+            <option id="A">Exponentially (approx)</option><option id="B">Linearly</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>P = P0 exp(-mgh/kT).</explanation>
+        </question>
+        <question>
+            <text>If Re = 2000, flow is ____.</text>
+            <option id="A">Unstable / Transitioning</option><option id="B">Laminar</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Typical threshold for pipe flow.</explanation>
+        </question>
+        <question>
+            <text>Surface tension is ____ per unit ____.</text>
+            <option id="A">Energy , Area OR Force, Length</option><option id="B">Power, Volume</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Two equivalent definitions.</explanation>
+        </question>
+        <question>
+            <text>Final check for Fluids: 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </hard>
 </chapter>

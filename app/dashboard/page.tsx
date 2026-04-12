@@ -1,8 +1,7 @@
-"use client";
-
 import { useState } from "react";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
+import { useAuth } from "@/lib/auth-context";
 import { X } from "lucide-react";
 import { 
   FileText, 
@@ -17,6 +16,7 @@ import {
 } from "lucide-react";
 
 export default function DashboardPage() {
+  const { userData } = useAuth();
   const [quickTestOpen, setQuickTestOpen] = useState(false);
   const [generating, setGenerating] = useState(false);
 
@@ -48,39 +48,39 @@ export default function DashboardPage() {
           </div>
 
           <div className="mb-10">
-            <h2 className="text-[28px] font-semibold text-slate-900 tracking-tight leading-none mb-2">Welcome back, Aman Talukdar!</h2>
-            <p className="text-slate-500 text-[14px]">Here's your premium dashboard overview.</p>
+            <h2 className="text-[28px] font-semibold text-slate-900 tracking-tight leading-none mb-2">Welcome back, {userData?.name || "Aspirant"}!</h2>
+            <p className="text-slate-500 text-[14px]">Here's your {userData?.subscription || "standard"} dashboard overview.</p>
           </div>
 
-          {/* Stats Cards - EXACTLY matching ScorePrepPro style */}
+          {/* Stats Cards - Dynamic Integration */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
              <div className="bg-white rounded-[16px] p-5 border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
                 <div className="h-8 w-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center mb-4">
                   <FileText className="h-4 w-4" />
                 </div>
                 <div className="text-[10px] font-bold tracking-[0.1em] text-slate-500 uppercase mb-1">Mocks Completed</div>
-                <div className="text-[28px] font-bold text-slate-900 leading-none">41</div>
+                <div className="text-[28px] font-bold text-slate-900 leading-none">{userData?.mocksCompleted || 0}</div>
              </div>
              <div className="bg-white rounded-[16px] p-5 border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
                 <div className="h-8 w-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
                   <Database className="h-4 w-4" />
                 </div>
                 <div className="text-[10px] font-bold tracking-[0.1em] text-slate-500 uppercase mb-1">Questions Solved</div>
-                <div className="text-[28px] font-bold text-slate-900 leading-none">1,025</div>
+                <div className="text-[28px] font-bold text-slate-900 leading-none">{userData?.questionsSolved || 0}</div>
              </div>
              <div className="bg-white rounded-[16px] p-5 border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
                 <div className="h-8 w-8 rounded-lg bg-orange-50 text-orange-600 flex items-center justify-center mb-4">
                   <Clock className="h-4 w-4" />
                 </div>
-                <div className="text-[10px] font-bold tracking-[0.1em] text-slate-500 uppercase mb-1">Hours Studied</div>
-                <div className="text-[28px] font-bold text-slate-900 leading-none">62h</div>
+                <div className="text-[10px] font-bold tracking-[0.1em] text-slate-500 uppercase mb-1">Performance Index</div>
+                <div className="text-[28px] font-bold text-slate-900 leading-none">{userData?.performanceIndex || "0.0"}</div>
              </div>
              <div className="bg-white rounded-[16px] p-5 border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
                 <div className="h-8 w-8 rounded-lg bg-fuchsia-50 text-fuchsia-600 flex items-center justify-center mb-4">
                   <Flame className="h-4 w-4" />
                 </div>
                 <div className="text-[10px] font-bold tracking-[0.1em] text-slate-500 uppercase mb-1">Active Streak</div>
-                <div className="text-[28px] font-bold text-slate-900 leading-none">18 Days</div>
+                <div className="text-[28px] font-bold text-slate-900 leading-none">{userData?.streak || 0} Days</div>
              </div>
           </div>
 

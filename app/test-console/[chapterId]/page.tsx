@@ -4,11 +4,15 @@ import { useEffect, useState } from "react";
 import { Clock, LayoutTemplate, AlertCircle, ChevronRight, Bookmark, X, PlayCircle, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useAuth } from "@/lib/auth-context";
+import { saveTestResult } from "@/lib/firebase-service";
 
 export default function ExamConsole({ params }: { params: { chapterId: string } }) {
   const router = useRouter();
+  const { user } = useAuth();
   
   const [loading, setLoading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
   const [data, setData] = useState<{ chapterName: string; subject: string; questions: any[] } | null>(null);
   
   const [currentIndex, setCurrentIndex] = useState(0);
