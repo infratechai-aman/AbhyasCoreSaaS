@@ -17,7 +17,29 @@ import {
   PenTool
 } from "lucide-react";
 
-// ... (navItems and bottomNavItems remain same)
+const pageTitles: Record<string, string> = {
+  "/dashboard": "Dashboard Overview",
+  "/dashboard/practice": "Practice Hub",
+  "/dashboard/tests": "Test Library",
+  "/dashboard/leaderboard": "Leaderboard",
+  "/dashboard/performance": "Performance Analytics",
+  "/dashboard/settings": "Account Settings",
+  "/dashboard/help-support": "Help & Support"
+};
+
+const navItems = [
+  { name: 'Overview', href: '/dashboard', icon: LayoutDashboard },
+  { name: 'Market Practice', href: '/dashboard/practice', icon: Sparkles },
+  { name: 'Test Library', href: '/dashboard/tests', icon: Database },
+  { name: 'Performance', href: '/dashboard/performance', icon: Trophy },
+  { name: 'Leaderboard', href: '/dashboard/leaderboard', icon: Target },
+  { name: 'AI Tutor', href: '/dashboard/ai-tutor', icon: BrainCircuit },
+];
+
+const bottomNavItems = [
+  { name: 'Settings', href: '/dashboard/settings', icon: Settings },
+  { name: 'Help & Support', href: '/dashboard/help-support', icon: HelpCircle },
+];
 
 export function DashboardShell({
   children,
@@ -72,7 +94,48 @@ export function DashboardShell({
           </Link>
         </div>
 
-        {/* ... (Main Content navItems) ... */}
+        <nav className="flex-1 px-4 py-6 space-y-1 overflow-y-auto custom-scrollbar">
+          {navItems.map((item) => {
+            const Icon = item.icon;
+            const active = isActive(item.href);
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`flex items-center gap-3 px-4 py-3 rounded-xl text-[13px] font-medium transition-all ${
+                  active 
+                    ? "bg-indigo-600/10 text-indigo-400 border border-indigo-500/20 shadow-[0_4px_12px_rgba(0,0,0,0.1)]" 
+                    : "text-slate-400 hover:text-white hover:bg-white/5 border border-transparent"
+                }`}
+              >
+                <Icon className={`h-4 w-4 ${active ? "text-indigo-400" : "text-slate-500"}`} />
+                {item.name}
+              </Link>
+            );
+          })}
+
+          <div className="pt-8 pb-4">
+            <div className="px-4 text-[10px] font-bold tracking-[0.2em] text-slate-500 uppercase mb-4">System</div>
+            {bottomNavItems.map((item) => {
+              const Icon = item.icon;
+              const active = isActive(item.href);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`flex items-center gap-3 px-4 py-3 rounded-xl text-[13px] font-medium transition-all ${
+                    active 
+                      ? "bg-white/10 text-white border border-white/10" 
+                      : "text-slate-500 hover:text-white hover:bg-white/5 border border-transparent"
+                  }`}
+                >
+                  <Icon className="h-4 w-4" />
+                  {item.name}
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
 
         {/* Bottom - System Status + Sign Out */}
         <div className="p-4 mt-auto">
