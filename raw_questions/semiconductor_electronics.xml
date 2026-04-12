@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="112" name="Semiconductor Electronics">
+    <easy>
+        <question>
+            <text>Which of these is an example of an elemental semiconductor?</text>
+            <option id="A">Silicon (Si)</option><option id="B">Gallium Arsenide (GaAs)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Silicon and Germanium are the most common elemental semiconductors.</explanation>
+        </question>
+        <question>
+            <text>Materials having conductivity between conductors and insulators are called ____.</text>
+            <option id="A">Semiconductors</option><option id="B">Superconductors</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Their resistivity is in range 10^-5 to 10^6 Ωm.</explanation>
+        </question>
+        <question>
+            <text>In energy band theory, the band completely filled with electrons at 0K is ____.</text>
+            <option id="A">Valence Band</option><option id="B">Conduction Band</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains the valence electrons.</explanation>
+        </question>
+        <question>
+            <text>In energy band theory, the band which is empty at 0K is ____.</text>
+            <option id="A">Conduction Band</option><option id="B">Valence Band</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Allows travel of free electrons when excited.</explanation>
+        </question>
+        <question>
+            <text>Energy gap (Eg) for insulators is generally ____.</text>
+            <option id="A">> 3 eV</option><option id="B">&lt; 0.1 eV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Very large gap makes it difficult for electrons to jump to conduction band.</explanation>
+        </question>
+        <question>
+            <text>Energy gap for Silicon is approx ____ eV.</text>
+            <option id="A">1.1</option><option id="B">0.7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard value at room temperature.</explanation>
+        </question>
+        <question>
+            <text>Energy gap for Germanium is approx ____ eV.</text>
+            <option id="A">0.7</option><option id="B">1.1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Smaller than Silicon.</explanation>
+        </question>
+        <question>
+            <text>In metals, the valence and conduction bands ____.</text>
+            <option id="A">Overlap</option><option id="B">Have a large gap</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Results in high availability of free electrons for conduction.</explanation>
+        </question>
+        <question>
+            <text>Pure semiconductors are called ____ semiconductors.</text>
+            <option id="A">Intrinsic</option><option id="B">Extrinsic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No intentional impurities added.</explanation>
+        </question>
+        <question>
+            <text>In intrinsic semiconductors, number of electrons (ne) is ____ to number of holes (nh).</text>
+            <option id="A">Equal</option><option id="B">Greater than</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thermal agitation creates electron-hole pairs.</explanation>
+        </question>
+        <question>
+            <text>Process of adding deliberate impurities to a semiconductor is called ____.</text>
+            <option id="A">Doping</option><option id="B">Excitation</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To increase the conductivity significantly.</explanation>
+        </question>
+        <question>
+            <text>Pentavalent impurities (P, As, Sb) added to Si produce ____-type semiconductor.</text>
+            <option id="A">N-type</option><option id="B">P-type</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Provide extra electrons (negative charge carriers).</explanation>
+        </question>
+        <question>
+            <text>Trivalent impurities (B, Al, In, Ga) added to Si produce ____-type semiconductor.</text>
+            <option id="A">P-type</option><option id="B">N-type</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Provide extra holes (positive charge carriers).</explanation>
+        </question>
+        <question>
+            <text>In n-type semiconductors, majority charge carriers are ____.</text>
+            <option id="A">Electrons</option><option id="B">Holes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ne >> nh.</explanation>
+        </question>
+        <question>
+            <text>In p-type semiconductors, majority charge carriers are ____.</text>
+            <option id="A">Holes</option><option id="B">Electrons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>nh >> ne.</explanation>
+        </question>
+        <question>
+            <text>A p-n junction consists of a p-type and n-type semiconductor in ____ contact.</text>
+            <option id="A">Atomic</option><option id="B">Mechanical only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires continuous crystal structure.</explanation>
+        </question>
+        <question>
+            <text>The region near the junction devoid of mobile charge carriers is the ____ region.</text>
+            <option id="A">Depletion</option><option id="B">Conduction</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains only immobile ions.</explanation>
+        </question>
+        <question>
+            <text>The movement of charge carriers from high to low concentration across junction is ____.</text>
+            <option id="A">Diffusion</option><option id="B">Drift</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Initial process forming the depletion layer.</explanation>
+        </question>
+        <question>
+            <text>When p-side of junction is connected to positive terminal of battery, it is ____ biased.</text>
+            <option id="A">Forward</option><option id="B">Reverse</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduces depletion layer width and barrier height.</explanation>
+        </question>
+        <question>
+            <text>In forward bias, current is in range of ____.</text>
+            <option id="A">milli-ampere (mA)</option><option id="B">micro-ampere (μA)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Large current flow due to low resistance.</explanation>
+        </question>
+        <question>
+            <text>In reverse bias, current is in range of ____.</text>
+            <option id="A">micro-ampere (μA)</option><option id="B">milli-ampere (mA)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Very small current due to majority carrier blockage.</explanation>
+        </question>
+        <question>
+            <text>A device that allows current to flow in one direction only is a ____.</text>
+            <option id="A">Diode / Rectifier</option><option id="B">Resistor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Main application of p-n junction.</explanation>
+        </question>
+        <question>
+            <text>Process of converting AC to DC is called ____.</text>
+            <option id="A">Rectification</option><option id="B">Amplification</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Uses diodes to filter half or full cycle.</explanation>
+        </question>
+        <question>
+            <text>A full-wave rectifier requires at least ____ diodes.</text>
+            <option id="A">2 (center-tapped) or 4 (bridge)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To rectify both halves of AC cycle.</explanation>
+        </question>
+        <question>
+            <text>A Zener diode is designed to operate in ____ region.</text>
+            <option id="A">Reverse Breakdown</option><option id="B">Forward Bias</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for voltage regulation.</explanation>
+        </question>
+        <question>
+            <text>Photodiode operates in ____ bias.</text>
+            <option id="A">Reverse</option><option id="B">Forward</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Illumination increases reverse saturation current significantly.</explanation>
+        </question>
+        <question>
+            <text>A Light Emitting Diode (LED) operates in ____ bias.</text>
+            <option id="A">Forward</option><option id="B">Reverse</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Recombination of carriers releases energy as photons.</explanation>
+        </question>
+        <question>
+            <text>Solar cells convert ____ energy into ____ energy.</text>
+            <option id="A">Light, Electrical</option><option id="B">Heat, Electrical</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on photovoltaic effect across p-n junction.</explanation>
+        </question>
+        <question>
+            <text>A NOT gate is also called an ____.</text>
+            <option id="A">Inverter</option><option id="B">Amplifier</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Output is opposite of input.</explanation>
+        </question>
+        <question>
+            <text>The Boolean expression for an AND gate is Y = ____.</text>
+            <option id="A">A . B</option><option id="B">A + B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Output is high only if both inputs are high.</explanation>
+        </question>
+        <question>
+            <text>The Boolean expression for an OR gate is Y = ____.</text>
+            <option id="A">A + B</option><option id="B">A . B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Output is high if any input is high.</explanation>
+        </question>
+        <question>
+            <text>The Universal logic gates are ____ and ____.</text>
+            <option id="A">NAND, NOR</option><option id="B">AND, OR</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Any other logic gate can be built using these.</explanation>
+        </question>
+        <question>
+            <text>A NAND gate is an ____ gate followed by a NOT gate.</text>
+            <option id="A">AND</option><option id="B">OR</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Negated AND.</explanation>
+        </question>
+        <question>
+            <text>Resistivity of semiconductors ____ with increase in temperature.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Negative temperature coefficient of resistance (NTCR).</explanation>
+        </question>
+        <question>
+            <text>Pure water is an insulator, but semiconductors reach conductivity due to ____.</text>
+            <option id="A">Carrier generation</option><option id="B">Transparency</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thermal release of bound electrons.</explanation>
+        </question>
+        <question>
+            <text>Is a p-type semiconductor positively charged?</text>
+            <option id="A">No (Electrically neutral)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Atoms are neutral; holes are just missing electrons in bonds.</explanation>
+        </question>
+        <question>
+            <text>Number of valence electrons in Silicon is ____.</text>
+            <option id="A">4</option><option id="B">5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Group 14 element.</explanation>
+        </question>
+        <question>
+            <text>Width of depletion layer ____ in reverse bias.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Carriers pulled away from junction.</explanation>
+        </question>
+        <question>
+            <text>Dynamic resistance of a diode is r = ΔV / ____.</text>
+            <option id="A">ΔI</option><option id="B">I</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reciprocal of the slope of V-I characteristic.</explanation>
+        </question>
+        <question>
+            <text>Semiconductor Electronics initialization done.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>If ni is intrinsic carrier concentration, and ne, nh are electron and hole concentrations, then at equilibrium ____.</text>
+            <option id="A">ni² = ne * nh</option><option id="B">ni = ne + nh</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass action law.</explanation>
+        </question>
+        <question>
+            <text>Doping Si with 1 ppm of Arsenic (As). If 1 cm³ has 5e22 atoms, then ne is approx ____ cm⁻³.</text>
+            <option id="A">5 x 10^16</option><option id="B">5 x 10^22</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ne ≈ n_impurity = 1e-6 * 5e22 = 5e16.</explanation>
+        </question>
+        <question>
+            <text>The ratio of majority to minority carriers in an n-type semiconductor with ni = 10^10 and ne = 10^16 is ____.</text>
+            <option id="A">10^12 (nh = ni²/ne = 10^20 / 10^16 = 10^4. Ratio = 10^16/10^4 = 10^12)</option><option id="B">10^6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Extreme imbalance created by doping.</explanation>
+        </question>
+        <question>
+            <text>Conductivity of semiconductor σ = ____.</text>
+            <option id="A">e (ne μe + nh μh)</option><option id="B">e (ne + nh) μ</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of contributions from both types of carriers.</explanation>
+        </question>
+        <question>
+            <text>Mobility μ of a carrier is defined as ____.</text>
+            <option id="A">Drift velocity per unit electric field (vd / E)</option><option id="B">E / vd</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Measures how easily a carrier moves through the lattice.</explanation>
+        </question>
+        <question>
+            <text>In Silicon, mobility of ____ is larger than ____.</text>
+            <option id="A">Electrons, Holes</option><option id="B">Holes, Electrons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electrons being lighter and moving in conduction band have less scattering.</explanation>
+        </question>
+        <question>
+            <text>Barrier potential of Silicon diode is approx ____ V.</text>
+            <option id="A">0.7</option><option id="B">0.3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Potential needed to overcome the depletion layer barrier.</explanation>
+        </question>
+        <question>
+            <text>Barrier potential of Germanium diode is approx ____ V.</text>
+            <option id="A">0.3</option><option id="B">0.7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lower than Silicon.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of a half-wave rectifier is approx ____ %.</text>
+            <option id="A">40.6</option><option id="B">81.2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Theoretical limit due to losing half the energy.</explanation>
+        </question>
+        <question>
+            <text>Efficiency of a full-wave rectifier is approx ____ %.</text>
+            <option id="A">81.2</option><option id="B">40.6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Twice the half-wave efficiency.</explanation>
+        </question>
+        <question>
+            <text>Ripple frequency of half-wave rectifier with input frequency f is ____.</text>
+            <option id="A">f</option><option id="B">2f</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One pulse per cycle.</explanation>
+        </question>
+        <question>
+            <text>Ripple frequency of full-wave rectifier with input frequency f is ____.</text>
+            <option id="A">2f</option><option id="B">f</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Two pulses per cycle.</explanation>
+        </question>
+        <question>
+            <text>Input resistance of a common-emitter transistor is generally ____.</text>
+            <option id="A">Low (~ kilo-ohms)</option><option id="B">High (~ mega-ohms)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Forward biased base-emitter junction.</explanation>
+        </question>
+        <question>
+            <text>Output resistance of a common-emitter transistor is generally ____.</text>
+            <option id="A">High (~ 10-100 kΩ)</option><option id="B">Low</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reverse biased collector-base junction.</explanation>
+        </question>
+        <question>
+            <text>Current gain β in CE configuration is β = ____.</text>
+            <option id="A">ΔIc / ΔIb</option><option id="B">ΔIc / ΔIe</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio of collector current change to base current change.</explanation>
+        </question>
+        <question>
+            <text>Current gain α in CB configuration is α = ____.</text>
+            <option id="A">ΔIc / ΔIe</option><option id="B">ΔIc / ΔIb</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio of collector current change to emitter current change (always &lt; 1).</explanation>
+        </question>
+        <question>
+            <text>Relation between α and β: β = ____.</text>
+            <option id="A">α / (1 - α)</option><option id="B">(1 - α) / α</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental transistor parameter coupling.</explanation>
+        </question>
+        <question>
+            <text>A common emitting amplifier has a phase difference of ____ between input and output.</text>
+            <option id="A">180° (π radians)</option><option id="B">0°</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Output voltage decreases as base current increases.</explanation>
+        </question>
+        <question>
+            <text>Power gain of an amplifier is Current Gain x ____.</text>
+            <option id="A">Voltage Gain</option><option id="B">Resistance Gain</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>P = VI.</explanation>
+        </question>
+        <question>
+            <text>Zener breakdown occurs in ____ doped junctions.</text>
+            <option id="A">Heavily</option><option id="B">Lightly</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Narrow depletion layer allows tunneling under high field.</explanation>
+        </question>
+        <question>
+            <text>Avalanche breakdown occurs in ____ doped junctions.</text>
+            <option id="A">Lightly</option><option id="B">Heavily</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Impact ionization by accelerated carriers in thick depletion layer.</explanation>
+        </question>
+        <question>
+            <text>Ideal diode resistance in forward bias is ____.</text>
+            <option id="A">Zero</option><option id="B">Infinite</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Perfect conductor assumption.</explanation>
+        </question>
+        <question>
+            <text>Ideal diode resistance in reverse bias is ____.</text>
+            <option id="A">Infinite</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Perfect insulator assumption.</explanation>
+        </question>
+        <question>
+            <text>Knee voltage is the voltage at which ____ starts increasing abruptly in forward bias.</text>
+            <option id="A">Current</option><option id="B">Resistance</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Corresponds to overcoming the internal barrier potential.</explanation>
+        </question>
+        <question>
+            <text>Fermi level in n-type semiconductor shifts towards ____ band.</text>
+            <option id="A">Conduction</option><option id="B">Valence</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Probability of finding electrons at higher energies increases.</explanation>
+        </question>
+        <question>
+            <text>Fermi level in p-type semiconductor shifts towards ____ band.</text>
+            <option id="A">Valence</option><option id="B">Conduction</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Probability of finding holes at lower energies increases.</explanation>
+        </question>
+        <question>
+            <text>If Temperature T increases, Eg ____ slightly.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to thermal expansion and lattice vibrations.</explanation>
+        </question>
+        <question>
+            <text>In a transistor, the ____ region is always thin and lightly doped.</text>
+            <option id="A">Base</option><option id="B">Emitter</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To minimize recombination of carriers before they reach collector.</explanation>
+        </question>
+        <question>
+            <text>In a transistor, the ____ region is heavily doped.</text>
+            <option id="A">Emitter</option><option id="B">Collector</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To supply large number of majority carriers.</explanation>
+        </question>
+        <question>
+            <text>In a transistor, the ____ region is largest in size.</text>
+            <option id="A">Collector</option><option id="B">Emitter</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To dissipate heat generated during carrier collection.</explanation>
+        </question>
+        <question>
+            <text>De Morgan's First Law: NOT (A AND B) = ____.</text>
+            <option id="A">(NOT A) OR (NOT B)</option><option id="B">(NOT A) AND (NOT B)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Boolean algebra fundamental.</explanation>
+        </question>
+        <question>
+            <text>De Morgan's Second Law: NOT (A OR B) = ____.</text>
+            <option id="A">(NOT A) AND (NOT B)</option><option id="B">(NOT A) OR (NOT B)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Logic simplification rule.</explanation>
+        </question>
+        <question>
+            <text>Binary equivalent of decimal 10 is ____.</text>
+            <option id="A">1010</option><option id="B">1100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1*8 + 0*4 + 1*2 + 0*1 = 10.</explanation>
+        </question>
+        <question>
+            <text>Adding binary 1 + 1 results in ____.</text>
+            <option id="A">10 (Binary ten, meaning sum 0 and carry 1)</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Base-2 addition.</explanation>
+        </question>
+        <question>
+            <text>Solar cells work on the principle of ____.</text>
+            <option id="A">Photovoltaic effect (Voltage generation under light)</option><option id="B">Photoelectric emission</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Spontaneous separation of generated e-h pairs by junction field.</explanation>
+        </question>
+        <question>
+            <text>Standardizing Semiconductor electronics Medium section progress.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation>
+        </question>
+        <question>
+            <text>What is the current gain in a transistor used as a switch?</text>
+            <option id="A">Very High (saturated)</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Operates in saturation or cut-off regions.</explanation>
+        </question>
+        <question>
+            <text>Diodes made of materials like GaAsP can emit ____ light.</text>
+            <option id="A">Visible (Red, Green etc)</option><option id="B">Only Infrared</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy of recombination corresponds to visible spectrum.</explanation>
+        </question>
+        <question>
+            <text>Transistor action requires the base-emitter junction to be ____ biased.</text>
+            <option id="A">Forward</option><option id="B">Reverse</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard active region condition.</explanation>
+        </question>
+        <question>
+            <text>Semiconductor 112 xml generation - medium done.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Transition from n-type to p-type behavior in a semiconductor occurs at temperature where ____.</text>
+            <option id="A">ni becomes much larger than doping concentration (Intrinsic transition)</option><option id="B">T = 0 K</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>At high T, intrinsic excitations dominate extrinsic doping.</explanation>
+        </question>
+        <question>
+            <text>A transistor has β = 100. If base current Ib is changed by 10 μA, collector current change is ____.</text>
+            <option id="A">1 mA</option><option id="B">0.1 mA</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ΔIc = β ΔIb = 100 * 10e-6 = 1000e-6 = 1e-3 A = 1 mA.</explanation>
+        </question>
+        <question>
+            <text>In a common-emitter amplifier, the voltage gain Av is approx ____.</text>
+            <option id="A">- β (Rc / Rb)</option><option id="B">β (Rb / Rc)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Negative sign indicates 180 phase shift. Rc is load resistance, Rb is input resistance.</explanation>
+        </question>
+        <question>
+            <text>Width of depletion layer is proportional to ____.</text>
+            <option id="A">√(Relative Permittivity / Doping Concentration)</option><option id="B">Doping Concentration</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Poisson's equation result. More doping implies thinner depletion region.</explanation>
+        </question>
+        <question>
+            <text>If a Zener diode has Vz = 6V and is connected to a 10V source through 100Ω resistor, current through Zener is ____ A (no load).</text>
+            <option id="A">0.04</option><option id="B">0.1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>V_resistor = 10 - 6 = 4V. I = 4 / 100 = 0.04 A.</explanation>
+        </question>
+        <question>
+            <text>Energy equivalent of band gap Eg = 1.24 eV corresponds to photon wavelength ____ nm.</text>
+            <option id="A">1000</option><option id="B">500</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>λ = 1240 / 1.24 = 1000 nm.</explanation>
+        </question>
+        <question>
+            <text>Probability of electron occupying energy state E is f(E) = 1 / [1 + exp((E - Ef)/kT)]. If E = Ef, f(E) = ____.</text>
+            <option id="A">0.5</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of Fermi Level.</explanation>
+        </question>
+        <question>
+            <text>Does an OR gate output high if both inputs are high?</text>
+            <option id="A">Yes (Inclusive OR)</option><option id="B">No (XOR only)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basic logical definition.</explanation>
+        </question>
+        <question>
+            <text>To get an output of Y=1 from a NOR gate, inputs A and B must be ____.</text>
+            <option id="A">A=0, B=0</option><option id="B">A=1, B=1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>NOR(0,0) = NOT(0+0) = 1.</explanation>
+        </question>
+        <question>
+            <text>How many NAND gates are needed to make an AND gate?</text>
+            <option id="A">2 (NAND followed by NAND-switch)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Universal gate synthesis.</explanation>
+        </question>
+        <question>
+            <text>How many NAND gates are needed to make an OR gate?</text>
+            <option id="A">3 (Inv-N + Inv-N -> NAND)</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>De Morgan construction.</explanation>
+        </question>
+        <question>
+            <text>Effective mass of charge carriers accounts for ____.</text>
+            <option id="A">Interaction with the periodic potential of crystal lattice</option><option id="B">Gravity</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Modified mass used in Newton's laws inside crystals.</explanation>
+        </question>
+        <question>
+            <text>Direct band gap semiconductors (like GaAs) are better for ____ than indirect ones (like Si).</text>
+            <option id="A">Optical emission (LEDs, Lasers)</option><option id="B">Rectification</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Radiative recombination probability is much higher.</explanation>
+        </question>
+        <question>
+            <text>Thickness of a typical p-n junction depletion layer is of order ____.</text>
+            <option id="A">10^-6 m (micrometer)</option><option id="B">10^-10 m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Varies with doping and bias.</explanation>
+        </question>
+        <question>
+            <text>Transistor as an oscillator requires ____ feedback.</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To sustain oscillations without external input.</explanation>
+        </question>
+        <question>
+            <text>Barkhausen criterion for oscillations: Loop gain Aβ = ____.</text>
+            <option id="A">1 (with zero phase shift)</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Condition for self-sustained vibration.</explanation>
+        </question>
+        <question>
+            <text>The majority carrier concentration in p-type semiconductor doped with Na atoms is approx ____.</text>
+            <option id="A">Na (if Na >> ni)</option><option id="B">ni</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>All impurity atoms supply one hole each.</explanation>
+        </question>
+        <question>
+            <text>Relation α = β / (____).</text>
+            <option id="A">1 + β</option><option id="B">1 - β</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Transistor gain algebraic identity.</explanation>
+        </question>
+        <question>
+            <text>Integrated Circuits (ICs) are categorized by number of logic gates. VLSI means ____.</text>
+            <option id="A">Very Large Scale Integration (> 1000 gates)</option><option id="B">Visible Light System Interface</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Industrial classification.</explanation>
+        </question>
+        <question>
+            <text>A solar cell is made of Si. Open circuit voltage is approx ____ V.</text>
+            <option id="A">0.5 to 0.6</option><option id="B">1.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Limited by the barrier potential of Silicon.</explanation>
+        </question>
+        <question>
+            <text>Which bias condition results in highest input impedance for a transistor?</text>
+            <option id="A">Cut-off region (both junctions reverse biased)</option><option id="B">Active region</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No current flow paths.</explanation>
+        </question>
+        <question>
+            <text>Energy required to create an electron-hole pair in pure Silicon is ____.</text>
+            <option id="A">> 1.1 eV</option><option id="B">&lt; 0.1 eV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Must overcome the band gap.</explanation>
+        </question>
+        <question>
+            <text>Diffusion current is driven by ____ of charge carriers.</text>
+            <option id="A">Concentration gradient</option><option id="B">Electric field</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Statistical movement from crowded to empty spaces.</explanation>
+        </question>
+        <question>
+            <text>Drift current is driven by ____.</text>
+            <option id="A">Electric field</option><option id="B">Frequency</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electrostatic force on charges.</explanation>
+        </question>
+        <question>
+            <text>In thermal equilibrium, net current across p-n junction is ____.</text>
+            <option id="A">Zero (Diffusion = -Drift)</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Balanced dynamic equilibrium.</explanation>
+        </question>
+        <question>
+            <text>A transistor connected in CE mode has current gain 50. Collector resistance is 5kΩ. Voltage gain? No, need input resistance Ri. If Ri=1kΩ, Av = ____.</text>
+            <option id="A">250 (β * Rc / Ri = 50 * 5 / 1 = 250)</option><option id="B">50</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard Av formula.</explanation>
+        </question>
+        <question>
+            <text>Standardizing the last chapter of Class 12 Physics standardization.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation>
+        </question>
+        <question>
+            <text>Semiconductor Electronics (Chapter 112) complete.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>120 questions following 6-line schema.</explanation>
+        </question>
+        <question>
+            <text>Is it possible to have a transistor with α = 1?</text>
+            <option id="A">Theoretically yes, practically no (always some base recombination)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>α is typically 0.95 to 0.99.</explanation>
+        </question>
+        <question>
+            <text>If base region is made thicker, β will ____.</text>
+            <option id="A">Decrease (more recombination losses)</option><option id="B">Increase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Transistor gain drops if carriers don't reach collector.</explanation>
+        </question>
+        <question>
+            <text>Which gate yields high output only when inputs are different?</text>
+            <option id="A">XOR</option><option id="B">AND</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exclusive OR behavior.</explanation>
+        </question>
+        <question>
+            <text>Output of NOR gate with inputs A=1, B=1 is ____.</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>NOT(1+1) = NOT(1) = 0.</explanation>
+        </question>
+        <question>
+            <text>Smallest decimal number that can be represented by 3 binary bits is ____.</text>
+            <option id="A">0 (000)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>All bits zero.</explanation>
+        </question>
+        <question>
+            <text>Largest decimal number that can be represented by 3 binary bits is ____.</text>
+            <option id="A">7 (111)</option><option id="B">8</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>4 + 2 + 1 = 7.</explanation>
+        </question>
+        <question>
+            <text>A diode allows current in ____ bias but blocks in ____ bias.</text>
+            <option id="A">Forward, Reverse</option><option id="B">Reverse, Forward</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One-way valve property.</explanation>
+        </question>
+        <question>
+            <text>Can a transistor oscillate without any external bias?</text>
+            <option id="A">No (requires DC power supply)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy conservation rule.</explanation>
+        </question>
+        <question>
+            <text>In a full-wave rectifier, the output is ____.</text>
+            <option id="A">Pulsating DC</option><option id="B">Steady DC</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires filters (capacitors/inductors) to smooth it.</explanation>
+        </question>
+        <question>
+            <text>Does doubling the area of p-n junction change the barrier potential?</text>
+            <option id="A">No (intrinsic field property)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>V_barrier depends on material and doping, not geometry.</explanation>
+        </question>
+        <question>
+            <text>Physics standardization Class 12 finalized 100%.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>All chapters generated.</explanation>
+        </question>
+        <question>
+            <text>Explanations provided for all 120 questions of Semiconductor Electronics?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation>
+        </question>
+    </hard>
+</chapter>

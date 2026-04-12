@@ -1,604 +1,610 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Chemistry" id="112" name="s-Block Elements">
+<chapter subject="Chemistry" id="209" name="The s-Block Elements">
     <easy>
         <question>
-            <text>Alkali metals belong to which group?</text>
-            <option id="A">Group 1</option><option id="B">Group 2</option><option id="C">Group 13</option><option id="D">Group 18</option>
-            <answer>A</answer><explanation>Lithium family.</explanation>
+            <text>s-block elements are those in which the last electron enters the ____ orbital.</text>
+            <option id="A">s</option><option id="B">p</option><option id="C">d</option><option id="D">None</option>
+            <answer>A</answer><explanation>Includes Group 1 and Group 2.</explanation>
         </question>
         <question>
-            <text>Alkaline Earth metals belong to which group?</text>
-            <option id="A">Group 2</option><option id="B">Group 1</option><option id="C">Group 12</option><option id="D">Group 3</option>
-            <answer>A</answer><explanation>Beryllium family.</explanation>
+            <text>Group 1 elements (Li, Na, K, Rb, Cs, Fr) are called ____ metals.</text>
+            <option id="A">Alkali</option><option id="B">Alkaline Earth</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Form strongly basic (alkaline) hydroxides.</explanation>
         </question>
         <question>
-            <text>General electronic configuration of Alkali metals:</text>
-            <option id="A">ns1</option><option id="B">ns2</option><option id="C">np1</option><option id="D">nd1</option>
-            <answer>A</answer><explanation>One valence electron.</explanation>
+            <text>Group 2 elements (Be, Mg, Ca, Sr, Ba, Ra) are called ____ metals.</text>
+            <option id="A">Alkaline Earth</option><option id="B">Alkali</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Oxides found in earth crust and are alkaline.</explanation>
         </question>
         <question>
-            <text>General electronic configuration of Alkaline Earth metals:</text>
-            <option id="A">ns2</option><option id="B">ns1</option><option id="C">np2</option><option id="D">ns2np6</option>
-            <answer>A</answer><explanation>Two valence electrons.</explanation>
+            <text>General electronic configuration of alkali metals is ____.</text>
+            <option id="A">ns1</option><option id="B">ns2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Loose one electron to achieve noble gas core.</explanation>
         </question>
         <question>
-            <text>Most electropositive element in periodic table?</text>
-            <option id="A">Cesium/Francium</option><option id="B">Lithium</option><option id="C">Fluorine</option><option id="D">Sodium</option>
-            <answer>A</answer><explanation>Low ionization energy.</explanation>
+            <text>General electronic configuration of alkaline earth metals is ____.</text>
+            <option id="A">ns2</option><option id="B">ns1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Loose two electrons to achieve noble gas core.</explanation>
         </question>
         <question>
-            <text>Which alkali metal is used in photoelectric cells?</text>
-            <option id="A">Cesium</option><option id="B">Lithium</option><option id="C">Sodium</option><option id="D">Magnesium</option>
-            <answer>A</answer><explanation>Low work function.</explanation>
+            <text>Which alkali metal is radioactive?</text>
+            <option id="A">Francium (Fr)</option><option id="B">Cesium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Longest lived isotope has half-life of 21 mins.</explanation>
         </question>
         <question>
-            <text>Color of Sodium in flame test:</text>
-            <option id="A">Golden Yellow</option><option id="B">Crimson Red</option><option id="C">Violet</option><option id="D">Apple Green</option>
-            <answer>A</answer><explanation>Characteristic.</explanation>
+            <text>Which alkaline earth metal is radioactive?</text>
+            <option id="A">Radium (Ra)</option><option id="B">Barium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>First discovered by Curies.</explanation>
         </question>
         <question>
-            <text>Color of Potassium in flame test:</text>
-            <option id="A">Violet (Lilac)</option><option id="B">Yellow</option><option id="C">Red</option><option id="D">Blue</option>
-            <answer>A</answer><explanation>Characteristic.</explanation>
+            <text>Atomic and ionic radii ____ down the s-block groups.</text>
+            <option id="A">Increase</option><option id="B">Decrease</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Addition of new principal shells.</explanation>
         </question>
         <question>
-            <text>Color of Lithium in flame test:</text>
-            <option id="A">Crimson Red</option><option id="B">Yellow</option><option id="C">Green</option><option id="D">Blue</option>
-            <answer>A</answer><explanation>Carmine red.</explanation>
+            <text>Ionization enthalpy ____ down the s-block groups.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Outer electrons are farther from nucleus.</explanation>
         </question>
         <question>
-            <text>Color of Calcium in flame test:</text>
-            <option id="A">Brick Red</option><option id="B">Crimson</option><option id="C">Green</option><option id="D">Blue</option>
-            <answer>A</answer><explanation>Orange-red.</explanation>
+            <text>Alkali metals give characteristic ____ colors when heated in Bunsen flame.</text>
+            <option id="A">Flame</option><option id="B">Odor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to electronic excitations.</explanation>
         </question>
         <question>
-            <text>Color of Barium in flame test:</text>
-            <option id="A">Apple Green</option><option id="B">Red</option><option id="C">Blue</option><option id="D">Yellow</option>
-            <answer>A</answer><explanation>Grassy green.</explanation>
+            <text>Lithium gives ____ color to the flame.</text>
+            <option id="A">Crimson Red</option><option id="B">Yellow</option><option id="C">Violet</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sodium gives yellow, Potassium gives violet.</explanation>
         </question>
         <question>
-            <text>Lightest metal is:</text>
-            <option id="A">Lithium</option><option id="B">Sodium</option><option id="C">Magnesium</option><option id="D">Aluminum</option>
-            <answer>A</answer><explanation>Density 0.53 g/cm3.</explanation>
+            <text>Magnesium and Beryllium ____ impart color to the flame.</text>
+            <option id="A">Do not</option><option id="B">Always</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>High excitation energy due to small size.</explanation>
         </question>
         <question>
-            <text>Reaction of Sodium with water gives:</text>
-            <option id="A">NaOH + H2</option><option id="B">Na2O</option><option id="C">NaH</option><option id="D">O2</option>
-            <answer>A</answer><explanation>Vigorous.</explanation>
+            <text>Group 1 metals react with water to form ____ and ____.</text>
+            <option id="A">Hydroxides , Dihydrogen</option><option id="B">Oxides, Oxygen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Highly vigorous reaction (except Li).</explanation>
         </question>
         <question>
-            <text>Which alkali metal forms superoxide (MO2) on heating in excess air?</text>
-            <option id="A">Potassium, Rubidium, Cesium</option><option id="B">Lithium</option><option id="C">Sodium</option><option id="D">None</option>
-            <answer>A</answer><explanation>Large cation stabilizes large anion.</explanation>
+            <text>Sodium is stored under ____ to prevent reaction with air/moisture.</text>
+            <option id="A">Kerosene</option><option id="B">Water</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prevents formation of oxide/hydroxide layer.</explanation>
         </question>
         <question>
-            <text>Lithium mainly forms:</text>
-            <option id="A">Oxide (Li2O)</option><option id="B">Peroxide</option><option id="C">Superoxide</option><option id="D">Ozonide</option>
-            <answer>A</answer><explanation>Small size.</explanation>
+            <text>Alkali metals dissolve in liquid ammonia to give ____ colored solutions.</text>
+            <option id="A">Blue</option><option id="B">Red</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solution contains ammoniated electrons.</explanation>
         </question>
         <question>
-            <text>Sodium mainly forms:</text>
-            <option id="A">Peroxide (Na2O2)</option><option id="B">Oxide</option><option id="C">Superoxide</option><option id="D">Hydroxide</option>
-            <answer>A</answer><explanation>Intermediate size.</explanation>
+            <text>Blue color of alkali metal in liquid ammonia is due to ____ electrons.</text>
+            <option id="A">Ammoniated</option><option id="B">Core</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Absorb energy in visible region.</explanation>
         </question>
         <question>
-            <text>Hydration enthalpy of alkali metal ions order:</text>
-            <option id="A">Li+ > Na+ > K+ > Rb+ > Cs+</option><option id="B">Cs+ > Rb+ > K+ > Na+ > Li+</option><option id="C">Equal</option><option id="D">Random</option>
-            <answer>A</answer><explanation>Small size high charge density.</explanation>
+            <text>Washing soda is Sodium ____.</text>
+            <option id="A">Carbonate decahydrate (Na2CO3.10H2O)</option><option id="B">Bicarbonate</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Industrial chemical for glass/soap.</explanation>
         </question>
         <question>
-            <text>Which ion has highest mobility in aqueous solution?</text>
-            <option id="A">Cs+ (Least hydrated)</option><option id="B">Li+ (Most hydrated)</option><option id="C">Na+</option><option id="D">K+</option>
-            <answer>A</answer><explanation>Hydrated radius is smallest.</explanation>
+            <text>Baking soda is Sodium ____.</text>
+            <option id="A">Hydrogen carbonate (NaHCO3)</option><option id="B">Carbonate</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used in food industry (CO2 release on heating).</explanation>
         </question>
         <question>
-            <text>Chemical formula of Washing Soda:</text>
-            <option id="A">Na2CO3.10H2O</option><option id="B">NaHCO3</option><option id="C">NaOH</option><option id="D">Na2SO4</option>
-            <answer>A</answer><explanation>Sodium carbonate decahydrate.</explanation>
+            <text>Solvay process is used for manufacture of ____.</text>
+            <option id="A">Sodium Carbonate</option><option id="B">Sodium Hydroxide</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ammonia-Soda process.</explanation>
         </question>
         <question>
-            <text>Chemical formula of Baking Soda:</text>
-            <option id="A">NaHCO3</option><option id="B">Na2CO3</option><option id="C">KHCO3</option><option id="D">CaCO3</option>
-            <answer>A</answer><explanation>Sodium bicarbonate.</explanation>
+            <text>Quick lime is ____.</text>
+            <option id="A">CaO</option><option id="B">Ca(OH)2</option><option id="C">CaCO3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Obtained by heating limestone.</explanation>
         </question>
         <question>
-            <text>Caustic Soda is:</text>
-            <option id="A">NaOH</option><option id="B">KOH</option><option id="C">Ca(OH)2</option><option id="D">Mg(OH)2</option>
-            <answer>A</answer><explanation>Sodium hydroxide.</explanation>
+            <text>Slaked lime is ____.</text>
+            <option id="A">Ca(OH)2</option><option id="B">CaO</option><option id="C">CaCO3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formed by reaction of CaO with water.</explanation>
         </question>
         <question>
-            <text>Caustic Potash is:</text>
-            <option id="A">KOH</option><option id="B">NaOH</option><option id="C">K2CO3</option><option id="D">KCl</option>
-            <answer>A</answer><explanation>Potassium hydroxide.</explanation>
+            <text>Plaster of Paris (POP) factor: CaSO4 . ____ H2O.</text>
+            <option id="A">1/2</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hemihydrate of calcium sulfate.</explanation>
         </question>
         <question>
-            <text>Quick Lime is:</text>
-            <option id="A">CaO</option><option id="B">Ca(OH)2</option><option id="C">CaCO3</option><option id="D">CaCl2</option>
-            <answer>A</answer><explanation>Calcium oxide.</explanation>
+            <text>Cement was first introduced by Joseph Aspdin as ____ Cement.</text>
+            <option id="A">Portland</option><option id="B">Gypsum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Resembled stone from Isle of Portland.</explanation>
         </question>
         <question>
-            <text>Slaked Lime is:</text>
-            <option id="A">Ca(OH)2</option><option id="B">CaO</option><option id="C">CaCO3</option><option id="D">CaSO4</option>
-            <answer>A</answer><explanation>Calcium hydroxide.</explanation>
+            <text>Setting of cement is an ____ process.</text>
+            <option id="A">Exothermic</option><option id="B">Endothermic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involves hydration of silicates and aluminates.</explanation>
         </question>
         <question>
-            <text>Limestone/Marble/Chalk is:</text>
-            <option id="A">CaCO3</option><option id="B">CaO</option><option id="C">Ca(OH)2</option><option id="D">CaSO4</option>
-            <answer>A</answer><explanation>Calcium carbonate.</explanation>
+            <text>Biological importance: ____ ions are abundant outside cells (extracellular).</text>
+            <option id="A">Na+</option><option id="B">K+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involved in transmission of nerve signals.</explanation>
         </question>
         <question>
-            <text>Plaster of Paris formula:</text>
-            <option id="A">CaSO4.1/2H2O</option><option id="B">CaSO4.2H2O</option><option id="C">CaSO4</option><option id="D">MgSO4</option>
-            <answer>A</answer><explanation>Hemihydrate.</explanation>
+            <text>Biological importance: ____ ions are abundant inside cells (intracellular).</text>
+            <option id="A">K+</option><option id="B">Na+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Activate many enzymes.</explanation>
         </question>
         <question>
-            <text>Gypsum formula:</text>
-            <option id="A">CaSO4.2H2O</option><option id="B">CaSO4.1/2H2O</option><option id="C">MgSO4.7H2O</option><option id="D">CaCO3</option>
-            <answer>A</answer><explanation>Dihydrate.</explanation>
+            <text>Central metal atom in chlorophyll is ____.</text>
+            <option id="A">Magnesium (Mg)</option><option id="B">Calcium</option><option id="C">Iron</option><option id="D">None</option>
+            <answer>A</answer><explanation>Essential for photosynthesis.</explanation>
         </question>
         <question>
-            <text>Epsom salt is:</text>
-            <option id="A">MgSO4.7H2O</option><option id="B">CaSO4</option><option id="C">Na2SO4</option><option id="D">K2SO4</option>
-            <answer>A</answer><explanation>Magnesium sulfate.</explanation>
+            <text>Bone and teeth structure majorly contains ____ ions.</text>
+            <option id="A">Calcium (Ca2+)</option><option id="B">Magnesium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>In form of hydroxyapatite.</explanation>
         </question>
         <question>
-            <text>Alkali metals are stored in:</text>
-            <option id="A">Kerosene oil</option><option id="B">Water</option><option id="C">Alcohol</option><option id="D">Air</option>
-            <answer>A</answer><explanation>Prevent oxidation/reaction with moisture.</explanation>
+            <text>Anomalous behavior of Lithium is due to ____ size and ____ charge/radius ratio.</text>
+            <option id="A">Small , High</option><option id="B">Large, Low</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Polarizing power is very high.</explanation>
         </question>
         <question>
-            <text>Lithium is kept in:</text>
-            <option id="A">Paraffin wax (floats on kerosene)</option><option id="B">Water</option><option id="C">Kerosene</option><option id="D">Air</option>
-            <answer>A</answer><explanation>Specific handling.</explanation>
+            <text>Lithium shows diagonal relationship with ____.</text>
+            <option id="A">Magnesium (Mg)</option><option id="B">Aluminum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Similar ionic radii and charge density.</explanation>
         </question>
         <question>
-            <text>Which element is essential for nerve impulse transmission?</text>
-            <option id="A">Sodium and Potassium</option><option id="B">Iron</option><option id="C">Copper</option><option id="D">Zinc</option>
-            <answer>A</answer><explanation>Na-K pump.</explanation>
+            <text>Beryllium shows diagonal relationship with ____.</text>
+            <option id="A">Aluminum (Al)</option><option id="B">Magnesium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Both form similar covalent hydrides/halides.</explanation>
         </question>
         <question>
-            <text>Which element is essential for chlorophyll?</text>
-            <option id="A">Magnesium</option><option id="B">Calcium</option><option id="C">Iron</option><option id="D">Sodium</option>
-            <answer>A</answer><explanation>Center of porphyrin ring.</explanation>
+            <text>Suspension of slaked lime in water is called ____.</text>
+            <option id="A">Milk of Lime</option><option id="B">Lime Water</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used in white washing.</explanation>
         </question>
         <question>
-            <text>Solvay process is used to manufacture:</text>
-            <option id="A">Sodium Carbonate</option><option id="B">Potassium Carbonate</option><option id="C">Calcium Carbonate</option><option id="D">Ammonia</option>
-            <answer>A</answer><explanation>Ammonia soda process.</explanation>
+            <text>Clear solution obtained after filtering milk of lime is ____.</text>
+            <option id="A">Lime Water</option><option id="B">Milk of Lime</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for CO2 test.</explanation>
         </question>
         <question>
-            <text>Why Solvay process cannot manufacture K2CO3?</text>
-            <option id="A">KHCO3 is too soluble to precipitate</option><option id="B">K2CO3 is unstable</option><option id="C">KOH is expensive</option><option id="D">None</option>
-            <answer>A</answer><explanation>Precipitation principle.</explanation>
+            <text>Formula of Dead burnt plaster is ____.</text>
+            <option id="A">CaSO4 (Anhydrous)</option><option id="B">POP</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formed by heating POP above 473 K.</explanation>
         </question>
         <question>
-            <text>Bleaching powder is:</text>
-            <option id="A">CaOCl2</option><option id="B">Ca(OCl)2</option><option id="C">CaCl2</option><option id="D">NaClO</option>
-            <answer>A</answer><explanation>Calcium oxychloride.</explanation>
+            <text>Lithium is the ____ reducing agent among alkali metals in water.</text>
+            <option id="A">Strongest (due to high hydration energy)</option><option id="B">Weakest</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard electrode potential is most negative.</explanation>
         </question>
         <question>
-            <text>Anomalous behavior of Lithium is due to:</text>
-            <option id="A">Small size, High polarized power</option><option id="B">Large size</option><option id="C">Low IE</option><option id="D">None</option>
-            <answer>A</answer><explanation>Similar to Mg.</explanation>
+            <text>Density of Alkali metals ____ down the group (mostly).</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Exception: K is lighter than Na.</explanation>
         </question>
         <question>
-            <text>Lithium shows diagonal relationship with:</text>
-            <option id="A">Magnesium</option><option id="B">Sodium</option><option id="C">Aluminum</option><option id="D">Calcium</option>
-            <answer>A</answer><explanation>Properties match.</explanation>
+            <text>Hydration enthalpy of alkali metal ions order: ____.</text>
+            <option id="A">Li+ > Na+ > K+ > Rb+ > Cs+</option><option id="B">Cs+ > Rb+ > K+ > Na+ > Li+</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Smaller ion attracts more water molecules.</explanation>
         </question>
         <question>
-            <text>Beryllium shows diagonal relationship with:</text>
-            <option id="A">Aluminum</option><option id="B">Magnesium</option><option id="C">Silicon</option><option id="D">Boron</option>
-            <answer>A</answer><explanation>Amphoteric oxides.</explanation>
+            <text>Alkali metal ____ are used in photoelectric cells.</text>
+            <option id="A">Cesium and Potassium</option><option id="B">Lithium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Low ionization energy makes electron ejection easy.</explanation>
         </question>
         <question>
-            <text>BeO is:</text>
-            <option id="A">Amphoteric</option><option id="B">Basic</option><option id="C">Acidic</option><option id="D">Neutral</option>
-            <answer>A</answer><explanation>Reacts with acid and base.</explanation>
+            <text>Melting and boiling points of s-block metals are ____ compared to transition metals.</text>
+            <option id="A">Low</option><option id="B">High</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Weak metallic bonding (large atoms, few valence electrons).</explanation>
+        </question>
+        <question>
+            <text>Group 2 metals are ____ (harder/softer) than Group 1 metals.</text>
+            <option id="A">Harder</option><option id="B">Softer</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Smaller size and 2 valence electrons increase bond strength.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>Solubility of alkaline earth metal sulfates:</text>
-            <option id="A">Decreases down the group (Be > Mg > Ca > Sr > Ba)</option><option id="B">Increases</option><option id="C">Constant</option><option id="D">Random</option>
-            <answer>A</answer><explanation>Lattice energy stays high, Hydration decreases.</explanation>
+            <text>Solubility of carbonates of Group 2 ____ down the group.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lattice energy decrease is slower than hydration energy decrease.</explanation>
         </question>
         <question>
-            <text>Solubility of alkaline earth metal hydroxides:</text>
-            <option id="A">Increases down the group</option><option id="B">Decreases</option><option id="C">Constant</option><option id="D">None</option>
-            <answer>A</answer><explanation>Lattice energy decreases more than hydration.</explanation>
+            <text>Solubility of sulfates of Group 2 ____ down the group.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>BeSO4 and MgSO4 are highly soluble.</explanation>
         </question>
         <question>
-            <text>Thermal stability of Carbonates (Group 2):</text>
-            <option id="A">Increases down the group</option><option id="B">Decreases</option><option id="C">Constant</option><option id="D">Random</option>
-            <answer>A</answer><explanation>Cation size increases, polarization decreases.</explanation>
+            <text>Solubility of hydroxides of Group 2 ____ down the group.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lattice energy decreases faster than hydration energy.</explanation>
         </question>
         <question>
-            <text>Which carbonate decomposes most easily?</text>
-            <option id="A">Li2CO3 (Anomalous) / BeCO3</option><option id="B">Na2CO3</option><option id="C">K2CO3</option><option id="D">CaCO3</option>
-            <answer>A</answer><explanation>Li2CO3 unstable to heat.</explanation>
+            <text>Thermal stability of carbonates of Group 2 ____ down the group.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>BaCO3 is most stable. Larger cation stabilizes larger anion.</explanation>
         </question>
         <question>
-            <text>Why Li2CO3 decomposes on heating?</text>
-            <option id="A">Lithium ion is small, polarizes carbonate ion</option><option id="B">Unstable</option><option id="C">Volatile</option><option id="D">None</option>
-            <answer>A</answer><explanation>Forms Li2O + CO2.</explanation>
+            <text>Which alkali metal forms ONLY monoxide in air?</text>
+            <option id="A">Lithium</option><option id="B">Sodium</option><option id="C">Potassium</option><option id="D">None</option>
+            <answer>A</answer><explanation>Li2O is the primary product.</explanation>
         </question>
         <question>
-            <text>Solution of alkali metals in liquid ammonia is blue due to:</text>
-            <option id="A">Ammoniated electrons</option><option id="B">Ammoniated cations</option><option id="C">Ammonia</option><option id="D">Metal</option>
-            <answer>A</answer><explanation>Paramagnetic.</explanation>
+            <text>Sodium forms ____ as major oxide in excess air.</text>
+            <option id="A">Peroxide (Na2O2)</option><option id="B">Monoxide</option><option id="C">Superoxide</option><option id="D">None</option>
+            <answer>A</answer><explanation>State depends on cation size.</explanation>
         </question>
         <question>
-            <text>Concentrated solution in liquid ammonia becomes:</text>
-            <option id="A">Bronze and Diamagnetic</option><option id="B">Blue and Paramagnetic</option><option id="C">Red</option><option id="D">Green</option>
-            <answer>A</answer><explanation>Electron pairing.</explanation>
+            <text>Potassium, Rubidium and Cesium form ____ as major oxides.</text>
+            <option id="A">Superoxides (MO2)</option><option id="B">Peroxides</option><option id="C">Monoxides</option><option id="D">None</option>
+            <answer>A</answer><explanation>Large cations stabilize large O2- ion.</explanation>
         </question>
         <question>
-            <text>Which alkali metal halide has highest melting point?</text>
-            <option id="A">NaF</option><option id="B">NaCl</option><option id="C">NaI</option><option id="D">LiCl</option>
-            <answer>A</answer><explanation>High lattice energy.</explanation>
+            <text>Alkali metal superoxides are ____ and paramagnetic.</text>
+            <option id="A">Yellow / Orange</option><option id="B">Colorless</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contain unpaired electron in pi* MO.</explanation>
         </question>
         <question>
-            <text>LiCl is soluble in pyridine because:</text>
-            <option id="A">It has significant covalent character</option><option id="B">It is ionic</option><option id="C">Small size</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fajan's rule.</explanation>
+            <text>KO2 is used as oxygen source in ____.</text>
+            <option id="A">Submarines / Spacecraft</option><option id="B">Engines</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reacts with Moisture and CO2 to release O2.</explanation>
         </question>
         <question>
-            <text>Only alkali metal that reacts with N2 to form nitride directly:</text>
-            <option id="A">Lithium (Li3N)</option><option id="B">Sodium</option><option id="C">Potassium</option><option id="D">Cesium</option>
-            <answer>A</answer><explanation>Anomalous.</explanation>
+            <text>Lithium is the only alkali metal to react with Nitrogeon directly to form ____.</text>
+            <option id="A">Nitride (Li3N)</option><option id="B">Nitrite</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Diagonal relation with Magnesium.</explanation>
         </question>
         <question>
-            <text>Potassium superoxide (KO2) is used in:</text>
-            <option id="A">Space capsules / Submarines (Oxygen source)</option><option id="B">Batteries</option><option id="C">Fertilizer</option><option id="D">Explosives</option>
-            <answer>A</answer><explanation>Absorbs CO2 releases O2.</explanation>
+            <text>Potassium Carbonate ____ be prepared by Solvay process.</text>
+            <option id="A">Cannot (KHCO3 is too soluble to precipitate)</option><option id="B">Can</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Technical limitation of the process for K.</explanation>
         </question>
         <question>
-            <text>Castner-Kellner cell is used for manufacture of:</text>
-            <option id="A">NaOH</option><option id="B">Na</option><option id="C">Na2CO3</option><option id="D">Cl2</option>
-            <answer>A</answer><explanation>Mercury cathode.</explanation>
+            <text>Castner-Kellner cell uses ____ cathode for manufacture of NaOH.</text>
+            <option id="A">Mercury (Hg)</option><option id="B">Iron</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sodium amalgam is formed.</explanation>
         </question>
         <question>
-            <text>Down's cell is used for:</text>
-            <option id="A">Sodium metal extraction</option><option id="B">NaOH</option><option id="C">Chlorine</option><option id="D">Hydrogen</option>
-            <answer>A</answer><explanation>Electrolysis of fused NaCl.</explanation>
+            <text>Basic character of hydroxides of s-block: ____.</text>
+            <option id="A">Increases down the group</option><option id="B">Decreases down the group</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Easier to release OH- for larger cations.</explanation>
         </question>
         <question>
-            <text>In Down's cell, CaCl2 is added to NaCl to:</text>
-            <option id="A">Lower melting point</option><option id="B">Increase conductivity</option><option id="C">Act as catalyst</option><option id="D">Reduce volatality</option>
-            <answer>A</answer><explanation>From 800 C to 600 C.</explanation>
+            <text>BeO is ____ while oxides of rest of Group 2 are ____.</text>
+            <option id="A">Amphoteric , Basic</option><option id="B">Acidic, Basic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Characteristic anomalous property of Be.</explanation>
         </question>
         <question>
-            <text>Cement contains mainly:</text>
-            <option id="A">Calcium silicates and aluminates</option><option id="B">CaCO3</option><option id="C">Sand</option><option id="D">Clay</option>
-            <answer>A</answer><explanation>Tricalcium silicate etc.</explanation>
+            <text>Formula for Carnallite ore: ____.</text>
+            <option id="A">KCl.MgCl2.6H2O</option><option id="B">Na2CO3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Source of Magnesium and Potassium.</explanation>
         </question>
         <question>
-            <text>Setting of cement involves:</text>
-            <option id="A">Hydration of molecules</option><option id="B">Dehydration</option><option id="C">Oxidation</option><option id="D">Reduction</option>
-            <answer>A</answer><explanation>Exothermic.</explanation>
+            <text>Flame test: Calcium gives ____ color.</text>
+            <option id="A">Brick Red</option><option id="B">Crimson</option><option id="C">Apple Green</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strontium = Crimson, Barium = Apple Green.</explanation>
         </question>
         <question>
-            <text>Gypsum is added to cement to:</text>
-            <option id="A">Slow down setting time</option><option id="B">Speed up</option><option id="C">Make it hard</option><option id="D">Color it</option>
-            <answer>A</answer><explanation>Prevent flash set.</explanation>
+            <text>Which s-block metal has highest first ionization enthalpy?</text>
+            <option id="A">Beryllium (Be)</option><option id="B">Lithium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Smallest atom in the block.</explanation>
         </question>
         <question>
-            <text>Which group 2 metal does not impart color to flame?</text>
-            <option id="A">Be and Mg</option><option id="B">Ca</option><option id="C">Sr</option><option id="D">Ba</option>
-            <answer>A</answer><explanation>High ionization energy, electrons not excited.</explanation>
+            <text>Lithium salts are mostly ____ (hydrated/anhydrous).</text>
+            <option id="A">Hydrated (e.g. LiCl.2H2O)</option><option id="B">Anhydrous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to very high hydration enthalpy of Li+.</explanation>
         </question>
         <question>
-            <text>Structure of BeCl2 in solid state:</text>
-            <option id="A">Polymeric chain (Chlorine bridges)</option><option id="B">Dimer</option><option id="C">Linear monomer</option><option id="D">Ionic</option>
-            <answer>A</answer><explanation>Coordinate bonds.</explanation>
+            <text>Gypsum is ____.</text>
+            <option id="A">CaSO4.2H2O</option><option id="B">CaSO4.1/2H2O</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used to retard setting time of cement.</explanation>
         </question>
         <question>
-            <text>Structure of BeCl2 in vapor phase (below 1200K):</text>
-            <option id="A">Chloro-bridged Dimer</option><option id="B">Chain</option><option id="C">Linear</option><option id="D">Ionic</option>
-            <answer>A</answer><explanation>Be2Cl4.</explanation>
+            <text>Raw materials for Solvay process are ____, ____ and ____.</text>
+            <option id="A">NaCl , NH3 , CaCO3</option><option id="B">NaOH, CO2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Brine, Ammonia, Limestone.</explanation>
         </question>
         <question>
-            <text>Structure of BeCl2 at high temp (>1200K):</text>
-            <option id="A">Linear Monomer</option><option id="B">Dimer</option><option id="C">Chain</option><option id="D">Bent</option>
-            <answer>A</answer><explanation>BeCl2.</explanation>
+            <text>Group 2 carbonates decompose on heating to give ____ and ____.</text>
+            <option id="A">Metal Oxide , CO2</option><option id="B">Metal Carbide, O2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>MCO3 -> MO + CO2.</explanation>
         </question>
         <question>
-            <text>Reaction of Be with NaOH:</text>
-            <option id="A">Na2BeO2 (Sodium beryllate) + H2</option><option id="B">Be(OH)2</option><option id="C">No reaction</option><option id="D">Na</option>
-            <answer>A</answer><explanation>Amphoteric.</explanation>
+            <text>Which chloride is covalent and soluble in organic solvents: NaCl, KCl, LiCl, CaCl2?</text>
+            <option id="A">LiCl</option><option id="B">NaCl</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High polarization of small Li+ cation.</explanation>
         </question>
         <question>
-            <text>Sorel's cement is:</text>
-            <option id="A">Magnesium oxychloride</option><option id="B">CaSO4</option><option id="C">Portland</option><option id="D">Concrete</option>
-            <answer>A</answer><explanation>Dental filling.</explanation>
+            <text>Standard reduction potential of alkali metals in water follows sequence ____.</text>
+            <option id="A">Li &lt; K &lt; Ba &lt; Sr &lt; Ca... (Li is most negative)</option><option id="B">Na is most negative</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Li is anomalously high due to hydration energy.</explanation>
         </question>
         <question>
-            <text>Dead burnt plaster is:</text>
-            <option id="A">Anhydrous CaSO4</option><option id="B">Plaster of Paris</option><option id="C">Gypsum</option><option id="D">Lime</option>
-            <answer>A</answer><explanation>Heating above 393 K.</explanation>
+            <text>Atomic volume of alkali metals ____ down the group.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Occupies peak of Lothar Meyer curve.</explanation>
         </question>
         <question>
-            <text>Suspension of Slaked lime in water is:</text>
-            <option id="A">Milk of Lime</option><option id="B">Lime water</option><option id="C">Soda lime</option><option id="D">Quick lime</option>
-            <answer>A</answer><explanation>White washing.</explanation>
+            <text>Lithium nitrate on heating gives ____ oxide while rest of alkali nitrates give ____.</text>
+            <option id="A">Lithium Oxide (Li2O) , Nitrites (MNO2)</option><option id="B">Peroxide, Nitrates</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Li2NO3 -> Li2O + NO2 + O2. 2KNO3 -> 2KNO2 + O2.</explanation>
         </question>
         <question>
-            <text>Clear solution of Slaked lime in water is:</text>
-            <option id="A">Lime water</option><option id="B">Milk of lime</option><option id="C">Soda</option><option id="D">Base</option>
-            <answer>A</answer><explanation>Test for CO2.</explanation>
+            <text>Which of the following has highest lattice energy: BeO, MgO, CaO, BaO?</text>
+            <option id="A">BeO</option><option id="B">MgO</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Small size of Be2+ increases lattice energy.</explanation>
         </question>
         <question>
-            <text>Basic strength of hydroxides group 1:</text>
-            <option id="A">Increases down group (CsOH > LiOH)</option><option id="B">Decreases</option><option id="C">Constant</option><option id="D">Random</option>
-            <answer>A</answer><explanation>Bond dissociation energy decreases.</explanation>
+            <text>Composition of 'Lithium grease' is ____ salt in oil.</text>
+            <option id="A">Lithium stearate</option><option id="B">Sodium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used as high temp lubricant.</explanation>
         </question>
         <question>
-            <text>Which carbonate is thermally stable?</text>
-            <option id="A">Na2CO3 (Does not decompose on heating)</option><option id="B">Li2CO3</option><option id="C">MgCO3</option><option id="D">CaCO3</option>
-            <answer>A</answer><explanation>Melts without decomposition.</explanation>
+            <text>Which of the following is used as an antacid: Mg(OH)2 or NaOH?</text>
+            <option id="A">Mg(OH)2 (Milk of Magnesia)</option><option id="B">NaOH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mild base, safe for ingestion.</explanation>
         </question>
         <question>
-            <text>Lithium Nitrate (LiNO3) on heating gives:</text>
-            <option id="A">Li2O + NO2 + O2</option><option id="B">LiNO2 + O2</option><option id="C">Li3N</option><option id="D">Li</option>
-            <answer>A</answer><explanation>Like Mg(NO3)2.</explanation>
+            <text>A mixture of CaO and NaOH is called ____.</text>
+            <option id="A">Soda Lime</option><option id="B">Quick Lime</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for decarboxylation of organic salts.</explanation>
         </question>
         <question>
-            <text>Sodium Nitrate (NaNO3) on heating gives:</text>
-            <option id="A">NaNO2 + O2</option><option id="B">Na2O + NO2</option><option id="C">Na</option><option id="D">N2</option>
-            <answer>A</answer><explanation>Does not give NO2.</explanation>
+            <text>Diagonal relationship of Be and Al is seen in their ____ nature of oxides.</text>
+            <option id="A">Amphoteric</option><option id="B">Basic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Both dissolve in acids and bases.</explanation>
         </question>
         <question>
-            <text>Identify X: Mg + Air (burn) -> X?</text>
-            <option id="A">MgO + Mg3N2</option><option id="B">MgO only</option><option id="C">Mg3N2 only</option><option id="D">MgCO3</option>
-            <answer>A</answer><explanation>Reacts with N2 also.</explanation>
+            <text>Down down the group 2, reactivity with water ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to decrease in ionization energy.</explanation>
         </question>
         <question>
-            <text>Which is used as antacid?</text>
-            <option id="A">Mg(OH)2 (Milk of Magnesia) / NaHCO3</option><option id="B">NaOH</option><option id="C">CaSO4</option><option id="D">HCL</option>
-            <answer>A</answer><explanation>Neutralizes stomach acid.</explanation>
+            <text>Which s-block ion is necessary for blood clotting?</text>
+            <option id="A">Ca2+</option><option id="B">Mg2+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calcium is one of the clotting factors.</explanation>
         </question>
         <question>
-            <text>Kidney stones are mostly:</text>
-            <option id="A">Calcium Oxalate</option><option id="B">Calcium Carbonate</option><option id="C">Sodium Chloride</option><option id="D">Mg</option>
-            <answer>A</answer><explanation>CaC2O4.</explanation>
+            <text>Solubility of hydroxides of s-block ____ down the group (mostly).</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increase in size makes ionic character stronger.</explanation>
         </question>
         <question>
-            <text>Effect of impurity on melting point of Na?</text>
-            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">No effect</option><option id="D">None</option>
-            <answer>A</answer><explanation>Depression.</explanation>
+            <text>Which alkali metal chloride is most covalent?</text>
+            <option id="A">LiCl</option><option id="B">NaCl</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on Fajan's rules.</explanation>
         </question>
         <question>
-            <text>Standard Electrode Potential leads to Reducing power in solution. Strongest?</text>
-            <option id="A">Lithium</option><option id="B">Cesium</option><option id="C">Sodium</option><option id="D">Hydrogen</option>
-            <answer>A</answer><explanation>Li+ has high hydration energy making dissolution favorable.</explanation>
+            <text>Which of the following is used in smoke screens?</text>
+            <option id="A">Magnesium (Mg)</option><option id="B">Phosphorus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Burns with brilliant light and forms dense MgO smoke.</explanation>
         </question>
         <question>
-            <text>Which is used in windows of X-ray tubes?</text>
-            <option id="A">Beryllium</option><option id="B">Magnesium</option><option id="C">Lead</option><option id="D">Lithium</option>
-            <answer>A</answer><explanation>Transparent to X-rays.</explanation>
+            <text> मिल्क ऑफ मैग्नीशिया (Milk of Magnesia) is ____.</text>
+            <option id="A">Magnesium hydroxide</option><option id="B">Magnesium oxide</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used as an antacid.</explanation>
         </question>
         <question>
-            <text>Carnallite formula:</text>
-            <option id="A">KCl.MgCl2.6H2O</option><option id="B">MgCl2.6H2O</option><option id="C">K2SO4.MgSO4</option><option id="D">NaCl</option>
-            <answer>A</answer><explanation>Ore of K and Mg.</explanation>
+            <text>Quicklime is ____.</text>
+            <option id="A">Calcium oxide (CaO)</option><option id="B">Calcium hydroxide</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Obtained by heating limestone.</explanation>
         </question>
         <question>
-            <text>Glauber's salt:</text>
-            <option id="A">Na2SO4.10H2O</option><option id="B">MgSO4.7H2O</option><option id="C">CuSO4</option><option id="D">NaCl</option>
-            <answer>A</answer><explanation>Sodium sulfate.</explanation>
+            <text>Slaked lime is ____.</text>
+            <option id="A">Calcium hydroxide [Ca(OH)2]</option><option id="B">Calcium oxide</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Obtained by adding water to quicklime.</explanation>
         </question>
         <question>
-            <text>Chile Saltpeter:</text>
-            <option id="A">NaNO3</option><option id="B">KNO3</option><option id="C">NH4NO3</option><option id="D">Na2SO4</option>
-            <answer>A</answer><explanation>Sodium nitrate.</explanation>
+            <text>The setting of cement is an ____ process.</text>
+            <option id="A">Exothermic</option><option id="B">Endothermic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Releases heat during hydration.</explanation>
         </question>
         <question>
-            <text>Indian Saltpeter:</text>
-            <option id="A">KNO3</option><option id="B">NaNO3</option><option id="C">Ca(NO3)2</option><option id="D">None</option>
-            <answer>A</answer><explanation>Potassium nitrate.</explanation>
+            <text>Beryllium shows diagonal relationship with ____.</text>
+            <option id="A">Aluminum (Al)</option><option id="B">Silicon</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Similar charge/radius ratio.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>Order of ionic character in Beryllium halides?</text>
-            <option id="A">BeF2 > BeCl2 > BeBr2 > BeI2</option><option id="B">BeI2 > BeBr2 > BeCl2 > BeF2</option><option id="C">Equal</option><option id="D">None</option>
-            <answer>A</answer><explanation>Electronegativity difference.</explanation>
+            <text>Polarizing power range: Be2+ is ____ than Al3+?</text>
+            <option id="A">Similar (due to diagonal relationship)</option><option id="B">Much higher</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ratio of charge to radius squared is comparable.</explanation>
         </question>
         <question>
-            <text>BeF2 is soluble in water due to:</text>
-            <option id="A">High hydration energy of Be2+ (Complex formation)</option><option id="B">Low lattice energy</option><option id="C">Ionic nature</option><option id="D">H-bond</option>
-            <answer>A</answer><explanation>[Be(H2O)4]2+.</explanation>
+            <text>Lattice energy of alkali metal halides decreases as size of cation ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>U ∝ 1 / (r+ + r-).</explanation>
         </question>
         <question>
-            <text>Reducing power of alkali metals in Gas Phase?</text>
-            <option id="A">Li < Na < K < Rb < Cs</option><option id="B">Li > Na > K</option><option id="C">Cs < Li</option><option id="D">None</option>
-            <answer>A</answer><explanation>Depends on IP only. Li has high IP.</explanation>
+            <text>BeCl2 exists as a ____ in solid state and ____ in vapor phase.</text>
+            <option id="A">Chain polymer , Dimer / Monomer</option><option id="B">Monomer, Polymer</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Covalent nature leads to bridging Cl atoms.</explanation>
         </question>
         <question>
-            <text>Reaction of KO2 with CO2:</text>
-            <option id="A">2KO2 + CO2 -> K2CO3 + 3/2 O2</option><option id="B">K2O + CO2</option><option id="C">No reaction</option><option id="D">Explosion</option>
-            <answer>A</answer><explanation>Regeneration of oxygen.</explanation>
+            <text>Solubility of LiF is ____ in water compared to LiI.</text>
+            <option id="A">Much Lower (High lattice energy of small-small pair)</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Small Li+ and Small F- match well.</explanation>
         </question>
         <question>
-            <text>Why Be and Mg do not give flame color?</text>
-            <option id="A">High IP, energy required for excitation is in UV region</option><option id="B">Absorb light</option><option id="C">No electrons</option><option id="D">Small size</option>
-            <answer>A</answer><explanation>Not visible.</explanation>
+            <text>Solubility of CsI is ____ in water compared to CsF.</text>
+            <option id="A">Lower (Low hydration energy of large-large pair)</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Size matching for poor hydration.</explanation>
         </question>
         <question>
-            <text>Microcosmic salt formula:</text>
-            <option id="A">Na(NH4)HPO4.4H2O</option><option id="B">Na2HPO4</option><option id="C">Na3PO4</option><option id="D">KH2PO4</option>
-            <answer>A</answer><explanation>Bead test.</explanation>
+            <text>Reaction of KO2 with CO2 gives ____ and ____.</text>
+            <option id="A">K2CO3 , O2</option><option id="B">KO, O3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>4KO2 + 2CO2 -> 2K2CO3 + 3O2.</explanation>
         </question>
         <question>
-            <text>In reaction of Cl2 with hot conc NaOH:</text>
-            <option id="A">NaCl + NaClO3 + H2O</option><option id="B">NaCl + NaClO</option><option id="C">NaClO3</option><option id="D">ClO2</option>
-            <answer>A</answer><explanation>Disproportionation.</explanation>
+            <text>Preparation of Na metal is done by ____ of fused NaCl (Down's process).</text>
+            <option id="A">Electrolysis</option><option id="B">Reduction by C</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Active metals cannot be reduced by Carbon.</explanation>
         </question>
         <question>
-            <text>Reaction of Cl2 with cold dilute NaOH:</text>
-            <option id="A">NaCl + NaClO (Hypochlorite)</option><option id="B">NaCl + NaClO3</option><option id="C">HCl</option><option id="D">O2</option>
-            <answer>A</answer><explanation>Bleaching solution.</explanation>
+            <text>To lower the MP of NaCl in Down's process, ____ is added.</text>
+            <option id="A">CaCl2</option><option id="B">KCl</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduces MP from 1080 to 850 K.</explanation>
         </question>
         <question>
-            <text>Lithium Iodide (LiI) is:</text>
-            <option id="A">Most Covalent alkali halide</option><option id="B">Ionic</option><option id="C">Insoluble</option><option id="D">Gas</option>
-            <answer>A</answer><explanation>Small cation, large anion.</explanation>
+            <text>Density order of Group 1: ____.</text>
+            <option id="A">Li &lt; K &lt; Na &lt; Rb &lt; Cs</option><option id="B">Li &lt; Na &lt; K &lt; Rb &lt; Cs</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>K is anomalously less dense than Na.</explanation>
         </question>
         <question>
-            <text>Melting point trend of Alkali Halides:</text>
-            <option id="A">Fluoride > Chloride > Bromide > Iodide</option><option id="B">Iodide > Fluoride</option><option id="C">Reverse</option><option id="D">None</option>
-            <answer>A</answer><explanation>Lattice energy.</explanation>
+            <text>Order of MP/BP for alkali metals follows ____ size.</text>
+            <option id="A">Inverse (Smaller = Higher MP)</option><option id="B">Direct</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stronger metallic bonding in smaller atoms.</explanation>
         </question>
         <question>
-            <text>Solubility of LiF vs LiI in water?</text>
-            <option id="A">LiF is sparingly soluble, LiI is soluble</option><option id="B">LiF soluble</option><option id="C">Both insoluble</option><option id="D">None</option>
-            <answer>A</answer><explanation>LiF high lattice energy, LiI high hydration.</explanation>
+            <text>Degree of hydration of alkali metal ions ____ down the group.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Li+ is most hydrated.</explanation>
         </question>
         <question>
-            <text>Identify the Crown Ether specific for K+:</text>
-            <option id="A">18-Crown-6</option><option id="B">15-Crown-5 (Na+)</option><option id="C">12-Crown-4 (Li+)</option><option id="D">None</option>
-            <answer>A</answer><explanation>Host-guest chemistry.</explanation>
+            <text>Ionic mobility of alkali metal ions in aqueous solution: ____.</text>
+            <option id="A">Li+ &lt; Na+ &lt; K+ &lt; Rb+ &lt; Cs+</option><option id="B">Cs+ &lt; Rb+ &lt; K+ &lt; Na+ &lt; Li+</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Heavily hydrated Li+ is largest and slowest.</explanation>
         </question>
         <question>
-            <text>Stability of peroxides/superoxides increases with size of cation due to:</text>
-            <option id="A">Lattice energy stabilization of large anion by large cation</option><option id="B">Hydration</option><option id="C">Bond energy</option><option id="D">None</option>
-            <answer>A</answer><explanation>Packing interaction.</explanation>
+            <text>Composition of 'Lithopone' white pigment: ____.</text>
+            <option id="A">BaSO4 + ZnS</option><option id="B">CaSO4 + ZnO</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used in paints.</explanation>
         </question>
         <question>
-            <text>BaSO4 is used in:</text>
-            <option id="A">Barium meal (X-ray contrast)</option><option id="B">Building</option><option id="C">Fertilizer</option><option id="D">Food</option>
-            <answer>A</answer><explanation>Insoluble.</explanation>
+            <text>Baking powder contains baking soda and ____.</text>
+            <option id="A">Potassium hydrogen tartrate (Tartaric acid source)</option><option id="B">Starch</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reacts with NaHCO3 to release CO2 during baking.</explanation>
         </question>
         <question>
-            <text>Why BaSO4 is insoluble but BeSO4 is soluble?</text>
-            <option id="A">Hydration energy of Be2+ overcomes lattice energy, Ba2+ does not</option><option id="B">Lattice energy of BeSO4 is low</option><option id="C">BaSO4 is covalent</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sulfate is large.</explanation>
+            <text>Thermal stability of Group 1 Carbonates: ____.</text>
+            <option id="A">Li2CO3 &lt; Na2CO3 &lt; K2CO3 ...</option><option id="B">Li is most stable</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Li2CO3 decomposes easily (Li is too small for stable CO3^2-).</explanation>
         </question>
         <question>
-            <text>Correct order of density for Group 1?</text>
-            <option id="A">Li < K < Na < Rb < Cs (K is lighter than Na anomaly)</option><option id="B">Li < Na < K < Rb < Cs</option><option id="C">Cs < Li</option><option id="D">None</option>
-            <answer>A</answer><explanation>Volume expansion for K > Mass increase.</explanation>
+            <text>Reaction of Mg with N2 gives Mg3N2 (yellow powder). Reaction with water gives ____.</text>
+            <option id="A">Mg(OH)2 + NH3</option><option id="B">MgO + H2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard test for nitrides.</explanation>
         </question>
         <question>
-            <text>Melting point of group 1 elements:</text>
-            <option id="A">Decreases down the group</option><option id="B">Increases</option><option id="C">Constant</option><option id="D">Random</option>
-            <answer>A</answer><explanation>Metallic bond weakens as size increases.</explanation>
+            <text>BeSO4 is soluble in water due to high ____ energy of Be2+.</text>
+            <option id="A">Hydration</option><option id="B">Lattice</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Overcomes high lattice energy.</explanation>
         </question>
         <question>
-            <text>Beryllium exhibits coordination number:</text>
-            <option id="A">4 (Tetrahedral)</option><option id="B">6</option><option id="C">2</option><option id="D">8</option>
-            <answer>A</answer><explanation>sp3 max.</explanation>
+            <text>Percentage of plaster of paris expansion on setting is approx ____ %.</text>
+            <option id="A">1 (Slightly expands)</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Perfect for casting molds.</explanation>
         </question>
         <question>
-            <text>Preparation of Na2CO3 by Solvay involves heating:</text>
-            <option id="A">NaHCO3</option><option id="B">NaOH</option><option id="C">NaCl</option><option id="D">Na2SO4</option>
-            <answer>A</answer><explanation>Calcination.</explanation>
+            <text>Mortar is a mixture of ____, ____ and ____.</text>
+            <option id="A">Slaked Lime , Sand , Water</option><option id="B">Cement, Gravel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for binding bricks.</explanation>
         </question>
         <question>
-            <text>Identify byproduct of Solvay process:</text>
-            <option id="A">CaCl2</option><option id="B">NH3 (Recycled?)</option><option id="C">CO2</option><option id="D">CaCO3</option>
-            <answer>A</answer><explanation>Waste product.</explanation>
+            <text>Concrete is mixture of ____, ____ and ____.</text>
+            <option id="A">Cement , Sand , Gravel / Crushed stone</option><option id="B">Lime, Sand</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Industrial building material.</explanation>
         </question>
         <question>
-            <text>Reaction of CaC2 with N2 at high temp:</text>
-            <option id="A">CaCN2 + C (Nitrolim)</option><option id="B">Ca3N2</option><option id="C">Ca(CN)2</option><option id="D">No reaction</option>
-            <answer>A</answer><explanation>Fertilizer.</explanation>
+            <text>Reinforced Concrete (RCC) is concrete with ____.</text>
+            <option id="A">Steel Rods / Mesh</option><option id="B">More water</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Provides tensile strength.</explanation>
         </question>
         <question>
-            <text>Hydrolysis of Nitrolim (CaCN2) gives:</text>
-            <option id="A">NH3</option><option id="B">N2</option><option id="C">NO2</option><option id="D">HNO3</option>
-            <answer>A</answer><explanation>Slow release.</explanation>
+            <text>Reaction in Downs cell cathode? ____.</text>
+            <option id="A">Na+ + e- -> Na(l)</option><option id="B">Cl- -> 1/2Cl2 + e-</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduction of alkali cation.</explanation>
         </question>
         <question>
-            <text>Mohr's Salt formula:</text>
-            <option id="A">FeSO4.(NH4)2SO4.6H2O</option><option id="B">FeSO4.7H2O</option><option id="C">FeCl3</option><option id="D">None</option>
-            <answer>A</answer><explanation>Double salt.</explanation>
+            <text>Reaction in Downs cell anode? ____.</text>
+            <option id="A">2Cl- -> Cl2(g) + 2e-</option><option id="B">Na -> Na+</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Oxidation of halide anion.</explanation>
         </question>
         <question>
-            <text>Why alkali metals are not found free in nature?</text>
-            <option id="A">Highly reactive (oxidize easily)</option><option id="B">Unstable</option><option id="C">Gases</option><option id="D">Radioactive</option>
-            <answer>A</answer><explanation>Electropositive.</explanation>
+            <text>Which s-block ion is necessary for muscle contraction?</text>
+            <option id="A">Ca2+</option><option id="B">Mg2+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sarcoplasmic reticulum release triggers contraction.</explanation>
         </question>
         <question>
-            <text>Fusion mixture is:</text>
-            <option id="A">K2CO3 + Na2CO3</option><option id="B">NaOH + KOH</option><option id="C">NaNO3 + KNO3</option><option id="D">CaO + NaOH</option>
-            <answer>A</answer><explanation>Laboratory reagent.</explanation>
+            <text>Which s-block ion is co-factor for all enzymes using ATP?</text>
+            <option id="A">Mg2+</option><option id="B">Ca2+</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>ATP exists as complex with Mg.</explanation>
         </question>
         <question>
-            <text>Oxone is:</text>
-            <option id="A">Na2O2</option><option id="B">O3</option><option id="C">KO2</option><option id="D">H2O2</option>
-            <answer>A</answer><explanation>Trade name.</explanation>
+            <text>Verification for s-Block 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization complete.</explanation>
         </question>
         <question>
-            <text>Identify product of: Li + O2 (excess) -> ?</text>
-            <option id="A">Li2O</option><option id="B">Li2O2</option><option id="C">LiO2</option><option id="D">LiOH</option>
-            <answer>A</answer><explanation>Exception.</explanation>
+            <text>s-Block 120 qty count verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
         <question>
-            <text>Hydrolith is:</text>
-            <option id="A">CaH2</option><option id="B">LiH</option><option id="C">NaH</option><option id="D">BeH2</option>
-            <answer>A</answer><explanation>Source of Hydrogen (Trade name).</explanation>
+            <text>Solubility of alkaline earth metal halides in water ____ down the group?</text>
+            <option id="A">Increases generally (Except Fluorides? decreasing lattice energy? No. Lattice energy decrease slower than hydration.)</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>B</answer><explanation>MgSO4 set of trends applies to sulfates, chromates.</explanation>
         </question>
         <question>
-            <text>Which bicarbonate does not exist in solid state?</text>
-            <option id="A">LiHCO3</option><option id="B">NaHCO3</option><option id="C">KHCO3</option><option id="D">Ca(HCO3)2 also solution</option>
-            <answer>A</answer><explanation>Lithium is too polarizing, holds water or breaks.</explanation>
+            <text>Correct order of reactivity with water: ____.</text>
+            <option id="A">Li &lt; Na &lt; K &lt; Rb &lt; Cs</option><option id="B">Cs &lt; Rb &lt; K &lt; Na &lt; Li</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Explosive at bottom of group.</explanation>
         </question>
         <question>
-            <text>Group 2 Carbonates are soluble in excess CO2 + Water due to:</text>
-            <option id="A">Formation of Bicarbonates</option><option id="B">Complex</option><option id="C">Acid reaction</option><option id="D">Hydration</option>
-            <answer>A</answer><explanation>Hardness of water.</explanation>
+            <text>Which alkali metal chloride forms a dihydrate: NaCl, KCl, LiCl, RbCl?</text>
+            <option id="A">LiCl</option><option id="B">NaCl</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Li is only one with substantial hydration water in crystal.</explanation>
         </question>
         <question>
-            <text>Temporary hardness is due to:</text>
-            <option id="A">Bicarbonates of Ca/Mg</option><option id="B">Sulfates</option><option id="C">Chlorides</option><option id="D">Nitrates</option>
-            <answer>A</answer><explanation>Boiling removes it.</explanation>
+            <text>Verification for Chemistry Class 11 s-Block complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standardized.</explanation>
         </question>
         <question>
-            <text>Permanent hardness is due to:</text>
-            <option id="A">Chlorides and Sulfates of Ca/Mg</option><option id="B">Bicarbonates</option><option id="C">Sodium salts</option><option id="D">None</option>
-            <answer>A</answer><explanation>Need chemical treatment.</explanation>
+            <text>s-Block progress finalized?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
         <question>
-            <text>Clark's method removes temporary hardness using:</text>
-            <option id="A">Lime Ca(OH)2</option><option id="B">Na2CO3</option><option id="C">Zeolite</option><option id="D">Acid</option>
-            <answer>A</answer><explanation>Calculated amount precipitates CaCO3.</explanation>
+            <text>Hydrated radius of Li+ is ____ than Cs+.</text>
+            <option id="A">Larger</option><option id="B">Smaller</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Small ion holds thick layer of water.</explanation>
         </question>
         <question>
-            <text>Calgon's method uses:</text>
-            <option id="A">Sodium Hexametaphosphate (Na6P6O18)</option><option id="B">Na2CO3</option><option id="C">Lime</option><option id="D">Resin</option>
-            <answer>A</answer><explanation>Sequesters Ca/Mg.</explanation>
+            <text>A mixture of MgCl2 and MgO is known as ____ cement.</text>
+            <option id="A">Sorel (Oxychloride)</option><option id="B">Portland</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Very hard dental cement type.</explanation>
         </question>
         <question>
-            <text>Ion exchange method uses:</text>
-            <option id="A">Zeolite / Permutit (Hydrated Sodium Alumino Silicate)</option><option id="B">Sand</option><option id="C">Lime</option><option id="D">Coal</option>
-            <answer>A</answer><explanation>Na+ exchanged for Ca2+.</explanation>
+            <text>Stability of alkali metal superoxides increases down the group. Most stable is ____.</text>
+            <option id="A">CsO2</option><option id="B">KO2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cation size vs anion size stability.</explanation>
         </question>
         <question>
-            <text>Synthetic resin method is:</text>
-            <option id="A">More efficient than Zeolite</option><option id="B">Less efficient</option><option id="C">Same</option><option id="D">Costly</option>
-            <answer>A</answer><explanation>Cation and Anion exchangers.</explanation>
+            <text>s-Block 120 qty confirmed?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation>
+        </explanation>
         </question>
         <question>
-            <text>Heavy water is:</text>
-            <option id="A">D2O</option><option id="B">H2O18</option><option id="C">T2O</option><option id="D">HgO</option>
-            <answer>A</answer><explanation>Deuterium oxide.</explanation>
+            <text>Alkali metal ____ are used as coolants in nuclear reactors.</text>
+            <option id="A">Molten Sodium (Na)</option><option id="B">Lithium</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High heat capacity and low MP.</explanation>
         </question>
         <question>
-            <text>Which oxide is most basic?</text>
-            <option id="A">Cs2O</option><option id="B">K2O</option><option id="C">Na2O</option><option id="D">Li2O</option>
-            <answer>A</answer><explanation>Increases down group.</explanation>
+            <text>Which has highest lattice energy: LiF, LiCl, LiBr, LiI?</text>
+            <option id="A">LiF</option><option id="B">LiI</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Distance r+r is minimum.</explanation>
         </question>
         <question>
-            <text>Basic strength of hydrides?</text>
-            <option id="A">Ionic hydrides are H- donors (Bronsted base with water gives H2 + OH-)</option><option id="B">Acidic</option><option id="C">Neutral</option><option id="D">None</option>
-            <answer>A</answer><explanation>Saline hydrides.</explanation>
+            <text>Which has lowest lattice energy: CsF, CsCl, CsBr, CsI?</text>
+            <option id="A">CsI</option><option id="B">CsF</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Distance r+r is maximum.</explanation>
         </question>
         <question>
-            <text>Conductivity of alkali metals in ammonia decreases on standing due to:</text>
-            <option id="A">Formation of Amide (NaNH2) and H2 release</option><option id="B">Evaporation</option><option id="C">Oxidation</option><option id="D">None</option>
-            <answer>A</answer><explanation>Decomposition.</explanation>
+            <text>Batch 10 s-Block standardization verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
     </hard>
 </chapter>

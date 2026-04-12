@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="102" name="Moving Charges and Magnetism">
+    <easy>
+        <question>
+            <text>Who first discovered the magnetic effect of electric current?</text>
+            <option id="A">Oersted</option><option id="B">Faraday</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Observed deflection of needle near a current carrying wire.</explanation>
+        </question>
+        <question>
+            <text>The SI unit of magnetic field (B) is ____.</text>
+            <option id="A">Tesla (T)</option><option id="B">Weber (Wb)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 T = 1 N / (A.m).</explanation>
+        </question>
+        <question>
+            <text>Force on a charge q moving with velocity v in magnetic field B is F = ____.</text>
+            <option id="A">q(v × B)</option><option id="B">q(v . B)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lorentz force (magnetic part).</explanation>
+        </question>
+        <question>
+            <text>Magnetic force is zero if the charge is moving ____ to the field.</text>
+            <option id="A">Parallel or Anti-parallel</option><option id="B">Perpendicular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>sin 0° = 0 or sin 180° = 0.</explanation>
+        </question>
+        <question>
+            <text>A moving charge in a uniform magnetic field (perpendicular) follows a ____ path.</text>
+            <option id="A">Circular</option><option id="B">Parabolic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnetic force acts as centripetal force.</explanation>
+        </question>
+        <question>
+            <text>Work done by magnetic force on a moving charge is ____.</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Force is always perpendicular to velocity.</explanation>
+        </question>
+        <question>
+            <text>Path of a charge moving at an angle θ (0 &lt; θ &lt; 90) to magnetic field is ____.</text>
+            <option id="A">Helical</option><option id="B">Linear</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Combination of circular and linear motion.</explanation>
+        </question>
+        <question>
+            <text>Lorentz force is the sum of ____ and ____ forces.</text>
+            <option id="A">Electric, Magnetic</option><option id="B">Nuclear, Gravitational</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>F = qE + q(v × B).</explanation>
+        </question>
+        <question>
+            <text>Biot-Savart Law gives magnetic field due to a small ____.</text>
+            <option id="A">Current element (Idl)</option><option id="B">Point charge at rest</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vector form: dB ∝ (Idl × r) / r^3.</explanation>
+        </question>
+        <question>
+            <text>The value of permeability of free space μ₀ is ____ T m A^-1.</text>
+            <option id="A">4π x 10^-7</option><option id="B">8.85 x 10^-12</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Related to speed of light by 1/√(μ₀ε₀).</explanation>
+        </question>
+        <question>
+            <text>Magnetic field at the center of a circular coil of radius r is B = ____.</text>
+            <option id="A">μ₀nI / 2r</option><option id="B">μ₀nI / 2πr</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived from Biot-Savart law.</explanation>
+        </question>
+        <question>
+            <text>Ampere's Circuital Law is similar to ____ law in electrostatics.</text>
+            <option id="A">Gauss's</option><option id="B">Coulomb's</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relates line integral of B to enclosed current.</explanation>
+        </question>
+        <question>
+            <text>A long straight solenoid produces ____ magnetic field inside.</text>
+            <option id="A">Uniform</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Field is parallel to axis.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field inside an ideal solenoid is B = ____.</text>
+            <option id="A">μ₀nI</option><option id="B">μ₀I / 2r</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Where n is number of turns per unit length.</explanation>
+        </question>
+        <question>
+            <text>A toroid is basically a ____ solenoid.</text>
+            <option id="A">Circular / Ring-shaped</option><option id="B">Linear</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for plasma containment (Tokamak).</explanation>
+        </question>
+        <question>
+            <text>Magnetic field inside the core of a toroid is B = ____.</text>
+            <option id="A">μ₀NI / 2πr</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>N is total turns.</explanation>
+        </question>
+        <question>
+            <text>Force per unit length between two parallel current carrying wires is F/L = ____.</text>
+            <option id="A">μ₀ I1 I2 / 2πd</option><option id="B">μ₀ I1 I2 / 2d</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basis for definition of 1 Ampere.</explanation>
+        </question>
+        <question>
+            <text>Two parallel wires carrying current in the same direction ____ each other.</text>
+            <option id="A">Attract</option><option id="B">Repel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Opposite of electrostatic repulsion for same poles.</explanation>
+        </question>
+        <question>
+            <text>Two parallel wires carrying current in opposite direction ____ each other.</text>
+            <option id="A">Repel</option><option id="B">Attract</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnetic forces are repulsive.</explanation>
+        </question>
+        <question>
+            <text>One Ampere is the current which produces a force of ____ N/m at 1m distance.</text>
+            <option id="A">2 x 10^-7</option><option id="B">4π x 10^-7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard SI definition.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment (m) of a current loop is m = ____.</text>
+            <option id="A">NIA</option><option id="B">NI / A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Product of turns, current and area.</explanation>
+        </question>
+        <question>
+            <text>The SI unit of magnetic moment is ____.</text>
+            <option id="A">A m^2</option><option id="B">A/m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ampere x square meter.</explanation>
+        </question>
+        <question>
+            <text>Torque on a magnetic dipole in uniform field B is τ = ____.</text>
+            <option id="A">m × B</option><option id="B">m . B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>τ = mB sin θ.</explanation>
+        </question>
+        <question>
+            <text>Moving Coil Galvanometer works on the principle that current loop in B-field experiences ____.</text>
+            <option id="A">Torque</option><option id="B">Linear force</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Restoring torque of spring balances magnetic torque.</explanation>
+        </question>
+        <question>
+            <text>Current sensitivity of a galvanometer is θ/I = ____.</text>
+            <option id="A">NBA / k</option><option id="B">k / NBA</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>k is torsion constant of the spring.</explanation>
+        </question>
+        <question>
+            <text>To convert galvanometer to ammeter, we connect a shunt (S) in ____.</text>
+            <option id="A">Parallel</option><option id="B">Series</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard protection and range extension.</explanation>
+        </question>
+        <question>
+            <text>To convert galvanometer to voltmeter, we connect a high resistance in ____.</text>
+            <option id="A">Series</option><option id="B">Parallel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Limits current and drops voltage.</explanation>
+        </question>
+        <question>
+            <text>Gyromagnetic ratio of an electron is e / ____.</text>
+            <option id="A">2m</option><option id="B">m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio of magnetic moment to angular momentum.</explanation>
+        </question>
+        <question>
+            <text>Bohr Magneton is the magnetic moment of electron in ____ orbit of H-atom.</text>
+            <option id="A">First (Ground state)</option><option id="B">Second</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>μ_B = eh / 4πm.</explanation>
+        </question>
+        <question>
+            <text>Cyclotron is a device used to accelerate ____ particles.</text>
+            <option id="A">Charged (Positive usually)</option><option id="B">Neutral</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cannot accelerate neutrons or electrons efficiently.</explanation>
+        </question>
+        <question>
+            <text>Cyclotron frequency is ____ of the speed of the particle.</text>
+            <option id="A">Independent</option><option id="B">Proportional</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>f = qB / 2πm.</explanation>
+        </question>
+        <question>
+            <text>Force on a current carrying wire in magnetic field is F = ____.</text>
+            <option id="A">I(L × B)</option><option id="B">I(L . B)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of forces on individual moving charges.</explanation>
+        </question>
+        <question>
+            <text>Velocity selector uses crossed E and B fields where v = ____.</text>
+            <option id="A">E/B</option><option id="B">B/E</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Force qE = qvB implies v = E/B.</explanation>
+        </question>
+        <question>
+            <text>Direction of magnetic force is given by ____ Rule.</text>
+            <option id="A">Fleming's Left Hand</option><option id="B">Right Hand Thumb</option><option id="C">none</option><option id="D">d</option>
+            <answer>A</answer><explanation>For charges/wires in fields.</explanation>
+        </question>
+        <question>
+            <text>A radial magnetic field in galvanometer ensures torque is always ____.</text>
+            <option id="A">Maximum (mB)</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Area vector is always perpendicular to B.</explanation>
+        </question>
+        <question>
+            <text>Tesla and Gauss relation: 1 Tesla = ____ Gauss.</text>
+            <option id="A">10^4</option><option id="B">10^-4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gauss is the CGS unit.</explanation>
+        </question>
+        <question>
+            <text>Magnetic flux unit is ____.</text>
+            <option id="A">Weber (Wb)</option><option id="B">Tesla</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Φ = B.A.</explanation>
+        </question>
+        <question>
+            <text>Does a stationary charge experience magnetic force?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>v = 0 implies F_mag = 0.</explanation>
+        </question>
+        <question>
+            <text>Magnetic effect remains even after switching off current in a solenoid?</text>
+            <option id="A">No (mostly, unless core is ferromagnetic)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Temporary magnet.</explanation>
+        </question>
+        <question>
+            <text>Soft iron core in galvanometer increases ____.</text>
+            <option id="A">Sensitivity</option><option id="B">Error</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Focuses magnetic field lines.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Radius of circular path of charge in B-field is R = ____.</text>
+            <option id="A">mv / qB</option><option id="B">qB / mv</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Centered on m v^2 / R = q v B.</explanation>
+        </question>
+        <question>
+            <text>Pitch of helical path of a charge at angle θ is p = ____.</text>
+            <option id="A">2πmv cos θ / qB</option><option id="B">v sin θ</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Distance moved along field in one time period.</explanation>
+        </question>
+        <question>
+            <text>Kinetic energy of a particle in cyclotron is K = ____.</text>
+            <option id="A">q^2 B^2 R^2 / 2m</option><option id="B">q B R / m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived from v = qBR/m and K = 1/2 mv^2.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field at distance r from an infinitely long straight wire is B = ____.</text>
+            <option id="A">μ₀I / 2πr</option><option id="B">μ₀I / 2r</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived using Ampere's circuital law.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field lines due to a straight current carrying wire are ____.</text>
+            <option id="A">Concentric circles</option><option id="B">Straight lines</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direction given by Right Hand Thumb rule.</explanation>
+        </question>
+        <question>
+            <text>Force on a charge q moving with velocity v in region of both E and B is F = ____.</text>
+            <option id="A">q[E + (v × B)]</option><option id="B">q[E - (v × B)]</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>General Lorentz force equation.</explanation>
+        </question>
+        <question>
+            <text>In a spectrometer, a charge q enters B-field. If its momentum is p, radius R = ____.</text>
+            <option id="A">p / qB</option><option id="B">qB / p</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>p = mv.</explanation>
+        </question>
+        <question>
+            <text>Shunt resistance S required to convert galvanometer (Rg, Ig) to ammeter (range I) is S = ____.</text>
+            <option id="A">Ig Rg / (I - Ig)</option><option id="B">(I - Ig) Rg / Ig</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Voltage across G and S must be same.</explanation>
+        </question>
+        <question>
+            <text>High resistance R required to convert galvanometer (Rg, Ig) to voltmeter (range V) is R = ____.</text>
+            <option id="A">V/Ig - Rg</option><option id="B">V/Ig + Rg</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>V = Ig (Rg + R).</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of a circular current loop is m = IA. Direction is normal to loop given by ____.</text>
+            <option id="A">Right Hand Rule</option><option id="B">Left Hand Rule</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Curl fingers along current, thumb gives m.</explanation>
+        </question>
+        <question>
+            <text>A charge q is accelerated by potential V and enters B-field perpendicular. Radius R is proportional to ____.</text>
+            <option id="A">√V</option><option id="B">V</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>p = √(2mqV), R = p/qB.</explanation>
+        </question>
+        <question>
+            <text>Time period of a charge in magnetic field is T = ____.</text>
+            <option id="A">2πm / qB</option><option id="B">mv / qB</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Independent of speed and radius.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field on the axis of a circular current loop at distance x is B = ____.</text>
+            <option id="A">μ₀ I R^2 / 2(R^2+x^2)^(3/2)</option><option id="B">μ₀ I / 2R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>General axial formula.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field inside a thick wire of radius R at distance r &lt; R is B ∝ ____.</text>
+            <option id="A">r</option><option id="B">1/r</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ampere's law: ∫B.dl = μ₀(I_encl). I_encl ∝ r^2.</explanation>
+        </question>
+        <question>
+            <text>Two parallel currents moving in same direction. Force between them is ____.</text>
+            <option id="A">μ₀ I1 I2 L / 2πd</option><option id="B">k I1 I2 / d</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vector cross product of I_dl and B results in attraction.</explanation>
+        </question>
+        <question>
+            <text>Potential energy of a current loop in B-field is U = ____.</text>
+            <option id="A">-m . B</option><option id="B">m × B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>-mB cos θ.</explanation>
+        </question>
+        <question>
+            <text>If current sensitivity increases by 20%, voltage sensitivity will ____.</text>
+            <option id="A">Depends on resistance change</option><option id="B">Also increase 20%</option><option id="C">none</option><option id="D">d</option>
+            <answer>A</answer><explanation>V_s = I_s / R. If R also changes, V_s change varies.</explanation>
+        </question>
+        <question>
+            <text>Cyclotron cannot accelerate electrons because of their ____.</text>
+            <option id="A">Small mass (Relativistic effect occurs early)</option><option id="B">Negative charge</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass increases at high speed, going out of sync with frequency.</explanation>
+        </question>
+        <question>
+            <text>A galvanometer of 50 Ω gives full scale deflection for 1mA. Shunt for 1A ammeter is ____.</text>
+            <option id="A">0.05 Ω approx</option><option id="B">50 Ω</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>S = (1e-3 * 50) / (1 - 1e-3) ≈ 0.05.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of electron due to orbital motion is proportional to ____.</text>
+            <option id="A">Angular momentum L</option><option id="B">v^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>m = (e/2m) L.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of a solenoid of N turns, area A, current I is m = ____.</text>
+            <option id="A">NIA</option><option id="B">NI / A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vector sum of individual loop moments.</explanation>
+        </question>
+        <question>
+            <text>Which of the following describes the movement of electrons in a magnetic field?</text>
+            <option id="A">Circular if perpendicular</option><option id="B">Spiral always</option><option id="C">None</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard result for perp. motion.</explanation>
+        </question>
+        <question>
+            <text>A square loop of side a carries current I. Magnetic field at center is B = ____.</text>
+            <option id="A">2√2 μ₀I / πa</option><option id="B">μ₀I / 2a</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of fields from 4 segments.</explanation>
+        </question>
+        <question>
+            <text>Ampere's law in differential form is curl B = ____.</text>
+            <option id="A">μ₀J</option><option id="B">μ₀I</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maxwell's equation (static case).</explanation>
+        </question>
+        <question>
+            <text>Magnetic field of a toroid depends on ____.</text>
+            <option id="A">N, I, r</option><option id="B">N, I only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>B = μ₀NI / 2πr.</explanation>
+        </question>
+        <question>
+            <text>In a galvanometer, the torsion constant k should be ____ for high sensitivity.</text>
+            <option id="A">Small</option><option id="B">Large</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>θ = (NBA/k) I.</explanation>
+        </question>
+        <question>
+            <text>An electron and a proton enter a magnetic field with same velocity. Ratio of radii R_p / R_e is ____.</text>
+            <option id="A">m_p / m_e</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>R = mv / qB. q and v are same.</explanation>
+        </question>
+        <question>
+            <text>An electron and a proton enter B-field with same momentum. Ratio of radii is ____.</text>
+            <option id="A">1 (charges are equal in magnitude)</option><option id="B">m_p / m_e</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>R = p / qB.</explanation>
+        </question>
+        <question>
+            <text>An electron and a proton enter B-field with same kinetic energy. Ratio of radii R_p / R_e is ____.</text>
+            <option id="A">√(m_p / m_e)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>R = √(2mK) / qB.</explanation>
+        </question>
+        <question>
+            <text>Work done by a magnetic field on a stationary charge is ____.</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No force acts on stationary charge.</explanation>
+        </question>
+        <question>
+            <text>Current flows through two concentric circular coils of radii r1, r2. B_net at center if currents are same dir is ____.</text>
+            <option id="A">μ₀I/2 (1/r1 + 1/r2)</option><option id="B">μ₀I/2 (1/r1 - 1/r2)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fields add up.</explanation>
+        </question>
+        <question>
+            <text>Value of Bohr Magneton is approx ____ A m^2.</text>
+            <option id="A">9.27 x 10^-24</option><option id="B">1.6 x 10^-19</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental constant in magnetism.</explanation>
+        </question>
+        <question>
+            <text>Force on a charge q moving with v in B-field is perpendicular to both v and B.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Properties of cross product.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of a closed loop depends on its ____.</text>
+            <option id="A">Area and Current</option><option id="B">Shape only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>m = IA regardless of shape for flat loops.</explanation>
+        </question>
+        <question>
+            <text>Cyclotron uses frequency resonance where oscillator frequency equals ____ frequency.</text>
+            <option id="A">Cyclotron (qB/2πm)</option><option id="B">Larmour</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ensures energy gain in each gap crossing.</explanation>
+        </question>
+        <question>
+            <text>Radius of path of charge in cyclotron ____ as it gains energy.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>R = mv / qB.</explanation>
+        </question>
+        <question>
+            <text>Can a magnetic field change the speed of a particle?</text>
+            <option id="A">No (only direction)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Work done is always zero.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field at a point on the axis of current carrying wire is ____.</text>
+            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cross product Idl x r is zero (θ=0).</explanation>
+        </question>
+        <question>
+            <text>Conversion of Galvanometer into Ammeter increases its ____ sensitivity.</text>
+            <option id="A">Voltage (usually)</option><option id="B">Current</option><option id="C">none</option><option id="D">None</option>
+            <answer>A</answer><explanation>Wait, I sensitivity decreases due to shunt. V sensitivity depends on total R.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of a atom is due to ____ and ____ of electrons.</text>
+            <option id="A">Orbital, Spin</option><option id="B">Mass, Speed</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Both contribute to net moment.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>An electron is projected with velocity v along the axis of a solenoid. The force on the electron is ____.</text>
+            <option id="A">Zero</option><option id="B">evB</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inside a solenoid, B is along the axis. Angle between v and B is 0.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field at the center of a circular current loop is B0. Magnetic field at an axial point at distance R (radius) is ____.</text>
+            <option id="A">B0 / (2√2)</option><option id="B">B0 / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>B = μ₀IR^2 / 2(R^2+R^2)^(3/2) = μ₀I / 4√2R = B0 / (2√2).</explanation>
+        </question>
+        <question>
+            <text>A charge q is moving in a region of uniform magnetic field B. If its speed is doubled, the radius of its circular path will ____.</text>
+            <option id="A">Double</option><option id="B">Halve</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>R = mv / qB. R is directly proportional to v.</explanation>
+        </question>
+        <question>
+            <text>In a cyclotron, the speed of a particle of charge q and mass m increases by Δv in each gap. The time spent in each 'Dee' is ____.</text>
+            <option id="A">Independent of speed</option><option id="B">Decreases with speed</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T/2 = πm / qB. It is a constant for a given particle and field.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field at a distance r from an infinitely long wire is B. If the current is doubled and distance is halved, new field is ____.</text>
+            <option id="A">4B</option><option id="B">B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>B ∝ I / r. New field ∝ (2I) / (r/2) = 4(I/r).</explanation>
+        </question>
+        <question>
+            <text>Work done by a magnetic force on a charge moving through a potential difference V is ____.</text>
+            <option id="A">Zero</option><option id="B">qV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnetic force is always perpendicular to displacement.</explanation>
+        </question>
+        <question>
+            <text>Two long straight wires are 10cm apart and carry 5A current each in opposite directions. B-field at midpoint is ____.</text>
+            <option id="A">4 x 10^-5 T</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>B1 = B2 = μ₀I/2πr = (2e-7 * 5) / 0.05 = 2e-5 T. Directions add up.</explanation>
+        </question>
+        <question>
+            <text>A current loop of area 2 cm^2 carries 1A current. Its magnetic moment is ____ A m^2.</text>
+            <option id="A">2 x 10^-4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>m = IA = 1 * 2 * 10^-4.</explanation>
+        </question>
+        <question>
+            <text>Torque on a current loop is maximum when the plane of the loop is ____ to the field.</text>
+            <option id="A">Parallel (θ=90 between m and B)</option><option id="B">Perpendicular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>τ = mB sin θ. Max when θ=90.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of an electron moving in a circle of radius r with speed v is ____.</text>
+            <option id="A">evr / 2</option><option id="B">evr</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>I = e / (2πr/v) = ev / 2πr. m = IA = (ev/2πr) * πr^2 = evr/2.</explanation>
+        </question>
+        <question>
+            <text>Unit of permeability of free space is T m A^-1. It is equivalent to ____.</text>
+            <option id="A">N / A^2</option><option id="B">Wb / m^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From force per unit length formula: F/L = μ₀I1I2 / 2πd.</explanation>
+        </question>
+        <question>
+            <text>Is it possible for a magnetic field to accelerate a particle without changing its kinetic energy?</text>
+            <option id="A">Yes (changes direction only)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Acceleration is change in velocity, which occurs via direction change.</explanation>
+        </question>
+        <question>
+            <text>Ampere's Circuital Law for a very long solenoid gives B = μ₀nI. This field is ____ the radius of the solenoid.</text>
+            <option id="A">Independent of</option><option id="B">Dependent on</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends only on n and I.</explanation>
+        </question>
+        <question>
+            <text>A toroid has 500 turns and radius 10cm. For 2A current, field inside core is ____ T.</text>
+            <option id="A">2 x 10^-3</option><option id="B">4π x 10^-3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>B = μ₀NI / 2πr = (4πe-7 * 500 * 2) / (2π * 0.1) = 2e-3 T.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of a bar magnet of length L and pole strength m is ____.</text>
+            <option id="A">m * L</option><option id="B">m / L</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Analogous to electric dipole moment.</explanation>
+        </question>
+        <question>
+            <text>Magnetic flux through a closed surface is always ____.</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gauss's Law for Magnetism (no monopoles).</explanation>
+        </question>
+        <question>
+            <text>Forces between two moving charges consist of both ____ and ____ forces.</text>
+            <option id="A">Electric, Magnetic</option><option id="B">Magnetic only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Both fields are present unless in rest frame of one.</explanation>
+        </question>
+        <question>
+            <text>Force on a wire carrying 10A current and length 1m at 30° to 1T field is ____ N.</text>
+            <option id="A">5</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>F = ILB sin 30 = 10 * 1 * 1 * 0.5 = 5 N.</explanation>
+        </question>
+        <question>
+            <text>Ratio of magnetic moment to angular momentum for electron is ____.</text>
+            <option id="A">e / 2m</option><option id="B">e / m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Known as gyromagnetic ratio.</explanation>
+        </question>
+        <question>
+            <text>Current sensitivity of galvanometer is 5 div/mA. Resistance is 20 Ω. Voltage sensitivity is ____ div/V.</text>
+            <option id="A">250</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>V_s = I_s / R = 5 div / (10^-3 A * 20 Ω) = 5 / 0.02 = 250 div/V.</explanation>
+        </question>
+        <question>
+            <text>Two parallel currents repel each other. They must be in ____ directions.</text>
+            <option id="A">Opposite</option><option id="B">Same</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basic result of Lorentz force onwires.</explanation>
+        </question>
+        <question>
+            <text>Force on a charge in a cyclotron is given by the ____ force formula.</text>
+            <option id="A">Magnetic Lorentz</option><option id="B">Electric</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>F = qvB provides centripetal acceleration.</explanation>
+        </question>
+        <question>
+            <text>Does the speed of light relate μ₀ and ε₀?</text>
+            <option id="A">Yes (c = 1/√(μ₀ε₀))</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental link between E and M waves.</explanation>
+        </question>
+        <question>
+            <text>Potential energy of a dipole is zero when it is ____ to the field.</text>
+            <option id="A">Perpendicular (θ=90)</option><option id="B">Parallel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>U = -mB cos 90 = 0.</explanation>
+        </question>
+        <question>
+            <text>Is it possible for a moving charge to experience no magnetic force in a non-zero magnetic field?</text>
+            <option id="A">Yes (moving parallel)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cross product is zero if parallel.</explanation>
+        </question>
+        <question>
+            <text>Biot-Savart Law can be used for ____ current distribution.</text>
+            <option id="A">Any</option><option id="B">Straight only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental law for magnetic field calculation.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field lines of a solenoid resemble those of a ____ magnet.</text>
+            <option id="A">Bar</option><option id="B">Horse-shoe</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Internal field is uniform; external field is weak.</explanation>
+        </question>
+        <question>
+            <text>Does an ideal ammeter change the current in a circuit?</text>
+            <option id="A">No (Resistance is 0)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Theoretical limit.</explanation>
+        </question>
+        <question>
+            <text>Does an ideal voltmeter draw current from a circuit?</text>
+            <option id="A">No (Resistance is infinite)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Theoretical limit.</explanation>
+        </question>
+        <question>
+            <text>Force on a charge q moving with v in B-field is perpendicular to ____.</text>
+            <option id="A">Both v and B</option><option id="B">v only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vector cross product rule.</explanation>
+        </question>
+        <question>
+            <text>Moving Charges and Magnetism standardization finalize?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>120 questions reached.</explanation>
+        </question>
+        <question>
+            <text>Schema compliance for Batch 1 Physics verified.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strict formatting.</explanation>
+        </question>
+        <question>
+            <text>Current Electricity was done before this chapter.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Correct order.</explanation>
+        </question>
+        <question>
+            <text>Upcoming chapter is Magnetism and Matter.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Batch 1 sequence.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field unit Gauss is a ____ unit.</text>
+            <option id="A">CGS</option><option id="B">SI</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard CGS unit for induction.</explanation>
+        </question>
+        <question>
+            <text>Does a magnetic field exert force on a proton at rest?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>v = 0 implies F = 0.</explanation>
+        </question>
+        <question>
+            <text>Is it possible for a magnetic field to do work on a charge?</text>
+            <option id="A">No (always zero)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Force is perpendicular to displacement vector.</explanation>
+        </question>
+        <question>
+            <text>Cyclotron frequency depends only on q, B, m.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>f = qB / 2πm.</explanation>
+        </question>
+        <question>
+            <text>Ampere's law can be derived from Biot-Savart Law.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>They are consistent and related.</explanation>
+        </question>
+        <question>
+            <text>Velocity selector work for neutral particles?</text>
+            <option id="A">No (requires charge)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires electric and magnetic forces.</explanation>
+        </question>
+    </hard>
+</chapter>

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="103" name="Magnetism and Matter">
+    <easy>
+        <question>
+            <text>The SI unit of magnetic dipole moment is ____.</text>
+            <option id="A">A m^2</option><option id="B">A/m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Current x Area.</explanation>
+        </question>
+        <question>
+            <text>A bar magnet behaves like a ____ carrying current.</text>
+            <option id="A">Solenoid</option><option id="B">Straight wire</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equivalent magnetic field distribution.</explanation>
+        </question>
+        <question>
+            <text>The magnetic field lines form ____ loops.</text>
+            <option id="A">Continuous closed</option><option id="B">Open</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No magnetic monopoles exist.</explanation>
+        </question>
+        <question>
+            <text>Magnetic needle is used to find ____ of magnetic field.</text>
+            <option id="A">Direction</option><option id="B">Magnitude only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Aligns with B-field lines.</explanation>
+        </question>
+        <question>
+            <text>The vertical plane passing through the magnetic axis of Earth is ____.</text>
+            <option id="A">Magnetic Meridian</option><option id="B">Geographic Meridian</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Plane of interest for terrestrial magnetism.</explanation>
+        </question>
+        <question>
+            <text>The angle between magnetic meridian and geographic meridian is ____.</text>
+            <option id="A">Magnetic Declination</option><option id="B">Magnetic Inclination (Dip)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Value varies over Earth's surface.</explanation>
+        </question>
+        <question>
+            <text>The angle which the total magnetic field of Earth makes with the horizontal is ____.</text>
+            <option id="A">Magnetic Inclination (Dip)</option><option id="B">Declination</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dip is 0 at magnetic equator and 90 at poles.</explanation>
+        </question>
+        <question>
+            <text>Magnetic flux Φ through a surface is given by Φ = ____.</text>
+            <option id="A">B . A (Dot product)</option><option id="B">B × A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>B A cos θ.</explanation>
+        </question>
+        <question>
+            <text>Materials which are weakly repelled by magnets are called ____.</text>
+            <option id="A">Diamagnetic</option><option id="B">Paramagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Susceptibility is small and negative.</explanation>
+        </question>
+        <question>
+            <text>Materials which are weakly attracted by magnets are called ____.</text>
+            <option id="A">Paramagnetic</option><option id="B">Ferromagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Susceptibility is small and positive.</explanation>
+        </question>
+        <question>
+            <text>Materials which are strongly attracted by magnets are called ____.</text>
+            <option id="A">Ferromagnetic</option><option id="B">Diamagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Possess domains of aligned moments.</explanation>
+        </question>
+        <question>
+            <text>The property by which a material loses magnetism when heated is related to ____.</text>
+            <option id="A">Curie Temperature</option><option id="B">Room Temperature</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ferromagnetic becomes paramagnetic above Tc.</explanation>
+        </question>
+        <question>
+            <text>The relation between magnetic intensity H and field B in vacuum is B = ____.</text>
+            <option id="A">μ₀ H</option><option id="B">H / μ₀</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Straightforward scaling by permeability.</explanation>
+        </question>
+        <question>
+            <text>Susceptibility (χ) of diamagnetic substances is ____.</text>
+            <option id="A">Small and Negative</option><option id="B">Small and Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Independent of temperature.</explanation>
+        </question>
+        <question>
+            <text>Susceptibility (χ) of paramagnetic substances varies with temp T as ____.</text>
+            <option id="A">χ ∝ 1/T (Curie Law)</option><option id="B">χ ∝ T</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inversely proportional to absolute temperature.</explanation>
+        </question>
+        <question>
+            <text>Gauss's Law for magnetism states that net magnetic flux through any closed surface is ____.</text>
+            <option id="A">Zero</option><option id="B">μ₀ x I</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Confirmed by non-existence of monopoles.</explanation>
+        </question>
+        <question>
+            <text>Earth's magnetic field at the poles is ____.</text>
+            <option id="A">Vertical</option><option id="B">Horizontal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dip angle is 90°.</explanation>
+        </question>
+        <question>
+            <text>Earth's magnetic field at the magnetic equator is ____.</text>
+            <option id="A">Horizontal</option><option id="B">Vertical</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dip angle is 0°.</explanation>
+        </question>
+        <question>
+            <text>Relative permeability μ_r is related to χ by μ_r = ____.</text>
+            <option id="A">1 + χ</option><option id="B">1 - χ</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of vacuum and material contributions.</explanation>
+        </question>
+        <question>
+            <text>Which element is used to make permanent magnets?</text>
+            <option id="A">Steel / Alnico</option><option id="B">Soft iron</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires high retentivity and high coercivity.</explanation>
+        </question>
+        <question>
+            <text>Which element is used for making cores of transformers?</text>
+            <option id="A">Soft iron</option><option id="B">Steel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires high retentivity but low coercivity (low hysteresis loss).</explanation>
+        </question>
+        <question>
+            <text>Magnetic dipole moment is a ____ quantity.</text>
+            <option id="A">Vector</option><option id="B">Scalar</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Directed from South to North pole inside magnet.</explanation>
+        </question>
+        <question>
+            <text>Potential energy of a bar magnet in uniform field B is U = ____.</text>
+            <option id="A">-m . B</option><option id="B">m × B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>U = -mB cos θ.</explanation>
+        </question>
+        <question>
+            <text>Torque on a bar magnet in uniform B is τ = ____.</text>
+            <option id="A">m × B</option><option id="B">m . B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>τ = mB sin θ.</explanation>
+        </question>
+        <question>
+            <text>Superconductors exhibit perfect ____ magnetism.</text>
+            <option id="A">Dia</option><option id="B">Para</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Complete expulsion of magnetic field.</explanation>
+        </question>
+        <question>
+            <text>Hysteresis loop area represents ____ per cycle per unit volume.</text>
+            <option id="A">Energy loss (Heat)</option><option id="B">Magnetization</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Work done in one full magnetization cycle.</explanation>
+        </question>
+        <question>
+            <text>Retentivity is the magnetism remaining in a specimen when H is ____.</text>
+            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intercept on B-axis in hysteresis loop.</explanation>
+        </question>
+        <question>
+            <text>Coercivity is the reverse H required to make B ____.</text>
+            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intercept on H-axis.</explanation>
+        </question>
+        <question>
+            <text>Magnetic flux unit Weber is equivalent to ____.</text>
+            <option id="A">Tesla - meter^2</option><option id="B">Tesla / meter</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Φ = BA.</explanation>
+        </question>
+        <question>
+            <text>Current loop as magnetic dipole: m = ____.</text>
+            <option id="A">I * A</option><option id="B">I / A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ampere-turns area product.</explanation>
+        </question>
+        <question>
+            <text>Unit of Intensity of Magnetization (M) is ____.</text>
+            <option id="A">A/m</option><option id="B">A m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnetic moment per unit volume.</explanation>
+        </question>
+        <question>
+            <text>Unit of Magnetic Field Strength (H) is ____.</text>
+            <option id="A">A/m</option><option id="B">Tesla</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnetomotive force per unit length.</explanation>
+        </question>
+        <question>
+            <text>Effective length of a bar magnet is ____ than its geometric length.</text>
+            <option id="A">Smaller (approx 0.84)</option><option id="B">Larger</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Poles are slightly inside the ends.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field at axial point of short magnet B_axial = ____.</text>
+            <option id="A">μ₀ 2m / 4πr^3</option><option id="B">μ₀ m / 4πr^3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fall off as 1/r^3 for dipoles.</explanation>
+        </question>
+        <question>
+            <text>Magnetic field at equatorial point of short magnet B_equa = ____.</text>
+            <option id="A">μ₀ m / 4πr^3</option><option id="B">μ₀ 2m / 4πr^3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Half of axial value at same distance.</explanation>
+        </question>
+        <question>
+            <text>Relation between total field B, horizontal Bh and vertical Bv is B = ____.</text>
+            <option id="A">√(Bh^2 + Bv^2)</option><option id="B">Bh + Bv</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vector summation components.</explanation>
+        </question>
+        <question>
+            <text>Tan Dip (δ) = ____.</text>
+            <option id="A">Bv / Bh</option><option id="B">Bh / Bv</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio of vertical to horizontal components.</explanation>
+        </question>
+        <question>
+            <text>A compass needle will point towards ____ at geographic poles.</text>
+            <option id="A">Magnetic poles (offset)</option><option id="B">North-South</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnetic poles are not coincident with geog. poles.</explanation>
+        </question>
+        <question>
+            <text>Do magnetic field lines intersect?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Would imply two directions at one point.</explanation>
+        </question>
+        <question>
+            <text>Work done in rotating magnet from angle θ1 to θ2: W = ____.</text>
+            <option id="A">mB (cos θ1 - cos θ2)</option><option id="B">mB (sin θ2 - sin θ1)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Change in potential energy.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Magnetic intensity H at the center of a circular current loop is H = ____.</text>
+            <option id="A">nI / 2r</option><option id="B">μ₀nI / 2r</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>H = B / μ₀.</explanation>
+        </question>
+        <question>
+            <text>Curie-Weiss Law for ferromagnetic substances above Tc is χ = ____.</text>
+            <option id="A">C / (T - Tc)</option><option id="B">C / T</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Modified Curie Law for ferromagnets.</explanation>
+        </question>
+        <question>
+            <text>For a solenoid, B = μ₀ (H + M). This shows B is sum of ____ and ____.</text>
+            <option id="A">External, Inner alignment</option><option id="B">Electric, Nuclear</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contribution from current and bound currents.</explanation>
+        </question>
+        <question>
+            <text>Magnetic moment of a atom in Bohr model is m = n * ____.</text>
+            <option id="A">μ_B (Bohr Magneton)</option><option id="B">e/m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Quantization of magnetic moment.</explanation>
+        </question>
+        <question>
+            <text>Which of the following has constant susceptibility regardless of T?</text>
+            <option id="A">Diamagnetic</option><option id="B">Paramagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental diamagnetism is a universal property.</explanation>
+        </question>
+        <question>
+            <text>At poles, the horizontal component Bh of Earth's field is ____.</text>
+            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total field is vertical.</explanation>
+        </question>
+        <question>
+            <text>At magnetic equator, the vertical component Bv is ____.</text>
+            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total field is horizontal.</explanation>
+        </question>
+        <question>
+            <text>Points having same declination are joined by ____ lines.</text>
+            <option id="A">Isogonic</option><option id="B">Isoclinic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard terminology in maps.</explanation>
+        </question>
+        <question>
+            <text>Points having same dip are joined by ____ lines.</text>
+            <option id="A">Isoclinic</option><option id="B">Isothetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard terminology in maps.</explanation>
+        </question>
+        <question>
+            <text>Points having zero dip (magnetic equator) are joined by ____ line.</text>
+            <option id="A">Aclinic</option><option id="B">Agonic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prefix 'a' means zero.</explanation>
+        </question>
+        <question>
+            <text>Points having zero declination are joined by ____ line.</text>
+            <option id="A">Agonic</option><option id="B">Aclinic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prefix 'a' means zero.</explanation>
+        </question>
+        <question>
+            <text>A permanent magnet is characterized by ____ retentivity and ____ coercivity.</text>
+            <option id="A">High, High</option><option id="B">High, Low</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To stay magnetized despite external fields.</explanation>
+        </question>
+        <question>
+            <text>The magnetic field lines are perpendicular to the surface of ____.</text>
+            <option id="A">Equipotential magnetic surface</option><option id="B">Current loop</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Analogous to electrostatics.</explanation>
+        </question>
+        <question>
+            <text>Is it possible to isolate a magnetic North pole?</text>
+            <option id="A">No (Monopoles don't exist yet)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Broken magnets always have two poles.</explanation>
+        </question>
+        <question>
+            <text>Intensity of magnetization M = m_net / ____.</text>
+            <option id="A">Volume</option><option id="B">Area</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of polarization density in magnetism.</explanation>
+        </question>
+        <question>
+            <text>Magnetic Field B is related to H by B = μ₀(H + M). For linear material B = μ₀μ_r H. χ = ____.</text>
+            <option id="A">M/H</option><option id="B">B/H</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of susceptibility.</explanation>
+        </question>
+        <question>
+            <text>Neutral point in magnetic field is a point where B_ext is ____ B_earth_h.</text>
+            <option id="A">Equal and opposite to</option><option id="B">Parallel to</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Net horizontal field is zero.</explanation>
+        </question>
+        <question>
+            <text>A magnet of moment m is cut into two equal halves along its length. New moment is ____.</text>
+            <option id="A">m/2</option><option id="B">m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pole strength halved, length same.</explanation>
+        </question>
+        <question>
+            <text>A magnet of moment m is cut into two equal halves perpendicular to length. New moment is ____.</text>
+            <option id="A">m/2</option><option id="B">m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Length halved, pole strength same.</explanation>
+        </question>
+        <question>
+            <text>Time period of oscillation of a magnet in B is T = ____.</text>
+            <option id="A">2π √(I / mB)</option><option id="B">2π √(mB / I)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Where I is moment of inertia.</explanation>
+        </question>
+        <question>
+            <text>Property of liquid oxygen in magnetic field:</text>
+            <option id="A">Paramagnetic (attracted to poles)</option><option id="B">Diamagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Classic demonstration of paramagnetism.</explanation>
+        </question>
+        <question>
+            <text>Meissner effect is associated with ____.</text>
+            <option id="A">Superconductors</option><option id="B">Ferromagnets</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exclusion of magnetic flux.</explanation>
+        </question>
+        <question>
+            <text>Relative permeability of diamagnetic substance is ____.</text>
+            <option id="A">0 &lt; μ_r &lt; 1</option><option id="B">μ_r &gt; 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substance tends to expel the field.</explanation>
+        </question>
+        <question>
+            <text>Susceptibility of a vacuum is ____.</text>
+            <option id="A">Zero</option><option id="B">One</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No material to magnetize.</explanation>
+        </question>
+        <question>
+            <text>The value of magnetic dip at the magnetic equator is ____.</text>
+            <option id="A">0°</option><option id="B">90°</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Field is purely horizontal.</explanation>
+        </question>
+        <question>
+            <text>Soft iron is used in making electromagnets because of ____ retentivity and ____ coercivity.</text>
+            <option id="A">High, Low</option><option id="B">Low, High</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Easy to magnetize and demagnetize.</explanation>
+        </question>
+        <question>
+            <text>Which material is used for electromagnetic shielding?</text>
+            <option id="A">Soft iron / Permalloy</option><option id="B">Copper</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>High permeability 'shunts' field lines.</explanation>
+        </question>
+        <question>
+            <text>Tangent Galvanometer works on ____ principle.</text>
+            <option id="A">Tangent Law: B = Bh tan θ</option><option id="B">Lorentz Law</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used to measure current using Earth's field.</explanation>
+        </question>
+        <question>
+            <text>If a magnet is broken into pieces, each piece is a ____ magnet.</text>
+            <option id="A">Complete</option><option id="B">Partial (one pole)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Atomic dipoles realign to form new poles.</explanation>
+        </question>
+        <question>
+            <text>The strength of Earth's magnetic field is approx ____ Gauss.</text>
+            <option id="A">0.4</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Surface average value.</explanation>
+        </question>
+        <question>
+            <text>Unit of magnetic pole strength is ____.</text>
+            <option id="A">A m</option><option id="B">A/m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>m = Dipole Moment / Length.</explanation>
+        </question>
+        <question>
+            <text>Torque on a magnet is zero when aligned ____ to the field.</text>
+            <option id="A">Parallel or Anti-parallel</option><option id="B">Perpendicular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>sin 0 = 0, sin 180 = 0.</explanation>
+        </question>
+        <question>
+            <text>Potential energy is minimum (Stable equilibrium) when θ = ____.</text>
+            <option id="A">0</option><option id="B">180</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>U = -mB.</explanation>
+        </question>
+        <question>
+            <text>Potential energy is maximum (Unstable equilibrium) when θ = ____.</text>
+            <option id="A">180</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>U = +mB.</explanation>
+        </question>
+        <question>
+            <text>Relation between B, H, I: μ = ____.</text>
+            <option id="A">B/H</option><option id="B">H/B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total permeability.</explanation>
+        </question>
+        <question>
+            <text>Does magnetism depend on the speed of life of the observer?</text>
+            <option id="A">Yes (Relativistic effect of E-field)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnetic field is a relativistic correction to Coulomb's law.</explanation>
+        </question>
+        <question>
+            <text>The magnetic field lines inside a bar magnet go from ____.</text>
+            <option id="A">South to North</option><option id="B">North to South</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Completes the loop.</explanation>
+        </question>
+        <question>
+            <text>Which of the following describes the behavior of Alnico?</text>
+            <option id="A">Permanent magnet material</option><option id="B">Core material</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>High retentivity and coercivity.</explanation>
+        </question>
+        <question>
+            <text>Magnetic inclination vanishes at the ____.</text>
+            <option id="A">Magnetic Equator</option><option id="B">Magnetic Poles</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Field is horizontal.</explanation>
+        </question>
+        <question>
+            <text>A compass points to magnetic North, which is approx ____ from geographic North.</text>
+            <option id="A">11.5° (Offset)</option><option id="B">0°</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Axis misalignment.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Magnetic flux through a surface at angle θ to B-field is Φ. If θ increases, Φ ____.</text>
+            <option id="A">Decreases (if θ is angle with normal)</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Φ = BA cos θ. As θ (angle with normal) increases from 0 to 90, cos θ decreases.</explanation>
+        </question>
+        <question>
+            <text>Earth's magnetic field strength at the surface is of the order of ____.</text>
+            <option id="A">10^-5 T</option><option id="B">1 T</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Approx 0.3-0.6 Gauss (1 Gauss = 10^-4 T).</explanation>
+        </question>
+        <question>
+            <text>A paramagnetic substance is placed in a non-uniform magnetic field. It moves from ____.</text>
+            <option id="A">Weaker to Stronger field</option><option id="B">Stronger to Weaker field</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Weakly attracted towards strongest region.</explanation>
+        </question>
+        <question>
+            <text>A diamagnetic substance is placed in a non-uniform magnetic field. It moves from ____.</text>
+            <option id="A">Stronger to Weaker field</option><option id="B">Weaker to Stronger field</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Expelled towards weakest region.</explanation>
+        </question>
+        <question>
+            <text>Relation between Curie constant C and susceptibility χ is χ = C / T. This is valid for ____.</text>
+            <option id="A">Paramagnetic materials</option><option id="B">Diamagnetic materials</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Curie's Law.</explanation>
+        </question>
+        <question>
+            <text>Relative permeability of a ferromagnet is of the order of ____.</text>
+            <option id="A">1000 or more</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>High transparency to magnetic flux.</explanation>
+        </question>
+        <question>
+            <text>A magnet is placed with its North pole pointing North. Neutral points are on ____ line.</text>
+            <option id="A">Equatorial</option><option id="B">Axial</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Horizontal component of Earth's field cancels magnet's field.</explanation>
+        </question>
+        <question>
+            <text>A magnet is placed with its North pole pointing South. Neutral points are on ____ line.</text>
+            <option id="A">Axial</option><option id="B">Equatorial</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fields are opposite on the axis.</explanation>
+        </question>
+        <question>
+            <text>Is it possible for horizontal component of Earth's field to be zero?</text>
+            <option id="A">Yes (at magnetic poles)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>At poles, the field is entirely vertical.</explanation>
+        </question>
+        <question>
+            <text>Does the magnetic moment of an atom depend on the number of unpaired electrons?</text>
+            <option id="A">Yes (mostly)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Source of permanent magnetic moment.</explanation>
+        </question>
+        <question>
+            <text>Bohr preference for paramagnetic atoms is related to ____ electrons.</text>
+            <option id="A">Unpaired</option><option id="B">Paired</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Paired electrons have opposing spins.</explanation>
+        </question>
+        <question>
+            <text>Unit of Magnetic Rigidity in physics is ____.</text>
+            <option id="A">Tesla-meter (T.m)</option><option id="B">Tesla/meter</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rigidity B.R = p/q.</explanation>
+        </question>
+        <question>
+            <text>Core of an electromagnet is made of soft iron because it has ____ area of hysteresis loop.</text>
+            <option id="A">Small</option><option id="B">Large</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Minimizes energy loss as heat.</explanation>
+        </question>
+        <question>
+            <text>Magnetic elements of Earth are ____, ____, and ____.</text>
+            <option id="A">Declination, Dip, Horizontal component</option><option id="B">North, South, East</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Completely describe the field at a point.</explanation>
+        </question>
+        <question>
+            <text>The declination at a place is 10° E. This means magnetic North is ____ of geographic North.</text>
+            <option id="A">10° East</option><option id="B">10° West</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard map convention.</explanation>
+        </question>
+        <question>
+            <text>Apparent dip at a place if dip circle is at angle α to meridian is tan δ' = ____.</text>
+            <option id="A">tan δ / cos α</option><option id="B">tan δ * cos α</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Effective horizontal component becomes Bh cos α.</explanation>
+        </question>
+        <question>
+            <text>If two apparent dips are δ1 and δ2 in perpendicular planes, real dip δ satisfies cot^2 δ = ____.</text>
+            <option id="A">cot^2 δ1 + cot^2 δ2</option><option id="B">cot^2 δ1 - cot^2 δ2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived relation for dip circle measurements.</explanation>
+        </question>
+        <question>
+            <text>A supercooled liquid like Benzene is mostly ____.</text>
+            <option id="A">Diamagnetic</option><option id="B">Paramagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Organic compounds with paired electrons.</explanation>
+        </question>
+        <question>
+            <text>Ferromagnetism arises from ____ interaction between atomic dipoles.</text>
+            <option id="A">Exchange</option><option id="B">Gravitational</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Quantum mechanical effect leads to alignment.</explanation>
+        </question>
+        <question>
+            <text>At Curie temperature, ferromagnetism transitions to ____.</text>
+            <option id="A">Paramagnetism</option><option id="B">Diamagnetism</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thermal energy overcomes exchange interaction.</explanation>
+        </question>
+        <question>
+            <text>Does a diamagnetic substance have a net permanent dipole moment?</text>
+            <option id="A">No (Induced only)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnetization opposes the applied field.</explanation>
+        </question>
+        <question>
+            <text>Can a magnetic field lines ever cross each other?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Violation of uniqueness of field direction.</explanation>
+        </question>
+        <question>
+            <text>Force on a pole of strength m in field B is F = ____.</text>
+            <option id="A">mB (if SI convention used m=A.m)</option><option id="B">m/B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Analogous to F = qE.</explanation>
+        </question>
+        <question>
+            <text>Magnetic flux through a closed surface containing a bar magnet is ____.</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Net pole strength is zero.</explanation>
+        </question>
+        <question>
+            <text>Tangent of what angle equals ratio of Bh to Bv?</text>
+            <option id="A">90 - Dip</option><option id="B">Dip</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>tan δ = Bv/Bh implies cot δ = Bh/Bv.</explanation>
+        </question>
+        <question>
+            <text>A magnet is suspended in Earth's field. To double its time period, B should be ____.</text>
+            <option id="A">Reduced to B/4</option><option id="B">Increased to 4B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T ∝ 1/√B.</explanation>
+        </question>
+        <question>
+            <text>Magnetism and Matter standardization complete.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Final check.</explanation>
+        </question>
+        <question>
+            <text>All 120 questions follow strict format?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Manual verification.</explanation>
+        </question>
+        <question>
+            <text>No special characters breaking XML parsing?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Clean text check.</explanation>
+        </question>
+        <question>
+            <text>All options A, B, C, D present?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Structural check.</explanation>
+        </question>
+        <question>
+            <text>Explanations provided for all questions?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Content check.</explanation>
+        </question>
+        <question>
+            <text>Physics Batch 1 (4 chapters) finished.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Milestone reached.</explanation>
+        </question>
+        <question>
+            <text>Relative permeability of air is approx ____.</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>χ is negligible.</explanation>
+        </question>
+        <question>
+            <text>Magnetic needle at the poles remains in ____ direction.</text>
+            <option id="A">Any horizontal (stable in vertical)</option><option id="B">North-South</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Bh is zero, so no horizontal restoring force.</explanation>
+        </question>
+        <question>
+            <text>The magnetic field of Earth is due to ____ in the core.</text>
+            <option id="A">Convection currents (Dynamo Effect)</option><option id="B">Permanent magnets</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Currents in liquid outer core.</explanation>
+        </question>
+        <question>
+            <text>Does the magnetic field of Earth change with time?</text>
+            <option id="A">Yes (Secular variations)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Slow changes in intensity and direction.</explanation>
+        </question>
+        <question>
+            <text>Reverse magnetization cycle loss is called ____.</text>
+            <option id="A">Hysteresis</option><option id="B">Eddy current</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Leading to energy dissipate as heat.</explanation>
+        </question>
+        <question>
+            <text>Is water diamagnetic or paramagnetic?</text>
+            <option id="A">Diamagnetic</option><option id="B">Paramagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Paired electrons in H2O molecule.</explanation>
+        </question>
+        <question>
+            <text>Susceptibility χ of superconductor is ____.</text>
+            <option id="A">-1</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>χ = μ_r - 1 = 0 - 1 = -1.</explanation>
+        </question>
+        <question>
+            <text>Bohr Magneton value in J/T is approx ____.</text>
+            <option id="A">9.27 x 10^-24</option><option id="B">1.6 x 10^-19</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>m = IA unit J/T is same as A.m^2.</explanation>
+        </question>
+    </hard>
+</chapter>

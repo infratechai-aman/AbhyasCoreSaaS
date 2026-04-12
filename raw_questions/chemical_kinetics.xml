@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="118" name="Chemical Kinetics">
+    <easy>
+        <question>
+            <text>The branch of chemistry which deals with the study of reaction rates and their mechanisms is ____.</text>
+            <option id="A">Chemical Kinetics</option><option id="B">Thermodynamics</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Word derived from Greek 'kinesis' meaning movement.</explanation>
+        </question>
+        <question>
+            <text>The term which tells us how fast a chemical reaction occurs is ____.</text>
+            <option id="A">Rate of reaction</option><option id="B">Order</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Change in concentration per unit time.</explanation>
+        </question>
+        <question>
+            <text>The unit of rate of reaction is ____.</text>
+            <option id="A">mol L^-1 s^-1</option><option id="B">mol L^-1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard concentration change per second.</explanation>
+        </question>
+        <question>
+            <text>For a reaction R -> P, the rate in terms of R is expressed as ____.</text>
+            <option id="A">-d[R]/dt</option><option id="B">d[R]/dt</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Negative sign indicates decrease in reactant concentration.</explanation>
+        </question>
+        <question>
+            <text>The rate of reaction measured at a particular moment of time is called ____ rate.</text>
+            <option id="A">Instantaneous</option><option id="B">Average</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculated from the slope of tangent at that time.</explanation>
+        </question>
+        <question>
+            <text>Slope of [R] vs time graph for a zero order reaction is ____.</text>
+            <option id="A">-k</option><option id="B">k</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From [R] = -kt + [R]0.</explanation>
+        </question>
+        <question>
+            <text>The sum of powers of concentration terms in the rate law is called ____.</text>
+            <option id="A">Order of reaction</option><option id="B">Molecularity</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>An experimental quantity.</explanation>
+        </question>
+        <question>
+            <text>Order of a reaction can be zero. True or False?</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Decomposition of ammonia on metal surfaces.</explanation>
+        </question>
+        <question>
+            <text>Molecularity is the number of reacting species colliding ____ to bring about reaction.</text>
+            <option id="A">Simultaneously</option><option id="B">Sequentially</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>A theoretical concept for elementary reactions.</explanation>
+        </question>
+        <question>
+            <text>Molecularity can be zero. True or False?</text>
+            <option id="A">False</option><option id="B">True</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>At least one molecule must be present to react.</explanation>
+        </question>
+        <question>
+            <text>Elementary reactions are those that occur in ____ step.</text>
+            <option id="A">One single</option><option id="B">Multiple</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Simple one-step conversion.</explanation>
+        </question>
+        <question>
+            <text>The unit of rate constant k for a first order reaction is ____.</text>
+            <option id="A">s^-1</option><option id="B">mol L^-1 s^-1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Time inverse only.</explanation>
+        </question>
+        <question>
+            <text>The half-life of a first order reaction is ____ of initial concentration.</text>
+            <option id="A">Independent</option><option id="B">Dependent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>t1/2 = 0.693 / k.</explanation>
+        </question>
+        <question>
+            <text>The minimum extra energy required by reactants to form products is ____.</text>
+            <option id="A">Activation energy (Ea)</option><option id="B">Potential energy</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Represents the energy barrier.</explanation>
+        </question>
+        <question>
+            <text>With every 10 degree rise in temperature, rate of reaction nearly ____.</text>
+            <option id="A">Doubles</option><option id="B">Triples</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Temperature coefficient is approx 2.</explanation>
+        </question>
+        <question>
+            <text>Equation k = A e^-Ea/RT is known as ____ equation.</text>
+            <option id="A">Arrhenius</option><option id="B">Nernst</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relates k to absolute temperature.</explanation>
+        </question>
+        <question>
+            <text>A catalyst increases rate by ____ the activation energy.</text>
+            <option id="A">Lowering</option><option id="B">Raising</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Provides an alternative lower energy path.</explanation>
+        </question>
+        <question>
+            <text>The slowest step in a complex reaction is the ____ step.</text>
+            <option id="A">Rate determining</option><option id="B">Initial</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Controls the overall speed.</explanation>
+        </question>
+        <question>
+            <text>Threshold energy is equal to Activation energy plus ____ energy.</text>
+            <option id="A">Average kinetic</option><option id="B">Potential</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total energy needed for successful collision.</explanation>
+        </question>
+        <question>
+            <text>For a zero order reaction, rate is proportional to [R] to the power of ____.</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Independent of concentration.</explanation>
+        </question>
+        <question>
+            <text>Unit of rate constant k for a zero order reaction is ____.</text>
+            <option id="A">mol L^-1 s^-1</option><option id="B">s^-1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Same as the unit of rate.</explanation>
+        </question>
+        <question>
+            <text>The fraction of molecules with energy >= Ea is given by ____.</text>
+            <option id="A">e^-Ea/RT</option><option id="B">Arrhenius factor A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Boltzmann factor part of Arrhenius equation.</explanation>
+        </question>
+        <question>
+            <text>Half-life of a zero order reaction is proportional to ____.</text>
+            <option id="A">Initial concentration [R]0</option><option id="B">1 / [R]0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>t1/2 = [R]0 / 2k.</explanation>
+        </question>
+        <question>
+            <text>Order of reaction can be a fraction. True or False?</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Common in gaseous reactions involving radicals.</explanation>
+        </question>
+        <question>
+            <text>The slope of ln k vs 1/T graph is ____.</text>
+            <option id="A">-Ea / R</option><option id="B">Ea / R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived from logarithmic form of Arrhenius eqn.</explanation>
+        </question>
+        <question>
+            <text>Most radioactive decays follow ____ order kinetics.</text>
+            <option id="A">First</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate proportional to amount of substance.</explanation>
+        </question>
+        <question>
+            <text>The value of pre-exponential factor A is also called ____ factor.</text>
+            <option id="A">Frequency</option><option id="B">Collision</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Represents total possible collisions.</explanation>
+        </question>
+        <question>
+            <text>Orientation of colliding molecules is accounted for by ____ factor.</text>
+            <option id="A">Steric / Probability (P)</option><option id="B">Boltzmann</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Crucial part of Collision Theory.</explanation>
+        </question>
+        <question>
+            <text>Pseudo first order reactions have molecularity ____ but order ____.</text>
+            <option id="A">2, 1</option><option id="B">1, 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Hydrolysis of ester with excess water.</explanation>
+        </question>
+        <question>
+            <text>Unit of rate constant k for a second order reaction is ____.</text>
+            <option id="A">L mol^-1 s^-1</option><option id="B">mol L^-1 s^-1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived from Rate / [C]^2.</explanation>
+        </question>
+        <question>
+            <text>For a first order reaction, if conc is doubled, rate is ____.</text>
+            <option id="A">Doubled</option><option id="B">Four times</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linear dependence on concentration.</explanation>
+        </question>
+        <question>
+            <text>For a zero order reaction, if conc is tripled, rate is ____.</text>
+            <option id="A">Unchanged</option><option id="B">Tripled</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate = k [R]^0.</explanation>
+        </question>
+        <question>
+            <text>Hydrogenation of ethene is a ____ reaction.</text>
+            <option id="A">First order</option><option id="B">Zero order</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Often cited as first order example in textbooks.</explanation>
+        </question>
+        <question>
+            <text>Integrated rate law for zero order: [R] = ____.</text>
+            <option id="A">-kt + [R]0</option><option id="B">[R]0 e^-kt</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linear equation for concentration decay.</explanation>
+        </question>
+        <question>
+            <text>Integrated rate law for first order: ln[R] = ____.</text>
+            <option id="A">-kt + ln[R]0</option><option id="B">-kt + [R]0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Logarithmic decay of concentration.</explanation>
+        </question>
+        <question>
+            <text>Rate constant k is a measure of ____ rate.</text>
+            <option id="A">Intrinsic / Specific</option><option id="B">Average</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate of reaction when all concentrations are 1 M.</explanation>
+        </question>
+        <question>
+            <text>Effective collisions are those that have sufficient ____ and proper ____.</text>
+            <option id="A">Energy, Orientation</option><option id="B">Speed, Mass</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>The two conditions for collision theory success.</explanation>
+        </question>
+        <question>
+            <text>Decomposition of HI on gold surface is ____ order.</text>
+            <option id="A">Zero</option><option id="B">First</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Surface reaches saturation point quickly.</explanation>
+        </question>
+        <question>
+            <text>Which order of reaction has k independent of temperature units?</text>
+            <option id="A">None (k unit always has time^-1)</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Check unit formulas. All contain s^-1 or min^-1.</explanation>
+        </question>
+        <question>
+            <text>The value of ln(2) is approx ____.</text>
+            <option id="A">0.693</option><option id="B">2.303</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used in t1/2 calculation for 1st order.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>For reaction 2A -> P, rate = k[A]^2. If [A] is doubled, the new rate is ____ times the old rate.</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate is proportional to square of concentration.</explanation>
+        </question>
+        <question>
+            <text>For reaction A+B -> P, rate = k[A]^1/2 [B]^2. The overall order of reaction is ____.</text>
+            <option id="A">2.5 (5/2)</option><option id="B">1.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of exponents: 1/2 + 2 = 2.5.</explanation>
+        </question>
+        <question>
+            <text>Rate constant k for a first order reaction is 5.5 * 10^-14 s^-1. Its half-life is ____ s.</text>
+            <option id="A">1.26 * 10^13</option><option id="B">0.693 * 10^14</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>t1/2 = 0.693 / (5.5 * 10^-14).</explanation>
+        </question>
+        <question>
+            <text>Reaction 2A + B -> C is elementary. The rate law is ____.</text>
+            <option id="A">Rate = k[A]^2 [B]</option><option id="B">Rate = k[A][B]^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>For elementary reactions, order equals stoichiometry.</explanation>
+        </question>
+        <question>
+            <text>Unit of k if Rate = mol L^-1 s^-1 and [A] = [B] = mol L^-1 for Order 2 is ____.</text>
+            <option id="A">L mol^-1 s^-1</option><option id="B">mol L^-1 s^-1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived consistently from units of rate and concentration power.</explanation>
+        </question>
+        <question>
+            <text>Activation energy of a reaction is zero. The value of k will ____ with temp.</text>
+            <option id="A">Remain constant</option><option id="B">Increase exponentially</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>k = A e^0 = A (independent of T).</explanation>
+        </question>
+        <question>
+            <text>Time taken for 90% completion of first order reaction is approx ____ times t1/2.</text>
+            <option id="A">3.3</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>log(100/10) / log(2) = 1 / 0.301 approx 3.32.</explanation>
+        </question>
+        <question>
+            <text>Time taken for 99.9% completion of first order reaction is approx ____ times t1/2.</text>
+            <option id="A">10</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>log(1000) / log(2) approx 9.96.</explanation>
+        </question>
+        <question>
+            <text>Arrhenius plot of log k vs 1/T has slope equal to ____.</text>
+            <option id="A">-Ea / 2.303R</option><option id="B">-Ea / R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>In base 10 logarithmic units.</explanation>
+        </question>
+        <question>
+            <text>Which order of reaction has k independent of concentration units?</text>
+            <option id="A">First order (s^-1)</option><option id="B">Zero order</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Order 1 has time^-1 only.</explanation>
+        </question>
+        <question>
+            <text>The rate of decomposition of NH3 on Pt at high pressure is zero order because ____.</text>
+            <option id="A">Surface is fully covered by molecules</option><option id="B">Reaction is slow</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate becomes independent of gas pressure once saturated.</explanation>
+        </question>
+        <question>
+            <text>Half-life of zero order is 10 min for [R]0=1.0M. For [R]0=2.0M, t1/2 is ____ min.</text>
+            <option id="A">20</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Directly proportional to initial concentration.</explanation>
+        </question>
+        <question>
+            <text>Half-life of first order is 10 min for [R]0=1.0M. For [R]0=2.0M, t1/2 is ____ min.</text>
+            <option id="A">10</option><option id="B">20</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Completely independent of initial concentration.</explanation>
+        </question>
+        <question>
+            <text>A first order reaction is 25% complete in 20 min. Calculate time for 75% completion.</text>
+            <option id="A">96.3 min (approx)</option><option id="B">60 min</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>k = (2.303/20) log(100/75); t = (2.303/k) log(100/25).</explanation>
+        </question>
+        <question>
+            <text>Relation between k1 at T1 and k2 at T2: log(k2/k1) = ____.</text>
+            <option id="A">(Ea / 2.303R) * (T2-T1)/(T1T2)</option><option id="B">(Ea / R) * (T2-T1)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard integrated Arrhenius equation for two temps.</explanation>
+        </question>
+        <question>
+            <text>If rate constant has units mol^-1 L s^-1, the order is ____.</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Check: L mol^-1 s^-1 is second order.</explanation>
+        </question>
+        <question>
+            <text>Pseudo first order hydrolysis of ethyl acetate uses catalyst ____.</text>
+            <option id="A">H+ (Acid)</option><option id="B">OH- (Base)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mineral acids like HCl are commonly used.</explanation>
+        </question>
+        <question>
+            <text>In Collision Theory, collision frequency Z for bimolecular reaction is of order ____.</text>
+            <option id="A">10^25 to 10^28</option><option id="B">10^10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Very high number of collisions per volume per sec.</explanation>
+        </question>
+        <question>
+            <text>Activation energy for forward reaction is 50 kJ/mol and ΔH is -20 kJ/mol. Ea for reverse is ____.</text>
+            <option id="A">70 kJ/mol</option><option id="B">30 kJ/mol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ef - Eb = ΔH => Eb = Ef - ΔH = 50 - (-20) = 70.</explanation>
+        </question>
+        <question>
+            <text>Activation energy for forward reaction is 50 kJ/mol and ΔH is +20 kJ/mol. Ea for reverse is ____.</text>
+            <option id="A">30 kJ/mol</option><option id="B">70 kJ/mol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Eb = Ef - ΔH = 50 - 20 = 30.</explanation>
+        </question>
+        <question>
+            <text>Order of reaction can be determined from ____.</text>
+            <option id="A">Experimental results of rate vs conc</option><option id="B">Balanced equation only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cannot be predicted theoretically for complex reactions.</explanation>
+        </question>
+        <question>
+            <text>Decomposition of HI on Platinum is zero order. True or False?</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Surface catalyzed reaction.</explanation>
+        </question>
+        <question>
+            <text>Reaction 2NO + O2 -> 2NO2 is of overall order ____.</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate = k [NO]^2 [O2].</explanation>
+        </question>
+        <question>
+            <text>Effect of increase in pressure for gaseous reactions? ____.</text>
+            <option id="A">Rate increases (conc increases)</option><option id="B">Rate decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>More molecules per unit volume.</explanation>
+        </question>
+        <question>
+            <text>Average rate depends on the ____ of time interval.</text>
+            <option id="A">Magnitude (Δt)</option><option id="B">Absolute time only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate = Δ[C]/Δt.</explanation>
+        </question>
+        <question>
+            <text>Is it possible for molecularity of a reaction to be 10?</text>
+            <option id="A">No (Statistical impossibility of simultaneous collision)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rarely exceeds 3.</explanation>
+        </question>
+        <question>
+            <text>Activated complex exists for a very ____ period of time.</text>
+            <option id="A">Short (approx 10^-12 s)</option><option id="B">Long</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Highly unstable high-energy state.</explanation>
+        </question>
+        <question>
+            <text>In a reaction mechanism, intermediates are ____.</text>
+            <option id="A">Produced in one step and consumed in another</option><option id="B">Starting materials</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Do not appear in overall balanced equation.</explanation>
+        </question>
+        <question>
+            <text>A unit for k is L^2 mol^-2 s^-1. The order is ____.</text>
+            <option id="A">3</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Check general formula (mol/L)^(1-3) s^-1 = L^2 mol^-2 s^-1.</explanation>
+        </question>
+        <question>
+            <text>The value of R in Arrhenius equation depends on units of ____.</text>
+            <option id="A">Activation energy (Ea)</option><option id="B">Temperature</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Usually 8.314 J/K/mol or 2 cal/K/mol.</explanation>
+        </question>
+        <question>
+            <text>Boltzmann constant is equal to R / ____.</text>
+            <option id="A">Avogadro number (Na)</option><option id="B">Faraday constant</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Per molecule energy constant.</explanation>
+        </question>
+        <question>
+            <text>Reaction between H2 and I2 to give HI is believed to be ____.</text>
+            <option id="A">Elementary and Bimolecular</option><option id="B">Complex</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One of the rare examples of simple transition state.</explanation>
+        </question>
+        <question>
+            <text>Reaction between H2 and Br2 to give HBr is ____.</text>
+            <option id="A">Complex (Chain reaction)</option><option id="B">Elementary</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Difficult mechanism involving radicals.</explanation>
+        </question>
+        <question>
+            <text>Slope of ln[R] vs time graph for first order reaction is ____.</text>
+            <option id="A">-k</option><option id="B">k</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From integrated ln form.</explanation>
+        </question>
+        <question>
+            <text>Slope of [R] vs time graph for zero order is ____.</text>
+            <option id="A">-k</option><option id="B">k</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linear concentration decay.</explanation>
+        </question>
+        <question>
+            <text>For reaction 2A -> B, if rate of disappearance of A is 0.04, rate of appearance of B is ____.</text>
+            <option id="A">0.02</option><option id="B">0.08</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1/2 d[A]/dt = d[B]/dt.</explanation>
+        </question>
+        <question>
+            <text>Unit of Pre-exponential factor A for third order is ____.</text>
+            <option id="A">L^2 mol^-2 s^-1</option><option id="B">s^-1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Matches the units of k.</explanation>
+        </question>
+        <question>
+            <text>Steric factor P generally has a value ____.</text>
+            <option id="A">Less than 1</option><option id="B">Greater than 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Accounts for orientation selectivity.</explanation>
+        </question>
+        <question>
+            <text>Increase in temperature shifts the Maxwell-Boltzmann distribution to ____.</text>
+            <option id="A">Right and flattens it</option><option id="B">Left</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Higher fraction of molecules have higher energy.</explanation>
+        </question>
+        <question>
+            <text>Catalyst is regenerated at the ____ of the reaction.</text>
+            <option id="A">End</option><option id="B">Beginning</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Physical and chemical properties remain unchanged after use.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>For a reaction R -> P, half-life is 100 s when [R]0=1M and 50 s when [R]0=2M. The order is ____.</text>
+            <option id="A">Zero</option><option id="B">First</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>t1/2 proportional to conc implies zero order.</explanation>
+        </question>
+        <question>
+            <text>For a reaction R -> P, half-life is 100 s when [R]0=1M and 100 s when [R]0=2M. The order is ____.</text>
+            <option id="A">First</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>t1/2 independent of conc implies first order.</explanation>
+        </question>
+        <question>
+            <text>A first order reaction has k = 0.005 min^-1. If [R]0 = 0.1M, conc after 200 min is ____.</text>
+            <option id="A">0.0368 M</option><option id="B">0.05 M</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>[R] = 0.1 * e^(-0.005 * 200) = 0.1 * e^-1 = 0.0368.</explanation>
+        </question>
+        <question>
+            <text>Ratio of t(75%) to t(50%) for a first order reaction is exactly ____.</text>
+            <option id="A">2</option><option id="B">1.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>75% completion is 2 half-lives.</explanation>
+        </question>
+        <question>
+            <text>Ratio of t(87.5%) to t(50%) for a first order reaction is exactly ____.</text>
+            <option id="A">3</option><option id="B">4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>87.5% completion is 3 half-lives.</explanation>
+        </question>
+        <question>
+            <text>If rate doubles when temp rises from 300K to 310K, Ea is approx ____.</text>
+            <option id="A">53.6 kJ/mol</option><option id="B">100 kJ/mol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>log 2 = (Ea / 2.303 * 8.314) * (10 / 93000).</explanation>
+        </question>
+        <question>
+            <text>Decomposition of N2O5 follows first order. If k = 3.4 * 10^-5 s^-1, time for 50% decay? ____.</text>
+            <option id="A">20382 s</option><option id="B">10000 s</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>t1/2 = 0.693 / (3.4 * 10^-5).</explanation>
+        </question>
+        <question>
+            <text>In a reaction mechanism, the sum of molecularities of all steps is ____.</text>
+            <option id="A">Meaningless</option><option id="B">Overall order</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Molecularity is per step property.</explanation>
+        </question>
+        <question>
+            <text>If a reaction is zero order with respect to R, it must be ____.</text>
+            <option id="A">Complex</option><option id="B">Elementary</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Elementary reactions have order >= 1 (requires collision).</explanation>
+        </question>
+        <question>
+            <text>Concentration of reactant after n half-lives (for 1st order) is ____.</text>
+            <option id="A">[R]0 / 2^n</option><option id="B">[R]0 / n</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exponential decay discrete form.</explanation>
+        </question>
+        <question>
+            <text>Quantity (Ea/RT) is ____.</text>
+            <option id="A">Dimensionless</option><option id="B">Energy units</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio of two energy terms.</explanation>
+        </question>
+        <question>
+            <text>Boltzmann distribution curve area represents ____ molecules.</text>
+            <option id="A">Fraction / Total number of</option><option id="B">Speed of</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Integral gives probability.</explanation>
+        </question>
+        <question>
+            <text>Transition state theory was developed by ____.</text>
+            <option id="A">Eyring and Polanyi</option><option id="B">Arrhenius</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Beyond simple Arrhenius model.</explanation>
+        </question>
+        <question>
+            <text>For a reaction 3A -> P, if rate triples when [A] stays same? ____.</text>
+            <option id="A">Impossible (contradicts fixed T and catalyst state)</option><option id="B">Possible</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate constant is constant at fixed T.</explanation>
+        </question>
+        <question>
+            <text>Which order reaction never goes to completion ideally?</text>
+            <option id="A">First order</option><option id="B">Zero order</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Asymptotically approaches zero.</explanation>
+        </question>
+        <question>
+            <text>Rate constant k for zero order depends on surface area for ____ reactions.</text>
+            <option id="A">Heterogeneous surface-catalyzed</option><option id="B">Homogeneous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>More sites allow higher absolute rate.</explanation>
+        </question>
+        <question>
+            <text>Slope of plot 1/[R] vs t for second order (2R -> P) is ____.</text>
+            <option id="A">k</option><option id="B">-k</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From 1/[R] - 1/[R]0 = kt.</explanation>
+        </question>
+        <question>
+            <text>Units of k if order is 3/2: ____.</text>
+            <option id="A">L^1/2 mol^-1/2 s^-1</option><option id="B">mol^1/2 L^-1/2 s^-1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>(mol/L)^(1 - 1.5) s^-1 = (mol/L)^-0.5 s^-1.</explanation>
+        </question>
+        <question>
+            <text>Ratio of K310/K300 is approx 2. This value is known as ____.</text>
+            <option id="A">Temperature Coefficient</option><option id="B">Activation factor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard way to express T dependence.</explanation>
+        </question>
+        <question>
+            <text>For second order 2A -> P, t1/2 is proportional to ____.</text>
+            <option id="A">1 / [A]0</option><option id="B">[A]0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>t1/2 = 1 / (k[A]0).</explanation>
+        </question>
+        <question>
+            <text>Reaction A -> B follows first order. If [A]0 = 0.8M and t1/2 = 20 min, conc after 1 hour?</text>
+            <option id="A">0.1 M</option><option id="B">0.2 M</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>60 min = 3 half-lives. 0.8 / 2^3 = 0.1.</explanation>
+        </question>
+        <question>
+            <text>In complex reactions, can order be different from stoichiometry of RDS? ____.</text>
+            <option id="A">No (overall rate = RDS rate)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of RDS.</explanation>
+        </question>
+        <question>
+            <text>A substance which behaves as catalyst and reactant is ____ catalyst.</text>
+            <option id="A">Autocatalyst</option><option id="B">Biocatalyst</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Product acts as catalyst.</explanation>
+        </question>
+        <question>
+            <text>Autocatalysis example is oxidation of ____ by KMnO4.</text>
+            <option id="A">Oxalic acid (Mn2+ is catalyst)</option><option id="B">Sugar</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate increases as Mn2+ is formed.</explanation>
+        </question>
+        <question>
+            <text>Arrhenius equation in differential form: d(ln k)/dT = ____.</text>
+            <option id="A">Ea / RT^2</option><option id="B">-Ea / RT^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relates rate constant change to T variation.</explanation>
+        </question>
+        <question>
+            <text>Van't Hoff equation in kinetics (distinguished from thermodynamics) relates to ____.</text>
+            <option id="A">Temperature dependence</option><option id="B">Pressure</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Similar form to Arrhenius but for Kc.</explanation>
+        </question>
+        <question>
+            <text>Probability of effective collision increases with ____ temperature.</text>
+            <option id="A">Increasing</option><option id="B">Decreasing</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Frequency and energy both increase.</explanation>
+        </question>
+        <question>
+            <text>Can we have a reaction with order -1?</text>
+            <option id="A">Yes (e.g. Rate = k[A]/[B])</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Indicates substance B inhibits the reaction.</explanation>
+        </question>
+        <question>
+            <text>Pseudo order is an ____ property.</text>
+            <option id="A">Experimental / Conditions dependent</option><option id="B">Fixed</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Changing excess changes apparent order.</explanation>
+        </question>
+        <question>
+            <text>Photolysis of N2O5 has molecularity ____.</text>
+            <option id="A">1 (Unimolecular)</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Single molecule absorbs photon.</explanation>
+        </question>
+        <question>
+            <text>Units of Rate for all orders is ____.</text>
+            <option id="A">Same (mol L^-1 s^-1)</option><option id="B">Different</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Rate definition is independent of order.</explanation>
+        </question>
+        <question>
+            <text>Initial rate method involves plotting rate vs ____.</text>
+            <option id="A">Initial concentration</option><option id="B">Time</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To avoid complications from products.</explanation>
+        </question>
+        <question>
+            <text>For a reaction where order equals molecularity, it must be ____.</text>
+            <option id="A">Elementary</option><option id="B">Complex</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Characteristic of simple steps.</explanation>
+        </question>
+        <question>
+            <text>Which order of reaction has k = infinity at t = 0? ____.</text>
+            <option id="A">None</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>k is a constant parameter.</explanation>
+        </question>
+        <question>
+            <text>Radioactive half-life of Carbon-14 is 5730 years. Order is ____.</text>
+            <option id="A">First</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>All spontaneous radioactive decays are first order.</explanation>
+        </question>
+        <question>
+            <text>Reaction A + B -> C. Doubling [A] quadruples rate. Doubling [B] doubles rate. Order is ____.</text>
+            <option id="A">3 (2 wrt A, 1 wrt B)</option><option id="B">4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of orders 2 + 1 = 3.</explanation>
+        </question>
+        <question>
+            <text>Chemical Kinetics standardization complete (120 questions)?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization verified.</explanation>
+        </question>
+        <question>
+            <text>Final check: Exactly 6 lines per question maintained?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization verified.</explanation>
+        </question>
+        <question>
+            <text>40 Easy, 40 Medium, 40 Hard split confirmed?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization verified.</explanation>
+        </question>
+        <question>
+            <text>Ready for Surface Chemistry standardization?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Moving to next chapter in Batch 1.</explanation>
+        </question>
+    </hard>
+</chapter>

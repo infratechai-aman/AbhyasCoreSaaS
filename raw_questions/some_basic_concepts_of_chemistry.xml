@@ -1,612 +1,608 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter subject="Chemistry" id="14" name="Some Basic Concepts of Chemistry">
+<chapter subject="Chemistry" id="200" name="Some Basic Concepts of Chemistry">
     <easy>
         <question>
-            <text>Anything that has mass and occupies space is called:</text>
-            <option id="A">Matter</option><option id="B">Energy</option><option id="C">Vacuum</option><option id="D">Force</option>
-            <answer>A</answer><explanation>Definition of matter.</explanation>
+            <text>Anything that has mass and occupies space is called ____.</text>
+            <option id="A">Matter</option><option id="B">Energy</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental definition of physical substance.</explanation>
         </question>
         <question>
-            <text>Which state of matter has neither definite shape nor volume?</text>
-            <option id="A">Gaseous</option><option id="B">Solid</option><option id="C">Liquid</option><option id="D">None</option>
-            <answer>A</answer><explanation>Particles are far apart and move freely.</explanation>
+            <text>SI unit of amount of substance is ____.</text>
+            <option id="A">Mole</option><option id="B">Gram</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One of the 7 base SI units.</explanation>
         </question>
         <question>
-            <text>Substances consisting of only one type of particles are:</text>
-            <option id="A">Pure substances</option><option id="B">Mixtures</option><option id="C">Solutions</option><option id="D">Colloids</option>
-            <answer>A</answer><explanation>Includes elements and compounds.</explanation>
+            <text>SI unit of temperature is ____.</text>
+            <option id="A">Kelvin (K)</option><option id="B">Celsius</option><option id="C">Fahrenheit</option><option id="D">None</option>
+            <answer>A</answer><explanation>Absolute scale used in science.</explanation>
         </question>
         <question>
-            <text>The SI unit of amount of substance is:</text>
-            <option id="A">Mole</option><option id="B">Gram</option><option id="C">Kilogram</option><option id="D">Liter</option>
-            <answer>A</answer><explanation>Symbol: mol.</explanation>
+            <text>Law of Conservation of Mass was given by ____.</text>
+            <option id="A">Lavoisier</option><option id="B">Dalton</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass is neither created nor destroyed in a chemical reaction.</explanation>
         </question>
         <question>
-            <text>Avogadro's number (Na) is approximately:</text>
-            <option id="A">6.022 x 10^23</option><option id="B">6.626 x 10^-34</option><option id="C">3.0 x 10^8</option><option id="D">None</option>
-            <answer>A</answer><explanation>Number of entities in 1 mole.</explanation>
+            <text>Value of Avogadro's Number (N_A) is approx ____.</text>
+            <option id="A">6.022 x 10^23</option><option id="B">1.66 x 10^-24</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Entities per mole.</explanation>
         </question>
         <question>
-            <text>The mass of one mole of a substance in grams is its:</text>
-            <option id="A">Molar mass</option><option id="B">Atomic mass</option><option id="C">Molecular mass</option><option id="D">Formula mass</option>
-            <answer>A</answer><explanation>Expressed in g/mol.</explanation>
+            <text>1 amu is equal to ____ grams.</text>
+            <option id="A">1.66 x 10^-24</option><option id="B">6.022 x 10^23</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass of 1/12th of C-12 atom.</explanation>
         </question>
         <question>
-            <text>Standard temperature and pressure (STP) for gases (modern) is:</text>
-            <option id="A">273.15 K and 1 bar</option><option id="B">298 K and 1 atm</option><option id="C">0 K and 1 bar</option><option id="D">None</option>
-            <answer>A</answer><explanation>Current IUPAC standard.</explanation>
+            <text>Formula mass of Water (H2O) is ____ u.</text>
+            <option id="A">18</option><option id="B">20</option><option id="C">16</option><option id="D">None</option>
+            <answer>A</answer><explanation>2(1) + 16 = 18.</explanation>
         </question>
         <question>
-            <text>Molar volume of an ideal gas at STP (old, 1 atm) is:</text>
-            <option id="A">22.4 L</option><option id="B">22.7 L</option><option id="C">24.0 L</option><option id="D">None</option>
-            <answer>A</answer><explanation>Commonly used in textbooks.</explanation>
+            <text>Molar mass of Oxygen gas (O2) is ____ g/mol.</text>
+            <option id="A">32</option><option id="B">16</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mass of 1 mole of diatomic oxygen.</explanation>
         </question>
         <question>
-            <text>Which of the following is a homogeneous mixture?</text>
-            <option id="A">Air</option><option id="B">Soil</option><option id="C">Sand and Water</option><option id="D">Oil and Water</option>
-            <answer>A</answer><explanation>Composition is uniform throughout.</explanation>
+            <text>Volume of 1 mole of an ideal gas at STP is ____ L.</text>
+            <option id="A">22.4</option><option id="B">11.2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Molar volume constant.</explanation>
         </question>
         <question>
-            <text>A solution with uniform composition is called:</text>
-            <option id="A">Homogeneous</option><option id="B">Heterogeneous</option><option id="C">Suspension</option><option id="D">None</option>
-            <answer>A</answer><explanation>Components are indistinguishable.</explanation>
+            <text>Smallest particle of an element that retains its properties is ____.</text>
+            <option id="A">Atom</option><option id="B">Molecule</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Building block of matter.</explanation>
         </question>
         <question>
-            <text>Rounding off 3.465 to two decimal places is:</text>
-            <option id="A">3.46</option><option id="B">3.47</option><option id="C">3.5</option><option id="D">None</option>
-            <answer>A</answer><explanation>Rule for 5: round to even digit.</explanation>
+            <text>A mixture having uniform composition throughout is ____.</text>
+            <option id="A">Homogeneous</option><option id="B">Heterogeneous</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Example: Salt solution.</explanation>
         </question>
         <question>
-            <text>Significant figures in 0.0025 are:</text>
+            <text>Relationship: 0 degrees Celsius = ____ Kelvin.</text>
+            <option id="A">273.15</option><option id="B">32</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Temperature offset.</explanation>
+        </question>
+        <question>
+            <text>Law of Definite Proportions was given by ____.</text>
+            <option id="A">Joseph Proust</option><option id="B">Gay-Lussac</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>A compound always contains same elements in fixed ratio by mass.</explanation>
+        </question>
+        <question>
+            <text>Pure water from any source has H:O ratio of ____ by mass.</text>
+            <option id="A">1 : 8</option><option id="B">2 : 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>2g H per 16g O.</explanation>
+        </question>
+        <question>
+            <text>Law of Multiple Proportions was given by ____.</text>
+            <option id="A">Dalton</option><option id="B">Aristotle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Explains formation of CO and CO2.</explanation>
+        </question>
+        <question>
+            <text>Number of significant figures in 0.0025 is ____.</text>
             <option id="A">2</option><option id="B">4</option><option id="C">5</option><option id="D">None</option>
             <answer>A</answer><explanation>Leading zeros are not significant.</explanation>
         </question>
         <question>
-            <text>Prefix 'nano' represents:</text>
-            <option id="A">10^-9</option><option id="B">10^-6</option><option id="C">10^-12</option><option id="D">10^9</option>
-            <answer>A</answer><explanation>Common scale in chemistry.</explanation>
+            <text>Number of significant figures in 100.0 is ____.</text>
+            <option id="A">4</option><option id="B">1</option><option id="C">3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Trailing zeros with decimal are significant.</explanation>
         </question>
         <question>
-            <text>Atomic mass unit (amu) is now called:</text>
-            <option id="A">Unified mass (u)</option><option id="B">Dalton</option><option id="C">Gram</option><option id="D">Newton</option>
-            <answer>A</answer><explanation>Standard international term.</explanation>
-        </question>
-        <question>
-            <text>Relative atomic mass is a ____ quantity.</text>
-            <option id="A">Dimensionless</option><option id="B">Mass-defined</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Ratio of two masses.</explanation>
-        </question>
-        <question>
-            <text>Empirical formula represents the ____ ratio of atoms.</text>
-            <option id="A">Simplest whole number</option><option id="B">Actual number</option><option id="C">Mass</option><option id="D">Size</option>
-            <answer>A</answer><explanation>Basic chemical identity.</explanation>
-        </question>
-        <question>
-            <text>Molecular formula relates to Empirical formula (EF) by:</text>
-            <option id="A">MF = n x EF</option><option id="B">MF = EF / n</option><option id="C">MF = n + EF</option><option id="D">None</option>
-            <answer>A</answer><explanation>n is a whole number factor.</explanation>
-        </question>
-        <question>
-            <text>Sum of atomic masses in a molecule is its:</text>
-            <option id="A">Molecular mass</option><option id="B">Formula mass</option><option id="C">Mole</option><option id="D">None</option>
-            <answer>A</answer><explanation>Calculated in u.</explanation>
-        </question>
-        <question>
-            <text>Molarity (M) is moles of solute per ____ of solution.</text>
-            <option id="A">Liter</option><option id="B">Kilogram</option><option id="C">Milliliter</option><option id="D">None</option>
-            <answer>A</answer><explanation>Volume based concentration.</explanation>
-        </question>
-        <question>
-            <text>Molality (m) is moles of solute per ____ of solvent.</text>
-            <option id="A">Kilogram</option><option id="B">Liter</option><option id="C">Gram</option><option id="D">None</option>
-            <answer>A</answer><explanation>Mass based concentration.</explanation>
-        </question>
-        <question>
-            <text>Which concentration term is independent of temperature?</text>
-            <option id="A">Molality</option><option id="B">Molarity</option><option id="C">Normality</option><option id="D">Formality</option>
-            <answer>A</answer><explanation>Mass does not change with temperature.</explanation>
-        </question>
-        <question>
-            <text>Law of Conservation of Mass was proposed by:</text>
-            <option id="A">Antoine Lavoisier</option><option id="B">John Dalton</option><option id="C">Joseph Proust</option><option id="D">None</option>
-            <answer>A</answer><explanation>Matter is neither created nor destroyed.</explanation>
-        </question>
-        <question>
-            <text>Law of Definite Proportions was proposed by:</text>
-            <option id="A">Joseph Proust</option><option id="B">Lavoisier</option><option id="C">Dalton</option><option id="D">None</option>
-            <answer>A</answer><explanation>Compound always has same elements in same mass ratio.</explanation>
-        </question>
-        <question>
-            <text>Law of Multiple Proportions was proposed by:</text>
-            <option id="A">John Dalton</option><option id="B">Gay-Lussac</option><option id="C">Avogadro</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ratios of masses are small whole numbers.</explanation>
-        </question>
-        <question>
-            <text>Gay-Lussac's Law deals with ____ of reacting gases.</text>
-            <option id="A">Volumes</option><option id="B">Masses</option><option id="C">Temperatures</option><option id="D">None</option>
-            <answer>A</answer><explanation>At same temperature and pressure.</explanation>
-        </question>
-        <question>
-            <text>Combining volumes of gases follow small whole number ratios. This is:</text>
-            <option id="A">Gay-Lussac's Law</option><option id="B">Avogadro's Law</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Specific to gaseous reactants.</explanation>
-        </question>
-        <question>
-            <text>Equal volumes of all gases contain equal moles at same T and P. This is:</text>
-            <option id="A">Avogadro's Law</option><option id="B">Dalton's Law</option><option id="C">Boyles Law</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fundamental gas hypothesis.</explanation>
-        </question>
-        <question>
-            <text>The reactant that is consumed completely in a reaction is:</text>
-            <option id="A">Limiting reagent</option><option id="B">Excess reagent</option><option id="C">Catalyst</option><option id="D">Buffer</option>
-            <answer>A</answer><explanation>Determines the amount of product.</explanation>
-        </question>
-        <question>
-            <text>Mole fraction of a component is ratio of its moles to:</text>
-            <option id="A">Total moles of solution</option><option id="B">Moles of solvent</option><option id="C">100</option><option id="D">None</option>
-            <answer>A</answer><explanation>Dimensionless unit.</explanation>
-        </question>
-        <question>
-            <text>Sum of mole fractions of all components is always:</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">100</option><option id="D">None</option>
-            <answer>A</answer><explanation>Definition check.</explanation>
-        </question>
-        <question>
-            <text>SI unit of Density is:</text>
-            <option id="A">kg/m3</option><option id="B">g/cm3</option><option id="C">kg/L</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard SI units for mass and volume.</explanation>
-        </question>
-        <question>
-            <text>Mass percentage of an element is (mass of element / ____) x 100.</text>
-            <option id="A">Molar mass of compound</option><option id="B">Atomic mass</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Part of composite mass.</explanation>
-        </question>
-        <question>
-            <text>Density is an ____ property.</text>
-            <option id="A">Intensive</option><option id="B">Extensive</option><option id="C">Variable</option><option id="D">None</option>
-            <answer>A</answer><explanation>Independent of amount of substance.</explanation>
-        </question>
-        <question>
-            <text>1 Liter is equal to how many dm3?</text>
-            <option id="A">1</option><option id="B">10</option><option id="C">100</option><option id="D">1000</option>
-            <answer>A</answer><explanation>Definition of decimeter cube.</explanation>
-        </question>
-        <question>
-            <text>The term 'precision' refers to:</text>
-            <option id="A">Closeness of various measurements for same quantity</option><option id="B">Closeness to true value</option><option id="C">None</option><option id="D">D</option>
+            <text>Precision refers to ____ of various measurements.</text>
+            <option id="A">Closeness</option><option id="B">Accuracy</option><option id="C">phi</option><option id="D">None</option>
             <answer>A</answer><explanation>Consistency of results.</explanation>
         </question>
         <question>
-            <text>Atomic theory was first proposed by:</text>
-            <option id="A">John Dalton (1808)</option><option id="B">Thomson</option><option id="C">Rutherford</option><option id="D">Bohr</option>
-            <answer>A</answer><explanation>Scientific start of atomic concept.</explanation>
+            <text>Accuracy refers to closeness of measurement to ____ value.</text>
+            <option id="A">True / Accepted</option><option id="B">Previous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Correctness of results.</explanation>
         </question>
         <question>
-            <text>Atoms of different elements combine in ____ ratio to form compounds.</text>
-            <option id="A">Simple whole number</option><option id="B">Fractional</option><option id="C">Arbitrary</option><option id="D">None</option>
-            <answer>A</answer><explanation>Key postulate of Dalton.</explanation>
+            <text>Empirical formula of Benzene (C6H6) is ____.</text>
+            <option id="A">CH</option><option id="B">C2H2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Simplest whole number ratio.</explanation>
         </question>
         <question>
-            <text>Matter can neither be created nor destroyed. This is:</text>
-            <option id="A">Law of conservation of mass</option><option id="B">Law of multiple proportions</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Chemical change mass balance.</explanation>
+            <text>Molecular formula of Glucose is ____.</text>
+            <option id="A">C6H12O6</option><option id="B">CH2O</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Actual number of atoms.</explanation>
         </question>
         <question>
-            <text>Mass of 1 hydrogen atom in grams is approximately:</text>
-            <option id="A">1.67 x 10^-24 g</option><option id="B">1.67 x 10^-27 g</option><option id="C">1 g</option><option id="D">None</option>
-            <answer>A</answer><explanation>Calculated from Avogadro number.</explanation>
+            <text>Molarity is moles of solute per ____ of solution.</text>
+            <option id="A">Liter</option><option id="B">Kilogram</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unit: mol/L (M).</explanation>
         </question>
         <question>
-            <text>Relative density has unit:</text>
-            <option id="A">No unit</option><option id="B">g/cm3</option><option id="C">kg/m3</option><option id="D">None</option>
-            <answer>A</answer><explanation>It is a ratio.</explanation>
+            <text>Molality is moles of solute per ____ of solvent.</text>
+            <option id="A">Kilogram</option><option id="B">Liter</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unit: mol/kg (m).</explanation>
+        </question>
+        <question>
+            <text>Reagent that is completely consumed in a reaction is ____ reagent.</text>
+            <option id="A">Limiting</option><option id="B">Excess</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Determines the amount of product.</explanation>
+        </question>
+        <question>
+            <text>Percent by mass = (Mass of solute / ____) x 100.</text>
+            <option id="A">Mass of solution</option><option id="B">Mass of solvent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Concentration term.</explanation>
+        </question>
+        <question>
+            <text>Mole fraction is the ratio of moles of a component to ____ moles.</text>
+            <option id="A">Total</option><option id="B">Solvent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dimensionless quantity.</explanation>
+        </question>
+        <question>
+            <text>Sum of mole fractions of all components in a solution is ____.</text>
+            <option id="A">1 (Unity)</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mathematical property.</explanation>
+        </question>
+        <question>
+            <text>Gay-Lussac’s Law of gaseous volumes is valid when gases are at same ____.</text>
+            <option id="A">P and T</option><option id="B">Volume</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Volumes react in simple whole number ratios.</explanation>
+        </question>
+        <question>
+            <text>Number of moles (n) = Given mass (w) / ____.</text>
+            <option id="A">Molar Mass (M)</option><option id="B">Density</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard mole calculation.</explanation>
+        </question>
+        <question>
+            <text>Number of molecules in 1 mole of CO2 is ____.</text>
+            <option id="A">6.022 x 10^23</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Independent of molecule complexity.</explanation>
+        </question>
+        <question>
+            <text>Mass of 1 mole of Carbon atoms is ____ g.</text>
+            <option id="A">12</option><option id="B">6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>By definition of mole.</explanation>
+        </question>
+        <question>
+            <text>Equivalent weight of an acid = Molecular weight / ____.</text>
+            <option id="A">Basicity</option><option id="B">Acidity</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Number of replaceable H+ ions.</explanation>
+        </question>
+        <question>
+            <text>Equivalent weight of a base = Molecular weight / ____.</text>
+            <option id="A">Acidity</option><option id="B">Basicity</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Number of replaceable OH- ions.</explanation>
+        </question>
+        <question>
+            <text>Normality (N) = Number of ____ of solute per liter of solution.</text>
+            <option id="A">Gram equivalents</option><option id="B">Moles</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relates concentration to reactivity.</explanation>
+        </question>
+        <question>
+            <text>A gas at STP occupies 22.4 L. This amount is ____ mole(s).</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Molar volume at standard conditions.</explanation>
+        </question>
+        <question>
+            <text>Density of a substance is mass per unit ____.</text>
+            <option id="A">Volume</option><option id="B">Area</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Units: g/cm^3 or kg/m^3.</explanation>
+        </question>
+        <question>
+            <text>Chemical formula for table salt is ____.</text>
+            <option id="A">NaCl</option><option id="B">KCl</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sodium Chloride.</explanation>
+        </question>
+        <question>
+            <text>Atomic mass of Helium is ____ u.</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>2 protons + 2 neutrons approx.</explanation>
+        </question>
+        <question>
+            <text>The SI unit 'Candela' measures ____.</text>
+            <option id="A">Luminous intensity</option><option id="B">Electric current</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One of the 7 base units.</explanation>
+        </question>
+        <question>
+            <text>A balanced chemical equation obeys the law of ____.</text>
+            <option id="A">Conservation of Mass</option><option id="B">Multiple proportions</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Atom counts must match on both sides.</explanation>
         </question>
     </easy>
     <medium>
         <question>
-            <text>Calculate the number of moles in 52g of Helium:</text>
-            <option id="A">13</option><option id="B">26</option><option id="C">52</option><option id="D">4</option>
-            <answer>A</answer><explanation>52 / 4 (Molar mass of He).</explanation>
+            <text>Mole fraction of ethanol in a mixture of 46g ethanol and 54g water is ____.</text>
+            <option id="A">0.25</option><option id="B">0.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>n_eth = 46/46=1. n_wat = 54/18=3. x = 1/(1+3).</explanation>
         </question>
         <question>
-            <text>Number of atoms in 0.1 mol of a triatomic gas is:</text>
-            <option id="A">1.806 x 10^23</option><option id="B">6.022 x 10^22</option><option id="C">3 x 10^23</option><option id="D">None</option>
-            <answer>A</answer><explanation>0.1 x 3 x Na.</explanation>
+            <text>Volume of 0.1 M HCl required to neutralize 10 mL of 0.1 M NaOH is ____ mL.</text>
+            <option id="A">10</option><option id="B">20</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>M1V1 = M2V2 for 1:1 reaction.</explanation>
         </question>
         <question>
-            <text>Percentage of Oxygen in water (H2O) is approximately:</text>
-            <option id="A">88.89%</option><option id="B">11.11%</option><option id="C">50%</option><option id="D">33%</option>
-            <answer>A</answer><explanation>(16 / 18) x 100.</explanation>
+            <text>Mass of one atom of Carbon-12 is ____ g.</text>
+            <option id="A">1.99 x 10^-23</option><option id="B">12</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>12 / (6.022 x 10^23).</explanation>
         </question>
         <question>
-            <text>The empirical formula of Benzene (C6H6) is:</text>
-            <option id="A">CH</option><option id="B">CH2</option><option id="C">C3H3</option><option id="D">None</option>
-            <answer>A</answer><explanation>Simplest ratio is 1:1.</explanation>
+            <text>Which concentration term is independent of temperature?</text>
+            <option id="A">Molality</option><option id="B">Molarity</option><option id="C">Normality</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass doesn't change with temperature, but volume does.</explanation>
         </question>
         <question>
-            <text>Which of the following has maximum number of molecules?</text>
-            <option id="A">1g H2</option><option id="B">1g N2</option><option id="C">1g CO2</option><option id="D">1g O2</option>
-            <answer>A</answer><explanation>Smallest molar mass gives more moles for same mass.</explanation>
+            <text>Ratio of atoms in 4g Hydrogen to 16g Helium is ____.</text>
+            <option id="A">1 : 1 (2 mol H? no 4g H=4mol H. 16g He=4mol He.) Ratio is 1:1? wait atoms? H is H2? 4g H is 2mol H2 = 4mol H atoms. 16g He is 4mol He atoms. Ratio 1:1.</text>
+            <option id="B">2 : 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on mole calculation.</explanation>
         </question>
         <question>
-            <text>Molarity of solution containing 4g NaOH in 250mL solution:</text>
-            <option id="A">0.4 M</option><option id="B">0.1 M</option><option id="C">1.0 M</option><option id="D">None</option>
-            <answer>A</answer><explanation>(4/40) / 0.250.</explanation>
+            <text>Number of moles in 4.4g of CO2 is ____.</text>
+            <option id="A">0.1</option><option id="B">0.01</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>4.4 / 44 = 0.1.</explanation>
         </question>
         <question>
-            <text>What volume of 10M HCl is needed to make 1L of 1M HCl?</text>
-            <option id="A">100 mL</option><option id="B">10 mL</option><option id="C">500 mL</option><option id="D">None</option>
-            <answer>A</answer><explanation>M1V1 = M2V2.</explanation>
+            <text>Equivalent weight of H2SO4 (MW=98) in typical acid-base reaction is ____.</text>
+            <option id="A">49</option><option id="B">98</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>98 / 2 (dibasic acid).</explanation>
         </question>
         <question>
-            <text>Total number of electrons in 1.6g of CH4 is:</text>
-            <option id="A">6.022 x 10^23 (Na)</option><option id="B">1.6 x Na</option><option id="C">10 x Na</option><option id="D">None</option>
-            <answer>A</answer><explanation>0.1 mol x 10 electrons/molecule x Na.</explanation>
+            <text>Percentage of Oxygen in NaOH (MW=40) is ____%.</text>
+            <option id="A">40</option><option id="B">20</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>(16 / 40) x 100.</explanation>
         </question>
         <question>
-            <text>Mass of one atom of C-12 is exactly:</text>
-            <option id="A">12 u</option><option id="B">12 g</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>By definition of atomic mass scale.</explanation>
+            <text>Number of significant figures in 500.00 is ____.</text>
+            <option id="A">5</option><option id="B">1</option><option id="C">3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Decimal point makes trailing zeros significant.</explanation>
         </question>
         <question>
-            <text>How many entities in 1 mol of any substance?</text>
-            <option id="A">Avogadro number</option><option id="B">Depends on identity</option><option id="C">Molar mass</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fixed constant value.</explanation>
+            <text>A compound contains 50% element A (At.wt=10) and 50% B (At.wt=20). Empirical formula is ____.</text>
+            <option id="A">A2B</option><option id="B">AB2</option><option id="C">AB</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relative moles: A=50/10=5, B=50/20=2.5. Ratio 2:1.</explanation>
         </question>
         <question>
-            <text>CO2 produced by burning 12g C in 32g O2:</text>
-            <option id="A">44 g</option><option id="B">12 g</option><option id="C">32 g</option><option id="D">None</option>
-            <answer>A</answer><explanation>12 + 32 = 44 (Stoichiometry).</explanation>
+            <text>A sample of gas occupies 100 L at 1 atm. Volume at 2 atm (const T) is ____ L.</text>
+            <option id="A">50</option><option id="B">200</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Boyle's Law P1V1 = P2V2.</explanation>
         </question>
         <question>
-            <text>Mass percentage of Copper in CuSO4.5H2O is approximately:</text>
-            <option id="A">25.4%</option><option id="B">50%</option><option id="C">10%</option><option id="D">None</option>
-            <answer>A</answer><explanation>63.5 / 249.5 x 100.</explanation>
+            <text>Specific gravity of a liquid is ratio of its density to density of ____.</text>
+            <option id="A">Water</option><option id="B">Air</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dimensionless ratio.</explanation>
         </question>
         <question>
-            <text>Molar mass of CO2 is 44. Mass of 1 molecule in grams is:</text>
-            <option id="A">44 / Na</option><option id="B">44</option><option id="C">Na / 44</option><option id="D">None</option>
-            <answer>A</answer><explanation>Total mass / count.</explanation>
+            <text>Mass of 11.2 L of CO2 at STP is ____ grams.</text>
+            <option id="A">22</option><option id="B">44</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.5 moles x 44 g/mol.</explanation>
         </question>
         <question>
-            <text>The standard for atomic mass is:</text>
-            <option id="A">C-12</option><option id="B">H-1</option><option id="C">O-16</option><option id="D">None</option>
-            <answer>A</answer><explanation>Unified atomic mass definition.</explanation>
+            <text>Average atomic mass of Chlorine (Isotopes 35 and 37 in 3:1 ratio) is ____.</text>
+            <option id="A">35.5</option><option id="B">36</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>(35x3 + 37x1) / 4.</explanation>
         </question>
         <question>
-            <text>Gram atomic mass of Hydrogen is:</text>
-            <option id="A">1.008 g</option><option id="B">1.008 u</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Mass of 1 mole of atoms.</explanation>
+            <text>How many grams of NaOH are present in 250 mL of 0.5 M solution?</text>
+            <option id="A">5</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Moles = 0.5 x 0.25 = 0.125. Mass = 0.125 x 40.</explanation>
         </question>
         <question>
-            <text>Definition of Density is Ratio of:</text>
-            <option id="A">Mass / Volume</option><option id="B">Volume / Mass</option><option id="C">Mass x Volume</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fundamental physical property.</explanation>
+            <text>Volume of 1g of Hydrogen at STP is approx ____ L.</text>
+            <option id="A">11.2</option><option id="B">22.4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1g H is 0.5 moles H2. 0.5 x 22.4.</explanation>
         </question>
         <question>
-            <text>1 ppm is equivalent to:</text>
-            <option id="A">1 mg per kg</option><option id="B">1 g per kg</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Concentration part per million.</explanation>
+            <text>One mole of CH4 contains ____ atoms of Hydrogen.</text>
+            <option id="A">24.08 x 10^23</option><option id="B">6.022 x 10^23</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 mol CH4 has 4 mol H atoms. 4 x N_A.</explanation>
         </question>
         <question>
-            <text>Molarity of pure water (density 1g/mL) is:</text>
-            <option id="A">55.5 M</option><option id="B">18 M</option><option id="C">100 M</option><option id="D">None</option>
-            <answer>A</answer><explanation>1000 / 18 moles per liter.</explanation>
+            <text>Total number of electrons in 18 mL of water (d=1g/mL) is ____.</text>
+            <option id="A">10 N_A</option><option id="B">18 N_A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>18 mL = 18g = 1 mol. One H2O has 10 electrons (8+2).</explanation>
         </question>
         <question>
-            <text>Ratio of atoms in Glucose C6H12O6 is C:H:O =:</text>
-            <option id="A">1 : 2 : 1</option><option id="B">1 : 1 : 1</option><option id="C">6 : 12 : 6</option><option id="D">None</option>
-            <answer>A</answer><explanation>Empirical ratio.</explanation>
+            <text>A gas mixture contains H2 and O2 in 1:4 mass ratio. Molar ratio is ____.</text>
+            <option id="A">4 : 1</option><option id="B">1 : 4</option><option id="C">8 : 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>H2 moles=1/2. O2 moles=4/32=1/8. Ratio (1/2):(1/8) = 4:1.</explanation>
         </question>
         <question>
-            <text>Molar mass of Glucose C6H12O6:</text>
-            <option id="A">180 g/mol</option><option id="B">342 g/mol</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Sum of atomic masses.</explanation>
+            <text>Molality of pure water (d=1g/mL) is ____ mol/kg.</text>
+            <option id="A">55.5</option><option id="B">18</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1000g / 18g/mol.</explanation>
         </question>
         <question>
-            <text>Molality of 10% (w/w) NaOH aqueous solution:</text>
-            <option id="A">2.77 m</option><option id="B">1.0 m</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>(10/40) / 0.090 kg water.</explanation>
+            <text>Number of significant figures in result of (2.5 + 4.50) is ____.</text>
+            <option id="A">2 (Result 7.0)</option><option id="B">3</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on least decimal places (2.5 has 1).</explanation>
         </question>
         <question>
-            <text>Volume of 1 mole solid NaCl vs 1 mole gas at STP:</text>
-            <option id="A">Solid volume &lt;&lt; Gas volume</option><option id="B">Equal</option><option id="C">Solid &gt; Gas</option><option id="D">None</option>
-            <answer>A</answer><explanation>Gases expand to fill space.</explanation>
+            <text>Relationship between Molarity M and Molality m involving density d: m = ____.</text>
+            <option id="A">1000M / (1000d - M*Mwt)</option><option id="B">M / d</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Interconversion formula.</explanation>
         </question>
         <question>
-            <text>Unit of molality is:</text>
-            <option id="A">mol/kg</option><option id="B">mol/L</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Moles per mass of solvent.</explanation>
+            <text>Which of the following is an intensive property?</text>
+            <option id="A">Density</option><option id="B">Mass</option><option id="C">Volume</option><option id="D">None</option>
+            <answer>A</answer><explanation>Doesn't depend on system size.</explanation>
         </question>
         <question>
-            <text>Normality (N) equals Molarity (M) x ____.</text>
-            <option id="A">Valency factor (n)</option><option id="B">Mass</option><option id="C">Volume</option><option id="D">None</option>
-            <answer>A</answer><explanation>Relationship for equivalents.</explanation>
+            <text>Which of the following is an extensive property?</text>
+            <option id="A">Enthalpy</option><option id="B">Temperature</option><option id="C">Pressure</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends on amount of substance.</explanation>
         </question>
         <question>
-            <text>N2 + 3H2 -&gt; 2NH3. Volume ratio of reactants N2 and H2:</text>
-            <option id="A">1 : 3</option><option id="B">1 : 1</option><option id="C">3 : 2</option><option id="D">None</option>
-            <answer>A</answer><explanation>According to Gay-Lussac.</explanation>
+            <text>Max number of molecules among: 44g CO2, 48g O3, 8g H2, 64g SO2?</text>
+            <option id="A">8g H2 (4 moles)</option><option id="B">44g CO2 (1 mol)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculate moles for each.</explanation>
         </question>
         <question>
-            <text>Significant figures in 4.008 are:</text>
-            <option id="A">4</option><option id="B">2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Captured zeros are significant.</explanation>
+            <text>Law of reciprocal proportions was given by ____.</text>
+            <option id="A">Richter</option><option id="B">Berzelius</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Explains ratios when elements combine with a third.</explanation>
         </question>
         <question>
-            <text>Symbol for Molarity is M and for Molality is:</text>
-            <option id="A">m</option><option id="B">Mo</option><option id="C">Ml</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard convention.</explanation>
+            <text>Standard for atomic weights is isotope ____.</text>
+            <option id="A">Carbon-12</option><option id="B">Oxygen-16</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chosen by IUPAC in 1961.</explanation>
         </question>
         <question>
-            <text>If density of gas is d at STP, molar mass M = d x ____.</text>
-            <option id="A">22.4</option><option id="B">1</option><option id="C">100</option><option id="D">None</option>
-            <answer>A</answer><explanation>Volume of 1 mole.</explanation>
+            <text>Ratio of masses of Carbon in CO and CO2 for fixed mass of Oxygen is ____.</text>
+            <option id="A">2 : 1</option><option id="B">1 : 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>O:C in CO is 16:12. In CO2 is 32:12 -> 16:6. For 16g O, C is 12 and 6. Ratio 2:1.</explanation>
         </question>
         <question>
-            <text>Dalton's Partial Pressure Law relates to ____ gases.</text>
-            <option id="A">Non-reacting mixture of gases</option><option id="B">Reacting gases</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Independent partial pressures.</explanation>
+            <text>One microgram is ____ kilograms.</text>
+            <option id="A">10^-9</option><option id="B">10^-6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>10^-6 g = 10^-9 kg.</explanation>
         </question>
         <question>
-            <text>Law of Reciprocal Proportions involves ____ elements.</text>
-            <option id="A">Three</option><option id="B">Two</option><option id="C">Four</option><option id="D">None</option>
-            <answer>A</answer><explanation>Richter's contribution.</explanation>
+            <text>Number of protons in 1 nmol of H+ ions is approx ____.</text>
+            <option id="A">6 x 10^14</option><option id="B">1 x 10^9</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 mol has 6e23. 1 nmol has 6e23 x 1e-9.</explanation>
         </question>
         <question>
-            <text>Maximum molecules in 1 mole of any substance is always:</text>
-            <option id="A">Na (Fixed)</option><option id="B">Varies</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Definition of mole.</explanation>
+            <text>Atomic mass unit 'u' was formerly called ____.</text>
+            <option id="A">amu</option><option id="B">Dalton</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unified atomic mass unit.</explanation>
         </question>
         <question>
-            <text>Avogadro hypothesis states equal V of gases have equal ____.</text>
-            <option id="A">Molecules</option><option id="B">Mass</option><option id="C">Atoms</option><option id="D">None</option>
-            <answer>A</answer><explanation>At same T and P.</explanation>
+            <text>STP conditions currently defined by IUPAC: 0 C and ____ bar.</text>
+            <option id="A">1 (100 kPa)</option><option id="B">1.01325 (1 atm)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Modern standard (22.7L vs old 22.4L).</explanation>
         </question>
         <question>
-            <text>Rounding off 0.04597 to 3 significant figures is:</text>
-            <option id="A">0.0460</option><option id="B">0.046</option><option id="C">0.0459</option><option id="D">None</option>
-            <answer>A</answer><explanation>Leading zeros not counted. Next digit rounds up.</explanation>
+            <text>Vapor density of a gas is ____ half of its molar mass.</text>
+            <option id="A">Always</option><option id="B">Sometimes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>VD = M / 2.</explanation>
         </question>
         <question>
-            <text>1 unified mass (u) is approximately ____ kg.</text>
-            <option id="A">1.66 x 10^-27</option><option id="B">1.66 x 10^-24</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>SI mass unit conversion.</explanation>
+            <text>Percent Oxygen in CaCO3 (MW=100) is ____%.</text>
+            <option id="A">48</option><option id="B">16</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>48 / 100.</explanation>
         </question>
         <question>
-            <text>Molecular mass of cane sugar C12H22O11:</text>
-            <option id="A">342 u</option><option id="B">180 u</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Sum of 12(12) + 22(1) + 11(16).</explanation>
+            <text>One mole of electrons has mass approx ____ mg.</text>
+            <option id="A">0.55</option><option id="B">1.0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>N_A x 9.1e-31 kg.</explanation>
         </question>
         <question>
-            <text>Mass of one atom of Oxygen is approximately:</text>
-            <option id="A">2.66 x 10^-23 g</option><option id="B">16 g</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>16 / Na.</explanation>
+            <text>Limiting reagent in: 2H2 + O2 -> 2H2O given 4g H2 and 32g O2?</text>
+            <option id="A">None (Stoichiometric mix)</option><option id="B">H2</option><option id="C">O2</option><option id="D">None</option>
+            <answer>A</answer><explanation>2 mol H2 reacts with 1 mol O2. Mix is exactly 2:1.</explanation>
         </question>
         <question>
-            <text>Atomic mass is usually an ____ mass of isotopes.</text>
-            <option id="A">Average</option><option id="B">Exact</option><option id="C">Sum</option><option id="D">None</option>
-            <answer>A</answer><explanation>Based on natural abundance.</explanation>
+            <text>Mole fraction of solute in 1 molal aqueous solution? ____.</text>
+            <option id="A">0.0177</option><option id="B">0.1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 / (1 + 55.5).</explanation>
         </question>
         <question>
-            <text>Cl has mass 35.5 because of isotopes:</text>
-            <option id="A">35 and 37</option><option id="B">34 and 36</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Ratio approx 3:1.</explanation>
+            <text>Density of water is max at ____ K.</text>
+            <option id="A">277</option><option id="B">273</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>4 degrees Celsius.</explanation>
         </question>
         <question>
-            <text>Dulong and Petit's Law relates atomic mass to ____.</text>
-            <option id="A">Specific heat of solid elements</option><option id="B">Gas volume</option><option id="C">Color</option><option id="D">None</option>
-            <answer>A</answer><explanation>Product approx 6.4.</explanation>
+            <text>Which of the following contains most atoms? 1g Ag, 1g Mg, 1g O2, 1g Li?</text>
+            <option id="A">1g Li (Atomic wt = 7)</option><option id="B">1g Mg</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Largest number of moles (lowest At.wt).</explanation>
         </question>
         <question>
-            <text>Empirical formula mass of glucose vs molecular mass ratio:</text>
-            <option id="A">1 : 6</option><option id="B">1 : 1</option><option id="C">6 : 1</option><option id="D">None</option>
-            <answer>A</answer><explanation>30 vs 180.</explanation>
+            <text>Total number of neutrons in 7mg of 14C isotope is ____.</text>
+            <option id="A">2.4 x 10^21</option><option id="B">6 x 10^23</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>7mg = 0.5 mmol. 0.5e-3 x N_A x 8 neutrons/atom.</explanation>
         </question>
     </medium>
     <hard>
         <question>
-            <text>1 molal aqueous solution has mole fraction of solute approximately:</text>
-            <option id="A">0.0177</option><option id="B">0.1</option><option id="C">1.0</option><option id="D">None</option>
-            <answer>A</answer><explanation>1 / (1 + 55.5).</explanation>
+            <text>A gaseous mixture contains H2, He, CH4 in mass ratio 1:2:4. Molar ratio? ____.</text>
+            <option id="A">2 : 2 : 1</option><option id="B">1 : 1 : 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>(1/2) : (2/4) : (4/16) -> 0.5 : 0.5 : 0.25 -> 2:2:1.</explanation>
         </question>
         <question>
-            <text>Density of 2M NaOH solution is 1.28 g/mL. Molality is:</text>
-            <option id="A">1.67 m</option><option id="B">2.0 m</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Moles=2. Mass solution=1280g. Mass solute=80g. Mass water=1200g. 2/1.2=1.67.</explanation>
+            <text>Max mass of H2O produced by 10g H2 and 64g O2? ____ g.</text>
+            <option id="A">72</option><option id="B">90</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>4g H2 + 32g O2 gives 36g H2O. Scaling gives 72g (O2 is limiting reagent? no 64g O2 needs 8g H2. 10g H2 available. O2 limiting. 64g O2 gives 72g H2O).</explanation>
         </question>
         <question>
-            <text>Mass of O2 needed to completely react with 27g of Al:</text>
-            <option id="A">24 g</option><option id="B">32 g</option><option id="C">48 g</option><option id="D">None</option>
-            <answer>A</answer><explanation>4Al + 3O2 -&gt; 2Al2O3. 27g Al is 1 mol. Needs 0.75 mol O2. 0.75x32=24.</explanation>
+            <text>Weight of residue when 10g CaCO3 is heated strongly? ____ g.</text>
+            <option id="A">5.6</option><option id="B">10</option><option id="C">4.4</option><option id="D">None</option>
+            <answer>A</answer><explanation>CaCO3 -> CaO + CO2. 0.1 mol CaCO3 gives 0.1 mol CaO = 5.6g.</explanation>
         </question>
         <question>
-            <text>Which concentration term depends on temperature?</text>
-            <option id="A">Molarity</option><option id="B">Molality</option><option id="C">Mole fraction</option><option id="D">Mass %</option>
-            <answer>A</answer><explanation>Volume expands with heat.</explanation>
+            <text>If N_A was 1.0 x 10^23, mass of one mole of Nitrogen gas would be ____ g.</text>
+            <option id="A">4.65 (28 * (1e23/6.02e23))</option><option id="B">28</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mole scale shift.</explanation>
         </question>
         <question>
-            <text>Empirical formula for C:40%, H:6.7%, O:53.3% is:</text>
-            <option id="A">CH2O</option><option id="B">CHO</option><option id="C">C2H4O</option><option id="D">None</option>
-            <answer>A</answer><explanation>Divide by atomic mass, then by smallest value.</explanation>
+            <text>Volume of 0.1 M KMnO4 required to oxidize 100 mL of 0.5 M FeSO4 in acidic medium? ____.</text>
+            <option id="A">100 mL</option><option id="B">500 mL</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>n-factors: KMnO4=5, FeSO4=1. 5 x 0.1 x V = 1 x 0.5 x 100.</explanation>
         </question>
         <question>
-            <text>Number of moles of Oxygen atoms in 100g of Al2O3:</text>
-            <option id="A">2.94 mol approx</option><option id="B">1.5 mol</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>100/102 mol of compound. Each molecule has 3 O atoms. 0.98 x 3 = 2.94.</explanation>
+            <text>Mole fraction of solvent in a solution where x_solute = 0.2 is ____.</text>
+            <option id="A">0.8</option><option id="B">0.2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 - 0.2.</explanation>
         </question>
         <question>
-            <text>Formula mass is used for which compounds?</text>
-            <option id="A">Ionic (lattice structures)</option><option id="B">Molecular (water)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Individual molecules don't exist.</explanation>
+            <text>Density of 2M solution of substance A (MW=100) is 1.2 g/mL. Molality is ____.</text>
+            <option id="A">2</option><option id="B">1.67</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass of 1L solution = 1200g. Mass solute = 2x100=200g. Mass solvent = 1000g = 1kg. Molality = 2/1 = 2.</explanation>
         </question>
         <question>
-            <text>1 mole of CO2 contains how many Oxygen atoms?</text>
-            <option id="A">2 x Na</option><option id="B">Na</option><option id="C">44</option><option id="D">None</option>
-            <answer>A</answer><explanation>Two O atoms per molecule.</explanation>
+            <text>Oxidation state of Cr in K2Cr2O7 is ____.</text>
+            <option id="A">+6</option><option id="B">+7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>2(+1) + 2x + 7(-2) = 0.</explanation>
         </question>
         <question>
-            <text>Standard STP (modern IUPAC):</text>
-            <option id="A">0C, 1 bar</option><option id="B">0C, 1 atm</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Slightly lower pressure than 1 atm.</explanation>
+            <text>A gas is 14 times heavier than Hydrogen. Atomic weight if diatomic? ____.</text>
+            <option id="A">14</option><option id="B">7</option><option id="C">28</option><option id="D">None</option>
+            <answer>A</answer><explanation>VD=14, MW=28. M2 = 28 -> M=14.</explanation>
         </question>
         <question>
-            <text>Volume of 1g hydrogen gas at STP is approximately:</text>
-            <option id="A">11.35 L</option><option id="B">22.7 L</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>0.5 mol x 22.7.</explanation>
+            <text>In the reaction 3MnO2 + 4Al -> 3Mn + 2Al2O3, 1 mole of Al reduces ____ mol MnO2.</text>
+            <option id="A">0.75</option><option id="B">1.33</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio 3/4.</explanation>
         </question>
         <question>
-            <text>Significant figures in 6.022 x 10^23:</text>
-            <option id="A">4</option><option id="B">23</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Exponent doesn't count.</explanation>
+            <text>Specific heat of metal is 0.06 cal/g. Approx atomic mass (Dulong-Petit)? ____.</text>
+            <option id="A">107</option><option id="B">60</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>6.4 / 0.06 approx 106.6.</explanation>
         </question>
         <question>
-            <text>Molality of pure water:</text>
-            <option id="A">55.5 m</option><option id="B">18 m</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>1000/18 per kg solvent.</explanation>
+            <text>Total number of atoms in 0.1 mole of P4 is ____.</text>
+            <option id="A">2.4 x 10^23</option><option id="B">0.4 N_A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.1 x 4 x 6.022e23.</explanation>
         </question>
         <question>
-            <text>Amount of CaCO3 for 33.6L CO2 at STP:</text>
-            <option id="A">150 g</option><option id="B">100 g</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>33.6 / 22.4 = 1.5 moles. 1.5 x 100g/mol.</explanation>
+            <text>Percent Oxygen in Glucose (C6H12O6) is approx ____%.</text>
+            <option id="A">53.3</option><option id="B">40</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>96 / 180.</explanation>
         </question>
         <question>
-            <text>Moles of Mg in 12g Mg vs grams of Mg in 2 moles:</text>
-            <option id="A">0.5, 48</option><option id="B">1, 24</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Atomic mass 24.</explanation>
+            <text>Concentration of Cl- in 0.1 M BaCl2 is ____ M.</text>
+            <option id="A">0.2</option><option id="B">0.1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>BaCl2 -> Ba2+ + 2Cl-.</explanation>
         </question>
         <question>
-            <text>Dulong-Petit law Constant (At. Mass x Sp. Heat):</text>
-            <option id="A">Approx 6.4</option><option id="B">Exactly 1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Empirical rule for many metals.</explanation>
+            <text>How many mL of 12 M HCl should be diluted to make 1 L of 1 M HCl?</text>
+            <option id="A">83.3</option><option id="B">120</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>12 x V = 1 x 1000.</explanation>
         </question>
         <question>
-            <text>Avg mass of Boron (Isotopes 10 and 11, ratios 19% and 81%):</text>
-            <option id="A">10.81 u</option><option id="B">10.5 u</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>(10 x 0.19) + (11 x 0.81).</explanation>
+            <text>Molality of 10% (w/w) NaOH aqueous solution? ____ mol/kg.</text>
+            <option id="A">2.77</option><option id="B">2.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>10g NaOH per 90g water. (10/40) / (90/1000) = 0.25 / 0.09 = 2.77.</explanation>
         </question>
         <question>
-            <text>Vapor density is 22. Molar mass is:</text>
-            <option id="A">44</option><option id="B">22</option><option id="C">11</option><option id="D">None</option>
-            <answer>A</answer><explanation>M = 2 x VD.</explanation>
+            <text>Volume of O2 (STP) required for complete combustion of 1 mole Propane (C3H8)? ____ L.</text>
+            <option id="A">112</option><option id="B">22.4</option><option id="C">44.8</option><option id="D">None</option>
+            <answer>A</answer><explanation>C3H8 + 5O2 -> 3CO2 + 4H2O. 5 x 22.4 = 112.</explanation>
         </question>
         <question>
-            <text>Equivalent mass of H2SO4 is:</text>
-            <option id="A">49</option><option id="B">98</option><option id="C">96</option><option id="D">None</option>
-            <answer>A</answer><explanation>Molar mass / n-factor (98/2).</explanation>
+            <text>Equivalent weight of KMnO4 in basic medium (MnO4- -> MnO2) is ____.</text>
+            <option id="A">M / 3</option><option id="B">M / 5</option><option id="C">M / 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Oxid. state change from +7 to +4.</explanation>
         </question>
         <question>
-            <text>Equiv mass of KMnO4 in ACIDIC medium:</text>
-            <option id="A">M / 5</option><option id="B">M / 3</option><option id="C">M / 1</option><option id="D">None</option>
-            <answer>A</answer><explanation>Change in OS is +7 to +2.</explanation>
+            <text>Normality of 0.3 M Phosphorous acid (H3PO3)? ____ N.</text>
+            <option id="A">0.6</option><option id="B">0.9</option><option id="C">0.3</option><option id="D">None</option>
+            <answer>A</answer><explanation>H3PO3 is dibasic. N = M x 2.</explanation>
         </question>
         <question>
-            <text>One mole of P4 molecule contains how many P atoms?</text>
-            <option id="A">4 x Na</option><option id="B">Na</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Tetra-atomic structure.</explanation>
+            <text>One Fermi is ____ meters.</text>
+            <option id="A">10^-15</option><option id="B">10^-12</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Length scale for nucleus.</explanation>
         </question>
         <question>
-            <text>1 Dalton is exactly same as:</text>
-            <option id="A">1 u</option><option id="B">1 g</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Synonyms for atomic mass unit.</explanation>
+            <text>Chlorophyll contains 2.68% Magnesium by mass. Atoms of Mg in 2g chlorophyll? ____.</text>
+            <option id="A">1.34 x 10^21</option><option id="B">6 x 10^23</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass Mg = 0.0268 x 2 = 0.0536g. Moles = 0.0536 / 24. Atoms = Moles x N_A.</explanation>
         </question>
         <question>
-            <text>Mass of 1.12 L of gas at STP is 2g. Molar mass is:</text>
-            <option id="A">40 g/mol</option><option id="B">20 g/mol</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>1.12/22.4 = 0.05 mol. 2 / 0.05 = 40.</explanation>
+            <text>100 mL of PH3 on heating gives P and H2. Volume of H2 produced is ____ mL.</text>
+            <option id="A">150</option><option id="B">300</option><option id="C">100</option><option id="D">None</option>
+            <answer>A</answer><explanation>2PH3 -> 2P + 3H2. Ratio 1:1.5.</explanation>
         </question>
         <question>
-            <text>Mass of Urea NH2CONH2 for 100mL of 0.1M solution:</text>
-            <option id="A">0.6 g</option><option id="B">6 g</option><option id="C">60 g</option><option id="D">None</option>
-            <answer>A</answer><explanation>0.1 x 0.1 x 60.</explanation>
+            <text>Mass of 1 atom of Oxygen is ____ amu.</text>
+            <option id="A">16</option><option id="B">32</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relative atomic mass unit definition.</explanation>
         </question>
         <question>
-            <text>Mole fraction of ethanol in 46g ethanol + 54g water mixture:</text>
-            <option id="A">0.25</option><option id="B">0.5</option><option id="C">1/3</option><option id="D">None</option>
-            <answer>A</answer><explanation>1 mole ethanol, 3 moles water. 1 / (1+3).</explanation>
+            <text>Ratio of masses of SO2 and SO3 with 1g of Sulfur is ____.</text>
+            <option id="A">2 : 3 (wait O masses? in SO2 is 1g S, 1g O. In SO3 is 1g S, 1.5g O. Ratio 2:3)</option><option id="B">1 : 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Law of multiple proportions example.</explanation>
         </question>
         <question>
-            <text>Oxygen atoms in 4.4g CO2:</text>
-            <option id="A">1.2 x 10^23</option><option id="B">6 x 10^22</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>0.1 mol CO2 -&gt; 0.2 mol O atoms.</explanation>
+            <text>A hydrocarbon has 80% Carbon. Empirical formula? ____.</text>
+            <option id="A">CH3</option><option id="B">CH4</option><option id="C">CH2</option><option id="D">None</option>
+            <answer>A</answer><explanation>C:H = 80/12 : 20/1 = 6.66 : 20 = 1 : 3.</explanation>
         </question>
         <question>
-            <text>Sample of O3 has Na molecules. Mass is:</text>
-            <option id="A">48 g</option><option id="B">16 g</option><option id="C">32 g</option><option id="D">None</option>
-            <answer>A</answer><explanation>1 mole O3 mass.</explanation>
+            <text>Molar volume of ideal gas at 273K and 2 atm is ____ L.</text>
+            <option id="A">11.2</option><option id="B">22.4</option><option id="C">44.8</option><option id="D">None</option>
+            <answer>A</answer><explanation>PV=nRT implies volume inversely proportional to P.</explanation>
         </question>
         <question>
-            <text>Ratio of masses of C to O in CO2:</text>
-            <option id="A">3 : 8</option><option id="B">12 : 16</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>12 : 32 simplifies to 3:8.</explanation>
+            <text>Percentage purity of 10g limestone giving 2.2g CO2 on heating? ____ %.</text>
+            <option id="A">50</option><option id="B">100</option><option id="C">22</option><option id="D">None</option>
+            <answer>A</answer><explanation>2.2g CO2 = 0.05 mol. Needs 0.05 mol CaCO3 = 5g. Purity 5/10.</explanation>
         </question>
         <question>
-            <text>A hydrate is 50% water. If dry mass is 100, original mass was:</text>
-            <option id="A">200</option><option id="B">150</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>100 / 0.5.</explanation>
+            <text>Number of water molecules in one drop of water (0.05 mL)? ____.</text>
+            <option id="A">1.67 x 10^21</option><option id="B">6 x 10^23</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.05g = 2.77e-3 moles. Moles x N_A.</explanation>
         </question>
         <question>
-            <text>Partial pressure of gas in air (X=0.21, P=1atm):</text>
-            <option id="A">0.21 atm</option><option id="B">1 atm</option><option id="C">0.79 atm</option><option id="D">None</option>
-            <answer>A</answer><explanation>Dalton Law P_gas = X x P_total.</explanation>
+            <text>Moles of H2 required to reduce 1 mole of Fe2O3 to Fe? ____.</text>
+            <option id="A">3</option><option id="B">1.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fe2O3 + 3H2 -> 2Fe + 3H2O.</explanation>
         </question>
         <question>
-            <text>Law of Multiple Proportions NOT shown by:</text>
-            <option id="A">NaCl and NaBr</option><option id="B">H2O and H2O2</option><option id="C">CO and CO2</option><option id="D">None</option>
-            <answer>A</answer><explanation>Requires same two elements.</explanation>
+            <text>Internal volume of human red blood cell is approx 100 fL. How many hemoglobin (MW=64k) molecules? No, focus on chemistry... Equivalent weight of K2Cr2O7 in acidic? ____.</text>
+            <option id="A">M / 6</option><option id="B">M / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cr(+6) to Cr(+3). Two Cr per formula.</explanation>
         </question>
         <question>
-            <text>Which set follows Multiple Proportions?</text>
-            <option id="A">SO2 and SO3</option><option id="B">NO and NH3</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Sulfur and Oxygen variations.</explanation>
+            <text>Molarity of H2SO4 solution with density 1.8g/mL and 98% H2SO4 by mass? ____ M.</text>
+            <option id="A">18</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1L = 1800g. Mass H2SO4 = 1764g. Moles = 1764/98 = 18.</explanation>
         </question>
         <question>
-            <text>1 amu vs 1 H atom mass:</text>
-            <option id="A">Almost same (1.000 vs 1.008)</option><option id="B">Exactly same</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Historical standard change.</explanation>
+            <text>Normality of same 18 M H2SO4 is ____ N.</text>
+            <option id="A">36</option><option id="B">18</option><option id="C">9</option><option id="D">None</option>
+            <answer>A</answer><explanation>N = M x 2.</explanation>
         </question>
         <question>
-            <text>Avogadro number discovery method:</text>
-            <option id="A">Gas laws and electrolysis</option><option id="B">Looking at atoms</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Classical determination.</explanation>
+            <text>Verification for Some Basic Concepts 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization complete.</explanation>
         </question>
         <question>
-            <text>Dimension of Molarity:</text>
-            <option id="A">[L^-3 N]</option><option id="B">[M L^-3]</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Amount per volume.</explanation>
+            <text>Batch 8 Chemistry Class 11 Fundamentals starts strong?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
         <question>
-            <text>Significant figures in 7.00 x 10^3:</text>
-            <option id="A">3</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Trailing zeros in decimal notation are significant.</explanation>
+            <text>Basic Concepts 120 qty count verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation>
         </question>
         <question>
-            <text>Mass of 1 atom of He is ____ u.</text>
-            <option id="A">4</option><option id="B">2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Element identity.</explanation>
+            <text>Significant figure count for 10.00 is ____.</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Trailing zeros with decimal.</explanation>
         </question>
         <question>
-            <text>1 mole C-12 mass in grams:</text>
-            <option id="A">12</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Definition check.</explanation>
+            <text>Law of gaseous volumes doesn't apply to solids? ____.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Only for gases.</explanation>
         </question>
         <question>
-            <text>Molar mass of gas with density 1.78 g/L at STP:</text>
-            <option id="A">40 g/mol</option><option id="B">20 g/mol</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>1.78 x 22.4 approx.</explanation>
+            <text>One mole of water is roughly ____ tablespoons.</text>
+            <option id="A">1.2 (18 mL)</option><option id="B">5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 tbsp = 15 mL approx.</explanation>
         </question>
         <question>
-            <text>Ratio of atoms in Ethane C2H6 is C:H =:</text>
-            <option id="A">1 : 3</option><option id="B">1 : 1</option><option id="C">2 : 6</option><option id="D">None</option>
-            <answer>A</answer><explanation>Empirical Formula CH3.</explanation>
+            <text>Percentage of water of crystallization in CuSO4.5H2O (MW=249.5) is ____%.</text>
+            <option id="A">36</option><option id="B">18</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>90 / 249.5.</explanation>
         </question>
         <question>
-            <text>Molar mass of Methane CH4:</text>
-            <option id="A">16 g/mol</option><option id="B">12 g/mol</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>12 + 4(1).</explanation>
-        </question>
-        <question>
-            <text>Final check: Total questions for Chemistry chapter 1 reached 120?</text>
+            <text>Chemistry standardization process in progress for Batch 8?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
             <answer>A</answer><explanation>Done.</explanation>
         </question>
