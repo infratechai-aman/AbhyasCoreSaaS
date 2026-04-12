@@ -1,6 +1,6 @@
-import { getApps, initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { getApps, initializeApp, type FirebaseApp } from "firebase/app";
+import { getAuth, type Auth } from "firebase/auth";
+import { getFirestore, type Firestore } from "firebase/firestore";
 import { getAnalytics, isSupported } from "firebase/analytics";
 
 const firebaseConfig = {
@@ -13,12 +13,21 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
-const app = getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
+// Only initialize Firebase when the API key is actually present.
+// During Vercel static-page prerendering the env vars are empty,
+// so we guard against calling initializeApp with an invalid config.
+function getApp(): FirebaseApp | null {
+  if (!firebaseConfig.apiKey) return null;
+  return getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
+}
 
-export const auth = getAuth(app);
-export const db = getFirestore(app);
+const app = getApp();
+
+export const auth: Auth | null = app ? getAuth(app) : null;
+export const db: Firestore | null = app ? getFirestore(app) : null;
 
 // Initialize Analytics only in browser
-export const analytics = typeof window !== "undefined" 
-  ? isSupported().then(yes => yes ? getAnalytics(app) : null)
-  : Promise.resolve(null);
+export const analytics =
+  typeof window !== "undefined" && app
+    ? isSupported().then(yes => yes ? getAnalytics(app) : null)
+    : Promise.resolve(null);

@@ -9,6 +9,11 @@ import {
 import { db } from "./firebase";
 
 export async function saveTestResult(userId: string, payload: any) {
+  if (!db) {
+    console.warn("Firestore not available");
+    return null;
+  }
+
   try {
     // 1. Save results to the 'results' collection
     const resultsRef = collection(db, "results");
