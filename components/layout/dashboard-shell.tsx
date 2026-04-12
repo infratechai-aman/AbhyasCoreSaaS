@@ -14,7 +14,9 @@ import {
   Target,
   BrainCircuit,
   Trophy,
-  PenTool
+  PenTool,
+  Sparkles,
+  Database
 } from "lucide-react";
 
 const pageTitles: Record<string, string> = {
