@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
