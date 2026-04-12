@@ -33,6 +33,7 @@ export default function LoginPage() {
     setError("");
     
     try {
+      if (!auth) throw new Error("Authentication service is not available.");
       await signInWithEmailAndPassword(auth, email, password);
       router.push("/dashboard");
     } catch (err: any) {

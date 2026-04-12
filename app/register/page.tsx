@@ -35,6 +35,8 @@ export default function RegisterPage() {
     setError("");
     
     try {
+      if (!auth) throw new Error("Authentication service is not available.");
+      if (!db) throw new Error("Database service is not available.");
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       
