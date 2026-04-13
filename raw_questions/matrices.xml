@@ -1,609 +1,489 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <chapter subject="Mathematics" id="203" name="Matrices">
     <easy>
         <question>
             <text>A matrix with only one row is called a ____.</text>
             <option id="A">Row matrix</option><option id="B">Column matrix</option><option id="C">Square matrix</option><option id="D">None</option>
-            <answer>A</answer><explanation>A matrix having only one row and any number of columns is a row matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>A matrix having only one row and any number of columns is a row matrix.</explanation></question>
         <question>
             <text>If a matrix has m rows and n columns, its order is written as ____.</text>
             <option id="A">m x n</option><option id="B">n x m</option><option id="C">m + n</option><option id="D">mn</option>
-            <answer>A</answer><explanation>Standard notation for matrix dimensions.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard notation for matrix dimensions.</explanation></question>
         <question>
             <text>A matrix in which the number of rows is equal to the number of columns is a ____ matrix.</text>
             <option id="A">Square</option><option id="B">Diagonal</option><option id="C">Identity</option><option id="D">None</option>
-            <answer>A</answer><explanation>Definition of a square matrix (m=n).</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of a square matrix (m=n).</explanation></question>
         <question>
             <text>An identity matrix is a diagonal matrix where all diagonal elements are ____.</text>
             <option id="A">1</option><option id="B">0</option><option id="C">Any number</option><option id="D">Negative</option>
-            <answer>A</answer><explanation>By definition, in an identity matrix I, a_ii = 1 and a_ij = 0 for i != j.</explanation>
-        </question>
+            <answer>A</answer><explanation>By definition, in an identity matrix I, a_ii = 1 and a_ij = 0 for i != j.</explanation></question>
         <question>
             <text>A square matrix A = [a_ij] is said to be a zero matrix if ____.</text>
             <option id="A">All a_ij = 0</option><option id="B">Only diagonal a_ij = 0</option><option id="C">Tr(A) = 0</option><option id="D">None</option>
-            <answer>A</answer><explanation>A zero matrix has all its entries equal to zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>A zero matrix has all its entries equal to zero.</explanation></question>
         <question>
             <text>Addition of two matrices is possible only if they have the same ____.</text>
             <option id="A">Order</option><option id="B">Determinant</option><option id="C">Trace</option><option id="D">None</option>
-            <answer>A</answer><explanation>Matrices must be of the same dimension for element-wise addition.</explanation>
-        </question>
+            <answer>A</answer><explanation>Matrices must be of the same dimension for element-wise addition.</explanation></question>
         <question>
             <text>If A + B = B + A, matrix addition is said to be ____.</text>
             <option id="A">Commutative</option><option id="B">Associative</option><option id="C">Distributive</option><option id="D">None</option>
-            <answer>A</answer><explanation>Matrix addition satisfies the commutative law.</explanation>
-        </question>
+            <answer>A</answer><explanation>Matrix addition satisfies the commutative law.</explanation></question>
         <question>
             <text>The scalar multiplication of a matrix A by λ involves ____.</text>
             <option id="A">Multiplying every element of A by λ</option><option id="B">Multiplying only one row by λ</option><option id="C">Multiplying only diagonal by λ</option><option id="D">None</option>
-            <answer>A</answer><explanation>Scalar kA is defined as [k*a_ij].</explanation>
-        </question>
+            <answer>A</answer><explanation>Scalar kA is defined as [k*a_ij].</explanation></question>
         <question>
             <text>For any matrix A, (A')' = ____.</text>
             <option id="A">A</option><option id="B">-A</option><option id="C">A'</option><option id="D">I</option>
-            <answer>A</answer><explanation>The transpose of a transpose of a matrix is the matrix itself.</explanation>
-        </question>
+            <answer>A</answer><explanation>The transpose of a transpose of a matrix is the matrix itself.</explanation></question>
         <question>
             <text>A square matrix A is called symmetric if ____.</text>
             <option id="A">A' = A</option><option id="B">A' = -A</option><option id="C">|A| = 0</option><option id="D">None</option>
-            <answer>A</answer><explanation>Definition of a symmetric matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of a symmetric matrix.</explanation></question>
         <question>
             <text>A square matrix A is called skew-symmetric if ____.</text>
             <option id="A">A' = -A</option><option id="B">A' = A</option><option id="C">Diagonal elements are 1</option><option id="D">None</option>
-            <answer>A</answer><explanation>Definition of a skew-symmetric matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of a skew-symmetric matrix.</explanation></question>
         <question>
             <text>In a skew-symmetric matrix, all diagonal elements must be ____.</text>
             <option id="A">0</option><option id="B">1</option><option id="C">Equal to each other</option><option id="D">Imaginary</option>
-            <answer>A</answer><explanation>Since a_ii = -a_ii, it implies 2*a_ii = 0, so a_ii = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Since a_ii = -a_ii, it implies 2*a_ii = 0, so a_ii = 0.</explanation></question>
         <question>
             <text>The product AB of two matrices A (m x n) and B (p x q) is possible only if ____.</text>
             <answer>A</answer><explanation>Condition for matrix multiplication existence.</explanation>
-            <option id="A">n = p</option><option id="B">m = q</option><option id="C">m = p</option><option id="D">n = q</option>
-        </question>
-        <question>
-            <text>Matrix multiplication is NOT generally ____.</text>
-            <option id="A">Commutative</option><option id="B">Associative</option><option id="C">Distributive</option><option id="D">None</option>
-            <answer>A</answer><explanation>AB is not necessarily equal to BA.</explanation>
-        </question>
+            <option id="A">n = p</option><option id="B">m = q</option><option id="C">m = p</option><option id="D">n = q&lt;/question&gt;
+        &lt;question&gt;
+            &lt;text&gt;Matrix multiplication is NOT generally ____.&lt;/text&gt;
+            &lt;option id="A"&gt;Commutative</option><option id="B">Associative</option><option id="C">Distributive</option><option id="D">None</option>
+            <answer>A</answer><explanation>AB is not necessarily equal to BA.</explanation></question>
         <question>
             <text>The order of the identity matrix in the expression I + A, where A is 3x3, must be ____.</text>
             <option id="A">3x3</option><option id="B">Any</option><option id="C">1x1</option><option id="D">None</option>
-            <answer>A</answer><explanation>Addition requires identical orders.</explanation>
-        </question>
+            <answer>A</answer><explanation>Addition requires identical orders.</explanation></question>
         <question>
             <text>If A is a square matrix, A + A' is always ____.</text>
             <option id="A">Symmetric</option><option id="B">Skew-symmetric</option><option id="C">Zero</option><option id="D">Identity</option>
-            <answer>A</answer><explanation>(A+A')' = A' + A'' = A' + A = A + A'.</explanation>
-        </question>
+            <answer>A</answer><explanation>(A+A')' = A' + A'' = A' + A = A + A'.</explanation></question>
         <question>
             <text>If A is a square matrix, A - A' is always ____.</text>
             <option id="A">Skew-symmetric</option><option id="B">Symmetric</option><option id="C">Diagonal</option><option id="D">None</option>
-            <answer>A</answer><explanation>(A-A')' = A' - A = -(A-A').</explanation>
-        </question>
+            <answer>A</answer><explanation>(A-A')' = A' - A = -(A-A').</explanation></question>
         <question>
             <text>Any square matrix can be uniquely expressed as the sum of a symmetric and a ____ matrix.</text>
             <option id="A">Skew-symmetric</option><option id="B">Zero</option><option id="C">Diagonal</option><option id="D">Identity</option>
-            <answer>A</answer><explanation>A = 1/2(A + A') + 1/2(A - A').</explanation>
-        </question>
+            <answer>A</answer><explanation>A = 1/2(A + A') + 1/2(A - A').</explanation></question>
         <question>
             <text>If AB = O, does it necessarily mean either A = O or B = O?</text>
             <option id="A">No</option><option id="B">Yes</option><option id="C">Only if A is square</option><option id="D">None</option>
-            <answer>A</answer><explanation>Product of two non-zero matrices can be zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>Product of two non-zero matrices can be zero.</explanation></question>
         <question>
             <text>If A is m x n and B is n x p, the order of matrix AB is ____.</text>
             <option id="A">m x p</option><option id="B">n x n</option><option id="C">m x n</option><option id="D">p x m</option>
-            <answer>A</answer><explanation>Resulting matrix has rows of A and columns of B.</explanation>
-        </question>
+            <answer>A</answer><explanation>Resulting matrix has rows of A and columns of B.</explanation></question>
         <question>
             <text>The diagonal elements of a square matrix A = [a_ij] are elements for which ____.</text>
-            <option id="A">i = j</option><option id="B">i > j</option><option id="C">i &lt; j</option><option id="D">i + j = n</option>
-            <answer>A</answer><explanation>Principal diagonal definition.</explanation>
-        </question>
+            <option id="A">i = j</option><option id="B">i &gt; j</option><option id="C">i &lt; j</option><option id="D">i + j = n</option>
+            <answer>A</answer><explanation>Principal diagonal definition.</explanation></question>
         <question>
             <text>A diagonal matrix in which all diagonal elements are equal is a ____ matrix.</text>
             <option id="A">Scalar</option><option id="B">Identity</option><option id="C">Zero</option><option id="D">None</option>
-            <answer>A</answer><explanation>Special case of diagonal matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Special case of diagonal matrix.</explanation></question>
         <question>
             <text>Transposing a 2x3 matrix results in a ____ matrix.</text>
             <option id="A">3x2</option><option id="B">2x3</option><option id="C">1x6</option><option id="D">3x3</option>
-            <answer>A</answer><explanation>m x n becomes n x m.</explanation>
-        </question>
+            <answer>A</answer><explanation>m x n becomes n x m.</explanation></question>
         <question>
             <text>For any matrices A and B of suitable order, (AB)' = ____.</text>
             <option id="A">B'A'</option><option id="B">A'B'</option><option id="C">AB</option><option id="D">B' + A'</option>
-            <answer>A</answer><explanation>Reversal law of transposes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reversal law of transposes.</explanation></question>
         <question>
             <text>If A is a square matrix, tr(A) is the ____ of its diagonal elements.</text>
             <option id="A">Sum</option><option id="B">Product</option><option id="C">Mean</option><option id="D">Difference</option>
-            <answer>A</answer><explanation>Trace is defined as Σ a_ii.</explanation>
-        </question>
+            <answer>A</answer><explanation>Trace is defined as Σ a_ii.</explanation></question>
         <question>
             <text>Matrix multiplication is ____ over addition.</text>
             <option id="A">Distributive</option><option id="B">Commutative</option><option id="C">Reflexive</option><option id="D">None</option>
-            <answer>A</answer><explanation>A(B+C) = AB + AC.</explanation>
-        </question>
+            <answer>A</answer><explanation>A(B+C) = AB + AC.</explanation></question>
         <question>
             <text>Elementary operations are used to find the ____ of a matrix.</text>
             <option id="A">Inverse</option><option id="B">Trace</option><option id="C">Order</option><option id="D">None</option>
-            <answer>A</answer><explanation>Using Gauss-Jordan method.</explanation>
-        </question>
+            <answer>A</answer><explanation>Using Gauss-Jordan method.</explanation></question>
         <question>
             <text>If A is an invertible matrix, its inverse is ____.</text>
             <option id="A">Unique</option><option id="B">Not unique</option><option id="C">Always zero</option><option id="D">None</option>
-            <answer>A</answer><explanation>Every invertible matrix has exactly one inverse.</explanation>
-        </question>
+            <answer>A</answer><explanation>Every invertible matrix has exactly one inverse.</explanation></question>
         <question>
             <text>For an invertible matrix A, (A_inv)_inv = ____.</text>
             <option id="A">A</option><option id="B">I</option><option id="C">A'</option><option id="D">-A</option>
-            <answer>A</answer><explanation>The inverse of an inverse is the original matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>The inverse of an inverse is the original matrix.</explanation></question>
         <question>
             <text>For invertible matrices A and B, (AB)_inv = ____.</text>
             <option id="A">B_inv * A_inv</option><option id="B">A_inv * B_inv</option><option id="C">AB</option><option id="D">A_inv + B_inv</option>
-            <answer>A</answer><explanation>Reversal law of inverses.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reversal law of inverses.</explanation></question>
         <question>
             <text>A scalar matrix with diagonal elements equal to k is an identity matrix if k = ____.</text>
             <option id="A">1</option><option id="B">0</option><option id="C">-1</option><option id="D">Any real number</option>
-            <answer>A</answer><explanation>Definition of identity matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of identity matrix.</explanation></question>
         <question>
             <text>Multiplication of matrix A by its inverse results in ____ matrix.</text>
             <option id="A">Identity</option><option id="B">Zero</option><option id="C">Diagonal but not identity</option><option id="D">None</option>
-            <answer>A</answer><explanation>AA_inv = I.</explanation>
-        </question>
+            <answer>A</answer><explanation>AA_inv = I.</explanation></question>
         <question>
             <text>If A is a square matrix such that A^2 = A, then A is called ____.</text>
             <option id="A">Idempotent</option><option id="B">Involutory</option><option id="C">Nilpotent</option><option id="D">Orthogonal</option>
-            <answer>A</answer><explanation>Definition of idempotent matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of idempotent matrix.</explanation></question>
         <question>
             <text>If A is a square matrix such that A^2 = I, then A is called ____.</text>
             <option id="A">Involutory</option><option id="B">Idempotent</option><option id="C">Nilpotent</option><option id="D">Unitary</option>
-            <answer>A</answer><explanation>Definition of involutory matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of involutory matrix.</explanation></question>
         <question>
             <text>If A is a square matrix such that A^k = O for some integer k, A is ____.</text>
             <option id="A">Nilpotent</option><option id="B">Idempotent</option><option id="C">Orthogonal</option><option id="D">Identity</option>
-            <answer>A</answer><explanation>Definition of nilpotent matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of nilpotent matrix.</explanation></question>
         <question>
             <text>Sum of two diagonal matrices is a ____ matrix.</text>
             <option id="A">Diagonal</option><option id="B">Scalar</option><option id="C">Non-diagonal</option><option id="D">None</option>
-            <answer>A</answer><explanation>Addition of diagonal entries only.</explanation>
-        </question>
+            <answer>A</answer><explanation>Addition of diagonal entries only.</explanation></question>
         <question>
             <text>If matrix A has order 3x4 and matrix B has order 4x3, order of BA is ____.</text>
             <option id="A">4x4</option><option id="B">3x3</option><option id="C">12x12</option><option id="D">None</option>
-            <answer>A</answer><explanation>BA: (4x3) * (3x4) -> 4x4.</explanation>
-        </question>
+            <answer>A</answer><explanation>BA: (4x3) * (3x4) -&gt; 4x4.</explanation></question>
         <question>
             <text>A square matrix A is called orthogonal if AA' = ____.</text>
             <option id="A">I</option><option id="B">O</option><option id="C">A</option><option id="D">-I</option>
-            <answer>A</answer><explanation>Definition of orthogonal matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of orthogonal matrix.</explanation></question>
         <question>
             <text>Trace of identity matrix of order n is ____.</text>
             <option id="A">n</option><option id="B">1</option><option id="C">0</option><option id="D">n^2</option>
-            <answer>A</answer><explanation>Sum of n ones.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sum of n ones.</explanation></question>
         <question>
             <text>If A is symmetric, then kA is ____.</text>
             <option id="A">Symmetric</option><option id="B">Skew-symmetric</option><option id="C">Diagonal</option><option id="D">None</option>
-            <answer>A</answer><explanation>Scalar mult preserves symmetry.</explanation>
-        </question>
+            <answer>A</answer><explanation>Scalar mult preserves symmetry.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>If matrix A is both symmetric and skew-symmetric, then A is ____ matrix.</text>
             <option id="A">Zero</option><option id="B">Diagonal</option><option id="C">Identity</option><option id="D">None</option>
-            <answer>A</answer><explanation>A' = A and A' = -A implies A = -A, so 2A = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>A' = A and A' = -A implies A = -A, so 2A = 0.</explanation></question>
         <question>
             <text>For symmetric matrices A and B, AB is symmetric if and only if ____.</text>
             <option id="A">AB = BA</option><option id="B">A = B</option><option id="C">|A| = |B|</option><option id="D">None</option>
-            <answer>A</answer><explanation>(AB)' = B'A' = BA. For (AB)' = AB, we need BA = AB.</explanation>
-        </question>
+            <answer>A</answer><explanation>(AB)' = B'A' = BA. For (AB)' = AB, we need BA = AB.</explanation></question>
         <question>
             <text>If A is a square matrix, then (A+A')/2 is ____ Part of A.</text>
             <option id="A">Symmetric</option><option id="B">Skew-symmetric</option><option id="C">Diagonal</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard decomposition into symmetric and skew-symmetric components.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard decomposition into symmetric and skew-symmetric components.</explanation></question>
         <question>
             <text>If A = [[1, 2], [3, 4]], then trace(A) is ____.</text>
             <option id="A">5</option><option id="B">3</option><option id="C">7</option><option id="D">10</option>
-            <answer>A</answer><explanation>Sum of diagonal elements: 1 + 4 = 5.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sum of diagonal elements: 1 + 4 = 5.</explanation></question>
         <question>
             <text>If A is 3x3 and |A| = 5, then |2A| is ____.</text>
             <option id="A">40</option><option id="B">10</option><option id="C">15</option><option id="D">30</option>
-            <answer>A</answer><explanation>|kA| = k^n * |A|. So 2^3 * 5 = 8 * 5 = 40.</explanation>
-        </question>
+            <answer>A</answer><explanation>|kA| = k^n * |A|. So 2^3 * 5 = 8 * 5 = 40.</explanation></question>
         <question>
             <text>If A is symmetric matrix, then A^n is ____ for any positive integer n.</text>
             <option id="A">Symmetric</option><option id="B">Skew-symmetric</option><option id="C">Depends on n</option><option id="D">None</option>
-            <answer>A</answer><explanation>(A^n)' = (A')^n = A^n.</explanation>
-        </question>
+            <answer>A</answer><explanation>(A^n)' = (A')^n = A^n.</explanation></question>
         <question>
             <text>If A is skew-symmetric, then A^2 is ____.</text>
             <option id="A">Symmetric</option><option id="B">Skew-symmetric</option><option id="C">Zero</option><option id="D">Identity</option>
-            <answer>A</answer><explanation>(A^2)' = (A')^2 = (-A)^2 = A^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>(A^2)' = (A')^2 = (-A)^2 = A^2.</explanation></question>
         <question>
             <text>If A is skew-symmetric, then A^3 is ____.</text>
             <option id="A">Skew-symmetric</option><option id="B">Symmetric</option><option id="C">Zero</option><option id="D">I</option>
-            <answer>A</answer><explanation>(A^3)' = (A')^3 = (-A)^3 = -A^3.</explanation>
-        </question>
+            <answer>A</answer><explanation>(A^3)' = (A')^3 = (-A)^3 = -A^3.</explanation></question>
         <question>
             <text>If A and B are symmetric matrices of same order, then AB - BA is ____.</text>
             <option id="A">Skew-symmetric</option><option id="B">Symmetric</option><option id="C">Zero</option><option id="D">Identity</option>
-            <answer>A</answer><explanation>(AB-BA)' = (AB)' - (BA)' = B'A' - A'B' = BA - AB = -(AB-BA).</explanation>
-        </question>
+            <answer>A</answer><explanation>(AB-BA)' = (AB)' - (BA)' = B'A' - A'B' = BA - AB = -(AB-BA).</explanation></question>
         <question>
             <text>The value of x for which [[x, 1], [0, 1]] is singular is ____.</text>
             <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">Any real number</option>
-            <answer>A</answer><explanation>Determinant must be zero: x(1) - 1(0) = 0 => x = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Determinant must be zero: x(1) - 1(0) = 0 =&gt; x = 0.</explanation></question>
         <question>
             <text>If A = [[0, 1], [-1, 0]], then A^2 is ____.</text>
             <option id="A">-I</option><option id="B">I</option><option id="C">O</option><option id="D">A</option>
-            <answer>A</answer><explanation>Calculation: [[-1, 0], [0, -1]].</explanation>
-        </question>
+            <answer>A</answer><explanation>Calculation: [[-1, 0], [0, -1]].</explanation></question>
         <question>
             <text>If A is orthogonal, then |A| can be ____.</text>
             <option id="A">±1</option><option id="B">0</option><option id="C">Any real number</option><option id="D">None</option>
-            <answer>A</answer><explanation>|AA'| = |I| => |A|^2 = 1 => |A| = ±1.</explanation>
-        </question>
+            <answer>A</answer><explanation>|AA'| = |I| =&gt; |A|^2 = 1 =&gt; |A| = ±1.</explanation></question>
         <question>
             <text>Two matrices A and B are congruent if B = ____ for some non-singular matrix P.</text>
             <option id="A">P'AP</option><option id="B">PAP_inv</option><option id="C">P'A</option><option id="D">AP</option>
-            <answer>A</answer><explanation>Definition of congruence in linear algebra context.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of congruence in linear algebra context.</explanation></question>
         <question>
             <text>The minimal polynomial of identity matrix I of order 2 is ____.</text>
             <option id="A">x - 1</option><option id="B">x^2 - 1</option><option id="C">(x-1)^2</option><option id="D">x</option>
-            <answer>A</answer><explanation>Since I - I = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Since I - I = 0.</explanation></question>
         <question>
             <text>For any matrix A, trace(AA') is always ____.</text>
             <option id="A">Non-negative</option><option id="B">Zero</option><option id="C">Negative</option><option id="D">Imaginary</option>
-            <answer>A</answer><explanation>Sum of squares of all elements of A.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sum of squares of all elements of A.</explanation></question>
         <question>
             <text>Which matrix has the property that its trace is zero and it is symmetric?</text>
             <option id="A">[[1, 0], [0, -1]]</option><option id="B">[[1, 1], [1, 1]]</option><option id="C">[[0, 1], [-1, 0]]</option><option id="D">None</option>
-            <answer>A</answer><explanation>Check: Symmetric and 1 + (-1) = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Check: Symmetric and 1 + (-1) = 0.</explanation></question>
         <question>
             <text>Number of elements in a 3x3 diagonal matrix which are definitely zero is ____.</text>
             <option id="A">6</option><option id="B">3</option><option id="C">9</option><option id="D">None</option>
-            <answer>A</answer><explanation>Entries a_ij where i != j must be zero. Total 3x3 = 9 elements, 3 diagonal, 6 non-diagonal.</explanation>
-        </question>
+            <answer>A</answer><explanation>Entries a_ij where i != j must be zero. Total 3x3 = 9 elements, 3 diagonal, 6 non-diagonal.</explanation></question>
         <question>
             <text>If A = [[cos x, -sin x], [sin x, cos x]], then A is ____ matrix.</text>
             <option id="A">Orthogonal</option><option id="B">Nilpotent</option><option id="C">Idempotent</option><option id="D">None</option>
-            <answer>A</answer><explanation>Rotation matrix satisfies AA' = I.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rotation matrix satisfies AA' = I.</explanation></question>
         <question>
             <text>If A has inverse B, then det(B) = ____.</text>
             <option id="A">1 / det(A)</option><option id="B">det(A)</option><option id="C">1</option><option id="D">-det(A)</option>
-            <answer>A</answer><explanation>|AB| = |I| => |A||B| = 1.</explanation>
-        </question>
+            <answer>A</answer><explanation>|AB| = |I| =&gt; |A||B| = 1.</explanation></question>
         <question>
             <text>If A is a scalar matrix of order 3 with diagonal elements 5, then |A| is ____.</text>
             <option id="A">125</option><option id="B">15</option><option id="C">5</option><option id="D">25</option>
-            <answer>A</answer><explanation>Product of diagonal elements: 5 * 5 * 5 = 125.</explanation>
-        </question>
+            <answer>A</answer><explanation>Product of diagonal elements: 5 * 5 * 5 = 125.</explanation></question>
         <question>
             <text>If trace(A) = 6 and trace(B) = -2, then trace(A + B) is ____.</text>
             <option id="A">4</option><option id="B">8</option><option id="C">-12</option><option id="D">None</option>
-            <answer>A</answer><explanation>Trace is a linear operator: Tr(A+B) = Tr(A) + Tr(B).</explanation>
-        </question>
+            <answer>A</answer><explanation>Trace is a linear operator: Tr(A+B) = Tr(A) + Tr(B).</explanation></question>
         <question>
             <text>If A is m x n, and A'A is defined, its order is ____.</text>
             <option id="A">n x n</option><option id="B">m x m</option><option id="C">m x n</option><option id="D">n x m</option>
-            <answer>A</answer><explanation>A' (n x m) * A (m x n) -> n x n.</explanation>
-        </question>
+            <answer>A</answer><explanation>A' (n x m) * A (m x n) -&gt; n x n.</explanation></question>
         <question>
             <text>The diagonal elements of a skew-Hermitian matrix are ____.</text>
             <option id="A">Purely imaginary or zero</option><option id="B">Purely real</option><option id="C">Always 1</option><option id="D">None</option>
-            <answer>A</answer><explanation>In complex case, a_ii = -conj(a_ii).</explanation>
-        </question>
+            <answer>A</answer><explanation>In complex case, a_ii = -conj(a_ii).</explanation></question>
         <question>
             <text>How many zero matrices of order 2x3 exist?</text>
             <option id="A">1</option><option id="B">Infinte</option><option id="C">None</option><option id="D">3</option>
-            <answer>A</answer><explanation>There is only one zero matrix per order.</explanation>
-        </question>
+            <answer>A</answer><explanation>There is only one zero matrix per order.</explanation></question>
         <question>
             <text>If A is 2x2 and A^2 = O, then trace(A) must be ____.</text>
             <option id="A">Depends on A (but characteristic eq says tr(A)=0 if eval=0)</option><option id="B">Always 1</option><option id="C">Always 2</option><option id="D">None</option>
-            <answer>A</answer><explanation>Eigenvalues are 0, so sum is 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Eigenvalues are 0, so sum is 0.</explanation></question>
         <question>
             <text>If A is square, det(A') = ____.</text>
             <option id="A">det(A)</option><option id="B">-det(A)</option><option id="C">1/det(A)</option><option id="D">0</option>
-            <answer>A</answer><explanation>Determinant remains same on transposition.</explanation>
-        </question>
+            <answer>A</answer><explanation>Determinant remains same on transposition.</explanation></question>
         <question>
             <text>Total number of possible matrices of order 3x3 with each entry 0 or 1 is ____.</text>
             <option id="A">512</option><option id="B">18</option><option id="C">81</option><option id="D">None</option>
-            <answer>A</answer><explanation>2 options for 9 positions -> 2^9 = 512.</explanation>
-        </question>
+            <answer>A</answer><explanation>2 options for 9 positions -&gt; 2^9 = 512.</explanation></question>
         <question>
             <text>If A = [[1, 0], [0, 1]] and B = [[0, 1], [1, 0]], then AB is ____.</text>
             <option id="A">B</option><option id="B">A</option><option id="C">I</option><option id="D">O</option>
-            <answer>A</answer><explanation>Identity matrix does not change the other matrix.</explanation>
-        </question>
+            <answer>A</answer><explanation>Identity matrix does not change the other matrix.</explanation></question>
         <question>
             <text>If A = [[1, 1], [0, 1]], then A^n is ____.</text>
             <option id="A">[[1, n], [0, 1]]</option><option id="B">[[1, 1], [0, 1]]</option><option id="C">[[1, n], [0, n]]</option><option id="D">None</option>
-            <answer>A</answer><explanation>Can be proven by induction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Can be proven by induction.</explanation></question>
         <question>
             <text>A matrix which is its own inverse is called ____.</text>
             <option id="A">Involutory</option><option id="B">Idempotent</option><option id="C">Orthogonal</option><option id="D">None</option>
-            <answer>A</answer><explanation>A = A_inv implies A^2 = I.</explanation>
-        </question>
+            <answer>A</answer><explanation>A = A_inv implies A^2 = I.</explanation></question>
         <question>
             <text>The number of arbitrary constants in a general 3x3 skew-symmetric matrix is ____.</text>
             <option id="A">3</option><option id="B">6</option><option id="C">9</option><option id="D">None</option>
-            <answer>A</answer><explanation>(n^2 - n) / 2 = (9 - 3) / 2 = 3. Only entries above diagonal can vary (diagonal is 0).</explanation>
-        </question>
+            <answer>A</answer><explanation>(n^2 - n) / 2 = (9 - 3) / 2 = 3. Only entries above diagonal can vary (diagonal is 0).</explanation></question>
         <question>
             <text>The number of arbitrary constants in a general 3x3 symmetric matrix is ____.</text>
             <option id="A">6</option><option id="B">9</option><option id="C">3</option><option id="D">None</option>
-            <answer>A</answer><explanation>n(n+1)/2 = 3(4)/2 = 6.</explanation>
-        </question>
+            <answer>A</answer><explanation>n(n+1)/2 = 3(4)/2 = 6.</explanation></question>
         <question>
             <text>If A = [[x, y], [z, w]], the condition for A to be equal to its transpose is ____.</text>
             <option id="A">y = z</option><option id="B">x = w</option><option id="C">y = -z</option><option id="D">None</option>
-            <answer>A</answer><explanation>Off-diagonal elements must match.</explanation>
-        </question>
+            <answer>A</answer><explanation>Off-diagonal elements must match.</explanation></question>
         <question>
             <text>If A is matrix of order 3x3, and B = 3A, then det(B) / det(A) is ____.</text>
             <option id="A">27</option><option id="B">3</option><option id="C">9</option><option id="D">None</option>
-            <answer>A</answer><explanation>|kA| = k^3 |A|.</explanation>
-        </question>
+            <answer>A</answer><explanation>|kA| = k^3 |A|.</explanation></question>
         <question>
             <text>If A is idempotent, then |A| can only be ____.</text>
             <option id="A">0 or 1</option><option id="B">1</option><option id="C">-1</option><option id="D">None</option>
-            <answer>A</answer><explanation>|A^2| = |A| => |A|^2 = |A|.</explanation>
-        </question>
+            <answer>A</answer><explanation>|A^2| = |A| =&gt; |A|^2 = |A|.</explanation></question>
         <question>
             <text>If A is in the form of a column matrix, then A' is a ____ matrix.</text>
             <option id="A">Row</option><option id="B">Column</option><option id="C">Square</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard transpose behavior.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard transpose behavior.</explanation></question>
         <question>
             <text>The identity element for matrix addition of order 2x2 is ____.</text>
             <option id="A">[[0, 0], [0, 0]]</option><option id="B">[[1, 0], [0, 1]]</option><option id="C">[[1, 1], [1, 1]]</option><option id="D">None</option>
-            <answer>A</answer><explanation>Zero matrix is the additive identity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Zero matrix is the additive identity.</explanation></question>
         <question>
             <text>If A = [[0, -i], [i, 0]], then A is ____.</text>
             <option id="A">Hermitian</option><option id="B">Skew-Hermitian</option><option id="C">Symmetric</option><option id="D">None</option>
-            <answer>A</answer><explanation>A_theta = (A')* = [[0, i], [-i, 0]]* = [[0, -i], [i, 0]] = A.</explanation>
-        </question>
+            <answer>A</answer><explanation>A_theta = (A')* = [[0, i], [-i, 0]]* = [[0, -i], [i, 0]] = A.</explanation></question>
         <question>
             <text>Matrix multiplication is ____ over scalar multiplication.</text>
             <option id="A">Associative</option><option id="B">Commutative</option><option id="C">Neither</option><option id="D">None</option>
-            <answer>A</answer><explanation>k(AB) = (kA)B = A(kB).</explanation>
-        </question>
+            <answer>A</answer><explanation>k(AB) = (kA)B = A(kB).</explanation></question>
         <question>
             <text>If A = [[1, 2, 3], [0, 1, 4], [0, 0, 1]], the matrix is ____.</text>
             <option id="A">Upper Triangular</option><option id="B">Lower Triangular</option><option id="C">Diagonal</option><option id="D">None</option>
-            <answer>A</answer><explanation>All entries below principal diagonal are zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>All entries below principal diagonal are zero.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>The rank of the matrix [[1, 2, 3], [2, 4, 6], [3, 6, 9]] is ____.</text>
             <option id="A">1</option><option id="B">3</option><option id="C">0</option><option id="D">2</option>
-            <answer>A</answer><explanation>Rows are proportional (R2 = 2R1, R3 = 3R1).</explanation>
-        </question>
+            <answer>A</answer><explanation>Rows are proportional (R2 = 2R1, R3 = 3R1).</explanation></question>
         <question>
             <text>If A is non-singular 3x3 matrix, then |adj(A)| = ____.</text>
             <option id="A">|A|^2</option><option id="B">|A|</option><option id="C">|A|^3</option><option id="D">1/|A|</option>
-            <answer>A</answer><explanation>General formula |adj(A)| = |A|^(n-1).</explanation>
-        </question>
+            <answer>A</answer><explanation>General formula |adj(A)| = |A|^(n-1).</explanation></question>
         <question>
             <text>If adj(A) is [[2, 0], [0, 2]] and |A| = 2, then A is ____.</text>
             <option id="A">[[2, 0], [0, 2]]</option><option id="B">[[1, 0], [0, 1]]</option><option id="C">[[4, 0], [0, 4]]</option><option id="D">None</option>
-            <answer>A</answer><explanation>A * adj(A) = |A|I => A * 2I = 2I => A=I... Wait. 2*2 / 2 = 2. A = (1/|A|) * adj(adj(A))... or simpler A * adj(A) = |A|I.</explanation>
-        </question>
+            <answer>A</answer><explanation>A * adj(A) = |A|I =&gt; A * 2I = 2I =&gt; A=I... Wait. 2*2 / 2 = 2. A = (1/|A|) * adj(adj(A))... or simpler A * adj(A) = |A|I.</explanation></question>
         <question>
             <text>If A^3 + A^2 + A + I = O, then A_inv = ____.</text>
             <option id="A">-(A^2 + A + I)</option><option id="B">A^2 + A + I</option><option id="C">A^3</option><option id="D">-I</option>
-            <answer>A</answer><explanation>Multiply by A_inv: A^2 + A + I + A_inv = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Multiply by A_inv: A^2 + A + I + A_inv = 0.</explanation></question>
         <question>
             <text>The inverse of [[cos θ, sin θ], [-sin θ, cos θ]] is ____.</text>
             <option id="A">[[cos θ, -sin θ], [sin θ, cos θ]]</option><option id="B">[[cos θ, sin θ], [-sin θ, cos θ]]</option><option id="C">[[sin θ, cos θ], [-cos θ, sin θ]]</option><option id="D">None</option>
-            <answer>A</answer><explanation>It is an orthogonal matrix, so inverse = transpose.</explanation>
-        </question>
+            <answer>A</answer><explanation>It is an orthogonal matrix, so inverse = transpose.</explanation></question>
         <question>
             <text>If adj(adj(A)) = |A|^(n-2) * A, what is value for n=3?</text>
             <option id="A">|A|A</option><option id="B">|A|^2 A</option><option id="C">A</option><option id="D">None</option>
-            <answer>A</answer><explanation>For n=3, power is 3-2 = 1.</explanation>
-        </question>
+            <answer>A</answer><explanation>For n=3, power is 3-2 = 1.</explanation></question>
         <question>
             <text>If A = [[a, b], [c, d]], then adj(A) is ____.</text>
             <option id="A">[[d, -b], [-c, a]]</option><option id="B">[[a, -b], [-c, d]]</option><option id="C">[[d, b], [c, a]]</option><option id="D">None</option>
-            <answer>A</answer><explanation>Swap diagonal elements and change signs of off-diagonal elements.</explanation>
-        </question>
+            <answer>A</answer><explanation>Swap diagonal elements and change signs of off-diagonal elements.</explanation></question>
         <question>
             <text>The characteristic equation of [[1, 2], [3, 4]] is ____.</text>
             <option id="A">λ^2 - 5λ - 2 = 0</option><option id="B">λ^2 + 5λ + 2 = 0</option><option id="C">λ^2 - 5λ + 2 = 0</option><option id="D">None</option>
-            <answer>A</answer><explanation>det|A-λI| = (1-λ)(4-λ) - 6 = 4 - 5λ + λ^2 - 6 = λ^2 - 5λ - 2.</explanation>
-        </question>
+            <answer>A</answer><explanation>det|A-λI| = (1-λ)(4-λ) - 6 = 4 - 5λ + λ^2 - 6 = λ^2 - 5λ - 2.</explanation></question>
         <question>
             <text>Cayley-Hamilton Theorem states that every square matrix satisfies its own ____.</text>
             <option id="A">Characteristic equation</option><option id="B">Minimal polynomial</option><option id="C">Order</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard result for square matrices.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard result for square matrices.</explanation></question>
         <question>
             <text>If A is 3x3 nilpotent matrix of index 3, then A^2 is ____.</text>
             <option id="A">Non-zero</option><option id="B">Zero</option><option id="C">Identity</option><option id="D">None</option>
-            <answer>A</answer><explanation>Indexed index k means A^(k-1) != 0 and A^k = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Indexed index k means A^(k-1) != 0 and A^k = 0.</explanation></question>
         <question>
             <text>The eigenvalues of a skew-symmetric matrix are always ____.</text>
             <option id="A">Zero or purely imaginary</option><option id="B">Purely real</option><option id="C">Always 0</option><option id="D">None</option>
-            <answer>A</answer><explanation>Property of skew-symmetric real matrices.</explanation>
-        </question>
+            <answer>A</answer><explanation>Property of skew-symmetric real matrices.</explanation></question>
         <question>
             <text>Which of the following describes the trace of a nilpotent matrix?</text>
             <option id="A">Always 0</option><option id="B">Positive</option><option id="C">1</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sum of eigenvalues (all are 0).</explanation>
-        </question>
+            <answer>A</answer><explanation>Sum of eigenvalues (all are 0).</explanation></question>
         <question>
             <text>If A is 3x3 matrix and |A| = 0, then rank(A) is ____.</text>
             <option id="A">Less than 3</option><option id="B">3</option><option id="C">0</option><option id="D">Exactly 2</option>
-            <answer>A</answer><explanation>A singular matrix cannot have full rank.</explanation>
-        </question>
+            <answer>A</answer><explanation>A singular matrix cannot have full rank.</explanation></question>
         <question>
             <text>Product of any two orthogonal matrices is ____ matrix.</text>
             <option id="A">Orthogonal</option><option id="B">Zero</option><option id="C">Identity</option><option id="D">None</option>
-            <answer>A</answer><explanation>(AB)(AB)' = AB(B'A') = A(BB')A' = AIA' = AA' = I.</explanation>
-        </question>
+            <answer>A</answer><explanation>(AB)(AB)' = AB(B'A') = A(BB')A' = AIA' = AA' = I.</explanation></question>
         <question>
             <text>If A is involutionary and A = A', then A is ____.</text>
             <option id="A">Orthogonal</option><option id="B">Nilpotent</option><option id="C">Scalar</option><option id="D">None</option>
-            <answer>A</answer><explanation>A^2 = I and A = A' implies AA' = I.</explanation>
-        </question>
+            <answer>A</answer><explanation>A^2 = I and A = A' implies AA' = I.</explanation></question>
         <question>
             <text>The sum of eigenvalues of A is equal to ____.</text>
             <option id="A">trace(A)</option><option id="B">|A|</option><option id="C">det(A)</option><option id="D">rank(A)</option>
-            <answer>A</answer><explanation>Fundamental property of characteristic polynomials.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental property of characteristic polynomials.</explanation></question>
         <question>
             <text>The product of eigenvalues of A is equal to ____.</text>
             <option id="A">|A|</option><option id="B">trace(A)</option><option id="C">rank(A)</option><option id="D">1</option>
-            <answer>A</answer><explanation>Fundamental property of characteristic polynomials.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental property of characteristic polynomials.</explanation></question>
         <question>
             <text>If A = [[1, a], [0, 1]], then A^(-1) is ____.</text>
             <option id="A">[[1, -a], [0, 1]]</option><option id="B">[[1, 0], [-a, 1]]</option><option id="C">[[1, 1/a], [0, 1]]</option><option id="D">None</option>
-            <answer>A</answer><explanation>Calculation: 1/1 * [[1, -a], [0, 1]].</explanation>
-        </question>
+            <answer>A</answer><explanation>Calculation: 1/1 * [[1, -a], [0, 1]].</explanation></question>
         <question>
             <text>If A is a 2x2 matrix such that trace(A)=0 and det(A)=0, then A^2 = ____.</text>
             <option id="A">O</option><option id="B">I</option><option id="C">A</option><option id="D">None</option>
-            <answer>A</answer><explanation>By Cayley-Hamilton: A^2 - tr(A)A + det(A)I = 0 => A^2 = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>By Cayley-Hamilton: A^2 - tr(A)A + det(A)I = 0 =&gt; A^2 = 0.</explanation></question>
         <question>
-            <text>Elementary row operation R_i -> kR_i (k != 0) changes determinant by a factor of ____.</text>
+            <text>Elementary row operation R_i -&gt; kR_i (k != 0) changes determinant by a factor of ____.</text>
             <option id="A">k</option><option id="B">k^n</option><option id="C">1/k</option><option id="D">None</option>
-            <answer>A</answer><explanation>Multiplying a row by k multiplies the determinant by k.</explanation>
-        </question>
+            <answer>A</answer><explanation>Multiplying a row by k multiplies the determinant by k.</explanation></question>
         <question>
-            <text>Elementary row operation R_i &lt;-> R_j changes the ____ of the determinant.</text>
+            <text>Elementary row operation R_i &lt;-&gt; R_j changes the ____ of the determinant.</text>
             <option id="A">Sign</option><option id="B">Magnitude</option><option id="C">Absolute value</option><option id="D">None</option>
-            <answer>A</answer><explanation>Swapping two rows multiplies det by -1.</explanation>
-        </question>
+            <answer>A</answer><explanation>Swapping two rows multiplies det by -1.</explanation></question>
         <question>
-            <text>Operation R_i -> R_i + kR_j ____ the determinant.</text>
+            <text>Operation R_i -&gt; R_i + kR_j ____ the determinant.</text>
             <option id="A">Does not change</option><option id="B">Multiplies by k</option><option id="C">Makes zero</option><option id="D">None</option>
-            <answer>A</answer><explanation>Key property used in Gaussian elimination.</explanation>
-        </question>
+            <answer>A</answer><explanation>Key property used in Gaussian elimination.</explanation></question>
         <question>
             <text>An n x n matrix is invertible if and only if its rank is ____.</text>
             <option id="A">n</option><option id="B">Less than n</option><option id="C">0</option><option id="D">1</option>
-            <answer>A</answer><explanation>Full rank condition for invertibility.</explanation>
-        </question>
+            <answer>A</answer><explanation>Full rank condition for invertibility.</explanation></question>
         <question>
             <text>The column space of A and A' have the same ____.</text>
             <option id="A">Dimension (Rank)</option><option id="B">Basis vectors</option><option id="C">Elements</option><option id="D">None</option>
-            <answer>A</answer><explanation>Row rank = Column rank.</explanation>
-        </question>
+            <answer>A</answer><explanation>Row rank = Column rank.</explanation></question>
         <question>
             <text>If A and B are similar matrices, they have same ____.</text>
             <option id="A">All of the above (Eigenvalues, Trace, Determinant)</option><option id="B">Eigenvalues</option><option id="C">Trace</option><option id="D">Determinant</option>
-            <answer>A</answer><explanation>Similarity transformation preserves characteristic polynomial.</explanation>
-        </question>
+            <answer>A</answer><explanation>Similarity transformation preserves characteristic polynomial.</explanation></question>
         <question>
             <text>If A = [[1, 2], [0, 1]], A is NOT ____.</text>
             <option id="A">Diagonalizable</option><option id="B">Invertible</option><option id="C">Upper triangular</option><option id="D">None</option>
-            <answer>A</answer><explanation>Geometric multiplicity of λ=1 is 1, algebraic is 2.</explanation>
-        </question>
+            <answer>A</answer><explanation>Geometric multiplicity of λ=1 is 1, algebraic is 2.</explanation></question>
         <question>
             <text>Singular value decomposition (SVD) exists for ____ matrix.</text>
             <option id="A">Any real</option><option id="B">Only square</option><option id="C">Only symmetric</option><option id="D">None</option>
-            <answer>A</answer><explanation>Generalized matrix factorization.</explanation>
-        </question>
+            <answer>A</answer><explanation>Generalized matrix factorization.</explanation></question>
         <question>
             <text>Geometric multiplicity of an eigenvalue is always ____ Algebraic multiplicity.</text>
             <option id="A">Less than or equal to</option><option id="B">Greater than</option><option id="C">Equal to</option><option id="D">None</option>
-            <answer>A</answer><explanation>Condition for diagonalizability is equality for all λ.</explanation>
-        </question>
+            <answer>A</answer><explanation>Condition for diagonalizability is equality for all λ.</explanation></question>
         <question>
             <text>If A is real symmetric, all its eigenvalues are ____.</text>
             <option id="A">Real</option><option id="B">Purely imaginary</option><option id="C">Positive</option><option id="D">None</option>
-            <answer>A</answer><explanation>Spectral theorem for symmetric matrices.</explanation>
-        </question>
+            <answer>A</answer><explanation>Spectral theorem for symmetric matrices.</explanation></question>
         <question>
             <text>If A is real skew-symmetric, I + A is ____.</text>
             <option id="A">Invertible</option><option id="B">Singular</option><option id="C">Zero</option><option id="D">None</option>
-            <answer>A</answer><explanation>Eigenvalues are 0 or imaginary, so 0 is never 1+λ.</explanation>
-        </question>
+            <answer>A</answer><explanation>Eigenvalues are 0 or imaginary, so 0 is never 1+λ.</explanation></question>
         <question>
             <text>Cayley-Hamilton Theorem helps to compute ____ of a matrix in terms of lower powers.</text>
             <option id="A">Higher powers and Inverse</option><option id="B">Rank</option><option id="C">Trace only</option><option id="D">None</option>
-            <answer>A</answer><explanation>By rearranging the characteristic equation.</explanation>
-        </question>
+            <answer>A</answer><explanation>By rearranging the characteristic equation.</explanation></question>
         <question>
             <text>If all eigenvalues are distinct, the matrix is definitely ____.</text>
             <option id="A">Diagonalizable</option><option id="B">Symmetric</option><option id="C">Orthogonal</option><option id="D">None</option>
-            <answer>A</answer><explanation>Distinct eigenvalues guarantee n linearly independent eigenvectors.</explanation>
-        </question>
+            <answer>A</answer><explanation>Distinct eigenvalues guarantee n linearly independent eigenvectors.</explanation></question>
         <question>
             <text>The matrix A such that A^2 = A and A has rank r, then trace(A) is ____.</text>
             <option id="A">r</option><option id="B">0</option><option id="C">1</option><option id="D">n</option>
-            <answer>A</answer><explanation>For idempotent matrix, Tr(A) = Rank(A).</explanation>
-        </question>
+            <answer>A</answer><explanation>For idempotent matrix, Tr(A) = Rank(A).</explanation></question>
         <question>
             <text>The determinant of an upper triangular matrix is the ____ of its diagonal entries.</text>
             <option id="A">Product</option><option id="B">Sum</option><option id="C">Average</option><option id="D">None</option>
-            <answer>A</answer><explanation>Property of triangular matrices.</explanation>
-        </question>
+            <answer>A</answer><explanation>Property of triangular matrices.</explanation></question>
         <question>
             <text>If A is a square matrix of order n, then |kA| = ____ |A|.</text>
             <option id="A">k^n</option><option id="B">nk</option><option id="C">k</option><option id="D">n^k</option>
-            <answer>A</answer><explanation>Standard scalar property of determinants.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard scalar property of determinants.</explanation></question>
         <question>
             <text>Is it possible for a skew-symmetric matrix of order 3 to be non-singular?</text>
             <option id="A">No (det is always 0 for odd order skew-sym)</option><option id="B">Yes</option><option id="C">Only if entries are complex</option><option id="D">None</option>
-            <answer>A</answer><explanation>|A| = |-A'| = (-1)^3 |A|' = -|A|. Thus 2|A|=0.</explanation>
-        </question>
+            <answer>A</answer><explanation>|A| = |-A'| = (-1)^3 |A|' = -|A|. Thus 2|A|=0.</explanation></question>
         <question>
             <text>Rank(AB) is always ____ min(Rank(A), Rank(B)).</text>
             <option id="A">Less than or equal to</option><option id="B">Equal to</option><option id="C">Greater than</option><option id="D">None</option>
-            <answer>A</answer><explanation>Rank of a product cannot exceed rank of its factors.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rank of a product cannot exceed rank of its factors.</explanation></question>
         <question>
             <text>If A is orthogonal, its row vectors are ____.</text>
             <option id="A">Orthonormal</option><option id="B">Parallel</option><option id="C">Linearly dependent</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard definition property.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard definition property.</explanation></question>
         <question>
             <text>For any matrix A, Rank(A) = Rank(____).</text>
             <option id="A">A'A</option><option id="B">A+A'</option><option id="C">A^2</option><option id="D">None</option>
-            <answer>A</answer><explanation>Property for real matrices.</explanation>
-        </question>
+            <answer>A</answer><explanation>Property for real matrices.</explanation></question>
         <question>
             <text>The system AX = B has a unique solution if ____.</text>
             <option id="A">A is non-singular</option><option id="B">A is singular</option><option id="C">B = 0</option><option id="D">None</option>
-            <answer>A</answer><explanation>Requires existence of A_inv.</explanation>
-        </question>
-    </hard>
+            <answer>A</answer><explanation>Requires existence of A_inv.</explanation></question>
+    <question><text>Additional practice question 120 on Matrices: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 120 in the Matrices module.</explanation></question></hard>
 </chapter>

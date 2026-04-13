@@ -14,8 +14,7 @@
             <option id="C">m/s^2</option>
             <option id="D">N/m</option>
             <answer>A</answer>
-            <explanation>Velocity is displacement over time (meters per second).</explanation>
-        </question>
+            <explanation>Velocity is displacement over time (meters per second).</explanation></question>
         
         <question>
             <text>Question 2 text here...</text>
@@ -24,8 +23,7 @@
             <option id="C">Option C</option>
             <option id="D">Option D</option>
             <answer>C</answer>
-            <explanation>Explanation here.</explanation>
-        </question>
+            <explanation>Explanation here.</explanation></question>
         <!-- Add more questions... -->
     </easy>
 
@@ -38,8 +36,7 @@
             <option id="C">5 m/s^2</option>
             <option id="D">10 m/s^2</option>
             <answer>B</answer>
-            <explanation>a = (v-u)/t = (20-0)/5 = 4</explanation>
-        </question>
+            <explanation>a = (v-u)/t = (20-0)/5 = 4</explanation></question>
     </medium>
 
     <!-- HARD MODE POOL (Aim for 50 Questions) -->
@@ -51,8 +48,7 @@
             <option id="C">...</option>
             <option id="D">...</option>
             <answer>D</answer>
-            <explanation>...</explanation>
-        </question>
+            <explanation>...</explanation></question>
     </hard>
 
 </chapter>

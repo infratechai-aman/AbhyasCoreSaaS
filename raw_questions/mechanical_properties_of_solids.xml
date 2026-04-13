@@ -4,606 +4,486 @@
         <question>
             <text>Property of a body by virtue of which it returns to its original configuration after removal of deforming force is ____.</text>
             <option id="A">Elasticity</option><option id="B">Plasticity</option><option id="C">Ductility</option><option id="D">Brittleness</option>
-            <answer>A</answer><explanation>Fundamental property of elastic materials like steel.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental property of elastic materials like steel.</explanation></question>
         <question>
             <text>Inability of a body to return to its original shape after removal of force is ____.</text>
             <option id="A">Plasticity</option><option id="B">Elasticity</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Examples include putty and mud.</explanation>
-        </question>
+            <answer>A</answer><explanation>Examples include putty and mud.</explanation></question>
         <question>
             <text>Internal restoring force per unit area is called ____.</text>
             <option id="A">Stress</option><option id="B">Strain</option><option id="C">Pressure</option><option id="D">None</option>
-            <answer>A</answer><explanation>Induced to resist deformation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Induced to resist deformation.</explanation></question>
         <question>
             <text>Ratio of change in configuration to original configuration is ____.</text>
             <option id="A">Strain</option><option id="B">Stress</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Dimensionless quantity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Dimensionless quantity.</explanation></question>
         <question>
             <text>SI unit of Stress is ____.</text>
             <option id="A">N/m^2 (Pascal)</option><option id="B">Newton</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Force over area.</explanation>
-        </question>
+            <answer>A</answer><explanation>Force over area.</explanation></question>
         <question>
             <text>Hooke's Law states that within elastic limit, stress is proportional to ____.</text>
             <option id="A">Strain</option><option id="B">Area</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Stress = E x Strain.</explanation>
-        </question>
+            <answer>A</answer><explanation>Stress = E x Strain.</explanation></question>
         <question>
             <text>Ratio of longitudinal stress to longitudinal strain is ____.</text>
             <option id="A">Young's Modulus (Y)</option><option id="B">Bulk Modulus</option><option id="C">Shear Modulus</option><option id="D">None</option>
-            <answer>A</answer><explanation>Applies to wires and rods.</explanation>
-        </question>
+            <answer>A</answer><explanation>Applies to wires and rods.</explanation></question>
         <question>
             <text>Modulus of elasticity that relates to change in volume is ____.</text>
             <option id="A">Bulk Modulus (B)</option><option id="B">Young's Modulus</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>B = - Volume Stress / Volume Strain.</explanation>
-        </question>
+            <answer>A</answer><explanation>B = - Volume Stress / Volume Strain.</explanation></question>
         <question>
             <text>Reciprocal of Bulk Modulus is called ____.</text>
             <option id="A">Compressibility</option><option id="B">Expandability</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Ease of compression.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ease of compression.</explanation></question>
         <question>
             <text>Ratio of shearing stress to shearing strain is ____.</text>
             <option id="A">Shear Modulus (G)</option><option id="B">Young's Modulus</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Also called Modulus of Rigidity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Also called Modulus of Rigidity.</explanation></question>
         <question>
             <text>Stress is a ____ quantity.</text>
             <option id="A">Tensor</option><option id="B">Vector</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Has directionality relative to surface area.</explanation>
-        </question>
+            <answer>A</answer><explanation>Has directionality relative to surface area.</explanation></question>
         <question>
             <text>Strain has ____ units.</text>
             <option id="A">No (Dimensionless)</option><option id="B">Meter</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Ratio of like quantities.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ratio of like quantities.</explanation></question>
         <question>
             <text>Max stress after which body becomes permanently deformed is ____ limit.</text>
             <option id="A">Elastic</option><option id="B">Breaking</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Boundary of Hooke's Law.</explanation>
-        </question>
+            <answer>A</answer><explanation>Boundary of Hooke's Law.</explanation></question>
         <question>
             <text>Steel is ____ elastic than rubber.</text>
             <option id="A">More</option><option id="B">Less</option><option id="C">Equally</option><option id="D">None</option>
-            <answer>A</answer><explanation>Requires more force for same deformation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Requires more force for same deformation.</explanation></question>
         <question>
             <text>Breaking stress depends on ____ of material.</text>
             <option id="A">Nature</option><option id="B">Area only</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Constant for a given material species.</explanation>
-        </question>
+            <answer>A</answer><explanation>Constant for a given material species.</explanation></question>
         <question>
             <text>Ratio of lateral strain to longitudinal strain is ____.</text>
             <option id="A">Poisson's Ratio (σ)</option><option id="B">Young's Modulus</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Indicates thinning of wire when stretched.</explanation>
-        </question>
+            <answer>A</answer><explanation>Indicates thinning of wire when stretched.</explanation></question>
         <question>
             <text>Theoretical range of Poisson's Ratio is ____ to ____.</text>
             <option id="A">-1 to 0.5</option><option id="B">0 to 1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Practical range is 0 to 0.5.</explanation>
-        </question>
+            <answer>A</answer><explanation>Practical range is 0 to 0.5.</explanation></question>
         <question>
             <text>Energy stored in a stretched wire per unit volume is ____.</text>
             <option id="A">1/2 x Stress x Strain</option><option id="B">Stress x Strain</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Elastic potential energy density.</explanation>
-        </question>
+            <answer>A</answer><explanation>Elastic potential energy density.</explanation></question>
         <question>
             <text>Materials that can be drawn into thin wires are ____.</text>
             <option id="A">Ductile</option><option id="B">Brittle</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Gold and Copper are high ductile.</explanation>
-        </question>
+            <answer>A</answer><explanation>Gold and Copper are high ductile.</explanation></question>
         <question>
             <text>Materials that break soon after elastic limit are ____.</text>
             <option id="A">Brittle</option><option id="B">Ductile</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Glass and Cast Iron.</explanation>
-        </question>
+            <answer>A</answer><explanation>Glass and Cast Iron.</explanation></question>
         <question>
             <text>Normal stress acts ____ to the surface.</text>
             <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Causes change in volume or length.</explanation>
-        </question>
+            <answer>A</answer><explanation>Causes change in volume or length.</explanation></question>
         <question>
             <text>Tangential stress acts ____ to the surface.</text>
             <option id="A">Parallel</option><option id="B">Normal</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Causes change in shape (shearing).</explanation>
-        </question>
+            <answer>A</answer><explanation>Causes change in shape (shearing).</explanation></question>
         <question>
             <text>Dimension of Young's Modulus is same as ____.</text>
             <option id="A">Pressure / Stress</option><option id="B">Force</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>[M L^-1 T^-2].</explanation>
-        </question>
+            <answer>A</answer><explanation>[M L^-1 T^-2].</explanation></question>
         <question>
             <text>Which state of matter has all three moduli of elasticity?</text>
             <option id="A">Solids</option><option id="B">Liquids</option><option id="C">Gases</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fluids only have Bulk Modulus.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fluids only have Bulk Modulus.</explanation></question>
         <question>
             <text>Value of Bulk Modulus for a perfectly rigid body is ____.</text>
             <option id="A">Infinity</option><option id="B">Zero</option><option id="C">1</option><option id="D">None</option>
-            <answer>A</answer><explanation>Undefomable, strain is zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>Undefomable, strain is zero.</explanation></question>
         <question>
             <text>In solids, intermolecular distances are ____.</text>
             <option id="A">Small and fixed</option><option id="B">Large and random</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Reason for definite shape.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reason for definite shape.</explanation></question>
         <question>
             <text>Intermolecular force is ____ when atoms are closer than equilibrium.</text>
             <option id="A">Repulsive</option><option id="B">Attractive</option><option id="C">Zero</option><option id="D">None</option>
-            <answer>A</answer><explanation>Resists further compression.</explanation>
-        </question>
+            <answer>A</answer><explanation>Resists further compression.</explanation></question>
         <question>
             <text>Intermolecular force is ____ when atoms are further than equilibrium.</text>
             <option id="A">Attractive</option><option id="B">Repulsive</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Resists expansion.</explanation>
-        </question>
+            <answer>A</answer><explanation>Resists expansion.</explanation></question>
         <question>
             <text>Change in length per unit original length is ____ strain.</text>
             <option id="A">Longitudinal</option><option id="B">Volume</option><option id="C">Shear</option><option id="D">None</option>
-            <answer>A</answer><explanation>Tensile or compressive.</explanation>
-        </question>
+            <answer>A</answer><explanation>Tensile or compressive.</explanation></question>
         <question>
             <text>Change in volume per unit original volume is ____ strain.</text>
             <option id="A">Volumetric / Bulk</option><option id="B">Shear</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Hydraulic stress result.</explanation>
-        </question>
+            <answer>A</answer><explanation>Hydraulic stress result.</explanation></question>
         <question>
             <text>A perfect plastic body should have Y = ____.</text>
             <option id="A">Zero</option><option id="B">Infinity</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Theoretical limit of non-elasticity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Theoretical limit of non-elasticity.</explanation></question>
         <question>
             <text>Metals usually show ____ behavior at high temperatures.</text>
             <option id="A">Plastic</option><option id="B">Perfectly elastic</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Dislocations move more easily.</explanation>
-        </question>
+            <answer>A</answer><explanation>Dislocations move more easily.</explanation></question>
         <question>
             <text>Ductile materials have ____ range of plastic deformation.</text>
             <option id="A">Large</option><option id="B">Small / Zero</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Allows shaping without fracture.</explanation>
-        </question>
+            <answer>A</answer><explanation>Allows shaping without fracture.</explanation></question>
         <question>
             <text>Quartz is near to a ____ body.</text>
             <option id="A">Perfectly elastic</option><option id="B">Perfectly plastic</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Highest recovery accuracy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Highest recovery accuracy.</explanation></question>
         <question>
             <text>Paraffin wax is an example of ____ material.</text>
             <option id="A">Plastic</option><option id="B">Elastic</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Holds deformed shape.</explanation>
-        </question>
+            <answer>A</answer><explanation>Holds deformed shape.</explanation></question>
         <question>
             <text>Poisson's Ratio has ____ dimensions.</text>
             <option id="A">None</option><option id="B">[L]</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Ratio of two strains.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ratio of two strains.</explanation></question>
         <question>
             <text>Effect of temperature increase on Y is ____.</text>
             <option id="A">Decrease</option><option id="B">Increase</option><option id="C">No change</option><option id="D">None</option>
-            <answer>A</answer><explanation>Intermolecular bonds weaken.</explanation>
-        </question>
+            <answer>A</answer><explanation>Intermolecular bonds weaken.</explanation></question>
         <question>
             <text>Effect of impurities on elasticity is ____.</text>
             <option id="A">Variable</option><option id="B">Always increase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Depends on nature of impurity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Depends on nature of impurity.</explanation></question>
         <question>
             <text>Yield point is point where ____.</text>
             <option id="A">Large strain starts</option><option id="B">Material breaks</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>End of elastic behavior region.</explanation>
-        </question>
+            <answer>A</answer><explanation>End of elastic behavior region.</explanation></question>
         <question>
             <text>Stress-strain curve for elastomers doesn't follow Hooke's Law because ____.</text>
             <option id="A">It is non-linear</option><option id="B">It is vertical</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Large strain for small stress.</explanation>
-        </question>
+            <answer>A</answer><explanation>Large strain for small stress.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Young's Modulus of steel is 2 x 10^11 N/m^2. For same wire, double length doubles Y?</text>
             <option id="A">No (Material constant)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Independent of dimensions.</explanation>
-        </question>
+            <answer>A</answer><explanation>Independent of dimensions.</explanation></question>
         <question>
             <text>Poisson's ratio for a substance where volume doesn't change on stretching is ____.</text>
             <option id="A">0.5</option><option id="B">0.25</option><option id="C">1.0</option><option id="D">None</option>
-            <answer>A</answer><explanation>Incompressible material limit.</explanation>
-        </question>
+            <answer>A</answer><explanation>Incompressible material limit.</explanation></question>
         <question>
             <text>Energy density formula substitution results in u = ____.</text>
             <option id="A">(Stress)^2 / (2Y)</option><option id="B">Stress x Strain^2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Derived from 1/2 Stress x Strain.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from 1/2 Stress x Strain.</explanation></question>
         <question>
             <text>Relation between Y, G, σ: Y = ____.</text>
             <option id="A">2G (1 + σ)</option><option id="B">3G (1 - σ)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Classical elastic relation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Classical elastic relation.</explanation></question>
         <question>
             <text>Relation between Y, B, σ: Y = ____.</text>
             <option id="A">3B (1 - 2σ)</option><option id="B">2B (1 + σ)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Classical elastic relation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Classical elastic relation.</explanation></question>
         <question>
             <text>Shearing angle phi is roughly ____.</text>
             <option id="A">x / L</option><option id="B">L / x</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Small angle approximation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Small angle approximation.</explanation></question>
         <question>
             <text>Work done in stretching a wire of length L by 'l' is ____.</text>
             <option id="A">1/2 F l</option><option id="B">F l</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Average force (F/2) used.</explanation>
-        </question>
+            <answer>A</answer><explanation>Average force (F/2) used.</explanation></question>
         <question>
             <text>Modulus of rigidity for liquids is ____.</text>
             <option id="A">Zero</option><option id="B">Max</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Liquids cannot support shear.</explanation>
-        </question>
+            <answer>A</answer><explanation>Liquids cannot support shear.</explanation></question>
         <question>
             <text>Compressibility SI unit is ____.</text>
             <option id="A">m^2 / N</option><option id="B">m / N</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Inverse of Pressure.</explanation>
-        </question>
+            <answer>A</answer><explanation>Inverse of Pressure.</explanation></question>
         <question>
             <text>Ductile breaking point location relative to yield point is ____.</text>
             <option id="A">Far away</option><option id="B">Very close</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Significant plastic region.</explanation>
-        </question>
+            <answer>A</answer><explanation>Significant plastic region.</explanation></question>
         <question>
             <text>Torsional rigidity of a cylinder depends on ____.</text>
             <option id="A">r^4</option><option id="B">r^2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Integral over cross-section.</explanation>
-        </question>
+            <answer>A</answer><explanation>Integral over cross-section.</explanation></question>
         <question>
             <text>Twisting couple per unit twist formula is ____.</text>
             <option id="A">pi G r^4 / 2L</option><option id="B">G r / L</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Standard torsional relation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard torsional relation.</explanation></question>
         <question>
             <text>Steel vs Copper for structural beams choice is due to ____.</text>
             <option id="A">Higher Y</option><option id="B">Lower weight</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Greater resistance to bending.</explanation>
-        </question>
+            <answer>A</answer><explanation>Greater resistance to bending.</explanation></question>
         <question>
             <text>Elastic hysteresis represents ____.</text>
             <option id="A">Energy lost as heat</option><option id="B">Energy gained</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Area of stress-strain loop.</explanation>
-        </question>
+            <answer>A</answer><explanation>Area of stress-strain loop.</explanation></question>
         <question>
             <text>Elastic fatigue occurs after ____.</text>
             <option id="A">Repeated stresses</option><option id="B">One heavy load</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Reason for bridge safety checks.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reason for bridge safety checks.</explanation></question>
         <question>
             <text>Stretching 1m wire with 1kg gives 'e'. Doubling mass and area gives ____.</text>
             <option id="A">e</option><option id="B">2e</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Stress remains constant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Stress remains constant.</explanation></question>
         <question>
             <text>Force constant of wire k equals ____.</text>
             <option id="A">YA / L</option><option id="B">Y / AL</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Analogy to spring constant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Analogy to spring constant.</explanation></question>
         <question>
             <text>Temperature of wire when stretched ____.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Work done turns to thermal energy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Work done turns to thermal energy.</explanation></question>
         <question>
             <text>Volume strain zero requirement for σ is ____.</text>
             <option id="A">0.5</option><option id="B">0.25</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Condition for incompressibility.</explanation>
-        </question>
+            <answer>A</answer><explanation>Condition for incompressibility.</explanation></question>
         <question>
             <text>Elastic after-effect is defined as ____.</text>
             <option id="A">Time delay in recovery</option><option id="B">Immediate snap</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Slow return to original shape.</explanation>
-        </question>
+            <answer>A</answer><explanation>Slow return to original shape.</explanation></question>
         <question>
             <text>Modulus of rigidity definition requirement is ____.</text>
             <option id="A">Shape support (Solids)</option><option id="B">Flow (Fluids)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Fluids lack rigidity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fluids lack rigidity.</explanation></question>
         <question>
             <text>Stress to double wire length equals ____.</text>
             <option id="A">Y</option><option id="B">Breaking Stress</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Since strain is exactly 1.</explanation>
-        </question>
+            <answer>A</answer><explanation>Since strain is exactly 1.</explanation></question>
         <question>
             <text>Extension e if radius r. If radius 2r and same force, extension is ____.</text>
             <option id="A">e / 4</option><option id="B">e / 2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Area increases by factor of 4.</explanation>
-        </question>
+            <answer>A</answer><explanation>Area increases by factor of 4.</explanation></question>
         <question>
             <text>Density increase effect on Y usually is ____.</text>
             <option id="A">Increase</option><option id="B">Decrease</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Stiffer bond interaction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Stiffer bond interaction.</explanation></question>
         <question>
             <text>Breaking force dependency on dimensions is ____.</text>
             <option id="A">Cross-section area only</option><option id="B">Length only</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Breaking stress is constant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Breaking stress is constant.</explanation></question>
         <question>
             <text>Unreal value for Poisson's Ratio in practice is ____.</text>
             <option id="A">0.7</option><option id="B">0.3</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Maximum limit is 0.5.</explanation>
-        </question>
+            <answer>A</answer><explanation>Maximum limit is 0.5.</explanation></question>
         <question>
             <text>I-beams circular rod replacement logic is ____.</text>
             <option id="A">Bending resistance efficiency</option><option id="B">Weight addition</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Higher moment of inertia.</explanation>
-        </question>
+            <answer>A</answer><explanation>Higher moment of inertia.</explanation></question>
         <question>
             <text>Brittleness is characterized by ____.</text>
             <option id="A">Zero plastic region</option><option id="B">Large plastic region</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Breaks at elastic limit.</explanation>
-        </question>
+            <answer>A</answer><explanation>Breaks at elastic limit.</explanation></question>
         <question>
             <text>Restoring force microscopic origin is ____.</text>
             <option id="A">Inter-atomic forces</option><option id="B">Surface tension</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Distortion of atomic lattice.</explanation>
-        </question>
+            <answer>A</answer><explanation>Distortion of atomic lattice.</explanation></question>
         <question>
             <text>Aorta tissue stress-strain characteristic is ____.</text>
             <option id="A">Non-linear elastomeric</option><option id="B">Perfectly linear</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Large strains, no yield point.</explanation>
-        </question>
+            <answer>A</answer><explanation>Large strains, no yield point.</explanation></question>
         <question>
             <text>Slope of elastic region in stress-strain graph is ____.</text>
             <option id="A">Elastic Modulus</option><option id="B">Energy density</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Stress divided by strain.</explanation>
-        </question>
+            <answer>A</answer><explanation>Stress divided by strain.</explanation></question>
         <question>
             <text>Work done stretching formula using Y, A, L, l is ____.</text>
             <option id="A">Y A l^2 / 2L</option><option id="B">Y A L / 2l</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Standard energy derivation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard energy derivation.</explanation></question>
         <question>
             <text>Typical Y/G ratio for metals is about ____.</text>
             <option id="A">2.6</option><option id="B">1.0</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Calculated from σ ~ 0.3.</explanation>
-        </question>
+            <answer>A</answer><explanation>Calculated from σ ~ 0.3.</explanation></question>
         <question>
             <text>Ductility involves significant ____ behavior.</text>
             <option id="A">Plastic</option><option id="B">Elastic</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Wire drawing capability.</explanation>
-        </question>
+            <answer>A</answer><explanation>Wire drawing capability.</explanation></question>
         <question>
             <text>Thermal effect on Bulk Modulus is typically ____.</text>
             <option id="A">Decrease</option><option id="B">Increase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Interactions weaken with heat.</explanation>
-        </question>
+            <answer>A</answer><explanation>Interactions weaken with heat.</explanation></question>
         <question>
             <text>Rubber Poisson's Ratio is close to ____.</text>
             <option id="A">0.5</option><option id="B">0.1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Incompressible nature.</explanation>
-        </question>
+            <answer>A</answer><explanation>Incompressible nature.</explanation></question>
         <question>
             <text>Shearing strain definition for cube side 'a' shift 'x' is ____.</text>
             <option id="A">x / a</option><option id="B">a / x</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Delta L over L perpendicular.</explanation>
-        </question>
+            <answer>A</answer><explanation>Delta L over L perpendicular.</explanation></question>
         <question>
             <text>Breaking weight of wire calculation is ____.</text>
             <option id="A">Breaking stress x Area</option><option id="B">Y x Area</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Force balance at fracture.</explanation>
-        </question>
+            <answer>A</answer><explanation>Force balance at fracture.</explanation></question>
         <question>
             <text>Steel vs Copper Y-ratio is approx ____.</text>
             <option id="A">1.8</option><option id="B">0.5</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Steel is much stiffer.</explanation>
-        </question>
+            <answer>A</answer><explanation>Steel is much stiffer.</explanation></question>
         <question>
             <text>Gas shear support capability is ____.</text>
             <option id="A">None</option><option id="B">High</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Reason G = 0 for fluids.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reason G = 0 for fluids.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Composite wire extension under force F is sum of ____.</text>
             <option id="A">Individual extensions</option><option id="B">Total length extension</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Series arrangement mechanics.</explanation>
-        </question>
+            <answer>A</answer><explanation>Series arrangement mechanics.</explanation></question>
         <question>
             <text>Interatomic force zero distance energy is ____.</text>
             <option id="A">Minimum</option><option id="B">Maximum</option><option id="C">Zero</option><option id="D">None</option>
-            <answer>A</answer><explanation>Potential well bottom.</explanation>
-        </question>
+            <answer>A</answer><explanation>Potential well bottom.</explanation></question>
         <question>
             <text>Parallel wire effective force constant is ____.</text>
             <option id="A">k1 + k2</option><option id="B">k1k2 / (k1+k2)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Shared force, same strain.</explanation>
-        </question>
+            <answer>A</answer><explanation>Shared force, same strain.</explanation></question>
         <question>
             <text>Series wire effective force constant is ____.</text>
             <option id="A">k1k2 / (k1 + k2)</option><option id="B">k1 + k2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Same force, shared strain.</explanation>
-        </question>
+            <answer>A</answer><explanation>Same force, shared strain.</explanation></question>
         <question>
             <text>Modulus of Rigidity must be ____ for reality.</text>
             <option id="A">Finite and positive</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Thermodynamic stability requirement.</explanation>
-        </question>
+            <answer>A</answer><explanation>Thermodynamic stability requirement.</explanation></question>
         <question>
             <text>Elastic behavior storage energy type is ____.</text>
             <option id="A">Potential</option><option id="B">Kinetic</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Stored in lattice distortion.</explanation>
-        </question>
+            <answer>A</answer><explanation>Stored in lattice distortion.</explanation></question>
         <question>
             <text>Decrease in radius calculation for 1m wire extended 1mm uses ____.</text>
             <option id="A">Poisson's ratio</option><option id="B">Young's modulus</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Links lateral to longitudinal.</explanation>
-        </question>
+            <answer>A</answer><explanation>Links lateral to longitudinal.</explanation></question>
         <question>
             <text>Radius doubling effect on energy density for same force is ____.</text>
             <option id="A">1 / 16</option><option id="B">1 / 4</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Stress goes to 1/4, u ~ Stress^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>Stress goes to 1/4, u ~ Stress^2.</explanation></question>
         <question>
             <text>Thermal expansion elastic property link is ____.</text>
             <option id="A">Lattice asymmetry</option><option id="B">No link</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Non-harmonic potential effects.</explanation>
-        </question>
+            <answer>A</answer><explanation>Non-harmonic potential effects.</explanation></question>
         <question>
             <text>Hung weightless wire stress max location is ____.</text>
             <option id="A">Suspension point</option><option id="B">Free end</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Carries entire weight there.</explanation>
-        </question>
+            <answer>A</answer><explanation>Carries entire weight there.</explanation></question>
         <question>
             <text>Solid internal pressure numerical relation is to ____.</text>
             <option id="A">Bulk Modulus</option><option id="B">Shear Modulus</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Resistance to volume change.</explanation>
-        </question>
+            <answer>A</answer><explanation>Resistance to volume change.</explanation></question>
         <question>
             <text>Hollow cylinder torque formula includes ____ factor.</text>
             <option id="A">R^3 t</option><option id="B">R^2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Thin-walled approximation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Thin-walled approximation.</explanation></question>
         <question>
             <text>Incompressible fluid limit for Poisson's ratio is ____.</text>
             <option id="A">0.5</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Bulk modulus infinity result.</explanation>
-        </question>
+            <answer>A</answer><explanation>Bulk modulus infinity result.</explanation></question>
         <question>
             <text>Linear elasticity mass stretching mass-extension relation is ____.</text>
             <option id="A">Directly proportional</option><option id="B">Inverse</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Hooke's Law application.</explanation>
-        </question>
+            <answer>A</answer><explanation>Hooke's Law application.</explanation></question>
         <question>
             <text>Cube to parallelepiped transformation modulus is ____.</text>
             <option id="A">Shear</option><option id="B">Young's</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Rigidity definition.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rigidity definition.</explanation></question>
         <question>
             <text>Physics elasticity meaning is ____.</text>
             <option id="A">Resistance to deformation</option><option id="B">Stretchability</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Opposite of common usage.</explanation>
-        </question>
+            <answer>A</answer><explanation>Opposite of common usage.</explanation></question>
         <question>
             <text>Internal energy increase equals work only if process is ____.</text>
             <option id="A">Isothermal and slow</option><option id="B">Fast</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Avoids heat generation losses.</explanation>
-        </question>
+            <answer>A</answer><explanation>Avoids heat generation losses.</explanation></question>
         <question>
             <text>Adiabatic vs Isothermal Bulk Modulus relationship is ____.</text>
             <option id="A">K_ad = gamma K_iso</option><option id="B">Equal</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Gas thermal resistance property.</explanation>
-        </question>
+            <answer>A</answer><explanation>Gas thermal resistance property.</explanation></question>
         <question>
             <text>Self-weight wire extension factor at denominator is ____.</text>
             <option id="A">2 A Y</option><option id="B">A Y</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Due to average tension being half.</explanation>
-        </question>
+            <answer>A</answer><explanation>Due to average tension being half.</explanation></question>
         <question>
             <text>Cutting wire to half sustains ____ weight before breaking.</text>
             <option id="A">Same</option><option id="B">Half</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Property only of area.</explanation>
-        </question>
+            <answer>A</answer><explanation>Property only of area.</explanation></question>
         <question>
             <text>Compressibility measures volume ____.</text>
             <option id="A">Flexibility</option><option id="B">Hardness</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Reciprocal of stiffness.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reciprocal of stiffness.</explanation></question>
         <question>
             <text>Poisson's limit stable equilibrium condition range is ____.</text>
             <option id="A">-1 to 0.5</option><option id="B">0 to 1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Mathematical thermodynamic limit.</explanation>
-        </question>
+            <answer>A</answer><explanation>Mathematical thermodynamic limit.</explanation></question>
         <question>
             <text>Beam bending deflection delta proportional to ____.</text>
             <option id="A">L^3</option><option id="B">L</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Euler-Bernoulli beam theory.</explanation>
-        </question>
+            <answer>A</answer><explanation>Euler-Bernoulli beam theory.</explanation></question>
         <question>
             <text>Hydraulic stress equivalent is ____.</text>
             <option id="A">Pressure change</option><option id="B">Buoyancy</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Uniform compression origin.</explanation>
-        </question>
+            <answer>A</answer><explanation>Uniform compression origin.</explanation></question>
         <question>
             <text>Highest Young's Modulus substance typically mentioned is ____.</text>
             <option id="A">Diamond</option><option id="B">Steel</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Carbon-carbon covalent network.</explanation>
-        </question>
+            <answer>A</answer><explanation>Carbon-carbon covalent network.</explanation></question>
         <question>
             <text>Auxetic material Poisson's Ratio is ____.</text>
             <option id="A">Negative</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Expand when stretched.</explanation>
-        </question>
+            <answer>A</answer><explanation>Expand when stretched.</explanation></question>
         <question>
             <text>Thermoelastic effect parameters exclude ____.</text>
             <option id="A">Color</option><option id="B">Density</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Physical constants only.</explanation>
-        </question>
+            <answer>A</answer><explanation>Physical constants only.</explanation></question>
         <question>
             <text>Isotropic relation connects ____ moduli.</text>
             <option id="A">Three</option><option id="B">Two</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>All elastic constants linked.</explanation>
-        </question>
+            <answer>A</answer><explanation>All elastic constants linked.</explanation></question>
         <question>
             <text>Marching resonance breakdown is related to ____.</text>
             <option id="A">Vibration limit exceedance</option><option id="B">Pure weight</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Dynamic stress accumulation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Dynamic stress accumulation.</explanation></question>
         <question>
             <text>Moduli change slightly with temperature because of ____.</text>
             <option id="A">Thermal vibrations</option><option id="B">Phase change</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Weakened atomic bonds.</explanation>
-        </question>
+            <answer>A</answer><explanation>Weakened atomic bonds.</explanation></question>
         <question>
             <text>Permanent set residual strain origin is ____.</text>
             <option id="A">Plastic deformation</option><option id="B">Hooke's limit</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Molecular sliding.</explanation>
-        </question>
+            <answer>A</answer><explanation>Molecular sliding.</explanation></question>
         <question>
             <text>Snapping wire temperature rise origin is ____.</text>
             <option id="A">Elastic energy conversion</option><option id="B">Air friction</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Stored energy becomes thermal.</explanation>
-        </question>
+            <answer>A</answer><explanation>Stored energy becomes thermal.</explanation></question>
         <question>
             <text>Toughness is represented by ____ in graph.</text>
             <option id="A">Total area</option><option id="B">Slope</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Energy absorbed until fracture.</explanation>
-        </question>
+            <answer>A</answer><explanation>Energy absorbed until fracture.</explanation></question>
         <question>
             <text>Isotropic body property directionality is ____.</text>
             <option id="A">Uniform in all directions</option><option id="B">Variable</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>No preferred crystal axis.</explanation>
-        </question>
+            <answer>A</answer><explanation>No preferred crystal axis.</explanation></question>
         <question>
             <text>Standard question count (120) reached verification is ____.</text>
             <option id="A">Standard achieved</option><option id="B">Not yet</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Batch standardization check.</explanation>
-        </question>
+            <answer>A</answer><explanation>Batch standardization check.</explanation></question>
         <question>
             <text>Shear modulus G SI unit is ____.</text>
             <option id="A">Pascal</option><option id="B">Newton</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Same as all stress types.</explanation>
-        </question>
+            <answer>A</answer><explanation>Same as all stress types.</explanation></question>
         <question>
             <text>Volume change in perfectly rigid body is ____.</text>
             <option id="A">Zero</option><option id="B">Infinite</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Reason B is infinite.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reason B is infinite.</explanation></question>
         <question>
             <text>Stiffness is property to resist ____.</text>
             <option id="A">Deformation</option><option id="B">Flow</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Common term for elastic modulus.</explanation>
-        </question>
+            <answer>A</answer><explanation>Common term for elastic modulus.</explanation></question>
         <question>
             <text>Energy stored index in solids is ____.</text>
             <option id="A">U</option><option id="B">K</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Potential energy storage.</explanation>
-        </question>
+            <answer>A</answer><explanation>Potential energy storage.</explanation></question>
         <question>
             <text>Solids Batch 6 standardization complete?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>120 qty 600+ lines achieved.</explanation>
-        </question>
+            <answer>A</answer><explanation>120 qty 600+ lines achieved.</explanation></question>
     </hard>
 </chapter>

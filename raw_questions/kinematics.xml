@@ -4,606 +4,486 @@
         <question>
             <text>A particle moves along a circular path of radius R. The distance travelled when it completes half a circle is ____.</text>
             <option id="A">pi * R</option><option id="B">2R</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Distance is the actual path length. Half circumference = pi * R.</explanation>
-        </question>
+            <answer>A</answer><explanation>Distance is the actual path length. Half circumference = pi * R.</explanation></question>
         <question>
             <text>A body starts from rest and moves with uniform acceleration 'a'. The distance moved in the nth second is ____.</text>
             <option id="A">a/2 (2n - 1)</option><option id="B">a/2 (2n + 1)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard kinematic relation for nth second displacement.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard kinematic relation for nth second displacement.</explanation></question>
         <question>
             <text>Which of the following is a vector quantity?</text>
             <option id="A">Displacement</option><option id="B">Speed</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Displacement has both magnitude and direction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Displacement has both magnitude and direction.</explanation></question>
         <question>
             <text>The area under a velocity-time graph represents ____.</text>
             <option id="A">Displacement</option><option id="B">Acceleration</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Integral of velocity over time gives displacement.</explanation>
-        </question>
+            <answer>A</answer><explanation>Integral of velocity over time gives displacement.</explanation></question>
         <question>
             <text>A stone dropped from a tower reaches the ground in 4 seconds. The height of the tower is (g = 10 m/s^2) ____ m.</text>
             <option id="A">80</option><option id="B">40</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>h = 1/2 gt^2 = 0.5 * 10 * 16 = 80m.</explanation>
-        </question>
+            <answer>A</answer><explanation>h = 1/2 gt^2 = 0.5 * 10 * 16 = 80m.</explanation></question>
         <question>
             <text>The rate of change of displacement with time is called ____.</text>
             <option id="A">Velocity</option><option id="B">Acceleration</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Definition of velocity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Definition of velocity.</explanation></question>
         <question>
             <text>A body is thrown vertically upwards. At the highest point, its velocity is ____.</text>
             <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Temporarily comes to rest before falling back.</explanation>
-        </question>
+            <answer>A</answer><explanation>Temporarily comes to rest before falling back.</explanation></question>
         <question>
             <text>The slope of a displacement-time graph gives ____.</text>
             <option id="A">Velocity</option><option id="B">Acceleration</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>dx/dt is the slope and represents velocity.</explanation>
-        </question>
+            <answer>A</answer><explanation>dx/dt is the slope and represents velocity.</explanation></question>
         <question>
             <text>Which of these remains constant in uniform circular motion?</text>
             <option id="A">Speed</option><option id="B">Velocity</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Magnitude of velocity is constant, but direction changes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Magnitude of velocity is constant, but direction changes.</explanation></question>
         <question>
             <text>Equation of motion v = u + at applies when acceleration is ____.</text>
             <option id="A">Constant</option><option id="B">Variable</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Valid only for uniform acceleration.</explanation>
-        </question>
+            <answer>A</answer><explanation>Valid only for uniform acceleration.</explanation></question>
         <question>
             <text>A speedometer in a vehicle measures ____ speed.</text>
             <option id="A">Instantaneous</option><option id="B">Average</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Shows speed at that specific moment.</explanation>
-        </question>
+            <answer>A</answer><explanation>Shows speed at that specific moment.</explanation></question>
         <question>
             <text>Path of a projectile is ____.</text>
             <option id="A">Parabolic</option><option id="B">Linear</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Due to constant vertical acceleration and zero horizontal acceleration.</explanation>
-        </question>
+            <answer>A</answer><explanation>Due to constant vertical acceleration and zero horizontal acceleration.</explanation></question>
         <question>
             <text>Acceleration due to gravity is maximum at ____ of the Earth.</text>
             <option id="A">Poles</option><option id="B">Equator</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Earth is flattened at poles, so distance from center is minimum.</explanation>
-        </question>
+            <answer>A</answer><explanation>Earth is flattened at poles, so distance from center is minimum.</explanation></question>
         <question>
             <text>Relative velocity of A with respect to B is ____.</text>
             <option id="A">Va - Vb</option><option id="B">Va + Vb</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Vector difference of their velocities.</explanation>
-        </question>
+            <answer>A</answer><explanation>Vector difference of their velocities.</explanation></question>
         <question>
             <text>An odometer measures ____.</text>
             <option id="A">Distance</option><option id="B">Displacement</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Total path length covered by the vehicle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Total path length covered by the vehicle.</explanation></question>
         <question>
             <text>Unit of acceleration is ____.</text>
             <option id="A">m/s^2</option><option id="B">m/s</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Change in velocity per unit time.</explanation>
-        </question>
+            <answer>A</answer><explanation>Change in velocity per unit time.</explanation></question>
         <question>
             <text>Maximum range of a projectile occurs at an angle of ____ degrees.</text>
             <option id="A">45</option><option id="B">90</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Range R = (u^2 * sin 2theta) / g.</explanation>
-        </question>
+            <answer>A</answer><explanation>Range R = (u^2 * sin 2theta) / g.</explanation></question>
         <question>
             <text>Displacement is always ____ than or equal to distance.</text>
             <option id="A">Less</option><option id="B">Greater</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Shortest distance between two points.</explanation>
-        </question>
+            <answer>A</answer><explanation>Shortest distance between two points.</explanation></question>
         <question>
             <text>Angular velocity is measured in ____.</text>
             <option id="A">rad/s</option><option id="B">m/s</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Rate of change of angular displacement.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rate of change of angular displacement.</explanation></question>
         <question>
             <text>Equation s = ut + 1/2 at^2 describes ____.</text>
             <option id="A">Position-time relation</option><option id="B">Velocity-time relation</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Integrated form of velocity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Integrated form of velocity.</explanation></question>
         <question>
             <text>Motion of a train on a straight track is ____ motion.</text>
             <option id="A">Rectilinear (1D)</option><option id="B">2D</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Motion along a line.</explanation>
-        </question>
+            <answer>A</answer><explanation>Motion along a line.</explanation></question>
         <question>
             <text>A boy walks 3m East then 4m North. Resultant displacement is ____ m.</text>
             <option id="A">5</option><option id="B">7</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>sqrt(3^2 + 4^2) = 5.</explanation>
-        </question>
+            <answer>A</answer><explanation>sqrt(3^2 + 4^2) = 5.</explanation></question>
         <question>
             <text>Average speed is total ____ divided by total ____.</text>
             <option id="A">Distance / Time</option><option id="B">Displacement / Time</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Scalar quantity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Scalar quantity.</explanation></question>
         <question>
             <text>Acceleration is the rate of change of ____.</text>
             <option id="A">Velocity</option><option id="B">Distance</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Vector quantity defined as dv/dt.</explanation>
-        </question>
+            <answer>A</answer><explanation>Vector quantity defined as dv/dt.</explanation></question>
         <question>
             <text>A particle has zero acceleration. Its velocity must be ____.</text>
             <option id="A">Constant</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>v = u + at, if a=0 then v=u.</explanation>
-        </question>
+            <answer>A</answer><explanation>v = u + at, if a=0 then v=u.</explanation></question>
         <question>
             <text>Dimensions of velocity are ____.</text>
             <option id="A">[LT^-1]</option><option id="B">[LT^-2]</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Length per unit time.</explanation>
-        </question>
+            <answer>A</answer><explanation>Length per unit time.</explanation></question>
         <question>
             <text>Scalar quantity among these is ____.</text>
             <option id="A">Mass</option><option id="B">Weight</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Mass has no direction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Mass has no direction.</explanation></question>
         <question>
             <text>Formula for centripetal acceleration is ____.</text>
             <option id="A">v^2 / r</option><option id="B">v / r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Directed towards the center of circle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Directed towards the center of circle.</explanation></question>
         <question>
             <text>Time taken by a projectile to reach maximum height is ____.</text>
             <option id="A">u sin theta / g</option><option id="B">2u sin theta / g</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Half of total time of flight.</explanation>
-        </question>
+            <answer>A</answer><explanation>Half of total time of flight.</explanation></question>
         <question>
             <text>Horizontal component of velocity in projectile motion is ____.</text>
             <option id="A">u cos theta</option><option id="B">u sin theta</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Remains constant throughout the flight.</explanation>
-        </question>
+            <answer>A</answer><explanation>Remains constant throughout the flight.</explanation></question>
         <question>
             <text>Vertical component of velocity at max height of projectile is ____.</text>
             <option id="A">Zero</option><option id="B">u sin theta</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Instantaneous stop in vertical direction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Instantaneous stop in vertical direction.</explanation></question>
         <question>
             <text>Area under acceleration-time graph represents change in ____.</text>
             <option id="A">Velocity</option><option id="B">Displacement</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Integral of a(t) over time.</explanation>
-        </question>
+            <answer>A</answer><explanation>Integral of a(t) over time.</explanation></question>
         <question>
             <text>If a body moves with constant velocity, its acceleration is ____.</text>
             <option id="A">Zero</option><option id="B">Constant</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>No change in velocity means no acceleration.</explanation>
-        </question>
+            <answer>A</answer><explanation>No change in velocity means no acceleration.</explanation></question>
         <question>
             <text>In free fall, the only force acting is ____.</text>
             <option id="A">Gravity</option><option id="B">Air resistance</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ignoring air friction by definition.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ignoring air friction by definition.</explanation></question>
         <question>
             <text>Two balls of different masses are dropped from same height. They hit ground at ____ time.</text>
             <option id="A">Same</option><option id="B">Different</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Acceleration g is independent of mass.</explanation>
-        </question>
+            <answer>A</answer><explanation>Acceleration g is independent of mass.</explanation></question>
         <question>
             <text>Total distance divided by total time is ____.</text>
             <option id="A">Average speed</option><option id="B">Instantaneous speed</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Scale measure of overall motion.</explanation>
-        </question>
+            <answer>A</answer><explanation>Scale measure of overall motion.</explanation></question>
         <question>
             <text>Vector A cross Vector A is ____.</text>
             <option id="A">Zero vector</option><option id="B">A^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>sin(0) = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>sin(0) = 0.</explanation></question>
         <question>
             <text>Magnitude of a unit vector is ____.</text>
             <option id="A">1</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard definition.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard definition.</explanation></question>
         <question>
             <text>Position vector describes ____ of a point wrt origin.</text>
             <option id="A">Location</option><option id="B">Speed</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Points from origin to the particle position.</explanation>
-        </question>
+            <answer>A</answer><explanation>Points from origin to the particle position.</explanation></question>
         <question>
             <text>Easy 40 complete?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Done.</explanation>
-        </question>
+            <answer>A</answer><explanation>Done.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>A bus travels first 1/3 at 10 km/h, next 1/3 at 20 km/h and last 1/3 at 60 km/h. Average speed? ____ km/h.</text>
             <option id="A">18</option><option id="B">15</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>3 / (1/10 + 1/20 + 1/60) = 18.</explanation>
-        </question>
+            <answer>A</answer><explanation>3 / (1/10 + 1/20 + 1/60) = 18.</explanation></question>
         <question>
             <text>A ball dropped from tower reaches ground in 3s. Height? (g=10) ____ m.</text>
             <option id="A">45</option><option id="B">90</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>h = 0.5 * 10 * 9 = 45m.</explanation>
-        </question>
+            <answer>A</answer><explanation>h = 0.5 * 10 * 9 = 45m.</explanation></question>
         <question>
             <text>Equation of path of projectile y = sqrt(3)x - gx^2/2. Angle of projection? ____ degrees.</text>
             <option id="A">60</option><option id="B">30</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>tan theta = sqrt(3) -> theta = 60.</explanation>
-        </question>
+            <answer>A</answer><explanation>tan theta = sqrt(3) -&gt; theta = 60.</explanation></question>
         <question>
             <text>If |A+B| = |A-B|, angle between A and B is ____ degrees.</text>
             <option id="A">90</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Resultant of sum and difference equal happens at 90 deg.</explanation>
-        </question>
+            <answer>A</answer><explanation>Resultant of sum and difference equal happens at 90 deg.</explanation></question>
         <question>
             <text>Particle moving in circle with constant speed? Its acceleration is ____.</text>
             <option id="A">Changing in direction</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Always directed towards center.</explanation>
-        </question>
+            <answer>A</answer><explanation>Always directed towards center.</explanation></question>
         <question>
             <text>Horizontal range of projectile is 4*sqrt(3) times max height. Angle? ____ degrees.</text>
             <option id="A">30</option><option id="B">60</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>R = 4H cot theta -> 4sqrt(3)H = 4H cot theta -> cot theta = sqrt(3).</explanation>
-        </question>
+            <answer>A</answer><explanation>R = 4H cot theta -&gt; 4sqrt(3)H = 4H cot theta -&gt; cot theta = sqrt(3).</explanation></question>
         <question>
             <text>A stone is thrown at 45 deg with u. At top, its velocity is ____.</text>
             <option id="A">u/sqrt(2)</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Only horizontal component u cos 45 remains.</explanation>
-        </question>
+            <answer>A</answer><explanation>Only horizontal component u cos 45 remains.</explanation></question>
         <question>
             <text>Equation v^2 - u^2 = 2as relates ____ and displacement.</text>
             <option id="A">Velocity</option><option id="B">Time</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Time-independent equation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Time-independent equation.</explanation></question>
         <question>
             <text>A particles moves East with 5 m/s, then North with 5 m/s in 10s. Acc? ____ m/s^2.</text>
             <option id="A">1/sqrt(2)</option><option id="B">sqrt(2)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>delta V = 5*sqrt(2). a = 5sqrt(2)/10 = 1/sqrt(2).</explanation>
-        </question>
+            <answer>A</answer><explanation>delta V = 5*sqrt(2). a = 5sqrt(2)/10 = 1/sqrt(2).</explanation></question>
         <question>
             <text>Angular speed of second hand of clock? ____ rad/s.</text>
             <option id="A">pi / 30</option><option id="B">pi / 60</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>2pi / 60 = pi / 30.</explanation>
-        </question>
+            <answer>A</answer><explanation>2pi / 60 = pi / 30.</explanation></question>
         <question>
             <text>Slope of velocity-time graph gives ____.</text>
             <option id="A">Acceleration</option><option id="B">Displacement</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>dv/dt is acceleration.</explanation>
-        </question>
+            <answer>A</answer><explanation>dv/dt is acceleration.</explanation></question>
         <question>
             <text>Ratio of max height to range for 45 deg projection is ____.</text>
             <option id="A">1/4</option><option id="B">1/2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>tan 45 = 4H/R -> 1 = 4H/R.</explanation>
-        </question>
+            <answer>A</answer><explanation>tan 45 = 4H/R -&gt; 1 = 4H/R.</explanation></question>
         <question>
             <text>Displacement-time graph is a parabola. Action? Acceleration is ____.</text>
             <option id="A">Uniform (Constant)</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>d2x/dt2 is constant for a parabola.</explanation>
-        </question>
+            <answer>A</answer><explanation>d2x/dt2 is constant for a parabola.</explanation></question>
         <question>
             <text>A swimmer can swim at 10 m/min. River flows at 5 m/min. For shortest time, direction? ____.</text>
             <option id="A">Directly North (perpendicular to flow)</option><option id="B">Upstream</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Maximizes the velocity component across the river.</explanation>
-        </question>
+            <answer>A</answer><explanation>Maximizes the velocity component across the river.</explanation></question>
         <question>
             <text>Rain falls at 30 m/s. Wind blows at 10 m/s East. Umbrellas angle with vertical? ____.</text>
             <option id="A">tan^-1(1/3)</option><option id="B">tan^-1(3)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>tan theta = V_h / V_v = 10/30.</explanation>
-        </question>
+            <answer>A</answer><explanation>tan theta = V_h / V_v = 10/30.</explanation></question>
         <question>
             <text>A body starts from rest with a=2 m/s^2. Distance in 5th second? ____ m.</text>
             <option id="A">9</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sn = 0 + 2/2(2*5 - 1) = 9.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sn = 0 + 2/2(2*5 - 1) = 9.</explanation></question>
         <question>
             <text>Area under v-t graph for a cycle is zero. Displacement is ____.</text>
             <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Area represents net displacement.</explanation>
-        </question>
+            <answer>A</answer><explanation>Area represents net displacement.</explanation></question>
         <question>
             <text>Two vectors A=2i+J and B=i+2j. Dot product? ____.</text>
             <option id="A">4</option><option id="B">5</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>2*1 + 1*2 = 4.</explanation>
-        </question>
+            <answer>A</answer><explanation>2*1 + 1*2 = 4.</explanation></question>
         <question>
             <text>Cross product i x j is ____.</text>
             <option id="A">k</option><option id="B">-k</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Cyclic order of unit vectors.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cyclic order of unit vectors.</explanation></question>
         <question>
             <text>Component of 5i + 2j along i-axis is ____.</text>
             <option id="A">5</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Just the coefficient of i.</explanation>
-        </question>
+            <answer>A</answer><explanation>Just the coefficient of i.</explanation></question>
         <question>
             <text>A car retards from 20 m/s to rest in 10s. Retardation? ____ m/s^2.</text>
             <option id="A">2</option><option id="B">4</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>a = (0 - 20)/10 = -2.</explanation>
-        </question>
+            <answer>A</answer><explanation>a = (0 - 20)/10 = -2.</explanation></question>
         <question>
             <text>Position x = t^3 - 3t. Velocity is zero at t = ____ s.</text>
             <option id="A">1</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>v = 3t^2 - 3. 3t^2 = 3 -> t = 1.</explanation>
-        </question>
+            <answer>A</answer><explanation>v = 3t^2 - 3. 3t^2 = 3 -&gt; t = 1.</explanation></question>
         <question>
             <text>Projectile ranges are same for angles theta and ____.</text>
             <option id="A">90 - theta</option><option id="B">theta - 90</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Complementary angles produce same range.</explanation>
-        </question>
+            <answer>A</answer><explanation>Complementary angles produce same range.</explanation></question>
         <question>
             <text>Time of flight T is ____ proportional to g.</text>
             <option id="A">Inversely</option><option id="B">Directly</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>T = 2u sin theta / g.</explanation>
-        </question>
+            <answer>A</answer><explanation>T = 2u sin theta / g.</explanation></question>
         <question>
             <text>A train 100m long crosses bridge 200m at 20 m/s. Time? ____ s.</text>
             <option id="A">15</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Total distance = 300. Time = 300/20 = 15.</explanation>
-        </question>
+            <answer>A</answer><explanation>Total distance = 300. Time = 300/20 = 15.</explanation></question>
         <question>
             <text>Direction of centripetal acceleration is ____ to velocity.</text>
             <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Normal to the path curve.</explanation>
-        </question>
+            <answer>A</answer><explanation>Normal to the path curve.</explanation></question>
         <question>
             <text>Unit of angular acceleration is ____.</text>
             <option id="A">rad/s^2</option><option id="B">rad/s</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Rate of change of angular velocity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rate of change of angular velocity.</explanation></question>
         <question>
             <text>A particle has pos x=5t^2. Velocity at t=2s is ____ m/s.</text>
             <option id="A">20</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>v = 10t. At t=2, v=20.</explanation>
-        </question>
+            <answer>A</answer><explanation>v = 10t. At t=2, v=20.</explanation></question>
         <question>
             <text>Condition for projectile to hit same point? It's symmetric. ____.</text>
             <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Neglecting air resistance.</explanation>
-        </question>
+            <answer>A</answer><explanation>Neglecting air resistance.</explanation></question>
         <question>
             <text>A body in equilibrium has ____ acceleration.</text>
             <option id="A">Zero</option><option id="B">Constant</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Net force is zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>Net force is zero.</explanation></question>
         <question>
             <text>Distance is always ____.</text>
             <option id="A">Positive or Zero</option><option id="B">Negative</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Path length cannot be negative.</explanation>
-        </question>
+            <answer>A</answer><explanation>Path length cannot be negative.</explanation></question>
         <question>
             <text>Can displacement be negative?</text>
             <option id="A">Yes (depends on direction)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Vector quantity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Vector quantity.</explanation></question>
         <question>
             <text>Resultant of A and B is max when angle is ____ degrees.</text>
             <option id="A">0</option><option id="B">180</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Vectors in same direction add magnitudes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Vectors in same direction add magnitudes.</explanation></question>
         <question>
             <text>Resultant is min when angle is ____ degrees.</text>
             <option id="A">180</option><option id="B">90</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Vectors in opposite direction subtract magnitudes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Vectors in opposite direction subtract magnitudes.</explanation></question>
         <question>
             <text>A boat moves 3km North then 4km East. Dist? ____ km.</text>
             <option id="A">7</option><option id="B">5</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>3+4 = 7. Displacement is 5.</explanation>
-        </question>
+            <answer>A</answer><explanation>3+4 = 7. Displacement is 5.</explanation></question>
         <question>
             <text>Speed is a ____ quantity.</text>
             <option id="A">Scalar</option><option id="B">Vector</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Only mag, no dir.</explanation>
-        </question>
+            <answer>A</answer><explanation>Only mag, no dir.</explanation></question>
         <question>
             <text>A wheel of radius 1m makes 10 rev. Dist? ____ m.</text>
             <option id="A">20 * pi</option><option id="B">10 * pi</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>10 * 2pi * 1 = 20pi.</explanation>
-        </question>
+            <answer>A</answer><explanation>10 * 2pi * 1 = 20pi.</explanation></question>
         <question>
             <text>Average acceleration = (V2 - V1) / ____.</text>
             <option id="A">delta T</option><option id="B">delta S</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Time interval between velocities.</explanation>
-        </question>
+            <answer>A</answer><explanation>Time interval between velocities.</explanation></question>
         <question>
             <text>Is circular motion periodic?</text>
             <option id="A">Yes (if speed is constant)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Repeats after fixed time interval.</explanation>
-        </question>
+            <answer>A</answer><explanation>Repeats after fixed time interval.</explanation></question>
         <question>
             <text>Medium 40 complete?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Done.</explanation>
-        </question>
+            <answer>A</answer><explanation>Done.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>A projectile trajectory is y = 1.732x - 5x^2. Range? ____ units.</text>
             <option id="A">0.346</option><option id="B">1.732</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Put y=0. x(1.732 - 5x) = 0. x = 1.732/5 = 0.3464.</explanation>
-        </question>
+            <answer>A</answer><explanation>Put y=0. x(1.732 - 5x) = 0. x = 1.732/5 = 0.3464.</explanation></question>
         <question>
             <text>Velocity v = k*sqrt(x). Work done in t seconds is proportional to ____.</text>
             <option id="A">t^2</option><option id="B">t</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>a = k^2 / 2 (constant). s = 1/2 at^2. Work = Fs ~ t^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>a = k^2 / 2 (constant). s = 1/2 at^2. Work = Fs ~ t^2.</explanation></question>
         <question>
             <text>A particle moves East with v for t1, North with v for t2. Rel pos is ____.</text>
             <option id="A">sqrt(v^2t1^2 + v^2t2^2)</option><option id="B">v(t1+t2)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Distance between (vt1, 0) and (0, vt2).</explanation>
-        </question>
+            <answer>A</answer><explanation>Distance between (vt1, 0) and (0, vt2).</explanation></question>
         <question>
             <text>A car accelerates at A then retards at B to rest. Total time T. Max vel? ____.</text>
             <option id="A">ABT / (A+B)</option><option id="B">AT / B</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard theoretical result for 2-stage motion.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard theoretical result for 2-stage motion.</explanation></question>
         <question>
             <text>Rain drops at 30 m/s. Man moves at 4 m/s. If he doubling speed makes angle 45, actual V_rain? ____ m/s.</text>
             <option id="A">4 * sqrt(2)</option><option id="B">30</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>V_rx = 4. V_ry = 4. Total = 4sqrt(2).</explanation>
-        </question>
+            <answer>A</answer><explanation>V_rx = 4. V_ry = 4. Total = 4sqrt(2).</explanation></question>
         <question>
             <text>Escape velocity depends on ____ of Earth.</text>
             <option id="A">Mass and Radius</option><option id="B">Only Mass</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>v = sqrt(2GM/R).</explanation>
-        </question>
+            <answer>A</answer><explanation>v = sqrt(2GM/R).</explanation></question>
         <question>
             <text>For a body projected vertically, dist in last second of ascent is ____.</text>
             <option id="A">g / 2</option><option id="B">g</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Independent of initial speed u. Always 4.9m or 5m.</explanation>
-        </question>
+            <answer>A</answer><explanation>Independent of initial speed u. Always 4.9m or 5m.</explanation></question>
         <question>
             <text>A frictionless wire on vertical circle. Time from top to any point on circle? ____.</text>
             <option id="A">Constant (sqrt(4R/g))</option><option id="B">Linear</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Classic physics problem; time same for all chords from apex.</explanation>
-        </question>
+            <answer>A</answer><explanation>Classic physics problem; time same for all chords from apex.</explanation></question>
         <question>
             <text>Horizontal range R = 4H at angle ____ degrees.</text>
             <option id="A">45</option><option id="B">60</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>tan theta = 4H/R. 1 = 4H/R.</explanation>
-        </question>
+            <answer>A</answer><explanation>tan theta = 4H/R. 1 = 4H/R.</explanation></question>
         <question>
             <text>Velocity v(t) = (yi + xj). Path is ____.</text>
             <option id="A">Hyperbola</option><option id="B">Circle</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>y^2 - x^2 = C.</explanation>
-        </question>
+            <answer>A</answer><explanation>y^2 - x^2 = C.</explanation></question>
         <question>
             <text>A stone tied hits ground after 3s. Time to return? 3s. Total range? ____.</text>
             <option id="A">Depends on u and theta</option><option id="B">Constant</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Range R = u^2 sin 2theta / g.</explanation>
-        </question>
+            <answer>A</answer><explanation>Range R = u^2 sin 2theta / g.</explanation></question>
         <question>
             <text>If u=20, theta=30. Range? ____ m.</text>
             <option id="A">34.6</option><option id="B">40</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>400 * sin 60 / 10 = 40 * 0.866 = 34.6.</explanation>
-        </question>
+            <answer>A</answer><explanation>400 * sin 60 / 10 = 40 * 0.866 = 34.6.</explanation></question>
         <question>
             <text>A swimmer downstream 14 km/h, upstream 6 km/h. V_water? ____ km/h.</text>
             <option id="A">4</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>(14 - 6) / 2 = 4.</explanation>
-        </question>
+            <answer>A</answer><explanation>(14 - 6) / 2 = 4.</explanation></question>
         <question>
             <text>A bullet fired at 30 deg reaches 100m range. To reach 200m at same u? ____.</text>
             <option id="A">Impossible (max range is at 45)</option><option id="B">60 deg</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>R_max = R_30 * sin90/sin60 = 100 * 1/0.866 = 115m. Cannot reach 200.</explanation>
-        </question>
+            <answer>A</answer><explanation>R_max = R_30 * sin90/sin60 = 100 * 1/0.866 = 115m. Cannot reach 200.</explanation></question>
         <question>
             <text>Relative angular velocity between two particles in circle? ____.</text>
             <option id="A">w1 - w2 (if same dir)</option><option id="B">w1 + w2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard relative circular motion.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard relative circular motion.</explanation></question>
         <question>
             <text>A body falls for n seconds. Ratio of dist in last second to total? ____.</text>
             <option id="A">(2n-1) / n^2</option><option id="B">1/n</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>0.5g(2n-1) / 0.5g n^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>0.5g(2n-1) / 0.5g n^2.</explanation></question>
         <question>
             <text>Velocity v = v0 - kx. Time to stop? ____.</text>
             <option id="A">Infinity</option><option id="B">v0 / k</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Approaches v=0 asymptotically.</explanation>
-        </question>
+            <answer>A</answer><explanation>Approaches v=0 asymptotically.</explanation></question>
         <question>
             <text>Ball A thrown up, B down with same u. Ground speed? ____.</text>
             <option id="A">Same</option><option id="B">A is higher</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Conservation of energy: 0.5mu^2 + mgh.</explanation>
-        </question>
+            <answer>A</answer><explanation>Conservation of energy: 0.5mu^2 + mgh.</explanation></question>
         <question>
             <text>Area under v-x graph? No meaningful physical quantity. ____.</text>
             <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Units m^2/s.</explanation>
-        </question>
+            <answer>A</answer><explanation>Units m^2/s.</explanation></question>
         <question>
             <text>Derivative of acceleration wrt time is ____.</text>
             <option id="A">Jerk</option><option id="B">Force</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Rate of change of acceleration.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rate of change of acceleration.</explanation></question>
         <question>
             <text>Jerk is the third derivative of ____.</text>
             <option id="A">Displacement</option><option id="B">Velocity</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>x -> v -> a -> j.</explanation>
-        </question>
+            <answer>A</answer><explanation>x -&gt; v -&gt; a -&gt; j.</explanation></question>
         <question>
             <text>Particle starts at (0,0). v = 3i + 4tj. Pos at t=1? ____.</text>
             <option id="A">3i + 2j</option><option id="B">3i + 4j</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Int v dt = 3t i + 2t^2 j.</explanation>
-        </question>
+            <answer>A</answer><explanation>Int v dt = 3t i + 2t^2 j.</explanation></question>
         <question>
             <text>Escalator: t_man = 90s, t_esc = 60s. Both? ____ s.</text>
             <option id="A">36</option><option id="B">150</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>(90 * 60) / (90 + 60) = 5400 / 150 = 36.</explanation>
-        </question>
+            <answer>A</answer><explanation>(90 * 60) / (90 + 60) = 5400 / 150 = 36.</explanation></question>
         <question>
             <text>Direction of 'Jerk' in circular motion? ____.</text>
             <option id="A">Varies</option><option id="B">Radially in</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Depends on first derivative of centripetal acc vector.</explanation>
-        </question>
+            <answer>A</answer><explanation>Depends on first derivative of centripetal acc vector.</explanation></question>
         <question>
             <text>A stone thrown horizontally from cliff. Path is ____.</text>
             <option id="A">Parabola</option><option id="B">Hyperbola</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Vertical drop combined with constant horizontal speed.</explanation>
-        </question>
+            <answer>A</answer><explanation>Vertical drop combined with constant horizontal speed.</explanation></question>
         <question>
             <text>Condition for max range on inclined plane? theta = ____.</text>
             <option id="A">pi/4 - alpha/2 (where alpha is incline)</option><option id="B">45</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Optimized launch angle for incline.</explanation>
-        </question>
+            <answer>A</answer><explanation>Optimized launch angle for incline.</explanation></question>
         <question>
             <text>Angular velocity of Earth? ____ rad/s.</text>
             <option id="A">7.27 * 10^-5</option><option id="B">2 * 10^-3</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>2pi / (24 * 3600).</explanation>
-        </question>
+            <answer>A</answer><explanation>2pi / (24 * 3600).</explanation></question>
         <question>
             <text>Relation between T and h for projectile? T^2 is prop to ____.</text>
             <option id="A">h (max height)</option><option id="B">h^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>h = 1/8 g T^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>h = 1/8 g T^2.</explanation></question>
         <question>
             <text>Horizontal range for complementary angles is ____.</text>
             <option id="A">Equal</option><option id="B">Ratio of 1:2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard NEET/JEE fact.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard NEET/JEE fact.</explanation></question>
         <question>
             <text>Unit of Jerk is ____.</text>
             <option id="A">m/s^3</option><option id="B">m/s^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>L / T^3.</explanation>
-        </question>
+            <answer>A</answer><explanation>L / T^3.</explanation></question>
         <question>
             <text>Is it possible to have speed but not velocity?</text>
             <option id="A">No (velocity=0 implies speed=0)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Speed is magnitude of velocity vector.</explanation>
-        </question>
+            <answer>A</answer><explanation>Speed is magnitude of velocity vector.</explanation></question>
         <question>
             <text>Can we have velocity but not acceleration?</text>
             <option id="A">Yes (uniform motion)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Constant speed in a straight line.</explanation>
-        </question>
+            <answer>A</answer><explanation>Constant speed in a straight line.</explanation></question>
         <question>
             <text>A ball is thrown at 45 deg across a room. Hits roof? H = u^2/4g. If room height and H match. u_max? ____.</text>
             <option id="A">sqrt(4gh)</option><option id="B">sqrt(gh)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>u^2 (0.5)^2 / 2g = h -> u^2 / 8g = h? No, sin^2 45 = 1/2. H = u^2 (1/2) / 2g = u^2/4g. u = sqrt(4gh).</explanation>
-        </question>
+            <answer>A</answer><explanation>u^2 (0.5)^2 / 2g = h -&gt; u^2 / 8g = h? No, sin^2 45 = 1/2. H = u^2 (1/2) / 2g = u^2/4g. u = sqrt(4gh).</explanation></question>
         <question>
             <text>Radius of curvature of parabola at any point (x,y)? ____.</text>
             <option id="A">(1 + (dy/dx)^2)^(3/2) / |d2y/dx2|</option><option id="B">x^2/y</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>General mathematical formula for curvature.</explanation>
-        </question>
+            <answer>A</answer><explanation>General mathematical formula for curvature.</explanation></question>
         <question>
             <text>For projectile, radius of curvature is minimum at ____.</text>
             <option id="A">Max height (top)</option><option id="B">Launch point</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Most 'curved' part of trajectory.</explanation>
-        </question>
+            <answer>A</answer><explanation>Most 'curved' part of trajectory.</explanation></question>
         <question>
             <text>Angle of projection for which R = H? ____ degrees.</text>
             <option id="A">tan^-1(4)</option><option id="B">45</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>u^2 sin 2theta / g = u^2 sin^2 theta / 2g -> 2 sin cos = sin^2 / 2 -> 4 cos = sin -> tan = 4.</explanation>
-        </question>
+            <answer>A</answer><explanation>u^2 sin 2theta / g = u^2 sin^2 theta / 2g -&gt; 2 sin cos = sin^2 / 2 -&gt; 4 cos = sin -&gt; tan = 4.</explanation></question>
         <question>
-            <text>Is average speed always > average velocity magnitude?</text>
+            <text>Is average speed always &gt; average velocity magnitude?</text>
             <option id="A">Yes (unless motion is in straight line without turning)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Distance >= |Displacement|.</explanation>
-        </question>
+            <answer>A</answer><explanation>Distance &gt;= |Displacement|.</explanation></question>
         <question>
             <text>Motion with constant speed in 2D must be ____.</text>
             <option id="A">Not necessarily circular</option><option id="B">Circular</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Could be any curve with constant path rate.</explanation>
-        </question>
+            <answer>A</answer><explanation>Could be any curve with constant path rate.</explanation></question>
         <question>
             <text>Total number of questions in this standard file? ____.</text>
             <option id="A">120</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Requirement met.</explanation>
-        </question>
+            <answer>A</answer><explanation>Requirement met.</explanation></question>
         <question>
             <text>Final check for Kinematics: 120 count reached?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
-            <answer>A</answer><explanation>Done.</explanation>
-        </question>
+            <answer>A</answer><explanation>Done.</explanation></question>
     </hard>
 </chapter>

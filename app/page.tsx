@@ -509,7 +509,7 @@ export default function HomePage() {
                  viewport={{ once: true }}
                  className="relative overflow-hidden rounded-[40px] bg-slate-900 px-8 py-16 text-center text-white shadow-2xl"
               >
-                 <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay"></div>
+                 <div className="absolute inset-0 bg-[url('/noise.svg')] opacity-20 mix-blend-overlay"></div>
                  <div className="absolute top-0 right-0 w-80 h-80 bg-indigo-500 rounded-full blur-[100px] opacity-40 mix-blend-screen -z-10" />
                  <div className="absolute bottom-0 left-0 w-80 h-80 bg-cyan-500 rounded-full blur-[100px] opacity-20 mix-blend-screen -z-10" />
 

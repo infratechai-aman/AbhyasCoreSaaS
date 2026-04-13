@@ -4,606 +4,487 @@
         <question>
             <text>Zeroth Law of Thermodynamics leads to the concept of ____.</text>
             <option id="A">Temperature</option><option id="B">Internal Energy</option><option id="C">Heat</option><option id="D">Work</option>
-            <answer>A</answer><explanation>Two systems in equilibrium with a third are in equilibrium with each other.</explanation>
-        </question>
+            <answer>A</answer><explanation>Two systems in equilibrium with a third are in equilibrium with each other.</explanation></question>
         <question>
             <text>Equation representing First Law of Thermodynamics is ____.</text>
             <option id="A">ΔQ = ΔU + ΔW</option><option id="B">ΔQ = ΔU - ΔW</option><option id="C">ΔW = ΔU + ΔQ</option><option id="D">None</option>
-            <answer>A</answer><explanation>Conservation of energy: Heat added = Increase in internal energy + Work done by system.</explanation>
-        </question>
+            <answer>A</answer><explanation>Conservation of energy: Heat added = Increase in internal energy + Work done by system.</explanation></question>
         <question>
             <text>A process occurring at constant temperature is called ____.</text>
             <option id="A">Isothermal</option><option id="B">Adiabatic</option><option id="C">Isobaric</option><option id="D">Isochoric</option>
-            <answer>A</answer><explanation>ΔT = 0, so ΔU = 0 for ideal gas.</explanation>
-        </question>
+            <answer>A</answer><explanation>ΔT = 0, so ΔU = 0 for ideal gas.</explanation></question>
         <question>
             <text>A process where no heat enters or leaves the system is ____.</text>
             <option id="A">Adiabatic</option><option id="B">Isothermal</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>ΔQ = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>ΔQ = 0.</explanation></question>
         <question>
             <text>Process occurring at constant pressure is called ____.</text>
             <option id="A">Isobaric</option><option id="B">Isochoric</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Example: Expansion in open atmosphere.</explanation>
-        </question>
+            <answer>A</answer><explanation>Example: Expansion in open atmosphere.</explanation></question>
         <question>
             <text>Process occurring at constant volume is called ____.</text>
             <option id="A">Isochoric / Isometric</option><option id="B">Isobaric</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Work done ΔW = P ΔV = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Work done ΔW = P ΔV = 0.</explanation></question>
         <question>
             <text>Work done in isochoric process is ____.</text>
             <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">None</option>
-            <answer>A</answer><explanation>Since ΔV = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Since ΔV = 0.</explanation></question>
         <question>
             <text>Internal energy of an ideal gas depends only on ____.</text>
             <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">Volume</option><option id="D">None</option>
-            <answer>A</answer><explanation>Molecular interaction energy is zero for ideal gases.</explanation>
-        </question>
+            <answer>A</answer><explanation>Molecular interaction energy is zero for ideal gases.</explanation></question>
         <question>
             <text>SI unit of Thermodynamic Temperature is ____.</text>
             <option id="A">Kelvin (K)</option><option id="B">Celsius</option><option id="C">degree</option><option id="D">None</option>
-            <answer>A</answer><explanation>Absolute temperature scale.</explanation>
-        </question>
+            <answer>A</answer><explanation>Absolute temperature scale.</explanation></question>
         <question>
             <text>Efficiency of a heat engine is defined as Ratio of Output Work to ____ Input.</text>
             <option id="A">Heat</option><option id="B">Internal Energy</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>η = W / Q_in.</explanation>
-        </question>
+            <answer>A</answer><explanation>η = W / Q_in.</explanation></question>
         <question>
             <text>Ratio of specific heats γ is always ____ than 1.</text>
             <option id="A">Greater</option><option id="B">Less</option><option id="C">Equal</option><option id="D">None</option>
-            <answer>A</answer><explanation>C_p > C_v result.</explanation>
-        </question>
+            <answer>A</answer><explanation>C_p &gt; C_v result.</explanation></question>
         <question>
             <text>Mayer's Relation is C_p - C_v = ____.</text>
             <option id="A">R</option><option id="B">2R</option><option id="C">phi</option><option id="D">None</option>
             <answer>A</answer><explanation>Universal gas constant R.</explanation>
-        </explanation>
+        </question>
         <question>
             <text>In adiabatic process, P V ^ gamma = ____.</text>
             <option id="A">Constant</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Governing equation for no-heat-exchange flow.</explanation>
-        </question>
+            <answer>A</answer><explanation>Governing equation for no-heat-exchange flow.</explanation></question>
         <question>
             <text>A quasi-static process is a process carried out ____.</text>
             <option id="A">Very slowly</option><option id="B">Instantly</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Remains in equilibrium throughout.</explanation>
-        </question>
+            <answer>A</answer><explanation>Remains in equilibrium throughout.</explanation></question>
         <question>
             <text>Second Law of Thermodynamics implies heat cannot flow from cold to hot without ____.</text>
             <option id="A">External work</option><option id="B">Time</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Clausius statement.</explanation>
-        </question>
+            <answer>A</answer><explanation>Clausius statement.</explanation></question>
         <question>
             <text>Heat engine converts heat into ____.</text>
             <option id="A">Mechanical Work</option><option id="B">Temperature</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Cyclic process implementation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cyclic process implementation.</explanation></question>
         <question>
             <text>Refrigerator transfers heat from cold reservoir to hot reservoir using ____.</text>
             <option id="A">Work input</option><option id="B">Pressure drop only</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Reverse heat engine cycle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reverse heat engine cycle.</explanation></question>
         <question>
             <text>Isothermal bulk modulus of an ideal gas equals ____.</text>
             <option id="A">P (Pressure)</option><option id="B">gamma P</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derived from PV = k.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from PV = k.</explanation></question>
         <question>
             <text>Adiabatic bulk modulus of an ideal gas equals ____.</text>
             <option id="A">gamma P</option><option id="B">P</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Derived from P V^γ = k.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from P V^γ = k.</explanation></question>
         <question>
             <text>System where both matter and energy can exchange is ____.</text>
             <option id="A">Open System</option><option id="B">Closed System</option><option id="C">Isolated</option><option id="D">None</option>
-            <answer>A</answer><explanation>Common for biological systems.</explanation>
-        </question>
+            <answer>A</answer><explanation>Common for biological systems.</explanation></question>
         <question>
             <text>System where only energy (not matter) exchanges is ____.</text>
             <option id="A">Closed System</option><option id="B">Open</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Sealed container heated/cooled.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sealed container heated/cooled.</explanation></question>
         <question>
             <text>System where neither matter nor energy exchanges is ____.</text>
             <option id="A">Isolated System</option><option id="B">Open</option><option id="C">none</option><option id="D">D</option>
-            <answer>A</answer><explanation>Perfect vacuum flask idealized.</explanation>
-        </question>
+            <answer>A</answer><explanation>Perfect vacuum flask idealized.</explanation></question>
         <question>
             <text>Cyclic process path in P-V diagram returns to ____.</text>
             <option id="A">Initial State</option><option id="B">Vacuum</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>ΔU = 0 for full cycle.</explanation>
-        </question>
+            <answer>A</answer><explanation>ΔU = 0 for full cycle.</explanation></question>
         <question>
             <text>Area under P-V curve represents ____.</text>
             <option id="A">Work Done</option><option id="B">Heat added</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Integral of P dV.</explanation>
-        </question>
+            <answer>A</answer><explanation>Integral of P dV.</explanation></question>
         <question>
             <text>In cyclic process, net work done equals net ____ added.</text>
             <option id="A">Heat</option><option id="B">Internal energy</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Since ΔU = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Since ΔU = 0.</explanation></question>
         <question>
             <text>Slope of adiabatic curve is ____ times slope of isothermal curve.</text>
             <option id="A">gamma</option><option id="B">1</option><option id="C">2</option><option id="D">None</option>
-            <answer>A</answer><explanation>Adiabatics are steeper.</explanation>
-        </question>
+            <answer>A</answer><explanation>Adiabatics are steeper.</explanation></question>
         <question>
             <text>Ideal heat engine cycle is ____ cycle.</text>
             <option id="A">Carnot</option><option id="B">Otto</option><option id="C">Diesel</option><option id="D">None</option>
-            <answer>A</answer><explanation>Most efficient cycle between two temps.</explanation>
-        </question>
+            <answer>A</answer><explanation>Most efficient cycle between two temps.</explanation></question>
         <question>
             <text>Carnot cycle consists of ____ isothermal and ____ adiabatic processes.</text>
             <option id="A">2 , 2</option><option id="B">1, 3</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Reversible theoretical model.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reversible theoretical model.</explanation></question>
         <question>
             <text>Efficiency of Carnot engine η = ____.</text>
             <option id="A">1 - (T_low / T_high)</option><option id="B">1 - (T_high / T_low)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Depends only on reservoir temperatures.</explanation>
-        </question>
+            <answer>A</answer><explanation>Depends only on reservoir temperatures.</explanation></question>
         <question>
             <text>Thermodynamic state variables specify the ____ of the system.</text>
             <option id="A">Equilibrium state</option><option id="B">Color</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>P, V, T, n are examples.</explanation>
-        </question>
+            <answer>A</answer><explanation>P, V, T, n are examples.</explanation></question>
         <question>
             <text>State variable not depending on mass is ____.</text>
             <option id="A">Intensive (e.g. Temperature)</option><option id="B">Extensive</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Density is also intensive.</explanation>
-        </question>
+            <answer>A</answer><explanation>Density is also intensive.</explanation></question>
         <question>
             <text>State variable proportional to size/mass is ____.</text>
             <option id="A">Extensive (e.g. Volume)</option><option id="B">Intensive</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Enthalpy and Entropy are also extensive.</explanation>
-        </question>
+            <answer>A</answer><explanation>Enthalpy and Entropy are also extensive.</explanation></question>
         <question>
             <text>Equation of state for n moles of ideal gas is ____.</text>
             <option id="A">PV = nRT</option><option id="B">P/V = RT</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Combined gas law.</explanation>
-        </question>
+            <answer>A</answer><explanation>Combined gas law.</explanation></question>
         <question>
             <text>For cyclic process ΔU is ____.</text>
             <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">None</option>
-            <answer>A</answer><explanation>Initial and final states are same.</explanation>
-        </question>
+            <answer>A</answer><explanation>Initial and final states are same.</explanation></question>
         <question>
             <text>Work done by gas on expansion is ____ by sign convention.</text>
             <option id="A">Positive</option><option id="B">Negative</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Physics convention (Expansion = work by system).</explanation>
-        </question>
+            <answer>A</answer><explanation>Physics convention (Expansion = work by system).</explanation></question>
         <question>
             <text>Heat entering system is ____ by convention.</text>
             <option id="A">Positive</option><option id="B">Negative</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Increases internal energy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Increases internal energy.</explanation></question>
         <question>
             <text>Free expansion of gas into vacuum: Work done is ____.</text>
             <option id="A">Zero</option><option id="B">High</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>No opposing pressure.</explanation>
-        </question>
+            <answer>A</answer><explanation>No opposing pressure.</explanation></question>
         <question>
             <text>Isobaric work done W = ____.</text>
             <option id="A">P(V2 - V1)</option><option id="B">RT ln(V2/V1)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Force x Distance integration result.</explanation>
-        </question>
+            <answer>A</answer><explanation>Force x Distance integration result.</explanation></question>
         <question>
             <text>Efficiency of heat engine is 100% only if T_low is ____.</text>
             <option id="A">0 K (Absolute zero)</option><option id="B">0 Celsius</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Forbidden by 3rd Law/Carnot limit.</explanation>
-        </question>
+            <answer>A</answer><explanation>Forbidden by 3rd Law/Carnot limit.</explanation></question>
         <question>
             <text>Heat added at constant density means ____ process.</text>
             <option id="A">Isochoric</option><option id="B">Isobaric</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Density constant implies Volume constant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Density constant implies Volume constant.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Change in internal energy ΔU in adiabatic process equals ____.</text>
             <option id="A">-ΔW</option><option id="B">ΔQ</option><option id="C">Zero</option><option id="D">None</option>
-            <answer>A</answer><explanation>Since ΔQ=0, ΔQ = ΔU + ΔW becomes 0 = ΔU + ΔW.</explanation>
-        </question>
+            <answer>A</answer><explanation>Since ΔQ=0, ΔQ = ΔU + ΔW becomes 0 = ΔU + ΔW.</explanation></question>
         <question>
             <text>Work done in isothermal expansion of 1 mole of gas: W = ____.</text>
             <option id="A">RT ln(V2 / V1)</option><option id="B">P ΔV</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Derived from Integral of (RT/V) dV.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from Integral of (RT/V) dV.</explanation></question>
         <question>
             <text>Work done in adiabatic process: W = ____.</text>
             <option id="A">R (T1 - T2) / (gamma - 1)</option><option id="B">RT ln(V2/V1)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard adiabatic work formula.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard adiabatic work formula.</explanation></question>
         <question>
             <text>Coefficient of Performance (COP) of refrigerator α = ____.</text>
             <option id="A">Q_low / W</option><option id="B">W / Q_low</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Cooling effect over work input.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cooling effect over work input.</explanation></question>
         <question>
             <text>Relationship between COP (α) and Efficiency (η) is ____.</text>
             <option id="A">α = (1 - η) / η</option><option id="B">α = η / (1 - η)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Mathematical link between engine and fridge performance.</explanation>
-        </question>
+            <answer>A</answer><explanation>Mathematical link between engine and fridge performance.</explanation></question>
         <question>
             <text>Internal energy change for any path depends only on ____.</text>
-            <option id="A">Endpoints (Initial & Final States)</option><option id="B">The path followed</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>U is a state function.</explanation>
-        </question>
+            <option id="A">Endpoints (Initial &amp; Final States)</option><option id="B">The path followed</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>U is a state function.</explanation></question>
         <question>
             <text>Heat given to ideal gas in isochoric process goes entirely to ____.</text>
             <option id="A">Increase Internal Energy</option><option id="B">External Work</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Work done is zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>Work done is zero.</explanation></question>
         <question>
             <text>γ for Monatomic gas (like He) is ____.</text>
             <option id="A">1.67 (5/3)</option><option id="B">1.40 (7/5)</option><option id="C">1.33</option><option id="D">None</option>
-            <answer>A</answer><explanation>3 degrees of freedom.</explanation>
-        </question>
+            <answer>A</answer><explanation>3 degrees of freedom.</explanation></question>
         <question>
             <text>γ for Diatomic gas (like O2) at low temp is ____.</text>
             <option id="A">1.40 (7/5)</option><option id="B">1.67</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>5 degrees of freedom (3 trans + 2 rot).</explanation>
-        </question>
+            <answer>A</answer><explanation>5 degrees of freedom (3 trans + 2 rot).</explanation></question>
         <question>
             <text>Adiabatic temperature relation: T V^(gamma-1) = ____.</text>
             <option id="A">Constant</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Derived from PV^γ and PV/T = const.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from PV^γ and PV/T = const.</explanation></question>
         <question>
             <text>Reversible process must be carried out ____.</text>
             <option id="A">Slowly and without dissipative forces</option><option id="B">Fast</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Idealization where entropy change of universe is zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>Idealization where entropy change of universe is zero.</explanation></question>
         <question>
             <text>Irreversible process examples include ____.</text>
             <option id="A">Burning, friction, fast expansion</option><option id="B">Carnot cycle</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Common natural processes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Common natural processes.</explanation></question>
         <question>
             <text>Change in internal energy of a liquid on boiling is ____.</text>
             <option id="A">Positive (Endothermic work + bond breaking)</option><option id="B">Negative</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Both volume and configuration energy increase.</explanation>
-        </question>
+            <answer>A</answer><explanation>Both volume and configuration energy increase.</explanation></question>
         <question>
             <text>Work done when 1g water at 100 C becomes 1671cc steam is approx ____ J.</text>
             <option id="A">169</option><option id="B">540</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>P ΔV = 10^5 x 1.67e-3.</explanation>
-        </question>
+            <answer>A</answer><explanation>P ΔV = 10^5 x 1.67e-3.</explanation></question>
         <question>
             <text>Adiabatic vs Isothermal work for same expansion ratio: W_iso is ____.</text>
             <option id="A">Larger (Isothermal curve is flatter/higher)</option><option id="B">Smaller</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>P drops faster in adiabatic expansion.</explanation>
-        </question>
+            <answer>A</answer><explanation>P drops faster in adiabatic expansion.</explanation></question>
         <question>
             <text>Heat added to diatomic gas at constant P. Fraction of heat becoming external work is ____.</text>
             <option id="A">2 / 7</option><option id="B">2 / 5</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>ΔW / ΔQ = R / C_p = 1 / (3.5).</explanation>
-        </question>
+            <answer>A</answer><explanation>ΔW / ΔQ = R / C_p = 1 / (3.5).</explanation></question>
         <question>
             <text>Fraction of heat becoming internal energy for monatomic gas at constant P is ____.</text>
             <option id="A">3 / 5 (60%)</option><option id="B">40%</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>ΔU / ΔQ = C_v / C_p = 1 / γ = 1 / 1.67.</explanation>
-        </question>
+            <answer>A</answer><explanation>ΔU / ΔQ = C_v / C_p = 1 / γ = 1 / 1.67.</explanation></question>
         <question>
             <text>Thermodynamic property used in refrigerators for cooling is ____.</text>
             <option id="A">Adiabatic expansion (through throttling valve)</option><option id="B">Condensation</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Rapid pressure drop cools the fluid.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rapid pressure drop cools the fluid.</explanation></question>
         <question>
             <text>Heat engine source at 600K, sink at 300K. Max efficiency is ____.</text>
             <option id="A">50%</option><option id="B">30%</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>1 - 300/600 = 0.5.</explanation>
-        </question>
+            <answer>A</answer><explanation>1 - 300/600 = 0.5.</explanation></question>
         <question>
             <text>If source temp remains same, but sink temp decreases, efficiency ____.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Remains same</option><option id="D">None</option>
-            <answer>A</answer><explanation>Greater temp gap enables more work.</explanation>
-        </question>
+            <answer>A</answer><explanation>Greater temp gap enables more work.</explanation></question>
         <question>
             <text>Clausius statement of 2nd Law refers to ____.</text>
             <option id="A">Heat pump / Refrigerator</option><option id="B">Heat engine</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Direction of heat flow limitation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Direction of heat flow limitation.</explanation></question>
         <question>
             <text>Kelvin-Planck statement of 2nd Law refers to ____.</text>
             <option id="A">Heat engine (Impossible to convert all heat to work)</option><option id="B">Fridge</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Need for a sink.</explanation>
-        </question>
+            <answer>A</answer><explanation>Need for a sink.</explanation></question>
         <question>
             <text>Efficiency of ideal refrigerator (Carnot) COP = ____.</text>
             <option id="A">T_low / (T_high - T_low)</option><option id="B">(T_high - T_low) / T_low</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Theoretical limit for cooling tech.</explanation>
-        </question>
+            <answer>A</answer><explanation>Theoretical limit for cooling tech.</explanation></question>
         <question>
             <text>Air escaping from punctured tire feels cold due to ____.</text>
             <option id="A">Adiabatic expansion</option><option id="B">Isothermal change</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Rapid expansion uses internal energy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rapid expansion uses internal energy.</explanation></question>
         <question>
             <text>Entropy of universe according to 2nd Law is ____.</text>
             <option id="A">Increasing</option><option id="B">Decreasing</option><option id="C">Constant</option><option id="D">None</option>
-            <answer>A</answer><explanation>Arrow of time concept.</explanation>
-        </question>
+            <answer>A</answer><explanation>Arrow of time concept.</explanation></question>
         <question>
             <text>Slope of isothermal curve is ____.</text>
             <option id="A">- P / V</option><option id="B">- V / P</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>From PV = k, P dV + V dP = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>From PV = k, P dV + V dP = 0.</explanation></question>
         <question>
             <text>Slope of adiabatic curve is ____.</text>
             <option id="A">- gamma P / V</option><option id="B">- P / V</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derived from P V^γ = k.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from P V^γ = k.</explanation></question>
         <question>
             <text>Compressing gas adiabatically ____ its temperature.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Work done on gas increases internal energy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Work done on gas increases internal energy.</explanation></question>
         <question>
             <text>Expansion of gas isothermally: Heat must be ____.</text>
             <option id="A">Added to system</option><option id="B">Removed</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>To keep T constant as gas does work.</explanation>
-        </question>
+            <answer>A</answer><explanation>To keep T constant as gas does work.</explanation></question>
         <question>
             <text>Work done in cyclic process ABCD where path is a circle in PV diagram: W = ____.</text>
             <option id="A">Area of circle (pi r1 r2)</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Area enclosed by path.</explanation>
-        </question>
+            <answer>A</answer><explanation>Area enclosed by path.</explanation></question>
         <question>
             <text>C_p is always greater than C_v because ____.</text>
             <option id="A">Work is done against pressure at constant P</option><option id="B">Mass is more</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Energy needed for both ΔU and ΔW.</explanation>
-        </question>
+            <answer>A</answer><explanation>Energy needed for both ΔU and ΔW.</explanation></question>
         <question>
             <text>Relationship between P and T in adiabatic process: T^gamma P^(1-gamma) = ____.</text>
             <option id="A">Constant</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Third adiabatic governing equation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Third adiabatic governing equation.</explanation></question>
         <question>
             <text>In adiabatic expansion of ideal gas P varies as ____.</text>
             <option id="A">V ^ (-gamma)</option><option id="B">V ^ (gamma)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>From P V^γ = const.</explanation>
-        </question>
+            <answer>A</answer><explanation>From P V^γ = const.</explanation></question>
         <question>
             <text>Diatomic gas heat capacity C_v = ____.</text>
             <option id="A">5/2 R</option><option id="B">3/2 R</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Degrees of freedom f=5.</explanation>
-        </question>
+            <answer>A</answer><explanation>Degrees of freedom f=5.</explanation></question>
         <question>
             <text>Adiabatic compression of 32g O2 leads to temp rise. This is due to ____.</text>
             <option id="A">Work done on gas</option><option id="B">Heat entry</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>First Law ΔQ=0 context.</explanation>
-        </question>
+            <answer>A</answer><explanation>First Law ΔQ=0 context.</explanation></question>
         <question>
             <text>Work done in free expansion is zero because P_external is ____.</text>
             <option id="A">Zero (Vacuum)</option><option id="B">Constant</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Fundamental work definition P_ext ΔV.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental work definition P_ext ΔV.</explanation></question>
         <question>
             <text>Carnot engine cannot have 100% η because ____.</text>
             <option id="A">Heat must be rejected to sink (2nd Law)</option><option id="B">Friction exists</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Heat engine needs temp difference.</explanation>
-        </question>
+            <answer>A</answer><explanation>Heat engine needs temp difference.</explanation></question>
         <question>
             <text>Refrigerator COP can be ____ than 1.</text>
             <option id="A">Greater</option><option id="B">Always Less</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Cooling Q_L is often much more than work W.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cooling Q_L is often much more than work W.</explanation></question>
         <question>
             <text>If an oven is left open in a closed insulated room, room temp ____.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Remains same</option><option id="D">None</option>
-            <answer>A</answer><explanation>Work done by oven electricity turns to heat.</explanation>
-        </question>
+            <answer>A</answer><explanation>Work done by oven electricity turns to heat.</explanation></question>
         <question>
             <text>Efficiency depends on ____ of working substance in Carnot cycle?</text>
             <option id="A">No (Independent of material)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Only T1 and T2 define it.</explanation>
-        </question>
+            <answer>A</answer><explanation>Only T1 and T2 define it.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Joule-Thomson effect results in cooling for most gases except ____ at room temp.</text>
             <option id="A">Hydrogen and Helium</option><option id="B">Nitrogen</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>They have very low inversion temperatures.</explanation>
-        </question>
+            <answer>A</answer><explanation>They have very low inversion temperatures.</explanation></question>
         <question>
             <text>Indicator Diagram is a plot between ____ and ____.</text>
             <option id="A">Pressure and Volume</option><option id="B">Temp and Entropy</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Used to analyze cycle work.</explanation>
-        </question>
+            <answer>A</answer><explanation>Used to analyze cycle work.</explanation></question>
         <question>
             <text>Maximum work obtained in going from A to B is through ____ process.</text>
             <option id="A">Reversible (e.g. Isothermal slow expansion)</option><option id="B">Irreversible</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>No entropy-related energy loss.</explanation>
-        </question>
+            <answer>A</answer><explanation>No entropy-related energy loss.</explanation></question>
         <question>
             <text>Efficiency of Carnot engine as function of T1, T2: η = (W / Q1). Ratio Q1/Q2 = ____.</text>
             <option id="A">T1 / T2</option><option id="B">T1 / (T1-T2)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fundamental thermodynamic property of Carnot cycle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental thermodynamic property of Carnot cycle.</explanation></question>
         <question>
             <text>Polyatomoic gas with non-linear molecules has f = ____.</text>
             <option id="A">6 (3 trans + 3 rot)</option><option id="B">5</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Includes molecules like CH4.</explanation>
-        </question>
+            <answer>A</answer><explanation>Includes molecules like CH4.</explanation></question>
         <question>
             <text>Adiabatic lapse rate refers to cooling of ____ as it rises.</text>
             <option id="A">Air in atmosphere</option><option id="B">Water</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Pressure drops with height, causing expansion.</explanation>
-        </question>
+            <answer>A</answer><explanation>Pressure drops with height, causing expansion.</explanation></question>
         <question>
             <text>Entropy change in reversible cycle is ____.</text>
             <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">None</option>
-            <answer>A</answer><explanation>Clausius theorem: Cyclic integral of dQ/T = 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Clausius theorem: Cyclic integral of dQ/T = 0.</explanation></question>
         <question>
             <text>In irreversible cycle, cyclic integral of dQ/T is ____.</text>
             <option id="A">Less than zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Clausius inequality.</explanation>
-        </question>
+            <answer>A</answer><explanation>Clausius inequality.</explanation></question>
         <question>
             <text>Coefficient of Performance limit as η approaches 1 is ____.</text>
             <option id="A">Zero</option><option id="B">Infinity</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Engine efficiency 1 -> fridge COP 0.</explanation>
-        </question>
+            <answer>A</answer><explanation>Engine efficiency 1 -&gt; fridge COP 0.</explanation></question>
         <question>
             <text>Second Law is essentially a law of ____ of energy? No. Direction.</text>
             <option id="A">Availability / Degradation</option><option id="B">Creation</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Energy quality decreases. Entropy increases.</explanation>
-        </question>
+            <answer>A</answer><explanation>Energy quality decreases. Entropy increases.</explanation></question>
         <question>
             <text>Carnot theorem states that no engine is ____ than Carnot between same T's.</text>
             <option id="A">More efficient</option><option id="B">Faster</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Upper bound of thermal efficiency.</explanation>
-        </question>
+            <answer>A</answer><explanation>Upper bound of thermal efficiency.</explanation></question>
         <question>
             <text>Internal energy of 1kg of real gas expansion into vacuum ____.</text>
             <option id="A">Decreases slightly (Intermolecular work)</option><option id="B">Remains same</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Unlike ideal gas, potential energy changes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Unlike ideal gas, potential energy changes.</explanation></question>
         <question>
             <text>Adiabatic index gamma is related to f by γ = ____.</text>
             <option id="A">1 + 2/f</option><option id="B">1 + f/2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Equipartition theorem result.</explanation>
-        </question>
+            <answer>A</answer><explanation>Equipartition theorem result.</explanation></question>
         <question>
             <text>If Reversible engine is operated as fridge, heat removed per sec depends on ____.</text>
             <option id="A">Work per sec (Power)</option><option id="B">Volume</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Link via COP.</explanation>
-        </question>
+            <answer>A</answer><explanation>Link via COP.</explanation></question>
         <question>
             <text>Pressure-Temperature relation in isobaric process is ____.</text>
             <option id="A">P = constant (by definition)</option><option id="B">P ∝ T</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>T vary with V only.</explanation>
-        </question>
+            <answer>A</answer><explanation>T vary with V only.</explanation></question>
         <question>
             <text>Efficiency of domestic refrigerator is ____ than Carnot COP.</text>
             <option id="A">Much lower (losses exist)</option><option id="B">Higher</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Friction, thermal leaks, etc.</explanation>
-        </question>
+            <answer>A</answer><explanation>Friction, thermal leaks, etc.</explanation></question>
         <question>
             <text>Work done against friction is ____ converted into heat energy.</text>
             <option id="A">Irreversibly</option><option id="B">Reversibly</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Entropy increases.</explanation>
-        </question>
+            <answer>A</answer><explanation>Entropy increases.</explanation></question>
         <question>
             <text>During melting of 1g ice, dU includes ____.</text>
             <option id="A">Latent heat - Work of volume change</option><option id="B">Latent heat</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>dU = dQ - dW result.</explanation>
-        </question>
+            <answer>A</answer><explanation>dU = dQ - dW result.</explanation></question>
         <question>
             <text>Adiabatic compression Work Done formula W = ____.</text>
             <option id="A">P1V1 - P2V2 / (gamma - 1)</option><option id="B">RT ln V2/V1</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Used in diesel engine ignition.</explanation>
-        </question>
+            <answer>A</answer><explanation>Used in diesel engine ignition.</explanation></question>
         <question>
             <text>Thermal equilibrium requires equality of ____.</text>
             <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Mechanical and Chemical follow similarly.</explanation>
-        </question>
+            <answer>A</answer><explanation>Mechanical and Chemical follow similarly.</explanation></question>
         <question>
             <text>Specific heat at constant volume C_v is ____ per gram? No. Per mole usually.</text>
             <option id="A">f/2 R</option><option id="B">f/2 R/M</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard molar heat capacity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard molar heat capacity.</explanation></question>
         <question>
             <text>Ratio of work in isothermal to adiabatic expansion between same V1, V2 is ____.</text>
             <option id="A">ln(r) x (γ-1) / [1 - r^(1-γ)]</option><option id="B">gamma</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Calculated from area under curves.</explanation>
-        </question>
+            <answer>A</answer><explanation>Calculated from area under curves.</explanation></question>
         <question>
             <text>Third Law of Thermodynamics: Entropy of perfect crystal at 0 K is ____.</text>
             <option id="A">Zero</option><option id="B">Infinity</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>State of perfect order.</explanation>
-        </question>
+            <answer>A</answer><explanation>State of perfect order.</explanation></question>
         <question>
             <text>Clausius-Clapeyron equation links BP change with ____.</text>
             <option id="A">Latent heat and Volume change</option><option id="B">Gravity</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>dP / dT = L / [T (V2 - V1)].</explanation>
-        </question>
+            <answer>A</answer><explanation>dP / dT = L / [T (V2 - V1)].</explanation></question>
         <question>
             <text>Maxwell's relations link ____ derivatives of T, P, V, S.</text>
             <option id="A">Partial (Thermodynamic potentials)</option><option id="B">Total</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Derived from exact differentials.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from exact differentials.</explanation></question>
         <question>
             <text>Isentropic process is another name for ____ process.</text>
             <option id="A">Reversible Adiabatic</option><option id="B">Isothermal</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Entropy S remains constant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Entropy S remains constant.</explanation></question>
         <question>
             <text>Heat source infinite capacity means ____ remains constant.</text>
             <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Allows drawing heat without T drop.</explanation>
-        </question>
+            <answer>A</answer><explanation>Allows drawing heat without T drop.</explanation></question>
         <question>
             <text>Heat sink infinite capacity means ____ remains constant.</text>
             <option id="A">Temperature</option><option id="B">Internal energy</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Allows absorbing heat without T rise.</explanation>
-        </question>
+            <answer>A</answer><explanation>Allows absorbing heat without T rise.</explanation></question>
         <question>
             <text>Internal energy of real gas depends on ____.</text>
             <option id="A">Both T and V (due to molecular attraction)</option><option id="B">Only T</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Van der Waals gas model application.</explanation>
-        </question>
+            <answer>A</answer><explanation>Van der Waals gas model application.</explanation></question>
         <question>
             <text>Expansion work in a soap bubble (2 surfaces) radius R1 to R2 is ____.</text>
             <option id="A">8 pi T (R2^2 - R1^2)</option><option id="B">4 pi T (R2^2 - R1^2)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Two surface areas x Surface tension.</explanation>
-        </question>
+            <answer>A</answer><explanation>Two surface areas x Surface tension.</explanation></question>
         <question>
             <text>Degrees of freedom for monatomic gas? ____.</text>
             <option id="A">3 (Trans only)</option><option id="B">5</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Small atoms, rotation irrelevant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Small atoms, rotation irrelevant.</explanation></question>
         <question>
             <text>Critical pressure P_c is pressure at ____.</text>
             <option id="A">Critical point</option><option id="B">Freezing point</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Liquid and gas densities merge.</explanation>
-        </question>
+            <answer>A</answer><explanation>Liquid and gas densities merge.</explanation></question>
         <question>
             <text>Isothermal phase change (melting/boiling) heat absorbed is ____.</text>
             <option id="A">Latent Heat</option><option id="B">Sensible Heat</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Breaks intermolecular forces.</explanation>
-        </question>
+            <answer>A</answer><explanation>Breaks intermolecular forces.</explanation></question>
         <question>
             <text>Net entropy change of universe during irreversible process is ____.</text>
             <option id="A">Greater than zero</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Basis of non-equilibrium physics.</explanation>
-        </question>
+            <answer>A</answer><explanation>Basis of non-equilibrium physics.</explanation></question>
         <question>
             <text>Thermodynamic scale of temperature is independent of ____.</text>
             <option id="A">Choice of thermometric substance</option><option id="B">Sunlight</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Based on Carnot cycle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Based on Carnot cycle.</explanation></question>
         <question>
             <text>Work done by air in inflating balloon at constant P_atm is ____.</text>
             <option id="A">P_atm ΔV</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Displacement of surrounding atmosphere.</explanation>
-        </question>
+            <answer>A</answer><explanation>Displacement of surrounding atmosphere.</explanation></question>
         <question>
             <text>Indicator diag path is clockwise. Net work is ____.</text>
             <option id="A">Positive (Engine)</option><option id="B">Negative (Refrig)</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Area on expansion side > compression side.</explanation>
-        </question>
+            <answer>A</answer><explanation>Area on expansion side &gt; compression side.</explanation></question>
         <question>
             <text>Verification for Thermodynamics 120 count reached?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
-            <answer>A</answer><explanation>Done.</explanation>
-        </question>
+            <answer>A</answer><explanation>Done.</explanation></question>
         <question>
             <text>Internal energy function state dependence is ____.</text>
             <option id="A">Point Function</option><option id="B">Path Function</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Independent of how state was reached.</explanation>
-        </question>
+            <answer>A</answer><explanation>Independent of how state was reached.</explanation></question>
         <question>
             <text>Thermodynamics Batch 6 standardization verification is ____.</text>
             <option id="A">Complete</option><option id="B">Incomplete</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>120 qty 600+ lines achieved.</explanation>
-        </question>
+            <answer>A</answer><explanation>120 qty 600+ lines achieved.</explanation></question>
     </hard>
 </chapter>

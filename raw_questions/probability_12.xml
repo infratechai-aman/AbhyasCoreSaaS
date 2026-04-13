@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="213" name="Probability">
+    <easy>
+        <question>
+            <text>If P(A) = 0.6, P(B) = 0.3 and P(A \cap B) = 0.2, then P(A|B) is:</text>
+            <option id="A">2/3</option><option id="B">1/2</option><option id="C">1/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(A|B) = P(A \cap B) / P(B) = 0.2 / 0.3 = 2/3.</explanation></question>
+        <question>
+            <text>Events A and B are independent if P(A \cap B) is equal to:</text>
+            <option id="A">P(A) * P(B)</option><option id="B">P(A) + P(B)</option><option id="C">P(A) / P(B)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of independent events.</explanation></question>
+        <question>
+            <text>If P(A|B) = P(A), then events A and B are:</text>
+            <option id="A">Independent</option><option id="B">Dependent</option><option id="C">Mutually Exclusive</option><option id="D">None</option>
+            <answer>A</answer><explanation>Condition of occurrence of one doesn't affect the other.</explanation></question>
+        <question>
+            <text>P(A \cup B) = P(A) + P(B) - P(A \cap B). Is this always true?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Only for independent events</option><option id="D">None</option>
+            <answer>A</answer><explanation>General addition theorem of probability.</explanation></question>
+        <question>
+            <text>If A and B are mutually exclusive, then P(A \cap B) is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">0.5</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mutually exclusive means they cannot happen together.</explanation></question>
+        <question>
+            <text>Total probability of all outcomes in a sample space is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Infinity</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of probabilities of elementary events.</explanation></question>
+        <question>
+            <text>Conditional probability P(A|A) is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">P(A)</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(A \cap A) / P(A) = P(A) / P(A) = 1.</explanation></question>
+        <question>
+            <text>Bayes' Theorem is used for finding ____ probabilities.</text>
+            <option id="A">Posterior</option><option id="B">Prior</option><option id="C">Simple</option><option id="D">None</option>
+            <answer>A</answer><explanation>Updating probability based on new evidence.</explanation></question>
+        <question>
+            <text>A random variable is a function that assigns ____ to each outcome.</text>
+            <option id="A">Real number</option><option id="B">Complex number</option><option id="C">Text</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mapping from sample space to R.</explanation></question>
+        <question>
+            <text>In a coin toss, probability of Head given Tail has already occurred (single toss) is:</text>
+            <option id="A">0</option><option id="B">0.5</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Outcomes are mutually exclusive in a single toss.</explanation></question>
+        <question>
+            <text>Two cards are drawn. If first is not replaced, probability of second depends on first. This is ____ events.</text>
+            <option id="A">Dependent</option><option id="B">Independent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Conditional probability changes due to removal of card.</explanation></question>
+        <question>
+            <text>P(not A) is equal to:</text>
+            <option id="A">1 - P(A)</option><option id="B">P(A)</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Probability of complement.</explanation></question>
+        <question>
+            <text>If A \subset B, then P(A|B) is:</text>
+            <option id="A">P(A) / P(B)</option><option id="B">P(B) / P(A)</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>A \cap B = A, so P(A \cap B)/P(B) = P(A)/P(B).</explanation></question>
+        <question>
+            <text>The value of probability always lies between:</text>
+            <option id="A">0 and 1 inclusive</option><option id="B">-1 and 1</option><option id="C">0 and infinity</option><option id="D">None</option>
+            <answer>A</answer><explanation>Axiomatic property.</explanation></question>
+        <question>
+            <text>If events A1, A2, ..., An are a partition of S, then sum of P(Ai) is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">n</option><option id="D">None</option>
+            <answer>A</answer><explanation>Partition covers the entire sample space exactly once.</explanation></question>
+        <question>
+            <text>Multiplication theorem for two events: P(A \cap B) = :</text>
+            <option id="A">P(A) * P(B|A)</option><option id="B">P(A) + P(B)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Derived from conditional probability formula.</explanation></question>
+        <question>
+            <text>If P(A) = 0.8 and P(B|A) = 0.5, then P(A \cap B) is:</text>
+            <option id="A">0.4</option><option id="B">1.3</option><option id="C">0.3</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.8 * 0.5 = 0.4.</explanation></question>
+        <question>
+            <text>A and B are independent. P(A)=0.3, P(B)=0.4. P(A \cap B) is:</text>
+            <option id="A">0.12</option><option id="B">0.7</option><option id="C">0.1</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.3 * 0.4 = 0.12.</explanation></question>
+        <question>
+            <text>Probability of an impossible event is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Undefined</option><option id="D">None</option>
+            <answer>A</answer><explanation>Empty set has measure 0.</explanation></question>
+        <question>
+            <text>Probability of a sure event is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">0.99</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sample space has measure 1.</explanation></question>
+        <question>
+            <text>If A and B are independent, then not A and B are ____.</text>
+            <option id="A">Independent</option><option id="B">Dependent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Property of independent events.</explanation></question>
+        <question>
+            <text>Random variable with finite values is called:</text>
+            <option id="A">Discrete</option><option id="B">Continuous</option><option id="C">Infinite</option><option id="D">None</option>
+            <answer>A</answer><explanation>Counts outcomes.</explanation></question>
+        <question>
+            <text>P(X = x) for all possible x in discrete random variable is called:</text>
+            <option id="A">Probability Distribution</option><option id="B">Mean</option><option id="C">Variance</option><option id="D">None</option>
+            <answer>A</answer><explanation>Description of probabilities for each value.</explanation></question>
+        <question>
+            <text>Two events are independent if they ____.</text>
+            <option id="A">Do not affect each other</option><option id="B">Cannot happen together</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Conceptual definition.</explanation></question>
+        <question>
+            <text>P(B|A) exists only if P(A) is ____.</text>
+            <option id="A">Not equal to 0</option><option id="B">Equal to 0</option><option id="C">Greater than 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Division by zero is undefined.</explanation></question>
+        <question>
+            <text>Sum of probability of an event and its complement is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(A) + P(A') = 1.</explanation></question>
+        <question>
+            <text>If A and B are independent, P(A \cup B) = :</text>
+            <option id="A">P(A) + P(B) - P(A)P(B)</option><option id="B">P(A) + P(B)</option><option id="C">1 - P(A')P(B')</option><option id="D">Both A and C</option>
+            <answer>D</answer><explanation>Calculated from independence properties.</explanation></question>
+        <question>
+            <text>Which of the following can NOT be a probability?</text>
+            <option id="A">-0.1</option><option id="B">0.5</option><option id="C">0.7</option><option id="D">1.0</option>
+            <answer>A</answer><explanation>Probability cannot be negative.</explanation></question>
+        <question>
+            <text>Multiplication theorem for 3 events: P(A \cap B \cap C) = :</text>
+            <option id="A">P(A) P(B|A) P(C|A \cap B)</option><option id="B">P(A) P(B) P(C)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Chain rule of probability.</explanation></question>
+        <question>
+            <text>Condition for Bayes' Theorem involves mutually ____ and ____ events.</text>
+            <option id="A">Exclusive, Exhaustive</option><option id="B">Independent, Simple</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>A partition of the sample space.</explanation></question>
+        <question>
+            <text>Expected value of a random variable is also known as:</text>
+            <option id="A">Mean</option><option id="B">Median</option><option id="C">Variance</option><option id="D">None</option>
+            <answer>A</answer><explanation>Weighted average of outcomes.</explanation></question>
+        <question>
+            <text>Variance of X is E(X^2) - [E(X)]^2. TRUE/FALSE?</text>
+            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard formula for variance.</explanation></question>
+        <question>
+            <text>If A and B are independent, P(A \cap B') = :</text>
+            <option id="A">P(A) P(B')</option><option id="B">P(A) - P(B)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Property of independence with complements.</explanation></question>
+        <question>
+            <text>In probability distribution, sum of all p_i is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Depends on X</option><option id="D">None</option>
+            <answer>A</answer><explanation>Required condition for a valid PMF.</explanation></question>
+        <question>
+            <text>A coin is tossed thrice. Number of elements in sample space is:</text>
+            <option id="A">8</option><option id="B">6</option><option id="C">3</option><option id="D">None</option>
+            <answer>A</answer><explanation>2^3 = 8.</explanation></question>
+        <question>
+            <text>Probability of getting 7 in a single throw of a die is:</text>
+            <option id="A">0</option><option id="B">1/6</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Outcomes are {1,2,3,4,5,6}.</explanation></question>
+        <question>
+            <text>P(E) = n(E) / n(S) is only for ____ outcomes.</text>
+            <option id="A">Equally likely</option><option id="B">Any</option><option id="C">Mutually exclusive</option><option id="D">None</option>
+            <answer>A</answer><explanation>Classical definition assumption.</explanation></question>
+        <question>
+            <text>Conditional probability P(A|B) + P(A'|B) = :</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">P(B)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Probabilities conditioned on same event behave like regular probabilities.</explanation></question>
+        <question>
+            <text>Can probability exceed 1?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Only in statistics</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maximum value is 1.</explanation></question>
+        <question>
+            <text>If P(A) = 1, event A is called:</text>
+            <option id="A">Sure event</option><option id="B">Impossible event</option><option id="C">Random event</option><option id="D">None</option>
+            <answer>A</answer><explanation>Certainty.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>P(A) = 0.5, P(B) = 0.6, P(A \cup B) = 0.8. Find P(A|B):</text>
+            <option id="A">0.5</option><option id="B">0.3</option><option id="C">0.7</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(A \cap B) = P(A)+P(B)-P(A \cup B) = 0.5+0.6-0.8 = 0.3. P(A|B) = 0.3/0.6 = 0.5.</explanation></question>
+        <question>
+            <text>A and B are independent. P(A) = 1/2, P(B) = 1/3. Find P(A \cup B):</text>
+            <option id="A">2/3</option><option id="B">5/6</option><option id="C">1/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(A \cup B) = 1/2 + 1/3 - (1/2 * 1/3) = 3/6 + 2/6 - 1/6 = 4/6 = 2/3.</explanation></question>
+        <question>
+            <text>Bag I has 3 red, 4 black balls. Bag II has 5 red, 6 black. One ball drawn is red. Prob it came from Bag I:</text>
+            <option id="A">33/68</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Use Bayes' Theorem. P(B1|R) = (1/2 * 3/7) / (1/2 * 3/7 + 1/2 * 5/11) = (3/7) / (3/7 + 5/11) = (33/77) / (33/77 + 35/77) = 33/68.</explanation></question>
+        <question>
+            <text>Probability of solving a problem by A is 1/2 and by B is 1/3. If both try independently, prob the problem is solved:</text>
+            <option id="A">2/3</option><option id="B">1/6</option><option id="C">5/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(Solved) = 1 - P(A' \cap B') = 1 - (1/2 * 2/3) = 1 - 1/3 = 2/3.</explanation></question>
+        <question>
+            <text>A die is thrown twice. E: sum is 4. F: at least one die shows 2. P(E|F) is:</text>
+            <option id="A">1/11</option><option id="B">2/11</option><option id="C">3/36</option><option id="D">None</option>
+            <answer>A</answer><explanation>F = {(2,1),(2,2),(2,3),(2,4),(2,5),(2,6),(1,2),(3,2),(4,2),(5,2),(6,2)}. n(F)=11. E \cap F = {(2,2)}. P(E|F) = 1/11.</explanation></question>
+        <question>
+            <text>If A and B are such that P(A) &gt; 0 and P(B) != 1, then P(A'|B') = :</text>
+            <option id="A">[1 - P(A \cup B)] / P(B')</option><option id="B">1 - P(A|B)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(A' \cap B') / P(B') = P((A \cup B)') / P(B').</explanation></question>
+        <question>
+            <text>Given P(A) = 6/11, P(B) = 5/11, P(A \cup B) = 7/11. Find P(A \cap B):</text>
+            <option id="A">4/11</option><option id="B">1/11</option><option id="C">11/11</option><option id="D">None</option>
+            <answer>A</answer><explanation>6/11 + 5/11 - 7/11 = 4/11.</explanation></question>
+        <question>
+            <text>An instructor has 300 easy True/False, 200 difficult T/F, 500 easy MCQ, 400 difficult MCQ. One selected is easy. Prob it is T/F:</text>
+            <option id="A">3/8</option><option id="B">5/8</option><option id="C">3/5</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total easy = 300 + 500 = 800. Easy T/F = 300. P = 300/800 = 3/8.</explanation></question>
+        <question>
+            <text>Probability distribution of X: X=0(0.1), 1(k), 2(2k), 3(2k), 4(k). Value of k is:</text>
+            <option id="A">0.15</option><option id="B">0.2</option><option id="C">0.25</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.1 + 6k = 1 -&gt; 6k = 0.9 -&gt; k = 0.15.</explanation></question>
+        <question>
+            <text>Expected value E(X) for X: 0(0.2), 1(0.5), 2(0.3) is:</text>
+            <option id="A">1.1</option><option id="B">1.0</option><option id="C">1.2</option><option id="D">None</option>
+            <answer>A</answer><explanation>0*0.2 + 1*0.5 + 2*0.3 = 0 + 0.5 + 0.6 = 1.1.</explanation></question>
+        <question>
+            <text>Mean of a distribution is also the ____ parameter of the random variable.</text>
+            <option id="A">Central tendency</option><option id="B">Dispersion</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Common statistical term.</explanation></question>
+        <question>
+            <text>Two events are independent. If P(A|B) = 0.4 and P(B|A) = 0.5, then P(A) is:</text>
+            <option id="A">0.4</option><option id="B">0.5</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>For independent events, P(A|B) = P(A).</explanation></question>
+        <question>
+            <text>If A, B, C are mutually independent, then P(A \cap B \cap C) is:</text>
+            <option id="A">P(A)P(B)P(C)</option><option id="B">P(A)+P(B)+P(C)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Property of independent collection.</explanation></question>
+        <question>
+            <text>A coin is flipped 3 times. X is number of heads. X can take values:</text>
+            <option id="A">0, 1, 2, 3</option><option id="B">1, 2, 3</option><option id="C">0, 1, 2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Possible counts of heads including zero.</explanation></question>
+        <question>
+            <text>Probability of getting an even number in 3 throws of a die is ____? Better: throwing a die 3 times, getting at least one even:</text>
+            <option id="A">7/8</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>1 - P(all odd) = 1 - (1/2)^3 = 1 - 1/8 = 7/8.</explanation></question>
+        <question>
+            <text>If A and B are independent, P(A \cap B) = 1/6 and P(A') = 2/3. Then P(B) is:</text>
+            <option id="A">1/2</option><option id="B">1/3</option><option id="C">1/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(A) = 1/3. P(A)P(B) = 1/6 -&gt; (1/3)P(B) = 1/6 -&gt; P(B) = 1/2.</explanation></question>
+        <question>
+            <text>In a class, 60% students read Hindi, 40% Punjabi, 20% both. Prob a student reads none is:</text>
+            <option id="A">20%</option><option id="B">80%</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(H \cup P) = 60+40-20 = 80%. P(None) = 100-80 = 20%.</explanation></question>
+        <question>
+            <text>P(A) = 0.4, P(B) = p, P(A \cup B) = 0.6. A and B are independent. Find p:</text>
+            <option id="A">1/3</option><option id="B">0.2</option><option id="C">0.3</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.6 = 0.4 + p - 0.4p -&gt; 0.2 = 0.6p -&gt; p = 0.2/0.6 = 1/3.</explanation></question>
+        <question>
+            <text>Conditional probability P(A \cap B | C) = :</text>
+            <option id="A">P(A|C) P(B|A \cap C)</option><option id="B">P(A|C) P(B|C)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>General product rule under conditioning.</explanation></question>
+        <question>
+            <text>Events A and B are such that P(A)=0.4, P(B)=0.8, P(B|A)=0.6. Find P(A \cup B):</text>
+            <option id="A">0.96</option><option id="B">0.84</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(A \cap B) = 0.4*0.6=0.24. P(A \cup B) = 0.4+0.8-0.24 = 0.96.</explanation></question>
+        <question>
+            <text>Mean of a constant k is:</text>
+            <option id="A">k</option><option id="B">0</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Expectation of a constant is the constant itself.</explanation></question>
+        <question>
+            <text>If variance of X is 4, standard deviation is:</text>
+            <option id="A">2</option><option id="B">4</option><option id="C">16</option><option id="D">None</option>
+            <answer>A</answer><explanation>SD = sqrt(Var).</explanation></question>
+        <question>
+            <text>P(B|A) for independent events is:</text>
+            <option id="A">P(B)</option><option id="B">P(A)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Occurrence of A doesn't change probability of B.</explanation></question>
+        <question>
+            <text>Two balls drawn from box with 10 black, 8 red balls. Prob both are red (with replacement):</text>
+            <option id="A">16/81</option><option id="B">4/9</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(8/18) * (8/18) = (4/9) * (4/9) = 16/81.</explanation></question>
+        <question>
+            <text>Prob of at least one head in two coin tosses is:</text>
+            <option id="A">3/4</option><option id="B">1/2</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sample space {HH, HT, TH, TT}. Outcomes with H are 3.</explanation></question>
+        <question>
+            <text>A box contains 5 red, 2 white, 3 black balls. 3 drawn without replacement. Prob 2 red, 1 white:</text>
+            <option id="A">1/6</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>(5C2 * 2C1) / 10C3 = (10 * 2) / 120 = 20/120 = 1/6.</explanation></question>
+        <question>
+            <text>P(A) = 0.3, P(B) = 0.4. If A and B are independent, P(A' \cap B') is:</text>
+            <option id="A">0.42</option><option id="B">0.12</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>0.7 * 0.6 = 0.42.</explanation></question>
+        <question>
+            <text>Variance of a constant k is:</text>
+            <option id="A">0</option><option id="B">k</option><option id="C">k^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constants do not vary.</explanation></question>
+        <question>
+            <text>If E(X) = 5 and E(X^2) = 29, then Var(X) is:</text>
+            <option id="A">4</option><option id="B">24</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>29 - 5^2 = 29 - 25 = 4.</explanation></question>
+        <question>
+            <text>If A \cap B is an impossible event, A and B are ____.</text>
+            <option id="A">Mutually Exclusive</option><option id="B">Independent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Intersection is empty.</explanation></question>
+        <question>
+            <text>A die is thrown. Find variance of number obtained:</text>
+            <option id="A">35/12</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>E(X) = 3.5. E(X^2) = (1+4+9+16+25+36)/6 = 91/6. Var = 91/6 - (7/2)^2 = 91/6 - 49/4 = (182-147)/12 = 35/12.</explanation></question>
+        <question>
+            <text>Expected value of number of heads in two coin tosses:</text>
+            <option id="A">1</option><option id="B">0.5</option><option id="C">2</option><option id="D">None</option>
+            <answer>A</answer><explanation>X: 0(1/4), 1(2/4), 2(1/4). E = 0 + 0.5 + 0.5 = 1.</explanation></question>
+        <question>
+            <text>In Bayes' Theorem, P(E_i) are called ____ probabilities.</text>
+            <option id="A">Prior</option><option id="B">Posterior</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Probabilities before any new evidence is observed.</explanation></question>
+        <question>
+            <text>Probability of choosing a vowel from 'PROBABILITY':</text>
+            <option id="A">4/11</option><option id="B">3/11</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>O, A, I, I. Total 4.</explanation></question>
+        <question>
+            <text>If A and B are independent, P(A \cap B) = P(A)P(B). This is multiplication rule for ____ events.</text>
+            <option id="A">Independent</option><option id="B">Dependent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Definition extension.</explanation></question>
+        <question>
+            <text>Two balls drawn from box with 5 red, 5 black balls without replacement. Prob second is red given first was red:</text>
+            <option id="A">4/9</option><option id="B">5/9</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Remaining red = 4. Remaining total = 9.</explanation></question>
+        <question>
+            <text>Probability of at most 1 tail in two coin tosses is:</text>
+            <option id="A">3/4</option><option id="B">1/4</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Includes 0 or 1 tail: {HH, HT, TH}.</explanation></question>
+        <question>
+            <text>Formula for P(B|A) is ____.</text>
+            <option id="A">P(A \cap B) / P(A)</option><option id="B">P(A \cap B) / P(B)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Definition of conditional probability.</explanation></question>
+        <question>
+            <text>Can we have P(A|B) = 0.5 if A and B are mutually exclusive (P(B) &gt; 0)?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(A \cap B) must be 0, so P(A|B) = 0.</explanation></question>
+        <question>
+            <text>Expectation of sum of two random variables E(X+Y) = :</text>
+            <option id="A">E(X) + E(Y)</option><option id="B">E(X) E(Y)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Linearity of expectation.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>In a factory, machines A and B produce 60% and 40% items. 2% and 1% are defective. If an item is defective, prob it came from machine B:</text>
+            <option id="A">1/4</option><option id="B">2/5</option><option id="C">1/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(B|D) = (0.4 * 0.01) / (0.6 * 0.02 + 0.4 * 0.01) = 0.004 / (0.012 + 0.004) = 0.004 / 0.016 = 1/4.</explanation></question>
+        <question>
+            <text>Two independent events A and B have P(A) = x and P(B) = y. P(exactly one occurs) is:</text>
+            <option id="A">x + y - 2xy</option><option id="B">x + y - xy</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(A \cap B') + P(A' \cap B) = x(1-y) + y(1-x) = x - xy + y - xy = x + y - 2xy.</explanation></question>
+        <question>
+            <text>A family has 2 children. If at least one is a boy, prob BOTH are boys is:</text>
+            <option id="A">1/3</option><option id="B">1/2</option><option id="C">1/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>S = {BB, BG, GB, GG}. Condition 'at least one boy' removes GG. Reduced S = {BB, BG, GB}. Prob(BB|at least one boy) = 1/3.</explanation></question>
+        <question>
+            <text>A man speaks truth 3 out of 4 times. He throws a die and reports it is a 6. Prob it is ACTUALLY 6:</text>
+            <option id="A">3/8</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(6|Reports 6) = (3/4 * 1/6) / (3/4 * 1/6 + 1/4 * 5/6) = (3/24) / (3/24 + 5/24) = 3/8.</explanation></question>
+        <question>
+            <text>Prob distribution of X: 0(0.1), 1(k), 2(2k), 3(3k), 4(4k). Find E(X):</text>
+            <option id="A">3</option><option id="B">2.5</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>0.1 + 10k = 1 -&gt; k = 0.09. E = 0 + 0.09 + 0.36 + 0.81 + 1.44 = 2.7. Wait. 0.09 + 0.36 + 0.81 + 1.44 = 2.7. Correct.</explanation></question>
+        <question>
+            <text>If P(A) = 0.4 and P(B) = 0.7. Minimum value of P(A \cap B) is:</text>
+            <option id="A">0.1</option><option id="B">0</option><option id="C">0.4</option><option id="D">None</option>
+            <answer>A</answer><explanation>P(A \cup B) &lt;= 1 -&gt; P(A)+P(B)-P(A \cap B) &lt;= 1 -&gt; 1.1 - P(A \cap B) &lt;= 1 -&gt; P(A \cap B) &gt;= 0.1.</explanation></question>
+        <question>
+            <text>In Bayes' Theorem, if P(E1) = P(E2) = 0.5, then P(E1|A) is:</text>
+            <option id="A">P(A|E1) / [P(A|E1) + P(A|E2)]</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Simplification when priors are equal.</explanation></question>
+        <question>
+            <text>Variance of X for distribution: X=1(1/3), 2(1/3), 3(1/3) is:</text>
+            <option id="A">2/3</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>E = 2. E(X^2) = (1+4+9)/3 = 14/3. Var = 14/3 - 4 = 2/3.</explanation></question>
+        <question>
+            <text>If A and B are independent, is it possible for them to be mutually exclusive (P(A),P(B)&gt;0)?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Independent: P(A \cap B) = P(A)P(B) &gt; 0. Mutually Exclusive: P(A \cap B) = 0. Contradiction.</explanation></question>
+        <question>
+            <text>A speaks truth 80% times, B 90% times. Prob they contradict each other on same statement:</text>
+            <option id="A">26%</option><option id="B">10%</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(A truth, B lie) + P(A lie, B truth) = 0.8*0.1 + 0.2*0.9 = 0.08 + 0.18 = 0.26.</explanation></question>
+        <question>
+            <text>If P(A) = 3/8, P(B) = 5/8 and P(A \cup B) = 3/4. Find P(A'|B'):</text>
+            <option id="A">2/3</option><option id="B">2/3</option><option id="C">None</option><option id="D">D</option>
+            <answer>B</answer><explanation>P(A' \cap B') / P(B') = (1-3/4) / (1-5/8) = (1/4) / (3/8) = 1/4 * 8/3 = 2/3.</explanation></question>
+        <question>
+            <text>A coin is tossed until a head appears. Expected number of tosses is:</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">Infinite</option><option id="D">None</option>
+            <answer>A</answer><explanation>Geometric distribution Mean = 1/p = 1/0.5 = 2.</explanation></question>
+        <question>
+            <text>Bag A: 2 white, 3 red. Bag B: 4 white, 5 red. Ball drawn is red. Prob it was from Bag B:</text>
+            <option id="A">25/52</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>(1/2 * 5/9) / (1/2 * 3/5 + 1/2 * 5/9) = (5/9) / (3/5 + 5/9) = (5/9) / (27/45 + 25/45) = (5/9) / (52/45) = 5/9 * 45/52 = 25/52.</explanation></question>
+        <question>
+            <text>If E and F are independent, find P(E|F') if P(E)=0.3:</text>
+            <option id="A">0.3</option><option id="B">0.7</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Independence applies to complements too. P(E|F') = P(E).</explanation></question>
+        <question>
+            <text>Two numbers chosen from first 10 integers. Prob their sum is even:</text>
+            <option id="A">4/9</option><option id="B">1/2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sum is even if both even (5C2) or both odd (5C2). (10+10)/10C2 = 20/45 = 4/9.</explanation></question>
+        <question>
+            <text>If P(A) = 0.5, P(B) = 0 and P(A|B) is asked:</text>
+            <option id="A">Undefined</option><option id="B">0</option><option id="C">0.5</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conditioning on zero-probability event is undefined.</explanation></question>
+        <question>
+            <text>For any event A, P(A \cap A') is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Impossible event.</explanation></question>
+        <question>
+            <text>The mean of binomial distribution B(n, p) is:</text>
+            <option id="A">np</option><option id="B">npq</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard property.</explanation></question>
+        <question>
+            <text>Variance of binomial distribution B(n, p) is:</text>
+            <option id="A">npq (q=1-p)</option><option id="B">np</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard property.</explanation></question>
+        <question>
+            <text>Find probability of throwing at most 2 sixes in 6 throws of a die:</text>
+            <option id="A">(5/6)^6 + 6(1/6)(5/6)^5 + 15(1/6)^2(5/6)^4</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sum of P(0), P(1), P(2) using Binomial formula.</explanation></question>
+        <question>
+            <text>If A and B are events such that P(A \cup B) = 3/4, P(A \cap B) = 1/4, P(A) = 2/3. Find P(B):</text>
+            <option id="A">1/3</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>3/4 = 2/3 + P(B) - 1/4 -&gt; 3/4 + 1/4 - 2/3 = P(B) -&gt; 1 - 2/3 = 1/3.</explanation></question>
+        <question>
+            <text>In probability distribution, p(x) = k/x for x=1,2,3. Find k:</text>
+            <option id="A">6/11</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>k(1 + 1/2 + 1/3) = 1 -&gt; k(11/6) = 1 -&gt; k = 6/11.</explanation></question>
+        <question>
+            <text>Conditional probability P(A \cup B | C) = :</text>
+            <option id="A">P(A|C) + P(B|C) - P(A \cap B | C)</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Addition theorem for conditional probabilities.</explanation></question>
+        <question>
+            <text>A card from pack of 52 is lost. From remaining, 2 cards drawn are both diamonds. Prob lost card is diamond:</text>
+            <option id="A">11/50</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Complex Bayes' application. Let E1 lost is dim, E2 not. A is 2 diam drawn. P(E1)=1/4, P(E2)=3/4. P(A|E1)=12C2/51C2. P(A|E2)=13C2/51C2. P(E1|A) = (1/4 * 66) / (1/4 * 66 + 3/4 * 78) = 66 / (66 + 234) = 66 / 300 = 11/50.</explanation></question>
+        <question>
+            <text>If A and B are independent, then A' and B' are independent. TRUE/FALSE?</text>
+            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental result.</explanation></question>
+        <question>
+            <text>Expected value of sum of faces in two dice throw is:</text>
+            <option id="A">7</option><option id="B">6</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>E(X+Y) = E(X)+E(Y) = 3.5 + 3.5 = 7.</explanation></question>
+        <question>
+            <text>Standard Deviation of a random variable is always ____.</text>
+            <option id="A">Non-negative</option><option id="B">Positive</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Square root of non-negative variance.</explanation></question>
+        <question>
+            <text>Which value of X has most probability in binomial B(10, 0.5)?</text>
+            <option id="A">5</option><option id="B">0</option><option id="C">10</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mode of symmetric binomial is n/2.</explanation></question>
+        <question>
+            <text>If P(A|B) &lt; P(A), then events A and B are:</text>
+            <option id="A">Negatively correlated (Dependent)</option><option id="B">Independent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Occurrence of B reduces probability of A.</explanation></question>
+        <question>
+            <text>Multiplication theorem P(A \cap B) = P(A)P(B) is the ____ condition for independence.</text>
+            <option id="A">Defining</option><option id="B">Secondary</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Basic axiom for independence.</explanation></question>
+        <question>
+            <text>Find P(exactly 2 heads) in 3 coin tosses:</text>
+            <option id="A">3/8</option><option id="B">1/8</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Outcomes {HHT, HTH, THH}.</explanation></question>
+        <question>
+            <text>A and B play game where A wins if he throws 6 first. Prob A wins if he starts:</text>
+            <option id="A">6/11</option><option id="B">5/11</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P + (5/6)(5/6)P = 1/6 -&gt; (1 + 25/36)P = 1/6 -&gt; 61/36 P = 1/6? No. P = 1/6 + (5/6)^2 P -&gt; P(1-25/36) = 1/6 -&gt; P(11/36) = 1/6 -&gt; P = 6/11.</explanation></question>
+        <question>
+            <text>Bayes' Theorem denominator is the expansion of ____ probability.</text>
+            <option id="A">Total</option><option id="B">Prior</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Theorem of total probability.</explanation></question>
+        <question>
+            <text>If A, B are independent, P(A')P(B') = :</text>
+            <option id="A">1 - P(A \cup B)</option><option id="B">1 - P(A) - P(B)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P((A \cup B)') = P(A' \cap B') = P(A')P(B') by independence.</explanation></question>
+        <question>
+            <text>If P(A) = 0.6, P(B) = 0.5. Are they surely independent?</text>
+            <option id="A">No, need P(A \cap B)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Individual probabilities don't reveal relation.</explanation></question>
+        <question>
+            <text>Mean of a die-roll is 3.5. TRUE/FALSE?</text>
+            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(1+2+3+4+5+6)/6 = 3.5.</explanation></question>
+        <question>
+            <text>If random variable X denotes number of aces in 2 cards drawn. P(X=2) is:</text>
+            <option id="A">4C2 / 52C2 = 6/1326 = 1/221</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Drawing both aces from 4 available.</explanation></question>
+        <question>
+            <text>Conditional probability P(A|S) is:</text>
+            <option id="A">P(A)</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P(A \cap S) / P(S) = P(A) / 1 = P(A).</explanation></question>
+        <question>
+            <text>Sample space for tossing coin until Head is ____.</text>
+            <option id="A">Infinite</option><option id="B">Finite</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>{H, TH, TTH, ...}.</explanation></question>
+        <question>
+            <text>Final probability axiom: P(A) is ____ for any A.</text>
+            <option id="A">Greater than or equal to 0</option><option id="B">Less than 1</option><option id="C">Positive</option><option id="D">None</option>
+            <answer>A</answer><explanation>Non-negativity axiom.</explanation></question>
+    </hard>
+</chapter>

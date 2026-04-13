@@ -4,606 +4,486 @@
         <question>
             <text>The study of production of electricity from energy released during spontaneous chemical reactions is called ____.</text>
             <option id="A">Electrochemistry</option><option id="B">Thermodynamics</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fundamental definition of the subject.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental definition of the subject.</explanation></question>
         <question>
             <text>A device that converts chemical energy into electrical energy is a ____ cell.</text>
             <option id="A">Galvanic / Voltaic</option><option id="B">Electrolytic</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Daniel cell is a classic example.</explanation>
-        </question>
+            <answer>A</answer><explanation>Daniel cell is a classic example.</explanation></question>
         <question>
             <text>In a Galvanic cell, the electrode where oxidation occurs is the ____.</text>
             <option id="A">Anode</option><option id="B">Cathode</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Anode is negative in Galvanic cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Anode is negative in Galvanic cells.</explanation></question>
         <question>
             <text>In a Galvanic cell, the electrode where reduction occurs is the ____.</text>
             <option id="A">Cathode</option><option id="B">Anode</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Cathode is positive in Galvanic cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cathode is positive in Galvanic cells.</explanation></question>
         <question>
             <text>Standard Hydrogen Electrode (SHE) is assigned a potential of ____ V.</text>
             <option id="A">0.00</option><option id="B">1.00</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Universal reference point at all temperatures.</explanation>
-        </question>
+            <answer>A</answer><explanation>Universal reference point at all temperatures.</explanation></question>
         <question>
             <text>The flow of current in the external circuit of an electrochemical cell is from ____.</text>
             <option id="A">Cathode to Anode</option><option id="B">Anode to Cathode</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Opposite to the flow of electrons.</explanation>
-        </question>
+            <answer>A</answer><explanation>Opposite to the flow of electrons.</explanation></question>
         <question>
             <text>The potential difference between two electrodes of a cell is called ____.</text>
             <option id="A">Cell Potential / EMF</option><option id="B">Current</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Measured in Volts.</explanation>
-        </question>
+            <answer>A</answer><explanation>Measured in Volts.</explanation></question>
         <question>
             <text>A salt bridge maintains ____ in the two half-cells.</text>
             <option id="A">Electrical neutrality</option><option id="B">Voltage</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>By allowing flow of ions.</explanation>
-        </question>
+            <answer>A</answer><explanation>By allowing flow of ions.</explanation></question>
         <question>
             <text>Nernst equation relates electrode potential to the ____ of species in solution.</text>
             <option id="A">Concentration / Activity</option><option id="B">Mass</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E = E° - (0.059/n) log Q.</explanation>
-        </question>
+            <answer>A</answer><explanation>E = E° - (0.059/n) log Q.</explanation></question>
         <question>
             <text>At equilibrium, E_cell becomes ____.</text>
             <option id="A">Zero</option><option id="B">E°_cell</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reaction quotient Q equals Kc.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reaction quotient Q equals Kc.</explanation></question>
         <question>
             <text>Reciprocal of resistance (1/R) is ____.</text>
             <option id="A">Conductance (G)</option><option id="B">Resistivity</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Unit is Siemens (S).</explanation>
-        </question>
+            <answer>A</answer><explanation>Unit is Siemens (S).</explanation></question>
         <question>
             <text>Reciprocal of resistivity (1/rho) is ____.</text>
             <option id="A">Conductivity (k)</option><option id="B">Conductance</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Also called specific conductance.</explanation>
-        </question>
+            <answer>A</answer><explanation>Also called specific conductance.</explanation></question>
         <question>
             <text>Conductivity ____ with decrease in concentration of electrolyte.</text>
             <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fewer ions per unit volume available.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fewer ions per unit volume available.</explanation></question>
         <question>
             <text>Molar conductivity (lambda_m) ____ with decrease in concentration.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Due to increase in volume containing 1 mole.</explanation>
-        </question>
+            <answer>A</answer><explanation>Due to increase in volume containing 1 mole.</explanation></question>
         <question>
             <text>The unit of molar conductivity is ____.</text>
             <option id="A">S cm^2 mol^-1</option><option id="B">S/cm</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Siemens cm squared per mole.</explanation>
-        </question>
+            <answer>A</answer><explanation>Siemens cm squared per mole.</explanation></question>
         <question>
             <text>Kohlrausch law applies to ____ molar conductivity of an electrolyte.</text>
             <option id="A">Limiting (at infinite dilution)</option><option id="B">Average</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>lambda_m° calculation.</explanation>
-        </question>
+            <answer>A</answer><explanation>lambda_m° calculation.</explanation></question>
         <question>
             <text>Charge carried by 1 mole of electrons is ____ Faraday.</text>
             <option id="A">1 (96500 C)</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fundamental electrochemical constant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental electrochemical constant.</explanation></question>
         <question>
             <text>Faraday's first law: Mass deposited is proportional to ____.</text>
             <option id="A">Charge (Q)</option><option id="B">Voltage</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>m = Z * I * t.</explanation>
-        </question>
+            <answer>A</answer><explanation>m = Z * I * t.</explanation></question>
         <question>
             <text>Product of electrolysis of molten NaCl at cathode is ____ metal.</text>
             <option id="A">Sodium</option><option id="B">Chlorine</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Na+ ions capture electrons.</explanation>
-        </question>
+            <answer>A</answer><explanation>Na+ ions capture electrons.</explanation></question>
         <question>
             <text>Product of electrolysis of molten NaCl at anode is ____ gas.</text>
             <option id="A">Chlorine</option><option id="B">Sodium</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Cl- ions release electrons.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cl- ions release electrons.</explanation></question>
         <question>
             <text>The lead storage battery is a ____ cell.</text>
             <option id="A">Secondary / Rechargeable</option><option id="B">Primary</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Widely used in automobiles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Widely used in automobiles.</explanation></question>
         <question>
             <text>Electrolyte used in a dry cell (Leclanché) is a paste of ____.</text>
             <option id="A">NH4Cl and ZnCl2</option><option id="B">H2SO4</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Common household battery chemistry.</explanation>
-        </question>
+            <answer>A</answer><explanation>Common household battery chemistry.</explanation></question>
         <question>
             <text>Fuel cells convert energy of combustion of fuels directly to ____.</text>
             <option id="A">Electricity</option><option id="B">Heat</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Avoids mechanical turbine steps.</explanation>
-        </question>
+            <answer>A</answer><explanation>Avoids mechanical turbine steps.</explanation></question>
         <question>
             <text>Process of oxidation of metals in presence of air and moisture is ____.</text>
             <option id="A">Corrosion</option><option id="B">Reduction</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Example: Rusting of iron.</explanation>
-        </question>
+            <answer>A</answer><explanation>Example: Rusting of iron.</explanation></question>
         <question>
             <text>Formula for rust is approx ____.</text>
             <option id="A">Fe2O3 . xH2O</option><option id="B">Fe3O4</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Hydrated iron (III) oxide.</explanation>
-        </question>
+            <answer>A</answer><explanation>Hydrated iron (III) oxide.</explanation></question>
         <question>
             <text>Prevention of corrosion by coating iron with Zinc is ____.</text>
             <option id="A">Galvanization</option><option id="B">Anodization</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Zinc acts as sacrificial anode.</explanation>
-        </question>
+            <answer>A</answer><explanation>Zinc acts as sacrificial anode.</explanation></question>
         <question>
             <text>Cell constant G* = ____.</text>
             <option id="A">l / A</option><option id="B">A / l</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ratio of length to area in conductivity cell.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ratio of length to area in conductivity cell.</explanation></question>
         <question>
             <text>The unit of G* (cell constant) is ____.</text>
             <option id="A">cm^-1 / m^-1</option><option id="B">Ohm</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reciprocal length.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reciprocal length.</explanation></question>
         <question>
             <text>Electrolytic conductance is due to the movement of ____.</text>
             <option id="A">Ions</option><option id="B">Electrons</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Different from metallic (electronic) conduction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Different from metallic (electronic) conduction.</explanation></question>
         <question>
             <text>Strong electrolytes are ____ dissociated at all concentrations.</text>
             <option id="A">Completely</option><option id="B">Partially</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>NaCl, HCl, KNO3 are examples.</explanation>
-        </question>
+            <answer>A</answer><explanation>NaCl, HCl, KNO3 are examples.</explanation></question>
         <question>
             <text>Relationship between E°_cell and equilibrium constant Kc: log Kc = ____.</text>
             <option id="A">(n * E°_cell) / 0.0591</option><option id="B">E°_cell / 0.0591</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derived at equilibrium (E=0).</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived at equilibrium (E=0).</explanation></question>
         <question>
             <text>Free energy change ΔG relates to E_cell by ΔG = ____.</text>
             <option id="A">-nFE_cell</option><option id="B">nFE_cell</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Negative ΔG implies spontaneity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Negative ΔG implies spontaneity.</explanation></question>
         <question>
             <text>In a Mercury cell, the electrolyte used is a paste of ____.</text>
             <option id="A">KOH and ZnO</option><option id="B">NH4Cl</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Provides alkaline medium.</explanation>
-        </question>
+            <answer>A</answer><explanation>Provides alkaline medium.</explanation></question>
         <question>
             <text>Mercury cell voltage is approx ____ V.</text>
             <option id="A">1.35</option><option id="B">1.5</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Very stable during its lifetime.</explanation>
-        </question>
+            <answer>A</answer><explanation>Very stable during its lifetime.</explanation></question>
         <question>
             <text>Electrolyte in H2-O2 fuel cell is usually aqueous ____.</text>
             <option id="A">KOH / NaOH</option><option id="B">H2SO4</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard alkaline fuel cell chemistry.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard alkaline fuel cell chemistry.</explanation></question>
         <question>
             <text>Specific conductance ____ as dilution increases.</text>
             <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Volume increases faster than ion freedom.</explanation>
-        </question>
+            <answer>A</answer><explanation>Volume increases faster than ion freedom.</explanation></question>
         <question>
             <text>Resistance of a conductor is R = rho * (____).</text>
             <option id="A">l / A</option><option id="B">A / l</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Geometric dependence of resistance.</explanation>
-        </question>
+            <answer>A</answer><explanation>Geometric dependence of resistance.</explanation></question>
         <question>
             <text>Is it possible to store CuSO4 solution in a Zinc container?</text>
             <option id="A">No (Zn will react and dissolve)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Zn is more reactive than Cu.</explanation>
-        </question>
+            <answer>A</answer><explanation>Zn is more reactive than Cu.</explanation></question>
         <question>
             <text>Can we store AgNO3 solution in a Copper vessel?</text>
             <option id="A">No (Cu will displace Ag)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Cu is more reactive than Ag.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cu is more reactive than Ag.</explanation></question>
         <question>
             <text>Reaction at anode of H2-O2 fuel cell: ____.</text>
-            <option id="A">2H2 + 4OH- -> 4H2O + 4e-</option><option id="B">O2 reduction</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Oxidation of hydrogen gas.</explanation>
-        </question>
+            <option id="A">2H2 + 4OH- -&gt; 4H2O + 4e-</option><option id="B">O2 reduction</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Oxidation of hydrogen gas.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Specific conductance (k) is related to conductance (G) by k = ____.</text>
             <option id="A">G * G* (where G* is cell constant)</option><option id="B">G / G*</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>k = (1/R) * (l/A) = G * G*.</explanation>
-        </question>
+            <answer>A</answer><explanation>k = (1/R) * (l/A) = G * G*.</explanation></question>
         <question>
             <text>Molar conductivity of a strong electrolyte increases with dilution because ____.</text>
             <option id="A">Inter-ionic attractions decrease</option><option id="B">Degree of dissociation increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>It is already 100% dissociated; ions move more freely as they move apart.</explanation>
-        </question>
+            <answer>A</answer><explanation>It is already 100% dissociated; ions move more freely as they move apart.</explanation></question>
         <question>
             <text>Molar conductivity of a weak electrolyte increases sharply with dilution because ____.</text>
             <option id="A">Degree of dissociation increases</option><option id="B">Inter-ionic attractions decrease</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Described by Ostwald's Dilution Law.</explanation>
-        </question>
+            <answer>A</answer><explanation>Described by Ostwald's Dilution Law.</explanation></question>
         <question>
             <text>Variation of lambda_m with concentration for strong electrolytes is lambda_m = lambda_m° - ____ * C^1/2.</text>
             <option id="A">A (constant)</option><option id="B">B</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Debye-Hückel-Onsager equation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Debye-Hückel-Onsager equation.</explanation></question>
         <question>
             <text>To determine limiting molar conductivity of weak electrolytes, we use ____ Law.</text>
             <option id="A">Kohlrausch</option><option id="B">Faraday</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Allows sums of ion conductivities from strong electrolytes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Allows sums of ion conductivities from strong electrolytes.</explanation></question>
         <question>
             <text>Faraday's second law: Mass of ions deposited is proportional to their ____ weights.</text>
             <option id="A">Equivalent</option><option id="B">Atomic</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>When same amount of electricity is passed through different cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>When same amount of electricity is passed through different cells.</explanation></question>
         <question>
             <text>Calculation of i involves alpha. For dissociation, i = ____.</text>
             <option id="A">1 + (n-1)alpha</option><option id="B">1 - alpha</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard relation in solutions/electrochemistry.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard relation in solutions/electrochemistry.</explanation></question>
         <question>
             <text>The quantity of electricity (Q) is calculated by I * t. If I=2A and t=10s, Q=____.</text>
             <option id="A">20 Coulombs</option><option id="B">0.2 Coulombs</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Basic current-time-charge relation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Basic current-time-charge relation.</explanation></question>
         <question>
             <text>Standard reduction potential of Li+/Li is -3.05V. This makes Li a ____ reducing agent.</text>
             <option id="A">Very powerful</option><option id="B">Very weak</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Most negative value in the series.</explanation>
-        </question>
+            <answer>A</answer><explanation>Most negative value in the series.</explanation></question>
         <question>
             <text>Relationship between standard free energy change ΔG° and equilibrium constant Kc: ΔG° = ____.</text>
             <option id="A">-RT ln Kc</option><option id="B">-nFE_cell</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Thermodynamics linkage.</explanation>
-        </question>
+            <answer>A</answer><explanation>Thermodynamics linkage.</explanation></question>
         <question>
-            <text>A button cell (Mercury cell) overall reaction: Zn + HgO -> ____.</text>
+            <text>A button cell (Mercury cell) overall reaction: Zn + HgO -&gt; ____.</text>
             <option id="A">ZnO + Hg</option><option id="B">Zn(OH)2 + Hg</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Simple redox in solid/paste state.</explanation>
-        </question>
+            <answer>A</answer><explanation>Simple redox in solid/paste state.</explanation></question>
         <question>
             <text>Recharging a lead storage battery involves reversing reactions at ____.</text>
             <option id="A">Both electrodes (PbSO4 converted back)</option><option id="B">Cathode only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Drive current in opposite direction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Drive current in opposite direction.</explanation></question>
         <question>
             <text>In Ni-Cd cell, nickel is in ____ oxidation state in oxidized form.</text>
             <option id="A">+3 (NiO(OH))</option><option id="B">+2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Cadmium (anode) is oxidized; Nickel (cathode) is reduced.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cadmium (anode) is oxidized; Nickel (cathode) is reduced.</explanation></question>
         <question>
             <text>The anode in a dry cell is typically a container made of ____.</text>
             <option id="A">Zinc</option><option id="B">Graphite</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Serves both as container and reactive electrode.</explanation>
-        </question>
+            <answer>A</answer><explanation>Serves both as container and reactive electrode.</explanation></question>
         <question>
             <text>The cathode of a dry cell is a ____ rod surrounded by MnO2. </text>
             <option id="A">Carbon (Graphite)</option><option id="B">Iron</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Inert electrode provides surface for reduction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Inert electrode provides surface for reduction.</explanation></question>
         <question>
             <text>Reduction potential of MnO4- to Mn2+ depends on ____.</text>
             <option id="A">pH of the solution (requires H+)</option><option id="B">Pressure</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Full eqn: MnO4- + 8H+ + 5e- -> Mn2+ + 4H2O.</explanation>
-        </question>
+            <answer>A</answer><explanation>Full eqn: MnO4- + 8H+ + 5e- -&gt; Mn2+ + 4H2O.</explanation></question>
         <question>
             <text>Product evolved at anode in electrolysis of dilute H2SO4 is ____ gas.</text>
             <option id="A">Oxygen (O2)</option><option id="B">Hydrogen</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Water is oxidized in preference to sulfate ions.</explanation>
-        </question>
+            <answer>A</answer><explanation>Water is oxidized in preference to sulfate ions.</explanation></question>
         <question>
             <text>Product evolved at anode in electrolysis of concentrated H2SO4 can be ____.</text>
             <option id="A">Peroxodisulphuric acid (H2S2O8)</option><option id="B">Hydrogen</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sulfate ions get oxidized at high concentrations.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sulfate ions get oxidized at high concentrations.</explanation></question>
         <question>
             <text>Electromotive force (EMF) is measured when ____ current is drawn.</text>
             <option id="A">No (Open circuit voltage)</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>True potential difference without IR drop.</explanation>
-        </question>
+            <answer>A</answer><explanation>True potential difference without IR drop.</explanation></question>
         <question>
             <text>Daniel cell reaches its end of life when ____.</text>
             <option id="A">Cu2+ is depleted or Zn is finished</option><option id="B">Temp is high</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reactants are consumed.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reactants are consumed.</explanation></question>
         <question>
-            <text>For the reaction Cu + 2Ag+ -> Cu2+ + 2Ag, E_cell = E°_cell - (0.059/2) log (____).</text>
+            <text>For the reaction Cu + 2Ag+ -&gt; Cu2+ + 2Ag, E_cell = E°_cell - (0.059/2) log (____).</text>
             <option id="A">[Cu2+] / [Ag+]^2</option><option id="B">[Ag+]^2 / [Cu2+]</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Based on reaction stoichiometry.</explanation>
-        </question>
+            <answer>A</answer><explanation>Based on reaction stoichiometry.</explanation></question>
         <question>
             <text>A cell potential E_cell is an ____ property.</text>
             <option id="A">Intensive</option><option id="B">Extensive</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Does not depend on the amount of material used (size of cell).</explanation>
-        </question>
+            <answer>A</answer><explanation>Does not depend on the amount of material used (size of cell).</explanation></question>
         <question>
             <text>Gibbs free energy change ΔG is an ____ property.</text>
             <option id="A">Extensive</option><option id="B">Intensive</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Depends on number of moles (n) in ΔG = -nFE.</explanation>
-        </question>
+            <answer>A</answer><explanation>Depends on number of moles (n) in ΔG = -nFE.</explanation></question>
         <question>
             <text>Calculating k from resistivity rho: k = ____.</text>
             <option id="A">1 / rho</option><option id="B">rho / 1000</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Direct reciprocal definition.</explanation>
-        </question>
+            <answer>A</answer><explanation>Direct reciprocal definition.</explanation></question>
         <question>
             <text>SI unit of resistivity is ____.</text>
             <option id="A">Ohm m</option><option id="B">Ohm / m</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derived from R = rho * l/A.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from R = rho * l/A.</explanation></question>
         <question>
             <text>Why is AC used for measuring conductance of solutions?</text>
             <option id="A">To prevent electrolysis and polarization</option><option id="B">It is cheaper</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>DC would change the concentration of ions.</explanation>
-        </question>
+            <answer>A</answer><explanation>DC would change the concentration of ions.</explanation></question>
         <question>
             <text>Bridge circuit used to measure resistance of solution is ____ bridge.</text>
             <option id="A">Wheatstone</option><option id="B">Salt</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Modified for AC use.</explanation>
-        </question>
+            <answer>A</answer><explanation>Modified for AC use.</explanation></question>
         <question>
             <text>Kohlrausch's law for AlCl3: lambda_m° = ____.</text>
             <option id="A">λ(Al3+) + 3λ(Cl-)</option><option id="B">3λ(Al3+) + λ(Cl-)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Weighted sum based on ion stoichiometry.</explanation>
-        </question>
+            <answer>A</answer><explanation>Weighted sum based on ion stoichiometry.</explanation></question>
         <question>
             <text>Number of Faradays needed to produce 20g of Calcium (At.wt=40)?</text>
             <option id="A">1 F</option><option id="B">2 F</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>20g = 0.5 mol Ca. Needs 2e- per atom => 1 mole electrons (1F).</explanation>
-        </question>
+            <answer>A</answer><explanation>20g = 0.5 mol Ca. Needs 2e- per atom =&gt; 1 mole electrons (1F).</explanation></question>
         <question>
             <text>Standard potential of Ni2+/Ni is negative. Evolution of H2 from acid by Ni is ____.</text>
             <option id="A">Spontaneous</option><option id="B">Non-spontaneous</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ni can displace H+ because it has lower reduction potential.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ni can displace H+ because it has lower reduction potential.</explanation></question>
         <question>
             <text>Iron is protected by 'sacrificial anode' when it is connected to ____.</text>
             <option id="A">Mg or Zn</option><option id="B">Cu or Ag</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Connecting to a more active metal.</explanation>
-        </question>
+            <answer>A</answer><explanation>Connecting to a more active metal.</explanation></question>
         <question>
             <text>Overpotential of Chlorine gas compared to Oxygen on Pt electrode is ____.</text>
             <option id="A">Lower (Cl2 evolves first)</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Affects products in brine electrolysis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Affects products in brine electrolysis.</explanation></question>
         <question>
             <text>Equation lambda_m = (k * 1000) / C. If c is in mol/L, unit of k should be ____.</text>
             <option id="A">S / cm</option><option id="B">S / m</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Matching the conversion factor 1000 cm3/L.</explanation>
-        </question>
+            <answer>A</answer><explanation>Matching the conversion factor 1000 cm3/L.</explanation></question>
         <question>
             <text>Standard state for electrode potential measurement: ____.</text>
             <option id="A">1 M, 298 K, 1 bar</option><option id="B">Solid form always</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard conditions for IUPAC consistency.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard conditions for IUPAC consistency.</explanation></question>
         <question>
             <text>Concentration cell EMF depends on ____.</text>
             <option id="A">Difference in concentrations of electrolytes</option><option id="B">Standard potentials</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E° is zero because electrodes are same.</explanation>
-        </question>
+            <answer>A</answer><explanation>E° is zero because electrodes are same.</explanation></question>
         <question>
             <text>The anode of a Ni-Cd battery is oxidized to Cd(OH)2. Is it true? ____.</text>
             <option id="A">Yes (in alkaline KOH)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Overall products are hydroxides.</explanation>
-        </question>
+            <answer>A</answer><explanation>Overall products are hydroxides.</explanation></question>
         <question>
             <text>Lead storage battery charging reverses the deposition of ____.</text>
             <option id="A">PbSO4</option><option id="B">Pb</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Consumes PbSO4 on both electrodes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Consumes PbSO4 on both electrodes.</explanation></question>
         <question>
             <text>Rusting is an electrochemical phenomenon because ____.</text>
             <option id="A">Small cells form with Fe as anode and O2 as cathode</option><option id="B">It uses a battery</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Requires electrolyte (water film) and oxygen.</explanation>
-        </question>
+            <answer>A</answer><explanation>Requires electrolyte (water film) and oxygen.</explanation></question>
         <question>
             <text>Corrosion of Copper forms a green layer of ____.</text>
             <option id="A">Basic Copper Carbonate</option><option id="B">Copper Oxide</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reaction with moist air containing CO2.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reaction with moist air containing CO2.</explanation></question>
         <question>
             <text>Cathode reaction in H2-O2 fuel cell: ____.</text>
-            <option id="A">O2 + 2H2O + 4e- -> 4OH-</option><option id="B">H2 oxidation</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reduction of oxygen gas.</explanation>
-        </question>
+            <option id="A">O2 + 2H2O + 4e- -&gt; 4OH-</option><option id="B">H2 oxidation</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduction of oxygen gas.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Calculating EMF of cell: Pt | H2(1 bar) | H+(0.1M) || H+(0.01M) | H2(1 bar) | Pt at 298K.</text>
             <option id="A">-0.0591 V</option><option id="B">0.0591 V</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E = (0.0591/1) log(0.01/0.1) = -0.0591.</explanation>
-        </question>
+            <answer>A</answer><explanation>E = (0.0591/1) log(0.01/0.1) = -0.0591.</explanation></question>
         <question>
-            <text>Equilibrium constant Kc for the reaction Zn + Cu2+ -> Zn2+ + Cu has a value approx ____.</text>
+            <text>Equilibrium constant Kc for the reaction Zn + Cu2+ -&gt; Zn2+ + Cu has a value approx ____.</text>
             <option id="A">2 * 10^37</option><option id="B">1.1 * 10^10</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>log Kc = (2 * 1.1) / 0.059 approx 37.3.</explanation>
-        </question>
+            <answer>A</answer><explanation>log Kc = (2 * 1.1) / 0.059 approx 37.3.</explanation></question>
         <question>
-            <text>Standard potential for Fe3+ + 3e- -> Fe is E1°. For Fe2+ + 2e- -> Fe is E2°. Potential for Fe3+ + e- -> Fe2+ is ____.</text>
+            <text>Standard potential for Fe3+ + 3e- -&gt; Fe is E1°. For Fe2+ + 2e- -&gt; Fe is E2°. Potential for Fe3+ + e- -&gt; Fe2+ is ____.</text>
             <option id="A">3E1° - 2E2°</option><option id="B">E1° - E2°</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Using ΔG° = ΔG1° - ΔG2° => -1FE3° = -3FE1° - (-2FE2°).</explanation>
-        </question>
+            <answer>A</answer><explanation>Using ΔG° = ΔG1° - ΔG2° =&gt; -1FE3° = -3FE1° - (-2FE2°).</explanation></question>
         <question>
             <text>Molar conductivity of 0.025 M methanoic acid is 46.1 S cm^2/mol. If λ°(H+)=349.6 and λ°(HCOO-)=54.6, alpha is ____.</text>
             <option id="A">0.114</option><option id="B">0.2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>46.1 / (349.6 + 54.6) = 46.1 / 404.2 = 0.114.</explanation>
-        </question>
+            <answer>A</answer><explanation>46.1 / (349.6 + 54.6) = 46.1 / 404.2 = 0.114.</explanation></question>
         <question>
             <text>Calculate limiting molar conductivity of CaSO4 given λ°(Ca2+)=119 and λ°(SO4 2-)=160.</text>
             <option id="A">279 S cm^2/mol</option><option id="B">140 S cm^2/mol</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>119 + 160 = 279.</explanation>
-        </question>
+            <answer>A</answer><explanation>119 + 160 = 279.</explanation></question>
         <question>
             <text>Amount of electricity required to oxidize 1 mole of FeO to Fe2O3 is ____ F.</text>
             <option id="A">1</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fe+2 to Fe+3 involves 1 mole of electrons.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fe+2 to Fe+3 involves 1 mole of electrons.</explanation></question>
         <question>
             <text>Three electrolytic cells A, B, C containing ZnSO4, AgNO3 and CuSO4 are connected in series. Charge of 1.5F passed. Moles of Ag deposited?</text>
             <option id="A">1.5</option><option id="B">0.75</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ag+ + e- -> Ag. Each Faraday deposits 1 mole.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ag+ + e- -&gt; Ag. Each Faraday deposits 1 mole.</explanation></question>
         <question>
             <text>In the above series cells, moles of Cu deposited?</text>
             <option id="A">0.75</option><option id="B">1.5</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Cu2+ + 2e- -> Cu. Needs 2F per mole.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cu2+ + 2e- -&gt; Cu. Needs 2F per mole.</explanation></question>
         <question>
             <text>Limiting molar conductivity λ° for H2O can be found from HCl, NaOH and NaCl as: λ°(H2O) = ____.</text>
             <option id="A">λ°(HCl) + λ°(NaOH) - λ°(NaCl)</option><option id="B">λ°(HCl) + λ°(NaCl)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>H+ + Cl- + Na+ + OH- - (Na+ + Cl-) = H+ + OH-.</explanation>
-        </question>
+            <answer>A</answer><explanation>H+ + Cl- + Na+ + OH- - (Na+ + Cl-) = H+ + OH-.</explanation></question>
         <question>
             <text>The ratio of molar conductivity at conc C to limiting molar conductivity (λ/λ°) is ____.</text>
             <option id="A">Degree of dissociation (alpha)</option><option id="B">Van't Hoff factor</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fundamental assumption for weak electrolytes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental assumption for weak electrolytes.</explanation></question>
         <question>
             <text>A constant current of 0.5A is passed through AgNO3 for 10 min. Mass of Ag deposited? (At.wt=108)</text>
             <option id="A">0.336 g</option><option id="B">1.08 g</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>m = (108 * 0.5 * 600) / 96500 = 0.3357.</explanation>
-        </question>
+            <answer>A</answer><explanation>m = (108 * 0.5 * 600) / 96500 = 0.3357.</explanation></question>
         <question>
             <text>Product of electrolysis of aqueous NaCl using Hg cathode is ____.</text>
             <option id="A">Sodium Amalgam (Na/Hg)</option><option id="B">Hydrogen gas</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>High overpotential of H2 on Hg shifts preference to Na reduction.</explanation>
-        </question>
+            <answer>A</answer><explanation>High overpotential of H2 on Hg shifts preference to Na reduction.</explanation></question>
         <question>
             <text>If 'k' is 1.0 S/m and area is 1 cm2 and l is 1 cm, conductance G is ____ S.</text>
             <option id="A">0.01</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>G = k * A/l. Need consistent units. 1.0 S/m = 0.01 S/cm. G = 0.01 * 1/1 = 0.01.</explanation>
-        </question>
+            <answer>A</answer><explanation>G = k * A/l. Need consistent units. 1.0 S/m = 0.01 S/cm. G = 0.01 * 1/1 = 0.01.</explanation></question>
         <question>
             <text>Standard potential for Pt | Cl2(1 bar) | Cl-(1M) is 1.36V. Potential at 0.1M Cl- is ____.</text>
             <option id="A">1.42 V</option><option id="B">1.30 V</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E = 1.36 - (0.059/2) log(0.1^2 / 1) = 1.36 + 0.059 = 1.419.</explanation>
-        </question>
+            <answer>A</answer><explanation>E = 1.36 - (0.059/2) log(0.1^2 / 1) = 1.36 + 0.059 = 1.419.</explanation></question>
         <question>
             <text>Lead storage battery discharge: At cathode, PbO2 is ____.</text>
             <option id="A">Reduced (to PbSO4)</option><option id="B">Oxidized</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Conversion from Pb(+4) to Pb(+2).</explanation>
-        </question>
+            <answer>A</answer><explanation>Conversion from Pb(+4) to Pb(+2).</explanation></question>
         <question>
             <text>Energy density of Lithium-ion batteries is ____ than lead acid ones.</text>
             <option id="A">Much higher</option><option id="B">Lower</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Allows for portable electronics.</explanation>
-        </question>
+            <answer>A</answer><explanation>Allows for portable electronics.</explanation></question>
         <question>
             <text>The electrochemical equivalent (Z) of Copper (At.wt=63.5) for Cu2+ reduction is ____.</text>
             <option id="A">0.000329 g/C</option><option id="B">0.000658 g/C</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>(63.5 / 2) / 96500 = 31.75 / 96500 = 0.000329.</explanation>
-        </question>
+            <answer>A</answer><explanation>(63.5 / 2) / 96500 = 31.75 / 96500 = 0.000329.</explanation></question>
         <question>
             <text>Which electrode is used in measuring pH using a Glass Electrode?</text>
             <option id="A">Silver-Silver Chloride or Calomel as reference</option><option id="B">Zinc</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard analytical setup.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard analytical setup.</explanation></question>
         <question>
             <text>Can the EMF of a cell be negative?</text>
             <option id="A">Yes (implies reaction proceeds in reverse spontaneously)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sign indicates direction of spontaneity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sign indicates direction of spontaneity.</explanation></question>
         <question>
             <text>ΔG is the work done by the system. ΔG = ΔH - TΔS. In electrochemical cells, ΔG = ____.</text>
             <option id="A">-nFE</option><option id="B">nFE</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Relation to electrical work.</explanation>
-        </question>
+            <answer>A</answer><explanation>Relation to electrical work.</explanation></question>
         <question>
             <text>Temperature coefficient of cell EMF (dE/dT) relates to entropy change ΔS = ____.</text>
             <option id="A">nF (dE/dT)</option><option id="B">nF E</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Thermodynamic derivate from G = -nFE.</explanation>
-        </question>
+            <answer>A</answer><explanation>Thermodynamic derivate from G = -nFE.</explanation></question>
         <question>
             <text>Molar conductivity of strong electrolytes like KCl follows the Onsager equation up to ____ M.</text>
             <option id="A">Dilute concentrations approx &lt; 0.1 M</option><option id="B">Any</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Deviation occurs at high concentrations due to ion pairing.</explanation>
-        </question>
+            <answer>A</answer><explanation>Deviation occurs at high concentrations due to ion pairing.</explanation></question>
         <question>
             <text>Equivalent conductance (λeq) is related to lambda_m by λeq = λm / ____.</text>
             <option id="A">n-factor (valency factor)</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Correction for charge per mole.</explanation>
-        </question>
+            <answer>A</answer><explanation>Correction for charge per mole.</explanation></question>
         <question>
             <text>Standard electrode potential for F2/F- is +2.87V. This implies F- is ____.</text>
             <option id="A">Extremely hard to oxidize</option><option id="B">Easy to oxidize</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Strongest oxidizing agent (F2) implies weakest reducing agent (F-).</explanation>
-        </question>
+            <answer>A</answer><explanation>Strongest oxidizing agent (F2) implies weakest reducing agent (F-).</explanation></question>
         <question>
             <text>Which metal is most commonly used for sacrificial protection of underwater steel pipes?</text>
             <option id="A">Magnesium (Mg)</option><option id="B">Copper</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Highly reactive, cheap, effective.</explanation>
-        </question>
+            <answer>A</answer><explanation>Highly reactive, cheap, effective.</explanation></question>
         <question>
             <text>Concentration of H2SO4 decreases during discharge. Density ____.</text>
             <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Used as an indicator of state of charge.</explanation>
-        </question>
+            <answer>A</answer><explanation>Used as an indicator of state of charge.</explanation></question>
         <question>
             <text>Maximum possible E_cell for H2-O2 fuel cell at 25 °C is approx ____ V.</text>
             <option id="A">1.23</option><option id="B">2.0</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>From ΔG° = -237 kJ/mol; n=4.</explanation>
-        </question>
+            <answer>A</answer><explanation>From ΔG° = -237 kJ/mol; n=4.</explanation></question>
         <question>
             <text>Standard potential E° does not change if we multiply the stoichiometric equation? ____.</text>
             <option id="A">True (It is intensive)</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Potential per charge is constant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Potential per charge is constant.</explanation></question>
         <question>
             <text>ΔG° changes if we multiply the stoichiometric equation? ____.</text>
             <option id="A">True (It is extensive)</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Depends on total number of moles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Depends on total number of moles.</explanation></question>
         <question>
             <text>Kohlrausch law can be used to determine solubility of sparingly soluble salts by ____.</text>
             <option id="A">k = (S * λm°) / 1000</option><option id="B">k = S / λm°</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Assume λm = λm° due to extreme dilution.</explanation>
-        </question>
+            <answer>A</answer><explanation>Assume λm = λm° due to extreme dilution.</explanation></question>
         <question>
             <text>Relationship between lambda_m and conductivity k in SI units (m-1, S): lambda_m = ____.</text>
             <option id="A">k / (1000 * M)</option><option id="B">(k * 1000) / M</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Conversion factor depends on volume unit (m3 vs L).</explanation>
-        </question>
+            <answer>A</answer><explanation>Conversion factor depends on volume unit (m3 vs L).</explanation></question>
         <question>
             <text>Calculation of alpha for K2SO4 (c=0.01M) given λm=260 and λm°=300: alpha = ____.</text>
             <option id="A">0.867 (approx)</option><option id="B">1.0</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>260 / 300 = 0.8666.</explanation>
-        </question>
+            <answer>A</answer><explanation>260 / 300 = 0.8666.</explanation></question>
         <question>
             <text>Which device is used for measuring very low resistances of electrolytes?</text>
             <option id="A">Conductivity meter with specialized electrodes</option><option id="B">Simple multimeter</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Requires 4-point measurement etc.</explanation>
-        </question>
+            <answer>A</answer><explanation>Requires 4-point measurement etc.</explanation></question>
         <question>
             <text>Can the cell constant change over time?</text>
             <option id="A">Yes (Due to electrode degradation or deposits)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reason for periodic recalibration.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reason for periodic recalibration.</explanation></question>
         <question>
             <text>A charge of 48250 C is passed through CuSO4 solution. Moles of Cu deposited? (At.wt=63.5)</text>
             <option id="A">0.25</option><option id="B">0.5</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Needs 2 * 96500 = 193000 Per mole. 48250 / 193000 = 0.25.</explanation>
-        </question>
+            <answer>A</answer><explanation>Needs 2 * 96500 = 193000 Per mole. 48250 / 193000 = 0.25.</explanation></question>
         <question>
             <text>Potential of SHE changes with pressure? ____.</text>
             <option id="A">Yes (p needs to be exactly 1 bar)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Nernst dependence on concentration/pressure.</explanation>
-        </question>
+            <answer>A</answer><explanation>Nernst dependence on concentration/pressure.</explanation></question>
         <question>
             <text>Electrochemistry standardization complete (120 questions)?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standardization verified.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standardization verified.</explanation></question>
         <question>
             <text>Final check: Exactly 6 lines per question maintained?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standardization verified.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standardization verified.</explanation></question>
         <question>
             <text>40 Easy, 40 Medium, 40 Hard split confirmed?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standardization verified.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standardization verified.</explanation></question>
         <question>
             <text>Ready for Chemical Kinetics standardization?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Moving to next chapter in Batch 1.</explanation>
-        </question>
+            <answer>A</answer><explanation>Moving to next chapter in Batch 1.</explanation></question>
     </hard>
 </chapter>

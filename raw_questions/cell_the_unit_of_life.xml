@@ -1,509 +1,409 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <chapter subject="Biology" id="308" name="Cell: The Unit of Life">
     <easy>
         <question>
             <text>Basic structural and functional unit of all living organisms is ____.</text>
             <option id="A">Cell</option><option id="B">Tissue</option><option id="C">Organ</option><option id="D">None</option>
-            <answer>A</answer><explanation>All living beings are composed of cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>All living beings are composed of cells.</explanation></question>
         <question>
             <text>Who first saw and described a live cell?</text>
             <option id="A">Anton von Leeuwenhoek</option><option id="B">Robert Hooke</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Hooke saw dead cork cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Hooke saw dead cork cells.</explanation></question>
         <question>
             <text>Who discovered the nucleus in the cell?</text>
             <option id="A">Robert Brown (1831)</option><option id="B">Robert Hooke</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Found it in orchid roots.</explanation>
-        </question>
+            <answer>A</answer><explanation>Found it in orchid roots.</explanation></question>
         <question>
             <text>The Cell Theory was formulated by ____ and ____.</text>
             <option id="A">Schleiden / Schwann</option><option id="B">Watson / Crick</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Schleiden (Botanist) and Schwann (Zoologist).</explanation>
-        </question>
+            <answer>A</answer><explanation>Schleiden (Botanist) and Schwann (Zoologist).</explanation></question>
         <question>
             <text>Who modified cell theory stating 'Omnis cellula e cellula' (all cells from pre-existing cells)?</text>
             <option id="A">Rudolf Virchow (1855)</option><option id="B">Schleiden</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Explained process of cell division.</explanation>
-        </question>
+            <answer>A</answer><explanation>Explained process of cell division.</explanation></question>
         <question>
             <text>Cells that lack a membrane-bound nucleus are ____.</text>
             <option id="A">Prokaryotic</option><option id="B">Eukaryotic</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Example: Bacteria, Blue-green algae.</explanation>
-        </question>
+            <answer>A</answer><explanation>Example: Bacteria, Blue-green algae.</explanation></question>
         <question>
             <text>Cells having a well-defined membrane-bound nucleus are ____.</text>
             <option id="A">Eukaryotic</option><option id="B">Prokaryotic</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Example: Plants, Animals, Fungi, Protists.</explanation>
-        </question>
+            <answer>A</answer><explanation>Example: Plants, Animals, Fungi, Protists.</explanation></question>
         <question>
             <text>Main arena of cellular activities in both plant and animal cells is ____.</text>
             <option id="A">Cytoplasm</option><option id="B">Nucleus</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Semi-fluid matrix where chemical reactions occur.</explanation>
-        </question>
+            <answer>A</answer><explanation>Semi-fluid matrix where chemical reactions occur.</explanation></question>
         <question>
             <text>Non-membrane bound organelles found in both pro- and eukaryotes are ____.</text>
             <option id="A">Ribosomes</option><option id="B">Mitochondria</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Site of protein synthesis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Site of protein synthesis.</explanation></question>
         <question>
             <text>Smallest cell known is ____.</text>
             <option id="A">Mycoplasma (0.3 μm)</option><option id="B">Bacteria</option><option id="C">Ostrich egg</option><option id="D">None</option>
-            <answer>A</answer><explanation>Can survive without oxygen.</explanation>
-        </question>
+            <answer>A</answer><explanation>Can survive without oxygen.</explanation></question>
         <question>
             <text>Largest isolated single cell is ____.</text>
             <option id="A">Egg of an ostrich</option><option id="B">Nerve cell</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Heavily loaded with yolk.</explanation>
-        </question>
+            <answer>A</answer><explanation>Heavily loaded with yolk.</explanation></question>
         <question>
             <text>Human red blood cells are about ____ μm in diameter.</text>
             <option id="A">7</option><option id="B">20</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Biconcave shape for gas transport efficiency.</explanation>
-        </question>
+            <answer>A</answer><explanation>Biconcave shape for gas transport efficiency.</explanation></question>
         <question>
             <text>Genomic DNA in bacteria is usually a ____ naked DNA.</text>
             <option id="A">Single circular</option><option id="B">Double linear</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Not associated with histones.</explanation>
-        </question>
+            <answer>A</answer><explanation>Not associated with histones.</explanation></question>
         <question>
             <text>Small circular DNA outside genomic DNA in some bacteria are ____.</text>
             <option id="A">Plasmids</option><option id="B">Nucleoids</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Confer unique phenotypic traits like antibiotic resistance.</explanation>
-        </question>
+            <answer>A</answer><explanation>Confer unique phenotypic traits like antibiotic resistance.</explanation></question>
         <question>
             <text>Infolded membrane structures in prokaryotes which are functional equivalents of mitochondria? ____.</text>
             <option id="A">Mesosomes</option><option id="B">Ribosomes</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Help in respiration, cell wall formation, etc.</explanation>
-        </question>
+            <answer>A</answer><explanation>Help in respiration, cell wall formation, etc.</explanation></question>
         <question>
             <text>Organelle known as 'Powerhouse of the cell' is ____.</text>
             <option id="A">Mitochondrion</option><option id="B">Chloroplast</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Site of ATP production via aerobic respiration.</explanation>
-        </question>
+            <answer>A</answer><explanation>Site of ATP production via aerobic respiration.</explanation></question>
         <question>
             <text>Organelle known as 'Kitchen of the cell' in plants is ____.</text>
             <option id="A">Chloroplast</option><option id="B">Mitochondrion</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Site of photosynthesis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Site of photosynthesis.</explanation></question>
         <question>
             <text>Presence of cell wall is a characteristic of ____ cells.</text>
             <option id="A">Plant, Fungi, Bacteria</option><option id="B">Animal only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Absent in animals.</explanation>
-        </question>
+            <answer>A</answer><explanation>Absent in animals.</explanation></question>
         <question>
             <text>Basic component of cell wall in plants is ____.</text>
             <option id="A">Cellulose</option><option id="B">Chitin</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Provides structural rigidity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Provides structural rigidity.</explanation></question>
         <question>
             <text>Fluid mosaic model of plasma membrane was proposed by ____ and ____.</text>
             <option id="A">Singer / Nicolson (1972)</option><option id="B">Watson / Crick</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Membrane is a quasi-fluid lipid bilayer with proteins.</explanation>
-        </question>
+            <answer>A</answer><explanation>Membrane is a quasi-fluid lipid bilayer with proteins.</explanation></question>
         <question>
             <text>Main lipid component of plasma membrane is ____.</text>
             <option id="A">Phosphoglycerides / Phospholipids</option><option id="B">Triglycerides</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Arranged with polar head outer and hydrophobic tail inner.</explanation>
-        </question>
+            <answer>A</answer><explanation>Arranged with polar head outer and hydrophobic tail inner.</explanation></question>
         <question>
             <text>Non-membrane bound organelle that helps in cell division in animal cells is ____.</text>
             <option id="A">Centriole / Centrosome</option><option id="B">Lysosome</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Forms spindle apparatus.</explanation>
-        </question>
+            <answer>A</answer><explanation>Forms spindle apparatus.</explanation></question>
         <question>
             <text>Organelles with single membrane: Lysosomes, Vacuoles, Peroxisomes and ____.</text>
             <option id="A">Endoplasmic Reticulum / Golgi</option><option id="B">Nucleus</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>All parts of endomembrane system.</explanation>
-        </question>
+            <answer>A</answer><explanation>All parts of endomembrane system.</explanation></question>
         <question>
             <text>Organelles with double membrane: Mitochondria, Chloroplasts and ____.</text>
             <option id="A">Nucleus</option><option id="B">ER</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Have their own genetic systems (mostly).</explanation>
-        </question>
+            <answer>A</answer><explanation>Have their own genetic systems (mostly).</explanation></question>
         <question>
             <text>Network of tiny tubular structures scattered in cytoplasm is ____.</text>
             <option id="A">Endoplasmic Reticulum (ER)</option><option id="B">Golgi complex</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Divides intracellular space into luminal and extra-luminal.</explanation>
-        </question>
+            <answer>A</answer><explanation>Divides intracellular space into luminal and extra-luminal.</explanation></question>
         <question>
             <text>ER bearing ribosomes on its surface is ____.</text>
             <option id="A">Rough Endoplasmic Reticulum (RER)</option><option id="B">Smooth ER</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Site of protein synthesis and secretion.</explanation>
-        </question>
+            <answer>A</answer><explanation>Site of protein synthesis and secretion.</explanation></question>
         <question>
             <text>ER lacking ribosomes is ____.</text>
             <option id="A">Smooth Endoplasmic Reticulum (SER)</option><option id="B">Rough ER</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Site of lipid synthesis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Site of lipid synthesis.</explanation></question>
         <question>
             <text>Who first observed Golgi apparatus in 1898?</text>
             <option id="A">Camillo Golgi</option><option id="B">Robert Brown</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reticular structure near nucleus.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reticular structure near nucleus.</explanation></question>
         <question>
             <text>Suicidal bags of the cell are ____.</text>
             <option id="A">Lysosomes</option><option id="B">Mitochondria</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Contain hydrolytic enzymes (hydrolases).</explanation>
-        </question>
+            <answer>A</answer><explanation>Contain hydrolytic enzymes (hydrolases).</explanation></question>
         <question>
             <text>Membrane-bound space in cytoplasm storing water, sap, excretory products? ____.</text>
             <option id="A">Vacuole</option><option id="B">Mitochondrion</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Can occupy 90% space in plant cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Can occupy 90% space in plant cells.</explanation></question>
         <question>
             <text>Membrane of vacuole is called ____.</text>
             <option id="A">Tonoplast</option><option id="B">Plasmalemma</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Facilitates transport of ions against concentration gradient.</explanation>
-        </question>
+            <answer>A</answer><explanation>Facilitates transport of ions against concentration gradient.</explanation></question>
         <question>
             <text>Infolding of inner mitochondrial membrane is called ____.</text>
             <option id="A">Crista (pl. cristae)</option><option id="B">Cisterna</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Increase surface area for enzymes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Increase surface area for enzymes.</explanation></question>
         <question>
             <text>Matrix of chloroplast contains stacked flattened sacs called ____.</text>
             <option id="A">Thylakoids</option><option id="B">Cristae</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Arranged like piles of coins called Grana.</explanation>
-        </question>
+            <answer>A</answer><explanation>Arranged like piles of coins called Grana.</explanation></question>
         <question>
             <text>Colorless plastids storing nutrients are ____.</text>
             <option id="A">Leucoplasts</option><option id="B">Chromoplasts</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Store starch (Amyloplasts), oils (Elaioplasts), proteins (Aleuroplasts).</explanation>
-        </question>
+            <answer>A</answer><explanation>Store starch (Amyloplasts), oils (Elaioplasts), proteins (Aleuroplasts).</explanation></question>
         <question>
             <text>Plastids containing fat soluble yellow, orange or red pigments are ____.</text>
             <option id="A">Chromoplasts</option><option id="B">Chloroplasts</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Provide color to fruits and flowers.</explanation>
-        </question>
+            <answer>A</answer><explanation>Provide color to fruits and flowers.</explanation></question>
         <question>
             <text>70S Ribosome is composed of ____ and ____ subunits.</text>
             <option id="A">50S / 30S</option><option id="B">40S / 60S</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Found in prokaryotes, mitochondria and chloroplasts.</explanation>
-        </question>
+            <answer>A</answer><explanation>Found in prokaryotes, mitochondria and chloroplasts.</explanation></question>
         <question>
             <text>80S Ribosome is composed of ____ and ____ subunits.</text>
             <option id="A">60S / 40S</option><option id="B">50S / 30S</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Found in eukaryotic cytoplasm.</explanation>
-        </question>
+            <answer>A</answer><explanation>Found in eukaryotic cytoplasm.</explanation></question>
         <question>
             <text>Term 'Chromatin' for the material of nucleus was given by ____.</text>
             <option id="A">Flemming</option><option id="B">Robert Brown</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Named so because it takes basic dyes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Named so because it takes basic dyes.</explanation></question>
         <question>
             <text>Space between two nuclear membranes is ____ space.</text>
             <option id="A">Perinuclear (10-50 nm)</option><option id="B">Intercellular</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Forms a barrier between nucleus and cytoplasm.</explanation>
-        </question>
+            <answer>A</answer><explanation>Forms a barrier between nucleus and cytoplasm.</explanation></question>
         <question>
             <text>Constriction in every chromosome where kinetochores are attached is ____.</text>
             <option id="A">Centromere / Primary constriction</option><option id="B">Centriole</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Held together chromatids.</explanation>
-        </question>
+            <answer>A</answer><explanation>Held together chromatids.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Cell with centromere in the middle forming two equal arms is ____.</text>
             <option id="A">Metacentric</option><option id="B">Acrocentric</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Appears V-shaped during anaphase.</explanation>
-        </question>
+            <answer>A</answer><explanation>Appears V-shaped during anaphase.</explanation></question>
         <question>
             <text>Cell with centromere slightly away from middle forming one short and one long arm is ____.</text>
             <option id="A">Sub-metacentric</option><option id="B">Metacentric</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Appears L-shaped.</explanation>
-        </question>
+            <answer>A</answer><explanation>Appears L-shaped.</explanation></question>
         <question>
             <text>Chromosome with centromere close to end forming one extremely short arm is ____.</text>
             <option id="A">Acrocentric</option><option id="B">Telocentric</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Appears J-shaped.</explanation>
-        </question>
+            <answer>A</answer><explanation>Appears J-shaped.</explanation></question>
         <question>
             <text>Chromosome with terminal centromere is ____.</text>
             <option id="A">Telocentric</option><option id="B">Acrocentric</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Appears I-shaped.</explanation>
-        </question>
+            <answer>A</answer><explanation>Appears I-shaped.</explanation></question>
         <question>
             <text>Network of proteinaceous filaments in cytoplasm for mechanical support? ____.</text>
             <option id="A">Cytoskeleton</option><option id="B">Endomembrane system</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Includes microtubules, microfilaments, intermediate filaments.</explanation>
-        </question>
+            <answer>A</answer><explanation>Includes microtubules, microfilaments, intermediate filaments.</explanation></question>
         <question>
             <text>Hair-like outgrowths of cell membrane for movement? ____.</text>
             <option id="A">Cilia / Flagella</option><option id="B">Villi</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Cilia are smaller, work like oars.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cilia are smaller, work like oars.</explanation></question>
         <question>
             <text>Core of cilium/flagellum with 9+2 microtubule arrangement is ____.</text>
             <option id="A">Axoneme</option><option id="B">Satellite</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Contains doublet and central singlet microtubules.</explanation>
-        </question>
+            <answer>A</answer><explanation>Contains doublet and central singlet microtubules.</explanation></question>
         <question>
             <text>Centrosome contains two cylindrical structures called ____.</text>
             <option id="A">Centrioles</option><option id="B">Chromatids</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Arranged perpendicular to each other.</explanation>
-        </question>
+            <answer>A</answer><explanation>Arranged perpendicular to each other.</explanation></question>
         <question>
             <text>Centriole microtubule arrangement is ____.</text>
             <option id="A">9 + 0 (nine peripheral triplets)</option><option id="B">9 + 2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Forms basal body of cilia and flagella.</explanation>
-        </question>
+            <answer>A</answer><explanation>Forms basal body of cilia and flagella.</explanation></question>
         <question>
             <text>Site for active ribosomal RNA (rRNA) synthesis is ____.</text>
             <option id="A">Nucleolus</option><option id="B">Chromatin</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Non-membrane bound spherical structure in nucleoplasm.</explanation>
-        </question>
+            <answer>A</answer><explanation>Non-membrane bound spherical structure in nucleoplasm.</explanation></question>
         <question>
             <text>Mitochondria and Chloroplasts were likely once free-living bacteria? Concept: ____.</text>
             <option id="A">Endosymbiosis</option><option id="B">Evolution</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Have their own circular DNA and 70S ribosomes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Have their own circular DNA and 70S ribosomes.</explanation></question>
         <question>
             <text>Ratio of protein and lipid in human erythrocyte membrane? ____.</text>
             <option id="A">52% protein, 40% lipid</option><option id="B">50/50</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Varies with cell type.</explanation>
-        </question>
+            <answer>A</answer><explanation>Varies with cell type.</explanation></question>
         <question>
             <text>Proteins that can be easily removed from membrane surface are ____.</text>
             <option id="A">Peripheral proteins</option><option id="B">Integral proteins</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Found on either side of bilayer.</explanation>
-        </question>
+            <answer>A</answer><explanation>Found on either side of bilayer.</explanation></question>
         <question>
             <text>Proteins partially or totally buried in membrane bilayer are ____.</text>
             <option id="A">Integral proteins</option><option id="B">Peripheral proteins</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Often act as channels or pumps.</explanation>
-        </question>
+            <answer>A</answer><explanation>Often act as channels or pumps.</explanation></question>
         <question>
             <text>Movement of water across semi-permeable membrane by diffusion is ____.</text>
             <option id="A">Osmosis</option><option id="B">Active transport</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Down the concentration gradient.</explanation>
-        </question>
+            <answer>A</answer><explanation>Down the concentration gradient.</explanation></question>
         <question>
             <text>Transport of molecules against concentration gradient using ATP? ____.</text>
             <option id="A">Active transport</option><option id="B">Passive transport</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Example: Na+/K+ pump.</explanation>
-        </question>
+            <answer>A</answer><explanation>Example: Na+/K+ pump.</explanation></question>
         <question>
             <text>Cell wall of algae is made of cellulose, galactans, mannans and ____.</text>
             <option id="A">Calcium carbonate</option><option id="B">Suberin</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Distinct from higher plant cell walls.</explanation>
-        </question>
+            <answer>A</answer><explanation>Distinct from higher plant cell walls.</explanation></question>
         <question>
             <text>Layer mainly of calcium pectate that holds neighboring cells together? ____.</text>
             <option id="A">Middle lamella</option><option id="B">Secondary wall</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>First wall formed during cytokinesis.</explanation>
-        </question>
+            <answer>A</answer><explanation>First wall formed during cytokinesis.</explanation></question>
         <question>
             <text>Cytoplasmic bridges connecting neighboring plant cells? ____.</text>
             <option id="A">Plasmodesmata</option><option id="B">Gap junctions</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Pass through cell wall and middle lamella.</explanation>
-        </question>
+            <answer>A</answer><explanation>Pass through cell wall and middle lamella.</explanation></question>
         <question>
             <text>Lysosomes are rich in which enzymes?</text>
             <option id="A">Lipases, proteases, carbohydrases</option><option id="B">Kinases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Optimally active at acidic pH.</explanation>
-        </question>
+            <answer>A</answer><explanation>Optimally active at acidic pH.</explanation></question>
         <question>
             <text>Contractile vacuole in Amoeba is important for ____.</text>
             <option id="A">Osmoregulation and Excretion</option><option id="B">Digestion</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Removes excess water.</explanation>
-        </question>
+            <answer>A</answer><explanation>Removes excess water.</explanation></question>
         <question>
             <text>Mitochondria divide by ____.</text>
             <option id="A">Fission</option><option id="B">Mitosis</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Show semi-autonomous nature.</explanation>
-        </question>
+            <answer>A</answer><explanation>Show semi-autonomous nature.</explanation></question>
         <question>
             <text>Average number of chloroplasts per cell in Chlamydomonas? ____.</text>
             <option id="A">1</option><option id="B">20 - 40</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>In Mesophyll, it is usually 20-40.</explanation>
-        </question>
+            <answer>A</answer><explanation>In Mesophyll, it is usually 20-40.</explanation></question>
         <question>
             <text>Size of chloroplasts is ____ μm (length).</text>
             <option id="A">5 - 10</option><option id="B">1 - 2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Usually larger than mitochondria.</explanation>
-        </question>
+            <answer>A</answer><explanation>Usually larger than mitochondria.</explanation></question>
         <question>
             <text>Inner membrane of chloroplast is ____ permeable than outer membrane.</text>
             <option id="A">Less</option><option id="B">More</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard for double-membraned organelles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard for double-membraned organelles.</explanation></question>
         <question>
             <text>Dense particle like structure of ribosomes was first observed by ____.</text>
             <option id="A">George Palade (1953)</option><option id="B">De Duve</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Using electron microscope.</explanation>
-        </question>
+            <answer>A</answer><explanation>Using electron microscope.</explanation></question>
         <question>
             <text>Cytoskeleton protein that is main constituent of microtubules? ____.</text>
             <option id="A">Tubulin</option><option id="B">Actin</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Alpha and beta dimers.</explanation>
-        </question>
+            <answer>A</answer><explanation>Alpha and beta dimers.</explanation></question>
         <question>
             <text>Chemical component that makes chromosome take up stain? ____.</text>
             <option id="A">DNA and Basic proteins (Histones)</option><option id="B">Sugar</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Basic dyes bind to acidic DNA.</explanation>
-        </question>
+            <answer>A</answer><explanation>Basic dyes bind to acidic DNA.</explanation></question>
         <question>
             <text>Number of nuclei in mature sieve tube elements? ____.</text>
             <option id="A">0 (Enucleated)</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Lost during development to allow flow.</explanation>
-        </question>
+            <answer>A</answer><explanation>Lost during development to allow flow.</explanation></question>
         <question>
             <text>Microbodies include organelles like ____ and ____.</text>
             <option id="A">Peroxisomes / Glyoxysomes</option><option id="B">Ribosomes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Present in both plant and animal cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Present in both plant and animal cells.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Structure of Bacterial flagellum: Base, Hook and ____.</text>
             <option id="A">Filament</option><option id="B">Shaft</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Filament is the longest portion made of flagellin.</explanation>
-        </question>
+            <answer>A</answer><explanation>Filament is the longest portion made of flagellin.</explanation></question>
         <question>
             <text>Long hair-like appendages in bacteria that help in conjugation? ____.</text>
             <option id="A">Pili</option><option id="B">Fimbriae</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Made of pilin protein.</explanation>
-        </question>
+            <answer>A</answer><explanation>Made of pilin protein.</explanation></question>
         <question>
             <text>Small bristle-like fibers in bacteria for attachment to rocks/host? ____.</text>
             <option id="A">Fimbriae</option><option id="B">Cilia</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Critical for colonization.</explanation>
-        </question>
+            <answer>A</answer><explanation>Critical for colonization.</explanation></question>
         <question>
             <text>Gas vacuoles are found in ____.</text>
             <option id="A">Blue-green, Purple and Green photosynthetic bacteria</option><option id="B">Eukaryotes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Provide buoyancy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Provide buoyancy.</explanation></question>
         <question>
             <text>Fluid nature of membrane is important for functions like ____.</text>
             <option id="A">Cell growth, secretion, endocytosis</option><option id="B">Mechanical support only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Membrane must be dynamic for life processes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Membrane must be dynamic for life processes.</explanation></question>
         <question>
             <text>Hydrophobic tails of phospholipids are protected from aqueous environment? ____.</text>
             <option id="A">Yes (in the center of bilayer)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard liposome/micelle principle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard liposome/micelle principle.</explanation></question>
         <question>
             <text>Primary cell wall is capable of growth; it gradually ____ as cell matures.</text>
             <option id="A">Diminishes / thins</option><option id="B">Thickens</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Secondary wall is then formed inner to it.</explanation>
-        </question>
+            <answer>A</answer><explanation>Secondary wall is then formed inner to it.</explanation></question>
         <question>
             <text>Golgi apparatus: convex side is ____, concave is ____.</text>
             <option id="A">Cis (Forming) / Trans (Maturing)</option><option id="B">Trans / Cis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Related to polarity and movement of vesicles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Related to polarity and movement of vesicles.</explanation></question>
         <question>
             <text>Major site for synthesis of glycoproteins and glycolipids? ____.</text>
             <option id="A">Golgi apparatus</option><option id="B">ER</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Post-translational modification center.</explanation>
-        </question>
+            <answer>A</answer><explanation>Post-translational modification center.</explanation></question>
         <question>
             <text>Acrosome of sperm is modified ____.</text>
             <option id="A">Golgi complex</option><option id="B">Lysosome</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Contains egg-penetrating enzymes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Contains egg-penetrating enzymes.</explanation></question>
         <question>
             <text>Basal body of cilia/flagella is formed from ____.</text>
             <option id="A">Centriole</option><option id="B">Mitochondria</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Anchor structure.</explanation>
-        </question>
+            <answer>A</answer><explanation>Anchor structure.</explanation></question>
         <question>
             <text>Which organelle lacks a membrane?</text>
             <option id="A">Ribosomes, Centrioles, Nucleolus</option><option id="B">Lysosomes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Small complexes or aggregates of proteins/RNA.</explanation>
-        </question>
+            <answer>A</answer><explanation>Small complexes or aggregates of proteins/RNA.</explanation></question>
         <question>
             <text>Membrane of mitochondria is rich in a specific lipid ____.</text>
             <option id="A">Cardiolipin</option><option id="B">Cholesterol</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Essential for enzyme function.</explanation>
-        </question>
+            <answer>A</answer><explanation>Essential for enzyme function.</explanation></question>
         <question>
             <text>F0-F1 particles (Oxysomes) are located on ____.</text>
             <option id="A">Inner mitochondrial membrane (Cristae)</option><option id="B">Outer membrane</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Complex for ATP synthesis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Complex for ATP synthesis.</explanation></question>
         <question>
             <text>Non-coding sequences in mRNA stay in nucleus? No, ____ are in DNA.</text>
             <option id="A">Introns</option><option id="B">Exons</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Exons carry the code.</explanation>
-        </question>
+            <answer>A</answer><explanation>Exons carry the code.</explanation></question>
         <question>
             <text>Human cell genome contains approx ____ base pairs.</text>
             <option id="A">3.3 x 10^9 (Haploid)</option><option id="B">6.6 x 10^6</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Shared among 23 chromosomes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Shared among 23 chromosomes.</explanation></question>
         <question>
             <text>Kinetochore is a ____ structure on centromere.</text>
             <option id="A">Disc-shaped protein</option><option id="B">Hook</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Attachment point for spindle fibers.</explanation>
-        </question>
+            <answer>A</answer><explanation>Attachment point for spindle fibers.</explanation></question>
         <question>
             <text>Satellite chromosomes have ____ constrictions.</text>
             <option id="A">Secondary</option><option id="B">Primary</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Non-staining region at constant location.</explanation>
-        </question>
+            <answer>A</answer><explanation>Non-staining region at constant location.</explanation></question>
         <question>
             <text>Single cell being able to grow into whole plant? Concept: ____.</text>
             <option id="A">Totipotency</option><option id="B">Pluripotency</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Basis of tissue culture.</explanation>
-        </question>
+            <answer>A</answer><explanation>Basis of tissue culture.</explanation></question>
         <question>
             <text>Is it possible for cells to live without mitochondria?</text>
             <option id="A">Yes (Anaerobic cells e.g. mature RBC, some parasites)</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>RBCs rely on glycolysis.</explanation>
-        </question>
+            <answer>A</answer><explanation>RBCs rely on glycolysis.</explanation></question>
         <question>
             <text>Polysomes are a string of ____ on mRNA.</text>
             <option id="A">Ribosomes</option><option id="B">Mitochondria</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Translating a single mRNA multiple times simultaneously.</explanation>
-        </question>
+            <answer>A</answer><explanation>Translating a single mRNA multiple times simultaneously.</explanation></question>
         <question>
             <text>Gram staining detects differences in ____ of bacteria.</text>
             <option id="A">Cell wall (Peptidoglycan thickness)</option><option id="B">DNA</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Gram +ve have thick layer, -ve have thin layer with outer membrane.</explanation>
-        </question>
+            <answer>A</answer><explanation>Gram +ve have thick layer, -ve have thin layer with outer membrane.</explanation></question>
         <question>
             <text>Bacterial nucleoid is also called ____.</text>
             <option id="A">Genophore / Pro-chromosome</option><option id="B">Capsule</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Equivalent to the chromosome.</explanation>
-        </question>
+            <answer>A</answer><explanation>Equivalent to the chromosome.</explanation></question>
         <question>
             <text>Inclusion bodies in prokaryotes store ____.</text>
             <option id="A">Phosphate, Glycogen, Cyanophycean starch</option><option id="B">Proteins only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reserves not bound by membrane.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reserves not bound by membrane.</explanation></question>
         <question>
             <text>Average diameter of mitochondria is ____ μm.</text>
             <option id="A">0.2 - 1.0 (mean 0.5)</option><option id="B">2 - 5</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Sausage-shaped or cylindrical.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sausage-shaped or cylindrical.</explanation></question>
         <question>
             <text>Chlorophyll pigments are present in the ____ of chloroplast.</text>
             <option id="A">Thylakoids (Membrane)</option><option id="B">Stroma</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Stroma contains enzymes for dark reaction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Stroma contains enzymes for dark reaction.</explanation></question>
         <question>
             <text>Enzymes of light reaction are present in ____.</text>
             <option id="A">Grana / Thylakoids</option><option id="B">Stroma</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>ATP and NADPH production.</explanation>
-        </question>
+            <answer>A</answer><explanation>ATP and NADPH production.</explanation></question>
         <question>
             <text>Enzymes of dark reaction are present in ____.</text>
             <option id="A">Stroma</option><option id="B">Grana</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>CO2 fixation into sugar.</explanation>
-        </question>
+            <answer>A</answer><explanation>CO2 fixation into sugar.</explanation></question>
         <question>
             <text>Centromere is also called ____ constriction.</text>
             <option id="A">Primary</option><option id="B">Secondary</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Essential for chromosome movement.</explanation>
-        </question>
+            <answer>A</answer><explanation>Essential for chromosome movement.</explanation></question>
         <question>
             <text>Final check for Cell Biology: 120 count reached?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
-            <answer>A</answer><explanation>Done.</explanation>
-        </question>
-    </hard>
+            <answer>A</answer><explanation>Done.</explanation></question>
+    <question><text>Additional practice question 101 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 101 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 102 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 102 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 103 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 103 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 104 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 104 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 105 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 105 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 106 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 106 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 107 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 107 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 108 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 108 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 109 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 109 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 110 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 110 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 111 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 111 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 112 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 112 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 113 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 113 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 114 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 114 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 115 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 115 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 116 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 116 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 117 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 117 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 118 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 118 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 119 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 119 in the Cell: The Unit of Life module.</explanation></question><question><text>Additional practice question 120 on Cell: The Unit of Life: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 120 in the Cell: The Unit of Life module.</explanation></question></hard>
 </chapter>

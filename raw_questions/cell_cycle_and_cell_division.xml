@@ -1,509 +1,409 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <chapter subject="Biology" id="310" name="Cell Cycle and Cell Division">
     <easy>
         <question>
             <text>Sequence of events by which a cell duplicates its genome and eventually divides into two daughter cells is ____.</text>
             <option id="A">Cell cycle</option><option id="B">Meiosis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Highly coordinated process ensuring genetic continuity.</explanation>
-        </question>
+            <answer>A</answer><explanation>Highly coordinated process ensuring genetic continuity.</explanation></question>
         <question>
             <text>Duration of cell cycle in human cells is approx ____ hours.</text>
             <option id="A">24</option><option id="B">12</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Varies between organisms and cell types (e.g. 90 mins in Yeast).</explanation>
-        </question>
+            <answer>A</answer><explanation>Varies between organisms and cell types (e.g. 90 mins in Yeast).</explanation></question>
         <question>
             <text>Phase of cell cycle where the cell prepares for division by undergoing growth and DNA replication is ____.</text>
             <option id="A">Interphase</option><option id="B">M phase</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Also called resting phase (misnomer, as cell is metabolically active).</explanation>
-        </question>
+            <answer>A</answer><explanation>Also called resting phase (misnomer, as cell is metabolically active).</explanation></question>
         <question>
             <text>Phase of actual cell division (mitosis) is ____.</text>
             <option id="A">M phase</option><option id="B">Interphase</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Includes karyokinesis and cytokinesis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Includes karyokinesis and cytokinesis.</explanation></question>
         <question>
             <text>Interphase is divided into three phases: G1, ____ and G2.</text>
             <option id="A">S (Synthesis)</option><option id="B">M</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Order: G1 -> S -> G2.</explanation>
-        </question>
+            <answer>A</answer><explanation>Order: G1 -&gt; S -&gt; G2.</explanation></question>
         <question>
             <text>During which phase of interphase does DNA replication occur?</text>
             <option id="A">S phase</option><option id="B">G1 phase</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Amt of DNA per cell doubles (2C to 4C) but chromosome number stays same.</explanation>
-        </question>
+            <answer>A</answer><explanation>Amt of DNA per cell doubles (2C to 4C) but chromosome number stays same.</explanation></question>
         <question>
             <text>Centriole duplication in animal cells occurs during ____ phase.</text>
             <option id="A">S</option><option id="B">G1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>In the cytoplasm.</explanation>
-        </question>
+            <answer>A</answer><explanation>In the cytoplasm.</explanation></question>
         <question>
             <text>Phase of interphase that is an interval between mitosis and DNA replication? ____.</text>
             <option id="A">G1 phase (Gap 1)</option><option id="B">G2 phase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Cell is metabolically active and grows continuously.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cell is metabolically active and grows continuously.</explanation></question>
         <question>
             <text>Mitosis is also called ____ division because chromosome number remains same.</text>
             <option id="A">Equational</option><option id="B">Reductional</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard somatic cell division.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard somatic cell division.</explanation></question>
         <question>
             <text>First stage of Karyokinesis in Mitosis is ____.</text>
             <option id="A">Prophase</option><option id="B">Metaphase</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Followed by Metaphase, Anaphase, Telophase.</explanation>
-        </question>
+            <answer>A</answer><explanation>Followed by Metaphase, Anaphase, Telophase.</explanation></question>
         <question>
             <text>Stage where chromosomes are shortest and thickest, best for studying morphology? ____.</text>
             <option id="A">Metaphase</option><option id="B">Prophase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Chromosomes align at equator (Metaphase plate).</explanation>
-        </question>
+            <answer>A</answer><explanation>Chromosomes align at equator (Metaphase plate).</explanation></question>
         <question>
             <text>Splitting of centromeres and separation of chromatids occur during ____.</text>
             <option id="A">Anaphase</option><option id="B">Metaphase</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Daughter chromatids move to opposite poles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Daughter chromatids move to opposite poles.</explanation></question>
         <question>
             <text>Final stage of karyokinesis where chromosomes reach poles and decondense is ____.</text>
             <option id="A">Telophase</option><option id="B">Anaphase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Nuclear envelope and nucleolus reappear.</explanation>
-        </question>
+            <answer>A</answer><explanation>Nuclear envelope and nucleolus reappear.</explanation></question>
         <question>
             <text>Division of cytoplasm into two daughter cells is ____.</text>
             <option id="A">Cytokinesis</option><option id="B">Karyokinesis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>In animal cells, done by furrowing; in plant cells, by cell plate.</explanation>
-        </question>
+            <answer>A</answer><explanation>In animal cells, done by furrowing; in plant cells, by cell plate.</explanation></question>
         <question>
             <text>Division that occurs in diploid germ cells to produce haploid gametes is ____.</text>
             <option id="A">Meiosis</option><option id="B">Mitosis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ensures production of haploid phase in life cycle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ensures production of haploid phase in life cycle.</explanation></question>
         <question>
             <text>Meiosis is called ____ division because it reduces chromosome number by half.</text>
             <option id="A">Reductional</option><option id="B">Equational</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>1 diploid cell -> 4 haploid cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>1 diploid cell -&gt; 4 haploid cells.</explanation></question>
         <question>
             <text>Longest and most complex phase of Meiosis I is ____.</text>
             <option id="A">Prophase I</option><option id="B">Prophase II</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Divided into Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Divided into Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis.</explanation></question>
         <question>
             <text>Pairing of homologous chromosomes in Meiosis is called ____.</text>
             <option id="A">Synapsis</option><option id="B">Crossing over</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Occurs during Zygotene stage.</explanation>
-        </question>
+            <answer>A</answer><explanation>Occurs during Zygotene stage.</explanation></question>
         <question>
             <text>Complex formed by matched pair of homologous chromosomes is ____.</text>
             <option id="A">Bivalent / Tetrad</option><option id="B">Chromatid</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Seen clearly in Pachytene.</explanation>
-        </question>
+            <answer>A</answer><explanation>Seen clearly in Pachytene.</explanation></question>
         <question>
             <text>Exchange of genetic material between non-sister chromatids of homologous chromosomes is ____.</text>
             <option id="A">Crossing over</option><option id="B">Synapsis</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Occurs during Pachytene stage.</explanation>
-        </question>
+            <answer>A</answer><explanation>Occurs during Pachytene stage.</explanation></question>
         <question>
             <text>X-shaped structures seen in Diplotene stage during separation of homologues are ____.</text>
             <option id="A">Chiasmata</option><option id="B">Centromeres</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sites where crossing over occurred.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sites where crossing over occurred.</explanation></question>
         <question>
             <text>Which phase of meiosis resembles Mitosis?</text>
             <option id="A">Meiosis II</option><option id="B">Meiosis I</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Equational division of haploid cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Equational division of haploid cells.</explanation></question>
         <question>
             <text>Cells that do not further divide after G1 enter an inactive stage called ____ stage.</text>
             <option id="A">G0 (Quiescent)</option><option id="B">G2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Example: Heart cells, Nerve cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Example: Heart cells, Nerve cells.</explanation></question>
         <question>
             <text>Syncytium condition arises if ____ is not followed by ____.</text>
             <option id="A">Karyokinesis / Cytokinesis</option><option id="B">Cytokinesis / Karyokinesis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Leads to multinucleate cell (e.g. liquid endosperm in coconut).</explanation>
-        </question>
+            <answer>A</answer><explanation>Leads to multinucleate cell (e.g. liquid endosperm in coconut).</explanation></question>
         <question>
             <text>Small protein disks on surface of centromere for spindle attachment? ____.</text>
             <option id="A">Kinetochores</option><option id="B">Aster</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Essential for proper chromosome segregation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Essential for proper chromosome segregation.</explanation></question>
         <question>
             <text>At which stage do the chromosomes become distinctly visible as two chromatids held at centromere?</text>
             <option id="A">Metaphase (or end of Prophase)</option><option id="B">Interphase</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Condensation is nearly complete.</explanation>
-        </question>
+            <answer>A</answer><explanation>Condensation is nearly complete.</explanation></question>
         <question>
             <text>Mitosis occurs in ____ cells of animals.</text>
             <option id="A">Diploid somatic</option><option id="B">Haploid somatic</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Exceptions exist in some social insects (drones).</explanation>
-        </question>
+            <answer>A</answer><explanation>Exceptions exist in some social insects (drones).</explanation></question>
         <question>
             <text>Plants can show mitosis in both ____ and ____ cells.</text>
             <option id="A">Haploid / Diploid</option><option id="B">Only Diploid</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Example: Gametophyte (haploid) and Sporophyte (diploid) growth.</explanation>
-        </question>
+            <answer>A</answer><explanation>Example: Gametophyte (haploid) and Sporophyte (diploid) growth.</explanation></question>
         <question>
             <text>Significance of mitosis: maintains ____ / ____ ratio.</text>
             <option id="A">Nucleo-cytoplasmic (Nucleus/Cytoplasm)</option><option id="B">DNA/RNA</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Essential for cell control and signaling.</explanation>
-        </question>
+            <answer>A</answer><explanation>Essential for cell control and signaling.</explanation></question>
         <question>
             <text>Enzyme involved in crossing over is ____.</text>
             <option id="A">Recombinase</option><option id="B">Ligase</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Enzyme-mediated process in pachytene.</explanation>
-        </question>
+            <answer>A</answer><explanation>Enzyme-mediated process in pachytene.</explanation></question>
         <question>
-            <text>Correct sequence of Prophase I substages: L -> Z -> P -> D -> D? ____.</text>
+            <text>Correct sequence of Prophase I substages: L -&gt; Z -&gt; P -&gt; D -&gt; D? ____.</text>
             <option id="A">Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis</option><option id="B">Reverse</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard biological sequence.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard biological sequence.</explanation></question>
         <question>
             <text>Interkinesis is the stage between ____ and ____.</text>
             <option id="A">Meiosis I / Meiosis II</option><option id="B">Mitosis / Meiosis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Generally short lived, no DNA replication occurs.</explanation>
-        </question>
+            <answer>A</answer><explanation>Generally short lived, no DNA replication occurs.</explanation></question>
         <question>
             <text>At the end of Meiosis II, ____ haploid cells are formed.</text>
             <option id="A">4</option><option id="B">2</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>From one original diploid cell.</explanation>
-        </question>
+            <answer>A</answer><explanation>From one original diploid cell.</explanation></question>
         <question>
             <text>Crossing over results in ____ of genetic material.</text>
             <option id="A">Recombination</option><option id="B">Mutation</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Source of variation in sexually reproducing populations.</explanation>
-        </question>
+            <answer>A</answer><explanation>Source of variation in sexually reproducing populations.</explanation></question>
         <question>
             <text>Chromosomes reach maximum condensation in ____.</text>
             <option id="A">Metaphase</option><option id="B">Prophase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Allows easy movement without breaking.</explanation>
-        </question>
+            <answer>A</answer><explanation>Allows easy movement without breaking.</explanation></question>
         <question>
             <text>Each centrosome radiates out microtubules called ____.</text>
             <option id="A">Asters</option><option id="B">Cilia</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Two asters together with spindle fibers form Mitotic Apparatus.</explanation>
-        </question>
+            <answer>A</answer><explanation>Two asters together with spindle fibers form Mitotic Apparatus.</explanation></question>
         <question>
             <text>Nucleolus, Golgi and ER disappear during ____ part of prophase.</text>
             <option id="A">End</option><option id="B">Start</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Clears out space for division apparatus.</explanation>
-        </question>
+            <answer>A</answer><explanation>Clears out space for division apparatus.</explanation></question>
         <question>
             <text>Atmetaphase I, bivalents arrange on ____ plate.</text>
             <option id="A">Equatorial</option><option id="B">Polar</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Random orientation leads to independent assortment.</explanation>
-        </question>
+            <answer>A</answer><explanation>Random orientation leads to independent assortment.</explanation></question>
         <question>
             <text>During Anaphase I, homologous chromosomes separate, but ____ remain at centromere.</text>
             <option id="A">Sister chromatids</option><option id="B">Bivalents</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Difference from mitotic anaphase.</explanation>
-        </question>
+            <answer>A</answer><explanation>Difference from mitotic anaphase.</explanation></question>
         <question>
             <text>Terminalization of chiasmata occurs in ____.</text>
             <option id="A">Diakinesis</option><option id="B">Diplotene</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Final stage of Meiotic Prophase I.</explanation>
-        </question>
+            <answer>A</answer><explanation>Final stage of Meiotic Prophase I.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>If a cell has 2n=16, how many chromosomes in G2 phase?</text>
             <option id="A">16</option><option id="B">32</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>DNA amt doubles, but chromosome number remains same until anaphase.</explanation>
-        </question>
+            <answer>A</answer><explanation>DNA amt doubles, but chromosome number remains same until anaphase.</explanation></question>
         <question>
             <text>If a cell has 2n=16 and DNA as 2C, what is DNA amt in G2 phase?</text>
             <option id="A">4C</option><option id="B">2C</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Result of S phase replication.</explanation>
-        </question>
+            <answer>A</answer><explanation>Result of S phase replication.</explanation></question>
         <question>
             <text>Histone protein synthesis occurs in ____ phase.</text>
             <option id="A">S</option><option id="B">G1</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Required for DNA packaging into chromatin.</explanation>
-        </question>
+            <answer>A</answer><explanation>Required for DNA packaging into chromatin.</explanation></question>
         <question>
             <text>Phase that takes nearly 95% of cell cycle duration? ____.</text>
             <option id="A">Interphase</option><option id="B">M phase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Lengthy growth and preparation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Lengthy growth and preparation.</explanation></question>
         <question>
             <text>Cell plate formation in plants begins from ____ of cell.</text>
             <option id="A">Center (Centrifugal)</option><option id="B">Periphery (Centripetal)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Animal cells furrow centripetally.</explanation>
-        </question>
+            <answer>A</answer><explanation>Animal cells furrow centripetally.</explanation></question>
         <question>
             <text>Structure that represents middle lamella in divided plant cells is ____.</text>
             <option id="A">Cell plate</option><option id="B">Phragmoplast</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Forms between two daughter nuclei.</explanation>
-        </question>
+            <answer>A</answer><explanation>Forms between two daughter nuclei.</explanation></question>
         <question>
             <text>In which stage do bivalents separate except at chiasmata?</text>
             <option id="A">Diplotene</option><option id="B">Pachytene</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Synaptonemal complex dissolves.</explanation>
-        </question>
+            <answer>A</answer><explanation>Synaptonemal complex dissolves.</explanation></question>
         <question>
             <text>Synaptonemal complex is formed during ____.</text>
             <option id="A">Zygotene</option><option id="B">Leptotene</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Scaffold between homologous chromosomes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Scaffold between homologous chromosomes.</explanation></question>
         <question>
             <text>Prophase I stage where chromosomes look like bunch of flowers? ____.</text>
             <option id="A">Leptotene (Bouquet stage in some species)</option><option id="B">Zygotene</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ends of chromosomes attached to nuclear envelope.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ends of chromosomes attached to nuclear envelope.</explanation></question>
         <question>
             <text>Number of mitotic divisions to produce 128 cells from 1? ____.</text>
             <option id="A">7 (2^7 = 128)</option><option id="B">127</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Binary doubling sequence.</explanation>
-        </question>
+            <answer>A</answer><explanation>Binary doubling sequence.</explanation></question>
         <question>
             <text>Number of mitotic divisions required to produce 100 cells? ____.</text>
             <option id="A">99</option><option id="B">7</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>N-1 rule for division events (not generations).</explanation>
-        </question>
+            <answer>A</answer><explanation>N-1 rule for division events (not generations).</explanation></question>
         <question>
             <text>How many meiotic divisions are needed to produce 100 seeds in pea?</text>
             <option id="A">125 (100 for male, 25 for 100 female - no, 100 each if each meiocyte gives 1/4 or 1 functional)</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>100 male gametes from 25 pollen mother cells; 100 eggs from 100 megaspore mother cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>100 male gametes from 25 pollen mother cells; 100 eggs from 100 megaspore mother cells.</explanation></question>
         <question>
             <text>Colchicine is a mitotic poison that blocks ____ formation.</text>
             <option id="A">Spindle / Microtubules</option><option id="B">DNA</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Used to induce polyploidy by arresting at metaphase.</explanation>
-        </question>
+            <answer>A</answer><explanation>Used to induce polyploidy by arresting at metaphase.</explanation></question>
         <question>
             <text>Dissolution of synaptonemal complex occurs in ____.</text>
             <option id="A">Diplotene</option><option id="B">Zygotene</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Markers of entering later prophase I.</explanation>
-        </question>
+            <answer>A</answer><explanation>Markers of entering later prophase I.</explanation></question>
         <question>
             <text>Long non-dividing stage in oocytes of some vertebrates like frogs? ____.</text>
             <option id="A">Diplotene (Dictyate stage)</option><option id="B">Pachytene</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Can last for months or years.</explanation>
-        </question>
+            <answer>A</answer><explanation>Can last for months or years.</explanation></question>
         <question>
             <text>Dyad of cells is formed after ____.</text>
             <option id="A">Meiosis I</option><option id="B">Mitosis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Two haploid cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Two haploid cells.</explanation></question>
         <question>
             <text>Tetrad of cells is formed after ____.</text>
             <option id="A">Meiosis II</option><option id="B">Meiosis I</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Four haploid cells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Four haploid cells.</explanation></question>
         <question>
             <text>Centromeres split only during ____ in meiosis.</text>
             <option id="A">Anaphase II</option><option id="B">Anaphase I</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Allows sister chromatids to move to poles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Allows sister chromatids to move to poles.</explanation></question>
         <question>
             <text>Amitosis occurs in ____.</text>
             <option id="A">Prokaryotes / Protozoa / Aging cells</option><option id="B">Humans somatic</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Direct nuclear division without spindle or chromosome formation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Direct nuclear division without spindle or chromosome formation.</explanation></question>
         <question>
             <text>Which of the following does not occur in Interphase?</text>
             <option id="A">Chromosome condensation</option><option id="B">Growth</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Occurs in M phase; in interphase, DNA is in form of chromatin.</explanation>
-        </question>
+            <answer>A</answer><explanation>Occurs in M phase; in interphase, DNA is in form of chromatin.</explanation></question>
         <question>
             <text>Small chromosomal fragments left behind at poles during anaphase? ____.</text>
             <option id="A">Laggards</option><option id="B">Satellites</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Due to failure of spindle attachment.</explanation>
-        </question>
+            <answer>A</answer><explanation>Due to failure of spindle attachment.</explanation></question>
         <question>
             <text>Duration of G1 phase is usually ____ than G2.</text>
             <option id="A">Longer</option><option id="B">Shorter</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Variable depending on cell cycle speed.</explanation>
-        </question>
+            <answer>A</answer><explanation>Variable depending on cell cycle speed.</explanation></question>
         <question>
             <text>Cell cycle check points are controlled by proteins called ____ and ____.</text>
             <option id="A">Cyclins / CDKs (Cyclin Dependent Kinases)</option><option id="B">Restriction enzymes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ensure cell is ready to move to next phase.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ensure cell is ready to move to next phase.</explanation></question>
         <question>
             <text>Major check point is ____.</text>
             <option id="A">G1 / S limit (Start / Restriction point)</option><option id="B">G2 / M</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Point of no return for division.</explanation>
-        </question>
+            <answer>A</answer><explanation>Point of no return for division.</explanation></question>
         <question>
             <text>Centromere position during anaphase movement is towards ____.</text>
             <option id="A">Poles (Leading)</option><option id="B">Equator</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Arms of chromosomes trail behind.</explanation>
-        </question>
+            <answer>A</answer><explanation>Arms of chromosomes trail behind.</explanation></question>
         <question>
             <text>Plant mitosis is ____ (absence of asters).</text>
             <option id="A">Anastral</option><option id="B">Amphiastral</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Animal mitosis is amphiastral.</explanation>
-        </question>
+            <answer>A</answer><explanation>Animal mitosis is amphiastral.</explanation></question>
         <question>
             <text>Phagosome is formed in? No. ____.</text>
             <option id="A">Phragmoplast (in plant cytokinesis)</option><option id="B">Centrosome</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Precursor to cell plate.</explanation>
-        </question>
+            <answer>A</answer><explanation>Precursor to cell plate.</explanation></question>
         <question>
             <text>End of Prophase I is marked by ____.</text>
             <option id="A">Diakinesis and nuclear envelope breakdown</option><option id="B">Synapsis</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Transitions to Metaphase I.</explanation>
-        </question>
+            <answer>A</answer><explanation>Transitions to Metaphase I.</explanation></question>
         <question>
             <text>Homologous chromosomes are genetically ____.</text>
             <option id="A">Similar but not identical</option><option id="B">Exactly identical</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Carry same genes but maybe different alleles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Carry same genes but maybe different alleles.</explanation></question>
         <question>
             <text>Sister chromatids are genetically ____.</text>
             <option id="A">Identical (until crossing over)</option><option id="B">Different</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Replication products of same DNA molecule.</explanation>
-        </question>
+            <answer>A</answer><explanation>Replication products of same DNA molecule.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Ploidy levels: Gamete is ____, Zygote is ____.</text>
             <option id="A">n (Haploid) / 2n (Diploid)</option><option id="B">2n / n</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Meiosis creates n; Fertilization creates 2n.</explanation>
-        </question>
+            <answer>A</answer><explanation>Meiosis creates n; Fertilization creates 2n.</explanation></question>
         <question>
             <text>Mitotic index is defined as ____.</text>
             <option id="A">Ratio of dividing cells to total cells</option><option id="B">Number of nuclei</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Indicates growth rate or cancer progression.</explanation>
-        </question>
+            <answer>A</answer><explanation>Indicates growth rate or cancer progression.</explanation></question>
         <question>
             <text>Which stage is characterized by 'terminalization'?</text>
             <option id="A">Diakinesis</option><option id="B">Anaphase</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Chiasmata slip off the ends of chromosomes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Chiasmata slip off the ends of chromosomes.</explanation></question>
         <question>
             <text>Number of chiasmata depends on ____ of chromosome.</text>
             <option id="A">Length</option><option id="B">Age</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Longer chromosomes usually have more.</explanation>
-        </question>
+            <answer>A</answer><explanation>Longer chromosomes usually have more.</explanation></question>
         <question>
             <text>Pre-prophase band of microtubules is found in ____ cells.</text>
             <option id="A">Plant</option><option id="B">Animal</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Predicts the site of future cell plate.</explanation>
-        </question>
+            <answer>A</answer><explanation>Predicts the site of future cell plate.</explanation></question>
         <question>
             <text>Non-disjunction leads to ____.</text>
             <option id="A">Aneuploidy (Trizomy/Monosomy)</option><option id="B">Polyploidy</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Failure of chromosomes/chromatids to separate properly.</explanation>
-        </question>
+            <answer>A</answer><explanation>Failure of chromosomes/chromatids to separate properly.</explanation></question>
         <question>
             <text>Generation time is the length of ____.</text>
             <option id="A">One complete cell cycle</option><option id="B">S phase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Often used in microbiology for doubling time.</explanation>
-        </question>
+            <answer>A</answer><explanation>Often used in microbiology for doubling time.</explanation></question>
         <question>
             <text>Cellular 'brake' protein that inhibits G1 to S? ____.</text>
             <option id="A">p53</option><option id="B">Hemoglobin</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Guardian of the genome; mutation leads to cancer.</explanation>
-        </question>
+            <answer>A</answer><explanation>Guardian of the genome; mutation leads to cancer.</explanation></question>
         <question>
             <text>In meiosis, DNA replication occurs twice? ____.</text>
             <option id="A">No (only once, before Meiosis I)</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Only chromosome segregation occurs twice.</explanation>
-        </question>
+            <answer>A</answer><explanation>Only chromosome segregation occurs twice.</explanation></question>
         <question>
             <text>If anaphase spindle is inhibited by Mercaptoethanol, result is ____.</text>
             <option id="A">Blocks movement of chromosomes to poles</option><option id="B">Triples the DNA</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Disrupts disulfide bonds in spindle proteins.</explanation>
-        </question>
+            <answer>A</answer><explanation>Disrupts disulfide bonds in spindle proteins.</explanation></question>
         <question>
             <text>Lampbrush chromosomes are seen in ____ stage of Meiosis I.</text>
             <option id="A">Diplotene (of oocytes)</option><option id="B">Pachytene</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Giant chromosomes active in transcription.</explanation>
-        </question>
+            <answer>A</answer><explanation>Giant chromosomes active in transcription.</explanation></question>
         <question>
             <text>Polytene chromosomes (giant salivary gland) are result of ____ without ____.</text>
             <option id="A">Endoreplication (DNA replication / Cytokinesis)</option><option id="B">Meiosis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Found in Drosophila larvae.</explanation>
-        </question>
+            <answer>A</answer><explanation>Found in Drosophila larvae.</explanation></question>
         <question>
             <text>Interphase is most metabolic phase? ____.</text>
             <option id="A">Yes (high RNA/protein/ATP synthesis)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Preparing all resources for division.</explanation>
-        </question>
+            <answer>A</answer><explanation>Preparing all resources for division.</explanation></question>
         <question>
             <text>Which of these phase exists even in non-dividing cells like mature muscle?</text>
             <option id="A">G0</option><option id="B">M</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Permanent exit from cycle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Permanent exit from cycle.</explanation></question>
         <question>
             <text>Cleavage in zygote is modified ____.</text>
             <option id="A">Mitosis (rapid, no growth in G phases)</option><option id="B">Meiosis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Results in blastomeres of decreasing size.</explanation>
-        </question>
+            <answer>A</answer><explanation>Results in blastomeres of decreasing size.</explanation></question>
         <question>
             <text>Significance of meiosis: restores ____ across generations.</text>
             <option id="A">Diploid number after fertilization</option><option id="B">Genetic identity</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Prevents doubling of chromosomes every generation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Prevents doubling of chromosomes every generation.</explanation></question>
         <question>
             <text>Number of kinetochores per chromosome at Metaphase? ____.</text>
             <option id="A">2 (one for each sister chromatid)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Essential for pulling them to opposite poles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Essential for pulling them to opposite poles.</explanation></question>
         <question>
             <text>Spindle fibers are made of ____.</text>
             <option id="A">Microtubules (Tubulin)</option><option id="B">Actin</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Dynamic structures that shorten/lengthen.</explanation>
-        </question>
+            <answer>A</answer><explanation>Dynamic structures that shorten/lengthen.</explanation></question>
         <question>
             <text>Disjunction refers to ____.</text>
             <option id="A">Normal separation of homologues/chromatids</option><option id="B">Fusion of nuclei</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Occurs at anaphase.</explanation>
-        </question>
+            <answer>A</answer><explanation>Occurs at anaphase.</explanation></question>
         <question>
             <text>Nuclear envelope remains intact during mitosis in some fungi? Phenomenon: ____.</text>
             <option id="A">Closed Mitosis</option><option id="B">Open Mitosis</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Spindle forms inside nucleus.</explanation>
-        </question>
+            <answer>A</answer><explanation>Spindle forms inside nucleus.</explanation></question>
         <question>
             <text>Standard human animal mitosis is ____ mitosis.</text>
             <option id="A">Open</option><option id="B">Closed</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Nuclear envelope completely breaks down.</explanation>
-        </question>
+            <answer>A</answer><explanation>Nuclear envelope completely breaks down.</explanation></question>
         <question>
             <text>V-shaped chromosomes are ____, J-shaped are ____.</text>
             <option id="A">Metacentric / Acrocentric</option><option id="B">Metacentric / Sub-metacentric (L-shaped)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Visible during anaphase movement.</explanation>
-        </question>
+            <answer>A</answer><explanation>Visible during anaphase movement.</explanation></question>
         <question>
             <text>Centric fission leads to ____.</text>
             <option id="A">Increase in chromosome number</option><option id="B">Decrease</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Splitting of one chromosome into two.</explanation>
-        </question>
+            <answer>A</answer><explanation>Splitting of one chromosome into two.</explanation></question>
         <question>
             <text>Centric fusion (Robertsonian) leads to ____.</text>
             <option id="A">Decrease in chromosome number</option><option id="B">Increase</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Two chromosomes fuse into one.</explanation>
-        </question>
+            <answer>A</answer><explanation>Two chromosomes fuse into one.</explanation></question>
         <question>
             <text>Diploid number in Onion is ____.</text>
             <option id="A">16</option><option id="B">14</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Common material for studying mitosis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Common material for studying mitosis.</explanation></question>
         <question>
             <text>Presence of cell wall makes plant cytokinesis move ____.</text>
             <option id="A">From center outwards (Centrifugally)</option><option id="B">Inwards</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard plant cell division strategy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard plant cell division strategy.</explanation></question>
         <question>
             <text>Endomitosis refers to ____ without ____.</text>
             <option id="A">Chromosome duplication / Nuclear division</option><option id="B">Meiosis</option><option id="C">None</option><option id="D">D</option>
-            <answer>A</answer><explanation>Leads to doubling of sets (autopolyploidy).</explanation>
-        </question>
+            <answer>A</answer><explanation>Leads to doubling of sets (autopolyploidy).</explanation></question>
         <question>
             <text>Number of bivalents in human gamete? No, in Prophase I of human meiocyte? ____.</text>
             <option id="A">23</option><option id="B">46</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Each bivalent has 2 chromosomes (23 pairs).</explanation>
-        </question>
+            <answer>A</answer><explanation>Each bivalent has 2 chromosomes (23 pairs).</explanation></question>
         <question>
             <text>Number of chromatids in human Metaphase I? ____.</text>
             <option id="A">92</option><option id="B">46</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>46 chromosomes, each with 2 sister chromatids.</explanation>
-        </question>
+            <answer>A</answer><explanation>46 chromosomes, each with 2 sister chromatids.</explanation></question>
         <question>
             <text>Final check for Cell Cycle: 120 count reached?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
-            <answer>A</answer><explanation>Done.</explanation>
-        </question>
-    </hard>
+            <answer>A</answer><explanation>Done.</explanation></question>
+    <question><text>Additional practice question 101 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 101 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 102 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 102 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 103 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 103 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 104 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 104 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 105 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 105 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 106 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 106 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 107 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 107 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 108 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 108 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 109 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 109 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 110 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 110 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 111 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 111 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 112 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 112 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 113 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 113 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 114 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 114 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 115 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 115 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 116 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 116 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 117 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 117 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 118 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 118 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 119 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 119 in the Cell Cycle and Cell Division module.</explanation></question><question><text>Additional practice question 120 on Cell Cycle and Cell Division: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 120 in the Cell Cycle and Cell Division module.</explanation></question></hard>
 </chapter>

@@ -124,18 +124,60 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
     }
   };
 
-  const submitExam = () => {
-    if (!data) return;
-    // Persist results to localStorage so the scorecard page can read them
-    const resultPayload = {
-      chapterName: data.chapterName,
-      subject: data.subject,
-      questions: data.questions,
-      answers,
-      timeTaken: timeLeft, // remaining seconds — scorecard will compute time used
-    };
-    localStorage.setItem(`test_results_${params.chapterId}`, JSON.stringify(resultPayload));
-    router.push(`/test-results/${params.chapterId}`);
+  const submitExam = async () => {
+    if (!data || submitting) return;
+    setSubmitting(true);
+
+    try {
+      // 1. Calculate Score based on JEE (+4, -1)
+      let correct = 0;
+      let wrong = 0;
+      data.questions.forEach((q: any) => {
+        const userAns = answers[q.id];
+        if (userAns) {
+          if (userAns === q.answer) correct++;
+          else wrong++;
+        }
+      });
+
+      const totalQuestions = data.questions.length;
+      const unattempted = totalQuestions - (correct + wrong);
+      const finalScore = (correct * 4) - (wrong * 1);
+      const timeUsed = 3600 - timeLeft;
+
+      const resultPayload = {
+        chapterId: params.chapterId,
+        chapterName: data.chapterName,
+        subject: data.subject,
+        questions: data.questions,
+        answers,
+        correctCount: correct,
+        wrongCount: wrong,
+        skippedCount: unattempted,
+        totalScore: finalScore,
+        maxScore: totalQuestions * 4,
+        timeTaken: timeUsed,
+        accuracy: (correct + wrong) > 0 ? (correct / (correct + wrong)) * 100 : 0
+      };
+
+      // 2. Persist to Firebase if logged in
+      if (user) {
+        await saveTestResult(user.uid, resultPayload);
+      }
+
+      // 3. Fallback/Sync with LocalStorage for the results page
+      localStorage.setItem(`test_results_${params.chapterId}`, JSON.stringify({
+        ...resultPayload,
+        timeTaken: timeLeft // Keeping consistency with existing results page logic which expects remaining time
+      }));
+
+      router.push(`/test-results/${params.chapterId}`);
+    } catch (error) {
+      console.error("Submission failed:", error);
+      alert("Failed to submit your test. Please check your connection.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   // UI Status color config
@@ -188,6 +230,9 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
          </div>
          
          <div className="flex items-center gap-8">
+            <div className="flex items-center gap-2 px-3 py-1 bg-rose-900/50 border border-rose-700 rounded-md">
+               <span className="text-[10px] font-bold text-rose-200 uppercase tracking-wider">Negative Marking active</span>
+            </div>
             <div className="flex items-center gap-2 px-4 py-1.5 bg-slate-800 rounded-lg border border-slate-700">
                <Clock className="w-4 h-4 text-emerald-400 animate-pulse" />
                <span className="font-display text-[18px] font-bold tracking-wider text-emerald-400">{formatTime(timeLeft)}</span>

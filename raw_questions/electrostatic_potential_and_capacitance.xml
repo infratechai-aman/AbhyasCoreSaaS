@@ -4,607 +4,486 @@
         <question>
             <text>Electrostatic potential at a point is a ____ quantity.</text>
             <option id="A">Scalar</option><option id="B">Vector</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>It is work done per unit charge, unrelated to direction.</explanation>
-        </question>
+            <answer>A</answer><explanation>It is work done per unit charge, unrelated to direction.</explanation></question>
         <question>
             <text>The SI unit of electrostatic potential is ____.</text>
             <option id="A">Volt (V)</option><option id="B">Coulomb (C)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>1 Volt = 1 Joule / 1 Coulomb.</explanation>
-        </question>
+            <answer>A</answer><explanation>1 Volt = 1 Joule / 1 Coulomb.</explanation></question>
         <question>
             <text>The dimensional formula for electric potential is ____.</text>
             <option id="A">[ML^2 T^-3 A^-1]</option><option id="B">[ML^2 T^-2 A^-1]</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derived from W/q.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from W/q.</explanation></question>
         <question>
             <text>Work done in moving a charge over an equipotential surface is ____.</text>
             <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Potential difference between any two points on it is zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>Potential difference between any two points on it is zero.</explanation></question>
         <question>
             <text>Electric field lines are always ____ to the equipotential surface.</text>
             <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ensures no work is done along the surface.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ensures no work is done along the surface.</explanation></question>
         <question>
             <text>The capacity of a conductor is the ratio of ____ to ____.</text>
             <option id="A">Charge, Potential</option><option id="B">Potential, Charge</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C = Q/V.</explanation>
-        </question>
+            <answer>A</answer><explanation>C = Q/V.</explanation></question>
         <question>
             <text>The SI unit of capacitance is ____.</text>
             <option id="A">Farad (F)</option><option id="B">Henry (H)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>1 Farad = 1 Coulomb / 1 Volt.</explanation>
-        </question>
+            <answer>A</answer><explanation>1 Farad = 1 Coulomb / 1 Volt.</explanation></question>
         <question>
             <text>A capacitor stores energy in the form of ____ field.</text>
             <option id="A">Electric</option><option id="B">Magnetic</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Between the plates where E-field exists.</explanation>
-        </question>
+            <answer>A</answer><explanation>Between the plates where E-field exists.</explanation></question>
         <question>
             <text>Dielectrics are ____ substances.</text>
             <option id="A">Non-conducting</option><option id="B">Conducting</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>They develop induced dipole moments in E-field.</explanation>
-        </question>
+            <answer>A</answer><explanation>They develop induced dipole moments in E-field.</explanation></question>
         <question>
             <text>Electric potential at infinity is taken as ____.</text>
             <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard reference point.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard reference point.</explanation></question>
         <question>
             <text>Potential due to a point charge Q at distance r is proportional to ____.</text>
             <option id="A">1/r</option><option id="B">1/r^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>V = kQ/r.</explanation>
-        </question>
+            <answer>A</answer><explanation>V = kQ/r.</explanation></question>
         <question>
             <text>For a positive point charge, equipotential surfaces are ____ shells.</text>
             <option id="A">Concentric spherical</option><option id="B">Cylindrical</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Symmetry around the point source.</explanation>
-        </question>
+            <answer>A</answer><explanation>Symmetry around the point source.</explanation></question>
         <question>
             <text>When a dielectric is inserted, capacitance increases by factor ____.</text>
             <option id="A">K (Dielectric constant)</option><option id="B">1/K</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C' = KC_0.</explanation>
-        </question>
+            <answer>A</answer><explanation>C' = KC_0.</explanation></question>
         <question>
             <text>Potential energy of two point charges Q1, Q2 at distance r is ____.</text>
             <option id="A">k Q1 Q2 / r</option><option id="B">k Q1 Q2 / r^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Energy stored in the system configuration.</explanation>
-        </explanation>
-        </question>
+            <answer>A</answer><explanation>Energy stored in the system configuration.</explanation></question>
         <question>
             <text>Dielectric polarization is defined as dipole moment per unit ____.</text>
             <option id="A">Volume</option><option id="B">Area</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>P = np (for n dipoles per volume).</explanation>
-        </question>
+            <answer>A</answer><explanation>P = np (for n dipoles per volume).</explanation></question>
         <question>
             <text>Which of the following is a polar molecule?</text>
             <option id="A">HCl / H2O</option><option id="B">H2 / O2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Coinciding centers of positive and negative charges are absent.</explanation>
-        </question>
+            <answer>A</answer><explanation>Coinciding centers of positive and negative charges are absent.</explanation></question>
         <question>
             <text>Which of the following is a non-polar molecule?</text>
             <option id="A">H2 / O2 / CO2</option><option id="B">HCl</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Symmetric centers cancel dipole moment.</explanation>
-        </question>
+            <answer>A</answer><explanation>Symmetric centers cancel dipole moment.</explanation></question>
         <question>
             <text>Potential inside a hollow charged spherical conductor is ____.</text>
             <option id="A">Constant (Same as on surface)</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Electric field is zero inside.</explanation>
-        </question>
+            <answer>A</answer><explanation>Electric field is zero inside.</explanation></question>
         <question>
             <text>Relation between E and V is E = ____.</text>
             <option id="A">-dV/dr</option><option id="B">dV/dr</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Field points in direction of decreasing potential.</explanation>
-        </question>
+            <answer>A</answer><explanation>Field points in direction of decreasing potential.</explanation></question>
         <question>
             <text>Work done by conservative electrostatic force is ____ of path.</text>
             <option id="A">Independent</option><option id="B">Dependent</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Property of conservative fields.</explanation>
-        </question>
+            <answer>A</answer><explanation>Property of conservative fields.</explanation></question>
         <question>
             <text>Earth's potential is considered to be ____.</text>
             <option id="A">Zero</option><option id="B">Infinite</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Large reservoir of charge.</explanation>
-        </question>
+            <answer>A</answer><explanation>Large reservoir of charge.</explanation></question>
         <question>
             <text>Capacity of a parallel plate capacitor is C = ____.</text>
             <option id="A">ε₀A/d</option><option id="B">ε₀d/A</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Where A is area and d is distance.</explanation>
-        </question>
+            <answer>A</answer><explanation>Where A is area and d is distance.</explanation></question>
         <question>
             <text>If capacitors C1 and C2 are in series, C_eq = ____.</text>
             <option id="A">C1*C2 / (C1+C2)</option><option id="B">C1 + C2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>1/Cs = 1/C1 + 1/C2.</explanation>
-        </question>
+            <answer>A</answer><explanation>1/Cs = 1/C1 + 1/C2.</explanation></question>
         <question>
             <text>If capacitors C1 and C2 are in parallel, C_eq = ____.</text>
             <option id="A">C1 + C2</option><option id="B">C1*C2 / (C1+C2)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Charges are additive.</explanation>
-        </question>
+            <answer>A</answer><explanation>Charges are additive.</explanation></question>
         <question>
             <text>Energy stored in a capacitor is U = ____.</text>
             <option id="A">1/2 CV^2</option><option id="B">CV^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Also equal to Q^2/2C.</explanation>
-        </question>
+            <answer>A</answer><explanation>Also equal to Q^2/2C.</explanation></question>
         <question>
             <text>Dielectric strength is the ____ electric field a material can withstand.</text>
             <option id="A">Maximum</option><option id="B">Minimum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Beyond this, dielectric breakdown occurs.</explanation>
-        </question>
+            <answer>A</answer><explanation>Beyond this, dielectric breakdown occurs.</explanation></question>
         <question>
             <text>Commonly used unit for small capacitance is ____.</text>
             <option id="A">μF (Microfarad)</option><option id="B">kF</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>1 μF = 10^-6 F.</explanation>
-        </question>
+            <answer>A</answer><explanation>1 μF = 10^-6 F.</explanation></question>
         <question>
             <text>Van de Graaff generator produces ____.</text>
             <option id="A">High Potential</option><option id="B">High Current</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Up to several million volts.</explanation>
-        </question>
+            <answer>A</answer><explanation>Up to several million volts.</explanation></question>
         <question>
             <text>Charge sharing between two conductors leads to ____ of energy.</text>
             <option id="A">Loss (as heat/spark)</option><option id="B">Gain</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Redistribution reaches common potential.</explanation>
-        </question>
+            <answer>A</answer><explanation>Redistribution reaches common potential.</explanation></question>
         <question>
             <text>Electric dipole potential falls off at large distance as ____.</text>
             <option id="A">1/r^2</option><option id="B">1/r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Due to cancellation effect of opposite charges.</explanation>
-        </question>
+            <answer>A</answer><explanation>Due to cancellation effect of opposite charges.</explanation></question>
         <question>
             <text>Potential at a point on equatorial line of a dipole is ____.</text>
             <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Equidistant from both charges.</explanation>
-        </question>
+            <answer>A</answer><explanation>Equidistant from both charges.</explanation></question>
         <question>
             <text>The value of ε₀ is approximately ____ C^2 N^-1 m^-2.</text>
             <option id="A">8.854 x 10^-12</option><option id="B">9 x 10^9</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Permittivity of free space.</explanation>
-        </question>
+            <answer>A</answer><explanation>Permittivity of free space.</explanation></question>
         <question>
             <text>Capacitance of a spherical conductor of radius R is ____.</text>
             <option id="A">4πε₀R</option><option id="B">kR</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Linear dependence on radius.</explanation>
-        </question>
+            <answer>A</answer><explanation>Linear dependence on radius.</explanation></question>
         <question>
             <text>When plates of a capacitor are moved apart, capacitance ____.</text>
             <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C inversly proportional to d.</explanation>
-        </question>
+            <answer>A</answer><explanation>C inversly proportional to d.</explanation></question>
         <question>
             <text>Dielectric constant of water is approx ____.</text>
             <option id="A">81</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>High due to polar nature.</explanation>
-        </question>
+            <answer>A</answer><explanation>High due to polar nature.</explanation></question>
         <question>
             <text>Dielectric constant of a metal is ____.</text>
             <option id="A">Infinity</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Perfect conductor shield.</explanation>
-        </question>
+            <answer>A</answer><explanation>Perfect conductor shield.</explanation></question>
         <question>
             <text>Unit of electric displacement vector D is ____.</text>
             <option id="A">C/m^2</option><option id="B">V/m</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Same as surface charge density.</explanation>
-        </question>
+            <answer>A</answer><explanation>Same as surface charge density.</explanation></question>
         <question>
             <text>Potential increases in the ____ direction of electric field.</text>
             <option id="A">Opposite</option><option id="B">Same</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E points from high to low potential.</explanation>
-        </question>
+            <answer>A</answer><explanation>E points from high to low potential.</explanation></question>
         <question>
             <text>Can two equipotential surfaces intersect?</text>
             <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Would imply two different potentials at the same point.</explanation>
-        </question>
+            <answer>A</answer><explanation>Would imply two different potentials at the same point.</explanation></question>
         <question>
             <text>Action of points refers to discharge from ____ ends.</text>
             <option id="A">Sharp / Pointed</option><option id="B">Round</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>High surface charge density at corners.</explanation>
-        </question>
+            <answer>A</answer><explanation>High surface charge density at corners.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Total work done by electrostatic field in moving a charge around a closed loop is ____.</text>
             <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Electrostatic force is a conservative force.</explanation>
-        </question>
+            <answer>A</answer><explanation>Electrostatic force is a conservative force.</explanation></question>
         <question>
             <text>If potential V(x) = 5x + 3, the electric field E at x = 2 is ____.</text>
             <option id="A">-5 units</option><option id="B">5 units</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E = -dV/dx.</explanation>
-        </question>
+            <answer>A</answer><explanation>E = -dV/dx.</explanation></question>
         <question>
             <text>Equipotential surfaces for a uniform electric field along Z-axis are ____.</text>
             <option id="A">Planes parallel to XY plane</option><option id="B">Spheres</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>V is constant on planes perpendicular to E.</explanation>
-        </question>
+            <answer>A</answer><explanation>V is constant on planes perpendicular to E.</explanation></question>
         <question>
             <text>Electric potential at the center of a dipole is ____.</text>
             <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Equal and opposite potentials cancel out.</explanation>
-        </question>
+            <answer>A</answer><explanation>Equal and opposite potentials cancel out.</explanation></question>
         <question>
             <text>Capacitance of a capacitor depends on ____.</text>
             <option id="A">Shape, size and medium</option><option id="B">Charge and potential only</option><option id="C">none</option><option id="D">d</option>
-            <answer>A</answer><explanation>Purely geometric and material property.</explanation>
-        </question>
+            <answer>A</answer><explanation>Purely geometric and material property.</explanation></question>
         <question>
             <text>When a dielectric slab (K) partially fills a capacitor, C ____.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Effective d decreases or K increases local field.</explanation>
-        </question>
+            <answer>A</answer><explanation>Effective d decreases or K increases local field.</explanation></question>
         <question>
             <text>Polarization P is related to electric field E as P = ____.</text>
             <option id="A">χε₀E</option><option id="B">ε₀E</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Where χ is electric susceptibility.</explanation>
-        </question>
+            <answer>A</answer><explanation>Where χ is electric susceptibility.</explanation></question>
         <question>
             <text>Energy density in a capacitor is proportional to ____.</text>
             <option id="A">E^2</option><option id="B">E</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>u = 1/2 ε₀E^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>u = 1/2 ε₀E^2.</explanation></question>
         <question>
             <text>Total energy of n identical capacitors in series is ____ times single energy (V same for total).</text>
             <option id="A">1/n</option><option id="B">n</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Equivalent capacitance is C/n.</explanation>
-        </question>
+            <answer>A</answer><explanation>Equivalent capacitance is C/n.</explanation></question>
         <question>
             <text>Total energy of n identical capacitors in parallel is ____ times single energy (V same).</text>
             <option id="A">n</option><option id="B">1/n</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Equivalent capacitance is nC.</explanation>
-        </question>
+            <answer>A</answer><explanation>Equivalent capacitance is nC.</explanation></question>
         <question>
             <text>Potential of a large drop formed by n identical small drops (charge q, rad r) is ____.</text>
             <option id="A">n^(2/3) V</option><option id="B">n V</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>V_large = k(nq)/(n^(1/3)r).</explanation>
-        </question>
+            <answer>A</answer><explanation>V_large = k(nq)/(n^(1/3)r).</explanation></question>
         <question>
             <text>Capacitance of a large drop formed by n identical small drops is ____.</text>
             <option id="A">n^(1/3) C</option><option id="B">n C</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C is proportional to radius.</explanation>
-        </question>
+            <answer>A</answer><explanation>C is proportional to radius.</explanation></question>
         <question>
             <text>Electric potential energy of a dipole in uniform field is U = ____.</text>
             <option id="A">-p.E</option><option id="B">p.E</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>-pE cos θ.</explanation>
-        </question>
+            <answer>A</answer><explanation>-pE cos θ.</explanation></question>
         <question>
             <text>In stable equilibrium, angle between p and E is ____.</text>
             <option id="A">0°</option><option id="B">180°</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Minimum potential energy -pE.</explanation>
-        </question>
+            <answer>A</answer><explanation>Minimum potential energy -pE.</explanation></question>
         <question>
             <text>In unstable equilibrium, angle between p and E is ____.</text>
             <option id="A">180°</option><option id="B">0°</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Maximum potential energy +pE.</explanation>
-        </question>
+            <answer>A</answer><explanation>Maximum potential energy +pE.</explanation></question>
         <question>
             <text>Net field inside a polarized dielectric is ____ than external field.</text>
             <option id="A">Lesser</option><option id="B">Greater</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Induced field opposes the external field.</explanation>
-        </question>
+            <answer>A</answer><explanation>Induced field opposes the external field.</explanation></question>
         <question>
             <text>Work done to turn a dipole from 0° to 180° in uniform field E is ____.</text>
             <option id="A">2pE</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>W = pE(cos 0 - cos 180).</explanation>
-        </question>
+            <answer>A</answer><explanation>W = pE(cos 0 - cos 180).</explanation></question>
         <question>
             <text>Unit of electric susceptibility χ is ____.</text>
             <option id="A">Dimensionless</option><option id="B">Farad</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ratio of Polarization to ε₀E.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ratio of Polarization to ε₀E.</explanation></question>
         <question>
             <text>Two capacitors 2μF and 4μF are in series. Ratio of charges is ____.</text>
             <option id="A">1:1</option><option id="B">1:2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Series components have same charge.</explanation>
-        </question>
+            <answer>A</answer><explanation>Series components have same charge.</explanation></question>
         <question>
             <text>Two capacitors 2μF and 4μF are in parallel. Ratio of charges is ____.</text>
             <option id="A">1:2</option><option id="B">1:1</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Q = CV, and V is same for parallel.</explanation>
-        </question>
+            <answer>A</answer><explanation>Q = CV, and V is same for parallel.</explanation></question>
         <question>
             <text>Electric field at a point is 20 N/C. Potential gradient at that point is ____.</text>
             <option id="A">-20 V/m</option><option id="B">20 V/m</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E = -Potential Gradient.</explanation>
-        </question>
+            <answer>A</answer><explanation>E = -Potential Gradient.</explanation></question>
         <question>
             <text>If C is capacitance in air, capacitance with slab of thickness t &lt; d is C' = ____.</text>
             <option id="A">ε₀A / (d - t(1 - 1/K))</option><option id="B">K C</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard formula for partial filling.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard formula for partial filling.</explanation></question>
         <question>
             <text>Energy loss during sharing of charges between C1(V1) and C2(V2) is ΔU = ____.</text>
             <option id="A">C1C2(V1-V2)^2 / 2(C1+C2)</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derived from initial and final energy states.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from initial and final energy states.</explanation></question>
         <question>
             <text>A 10μF capacitor is charged to 100V. The charge is ____.</text>
             <option id="A">1 mC</option><option id="B">10 mC</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Q = CV = 10x10^-6 * 100 = 10^-3 C.</explanation>
-        </question>
+            <answer>A</answer><explanation>Q = CV = 10x10^-6 * 100 = 10^-3 C.</explanation></question>
         <question>
             <text>Potential due to a dipole varies as ____ at large distance.</text>
             <option id="A">cos θ / r^2</option><option id="B">1 / r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>V = kp cos θ / r^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>V = kp cos θ / r^2.</explanation></question>
         <question>
             <text>Equipotential surfaces for an isolated point charge are ____.</text>
             <option id="A">Concentric spheres</option><option id="B">Planes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Radial symmetry.</explanation>
-        </question>
+            <answer>A</answer><explanation>Radial symmetry.</explanation></question>
         <question>
             <text>Force on a charge q moving on equipotential surface is F. Work done is ____.</text>
             <option id="A">Zero</option><option id="B">F.d</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Cos 90 = 0 since E is normal to surface.</explanation>
-        </question>
+            <answer>A</answer><explanation>Cos 90 = 0 since E is normal to surface.</explanation></question>
         <question>
             <text>Capacitance of a spherical conductor of diameter 2m is ____ pF.</text>
             <option id="A">111</option><option id="B">9</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C = R/k = 1 / (9x10^9) = 1.11 x 10^-10 F = 111 pF.</explanation>
-        </question>
+            <answer>A</answer><explanation>C = R/k = 1 / (9x10^9) = 1.11 x 10^-10 F = 111 pF.</explanation></question>
         <question>
             <text>In a region of constant potential, electric field is ____.</text>
             <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derivative of constant is zero.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derivative of constant is zero.</explanation></question>
         <question>
             <text>Work done to move 2C charge through 10V is ____ J.</text>
             <option id="A">20</option><option id="B">5</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>W = qV.</explanation>
-        </question>
+            <answer>A</answer><explanation>W = qV.</explanation></question>
         <question>
             <text>Value of k in 1/4πε₀ is ____ N m^2 C^-2.</text>
             <option id="A">9 x 10^9</option><option id="B">8.85 x 10^-12</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Proportionality constant.</explanation>
-        </question>
+            <answer>A</answer><explanation>Proportionality constant.</explanation></question>
         <question>
             <text>Effect of temperature on dielectric constant of polar molecules: K ____ with T increase.</text>
             <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Thermal agitation opposes alignment.</explanation>
-        </question>
+            <answer>A</answer><explanation>Thermal agitation opposes alignment.</explanation></question>
         <question>
             <text>Does adding charge to a conductor change its capacitance?</text>
             <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C depends only on geometry/medium.</explanation>
-        </question>
+            <answer>A</answer><explanation>C depends only on geometry/medium.</explanation></question>
         <question>
             <text>Electric potential at distance r from dipole on axis is ____.</text>
             <option id="A">kp / r^2</option><option id="B">kp / r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>θ = 0, cos θ = 1.</explanation>
-        </question>
+            <answer>A</answer><explanation>θ = 0, cos θ = 1.</explanation></question>
         <question>
             <text>Dimension of permittivity ε₀ is ____.</text>
             <option id="A">[M^-1 L^-3 T^4 A^2]</option><option id="B">[M L^3 T^-4 A^-2]</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derived from Coulomb's law.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from Coulomb's law.</explanation></question>
         <question>
             <text>Common potential V after connecting C1(V1) and C2(V2) is ____.</text>
             <option id="A">(C1V1 + C2V2) / (C1 + C2)</option><option id="B">(V1 + V2) / 2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Conservation of total charge.</explanation>
-        </question>
+            <answer>A</answer><explanation>Conservation of total charge.</explanation></question>
         <question>
             <text>If the area of plates of a capacitor is doubled, capacitance ____.</text>
             <option id="A">Doubles</option><option id="B">Halves</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C proportional to A.</explanation>
-        </question>
+            <answer>A</answer><explanation>C proportional to A.</explanation></question>
         <question>
             <text>If distance between plates is doubled, capacitance ____.</text>
             <option id="A">Halves</option><option id="B">Doubles</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C inversely proportional to d.</explanation>
-        </question>
+            <answer>A</answer><explanation>C inversely proportional to d.</explanation></question>
         <question>
             <text>Capacity of a parallel plate capacitor is ____ of its charge.</text>
             <option id="A">Independent</option><option id="B">Dependent</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard property definition.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard property definition.</explanation></question>
         <question>
             <text>Can we have a potential difference between two conductors without charge?</text>
             <option id="A">No (in static case)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Requires presence of electric field/charge.</explanation>
-        </question>
+            <answer>A</answer><explanation>Requires presence of electric field/charge.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Charge Q is distributed over two concentric hollow spheres of radii r and R (R &gt; r). If surface charge densities are same, common potential is ____.</text>
             <option id="A">σ(R+r) / ε₀</option><option id="B">σ(R-r) / ε₀</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sum of potentials from both shells.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sum of potentials from both shells.</explanation></question>
         <question>
             <text>Potential due to a point charge q at distance r in a medium of dielectric K is V = ____.</text>
             <option id="A">q / 4πε₀Kr</option><option id="B">Kq / 4πε₀r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Dielectric reduces the potential by factor K.</explanation>
-        </question>
+            <answer>A</answer><explanation>Dielectric reduces the potential by factor K.</explanation></question>
         <question>
             <text>Potential of an electric dipole at distance r on equatorial line is zero. This is an ____ surface.</text>
             <option id="A">Equipotential (V=0)</option><option id="B">Irregular</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>All points on plane bisecting dipole have zero potential.</explanation>
-        </question>
+            <answer>A</answer><explanation>All points on plane bisecting dipole have zero potential.</explanation></question>
         <question>
             <text>For a dipole, relation between axial and equatorial potential at same distance r (large) is ____.</text>
             <option id="A">V_axial = kp/r^2, V_equatorial = 0</option><option id="B">V_axial = 2V_equa</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Basic dipole field property.</explanation>
-        </question>
+            <answer>A</answer><explanation>Basic dipole field property.</explanation></question>
         <question>
             <text>Work done in bringing three charges q, q, q to corners of equilateral triangle of side a is ____.</text>
             <option id="A">3kq^2 / a</option><option id="B">kq^2 / a</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sum of U for three pairs (1-2, 2-3, 3-1).</explanation>
-        </question>
+            <answer>A</answer><explanation>Sum of U for three pairs (1-2, 2-3, 3-1).</explanation></question>
         <question>
             <text>If an electron is accelerated through 100V, its kinetic energy increases by ____.</text>
             <option id="A">100 eV</option><option id="B">100 J</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>ΔK = qΔV.</explanation>
-        </question>
+            <answer>A</answer><explanation>ΔK = qΔV.</explanation></question>
         <question>
             <text>If C is capacitance of air capacitor, and it is filled with liquid of K=2 up to half its area, new C' is ____.</text>
             <option id="A">1.5 C</option><option id="B">2 C</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Parallel combination of air and liquid halves.</explanation>
-        </question>
+            <answer>A</answer><explanation>Parallel combination of air and liquid halves.</explanation></question>
         <question>
             <text>If a capacitor is filled with liquid of K=2 up to half its thickness, new C' is ____.</text>
             <option id="A">1.33 C</option><option id="B">1.5 C</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Series combination of two halves: 1/C' = 1/(2C) + 1/(4C) where C_sub = Kε₀A/(d/2).</explanation>
-        </question>
+            <answer>A</answer><explanation>Series combination of two halves: 1/C' = 1/(2C) + 1/(4C) where C_sub = Kε₀A/(d/2).</explanation></question>
         <question>
             <text>A soap bubble of radius r is charged to V. If it collapses to radius r/2, new potential is ____.</text>
             <option id="A">2V</option><option id="B">4V</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>V proportional to 1/r (charge Q conserved).</explanation>
-        </question>
+            <answer>A</answer><explanation>V proportional to 1/r (charge Q conserved).</explanation></question>
         <question>
             <text>Energy density u and pressure P in a capacitor are related as ____.</text>
             <option id="A">P = u</option><option id="B">P = 2u</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Electrostatic pressure P = σ^2 / 2ε₀ = 1/2 ε₀E^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>Electrostatic pressure P = σ^2 / 2ε₀ = 1/2 ε₀E^2.</explanation></question>
         <question>
             <text>A dielectric slab is pulled into a capacitor connected to a battery. Potential V ____.</text>
             <option id="A">Remains Constant</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Battery maintains constant voltage.</explanation>
-        </question>
+            <answer>A</answer><explanation>Battery maintains constant voltage.</explanation></question>
         <question>
             <text>A dielectric slab is pulled into an isolated charged capacitor. Charge Q ____.</text>
             <option id="A">Remains Constant</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>No path for charge to leave.</explanation>
-        </question>
+            <answer>A</answer><explanation>No path for charge to leave.</explanation></question>
         <question>
             <text>Work done against electrostatic force to move charge Q from surf to center of conductor shell ____.</text>
             <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Inside region is equipotential.</explanation>
-        </question>
+            <answer>A</answer><explanation>Inside region is equipotential.</explanation></question>
         <question>
             <text>Which of the following describes the behavior of water molecules?</text>
             <option id="A">Permanent dipole moment (Polar)</option><option id="B">Zero dipole moment</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Bent structure prevents cancellation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Bent structure prevents cancellation.</explanation></question>
         <question>
             <text>Susceptibility χ is related to K by K = ____.</text>
             <option id="A">1 + χ</option><option id="B">1 - χ</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Basic dielectric theory relation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Basic dielectric theory relation.</explanation></question>
         <question>
             <text>For a spherical conductor, C=4πε₀R. If R increases 10 times, energy stored (Q same) ____.</text>
             <option id="A">Decreases 10 times</option><option id="B">Increases 10 times</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>U = Q^2 / 2C.</explanation>
-        </question>
+            <answer>A</answer><explanation>U = Q^2 / 2C.</explanation></question>
         <question>
             <text>Van de Graaff generator uses ____ of pointed conductors.</text>
             <option id="A">Corona discharge (Action of points)</option><option id="B">H-bonding</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Spray of ions from comb.</explanation>
-        </question>
+            <answer>A</answer><explanation>Spray of ions from comb.</explanation></question>
         <question>
             <text>Electric potential at distance r (axial) of dipole varies as ____.</text>
             <option id="A">1/r^2</option><option id="B">1/r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard dipole approximation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard dipole approximation.</explanation></question>
         <question>
             <text>If plates of a capacitor are moved closer, energy (V same) ____.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C increases, U = 1/2 CV^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>C increases, U = 1/2 CV^2.</explanation></question>
         <question>
             <text>If plates of isolated capacitor are moved apart, energy stored ____.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Work is done against attraction: U = Q^2/2C, C decreases.</explanation>
-        </question>
+            <answer>A</answer><explanation>Work is done against attraction: U = Q^2/2C, C decreases.</explanation></question>
         <question>
             <text>Potentials of two spheres are V1, V2. After connecting, common potential satisfies ____.</text>
             <option id="A">Between V1 and V2</option><option id="B">V1 + V2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Charge flows until equilibrium.</explanation>
-        </question>
+            <answer>A</answer><explanation>Charge flows until equilibrium.</explanation></question>
         <question>
             <text>In a parallel plate capacitor, E = ____.</text>
             <option id="A">σ / ε₀</option><option id="B">σ / 2ε₀</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Combined field of both plates.</explanation>
-        </question>
+            <answer>A</answer><explanation>Combined field of both plates.</explanation></question>
         <question>
             <text>If K is dielectric constant, its unit is ____.</text>
             <option id="A">Unitless</option><option id="B">Farad</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ratio of two similar quantities.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ratio of two similar quantities.</explanation></question>
         <question>
             <text>Radius of Earth is 6400 km. Its capacitance is approx ____ μF.</text>
             <option id="A">711</option><option id="B">64</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>C = R / (9x10^9) = 6.4x10^6 / 9x10^9 = 7.11 x 10^-4 F.</explanation>
-        </question>
+            <answer>A</answer><explanation>C = R / (9x10^9) = 6.4x10^6 / 9x10^9 = 7.11 x 10^-4 F.</explanation></question>
         <question>
             <text>Force on plates of a capacitor is F = ____.</text>
             <option id="A">Q^2 / 2ε₀A</option><option id="B">QE</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Average field times charge.</explanation>
-        </question>
+            <answer>A</answer><explanation>Average field times charge.</explanation></question>
         <question>
             <text>Two small spheres of same charge repel each other with F. A third identical uncharged sphere touches one, then midpoint. New F' is ____.</text>
             <option id="A">3F/8</option><option id="B">F/2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Charge distribution: q/2 on one, 3q/4 on midpoint.</explanation>
-        </question>
+            <answer>A</answer><explanation>Charge distribution: q/2 on one, 3q/4 on midpoint.</explanation></question>
         <question>
             <text>Electrical potential at surface of gold nucleus (Z=79, R=6.6fm) is approx ____ V.</text>
             <option id="A">1.7 x 10^7</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>V = kZe / R.</explanation>
-        </question>
+            <answer>A</answer><explanation>V = kZe / R.</explanation></question>
         <question>
             <text>Distance of closest approach (projectile q, target Q) is reached when ____.</text>
             <option id="A">K.E. = P.E. (k q Q / r)</option><option id="B">K.E. = 0</option><option id="C">none</option><option id="D">d</option>
-            <answer>A</answer><explanation>Conservation of energy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Conservation of energy.</explanation></question>
         <question>
             <text>When a conductor is grounded, its potential becomes ____.</text>
             <option id="A">Zero</option><option id="B">Unknown</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard reference point ground potential.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard reference point ground potential.</explanation></question>
         <question>
             <text>Dielectric displacement D depends only on ____ charge.</text>
             <option id="A">Free</option><option id="B">Bound</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Gauss law for dielectrics integration.</explanation>
-        </question>
+            <answer>A</answer><explanation>Gauss law for dielectrics integration.</explanation></question>
         <question>
             <text>Polarization P depends only on ____ charge.</text>
             <option id="A">Induced (Bound)</option><option id="B">Free</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Arises from alignment of dipoles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Arises from alignment of dipoles.</explanation></question>
         <question>
             <text>Induced charge q' on dielectric K surface is q' = ____.</text>
             <option id="A">q(1 - 1/K)</option><option id="B">q/K</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Always less than free charge q.</explanation>
-        </question>
+            <answer>A</answer><explanation>Always less than free charge q.</explanation></question>
         <question>
             <text>A 4μF capacitor is charged to 400V. Energy stored is ____ J.</text>
             <option id="A">0.32</option><option id="B">32</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>U = 1/2 CV^2 = 2x10^-6 * 16x10^4 = 0.32 J.</explanation>
-        </question>
+            <answer>A</answer><explanation>U = 1/2 CV^2 = 2x10^-6 * 16x10^4 = 0.32 J.</explanation></question>
         <question>
             <text>Relation between Farad and Statfarad: 1 Farad = ____ statfarad.</text>
             <option id="A">9 x 10^11</option><option id="B">9 x 10^9</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ratio based on cGS and SI units.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ratio based on cGS and SI units.</explanation></question>
         <question>
             <text>Force between plates of parallel plate capacitor with dielectric K is F' = ____.</text>
             <option id="A">F / K</option><option id="B">F</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Field E is reduced to E/K, or U changes.</explanation>
-        </question>
+            <answer>A</answer><explanation>Field E is reduced to E/K, or U changes.</explanation></question>
         <question>
             <text>Two electrons are brought closer. Potential energy of system ____.</text>
             <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Work is done against repulsion.</explanation>
-        </question>
+            <answer>A</answer><explanation>Work is done against repulsion.</explanation></question>
         <question>
             <text>Charge on plates of 10μF capacitor is 10μC. Voltage is ____ V.</text>
             <option id="A">1</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>V = Q/C.</explanation>
-        </question>
+            <answer>A</answer><explanation>V = Q/C.</explanation></question>
         <question>
             <text>If an electron and proton are moved towards each other, P.E. ____.</text>
             <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Work is done by attractive forces.</explanation>
-        </question>
+            <answer>A</answer><explanation>Work is done by attractive forces.</explanation></question>
         <question>
             <text>Equipotential surfaces are always perpendicular to ____.</text>
             <option id="A">Electric field lines</option><option id="B">Velocity</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ensures zero work along surface.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ensures zero work along surface.</explanation></question>
         <question>
             <text>Standardizing 120 questions for Electrostatic Potential done.</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Verified.</explanation>
-        </question>
+            <answer>A</answer><explanation>Verified.</explanation></question>
     </hard>
 </chapter>

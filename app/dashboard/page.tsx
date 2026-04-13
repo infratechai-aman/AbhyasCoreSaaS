@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
@@ -18,6 +19,7 @@ import {
 } from "lucide-react";
 
 export default function DashboardPage() {
+  const router = useRouter();
   const { userData } = useAuth();
   const [quickTestOpen, setQuickTestOpen] = useState(false);
   const [generating, setGenerating] = useState(false);
@@ -27,8 +29,8 @@ export default function DashboardPage() {
     setTimeout(() => {
       setGenerating(false);
       setQuickTestOpen(false);
-      alert("Test environment would launch here!");
-    }, 2000);
+      router.push("/dashboard/practice-mode");
+    }, 1500);
   };
 
   return (

@@ -44,7 +44,7 @@ export default function AITutorPage() {
              
              {/* Chat Canvas */}
              <div className="flex-1 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-50 via-white to-white p-6 flex flex-col justify-center items-center text-center relative overflow-hidden">
-                 <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] mix-blend-overlay" />
+                 <div className="absolute inset-0 bg-[url('/noise.svg')] opacity-[0.03] mix-blend-overlay" />
                  
                  <div className="w-16 h-16 bg-white border border-slate-200 shadow-xl shadow-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-600 mb-4 transform -rotate-6 hover:rotate-0 transition-transform">
                     <MessageSquare className="w-8 h-8" />

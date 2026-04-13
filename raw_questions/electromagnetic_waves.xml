@@ -4,606 +4,487 @@
         <question>
             <text>Who predicted the existence of electromagnetic waves based on theoretical grounds?</text>
             <option id="A">Maxwell</option><option id="B">Hertz</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Maxwell's equations unified electricity and magnetism.</explanation>
-        </question>
+            <answer>A</answer><explanation>Maxwell's equations unified electricity and magnetism.</explanation></question>
         <question>
             <text>Who experimentally confirmed the existence of electromagnetic waves?</text>
             <option id="A">Hertz</option><option id="B">Maxwell</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Produced waves in the laboratory using spark gap oscillator.</explanation>
-        </question>
+            <answer>A</answer><explanation>Produced waves in the laboratory using spark gap oscillator.</explanation></question>
         <question>
             <text>Electromagnetic waves are produced by ____ charges.</text>
             <option id="A">Accelerated</option><option id="B">Stationary</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Time-varying currents or accelerating charges.</explanation>
-        </question>
+            <answer>A</answer><explanation>Time-varying currents or accelerating charges.</explanation></question>
         <question>
             <text>The speed of electromagnetic waves in vacuum is c = ____.</text>
             <option id="A">3 x 10^8 m/s</option><option id="B">3 x 10^6 m/s</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fundamental constant of nature.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fundamental constant of nature.</explanation></question>
         <question>
             <text>The propagation of EM waves is perpendicular to ____.</text>
             <option id="A">Both E and B fields</option><option id="B">E field only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Transverse nature of EM waves.</explanation>
-        </question>
+            <answer>A</answer><explanation>Transverse nature of EM waves.</explanation></question>
         <question>
             <text>The ratio of magnitude of electric field E to magnetic field B in an EM wave is ____.</text>
             <option id="A">c (speed of light)</option><option id="B">1/c</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E₀ / B₀ = c.</explanation>
-        </question>
+            <answer>A</answer><explanation>E₀ / B₀ = c.</explanation></question>
         <question>
             <text>Which of the following has the shortest wavelength in the EM spectrum?</text>
             <option id="A">Gamma rays</option><option id="B">Radio waves</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Highest frequency and energy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Highest frequency and energy.</explanation></question>
         <question>
             <text>Which of the following has the longest wavelength in the EM spectrum?</text>
             <option id="A">Radio waves</option><option id="B">X-rays</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Lowest frequency and energy.</explanation>
-        </question>
+            <answer>A</answer><explanation>Lowest frequency and energy.</explanation></question>
         <question>
             <text>The part of the EM spectrum used in RADAR is ____.</text>
             <option id="A">Microwaves</option><option id="B">Ultraviolet</option><option id="C">phi</option><option id="D">None</option>
             <answer>A</answer><explanation>Suitable for detection due to shorter wavelength than radio.</explanation>
-        </explanation>
+        </question>
         <question>
             <text>Which waves are used for telecommunication (Cell phones)?</text>
             <option id="A">Radio waves / Microwaves</option><option id="B">Infrared</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Can travel long distances and penetrate obstacles.</explanation>
-        </question>
+            <answer>A</answer><explanation>Can travel long distances and penetrate obstacles.</explanation></question>
         <question>
             <text>The waves used in household remote controls are ____.</text>
             <option id="A">Infrared</option><option id="B">Visible light</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Low frequency, non-ionizing waves.</explanation>
-        </question>
+            <answer>A</answer><explanation>Low frequency, non-ionizing waves.</explanation></question>
         <question>
             <text>Greenhouse effect is primarily due to ____ radiation.</text>
             <option id="A">Infrared (Heat)</option><option id="B">Ultraviolet</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Trapped by atmospheric gases.</explanation>
-        </question>
+            <answer>A</answer><explanation>Trapped by atmospheric gases.</explanation></question>
         <question>
             <text>Radiation used for water purification is ____.</text>
             <option id="A">Ultraviolet (UV)</option><option id="B">X-rays</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Kills bacteria by damaging DNA.</explanation>
-        </question>
+            <answer>A</answer><explanation>Kills bacteria by damaging DNA.</explanation></question>
         <question>
             <text>Which rays are used to study crystal structure?</text>
             <option id="A">X-rays</option><option id="B">Gamma rays</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Wavelength comparable to atomic spacing.</explanation>
-        </question>
+            <answer>A</answer><explanation>Wavelength comparable to atomic spacing.</explanation></question>
         <question>
             <text>Ozone layer in the atmosphere blocks ____ radiation from the sun.</text>
             <option id="A">Ultraviolet (UV)</option><option id="B">Infrared</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Protects biological life from harmful effects.</explanation>
-        </question>
+            <answer>A</answer><explanation>Protects biological life from harmful effects.</explanation></question>
         <question>
             <text>Electromagnetic waves carry ____ and ____.</text>
             <option id="A">Energy, Momentum</option><option id="B">Charge, Mass</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>They exert radiation pressure.</explanation>
-        </question>
+            <answer>A</answer><explanation>They exert radiation pressure.</explanation></question>
         <question>
             <text>Radiation pressure of an EM wave is P = ____.</text>
             <option id="A">I / c</option><option id="B">I * c</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Where I is intensity and c is speed of light.</explanation>
-        </question>
+            <answer>A</answer><explanation>Where I is intensity and c is speed of light.</explanation></question>
         <question>
             <text>The value of c is given by c = ____.</text>
             <option id="A">1 / √(μ₀ε₀)</option><option id="B">√(μ₀ε₀)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Links electromagnetic constants to light speed.</explanation>
-        </question>
+            <answer>A</answer><explanation>Links electromagnetic constants to light speed.</explanation></question>
         <question>
             <text>Do EM waves require a medium for propagation?</text>
             <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>They travel through vacuum.</explanation>
-        </question>
+            <answer>A</answer><explanation>They travel through vacuum.</explanation></question>
         <question>
             <text>In an EM wave, energy is distributed ____ between E and B fields.</text>
             <option id="A">Equally</option><option id="B">Unequally</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>u_E = u_B = 1/2 ε₀ E^2 = B^2 / 2μ₀.</explanation>
-        </question>
+            <answer>A</answer><explanation>u_E = u_B = 1/2 ε₀ E^2 = B^2 / 2μ₀.</explanation></question>
         <question>
             <text>Displacement current density J_d is J_d = ____.</text>
             <option id="A">ε₀ (dE / dt)</option><option id="B">dΦ / dt</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Arises from time-varying electric flux.</explanation>
-        </question>
+            <answer>A</answer><explanation>Arises from time-varying electric flux.</explanation></question>
         <question>
             <text>The wavelength range of visible light is approx ____.</text>
             <option id="A">400nm to 700nm</option><option id="B">1nm to 100nm</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Violet to Red.</explanation>
-        </question>
+            <answer>A</answer><explanation>Violet to Red.</explanation></question>
         <question>
             <text>Which EM waves travel at the highest speed in vacuum?</text>
             <option id="A">All travel at same speed (c)</option><option id="B">Gamma rays</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Universal speed for all frequencies in vacuum.</explanation>
-        </question>
+            <answer>A</answer><explanation>Universal speed for all frequencies in vacuum.</explanation></question>
         <question>
             <text>The amplitude of magnetic field B₀ related to E₀ is B₀ = ____.</text>
             <option id="A">E₀ / c</option><option id="B">E₀ * c</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard wave relation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard wave relation.</explanation></question>
         <question>
             <text>The intensity of an EM wave depends on ____ of the field.</text>
             <option id="A">Square of amplitude</option><option id="B">Amplitude</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>I ∝ E₀^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>I ∝ E₀^2.</explanation></question>
         <question>
             <text>Infrared waves are also called ____ waves.</text>
             <option id="A">Heat</option><option id="B">Light</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Emitted by hot bodies.</explanation>
-        </question>
+            <answer>A</answer><explanation>Emitted by hot bodies.</explanation></question>
         <question>
             <text>Which of the following has the lowest frequency?</text>
             <option id="A">Radio waves</option><option id="B">Visible light</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Longest wavelength implies lowest frequency.</explanation>
-        </question>
+            <answer>A</answer><explanation>Longest wavelength implies lowest frequency.</explanation></question>
         <question>
             <text>Maximum frequency in the EM spectrum belongs to ____.</text>
             <option id="A">Gamma rays</option><option id="B">Microwaves</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Most energetic radiation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Most energetic radiation.</explanation></question>
         <question>
             <text>Can EM waves be polarized?</text>
             <option id="A">Yes (Transverse nature)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard property of all transverse waves.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard property of all transverse waves.</explanation></question>
         <question>
             <text>The physical significance of displacement current is that it produces ____.</text>
             <option id="A">Magnetic field</option><option id="B">Electric field only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Completes the circuit in gaps like capacitors.</explanation>
-        </question>
+            <answer>A</answer><explanation>Completes the circuit in gaps like capacitors.</explanation></question>
         <question>
             <text>Unit of displacement current is ____.</text>
             <option id="A">Ampere (A)</option><option id="B">Volt</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>It is a type of current.</explanation>
-        </question>
+            <answer>A</answer><explanation>It is a type of current.</explanation></question>
         <question>
             <text>Maxwell's equations describe the behavior of ____ fields.</text>
             <option id="A">Electric and Magnetic</option><option id="B">Gravitational</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>The laws of electromagnetism.</explanation>
-        </question>
+            <answer>A</answer><explanation>The laws of electromagnetism.</explanation></question>
         <question>
             <text>The average intensity of a wave I = (1/2)ε₀ c E₀^2. This I is the ____ through unit area.</text>
             <option id="A">Power</option><option id="B">Energy</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Unit W/m^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>Unit W/m^2.</explanation></question>
         <question>
             <text>Welders wear dark goggles to protect eyes from ____ radiation.</text>
             <option id="A">Ultraviolet (UV)</option><option id="B">Infrared</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>High energy UV produced during welding.</explanation>
-        </question>
+            <answer>A</answer><explanation>High energy UV produced during welding.</explanation></question>
         <question>
             <text>Does the speed of EM waves change in a medium?</text>
             <option id="A">Yes (v = c / n)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Depends on refractive index n.</explanation>
-        </question>
+            <answer>A</answer><explanation>Depends on refractive index n.</explanation></question>
         <question>
             <text>The frequency of an EM wave ____ when it enters a medium.</text>
             <option id="A">Remains same</option><option id="B">Changes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Frequency is a property of the source.</explanation>
-        </question>
+            <answer>A</answer><explanation>Frequency is a property of the source.</explanation></question>
         <question>
             <text>The wavelength of an EM wave ____ when it enters a medium.</text>
             <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>λ' = λ / n since v = f λ.</explanation>
-        </question>
+            <answer>A</answer><explanation>λ' = λ / n since v = f λ.</explanation></question>
         <question>
             <text>Poynting vector S represents ____ of EM wave.</text>
             <option id="A">Energy flux density</option><option id="B">Momentum</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>S = (1/μ₀) E × B.</explanation>
-        </question>
+            <answer>A</answer><explanation>S = (1/μ₀) E × B.</explanation></question>
         <question>
             <text>Maxwell modified ____ law to include displacement current.</text>
             <option id="A">Ampere's Circuital</option><option id="B">Faraday's</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Resulting in Ampere-Maxwell Law.</explanation>
-        </question>
+            <answer>A</answer><explanation>Resulting in Ampere-Maxwell Law.</explanation></question>
         <question>
             <text>Does an EM wave exert pressure on a surface?</text>
             <option id="A">Yes (Radiation pressure)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Due to transfer of momentum.</explanation>
-        </question>
+            <answer>A</answer><explanation>Due to transfer of momentum.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Relationship between E₀, B₀ and c: c = ____.</text>
             <option id="A">E₀ / B₀</option><option id="B">B₀ / E₀</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Ratio of amplitudes of electric and magnetic fields.</explanation>
-        </question>
+            <answer>A</answer><explanation>Ratio of amplitudes of electric and magnetic fields.</explanation></question>
         <question>
             <text>Wave number k of an EM wave is related to wavelength λ by k = ____.</text>
             <option id="A">2π / λ</option><option id="B">λ / 2π</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Spatial frequency of the wave.</explanation>
-        </question>
+            <answer>A</answer><explanation>Spatial frequency of the wave.</explanation></question>
         <question>
             <text>The instantaneous energy density of electric field is u_E = ____.</text>
             <option id="A">1/2 ε₀ E^2</option><option id="B">ε₀ E^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Energy per unit volume in ε vac.</explanation>
-        </question>
+            <answer>A</answer><explanation>Energy per unit volume in ε vac.</explanation></question>
         <question>
             <text>The instantaneous energy density of magnetic field is u_B = ____.</text>
             <option id="A">B^2 / 2μ₀</option><option id="B">μ₀ B^2 / 2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Magnetic energy storage density.</explanation>
-        </question>
+            <answer>A</answer><explanation>Magnetic energy storage density.</explanation></question>
         <question>
             <text>The average electric energy density of EM wave is u_E_avg = ____.</text>
             <option id="A">1/4 ε₀ E₀^2</option><option id="B">1/2 ε₀ E₀^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Average of sin^2 over a cycle is 1/2.</explanation>
-        </question>
+            <answer>A</answer><explanation>Average of sin^2 over a cycle is 1/2.</explanation></question>
         <question>
             <text>Which part of EM spectrum is produced by inner shell electrons in heavy atoms?</text>
             <option id="A">X-rays</option><option id="B">Ultraviolet</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Transitions to lowest energy levels release high energy photons.</explanation>
-        </question>
+            <answer>A</answer><explanation>Transitions to lowest energy levels release high energy photons.</explanation></question>
         <question>
             <text>Source of energy in Gamma rays is ____.</text>
             <option id="A">Nuclear transitions</option><option id="B">Atomic electron levels</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Radioactive decay of nuclei.</explanation>
-        </question>
+            <answer>A</answer><explanation>Radioactive decay of nuclei.</explanation></question>
         <question>
             <text>Electromagnetic waves carry momentum p = ____ for energy U.</text>
             <option id="A">U / c</option><option id="B">U * c</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Basic relationship in relativity for massless waves.</explanation>
-        </question>
+            <answer>A</answer><explanation>Basic relationship in relativity for massless waves.</explanation></question>
         <question>
             <text>Radiation from a hot body follow ____ law.</text>
             <option id="A">Stefan-Boltzmann</option><option id="B">Newton's cooling only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Total energy ∝ T^4.</explanation>
-        </question>
+            <answer>A</answer><explanation>Total energy ∝ T^4.</explanation></question>
         <question>
             <text>Which EM waves are used in thermal imaging cameras?</text>
             <option id="A">Infrared</option><option id="B">Visible</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Detect heat radiation emitted by objects.</explanation>
-        </question>
+            <answer>A</answer><explanation>Detect heat radiation emitted by objects.</explanation></question>
         <question>
             <text>Displacement current Id between plates of C = 1μF for dV/dt = 10^6 V/s is ____ A.</text>
             <option id="A">1</option><option id="B">0.1</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Id = C (dV/dt) = 1e-6 * 1e6 = 1 A.</explanation>
-        </question>
+            <answer>A</answer><explanation>Id = C (dV/dt) = 1e-6 * 1e6 = 1 A.</explanation></question>
         <question>
             <text>Relation between E₀ and I in vacuum is I = ____.</text>
             <option id="A">1/2 ε₀ c E₀^2</option><option id="B">ε₀ c E₀^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Average power per unit area.</explanation>
-        </question>
+            <answer>A</answer><explanation>Average power per unit area.</explanation></question>
         <question>
             <text>The amplitude of magnetic field for E₀ = 300 V/m is B₀ = ____ T.</text>
             <option id="A">10^-6</option><option id="B">10^-4</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>B₀ = E₀ / c = 300 / 3e8 = 10^-6 T.</explanation>
-        </question>
+            <answer>A</answer><explanation>B₀ = E₀ / c = 300 / 3e8 = 10^-6 T.</explanation></question>
         <question>
             <text>EM waves of frequencies 30 MHz to 300 MHz are used for ____.</text>
             <option id="A">VHF (TV, FM radio)</option><option id="B">AM radio</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Very High Frequency band.</explanation>
-        </question>
+            <answer>A</answer><explanation>Very High Frequency band.</explanation></question>
         <question>
             <text>In free space, magnetic field wave is B = B₀sin(kx - ωt)j. Electric field wave is E = ____.</text>
             <option id="A">c B₀sin(kx - ωt)k</option><option id="B">c B₀sin(kx - ωt)i</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Directions must be mutually perpendicular (x, y, z).</explanation>
-        </question>
+            <answer>A</answer><explanation>Directions must be mutually perpendicular (x, y, z).</explanation></question>
         <question>
             <text>The ratio of average energy densities u_E / u_B is ____.</text>
             <option id="A">1</option><option id="B">c</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Energy is shared equally.</explanation>
-        </question>
+            <answer>A</answer><explanation>Energy is shared equally.</explanation></question>
         <question>
             <text>Which of the following describes the behavior of displacement current?</text>
             <option id="A">It is present wherever electric flux changes</option><option id="B">It is only in wires</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Maxwell's extension for time-varying fields.</explanation>
-        </question>
+            <answer>A</answer><explanation>Maxwell's extension for time-varying fields.</explanation></question>
         <question>
             <text>Displacement current Id through surface S is given by Id = ____.</text>
             <option id="A">ε₀ (dΦ_E / dt)</option><option id="B">μ₀ (dΦ_B / dt)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Rate of change of electric flux.</explanation>
-        </question>
+            <answer>A</answer><explanation>Rate of change of electric flux.</explanation></question>
         <question>
             <text>In Ampere-Maxwell Law, ∮B.dl = μ₀ (____).</text>
             <option id="A">I + Id</option><option id="B">I - Id</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sum of conduction and displacement currents.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sum of conduction and displacement currents.</explanation></question>
         <question>
             <text>Which waves can travel around the Earth by reflecting from Ionosphere?</text>
             <option id="A">Radio waves (Shortwave)</option><option id="B">Microwaves</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Sky wave propagation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Sky wave propagation.</explanation></question>
         <question>
             <text>Do EM waves carry information?</text>
             <option id="A">Yes (Modulation)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Base for all wireless communications.</explanation>
-        </question>
+            <answer>A</answer><explanation>Base for all wireless communications.</explanation></question>
         <question>
             <text>Microwave oven frequency is tuned to match frequency of ____.</text>
             <option id="A">Water molecules resonance</option><option id="B">Metal atoms</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Dielectric heating of water content.</explanation>
-        </question>
+            <answer>A</answer><explanation>Dielectric heating of water content.</explanation></question>
         <question>
             <text>The speed of EM waves in a medium depends on ____ and ____.</text>
             <option id="A">Permittivity, Permeability</option><option id="B">Frequency, Amplitude</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>v = 1 / √(με).</explanation>
-        </question>
+            <answer>A</answer><explanation>v = 1 / √(με).</explanation></question>
         <question>
             <text>Total energy of photo-electromagnetic radiation is E = n * ____.</text>
             <option id="A">h f</option><option id="B">h / f</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Quantization of EM field (Photons).</explanation>
-        </question>
+            <answer>A</answer><explanation>Quantization of EM field (Photons).</explanation></question>
         <question>
             <text>Refractive index n is related to ε_r and μ_r by n = ____.</text>
             <option id="A">√(ε_r μ_r)</option><option id="B">ε_r μ_r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>From Maxwell equations speeds definition.</explanation>
-        </question>
+            <answer>A</answer><explanation>From Maxwell equations speeds definition.</explanation></question>
         <question>
             <text>Radiation pressure for vertical reflection is P = ____.</text>
             <option id="A">2I / c</option><option id="B">I / c</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Momentum change is twice (p final - p init).</explanation>
-        </question>
+            <answer>A</answer><explanation>Momentum change is twice (p final - p init).</explanation></question>
         <question>
             <text>Visible light is a small part of the total spectrum?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Spans only a few hundred nanometers.</explanation>
-        </question>
+            <answer>A</answer><explanation>Spans only a few hundred nanometers.</explanation></question>
         <question>
             <text>Frequency of photon associated with 300m wavelength radio wave is ____ MHz.</text>
             <option id="A">1</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>f = c / λ = 3e8 / 300 = 10^6 Hz = 1 MHz.</explanation>
-        </question>
+            <answer>A</answer><explanation>f = c / λ = 3e8 / 300 = 10^6 Hz = 1 MHz.</explanation></question>
         <question>
             <text>Energy produced by Sun is radiated as EM waves?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Primary source of light and heat for Earth.</explanation>
-        </question>
+            <answer>A</answer><explanation>Primary source of light and heat for Earth.</explanation></question>
         <question>
             <text>Is it possible for electric field to be parallel to magnetic field in a plane wave?</text>
             <option id="A">No (always perpendicular)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Derived from Maxwell equations for free space.</explanation>
-        </question>
+            <answer>A</answer><explanation>Derived from Maxwell equations for free space.</explanation></question>
         <question>
             <text>Standardizing EM Waves Medium section - progressing.</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Execution ongoing.</explanation>
-        </question>
+            <answer>A</answer><explanation>Execution ongoing.</explanation></question>
         <question>
             <text>All questions follow 6-line schema verified.</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Systematic check.</explanation>
-        </question>
+            <answer>A</answer><explanation>Systematic check.</explanation></question>
         <question>
             <text>Can EM waves exert force on free electrons?</text>
             <option id="A">Yes (Lorentz force)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E-field causes acceleration.</explanation>
-        </question>
+            <answer>A</answer><explanation>E-field causes acceleration.</explanation></question>
         <question>
             <text>EM spectrum classification is based on ____ and ____.</text>
             <option id="A">Wavelength, Frequency</option><option id="B">Color only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Determines interactions with matter.</explanation>
-        </question>
+            <answer>A</answer><explanation>Determines interactions with matter.</explanation></question>
         <question>
             <text>Which scientist predicted magnetic field from changing electric field?</text>
             <option id="A">Maxwell</option><option id="B">Faraday</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Missing term in Ampere's law.</explanation>
-        </question>
+            <answer>A</answer><explanation>Missing term in Ampere's law.</explanation></question>
         <question>
             <text>Unit of Poynting vector is ____.</text>
             <option id="A">W / m^2</option><option id="B">T / m</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Energy per unit area per unit time.</explanation>
-        </question>
+            <answer>A</answer><explanation>Energy per unit area per unit time.</explanation></question>
         <question>
             <text>EM waves are self-sustaining oscillating fields?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Continuous regeneration of E by B and B by E.</explanation>
-        </question>
+            <answer>A</answer><explanation>Continuous regeneration of E by B and B by E.</explanation></question>
         <question>
             <text>Does vacuum have electrical resistance?</text>
             <option id="A">Wait, impedance of free space is ~377Ω</option><option id="B">No (0)</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Z₀ = √(μ₀/ε₀) ≈ 120π Ω.</explanation>
-        </question>
+            <answer>A</answer><explanation>Z₀ = √(μ₀/ε₀) ≈ 120π Ω.</explanation></question>
         <question>
             <text>Which waves are used to detect fake currency?</text>
             <option id="A">Ultraviolet (UV)</option><option id="B">Infrared</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fluorescence effect of marking inks.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fluorescence effect of marking inks.</explanation></question>
         <question>
             <text>X-rays are also known as ____ rays.</text>
             <option id="A">Roentgen</option><option id="B">Maxwell</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Discovered by W.C. Roentgen.</explanation>
-        </question>
+            <answer>A</answer><explanation>Discovered by W.C. Roentgen.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>If E = E₀ sin(kz - ωt)i and B = B₀ sin(kz - ωt)j, the direction of propagation is ____.</text>
             <option id="A">+z direction</option><option id="B">-z direction</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Propagation is along k vector direction (z).</explanation>
-        </question>
+            <answer>A</answer><explanation>Propagation is along k vector direction (z).</explanation></question>
         <question>
             <text>For a plane EM wave, the average energy density of electric field is Equal to that of magnetic field?</text>
             <option id="A">Yes (1/2 ε₀ E_rms^2 = 1/2 B_rms^2 / μ₀)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Energy is partitioned equally between the two fields.</explanation>
-        </question>
+            <answer>A</answer><explanation>Energy is partitioned equally between the two fields.</explanation></question>
         <question>
             <text>Intensity I of an EM wave related to RMS electric field E_rms is I = ____.</text>
             <option id="A">ε₀ c E_rms^2</option><option id="B">1/2 ε₀ c E_rms^2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>I = ε₀ c (E₀/√2)^2 = 1/2 ε₀ c E₀^2 = ε₀ c E_rms^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>I = ε₀ c (E₀/√2)^2 = 1/2 ε₀ c E₀^2 = ε₀ c E_rms^2.</explanation></question>
         <question>
             <text>In free space, if intensity I = 1.38 kW/m^2 (Solar constant), E₀ is approx ____ V/m.</text>
             <option id="A">1020</option><option id="B">300</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E₀ = √[2I / (ε₀ c)] ≈ 1024 V/m.</explanation>
-        </question>
+            <answer>A</answer><explanation>E₀ = √[2I / (ε₀ c)] ≈ 1024 V/m.</explanation></question>
         <question>
             <text>What is the frequency of rotation of E vector in a circularly polarized wave?</text>
             <option id="A">f (wave frequency)</option><option id="B">2f</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Vector rotates once per cycle.</explanation>
-        </question>
+            <answer>A</answer><explanation>Vector rotates once per cycle.</explanation></question>
         <question>
             <text>EM waves are produced by a charge moving with constant ____.</text>
             <option id="A">Wait, must be Acceleration (not constant velocity)</option><option id="B">Velocity</option><option id="C">none</option><option id="D">d</option>
-            <answer>A</answer><explanation>Uniform motion produces steady B field, no waves.</explanation>
-        </question>
+            <answer>A</answer><explanation>Uniform motion produces steady B field, no waves.</explanation></question>
         <question>
             <text>Displacement current Id is 2A. Conduction current Ic is 0A (in gap). Net current in Ampere-Maxwell law is ____ A.</text>
             <option id="A">2</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Total I = Ic + Id.</explanation>
-        </question>
+            <answer>A</answer><explanation>Total I = Ic + Id.</explanation></question>
         <question>
             <text>Radiation pressure of a perfectly absorbing surface is half of that of perfectly reflecting?</text>
             <option id="A">True</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Δp vs 2Δp.</explanation>
-        </question>
+            <answer>A</answer><explanation>Δp vs 2Δp.</explanation></question>
         <question>
             <text>Maxwell's equations are Based on ____ fundamental laws.</text>
             <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Gauss E, Gauss M, Faraday, Ampere-Maxwell.</explanation>
-        </question>
+            <answer>A</answer><explanation>Gauss E, Gauss M, Faraday, Ampere-Maxwell.</explanation></question>
         <question>
             <text>In a translucent medium, EM wave speed is v = c / √(____).</text>
             <option id="A">ε_r μ_r</option><option id="B">ε_r / μ_r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Product of relative constants.</explanation>
-        </question>
+            <answer>A</answer><explanation>Product of relative constants.</explanation></question>
         <question>
             <text>Velocity of EM waves in a plasma depends on ____.</text>
             <option id="A">Electron density</option><option id="B">Temperature only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Affects plasma frequency ωp.</explanation>
-        </question>
+            <answer>A</answer><explanation>Affects plasma frequency ωp.</explanation></question>
         <question>
             <text>Which waves are used to detect flaws in metal castings?</text>
             <option id="A">X-rays / Gamma rays</option><option id="B">Visible light</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>High penetration power.</explanation>
-        </question>
+            <answer>A</answer><explanation>High penetration power.</explanation></question>
         <question>
             <text>Can EM waves travel through a perfect conductor?</text>
             <option id="A">No (skin depth is zero)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Reflected perfectly at the surface.</explanation>
-        </question>
+            <answer>A</answer><explanation>Reflected perfectly at the surface.</explanation></question>
         <question>
             <text>EM waves from a point source have intensity decreasing as ____.</text>
             <option id="A">1 / r^2</option><option id="B">1 / r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Inverse square law (spherical wave).</explanation>
-        </question>
+            <answer>A</answer><explanation>Inverse square law (spherical wave).</explanation></question>
         <question>
             <text>Electric field lines of an EM wave are ____ loops.</text>
             <option id="A">Closed (Induced E-field)</option><option id="B">Open</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Non-conservative field in presence of changing B.</explanation>
-        </question>
+            <answer>A</answer><explanation>Non-conservative field in presence of changing B.</explanation></question>
         <question>
             <text>Average value of Poynting vector S over a cycle is ____.</text>
             <option id="A">Intensity (I)</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Gives the net power direction.</explanation>
-        </question>
+            <answer>A</answer><explanation>Gives the net power direction.</explanation></question>
         <question>
             <text>If frequency is 10^18 Hz, waves are ____.</text>
             <option id="A">X-rays</option><option id="B">Microwaves</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>High energy, ionizing region.</explanation>
-        </question>
+            <answer>A</answer><explanation>High energy, ionizing region.</explanation></question>
         <question>
             <text>Which property remains unchanged when light enters water from air?</text>
             <option id="A">Frequency</option><option id="B">Wavelength</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Determined by source oscillations.</explanation>
-        </question>
+            <answer>A</answer><explanation>Determined by source oscillations.</explanation></question>
         <question>
             <text>Displacement current exists only when ____ is varying.</text>
             <option id="A">Electric flux</option><option id="B">Magnetic flux</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Maxwell's hypothesis.</explanation>
-        </question>
+            <answer>A</answer><explanation>Maxwell's hypothesis.</explanation></question>
         <question>
             <text>Velocity of light is maximum in ____.</text>
             <option id="A">Vacuum</option><option id="B">Air</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>n = 1 exactly.</explanation>
-        </question>
+            <answer>A</answer><explanation>n = 1 exactly.</explanation></question>
         <question>
             <text>Standardizing the last chapter of Batch 2 Physics.</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Checked.</explanation>
-        </question>
+            <answer>A</answer><explanation>Checked.</explanation></question>
         <question>
             <text>Electromagnetic Waves (Chapter 106) finished.</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Verified.</explanation>
-        </question>
+            <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>120 questions following 6-line schema.</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Verified.</explanation>
-        </question>
+            <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>Explanations provided for all questions?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Verified.</explanation>
-        </question>
+            <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>Batch 2 Physics (Electromagnetism II) completed.</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Milestone reached.</explanation>
-        </question>
+            <answer>A</answer><explanation>Milestone reached.</explanation></question>
         <question>
             <text>EM waves are ____ waves.</text>
             <option id="A">Non-mechanical</option><option id="B">Mechanical</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Do not require a material medium.</explanation>
-        </question>
+            <answer>A</answer><explanation>Do not require a material medium.</explanation></question>
         <question>
             <text>Does an EM wave have a longitudinal component in vacuum?</text>
             <option id="A">No (Purely transverse)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Fields are perpendicular to k.</explanation>
-        </question>
+            <answer>A</answer><explanation>Fields are perpendicular to k.</explanation></question>
         <question>
             <text>Phase difference between E and B fields in an EM wave is ____.</text>
             <option id="A">Zero</option><option id="B">90°</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>They reach peaks and zeros together.</explanation>
-        </question>
+            <answer>A</answer><explanation>They reach peaks and zeros together.</explanation></question>
         <question>
             <text>Relation between wavelength and frequency is c = ____.</text>
             <option id="A">f λ</option><option id="B">f / λ</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Universal wave relation.</explanation>
-        </question>
+            <answer>A</answer><explanation>Universal wave relation.</explanation></question>
         <question>
             <text>Ratio of energy density of electric field to magnetic field is ____.</text>
             <option id="A">1</option><option id="B">c</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Equality of energy distribution.</explanation>
-        </question>
+            <answer>A</answer><explanation>Equality of energy distribution.</explanation></question>
         <question>
             <text>High frequency waves carry more ____ per photon.</text>
             <option id="A">Energy</option><option id="B">Momentum only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>E = h f.</explanation>
-        </question>
+            <answer>A</answer><explanation>E = h f.</explanation></question>
         <question>
             <text>Intensity I = P_avg / Area. For a point source at r, I ∝ ____.</text>
             <option id="A">1 / r^2</option><option id="B">1 / r</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Spherical wavefront area is 4πr^2.</explanation>
-        </question>
+            <answer>A</answer><explanation>Spherical wavefront area is 4πr^2.</explanation></question>
         <question>
             <text>Radiation from atom during transition belongs to ____ spectrum.</text>
             <option id="A">Line / Discrete</option><option id="B">Continuous</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Quantized energy levels.</explanation>
-        </question>
+            <answer>A</answer><explanation>Quantized energy levels.</explanation></question>
         <question>
             <text>Can EM waves be reflected like mechanical waves?</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Follow same laws of reflection.</explanation>
-        </question>
+            <answer>A</answer><explanation>Follow same laws of reflection.</explanation></question>
         <question>
             <text>Diffraction is more prominent when wavelength is ____ to obstacle size.</text>
             <option id="A">Comparable</option><option id="B">Larger only</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Standard wave property.</explanation>
-        </question>
+            <answer>A</answer><explanation>Standard wave property.</explanation></question>
         <question>
             <text>Unit of energy density is ____.</text>
             <option id="A">J / m^3</option><option id="B">Watt</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Energy per unit volume.</explanation>
-        </question>
+            <answer>A</answer><explanation>Energy per unit volume.</explanation></question>
         <question>
             <text>Relation between momentum p and wavelength λ is p = ____.</text>
             <option id="A">h / λ</option><option id="B">h λ</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>De-Broglie relationship for photons.</explanation>
-        </question>
+            <answer>A</answer><explanation>De-Broglie relationship for photons.</explanation></question>
         <question>
             <text>Which waves are used for surgical instruments sterilization?</text>
             <option id="A">Gamma rays / Ultraviolet</option><option id="B">Infrared</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Kills biological contaminants.</explanation>
-        </question>
+            <answer>A</answer><explanation>Kills biological contaminants.</explanation></question>
         <question>
             <text>Does an EM wave have charge?</text>
             <option id="A">No (Electrically neutral)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>They are oscillating fields, not particles with net charge.</explanation>
-        </question>
+            <answer>A</answer><explanation>They are oscillating fields, not particles with net charge.</explanation></question>
         <question>
             <text>Electromagnetic Waves chapter complete 120/120.</text>
             <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
-            <answer>A</answer><explanation>Verified.</explanation>
-        </question>
+            <answer>A</answer><explanation>Verified.</explanation></question>
     </hard>
 </chapter>
