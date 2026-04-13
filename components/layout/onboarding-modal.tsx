@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { updateDoc, doc } from "firebase/firestore";
+import { setDoc, doc } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import { useAuth } from "@/lib/auth-context";
 import { 
@@ -38,11 +38,16 @@ export function OnboardingModal() {
     setSaving(true);
     
     try {
-      await updateDoc(doc(db, "users", user.uid), {
+      await setDoc(doc(db, "users", user.uid), {
         name: formData.name,
+        email: user.email,
         academicClass: formData.academicClass,
-        targetExam: exam
-      });
+        targetExam: exam,
+        createdAt: new Date().toISOString(),
+        streak: 0,
+        questionsSolved: 0,
+        mocksCompleted: 0
+      }, { merge: true });
       // Force reload to refresh auth context and dashboard syllabus
       window.location.reload();
     } catch (error) {
