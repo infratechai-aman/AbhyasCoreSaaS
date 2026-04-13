@@ -95,7 +95,12 @@ export default function DashboardPage() {
               <button className="text-[10px] font-bold tracking-[0.1em] text-indigo-600 uppercase hover:text-indigo-700 transition-colors">View Full Curriculum</button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              {(Object.keys(Syllabus.Class11) as Array<keyof typeof Syllabus.Class11>).map((sub) => {
+              {((Object.keys(Syllabus.Class11) as Array<keyof typeof Syllabus.Class11>).filter(sub => {
+                const exam = userData?.targetExam || "JEE";
+                if (exam === "JEE" && sub === "Biology") return false;
+                if (exam === "NEET" && sub === "Mathematics") return false;
+                return true;
+              })).map((sub) => {
                 const chapters = Syllabus.Class11[sub];
                 const total = chapters.length;
                 const ready = chapters.filter(c => c.hasData).length;

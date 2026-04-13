@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
-import { User, Bell, Shield, Target, Moon, ChevronRight, Check, Zap } from "lucide-react";
+import { Bell, Shield, Moon, ChevronRight, Check, Zap, Target } from "lucide-react";
+import { useAuth } from "@/lib/auth-context";
 
 export default function SettingsPage() {
-  const [examTarget, setExamTarget] = useState<"JEE" | "NEET" | "BOTH">("JEE");
+  const { userData } = useAuth();
   const [notifications, setNotifications] = useState({ email: true, practice: true, results: false });
   const [dailyGoal, setDailyGoal] = useState(30);
 
@@ -65,24 +66,31 @@ export default function SettingsPage() {
             </div>
 
             {/* Exam Target */}
-            <div className="bg-white rounded-[24px] border border-slate-200/60 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
-              <h3 className="text-[15px] font-bold text-slate-900 mb-2">Exam Target</h3>
-              <p className="text-[12px] text-slate-500 mb-5">Customize question difficulty, subjects, and mock test patterns.</p>
-              <div className="flex gap-3">
-                {(["JEE", "NEET", "BOTH"] as const).map((target) => (
-                  <button
-                    key={target}
-                    onClick={() => setExamTarget(target)}
-                    className={`flex-1 py-3 rounded-xl border-2 font-bold text-[13px] transition-all ${
-                      examTarget === target
-                        ? "border-indigo-600 bg-indigo-50 text-indigo-700"
-                        : "border-slate-200 text-slate-500 hover:border-slate-300 hover:bg-slate-50"
-                    }`}
-                  >
-                    {target === "BOTH" ? "JEE + NEET" : target}
-                    {examTarget === target && <Check className="inline w-3.5 h-3.5 ml-1.5 -mt-0.5" />}
-                  </button>
-                ))}
+            <div className="bg-white rounded-[24px] border border-slate-200/60 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)] relative overflow-hidden">
+              <h3 className="text-[15px] font-bold text-slate-900 mb-2">Target Examination</h3>
+              <p className="text-[12px] text-slate-500 mb-5 leading-relaxed">
+                Your target syllabus is permanently locked to customize question difficulty, subject logic, and AI metrics.
+              </p>
+              
+              <div className="flex items-center gap-3 p-4 bg-slate-50 border border-slate-200 rounded-xl w-max">
+                 <div className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold shadow-sm ${
+                   userData?.targetExam === "NEET" 
+                     ? "bg-emerald-100 text-emerald-600" 
+                     : "bg-indigo-100 text-indigo-600"
+                 }`}>
+                   <Target className="w-5 h-5" />
+                 </div>
+                 <div>
+                    <div className="text-[14px] font-bold text-slate-900">
+                      {userData?.targetExam === "NEET" ? "NEET (UG)" : "JEE Main & Adv"}
+                    </div>
+                    <div className="text-[11px] font-medium text-slate-500">
+                      {userData?.targetExam === "NEET" ? "Physics, Chemistry, Biology" : "Physics, Chemistry, Mathematics"}
+                    </div>
+                 </div>
+                 <div className="ml-4 px-3 py-1 bg-slate-200/50 border border-slate-300 text-slate-500 text-[10px] font-bold uppercase tracking-widest rounded-md">
+                   Locked
+                 </div>
               </div>
             </div>
 

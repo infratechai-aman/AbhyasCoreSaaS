@@ -15,9 +15,9 @@ import {
   BrainCircuit,
   Trophy,
   PenTool,
-  Sparkles,
   Database
 } from "lucide-react";
+import { OnboardingModal } from "@/components/layout/onboarding-modal";
 
 const pageTitles: Record<string, string> = {
   "/dashboard": "Dashboard Overview",
@@ -82,6 +82,7 @@ export function DashboardShell({
 
   return (
     <div className="min-h-screen bg-[#fafafc] text-slate-800 font-sans flex overflow-hidden">
+      <OnboardingModal />
       {/* Sidebar */}
       <aside className="w-[260px] bg-[#1e1e2f] flex-shrink-0 flex flex-col items-stretch h-screen text-slate-300">
         <div className="p-6 pb-4">

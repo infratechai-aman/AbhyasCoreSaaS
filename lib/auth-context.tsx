@@ -56,7 +56,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               name: user.displayName || "Aspirant",
               email: user.email,
               createdAt: new Date().toISOString(),
-              targetExam: "JEE",
+              targetExam: null, // Will trigger the onboarding modal
               streak: 0,
               questionsSolved: 0,
               mocksCompleted: 0
@@ -70,7 +70,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
           setUserData({
             name: user.displayName || "Aspirant",
             email: user.email,
-            targetExam: "JEE",
+            targetExam: null, // Will trigger onboarding if permissions fail, which might fail again to save, but prevents white screen
             streak: 0,
             questionsSolved: 0,
             mocksCompleted: 0

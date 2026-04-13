@@ -5,10 +5,26 @@ import Link from "next/link";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Target, Zap, ChevronRight, Lock } from "lucide-react";
 import { Syllabus, SubjectSyllabus } from "@/lib/syllabus";
+import { useAuth } from "@/lib/auth-context";
 
 export default function PracticeModePage() {
+  const { userData } = useAuth();
   const [activeClass, setActiveClass] = useState<keyof typeof Syllabus>("Class11");
   const [activeSubject, setActiveSubject] = useState<keyof SubjectSyllabus>("Physics");
+
+  // Determine which subjects to show based on targetExam
+  const targetExam = userData?.targetExam || "JEE";
+  const allSubjects = Object.keys(Syllabus.Class11) as Array<keyof SubjectSyllabus>;
+  const allowedSubjects = allSubjects.filter(sub => {
+    if (targetExam === "JEE" && sub === "Biology") return false;
+    if (targetExam === "NEET" && sub === "Mathematics") return false;
+    return true;
+  });
+
+  // Ensure activeSubject is valid
+  if (!allowedSubjects.includes(activeSubject)) {
+    setActiveSubject(allowedSubjects[0]);
+  }
 
   const syllabusData = Syllabus[activeClass][activeSubject];
 
@@ -47,7 +63,7 @@ export default function PracticeModePage() {
         
         {/* Modern Tabs */}
         <div className="flex items-center gap-2 mb-8 bg-white p-1.5 rounded-2xl border border-slate-200/60 shadow-sm w-max">
-           {(Object.keys(Syllabus.Class11) as Array<keyof SubjectSyllabus>).map((sub) => (
+           {allowedSubjects.map((sub) => (
              <button
                 key={sub}
                 onClick={() => setActiveSubject(sub)}
