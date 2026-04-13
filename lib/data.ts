@@ -90,16 +90,18 @@ export const subjectAccuracy = [
 
 export const sampleQuestion: Question = {
   id: "phy-001",
+  text: "A wire of resistance 12 ohms is stretched to three times its original length without any change in volume. The new resistance is:",
+  options: [
+    { id: "A", text: "12 ohms" },
+    { id: "B", text: "24 ohms" },
+    { id: "C", text: "72 ohms" },
+    { id: "D", text: "108 ohms" }
+  ],
+  answer: "D",
+  explanation: "When the wire is stretched to 3L with constant volume, area becomes A/3. Resistance is proportional to L/A, so the new value becomes 9 times the original resistance.",
+  difficulty: "medium",
   subject: "Physics",
-  chapter: "Current Electricity",
-  difficulty: "Medium",
-  examType: "JEE",
-  questionText:
-    "A wire of resistance 12 ohms is stretched to three times its original length without any change in volume. The new resistance is:",
-  options: ["12 ohms", "24 ohms", "72 ohms", "108 ohms"],
-  correctAnswer: "108 ohms",
-  solution:
-    "When the wire is stretched to 3L with constant volume, area becomes A/3. Resistance is proportional to L/A, so the new value becomes 9 times the original resistance."
+  chapter: "Current Electricity"
 };
 
 export const leaderboard = [

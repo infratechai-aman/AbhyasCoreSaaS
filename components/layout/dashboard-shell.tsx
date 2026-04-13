@@ -15,6 +15,7 @@ import {
   BrainCircuit,
   Trophy,
   PenTool,
+  Sparkles,
   Database
 } from "lucide-react";
 import { OnboardingModal } from "@/components/layout/onboarding-modal";
