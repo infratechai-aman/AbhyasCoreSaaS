@@ -35,11 +35,11 @@ export default function SettingsPage() {
               <h3 className="text-[15px] font-bold text-slate-900 mb-6">Profile</h3>
               <div className="flex items-center gap-5 mb-6">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-indigo-600 to-indigo-500 text-white flex items-center justify-center font-display text-[22px] font-bold shadow-lg shadow-indigo-500/20">
-                  AT
+                  {userData?.name ? userData.name.charAt(0).toUpperCase() : "A"}
                 </div>
                 <div className="flex-1">
-                  <div className="text-[16px] font-bold text-slate-900">Aman Talukdar</div>
-                  <div className="text-[12px] text-slate-500 mb-2">aman.talukdar@example.com</div>
+                  <div className="text-[16px] font-bold text-slate-900">{userData?.name || "Aspirant"}</div>
+                  <div className="text-[12px] text-slate-500 mb-2">{userData?.email || "No email available"}</div>
                   <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-[10px] font-bold uppercase tracking-wider border border-indigo-100">
                     <Zap className="w-2.5 h-2.5" /> Premium Member
                   </span>
@@ -51,9 +51,9 @@ export default function SettingsPage() {
 
               <div className="space-y-3">
                 {[
-                  { label: "Full Name", value: "Aman Talukdar" },
-                  { label: "Email Address", value: "aman.talukdar@example.com" },
-                  { label: "Phone", value: "+91 98765 43210" },
+                  { label: "Full Name", value: userData?.name || "Aspirant" },
+                  { label: "Email Address", value: userData?.email || "No email available" },
+                  { label: "Academic Profile", value: userData?.academicClass || "Not specified" },
                 ].map((field) => (
                   <div key={field.label} className="flex flex-col gap-1">
                     <label className="text-[10px] font-bold uppercase tracking-wider text-slate-400">{field.label}</label>

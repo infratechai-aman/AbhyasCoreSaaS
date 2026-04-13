@@ -57,6 +57,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               email: user.email,
               createdAt: new Date().toISOString(),
               targetExam: null, // Will trigger the onboarding modal
+              academicClass: null,
               streak: 0,
               questionsSolved: 0,
               mocksCompleted: 0
@@ -71,6 +72,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
             name: user.displayName || "Aspirant",
             email: user.email,
             targetExam: null, // Will trigger onboarding if permissions fail, which might fail again to save, but prevents white screen
+            academicClass: null,
             streak: 0,
             questionsSolved: 0,
             mocksCompleted: 0
