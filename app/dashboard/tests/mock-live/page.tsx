@@ -42,14 +42,14 @@ export default function MockLivePage() {
               {sampleQuestion.difficulty}
             </div>
           </div>
-          <h2 className="mt-6 text-2xl font-semibold leading-10">{sampleQuestion.questionText}</h2>
+          <h2 className="mt-6 text-2xl font-semibold leading-10">{sampleQuestion.text}</h2>
           <div className="mt-8 space-y-4">
             {sampleQuestion.options.map((option, index) => (
               <button
-                key={option}
+                key={option.id}
                 className={`w-full rounded-[24px] border px-5 py-4 text-left text-sm transition ${index === 2 ? "border-brand-3 bg-brand-3/10 text-white" : "border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"}`}
               >
-                {String.fromCharCode(65 + index)}. {option}
+                {String.fromCharCode(65 + index)}. {option.text}
               </button>
             ))}
           </div>
