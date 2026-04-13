@@ -45,23 +45,36 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       setUser(user);
       
       if (user && db) {
-        // Fetch additional user data from Firestore
-        const userDoc = await getDoc(doc(db, "users", user.uid));
-        if (userDoc.exists()) {
-          setUserData(userDoc.data());
-        } else {
-          // Initialize user doc if it doesn't exist
-          const newData = {
+        try {
+          // Fetch additional user data from Firestore
+          const userDoc = await getDoc(doc(db, "users", user.uid));
+          if (userDoc.exists()) {
+            setUserData(userDoc.data());
+          } else {
+            // Initialize user doc if it doesn't exist
+            const newData = {
+              name: user.displayName || "Aspirant",
+              email: user.email,
+              createdAt: new Date().toISOString(),
+              targetExam: "JEE",
+              streak: 0,
+              questionsSolved: 0,
+              mocksCompleted: 0
+            };
+            await setDoc(doc(db, "users", user.uid), newData);
+            setUserData(newData);
+          }
+        } catch (error) {
+          console.error("Firestore Permission or Fetch Error:", error);
+          // Provide default data so the app doesn't freeze in case of missing permissions
+          setUserData({
             name: user.displayName || "Aspirant",
             email: user.email,
-            createdAt: new Date().toISOString(),
             targetExam: "JEE",
             streak: 0,
             questionsSolved: 0,
             mocksCompleted: 0
-          };
-          await setDoc(doc(db, "users", user.uid), newData);
-          setUserData(newData);
+          });
         }
       } else {
         setUserData(null);
