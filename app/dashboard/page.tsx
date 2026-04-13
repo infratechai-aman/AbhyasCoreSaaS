@@ -36,28 +36,28 @@ export default function DashboardPage() {
   return (
     <>
     <DashboardShell quickTestHandler={() => setQuickTestOpen(true)}>
-      <div className="flex h-full bg-[#fafafc]">
+      <div className="flex flex-col lg:flex-row h-full overflow-y-auto lg:overflow-hidden bg-[#fafafc]">
         {/* Central Content */}
-        <div className="flex-1 p-8 overflow-y-auto">
+        <div className="flex-1 p-5 md:p-8 shrink-0 lg:overflow-y-auto">
           {/* Top Toggle */}
-          <div className="inline-flex p-1 bg-white border border-slate-200/80 rounded-[10px] shadow-sm mb-10">
-            <button className="flex items-center gap-2 px-5 py-2 rounded-md bg-indigo-600 text-white text-[13px] font-medium shadow-[0_2px_8px_rgba(79,70,229,0.25)]">
+          <div className="inline-flex p-1 bg-white border border-slate-200/80 rounded-[10px] shadow-sm mb-6 md:mb-10 w-full sm:w-auto">
+            <button className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2 rounded-md bg-indigo-600 text-white text-[13px] font-medium shadow-[0_2px_8px_rgba(79,70,229,0.25)]">
               <LayoutDashboard className="h-4 w-4" />
               Overview
             </button>
-            <button className="flex items-center gap-2 px-5 py-2 rounded-md text-slate-500 hover:text-slate-800 text-[13px] font-medium transition-colors">
-              <Sparkles className="h-4 w-4" />
+            <button className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2 rounded-md text-slate-500 hover:text-slate-800 text-[13px] font-medium transition-colors">
+              <Sparkles className="h-4 w-4 shrink-0" />
               Practice Hub
             </button>
           </div>
 
-          <div className="mb-10">
-            <h2 className="text-[28px] font-semibold text-slate-900 tracking-tight leading-none mb-2">Welcome back, {userData?.name || "Aspirant"}!</h2>
-            <p className="text-slate-500 text-[14px]">Here's your {userData?.subscription || "standard"} dashboard overview.</p>
+          <div className="mb-8 md:mb-10">
+            <h2 className="text-[24px] md:text-[28px] font-semibold text-slate-900 tracking-tight leading-[1.1] mb-2">Welcome back, {userData?.name || "Aspirant"}!</h2>
+            <p className="text-slate-500 text-[13px] md:text-[14px]">Here's your {userData?.subscription || "standard"} dashboard overview.</p>
           </div>
 
           {/* Stats Cards - Dynamic Integration */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5 mb-10 md:mb-12">
              <div className="bg-white rounded-[16px] p-5 border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
                 <div className="h-8 w-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center mb-4">
                   <FileText className="h-4 w-4" />
@@ -89,12 +89,12 @@ export default function DashboardPage() {
           </div>
 
           {/* Current Subjects - Dynamic Syllabus Integration */}
-          <div className="mb-12">
+          <div className="mb-10 md:mb-12">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-[15px] font-bold text-slate-900">Current Subjects <span className="text-slate-400 font-medium text-[13px] ml-2">(Class 11)</span></h3>
-              <button className="text-[10px] font-bold tracking-[0.1em] text-indigo-600 uppercase hover:text-indigo-700 transition-colors">View Full Curriculum</button>
+              <h3 className="text-[14px] md:text-[15px] font-bold text-slate-900">Current Subjects <span className="text-slate-400 font-medium text-[12px] md:text-[13px] ml-1 md:ml-2">(Class 11)</span></h3>
+              <button className="text-[10px] font-bold tracking-[0.1em] text-indigo-600 uppercase hover:text-indigo-700 transition-colors hidden sm:block">View Full Curriculum</button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
               {((Object.keys(Syllabus.Class11) as Array<keyof typeof Syllabus.Class11>).filter(sub => {
                 const exam = userData?.targetExam || "JEE";
                 if (exam === "JEE" && sub === "Biology") return false;
@@ -156,11 +156,11 @@ export default function DashboardPage() {
             </div>
           </div>
           
-          <div className="h-12"></div>
+          <div className="h-6 md:h-12"></div>
         </div>
 
         {/* Right Info Sidebar - EXACTLY matching ScorePrepPro style */}
-        <div className="w-[300px] bg-white border-l border-slate-200 p-6 flex flex-col overflow-y-auto">
+        <div className="w-full lg:w-[300px] bg-white border-t lg:border-t-0 lg:border-l border-slate-200 p-5 md:p-6 flex flex-col shrink-0 lg:overflow-y-auto">
           {/* Plan Status */}
           <div className="bg-white border border-slate-200/80 rounded-[16px] p-6 shadow-[0_4px_24px_rgba(0,0,0,0.03)] mb-8 flex flex-col text-center">
             <div className="h-12 w-12 rounded-xl bg-indigo-50 flex items-center justify-center mx-auto mb-4 text-indigo-600">

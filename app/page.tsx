@@ -201,17 +201,17 @@ export default function HomePage() {
                 Exam-real simulations, intelligent AI analytics, rank prediction, and personalized revision loops — built meticulously for serious aspirants.
               </motion.p>
 
-              <motion.div variants={fadeInUp} className="mt-10 flex flex-wrap items-center gap-4">
-                <Link href="/dashboard">
-                  <button className="group flex items-center gap-2.5 rounded-[16px] bg-slate-900 px-8 py-4 text-[15px] font-bold text-white shadow-xl shadow-slate-900/20 transition-all hover:bg-indigo-600 hover:shadow-indigo-600/30 hover:-translate-y-0.5">
+              <motion.div variants={fadeInUp} className="mt-8 md:mt-10 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 w-full">
+                <Link href="/dashboard" className="w-full sm:w-auto">
+                  <button className="w-full sm:w-auto flex justify-center items-center gap-2.5 rounded-[16px] bg-slate-900 px-6 sm:px-8 py-3.5 sm:py-4 text-[14px] sm:text-[15px] font-bold text-white shadow-xl shadow-slate-900/20 transition-all hover:bg-indigo-600 hover:shadow-indigo-600/30 hover:-translate-y-0.5">
                     Start Learning Free
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </button>
                 </Link>
-                <Link href="#how-it-works">
-                  <button className="flex items-center gap-3 rounded-[16px] border border-slate-200/80 bg-white/60 backdrop-blur-md px-8 py-4 text-[15px] font-bold text-slate-700 shadow-sm transition-all hover:bg-white hover:border-slate-300">
-                    <div className="flex items-center justify-center w-7 h-7 rounded-full bg-indigo-50 text-indigo-600">
-                        <Play className="h-3.5 w-3.5 fill-current" />
+                <Link href="#how-it-works" className="w-full sm:w-auto">
+                  <button className="w-full sm:w-auto flex justify-center items-center gap-3 rounded-[16px] border border-slate-200/80 bg-white/60 backdrop-blur-md px-6 sm:px-8 py-3.5 sm:py-4 text-[14px] sm:text-[15px] font-bold text-slate-700 shadow-sm transition-all hover:bg-white hover:border-slate-300">
+                    <div className="flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-indigo-50 text-indigo-600">
+                        <Play className="h-3 sm:h-3.5 w-3 sm:w-3.5 fill-current" />
                     </div>
                     See Demo
                   </button>
@@ -261,15 +261,15 @@ export default function HomePage() {
                         </div>
                       </div>
 
-                      <div className="grid grid-cols-3 gap-3 mb-6">
+                      <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-6">
                          {[
-                           { l: "Time Left", v: "02:34:18", accent: "text-slate-900" },
-                           { l: "Questions", v: "54 / 90", accent: "text-indigo-600" },
-                           { l: "Est. Rank", v: "AIR 2.4k", accent: "text-emerald-600" },
+                           { l: "Time", v: "02:34", accent: "text-slate-900" },
+                           { l: "Questions", v: "54/90", accent: "text-indigo-600" },
+                           { l: "Est. Rank", v: "2.4k", accent: "text-emerald-600" },
                          ].map(x => (
-                           <div key={x.l} className="bg-slate-50 border border-slate-100/60 rounded-xl p-3 text-center shadow-sm">
-                             <div className="text-[9px] font-bold uppercase tracking-[0.1em] text-slate-400">{x.l}</div>
-                             <div className={`mt-1 font-display text-[15px] font-bold ${x.accent}`}>{x.v}</div>
+                           <div key={x.l} className="bg-slate-50 border border-slate-100/60 rounded-xl p-2 sm:p-3 text-center shadow-sm">
+                             <div className="text-[8px] sm:text-[9px] font-bold uppercase tracking-[0.1em] text-slate-400 truncate">{x.l}</div>
+                             <div className={`mt-1 font-display text-[13px] sm:text-[15px] font-bold ${x.accent} truncate`}>{x.v}</div>
                            </div>
                          ))}
                       </div>
@@ -313,12 +313,12 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="rounded-[24px] border border-white/80 bg-white/60 backdrop-blur-2xl shadow-[0_8px_32px_rgba(0,0,0,0.04)] grid grid-cols-2 md:grid-cols-4 divide-x divide-slate-200/50"
+              className="rounded-[24px] border border-white/80 bg-white/60 backdrop-blur-2xl shadow-[0_8px_32px_rgba(0,0,0,0.04)] grid grid-cols-2 md:grid-cols-4 overflow-hidden"
            >
-              {stats.map((stat) => (
-                <div key={stat.label} className="p-6 text-center hover:bg-white/40 transition-colors rounded-[24px]">
-                  <div className="font-display text-[28px] font-bold text-slate-900">{stat.value}</div>
-                  <div className="mt-1 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">{stat.label}</div>
+              {stats.map((stat, i) => (
+                <div key={stat.label} className={`p-6 text-center hover:bg-white/40 transition-colors ${i % 2 !== 0 ? 'border-l border-slate-200/50' : ''} ${i >= 2 ? 'border-t border-slate-200/50' : ''} md:border-t-0 md:border-l ${i === 0 ? 'md:border-l-0' : ''}`}>
+                  <div className="font-display text-[24px] md:text-[28px] font-bold text-slate-900">{stat.value}</div>
+                  <div className="mt-1 text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">{stat.label}</div>
                 </div>
               ))}
            </motion.div>
@@ -521,14 +521,14 @@ export default function HomePage() {
                        Stop guessing. Let AI pinpoint exactly what's holding your score back and train you to fix it.
                     </p>
                     
-                    <div className="mt-10 flex flex-wrap justify-center gap-4">
-                       <Link href="/dashboard">
-                          <button className="rounded-2xl bg-white px-8 py-4 text-[15px] font-bold text-slate-900 shadow-xl transition-all hover:scale-105 hover:bg-slate-50">
+                    <div className="mt-10 flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-3 sm:gap-4">
+                       <Link href="/dashboard" className="w-full sm:w-auto">
+                          <button className="w-full justify-center rounded-2xl bg-white px-8 py-3.5 text-[14px] sm:text-[15px] font-bold text-slate-900 shadow-xl transition-all hover:scale-[1.03] hover:bg-slate-50">
                              Get Started for Free
                           </button>
                        </Link>
-                       <Link href="/pricing">
-                          <button className="rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md px-8 py-4 text-[15px] font-bold text-white transition-all hover:bg-white/10 hover:border-white/30">
+                       <Link href="/pricing" className="w-full sm:w-auto">
+                          <button className="w-full justify-center rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md px-8 py-3.5 text-[14px] sm:text-[15px] font-bold text-white transition-all hover:bg-white/10 hover:border-white/30">
                              Compare Plans
                           </button>
                        </Link>

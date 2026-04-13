@@ -82,10 +82,10 @@ export function DashboardShell({
   const pageTitle = pageTitles[pathname] || "Dashboard";
 
   return (
-    <div className="min-h-screen bg-[#fafafc] text-slate-800 font-sans flex overflow-hidden">
+    <div className="min-h-screen bg-[#fafafc] text-slate-800 font-sans flex flex-col md:flex-row overflow-hidden pb-[60px] md:pb-0">
       <OnboardingModal />
-      {/* Sidebar */}
-      <aside className="w-[260px] bg-[#1e1e2f] flex-shrink-0 flex flex-col items-stretch h-screen text-slate-300">
+      {/* Sidebar - Desktop Only */}
+      <aside className="hidden md:flex w-[260px] bg-[#1e1e2f] shrink-0 flex-col items-stretch h-screen text-slate-300">
         <div className="p-6 pb-4">
           <Link href="/" className="flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-600 text-white shadow-[0_4px_12px_rgba(79,70,229,0.3)]">
@@ -161,9 +161,9 @@ export function DashboardShell({
       </aside>
 
       {/* Main Content Area */}
-      <div className="flex-1 flex flex-col h-screen overflow-hidden bg-transparent">
-        <header className="h-[72px] bg-white border-b border-slate-200 flex items-center justify-between px-8 flex-shrink-0">
-          <h1 className="text-[18px] font-bold text-slate-900">{pageTitle}</h1>
+      <div className="flex-1 flex flex-col h-[calc(100vh-60px)] md:h-screen overflow-hidden bg-transparent">
+        <header className="h-[64px] md:h-[72px] bg-white border-b border-slate-200 flex items-center justify-between px-4 md:px-8 shrink-0 relative z-30">
+          <h1 className="text-[16px] md:text-[18px] font-bold text-slate-900 truncate mr-2">{pageTitle}</h1>
           
           <div className="flex items-center gap-6">
             <button className="text-slate-400 hover:text-slate-600 transition-colors relative">
@@ -172,25 +172,53 @@ export function DashboardShell({
             </button>
 
             <div className="flex items-center gap-3">
-              <div className="text-right flex flex-col pt-0.5">
+              <div className="text-right flex-col pt-0.5 hidden sm:flex">
                 <span className="text-[13px] font-bold text-slate-900 leading-none">{userData?.name || "Aspirant"}</span>
                 <span className="text-[9px] font-bold tracking-[0.1em] text-indigo-600 uppercase mt-1 leading-none">{userData?.subscription === 'premium' ? 'Premium' : 'Standard'}</span>
               </div>
-              <div className="h-9 w-9 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-[13px] shadow-[0_2px_8px_rgba(79,70,229,0.25)] ml-1">
+              <div className="h-8 w-8 md:h-9 md:w-9 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-[12px] md:text-[13px] shadow-[0_2px_8px_rgba(79,70,229,0.25)] ml-1 shrink-0">
                 {(userData?.name || "A").charAt(0).toUpperCase()}
               </div>
             </div>
 
-            <button onClick={quickTestHandler} className="h-9 px-5 rounded-lg bg-indigo-600 text-white text-[13px] font-semibold shadow-[0_2px_8px_rgba(79,70,229,0.25)] hover:bg-indigo-700 transition-all hover:scale-[1.02]">
+            <button onClick={quickTestHandler} className="hidden md:flex h-9 px-5 rounded-lg bg-indigo-600 text-white text-[13px] font-semibold shadow-[0_2px_8px_rgba(79,70,229,0.25)] hover:bg-indigo-700 transition-all hover:scale-[1.02]">
               Quick Test
             </button>
           </div>
         </header>
 
-        <main className="flex-1 overflow-hidden">
+        <main className="flex-1 overflow-hidden relative z-10">
           {children}
         </main>
       </div>
+
+      {/* Mobile Bottom Navigation Bar */}
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 h-[60px] bg-white border-t border-slate-200 flex items-center justify-around z-50 px-1 shadow-[0_-4px_24px_rgba(0,0,0,0.03)] pb-[env(safe-area-inset-bottom)]">
+        {navItems.slice(0, 5).map((item) => {
+          const Icon = item.icon;
+          const active = isActive(item.href);
+          
+          let shortName = item.name;
+          if (item.name === "Market Practice") shortName = "Practice";
+          if (item.name === "Test Library") shortName = "Tests";
+          if (item.name === "Performance") shortName = "Stats";
+          
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={`flex flex-col items-center justify-center w-full h-full gap-1 transition-colors ${
+                active ? "text-indigo-600" : "text-slate-400 hover:text-slate-600"
+              }`}
+            >
+              <Icon className={`h-[22px] w-[22px] ${active ? "stroke-[2.5]" : "stroke-2"}`} />
+              <span className={`text-[10px] tracking-wide ${active ? "font-bold" : "font-medium"}`}>
+                {shortName}
+              </span>
+            </Link>
+          );
+        })}
+      </nav>
     </div>
   );
 }
