@@ -74,8 +74,8 @@ export function DashboardShell({
     router.push("/");
   };
 
-  const isActive = (href: string, exact?: boolean) => {
-    if (exact) return pathname === href;
+  const isActive = (href: string) => {
+    if (href === "/dashboard") return pathname === href;
     return pathname.startsWith(href);
   };
 

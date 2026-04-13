@@ -1,8 +1,12 @@
+"use client";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { subjectAccuracy } from "@/lib/data";
 import { Target, TrendingUp, Zap, Clock, Trophy, Activity, AlertCircle, Sparkles } from "lucide-react";
+import { useAuth } from "@/lib/auth-context";
 
 export default function PerformancePage() {
+  const { userData } = useAuth();
+  const targetExam = userData?.targetExam || "JEE";
   return (
     <DashboardShell>
       <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
@@ -70,7 +74,11 @@ export default function PerformancePage() {
                 </div>
                 
                 <div className="space-y-6">
-                  {subjectAccuracy.map((subject) => (
+                  {subjectAccuracy.filter((subject) => {
+                     if (targetExam === "JEE" && subject.name === "Biology") return false;
+                     if (targetExam === "NEET" && subject.name === "Mathematics") return false;
+                     return true;
+                  }).map((subject) => (
                     <div key={subject.name} className="group">
                       <div className="mb-2 flex items-center justify-between text-[14px]">
                         <span className="font-bold text-slate-700">{subject.name}</span>
@@ -107,7 +115,8 @@ export default function PerformancePage() {
                 {[
                   { topic: "Capacitance (Dielectrics)", subject: "Physics", drop: "-15% compared to peer avg", priority: "CRITICAL" },
                   { topic: "Thermodynamics (Isothermal)", subject: "Chemistry", drop: "-8% compared to peer avg", priority: "HIGH" },
-                  { topic: "Differential Equations (Linear)", subject: "Mathematics", drop: "Pacing heavily affected (Avg 4m per Q)", priority: "HIGH" },
+                  ...(targetExam === "JEE" ? [{ topic: "Differential Equations (Linear)", subject: "Mathematics", drop: "Pacing heavily affected (Avg 4m per Q)", priority: "HIGH" }] : []),
+                  ...(targetExam === "NEET" ? [{ topic: "Human Reproduction", subject: "Biology", drop: "Accuracy drop (-12%)", priority: "HIGH" }] : []),
                   { topic: "Coordination Compounds (Isomerism)", subject: "Chemistry", drop: "Concepts mismatch detected", priority: "MEDIUM" }
                 ].map((weakness, i) => (
                   <div key={i} className="group flex flex-col p-4 rounded-2xl border border-red-100/50 bg-red-50/30 hover:bg-slate-50 hover:border-slate-200 transition-all cursor-pointer">
