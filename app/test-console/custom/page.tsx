@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 import { saveTestResult } from "@/lib/firebase-service";
-import { v4 as uuidv4 } from "uuid";
+
 
 function CustomExamConsoleInner() {
   const router = useRouter();
@@ -24,7 +24,7 @@ function CustomExamConsoleInner() {
   const [statuses, setStatuses] = useState<Record<string, string>>({});
   const [answers, setAnswers] = useState<Record<string, string>>({});
   
-  const [customTestId] = useState(`custom_${uuidv4()}`);
+  const [customTestId] = useState(`custom_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`);
 
   useEffect(() => {
     const c = searchParams.get("c");
