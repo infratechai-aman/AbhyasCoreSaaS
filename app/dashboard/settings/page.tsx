@@ -21,7 +21,7 @@ export default function SettingsPage() {
           </div>
           <h2 className="text-[32px] font-display font-bold text-slate-900 tracking-tight leading-none mb-3">Settings</h2>
           <p className="text-slate-500 text-[14px]">
-            Personalize your RankForge AI experience. Changes are synced across all your devices.
+            Personalize your AbhyasCore experience. Changes are synced across all your devices.
           </p>
         </div>
 

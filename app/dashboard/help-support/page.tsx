@@ -4,7 +4,7 @@ import { MessageCircle, Mail, ChevronDown, BookOpen, Zap, AlertCircle, LifeBuoy,
 const faqs = [
   {
     q: "How does the AI question generation work?",
-    a: "RankForge AI uses GPT-4 alongside our curated 120-question-per-chapter XML dataset to build personalized 30-question drills. Questions are balanced across Easy, Medium, and Hard difficulty bands."
+    a: "AbhyasCore uses GPT-4 alongside our curated 120-question-per-chapter XML dataset to build personalized 30-question drills. Questions are balanced across Easy, Medium, and Hard difficulty bands."
   },
   {
     q: "Why is a chapter showing 'Coming Soon'?",
@@ -88,10 +88,10 @@ export default function HelpSupportPage() {
               <h3 className="text-[15px] font-bold text-slate-900 mb-1">Email Support</h3>
               <p className="text-[12px] text-slate-500 mb-4">Send us a detailed message. We respond within 24 hours on business days.</p>
               <a
-                href="mailto:support@rankforgeai.com"
+                href="mailto:support@abhyascore.com"
                 className="flex items-center justify-between w-full py-3 px-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl font-bold text-[13px] text-slate-700 transition-colors"
               >
-                support@rankforgeai.com
+                support@abhyascore.com
                 <ExternalLink className="w-4 h-4 text-slate-400" />
               </a>
             </div>

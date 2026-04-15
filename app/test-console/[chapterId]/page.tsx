@@ -196,7 +196,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
     return (
       <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center text-white">
          <Loader2 className="w-12 h-12 text-indigo-500 animate-spin mb-4" />
-         <h2 className="font-display text-2xl font-bold tracking-widest">RANKFORGE</h2>
+         <h2 className="font-display text-2xl font-bold tracking-widest">ABHYASCORE</h2>
          <p className="text-slate-400 mt-2 tracking-widest text-sm uppercase">Initializing Exam Environment...</p>
       </div>
     );

@@ -1,4 +1,4 @@
-# RankForge AI
+# AbhyasCore
 
 Premium AI-powered JEE and NEET mock test platform built with Next.js 14, TypeScript, TailwindCSS, Framer Motion, Firebase, and OpenAI.
 

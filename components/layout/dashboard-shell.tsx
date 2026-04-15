@@ -92,7 +92,7 @@ export function DashboardShell({
               <BookOpen className="h-4 w-4" />
             </div>
             <div>
-              <div className="font-display font-medium text-[18px] text-white tracking-tight -mb-1">RankForge<span className="font-bold text-indigo-400">AI</span></div>
+              <div className="font-display font-medium text-[18px] text-white tracking-tight -mb-1">AbhyasCore<span className="font-bold text-indigo-400">AI</span></div>
               <div className="text-[9px] font-bold tracking-[0.15em] text-slate-400 uppercase mt-0.5">{userData?.subscription === 'premium' ? 'Premium' : 'Free Tier'}</div>
             </div>
           </Link>

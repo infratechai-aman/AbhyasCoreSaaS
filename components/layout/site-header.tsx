@@ -11,7 +11,7 @@ export function SiteHeader() {
             <Sparkles className="h-5 w-5 text-slate-950" />
           </div>
           <div>
-            <div className="text-sm font-medium uppercase tracking-[0.3em] text-brand-4">RankForge AI</div>
+            <div className="text-sm font-medium uppercase tracking-[0.3em] text-brand-4">AbhyasCore</div>
             <div className="text-xs text-muted">Mock mastery for JEE & NEET</div>
           </div>
         </Link>

@@ -44,7 +44,7 @@ export function Footer() {
                 <Sparkles className="h-5 w-5" />
               </div>
               <div>
-                <div className="font-display text-lg font-bold text-white">RankForge AI</div>
+                <div className="font-display text-lg font-bold text-white">AbhyasCore</div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-indigo-300/70">JEE + NEET Platform</div>
               </div>
             </Link>
@@ -89,7 +89,7 @@ export function Footer() {
         <div className="mt-14 border-t border-white/6 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-xs text-slate-500">
-              © {new Date().getFullYear()} RankForge AI. All rights reserved.
+              © {new Date().getFullYear()} AbhyasCore. All rights reserved.
             </p>
             <p className="text-xs text-slate-500">
               Built with ❤️ for JEE & NEET aspirants across India

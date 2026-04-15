@@ -75,7 +75,7 @@ export function ScrollSequence({ frames, className, imageClassName }: ScrollSequ
         <img
           key={frames[frameIndex]}
           src={frames[frameIndex]}
-          alt="RankForge cinematic study hero"
+          alt="AbhyasCore cinematic study hero"
           className={cn("h-full w-full object-contain", imageClassName)}
           draggable={false}
         />

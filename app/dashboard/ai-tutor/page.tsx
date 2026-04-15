@@ -31,7 +31,7 @@ export default function AITutorPage() {
                      </div>
                    </div>
                    <div>
-                      <h3 className="font-bold text-slate-900 leading-tight">RankForge Engine</h3>
+                      <h3 className="font-bold text-slate-900 leading-tight">AbhyasCore Engine</h3>
                       <span className="flex items-center gap-1.5 text-[10px] text-emerald-500 font-bold uppercase tracking-wider">
                          <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full" /> Online
                       </span>
@@ -73,7 +73,7 @@ export default function AITutorPage() {
                    <div className="absolute left-4 text-slate-400"><Sparkles className="w-4 h-4" /></div>
                    <input 
                      type="text" 
-                     placeholder="Message RankForge AI..." 
+                     placeholder="Message AbhyasCore..." 
                      className="w-full h-14 bg-slate-50 border border-slate-200 rounded-2xl pl-12 pr-16 text-[14px] font-medium text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all placeholder:text-slate-400 shadow-inner" 
                    />
                    <button className="absolute right-2 w-10 h-10 bg-slate-900 hover:bg-indigo-600 text-white rounded-xl flex items-center justify-center transition-colors shadow-md">

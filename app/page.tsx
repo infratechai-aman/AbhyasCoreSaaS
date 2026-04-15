@@ -83,7 +83,7 @@ const testimonials = [
   {
     name: "Priya Sharma",
     role: "JEE Advanced — AIR 847",
-    text: "RankForge's AI analytics helped me identify weak chapters I didn't even know about. My physics score jumped 40 marks.",
+    text: "AbhyasCore's AI analytics helped me identify weak chapters I didn't even know about. My physics score jumped 40 marks.",
     avatar: "PS",
   },
   {
@@ -126,7 +126,7 @@ function HomeHeader() {
           <div className="flex h-10 w-10 items-center justify-center rounded-[14px] bg-gradient-to-br from-indigo-500 to-indigo-600 text-white shadow-md shadow-indigo-500/20">
             <Sparkles className="h-[18px] w-[18px]" />
           </div>
-          <span className="font-display text-[17px] font-bold text-slate-900 tracking-tight">RankForge AI</span>
+          <span className="font-display text-[17px] font-bold text-slate-900 tracking-tight">AbhyasCore</span>
         </Link>
 
         {/* nav */}
@@ -246,7 +246,7 @@ export default function HomePage() {
                         <div className="h-3 w-3 rounded-full bg-emerald-400" />
                       </div>
                       <div className="mx-auto flex rounded-md bg-white border border-slate-100 px-4 py-1 text-[10px] font-bold tracking-widest text-slate-400 shadow-sm">
-                        APP.RANKFORGE.AI
+                        APP.ABHYASCORE.AI
                       </div>
                     </div>
 
@@ -529,7 +529,7 @@ export default function HomePage() {
            <div className="mx-auto max-w-[1400px]">
               <div className="text-center max-w-2xl mx-auto mb-16">
                  <h2 className="font-display text-[32px] font-bold text-slate-900">Trusted by top rankers</h2>
-                 <p className="mt-3 text-[15px] text-slate-500 font-medium">Don't take our word for it. Here's what actual crack aspirants have to say about RankForge AI.</p>
+                 <p className="mt-3 text-[15px] text-slate-500 font-medium">Don't take our word for it. Here's what actual crack aspirants have to say about AbhyasCore.</p>
               </div>
 
               <div className="grid gap-6 md:grid-cols-3">

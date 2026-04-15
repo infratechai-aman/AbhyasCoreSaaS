@@ -71,7 +71,7 @@ export default function LoginPage() {
             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-600 text-white shadow-xl shadow-indigo-600/20">
               <Sparkles className="h-6 w-6" />
             </div>
-            <span className="font-display text-2xl font-bold text-slate-900 tracking-tight">RankForge AI</span>
+            <span className="font-display text-2xl font-bold text-slate-900 tracking-tight">AbhyasCore</span>
           </Link>
           <h1 className="text-xl font-bold text-slate-800 tracking-tight">Welcome Back</h1>
           <p className="text-slate-500 text-sm mt-1">Sign in to continue your rank-building journey</p>

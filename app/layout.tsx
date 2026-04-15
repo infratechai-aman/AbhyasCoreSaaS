@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "RankForge AI — AI-Powered Mock Tests for JEE & NEET",
+  title: "AbhyasCore — AI-Powered Mock Tests for JEE & NEET",
   description:
     "India's most premium AI-powered mock test platform for JEE and NEET aspirants. Exam-real simulations, AI analytics, rank prediction, and intelligent revision — all in one place.",
   keywords: ["JEE mock test", "NEET mock test", "AI exam prep", "JEE preparation", "NEET preparation", "rank prediction"],
