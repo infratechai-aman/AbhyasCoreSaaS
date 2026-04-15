@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
-import { Target, Clock, Trophy, ChevronRight, LayoutGrid, Rocket, Bookmark } from "lucide-react";
+import { Target, Clock, Trophy, ChevronRight, LayoutGrid, Rocket, Bookmark, Shield, Flame } from "lucide-react";
 import { Syllabus, SubjectSyllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
 
@@ -49,43 +49,62 @@ export default function TestsPage() {
                <Rocket className="w-5 h-5 text-indigo-600" /> Full Syllabus Simulations
             </h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {targetExam === "JEE" ? (
-                // JEE Full Mock Card
-                <div className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
-                  <div className="absolute -right-8 -top-8 w-40 h-40 bg-indigo-500 rounded-full blur-[50px] opacity-30 group-hover:opacity-50 transition-all" />
-                  
-                  <div className="flex justify-between items-start mb-6 relative z-10">
-                     <div className="bg-white/10 border border-white/20 backdrop-blur-md px-3 py-1.5 rounded-lg text-[11px] font-bold tracking-widest uppercase">
-                       JEE Main Pattern
-                     </div>
-                     <div className="w-10 h-10 rounded-xl bg-indigo-500 flex items-center justify-center">
-                        <Trophy className="w-5 h-5 text-white" />
-                     </div>
+            {targetExam === "JEE" ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                {[
+                  { level: 1, name: "Foundation Mock I",    difficulty: "Easy",     desc: "Warm-up level. NCERT-based conceptual questions to build exam temperament.", glow: "bg-emerald-500", badge: "text-emerald-400" },
+                  { level: 2, name: "Foundation Mock II",   difficulty: "Easy",     desc: "Slightly elevated NCERT+ problems. Builds confidence before harder papers.", glow: "bg-emerald-500", badge: "text-emerald-400" },
+                  { level: 3, name: "Momentum Mock III",    difficulty: "Moderate", desc: "Mixed difficulty. Matches the average NTA paper with standard traps.", glow: "bg-sky-500", badge: "text-sky-400" },
+                  { level: 4, name: "Momentum Mock IV",     difficulty: "Moderate", desc: "Application-heavy questions testing multi-concept integration.", glow: "bg-sky-500", badge: "text-sky-400" },
+                  { level: 5, name: "Challenger Mock V",    difficulty: "Hard",     desc: "Above-average difficulty. Designed to push your speed and accuracy limits.", glow: "bg-indigo-500", badge: "text-indigo-400" },
+                  { level: 6, name: "Challenger Mock VI",   difficulty: "Hard",     desc: "Tricky numeric-type and assertion-reason questions. Real exam pressure.", glow: "bg-indigo-500", badge: "text-indigo-400" },
+                  { level: 7, name: "Elite Mock VII",       difficulty: "Advanced", desc: "JEE Advanced-level cross-topic problems. Only for serious contenders.", glow: "bg-violet-500", badge: "text-violet-400" },
+                  { level: 8, name: "Elite Mock VIII",      difficulty: "Advanced", desc: "Paragraph-based and matrix-match questions modeled after JEE Advanced.", glow: "bg-violet-500", badge: "text-violet-400" },
+                  { level: 9, name: "Apex Simulation IX",   difficulty: "Extreme",  desc: "Top 1% difficulty. Designed to simulate the hardest possible JEE paper.", glow: "bg-rose-500", badge: "text-rose-400" },
+                  { level: 10, name: "Apex Simulation X",   difficulty: "Extreme",  desc: "The ultimate stress test. If you conquer this, you conquer the exam.", glow: "bg-rose-500", badge: "text-rose-400" },
+                ].map((mock) => (
+                  <div key={mock.level} className="relative bg-slate-900 text-white rounded-[24px] p-5 md:p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
+                    <div className={`absolute -right-8 -top-8 w-40 h-40 ${mock.glow} rounded-full blur-[60px] opacity-20 group-hover:opacity-40 transition-all`} />
+                    
+                    <div className="flex justify-between items-start mb-4 relative z-10">
+                       <div className="flex items-center gap-2">
+                         <div className="bg-white/10 border border-white/15 backdrop-blur-md px-2.5 py-1 rounded-lg text-[10px] font-bold tracking-widest uppercase">
+                           JEE Main Pattern
+                         </div>
+                         <div className={`bg-white/5 border border-white/10 px-2 py-1 rounded-lg text-[10px] font-bold tracking-wider uppercase ${mock.badge}`}>
+                           {mock.difficulty}
+                         </div>
+                       </div>
+                       <div className="bg-white/5 border border-white/10 w-8 h-8 rounded-lg flex items-center justify-center text-[13px] font-bold text-white/60">
+                          {mock.level}
+                       </div>
+                    </div>
+                    
+                    <div className="relative z-10">
+                       <h4 className="text-[18px] md:text-[20px] font-bold mb-1.5">{mock.name}</h4>
+                       <p className="text-[12px] text-slate-400 mb-5 leading-relaxed line-clamp-2">
+                         {mock.desc}
+                       </p>
+                       
+                       <div className="flex items-center gap-4 md:gap-6 mb-4 text-[11px] font-semibold text-slate-400">
+                          <div className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-emerald-400" /> 180 Min</div>
+                          <div className="flex items-center gap-1.5"><LayoutGrid className="w-3.5 h-3.5 text-emerald-400" /> 90 Qs</div>
+                          <div className="flex items-center gap-1.5"><Target className="w-3.5 h-3.5 text-emerald-400" /> 300</div>
+                       </div>
+                       
+                       <div className="flex items-center justify-between border-t border-white/10 pt-3">
+                          <span className="text-[10px] font-medium text-slate-500">+4 / -1 Marking</span>
+                          <button className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white hover:bg-white hover:text-slate-900 hover:scale-110 transition-all">
+                            <ChevronRight className="w-3.5 h-3.5" />
+                          </button>
+                       </div>
+                    </div>
                   </div>
-                  
-                  <div className="relative z-10">
-                     <h4 className="text-[24px] font-bold mb-2">Grand JEE Simulation</h4>
-                     <p className="text-[13px] text-slate-400 mb-6 max-w-[85%]">
-                       Full syllabus mock covering Physics, Chemistry, and Mathematics identically modeled after NTA guidelines.
-                     </p>
-                     
-                     <div className="flex items-center gap-6 mb-6 text-[12px] font-semibold text-slate-300">
-                        <div className="flex items-center gap-2"><Clock className="w-4 h-4 text-emerald-400" /> 180 Mins</div>
-                        <div className="flex items-center gap-2"><LayoutGrid className="w-4 h-4 text-emerald-400" /> 90 Questions</div>
-                        <div className="flex items-center gap-2"><Target className="w-4 h-4 text-emerald-400" /> 300 Marks</div>
-                     </div>
-                     
-                     <div className="flex items-center justify-between border-t border-white/10 pt-4">
-                        <span className="text-[10px] font-medium text-slate-400">Marking: +4 (Correct), -1 (Incorrect)</span>
-                        <button className="flex items-center justify-center w-8 h-8 rounded-full bg-white text-slate-900 hover:scale-110 transition-transform">
-                          <ChevronRight className="w-4 h-4" />
-                        </button>
-                     </div>
-                  </div>
-                </div>
-              ) : (
-                // NEET Full Mock Card
+                ))}
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                {/* NEET Full Mock Card */}
                 <div className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
                   <div className="absolute -right-8 -top-8 w-40 h-40 bg-emerald-500 rounded-full blur-[50px] opacity-30 group-hover:opacity-50 transition-all" />
                   
@@ -118,8 +137,8 @@ export default function TestsPage() {
                      </div>
                   </div>
                 </div>
-              )}
-            </div>
+              </div>
+            )}
         </div>
 
         {/* Micro Chapter Tests Section */}
