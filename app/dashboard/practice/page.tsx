@@ -19,37 +19,41 @@ const practiceCategories = [
     title: "Adaptive Chapter Sprints",
     description: "Dynamic difficulty adjustment based on your real-time accuracy. Perfect for deep focus sessions.",
     icon: Zap,
-    color: "bg-amber-500",
-    shadow: "shadow-amber-500/20",
+    color: "bg-indigo-50 text-indigo-600 border border-indigo-100",
+    shadow: "shadow-none",
     stats: "15-30 mins",
-    tag: "High Intensity"
+    tag: "High Intensity",
+    href: "/dashboard/tests"
   },
   {
     title: "Daily Target Drills",
     description: "Curated 10-question sets tailored to your target exam (JEE/NEET) syllabus flow. Quick and daily.",
     icon: Target,
-    color: "bg-indigo-600",
-    shadow: "shadow-indigo-500/20",
+    color: "bg-indigo-50 text-indigo-600 border border-indigo-100",
+    shadow: "shadow-none",
     stats: "10-15 mins",
-    tag: "Recommended"
+    tag: "Recommended",
+    href: "/dashboard/tests"
   },
   {
     title: "Mistake Mastery",
     description: "Re-attempt questions you got wrong in previous mocks. Turn weaknesses into strengths with AI insights.",
     icon: History,
-    color: "bg-rose-500",
-    shadow: "shadow-rose-500/20",
+    color: "bg-indigo-50 text-indigo-600 border border-indigo-100",
+    shadow: "shadow-none",
     stats: "Unlimited",
-    tag: "Essential"
+    tag: "Essential",
+    href: "/dashboard/tests"
   },
   {
     title: "PYQ Archive",
     description: "Access verified Previous Year Questions with detailed step-by-step solutions and analysis.",
     icon: BookOpen,
-    color: "bg-emerald-500",
-    shadow: "shadow-emerald-500/20",
+    color: "bg-indigo-50 text-indigo-600 border border-indigo-100",
+    shadow: "shadow-none",
     stats: "2010 - 2024",
-    tag: "Foundation"
+    tag: "Foundation",
+    href: "/dashboard/tests"
   }
 ];
 
@@ -91,30 +95,31 @@ export default function PracticePage() {
           {practiceCategories.map((item) => {
             const Icon = item.icon;
             return (
-              <Card 
-                key={item.title} 
-                className="group relative rounded-[32px] border-slate-200 bg-white p-6 md:p-8 hover:border-indigo-400 hover:shadow-2xl hover:shadow-indigo-500/5 transition-all cursor-pointer flex flex-col md:flex-row gap-6 items-start overflow-hidden"
-              >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-slate-50 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
-                
-                <div className={`shrink-0 w-16 h-16 rounded-[22px] ${item.color} flex items-center justify-center text-white shadow-xl ${item.shadow} group-hover:scale-110 transition-transform duration-500 relative z-10`}>
-                   <Icon className="w-8 h-8" />
-                </div>
-                
-                <div className="flex-1 relative z-10">
-                   <div className="flex items-center justify-between mb-2">
-                     <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-indigo-600">{item.tag}</span>
-                     <span className="text-[11px] font-bold text-slate-400">{item.stats}</span>
-                   </div>
-                   <h2 className="text-2xl font-bold text-slate-900 mb-2 tracking-tight">{item.title}</h2>
-                   <p className="text-slate-500 text-[14px] leading-relaxed mb-6">
-                     {item.description}
-                   </p>
-                   <div className="flex items-center gap-2 text-indigo-600 font-bold text-[13px] group-hover:translate-x-1 transition-transform">
-                      Open Practice Module <ChevronRight className="w-4 h-4" />
-                   </div>
-                </div>
-              </Card>
+              <Link key={item.title} href={item.href} className="block transition-transform hover:-translate-y-1">
+                <Card 
+                  className="group relative h-full rounded-[32px] border-slate-200 bg-white p-6 md:p-8 hover:border-indigo-300 hover:shadow-xl hover:shadow-indigo-500/5 transition-all cursor-pointer flex flex-col md:flex-row gap-6 items-start overflow-hidden"
+                >
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-slate-50 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
+                  
+                  <div className={`shrink-0 w-16 h-16 rounded-[22px] ${item.color} flex items-center justify-center shadow-sm group-hover:bg-indigo-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 z-10 relative`}>
+                     <Icon className="w-7 h-7" />
+                  </div>
+                  
+                  <div className="flex-1 relative z-10 flex flex-col h-full">
+                     <div className="flex items-center justify-between mb-2">
+                       <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 group-hover:text-indigo-500 transition-colors">{item.tag}</span>
+                       <span className="text-[11px] font-bold text-slate-400">{item.stats}</span>
+                     </div>
+                     <h2 className="text-2xl font-bold text-slate-900 mb-2 tracking-tight group-hover:text-indigo-600 transition-colors">{item.title}</h2>
+                     <p className="text-slate-500 text-[14px] leading-relaxed mb-6 flex-1">
+                       {item.description}
+                     </p>
+                     <div className="flex items-center gap-2 text-indigo-600 font-bold text-[13px] group-hover:translate-x-1 transition-transform mt-auto">
+                        Open Practice Module <ChevronRight className="w-4 h-4" />
+                     </div>
+                  </div>
+                </Card>
+              </Link>
             );
           })}
         </div>

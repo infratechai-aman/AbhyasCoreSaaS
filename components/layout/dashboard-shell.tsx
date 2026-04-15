@@ -16,7 +16,8 @@ import {
   Trophy,
   PenTool,
   Sparkles,
-  Database
+  Database,
+  Archive
 } from "lucide-react";
 import { OnboardingModal } from "@/components/layout/onboarding-modal";
 
@@ -26,6 +27,7 @@ const pageTitles: Record<string, string> = {
   "/dashboard/tests": "Test Library",
   "/dashboard/leaderboard": "Leaderboard",
   "/dashboard/performance": "Performance Analytics",
+  "/dashboard/repository": "Examination Repository",
   "/dashboard/settings": "Account Settings",
   "/dashboard/help-support": "Help & Support"
 };
@@ -36,6 +38,7 @@ const navItems = [
   { name: 'Test Library', href: '/dashboard/tests', icon: Database },
   { name: 'Performance', href: '/dashboard/performance', icon: Trophy },
   { name: 'Leaderboard', href: '/dashboard/leaderboard', icon: Target },
+  { name: 'Repository', href: '/dashboard/repository', icon: Archive },
   { name: 'AI Tutor', href: '/dashboard/ai-tutor', icon: BrainCircuit },
 ];
 
