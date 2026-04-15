@@ -187,7 +187,7 @@ export function DashboardShell({
           </div>
         </header>
 
-        <main className="flex-1 overflow-hidden relative z-10">
+        <main className="flex-1 overflow-y-auto relative z-10 custom-scrollbar scroll-smooth">
           {children}
         </main>
       </div>

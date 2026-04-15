@@ -30,7 +30,7 @@ export default function TestsPage() {
 
   return (
     <DashboardShell>
-      <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
+      <div className="flex flex-col h-full bg-[#fafafc] p-4 md:p-8">
         
         {/* Header */}
         <div className="mb-10 max-w-2xl">
@@ -130,38 +130,42 @@ export default function TestsPage() {
               </h3>
               
               {/* Class Toggle */}
-              <div className="flex items-center gap-1 bg-white p-1 rounded-2xl border border-slate-200/60 shadow-sm w-max shrink-0">
-                {["Class11", "Class12"].map((cls) => (
-                  <button
-                    key={cls}
-                    onClick={() => setActiveClass(cls as any)}
-                    className={`px-6 py-2 rounded-xl text-[12px] font-bold transition-all ${
-                      activeClass === cls 
-                        ? 'bg-indigo-600 text-white shadow-md' 
-                        : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
-                    }`}
-                  >
-                    {cls === "Class11" ? "Class XI" : "Class XII"}
-                  </button>
-                ))}
+              <div className="overflow-x-auto -mx-1 px-1 scrollbar-hide">
+                <div className="flex items-center gap-1 bg-white p-1 rounded-2xl border border-slate-200/60 shadow-sm w-max shrink-0">
+                  {["Class11", "Class12"].map((cls) => (
+                    <button
+                      key={cls}
+                      onClick={() => setActiveClass(cls as any)}
+                      className={`px-6 py-2 rounded-xl text-[12px] font-bold transition-all ${
+                        activeClass === cls 
+                          ? 'bg-indigo-600 text-white shadow-md' 
+                          : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+                      }`}
+                    >
+                      {cls === "Class11" ? "Class XI" : "Class XII"}
+                    </button>
+                  ))}
+                </div>
               </div>
            </div>
 
            {/* Modern Tabs for Subject */}
-           <div className="flex items-center gap-2 mb-8 bg-white p-1.5 rounded-2xl border border-slate-200/60 shadow-sm w-max">
-              {allowedSubjects.map((sub) => (
-                <button
-                   key={sub}
-                   onClick={() => setActiveSubject(sub)}
-                   className={`px-6 py-2.5 rounded-xl text-[13px] font-bold transition-all ${
-                     activeSubject === sub 
-                       ? 'bg-slate-900 text-white shadow-md' 
-                       : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
-                   }`}
-                >
-                   {sub}
-                </button>
-              ))}
+           <div className="overflow-x-auto -mx-1 px-1 scrollbar-hide">
+             <div className="flex items-center gap-2 mb-8 bg-white p-1.5 rounded-2xl border border-slate-200/60 shadow-sm w-max">
+                {allowedSubjects.map((sub) => (
+                  <button
+                     key={sub}
+                     onClick={() => setActiveSubject(sub)}
+                     className={`px-6 py-2.5 rounded-xl text-[13px] font-bold transition-all ${
+                       activeSubject === sub 
+                         ? 'bg-slate-900 text-white shadow-md' 
+                         : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+                     }`}
+                  >
+                     {sub}
+                  </button>
+                ))}
+             </div>
            </div>
 
            {/* Square Practice Grid Layout */}
