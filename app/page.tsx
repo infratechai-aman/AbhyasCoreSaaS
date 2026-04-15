@@ -17,9 +17,11 @@ import {
   Shield,
   Star,
   CheckCircle2,
+  Check,
   Play,
 } from "lucide-react";
 import { Footer } from "@/components/layout/footer";
+import { pricing } from "@/lib/data";
 
 /* ─── theme tokens ─── */
 const homeTheme = {
@@ -32,7 +34,7 @@ const navLinks = [
   { label: "Features", href: "#features" },
   { label: "How It Works", href: "#how-it-works" },
   { label: "Exams", href: "#exams" },
-  { label: "Pricing", href: "/pricing" },
+  { label: "Pricing", href: "#pricing" },
 ];
 
 const stats = [
@@ -463,6 +465,65 @@ export default function HomePage() {
            </div>
         </motion.section>
 
+        {/* ═══════════════════ PRICING SECTION ═══════════════════ */}
+        <section id="pricing" className="px-4 py-20 lg:py-28 bg-white">
+           <div className="mx-auto max-w-[1400px]">
+              <div className="text-center max-w-2xl mx-auto mb-16">
+                 <div className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-indigo-700">
+                    <Zap className="h-3 w-3" />
+                    Premium plans
+                 </div>
+                 <h2 className="mt-5 font-display text-[36px] font-bold leading-tight text-slate-900 lg:text-[48px]">
+                   Simple pricing for <span className="text-indigo-600">serious rankers.</span>
+                 </h2>
+              </div>
+
+              <div className="grid gap-8 lg:grid-cols-3 max-w-[1200px] mx-auto">
+                 {pricing.map((plan, index) => (
+                    <motion.div 
+                       key={plan.name}
+                       initial={{ opacity: 0, y: 30 }}
+                       whileInView={{ opacity: 1, y: 0 }}
+                       viewport={{ once: true }}
+                       transition={{ delay: index * 0.1 }}
+                       className={`relative overflow-hidden rounded-[32px] p-[1px] ${
+                         index === 1 || index === 2 ? "bg-[linear-gradient(135deg,#7c3aed,#4f46e5,#22d3ee)] shadow-[0_20px_60px_rgba(99,102,241,0.15)]" : "bg-[linear-gradient(180deg,#e2e8f0,#cbd5e1)] shadow-sm"
+                       }`}
+                    >
+                       <div className={`flex flex-col h-full rounded-[31px] p-8 ${index === 1 || index === 2 ? "bg-[linear-gradient(180deg,#0e1433,#171d42)] text-white" : "bg-white text-slate-950"}`}>
+                          <div>
+                             <div className={`text-[12px] font-bold uppercase tracking-[0.2em] ${index === 1 || index === 2 ? "text-indigo-300" : "text-indigo-600"}`}>{plan.name}</div>
+                             <div className="mt-4 font-display text-[46px] font-bold tracking-tight">{plan.price}</div>
+                             <p className={`mt-4 text-[14px] leading-relaxed font-medium ${index === 1 || index === 2 ? "text-indigo-100/78" : "text-slate-500"}`}>{plan.description}</p>
+                          </div>
+                          
+                          <div className="mt-8 space-y-4 mb-10 flex-1">
+                             {plan.features.map((feature) => (
+                               <div key={feature} className="flex items-start gap-3 text-[14px] font-medium leading-relaxed">
+                                  <div className={`mt-0.5 rounded-full p-1 shrink-0 ${index === 1 || index === 2 ? "bg-indigo-500/20 text-indigo-200" : "bg-indigo-50 text-indigo-600"}`}>
+                                    <Check className="h-3 w-3" />
+                                  </div>
+                                  <span>{feature}</span>
+                               </div>
+                             ))}
+                          </div>
+
+                          <div className="mt-auto">
+                             <Link href="/dashboard" className="block w-full">
+                                <button className={`w-full py-3.5 rounded-2xl text-[14px] font-bold transition-all ${
+                                   index === 1 || index === 2 ? "bg-white text-slate-900 hover:bg-indigo-50 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:scale-[1.02]" : "bg-[linear-gradient(135deg,#7c3aed,#4f46e5)] text-white hover:shadow-[0_10px_20px_rgba(99,102,241,0.2)] hover:scale-[1.02]"
+                                }`}>
+                                   Choose {plan.name}
+                                </button>
+                             </Link>
+                          </div>
+                       </div>
+                    </motion.div>
+                 ))}
+              </div>
+           </div>
+        </section>
+
         {/* ═══════════════════ TESTIMONIALS ═══════════════════ */}
         <section className="px-4 py-20 lg:py-24 bg-white border-y border-slate-200">
            <div className="mx-auto max-w-[1400px]">
@@ -527,7 +588,7 @@ export default function HomePage() {
                              Get Started for Free
                           </button>
                        </Link>
-                       <Link href="/pricing" className="w-full sm:w-auto">
+                       <Link href="#pricing" className="w-full sm:w-auto">
                           <button className="w-full justify-center rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md px-8 py-3.5 text-[14px] sm:text-[15px] font-bold text-white transition-all hover:bg-white/10 hover:border-white/30">
                              Compare Plans
                           </button>

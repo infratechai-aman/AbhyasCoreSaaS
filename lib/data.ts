@@ -119,9 +119,30 @@ export const pricing = [
     features: ["Daily chapter-wise practice", "Basic analytics", "Limited AI analysis", "Leaderboard access"]
   },
   {
-    name: "Pro",
-    price: "Rs 999/mo",
-    description: "Built for ambitious aspirants chasing top ranks.",
+    name: "Pro Monthly",
+    price: "Rs 67/mo",
+    description: "Rs 29 for the 1st month. Built for ambitious aspirants chasing top ranks.",
     features: ["Unlimited mock tests", "Full AI tutor", "Deep analytics and rank prediction", "Revision mode and bookmarks"]
+  },
+  {
+    name: "Pro Yearly",
+    price: "Rs 499/yr",
+    description: "Best value. Maximum commitment. Uninterrupted access to the premium engine.",
+    features: ["All Pro Monthly features", "Priority doubt resolution", "Exclusive masterclasses"]
   }
+];
+
+export const adminRevenueData = [
+  { month: "Jan", revenue: 120 },
+  { month: "Feb", revenue: 210 },
+  { month: "Mar", revenue: 480 },
+  { month: "Apr", revenue: 640 },
+];
+
+export const adminRecentUsers = [
+  { name: "Rahul Verma", email: "rahul.v@gmail.com", status: "Pro Yearly", joined: "Today", value: "Rs 499" },
+  { name: "Sneha Reddy", email: "sneha.reddy@yahoo.com", status: "Pro Monthly", joined: "Yesterday", value: "Rs 29" },
+  { name: "Aditya Singh", email: "aditya_s@outlook.com", status: "Free", joined: "Yesterday", value: "Rs 0" },
+  { name: "Ananya Patel", email: "ananya.p_2026@gmail.com", status: "Pro Yearly", joined: "2 days ago", value: "Rs 499" },
+  { name: "Karan S.", email: "karan.s@gmail.com", status: "Pro Monthly", joined: "3 days ago", value: "Rs 67" },
 ];
