@@ -17,9 +17,11 @@ import {
   PenTool,
   Sparkles,
   Database,
-  Archive
+  Archive,
+  Lock
 } from "lucide-react";
 import { OnboardingModal } from "@/components/layout/onboarding-modal";
+import { usePremium } from "@/lib/hooks/usePremium";
 
 const pageTitles: Record<string, string> = {
   "/dashboard": "Dashboard Overview",
@@ -33,13 +35,13 @@ const pageTitles: Record<string, string> = {
 };
 
 const navItems = [
-  { name: 'Overview', href: '/dashboard', icon: LayoutDashboard },
-  { name: 'Market Practice', href: '/dashboard/practice', icon: Sparkles },
-  { name: 'Test Library', href: '/dashboard/tests', icon: Database },
-  { name: 'Performance', href: '/dashboard/performance', icon: Trophy },
-  { name: 'Leaderboard', href: '/dashboard/leaderboard', icon: Target },
-  { name: 'Repository', href: '/dashboard/repository', icon: Archive },
-  { name: 'AI Tutor', href: '/dashboard/ai-tutor', icon: BrainCircuit },
+  { name: 'Overview', href: '/dashboard', icon: LayoutDashboard, proOnly: false },
+  { name: 'Market Practice', href: '/dashboard/practice', icon: Sparkles, proOnly: true },
+  { name: 'Test Library', href: '/dashboard/tests', icon: Database, proOnly: false },
+  { name: 'Performance', href: '/dashboard/performance', icon: Trophy, proOnly: false },
+  { name: 'Leaderboard', href: '/dashboard/leaderboard', icon: Target, proOnly: false },
+  { name: 'Repository', href: '/dashboard/repository', icon: Archive, proOnly: true },
+  { name: 'AI Tutor', href: '/dashboard/ai-tutor', icon: BrainCircuit, proOnly: false },
 ];
 
 const bottomNavItems = [
@@ -57,6 +59,7 @@ export function DashboardShell({
   const pathname = usePathname();
   const router = useRouter();
   const { user, userData, loading, logout } = useAuth();
+  const { isPro, isTrial, trialDaysRemaining, plan } = usePremium();
 
   useEffect(() => {
     if (!loading && !user) {
@@ -96,7 +99,9 @@ export function DashboardShell({
             </div>
             <div>
               <div className="font-display font-medium text-[18px] text-white tracking-tight -mb-1">AbhyasCore<span className="font-bold text-indigo-400">AI</span></div>
-              <div className="text-[9px] font-bold tracking-[0.15em] text-slate-400 uppercase mt-0.5">{userData?.subscription === 'premium' ? 'Premium' : 'Free Tier'}</div>
+              <div className="text-[9px] font-bold tracking-[0.15em] text-slate-400 uppercase mt-0.5">
+                {isPro ? (isTrial ? `Trial • ${trialDaysRemaining}d left` : plan) : 'Free Tier'}
+              </div>
             </div>
           </Link>
         </div>
@@ -105,6 +110,7 @@ export function DashboardShell({
           {navItems.map((item) => {
             const Icon = item.icon;
             const active = isActive(item.href);
+            const isLocked = item.proOnly && !isPro;
             return (
               <Link
                 key={item.href}
@@ -116,7 +122,10 @@ export function DashboardShell({
                 }`}
               >
                 <Icon className={`h-4 w-4 ${active ? "text-indigo-400" : "text-slate-500"}`} />
-                {item.name}
+                <span className="flex-1">{item.name}</span>
+                {isLocked && (
+                  <Lock className="h-3 w-3 text-slate-600" />
+                )}
               </Link>
             );
           })}
@@ -177,7 +186,9 @@ export function DashboardShell({
             <div className="flex items-center gap-3">
               <div className="text-right flex-col pt-0.5 hidden sm:flex">
                 <span className="text-[13px] font-bold text-slate-900 leading-none">{userData?.name || "Aspirant"}</span>
-                <span className="text-[9px] font-bold tracking-[0.1em] text-indigo-600 uppercase mt-1 leading-none">{userData?.subscription === 'premium' ? 'Premium' : 'Standard'}</span>
+                <span className="text-[9px] font-bold tracking-[0.1em] text-indigo-600 uppercase mt-1 leading-none">
+                  {isPro ? (isTrial ? `Trial • ${trialDaysRemaining}d` : plan) : 'Free'}
+                </span>
               </div>
               <div className="h-8 w-8 md:h-9 md:w-9 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-[12px] md:text-[13px] shadow-[0_2px_8px_rgba(79,70,229,0.25)] ml-1 shrink-0">
                 {(userData?.name || "A").charAt(0).toUpperCase()}

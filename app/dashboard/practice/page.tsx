@@ -1,5 +1,7 @@
 "use client";
 
+import { usePremium } from "@/lib/hooks/usePremium";
+import { ProLockScreen } from "@/components/ui/pro-lock-screen";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Card } from "@/components/ui/card";
 import { 
@@ -58,6 +60,20 @@ const practiceCategories = [
 ];
 
 export default function PracticePage() {
+  const { canAccessMarketPractice, isTrialExpired } = usePremium();
+
+  if (!canAccessMarketPractice) {
+    return (
+      <DashboardShell>
+        <ProLockScreen
+          featureName="Market Practice"
+          description="Market Practice includes Adaptive Chapter Sprints, Daily Target Drills, Mistake Mastery, and PYQ Archives — all unlocked with Pro."
+          isTrialExpired={isTrialExpired}
+        />
+      </DashboardShell>
+    );
+  }
+
   return (
     <DashboardShell>
       <div className="p-4 md:p-8 space-y-8 max-w-7xl mx-auto">

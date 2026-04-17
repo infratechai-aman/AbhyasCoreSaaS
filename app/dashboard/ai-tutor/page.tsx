@@ -1,7 +1,12 @@
+"use client";
+
 import { DashboardShell } from "@/components/layout/dashboard-shell";
-import { BrainCircuit, MessageSquare, BookOpen, Send, Sparkles, Zap, ShieldAlert, Fingerprint } from "lucide-react";
+import { BrainCircuit, MessageSquare, BookOpen, Send, Sparkles, Zap, ShieldAlert, Fingerprint, Lock, Crown } from "lucide-react";
+import { usePremium } from "@/lib/hooks/usePremium";
+import Link from "next/link";
 
 export default function AITutorPage() {
+  const { canUseAITutor, remainingAITokens, isPro, limits } = usePremium();
   return (
     <DashboardShell>
       <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
@@ -14,6 +19,42 @@ export default function AITutorPage() {
           <p className="text-slate-500 text-[14px]">
             Your personal 24/7 mentor. Paste complex questions, request alternative solutions, or ask for a custom revision map based on your weaknesses.
           </p>
+        </div>
+
+        {/* Token Usage Banner */}
+        <div className={`rounded-2xl border p-4 mb-6 flex items-center justify-between max-w-4xl ${canUseAITutor ? 'bg-violet-50 border-violet-200' : 'bg-red-50 border-red-200'}`}>
+           <div className="flex items-center gap-3">
+              <div className={`w-9 h-9 rounded-xl flex items-center justify-center ${canUseAITutor ? 'bg-violet-100 text-violet-600' : 'bg-red-100 text-red-600'}`}>
+                {canUseAITutor ? <Sparkles className="w-4 h-4" /> : <Lock className="w-4 h-4" />}
+              </div>
+              <div>
+                <div className={`text-[13px] font-bold ${canUseAITutor ? 'text-violet-900' : 'text-red-900'}`}>
+                  {canUseAITutor
+                    ? `${(remainingAITokens / 1000).toFixed(0)}k tokens remaining today`
+                    : 'Daily AI token limit reached'
+                  }
+                </div>
+                <div className="text-[11px] text-slate-500 font-medium">
+                  {isPro ? 'Pro plan: 40k tokens/day' : 'Free plan: 10k tokens/day'}
+                </div>
+              </div>
+           </div>
+           <div className="flex items-center gap-3">
+              {/* Progress bar */}
+              <div className="hidden sm:block w-32 h-2 rounded-full bg-slate-200 overflow-hidden">
+                <div
+                  className={`h-full rounded-full transition-all ${canUseAITutor ? 'bg-violet-500' : 'bg-red-500'}`}
+                  style={{ width: `${Math.min(100, ((limits.aiTokensPerDay - remainingAITokens) / limits.aiTokensPerDay) * 100)}%` }}
+                />
+              </div>
+              {!canUseAITutor && !isPro && (
+                <Link href="/dashboard?checkout=Pro%20Yearly">
+                  <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-xl text-[12px] font-bold hover:bg-indigo-700 transition-colors shadow-md">
+                    <Crown className="w-3.5 h-3.5" /> Upgrade
+                  </button>
+                </Link>
+              )}
+           </div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr] gap-8 flex-1">

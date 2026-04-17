@@ -1,12 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
 import { useRazorpay } from "@/lib/hooks/useRazorpay";
-import { useAuth } from "@/lib/auth-context";
 import { X } from "lucide-react";
 import { 
   FileText, 
@@ -20,7 +19,7 @@ import {
   LayoutDashboard
 } from "lucide-react";
 
-export default function DashboardPage() {
+function DashboardContent() {
   const router = useRouter();
   const { userData } = useAuth();
   const searchParams = useSearchParams();
@@ -348,5 +347,17 @@ export default function DashboardPage() {
       </div>
     )}
     </>
+  );
+}
+
+export default function DashboardPage() {
+  return (
+    <Suspense fallback={
+      <div className="h-screen w-screen flex items-center justify-center bg-[#fafafc]">
+        <div className="w-10 h-10 border-4 border-indigo-100 border-t-indigo-600 rounded-full animate-spin" />
+      </div>
+    }>
+      <DashboardContent />
+    </Suspense>
   );
 }

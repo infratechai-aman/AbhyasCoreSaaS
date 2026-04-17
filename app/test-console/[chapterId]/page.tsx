@@ -1,19 +1,23 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Clock, LayoutTemplate, AlertCircle, ChevronRight, Bookmark, X, PlayCircle, Loader2 } from "lucide-react";
+import { Clock, LayoutTemplate, AlertCircle, ChevronRight, Bookmark, X, PlayCircle, Loader2, Lock, Crown, ShieldAlert } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 import { saveTestResult } from "@/lib/firebase-service";
+import { usePremium } from "@/lib/hooks/usePremium";
 
 export default function ExamConsole({ params }: { params: { chapterId: string } }) {
   const router = useRouter();
   const { user } = useAuth();
+  const { canAttemptExam, canRepeatExam, remainingExamsToday, isPro } = usePremium();
   
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [data, setData] = useState<{ chapterName: string; subject: string; questions: any[] } | null>(null);
+  const [blocked, setBlocked] = useState(false);
+  const [blockReason, setBlockReason] = useState("");
   
   const [currentIndex, setCurrentIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(3600); // 1 hour for 30 questions
@@ -24,6 +28,20 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
   const [answers, setAnswers] = useState<Record<string, string>>({});
 
   useEffect(() => {
+    // Check exam access before fetching
+    if (!canAttemptExam) {
+      setBlocked(true);
+      setBlockReason("You have reached your daily exam limit (1 exam/day on Free plan). Upgrade to Pro for unlimited exams.");
+      setLoading(false);
+      return;
+    }
+    if (!canRepeatExam(params.chapterId)) {
+      setBlocked(true);
+      setBlockReason("You have already attempted this exam. Free plan users cannot repeat exams. Upgrade to Pro for unlimited retakes.");
+      setLoading(false);
+      return;
+    }
+
     // Fetch test data
     fetch(`/api/exam/${params.chapterId}`)
       .then(res => res.json())
@@ -43,7 +61,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
         console.error(e);
         setLoading(false);
       });
-  }, [params.chapterId]);
+  }, [params.chapterId, canAttemptExam]);
 
   // Timer logic
   useEffect(() => {
@@ -198,6 +216,39 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
          <Loader2 className="w-12 h-12 text-indigo-500 animate-spin mb-4" />
          <h2 className="font-display text-2xl font-bold tracking-widest">ABHYASCORE</h2>
          <p className="text-slate-400 mt-2 tracking-widest text-sm uppercase">Initializing Exam Environment...</p>
+      </div>
+    );
+  }
+
+  if (blocked) {
+    return (
+      <div className="min-h-screen bg-[#fafafc] flex flex-col items-center justify-center text-center p-6">
+         <div className="relative mx-auto w-20 h-20 mb-6">
+           <div className="absolute inset-0 bg-red-500/15 rounded-full blur-[30px] animate-pulse" />
+           <div className="relative w-20 h-20 bg-gradient-to-br from-red-500 to-rose-600 rounded-[24px] flex items-center justify-center shadow-2xl shadow-red-600/25">
+             <ShieldAlert className="w-9 h-9 text-white" />
+           </div>
+         </div>
+         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-50 border border-red-200 text-red-700 text-[10px] font-bold tracking-[0.2em] uppercase mb-4">
+           <Lock className="w-3.5 h-3.5" /> Exam Access Restricted
+         </div>
+         <h2 className="text-2xl font-display font-bold text-slate-900 mb-3 max-w-md">You cannot attempt this exam right now</h2>
+         <p className="text-slate-500 text-[14px] max-w-md mb-8 leading-relaxed">{blockReason}</p>
+         <div className="flex flex-col sm:flex-row gap-3">
+           <Link href="/dashboard?checkout=Pro%20Yearly">
+             <button className="px-8 py-3.5 bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-bold rounded-2xl shadow-xl shadow-indigo-600/25 hover:scale-[1.02] transition-all flex items-center gap-2">
+               <Crown className="w-5 h-5" /> Upgrade to Pro — ₹399/yr
+             </button>
+           </Link>
+           <Link href="/dashboard/tests">
+             <button className="px-8 py-3.5 bg-white border border-slate-200 text-slate-700 font-bold rounded-2xl shadow-sm hover:bg-slate-50 transition-all">
+               Back to Test Library
+             </button>
+           </Link>
+         </div>
+         {!isPro && (
+           <p className="mt-5 text-[11px] text-slate-400 font-medium">Free plan: 1 exam/day • No repeats • Upgrade anytime</p>
+         )}
       </div>
     );
   }

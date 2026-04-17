@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
-import { adminAuth } from '@/lib/firebase-admin'; // wait, do we have firebase-admin? Let's check or I'll just rely on the client passing the uid. The plan said just normal route.
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID || 'rzp_test_placeholder',

@@ -3,11 +3,14 @@
 import { useState } from "react";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
-import { Target, Search, CheckCircle2, Circle, Flame, Rocket, ChevronRight, SlidersHorizontal, BookOpen } from "lucide-react";
+import { Target, Search, CheckCircle2, Circle, Flame, Rocket, ChevronRight, SlidersHorizontal, BookOpen, Lock, Crown } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { usePremium } from "@/lib/hooks/usePremium";
+import Link from "next/link";
 
 export default function CustomExamBuilder() {
   const router = useRouter();
+  const { canUseCustomBuilder, remainingCustomExams, isPro, plan } = usePremium();
   const [targetExam, setTargetExam] = useState<"JEE" | "NEET">("JEE");
   
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>(["Physics"]);
@@ -74,6 +77,35 @@ export default function CustomExamBuilder() {
              <p className="text-slate-500 leading-relaxed max-w-2xl">
                 Select your target exam, mix and match specific subjects or chapters, and set a custom length to generate a dynamic practice drill instantly.
              </p>
+          </div>
+
+          {/* Usage Limit Banner */}
+          <div className={`rounded-2xl border p-4 mb-6 flex items-center justify-between ${canUseCustomBuilder ? 'bg-emerald-50 border-emerald-200' : 'bg-red-50 border-red-200'}`}>
+             <div className="flex items-center gap-3">
+                {canUseCustomBuilder ? (
+                  <div className="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center"><Rocket className="w-4 h-4" /></div>
+                ) : (
+                  <div className="w-9 h-9 rounded-xl bg-red-100 text-red-600 flex items-center justify-center"><Lock className="w-4 h-4" /></div>
+                )}
+                <div>
+                  <div className={`text-[13px] font-bold ${canUseCustomBuilder ? 'text-emerald-900' : 'text-red-900'}`}>
+                    {canUseCustomBuilder
+                      ? `${remainingCustomExams} custom exam${remainingCustomExams !== 1 ? 's' : ''} remaining ${isPro ? 'today' : 'this week'}`
+                      : `Custom exam limit reached (${isPro ? 'daily' : 'weekly'})`
+                    }
+                  </div>
+                  <div className="text-[11px] text-slate-500 font-medium">
+                    {isPro ? 'Pro plan: 5 custom exams/day' : 'Free plan: 1 custom exam/week'}
+                  </div>
+                </div>
+             </div>
+             {!canUseCustomBuilder && !isPro && (
+               <Link href="/dashboard?checkout=Pro%20Yearly">
+                 <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-xl text-[12px] font-bold hover:bg-indigo-700 transition-colors shadow-md">
+                   <Crown className="w-3.5 h-3.5" /> Upgrade
+                 </button>
+               </Link>
+             )}
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -194,12 +226,16 @@ export default function CustomExamBuilder() {
                      Estimated Time: <span className="text-slate-900">{Math.round(questionCount * 2)} Mins</span>
                    </div>
                    <button 
-                     onClick={handleGenerate}
-                     disabled={selectedChapters.size === 0}
-                     className="bg-indigo-600 disabled:bg-slate-300 disabled:text-slate-500 disabled:cursor-not-allowed hover:bg-indigo-500 text-white px-8 py-3 rounded-xl text-[14px] font-bold shadow-lg shadow-indigo-600/30 transition-all flex items-center gap-2 hover:scale-[1.02]"
-                   >
-                     <Rocket className="w-4 h-4" /> Generate custom Run
-                   </button>
+                      onClick={handleGenerate}
+                      disabled={selectedChapters.size === 0 || !canUseCustomBuilder}
+                      className="bg-indigo-600 disabled:bg-slate-300 disabled:text-slate-500 disabled:cursor-not-allowed hover:bg-indigo-500 text-white px-8 py-3 rounded-xl text-[14px] font-bold shadow-lg shadow-indigo-600/30 transition-all flex items-center gap-2 hover:scale-[1.02]"
+                    >
+                      {canUseCustomBuilder ? (
+                        <><Rocket className="w-4 h-4" /> Generate Custom Run</>
+                      ) : (
+                        <><Lock className="w-4 h-4" /> Limit Reached</>
+                      )}
+                    </button>
                 </div>
              </div>
 

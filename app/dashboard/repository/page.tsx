@@ -1,5 +1,7 @@
 "use client";
 
+import { usePremium } from "@/lib/hooks/usePremium";
+import { ProLockScreen } from "@/components/ui/pro-lock-screen";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Card } from "@/components/ui/card";
 import { Archive, Calendar, Target, ChevronRight, BarChart2 } from "lucide-react";
@@ -49,6 +51,20 @@ const pastExams = [
 ];
 
 export default function RepositoryPage() {
+  const { canAccessRepository, isTrialExpired } = usePremium();
+
+  if (!canAccessRepository) {
+    return (
+      <DashboardShell>
+        <ProLockScreen
+          featureName="Examination Repository"
+          description="Access your full examination history, detailed score analysis, and AI-generated improvement insights — only for Pro members."
+          isTrialExpired={isTrialExpired}
+        />
+      </DashboardShell>
+    );
+  }
+
   return (
     <DashboardShell>
       <div className="p-4 md:p-8 max-w-7xl mx-auto space-y-6">
