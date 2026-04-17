@@ -37,3 +37,19 @@ export async function saveTestResult(userId: string, payload: any) {
     throw error;
   }
 }
+export async function updateUserSubscription(
+  userId: string,
+  plan: "Pro Monthly" | "Pro Yearly" | "Free",
+  status: "active" | "canceled" | "past_due" | "none",
+  razorpaySubscriptionId?: string
+) {
+  if (!db) return;
+
+  const userRef = doc(db, "users", userId);
+  await updateDoc(userRef, {
+    "subscription.plan": plan,
+    "subscription.status": status,
+    "subscription.razorpaySubscriptionId": razorpaySubscriptionId || null,
+    updatedAt: serverTimestamp(),
+  });
+}

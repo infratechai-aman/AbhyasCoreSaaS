@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
+import { useAuth } from "@/lib/auth-context";
+import { useRazorpay } from "@/lib/hooks/useRazorpay";
 import { useAuth } from "@/lib/auth-context";
 import { X } from "lucide-react";
 import { 
@@ -21,8 +23,70 @@ import {
 export default function DashboardPage() {
   const router = useRouter();
   const { userData } = useAuth();
+  const searchParams = useSearchParams();
+  const { openCheckout } = useRazorpay();
   const [quickTestOpen, setQuickTestOpen] = useState(false);
   const [generating, setGenerating] = useState(false);
+  const [isProcessingPayment, setIsProcessingPayment] = useState(false);
+
+  // Pro features check
+  const isPremium = userData?.subscription?.plan === "Pro Monthly" || userData?.subscription?.plan === "Pro Yearly";
+
+  const handleCheckout = async (planName: "Pro Monthly" | "Pro Yearly") => {
+    try {
+      setIsProcessingPayment(true);
+      const res = await fetch("/api/payment/create-subscription", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ plan: planName }),
+      });
+      const data = await res.json();
+
+      if (data.error) {
+        alert("Payment initialization failed: " + data.error);
+        setIsProcessingPayment(false);
+        return;
+      }
+
+      openCheckout({
+        subscription_id: data.subscriptionId,
+        name: "AbhyasCore Premium",
+        description: `${planName} Subscription`,
+        prefill: {
+          name: userData?.displayName || "Aspirant",
+          email: userData?.email || "",
+        },
+        onSuccess: async (response) => {
+          // Verify
+          await fetch("/api/payment/verify", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(response),
+          });
+          setIsProcessingPayment(false);
+          alert("Payment successful! You are now a Premium Member.");
+          router.replace("/dashboard"); // clear query params
+        },
+        onError: (err) => {
+          setIsProcessingPayment(false);
+          alert("Payment failed or cancelled.");
+        }
+      });
+
+    } catch (e) {
+      console.error(e);
+      setIsProcessingPayment(false);
+    }
+  };
+
+  // If redirect hit from landing page
+  if (searchParams?.get("checkout") && !isProcessingPayment && !isPremium) {
+     const plan = searchParams.get("checkout");
+     if (plan === "Pro Monthly" || plan === "Pro Yearly") {
+         // Prevent infinite loop by quickly executing and clearing
+         setTimeout(() => handleCheckout(plan as any), 500);
+     }
+  }
 
   const startTest = () => {
     setGenerating(true);
@@ -167,13 +231,19 @@ export default function DashboardPage() {
               <Crown className="h-6 w-6" />
             </div>
             <div className="text-[10px] uppercase tracking-[0.15em] text-slate-400 font-bold mb-1">Plan Status</div>
-            <div className="text-[15px] font-bold text-slate-900 mb-2">Premium Plan</div>
+            <div className="text-[15px] font-bold text-slate-900 mb-2">{isPremium ? userData?.subscription?.plan : "Free Tier"}</div>
             <p className="text-[12px] leading-relaxed text-slate-500 mb-5 px-1">
-              Your subscription is active until Dec 2026.
+              {isPremium ? "Your subscription is currently active." : "You are missing out on AI insight drills and unlimited mocks."}
             </p>
-            <button className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-600 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors">
-              Manage Billing
-            </button>
+            {!isPremium ? (
+               <button onClick={() => handleCheckout("Pro Yearly")} className="w-full py-2 rounded-lg bg-indigo-600 text-white text-[12px] font-bold tracking-wide hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2">
+                 <Zap className="w-3.5 h-3.5" /> Upgrade to Pro
+               </button>
+            ) : (
+              <button className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-600 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors">
+                Manage Billing
+              </button>
+            )}
           </div>
 
           {/* Exam Calendar */}

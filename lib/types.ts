@@ -21,3 +21,18 @@ export type DashboardMetric = {
   value: string;
   change: string;
 };
+
+export interface UserSubscription {
+  plan: "Free" | "Pro Monthly" | "Pro Yearly";
+  status: "active" | "past_due" | "canceled" | "none";
+  razorpaySubscriptionId?: string;
+  razorpayCustomerId?: string;
+  expiryDate?: string;
+}
+
+export interface UserProfile {
+  uid: string;
+  email: string;
+  displayName: string;
+  subscription: UserSubscription;
+}
