@@ -1,57 +1,29 @@
-"use client";
-
+import { useState, useEffect } from "react";
+import { useAuth } from "@/lib/auth-context";
 import { usePremium } from "@/lib/hooks/usePremium";
 import { ProLockScreen } from "@/components/ui/pro-lock-screen";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Card } from "@/components/ui/card";
-import { Archive, Calendar, Target, ChevronRight, BarChart2 } from "lucide-react";
+import { Archive, Calendar, Target, ChevronRight, BarChart2, Loader2 } from "lucide-react";
 import Link from "next/link";
-
-const pastExams = [
-  { 
-    id: "1", 
-    name: "Grand Rank Predictor Mock #7", 
-    type: "Full Syllabus",
-    date: "A few hours ago", 
-    score: 184, 
-    total: 300, 
-    accuracy: "76%", 
-    percentile: "94.2" 
-  },
-  { 
-    id: "2", 
-    name: "Physics: Mechanics Mastery", 
-    type: "Chapter Sprint",
-    date: "Yesterday", 
-    score: 82, 
-    total: 100, 
-    accuracy: "84%", 
-    percentile: "-" 
-  },
-  { 
-    id: "3", 
-    name: "Grand Rank Predictor Mock #6", 
-    type: "Full Syllabus",
-    date: "3 days ago", 
-    score: 165, 
-    total: 300, 
-    accuracy: "68%", 
-    percentile: "89.5" 
-  },
-  { 
-    id: "4", 
-    name: "Chemistry: Organic Drill", 
-    type: "Daily Drill",
-    date: "Oct 20, 2023", 
-    score: 74, 
-    total: 100, 
-    accuracy: "81%", 
-    percentile: "-" 
-  }
-];
+import { getUserTestHistory } from "@/lib/firebase-service";
 
 export default function RepositoryPage() {
+  const { user } = useAuth();
   const { canAccessRepository, isTrialExpired } = usePremium();
+  const [pastExams, setPastExams] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function load() {
+      if (user?.uid) {
+        const history = await getUserTestHistory(user.uid);
+        setPastExams(history);
+      }
+      setLoading(false);
+    }
+    load();
+  }, [user]);
 
   if (!canAccessRepository) {
     return (
@@ -80,7 +52,7 @@ export default function RepositoryPage() {
           
           <div className="flex items-center gap-3 bg-white px-4 py-2 rounded-2xl border border-slate-200/60 shadow-sm">
             <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Total Attempts</div>
-            <div className="text-lg font-bold text-indigo-600">42</div>
+            <div className="text-lg font-bold text-indigo-600">{loading ? "..." : pastExams.length}</div>
           </div>
         </div>
 
@@ -99,26 +71,39 @@ export default function RepositoryPage() {
 
                 {/* Table Body */}
                 <div className="divide-y divide-slate-100/60">
-                  {pastExams.map((exam) => (
+                  {loading ? (
+                    <div className="py-8 flex justify-center w-full">
+                       <Loader2 className="w-8 h-8 text-indigo-500 animate-spin" />
+                    </div>
+                  ) : pastExams.length === 0 ? (
+                    <div className="py-8 text-center text-slate-400 font-medium">No previous examinations found. Please complete a mock test!</div>
+                  ) : pastExams.map((exam) => {
+                    const d = exam.timestamp?.toDate ? exam.timestamp.toDate() : new Date();
+                    const dateStr = d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+                    const score = (exam.correctCount || 0) * 4 - ((exam.totalQuestions || 0) - (exam.correctCount || 0)) * 1; 
+                    const totalScore = (exam.totalQuestions || 30) * 4;
+                    const accuracy = Math.round(((exam.correctCount || 0) / (exam.totalQuestions || 1)) * 100);
+                    
+                    return (
                     <div key={exam.id} className="grid grid-cols-[1.5fr_1fr_1fr_1fr_auto] gap-4 px-6 py-5 hover:bg-slate-50/80 transition-colors group items-center">
                       
                       {/* Name & Type */}
                       <div>
-                        <div className="font-bold text-[14px] text-slate-900 mb-1">{exam.name}</div>
+                        <div className="font-bold text-[14px] text-slate-900 mb-1">{exam.chapterName || exam.chapterId || "Mock Test"}</div>
                         <div className="text-[11px] font-semibold text-indigo-500 bg-indigo-50 py-0.5 px-2 rounded-md inline-block">
-                          {exam.type}
+                          {exam.subject || "Full Syllabus"}
                         </div>
                       </div>
 
                       {/* Date */}
                       <div className="flex items-center gap-1.5 text-sm text-slate-500 font-medium whitespace-nowrap">
-                        <Calendar className="w-3.5 h-3.5 text-slate-400" /> {exam.date}
+                        <Calendar className="w-3.5 h-3.5 text-slate-400" /> {dateStr}
                       </div>
 
                       {/* Score */}
                       <div>
                         <div className="text-[16px] font-bold text-slate-900">
-                          {exam.score} <span className="text-slate-400 text-sm font-medium">/ {exam.total}</span>
+                          {score} <span className="text-slate-400 text-sm font-medium">/ {totalScore}</span>
                         </div>
                       </div>
 
@@ -126,19 +111,14 @@ export default function RepositoryPage() {
                       <div>
                         <div className="flex flex-col gap-1">
                           <div className="flex items-center gap-1.5 text-sm font-semibold text-emerald-600">
-                            <Target className="w-3.5 h-3.5" /> {exam.accuracy}
+                            <Target className="w-3.5 h-3.5" /> {accuracy}%
                           </div>
-                          {exam.percentile !== "-" && (
-                            <div className="text-[11px] font-bold text-slate-400">
-                              {exam.percentile} %ile
-                            </div>
-                          )}
                         </div>
                       </div>
 
                       {/* Action */}
                       <div className="flex justify-end">
-                        <Link href={`/dashboard/performance/${exam.id}`}>
+                        <Link href={`/test-results/${exam.id}?dbRef=true`}>
                            <button className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-100 text-slate-400 group-hover:bg-indigo-600 group-hover:text-white transition-all shadow-sm">
                              <ChevronRight className="w-4 h-4" />
                            </button>
@@ -146,7 +126,7 @@ export default function RepositoryPage() {
                       </div>
 
                     </div>
-                  ))}
+                  )})}
                 </div>
              </div>
           </div>

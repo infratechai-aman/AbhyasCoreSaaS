@@ -6,6 +6,11 @@ import {
   increment, 
   serverTimestamp,
   getDoc,
+  getDocs,
+  query,
+  where,
+  orderBy,
+  limit,
   arrayUnion
 } from "firebase/firestore";
 import { db } from "./firebase";
@@ -86,4 +91,37 @@ export async function updateUserSubscription(
     "subscription.razorpaySubscriptionId": razorpaySubscriptionId || null,
     updatedAt: serverTimestamp(),
   });
+}
+
+export async function getUserTestHistory(userId: string) {
+  if (!db) return [];
+  try {
+    const resultsRef = collection(db, "results");
+    const q = query(
+      resultsRef,
+      where("userId", "==", userId),
+      orderBy("timestamp", "desc"),
+      limit(50)
+    );
+    const snap = await getDocs(q);
+    return snap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+  } catch (error) {
+    console.error("Error fetching history:", error);
+    return [];
+  }
+}
+
+export async function getTestResultById(docId: string) {
+  if (!db) return null;
+  try {
+    const docRef = doc(db, "results", docId);
+    const snap = await getDoc(docRef);
+    if (snap.exists()) {
+      return { id: snap.id, ...snap.data() };
+    }
+    return null;
+  } catch (error) {
+    console.error("Error fetching single result:", error);
+    return null;
+  }
 }

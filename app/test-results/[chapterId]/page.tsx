@@ -26,6 +26,8 @@ interface ResultData {
   timeTaken: number;
 }
 
+import { getTestResultById } from "@/lib/firebase-service";
+
 export default function TestResultsPage() {
   const params = useParams();
   const router = useRouter();
@@ -34,12 +36,21 @@ export default function TestResultsPage() {
   const [filterMode, setFilterMode] = useState<"all" | "correct" | "wrong" | "unattempted">("all");
 
   useEffect(() => {
-    const stored = localStorage.getItem(`test_results_${params.chapterId}`);
-    if (stored) {
-      setData(JSON.parse(stored));
-    } else {
-      router.push("/dashboard/practice-mode");
+    async function fetchResult() {
+      const stored = localStorage.getItem(`test_results_${params.chapterId}`);
+      if (stored) {
+        setData(JSON.parse(stored));
+      } else {
+        // Fallback to Firebase
+        const dbResult = await getTestResultById(params.chapterId as string);
+        if (dbResult && dbResult.questions) {
+          setData(dbResult as any);
+        } else {
+          router.push("/dashboard/repository");
+        }
+      }
     }
+    fetchResult();
   }, [params.chapterId, router]);
 
   if (!data) {
