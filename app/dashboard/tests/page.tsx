@@ -2,18 +2,26 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Target, Clock, Trophy, ChevronRight, LayoutGrid, Rocket, Bookmark, Shield, Flame } from "lucide-react";
 import { Syllabus, SubjectSyllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
 
 export default function TestsPage() {
+  const router = useRouter();
   const { userData } = useAuth();
   const [activeClass, setActiveClass] = useState<keyof typeof Syllabus>("Class11");
   const [activeSubject, setActiveSubject] = useState<keyof SubjectSyllabus>("Physics");
 
   // Filter based on targetExam
   const targetExam = userData?.targetExam || "JEE";
+  
+  const handleTieredMock = (level: number) => {
+    const year = 2009 + level;
+    const prefix = targetExam === "NEET" ? "neet" : "jee_main";
+    router.push(`/test-console/${prefix}_${year}`);
+  };
   const allSubjects = Object.keys(Syllabus.Class11) as Array<keyof SubjectSyllabus>;
   const allowedSubjects = allSubjects.filter(sub => {
     if (targetExam === "JEE" && sub === "Biology") return false;
@@ -142,7 +150,7 @@ export default function TestsPage() {
                         { level: 9, name: "Apex Simulation IX",   difficulty: "Extreme",  desc: "Top 1% difficulty. Designed to simulate the hardest possible JEE paper.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
                         { level: 10, name: "Apex Simulation X",   difficulty: "Extreme",  desc: "The ultimate stress test. If you conquer this, you conquer the exam.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
                       ].map((mock) => (
-                        <div key={mock.level} onClick={() => alert("This tiered mock scale is currently being built into the backend. Stay tuned!")} className="relative bg-white border border-slate-200 text-slate-800 rounded-[20px] p-5 shadow-sm overflow-hidden group cursor-pointer hover:border-indigo-400 hover:shadow-lg transition-all w-[300px] shrink-0 flex flex-col h-[200px]">
+                        <div key={mock.level} onClick={() => handleTieredMock(mock.level)} className="relative bg-white border border-slate-200 text-slate-800 rounded-[20px] p-5 shadow-sm overflow-hidden group cursor-pointer hover:border-indigo-400 hover:shadow-lg transition-all w-[300px] shrink-0 flex flex-col h-[200px]">
                           <div className={`absolute -right-10 -top-10 w-24 h-24 ${mock.glow} rounded-full blur-[40px] opacity-10 group-hover:opacity-20 transition-all pointer-events-none`} />
                           
                           <div className="flex justify-between items-start mb-3 relative z-10">
