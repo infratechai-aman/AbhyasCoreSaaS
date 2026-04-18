@@ -46,7 +46,7 @@ const practiceCategories = [
     shadow: "shadow-none",
     stats: "5 mins/set",
     tag: "Retention Tool",
-    href: "#"
+    href: "/dashboard/flashcard-drive"
   },
   {
     title: "All-India Elite Challenge",
@@ -56,7 +56,7 @@ const practiceCategories = [
     shadow: "shadow-none",
     stats: "Live Weekly",
     tag: "Pro Challenge",
-    href: "#"
+    href: "/dashboard/all-india-challenge"
   }
 ];
 
@@ -142,14 +142,6 @@ export default function PracticePage() {
                 </div>
               </Card>
             );
-
-            if (item.href === "#") {
-               return (
-                  <div key={item.title} onClick={() => alert("This module is currently in beta testing. Check back later!")} className="block transition-transform hover:-translate-y-1">
-                     {content}
-                  </div>
-               );
-            }
 
             return (
               <Link key={item.title} href={finalHref} className="block transition-transform hover:-translate-y-1">
