@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect } from "react";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { flashcardDecks, allDecks, Flashcard } from "@/lib/flashcard-data";
 import { Zap, RotateCcw, Check, X, Sparkles, Trophy, ArrowRight } from "lucide-react";
+import { useAuth } from "@/lib/auth-context";
 
 // Helper to shuffle an array
 function shuffleArray<T>(array: T[]): T[] {
@@ -16,7 +17,22 @@ function shuffleArray<T>(array: T[]): T[] {
 }
 
 export default function FlashcardDrivePage() {
-  const [selectedDeck, setSelectedDeck] = useState(allDecks[0]);
+  const { userData } = useAuth();
+  const targetExam = userData?.targetExam || "JEE";
+  
+  const visibleDecks = allDecks.filter(deck => {
+    if (targetExam === "JEE" && deck.includes("Biology")) return false;
+    if (targetExam === "NEET" && deck.includes("Mathematics")) return false;
+    return true;
+  });
+
+  const [selectedDeck, setSelectedDeck] = useState(visibleDecks[0] || allDecks[0]);
+  
+  useEffect(() => {
+    if (!visibleDecks.includes(selectedDeck) && visibleDecks.length > 0) {
+      setSelectedDeck(visibleDecks[0]);
+    }
+  }, [visibleDecks, selectedDeck]);
   
   // Game State
   const [activeQueue, setActiveQueue] = useState<Flashcard[]>([]);
@@ -28,8 +44,9 @@ export default function FlashcardDrivePage() {
   // Initialize or reset deck
   const initDeck = useCallback((deckName: string) => {
     const cards = flashcardDecks[deckName] || [];
-    setActiveQueue(shuffleArray(cards));
-    setTotalInitial(cards.length);
+    const shuffled = shuffleArray(cards).slice(0, 20);
+    setActiveQueue(shuffled);
+    setTotalInitial(shuffled.length);
     setKnownCount(0);
     setReviewCount(0);
     setIsFlipped(false);
@@ -80,7 +97,7 @@ export default function FlashcardDrivePage() {
 
         {/* Deck Selector */}
         <div className="flex gap-2 flex-wrap">
-          {allDecks.map(deck => (
+          {visibleDecks.map(deck => (
             <button
               key={deck}
               onClick={() => setSelectedDeck(deck)}
