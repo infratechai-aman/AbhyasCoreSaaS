@@ -24,7 +24,14 @@ function CustomExamConsoleInner() {
   const [statuses, setStatuses] = useState<Record<string, string>>({});
   const [answers, setAnswers] = useState<Record<string, string>>({});
   
-  const [customTestId] = useState(`custom_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`);
+  const [customTestId, setCustomTestId] = useState(`tiered_0_tmp`);
+
+  useEffect(() => {
+    const tier = searchParams.get("tier");
+    if (tier) {
+      setCustomTestId(`tiered_${tier}_${Date.now()}`);
+    }
+  }, [searchParams]);
 
   useEffect(() => {
     const tier = searchParams.get("tier");
@@ -176,6 +183,15 @@ function CustomExamConsoleInner() {
 
       if (user) {
         await saveTestResult(user.uid, resultPayload);
+      }
+
+      const tierMatch = searchParams.get("tier");
+      if (tierMatch && correct >= 45) {
+         const passedTier = parseInt(tierMatch, 10);
+         const currentLocalMax = parseInt(localStorage.getItem('maxTierPassed') || '0', 10);
+         if (passedTier > currentLocalMax) {
+            localStorage.setItem('maxTierPassed', passedTier.toString());
+         }
       }
 
       localStorage.setItem(`test_results_${customTestId}`, JSON.stringify({

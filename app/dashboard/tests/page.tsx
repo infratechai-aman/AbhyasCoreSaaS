@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
-import { Target, Clock, Trophy, ChevronRight, LayoutGrid, Rocket, Bookmark, Shield, Flame } from "lucide-react";
+import { Target, Clock, Trophy, ChevronRight, LayoutGrid, Rocket, Bookmark, Shield, Flame, Lock } from "lucide-react";
 import { Syllabus, SubjectSyllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
 
@@ -14,10 +14,17 @@ export default function TestsPage() {
   const [activeClass, setActiveClass] = useState<keyof typeof Syllabus>("Class11");
   const [activeSubject, setActiveSubject] = useState<keyof SubjectSyllabus>("Physics");
 
-  // Filter based on targetExam
+  const [localMaxTier, setLocalMaxTier] = useState<number>(0);
+  
+  useEffect(() => {
+     setLocalMaxTier(parseInt(localStorage.getItem('maxTierPassed') || '0', 10));
+  }, []);
+
   const targetExam = userData?.targetExam || "JEE";
+  const totalMaxTierPassed = Math.max(userData?.maxTierPassed || 0, localMaxTier);
   
   const handleTieredMock = (level: number) => {
+    if (level > totalMaxTierPassed + 1) return;
     router.push(`/test-console/tiered?tier=${level}&exam=${targetExam}`);
   };
   const allSubjects = Object.keys(Syllabus.Class11) as Array<keyof SubjectSyllabus>;
@@ -147,16 +154,18 @@ export default function TestsPage() {
                         { level: 8, name: "Elite Mock VIII",      difficulty: "Advanced", desc: "Paragraph-based and matrix-match questions modeled after JEE Advanced.", glow: "bg-violet-500", badge: "text-violet-700 bg-violet-100" },
                         { level: 9, name: "Apex Simulation IX",   difficulty: "Extreme",  desc: "Top 1% difficulty. Designed to simulate the hardest possible JEE paper.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
                         { level: 10, name: "Apex Simulation X",   difficulty: "Extreme",  desc: "The ultimate stress test. If you conquer this, you conquer the exam.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
-                      ].map((mock) => (
-                        <div key={mock.level} onClick={() => handleTieredMock(mock.level)} className="relative bg-white border border-slate-200 text-slate-800 rounded-[20px] p-5 shadow-sm overflow-hidden group cursor-pointer hover:border-indigo-400 hover:shadow-lg transition-all w-[300px] shrink-0 flex flex-col h-[200px]">
+                      ].map((mock) => {
+                        const isLocked = mock.level > totalMaxTierPassed + 1;
+                        return (
+                        <div key={mock.level} onClick={() => handleTieredMock(mock.level)} className={`relative bg-white border border-slate-200 text-slate-800 rounded-[20px] p-5 overflow-hidden group w-[300px] shrink-0 flex flex-col h-[200px] ${isLocked ? 'cursor-not-allowed opacity-75' : 'cursor-pointer shadow-sm hover:border-indigo-400 hover:shadow-lg transition-all'}`}>
                           <div className={`absolute -right-10 -top-10 w-24 h-24 ${mock.glow} rounded-full blur-[40px] opacity-10 group-hover:opacity-20 transition-all pointer-events-none`} />
                           
                           <div className="flex justify-between items-start mb-3 relative z-10">
                              <div className={`px-2.5 py-1 rounded-md text-[10px] font-bold tracking-wider uppercase border border-white/50 ${mock.badge}`}>
                                {mock.difficulty}
                              </div>
-                             <div className="bg-slate-50 border border-slate-100 w-7 h-7 rounded-md flex items-center justify-center text-[12px] font-bold text-slate-400 group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-colors">
-                                #{mock.level}
+                             <div className={`bg-slate-50 border border-slate-100 w-7 h-7 rounded-md flex items-center justify-center text-[12px] font-bold text-slate-400 ${!isLocked ? 'group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-colors' : ''}`}>
+                                {isLocked ? <Lock className="w-3.5 h-3.5" /> : `#${mock.level}`}
                              </div>
                           </div>
                           
@@ -171,13 +180,13 @@ export default function TestsPage() {
                                    <span className="flex items-center gap-1"><Clock className="w-3 h-3 text-slate-400" /> 180M</span>
                                    <span className="flex items-center gap-1"><Target className="w-3 h-3 text-slate-400" /> 300</span>
                                 </div>
-                                <button className="flex items-center justify-center w-6 h-6 rounded-full bg-slate-50 text-slate-400 group-hover:bg-indigo-600 group-hover:text-white transition-all shadow-sm">
+                                <button className={`flex items-center justify-center w-6 h-6 rounded-full transition-all shadow-sm ${isLocked ? 'bg-slate-100 text-slate-400' : 'bg-slate-50 text-slate-400 group-hover:bg-indigo-600 group-hover:text-white'}`}>
                                   <ChevronRight className="w-3 h-3" />
                                 </button>
                              </div>
                           </div>
                         </div>
-                      ))}
+                      )})}
                     </div>
                  </div>
               </div>

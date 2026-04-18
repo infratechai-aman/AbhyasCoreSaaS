@@ -41,7 +41,7 @@ export async function saveTestResult(userId: string, payload: any) {
 
     const questionsCount = payload.totalQuestions || payload.questions?.length || 0;
 
-    await updateDoc(userRef, {
+    let updates: any = {
       mocksCompleted: increment(1),
       questionsSolved: increment(questionsCount),
       "usage.lastTrackedDate": today,
@@ -49,7 +49,21 @@ export async function saveTestResult(userId: string, payload: any) {
       "usage.aiTokensUsedToday": aiTokensUsedToday,
       "usage.customExamsCreatedToday": customExamsCreatedToday,
       "usage.completedExamIds": arrayUnion(payload.chapterId || "unknown_exam")
-    });
+    };
+
+    // Tier unlock logic
+    if (payload.chapterId && payload.chapterId.startsWith('tiered_') && payload.correctCount >= 45) {
+      const tierMatch = payload.chapterId.split('_')[1];
+      if (tierMatch) {
+         const passedTier = parseInt(tierMatch, 10);
+         const currentMax = userData.maxTierPassed || 0;
+         if (passedTier > currentMax) {
+            updates.maxTierPassed = passedTier;
+         }
+      }
+    }
+
+    await updateDoc(userRef, updates);
 
     return resultDoc.id;
   } catch (error) {
