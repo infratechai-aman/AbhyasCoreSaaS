@@ -116,7 +116,7 @@ function DashboardContent() {
 
           <div className="mb-8 md:mb-10">
             <h2 className="text-[24px] md:text-[28px] font-semibold text-slate-900 tracking-tight leading-[1.1] mb-2">Welcome back, {userData?.name || "Aspirant"}!</h2>
-            <p className="text-slate-500 text-[13px] md:text-[14px]">Here's your {userData?.subscription || "standard"} dashboard overview.</p>
+            <p className="text-slate-500 text-[13px] md:text-[14px]">Here's your {userData?.subscription?.plan || "standard"} dashboard overview.</p>
           </div>
 
           {/* Stats Cards - Dynamic Integration */}
