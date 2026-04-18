@@ -18,9 +18,7 @@ export default function TestsPage() {
   const targetExam = userData?.targetExam || "JEE";
   
   const handleTieredMock = (level: number) => {
-    const year = 2009 + level;
-    const prefix = targetExam === "NEET" ? "neet" : "jee_main";
-    router.push(`/test-console/${prefix}_${year}`);
+    router.push(`/test-console/tiered?tier=${level}&exam=${targetExam}`);
   };
   const allSubjects = Object.keys(Syllabus.Class11) as Array<keyof SubjectSyllabus>;
   const allowedSubjects = allSubjects.filter(sub => {
