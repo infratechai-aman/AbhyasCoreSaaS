@@ -4,7 +4,7 @@ import { PlayCircle, Clock, Trophy, BarChart2, Star, Sparkles, ChevronRight, Fil
 export default function MockTestsPage() {
   return (
     <DashboardShell>
-      <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
+      <div className="flex flex-col h-full bg-[#fafafc] p-4 md:p-8 overflow-x-hidden overflow-y-auto">
         
         {/* Header Section */}
         <div className="flex items-end justify-between mb-10">

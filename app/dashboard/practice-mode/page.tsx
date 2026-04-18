@@ -30,7 +30,7 @@ export default function PracticeModePage() {
 
   return (
     <DashboardShell>
-      <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
+      <div className="flex flex-col h-full bg-[#fafafc] p-4 md:p-8 overflow-y-auto overflow-x-hidden">
         
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
           <div className="max-w-2xl">
@@ -44,7 +44,7 @@ export default function PracticeModePage() {
           </div>
 
           {/* Class Toggle */}
-          <div className="flex items-center gap-1 bg-white p-1 rounded-2xl border border-slate-200/60 shadow-sm w-max shrink-0">
+          <div className="flex items-center gap-1 bg-white p-1 rounded-2xl border border-slate-200/60 shadow-sm w-full md:w-max overflow-x-auto custom-scrollbar shrink-0">
             {["Class11", "Class12"].map((cls) => (
               <button
                 key={cls}
@@ -62,7 +62,7 @@ export default function PracticeModePage() {
         </div>
         
         {/* Modern Tabs */}
-        <div className="flex items-center gap-2 mb-8 bg-white p-1.5 rounded-2xl border border-slate-200/60 shadow-sm w-max">
+        <div className="flex items-center gap-2 mb-8 bg-white p-1.5 rounded-2xl border border-slate-200/60 shadow-sm w-full md:w-max overflow-x-auto custom-scrollbar">
            {allowedSubjects.map((sub) => (
              <button
                 key={sub}

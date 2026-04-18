@@ -45,7 +45,7 @@ export default function AITutorPage() {
   };
   return (
     <DashboardShell>
-      <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
+      <div className="flex flex-col h-full bg-[#fafafc] p-4 md:p-8 overflow-x-hidden overflow-y-auto">
         
         <div className="mb-10 max-w-2xl">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-violet-50 border border-violet-100 text-violet-700 text-[10px] font-bold tracking-[0.2em] uppercase mb-4 shadow-sm">

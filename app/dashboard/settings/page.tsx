@@ -12,7 +12,7 @@ export default function SettingsPage() {
 
   return (
     <DashboardShell>
-      <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
+      <div className="flex flex-col h-full bg-[#fafafc] p-4 md:p-8 overflow-x-hidden overflow-y-auto">
         
         {/* Header */}
         <div className="mb-10 max-w-2xl">
