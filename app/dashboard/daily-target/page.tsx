@@ -55,7 +55,7 @@ export default function DailyTargetPage() {
     sessionStorage.setItem("daily_target_questions", JSON.stringify(questions));
     sessionStorage.setItem("daily_target_exam",      exam);
     sessionStorage.setItem("daily_target_date",      date);
-    router.push("/dashboard/daily-target/exam");
+    router.push("/test-console/daily");
   }
 
   return (
