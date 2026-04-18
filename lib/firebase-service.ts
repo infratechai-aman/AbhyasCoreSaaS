@@ -4,7 +4,9 @@ import {
   doc, 
   updateDoc, 
   increment, 
-  serverTimestamp 
+  serverTimestamp,
+  getDoc,
+  arrayUnion
 } from "firebase/firestore";
 import { db } from "./firebase";
 
@@ -23,12 +25,30 @@ export async function saveTestResult(userId: string, payload: any) {
       timestamp: serverTimestamp(),
     });
 
-    // 2. Update user aggregates
+    // 2. Update user aggregates and usage tracking
     const userRef = doc(db, "users", userId);
+    const userSnap = await getDoc(userRef);
+    const userData = userSnap.data() || {};
+    const usage = userData.usage || {};
+    
+    const today = new Date().toISOString().split("T")[0];
+    const isNewDay = usage.lastTrackedDate !== today;
+
+    // Calculate new usage values
+    const examsAttemptedToday = isNewDay ? 1 : (usage.examsAttemptedToday || 0) + 1;
+    const aiTokensUsedToday = isNewDay ? 0 : (usage.aiTokensUsedToday || 0);
+    const customExamsCreatedToday = isNewDay ? 0 : (usage.customExamsCreatedToday || 0);
+
+    const questionsCount = payload.totalQuestions || payload.questions?.length || 0;
+
     await updateDoc(userRef, {
       mocksCompleted: increment(1),
-      questionsSolved: increment(payload.totalQuestions || 0),
-      // Logic for streak and performance index can be added here or via Cloud Functions
+      questionsSolved: increment(questionsCount),
+      "usage.lastTrackedDate": today,
+      "usage.examsAttemptedToday": examsAttemptedToday,
+      "usage.aiTokensUsedToday": aiTokensUsedToday,
+      "usage.customExamsCreatedToday": customExamsCreatedToday,
+      "usage.completedExamIds": arrayUnion(payload.chapterId || "unknown_exam")
     });
 
     return resultDoc.id;

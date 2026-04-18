@@ -53,7 +53,7 @@ export default function TestsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
               {targetExam === "JEE" ? (
                 // JEE Full Mock Card
-                <div className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
+                <div onClick={() => alert("Full Grand Simulations are currently being populated. Check back within 48 hours!")} className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
                   <div className="absolute -right-8 -top-8 w-40 h-40 bg-indigo-500 rounded-full blur-[50px] opacity-30 group-hover:opacity-50 transition-all" />
                   
                   <div className="flex justify-between items-start mb-6 relative z-10">
@@ -87,7 +87,7 @@ export default function TestsPage() {
                 </div>
               ) : (
                 // NEET Full Mock Card
-                <div className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
+                <div onClick={() => alert("Full Grand Simulations are currently being populated. Check back within 48 hours!")} className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
                   <div className="absolute -right-8 -top-8 w-40 h-40 bg-emerald-500 rounded-full blur-[50px] opacity-30 group-hover:opacity-50 transition-all" />
                   
                   <div className="flex justify-between items-start mb-6 relative z-10">
@@ -142,7 +142,7 @@ export default function TestsPage() {
                         { level: 9, name: "Apex Simulation IX",   difficulty: "Extreme",  desc: "Top 1% difficulty. Designed to simulate the hardest possible JEE paper.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
                         { level: 10, name: "Apex Simulation X",   difficulty: "Extreme",  desc: "The ultimate stress test. If you conquer this, you conquer the exam.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
                       ].map((mock) => (
-                        <div key={mock.level} className="relative bg-white border border-slate-200 text-slate-800 rounded-[20px] p-5 shadow-sm overflow-hidden group cursor-pointer hover:border-indigo-400 hover:shadow-lg transition-all w-[300px] shrink-0 flex flex-col h-[200px]">
+                        <div key={mock.level} onClick={() => alert("This tiered mock scale is currently being built into the backend. Stay tuned!")} className="relative bg-white border border-slate-200 text-slate-800 rounded-[20px] p-5 shadow-sm overflow-hidden group cursor-pointer hover:border-indigo-400 hover:shadow-lg transition-all w-[300px] shrink-0 flex flex-col h-[200px]">
                           <div className={`absolute -right-10 -top-10 w-24 h-24 ${mock.glow} rounded-full blur-[40px] opacity-10 group-hover:opacity-20 transition-all pointer-events-none`} />
                           
                           <div className="flex justify-between items-start mb-3 relative z-10">

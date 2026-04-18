@@ -41,25 +41,49 @@ export async function GET(request: Request) {
                 try {
                     const xmlData = fs.readFileSync(filePath, 'utf-8');
                     const result = parser.parse(xmlData);
-                    const parsedQuestions = result?.questions?.question || [];
-                    const qArray = Array.isArray(parsedQuestions) ? parsedQuestions : [parsedQuestions];
                     
-                    const mapped = qArray.map((q: any) => ({
-                        id: q["@_id"],
-                        text: q.text,
-                        options: [
-                            { id: "A", text: q.option_a },
-                            { id: "B", text: q.option_b },
-                            { id: "C", text: q.option_c },
-                            { id: "D", text: q.option_d }
-                        ],
-                        answer: q.answer,
-                        explanation: q.explanation,
-                        difficulty: q.difficulty || "medium",
-                        chapterSource: chapter
-                    }));
+                    if (result.chapter) {
+                        const easyQs = result.chapter.easy?.question || [];
+                        const mediumQs = result.chapter.medium?.question || [];
+                        const hardQs = result.chapter.hard?.question || [];
+                        
+                        const easyArr = Array.isArray(easyQs) ? easyQs : [easyQs];
+                        const mediumArr = Array.isArray(mediumQs) ? mediumQs : [mediumQs];
+                        const hardArr = Array.isArray(hardQs) ? hardQs : [hardQs];
+                        
+                        // Combine handling difficulty tags
+                        const combined = [
+                            ...easyArr.map((q: any) => ({ ...q, difficulty: 'easy' })),
+                            ...mediumArr.map((q: any) => ({ ...q, difficulty: 'medium' })),
+                            ...hardArr.map((q: any) => ({ ...q, difficulty: 'hard' }))
+                        ].filter((q: any) => q && q.text); // filter out empty
 
-                    allQuestions = allQuestions.concat(mapped);
+                        const mapped = combined.map((q: any) => {
+                            const rawOptions = q.option 
+                                ? (Array.isArray(q.option) ? q.option : [q.option]) 
+                                : [];
+
+                            const formattedOptions = rawOptions.map((opt: any) => {
+                                if (typeof opt === "string") return { id: "?", text: opt };
+                                return {
+                                    id: String(opt["@_id"] ?? ""),
+                                    text: String(opt["#text"] ?? opt ?? "")
+                                };
+                            });
+
+                            return {
+                                id: q["@_id"] || Math.random().toString(36).slice(2, 9),
+                                text: String(q.text ?? ""),
+                                options: formattedOptions,
+                                answer: String(q.answer ?? ""),
+                                explanation: String(q.explanation ?? ""),
+                                difficulty: q.difficulty || "medium",
+                                chapterSource: chapter
+                            };
+                        });
+
+                        allQuestions = allQuestions.concat(mapped);
+                    }
                 } catch (e) {
                     console.error(`Error parsing ${chapter}.xml:`, e);
                 }

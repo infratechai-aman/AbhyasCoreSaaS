@@ -1,12 +1,81 @@
 "use client";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { subjectAccuracy } from "@/lib/data";
-import { Target, TrendingUp, Zap, Clock, Trophy, Activity, AlertCircle, Sparkles } from "lucide-react";
+import { Target, TrendingUp, Zap, Clock, Trophy, Activity, AlertCircle, Sparkles, Loader2 } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
+import { useEffect, useState } from "react";
+import { collection, query, where, getDocs } from "firebase/firestore";
+import { db } from "@/lib/firebase";
 
 export default function PerformancePage() {
-  const { userData } = useAuth();
+  const { user, userData } = useAuth();
   const targetExam = userData?.targetExam || "JEE";
+  const [loading, setLoading] = useState(true);
+  const [metrics, setMetrics] = useState({
+    totalQuestions: 0,
+    totalCorrect: 0,
+    globalAccuracy: 0,
+    averagePace: 0,
+    projectedAir: 3218 // Default baseline
+  });
+  useEffect(() => {
+    async function fetchMetrics() {
+      if (!user || !db) {
+         setLoading(false);
+         return;
+      }
+      try {
+        const q = query(collection(db, "results"), where("userId", "==", user.uid));
+        const querySnapshot = await getDocs(q);
+        
+        let correct = 0;
+        let attempted = 0;
+        let totalTime = 0;
+        
+        querySnapshot.forEach((doc) => {
+          const data = doc.data();
+          const qCount = data.totalQuestions || data.questions?.length || 0;
+          const wrongCount = data.wrongCount || 0;
+          const skippedCount = data.skippedCount || 0;
+          const currCorrect = data.correctCount || 0;
+          
+          correct += currCorrect;
+          attempted += (currCorrect + wrongCount);
+          totalTime += data.timeTaken || 0;
+        });
+
+        const accuracy = attempted > 0 ? (correct / attempted) * 100 : 0;
+        const avgPace = attempted > 0 ? totalTime / attempted : 0;
+        
+        // Very basic mock algorithm for AIR projection: based off base AIR and accuracy offset
+        let simulatedAir = 32180;
+        if (accuracy > 80) simulatedAir = 3218;
+        if (accuracy > 90) simulatedAir = 450;
+        if (accuracy < 50 && accuracy > 0) simulatedAir = 150000;
+
+        setMetrics({
+           totalQuestions: attempted,
+           totalCorrect: correct,
+           globalAccuracy: parseFloat(accuracy.toFixed(1)),
+           averagePace: avgPace,
+           projectedAir: simulatedAir
+        });
+      } catch (err) {
+        console.error("Failed to fetch telemetry:", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchMetrics();
+  }, [user]);
+
+  const formatPace = (seconds: number) => {
+    if (seconds === 0) return "0s";
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return m > 0 ? `${m}m ${s}s` : `${s}s`;
+  };
+
   return (
     <DashboardShell>
       <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
@@ -31,7 +100,9 @@ export default function PerformancePage() {
                    <Trophy className="w-4 h-4" />
                  </div>
               </div>
-              <div className="text-[36px] font-display font-bold leading-none mb-2 relative z-10">3,218</div>
+              <div className="text-[36px] font-display font-bold leading-none mb-2 relative z-10">
+                 {loading ? <Loader2 className="w-6 h-6 animate-spin text-white mb-2" /> : metrics.projectedAir.toLocaleString()}
+              </div>
               <div className="text-[12px] text-emerald-400 font-bold flex items-center gap-1 relative z-10"><TrendingUp className="w-3 h-3" /> +142 since last mock</div>
            </div>
            
@@ -40,7 +111,9 @@ export default function PerformancePage() {
               <div className="flex items-center justify-between mb-4 relative z-10">
                  <div className="text-[11px] font-bold uppercase tracking-[0.1em] text-slate-500">Global Accuracy</div>
               </div>
-              <div className="text-[36px] font-display font-bold leading-none text-slate-900 mb-2 relative z-10">81.4%</div>
+              <div className="text-[36px] font-display font-bold leading-none text-slate-900 mb-2 relative z-10">
+                 {loading ? <Loader2 className="w-6 h-6 animate-spin text-slate-400 mb-2" /> : `${metrics.globalAccuracy}%`}
+              </div>
               <div className="text-[12px] text-emerald-600 font-bold flex items-center gap-1 relative z-10"><TrendingUp className="w-3 h-3" /> Target: 85% for Top 1K</div>
            </div>
 
@@ -49,7 +122,9 @@ export default function PerformancePage() {
               <div className="flex items-center justify-between mb-4 relative z-10">
                  <div className="text-[11px] font-bold uppercase tracking-[0.1em] text-slate-500">Average Pace</div>
               </div>
-              <div className="text-[36px] font-display font-bold leading-none text-slate-900 mb-2 relative z-10">1m 16s</div>
+              <div className="text-[36px] font-display font-bold leading-none text-slate-900 mb-2 relative z-10">
+                {loading ? <Loader2 className="w-6 h-6 animate-spin text-slate-400 mb-2" /> : formatPace(metrics.averagePace)}
+              </div>
               <div className="text-[12px] text-red-500 font-bold flex items-center gap-1 relative z-10"><TrendingUp className="w-3 h-3 rotate-180" /> +4s slower than optimal</div>
            </div>
            
@@ -88,7 +163,7 @@ export default function PerformancePage() {
                         <div className={`h-full rounded-full bg-gradient-to-r ${subject.color} group-hover:opacity-80 transition-all`} style={{ width: `${subject.value}%` }} />
                       </div>
                       <div className="mt-2 flex items-center gap-4 text-[11px] font-medium text-slate-400">
-                         <span>312 Qs Attempted</span>
+                         <span>{loading ? "..." : metrics.totalQuestions} Qs Attempted Overall</span>
                          <span>•</span>
                          <span>Top Percentile: 98.1</span>
                       </div>

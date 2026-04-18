@@ -195,7 +195,7 @@ export function DashboardShell({
               </div>
             </div>
 
-            <button onClick={quickTestHandler} className="hidden md:flex h-9 px-5 rounded-lg bg-indigo-600 text-white text-[13px] font-semibold shadow-[0_2px_8px_rgba(79,70,229,0.25)] hover:bg-indigo-700 transition-all hover:scale-[1.02]">
+            <button onClick={quickTestHandler} className="hidden md:flex items-center justify-center h-9 px-5 rounded-lg bg-indigo-600 text-white text-[13px] font-semibold shadow-[0_2px_8px_rgba(79,70,229,0.25)] hover:bg-indigo-700 transition-all hover:scale-[1.02]">
               Quick Test
             </button>
           </div>

@@ -1,12 +1,48 @@
 "use client";
 
 import { DashboardShell } from "@/components/layout/dashboard-shell";
-import { BrainCircuit, MessageSquare, BookOpen, Send, Sparkles, Zap, ShieldAlert, Fingerprint, Lock, Crown } from "lucide-react";
+import { BrainCircuit, MessageSquare, BookOpen, Send, Sparkles, Zap, ShieldAlert, Fingerprint, Lock, Crown, Loader2 } from "lucide-react";
 import { usePremium } from "@/lib/hooks/usePremium";
 import Link from "next/link";
+import { useState, useRef, useEffect } from "react";
 
 export default function AITutorPage() {
   const { canUseAITutor, remainingAITokens, isPro, limits } = usePremium();
+  const [messages, setMessages] = useState<Array<{role: string, content: string}>>([]);
+  const [query, setQuery] = useState("");
+  const [generating, setGenerating] = useState(false);
+  const endOfChatRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+     endOfChatRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages, generating]);
+
+  const handleSend = async (text: string) => {
+     if (!text.trim() || !canUseAITutor || generating) return;
+     const userMsg = { role: "user", content: text };
+     setMessages(prev => [...prev, userMsg]);
+     setQuery("");
+     setGenerating(true);
+
+     try {
+       const res = await fetch("/api/ai/tutor", {
+         method: "POST",
+         headers: { "Content-Type": "application/json" },
+         body: JSON.stringify({ question: text })
+       });
+       if (res.ok) {
+         const data = await res.json();
+         setMessages(prev => [...prev, { role: "assistant", content: data.explanation }]);
+         // TODO: Consider securely decreasing tokens (can be done in backend)
+       } else {
+         setMessages(prev => [...prev, { role: "assistant", content: "Error: Could not reach AI server. Did you set OPENAI_API_KEY?" }]);
+       }
+     } catch (e) {
+       setMessages(prev => [...prev, { role: "assistant", content: "Network error occurred." }]);
+     } finally {
+       setGenerating(false);
+     }
+  };
   return (
     <DashboardShell>
       <div className="flex flex-col h-full bg-[#fafafc] p-8 overflow-y-auto">
@@ -84,28 +120,54 @@ export default function AITutorPage() {
              </div>
              
              {/* Chat Canvas */}
-             <div className="flex-1 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-50 via-white to-white p-6 flex flex-col justify-center items-center text-center relative overflow-hidden">
-                 <div className="absolute inset-0 bg-[url('/noise.svg')] opacity-[0.03] mix-blend-overlay" />
+             <div className="flex-1 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-50 via-white to-white p-6 flex flex-col relative overflow-y-auto custom-scrollbar">
+                 <div className="absolute inset-0 bg-[url('/noise.svg')] opacity-[0.03] mix-blend-overlay pointer-events-none" />
                  
-                 <div className="w-16 h-16 bg-white border border-slate-200 shadow-xl shadow-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-600 mb-4 transform -rotate-6 hover:rotate-0 transition-transform">
-                    <MessageSquare className="w-8 h-8" />
-                 </div>
-                 <h4 className="font-display text-[18px] font-bold text-slate-900 mb-2">How can I help you today?</h4>
-                 <p className="text-[13px] text-slate-500 font-medium max-w-sm mb-8">
-                    Paste a screenshot of a doubt, type an organic chemistry reaction, or ask me to explain a concept.
-                 </p>
-                 
-                 <div className="flex flex-wrap gap-2 justify-center max-w-lg relative z-10">
-                    {[
-                      "Explain Rotational Mechanics", 
-                      "Generate a 10-Min Biology Quiz", 
-                      "Why is my chemistry score dropping?"
-                    ].map(pill => (
-                       <button className="px-4 py-2 rounded-xl bg-white border border-slate-200 text-slate-600 text-[12px] font-semibold hover:border-indigo-400 hover:text-indigo-600 shadow-sm transition-all hover:-translate-y-0.5">
-                          {pill}
-                       </button>
-                    ))}
-                 </div>
+                 {messages.length === 0 ? (
+                   <div className="flex flex-col items-center justify-center text-center h-full my-auto z-10 w-full relative">
+                       <div className="w-16 h-16 bg-white border border-slate-200 shadow-xl shadow-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-600 mb-4 transform -rotate-6 hover:rotate-0 transition-transform">
+                          <MessageSquare className="w-8 h-8" />
+                       </div>
+                       <h4 className="font-display text-[18px] font-bold text-slate-900 mb-2">How can I help you today?</h4>
+                       <p className="text-[13px] text-slate-500 font-medium max-w-sm mb-8">
+                          Paste a screenshot of a doubt, type an organic chemistry reaction, or ask me to explain a concept.
+                       </p>
+                       
+                       <div className="flex flex-wrap gap-2 justify-center max-w-lg">
+                          {[
+                            "Explain Rotational Mechanics", 
+                            "Generate a 10-Min Biology Quiz", 
+                            "Why is my chemistry score dropping?"
+                          ].map(pill => (
+                             <button key={pill} onClick={() => handleSend(pill)} className="px-4 py-2 rounded-xl bg-white border border-slate-200 text-slate-600 text-[12px] font-semibold hover:border-indigo-400 hover:text-indigo-600 shadow-sm transition-all hover:-translate-y-0.5">
+                                {pill}
+                             </button>
+                          ))}
+                       </div>
+                   </div>
+                 ) : (
+                   <div className="z-10 w-full max-w-3xl mx-auto flex flex-col gap-6 py-4">
+                      {messages.map((m, i) => (
+                        <div key={i} className={`flex w-full ${m.role === "user" ? "justify-end" : "justify-start"}`}>
+                           <div className={`p-4 rounded-2xl max-w-[85%] text-[13px] leading-relaxed shadow-sm ${
+                             m.role === "user" 
+                               ? "bg-indigo-600 text-white rounded-br-none" 
+                               : "bg-white border border-slate-200 text-slate-700 rounded-bl-none"
+                           }`}>
+                             {m.content}
+                           </div>
+                        </div>
+                      ))}
+                      {generating && (
+                        <div className="flex w-full justify-start">
+                           <div className="p-4 rounded-2xl max-w-[85%] text-[13px] bg-white border border-slate-200 text-slate-700 rounded-bl-none flex items-center gap-2 shadow-sm">
+                             <Loader2 className="w-4 h-4 animate-spin text-indigo-500" /> Analyzing...
+                           </div>
+                        </div>
+                      )}
+                      <div ref={endOfChatRef} />
+                   </div>
+                 )}
              </div>
              
              {/* Input Area */}
@@ -114,10 +176,17 @@ export default function AITutorPage() {
                    <div className="absolute left-4 text-slate-400"><Sparkles className="w-4 h-4" /></div>
                    <input 
                      type="text" 
+                     value={query}
+                     onChange={(e) => setQuery(e.target.value)}
+                     onKeyDown={(e) => e.key === "Enter" && handleSend(query)}
                      placeholder="Message AbhyasCore..." 
-                     className="w-full h-14 bg-slate-50 border border-slate-200 rounded-2xl pl-12 pr-16 text-[14px] font-medium text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all placeholder:text-slate-400 shadow-inner" 
+                     className="w-full h-14 bg-slate-50 border border-slate-200 rounded-2xl pl-12 pr-16 text-[14px] font-medium text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all placeholder:text-slate-400 shadow-inner disabled:opacity-50" 
+                     disabled={generating || !canUseAITutor}
                    />
-                   <button className="absolute right-2 w-10 h-10 bg-slate-900 hover:bg-indigo-600 text-white rounded-xl flex items-center justify-center transition-colors shadow-md">
+                   <button 
+                      onClick={() => handleSend(query)}
+                      disabled={generating || !canUseAITutor} 
+                      className="absolute right-2 w-10 h-10 bg-slate-900 hover:bg-indigo-600 text-white rounded-xl flex items-center justify-center transition-colors shadow-md disabled:opacity-50">
                       <Send className="w-4 h-4 ml-0.5" />
                    </button>
                 </div>

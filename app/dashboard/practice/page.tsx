@@ -1,6 +1,7 @@
 "use client";
 
 import { usePremium } from "@/lib/hooks/usePremium";
+import { useAuth } from "@/lib/auth-context";
 import { ProLockScreen } from "@/components/ui/pro-lock-screen";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Card } from "@/components/ui/card";
@@ -18,49 +19,50 @@ import Link from "next/link";
 
 const practiceCategories = [
   {
-    title: "Adaptive Chapter Sprints",
-    description: "Dynamic difficulty adjustment based on your real-time accuracy. Perfect for deep focus sessions.",
-    icon: Zap,
-    color: "bg-indigo-50 text-indigo-600 border border-indigo-100",
-    shadow: "shadow-none",
-    stats: "15-30 mins",
-    tag: "High Intensity",
-    href: "/dashboard/tests"
-  },
-  {
     title: "Daily Target Drills",
-    description: "Curated 10-question sets tailored to your target exam (JEE/NEET) syllabus flow. Quick and daily.",
+    description: "Curated 10-question sets tailored to your target exam (JEE/NEET) syllabus flow. Resets at midnight.",
     icon: Target,
     color: "bg-indigo-50 text-indigo-600 border border-indigo-100",
     shadow: "shadow-none",
     stats: "10-15 mins",
-    tag: "Recommended",
-    href: "/dashboard/tests"
-  },
-  {
-    title: "Mistake Mastery",
-    description: "Re-attempt questions you got wrong in previous mocks. Turn weaknesses into strengths with AI insights.",
-    icon: History,
-    color: "bg-indigo-50 text-indigo-600 border border-indigo-100",
-    shadow: "shadow-none",
-    stats: "Unlimited",
     tag: "Essential",
-    href: "/dashboard/tests"
+    href: "/dashboard/daily-target"
   },
   {
     title: "PYQ Archive",
-    description: "Access verified Previous Year Questions with detailed step-by-step solutions and analysis.",
+    description: "Access verified Previous Year Questions with detailed step-by-step solutions and algorithmic analysis.",
     icon: BookOpen,
-    color: "bg-indigo-50 text-indigo-600 border border-indigo-100",
+    color: "bg-emerald-50 text-emerald-600 border border-emerald-100",
     shadow: "shadow-none",
-    stats: "2010 - 2024",
+    stats: "2010 - 2025",
     tag: "Foundation",
-    href: "/dashboard/tests"
+    href: "/test-console/custom?c=thermodynamics,equilibrium,redox_reactions,s_block_elements,p_block_elements,organic_chemistry_some_basic_principles_and_techniques&q=90"
+  },
+  {
+    title: "Flashcard Formula Drive",
+    description: "Rapid-fire visual recall mechanism for essential laws, formulas, and chemistry exceptions.",
+    icon: Zap,
+    color: "bg-violet-50 text-violet-600 border border-violet-100",
+    shadow: "shadow-none",
+    stats: "5 mins/set",
+    tag: "Retention Tool",
+    href: "#"
+  },
+  {
+    title: "All-India Elite Challenge",
+    description: "Live Sunday simulated environment. Compete simultaneously against thousands of aspirants nationwide.",
+    icon: Trophy,
+    color: "bg-rose-50 text-rose-600 border border-rose-100",
+    shadow: "shadow-none",
+    stats: "Live Weekly",
+    tag: "Pro Challenge",
+    href: "#"
   }
 ];
 
 export default function PracticePage() {
   const { canAccessMarketPractice, isTrialExpired } = usePremium();
+  const { userData } = useAuth();
 
   if (!canAccessMarketPractice) {
     return (
@@ -106,35 +108,52 @@ export default function PracticePage() {
           </div>
         </section>
 
-        {/* Interactive Categories Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pb-20">
           {practiceCategories.map((item) => {
             const Icon = item.icon;
+            
+            let finalHref = item.href;
+            if (item.title === "PYQ Archive") {
+               finalHref = "/dashboard/pyq-archive";
+            }
+            
+            const content = (
+              <Card 
+                className="group relative h-full rounded-[32px] border-slate-200 bg-white p-6 md:p-8 hover:border-indigo-300 hover:shadow-xl hover:shadow-indigo-500/5 transition-all cursor-pointer flex flex-col md:flex-row gap-6 items-start overflow-hidden"
+              >
+                <div className="absolute top-0 right-0 w-32 h-32 bg-slate-50 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
+                
+                <div className={`shrink-0 w-16 h-16 rounded-[22px] ${item.color} flex items-center justify-center shadow-sm group-hover:bg-indigo-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 z-10 relative`}>
+                   <Icon className="w-7 h-7" />
+                </div>
+                
+                <div className="flex-1 relative z-10 flex flex-col h-full">
+                   <div className="flex items-center justify-between mb-2">
+                     <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 group-hover:text-indigo-500 transition-colors">{item.tag}</span>
+                     <span className="text-[11px] font-bold text-slate-400">{item.stats}</span>
+                   </div>
+                   <h2 className="text-2xl font-bold text-slate-900 mb-2 tracking-tight group-hover:text-indigo-600 transition-colors">{item.title}</h2>
+                   <p className="text-slate-500 text-[14px] leading-relaxed mb-6 flex-1">
+                     {item.description}
+                   </p>
+                   <div className="flex items-center gap-2 text-indigo-600 font-bold text-[13px] group-hover:translate-x-1 transition-transform mt-auto">
+                      Open Practice Module <ChevronRight className="w-4 h-4" />
+                   </div>
+                </div>
+              </Card>
+            );
+
+            if (item.href === "#") {
+               return (
+                  <div key={item.title} onClick={() => alert("This module is currently in beta testing. Check back later!")} className="block transition-transform hover:-translate-y-1">
+                     {content}
+                  </div>
+               );
+            }
+
             return (
-              <Link key={item.title} href={item.href} className="block transition-transform hover:-translate-y-1">
-                <Card 
-                  className="group relative h-full rounded-[32px] border-slate-200 bg-white p-6 md:p-8 hover:border-indigo-300 hover:shadow-xl hover:shadow-indigo-500/5 transition-all cursor-pointer flex flex-col md:flex-row gap-6 items-start overflow-hidden"
-                >
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-slate-50 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
-                  
-                  <div className={`shrink-0 w-16 h-16 rounded-[22px] ${item.color} flex items-center justify-center shadow-sm group-hover:bg-indigo-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 z-10 relative`}>
-                     <Icon className="w-7 h-7" />
-                  </div>
-                  
-                  <div className="flex-1 relative z-10 flex flex-col h-full">
-                     <div className="flex items-center justify-between mb-2">
-                       <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 group-hover:text-indigo-500 transition-colors">{item.tag}</span>
-                       <span className="text-[11px] font-bold text-slate-400">{item.stats}</span>
-                     </div>
-                     <h2 className="text-2xl font-bold text-slate-900 mb-2 tracking-tight group-hover:text-indigo-600 transition-colors">{item.title}</h2>
-                     <p className="text-slate-500 text-[14px] leading-relaxed mb-6 flex-1">
-                       {item.description}
-                     </p>
-                     <div className="flex items-center gap-2 text-indigo-600 font-bold text-[13px] group-hover:translate-x-1 transition-transform mt-auto">
-                        Open Practice Module <ChevronRight className="w-4 h-4" />
-                     </div>
-                  </div>
-                </Card>
+              <Link key={item.title} href={finalHref} className="block transition-transform hover:-translate-y-1">
+                 {content}
               </Link>
             );
           })}

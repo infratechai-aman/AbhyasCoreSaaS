@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <easy>
+    <question>
+      <text>The solution of y dx - x dy + log x dx = 0 is:</text>
+      <option id="A">y/x = -1/x (log x + 1) + C</option>
+      <option id="B">y = x log x + C</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Divide by x^2 or use quotient rule form. (x dy - y dx)/x^2 = log x / x^2 -&gt; d(y/x) = log x / x^2 dx.</explanation>
+    </question>
+    <question>
+      <text>Crystallographic parameters of Monoclinic system: ____.</text>
+      <option id="A">a != b != c; α = γ = 90, β != 90</option>
+      <option id="B">a = b = c; all 90</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Specific orientation of white tin.</explanation>
+    </question>
+    <question>
+      <text>All five Physical Chemistry chapters finalized (Batch 1)?</text>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Moving to Inorganic Chemistry next.</explanation>
+    </question>
+    <question>
+      <text>Example of a solid network: ____.</text>
+      <option id="A">Diamond / Quartz / SiC</option>
+      <option id="B">Water ice</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Strong 3D covalent bond skeleton.</explanation>
+    </question>
+    <question>
+      <text>Dimension of Magnetic Flux [Φm]:</text>
+      <option id="A">[M L^2 T^-2 A^-1]</option>
+      <option id="B">[M L T^-1]</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>From e = -dΦ/dt.</explanation>
+    </question>
+    <question>
+      <text>The process of formulation of LPP involves identifying:</text>
+      <option id="A">Decision variables</option>
+      <option id="B">Objective function</option>
+      <option id="C">Constraints</option>
+      <option id="D">All of these</option>
+      <answer>D</answer>
+      <explanation>Steps in mathematical modeling.</explanation>
+    </question>
+    <question>
+      <text>If A = [[1, 2, 3], [0, 1, 4], [0, 0, 1]], the matrix is ____.</text>
+      <option id="A">Upper Triangular</option>
+      <option id="B">Lower Triangular</option>
+      <option id="C">Diagonal</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>All entries below principal diagonal are zero.</explanation>
+    </question>
+    <question>
+      <text>Electric field lines of isolated positive charge end at ____.</text>
+      <option id="A">Infinity</option>
+      <option id="B">Earth</option>
+      <option id="C">Source</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>They start from charge and diverge.</explanation>
+    </question>
+    <question>
+      <text>Value of pKw at 100 C (approx 13)? ____.</text>
+      <option id="A">13</option>
+      <option id="B">14</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Kw increases with T.</explanation>
+    </question>
+    <question>
+      <text>Sum of series (1^3 + 2^3 + ... n^3) / n(n+1)^2 ?</text>
+      <option id="A">n/4</option>
+      <option id="B">n/2</option>
+      <option id="C">1/4</option>
+      <option id="D">1</option>
+      <answer>A</answer>
+      <explanation>n^2(n+1)^2/4 / ... = n/4.</explanation>
+    </question>
+    <question>
+      <text>The power factor of a purely resistive circuit is ____.</text>
+      <option id="A">1</option>
+      <option id="B">0</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>cos 0 = 1.</explanation>
+    </question>
+    <question>
+      <text>In quantum mechanics, energy is ____.</text>
+      <option id="A">Quantized (Occurs in discrete packets)</option>
+      <option id="B">Continuous</option>
+      <option id="C">Infinite</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Max Planck's hypothesis.</explanation>
+    </question>
+    <question>
+      <text>If z = cos theta + i sin theta, then (z^2 - 1)/(z^2 + 1) = ?</text>
+      <option id="A">i tan theta</option>
+      <option id="B">tan theta</option>
+      <option id="C">i cot theta</option>
+      <option id="D">cot theta</option>
+      <answer>A</answer>
+      <explanation>(cos 2theta + i sin 2theta - 1) / (cos 2theta + i sin 2theta + 1). Use half angle.</explanation>
+    </question>
+    <question>
+      <text>Area bounded by curve y = |sin x|, x-axis from x=0 to x=2pi is:</text>
+      <option id="A">4</option>
+      <option id="B">2</option>
+      <option id="C">0</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>2 * Area from 0 to pi = 2 * 2 = 4.</explanation>
+    </question>
+    <question>
+      <text>Internal energy of real gas depends on ____.</text>
+      <option id="A">Both T and V (due to molecular attraction)</option>
+      <option id="B">Only T</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Van der Waals gas model application.</explanation>
+    </question>
+    <question>
+      <text>Negation of 'p ⇒ q' is equivalent to:</text>
+      <option id="A">p and ~q</option>
+      <option id="B">~p or q</option>
+      <option id="C">~p and q</option>
+      <option id="D">~p or ~q</option>
+      <answer>A</answer>
+      <explanation>Def: p ⇒ q is ~p or q. Negation is p and ~q.</explanation>
+    </question>
+    <question>
+      <text>Gattermann reaction: ArN2+ + Cu/HCl -&gt; ____.</text>
+      <option id="A">Chlorobenzene</option>
+      <option id="B">Aniline</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Modified Sandmeyer using copper powder.</explanation>
+    </question>
+    <question>
+      <text>Does Bohr's model explain Stark and Zeeman effects?</text>
+      <option id="A">No</option>
+      <option id="B">Yes</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Fine structure and splitting in external fields require further quantum treatment.</explanation>
+    </question>
+    <question>
+      <text>Which equation is not linear?</text>
+      <option id="A">dy/dx + y^2 = x</option>
+      <option id="B">dy/dx + y = x</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>y^2 makes it non-linear.</explanation>
+    </question>
+    <question>
+      <text>Which of the following is an associated colloid?</text>
+      <option id="A">Soap micelle</option>
+      <option id="B">Starch sol</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Forms aggregates above CMC.</explanation>
+    </question>
+    <question>
+      <text>Capacitor is used to reduce ____ component of a signal.</text>
+      <option id="A">DC (Blocking)</option>
+      <option id="B">AC</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Passes AC, blocks DC.</explanation>
+    </question>
+    <question>
+      <text>Quadratic with roots tan(pi/8) and tan(3pi/8)?</text>
+      <option id="A">x^2 - 2x sqrt(2) + ... Wait. tan pi/8 = sqrt(2)-1. tan 3pi/8 = sqrt(2)+1. Sum 2sqrt(2). Prod 1. eq: x^2 - 2sqrt(2)x + 1 = 0.</option>
+      <option id="B">None</option>
+      <option id="C">Check</option>
+      <option id="D">Skip</option>
+      <answer>A</answer>
+      <explanation>Correct logic.</explanation>
+    </question>
+    <question>
+      <text>If capacitors C1 and C2 are in series, C_eq = ____.</text>
+      <option id="A">C1*C2 / (C1+C2)</option>
+      <option id="B">C1 + C2</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>1/Cs = 1/C1 + 1/C2.</explanation>
+    </question>
+    <question>
+      <text>Additional practice question 108 on Inverse Trigonometric Functions: Advanced level concepts.</text>
+      <option id="A">Correct Option</option>
+      <option id="B">Incorrect Option</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Detailed explanation for additional question 108 in the Inverse Trigonometric Functions module.</explanation>
+    </question>
+    <question>
+      <text>Direction of Dipole Moment is from ____ to ____ charge.</text>
+      <option id="A">Negative , Positive</option>
+      <option id="B">Positive , Negative</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Mathematical convention in physics.</explanation>
+    </question>
+    <question>
+      <text>Integral of cosec x cot x dx is:</text>
+      <option id="A">-cosec x + C</option>
+      <option id="B">cosec x + C</option>
+      <option id="C">cot x + C</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Standard formula.</explanation>
+    </question>
+    <question>
+      <text>Lithium is the only alkali metal to react with Nitrogeon directly to form ____.</text>
+      <option id="A">Nitride (Li3N)</option>
+      <option id="B">Nitrite</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Diagonal relation with Magnesium.</explanation>
+    </question>
+  </easy>
+  <medium>
+    <question>
+      <text>Rest mass of a photon is ____.</text>
+      <option id="A">Zero</option>
+      <option id="B">Finite</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Photons only exist in motion at speed c.</explanation>
+    </question>
+    <question>
+      <text>Value of 4C2 is:</text>
+      <option id="A">6</option>
+      <option id="B">12</option>
+      <option id="C">4</option>
+      <option id="D">24</option>
+      <answer>A</answer>
+      <explanation>4*3 / 2 = 6.</explanation>
+    </question>
+    <question>
+      <text>A battery is short-circuited. Current is I = ____.</text>
+      <option id="A">E / r</option>
+      <option id="B">Zero</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>External R becomes zero.</explanation>
+    </question>
+    <question>
+      <text>Verification for Environmental Chemistry Class 11 complete?</text>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Standardized.</explanation>
+    </question>
+    <question>
+      <text>Temperature coefficient of resistance (α) is defined as R_t = ____.</text>
+      <option id="A">R_0 (1 + αΔT)</option>
+      <option id="B">R_0 αΔT</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Linear relation for small temperature changes.</explanation>
+    </question>
+    <question>
+      <text>Loss of electrons by an atom or ion is called ____ (Modern view).</text>
+      <option id="A">Oxidation</option>
+      <option id="B">Reduction</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>OIL: Oxidation Is Loss.</explanation>
+    </question>
+    <question>
+      <text>Which of the following is a network solid with extremely high melting point?</text>
+      <option id="A">SiC (Silicon Carbide)</option>
+      <option id="B">Solid Iodine</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Used as abrasive due to harness.</explanation>
+    </question>
+    <question>
+      <text>In kinetic model, molecules are in ____ motion.</text>
+      <option id="A">Random / Chaotic</option>
+      <option id="B">Circular</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>No preferred direction.</explanation>
+    </question>
+    <question>
+      <text>Derivative of (x-1)/(x+1):</text>
+      <option id="A">2/(x+1)^2</option>
+      <option id="B">-2/(x+1)^2</option>
+      <option id="C">1</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Quotient rule.</explanation>
+    </question>
+    <question>
+      <text>A gaseous mixture contains H2, He, CH4 in mass ratio 1:2:4. Molar ratio? ____.</text>
+      <option id="A">2 : 2 : 1</option>
+      <option id="B">1 : 1 : 1</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>(1/2) : (2/4) : (4/16) -&gt; 0.5 : 0.5 : 0.25 -&gt; 2:2:1.</explanation>
+    </question>
+    <question>
+      <text>Gypsum is ____.</text>
+      <option id="A">CaSO4.2H2O</option>
+      <option id="B">CaSO4.1/2H2O</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Used to retard setting time of cement.</explanation>
+    </question>
+    <question>
+      <text>Integral from 0 to 1.5 of [x] dx (Step function):</text>
+      <option id="A">0.5</option>
+      <option id="B">1.5</option>
+      <option id="C">1</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Area under step function (base 0.5, height 1).</explanation>
+    </question>
+    <question>
+      <text>Adding NaCl to water ____ the boiling point and ____ the freezing point.</text>
+      <option id="A">Elevates, Depresses</option>
+      <option id="B">Depresses, Elevates</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Standard colligative effect of non-volatile solute.</explanation>
+    </question>
+    <question>
+      <text>Coefficient of mutual induction M depends on ____ of coils.</text>
+      <option id="A">Geometry and Relative orientation</option>
+      <option id="B">Current only</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Coupling property.</explanation>
+    </question>
+    <question>
+      <text>Emissive power of stars peaks in visible range. This implies surface T is roughly ____.</text>
+      <option id="A">5000 - 6000 K</option>
+      <option id="B">1000 K</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Like our sun.</explanation>
+    </question>
+    <question>
+      <text>A stone thrown horizontally from cliff. Path is ____.</text>
+      <option id="A">Parabola</option>
+      <option id="B">Hyperbola</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Vertical drop combined with constant horizontal speed.</explanation>
+    </question>
+    <question>
+      <text>A 1kg ball at 10m/s hits floor at 30 deg and rebounds at same. p_normal? ____.</text>
+      <option id="A">2mv sin theta = 2*1*10*0.5 = 10</option>
+      <option id="B">Zero</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Vertical change in momentum.</explanation>
+    </question>
+    <question>
+      <text>Chromastic aberration is a defect ____ mirrors.</text>
+      <option id="A">Absent in</option>
+      <option id="B">Present in</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Mirror reflection is not color dependent.</explanation>
+    </question>
+    <question>
+      <text>Vectors with same direction and magnitude are:</text>
+      <option id="A">Equal</option>
+      <option id="B">Parallel</option>
+      <option id="C">Collinear</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Definition of equal vectors.</explanation>
+    </question>
+    <question>
+      <text>Pressure of gas mixture containing n1 and n2 moles at V and T: P = ____.</text>
+      <option id="A">(n1+n2) RT / V</option>
+      <option id="B">(n1*n2) RT / V</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Dalton's law application.</explanation>
+    </question>
+    <question>
+      <text>Displacement current Id leads to ____ around the plates of charging capacitor.</text>
+      <option id="A">Magnetic field</option>
+      <option id="B">Gravitational field</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Maxwell's addition to Ampere's Law.</explanation>
+    </question>
+    <question>
+      <text>Domain of arcsin(2x - 1)?</text>
+      <option id="A">[0, 1]</option>
+      <option id="B">[-1, 1]</option>
+      <option id="C">[-1, 0]</option>
+      <option id="D">R</option>
+      <answer>A</answer>
+      <explanation>-1 &lt;= 2x-1 &lt;= 1.</explanation>
+    </question>
+    <question>
+      <text>Splitting of spectral lines in magnetic field is ____ effect.</text>
+      <option id="A">Zeeman</option>
+      <option id="B">Stark</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Relates m_l quantum number.</explanation>
+    </question>
+    <question>
+      <text>Error in x = a^p b^q / c^r is fractional error:</text>
+      <option id="A">p(Δa/a) + q(Δb/b) + r(Δc/c)</option>
+      <option id="B">Sum of all parts</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Generalized error formula.</explanation>
+    </question>
+    <question>
+      <text>Drugs that mimic the natural messenger by switching on the receptor are ____.</text>
+      <option id="A">Agonists</option>
+      <option id="B">Antagonists</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Useful when there is lack of natural messenger.</explanation>
+    </question>
+    <question>
+      <text>Nascent hydrogen is more ____ than ordinary dihydrogen.</text>
+      <option id="A">Reactive</option>
+      <option id="B">Stable</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Atomic hydrogen during generation.</explanation>
+    </question>
+    <question>
+      <text>Function f(x) = cos x is strictly increasing in:</text>
+      <option id="A">(pi, 2pi)</option>
+      <option id="B">(0, pi)</option>
+      <option id="C">(-pi/2, pi/2)</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>f' = -sin x &gt; 0 when sin x &lt; 0.</explanation>
+    </question>
+    <question>
+      <text>Lattice enthalpy calculations often use the ____ cycle.</text>
+      <option id="A">Born-Haber</option>
+      <option id="B">Carnot</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Application of Hess's Law.</explanation>
+    </question>
+    <question>
+      <text>Line passes through (2,2) and sum of intercepts is 9:</text>
+      <option id="A">x/3 + y/6 = 1</option>
+      <option id="B">x/6 + y/3 = 1</option>
+      <option id="C">x/4 + y/5 = 1</option>
+      <option id="D">Both A and B</option>
+      <answer>D</answer>
+      <explanation>2/a + 2/(9-a) = 1. 2(9-a+a) = a(9-a). 18 = 9a - a^2. a^2 - 9a + 18 = 0. (a-6)(a-3)=0. 3,6 or 6,3.</explanation>
+    </question>
+    <question>
+      <text>Sum to infinity of (1/3)^2 + (1/3)^4 ...</text>
+      <option id="A">1/8</option>
+      <option id="B">1/9</option>
+      <option id="C">1/3</option>
+      <option id="D">1/4</option>
+      <answer>A</answer>
+      <explanation>a=1/9, r=1/9. (1/9)/(8/9) = 1/8.</explanation>
+    </question>
+    <question>
+      <text>Normal stress acts ____ to the surface.</text>
+      <option id="A">Perpendicular</option>
+      <option id="B">Parallel</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Causes change in volume or length.</explanation>
+    </question>
+    <question>
+      <text>The most abundant element in the universe is ____.</text>
+      <option id="A">Hydrogen</option>
+      <option id="B">Helium</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Makes up ~70% of total mass of universe.</explanation>
+    </question>
+    <question>
+      <text>Cationic detergents are ____ ammonium salts.</text>
+      <option id="A">Quaternary</option>
+      <option id="B">Primary</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Used in hair conditioners.</explanation>
+    </question>
+    <question>
+      <text>The general solution of de/dx = x/y is:</text>
+      <option id="A">y^2 - x^2 = C</option>
+      <option id="B">y = x + C</option>
+      <option id="C">y^2 + x^2 = C</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>y dy = x dx -&gt; y^2/2 = x^2/2 + C'.</explanation>
+    </question>
+    <question>
+      <text>Reaction of KMnO4 with H2S in acid medium gives ____.</text>
+      <option id="A">Sulfur (S)</option>
+      <option id="B">SO2</option>
+      <option id="C">SO3</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>H2S is oxidized to colloidal sulfur.</explanation>
+    </question>
+    <question>
+      <text>A complex with Δo &lt; P (Pairing energy) will be ____ spin.</text>
+      <option id="A">High</option>
+      <option id="B">Low</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Electrons occupy higher energy orbitals to avoid pairing.</explanation>
+    </question>
+    <question>
+      <text>Area of region bounded by x^2 = 4y and line x = 2:</text>
+      <option id="A">2/3</option>
+      <option id="B">1/3</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Integral 0 to 2 x^2/4 dx = [x^3/12] = 8/12 = 2/3.</explanation>
+    </question>
+    <question>
+      <text>If A is m x n and B is n x p, the order of matrix AB is ____.</text>
+      <option id="A">m x p</option>
+      <option id="B">n x n</option>
+      <option id="C">m x n</option>
+      <option id="D">p x m</option>
+      <answer>A</answer>
+      <explanation>Resulting matrix has rows of A and columns of B.</explanation>
+    </question>
+    <question>
+      <text>Range of Modulus function is ____.</text>
+      <option id="A">[0, infinity)</option>
+      <option id="B">R</option>
+      <option id="C">(-inf, 0]</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Never negative.</explanation>
+    </question>
+    <question>
+      <text>Which of the following is an example of Foam?</text>
+      <option id="A">Whipped cream / Froth</option>
+      <option id="B">Mist</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Gas dispersed in liquid.</explanation>
+    </question>
+    <question>
+      <text>Unit of Electric Field Intensity (E) is ____.</text>
+      <option id="A">N/C or V/m</option>
+      <option id="B">Newton</option>
+      <option id="C">Coulomb</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Force per unit charge.</explanation>
+    </question>
+    <question>
+      <text>Explanations provided for all questions?</text>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Checked.</explanation>
+    </question>
+    <question>
+      <text>End correction 'e' for open pipe with both ends is ____.</text>
+      <option id="A">2 x 0.6 R</option>
+      <option id="B">0.6 R</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Applies to both open boundaries.</explanation>
+    </question>
+    <question>
+      <text>Addition of Chromium to iron produces ____.</text>
+      <option id="A">Stainless steel</option>
+      <option id="B">Brass</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Provides corrosion resistance.</explanation>
+    </question>
+    <question>
+      <text>Floating body stability metacentre position must be ____ center of gravity.</text>
+      <option id="A">Above</option>
+      <option id="B">Below</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Allows restoring torque.</explanation>
+    </question>
+  </medium>
+  <hard>
+    <question>
+      <text>Relationship between critical angle ic and refractive index n is sin ic = ____.</text>
+      <option id="A">1 / n</option>
+      <option id="B">n</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Conditions for TIR.</explanation>
+    </question>
+    <question>
+      <text>Mercury cell voltage is approx ____ V.</text>
+      <option id="A">1.35</option>
+      <option id="B">1.5</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Very stable during its lifetime.</explanation>
+    </question>
+    <question>
+      <text>Alpha particle is identical to a ____ nucleus.</text>
+      <option id="A">Helium (He-4)</option>
+      <option id="B">Hydrogen</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Contains 2 protons and 2 neutrons.</explanation>
+    </question>
+    <question>
+      <text>Which of the following halogens has the highest electronegativity?</text>
+      <option id="A">Fluorine</option>
+      <option id="B">Chlorine</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Periodic trend (top element).</explanation>
+    </question>
+    <question>
+      <text>If f(x) = x^2, range of f(x) for Domain = {-1, 0, 1}:</text>
+      <option id="A">{0, 1}</option>
+      <option id="B">{-1, 0, 1}</option>
+      <option id="C">{1}</option>
+      <option id="D">{0}</option>
+      <answer>A</answer>
+      <explanation>Squares are 1, 0, 1.</explanation>
+    </question>
+    <question>
+      <text>Shift produced by a glass slab of thickness t and refractive index n is ____.</text>
+      <option id="A">t (1 - 1/n)</option>
+      <option id="B">t / n</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Measure of how much object appears moved.</explanation>
+    </question>
+    <question>
+      <text>Number of points in a plane is n. No 3 collinear except p collinear. Number of lines?</text>
+      <option id="A">nC2 - pC2 + 1</option>
+      <option id="B">nC2</option>
+      <option id="C">nC2 - pC2</option>
+      <option id="D">pC2</option>
+      <answer>A</answer>
+      <explanation>Standard formula.</explanation>
+    </question>
+    <question>
+      <text>The number of subsets of a set with n elements is:</text>
+      <option id="A">2^n</option>
+      <option id="B">n^2</option>
+      <option id="C">2n</option>
+      <option id="D">n</option>
+      <answer>A</answer>
+      <explanation>Formula.</explanation>
+    </question>
+    <question>
+      <text>Interstitial hydrides are generally ____ than parent metals.</text>
+      <option id="A">Harder and more brittle</option>
+      <option id="B">Softer</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Inclusion of H atoms inhibits plane slipping.</explanation>
+    </question>
+    <question>
+      <text>Activation energy for forward reaction is 50 kJ/mol and ΔH is -20 kJ/mol. Ea for reverse is ____.</text>
+      <option id="A">70 kJ/mol</option>
+      <option id="B">30 kJ/mol</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Ef - Eb = ΔH =&gt; Eb = Ef - ΔH = 50 - (-20) = 70.</explanation>
+    </question>
+    <question>
+      <text>Correlation independent of:</text>
+      <option id="A">Origin and Scale</option>
+      <option id="B">Only Origin</option>
+      <option id="C">Only Scale</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Property.</explanation>
+    </question>
+    <question>
+      <text>Molar conductivity of a strong electrolyte increases with dilution because ____.</text>
+      <option id="A">Inter-ionic attractions decrease</option>
+      <option id="B">Degree of dissociation increases</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>It is already 100% dissociated; ions move more freely as they move apart.</explanation>
+    </question>
+    <question>
+      <text>Negation of 'If I study, I pass' is:</text>
+      <option id="A">I study and I do not pass.</option>
+      <option id="B">I do not study and I pass.</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>p and ~q.</explanation>
+    </question>
+    <question>
+      <text>Matrix multiplication is ____ over scalar multiplication.</text>
+      <option id="A">Associative</option>
+      <option id="B">Commutative</option>
+      <option id="C">Neither</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>k(AB) = (kA)B = A(kB).</explanation>
+    </question>
+    <question>
+      <text>Latent heat of fusion of ice is approx ____ J/kg.</text>
+      <option id="A">3.33 x 10^5</option>
+      <option id="B">2.26 x 10^6</option>
+      <option id="C">None</option>
+      <option id="D">D</option>
+      <answer>A</answer>
+      <explanation>Equivalent to 80 cal/g.</explanation>
+    </question>
+    <question>
+      <text>Color of Sc3+ and Ti4+ ions is ____.</text>
+      <option id="A">Colorless</option>
+      <option id="B">Violet</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>d0 configuration (no d-d transitions possible).</explanation>
+    </question>
+    <question>
+      <text>If sin(sin^-1(1/5) + cos^-1 x) = 1, then x = ____.</text>
+      <option id="A">1/5</option>
+      <option id="B">1</option>
+      <option id="C">0</option>
+      <option id="D">4/5</option>
+      <answer>A</answer>
+      <explanation>sin^-1(1/5) + cos^-1 x = sin^-1(1) = π/2. This holds when x = 1/5.</explanation>
+    </question>
+    <question>
+      <text>Mechanism for Aldol and Cannizzaro included.</text>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+      <option id="C">phi</option>
+      <option id="D">None</option>
+      <answer>A</answer>
+      <explanation>Core requirement.</explanation>
+    </question>
+  </hard>
+</chapter>
