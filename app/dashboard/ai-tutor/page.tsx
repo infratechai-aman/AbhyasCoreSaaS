@@ -5,6 +5,8 @@ import { BrainCircuit, MessageSquare, BookOpen, Send, Sparkles, Zap, ShieldAlert
 import { usePremium } from "@/lib/hooks/usePremium";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export default function AITutorPage() {
   const { canUseAITutor, remainingAITokens, isPro, limits } = usePremium();
@@ -133,17 +135,18 @@ export default function AITutorPage() {
                           Paste a screenshot of a doubt, type an organic chemistry reaction, or ask me to explain a concept.
                        </p>
                        
-                       <div className="flex flex-wrap gap-2 justify-center max-w-lg">
+                        <div className="flex flex-wrap items-center justify-center gap-2 max-w-3xl mx-auto px-4">
                           {[
-                            "Explain Rotational Mechanics", 
-                            "Generate a 10-Min Biology Quiz", 
-                            "Why is my chemistry score dropping?"
+                            "🧬 Generate a brutal 10-min Biology rapid-fire quiz!",
+                            "🧠 Roast my study schedule and build me a better one",
+                            "🚀 Explain Quantum Mechanics like I'm 5 years old",
+                            "🔥 Teach me Organic Chemistry mechanisms using real-life drama"
                           ].map(pill => (
                              <button key={pill} onClick={() => handleSend(pill)} className="px-4 py-2 rounded-xl bg-white border border-slate-200 text-slate-600 text-[12px] font-semibold hover:border-indigo-400 hover:text-indigo-600 shadow-sm transition-all hover:-translate-y-0.5">
                                 {pill}
                              </button>
                           ))}
-                       </div>
+                        </div>
                    </div>
                  ) : (
                    <div className="z-10 w-full max-w-3xl mx-auto flex flex-col gap-6 py-4">
@@ -152,9 +155,15 @@ export default function AITutorPage() {
                            <div className={`p-4 rounded-2xl max-w-[85%] text-[13px] leading-relaxed shadow-sm ${
                              m.role === "user" 
                                ? "bg-indigo-600 text-white rounded-br-none" 
-                               : "bg-white border border-slate-200 text-slate-700 rounded-bl-none"
+                               : "bg-white border border-slate-200 text-slate-700 rounded-bl-none prose prose-sm max-w-none"
                            }`}>
-                             {m.content}
+                             {m.role === "user" ? (
+                               m.content
+                             ) : (
+                               <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                 {m.content}
+                               </ReactMarkdown>
+                             )}
                            </div>
                         </div>
                       ))}
