@@ -16,7 +16,7 @@ import {
   Target
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
-import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 
 export default function RegisterPage() {
@@ -54,8 +54,10 @@ export default function RegisterPage() {
         mocksCompleted: 0,
         subscription: "free"
       });
+      // Trigger Email Verification
+      await sendEmailVerification(user);
       
-      router.push("/dashboard");
+      router.push("/verify-email");
     } catch (err: any) {
       setError(err.message || "Failed to create account. Please try again.");
       setLoading(false);

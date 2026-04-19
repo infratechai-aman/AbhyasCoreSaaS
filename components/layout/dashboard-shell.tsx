@@ -64,6 +64,8 @@ export function DashboardShell({
   useEffect(() => {
     if (!loading && !user) {
       router.push("/login");
+    } else if (!loading && user && !user.emailVerified) {
+      router.push("/verify-email");
     }
   }, [user, loading, router]);
 
