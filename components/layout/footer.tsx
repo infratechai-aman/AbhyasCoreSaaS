@@ -40,7 +40,7 @@ export function Footer() {
           {/* Brand column */}
           <div>
             <Link href="/" className="flex items-center gap-3">
-              <img src="/logo.png" alt="AbhyasCore Logo" className="h-16 w-auto object-contain bg-white rounded-lg p-0.5" />
+              <img src="/logo.png" alt="AbhyasCore Logo" className="h-32 w-auto object-contain bg-white rounded-lg p-1" />
               <div>
                 <div className="font-display text-lg font-bold text-white">AbhyasCore</div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-indigo-300/70">JEE + NEET Platform</div>

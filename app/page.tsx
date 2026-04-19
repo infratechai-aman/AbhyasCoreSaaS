@@ -123,7 +123,7 @@ function HomeHeader() {
       >
         {/* logo */}
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.png" alt="AbhyasCore Logo" className="h-16 w-auto object-contain" />
+          <img src="/logo.png" alt="AbhyasCore Logo" className="h-32 w-auto object-contain" />
         </Link>
 
         {/* nav */}
