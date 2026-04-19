@@ -95,12 +95,10 @@ export function DashboardShell({
       {/* Sidebar - Desktop Only */}
       <aside className="hidden md:flex w-[260px] bg-[#1e1e2f] shrink-0 flex-col items-stretch h-screen text-slate-300">
         <div className="p-6 pb-4">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-600 text-white shadow-[0_4px_12px_rgba(79,70,229,0.3)]">
-              <BookOpen className="h-4 w-4" />
-            </div>
+          <Link href="/" className="flex items-center gap-2">
+            <img src="/logo.png" alt="AbhyasCore" className="h-9 w-auto object-contain bg-white rounded-lg p-0.5" />
             <div>
-              <div className="font-display font-medium text-[18px] text-white tracking-tight -mb-1">AbhyasCore<span className="font-bold text-indigo-400">AI</span></div>
+              <div className="font-display font-bold text-[16px] text-white tracking-tight -mb-1">AbhyasCore<span className="text-indigo-400">AI</span></div>
               <div className="text-[9px] font-bold tracking-[0.15em] text-slate-400 uppercase mt-0.5">
                 {isPro ? (isTrial ? `Trial • ${trialDaysRemaining}d left` : plan) : 'Free Tier'}
               </div>

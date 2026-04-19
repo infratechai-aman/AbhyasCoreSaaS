@@ -67,11 +67,8 @@ export default function LoginPage() {
       >
         {/* Logo */}
         <div className="flex flex-col items-center mb-10">
-          <Link href="/" className="flex items-center gap-3 mb-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-600 text-white shadow-xl shadow-indigo-600/20">
-              <Sparkles className="h-6 w-6" />
-            </div>
-            <span className="font-display text-2xl font-bold text-slate-900 tracking-tight">AbhyasCore</span>
+          <Link href="/" className="flex flex-col items-center gap-3 mb-4">
+            <img src="/logo.png" alt="AbhyasCore Logo" className="h-16 w-auto object-contain" />
           </Link>
           <h1 className="text-xl font-bold text-slate-800 tracking-tight">Welcome Back</h1>
           <p className="text-slate-500 text-sm mt-1">Sign in to continue your rank-building journey</p>
