@@ -34,8 +34,8 @@ export default function AITutorPage() {
          headers: { "Content-Type": "application/json" },
          body: JSON.stringify({
            question: text,
-           // Send full conversation history so the model remembers context
-           history: history,
+           // Keep only the last 10 messages to save context memory/tokens
+           history: history.slice(-10),
          })
        });
 
