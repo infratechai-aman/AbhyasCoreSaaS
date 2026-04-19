@@ -22,9 +22,9 @@ const footerLinks = {
     { label: "Press Kit", href: "#" },
   ],
   Legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "Refund Policy", href: "#" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Service", href: "/terms-and-conditions" },
+    { label: "Refund Policy", href: "/refund-and-cancellation" },
   ],
 };
 

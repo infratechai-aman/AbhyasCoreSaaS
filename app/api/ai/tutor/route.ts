@@ -1,30 +1,74 @@
-import { NextResponse } from "next/server";
 import { getOpenAIClient } from "@/lib/openai";
+
+export const runtime = "nodejs";
 
 export async function POST(request: Request) {
   const body = await request.json();
-  const prompt = body.question;
+  // Accept the full conversation history from the client
+  const history: Array<{ role: string; content: string }> = body.history ?? [];
+  const prompt: string = body.question;
 
   try {
     const openai = getOpenAIClient();
-    const completion = await openai.chat.completions.create({
+
+    // Build the messages array with full conversation context
+    const messages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [
+      {
+        role: "system",
+        content:
+          "You are AbhyasCore AI, an elite, highly engaging, and slightly witty JEE/NEET tutor. Your goal is to make learning incredibly fun, immersive, and memorable for the student. Use bolding, bullet points, numbering, and Markdown formatting heavily to structure your answers beautifully (like ChatGPT or Gemini). If they ask you for a quiz, generate a brutal, rapid-fire exam. Use analogies, a touch of humor, and clear step-by-step logic. Remember the full conversation context and refer back to earlier parts of the conversation when relevant.",
+      },
+      // Inject prior conversation turns so the model has memory
+      ...history.map((m) => ({
+        role: m.role as "user" | "assistant",
+        content: m.content,
+      })),
+      // The latest user message
+      { role: "user" as const, content: prompt },
+    ];
+
+    // Request a streaming completion
+    const stream = await openai.chat.completions.create({
       model: "gpt-4o-mini",
-      messages: [
-        { 
-          role: "system", 
-          content: "You are AbhyasCore AI, an elite, highly engaging, and slightly witty JEE/NEET tutor. Your goal is to make learning incredibly fun, immersive, and memorable for the student. Use bolding, bullet points, numbering, and Markdown formatting heavily to structure your answers beautifully (like ChatGPT or Gemini). If they ask you for a quiz, generate a brutal, rapid-fire exam. Use analogies, a touch of humor, and clear step-by-step logic."
-        },
-        { role: "user", content: prompt }
-      ]
+      messages,
+      stream: true,
     });
 
-    return NextResponse.json({
-      explanation: completion.choices[0]?.message?.content ?? "No explanation generated."
+    // Create a ReadableStream that pushes SSE-formatted chunks
+    const encoder = new TextEncoder();
+    const readable = new ReadableStream({
+      async start(controller) {
+        try {
+          for await (const chunk of stream) {
+            const delta = chunk.choices[0]?.delta?.content;
+            if (delta) {
+              // Send each token as a Server-Sent Event
+              controller.enqueue(encoder.encode(`data: ${JSON.stringify(delta)}\n\n`));
+            }
+          }
+          // Signal end of stream
+          controller.enqueue(encoder.encode("data: [DONE]\n\n"));
+          controller.close();
+        } catch (err) {
+          controller.error(err);
+        }
+      },
+    });
+
+    return new Response(readable, {
+      headers: {
+        "Content-Type": "text/event-stream",
+        "Cache-Control": "no-cache",
+        Connection: "keep-alive",
+      },
     });
   } catch (error) {
-    return NextResponse.json(
-      { error: "AI tutor failed", detail: error instanceof Error ? error.message : "Unknown error" },
-      { status: 500 }
+    return new Response(
+      JSON.stringify({
+        error: "AI tutor failed",
+        detail: error instanceof Error ? error.message : "Unknown error",
+      }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
 }

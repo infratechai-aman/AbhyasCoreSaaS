@@ -22,6 +22,8 @@ export default function AITutorPage() {
   const handleSend = async (text: string) => {
      if (!text.trim() || !canUseAITutor || generating) return;
      const userMsg = { role: "user", content: text };
+     // Capture current history BEFORE adding the new user message
+     const history = [...messages];
      setMessages(prev => [...prev, userMsg]);
      setQuery("");
      setGenerating(true);
@@ -30,14 +32,54 @@ export default function AITutorPage() {
        const res = await fetch("/api/ai/tutor", {
          method: "POST",
          headers: { "Content-Type": "application/json" },
-         body: JSON.stringify({ question: text })
+         body: JSON.stringify({
+           question: text,
+           // Send full conversation history so the model remembers context
+           history: history,
+         })
        });
-       if (res.ok) {
-         const data = await res.json();
-         setMessages(prev => [...prev, { role: "assistant", content: data.explanation }]);
-         // TODO: Consider securely decreasing tokens (can be done in backend)
-       } else {
+
+       if (!res.ok) {
          setMessages(prev => [...prev, { role: "assistant", content: "Error: Could not reach AI server. Did you set OPENAI_API_KEY?" }]);
+         setGenerating(false);
+         return;
+       }
+
+       // Add an empty assistant message that we'll fill token-by-token
+       setMessages(prev => [...prev, { role: "assistant", content: "" }]);
+
+       const reader = res.body?.getReader();
+       const decoder = new TextDecoder();
+       let accumulated = "";
+
+       if (reader) {
+         while (true) {
+           const { done, value } = await reader.read();
+           if (done) break;
+
+           const text = decoder.decode(value, { stream: true });
+           // Parse SSE lines: each line is "data: <content>\n\n"
+           const lines = text.split("\n").filter(line => line.startsWith("data: "));
+
+           for (const line of lines) {
+             const payload = line.slice(6); // Remove "data: " prefix
+             if (payload === "[DONE]") break;
+
+             try {
+               const token = JSON.parse(payload);
+               accumulated += token;
+               // Update the last message (the assistant's) with the accumulated text
+               const snapshot = accumulated;
+               setMessages(prev => {
+                 const updated = [...prev];
+                 updated[updated.length - 1] = { role: "assistant", content: snapshot };
+                 return updated;
+               });
+             } catch {
+               // Skip malformed chunks
+             }
+           }
+         }
        }
      } catch (e) {
        setMessages(prev => [...prev, { role: "assistant", content: "Network error occurred." }]);
@@ -159,21 +201,26 @@ export default function AITutorPage() {
                            }`}>
                              {m.role === "user" ? (
                                m.content
+                             ) : m.content === "" ? (
+                               /* Typing indicator while waiting for first token */
+                               <div className="flex items-center gap-2">
+                                 <Loader2 className="w-4 h-4 animate-spin text-indigo-500" />
+                                 <span className="text-slate-400">Thinking...</span>
+                               </div>
                              ) : (
-                               <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                                 {m.content}
-                               </ReactMarkdown>
+                               <div className="relative">
+                                 <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                   {m.content}
+                                 </ReactMarkdown>
+                                 {/* Show blinking cursor on active streaming message */}
+                                 {generating && i === messages.length - 1 && (
+                                   <span className="inline-block w-2 h-4 bg-indigo-500 rounded-sm ml-0.5 animate-pulse align-middle" />
+                                 )}
+                               </div>
                              )}
                            </div>
                         </div>
                       ))}
-                      {generating && (
-                        <div className="flex w-full justify-start">
-                           <div className="p-4 rounded-2xl max-w-[85%] text-[13px] bg-white border border-slate-200 text-slate-700 rounded-bl-none flex items-center gap-2 shadow-sm">
-                             <Loader2 className="w-4 h-4 animate-spin text-indigo-500" /> Analyzing...
-                           </div>
-                        </div>
-                      )}
                       <div ref={endOfChatRef} />
                    </div>
                  )}
