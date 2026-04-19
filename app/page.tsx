@@ -123,10 +123,7 @@ function HomeHeader() {
       >
         {/* logo */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-[14px] bg-gradient-to-br from-indigo-500 to-indigo-600 text-white shadow-md shadow-indigo-500/20">
-            <Sparkles className="h-[18px] w-[18px]" />
-          </div>
-          <span className="font-display text-[17px] font-bold text-slate-900 tracking-tight">AbhyasCore</span>
+          <img src="/logo.png" alt="AbhyasCore Logo" className="h-[38px] w-auto object-contain" />
         </Link>
 
         {/* nav */}
