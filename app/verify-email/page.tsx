@@ -25,7 +25,7 @@ export default function VerifyEmailPage() {
   }, [user, router]);
 
   const handleResend = async () => {
-    if (!auth.currentUser) return;
+    if (!auth || !auth.currentUser) return;
     setResending(true);
     setMessage("");
     setError("");
@@ -44,7 +44,7 @@ export default function VerifyEmailPage() {
   };
 
   const handleRefreshState = async () => {
-    if (auth.currentUser) {
+    if (auth && auth.currentUser) {
       await auth.currentUser.reload();
       if (auth.currentUser.emailVerified) {
         router.push("/dashboard");
