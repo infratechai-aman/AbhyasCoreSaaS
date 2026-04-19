@@ -42,9 +42,9 @@ export default function TestResultsPage() {
         setData(JSON.parse(stored));
       } else {
         // Fallback to Firebase
-        const dbResult = await getTestResultById(params.chapterId as string);
+        const dbResult = await getTestResultById(params.chapterId as string) as any;
         if (dbResult && dbResult.questions) {
-          setData(dbResult as any);
+          setData(dbResult);
         } else {
           router.push("/dashboard/repository");
         }
