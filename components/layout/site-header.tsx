@@ -8,7 +8,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
           <div className="flex items-center justify-center">
-            <img src="/logo.png" alt="AbhyasCore Logo" className="h-20 w-auto object-contain bg-white rounded-2xl p-2 shadow-sm" />
+            <img src="/logo.png" alt="AbhyasCore Logo" className="h-20 w-auto object-contain" />
           </div>
         </Link>
         <nav className="hidden items-center gap-8 text-sm text-muted lg:flex">
