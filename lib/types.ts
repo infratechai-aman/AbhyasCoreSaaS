@@ -22,7 +22,7 @@ export type DashboardMetric = {
   change: string;
 };
 
-export type PlanType = "Free" | "Pro Trial" | "Pro Monthly" | "Pro Yearly";
+export type PlanType = "Free" | "Pro Trial" | "Pro Monthly" | "Pro Yearly" | "Weekly Pass";
 
 export interface UserSubscription {
   plan: PlanType;
@@ -88,6 +88,15 @@ export const PLAN_LIMITS = {
     canAccessRepository: true,
   },
   "Pro Yearly": {
+    examsPerDay: Infinity,
+    canRepeatExams: true,
+    aiTokensPerDay: 40000,
+    customExamsPerWeek: 35,
+    customExamsPerDay: 5,
+    canAccessMarketPractice: true,
+    canAccessRepository: true,
+  },
+  "Weekly Pass": {
     examsPerDay: Infinity,
     canRepeatExams: true,
     aiTokensPerDay: 40000,

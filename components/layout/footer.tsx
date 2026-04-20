@@ -10,16 +10,16 @@ const footerLinks = {
     { label: "Leaderboard", href: "/dashboard/leaderboard" },
   ],
   Support: [
-    { label: "Help Center", href: "#" },
-    { label: "Contact Us", href: "#" },
-    { label: "FAQ", href: "#" },
-    { label: "System Status", href: "#" },
+    { label: "Help Center", href: "/help-center" },
+    { label: "Contact Us", href: "/contact" },
+    { label: "FAQ", href: "/faq" },
+    { label: "System Status", href: "/system-status" },
   ],
   Company: [
-    { label: "About", href: "#" },
-    { label: "Blog", href: "#" },
-    { label: "Careers", href: "#" },
-    { label: "Press Kit", href: "#" },
+    { label: "About", href: "/about" },
+    { label: "Blog", href: "/blog" },
+    { label: "Careers", href: "/careers" },
+    { label: "Press Kit", href: "/press-kit" },
   ],
   Legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },
@@ -40,7 +40,7 @@ export function Footer() {
           {/* Brand column */}
           <div>
             <Link href="/" className="flex items-center gap-3">
-              <img src="/logo.png" alt="AbhyasCore Logo" className="h-20 w-auto object-contain bg-white rounded-lg p-1" />
+              <img src="/logo.png" alt="AbhyasCore Logo" className="h-28 w-auto object-contain" />
               <div>
                 <div className="font-display text-lg font-bold text-white">AbhyasCore</div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-indigo-300/70">JEE + NEET Platform</div>

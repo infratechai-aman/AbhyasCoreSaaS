@@ -39,9 +39,9 @@ const topStats = [
   { label: "Active Now", value: "240", trend: "-2.4%", isPositive: false, icon: Activity, color: "text-rose-600", bg: "bg-rose-50", border: "border-rose-100" },
 ];
 
-/* monthly vs yearly subscriber breakdown */
+/* monthly vs weekly subscriber breakdown */
 const monthlyUsers = adminRecentUsers.filter(u => u.status === "Pro Monthly");
-const yearlyUsers = adminRecentUsers.filter(u => u.status === "Pro Yearly");
+const weeklyUsers = adminRecentUsers.filter(u => u.status === "Weekly Pass");
 const freeUsers = adminRecentUsers.filter(u => u.status === "Free");
 
 export default function SuperAdminDashboard() {
@@ -203,21 +203,22 @@ export default function SuperAdminDashboard() {
           >
             {/* Traffic source */}
             <div className="flex-1 rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm">
-              <h2 className="text-[16px] font-bold text-slate-900 mb-6">Traffic Diagnostics</h2>
-              <div className="space-y-5">
+              <h2 className="text-[16px] font-bold text-slate-900 mb-6">Top Performing Affiliates</h2>
+              <div className="space-y-4">
                 {[
-                  { source: "Direct", val: "42%", color: "bg-indigo-500" },
-                  { source: "Organic Search", val: "35%", color: "bg-emerald-500" },
-                  { source: "Social Media", val: "18%", color: "bg-blue-500" },
-                  { source: "Referral", val: "5%", color: "bg-fuchsia-500" },
+                  { name: "DineshSir", val: "342", color: "bg-indigo-500", trend: "+12%" },
+                  { name: "AmanT", val: "215", color: "bg-emerald-500", trend: "+8%" },
+                  { name: "PhysicsWallah", val: "189", color: "bg-amber-500", trend: "+24%" },
+                  { name: "UnacademyJEE", val: "94", color: "bg-rose-500", trend: "-5%" },
                 ].map((t) => (
-                  <div key={t.source}>
-                    <div className="flex justify-between text-[12px] font-semibold text-slate-600 mb-2">
-                      <span>{t.source}</span>
-                      <span className="text-slate-900 font-bold">{t.val}</span>
+                  <div key={t.name} className="flex items-center justify-between group cursor-pointer">
+                    <div className="flex items-center gap-3">
+                      <div className={`h-2 w-2 rounded-full ${t.color}`} />
+                      <span className="text-[12px] font-semibold text-slate-600 group-hover:text-indigo-600 transition-colors uppercase tracking-wider">{t.name}</span>
                     </div>
-                    <div className="h-2 w-full rounded-full bg-slate-100 overflow-hidden">
-                      <div className={`h-full rounded-full ${t.color}`} style={{ width: t.val }} />
+                    <div className="flex items-center gap-2">
+                       <span className="text-[12px] font-bold text-slate-900">{t.val}</span>
+                       <span className={`text-[10px] font-bold ${t.trend.startsWith("+") ? "text-emerald-500" : "text-rose-500"}`}>{t.trend}</span>
                     </div>
                   </div>
                 ))}
@@ -257,7 +258,7 @@ export default function SuperAdminDashboard() {
               </div>
               <div>
                 <h2 className="text-[15px] font-bold text-slate-900">Monthly Subscribers</h2>
-                <p className="text-[11px] text-slate-400 font-medium">{monthlyUsers.length} active · Rs 67/mo (Rs 29 first month)</p>
+                <p className="text-[11px] text-slate-400 font-medium">{monthlyUsers.length} active · ₹7 trial then ₹49/mo</p>
               </div>
             </div>
             <div className="divide-y divide-slate-100">
@@ -283,27 +284,27 @@ export default function SuperAdminDashboard() {
             </div>
           </motion.div>
 
-          {/* Yearly Subscribers */}
+          {/* Weekly Pass Users */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className="rounded-2xl border border-violet-100 bg-white shadow-sm overflow-hidden"
+            className="rounded-2xl border border-amber-100 bg-white shadow-sm overflow-hidden"
           >
-            <div className="flex items-center gap-3 border-b border-violet-50 px-6 py-4 bg-violet-50/40">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-100 text-violet-600">
+            <div className="flex items-center gap-3 border-b border-amber-50 px-6 py-4 bg-amber-50/40">
+              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-amber-100 text-amber-600">
                 <CalendarRange className="h-4 w-4" />
               </div>
               <div>
-                <h2 className="text-[15px] font-bold text-slate-900">Yearly Subscribers</h2>
-                <p className="text-[11px] text-slate-400 font-medium">{yearlyUsers.length} active · Rs 499/yr</p>
+                <h2 className="text-[15px] font-bold text-slate-900">Weekly Pass Users</h2>
+                <p className="text-[11px] text-slate-400 font-medium">{weeklyUsers.length} purchased · ₹7 one-time</p>
               </div>
             </div>
             <div className="divide-y divide-slate-100">
-              {yearlyUsers.length > 0 ? yearlyUsers.map((user, i) => (
+              {weeklyUsers.length > 0 ? weeklyUsers.map((user, i) => (
                 <div key={i} className="flex items-center justify-between px-6 py-4 hover:bg-slate-50/60 transition-colors">
                   <div className="flex items-center gap-3">
-                    <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-violet-400 to-violet-600 flex items-center justify-center text-[12px] font-bold text-white shadow-sm">
+                    <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-[12px] font-bold text-white shadow-sm">
                       {user.name.charAt(0)}
                     </div>
                     <div>
@@ -312,12 +313,12 @@ export default function SuperAdminDashboard() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-[13px] font-bold text-violet-600">{user.value}</div>
+                    <div className="text-[13px] font-bold text-amber-600">{user.value}</div>
                     <div className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">{user.joined}</div>
                   </div>
                 </div>
               )) : (
-                <div className="px-6 py-8 text-center text-[13px] text-slate-400 font-medium">No yearly subscribers yet</div>
+                <div className="px-6 py-8 text-center text-[13px] text-slate-400 font-medium">No weekly pass purchases yet</div>
               )}
             </div>
           </motion.div>
@@ -343,7 +344,8 @@ export default function SuperAdminDashboard() {
                 <tr>
                   <th className="px-6 py-4 font-bold text-slate-400 uppercase tracking-wider text-[11px]">User</th>
                   <th className="px-6 py-4 font-bold text-slate-400 uppercase tracking-wider text-[11px]">Plan Status</th>
-                  <th className="px-6 py-4 font-bold text-slate-400 uppercase tracking-wider text-[11px]">Date Joined</th>
+                  <th className="px-6 py-4 font-bold text-slate-400 uppercase tracking-wider text-[11px]">Referral</th>
+                  <th className="px-6 py-4 font-bold text-slate-400 uppercase tracking-wider text-[11px]">Joined</th>
                   <th className="px-6 py-4 font-bold text-slate-400 uppercase tracking-wider text-[11px]">LTV</th>
                   <th className="px-6 py-4 text-right"></th>
                 </tr>
@@ -368,8 +370,8 @@ export default function SuperAdminDashboard() {
                       <span
                         className={`inline-flex items-center rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-wider
                         ${
-                          user.status === "Pro Yearly"
-                            ? "bg-violet-50 text-violet-600 border border-violet-200"
+                          user.status === "Weekly Pass"
+                            ? "bg-amber-50 text-amber-600 border border-amber-200"
                             : user.status === "Pro Monthly"
                             ? "bg-indigo-50 text-indigo-600 border border-indigo-200"
                             : "bg-slate-100 text-slate-500 border border-slate-200"
@@ -378,7 +380,18 @@ export default function SuperAdminDashboard() {
                         {user.status}
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-slate-500 font-medium">{user.joined}</td>
+                    <td className="px-6 py-4">
+                      {user.referredBy ? (
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span className="text-[11px] font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md border border-indigo-100 uppercase tracking-wider">
+                            {user.referredBy}
+                          </span>
+                        </div>
+                      ) : (
+                        <span className="text-[11px] font-medium text-slate-400 italic">Direct</span>
+                      )}
+                    </td>
+                    <td className="px-6 py-4 text-slate-500 font-medium whitespace-nowrap">{user.joined}</td>
                     <td className="px-6 py-4">
                       <div className="font-bold text-slate-700">{user.value}</div>
                     </td>

@@ -136,8 +136,7 @@ export default function TestsPage() {
             </div>
 
             {/* Tiered Mock Series - Horizontal Scroll */}
-            {targetExam === "JEE" && (
-              <div className="mb-12">
+            <div className="mb-12">
                  <h3 className="font-display text-[20px] font-bold text-slate-900 mb-5 flex items-center gap-2">
                     <Shield className="w-5 h-5 text-indigo-600" /> Tiered Mock Series
                  </h3>
@@ -150,9 +149,9 @@ export default function TestsPage() {
                         { level: 4, name: "Momentum Mock IV",     difficulty: "Moderate", desc: "Application-heavy questions testing multi-concept integration.", glow: "bg-sky-500", badge: "text-sky-700 bg-sky-100" },
                         { level: 5, name: "Challenger Mock V",    difficulty: "Hard",     desc: "Above-average difficulty. Designed to push your speed and accuracy limits.", glow: "bg-indigo-500", badge: "text-indigo-700 bg-indigo-100" },
                         { level: 6, name: "Challenger Mock VI",   difficulty: "Hard",     desc: "Tricky numeric-type and assertion-reason questions. Real exam pressure.", glow: "bg-indigo-500", badge: "text-indigo-700 bg-indigo-100" },
-                        { level: 7, name: "Elite Mock VII",       difficulty: "Advanced", desc: "JEE Advanced-level cross-topic problems. Only for serious contenders.", glow: "bg-violet-500", badge: "text-violet-700 bg-violet-100" },
-                        { level: 8, name: "Elite Mock VIII",      difficulty: "Advanced", desc: "Paragraph-based and matrix-match questions modeled after JEE Advanced.", glow: "bg-violet-500", badge: "text-violet-700 bg-violet-100" },
-                        { level: 9, name: "Apex Simulation IX",   difficulty: "Extreme",  desc: "Top 1% difficulty. Designed to simulate the hardest possible JEE paper.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
+                        { level: 7, name: "Elite Mock VII",       difficulty: "Advanced", desc: "Advanced-level cross-topic problems. Only for serious contenders.", glow: "bg-violet-500", badge: "text-violet-700 bg-violet-100" },
+                        { level: 8, name: "Elite Mock VIII",      difficulty: "Advanced", desc: "Paragraph-based and matching questions modeled after the hardest national patterns.", glow: "bg-violet-500", badge: "text-violet-700 bg-violet-100" },
+                        { level: 9, name: "Apex Simulation IX",   difficulty: "Extreme",  desc: "Top 1% difficulty. Designed to simulate the hardest possible exam paper.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
                         { level: 10, name: "Apex Simulation X",   difficulty: "Extreme",  desc: "The ultimate stress test. If you conquer this, you conquer the exam.", glow: "bg-rose-500", badge: "text-rose-700 bg-rose-100" },
                       ].map((mock) => {
                         const isLocked = mock.level > totalMaxTierPassed + 1;
@@ -190,7 +189,6 @@ export default function TestsPage() {
                     </div>
                  </div>
               </div>
-            )}
 
             {/* Custom Exam Builder Entry */}
             <div className="mb-14">

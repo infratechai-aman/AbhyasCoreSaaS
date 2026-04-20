@@ -13,6 +13,23 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
+// Shuffle options and remap the correct answer to the new position
+function shuffleOptionsAndAnswer(options: {id: string, text: string}[], answer: string) {
+  const shuffled = [...options];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  const ids = ["A", "B", "C", "D"];
+  let newAnswer = answer;
+  const reassigned = shuffled.map((opt, idx) => {
+    const newId = ids[idx] || opt.id;
+    if (opt.id === answer) newAnswer = newId;
+    return { id: newId, text: opt.text };
+  });
+  return { options: reassigned, answer: newAnswer };
+}
+
 // Utility to sample randomly
 function sampleQuestions(questions: any[], count: number) {
   if (!questions) return [];
@@ -44,14 +61,23 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
       return NextResponse.json({ error: "Invalid XML structure." }, { status: 500 });
     }
 
+    const { searchParams } = new URL(req.url);
+    const examParam = searchParams.get("exam")?.toUpperCase() || "JEE";
+
     const easy = result.chapter.easy?.question || [];
     const medium = result.chapter.medium?.question || [];
     const hard = result.chapter.hard?.question || [];
 
-    // Randomly pluck exactly 10 from each difficulty to make a 30-question drill
-    const sampledEasy = sampleQuestions(easy, 10).map(q => ({ ...q, difficulty: 'easy' }));
-    const sampledMedium = sampleQuestions(medium, 10).map(q => ({ ...q, difficulty: 'medium' }));
-    const sampledHard = sampleQuestions(hard, 10).map(q => ({ ...q, difficulty: 'hard' }));
+    let countEasy = 10, countMed = 10, countHard = 10;
+    if (examParam === "NEET") {
+      countEasy = 15; countMed = 15; countHard = 15;
+    } else if (examParam === "JEE") {
+      countEasy = 8; countMed = 8; countHard = 9;
+    }
+
+    const sampledEasy = sampleQuestions(easy, countEasy).map(q => ({ ...q, difficulty: 'easy' }));
+    const sampledMedium = sampleQuestions(medium, countMed).map(q => ({ ...q, difficulty: 'medium' }));
+    const sampledHard = sampleQuestions(hard, countHard).map(q => ({ ...q, difficulty: 'hard' }));
 
     let drillQuestions = [...sampledEasy, ...sampledMedium, ...sampledHard];
     
@@ -72,11 +98,15 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
         };
       });
 
+      // Shuffle options so the correct answer isn't always A
+      const originalAnswer = String(q.answer ?? "");
+      const { options: shuffledOptions, answer: newAnswer } = shuffleOptionsAndAnswer(formattedOptions, originalAnswer);
+
       return {
         id: `q${i + 1}`,
         text: String(q.text ?? ""),
-        options: formattedOptions,
-        answer: String(q.answer ?? ""),
+        options: shuffledOptions,
+        answer: newAnswer,
         explanation: String(q.explanation ?? ""),
         difficulty: q.difficulty
       };

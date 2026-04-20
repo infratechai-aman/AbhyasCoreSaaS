@@ -100,7 +100,7 @@ export default function CustomExamBuilder() {
                 </div>
              </div>
              {!canUseCustomBuilder && !isPro && (
-               <Link href="/dashboard?checkout=Pro%20Yearly">
+               <Link href="/dashboard?checkout=Pro%20Monthly">
                  <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-xl text-[12px] font-bold hover:bg-indigo-700 transition-colors shadow-md">
                    <Crown className="w-3.5 h-3.5" /> Upgrade
                  </button>

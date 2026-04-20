@@ -44,14 +44,14 @@ export function usePremium() {
       } else {
         plan = "Pro Trial";
       }
-    } else if (subscription.plan === "Pro Monthly" || subscription.plan === "Pro Yearly") {
+    } else if (subscription.plan === "Pro Monthly" || subscription.plan === "Pro Yearly" || subscription.plan === "Weekly Pass") {
       plan = subscription.plan;
     } else {
       plan = subscription.plan || "Free";
     }
   }
 
-  const isPro = plan === "Pro Trial" || plan === "Pro Monthly" || plan === "Pro Yearly";
+  const isPro = plan === "Pro Trial" || plan === "Pro Monthly" || plan === "Pro Yearly" || plan === "Weekly Pass";
   const isTrial = plan === "Pro Trial";
   const isTrialExpired =
     subscription?.plan === "Pro Trial" &&

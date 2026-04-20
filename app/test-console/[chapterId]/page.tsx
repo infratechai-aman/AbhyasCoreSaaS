@@ -10,7 +10,7 @@ import { usePremium } from "@/lib/hooks/usePremium";
 
 export default function ExamConsole({ params }: { params: { chapterId: string } }) {
   const router = useRouter();
-  const { user } = useAuth();
+  const { user, userData } = useAuth();
   const { canAttemptExam, canRepeatExam, remainingExamsToday, isPro } = usePremium();
   
   const [loading, setLoading] = useState(true);
@@ -43,7 +43,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
     }
 
     // Fetch test data
-    fetch(`/api/exam/${params.chapterId}`)
+    fetch(`/api/exam/${params.chapterId}?exam=${userData?.targetExam || "JEE"}`)
       .then(res => res.json())
       .then(json => {
         if (json.questions) {
@@ -235,11 +235,11 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
          <h2 className="text-2xl font-display font-bold text-slate-900 mb-3 max-w-md">You cannot attempt this exam right now</h2>
          <p className="text-slate-500 text-[14px] max-w-md mb-8 leading-relaxed">{blockReason}</p>
          <div className="flex flex-col sm:flex-row gap-3">
-           <Link href="/dashboard?checkout=Pro%20Yearly">
-             <button className="px-8 py-3.5 bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-bold rounded-2xl shadow-xl shadow-indigo-600/25 hover:scale-[1.02] transition-all flex items-center gap-2">
-               <Crown className="w-5 h-5" /> Upgrade to Pro — ₹399/yr
-             </button>
-           </Link>
+           <Link href="/dashboard?checkout=Pro%20Monthly">
+              <button className="px-8 py-3.5 bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-bold rounded-2xl shadow-xl shadow-indigo-600/25 hover:scale-[1.02] transition-all flex items-center gap-2">
+                <Crown className="w-5 h-5" /> Upgrade to Pro — ₹7 Trial
+              </button>
+            </Link>
            <Link href="/dashboard/tests">
              <button className="px-8 py-3.5 bg-white border border-slate-200 text-slate-700 font-bold rounded-2xl shadow-sm hover:bg-slate-50 transition-all">
                Back to Test Library

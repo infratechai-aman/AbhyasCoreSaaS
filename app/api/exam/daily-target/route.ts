@@ -99,17 +99,31 @@ export async function GET(request: Request) {
           const mediumArr = Array.isArray(mediumQs) ? mediumQs : [mediumQs];
           const hardArr   = Array.isArray(hardQs)   ? hardQs   : [hardQs];
           const combined  = [...easyArr, ...mediumArr, ...hardArr].filter((q: any) => q && q.text);
-          const mapped = combined.map((q: any) => {
+          const mapped = combined.map((q: any, qIdx: number) => {
             const rawOptions = q.option ? (Array.isArray(q.option) ? q.option : [q.option]) : [];
+            const formattedOptions = rawOptions.map((opt: any) =>
+              typeof opt === "string"
+                ? { id: "?", text: opt }
+                : { id: String(opt["@_id"] ?? ""), text: String(opt["#text"] ?? opt ?? "") }
+            );
+
+            // Shuffle options using seeded RNG so order is consistent per day
+            const optSeed = seed + qIdx + hashString(String(q.text ?? ""));
+            const originalAnswer = String(q.answer ?? "");
+            const shuffledOpts = seededShuffle(formattedOptions, optSeed);
+            const ids = ["A", "B", "C", "D"];
+            let newAnswer = originalAnswer;
+            const reassigned = shuffledOpts.map((opt: any, idx: number) => {
+              const newId = ids[idx] || opt.id;
+              if (opt.id === originalAnswer) newAnswer = newId;
+              return { id: newId, text: opt.text };
+            });
+
             return {
               id: q["@_id"] || Math.random().toString(36).slice(2, 9),
               text: String(q.text ?? ""),
-              options: rawOptions.map((opt: any) =>
-                typeof opt === "string"
-                  ? { id: "?", text: opt }
-                  : { id: String(opt["@_id"] ?? ""), text: String(opt["#text"] ?? opt ?? "") }
-              ),
-              answer: String(q.answer ?? ""),
+              options: reassigned,
+              answer: newAnswer,
               difficulty: q.difficulty || "medium",
               chapterSource: chapter
             };

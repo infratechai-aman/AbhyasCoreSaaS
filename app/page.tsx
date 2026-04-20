@@ -123,7 +123,7 @@ function HomeHeader() {
       >
         {/* logo */}
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.png" alt="AbhyasCore Logo" className="h-20 w-auto object-contain" />
+          <img src="/logo.png" alt="AbhyasCore Logo" className="h-28 w-auto object-contain" />
         </Link>
 
         {/* nav */}
@@ -484,20 +484,50 @@ export default function HomePage() {
                        viewport={{ once: true }}
                        transition={{ delay: index * 0.1 }}
                        className={`relative overflow-hidden rounded-[32px] p-[1px] ${
-                         index === 1 || index === 2 ? "bg-[linear-gradient(135deg,#7c3aed,#4f46e5,#22d3ee)] shadow-[0_20px_60px_rgba(99,102,241,0.15)]" : "bg-[linear-gradient(180deg,#e2e8f0,#cbd5e1)] shadow-sm"
+                         index === 1
+                           ? "bg-[linear-gradient(135deg,#7c3aed,#4f46e5,#22d3ee)] shadow-[0_20px_60px_rgba(99,102,241,0.15)]"
+                           : index === 2
+                           ? "bg-[linear-gradient(135deg,#f59e0b,#d97706,#f97316)] shadow-[0_20px_60px_rgba(245,158,11,0.15)]"
+                           : "bg-[linear-gradient(180deg,#e2e8f0,#cbd5e1)] shadow-sm"
                        }`}
                     >
-                       <div className={`flex flex-col h-full rounded-[31px] p-8 ${index === 1 || index === 2 ? "bg-[linear-gradient(180deg,#0e1433,#171d42)] text-white" : "bg-white text-slate-950"}`}>
+                       <div className={`flex flex-col h-full rounded-[31px] p-8 ${
+                         index === 1
+                           ? "bg-[linear-gradient(180deg,#0e1433,#171d42)] text-white"
+                           : index === 2
+                           ? "bg-[linear-gradient(180deg,#1c1008,#2d1a00)] text-white"
+                           : "bg-white text-slate-950"
+                       }`}>
                           <div>
-                             <div className={`text-[12px] font-bold uppercase tracking-[0.2em] ${index === 1 || index === 2 ? "text-indigo-300" : "text-indigo-600"}`}>{plan.name}</div>
+                             {index === 2 && (
+                               <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/20 text-amber-400 px-3 py-1 text-[10px] font-bold uppercase tracking-widest mb-3">
+                                 ⚡ One-Time · No Auto-Renewal
+                               </div>
+                             )}
+                             {index === 1 && (
+                               <div className="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/20 text-indigo-300 px-3 py-1 text-[10px] font-bold uppercase tracking-widest mb-3">
+                                 ★ Most Popular
+                               </div>
+                             )}
+                             <div className={`text-[12px] font-bold uppercase tracking-[0.2em] ${
+                               index === 1 ? "text-indigo-300" : index === 2 ? "text-amber-400" : "text-indigo-600"
+                             }`}>{plan.name}</div>
                              <div className="mt-4 font-display text-[46px] font-bold tracking-tight">{plan.price}</div>
-                             <p className={`mt-4 text-[14px] leading-relaxed font-medium ${index === 1 || index === 2 ? "text-indigo-100/78" : "text-slate-500"}`}>{plan.description}</p>
+                             <p className={`mt-4 text-[14px] leading-relaxed font-medium ${
+                               index === 1 ? "text-indigo-100/78" : index === 2 ? "text-amber-100/70" : "text-slate-500"
+                             }`}>{plan.description}</p>
                           </div>
                           
                           <div className="mt-8 space-y-4 mb-10 flex-1">
                              {plan.features.map((feature) => (
                                <div key={feature} className="flex items-start gap-3 text-[14px] font-medium leading-relaxed">
-                                  <div className={`mt-0.5 rounded-full p-1 shrink-0 ${index === 1 || index === 2 ? "bg-indigo-500/20 text-indigo-200" : "bg-indigo-50 text-indigo-600"}`}>
+                                  <div className={`mt-0.5 rounded-full p-1 shrink-0 ${
+                                    index === 1
+                                      ? "bg-indigo-500/20 text-indigo-200"
+                                      : index === 2
+                                      ? "bg-amber-500/20 text-amber-300"
+                                      : "bg-indigo-50 text-indigo-600"
+                                  }`}>
                                     <Check className="h-3 w-3" />
                                   </div>
                                   <span>{feature}</span>
@@ -508,9 +538,13 @@ export default function HomePage() {
                           <div className="mt-auto">
                              <Link href="/dashboard" className="block w-full">
                                 <button className={`w-full py-3.5 rounded-2xl text-[14px] font-bold transition-all ${
-                                   index === 1 || index === 2 ? "bg-white text-slate-900 hover:bg-indigo-50 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:scale-[1.02]" : "bg-[linear-gradient(135deg,#7c3aed,#4f46e5)] text-white hover:shadow-[0_10px_20px_rgba(99,102,241,0.2)] hover:scale-[1.02]"
+                                   index === 1
+                                     ? "bg-white text-slate-900 hover:bg-indigo-50 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:scale-[1.02]"
+                                     : index === 2
+                                     ? "bg-amber-500 text-white hover:bg-amber-400 shadow-[0_0_20px_rgba(245,158,11,0.25)] hover:scale-[1.02]"
+                                     : "bg-[linear-gradient(135deg,#7c3aed,#4f46e5)] text-white hover:shadow-[0_10px_20px_rgba(99,102,241,0.2)] hover:scale-[1.02]"
                                 }`}>
-                                   Choose {plan.name}
+                                   {plan.cta}
                                 </button>
                              </Link>
                           </div>
@@ -518,6 +552,7 @@ export default function HomePage() {
                     </motion.div>
                  ))}
               </div>
+
            </div>
         </section>
 

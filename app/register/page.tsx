@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { 
   Sparkles, 
@@ -18,9 +18,12 @@ import {
 import { auth, db } from "@/lib/firebase";
 import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
+import { Suspense } from "react";
 
-export default function RegisterPage() {
+function RegisterForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const referredBy = searchParams.get("ref") || "";
   
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -52,7 +55,8 @@ export default function RegisterPage() {
         streak: 0,
         questionsSolved: 0,
         mocksCompleted: 0,
-        subscription: "free"
+        subscription: "free",
+        referredBy: referredBy || null
       });
       // Trigger Email Verification
       await sendEmailVerification(user);
@@ -80,7 +84,7 @@ export default function RegisterPage() {
         {/* Logo */}
         <div className="flex flex-col items-center mb-8 text-center px-4">
           <Link href="/" className="flex flex-col items-center gap-3 mb-4">
-            <img src="/logo.png" alt="AbhyasCore Logo" className="h-36 w-auto object-contain" />
+            <img src="/logo.png" alt="AbhyasCore Logo" className="h-44 w-auto object-contain" />
           </Link>
           <h1 className="text-xl font-bold text-slate-800 tracking-tight">Create Your Account</h1>
           <p className="text-slate-500 text-sm mt-1">Join 50,000+ aspirants preparing smarter with AI</p>
@@ -185,5 +189,17 @@ export default function RegisterPage() {
         </p>
       </motion.div>
     </div>
+  );
+}
+
+export default function RegisterPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-[#fafafc]">
+        <Loader2 className="w-8 h-8 animate-spin text-indigo-600" />
+      </div>
+    }>
+      <RegisterForm />
+    </Suspense>
   );
 }

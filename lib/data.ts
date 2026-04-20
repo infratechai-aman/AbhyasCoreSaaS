@@ -114,22 +114,36 @@ export const leaderboard = [
 export const pricing = [
   {
     name: "Free",
-    price: "Rs 0",
-    description: "A beautiful starting point for daily discipline.",
-    features: ["Daily chapter-wise practice", "Basic analytics", "Limited AI analysis", "Leaderboard access"]
+    price: "₹0",
+    description: "A solid starting point for building daily study discipline.",
+    features: ["Daily chapter-wise practice", "Basic analytics", "Limited AI Tutor (10k tokens/day)", "Leaderboard access"],
+    cta: "Start Free",
+    planKey: "free",
   },
   {
     name: "Pro Monthly",
-    price: "Rs 49/mo",
-    description: "Rs 29 for the 1st month. Built for ambitious aspirants chasing top ranks.",
-    features: ["Unlimited mock tests", "Full AI tutor", "Deep analytics and rank prediction", "Revision mode and bookmarks"]
+    price: "₹49/mo",
+    description: "₹7 trial for 7 days, then ₹49/mo auto-billed. Cancel anytime before Day 7 to pay nothing more.",
+    features: ["Unlimited mock tests", "Full AI Tutor access (40k tokens/day)", "Deep analytics & rank prediction", "Revision mode and bookmarks", "Custom Exam Builder (5/day)"],
+    cta: "Start ₹7 Trial",
+    planKey: "pro_monthly",
   },
   {
     name: "Pro Yearly",
-    price: "Rs 399/yr",
-    description: "Best value. Maximum commitment. Uninterrupted access to the premium engine.",
-    features: ["All Pro Monthly features", "Priority doubt resolution", "Exclusive masterclasses"]
-  }
+    price: "₹399/yr",
+    description: "₹7 trial for 7 days, then ₹399/yr auto-billed. Best value for serious long-term preparation.",
+    features: ["All Pro features", "Full AI Tutor access (40k tokens/day)", "Deep analytics & rank prediction", "Revision mode and bookmarks", "Custom Exam Builder (5/day)"],
+    cta: "Start ₹7 Trial (Yearly)",
+    planKey: "pro_yearly",
+  },
+  {
+    name: "Weekly Pass",
+    price: "₹7",
+    description: "One-time. 7 days of full Pro access. No auto-renewal, no surprises. One purchase per account.",
+    features: ["All Pro features for 7 days", "Full AI Tutor access", "Unlimited mock tests", "Deep analytics & rank prediction", "No auto-renewal"],
+    cta: "Buy Weekly Pass",
+    planKey: "weekly_pass",
+  },
 ];
 
 export const adminRevenueData = [
@@ -140,9 +154,9 @@ export const adminRevenueData = [
 ];
 
 export const adminRecentUsers = [
-  { name: "Rahul Verma", email: "rahul.v@gmail.com", status: "Pro Yearly", joined: "Today", value: "Rs 399" },
-  { name: "Sneha Reddy", email: "sneha.reddy@yahoo.com", status: "Pro Monthly", joined: "Yesterday", value: "Rs 29" },
-  { name: "Aditya Singh", email: "aditya_s@outlook.com", status: "Free", joined: "Yesterday", value: "Rs 0" },
-  { name: "Ananya Patel", email: "ananya.p_2026@gmail.com", status: "Pro Yearly", joined: "2 days ago", value: "Rs 399" },
-  { name: "Karan S.", email: "karan.s@gmail.com", status: "Pro Monthly", joined: "3 days ago", value: "Rs 49" },
+  { name: "Rahul Verma", email: "rahul.v@gmail.com", status: "Pro Monthly", joined: "Today", value: "₹49", referredBy: "DineshSir" },
+  { name: "Sneha Reddy", email: "sneha.reddy@yahoo.com", status: "Weekly Pass", joined: "Yesterday", value: "₹7", referredBy: "AmanT" },
+  { name: "Aditya Singh", email: "aditya_s@outlook.com", status: "Free", joined: "Yesterday", value: "₹0", referredBy: null },
+  { name: "Ananya Patel", email: "ananya.p_2026@gmail.com", status: "Pro Monthly", joined: "2 days ago", value: "₹49", referredBy: "DineshSir" },
+  { name: "Karan S.", email: "karan.s@gmail.com", status: "Weekly Pass", joined: "3 days ago", value: "₹7", referredBy: "PhysicsWallah" },
 ];

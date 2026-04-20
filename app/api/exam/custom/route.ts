@@ -14,6 +14,23 @@ function shuffleArray(array: any[]) {
     return arr;
 }
 
+// Shuffle options and remap the correct answer to the new position
+function shuffleOptionsAndAnswer(options: {id: string, text: string}[], answer: string) {
+  const shuffled = [...options];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  const ids = ["A", "B", "C", "D"];
+  let newAnswer = answer;
+  const reassigned = shuffled.map((opt, idx) => {
+    const newId = ids[idx] || opt.id;
+    if (opt.id === answer) newAnswer = newId;
+    return { id: newId, text: opt.text };
+  });
+  return { options: reassigned, answer: newAnswer };
+}
+
 export async function GET(request: Request) {
     try {
         const { searchParams } = new URL(request.url);
@@ -71,11 +88,14 @@ export async function GET(request: Request) {
                                 };
                             });
 
+                            const originalAnswer = String(q.answer ?? "");
+                            const { options: shuffledOpts, answer: newAnswer } = shuffleOptionsAndAnswer(formattedOptions, originalAnswer);
+
                             return {
                                 id: q["@_id"] || Math.random().toString(36).slice(2, 9),
                                 text: String(q.text ?? ""),
-                                options: formattedOptions,
-                                answer: String(q.answer ?? ""),
+                                options: shuffledOpts,
+                                answer: newAnswer,
                                 explanation: String(q.explanation ?? ""),
                                 difficulty: q.difficulty || "medium",
                                 chapterSource: chapter

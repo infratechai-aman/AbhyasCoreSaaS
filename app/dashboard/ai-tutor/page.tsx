@@ -7,6 +7,8 @@ import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { getAITutorHistory, saveAITutorChat } from "@/lib/firebase-service";
+import { useAuth } from "@/lib/auth-context";
 
 export default function AITutorPage() {
   const { canUseAITutor, remainingAITokens, isPro, limits } = usePremium();
@@ -14,6 +16,14 @@ export default function AITutorPage() {
   const [query, setQuery] = useState("");
   const [generating, setGenerating] = useState(false);
   const endOfChatRef = useRef<HTMLDivElement>(null);
+  const { userData } = useAuth();
+  const [chatHistory, setChatHistory] = useState<any[]>([]);
+
+  useEffect(() => {
+     if (userData?.uid) {
+       getAITutorHistory(userData.uid).then(res => setChatHistory(res));
+     }
+  }, [userData?.uid]);
 
   useEffect(() => {
      endOfChatRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -28,6 +38,7 @@ export default function AITutorPage() {
      setQuery("");
      setGenerating(true);
 
+     let accumulated = "";
      try {
        const res = await fetch("/api/ai/tutor", {
          method: "POST",
@@ -50,7 +61,7 @@ export default function AITutorPage() {
 
        const reader = res.body?.getReader();
        const decoder = new TextDecoder();
-       let accumulated = "";
+       accumulated = "";
 
        if (reader) {
          while (true) {
@@ -85,6 +96,12 @@ export default function AITutorPage() {
        setMessages(prev => [...prev, { role: "assistant", content: "Network error occurred." }]);
      } finally {
        setGenerating(false);
+       if (userData?.uid && accumulated.trim()) {
+          saveAITutorChat(userData.uid, text.substring(0, 30) + "...", [...history, userMsg, { role: "assistant", content: accumulated }])
+            .then(() => {
+               getAITutorHistory(userData.uid).then(res => setChatHistory(res));
+            });
+       }
      }
   };
   return (
@@ -128,7 +145,7 @@ export default function AITutorPage() {
                 />
               </div>
               {!canUseAITutor && !isPro && (
-                <Link href="/dashboard?checkout=Pro%20Yearly">
+                <Link href="/dashboard?checkout=Pro%20Monthly">
                   <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-xl text-[12px] font-bold hover:bg-indigo-700 transition-colors shadow-md">
                     <Crown className="w-3.5 h-3.5" /> Upgrade
                   </button>
@@ -280,22 +297,22 @@ export default function AITutorPage() {
                  Chat History <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider hover:text-indigo-600 cursor-pointer">Clear</span>
                </h3>
                
-               <div className="space-y-3 flex-1">
-                  {[
-                    { title: "Rotational Dynamics Constraint Eq...", time: "2 hours ago" },
-                    { title: "Chemical Bonding VSEPR exceptions", time: "Yesterday" },
-                    { title: "Genetics Probabilities in Pedigree", time: "Mar 12" }
-                  ].map((t, i) => (
+               <div className="space-y-3 flex-1 overflow-y-auto pr-1">
+                  {chatHistory.length > 0 ? chatHistory.map((t, i) => (
                     <div key={i} className="group flex gap-3.5 items-center p-3.5 rounded-2xl border border-slate-100 bg-slate-50 hover:bg-white hover:border-slate-200 hover:shadow-sm cursor-pointer transition-all">
                        <div className="w-8 h-8 rounded-lg bg-indigo-50 flex items-center justify-center group-hover:bg-indigo-100 transition-colors shrink-0">
                           <BookOpen className="w-4 h-4 text-indigo-500" />
                        </div>
-                       <div>
-                          <div className="text-[12px] font-bold text-slate-700 group-hover:text-slate-900 leading-tight mb-1">{t.title}</div>
-                          <div className="text-[10px] font-medium text-slate-400">{t.time}</div>
+                       <div className="flex-1 min-w-0">
+                          <div className="text-[12px] font-bold text-slate-700 group-hover:text-slate-900 leading-tight mb-1 truncate">{t.title}</div>
+                          <div className="text-[10px] font-medium text-slate-400">
+                             {t.timestamp?.seconds ? new Date(t.timestamp.seconds * 1000).toLocaleDateString() : "Just now"}
+                          </div>
                        </div>
                     </div>
-                  ))}
+                  )) : (
+                     <div className="text-center py-6 text-slate-400 text-[12px] font-medium">No chat history yet.</div>
+                  )}
                </div>
                
             </div>

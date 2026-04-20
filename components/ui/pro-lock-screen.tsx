@@ -1,6 +1,6 @@
 "use client";
 
-import { Lock, Sparkles, Crown, Zap, ArrowRight } from "lucide-react";
+import { Lock, Sparkles, Crown, Zap } from "lucide-react";
 import Link from "next/link";
 
 interface ProLockScreenProps {
@@ -65,16 +65,23 @@ export function ProLockScreen({ featureName, description, isTrialExpired }: ProL
         </div>
 
         {/* CTA */}
-        <Link href="/dashboard?checkout=Pro%20Yearly">
-          <button className="w-full sm:w-auto px-10 py-4 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white rounded-2xl font-bold text-[15px] shadow-xl shadow-indigo-600/25 transition-all hover:scale-[1.02] hover:-translate-y-0.5 flex items-center justify-center gap-3 mx-auto">
-            <Crown className="w-5 h-5" />
-            Upgrade to Pro — ₹399/yr
-            <ArrowRight className="w-4 h-4" />
-          </button>
-        </Link>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mx-auto w-full">
+          <Link href="/dashboard?checkout=Pro%20Monthly" className="w-full sm:w-auto">
+            <button className="w-full px-6 py-3.5 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white rounded-2xl font-bold text-[14px] shadow-xl shadow-indigo-600/25 transition-all hover:scale-[1.02] hover:-translate-y-0.5 flex items-center justify-center gap-2">
+              <Zap className="w-4 h-4" />
+              Pro (₹49/mo)
+            </button>
+          </Link>
+          <Link href="/dashboard?checkout=Pro%20Yearly" className="w-full sm:w-auto">
+            <button className="w-full px-6 py-3.5 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white rounded-2xl font-bold text-[14px] shadow-xl shadow-indigo-600/25 transition-all hover:scale-[1.02] hover:-translate-y-0.5 flex items-center justify-center gap-2">
+              <Crown className="w-4 h-4" />
+              Pro (₹399/yr)
+            </button>
+          </Link>
+        </div>
 
         <p className="mt-4 text-[11px] font-medium text-slate-400">
-          Cancel anytime • 7-day money back guarantee
+          Start with a ₹7 Trial for 7 days • Cancel anytime
         </p>
       </div>
     </div>

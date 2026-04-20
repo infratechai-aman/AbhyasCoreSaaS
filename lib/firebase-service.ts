@@ -78,7 +78,7 @@ export async function saveTestResult(userId: string, payload: any) {
 }
 export async function updateUserSubscription(
   userId: string,
-  plan: "Pro Monthly" | "Pro Yearly" | "Free",
+  plan: "Pro Monthly" | "Pro Yearly" | "Weekly Pass" | "Free",
   status: "active" | "canceled" | "past_due" | "none",
   razorpaySubscriptionId?: string
 ) {
@@ -123,5 +123,40 @@ export async function getTestResultById(docId: string) {
   } catch (error) {
     console.error("Error fetching single result:", error);
     return null;
+  }
+}
+
+export async function saveAITutorChat(userId: string, title: string, messages: any[]) {
+  if (!db) return null;
+  try {
+    const chatsRef = collection(db, "ai_chats");
+    const chatDoc = await addDoc(chatsRef, {
+      userId,
+      title,
+      messages,
+      timestamp: serverTimestamp()
+    });
+    return chatDoc.id;
+  } catch (error) {
+    console.error("Error saving AI chat:", error);
+    return null;
+  }
+}
+
+export async function getAITutorHistory(userId: string) {
+  if (!db) return [];
+  try {
+    const chatsRef = collection(db, "ai_chats");
+    const q = query(
+      chatsRef,
+      where("userId", "==", userId),
+      orderBy("timestamp", "desc"),
+      limit(20)
+    );
+    const snap = await getDocs(q);
+    return snap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+  } catch (error) {
+    console.error("Error fetching AI history:", error);
+    return [];
   }
 }

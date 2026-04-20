@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, Suspense } from "react";
+import { useState, Suspense, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { getUserTestHistory } from "@/lib/firebase-service";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
@@ -27,17 +28,29 @@ function DashboardContent() {
   const [quickTestOpen, setQuickTestOpen] = useState(false);
   const [generating, setGenerating] = useState(false);
   const [isProcessingPayment, setIsProcessingPayment] = useState(false);
+  const [recentMocks, setRecentMocks] = useState<any[]>([]);
+
+  useEffect(() => {
+    if (userData?.uid) {
+      getUserTestHistory(userData.uid).then(res => setRecentMocks(res));
+    }
+  }, [userData?.uid]);
 
   // Pro features check
-  const isPremium = userData?.subscription?.plan === "Pro Monthly" || userData?.subscription?.plan === "Pro Yearly";
+  const isPremium = userData?.subscription?.plan === "Pro Monthly" || userData?.subscription?.plan === "Pro Yearly" || userData?.subscription?.plan === "Weekly Pass";
 
-  const handleCheckout = async (planName: "Pro Monthly" | "Pro Yearly") => {
+  const handleCheckout = async (planType: "monthly" | "yearly" = "monthly") => {
     try {
       setIsProcessingPayment(true);
       const res = await fetch("/api/payment/create-subscription", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ plan: planName }),
+        body: JSON.stringify({
+          userId: userData?.uid || "",
+          userName: userData?.displayName || userData?.name || "",
+          userEmail: userData?.email || "",
+          planType,
+        }),
       });
       const data = await res.json();
 
@@ -48,25 +61,26 @@ function DashboardContent() {
       }
 
       openCheckout({
-        subscription_id: data.subscriptionId,
-        name: "AbhyasCore Premium",
-        description: `${planName} Subscription`,
+        type: "subscription",
+        subscriptionId: data.subscriptionId,
+        name: "AbhyasCore Pro",
+        description: `₹7 for 7-day trial, then ₹${planType === 'yearly' ? '399/year' : '49/month'}`,
         prefill: {
-          name: userData?.displayName || "Aspirant",
+          name: userData?.displayName || userData?.name || "Aspirant",
           email: userData?.email || "",
         },
         onSuccess: async (response) => {
-          // Verify
+          // Verify payment
           await fetch("/api/payment/verify", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(response),
           });
           setIsProcessingPayment(false);
-          alert("Payment successful! You are now a Premium Member.");
-          router.replace("/dashboard"); // clear query params
+          alert("Payment successful! Your 7-day Pro Trial is now active.");
+          router.replace("/dashboard");
         },
-        onError: (err) => {
+        onError: () => {
           setIsProcessingPayment(false);
           alert("Payment failed or cancelled.");
         }
@@ -78,12 +92,14 @@ function DashboardContent() {
     }
   };
 
-  // If redirect hit from landing page
-  if (searchParams?.get("checkout") && !isProcessingPayment && !isPremium) {
-     const plan = searchParams.get("checkout");
-     if (plan === "Pro Monthly" || plan === "Pro Yearly") {
-         // Prevent infinite loop by quickly executing and clearing
-         setTimeout(() => handleCheckout(plan as any), 500);
+
+  // If redirect hit from landing page with checkout intent
+  const checkoutIntent = searchParams?.get("checkout");
+  if (checkoutIntent && !isProcessingPayment && !isPremium) {
+     if (checkoutIntent === "Pro Monthly") {
+        setTimeout(() => handleCheckout("monthly"), 500);
+     } else if (checkoutIntent === "Pro Yearly") {
+        setTimeout(() => handleCheckout("yearly"), 500);
      }
   }
 
@@ -191,23 +207,22 @@ function DashboardContent() {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[
-                { subject: "JEE Advanced Full Mock", class: "Pattern 1", marks: "360 Marks", intensity: "MODERATE", date: "03/04/2026" },
-                { subject: "Physics Sectional", class: "Electromagnetism", marks: "120 Marks", intensity: "HARD", date: "01/04/2026" },
-                { subject: "Chemistry Drill", class: "Organic Chemistry", marks: "40 Marks", intensity: "MODERATE", date: "28/03/2026" },
-                { subject: "Mathematics Part Test", class: "Calculus", marks: "80 Marks", intensity: "HARD", date: "25/03/2026" }
-              ].map((paper, i) => (
+              {recentMocks.length > 0 ? recentMocks.slice(0, 4).map((paper: any, i: number) => {
+                const isJEE = userData?.targetExam === "JEE";
+                return (
                 <div key={i} className="flex items-center justify-between p-5 bg-white rounded-[16px] border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)] hover:border-indigo-100 hover:shadow-md transition-all cursor-pointer group">
                   <div className="flex items-start gap-4">
                     <div className="h-10 w-10 shrink-0 rounded-xl bg-indigo-50 border border-indigo-100/50 text-indigo-600 flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-colors">
                       <FileText className="h-4 w-4" />
                     </div>
                     <div>
-                      <div className="text-[13px] font-bold text-slate-900 mb-0.5">{paper.subject}</div>
-                      <div className="text-[12px] text-slate-500 mb-2">{paper.class} &bull; {paper.marks}</div>
+                      <div className="text-[13px] font-bold text-slate-900 mb-0.5">{paper.chapterName || paper.subject}</div>
+                      <div className="text-[12px] text-slate-500 mb-2">{isJEE ? "JEE Pattern" : "NEET Pattern"} &bull; Score: {paper.totalScore}/{paper.maxScore}</div>
                       <div className="flex items-center gap-2">
-                         <span className="px-2 py-0.5 rounded bg-slate-100 text-[9px] font-bold text-slate-500 tracking-[0.1em] uppercase">{paper.intensity}</span>
-                         <span className="text-[11px] font-medium text-slate-400">{paper.date}</span>
+                         <span className="px-2 py-0.5 rounded bg-slate-100 text-[9px] font-bold text-slate-500 tracking-[0.1em] uppercase">Accuracy {Math.round(paper.accuracy || 0)}%</span>
+                         <span className="text-[11px] font-medium text-slate-400">
+                           {paper.timestamp?.seconds ? new Date(paper.timestamp.seconds * 1000).toLocaleDateString() : "Just now"}
+                         </span>
                       </div>
                     </div>
                   </div>
@@ -215,7 +230,12 @@ function DashboardContent() {
                     <ChevronRight className="h-4 w-4" />
                   </div>
                 </div>
-              ))}
+              )}) : (
+                <div className="col-span-full py-10 flex flex-col items-center justify-center bg-slate-50 rounded-[16px] border border-slate-200/60 border-dashed">
+                  <FileText className="w-8 h-8 text-slate-300 mb-3" />
+                  <p className="text-slate-500 text-[13px] font-medium">No tests attempted yet. Start a quick mock or chapter drill.</p>
+                </div>
+              )}
             </div>
           </div>
           
@@ -235,9 +255,14 @@ function DashboardContent() {
               {isPremium ? "Your subscription is currently active." : "You are missing out on AI insight drills and unlimited mocks."}
             </p>
             {!isPremium ? (
-               <button onClick={() => handleCheckout("Pro Yearly")} className="w-full py-2 rounded-lg bg-indigo-600 text-white text-[12px] font-bold tracking-wide hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2">
-                 <Zap className="w-3.5 h-3.5" /> Upgrade to Pro
-               </button>
+               <div className="flex flex-col gap-2 w-full">
+                 <button onClick={() => handleCheckout("monthly")} className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-700 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2">
+                   <Zap className="w-3.5 h-3.5" /> Pro (₹49/mo)
+                 </button>
+                 <button onClick={() => handleCheckout("yearly")} className="w-full py-2 rounded-lg bg-indigo-600 text-white text-[12px] font-bold tracking-wide hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2">
+                   <Crown className="w-3.5 h-3.5" /> Pro (₹399/yr)
+                 </button>
+               </div>
             ) : (
               <button className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-600 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors">
                 Manage Billing
@@ -253,11 +278,15 @@ function DashboardContent() {
              </div>
 
              <div className="space-y-4">
-                {[
-                  { month: "Jan", day: "12", title: "JEE Mains Session 1", desc: "All Subjects", color: "bg-blue-500" },
-                  { month: "Apr", day: "04", title: "JEE Mains Session 2", desc: "All Subjects", color: "bg-orange-500" },
-                  { month: "May", day: "26", title: "JEE Advanced", desc: "Paper 1 & 2", color: "bg-emerald-500" }
-                ].map((ev, i) => (
+                {(userData?.targetExam === "NEET" ? [
+                  { month: "May", day: "04", title: "NEET UG 2026", desc: "Biology + PChem", color: "bg-emerald-500" },
+                  { month: "Jun", day: "22", title: "NEET UG (Reschedule)", desc: "If applicable", color: "bg-orange-500" },
+                  { month: "Jul", day: "15", title: "NEET PG 2026", desc: "Postgraduate Entrance", color: "bg-blue-500" }
+                ] : [
+                  { month: "Jan", day: "22", title: "JEE Mains Session 1", desc: "All Subjects", color: "bg-blue-500" },
+                  { month: "Apr", day: "06", title: "JEE Mains Session 2", desc: "All Subjects", color: "bg-orange-500" },
+                  { month: "May", day: "18", title: "JEE Advanced 2026", desc: "Paper 1 & 2", color: "bg-emerald-500" }
+                ]).map((ev, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="flex flex-col items-center justify-center bg-white border border-slate-200 shadow-sm rounded-lg py-1.5 min-w-[48px]">
                       <span className="text-[9px] uppercase font-bold text-slate-400 mb-0.5 tracking-wider">{ev.month}</span>
