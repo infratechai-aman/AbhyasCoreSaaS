@@ -84,7 +84,7 @@ function RegisterForm() {
         {/* Logo */}
         <div className="flex flex-col items-center mb-8 text-center px-4">
           <Link href="/" className="flex flex-col items-center gap-3 mb-4">
-            <img src="/logo.png" alt="AbhyasCore Logo" className="h-44 w-auto object-contain" />
+            <img src="/logo.png" alt="AbhyasCore Logo" className="h-44 w-auto object-contain bg-white rounded-2xl p-2 shadow-sm" />
           </Link>
           <h1 className="text-xl font-bold text-slate-800 tracking-tight">Create Your Account</h1>
           <p className="text-slate-500 text-sm mt-1">Join 50,000+ aspirants preparing smarter with AI</p>

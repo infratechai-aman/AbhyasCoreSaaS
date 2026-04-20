@@ -15,7 +15,7 @@ export default function AboutPage() {
       <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4 lg:px-6 pointer-events-none">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between rounded-2xl border border-white/60 bg-white/40 px-5 py-3 backdrop-blur-2xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] pointer-events-auto">
           <Link href="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="AbhyasCore Logo" className="h-28 w-auto object-contain" />
+            <img src="/logo.png" alt="AbhyasCore Logo" className="h-28 w-auto object-contain bg-white rounded-2xl p-2 shadow-sm" />
           </Link>
           <Link href="/">
              <button className="flex items-center gap-2 text-sm font-bold text-slate-500 hover:text-indigo-600 transition-colors uppercase tracking-wider">
