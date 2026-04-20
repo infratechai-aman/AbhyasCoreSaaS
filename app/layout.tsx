@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   description:
     "India's most premium AI-powered mock test platform for JEE and NEET aspirants. Exam-real simulations, AI analytics, rank prediction, and intelligent revision — all in one place.",
   keywords: ["JEE mock test", "NEET mock test", "AI exam prep", "JEE preparation", "NEET preparation", "rank prediction"],
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
