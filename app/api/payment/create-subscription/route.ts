@@ -1,27 +1,13 @@
 import { NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
 
-const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID!,
-  key_secret: process.env.RAZORPAY_KEY_SECRET!,
-});
-
-/**
- * POST /api/payment/create-subscription
- *
- * Creates a Razorpay subscription for the Pro Monthly plan.
- * Billing flow:
- *   - Day 0  : ₹7 upfront add-on (paid trial)
- *   - Day 7  : ₹49 charged (Month 1 — first recurring cycle)
- *   - Monthly: ₹49 auto-charged every month thereafter
- *
- * The Razorpay plan referenced here (RAZORPAY_PLAN_MONTHLY_49) must be
- * set up in the dashboard at ₹49/month with no trial configured there —
- * we handle the 7-day trial via `start_at` (7 days from now) and
- * the ₹7 upfront amount via the `addons` field.
- */
 export async function POST(req: Request) {
   try {
+    const razorpay = new Razorpay({
+      key_id: process.env.RAZORPAY_KEY_ID!,
+      key_secret: process.env.RAZORPAY_KEY_SECRET!,
+    });
+
     const body = await req.json();
     const { userId, userName, userEmail, planType = 'monthly' } = body;
 
