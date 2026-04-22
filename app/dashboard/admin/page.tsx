@@ -42,6 +42,7 @@ export default function AdminPromoPage() {
     setFoundUser(null);
     
     try {
+      if (!db) throw new Error("Database not initialized");
       const q = query(collection(db, "users"), where("email", "==", emailQuery.trim().toLowerCase()));
       const snap = await getDocs(q);
       
@@ -62,6 +63,7 @@ export default function AdminPromoPage() {
     if (!foundUser) return;
     setLoading(true);
     try {
+      if (!db) throw new Error("Database not initialized");
       const userRef = doc(db, "users", foundUser.id);
       await updateDoc(userRef, {
         "subscription.plan": "Pro Yearly",
