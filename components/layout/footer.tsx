@@ -40,7 +40,9 @@ export function Footer() {
           {/* Brand column */}
           <div>
             <Link href="/" className="flex items-center gap-3">
-              <img src="/logo.png" alt="AbhyasCore Logo" className="h-[90px] w-auto object-contain" />
+              <div className="bg-white p-3 rounded-2xl">
+                <img src="/logo.png" alt="AbhyasCore Logo" className="h-[70px] w-auto object-contain" />
+              </div>
             </Link>
             <p className="mt-6 max-w-sm text-sm leading-7 text-slate-400">
               India&apos;s most premium AI-powered mock test platform. Exam-real simulations, AI analytics, and rank prediction — all in one place.
