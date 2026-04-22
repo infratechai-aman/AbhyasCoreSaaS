@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     "India's most premium AI-powered mock test platform for JEE and NEET aspirants. Exam-real simulations, AI analytics, rank prediction, and intelligent revision — all in one place.",
   keywords: ["JEE mock test", "NEET mock test", "AI exam prep", "JEE preparation", "NEET preparation", "rank prediction"],
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: "/favicon_white.png",
+    apple: "/favicon_white.png",
   },
 };
 
