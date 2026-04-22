@@ -39,19 +39,89 @@ const topStats = [
   { label: "Active Now", value: "240", trend: "-2.4%", isPositive: false, icon: Activity, color: "text-rose-600", bg: "bg-rose-50", border: "border-rose-100" },
 ];
 
-/* monthly vs weekly subscriber breakdown */
+import { collection, query, where, getDocs, updateDoc, doc, serverTimestamp } from "firebase/firestore";
+import { db } from "@/lib/firebase";
+import { useAuth } from "@/lib/auth-context";
+
+// monthly vs weekly subscriber breakdown
 const monthlyUsers = adminRecentUsers.filter(u => u.status === "Pro Monthly");
 const weeklyUsers = adminRecentUsers.filter(u => u.status === "Weekly Pass");
 const freeUsers = adminRecentUsers.filter(u => u.status === "Free");
 
+const ADMIN_EMAIL = "aman.infratechai@gmail.com";
+
 export default function SuperAdminDashboard() {
+  const { user, userData } = useAuth();
   const [mounted, setMounted] = useState(false);
+
+  // Promo tool state
+  const [emailQuery, setEmailQuery] = useState("");
+  const [promoLoading, setPromoLoading] = useState(false);
+  const [promoMessage, setPromoMessage] = useState({ text: "", type: "" });
+  const [foundUser, setFoundUser] = useState<any>(null);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
+  const handlePromoSearch = async () => {
+    if (!emailQuery.trim()) return;
+    setPromoLoading(true);
+    setPromoMessage({ text: "", type: "" });
+    setFoundUser(null);
+    try {
+      if (!db) throw new Error("DB not initialized");
+      const q = query(collection(db, "users"), where("email", "==", emailQuery.trim().toLowerCase()));
+      const snap = await getDocs(q);
+      
+      if (snap.empty) {
+        setPromoMessage({ text: "User not found. Ask them to register first.", type: "error" });
+      } else {
+        const userDoc = snap.docs[0];
+        setFoundUser({ id: userDoc.id, ...userDoc.data() });
+      }
+    } catch (err: any) {
+      console.error(err);
+      setPromoMessage({ text: "Search failed. Check console.", type: "error" });
+    }
+    setPromoLoading(false);
+  };
+
+  const grantPro = async () => {
+    if (!foundUser) return;
+    setPromoLoading(true);
+    try {
+      if (!db) throw new Error("DB not initialized");
+      const userRef = doc(db, "users", foundUser.id);
+      await updateDoc(userRef, {
+        "subscription.plan": "Pro Yearly",
+        "subscription.status": "active",
+        "subscription.razorpaySubscriptionId": "MANUAL_PROMO_CREATOR_" + Date.now(),
+        "maxTierPassed": 10,
+        "updatedAt": serverTimestamp(),
+        "isPromo": true
+      });
+      setFoundUser({ ...foundUser, subscription: { plan: "Pro Yearly", status: "active" } });
+      setPromoMessage({ text: `Successfully upgraded ${foundUser.email} to Lifetime Pro!`, type: "success" });
+    } catch (err: any) {
+      console.error(err);
+      setPromoMessage({ text: "Upgrade failed.", type: "error" });
+    }
+    setPromoLoading(false);
+  };
+
   if (!mounted) return null;
+
+  // Strict Security Lock
+  if (!user || user.email !== ADMIN_EMAIL) {
+     return (
+       <div className="min-h-screen flex flex-col items-center justify-center bg-[#fafafc] text-center p-6">
+          <ShieldAlert className="w-16 h-16 text-rose-500 mb-4" />
+          <h1 className="text-3xl font-bold text-slate-900 mb-2">Access Restricted</h1>
+          <p className="text-slate-500">Only the primary master account can access this command center.</p>
+       </div>
+     );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50/30 text-slate-800 font-sans selection:bg-indigo-100">
@@ -157,6 +227,70 @@ export default function SuperAdminDashboard() {
             );
           })}
         </div>
+
+        {/* ─── Promo Tool Section ─── */}
+        <motion.div
+           initial={{ opacity: 0, y: 20 }}
+           animate={{ opacity: 1, y: 0 }}
+           transition={{ delay: 0.3 }}
+           className="mt-8 mb-6 rounded-2xl border border-indigo-200/60 bg-gradient-to-r from-indigo-50/50 to-white p-6 shadow-sm relative overflow-hidden"
+        >
+           <h2 className="text-[18px] font-bold text-slate-900 mb-1">Provision Promotional Account</h2>
+           <p className="text-[12px] text-slate-500 mb-5">Search by email to instantly grant Pro Yearly tier & uncap all exams for creators.</p>
+           
+           <div className="flex items-center gap-3 mb-4 max-w-2xl">
+              <div className="relative flex-1">
+                 <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                 <input 
+                   type="email" 
+                   value={emailQuery}
+                   onChange={(e) => setEmailQuery(e.target.value)}
+                   onKeyDown={(e) => e.key === 'Enter' && handlePromoSearch()}
+                   placeholder="creator@youtube.com"
+                   className="w-full pl-10 pr-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium shadow-sm transition-all"
+                 />
+              </div>
+              <button 
+                onClick={handlePromoSearch}
+                disabled={promoLoading || !emailQuery}
+                className="px-6 py-2.5 bg-slate-900 hover:bg-slate-800 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors flex items-center justify-center min-w-[100px]"
+              >
+                {promoLoading && !foundUser ? "Searching..." : "Search"}
+              </button>
+           </div>
+
+           {promoMessage.text && (
+             <div className={`p-3 rounded-xl text-[12px] font-bold mb-4 ${promoMessage.type === 'error' ? 'bg-rose-50 text-rose-600' : 'bg-emerald-50 text-emerald-600'}`}>
+                {promoMessage.text}
+             </div>
+           )}
+
+           {foundUser && (
+             <div className="flex flex-col sm:flex-row items-center justify-between bg-white p-4 rounded-xl border border-slate-100 gap-4 mt-4 max-w-2xl shadow-sm">
+                <div className="flex items-center gap-4">
+                   <div className="w-10 h-10 bg-indigo-100 text-indigo-700 font-bold rounded-full flex items-center justify-center text-[14px]">
+                      {(foundUser.name || "U").charAt(0).toUpperCase()}
+                   </div>
+                   <div>
+                      <div className="font-bold text-[14px] text-slate-900 leading-tight">{foundUser.name || "Unknown"}</div>
+                      <div className="text-[11px] text-slate-500">{foundUser.email}</div>
+                      <div className="text-[10px] mt-1 font-bold text-indigo-600 border border-indigo-100 bg-indigo-50 px-2 py-0.5 rounded-full inline-block">
+                         {foundUser.subscription?.plan || "Free"}
+                      </div>
+                   </div>
+                </div>
+                
+                <button 
+                   onClick={grantPro}
+                   disabled={promoLoading || foundUser.subscription?.plan?.includes("Pro") && foundUser.subscription?.status === "active"}
+                   className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-[12px] rounded-xl shadow-lg shadow-indigo-600/20 hover:scale-[1.02] disabled:opacity-50 flex items-center justify-center gap-2"
+                >
+                  <Sparkles className="w-3.5 h-3.5" /> 
+                  {foundUser.subscription?.plan?.includes("Pro") && foundUser.subscription?.status === "active" ? "Already Pro" : "Grant Pro"}
+                </button>
+             </div>
+           )}
+        </motion.div>
 
         {/* ─── Charts Section ─── */}
         <div className="mt-6 grid grid-cols-1 gap-5 lg:grid-cols-[2fr_1fr]">
