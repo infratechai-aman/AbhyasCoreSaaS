@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification } from "firebase/auth";
-import { doc, setDoc } from "firebase/firestore";
+import { doc, setDoc, getDoc } from "firebase/firestore";
 import { Suspense } from "react";
 
 function RegisterForm() {
@@ -40,6 +40,20 @@ function RegisterForm() {
     try {
       if (!auth) throw new Error("Authentication service is not available.");
       if (!db) throw new Error("Database service is not available.");
+
+      // Check Promo Code Validity safely
+      let finalReferredBy = null;
+      if (referredBy) {
+         try {
+           const promoDoc = await getDoc(doc(db, "promo_codes", referredBy));
+           if (promoDoc.exists() && promoDoc.data().active !== false) {
+             finalReferredBy = referredBy;
+           }
+         } catch (err) {
+           console.warn("Promo verification omitted due to permission or network", err);
+         }
+      }
+
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       
@@ -56,7 +70,7 @@ function RegisterForm() {
         questionsSolved: 0,
         mocksCompleted: 0,
         subscription: "free",
-        referredBy: referredBy || null
+        referredBy: finalReferredBy
       });
       // Trigger Email Verification
       await sendEmailVerification(user);

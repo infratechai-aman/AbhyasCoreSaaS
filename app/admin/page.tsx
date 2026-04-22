@@ -27,6 +27,7 @@ import {
   CalendarDays,
   CalendarRange,
   Wallet,
+  Link2 as LinkIcon,
 } from "lucide-react";
 import { adminRevenueData, adminRecentUsers } from "@/lib/data";
 
@@ -65,6 +66,10 @@ export default function SuperAdminDashboard() {
   const [promoLoading, setPromoLoading] = useState(false);
   const [promoMessage, setPromoMessage] = useState({ text: "", type: "" });
   const [foundUser, setFoundUser] = useState<any>(null);
+
+  // Link Generator state
+  const [promoCodeName, setPromoCodeName] = useState("");
+  const [promoCodeLink, setPromoCodeLink] = useState("");
 
   // Real data state
   const [realUsers, setRealUsers] = useState<any[]>([]);
@@ -192,6 +197,31 @@ export default function SuperAdminDashboard() {
       setPromoMessage({ text: "Upgrade failed.", type: "error" });
     }
     setPromoLoading(false);
+  };
+
+  const handleGeneratePromoCode = async () => {
+     if (!promoCodeName.trim()) return;
+     setPromoLoading(true);
+     setPromoMessage({ text: "", type: "" });
+     setPromoCodeLink("");
+     try {
+       if (!db) throw new Error("DB not initialized");
+       const codeId = promoCodeName.trim().toUpperCase().replace(/\s+/g, '');
+       await setDoc(doc(db, "promo_codes", codeId), {
+         active: true,
+         creator: promoCodeName,
+         createdAt: serverTimestamp()
+       });
+       const rawLink = `https://abhyascore.com/register?ref=${codeId}`;
+       setPromoCodeLink(rawLink);
+       navigator.clipboard.writeText(rawLink);
+       setPromoMessage({ text: `Code ${codeId} active & link copied!`, type: "success" });
+     } catch (e: any) {
+       console.error(e);
+       setPromoMessage({ text: `Failed: ${e.message}`, type: "error" });
+     } finally {
+       setPromoLoading(false);
+     }
   };
 
   if (!mounted) return null;
@@ -414,6 +444,55 @@ export default function SuperAdminDashboard() {
                   {foundUser.subscription?.plan?.includes("Pro") && foundUser.subscription?.status === "active" ? "Already Pro" : "Grant Pro"}
                 </button>
              </div>
+           )}
+        </motion.div>
+
+        {/* ─── Promo Link Generator Section ─── */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.35 }}
+          className="mt-6 rounded-2xl border border-indigo-200/80 bg-white p-6 shadow-sm relative overflow-hidden"
+        >
+           <div className="absolute top-0 right-0 p-6 opacity-5 pointer-events-none text-indigo-900">
+             <LinkIcon className="w-32 h-32" />
+           </div>
+           
+           <div className="flex items-center gap-3 mb-6 relative z-10">
+              <div className="h-10 w-10 shrink-0 rounded-xl bg-indigo-50 flex items-center justify-center border border-indigo-100">
+                <LinkIcon className="h-5 w-5 text-indigo-600" />
+              </div>
+              <div>
+                <h2 className="text-[16px] font-bold text-slate-900">Creator Referral Link Generator</h2>
+                <p className="text-[12px] text-slate-500 font-medium">Create secure, database-verified referral links for marketing.</p>
+              </div>
+           </div>
+
+           <div className="flex items-center gap-3 mb-4 max-w-2xl relative z-10">
+              <div className="flex-1">
+                 <input 
+                   type="text" 
+                   value={promoCodeName}
+                   onChange={e => setPromoCodeName(e.target.value)}
+                   placeholder="Enter Creator Name (e.g. PhysicsWallah)" 
+                   className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium transition-all"
+                 />
+              </div>
+              <button 
+                 onClick={handleGeneratePromoCode} 
+                 disabled={promoLoading || !promoCodeName} 
+                 className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors shrink-0 flex items-center gap-2"
+              >
+                 <Sparkles className="w-4 h-4" /> 
+                 {promoLoading && !promoCodeLink ? "Generating..." : "Generate & Copy"}
+              </button>
+           </div>
+           
+           {promoCodeLink && (
+              <div className="p-3 rounded-xl bg-indigo-50 border border-indigo-100 text-indigo-700 font-bold text-[13px] flex items-center justify-between max-w-2xl mt-4">
+                 <span className="truncate">{promoCodeLink}</span>
+                 <div className="uppercase tracking-widest text-[9px] px-2 py-1 bg-white rounded-md shadow-sm ml-4 border border-indigo-100 shrink-0">Copied!</div>
+              </div>
            )}
         </motion.div>
 
