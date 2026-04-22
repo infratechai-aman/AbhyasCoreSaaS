@@ -39,8 +39,10 @@ const topStats = [
   { label: "Active Now", value: "240", trend: "-2.4%", isPositive: false, icon: Activity, color: "text-rose-600", bg: "bg-rose-50", border: "border-rose-100" },
 ];
 
-import { collection, query, where, getDocs, updateDoc, doc, serverTimestamp } from "firebase/firestore";
-import { db } from "@/lib/firebase";
+import { collection, query, where, getDocs, updateDoc, doc, serverTimestamp, setDoc } from "firebase/firestore";
+import { db, firebaseConfig } from "@/lib/firebase";
+import { initializeApp, getApp, getApps } from "firebase/app";
+import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useAuth } from "@/lib/auth-context";
 
 // monthly vs weekly subscriber breakdown
@@ -55,13 +57,37 @@ export default function SuperAdminDashboard() {
   const [mounted, setMounted] = useState(false);
 
   // Promo tool state
+  const [promoMode, setPromoMode] = useState<"search" | "create">("create");
+  const [createName, setCreateName] = useState("");
+  const [createPassword, setCreatePassword] = useState("");
   const [emailQuery, setEmailQuery] = useState("");
   const [promoLoading, setPromoLoading] = useState(false);
   const [promoMessage, setPromoMessage] = useState({ text: "", type: "" });
   const [foundUser, setFoundUser] = useState<any>(null);
 
+  // Real data state
+  const [realUsers, setRealUsers] = useState<any[]>([]);
+  const [stats, setStats] = useState({ total: 8432, paid: 1184 }); // Fallback defaults
+
   useEffect(() => {
     setMounted(true);
+    if (db) {
+       getDocs(collection(db, "users")).then((snap) => {
+         const usersList = snap.docs.map(d => ({ id: d.id, ...d.data() } as any));
+         
+         // Sort by newest
+         usersList.sort((a: any, b: any) => {
+            const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+            const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+            return dateB - dateA;
+         });
+         
+         setRealUsers(usersList);
+         
+         const paidCount = usersList.filter(u => u.subscription?.status === "active").length;
+         setStats({ total: usersList.length, paid: paidCount });
+       }).catch(console.error);
+    }
   }, []);
 
   const handlePromoSearch = async () => {
@@ -83,6 +109,63 @@ export default function SuperAdminDashboard() {
     } catch (err: any) {
       console.error(err);
       setPromoMessage({ text: "Search failed. Check console.", type: "error" });
+    }
+    setPromoLoading(false);
+  };
+
+  const handleCreatePromoAccount = async () => {
+    if (!emailQuery.trim() || !createPassword.trim() || !createName.trim()) {
+      setPromoMessage({ text: "Please fill name, email, and password.", type: "error" });
+      return;
+    }
+    setPromoLoading(true);
+    setPromoMessage({ text: "", type: "" });
+    setFoundUser(null);
+
+    try {
+      if (!db) throw new Error("DB not initialized");
+      
+      const secondaryApp = getApps().filter(app => app.name === "SecondaryPromoApp").length
+        ? getApp("SecondaryPromoApp")
+        : initializeApp(firebaseConfig, "SecondaryPromoApp");
+      
+      const secondaryAuth = getAuth(secondaryApp);
+      
+      const userCredential = await createUserWithEmailAndPassword(secondaryAuth, emailQuery.trim().toLowerCase(), createPassword);
+      const newUid = userCredential.user.uid;
+      
+      await updateProfile(userCredential.user, { displayName: createName.trim() });
+      
+      await setDoc(doc(db, "users", newUid), {
+        name: createName.trim(),
+        email: emailQuery.trim().toLowerCase(),
+        targetExam: "JEE",
+        createdAt: new Date().toISOString(),
+        streak: 0,
+        questionsSolved: 0,
+        mocksCompleted: 0,
+        subscription: {
+          plan: "Pro Yearly",
+          status: "active",
+          razorpaySubscriptionId: "MANUAL_PROMO_CREATOR_" + Date.now(),
+        },
+        maxTierPassed: 10,
+        isPromo: true
+      });
+      
+      await secondaryAuth.signOut();
+
+      setFoundUser({
+        id: newUid,
+        name: createName.trim(),
+        email: emailQuery.trim().toLowerCase(),
+        subscription: { plan: "Pro Yearly", status: "active" }
+      });
+      
+      setPromoMessage({ text: "Account securely created & granted Lifetime Pro!", type: "success" });
+    } catch (err: any) {
+      console.error(err);
+      setPromoMessage({ text: err.message || "Failed to create account.", type: "error" });
     }
     setPromoLoading(false);
   };
@@ -221,7 +304,11 @@ export default function SuperAdminDashboard() {
 
                 <div className="mt-4 relative z-10">
                   <h3 className="text-[10px] font-bold uppercase tracking-widest text-slate-400">{stat.label}</h3>
-                  <span className="mt-1 block font-display text-[26px] font-bold tracking-tight text-slate-900">{stat.value}</span>
+                  <span className="mt-1 block font-display text-[26px] font-bold tracking-tight text-slate-900">
+                    {stat.label === "Total Students" ? stats.total.toLocaleString() : 
+                     stat.label === "Paid Pro Subs" ? stats.paid.toLocaleString() : 
+                     stat.value}
+                  </span>
                 </div>
               </motion.div>
             );
@@ -235,32 +322,62 @@ export default function SuperAdminDashboard() {
            transition={{ delay: 0.3 }}
            className="mt-8 mb-6 rounded-2xl border border-indigo-200/60 bg-gradient-to-r from-indigo-50/50 to-white p-6 shadow-sm relative overflow-hidden"
         >
-           <h2 className="text-[18px] font-bold text-slate-900 mb-1">Provision Promotional Account</h2>
-           <p className="text-[12px] text-slate-500 mb-5">Search by email to instantly grant Pro Yearly tier & uncap all exams for creators.</p>
-           
-           <div className="flex items-center gap-3 mb-4 max-w-2xl">
-              <div className="relative flex-1">
-                 <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
-                 <input 
-                   type="email" 
-                   value={emailQuery}
-                   onChange={(e) => setEmailQuery(e.target.value)}
-                   onKeyDown={(e) => e.key === 'Enter' && handlePromoSearch()}
-                   placeholder="creator@youtube.com"
-                   className="w-full pl-10 pr-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium shadow-sm transition-all"
-                 />
+           <div className="flex items-center justify-between mb-5">
+              <div>
+                 <h2 className="text-[18px] font-bold text-slate-900 mb-1">Provision Promotional Account</h2>
+                 <p className="text-[12px] text-slate-500">Create a new creator account or upgrade an existing one to Lifetime Pro.</p>
               </div>
-              <button 
-                onClick={handlePromoSearch}
-                disabled={promoLoading || !emailQuery}
-                className="px-6 py-2.5 bg-slate-900 hover:bg-slate-800 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors flex items-center justify-center min-w-[100px]"
-              >
-                {promoLoading && !foundUser ? "Searching..." : "Search"}
-              </button>
+              <div className="flex gap-2 p-1 bg-slate-100 rounded-lg">
+                 <button onClick={() => setPromoMode("create")} className={`px-4 py-1.5 text-[12px] font-bold rounded-md transition-all ${promoMode === "create" ? "bg-white text-indigo-600 shadow" : "text-slate-500 hover:text-slate-700"}`}>Create New</button>
+                 <button onClick={() => setPromoMode("search")} className={`px-4 py-1.5 text-[12px] font-bold rounded-md transition-all ${promoMode === "search" ? "bg-white text-indigo-600 shadow" : "text-slate-500 hover:text-slate-700"}`}>Upgrade Existing</button>
+              </div>
            </div>
+           
+           {promoMode === "create" ? (
+             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4 max-w-4xl">
+                <div>
+                   <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1 block">Creator Name</label>
+                   <input type="text" value={createName} onChange={e => setCreateName(e.target.value)} placeholder="Physics Wallah" className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium" />
+                </div>
+                <div>
+                   <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1 block">Email Address</label>
+                   <input type="email" value={emailQuery} onChange={e => setEmailQuery(e.target.value)} placeholder="creator@youtube.com" className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium" />
+                </div>
+                <div>
+                   <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1 block">Custom Password</label>
+                   <div className="flex gap-3">
+                      <input type="text" value={createPassword} onChange={e => setCreatePassword(e.target.value)} placeholder="SecretPass123!" className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium" />
+                      <button onClick={handleCreatePromoAccount} disabled={promoLoading || !createPassword || !emailQuery || !createName} className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors shrink-0">
+                        {promoLoading && !foundUser ? "..." : "Create & Grant"}
+                      </button>
+                   </div>
+                </div>
+             </div>
+           ) : (
+             <div className="flex items-center gap-3 mb-4 max-w-2xl">
+                <div className="relative flex-1">
+                   <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                   <input 
+                     type="email" 
+                     value={emailQuery}
+                     onChange={(e) => setEmailQuery(e.target.value)}
+                     onKeyDown={(e) => e.key === 'Enter' && handlePromoSearch()}
+                     placeholder="creator@youtube.com"
+                     className="w-full pl-10 pr-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium shadow-sm transition-all"
+                   />
+                </div>
+                <button 
+                  onClick={handlePromoSearch}
+                  disabled={promoLoading || !emailQuery}
+                  className="px-6 py-2.5 bg-slate-900 hover:bg-slate-800 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors flex items-center justify-center min-w-[100px]"
+                >
+                  {promoLoading && !foundUser ? "Searching..." : "Search"}
+                </button>
+             </div>
+           )}
 
            {promoMessage.text && (
-             <div className={`p-3 rounded-xl text-[12px] font-bold mb-4 ${promoMessage.type === 'error' ? 'bg-rose-50 text-rose-600' : 'bg-emerald-50 text-emerald-600'}`}>
+             <div className={`p-3 rounded-xl text-[12px] font-bold mb-4 max-w-4xl border ${promoMessage.type === 'error' ? 'bg-rose-50 border-rose-100 text-rose-600' : 'bg-emerald-50 border-emerald-100 text-emerald-600'}`}>
                 {promoMessage.text}
              </div>
            )}
@@ -485,17 +602,17 @@ export default function SuperAdminDashboard() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
-                {adminRecentUsers.map((user, i) => (
+                {(realUsers.length > 0 ? realUsers.slice(0, 50) : adminRecentUsers).map((user, i) => (
                   <tr key={i} className="hover:bg-slate-50/60 transition-colors group">
                     <td className="px-6 py-4">
                       <div className="flex items-center gap-3">
                         <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 p-[2px] shadow-sm">
                           <div className="h-full w-full rounded-[10px] bg-white flex items-center justify-center font-bold text-[13px] text-indigo-600">
-                            {user.name.charAt(0)}
+                            {(user.name || "U").charAt(0).toUpperCase()}
                           </div>
                         </div>
                         <div>
-                          <div className="font-bold text-slate-900">{user.name}</div>
+                          <div className="font-bold text-slate-900">{user.name || "Unknown User"}</div>
                           <div className="text-slate-400 text-[11px] mt-0.5 font-medium">{user.email}</div>
                         </div>
                       </div>
@@ -504,14 +621,14 @@ export default function SuperAdminDashboard() {
                       <span
                         className={`inline-flex items-center rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-wider
                         ${
-                          user.status === "Weekly Pass"
-                            ? "bg-amber-50 text-amber-600 border border-amber-200"
-                            : user.status === "Pro Monthly"
-                            ? "bg-indigo-50 text-indigo-600 border border-indigo-200"
+                          user.subscription?.status === "active"
+                            ? user.subscription?.plan?.includes("Pro")
+                              ? "bg-indigo-50 text-indigo-600 border border-indigo-200"
+                              : "bg-amber-50 text-amber-600 border border-amber-200"
                             : "bg-slate-100 text-slate-500 border border-slate-200"
                         }`}
                       >
-                        {user.status}
+                        {user.subscription?.status === "active" ? user.subscription?.plan : "Free"}
                       </span>
                     </td>
                     <td className="px-6 py-4">
@@ -525,9 +642,13 @@ export default function SuperAdminDashboard() {
                         <span className="text-[11px] font-medium text-slate-400 italic">Direct</span>
                       )}
                     </td>
-                    <td className="px-6 py-4 text-slate-500 font-medium whitespace-nowrap">{user.joined}</td>
+                    <td className="px-6 py-4 text-slate-500 font-medium whitespace-nowrap">
+                       {user.createdAt ? new Date(user.createdAt).toLocaleDateString() : (user.joined || "N/A")}
+                    </td>
                     <td className="px-6 py-4">
-                      <div className="font-bold text-slate-700">{user.value}</div>
+                      <div className="font-bold text-slate-700">
+                         {user.subscription?.plan === "Pro Yearly" ? "₹598" : user.subscription?.plan ? "₹49" : "₹0"}
+                      </div>
                     </td>
                     <td className="px-6 py-4 text-right">
                       <button className="opacity-0 group-hover:opacity-100 p-1.5 rounded-lg hover:bg-slate-100 text-slate-400 transition-all">

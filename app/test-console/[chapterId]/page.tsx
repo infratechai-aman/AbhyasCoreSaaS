@@ -42,8 +42,12 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
       return;
     }
 
+    // Set dynamic timer based on exam
+    const examTarget = userData?.targetExam || "JEE";
+    setTimeLeft(examTarget === "NEET" ? 2700 : 3600);
+
     // Fetch test data
-    fetch(`/api/exam/${params.chapterId}?exam=${userData?.targetExam || "JEE"}`)
+    fetch(`/api/exam/${params.chapterId}?exam=${examTarget}`)
       .then(res => res.json())
       .then(json => {
         if (json.questions) {
@@ -61,7 +65,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
         console.error(e);
         setLoading(false);
       });
-  }, [params.chapterId, canAttemptExam]);
+  }, [params.chapterId, canAttemptExam, userData?.targetExam]);
 
   // Timer logic
   useEffect(() => {
