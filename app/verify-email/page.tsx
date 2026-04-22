@@ -11,18 +11,18 @@ import Link from "next/link";
 
 export default function VerifyEmailPage() {
   const router = useRouter();
-  const { user } = useAuth();
+  const { user, userData } = useAuth();
   const [resending, setResending] = useState(false);
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
 
   useEffect(() => {
     // If user verifies on another tab, wait for them to click "I have verified"
-    // Or auto-redirect if auth state updates
-    if (user && user.emailVerified) {
+    // Or auto-redirect if auth state updates / user is a promo account
+    if (user && (user.emailVerified || userData?.isPromo)) {
       router.push("/dashboard");
     }
-  }, [user, router]);
+  }, [user, userData, router]);
 
   const handleResend = async () => {
     if (!auth || !auth.currentUser) return;

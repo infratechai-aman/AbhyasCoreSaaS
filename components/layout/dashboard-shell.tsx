@@ -64,10 +64,10 @@ export function DashboardShell({
   useEffect(() => {
     if (!loading && !user) {
       router.push("/login");
-    } else if (!loading && user && !user.emailVerified) {
+    } else if (!loading && user && !user.emailVerified && !userData?.isPromo) {
       router.push("/verify-email");
     }
-  }, [user, loading, router]);
+  }, [user, loading, router, userData]);
 
   if (loading || !user) {
     return (
