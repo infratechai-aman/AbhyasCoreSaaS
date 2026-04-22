@@ -1,6 +1,6 @@
 "use client";
 
-import type { CSSProperties } from "react";
+import React, { CSSProperties, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -153,6 +153,14 @@ function HomeHeader() {
 
 /* ─── page ─── */
 export default function HomePage() {
+  const [isPromo, setIsPromo] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.location.search.includes("ref=")) {
+      setIsPromo(true);
+    }
+  }, []);
+
   return (
     <div style={homeTheme} className="min-h-screen bg-[var(--bg)] text-slate-900 selection:bg-indigo-100 font-sans">
       <HomeHeader />
@@ -506,16 +514,24 @@ export default function HomePage() {
                              )}
                              {index === 1 && (
                                <div className="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/20 text-indigo-300 px-3 py-1 text-[10px] font-bold uppercase tracking-widest mb-3">
-                                 ★ Most Popular
+                                 {isPromo ? "🏷️ Creator Promo Active" : "★ Most Popular"}
                                </div>
                              )}
                              <div className={`text-[12px] font-bold uppercase tracking-[0.2em] ${
                                index === 1 ? "text-indigo-300" : index === 2 ? "text-amber-400" : "text-indigo-600"
                              }`}>{plan.name}</div>
-                             <div className="mt-4 font-display text-[46px] font-bold tracking-tight">{plan.price}</div>
+                             <div className="mt-4 font-display text-[46px] font-bold tracking-tight">
+                               {isPromo && index === 1 ? "₹29/mo" : isPromo && index === 2 ? "₹299/yr" : plan.price}
+                             </div>
                              <p className={`mt-4 text-[14px] leading-relaxed font-medium ${
                                index === 1 ? "text-indigo-100/78" : index === 2 ? "text-amber-100/70" : "text-slate-500"
-                             }`}>{plan.description}</p>
+                             }`}>
+                               {isPromo && index === 1 
+                                 ? "Special Creator Rate: ₹29 for 30 days, then ₹49/mo auto-billed." 
+                                 : isPromo && index === 2
+                                 ? "Special Creator Rate: ₹299 for Year 1, then ₹399/yr auto-billed."
+                                 : plan.description}
+                             </p>
                           </div>
                           
                           <div className="mt-8 space-y-4 mb-10 flex-1">

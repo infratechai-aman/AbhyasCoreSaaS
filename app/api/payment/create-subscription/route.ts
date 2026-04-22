@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     });
 
     const body = await req.json();
-    const { userId, userName, userEmail, planType = 'monthly' } = body;
+    const { userId, userName, userEmail, planType = 'monthly', isReferred } = body;
 
     if (!userId || !userEmail) {
       return NextResponse.json({ error: 'Missing required user fields.' }, { status: 400 });
@@ -26,19 +26,34 @@ export async function POST(req: Request) {
       );
     }
 
-    // The recurring ₹49/month subscription starts 7 days from now.
-    const trialEndTimestamp = Math.floor(Date.now() / 1000) + 7 * 24 * 60 * 60;
+    let trialDays = 7;
+    let upfrontAmount = 700; // ₹7 in paise
+    let upfrontName = "7-Day Pro Trial";
+
+    if (isReferred) {
+      if (planType === 'yearly') {
+        trialDays = 365;
+        upfrontAmount = 29900; // ₹299
+        upfrontName = "Creator Promo: First Year";
+      } else {
+        trialDays = 30;
+        upfrontAmount = 2900; // ₹29
+        upfrontName = "Creator Promo: First Month";
+      }
+    }
+
+    const trialEndTimestamp = Math.floor(Date.now() / 1000) + trialDays * 24 * 60 * 60;
 
     const subscription = await razorpay.subscriptions.create({
       plan_id: planId,
       customer_notify: 1,
       total_count: 120, // 10 years max auto-renewal
-      start_at: trialEndTimestamp, // First ₹49 charge on Day 7
+      start_at: trialEndTimestamp, // Delayed next charge
       addons: [
         {
           item: {
-            name: '7-Day Pro Trial',
-            amount: 700, // ₹7 in paise
+            name: upfrontName,
+            amount: upfrontAmount,
             currency: 'INR',
           },
         },
