@@ -60,6 +60,7 @@ export default function SuperAdminDashboard() {
   const [promoMode, setPromoMode] = useState<"search" | "create">("create");
   const [createName, setCreateName] = useState("");
   const [createPassword, setCreatePassword] = useState("");
+  const [createTargetExam, setCreateTargetExam] = useState<"JEE" | "NEET">("JEE");
   const [emailQuery, setEmailQuery] = useState("");
   const [promoLoading, setPromoLoading] = useState(false);
   const [promoMessage, setPromoMessage] = useState({ text: "", type: "" });
@@ -139,7 +140,7 @@ export default function SuperAdminDashboard() {
       await setDoc(doc(db, "users", newUid), {
         name: createName.trim(),
         email: emailQuery.trim().toLowerCase(),
-        targetExam: "JEE",
+        targetExam: createTargetExam,
         createdAt: new Date().toISOString(),
         streak: 0,
         questionsSolved: 0,
@@ -334,7 +335,7 @@ export default function SuperAdminDashboard() {
            </div>
            
            {promoMode === "create" ? (
-             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4 max-w-4xl">
+             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4 max-w-5xl">
                 <div>
                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1 block">Creator Name</label>
                    <input type="text" value={createName} onChange={e => setCreateName(e.target.value)} placeholder="Physics Wallah" className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium" />
@@ -344,10 +345,17 @@ export default function SuperAdminDashboard() {
                    <input type="email" value={emailQuery} onChange={e => setEmailQuery(e.target.value)} placeholder="creator@youtube.com" className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium" />
                 </div>
                 <div>
+                   <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1 block">Target Exam</label>
+                   <div className="flex bg-white border border-slate-200 rounded-xl p-1 gap-1 h-[42px]">
+                      <button onClick={() => setCreateTargetExam("JEE")} className={`flex-1 text-[12px] font-bold rounded-lg transition-all ${createTargetExam === "JEE" ? "bg-indigo-600 text-white" : "text-slate-500 hover:bg-slate-50"}`}>JEE</button>
+                      <button onClick={() => setCreateTargetExam("NEET")} className={`flex-1 text-[12px] font-bold rounded-lg transition-all ${createTargetExam === "NEET" ? "bg-emerald-600 text-white" : "text-slate-500 hover:bg-slate-50"}`}>NEET</button>
+                   </div>
+                </div>
+                <div>
                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1 block">Custom Password</label>
-                   <div className="flex gap-3">
+                   <div className="flex gap-2">
                       <input type="text" value={createPassword} onChange={e => setCreatePassword(e.target.value)} placeholder="SecretPass123!" className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium" />
-                      <button onClick={handleCreatePromoAccount} disabled={promoLoading || !createPassword || !emailQuery || !createName} className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors shrink-0">
+                      <button onClick={handleCreatePromoAccount} disabled={promoLoading || !createPassword || !emailQuery || !createName} className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors shrink-0 whitespace-nowrap">
                         {promoLoading && !foundUser ? "..." : "Create & Grant"}
                       </button>
                    </div>
