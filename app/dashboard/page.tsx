@@ -22,7 +22,7 @@ import {
 
 function DashboardContent() {
   const router = useRouter();
-  const { userData } = useAuth();
+  const { userData, user } = useAuth();
   const searchParams = useSearchParams();
   const { openCheckout } = useRazorpay();
   const [quickTestOpen, setQuickTestOpen] = useState(false);
@@ -31,10 +31,10 @@ function DashboardContent() {
   const [recentMocks, setRecentMocks] = useState<any[]>([]);
 
   useEffect(() => {
-    if (userData?.uid) {
-      getUserTestHistory(userData.uid).then(res => setRecentMocks(res));
+    if (user?.uid) {
+      getUserTestHistory(user.uid).then(res => setRecentMocks(res));
     }
-  }, [userData?.uid]);
+  }, [user?.uid]);
 
   // Pro features check
   const isPremium = userData?.subscription?.plan === "Pro Monthly" || userData?.subscription?.plan === "Pro Yearly" || userData?.subscription?.plan === "Weekly Pass";
@@ -46,9 +46,9 @@ function DashboardContent() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          userId: userData?.uid || "",
+          userId: user?.uid || "",
           userName: userData?.displayName || userData?.name || "",
-          userEmail: userData?.email || "",
+          userEmail: user?.email || userData?.email || "",
           planType,
           isReferred: !!userData?.referredBy,
         }),
