@@ -114,16 +114,16 @@ const staggerContainer = {
 /* ─── header ─── */
 function HomeHeader() {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4 lg:px-6">
+    <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 lg:px-6 lg:pt-4">
       <motion.div 
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
-        className="mx-auto flex max-w-[1400px] items-center justify-between rounded-2xl border border-white/60 bg-white/40 px-5 py-3 backdrop-blur-2xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)]"
+        className="mx-auto flex max-w-[1400px] items-center justify-between rounded-2xl border border-white/60 bg-white/40 px-4 py-2 lg:px-5 lg:py-3 backdrop-blur-2xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)]"
       >
         {/* logo */}
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.png" alt="AbhyasCore Logo" className="h-28 w-auto object-contain" />
+          <img src="/logo.png" alt="AbhyasCore Logo" className="h-12 sm:h-16 lg:h-28 w-auto object-contain" />
         </Link>
 
         {/* nav */}
@@ -141,7 +141,7 @@ function HomeHeader() {
             Log In
           </Link>
           <Link href="/dashboard">
-            <button className="rounded-xl bg-slate-900 px-5 py-2.5 text-[13px] font-bold text-white shadow-lg shadow-slate-900/20 transition-all hover:bg-indigo-600 hover:shadow-indigo-600/30 hover:scale-[1.03] uppercase tracking-wide">
+            <button className="rounded-xl bg-slate-900 px-4 py-2 sm:px-5 sm:py-2.5 text-[11px] sm:text-[13px] font-bold text-white shadow-lg shadow-slate-900/20 transition-all hover:bg-indigo-600 hover:shadow-indigo-600/30 hover:scale-[1.03] uppercase tracking-wide">
               Premium Portal
             </button>
           </Link>
@@ -167,7 +167,7 @@ export default function HomePage() {
 
       <main className="overflow-hidden">
         {/* ═══════════════════ HERO ═══════════════════ */}
-        <section className="relative w-full pt-36 pb-16 lg:pt-40 lg:pb-24 mix-blend-multiply bg-[#fafafc]">
+        <section className="relative w-full pt-28 pb-16 sm:pt-36 lg:pt-40 lg:pb-24 mix-blend-multiply bg-[#fafafc]">
           {/* Subtle parallax grid pattern */}
           <motion.div 
              initial={{ opacity: 0 }}

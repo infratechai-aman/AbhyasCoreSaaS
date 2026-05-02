@@ -40,7 +40,7 @@ const topStats = [
   { label: "Active Now", value: "240", trend: "-2.4%", isPositive: false, icon: Activity, color: "text-rose-600", bg: "bg-rose-50", border: "border-rose-100" },
 ];
 
-import { collection, query, where, getDocs, updateDoc, doc, serverTimestamp, setDoc } from "firebase/firestore";
+import { collection, query, where, getDocs, updateDoc, doc, getDoc, serverTimestamp, setDoc } from "firebase/firestore";
 import { db, firebaseConfig } from "@/lib/firebase";
 import { initializeApp, getApp, getApps } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
@@ -260,13 +260,17 @@ export default function SuperAdminDashboard() {
         try {
           if (!db) throw new Error("DB not available");
 
-          // Try to find user by UID first, then by email
+          // Try to find user by UID first (direct doc lookup), then by email query
           let userDocId: string | null = null;
 
           if (userId) {
-            const userSnap = await getDocs(query(collection(db, "users"), where("__name__", "==", userId)));
-            if (!userSnap.empty) {
-              userDocId = userSnap.docs[0].id;
+            try {
+              const userSnap = await getDoc(doc(db, "users", userId));
+              if (userSnap.exists()) {
+                userDocId = userSnap.id;
+              }
+            } catch {
+              // UID lookup failed, try email next
             }
           }
 
@@ -275,6 +279,12 @@ export default function SuperAdminDashboard() {
             if (!emailSnap.empty) {
               userDocId = emailSnap.docs[0].id;
             }
+          }
+
+          // Fallback: match against locally loaded users list
+          if (!userDocId && email && realUsers.length > 0) {
+            const match = realUsers.find((u: any) => u.email === email);
+            if (match) userDocId = match.id;
           }
 
           if (!userDocId) {
