@@ -243,7 +243,7 @@ export default function PerformancePage() {
                 </div>
               ) : subjectStats.length === 0 ? (
                 <p className="text-[13px] text-slate-400 font-medium py-6 text-center">
-                  Complete at least 3 mocks for AI weakness detection to activate.
+                  Complete at least 1 mock for AI weakness detection to activate.
                 </p>
               ) : (
                 <>
@@ -254,7 +254,7 @@ export default function PerformancePage() {
                   <div className="space-y-3">
                     {/* Show weakest subjects dynamically */}
                     {subjectStats
-                      .filter(s => s.attempted >= 3)
+                      .filter(s => s.attempted >= 1)
                       .sort((a, b) => a.accuracy - b.accuracy)
                       .slice(0, 4)
                       .map((weakness, i) => {
@@ -275,8 +275,8 @@ export default function PerformancePage() {
                           </div>
                         );
                       })}
-                    {subjectStats.filter(s => s.attempted >= 3).length === 0 && (
-                      <p className="text-[13px] text-slate-400 text-center py-4">Need at least 3 attempts per subject for analysis.</p>
+                    {subjectStats.filter(s => s.attempted >= 1).length === 0 && (
+                      <p className="text-[13px] text-slate-400 text-center py-4">Need at least 1 attempt per subject for analysis.</p>
                     )}
                   </div>
                   

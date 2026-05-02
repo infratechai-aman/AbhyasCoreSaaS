@@ -2,12 +2,12 @@
 
 import { useState, Suspense, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { getUserTestHistory } from "@/lib/firebase-service";
+import { getUserTestHistory, updateUserSubscription } from "@/lib/firebase-service";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
 import { useRazorpay } from "@/lib/hooks/useRazorpay";
-import { X } from "lucide-react";
+import { X, CheckCircle, AlertTriangle } from "lucide-react";
 import { 
   FileText, 
   Database, 
@@ -29,6 +29,15 @@ function DashboardContent() {
   const [generating, setGenerating] = useState(false);
   const [isProcessingPayment, setIsProcessingPayment] = useState(false);
   const [recentMocks, setRecentMocks] = useState<any[]>([]);
+  const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
+
+  // Auto-dismiss toast after 5 seconds
+  useEffect(() => {
+    if (toast) {
+      const timer = setTimeout(() => setToast(null), 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [toast]);
 
   useEffect(() => {
     if (user?.uid) {
@@ -56,7 +65,7 @@ function DashboardContent() {
       const data = await res.json();
 
       if (data.error) {
-        alert("Payment initialization failed: " + data.error);
+        setToast({ message: "Payment initialization failed: " + data.error, type: "error" });
         setIsProcessingPayment(false);
         return;
       }
@@ -73,19 +82,33 @@ function DashboardContent() {
           email: userData?.email || "",
         },
         onSuccess: async (response) => {
-          // Verify payment
-          await fetch("/api/payment/verify", {
+          // Verify payment signature
+          const verifyRes = await fetch("/api/payment/verify", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(response),
           });
+          const verifyData = await verifyRes.json();
+
+          if (verifyData.success && user?.uid) {
+            // Update Firestore with subscription plan
+            const selectedPlan = planType === "yearly" ? "Pro Yearly" : "Pro Monthly";
+            await updateUserSubscription(
+              user.uid,
+              selectedPlan,
+              "active",
+              response.razorpay_subscription_id
+            );
+          }
+
           setIsProcessingPayment(false);
-          alert(`Payment successful! Your ${userData?.referredBy ? 'Creator Promo plan' : '7-day Pro Trial'} is now active.`);
-          router.replace("/dashboard");
+          setToast({ message: `Payment successful! Your ${userData?.referredBy ? 'Creator Promo plan' : '7-day Pro Trial'} is now active.`, type: "success" });
+          // Hard reload to refresh auth context with new subscription data
+          setTimeout(() => window.location.reload(), 1500);
         },
         onError: () => {
           setIsProcessingPayment(false);
-          alert("Payment failed or cancelled.");
+          setToast({ message: "Payment failed or cancelled.", type: "error" });
         }
       });
 
@@ -376,6 +399,25 @@ function DashboardContent() {
                )}
             </div>
          </div>
+      </div>
+    )}
+
+    {/* Styled Toast Notification */}
+    {toast && (
+      <div className={`fixed top-6 right-6 z-[200] flex items-center gap-3 px-5 py-4 rounded-2xl shadow-2xl border backdrop-blur-xl animate-in slide-in-from-top-4 fade-in duration-300 max-w-md ${
+        toast.type === "success"
+          ? "bg-emerald-50/95 border-emerald-200 text-emerald-900"
+          : "bg-red-50/95 border-red-200 text-red-900"
+      }`}>
+        {toast.type === "success" ? (
+          <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
+        ) : (
+          <AlertTriangle className="w-5 h-5 text-red-600 shrink-0" />
+        )}
+        <p className="text-[13px] font-semibold leading-snug">{toast.message}</p>
+        <button onClick={() => setToast(null)} className="ml-auto shrink-0 text-slate-400 hover:text-slate-600">
+          <X className="w-4 h-4" />
+        </button>
       </div>
     )}
     </>
