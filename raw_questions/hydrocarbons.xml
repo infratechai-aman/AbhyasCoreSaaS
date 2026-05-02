@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="212" name="Hydrocarbons">
+    <easy>
+        <question>
+            <text>Compounds composed entirely of Carbon and Hydrogen are ____.</text>
+            <option id="A">Hydrocarbons</option><option id="B">Carbohydrates</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Simplest organic compounds.</explanation></question>
+        <question>
+            <text>Saturated open chain hydrocarbons are called ____.</text>
+            <option id="A">Alkanes</option><option id="B">Alkenes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>General formula CnH2n+2.</explanation></question>
+        <question>
+            <text>Hydrocarbons containing at least one C=C double bond are ____.</text>
+            <option id="A">Alkenes</option><option id="B">Alkanes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>General formula CnH2n.</explanation></question>
+        <question>
+            <text>Hydrocarbons containing at least one C triple C bond are ____.</text>
+            <option id="A">Alkynes</option><option id="B">Alkenes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>General formula CnH2n-2.</explanation></question>
+        <question>
+            <text>Simplest alkene is ____.</text>
+            <option id="A">Ethene (C2H4)</option><option id="B">Methane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Common name Ethylene.</explanation></question>
+        <question>
+            <text>Simplest alkyne is ____.</text>
+            <option id="A">Ethyne (C2H2)</option><option id="B">Propane</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Common name Acetylene.</explanation></question>
+        <question>
+            <text>Alkanes are also known as ____ due to low reactivity.</text>
+            <option id="A">Paraffins</option><option id="B">Olefins</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From Latin 'parum affinis' (little affinity).</explanation></question>
+        <question>
+            <text>Alkenes are also known as ____ due to oil-forming nature of first members.</text>
+            <option id="A">Olefins</option><option id="B">Paraffins</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From Latin 'oleum' (oil).</explanation></question>
+        <question>
+            <text>IUPAC name of Isopentane is ____.</text>
+            <option id="A">2-Methylbutane</option><option id="B">2,2-Dimethylpropane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Branched isomer of pentane.</explanation></question>
+        <question>
+            <text>Primary source of alkanes is ____ and natural gas.</text>
+            <option id="A">Petroleum</option><option id="B">Coal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fossil fuel derivatives.</explanation></question>
+        <question>
+            <text>Reduction of alkyl halides with zinc and HCl gives ____.</text>
+            <option id="A">Alkanes</option><option id="B">Alcohols</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>R-X + 2H -&gt; R-H + HX.</explanation></question>
+        <question>
+            <text>Wurtz reaction involves reaction of alkyl halides with ____ in dry ether.</text>
+            <option id="A">Sodium (Na) metal</option><option id="B">Zinc</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Couples two alkyl groups.</explanation></question>
+        <question>
+            <text>Decarboxylation of sodium salt of fatty acid with soda lime (NaOH + CaO) gives ____.</text>
+            <option id="A">Alkanes with one less C</option><option id="B">Alcohols</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Removes CO2 as carbonate.</explanation></question>
+        <question>
+            <text>Electrolysis of aqueous solution of sodium/potassium salt of carboxylic acid to get alkane is ____ method.</text>
+            <option id="A">Kolbe's electrolytic</option><option id="B">Wurtz</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Occurs at anode.</explanation></question>
+        <question>
+            <text>Alkanes are ____ (polar/non-polar) and insoluble in water.</text>
+            <option id="A">Non-polar</option><option id="B">Polar</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Held by weak van der Waals forces.</explanation></question>
+        <question>
+            <text>Boiling point of alkanes ____ as chain length increases.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Surface area increases, increasing dispersion forces.</explanation></question>
+        <question>
+            <text>Branching ____ the boiling point of isomeric alkanes.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Spherical shape reduces surface area.</explanation></question>
+        <question>
+            <text>Alkanes burn in air/oxygen to form ____ and ____ (combustion).</text>
+            <option id="A">CO2 , H2O</option><option id="B">CO, H2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Highly exothermic process.</explanation></question>
+        <question>
+            <text>Reaction of alkanes with Halogens in presence of light/heat is ____.</text>
+            <option id="A">Substitution / Halogenation</option><option id="B">Addition</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Free radical mechanism.</explanation></question>
+        <question>
+            <text>Controlled oxidation of methane with copper catalyst at 523 K gives ____.</text>
+            <option id="A">Methanol (CH3OH)</option><option id="B">Formaldehyde</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Partial oxidation route.</explanation></question>
+        <question>
+            <text>Isomerization of n-alkanes to branched alkanes uses ____ as catalyst.</text>
+            <option id="A">Anhydrous AlCl3 + HCl</option><option id="B">Ni</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Important for improving octane number of fuel.</explanation></question>
+        <question>
+            <text>Conversion of n-hexane to Benzene at 773 K over Cr2O3 catalyst is ____.</text>
+            <option id="A">Aromatization / Reforming</option><option id="B">Cracking</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Forms aromatic ring from open chain.</explanation></question>
+        <question>
+            <text>Thermal decomposition of higher alkanes to lower ones is ____.</text>
+            <option id="A">Cracking / Pyrolysis</option><option id="B">Combustion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Breaks C-C and C-H bonds.</explanation></question>
+        <question>
+            <text>Ethene reacts with H2/Ni to form ____.</text>
+            <option id="A">Ethane</option><option id="B">Ethyne</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Addition of dihydrogen.</explanation></question>
+        <question>
+            <text>Addition of Br2 in CCl4 to an alkene leads to ____ of reddish-orange color.</text>
+            <option id="A">Decolorization / Disappearance</option><option id="B">Darkening</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard test for unsaturation.</explanation></question>
+        <question>
+            <text>Baeyer's reagent is cold dilute alkaline ____ solution.</text>
+            <option id="A">KMnO4</option><option id="B">K2Cr2O7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pink color disappears on reaction with unsaturation.</explanation></question>
+        <question>
+            <text>Lindlar's catalyst is palladised charcoal deactivated with ____.</text>
+            <option id="A">Quinoline / Sulfur</option><option id="B">Sodium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for partial reduction of alkynes to cis-alkenes.</explanation></question>
+        <question>
+            <text>Acetylene reacts with Na metal to release ____ gas.</text>
+            <option id="A">Dihydrogen (H2)</option><option id="B">Oxygen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shows acidic nature of terminal alkynes.</explanation></question>
+        <question>
+            <text>Arenes are ____ hydrocarbons.</text>
+            <option id="A">Aromatic</option><option id="B">Cycloalkane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on benzene ring units.</explanation></question>
+        <question>
+            <text>Benzene was discovered by ____.</text>
+            <option id="A">Michael Faraday</option><option id="B">Kekule</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Isolated from whale oil gas in 1825.</explanation></question>
+        <question>
+            <text>Proposed oscillating double bond structure of Benzene is named after ____.</text>
+            <option id="A">Kekulé</option><option id="B">Huckel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Explained C6H6 formula and reactivity partially.</explanation></question>
+        <question>
+            <text>Benzene resists ____ reactions and prefers ____ reactions.</text>
+            <option id="A">Addition , Substitution</option><option id="B">Substitution, Addition</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stability of aromatic sextet.</explanation></question>
+        <question>
+            <text>Nitrating mixture for Benzene consists of ____ and ____ acids.</text>
+            <option id="A">Concentrated HNO3 , Concentrated H2SO4</option><option id="B">HCl, HNO3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Generates nitronium ion (NO2+).</explanation></question>
+        <question>
+            <text>Friedel-Crafts alkylation of Benzene uses ____ as catalyst.</text>
+            <option id="A">Anhydrous AlCl3</option><option id="B">FeCl3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lewis acid catalyst.</explanation></question>
+        <question>
+            <text>Which hydrocarbon is used for ripening of fruits?</text>
+            <option id="A">Ethene / Ethylene</option><option id="B">Ethyne</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Plant hormone.</explanation></question>
+        <question>
+            <text>Oxy-acetylene flame is used for ____ metal.</text>
+            <option id="A">Welding and Cutting</option><option id="B">Painting</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Produces very high temp (approx 3300 C).</explanation></question>
+        <question>
+            <text>Stability of benzene is approx ____ kJ/mol higher than expected (Resonance Energy).</text>
+            <option id="A">150</option><option id="B">50</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Extra stability due to delocalization.</explanation></question>
+        <question>
+            <text>Huckel's rule: Number of pi electrons for aromaticity = ____.</text>
+            <option id="A">4n + 2</option><option id="B">4n</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>n = 0,1,2... (2, 6, 10... electrons).</explanation></question>
+        <question>
+            <text>Benzene + 3Cl2 in UV light gives ____ (BHC).</text>
+            <option id="A">Benzene hexachloride (Gammaxene)</option><option id="B">Chlorobenzene</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used as insecticide.</explanation></question>
+        <question>
+            <text>Carcinogenic property is shown by some ____ hydrocarbons like benzopyrene.</text>
+            <option id="A">Polynuclear aromatic</option><option id="B">Small alkane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formed by incomplete combustion of organic matter.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Relative stability of alkenes: Trans isomer is ____ stable than Cis isomer.</text>
+            <option id="A">More (Less steric hindrance)</option><option id="B">Less</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Groups are farther apart.</explanation></question>
+        <question>
+            <text>Dipole moment of Trans-but-2-ene is ____.</text>
+            <option id="A">Zero</option><option id="B">High</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Symmetric cancellation of bond moments.</explanation></question>
+        <question>
+            <text>Markovnikov's rule: During addition to unsymmetrical alkene, negative part adds to C with ____ hydrogen atoms.</text>
+            <option id="A">Fewer</option><option id="B">More</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Leads to more stable carbocations intermediate.</explanation></question>
+        <question>
+            <text>Kharasch effect (Peroxide effect) works only for addition of ____.</text>
+            <option id="A">HBr</option><option id="B">HCl</option><option id="C">HI</option><option id="D">None</option>
+            <answer>A</answer><explanation>Anti-Markovnikov addition through radical mechanism.</explanation></question>
+        <question>
+            <text>Ozonolysis of Ethene followed by hydrolysis with Zn gives ____.</text>
+            <option id="A">Methanal (Formaldehyde)</option><option id="B">Ethanal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cleaves double bond into carbonyl groups.</explanation></question>
+        <question>
+            <text>Ozonolysis of propene gives ____ and ____.</text>
+            <option id="A">Ethanal , Methanal</option><option id="B">Propanal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Uneven cleavage.</explanation></question>
+        <question>
+            <text>Ethyne on cyclic polymerization in red hot iron tube gives ____.</text>
+            <option id="A">Benzene</option><option id="B">Graphite</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>3 molecules of C2H2 trimerize.</explanation></question>
+        <question>
+            <text>Which of the following has highest acidic hydrogen: Ethane, Ethene, Ethyne?</text>
+            <option id="A">Ethyne (due to sp hybridization, high s-character)</option><option id="B">Ethane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electronegativity of C increases with s-character.</explanation></question>
+        <question>
+            <text>Reagent used for hydration of ethyne to ethanal (acetaldehyde) is ____.</text>
+            <option id="A">Dilute H2SO4 + HgSO4</option><option id="B">H2O</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Specific catalyst for alkyne hydration.</explanation></question>
+        <question>
+            <text>Kolbe's electrolysis of Sodium Acetate gives ____ at anode.</text>
+            <option id="A">Ethane + CO2</option><option id="B">Methane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Radical dimerization.</explanation></question>
+        <question>
+            <text>Free radical halogenation: Selectivity order of halogens is ____.</text>
+            <option id="A">Br2 &gt; Cl2 &gt; F2</option><option id="B">F2 &gt; Cl2 &gt; Br2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Bromine is more selective (Hammond's postulate).</explanation></question>
+        <question>
+            <text>Order of reactivity of H-atoms in alkanes: ____.</text>
+            <option id="A">3° &gt; 2° &gt; 1°</option><option id="B">1° &gt; 2° &gt; 3°</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on stability of intermediate radical.</explanation></question>
+        <question>
+            <text>Sawhorse projection: The front carbon is represented as ____.</text>
+            <option id="A">Lower point on diagonal line</option><option id="B">Circle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Visualizes conformations along C-C bond.</explanation></question>
+        <question>
+            <text>Newman projection: The front carbon is represented as a ____.</text>
+            <option id="A">Point / Dot</option><option id="B">Circle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>The rear carbon is the circle.</explanation></question>
+        <question>
+            <text>Stability: Staggered conformation is ____ stable than Eclipsed.</text>
+            <option id="A">More (Minimum torsional strain)</option><option id="B">Less</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Atoms are maximum apart.</explanation></question>
+        <question>
+            <text>Rotation about C-C single bond is restricted by energy of approx ____ kJ/mol (Torsional strain).</text>
+            <option id="A">12 (for ethane)</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Small but significant barrier.</explanation></question>
+        <question>
+            <text>Presence of -CH3 group in benzene ring is ____ directing for electrophilic substitution.</text>
+            <option id="A">Ortho and Para</option><option id="B">Meta</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Activating due to +I and hyperconjugation.</explanation></question>
+        <question>
+            <text>Presence of -COOH group in benzene ring is ____ directing.</text>
+            <option id="A">Meta</option><option id="B">Ortho/Para</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Deactivating due to -M effect.</explanation></question>
+        <question>
+            <text>Birch reduction of Benzene uses ____ to form cyclohexa-1,4-diene.</text>
+            <option id="A">Na / liq NH3 + ROH</option><option id="B">H2/Ni</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Partial reduction of aromatic ring.</explanation></question>
+        <question>
+            <text>Isopropylbenzene is commonly known as ____.</text>
+            <option id="A">Cumene</option><option id="B">Toluene</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Used in commercial phenol synthesis.</explanation></question>
+        <question>
+            <text>Ethylbenzene on vigorous oxidation with KMnO4 gives ____.</text>
+            <option id="A">Benzoic acid</option><option id="B">Acetophenone</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Any alkyl side chain with benzylic H oxidizes to carboxyl.</explanation></question>
+        <question>
+            <text>Gause-Butane conformation stability order: ____.</text>
+            <option id="A">Anti &gt; Gauche &gt; Eclipsed</option><option id="B">Eclipsed &gt; Gauche</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Anti brings bulkier methyls 180 apart.</explanation></question>
+        <question>
+            <text>Dehydration of Alcohols to alkenes uses ____ as catalyst.</text>
+            <option id="A">Concentrated H2SO4 (Heat)</option><option id="B">NaOH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>E1 / E2 mechanism depending on alcohol type.</explanation></question>
+        <question>
+            <text>Ease of dehydration of alcohols: ____.</text>
+            <option id="A">3° &gt; 2° &gt; 1°</option><option id="B">1° &gt; 2° &gt; 3°</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reflects stability of carbocations intermediate.</explanation></question>
+        <question>
+            <text>Addition of HOCl to ethene gives ____.</text>
+            <option id="A">Ethylene chlorohydrin [Cl-CH2-CH2-OH]</option><option id="B">Ethyl chloride</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Addition of hypochlorous acid.</explanation></question>
+        <question>
+            <text>Synthesis of higher alkynes from lower ones involves reaction of sodium acetylide with ____.</text>
+            <option id="A">Alkyl Halide</option><option id="B">Alcohol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nucleophilic substitution.</explanation></question>
+        <question>
+            <text>Product of 1,2-dibromoethane reacting with Zn dust? ____.</text>
+            <option id="A">Ethene (Vicinal dibromide debromination)</option><option id="B">Ethane</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Example of beta-elimination.</explanation></question>
+        <question>
+            <text>Hydrocarbon progress finalized for Batch 10?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardizing.</explanation></question>
+        <question>
+            <text>Which conformer of ethane has highest potential energy?</text>
+            <option id="A">Eclipsed</option><option id="B">Staggered</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maximum repulsion between electron clouds.</explanation></question>
+        <question>
+            <text>Which of the following reacts with ammoniacal Silver Nitrate (Tollen's reagent)?</text>
+            <option id="A">Ethyne</option><option id="B">Ethene</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Forms white precipitate of silver acetylide.</explanation></question>
+        <question>
+            <text>Which of the following reacts with ammoniacal Cuprous Chloride?</text>
+            <option id="A">Ethyne</option><option id="B">Ethane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Forms red precipitate of copper acetylide.</explanation></question>
+        <question>
+            <text>Cold dilute alkaline KMnO4 is used to distinguish between ____ and ____.</text>
+            <option id="A">Alkanes and Alkenes</option><option id="B">Alkenes and Alkynes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Baeyer's test for unsaturation.</explanation></question>
+        <question>
+            <text>Which of the following is most stable: 1-butene, cis-2-butene, trans-2-butene?</text>
+            <option id="A">trans-2-butene</option><option id="B">cis-2-butene</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Minimal steric repulsion.</explanation></question>
+        <question>
+            <text>The major product of reaction between propene and HBr in presence of Peroxide is ____.</text>
+            <option id="A">1-Bromopropane</option><option id="B">2-Bromopropane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Anti-Markovnikov addition.</explanation></question>
+        <question>
+            <text>The major product of reaction between propene and HBr (no peroxide) is ____.</text>
+            <option id="A">2-Bromopropane</option><option id="B">1-Bromopropane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Markovnikov addition via 2° carbocation.</explanation></question>
+        <question>
+            <text>Ozonolysis of 2-butene followed by Zn/H2O gives ____.</text>
+            <option id="A">Ethanal (Acetaldehyde)</option><option id="B">Methanal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Two molecules of CH3CHO are formed.</explanation></question>
+        <question>
+            <text>Addition of H2O to ethyne in presence of HgSO4/H2SO4 gives ____.</text>
+            <option id="A">Ethanal</option><option id="B">Ethanol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Via unstable vinyl alcohol enol.</explanation></question>
+        <question>
+            <text>Which of the following is used as an anti-knocking agent in petrol?</text>
+            <option id="A">Tetraethyl lead (TEL)</option><option id="B">Ethene</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduces knocking in IC engines.</explanation></question>
+        <question>
+            <text>Octane number is 0 for ____ and 100 for ____.</text>
+            <option id="A">n-Heptane , Iso-octane (2,2,4-trimethylpentane)</option><option id="B">Methane, Octane</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard reference for fuel quality.</explanation></question>
+        <question>
+            <text>Which of the following is used as an anti-knocking agent?</text>
+            <option id="A">TEL (Tetraethyl lead)</option><option id="B">Benzene</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used to increase octane rating.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>IUPAC name of Neopentane? ____.</text>
+            <option id="A">2,2-Dimethylpropane</option><option id="B">Isopentane</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Highly branched isomer of C5H12.</explanation></question>
+        <question>
+            <text>The enthalpy of hydrogenation of Benzene is ____ than expected for Cyclohexatriene.</text>
+            <option id="A">Lower (due to resonance stabilization)</option><option id="B">Higher</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Experimental proof of aromatic stability.</explanation></question>
+        <question>
+            <text>Substitution of Benzene with Cl2 in presence of Iodine/Fe catalyst gives ____.</text>
+            <option id="A">Chlorobenzene</option><option id="B">BHC</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electrophilic aromatic substitution.</explanation></question>
+        <question>
+            <text>Preparation of Benzene from Phenol involves heating with ____.</text>
+            <option id="A">Zinc Dust</option><option id="B">NaOH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduction process.</explanation></question>
+        <question>
+            <text>Sulfonation of Benzene uses ____ to form Benzene sulfonic acid.</text>
+            <option id="A">Fuming H2SO4 (Oleum)</option><option id="B">Dilute H2SO4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Active electrophile is SO3.</explanation></question>
+        <question>
+            <text>Reagent for converting Alk-2-yne to Trans-alk-2-ene is ____.</text>
+            <option id="A">Na / liq NH3 (Birch reduction type)</option><option id="B">Lindlar's catalyst</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stereospecific reduction to trans isomer.</explanation></question>
+        <question>
+            <text>Addition of water to Prop-1-yne gives ____ (Final major product).</text>
+            <option id="A">Acetone / Propan-2-one (via Tautomerism)</option><option id="B">Propanal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Markovnikov addition followed by keto-enol shift.</explanation></question>
+        <question>
+            <text>Which bond is strongest: C-H (sp3), C-H (sp2), C-H (sp)?</text>
+            <option id="A">C-H (sp) in Ethyne</option><option id="B">C-H (sp3)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Maximum overlap with high s-character.</explanation></question>
+        <question>
+            <text>Presence of substituent like -OH in Phenol makes it ____ times more reactive than benzene.</text>
+            <option id="A">Many (approx 10^3+)</option><option id="B">Same</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strong +M activation.</explanation></question>
+        <question>
+            <text>Halogens in benzene ring are ____ directing but ____.</text>
+            <option id="A">Ortho/Para , Deactivating</option><option id="B">Meta, Activating</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Conflict between +M (directing) and -I (deactivating) effects.</explanation></question>
+        <question>
+            <text>Friedel-Crafts acylation uses ____ halides and AlCl3.</text>
+            <option id="A">Acid (RCOCl)</option><option id="B">Alkyl</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Generates acylium ion [R-C+=O].</explanation></question>
+        <question>
+            <text>Bromination of Benzene: Active electrophile is ____.</text>
+            <option id="A">Br+</option><option id="B">Br2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Complexed with FeBr3.</explanation></question>
+        <question>
+            <text>Correct order of boiling point: n-Pentane ____ Isopentane ____ Neopentane.</text>
+            <option id="A">&gt; , &gt;</option><option id="B">&lt; , &lt;</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Packing and surface area trend.</explanation></question>
+        <question>
+            <text>Conformation of n-Butane with methyls at 60 degree is ____.</text>
+            <option id="A">Gauche</option><option id="B">Anti</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Relatively stable staggered conformer.</explanation></question>
+        <question>
+            <text>Which reagent converts Alcohols to Alkanes directly? (HI/Red P?)</text>
+            <option id="A">HI / Red P (Heat)</option><option id="B">NaBH4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Powerful reducing agent for oxygenates.</explanation></question>
+        <question>
+            <text>Number of terminal alkynes possible for C5H8? ____.</text>
+            <option id="A">2 (Pentyne, 3-methylbut-1-yne)</option><option id="B">3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Positions of triple bond.</explanation></question>
+        <question>
+            <text>Presence of -OH group in phenol is ortho/para directing due to ____ effect.</text>
+            <option id="A">+M (Resonance)</option><option id="B">+I</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increases electron density at ortho/para sites.</explanation></question>
+        <question>
+            <text>Nitration of Toluene gives ____ mixture of products.</text>
+            <option id="A">Ortho and Para nitrotoluene</option><option id="B">Meta</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Alkyl group is o/p directing.</explanation></question>
+        <question>
+            <text>Sabatier-Senderens reaction involves hydrogenation of unsaturated hydrocarbons using ____ catalyst.</text>
+            <option id="A">Raney Nickel (Ni)</option><option id="B">Pd</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Industrial route to alkanes.</explanation></question>
+        <question>
+            <text>Isomerism in Alkanes starts from ____ carbons.</text>
+            <option id="A">4 (Butane)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Methane, Ethane, Propane are unique.</explanation></question>
+        <question>
+            <text>Alkane used as fuel in lighters is ____.</text>
+            <option id="A">Butane</option><option id="B">Methane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Low boiling liquid under pressure.</explanation></question>
+        <question>
+            <text>Which of the following does not give Wurtz reaction comfortably: tert-Butyl chloride? (Elimination?)</text>
+            <option id="A">tert-Butyl chloride (prefers E2 with base)</option><option id="B">Methyl chloride</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Steric hindrance leads to side reactions.</explanation></question>
+        <question>
+            <text>Wurtz reaction cannot prepare methane. True? ____.</text>
+            <option id="A">True (Minimum C count is 2)</option><option id="B">False</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Coupling process needs two alkyl radicals.</explanation></question>
+        <question>
+            <text>Verification for Hydrocarbons 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization complete.</explanation></question>
+        <question>
+            <text>Hydrocarbons 120 qty count verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>A mixture of isomeric products is obtained in free radical chlorination because radicals can form on ____ sites.</text>
+            <option id="A">All non-equivalent carbon</option><option id="B">Only terminal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Statistical distribution modified by stability.</explanation></question>
+        <question>
+            <text>Product of Benzoic acid + soda lime? ____.</text>
+            <option id="A">Benzene</option><option id="B">Sodium benzoate</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Decarboxylation of aromatic salt.</explanation></question>
+        <question>
+            <text>Verification for Chemistry Class 11 Hydrocarbons complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standardized.</explanation></question>
+        <question>
+            <text>Hydrocarbons progress finalized?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Number of sigma and pi bonds in Toluene? ____.</text>
+            <option id="A">15 Sigma, 3 Pi</option><option id="B">12, 3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Methyl group adds 3 C-H and 1 C-C sigma.</explanation></question>
+        <question>
+            <text>Nitration of Benzene followed by reduction with Sn/HCl gives ____.</text>
+            <option id="A">Aniline</option><option id="B">Nitrobenzene</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sequence to aromatic amine.</explanation></question>
+        <question>
+            <text>Hydrocarbons 120 qty confirmed?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Stable isomer of Cyclohexane is ____.</text>
+            <option id="A">Chair</option><option id="B">Boat</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Minimized strain.</explanation></question>
+        <question>
+            <text>Which hydrocarbon has lowest boiling point: Methane, Ethane, Propane, Butane?</text>
+            <option id="A">Methane</option><option id="B">Butane</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Minimal mass and surface area.</explanation></question>
+        <question>
+            <text>Toluene on reaction with CrO2Cl2 followed by hydrolysis gives ____.</text>
+            <option id="A">Benzaldehyde (Etard reaction)</option><option id="B">Benzoic acid</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Specific aldehyde synthesis.</explanation></question>
+        <question>
+            <text>Batch 10 Hydrocarbons standardization verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Hydrocarbons 120 qty check done?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Reaction of water with Al4C3 gives ____ gas.</text>
+            <option id="A">Methane</option><option id="B">Ethene</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Carbide hydrolysis.</explanation></question>
+        <question>
+            <text>Reaction of water with CaC2 gives ____ gas.</text>
+            <option id="A">Ethyne / Acetylene</option><option id="B">Ethene</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Classical route to ethyne.</explanation></question>
+        <question>
+            <text>Which process is used for conversion of benzene to toluene? (FC Alkylation?)</text>
+            <option id="A">Friedel-Crafts Alkylation</option><option id="B">Acylation</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reaction with CH3Cl / AlCl3.</explanation></question>
+    </hard>
+</chapter>

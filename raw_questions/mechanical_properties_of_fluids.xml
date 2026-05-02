@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="109" name="Mechanical Properties of Fluids">
+    <easy>
+        <question>
+            <text>Fluids are substances that can ____.</text>
+            <option id="A">Flow</option><option id="B">Break</option><option id="C">Stay rigid</option><option id="D">None</option>
+            <answer>A</answer><explanation>Includes liquids and gases.</explanation></question>
+        <question>
+            <text>Normal force per unit area exerted by fluid at rest is ____.</text>
+            <option id="A">Pressure</option><option id="B">Stress</option><option id="C">Force</option><option id="D">None</option>
+            <answer>A</answer><explanation>P = F/A.</explanation></question>
+        <question>
+            <text>SI unit of Pressure is ____.</text>
+            <option id="A">Pascal (Pa)</option><option id="B">Newton</option><option id="C">Bar</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 Pa = 1 N/m^2.</explanation></question>
+        <question>
+            <text>Pressure at a point in fluid at rest is ____ in all directions.</text>
+            <option id="A">Same</option><option id="B">Different</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pascal's Law for fluids.</explanation></question>
+        <question>
+            <text>Pressure exerted by a liquid column of height h and density ρ is ____.</text>
+            <option id="A">hρg</option><option id="B">ρg/h</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Derived from weight of fluid column.</explanation></question>
+        <question>
+            <text>Atmospheric pressure at sea level is approximately ____ Pa.</text>
+            <option id="A">1.013 x 10^5</option><option id="B">1.0 x 10^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equivalent to 1 atmosphere (atm).</explanation></question>
+        <question>
+            <text>Device used to measure atmospheric pressure is ____.</text>
+            <option id="A">Barometer</option><option id="B">Manometer</option><option id="C">Thermometer</option><option id="D">None</option>
+            <answer>A</answer><explanation>Invented by Torricelli.</explanation></question>
+        <question>
+            <text>Difference between absolute pressure and atmospheric pressure is ____ pressure.</text>
+            <option id="A">Gauge</option><option id="B">Total</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P_gauge = P - P_atm.</explanation></question>
+        <question>
+            <text>Hydraulic lift works on ____ Law.</text>
+            <option id="A">Pascal's</option><option id="B">Archimedes'</option><option id="C">Newton's</option><option id="D">None</option>
+            <answer>A</answer><explanation>Transmission of fluid pressure.</explanation></question>
+        <question>
+            <text>Upward force exerted by a fluid on a submerged body is ____ force.</text>
+            <option id="A">Buoyant</option><option id="B">Drag</option><option id="C">Viscous</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also called upthrust.</explanation></question>
+        <question>
+            <text>Archimedes' Principle states that buoyant force equals ____ of fluid displaced.</text>
+            <option id="A">Weight</option><option id="B">Mass</option><option id="C">Volume</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reason for objects floating or sinking.</explanation></question>
+        <question>
+            <text>A body floats if its density is ____ than fluid density.</text>
+            <option id="A">Less or Equal</option><option id="B">Greater</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equilibrium condition for floating.</explanation></question>
+        <question>
+            <text>Fluids in motion: Study of fluid flow is ____.</text>
+            <option id="A">Fluid Dynamics</option><option id="B">Statics</option><option id="C">Kinematics only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Involves forces and motion.</explanation></question>
+        <question>
+            <text>Steady flow where velocity at a point doesn't change with time is ____ flow.</text>
+            <option id="A">Streamline / Laminar</option><option id="B">Turbulent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Characterized by smooth paths.</explanation></question>
+        <question>
+            <text>Flow where velocity changes erratically in magnitude and direction is ____ flow.</text>
+            <option id="A">Turbulent</option><option id="B">Streamline</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Occurs at high velocities.</explanation></question>
+        <question>
+            <text>Equation of Continuity for incompressible fluid: A1V1 = ____.</text>
+            <option id="A">A2V2</option><option id="B">A2/V2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mass conservation in flow.</explanation></question>
+        <question>
+            <text>Bernoulli's Principle relates pressure, speed, and ____.</text>
+            <option id="A">Height (Potential energy)</option><option id="B">Color</option><option id="C">Temperature</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy conservation for ideal fluid flow.</explanation></question>
+        <question>
+            <text>Internal friction of a fluid that resists flow is ____.</text>
+            <option id="A">Viscosity</option><option id="B">Surface tension</option><option id="C">Density</option><option id="D">None</option>
+            <answer>A</answer><explanation>Analogous to friction in solids.</explanation></question>
+        <question>
+            <text>SI unit of coefficient of viscosity (η) is ____.</text>
+            <option id="A">Poiseuille (Pa.s)</option><option id="B">Poise</option><option id="C">N/m</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 Poiseuille = 10 Poise.</explanation></question>
+        <question>
+            <text>Stokes' Law gives viscous drag on a sphere: F = ____.</text>
+            <option id="A">6 π η r v</option><option id="B">π r^2 h</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Applies for small velocities in viscous medium.</explanation></question>
+        <question>
+            <text>Constant velocity attained by a body falling through viscous fluid is ____ velocity.</text>
+            <option id="A">Terminal</option><option id="B">Critical</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>When drag + buoyancy = weight.</explanation></question>
+        <question>
+            <text>Dimensionless number that determines nature of flow is ____ Number.</text>
+            <option id="A">Reynolds (Re)</option><option id="B">Mach</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Re = ρvd / η.</explanation></question>
+        <question>
+            <text>Force per unit length acting in the surface of a liquid is ____.</text>
+            <option id="A">Surface Tension</option><option id="B">Viscosity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>T = F/l.</explanation></question>
+        <question>
+            <text>SI unit of Surface Tension is ____.</text>
+            <option id="A">N/m</option><option id="B">N/m^2</option><option id="C">J/m</option><option id="D">None</option>
+            <answer>A</answer><explanation>Force per length.</explanation></question>
+        <question>
+            <text>Curvature of liquid surface in a container is called ____.</text>
+            <option id="A">Meniscus</option><option id="B">Lens</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Concave or convex depending on adhesion/cohesion.</explanation></question>
+        <question>
+            <text>Angle between tangent to liquid surface and solid surface is Angle of ____.</text>
+            <option id="A">Contact</option><option id="B">Incidence</option><option id="C">Refraction</option><option id="D">None</option>
+            <answer>A</answer><explanation>Determines wetting property.</explanation></question>
+        <question>
+            <text>Rise or fall of liquid in a narrow tube is ____.</text>
+            <option id="A">Capillarity</option><option id="B">Viscosity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to surface tension and small diameter.</explanation></question>
+        <question>
+            <text>Pressure difference across a spherical liquid drop is ____.</text>
+            <option id="A">2T / R</option><option id="B">4T / R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Excess pressure inside drop.</explanation></question>
+        <question>
+            <text>Pressure difference across a soap bubble is ____.</text>
+            <option id="A">4T / R</option><option id="B">2T / R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Double because of inner and outer surface.</explanation></question>
+        <question>
+            <text>Effect of temperature increase on surface tension is ____.</text>
+            <option id="A">Decrease</option><option id="B">Increase</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Molecular kinetic energy overcomes attraction.</explanation></question>
+        <question>
+            <text>Density of water is max at ____ Celsius.</text>
+            <option id="A">4</option><option id="B">0</option><option id="C">100</option><option id="D">None</option>
+            <answer>A</answer><explanation>Anomalous expansion property.</explanation></question>
+        <question>
+            <text>Velocity of efflux through a hole is √(2gh). This is ____ theorem.</text>
+            <option id="A">Torricelli's</option><option id="B">Bernoulli's</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Special case of Bernoulli's.</explanation></question>
+        <question>
+            <text>Venturi meter measures ____ of fluid flow.</text>
+            <option id="A">Speed / Rate</option><option id="B">Pressure only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Uses pressure difference between throat and wide part.</explanation></question>
+        <question>
+            <text>Ratio of density of substance to density of water is ____.</text>
+            <option id="A">Relative Density / Specific Gravity</option><option id="B">Mass density</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Dimensionless quantity.</explanation></question>
+        <question>
+            <text>Blood pressure in humans is measured using ____.</text>
+            <option id="A">Sphygmomanometer</option><option id="B">Barometer</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Measures gauge pressure in artery.</explanation></question>
+        <question>
+            <text>Viscosity of gases ____ with increase in temperature.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to increased molecular collisions.</explanation></question>
+        <question>
+            <text>Viscosity of liquids ____ with increase in temperature.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cohesive forces weaken.</explanation></question>
+        <question>
+            <text>Dynamic lift on a spinning ball in air is called ____ Effect.</text>
+            <option id="A">Magnus</option><option id="B">Doppler</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to pressure difference induced by spin.</explanation></question>
+        <question>
+            <text>Atomizer works on the basis of ____.</text>
+            <option id="A">Bernoulli's Principle</option><option id="B">Pascal's Law</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High speed air creates low pressure zone.</explanation></question>
+        <question>
+            <text>Surface of a liquid behaves like a stretched elastic ____.</text>
+            <option id="A">Membrane</option><option id="B">Wire</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Due to surface tension.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Hydraulic brake system uses fluid to multiply ____.</text>
+            <option id="A">Force</option><option id="B">Pressure</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Small force on pedal -&gt; large force on brake pads.</explanation></question>
+        <question>
+            <text>Bernoulli's equation represents ____ per unit volume constant.</text>
+            <option id="A">Total Energy</option><option id="B">Momentum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>P + 1/2ρv^2 + ρgh = constant.</explanation></question>
+        <question>
+            <text>Terminal velocity depends on square of ____ of falling body.</text>
+            <option id="A">Radius (r^2)</option><option id="B">Mass</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Result of balancing drag and weight.</explanation></question>
+        <question>
+            <text>Critical velocity is velocity above which flow becomes ____.</text>
+            <option id="A">Turbulent</option><option id="B">Steady</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>End of streamline regime.</explanation></question>
+        <question>
+            <text>For a drop to be spherical, potential energy of surface must be ____.</text>
+            <option id="A">Minimum</option><option id="B">Maximum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sphere has minimum area for given volume.</explanation></question>
+        <question>
+            <text>Excess pressure in a cylindrical bubble in liquid is ____.</text>
+            <option id="A">T / R</option><option id="B">2T / R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>One principal radius is infinity.</explanation></question>
+        <question>
+            <text>Capillary rise h = ____.</text>
+            <option id="A">2T cos θ / (rρg)</option><option id="B">T / (rρg)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental capillarity relation.</explanation></question>
+        <question>
+            <text>If Re &lt; 1000, the flow is usually ____.</text>
+            <option id="A">Streamline</option><option id="B">Turbulent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Viscous forces dominate.</explanation></question>
+        <question>
+            <text>If Re &gt; 2000, the flow is usually ____.</text>
+            <option id="A">Turbulent</option><option id="B">Streamline</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inertial forces dominate.</explanation></question>
+        <question>
+            <text>Dimension of Surface Energy is same as ____.</text>
+            <option id="A">Surface Tension</option><option id="B">Work</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy per unit area.</explanation></question>
+        <question>
+            <text>Work done in blowing a soap bubble of radius R is ____.</text>
+            <option id="A">8 π R^2 T</option><option id="B">4 π R^2 T</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Two surfaces involved.</explanation></question>
+        <question>
+            <text>Angle of contact for pure water and clean glass is ____.</text>
+            <option id="A">Zero</option><option id="B">90</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Complete wetting scenario.</explanation></question>
+        <question>
+            <text>Angle of contact for mercury and glass is ____.</text>
+            <option id="A">Obtuse (~135 deg)</option><option id="B">Acute</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Does not wet the surface.</explanation></question>
+        <question>
+            <text>In a horizontal pipe, where area is narrow, pressure is ____.</text>
+            <option id="A">Lower</option><option id="B">Higher</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Velocity is higher, pressure drops.</explanation></question>
+        <question>
+            <text>Bernoulli's principle represents conservation of ____ pulse? No. Energy.</text>
+            <option id="A">Energy per unit volume</option><option id="B">Momentum</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ideal fluid baseline.</explanation></question>
+        <question>
+            <text>Effect of salt on surface tension of water ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Soluble inorganic salts increase T.</explanation></question>
+        <question>
+            <text>Effect of detergents on surface tension of water ____.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Allows easy spreading.</explanation></question>
+        <question>
+            <text>Poiseuille's formula for flow rate Q through tube depends on ____ of radius.</text>
+            <option id="A">4th power (r^4)</option><option id="B">2nd power</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Q = pi P r^4 / (8 η L).</explanation></question>
+        <question>
+            <text>Hydraulic machine force multiplier factor is ____.</text>
+            <option id="A">A2 / A1</option><option id="B">A1 / A2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Area ratio defines mechanical advantage.</explanation></question>
+        <question>
+            <text>Total pressure at bottom of a pool is P_atm + ____.</text>
+            <option id="A">hρg</option><option id="B">2 hρg</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Hydrostatic addition.</explanation></question>
+        <question>
+            <text>Submerged object apparent weight = Actual weight - ____.</text>
+            <option id="A">Buoyant force</option><option id="B">Drag</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Effective gravity is reduced.</explanation></question>
+        <question>
+            <text>Capillary vertical height h in tilted tube ____.</text>
+            <option id="A">Stays same</option><option id="B">Increases</option><option id="C">Decreases</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dependent on pressure balance.</explanation></question>
+        <question>
+            <text>Streamlines never ____ effectively.</text>
+            <option id="A">Intersect</option><option id="B">Curve</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Uniqueness of velocity at point.</explanation></question>
+        <question>
+            <text>Terminal velocity is attained during ____ acceleration.</text>
+            <option id="A">Zero net</option><option id="B">Max</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Forces are balanced.</explanation></question>
+        <question>
+            <text>Viscosity of air vs water comparison is ____.</text>
+            <option id="A">Air is much less</option><option id="B">Air is more</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gases have lower η.</explanation></question>
+        <question>
+            <text>Viscous force F is proportional to area A and ____.</text>
+            <option id="A">dv/dx (Velocity gradient)</option><option id="B">v</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Newton's Law of Viscosity.</explanation></question>
+        <question>
+            <text>Pressure dependence on shape is ____.</text>
+            <option id="A">Non-existent (Hydrostatic Paradox)</option><option id="B">High</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Same depth means same pressure.</explanation></question>
+        <question>
+            <text>Wood floats with half volume submerged. Relative density? ____.</text>
+            <option id="A">0.5</option><option id="B">1.0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ratio of body to fluid density.</explanation></question>
+        <question>
+            <text>Flow state if Re changes 500 to 1500 is typically ____.</text>
+            <option id="A">Laminar transitioning to turbulent</option><option id="B">Steady</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Instability region starts.</explanation></question>
+        <question>
+            <text>Pressure of 10m water column is roughly ____ Pascal.</text>
+            <option id="A">10^5</option><option id="B">10^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equal to 1 atmosphere.</explanation></question>
+        <question>
+            <text>Capillary meniscus is flat if contact angle is ____ deg.</text>
+            <option id="A">90</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Surface tension doesn't pull up/down.</explanation></question>
+        <question>
+            <text>Pressure increase effect on water viscosity ____.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unique anomalous water property.</explanation></question>
+        <question>
+            <text>Pressure increase effect on regular liquid viscosity ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Closer molecular packing increases friction.</explanation></question>
+        <question>
+            <text>Velocity of efflux density dependence is ____.</text>
+            <option id="A">Independent</option><option id="B">Square root</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>V = sqrt(2gh).</explanation></question>
+        <question>
+            <text>Laminar flow layer relation is ____.</text>
+            <option id="A">Parallel motion</option><option id="B">Active mixing</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Layers slide over each other.</explanation></question>
+        <question>
+            <text>Small vs large drops shape difference factor is ____.</text>
+            <option id="A">Gravity flattening</option><option id="B">Viscosity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Surface tension dominates at small scales.</explanation></question>
+        <question>
+            <text>Surface molecules energy state is ____ relative to bulk.</text>
+            <option id="A">Higher</option><option id="B">Lower</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unbalanced inward attractive force.</explanation></question>
+        <question>
+            <text>Capillary radius r doubled means height h ____.</text>
+            <option id="A">Halved (h/2)</option><option id="B">Quartered</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inverse radius proportionality.</explanation></question>
+        <question>
+            <text>Pressure across soap bubble (diameter 2cm, T=0.03) is ____ Pa.</text>
+            <option id="A">12</option><option id="B">6</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>ΔP = 4T/R.</explanation></question>
+        <question>
+            <text>Viscosity transport quantity is ____.</text>
+            <option id="A">Momentum</option><option id="B">Energy</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Exchange of velocity between layers.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>Excess pressure in submerged drop (radius R) is ____.</text>
+            <option id="A">2T / R</option><option id="B">4T / R</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Single interface condition.</explanation></question>
+        <question>
+            <text>Coalescing soap bubbles new radius R (isothermal) satisfies ____.</text>
+            <option id="A">P_atm ΔV + T ΔA = 0 (approx R^2 = Σ r^2 if P_atm large? No. P1V1 + P2V2 = PV)</option><option id="B">R^3 = Σ r^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ideal gas law + Laplace pressure.</explanation></question>
+        <question>
+            <text>Velocity profile in laminar pipe flow is ____.</text>
+            <option id="A">Parabolic (Hagen-Poiseuille)</option><option id="B">Linear</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Max v at center, zero at walls.</explanation></question>
+        <question>
+            <text>Kinematic viscosity definition is ____.</text>
+            <option id="A">η / ρ</option><option id="B">η x ρ</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Dynamic viscosity over density.</explanation></question>
+        <question>
+            <text>Bernoulli: v and P decrease implies h ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Energy conservation sum must be constant.</explanation></question>
+        <question>
+            <text>Euler's equation represents ____ for fluids.</text>
+            <option id="A">F = ma</option><option id="B">Entropy</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Momentum balance without viscosity.</explanation></question>
+        <question>
+            <text>Work to break drop R into n drops is ____.</text>
+            <option id="A">4 π R^2 T (n^(1/3) - 1)</option><option id="B">4 π R^2 T n</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Change in total surface energy.</explanation></question>
+        <question>
+            <text>Coefficient of viscosity SI unit name is ____.</text>
+            <option id="A">Poiseuille (Pa.s)</option><option id="B">Poise</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>1 Pa.s = 10 Poise.</explanation></question>
+        <question>
+            <text>Boundary layer property near wall profile is ____.</text>
+            <option id="A">Velocity gradient transition</option><option id="B">Infinite velocity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>No-slip condition at wall.</explanation></question>
+        <question>
+            <text>Pitot tube measures flow speed by converting kinetic to ____ head.</text>
+            <option id="A">Pressure (Stagnation)</option><option id="B">Potential</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Differential pressure reading.</explanation></question>
+        <question>
+            <text>Ideal fluid assumptions are ____.</text>
+            <option id="A">Non-viscous, incompressible, irrotational, steady</option><option id="B">Compressible</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Simplified for analysis.</explanation></question>
+        <question>
+            <text>Floating body stability metacentre position must be ____ center of gravity.</text>
+            <option id="A">Above</option><option id="B">Below</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Allows restoring torque.</explanation></question>
+        <question>
+            <text>Space above mercury in barometer contains ____.</text>
+            <option id="A">Mercury vapor only (Torricelli's Vacuum)</option><option id="B">Air</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Minimal pressure intervention.</explanation></question>
+        <question>
+            <text>Reynolds Number doubling effect on viscous drag in laminar flow? ____.</text>
+            <option id="A">Doubles (F ~ v)</option><option id="B">Quadruples</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Linear velocity dependence.</explanation></question>
+        <question>
+            <text>Capillary rise correction in wider tube is ____.</text>
+            <option id="A">Add r/3 to height h</option><option id="B">Subtract r</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Accounts for weight of meniscus.</explanation></question>
+        <question>
+            <text>Surface tension vanishing point temperature is ____.</text>
+            <option id="A">Critical temperature</option><option id="B">0 Kelvin</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Phase transition to supercritical fluid.</explanation></question>
+        <question>
+            <text>Side wall hydraulic force is proportional to ____ of wall height.</text>
+            <option id="A">Square (H^2)</option><option id="B">First power (H)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Integration of ρgy dy from 0 to H.</explanation></question>
+        <question>
+            <text>Fluid pressure is a ____ tensor of rank 0?</text>
+            <option id="A">Scalar</option><option id="B">Vector</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Acting uniformly in all directions.</explanation></question>
+        <question>
+            <text>Rain drop terminal velocity dependency on radius is ____.</text>
+            <option id="A">v ~ r^2</option><option id="B">v ~ r</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mass grows with r^3, drag with r^1.</explanation></question>
+        <question>
+            <text>Merging small drops into one implies energy ____.</text>
+            <option id="A">Release (Heat generation)</option><option id="B">Absorption</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Decrease in surface area.</explanation></question>
+        <question>
+            <text>Gas pressure origin molecular view is ____ per unit area.</text>
+            <option id="A">Momentum change rate</option><option id="B">Mass</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Force = Δp / Δt.</explanation></question>
+        <question>
+            <text>Adiabatic factor gamma connects isothermal and adiabatic ____.</text>
+            <option id="A">Bulk Moduli</option><option id="B">Densities</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>K_ad = γ K_iso.</explanation></question>
+        <question>
+            <text>Fluid viscosity typically depends on ____.</text>
+            <option id="A">Intermolecular forces</option><option id="B">Volume</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Baseline friction mechanism.</explanation></question>
+        <question>
+            <text>Bernoulli dynamic pressure term is ____.</text>
+            <option id="A">1/2 ρ v^2</option><option id="B">P</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Energy of motion component.</explanation></question>
+        <question>
+            <text>Bernoulli static pressure term is ____.</text>
+            <option id="A">P</option><option id="B">ρgh</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ambient fluid pressure.</explanation></question>
+        <question>
+            <text>Poiseuille law flow regime assumption is ____.</text>
+            <option id="A">Laminar (Shear between layers)</option><option id="B">Turbulent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Viscosity leads to resistance.</explanation></question>
+        <question>
+            <text>Reynolds number tube flow Re definition uses ____.</text>
+            <option id="A">Tube diameter d</option><option id="B">Tube length L</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Characteristic length for flow geometry.</explanation></question>
+        <question>
+            <text>Narrowing pipe with constant flow rate effect on Re is ____.</text>
+            <option id="A">Increase (turbulence risk rises)</option><option id="B">Decrease</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Re increases linearly with 1/d.</explanation></question>
+        <question>
+            <text>Blood as non-Newtonian fluid means η depends on ____.</text>
+            <option id="A">Shear rate / Flow speed</option><option id="B">Color</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cellular architecture influence.</explanation></question>
+        <question>
+            <text>Max suction lift height ground to vacuum pump water limit is approx ____ m.</text>
+            <option id="A">10.33</option><option id="B">76</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Weight of water column vs atmosphere.</explanation></question>
+        <question>
+            <text>Specific gravity acceleration dependence is ____.</text>
+            <option id="A">Independent (Ratio of masses / densities)</option><option id="B">Dependent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Purely material property ratio.</explanation></question>
+        <question>
+            <text>Barometric leveling pressure-height relation type is ____.</text>
+            <option id="A">Exponential decay</option><option id="B">Hyperbolic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Assuming constant temperature.</explanation></question>
+        <question>
+            <text>Reynolds number Re = 2000 state in pipe is ____.</text>
+            <option id="A">Transition regime</option><option id="B">Perfect laminar</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Flow becoming unstable.</explanation></question>
+        <question>
+            <text>Surface tension dual SI units are ____.</text>
+            <option id="A">N/m AND J/m^2</option><option id="B">N/m^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Force/length and Energy/area.</explanation></question>
+        <question>
+            <text>Verification for Fluids 120 count reached is ____.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Batch standardization check done.</explanation></question>
+        <question>
+            <text>SI unit name for Viscosity coefficient η is ____.</text>
+            <option id="A">Poiseuille</option><option id="B">Pascal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>10 times the CGS unit Poise.</explanation></question>
+        <question>
+            <text>Rigid body volume change limit is ____.</text>
+            <option id="A">Zero</option><option id="B">High</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Incompressible by definition.</explanation></question>
+        <question>
+            <text>Deformation resistance property name is ____.</text>
+            <option id="A">Stiffness / Elasticity</option><option id="B">Fluidity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Physics jargon baseline.</explanation></question>
+        <question>
+            <text>Elastic storage energy index name is ____.</text>
+            <option id="A">U</option><option id="B">W</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Lattice potential energy.</explanation></question>
+        <question>
+            <text>Fluids Batch 6 standardization verification is ____.</text>
+            <option id="A">Complete</option><option id="B">Incomplete</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>120 qty 600+ lines achieved.</explanation></question>
+    </hard>
+</chapter>

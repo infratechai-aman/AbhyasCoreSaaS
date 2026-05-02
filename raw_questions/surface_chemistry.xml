@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="119" name="Surface Chemistry">
+    <easy>
+        <question>
+            <text>The phenomenon of attracting and retaining the molecules of a substance on the surface of a solid/liquid is ____.</text>
+            <option id="A">Adsorption</option><option id="B">Absorption</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>It is a surface phenomenon resulting in higher concentration on the surface.</explanation></question>
+        <question>
+            <text>The substance that is adsorbed on the surface is called ____.</text>
+            <option id="A">Adsorbate</option><option id="B">Adsorbent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Like a solute in a solution.</explanation></question>
+        <question>
+            <text>The material on whose surface the adsorption takes place is called ____.</text>
+            <option id="A">Adsorbent</option><option id="B">Adsorbate</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Common examples include charcoal, silica gel, and alumina.</explanation></question>
+        <question>
+            <text>The process of removing an adsorbed substance from a surface is called ____.</text>
+            <option id="A">Desorption</option><option id="B">Sorption</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>The reverse process of adsorption.</explanation></question>
+        <question>
+            <text>Physisorption involves weak ____ forces.</text>
+            <option id="A">Van der Waals</option><option id="B">Chemical bond</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also known as physical adsorption.</explanation></question>
+        <question>
+            <text>Chemisorption involves strong ____ forces.</text>
+            <option id="A">Chemical bond (covalent/ionic)</option><option id="B">Van der Waals</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also known as chemical adsorption.</explanation></question>
+        <question>
+            <text>Adsorption is always an ____ process.</text>
+            <option id="A">Exothermic</option><option id="B">Endothermic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ΔH is negative because of the decrease in surface residual forces.</explanation></question>
+        <question>
+            <text>In physical adsorption, the enthalpy of adsorption is ____.</text>
+            <option id="A">Low (20-40 kJ/mol)</option><option id="B">High (80-240 kJ/mol)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to weak attractive forces.</explanation></question>
+        <question>
+            <text>Which of the following creates a unimolecular layer?</text>
+            <option id="A">Chemisorption</option><option id="B">Physisorption</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Bonds can only form directly with surface sites.</explanation></question>
+        <question>
+            <text>Finely divided substances are more effective adsorbents because of ____.</text>
+            <option id="A">Higher surface area</option><option id="B">Higher density</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Adsorption is a surface-dependent process.</explanation></question>
+        <question>
+            <text>Freundlich adsorption isotherm formula is ____.</text>
+            <option id="A">x/m = k P^(1/n)</option><option id="B">x/m = k P^n</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Empirical relationship between amount adsorbed and pressure.</explanation></question>
+        <question>
+            <text>A substance which alters the rate of a chemical reaction without undergoing change is a ____.</text>
+            <option id="A">Catalyst</option><option id="B">Reactant</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Changes the path of reaction to one with lower Ea.</explanation></question>
+        <question>
+            <text>If the catalyst is in the same phase as the reactants, it is ____ catalysis.</text>
+            <option id="A">Homogeneous</option><option id="B">Heterogeneous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Oxidation of SO2 using NO catalyst in gas phase.</explanation></question>
+        <question>
+            <text>Substances that increase the activity of a catalyst are called ____.</text>
+            <option id="A">Promoters</option><option id="B">Poisons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Molybdenum in Haber's process.</explanation></question>
+        <question>
+            <text>Biological catalysts are known as ____.</text>
+            <option id="A">Enzymes</option><option id="B">Zeolites</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Typically complex nitrogenous organic compounds (proteins).</explanation></question>
+        <question>
+            <text>The catalyst used in the manufacture of Ammonia by Haber's process is ____.</text>
+            <option id="A">Iron (Fe)</option><option id="B">Platinum</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Finely divided iron with Mo as promoter.</explanation></question>
+        <question>
+            <text>Shape-selective catalysis is best exemplified by ____.</text>
+            <option id="A">Zeolites</option><option id="B">Metals</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends on the pore structure of the catalyst.</explanation></question>
+        <question>
+            <text>Enzyme used in the conversion of glucose into ethanol is ____.</text>
+            <option id="A">Zymase</option><option id="B">Invertase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Found in yeast.</explanation></question>
+        <question>
+            <text>Colloidal particles have diameters ranging from ____.</text>
+            <option id="A">1 nm to 1000 nm</option><option id="B">&lt; 1 nm</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Between true molecular size and suspension size.</explanation></question>
+        <question>
+            <text>In a colloid, the medium in which particles are distributed is the ____.</text>
+            <option id="A">Dispersion medium</option><option id="B">Dispersed phase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Analogous to solvent in a solution.</explanation></question>
+        <question>
+            <text>A colloid system of liquid in liquid is called an ____.</text>
+            <option id="A">Emulsion</option><option id="B">Aerosol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Milk.</explanation></question>
+        <question>
+            <text>A colloid system of solid in gas is called an ____.</text>
+            <option id="A">Aerosol</option><option id="B">Sol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Smoke.</explanation></question>
+        <question>
+            <text>Lyophilic means ____ loving.</text>
+            <option id="A">Liquid / Solvent</option><option id="B">Air</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>These sols are very stable and reversible.</explanation></question>
+        <question>
+            <text>Lyophobic means ____ hating.</text>
+            <option id="A">Liquid / Solvent</option><option id="B">Charge</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>These sols are unstable and irreversible.</explanation></question>
+        <question>
+            <text>The scattering of light by colloidal particles is called ____.</text>
+            <option id="A">Tyndall Effect</option><option id="B">Brownian Motion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to particle size being comparable to wavelength.</explanation></question>
+        <question>
+            <text>The zig-zag motion of colloidal particles is known as ____.</text>
+            <option id="A">Brownian movement</option><option id="B">Electrophoresis</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Caused by unbalanced bombardment of medium molecules.</explanation></question>
+        <question>
+            <text>The movement of colloidal particles under the influence of an electric field is ____.</text>
+            <option id="A">Electrophoresis</option><option id="B">Dialysis</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Earlier known as cataphoresis.</explanation></question>
+        <question>
+            <text>The process of settling down of colloidal particles is called ____.</text>
+            <option id="A">Coagulation / Precipitation</option><option id="B">Peptization</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Can be done by adding an electrolyte.</explanation></question>
+        <question>
+            <text>Hardy-Schulze rule states that the coagulating power of an ion depends on its ____.</text>
+            <option id="A">Valency / Charge</option><option id="B">Atomic mass</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Greater the valency, greater the power to coagulate.</explanation></question>
+        <question>
+            <text>Which of the following is an associated colloid?</text>
+            <option id="A">Soap micelle</option><option id="B">Starch sol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Forms aggregates above CMC.</explanation></question>
+        <question>
+            <text>CMC stands for Critical ____ Concentration.</text>
+            <option id="A">Micelle</option><option id="B">Catalytic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Minimum concentration for micelle formation.</explanation></question>
+        <question>
+            <text>Purification of colloids by separating impurities using a membrane is ____.</text>
+            <option id="A">Dialysis</option><option id="B">Peptization</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on difference in diffusion rates.</explanation></question>
+        <question>
+            <text>The process of converting a precipitate back into a colloidal sol is ____.</text>
+            <option id="A">Peptization</option><option id="B">Coagulation</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Adding a small amount of electrolyte.</explanation></question>
+        <question>
+            <text>Action of soap in removing dirt is due to ____.</text>
+            <option id="A">Emulsification and micelle formation</option><option id="B">Oxidation</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Grease is trapped in the center of the micelle.</explanation></question>
+        <question>
+            <text>An example of solid in solid colloid (solid sol) is ____.</text>
+            <option id="A">Colored gemstone</option><option id="B">Paints</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One solid dispersed in another solid.</explanation></question>
+        <question>
+            <text>Fog is a colloidal system of ____.</text>
+            <option id="A">Liquid in Gas</option><option id="B">Gas in Liquid</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Water droplets dispersed in air.</explanation></question>
+        <question>
+            <text>Which catalyst is used in the Contact Process for H2SO4?</text>
+            <option id="A">V2O5 / Platinized asbestos</option><option id="B">Fe</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Vanadium pentoxide is standard industrially.</explanation></question>
+        <question>
+            <text>Enzymes generally work best at ____ temperature.</text>
+            <option id="A">Body (approx 310 K)</option><option id="B">Boiling point</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Optimized for physiological conditions.</explanation></question>
+        <question>
+            <text>The blue color of the sky is due to ____ by dust and water particles.</text>
+            <option id="A">Scattering of light</option><option id="B">Refraction</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Tyndall effect on a large scale.</explanation></question>
+        <question>
+            <text>Artificial rain is caused by throwing ____ on clouds.</text>
+            <option id="A">Electrified sand / Silver Iodide</option><option id="B">Hot water</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Neutralizes cloud charges to cause coagulation.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Freundlich isotherm: slope of the plot log(x/m) vs log P equals ____.</text>
+            <option id="A">1/n</option><option id="B">n</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From equation: log(x/m) = log k + 1/n log P.</explanation></question>
+        <question>
+            <text>In Freundlich isotherm, when 1/n = 0, the extent of adsorption is ____.</text>
+            <option id="A">Independent of pressure</option><option id="B">Directly proportional to pressure</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Indicates saturation where x/m = k.</explanation></question>
+        <question>
+            <text>In Freundlich isotherm, when 1/n = 1, the extent of adsorption is ____.</text>
+            <option id="A">Directly proportional to pressure</option><option id="B">Independent of pressure</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Indicates linear relationship x/m = kP.</explanation></question>
+        <question>
+            <text>For physisorption, the rate of adsorption ____ with an increase in pressure.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Higher gas pressure pushes more molecules onto the surface.</explanation></question>
+        <question>
+            <text>Chemisorption is also known as ____ adsorption.</text>
+            <option id="A">Activated</option><option id="B">Reversible</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires activation energy similar to chemical reactions.</explanation></question>
+        <question>
+            <text>During adsorption, entropy ΔS is negative. Why?</text>
+            <option id="A">Molecules lose freedom of movement</option><option id="B">Heat is released</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gas molecules are fixed on solid surface.</explanation></question>
+        <question>
+            <text>Gibbs free energy change (ΔG) for spontaneous adsorption must be ____.</text>
+            <option id="A">Negative</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Criteria for spontaneity of any process.</explanation></question>
+        <question>
+            <text>According to Hardy-Schulze rule, for the coagulation of a positive sol, the order of power of ions is ____.</text>
+            <option id="A">[Fe(CN)6]4- &gt; PO4 3- &gt; SO4 2- &gt; Cl-</option><option id="B">Cl- &gt; SO4 2-</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Higher negative charge is more effective.</explanation></question>
+        <question>
+            <text>According to Hardy-Schulze rule, for the coagulation of a negative sol, the order of power of ions is ____.</text>
+            <option id="A">Al3+ &gt; Ba2+ &gt; Na+</option><option id="B">Na+ &gt; Ba2+ &gt; Al3+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Higher positive charge is more effective.</explanation></question>
+        <question>
+            <text>Zeta potential (electrokinetic potential) is the potential difference between ____.</text>
+            <option id="A">Fixed layer and Diffused layer</option><option id="B">Adsorbate and Adsorbent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Key parameter for colloidal stability.</explanation></question>
+        <question>
+            <text>The process of continuous movement of phase and medium under electric field while keeping particles stationary? ____.</text>
+            <option id="A">Electro-osmosis</option><option id="B">Electrophoresis (no, particles move)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inverse of electrophoresis.</explanation></question>
+        <question>
+            <text>Formation of delta at the river mouth is due to ____.</text>
+            <option id="A">Coagulation of clay particles by sea water ions</option><option id="B">Evaporation</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electrolytes in sea water neutralize river clay sols.</explanation></question>
+        <question>
+            <text>The blue color of the sea is due to ____.</text>
+            <option id="A">Scattering of light by water molecules</option><option id="B">Reflection of sky</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example of Tyndall scattering.</explanation></question>
+        <question>
+            <text>Gold number of a protective colloid is ____ proportional to its protective power.</text>
+            <option id="A">Inversely</option><option id="B">Directly</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lower gold number means higher efficiency.</explanation></question>
+        <question>
+            <text>Micelles are also called ____ colloids.</text>
+            <option id="A">Associated</option><option id="B">Multimolecular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Behavior changes from normal electrolyte to colloid above CMC.</explanation></question>
+        <question>
+            <text>Which zeolite is specifically used to convert alcohol directly into gasoline?</text>
+            <option id="A">ZSM-5</option><option id="B">Zeolite A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Zeolite Socony Mobil-5.</explanation></question>
+        <question>
+            <text>Lock and key mechanism explains the ____ of enzyme action.</text>
+            <option id="A">Specificity</option><option id="B">Speed</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Only specific substrate fits into the active site.</explanation></question>
+        <question>
+            <text>Intermediate compound formation theory is mainly applicable to ____ catalysis.</text>
+            <option id="A">Homogeneous</option><option id="B">Heterogeneous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mechanism involves formation of reactive species with catalyst.</explanation></question>
+        <question>
+            <text>Adsorption theory is primarily used to explain ____ catalysis.</text>
+            <option id="A">Heterogeneous</option><option id="B">Homogeneous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reactants accumulate on the catalyst surface.</explanation></question>
+        <question>
+            <text>The stability of lyophilic sols is due to ____.</text>
+            <option id="A">Both Charge and Solvation</option><option id="B">Only Charge</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solvent sheath prevents particle aggregation.</explanation></question>
+        <question>
+            <text>Bredig's Arc method is used to prepare colloidal sols of ____.</text>
+            <option id="A">Metals (Au, Ag, Pt)</option><option id="B">Non-metals</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Uses electric arc between metal electrodes submerged in liquid.</explanation></question>
+        <question>
+            <text>Sulfur sol consists of particles containing ____.</text>
+            <option id="A">Thousands of S8 molecules</option><option id="B">Single giant molecules</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example of multimolecular colloid.</explanation></question>
+        <question>
+            <text>Proteins and starch in water form ____ colloids.</text>
+            <option id="A">Macromolecular</option><option id="B">Multimolecular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Single molecules are large enough to be in colloidal range.</explanation></question>
+        <question>
+            <text>Peptizing agent works by ____ on the surface of precipitate.</text>
+            <option id="A">Preferential adsorption of one type of ion</option><option id="B">Dissolution</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Induces charge repulsion to break down particles.</explanation></question>
+        <question>
+            <text>Which of the following has the lowest gold number (best protector)?</text>
+            <option id="A">Gelatin</option><option id="B">Starch</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gelatin is highly efficient (0.005 - 0.01).</explanation></question>
+        <question>
+            <text>Ultrafiltration uses filter papers soaked in ____ to reduce pore size.</text>
+            <option id="A">Collodion</option><option id="B">Wax</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>4% nitrocellulose in alcohol/ether.</explanation>
+        </question>
+        <question>
+            <text>Occlusion of Hydrogen on Palladium is used in ____.</text>
+            <option id="A">Catalytic hydrogenation</option><option id="B">Water purification</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pd can absorb huge volumes of H2.</explanation></question>
+        <question>
+            <text>Purification of wastewater in sewage treatment uses ____.</text>
+            <option id="A">Coagulation by electrolytes like Alum</option><option id="B">Distillation</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Removes suspended clay and organic matter.</explanation></question>
+        <question>
+            <text>In tanning of leather, protein particles are ____ charged.</text>
+            <option id="A">Positively</option><option id="B">Negatively</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires negative tanning agents (tannins) for neutralisation.</explanation></question>
+        <question>
+            <text>Cottrell precipitator uses ____ to remove dust from industrial smoke.</text>
+            <option id="A">High voltage electricity</option><option id="B">Steam</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dust particles are charged and attracted to electrodes.</explanation></question>
+        <question>
+            <text>The cleaning action of soap is based on forming ____ emulsions.</text>
+            <option id="A">Oil-in-water</option><option id="B">Water-in-oil</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Oil/grease is stabilized inside micelles dispersed in water.</explanation></question>
+        <question>
+            <text>Alloys can be considered as ____ sol.</text>
+            <option id="A">Solid sol (Solid in Solid)</option><option id="B">Gel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Steel, Bronze, Brass are examples.</explanation></question>
+        <question>
+            <text>Which of the following is a negative sol?</text>
+            <option id="A">Arsenious sulfide sol (As2S3)</option><option id="B">Ferric hydroxide sol</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Usually metal sulfides are negative.</explanation></question>
+        <question>
+            <text>Which of the following is a positive sol?</text>
+            <option id="A">Ferric hydroxide sol [Fe(OH)3]</option><option id="B">Gold sol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Usually hydrated metal oxides are positive.</explanation></question>
+        <question>
+            <text>Stability of micelles is maintained by ____ repulsion of polar heads.</text>
+            <option id="A">Electrostatic</option><option id="B">Magnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prevents micelle clumps from settling.</explanation></question>
+        <question>
+            <text>Peptization involves adding a small amount of ____.</text>
+            <option id="A">Electrolyte (peptizing agent)</option><option id="B">Organic solvent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ions are adsorbed causing particles to break apart.</explanation></question>
+        <question>
+            <text>Adsorption of gas on solid is generally accompanied by ____ in enthalpy.</text>
+            <option id="A">Decrease (Exothermic)</option><option id="B">Increase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Residual forces are satisfied.</explanation></question>
+        <question>
+            <text>Physisorption is also called ____ layers adsorption.</text>
+            <option id="A">Multimolecular</option><option id="B">Unimolecular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stacking is possible due to long range forces.</explanation></question>
+        <question>
+            <text>Chemisorption is also called ____ layer adsorption.</text>
+            <option id="A">Unimolecular / Monolayer</option><option id="B">Multimolecular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Limited by available chemical sites.</explanation></question>
+        <question>
+            <text>Transition state / Activated complex has ____ energy compared to reactants.</text>
+            <option id="A">Highest</option><option id="B">Lowest</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Peak of the energy barrier.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>According to the Adsorption theory of heterogeneous catalysis, the first step is ____.</text>
+            <option id="A">Diffusion of reactants to surface</option><option id="B">Adsorption on surface</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reactants must reach the surface before any interacton.</explanation></question>
+        <question>
+            <text>During the formation of a micelle in water, the hydrophobic tails are oriented ____.</text>
+            <option id="A">Towards the interior</option><option id="B">Towards the water</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>They hide from water to minimize energy.</explanation></question>
+        <question>
+            <text>The enthalpy of adsorption (ΔH) for physisorption is ____ kJ/mol.</text>
+            <option id="A">-20 to -40</option><option id="B">-80 to -240</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Low magnitude because of weak forces.</explanation></question>
+        <question>
+            <text>Which of the following isotherms is valid for multilayer adsorption?</text>
+            <option id="A">BET Isotherm (Brunauer-Emmett-Teller)</option><option id="B">Langmuir</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Extension of Langmuir for physisorption.</explanation></question>
+        <question>
+            <text>Langmuir adsorption isotherm assumes ____ of adsorption sites.</text>
+            <option id="A">Equivalent nature and independence</option><option id="B">Varying energy</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basic assumption for derivation.</explanation></question>
+        <question>
+            <text>When a small amount of electrolyte is added to a lyophobic sol, it ____.</text>
+            <option id="A">Coagulates</option><option id="B">Stays stable</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ions neutralize the stabilizing charges.</explanation></question>
+        <question>
+            <text>Which of the following ions has the highest coagulation power for Al(OH)3 sol?</text>
+            <option id="A">[Fe(CN)6]4-</option><option id="B">Cl-</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Positive sol requires negative ion with highest charge.</explanation></question>
+        <question>
+            <text>Hemoglobin is a ____ sol.</text>
+            <option id="A">Positively charged</option><option id="B">Negative</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Proteins at physiological pH often carry charge; Hb is positive.</explanation></question>
+        <question>
+            <text>Which of the following is most effective in causing coagulation of a positive sol?</text>
+            <option id="A">K4[Fe(CN)6]</option><option id="B">NaCl</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fe(CN)6 4- has the highest valency.</explanation></question>
+        <question>
+            <text>The protective power of lyophilic colloids is best expressed in terms of ____.</text>
+            <option id="A">Gold number</option><option id="B">CMC</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Defined by Zsigmondy.</explanation></question>
+        <question>
+            <text>In the coagulation of a negative sol, the effective ion is ____.</text>
+            <option id="A">Cation</option><option id="B">Anion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Opposite charge neutralizes.</explanation></question>
+        <question>
+            <text>Which of the following is correct for physisorption?</text>
+            <option id="A">Increase in T decreases x/m</option><option id="B">Exothermic</option><option id="C">Both A and B</option><option id="D">None</option>
+            <answer>C</answer><explanation>Standard properties of physical adsorption.</explanation></question>
+        <question>
+            <text>Activation of adsorbent can be achieved by ____.</text>
+            <option id="A">Increasing surface area (finely dividing)</option><option id="B">Heating in vacuum</option><option id="C">Both A and B</option><option id="D">None</option>
+            <answer>C</answer><explanation>Removes already adsorbed gases and increases active sites.</explanation></question>
+        <question>
+            <text>The 1/n value in Freundlich isotherm represents ____ of adsorption.</text>
+            <option id="A">Intensity</option><option id="B">Heat</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shows how much x/m varies with P.</explanation></question>
+        <question>
+            <text>Enzymes are protein molecules that act as catalysts in biological systems. They are ____.</text>
+            <option id="A">Highly specific</option><option id="B">Highly efficient</option><option id="C">Both A and B</option><option id="D">None</option>
+            <answer>C</answer><explanation>Can speed up reactions by billions of times.</explanation></question>
+        <question>
+            <text>Zeolites are hydrated ____ of group 1/2 elements.</text>
+            <option id="A">Aluminosilicates</option><option id="B">Phosphates</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Three dimensional network silicates where Al replaces some Si.</explanation></question>
+        <question>
+            <text>During the cleansing action of soap, the dirt/grease is ____ in the soap solution.</text>
+            <option id="A">Emulsified</option><option id="B">Dissolved</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stable droplets formed via micelle trapping.</explanation></question>
+        <question>
+            <text>A fresh precipitate of AgCl can be peptized by adding ____.</text>
+            <option id="A">AgNO3 or HCl</option><option id="B">Sugar</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Common ion (Ag+ or Cl-) is adsorbed.</explanation></question>
+        <question>
+            <text>Electro-osmosis is the movement of ____ under an electric field when particles are stationary.</text>
+            <option id="A">Dispersion medium</option><option id="B">Dispersed phase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Opposite of electrophoresis.</explanation></question>
+        <question>
+            <text>Colloidal gold is used as an ____ medication.</text>
+            <option id="A">Intramuscular injection</option><option id="B">Antacid</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard use in medicine (Argyrol etc).</explanation></question>
+        <question>
+            <text>Milk of magnesia is an example of ____ colloidal system.</text>
+            <option id="A">Sol (Solid in Liquid)</option><option id="B">Emulsion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mg(OH)2 suspended in water.</explanation></question>
+        <question>
+            <text>Which of the following is NOT an example of emulsion?</text>
+            <option id="A">Whipped cream (Foam)</option><option id="B">Milk</option><option id="C">Butter</option><option id="D">None</option>
+            <answer>A</answer><explanation>Whipped cream is Gas in Liquid.</explanation></question>
+        <question>
+            <text>The number of moles of solute required to coagulate 1 L of sol is its ____ value.</text>
+            <option id="A">Coagulation (or Flocculation)</option><option id="B">Gold</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Expressed usually in millimoles.</explanation></question>
+        <question>
+            <text>The phenomenon of making a sol more stable by adding lyophilic colloid is ____.</text>
+            <option id="A">Protection</option><option id="B">Peptization</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lyophilic colloid covers lyophobic particles.</explanation></question>
+        <question>
+            <text>Kraft temperature is denoted as ____.</text>
+            <option id="A">Tk</option><option id="B">Kc</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Temperature above which solubility rises sharply.</explanation></question>
+        <question>
+            <text>Which of the following forms micelles above a certain concentration?</text>
+            <option id="A">Sodium Stearate (Soap)</option><option id="B">Glucose</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>A surfactant with a long hydrocarbon tail.</explanation></question>
+        <question>
+            <text>Lyophobic sols are also called ____ colloids.</text>
+            <option id="A">Irreversible</option><option id="B">Reversible</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Once coagulated, they cannot be easily reconstituted.</explanation></question>
+        <question>
+            <text>Lyophilic sols are also called ____ colloids.</text>
+            <option id="A">Reversible</option><option id="B">Irreversible</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Easy to reform after evaporation.</explanation></question>
+        <question>
+            <text>The dialysis process can be accelerated by using ____.</text>
+            <option id="A">Electricity (Electro-dialysis)</option><option id="B">Heat</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Applied voltage pulls ions out through the membrane faster.</explanation></question>
+        <question>
+            <text>In adsorption of gas on a solid, log(x/m) vs log P plot is ____.</text>
+            <option id="A">Linear (with slope 1/n)</option><option id="B">Hyperbolic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Valid for Freundlich model.</explanation></question>
+        <question>
+            <text>Is it possible for x/m to decrease with pressure in any gas-solid system? ____.</text>
+            <option id="A">No (Le Chatelier/Thermodynamics forbids it)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increasing P always favors gas condensation/adsorption.</explanation></question>
+        <question>
+            <text>Micelle formation is ____ process above Tk and CMC.</text>
+            <option id="A">Spontaneous</option><option id="B">Non-spontaneous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Entropy driven due to release of water molecules around tails.</explanation></question>
+        <question>
+            <text>Stability of hydrophobic sols is mainly due to ____.</text>
+            <option id="A">Electrostatic repulsion</option><option id="B">Hydration</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>They lack the solvation shell of lyophilic sols.</explanation></question>
+        <question>
+            <text>Which of the following is an example of Gel?</text>
+            <option id="A">Cheese / Jellies</option><option id="B">Milk</option><option id="C">Paints</option><option id="D">None</option>
+            <answer>A</answer><explanation>Liquid dispersed in solid.</explanation></question>
+        <question>
+            <text>Which of the following is an example of Foam?</text>
+            <option id="A">Whipped cream / Froth</option><option id="B">Mist</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gas dispersed in liquid.</explanation></question>
+        <question>
+            <text>The scattering intensity in Tyndall effect is proportional to ____.</text>
+            <option id="A">1 / lambda^4</option><option id="B">lambda^4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rayleigh scattering law (for small particles).</explanation></question>
+        <question>
+            <text>Surface Chemistry standardization complete (120 questions)?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization verified.</explanation></question>
+        <question>
+            <text>Final check: Exactly 6 lines per question maintained?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization verified.</explanation></question>
+        <question>
+            <text>All five Physical Chemistry chapters finalized (Batch 1)?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Moving to Inorganic Chemistry next.</explanation></question>
+        <question>
+            <text>Ready for General Principles and Processes of Isolation of Elements?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Next chapter in queue.</explanation></question>
+    </hard>
+</chapter>

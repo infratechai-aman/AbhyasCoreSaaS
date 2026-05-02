@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="205" name="Continuity and Differentiability">
+    <easy>
+        <question>
+            <text>General limit of a function f(x) as x approaches 'a' exists if:</text>
+            <option id="A">LHL = RHL</option><option id="B">LHL &gt; RHL</option><option id="C">LHL &lt; RHL</option><option id="D">f(a) exists</option>
+            <answer>A</answer><explanation>Condition for existence of limit.</explanation></question>
+        <question>
+            <text>A function f(x) is continuous at x = a if lim (x-&gt;a) f(x) is:</text>
+            <option id="A">Equal to f(a)</option><option id="B">Undefined</option><option id="C">Zero</option><option id="D">Infinity</option>
+            <answer>A</answer><explanation>Definition of continuity.</explanation></question>
+        <question>
+            <text>Polynomial functions are continuous on:</text>
+            <option id="A">Entire real line (R)</option><option id="B">Only positive numbers</option><option id="C">Only integers</option><option id="D">Finite intervals</option>
+            <answer>A</answer><explanation>Property of polynomial functions.</explanation></question>
+        <question>
+            <text>Constant function f(x) = k is continuous:</text>
+            <option id="A">Everywhere</option><option id="B">Nowhere</option><option id="C">At origin only</option><option id="D">At k only</option>
+            <answer>A</answer><explanation>Constants are always continuous.</explanation></question>
+        <question>
+            <text>Identity function f(x) = x is continuous:</text>
+            <option id="A">Everywhere</option><option id="B">Nowhere</option><option id="C">Only at x=1</option><option id="D">Except at origin</option>
+            <answer>A</answer><explanation>Basic property.</explanation></question>
+        <question>
+            <text>If f and g are continuous, then f + g is:</text>
+            <option id="A">Continuous</option><option id="B">Discontinuous</option><option id="C">Only if f=g</option><option id="D">None</option>
+            <answer>A</answer><explanation>Algera of continuous functions.</explanation></question>
+        <question>
+            <text>What is d/dx (sin x)?</text>
+            <option id="A">cos x</option><option id="B">-cos x</option><option id="C">sin x</option><option id="D">-sin x</option>
+            <answer>A</answer><explanation>Standard derivative formula.</explanation></question>
+        <question>
+            <text>What is d/dx (cos x)?</text>
+            <option id="A">-sin x</option><option id="B">sin x</option><option id="C">cos x</option><option id="D">-cos x</option>
+            <answer>A</answer><explanation>Standard derivative formula.</explanation></question>
+        <question>
+            <text>What is d/dx (tan x)?</text>
+            <option id="A">sec^2 x</option><option id="B">cosec^2 x</option><option id="C">sec x</option><option id="D">tan^2 x</option>
+            <answer>A</answer><explanation>Standard derivative formula.</explanation></question>
+        <question>
+            <text>Derivative of x^n with respect to x is:</text>
+            <option id="A">nx^(n-1)</option><option id="B">x^(n+1)</option><option id="C">nx^n</option><option id="D">n^x</option>
+            <answer>A</answer><explanation>Power rule.</explanation></question>
+        <question>
+            <text>Derivative of e^x is:</text>
+            <option id="A">e^x</option><option id="B">log x</option><option id="C">xe^(x-1)</option><option id="D">1/e^x</option>
+            <answer>A</answer><explanation>Exponential derivative.</explanation></question>
+        <question>
+            <text>Derivative of log x (base e) is:</text>
+            <option id="A">1/x</option><option id="B">x</option><option id="C">e^x</option><option id="D">1/log x</option>
+            <answer>A</answer><explanation>Logarithmic derivative.</explanation></question>
+        <question>
+            <text>If a function is differentiable at a point, then it is:</text>
+            <option id="A">Always continuous</option><option id="B">Sometimes continuous</option><option id="C">Never continuous</option><option id="D">Discontinuous</option>
+            <answer>A</answer><explanation>Differentiability implies continuity.</explanation></question>
+        <question>
+            <text>Inverse of differentiability implies continuity is:</text>
+            <option id="A">Not always true</option><option id="B">Always true</option><option id="C">False</option><option id="D">True only for linear</option>
+            <answer>A</answer><explanation>Continuity does not imply differentiability (e.g., |x|).</explanation></question>
+        <question>
+            <text>Derivative of a constant function is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">k</option><option id="D">x</option>
+            <answer>A</answer><explanation>Constants don't change.</explanation></question>
+        <question>
+            <text>What is d/dx (ax + b)?</text>
+            <option id="A">a</option><option id="B">b</option><option id="C">x</option><option id="D">ab</option>
+            <answer>A</answer><explanation>Linear differentiation.</explanation></question>
+        <question>
+            <text>Power rule states d/dx (f(x)^n) is:</text>
+            <option id="A">n f(x)^(n-1) f'(x)</option><option id="B">n f(x)^(n-1)</option><option id="C">f(x)^(n+1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>General power rule with chain rule.</explanation></question>
+        <question>
+            <text>What is d/dx (cot x)?</text>
+            <option id="A">-cosec^2 x</option><option id="B">cosec^2 x</option><option id="C">-sec^2 x</option><option id="D">tan x</option>
+            <answer>A</answer><explanation>Standard formula.</explanation></question>
+        <question>
+            <text>What is d/dx (sec x)?</text>
+            <option id="A">sec x tan x</option><option id="B">sec^2 x</option><option id="C">tan x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard formula.</explanation></question>
+        <question>
+            <text>What is d/dx (cosec x)?</text>
+            <option id="A">-cosec x cot x</option><option id="B">cosec x tan x</option><option id="C">cosec^2 x</option><option id="D">cot x</option>
+            <answer>A</answer><explanation>Standard formula.</explanation></question>
+        <question>
+            <text>Derivative of sin^{-1} x is:</text>
+            <option id="A">1 / sqrt(1 - x^2)</option><option id="B">-1 / sqrt(1 - x^2)</option><option id="C">1 / (1 + x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inverse trig derivative.</explanation></question>
+        <question>
+            <text>Derivative of cos^{-1} x is:</text>
+            <option id="A">-1 / sqrt(1 - x^2)</option><option id="B">1 / sqrt(1 - x^2)</option><option id="C">1 / (1 + x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Negative of sin^{-1} derivative.</explanation></question>
+        <question>
+            <text>Derivative of tan^{-1} x is:</text>
+            <option id="A">1 / (1 + x^2)</option><option id="B">-1 / sqrt(1 - x^2)</option><option id="C">1 / sqrt(1 + x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard formula.</explanation></question>
+        <question>
+            <text>d/dx (u * v) = ? [Product Rule]</text>
+            <option id="A">u v' + v u'</option><option id="B">u' v'</option><option id="C">u/v</option><option id="D">u v' - v u'</option>
+            <answer>A</answer><explanation>Leibniz rule for products.</explanation></question>
+        <question>
+            <text>d/dx (u / v) = ? [Quotient Rule]</text>
+            <option id="A">(v u' - u v') / v^2</option><option id="B">(u v' - v u') / v^2</option><option id="C">u'/v'</option><option id="D">u'v + uv'</option>
+            <answer>A</answer><explanation>Standard formula.</explanation></question>
+        <question>
+            <text>If y = f(u) and u = g(x), then dy/dx is:</text>
+            <option id="A">dy/du * du/dx</option><option id="B">dy/du + du/dx</option><option id="C">dy/du / du/dx</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain Rule.</explanation></question>
+        <question>
+            <text>For f(x) = |x|, find f'(0):</text>
+            <option id="A">Does not exist</option><option id="B">0</option><option id="C">1</option><option id="D">-1</option>
+            <answer>A</answer><explanation>Corner point at origin.</explanation></question>
+        <question>
+            <text>Exponential function a^x derivative is:</text>
+            <option id="A">a^x log a</option><option id="B">x a^(x-1)</option><option id="C">a^x</option><option id="D">1/a^x</option>
+            <answer>A</answer><explanation>General exponential rule.</explanation></question>
+        <question>
+            <text>Second order derivative of y is denoted by:</text>
+            <option id="A">d^2y / dx^2</option><option id="B">dy^2 / dx^2</option><option id="C">d^2y / dx</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard notation.</explanation></question>
+        <question>
+            <text>log (m * n) = ?</text>
+            <option id="A">log m + log n</option><option id="B">log m * log n</option><option id="C">log m / log n</option><option id="D">log m - log n</option>
+            <answer>A</answer><explanation>Log property.</explanation></question>
+        <question>
+            <text>log (m^n) = ?</text>
+            <option id="A">n log m</option><option id="B">log (m * n)</option><option id="C">m log n</option><option id="D">None</option>
+            <answer>A</answer><explanation>Log property.</explanation></question>
+        <question>
+            <text>Continuous on [a, b] means continuous at:</text>
+            <option id="A">Every point in (a, b) and one-sided at ends</option><option id="B">Only integers</option><option id="C">Midpoint only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of interval continuity.</explanation></question>
+        <question>
+            <text>Derivative of log_a x is:</text>
+            <option id="A">1 / (x log a)</option><option id="B">1/x</option><option id="C">log a / x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Base change formula applied.</explanation></question>
+        <question>
+            <text>Rational function P(x)/Q(x) is continuous wherever:</text>
+            <option id="A">Q(x) != 0</option><option id="B">P(x) != 0</option><option id="C">x &gt; 0</option><option id="D">Always</option>
+            <answer>A</answer><explanation>Domain of rational functions.</explanation></question>
+        <question>
+            <text>Composition of two continuous functions is:</text>
+            <option id="A">Continuous</option><option id="B">Discontinuous</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Theorem on composition.</explanation></question>
+        <question>
+            <text>Continuity of sin x:</text>
+            <option id="A">Everywhere</option><option id="B">Only at 0</option><option id="C">In [0, pi]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard trig property.</explanation></question>
+        <question>
+            <text>d/dx (sqrt(x)) is:</text>
+            <option id="A">1 / (2 sqrt(x))</option><option id="B">2 sqrt(x)</option><option id="C">1 / sqrt(x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Power rule with n=1/2.</explanation></question>
+        <question>
+            <text>If f(x) = k, f'(x) = ?</text>
+            <option id="A">0</option><option id="B">k</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derivative of constant.</explanation></question>
+        <question>
+            <text>Which of these is NOT continuous everywhere?</text>
+            <option id="A">tan x</option><option id="B">sin x</option><option id="C">cos x</option><option id="D">e^x</option>
+            <answer>A</answer><explanation>Asymptotes at (2n+1)pi/2.</explanation></question>
+        <question>
+            <text>Slope of tangent to y = f(x) at points is given by:</text>
+            <option id="A">dy/dx</option><option id="B">integral of y</option><option id="C">y</option><option id="D">x</option>
+            <answer>A</answer><explanation>Geometric meaning of derivative.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>If y = sin(x^2), then dy/dx is:</text>
+            <option id="A">2x cos(x^2)</option><option id="B">cos(x^2)</option><option id="C">2x sin(x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule: cos(x^2) * 2x.</explanation></question>
+        <question>
+            <text>If x^2 + y^2 = 25, find dy/dx:</text>
+            <option id="A">-x/y</option><option id="B">x/y</option><option id="C">-y/x</option><option id="D">y/x</option>
+            <answer>A</answer><explanation>Implicit differentiation: 2x + 2y dy/dx = 0.</explanation></question>
+        <question>
+            <text>If x = at^2, y = 2at, find dy/dx:</text>
+            <option id="A">1/t</option><option id="B">t</option><option id="C">2/t</option><option id="D">2t</option>
+            <answer>A</answer><explanation>Parametric: (dy/dt) / (dx/dt) = 2a / 2at = 1/t.</explanation></question>
+        <question>
+            <text>If y = log(sin x), then dy/dx is:</text>
+            <option id="A">cot x</option><option id="B">tan x</option><option id="C">1/sin x</option><option id="D">cos x</option>
+            <answer>A</answer><explanation>Chain rule: (1/sin x) * cos x.</explanation></question>
+        <question>
+            <text>If y = e^{cos x}, then dy/dx is:</text>
+            <option id="A">-sin x e^{cos x}</option><option id="B">e^{cos x}</option><option id="C">cos x e^{cos x}</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule.</explanation></question>
+        <question>
+            <text>Find dy/dx if y = x^x:</text>
+            <option id="A">x^x (1 + log x)</option><option id="B">x * x^{x-1}</option><option id="C">x^x log x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Logarithmic differentiation: log y = x log x.</explanation></question>
+        <question>
+            <text>At what points is |x - 1| NOT differentiable?</text>
+            <option id="A">x = 1</option><option id="B">x = 0</option><option id="C">x = -1</option><option id="D">Nowhere</option>
+            <answer>A</answer><explanation>Corner point exists at x=1.</explanation></question>
+        <question>
+            <text>Limit of (sin x) / x as x -&gt; 0 is:</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">Infinite</option><option id="D">Undefined</option>
+            <answer>A</answer><explanation>Well known standard limit.</explanation></question>
+        <question>
+            <text>If f(x) = sin x + cos x, f'(pi/4) is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">sqrt(2)</option><option id="D">-1</option>
+            <answer>A</answer><explanation>cos(pi/4) - sin(pi/4) = 1/sqrt(2) - 1/sqrt(2) = 0.</explanation></question>
+        <question>
+            <text>Derivative of sin^{-1}(2x / (1 + x^2)) with respect to x is:</text>
+            <option id="A">2 / (1 + x^2)</option><option id="B">1 / (1 + x^2)</option><option id="C">2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitution x = tan theta gives 2 tan^{-1} x.</explanation></question>
+        <question>
+            <text>Find second derivative of x^3 + 7:</text>
+            <option id="A">6x</option><option id="B">3x^2</option><option id="C">6</option><option id="D">None</option>
+            <answer>A</answer><explanation>First: 3x^2. Second: 6x.</explanation></question>
+        <question>
+            <text>If y = tan^{-1}((3x - x^3) / (1 - 3x^2)), then dy/dx is:</text>
+            <option id="A">3 / (1 + x^2)</option><option id="B">1 / (1 + x^2)</option><option id="C">3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula for 3 tan^{-1} x.</explanation></question>
+        <question>
+            <text>Derivative of cos^{-1}(4x^3 - 3x) is:</text>
+            <option id="A">-3 / sqrt(1 - x^2)</option><option id="B">3 / sqrt(1 - x^2)</option><option id="C">1 / sqrt(1 - x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Formula for 3 cos^{-1} x.</explanation></question>
+        <question>
+            <text>If y = a^x, third derivative is:</text>
+            <option id="A">a^x (log a)^3</option><option id="B">a^x log a</option><option id="C">a^x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Each step adds a log a multiplier.</explanation></question>
+        <question>
+            <text>If f(x) = [x] (Greatest Integer), it is discontinuous at:</text>
+            <option id="A">All integers</option><option id="B">All real numbers</option><option id="C">x = 0 only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Jump discontinuity at every integer.</explanation></question>
+        <question>
+            <text>A function f(x) = (x^2 - 4) / (x - 2) is continuous at x = 2 if we define f(2) = :</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>lim (x-&gt;2) (x-2)(x+2)/(x-2) = 4.</explanation></question>
+        <question>
+            <text>If y = log(log x), find dy/dx:</text>
+            <option id="A">1 / (x log x)</option><option id="B">1 / log x</option><option id="C">1/x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule.</explanation></question>
+        <question>
+            <text>Find dy/dx if y = cos(sin x):</text>
+            <option id="A">-sin(sin x) * cos x</option><option id="B">-sin(sin x)</option><option id="C">cos(cos x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule.</explanation></question>
+        <question>
+            <text>If xy = 1, then dy/dx is:</text>
+            <option id="A">-1/x^2</option><option id="B">1/x^2</option><option id="C">x/y</option><option id="D">None</option>
+            <answer>A</answer><explanation>y = 1/x -&gt; -1/x^2.</explanation></question>
+        <question>
+            <text>If y = sqrt(sin x + y), find dy/dx:</text>
+            <option id="A">cos x / (2y - 1)</option><option id="B">cos x / (2y + 1)</option><option id="C">sin x / (2y - 1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>y^2 = sin x + y -&gt; 2y dy/dx = cos x + dy/dx.</explanation></question>
+        <question>
+            <text>Derivative of log(base 10) x is:</text>
+            <option id="A">1 / (x log 10)</option><option id="B">1/x</option><option id="C">log 10 / x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Base change formula log x / log 10.</explanation></question>
+        <question>
+            <text>If x = sin t, y = cos 2t, find dy/dx in terms of x:</text>
+            <option id="A">-4x</option><option id="B">-2x</option><option id="C">2x</option><option id="D">None</option>
+            <answer>A</answer><explanation>y = 1 - 2 sin^2 t = 1 - 2x^2. dy/dx = -4x.</explanation></question>
+        <question>
+            <text>Derivative of sin(x^deg):</text>
+            <option id="A">(pi/180) cos(x^deg)</option><option id="B">cos(x^deg)</option><option id="C">-cos(x^deg)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Must convert to radians first (pi x / 180).</explanation></question>
+        <question>
+            <text>If y = log(x + sqrt(x^2 + 1)), find dy/dx:</text>
+            <option id="A">1 / sqrt(x^2 + 1)</option><option id="B">1 / (x + sqrt(x^2 + 1))</option><option id="C">x / sqrt(x^2+1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard chain rule result.</explanation></question>
+        <question>
+            <text>Continuity of |sin x| + |cos x|:</text>
+            <option id="A">Everywhere</option><option id="B">Nowhere</option><option id="C">Only at 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of continuous is continuous.</explanation></question>
+        <question>
+            <text>If f(x) is constant, f''(x) is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">k</option><option id="D">None</option>
+            <answer>A</answer><explanation>0 -&gt; 0.</explanation></question>
+        <question>
+            <text>Find dy/dx if y = e^{3 log x}:</text>
+            <option id="A">3x^2</option><option id="B">e^{3 log x}</option><option id="C">3/x</option><option id="D">None</option>
+            <answer>A</answer><explanation>y = x^3.</explanation></question>
+        <question>
+            <text>Derivative of cos(sqrt(x)):</text>
+            <option id="A">-sin(sqrt(x)) / (2 sqrt(x))</option><option id="B">-sin(sqrt(x))</option><option id="C">cos(sqrt(x))</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chain rule.</explanation></question>
+        <question>
+            <text>If y = 5 cos x - 3 sin x, then d^2y/dx^2 is:</text>
+            <option id="A">-y</option><option id="B">y</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>y' = -5 sin x - 3 cos x. y'' = -5 cos x + 3 sin x = -y.</explanation></question>
+        <question>
+            <text>If f(x) = x^3 is differentiable at x=0?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Only if x &gt; 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>f'(0) = 0.</explanation></question>
+        <question>
+            <text>Rolle's theorem requires f(a) to be ____ to f(b).</text>
+            <option id="A">Equal</option><option id="B">Greater than</option><option id="C">Different</option><option id="D">None</option>
+            <answer>A</answer><explanation>Initial/Final values must match.</explanation></question>
+        <question>
+            <text>Mean Value Theorem states f'(c) = :</text>
+            <option id="A">(f(b) - f(a)) / (b - a)</option><option id="B">0</option><option id="C">f(b) - f(a)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Slope of secant line.</explanation></question>
+        <question>
+            <text>If y = cos^{-1}(sin x), dy/dx is:</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>y = pi/2 - x.</explanation></question>
+        <question>
+            <text>Function f(x) = |x| + |x-1| is NOT differentiable at:</text>
+            <option id="A">0 and 1</option><option id="B">0 only</option><option id="C">1 only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of non-diff points.</explanation></question>
+        <question>
+            <text>Derivative of inverse function (f^{-1})'(y) is:</text>
+            <option id="A">1 / f'(x)</option><option id="B">f'(x)</option><option id="C">-f'(x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard result for inverse derivatives.</explanation></question>
+        <question>
+            <text>What type of discontinuity does f(x) = 1/x have at x=0?</text>
+            <option id="A">Infinite</option><option id="B">Removable</option><option id="C">Jump</option><option id="D">None</option>
+            <answer>A</answer><explanation>Goes to infinity.</explanation></question>
+        <question>
+            <text>If y = sec(tan^{-1} x), find dy/dx:</text>
+            <option id="A">x / sqrt(1 + x^2)</option><option id="B">1 / sqrt(1 + x^2)</option><option id="C">x sqrt(1 + x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>y = sqrt(1 + x^2).</explanation></question>
+        <question>
+            <text>If y = (sin x)^x, using log we get dy/dx = :</text>
+            <option id="A">(sin x)^x [x cot x + log sin x]</option><option id="B">x(sin x)^{x-1}</option><option id="C">(sin x)^x log sin x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Logarithmic differentiation.</explanation></question>
+        <question>
+            <text>Derivative of a function wrt another: d(sin x)/d(cos x):</text>
+            <option id="A">-cot x</option><option id="B">tan x</option><option id="C">-tan x</option><option id="D">None</option>
+            <answer>A</answer><explanation>cos x / (-sin x) = -cot x.</explanation></question>
+        <question>
+            <text>If f(x) is an even function, f'(x) is:</text>
+            <option id="A">Odd</option><option id="B">Even</option><option id="C">Neither</option><option id="D">None</option>
+            <answer>A</answer><explanation>Symmetry of derivative.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>If f(x) = (1 - cos 4x) / x^2 for x &lt; 0, k for x = 0, and sqrt(x) / sqrt(16 + sqrt(x)) - 4 for x &gt; 0. For continuity at x=0, k = :</text>
+            <option id="A">8</option><option id="B">4</option><option id="C">16</option><option id="D">0</option>
+            <answer>A</answer><explanation>LHL = lim (x-&gt;0-) 2 sin^2 2x / x^2 = 8. RHL also evaluates to 8 after rationalization.</explanation></question>
+        <question>
+            <text>If y = (sin^{-1} x)^2, then (1-x^2)y'' - xy' is:</text>
+            <option id="A">2</option><option id="B">0</option><option id="C">-2</option><option id="D">1</option>
+            <answer>A</answer><explanation>Standard differential equation associated with (sin^{-1} x)^2.</explanation></question>
+        <question>
+            <text>Find dy/dx if x^y + y^x = 1:</text>
+            <option id="A">-[y x^{y-1} + y^x log y] / [x^y log x + x y^{x-1}]</option><option id="B">-[x^y log x] / [y^x log y]</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Differentiate term by term using e^{y log x} form.</explanation></question>
+        <question>
+            <text>If f(x) = |cos x|, find f'(3pi/4):</text>
+            <option id="A">1/sqrt(2)</option><option id="B">-1/sqrt(2)</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>At 3pi/4, cos x is negative, so f(x) = -cos x. f'(x) = sin x. sin(3pi/4) = 1/sqrt(2).</explanation></question>
+        <question>
+            <text>Rolle's theorem is applicable for f(x) = x(x-3)^2 in [0, 3]. The value of 'c' is:</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">1 or 3</option><option id="D">None</option>
+            <answer>A</answer><explanation>f'(x) = (x-3)^2 + 2x(x-3) = (x-3)(x-3+2x) = (x-3)(3x-3). f'(c)=0 =&gt; c=1 (in (0,3)).</explanation></question>
+        <question>
+            <text>If y = tan^{-1}(sqrt(1+x^2) - 1) / x, then dy/dx is:</text>
+            <option id="A">1 / (2(1+x^2))</option><option id="B">1 / (1+x^2)</option><option id="C">1/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitute x = tan theta. y becomes 1/2 tan^{-1} x.</explanation></question>
+        <question>
+            <text>Derivative of sin^{-1}( (sqrt(1+x) + sqrt(1-x)) / 2 ):</text>
+            <option id="A">1 / (2 sqrt(1 - x^2))</option><option id="B">-1 / (2 sqrt(1 - x^2))</option><option id="C">1 / sqrt(1 - x^2)</option><option id="D">None</option>
+            <answer>B</answer><explanation>Substitute x = cos 2theta. y becomes pi/4 + theta.</explanation></question>
+        <question>
+            <text>If x = a(cos t + t sin t), y = a(sin t - t cos t), find d^2y/dx^2:</text>
+            <option id="A">sec^3 t / (at)</option><option id="B">sec^2 t / (at)</option><option id="C">1 / (at)</option><option id="D">None</option>
+            <answer>A</answer><explanation>dy/dx = tan t. d^2y/dx^2 = sec^2 t * dt/dx.</explanation></question>
+        <question>
+            <text>If y^x = e^{y-x}, then dy/dx is:</text>
+            <option id="A">(1 + log y)^2 / log y</option><option id="B">(log y)^2 / (1 + log y)</option><option id="C">1 / (1 + log y)^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>x log y = y - x -&gt; x(1 + log y) = y -&gt; x = y / (1 + log y). Differentiate wrt y.</explanation></question>
+        <question>
+            <text>If f(x) = log_x(log x), then f'(e) is:</text>
+            <option id="A">1/e</option><option id="B">e</option><option id="C">0</option><option id="D">1</option>
+            <answer>A</answer><explanation>f(x) = log(log x) / log x. Use quotient rule.</explanation></question>
+        <question>
+            <text>If y = cos(m cos^{-1} x), then (1-x^2)y'' - xy' + m^2y = :</text>
+            <option id="A">0</option><option id="B">m^2</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard second order differential equation relation.</explanation></question>
+        <question>
+            <text>Find the derivative of cos^{-1}( (1 - x^{2n}) / (1 + x^{2n}) ):</text>
+            <option id="A">2n x^{n-1} / (1 + x^{2n})</option><option id="B">n x^{n-1} / (1 + x^{2n})</option><option id="C">2 / (1 + x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitute x^n = tan theta. y = 2 tan^{-1}(x^n).</explanation></question>
+        <question>
+            <text>If y = sqrt(x + sqrt(x + sqrt(x...))), then dy/dx is:</text>
+            <option id="A">1 / (2y - 1)</option><option id="B">1 / (2y + 1)</option><option id="C">x / (2y - 1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>y^2 = x + y -&gt; 2y dy/dx = 1 + dy/dx.</explanation></question>
+        <question>
+            <text>Find dy/dx if x = e^y + e^{y + e^{y...}}:</text>
+            <option id="A">(x - y) / x</option><option id="B">1/x</option><option id="C">(1-x)/x</option><option id="D">None</option>
+            <answer>C</answer><explanation>x = e^y + x -&gt; This is usually written as x = e^{y+x}. log x = y+x -&gt; 1/x = dy/dx + 1.</explanation></question>
+        <question>
+            <text>If f(x) = x^2 sin(1/x) for x != 0 and 0 for x = 0, find f'(0):</text>
+            <option id="A">0</option><option id="B">Does not exist</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Use definition: lim (h-&gt;0) h^2 sin(1/h) / h = lim h sin(1/h) = 0.</explanation></question>
+        <question>
+            <text>If f(x) = x sin(1/x) for x != 0 and 0 for x = 0, is it differentiable at x=0?</text>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Only if x &gt; 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>lim sin(1/h) does not exist.</explanation></question>
+        <question>
+            <text>Derivative of tan^{-1}( (sqrt(1+x^2) + sqrt(1-x^2)) / (sqrt(1+x^2) - sqrt(1-x^2)) ):</text>
+            <option id="A">-x / sqrt(1 - x^4)</option><option id="B">x / sqrt(1 - x^4)</option><option id="C">1 / sqrt(1 - x^4)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitute x^2 = cos 2theta. y becomes pi/4 + theta.</explanation></question>
+        <question>
+            <text>If y = x^{x^x}, dy/dx is:</text>
+            <option id="A">y x^x [ (1/x) + log x(1 + log x) ]</option><option id="B">y x^x log x</option><option id="C">x^{x^x} (1+log x)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Take log twice or once carefully. log y = x^x log x.</explanation></question>
+        <question>
+            <text>If f(x) = { x^m sin(1/x), x != 0 ; 0, x = 0 } is continuous but NOT differentiable at x=0, then:</text>
+            <option id="A">0 &lt; m &lt;= 1</option><option id="B">m &gt; 1</option><option id="C">m = 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>m &gt; 0 for continuity, m &gt; 1 for differentiability.</explanation></question>
+        <question>
+            <text>Value of c in MVT for f(x) = log x in [1, e]:</text>
+            <option id="A">e - 1</option><option id="B">1 / (e - 1)</option><option id="C">log(e-1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>f'(c) = (log e - log 1)/(e - 1) = 1/(e-1). 1/c = 1/(e-1) =&gt; c = e-1.</explanation></question>
+        <question>
+            <text>If f(x) is differentiable and f(x+y) = f(x)f(y) with f'(0)=k, then f'(x) = :</text>
+            <option id="A">k f(x)</option><option id="B">f(x)</option><option id="C">k x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of derivative leads to f'(x) = f(x) lim (f(h)-1)/h.</explanation></question>
+        <question>
+            <text>Check differentiability of f(x) = min(x, x^2):</text>
+            <option id="A">Not differentiable at 0, 1</option><option id="B">Not differentiable at 1 only</option><option id="C">Everywhere differentiable</option><option id="D">None</option>
+            <answer>A</answer><explanation>Function changes from x^2 to x at 0 and 1.</explanation></question>
+        <question>
+            <text>If y = (sin x + cos x) / (sin x - cos x), then dy/dx is:</text>
+            <option id="A">-2 / (sin x - cos x)^2</option><option id="B">2 / (sin x - cos x)^2</option><option id="C">1 / (sin x - cos x)^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Quotient rule simplification.</explanation></question>
+        <question>
+            <text>If y = sec^{-1}( (x+1)/(x-1) ) + sin^{-1}( (x-1)/(x+1) ), dy/dx is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">pi/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>sec^{-1} z = cos^{-1}(1/z). Sum is cos^{-1} + sin^{-1} = pi/2 (constant).</explanation></question>
+        <question>
+            <text>If f(x) = |x|^3, then f''(0) is:</text>
+            <option id="A">0</option><option id="B">6</option><option id="C">Does not exist</option><option id="D">None</option>
+            <answer>A</answer><explanation>f(x) = x^3 for x&gt;0, -x^3 for x&lt;0. f'(x)=3x^2, -3x^2. f''(x)=6x, -6x. Both 0 at x=0.</explanation></question>
+        <question>
+            <text>Calculate d/dx of (log x)^{log x}:</text>
+            <option id="A">(log x)^{log x} [ (1 + log(log x)) / x ]</option><option id="B">(log x)^{log x} / x</option><option id="C">log x / x</option><option id="D">None</option>
+            <answer>A</answer><explanation>log y = log x * log(log x). Differentiate.</explanation></question>
+        <question>
+            <text>Continuity of f(x) = [x] + [-x]:</text>
+            <option id="A">All real excluding integers</option><option id="B">Everywhere</option><option id="C">Nowhere</option><option id="D">None</option>
+            <answer>A</answer><explanation>f(x) = -1 for x not int, 0 for x int.</explanation></question>
+        <question>
+            <text>If y = tan^{-1} x, calculate d^2y/dx^2 in terms of y alone:</text>
+            <option id="A">-sin 2y cos^2 y</option><option id="B">sin 2y</option><option id="C">-sin 2y</option><option id="D">None</option>
+            <answer>A</answer><explanation>x = tan y. dx/dy = sec^2 y. dy/dx = cos^2 y. d/dy(cos^2 y) * dy/dx = -sin 2y * cos^2 y.</explanation></question>
+        <question>
+            <text>If f(x) = { k x^2, x &lt;= 2 ; 3, x &gt; 2 } is continuous at x=2, k = :</text>
+            <option id="A">3/4</option><option id="B">4/3</option><option id="C">3</option><option id="D">0</option>
+            <answer>A</answer><explanation>4k = 3.</explanation></question>
+        <question>
+            <text>If y = (x + sqrt(x^2 - 1))^n, then (x^2 - 1)y'' + xy' - n^2y = :</text>
+            <option id="A">0</option><option id="B">n^2</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard recurrence relation for this function.</explanation></question>
+        <question>
+            <text>Parametric d^2y/dx^2 for x = f(t), y = g(t) involves:</text>
+            <option id="A">[ (dx/dt)(d^2y/dt^2) - (dy/dt)(d^2x/dt^2) ] / (dx/dt)^3</option><option id="B">(d^2y/dt^2) / (d^2x/dt^2)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Chain rule applied to dy/dx.</explanation></question>
+        <question>
+            <text>Derivative of |x-2|^2 at x=2:</text>
+            <option id="A">0</option><option id="B">2</option><option id="C">Does not exist</option><option id="D">None</option>
+            <answer>A</answer><explanation>|z|^2 = z^2. Function is (x-2)^2, smooth at 2.</explanation></question>
+        <question>
+            <text>Limit (x-&gt;0) (e^x - 1) / x = :</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">e</option><option id="D">log e</option>
+            <answer>A</answer><explanation>Standard limit definition of e.</explanation></question>
+        <question>
+            <text>RHS of MVT for f(x) = x^2 - x - 1 in [-1, 1]:</text>
+            <option id="A">-1</option><option id="B">0</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>(f(1) - f(-1)) / 2 = (-1 - 1) / 2 = -1.</explanation></question>
+        <question>
+            <text>If f(x) = { e^x, x &lt;= 0 ; ax + b, x &gt; 0 } is differentiable at x=0, then:</text>
+            <option id="A">a=1, b=1</option><option id="B">a=1, b=0</option><option id="C">a=0, b=1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Continuous (b=1) and equal derivatives (a=1).</explanation></question>
+        <question>
+            <text>Number of points of discontinuity for f(x) = 1 / log |x| :</text>
+            <option id="A">3 (0, 1, -1)</option><option id="B">1 (0)</option><option id="C">2 (1, -1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>log 0 is def, log 1 is 0 (denom 0).</explanation></question>
+        <question>
+            <text>If y = sin(log x), find d^2y/dx^2 + (1/x)dy/dx + (1/x^2)y :</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard ODE form for sin(log x).</explanation></question>
+        <question>
+            <text>Continuity of f(x) = x [x] at x=0:</text>
+            <option id="A">Continuous</option><option id="B">Discontinuous</option><option id="C">Depends on side</option><option id="D">None</option>
+            <answer>A</answer><explanation>0 * [-1] = 0 and 0 * [0] = 0.</explanation></question>
+        <question>
+            <text>If f(x) = x^2 / |x| for x != 0 and 0 for x = 0, f'(0) = :</text>
+            <option id="A">Does not exist (LHD=-1, RHD=1)</option><option id="B">0</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>f(x) = -x for x&lt;0, x for x&gt;0. Standard |x| behavior.</explanation></question>
+        <question>
+            <text>Highest power of (x-a) that divides f(x) if f(a)=f'(a)=...f^{(n-1)}(a)=0:</text>
+            <option id="A">At least n</option><option id="B">Exactly n</option><option id="C">n-1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Taylor expansion properties.</explanation></question>
+    </hard>
+</chapter>

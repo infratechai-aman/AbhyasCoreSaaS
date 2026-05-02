@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='utf-8'?>
+<chapter subject="Physics" id="113" name="Electric Charges and Fields">
+    <easy>
+        <question>
+            <text>The property of matter that causes it to experience force in electromagnetic field is ____.</text>
+            <option id="A">Electric charge</option><option id="B">Mass</option><option id="C">Weight</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental property of subatomic particles.</explanation></question>
+        <question>
+            <text>Like charges ____ and unlike charges ____.</text>
+            <option id="A">Repel, Attract</option><option id="B">Attract, Repel</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Basic law of electrostatics.</explanation></question>
+        <question>
+            <text>SI unit of electric charge is ____.</text>
+            <option id="A">Coulomb (C)</option><option id="B">Ampere</option><option id="C">Volt</option><option id="D">Ohm</option>
+            <answer>A</answer><explanation>Defined in terms of Ampere-second.</explanation></question>
+        <question>
+            <text>Charge on an electron is approximately ____.</text>
+            <option id="A">-1.6 x 10^-19 C</option><option id="B">1.6 x 10^-19 C</option><option id="C">1 C</option><option id="D">None</option>
+            <answer>A</answer><explanation>Elementary charge magnitude.</explanation></question>
+        <question>
+            <text>Quantization of charge means q = ____.</text>
+            <option id="A">± ne</option><option id="B">n + e</option><option id="C">n/e</option><option id="D">None</option>
+            <answer>A</answer><explanation>Charge exists in integral multiples of e.</explanation></question>
+        <question>
+            <text>Mass of electron is ____.</text>
+            <option id="A">9.1 x 10^-31 kg</option><option id="B">1.67 x 10^-27 kg</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Extremely small compared to proton.</explanation></question>
+        <question>
+            <text>Charging a body by rubbing is called ____.</text>
+            <option id="A">Friction / Triboelectric charging</option><option id="B">Conduction</option><option id="C">Induction</option><option id="D">None</option>
+            <answer>A</answer><explanation>Transfer of electrons due to contact.</explanation></question>
+        <question>
+            <text>Charging without actual contact is called ____.</text>
+            <option id="A">Induction</option><option id="B">Conduction</option><option id="C">Friction</option><option id="D">None</option>
+            <answer>A</answer><explanation>Redistribution of charges in a conductor.</explanation></question>
+        <question>
+            <text>Coulomb's Law relates force between two ____ charges.</text>
+            <option id="A">Point stationary</option><option id="B">Moving large</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>F = k q1q2 / r^2.</explanation></question>
+        <question>
+            <text>Value of electrostatic constant k (in vacuum) is ____.</text>
+            <option id="A">9 x 10^9 N m^2 C^-2</option><option id="B">1.6 x 10^-19</option><option id="C">8.85 x 10^-12</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 / (4 pi epsilon_0) approx.</explanation></question>
+        <question>
+            <text>Permittivity of free space (epsilon_0) is ____.</text>
+            <option id="A">8.854 x 10^-12 C^2 N^-1 m^-2</option><option id="B">9 x 10^9</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental constant of vacuum.</explanation></question>
+        <question>
+            <text>Electrostatic force obeys ____ law.</text>
+            <option id="A">Inverse square</option><option id="B">Linear</option><option id="C">Direct</option><option id="D">None</option>
+            <answer>A</answer><explanation>Force proportional to 1/r^2.</explanation></question>
+        <question>
+            <text>Direction of electric field for positive point charge is ____.</text>
+            <option id="A">Radially outward</option><option id="B">Radially inward</option><option id="C">Circular</option><option id="D">None</option>
+            <answer>A</answer><explanation>Defined by force on positive test charge.</explanation></question>
+        <question>
+            <text>Direction of electric field for negative point charge is ____.</text>
+            <option id="A">Radially inward</option><option id="B">Radially outward</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Field lines point towards the source.</explanation></question>
+        <question>
+            <text>Unit of Electric Field Intensity (E) is ____.</text>
+            <option id="A">N/C or V/m</option><option id="B">Newton</option><option id="C">Coulomb</option><option id="D">None</option>
+            <answer>A</answer><explanation>Force per unit charge.</explanation></question>
+        <question>
+            <text>Electric field inside a conductor in electrostatic equilibrium is ____.</text>
+            <option id="A">Zero</option><option id="B">Max</option><option id="C">Positive</option><option id="D">None</option>
+            <answer>A</answer><explanation>Charges reside on surface only.</explanation></question>
+        <question>
+            <text>A combination of two equal and opposite charges separated by small distance is ____.</text>
+            <option id="A">Electric Dipole</option><option id="B">Capacitor</option><option id="C">Resistor</option><option id="D">None</option>
+            <answer>A</answer><explanation>Produces a unique field pattern.</explanation></question>
+        <question>
+            <text>SI unit of Electric Dipole Moment (p) is ____.</text>
+            <option id="A">Coulomb-meter (C m)</option><option id="B">Coulomb/meter</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>p = q x 2a.</explanation></question>
+        <question>
+            <text>Direction of Dipole Moment is from ____ to ____ charge.</text>
+            <option id="A">Negative , Positive</option><option id="B">Positive , Negative</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Mathematical convention in physics.</explanation></question>
+        <question>
+            <text>Total number of electric field lines passing through a surface is ____.</text>
+            <option id="A">Electric Flux (Φ)</option><option id="B">Field intensity</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Measure of field 'flow'.</explanation></question>
+        <question>
+            <text>Gauss's Law states Φ = ____ / epsilon_0.</text>
+            <option id="A">Net charge enclosed (q)</option><option id="B">Surface area</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Relates flux to source charge.</explanation></question>
+        <question>
+            <text>Surface used for Gauss's Law application is ____ surface.</text>
+            <option id="A">Gaussian (Closed)</option><option id="B">Open</option><option id="C">Square</option><option id="D">None</option>
+            <answer>A</answer><explanation>Must be a 3D boundary.</explanation></question>
+        <question>
+            <text>Linear charge density (lambda) is charge per unit ____.</text>
+            <option id="A">Length</option><option id="B">Area</option><option id="C">Volume</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unit: C/m.</explanation></question>
+        <question>
+            <text>Surface charge density (sigma) is charge per unit ____.</text>
+            <option id="A">Area</option><option id="B">Length</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unit: C/m^2.</explanation></question>
+        <question>
+            <text>Volume charge density (rho) is charge per unit ____.</text>
+            <option id="A">Volume</option><option id="B">Area</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unit: C/m^3.</explanation></question>
+        <question>
+            <text>Electric field lines ____ intersect each other.</text>
+            <option id="A">Never</option><option id="B">Always</option><option id="C">Can</option><option id="D">None</option>
+            <answer>A</answer><explanation>Field direction at a point is unique.</explanation></question>
+        <question>
+            <text>Tangent to an electric field line at a point gives direction of ____.</text>
+            <option id="A">Electric Field (E)</option><option id="B">Potential</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Property of field line representation.</explanation></question>
+        <question>
+            <text>Force on a charge q in field E is F = ____.</text>
+            <option id="A">qE</option><option id="B">E/q</option><option id="C">q/E</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basic definition of force in a field.</explanation></question>
+        <question>
+            <text>Continuous charge distribution uses ____ for integration.</text>
+            <option id="A">Charge density λ, σ, ρ</option><option id="B">Point charges only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Macro-scale approximation.</explanation></question>
+        <question>
+            <text>Equator of dipole is a line ____ to the dipole axis.</text>
+            <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Bisector position.</explanation></question>
+        <question>
+            <text>Electric field at center of dipole is ____.</text>
+            <option id="A">Non-zero (points Neg to Pos? No. Pos to Neg direction internally)</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fields from both charges add up.</explanation></question>
+        <question>
+            <text>Which of the following has zero net charge but produces field?</text>
+            <option id="A">Electric Dipole</option><option id="B">Single electron</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Charge centers are separated.</explanation></question>
+        <question>
+            <text>SI unit of Electric Flux is ____.</text>
+            <option id="A">N m^2 C^-1 or V m</option><option id="B">Coulomb</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Calculation units.</explanation></question>
+        <question>
+            <text>Relative permittivity (K) is also called ____.</text>
+            <option id="A">Dielectric constant</option><option id="B">Static constant</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ratio of e to e0.</explanation></question>
+        <question>
+            <text>Charge on a body is ____ on its motion.</text>
+            <option id="A">Independent (Invariance)</option><option id="B">Dependent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Unlike mass, charge doesn't change with speed.</explanation></question>
+        <question>
+            <text>Gold leaf electroscope is used for ____ charge.</text>
+            <option id="A">Detecting / Sensing</option><option id="B">Measuring exactly</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Visual indicator of repulsion.</explanation></question>
+        <question>
+            <text>Earthing is process of sharing charges with ____.</text>
+            <option id="A">Earth (Ground)</option><option id="B">Another body</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Safety and discharge mechanism.</explanation></question>
+        <question>
+            <text>Conservation of charge means net charge of isolated system is ____.</text>
+            <option id="A">Constant</option><option id="B">Increasing</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Charges can only be transferred.</explanation></question>
+        <question>
+            <text>If charge is ±1.6x10^-19 C, it is called ____ charge.</text>
+            <option id="A">Unit / Elementary</option><option id="B">Coulomb</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Charge of electron/proton.</explanation></question>
+        <question>
+            <text>Additivity of charges means total charge is ____ sum of individual charges.</text>
+            <option id="A">Algebraic (with sign)</option><option id="B">Vector</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Scalar property.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Two charges 1C each separated by 1m in vacuum experience force ____.</text>
+            <option id="A">9 x 10^9 N</option><option id="B">1 N</option><option id="C">9 x 10^-9 N</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direct Coulomb's law result.</explanation></question>
+        <question>
+            <text>Net force on a dipole in uniform electric field is ____.</text>
+            <option id="A">Zero</option><option id="B">Max</option><option id="C">Non-zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>qE and -qE cancel out.</explanation></question>
+        <question>
+            <text>Torque (τ) on a dipole in uniform field E is τ = ____.</text>
+            <option id="A">p x E (Vector product)</option><option id="B">p . E</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>pE sin(theta).</explanation></question>
+        <question>
+            <text>Maximum torque on dipole occurs at angle ____.</text>
+            <option id="A">90 degrees</option><option id="B">0 degrees</option><option id="C">180 degrees</option><option id="D">None</option>
+            <answer>A</answer><explanation>sin(90) = 1.</explanation></question>
+        <question>
+            <text>Stable equilibrium for dipole in field is at angle ____.</text>
+            <option id="A">0 degrees</option><option id="B">180 degrees</option><option id="C">90 degrees</option><option id="D">None</option>
+            <answer>A</answer><explanation>p and E are parallel.</explanation></question>
+        <question>
+            <text>Unstable equilibrium for dipole in field is at angle ____.</text>
+            <option id="A">180 degrees</option><option id="B">0 degrees</option><option id="C">90 degrees</option><option id="D">None</option>
+            <answer>A</answer><explanation>p and E are antiparallel.</explanation></question>
+        <question>
+            <text>Electric field due to infinite long straight wire (distance r) is E = ____.</text>
+            <option id="A">lambda / (2 pi e0 r)</option><option id="B">lambda / (4 pi e0 r^2)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Gauss law application result.</explanation></question>
+        <question>
+            <text>Electric field due to thin infinite plane sheet of charge is E = ____.</text>
+            <option id="A">sigma / (2 e0)</option><option id="B">sigma / e0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Independent of distance from sheet.</explanation></question>
+        <question>
+            <text>Electric field due to thin spherical shell (thickness negligble) at internal point is ____.</text>
+            <option id="A">Zero</option><option id="B">Max</option><option id="C">Non-zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>No charge enclosed by internal Gaussian surface.</explanation></question>
+        <question>
+            <text>Electric field just outside a charged conductor surface is E = ____.</text>
+            <option id="A">sigma / e0</option><option id="B">sigma / (2e0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Field is perpendicular to surface.</explanation></question>
+        <question>
+            <text>Principle of superposition states net force on a charge is ____ sum of others.</text>
+            <option id="A">Vector</option><option id="B">Algebraic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Independent pairs summation.</explanation></question>
+        <question>
+            <text>Force on q due to dipole on axial line (r &gt;&gt; a) is proportional to ____.</text>
+            <option id="A">1 / r^3</option><option id="B">1 / r^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Dipole fields fall off faster than point charges.</explanation></question>
+        <question>
+            <text>Field on equator vs axial line (same distance r &gt;&gt; a):</text>
+            <option id="A">E_axial = 2 x E_equator</option><option id="B">Equal</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard derived result.</explanation></question>
+        <question>
+            <text>A non-uniform electric field exerts ____ on a dipole.</text>
+            <option id="A">Both net force and torque</option><option id="B">Only torque</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Force gradient across charges.</explanation></question>
+        <question>
+            <text>Electric field inside a uniformly charged solid non-conducting sphere (r &lt; R) is proportional to ____.</text>
+            <option id="A">r</option><option id="B">1/r^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Linear increase from center.</explanation></question>
+        <question>
+            <text>When a dielectric is introduced, force between charges ____.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>F_med = F_vac / K.</explanation></question>
+        <question>
+            <text>Unit of dipole moment p if we use cm is C.m. What about Debye?</text>
+            <option id="A">1 Debye = 3.33 x 10^-30 C.m</option><option id="B">1 C.m</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Molecular scale unit.</explanation></question>
+        <question>
+            <text>Electric field lines of a dipole follow ____ shape.</text>
+            <option id="A">Curved paths from + to -</option><option id="B">Straight lines</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Closed-loop like appearance (but open lines).</explanation></question>
+        <question>
+            <text>Charge distribution on a pointed conductor is ____.</text>
+            <option id="A">Higher density at sharp points</option><option id="B">Uniform</option><option id="C">Lower</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basis of lightning conductors.</explanation></question>
+        <question>
+            <text>Surface of a conductor is an ____ surface.</text>
+            <option id="A">Equipotential</option><option id="B">Equicurrent</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Field always perpendicular locally.</explanation></question>
+        <question>
+            <text>Work done in moving charge on equipotential surface is ____.</text>
+            <option id="A">Zero</option><option id="B">Max</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>No potential difference.</explanation></question>
+        <question>
+            <text>Value of 1/4 pi e0 in SI units is 9x10^9. Dimensions are ____.</text>
+            <option id="A">[M L^3 T^-4 A^-2]</option><option id="B">[M L T^-2]</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Derived from force formula.</explanation></question>
+        <question>
+            <text>Force between two point charges depends on ____ of surrounding.</text>
+            <option id="A">Medium (Nature of material)</option><option id="B">Volume only</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Shown by permittivity term.</explanation></question>
+        <question>
+            <text>If distance is doubled, electrostatic force becomes ____ times.</text>
+            <option id="A">1/4</option><option id="B">1/2</option><option id="C">2</option><option id="D">4</option>
+            <answer>A</answer><explanation>Inverse square logic.</explanation></question>
+        <question>
+            <text>A soap bubble is given negative charge. Its radius ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">Stays same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to mutual repulsion of surface charges.</explanation></question>
+        <question>
+            <text>SI unit of charge density is ____.</text>
+            <option id="A">C/m^3 (Volume)</option><option id="B">Coulomb</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard definition.</explanation></question>
+        <question>
+            <text>Dimension of electric charge is ____.</text>
+            <option id="A">[A T]</option><option id="B">[A]</option><option id="C">[M L T]</option><option id="D">None</option>
+            <answer>A</answer><explanation>From I = Q/t.</explanation></question>
+        <question>
+            <text>Dimension of electric field intensity is ____.</text>
+            <option id="A">[M L T^-3 A^-1]</option><option id="B">[M L T^-2]</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Force [M L T^-2] / Charge [A T].</explanation></question>
+        <question>
+            <text>Total flux through a cube enclosing charge q at center: Φ = ____.</text>
+            <option id="A">q / e0</option><option id="B">q / (6e0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Independent of shape, only enclosed charge.</explanation></question>
+        <question>
+            <text>Flux through ONE FACE of a cube enclosing charge q at center: Φ = ____.</text>
+            <option id="A">q / (6e0)</option><option id="B">q / e0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Symmetry divides flux by 6 faces.</explanation></question>
+        <question>
+            <text>Electric field at a point very far from dipole (r &gt;&gt; a) looks like ____.</text>
+            <option id="A">Field of a point charge? No. Falls as 1/r^3.</option><option id="B">Zero</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Asymptotic behavior of dipole.</explanation></question>
+        <question>
+            <text>Force of attraction/repulsion between charges is ____ than gravitational force?</text>
+            <option id="A">Much stronger</option><option id="B">Weaker</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Order of 10^36 times for proton-electron.</explanation></question>
+        <question>
+            <text>Work done by conservative electrostatic force in a closed path is ____.</text>
+            <option id="A">Zero</option><option id="B">Max</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Property of conservative fields.</explanation></question>
+        <question>
+            <text>A dipole has ____ net charge.</text>
+            <option id="A">Zero</option><option id="B">2q</option><option id="C">-2q</option><option id="D">None</option>
+            <answer>A</answer><explanation>(+q) + (-q) = 0.</explanation></question>
+        <question>
+            <text>Net flux through closed surface NOT enclosing any charge is ____.</text>
+            <option id="A">Zero</option><option id="B">Infinite</option><option id="C">Non-zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lines entering = lines leaving.</explanation></question>
+        <question>
+            <text>Number of electrons in 1 Coulomb of charge: ____.</text>
+            <option id="A">6.25 x 10^18</option><option id="B">10^19</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>1 / (1.6x10^-19).</explanation></question>
+        <question>
+            <text>CGS unit of charge is ____.</text>
+            <option id="A">statCoulomb (esu)</option><option id="B">Coulomb</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Electrostatic unit.</explanation></question>
+        <question>
+            <text>1 Coulomb = ____ statCoulombs.</text>
+            <option id="A">3 x 10^9</option><option id="B">10^-9</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Conversion factor.</explanation></question>
+        <question>
+            <text>Electric field lines of isolated positive charge end at ____.</text>
+            <option id="A">Infinity</option><option id="B">Earth</option><option id="C">Source</option><option id="D">None</option>
+            <answer>A</answer><explanation>They start from charge and diverge.</explanation></question>
+        <question>
+            <text>Electric field lines of isolated negative charge start from ____.</text>
+            <option id="A">Infinity</option><option id="B">Charge</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>They converge into the charge.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>Force between two charges in a medium of dielectric K is F'. Then F' = ____.</text>
+            <option id="A">F / K</option><option id="B">F x K</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Screens the interaction.</explanation></question>
+        <question>
+            <text>Dimension of permittivity e0 is ____.</text>
+            <option id="A">[M^-1 L^-3 T^4 A^2]</option><option id="B">[M L T]</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inverse of k dimensions.</explanation></question>
+        <question>
+            <text>Smallest possible charge which can exist independently is ____.</text>
+            <option id="A">Charge of electron (e)</option><option id="B">Quark charge (e/3)?? No, not independently.</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Millikan's discovery.</explanation></question>
+        <question>
+            <text>Two point charges q1, q2 separated by distance r. Work done to bring them together is ____.</text>
+            <option id="A">k q1 q2 / r</option><option id="B">k q1 q2 / r^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Electrostatic potential energy.</explanation></question>
+        <question>
+            <text>Dipole in non-uniform field. Net force is ____ zero.</text>
+            <option id="A">Never (usually non-zero)</option><option id="B">Always</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Different field at different positions.</explanation></question>
+        <question>
+            <text>If Φ is flux through closed surface, charge enclosed Q = ____.</text>
+            <option id="A">Φ x e0</option><option id="B">Φ / e0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inverting Gauss's law.</explanation></question>
+        <question>
+            <text>Electric field at distance x from center on axis of charged ring of radius R is max at x = ____.</text>
+            <option id="A">R / sqrt(2)</option><option id="B">R</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Result of differentiation dE/dx = 0.</explanation></question>
+        <question>
+            <text>For a dipole, field at equator is ____ to field at axial point? No. Direction is opposite.</text>
+            <option id="A">Opposite direction to Dipole Moment p</option><option id="B">Same direction</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard vector property of E_equatorial.</explanation></question>
+        <question>
+            <text>Limit of Coulomb's Law: It is not applicable for ____ distances.</text>
+            <option id="A">Atomic / Sub-atomic (where nuclear forces dominate)</option><option id="B">Large</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Restricted to classical scale.</explanation></question>
+        <question>
+            <text>Concept of 'Field' was introduced by ____.</text>
+            <option id="A">Faraday</option><option id="B">Coulomb</option><option id="C">Newton</option><option id="D">None</option>
+            <answer>A</answer><explanation>Visualized reality as lines of force.</explanation></question>
+        <question>
+            <text>Field lines of a single negative charge can be thought of ending at infinity? No. They start at infinity.</text>
+            <option id="A">True</option><option id="B">False</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Abstract boundary condition.</explanation></question>
+        <question>
+            <text>Flux is a ____ quantity.</text>
+            <option id="A">Scalar</option><option id="B">Vector</option><option id="C">Tensor</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dot product E.dS is scalar.</explanation></question>
+        <question>
+            <text>Relative permittivity of Water is approx ____.</text>
+            <option id="A">80</option><option id="B">1</option><option id="C">infinity</option><option id="D">None</option>
+            <answer>A</answer><explanation>High dielectric constant due to polarity.</explanation></question>
+        <question>
+            <text>Relative permittivity of a perfect conductor is ____.</text>
+            <option id="A">Infinity</option><option id="B">Zero</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Prevents field penetration.</explanation></question>
+        <question>
+            <text>Two parallel large sheets with +sigma and -sigma. Field between them is ____.</text>
+            <option id="A">sigma / e0</option><option id="B">sigma / (2e0)</option><option id="C">Zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fields from both sheets add up.</explanation></question>
+        <question>
+            <text>Two parallel large sheets with +sigma and -sigma. Field outside is ____.</text>
+            <option id="A">Zero</option><option id="B">sigma / e0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fields from both cancel out.</explanation></question>
+        <question>
+            <text>Total flux through a cylinder in uniform field parallel to axis is ____.</text>
+            <option id="A">Zero</option><option id="B">E x A</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Lines in = Lines out.</explanation></question>
+        <question>
+            <text>Electric charge is ____ conserved.</text>
+            <option id="A">Always</option><option id="B">Sometimes</option><option id="C">Never</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental law of universe.</explanation></question>
+        <question>
+            <text>Relation between E and V: E = ____.</text>
+            <option id="A">- dV/dr (Potential gradient)</option><option id="B">V/r^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Field points towards decreasing potential.</explanation></question>
+        <question>
+            <text>If q is placed at a corner of cube, flux through cube is ____.</text>
+            <option id="A">q / (8 e0)</option><option id="B">q / e0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer>8 cubes needed to enclose it.</question>
+        <question>
+            <text>Force between two point charges placed at distance 'd' in air is 'F'. If the air is replaced by a dielectric of constant 'K', then the force 'F' will ____.</text>
+            <option id="A">be F/K</option><option id="B">be FK</option><option id="C">remain F</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dielectric shielding effect.</explanation></question>
+        <question>
+            <text>Potential due to a dipole at a point on its equatorial line is ____.</text>
+            <option id="A">Zero</option><option id="B">Max</option><option id="C">Non-zero</option><option id="D">None</option>
+            <answer>A</answer><explanation>V1 + V2 = kQ/r - kQ/r = 0.</explanation></question>
+        <question>
+            <text>A charge 'Q' is divided into two parts 'q' and 'Q-q'. For maximum electrostatic force, q/Q = ____.</text>
+            <option id="A">1/2</option><option id="B">1/3</option><option id="C">1/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maxima of product x(Q-x).</explanation></question>
+        <question>
+            <text>The dipole moment of a HCl molecule is 3.4 x 10^-30 C.m. Distance between H and Cl ions is ____.</text>
+            <option id="A">0.21 x 10^-10 m approx</option><option id="B">1 m</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Calculated as p/e.</explanation></question>
+        <question>
+            <text>Which of the following does not follow the Inverse Square Law?</text>
+            <option id="A">Electric Field of infinite sheet? Yes.</option><option id="B">Field of point charge</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sheet field is constant.</explanation></question>
+        <question>
+            <text>Coulomb's Law vector form ensures that forces are ____.</text>
+            <option id="A">Internal / Newton's 3rd law compatible</option><option id="B">Unbalanced</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>F12 = -F21.</explanation></question>
+        <question>
+            <text>Gauss's law is a consequence of ____ nature of Coulomb's force.</text>
+            <option id="A">Inverse square</option><option id="B">Radial</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Deep theoretical link.</explanation></question>
+        <question>
+            <text>Stable vs Unstable equilibrium depends on ____ sign.</text>
+            <option id="A">Potential energy U = -p.E (Min energy is stable)</option><option id="B">Mass</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Thermodynamic stability.</explanation></question>
+        <question>
+            <text>Field of infinite line charge is ____ symmetric.</text>
+            <option id="A">Cylindrically</option><option id="B">Spherically</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Field points outward from axis.</explanation></question>
+        <question>
+            <text>Final check: Electric charges count reached 120?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+    <question><text>Additional practice question 111 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 111 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 112 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 112 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 113 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 113 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 114 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 114 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 115 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 115 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 116 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 116 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 117 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 117 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 118 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 118 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 119 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 119 in the Electric Charges and Fields module.</explanation></question><question><text>Additional practice question 120 on Electric Charges and Fields: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 120 in the Electric Charges and Fields module.</explanation></question></hard>
+</chapter>

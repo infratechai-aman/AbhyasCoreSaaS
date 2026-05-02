@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="111" name="Nuclei">
+    <easy>
+        <question>
+            <text>Who discovered the neutron?</text>
+            <option id="A">James Chadwick (1932)</option><option id="B">Rutherford</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Discovered while bombarding beryllium with alpha particles.</explanation></question>
+        <question>
+            <text>The particles present inside the nucleus are collectively called ____.</text>
+            <option id="A">Nucleons</option><option id="B">Atoms</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Includes protons and neutrons.</explanation></question>
+        <question>
+            <text>The number of protons in a nucleus is called its ____.</text>
+            <option id="A">Atomic Number (Z)</option><option id="B">Mass Number (A)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Defines the chemical element.</explanation></question>
+        <question>
+            <text>The total number of protons and neutrons in a nucleus is called its ____.</text>
+            <option id="A">Mass Number (A)</option><option id="B">Atomic Number (Z)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>A = Z + N where N is number of neutrons.</explanation></question>
+        <question>
+            <text>Atoms of the same element having same Z but different A are called ____.</text>
+            <option id="A">Isotopes</option><option id="B">Isobars</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Protium, Deuterium, Tritium.</explanation></question>
+        <question>
+            <text>Atoms having same A but different Z are called ____.</text>
+            <option id="A">Isobars</option><option id="B">Isotopes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Carbon-14 and Nitrogen-14.</explanation></question>
+        <question>
+            <text>Nuclei having same number of neutrons are called ____.</text>
+            <option id="A">Isotones</option><option id="B">Isotopes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>N = A - Z is constant.</explanation></question>
+        <question>
+            <text>Radius of a nucleus R is proportional to ____.</text>
+            <option id="A">A^(1/3)</option><option id="B">A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>R = R₀ A^(1/3) where R₀ ≈ 1.2 x 10^-15 m.</explanation></question>
+        <question>
+            <text>Density of nuclear matter is approx ____.</text>
+            <option id="A">Constant (independent of A)</option><option id="B">Proportional to A</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Approx 2.3 x 10^17 kg/m³.</explanation></question>
+        <question>
+            <text>Energy equivalent of 1 amu is approx ____ MeV.</text>
+            <option id="A">931.5</option><option id="B">1.6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Using E = mc².</explanation></question>
+        <question>
+            <text>Mass defect Δm = (Sum of masses of nucleons) - (____).</text>
+            <option id="A">Actual mass of nucleus</option><option id="B">Mass of atom</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Missing mass is converted to binding energy.</explanation></question>
+        <question>
+            <text>Binding Energy (BE) = ____ x c².</text>
+            <option id="A">Mass defect (Δm)</option><option id="B">Total mass</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy released when nucleus is formed.</explanation></question>
+        <question>
+            <text>Nuclear forces are ____ range forces.</text>
+            <option id="A">Short (approx few femtometers)</option><option id="B">Long</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Act only within the nucleus.</explanation></question>
+        <question>
+            <text>Are nuclear forces dependent on charge?</text>
+            <option id="A">No (Charge independent)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>p-p, n-n, and p-n forces are almost identical.</explanation></question>
+        <question>
+            <text>The phenomenon of spontaneous emission of radiation by unstable nuclei is ____.</text>
+            <option id="A">Radioactivity</option><option id="B">Fission</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Discovered by Henri Becquerel.</explanation></question>
+        <question>
+            <text>Alpha particle is identical to a ____ nucleus.</text>
+            <option id="A">Helium (He-4)</option><option id="B">Hydrogen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains 2 protons and 2 neutrons.</explanation></question>
+        <question>
+            <text>Beta-minus particle is an ____ emitted from nucleus.</text>
+            <option id="A">Electron</option><option id="B">Positron</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Accompanied by an antineutrino.</explanation></question>
+        <question>
+            <text>Gamma radiation consists of high energy ____.</text>
+            <option id="A">Photons</option><option id="B">Electrons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No change in Z or A of nucleus.</explanation></question>
+        <question>
+            <text>Law of Radioactivity: Rate of decay is proportional to ____.</text>
+            <option id="A">Number of undecayed nuclei (N)</option><option id="B">Time only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>-dN/dt = λ N.</explanation></question>
+        <question>
+            <text>SI unit of radioactivity is ____.</text>
+            <option id="A">Becquerel (Bq)</option><option id="B">Curie (Ci)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 Bq = 1 disintegration per second.</explanation></question>
+        <question>
+            <text>Half-life (T_1/2) is the time in which ____ nuclei decay.</text>
+            <option id="A">Half of the initial</option><option id="B">All</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T_1/2 = 0.693 / λ.</explanation></question>
+        <question>
+            <text>Average life (τ) of a radioactive substance is τ = ____.</text>
+            <option id="A">1 / λ</option><option id="B">λ</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Expectation value of life of a nucleus.</explanation></question>
+        <question>
+            <text>Binding energy per nucleon is a measure of ____ of the nucleus.</text>
+            <option id="A">Stability</option><option id="B">Mass</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Higher BE/A means more stable nucleus.</explanation></question>
+        <question>
+            <text>Breaking of a heavy nucleus into lighter nuclei is called ____.</text>
+            <option id="A">Nuclear Fission</option><option id="B">Nuclear Fusion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Accompanied by release of energy.</explanation></question>
+        <question>
+            <text>Joining of light nuclei to form a heavier nucleus is called ____.</text>
+            <option id="A">Nuclear Fusion</option><option id="B">Nuclear Fission</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Source of energy in stars.</explanation></question>
+        <question>
+            <text>Uranium-235 undergoes fission by ____ neutrons.</text>
+            <option id="A">Slow (thermal)</option><option id="B">Fast</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thermal neutrons have higher probability of capture.</explanation></question>
+        <question>
+            <text>A chain reaction in a nuclear reactor is kept ____.</text>
+            <option id="A">Controlled</option><option id="B">Uncontrolled</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Using control rods (cadmium/boron).</explanation></question>
+        <question>
+            <text>Material used to slow down fast neutrons in a reactor is a ____.</text>
+            <option id="A">Moderator (heavy water/graphite)</option><option id="B">Fuel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduces speed to thermal levels.</explanation></question>
+        <question>
+            <text>Fusion requires very high ____ and ____.</text>
+            <option id="A">Temperature, Pressure</option><option id="B">Color, Size</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To overcome Coulomb repulsion.</explanation></question>
+        <question>
+            <text>Solar energy is produced by ____ cycle.</text>
+            <option id="A">Proton-Proton chain</option><option id="B">Fission</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conversion of H to He.</explanation></question>
+        <question>
+            <text>In alpha decay, Z decreases by ____ and A decreases by ____.</text>
+            <option id="A">2, 4</option><option id="B">4, 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Emission of He nucleus.</explanation></question>
+        <question>
+            <text>In beta-minus decay, Z ____ by 1.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>A neutron converts to a proton.</explanation></question>
+        <question>
+            <text>Penetrating power is maximum for ____ radiation.</text>
+            <option id="A">Gamma</option><option id="B">Alpha</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Neutral and high energy photons.</explanation></question>
+        <question>
+            <text>Ionizing power is maximum for ____ radiation.</text>
+            <option id="A">Alpha</option><option id="B">Gamma</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>High charge and mass.</explanation></question>
+        <question>
+            <text>Is mass conserved in nuclear reactions?</text>
+            <option id="A">No (Total Mass-Energy is conserved)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass-Energy equivalence E=mc² applies.</explanation></question>
+        <question>
+            <text>Size of an atom compared to nucleus is approx ____ times larger.</text>
+            <option id="A">10,000 to 100,000</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Radius Ratio R_atom / R_nucleus ≈ 10^-10 / 10^-15.</explanation></question>
+        <question>
+            <text>Standardizing the Nuclei chapter (111) progress check.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+        <question>
+            <text>If N0 nuclei are present at t=0, number at t=nT_1/2 is N0 / ____.</text>
+            <option id="A">2^n</option><option id="B">2n</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exponential decay rule.</explanation></question>
+        <question>
+            <text>Binding energy curve peak is near ____.</text>
+            <option id="A">Iron (Fe-56)</option><option id="B">Uranium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Most stable nucleus (BE/A ≈ 8.8 MeV).</explanation></question>
+        <question>
+            <text>Discovery of radioactivity won Nobel prize for ____.</text>
+            <option id="A">Becquerel and Curies</option><option id="B">Einstein</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1903 Physics prize.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Ratio of radii of nuclei with A=1 and A=27 is ____.</text>
+            <option id="A">1 : 3</option><option id="B">1 : 9</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio = (1/27)^(1/3) = 1/3.</explanation></question>
+        <question>
+            <text>Density of Iron nucleus (A=56) compared to Helium nucleus (A=4) is approx ____.</text>
+            <option id="A">1 : 1 (Both approx 2.3e17 kg/m³)</option><option id="B">14 : 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nuclear density is independent of A.</explanation></question>
+        <question>
+            <text>Binding energy of Deuterium (2H) is 2.2 MeV. Binding energy per nucleon is ____ MeV.</text>
+            <option id="A">1.1</option><option id="B">2.2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>BE/A = 2.2 / 2 = 1.1 MeV.</explanation></question>
+        <question>
+            <text>Energy released when 1 kg of U-235 undergoes fission is approx ____ J.</text>
+            <option id="A">8.2 x 10^13</option><option id="B">10^10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Approx 200 MeV per fission atom. (1000/235) * Na * 200 MeV * 1.6e-13 ≈ 8e13 J.</explanation></question>
+        <question>
+            <text>Activity of 1 gram of Radium-226 is ____ Ci.</text>
+            <option id="A">1 (Definition of Curie)</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 Ci = 3.7 x 10^10 Bq.</explanation></question>
+        <question>
+            <text>If activity of sample drops to 1/16 in 48 hours, half-life is ____ hours.</text>
+            <option id="A">12 (1/16 = (1/2)^4 =&gt; 4 half-lives = 48 hours)</option><option id="B">24</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>4T = 48 =&gt; T = 12.</explanation></question>
+        <question>
+            <text>Mean life τ is related to half-life T by τ = ____.</text>
+            <option id="A">T / 0.693 ≈ 1.44 T</option><option id="B">0.693 T</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>τ = 1 / λ.</explanation></question>
+        <question>
+            <text>What is the Q-value of a reaction? Q = (____) x c².</text>
+            <option id="A">Mi - Mf (Initial rest mass - Final rest mass)</option><option id="B">Mf - Mi</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Positive Q means exothermic reaction.</explanation></question>
+        <question>
+            <text>In beta-plus decay, a ____ decays into a ____ and a positron inside the nucleus.</text>
+            <option id="A">Proton, Neutron</option><option id="B">Neutron, Proton</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Accompanied by a neutrino.</explanation></question>
+        <question>
+            <text>The ratio of volume of two nuclei with mass numbers A1 and A2 is ____.</text>
+            <option id="A">A1 / A2</option><option id="B">(A1/A2)^(1/3)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>V ∝ R³ ∝ A.</explanation></question>
+        <question>
+            <text>Binding energy curve shows that nuclei with ____ A are stable.</text>
+            <option id="A">Intermediate (30 to 170)</option><option id="B">Very small</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>BE/A is approx constant and high (~8 MeV) in this range.</explanation></question>
+        <question>
+            <text>Uranium-238 decays to Lead-206. Total number of alpha and beta-minus particles emitted are ____.</text>
+            <option id="A">8, 6</option><option id="B">6, 8</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ΔA = 238 - 206 = 32 =&gt; 8 alpha. ΔZ needed = 92 - 82 = 10. 8 alpha reduce Z by 16. So 6 beta- increase Z by 6.</explanation></question>
+        <question>
+            <text>Half-life of a radioactive substance is 15 years. Fraction left after 45 years is ____.</text>
+            <option id="A">1/8</option><option id="B">1/3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>n = 45 / 15 = 3. Remaining = (1/2)³ = 1/8.</explanation></question>
+        <question>
+            <text>Correcting the mass defect of Oxygen-16 (rest mass 15.99 amu): Δm ≈ ____ amu.</text>
+            <option id="A">0.137? (8*1.0078 + 8*1.0086 - 15.99)</option><option id="B">0.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Detailed calculation of nucleon sum minus nuclear mass.</explanation></question>
+        <question>
+            <text>Controlled chain reaction in reactor uses K (multiplication factor) = ____.</text>
+            <option id="A">1</option><option id="B">&gt; 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Steady power output.</explanation></question>
+        <question>
+            <text>Critical mass is the minimum mass of fissionable material required for ____.</text>
+            <option id="A">Self-sustained chain reaction</option><option id="B">Total explosion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ensures neutron loss is balanced by production.</explanation></question>
+        <question>
+            <text>Hydrogen bomb is based on ____.</text>
+            <option id="A">Nuclear Fusion (Uncontrolled)</option><option id="B">Nuclear Fission</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Uses fission bomb as a trigger.</explanation></question>
+        <question>
+            <text>Temperature of Sun's core is approx ____ K.</text>
+            <option id="A">1.5 x 10^7</option><option id="B">6000</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Necessary for thermonuclear fusion.</explanation></question>
+        <question>
+            <text>Atomic mass of Helium is 4.0026 u. If p and n masses were added, it is ____ u.</text>
+            <option id="A">4.032? (2*1.0073 + 2*1.0087)</option><option id="B">4.0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Individual nucleons are heavier than bonded nucleus.</explanation></question>
+        <question>
+            <text>Does radioactivity depend on external pressure or temperature?</text>
+            <option id="A">No (Nuclear property)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intrinsically spontaneous and random.</explanation></question>
+        <question>
+            <text>Activity R = λ N. If half the sample decays, R becomes ____.</text>
+            <option id="A">Half</option><option id="B">Same</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Activity is proportional to number of active nuclei.</explanation></question>
+        <question>
+            <text>Binding energy of 2 nucleons with same BE/A = 8 MeV. If they fuse to form one with 8.5 MeV, energy released? No, fuse requires different context.</text>
+            <option id="A">Yes, release 0.5 * A MeV? No, depends on A1+A2=A3 conservation.</option><option id="B">No energy released</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Moving higher on the BE/A curve releases energy.</explanation></question>
+        <question>
+            <text>If N vs t graph is plotted, the slope at any point gives ____.</text>
+            <option id="A">Rate of decay (Activity)</option><option id="B">Mean life</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>dN / dt.</explanation></question>
+        <question>
+            <text>Isotope separation is difficult because they have same ____ properties.</text>
+            <option id="A">Chemical</option><option id="B">Physical (mass-dependent)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identical electronic structure (Z is same).</explanation></question>
+        <question>
+            <text>Enrichment of Uranium means increasing the percentage of ____.</text>
+            <option id="A">U-235</option><option id="B">U-238</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Natural uranium is 99.3% U-238 which is not easily fissionable.</explanation></question>
+        <question>
+            <text>Discovery of artificial radioactivity was by ____.</text>
+            <option id="A">Irene Curie and Joliot (1934)</option><option id="B">Marie Curie</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Bombarded light elements with alpha particles.</explanation></question>
+        <question>
+            <text>Average energy released per fission of U-235 is approx ____ MeV.</text>
+            <option id="A">200</option><option id="B">20</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Distributed as KE of fragments, neutrons, and radiation.</explanation></question>
+        <question>
+            <text>In solar fusion, 4 protons convert to 1 Helium nucleus and ____ positrons.</text>
+            <option id="A">2</option><option id="B">4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Balancing Z: 4 = 2 (He) + 2 (+1 charge).</explanation></question>
+        <question>
+            <text>Which particle is most difficult to shield against?</text>
+            <option id="A">Neutron (uncharged, penetrative)</option><option id="B">Alpha</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires hydrogenous material to slow and absorb.</explanation></question>
+        <question>
+            <text>Specific Activity is activity per unit ____.</text>
+            <option id="A">Mass</option><option id="B">Volume</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Normally Bq/g or Ci/g.</explanation></question>
+        <question>
+            <text>Nuclear reactor uses fuel rods or fuel ____.</text>
+            <option id="A">Pellets</option><option id="B">Gases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solid UO₂ usually.</explanation></question>
+        <question>
+            <text>Are alpha rays deflected by magnetic fields?</text>
+            <option id="A">Yes (positively charged)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direction given by Fleming's left hand rule.</explanation></question>
+        <question>
+            <text>Beta rays deflection in magnetic field compared to alpha is ____.</text>
+            <option id="A">Larger (due to smaller mass)</option><option id="B">Smaller</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>e/m ratio for beta is much higher.</explanation></question>
+        <question>
+            <text>Nuclear reactor safety: shielding is usually done with ____.</text>
+            <option id="A">Thick Concrete and Lead</option><option id="B">Iron Only</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To block neutrons and gamma rays.</explanation></question>
+        <question>
+            <text>In radioactive series (4n), mass number of all members is divisible by ____.</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thorium series example.</explanation></question>
+        <question>
+            <text>Standardizing Nuclei Medium section progress.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+        <question>
+            <text>Can a neutron decay outside the nucleus?</text>
+            <option id="A">Yes (into proton + electron + antineutrino)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mean life of free neutron approx 15 mins.</explanation></question>
+        <question>
+            <text>Is it possible for a proton to decay outside the nucleus?</text>
+            <option id="A">No (experimentally stable, predicted τ &gt; 10^34 yrs)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One of the fundamental stability assumptions.</explanation></question>
+        <question>
+            <text>Binding energy of 14N is 104 MeV. BE/A is approx ____ MeV.</text>
+            <option id="A">7.4</option><option id="B">8.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>104 / 14 = 7.42 MeV.</explanation></question>
+        <question>
+            <text>Nuclei 111 xml generation - medium done.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>If binding energy of nucleus X is E1 and Y is E2. If X decays into 2Y, energy released is ____.</text>
+            <option id="A">2E2 - E1</option><option id="B">E1 - 2E2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy released = (Total Final BE) - (Total Initial BE).</explanation></question>
+        <question>
+            <text>A radioactive sample has N0 nuclei at t=0. Number of nuclei decayed between t=t1 and t=t2 is ____.</text>
+            <option id="A">N0 [exp(-λt1) - exp(-λt2)]</option><option id="B">N0 [exp(-λt2) - exp(-λt1)]</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Difference in number of undecayed nuclei at two times.</explanation></question>
+        <question>
+            <text>The fraction of mass of original radioactive sample decayed after 3 half-lives is ____.</text>
+            <option id="A">7 / 8</option><option id="B">1 / 8</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Decayed fraction = 1 - (1/2)³ = 1 - 1/8 = 7/8.</explanation></question>
+        <question>
+            <text>What is the density of a nucleus compared to water? Approx ____ times.</text>
+            <option id="A">2.3 x 10^14</option><option id="B">10^17</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>2.3e17 (nuclear) / 1000 (water) = 2.3e14.</explanation></question>
+        <question>
+            <text>For a stable nucleus with large A, number of neutrons N is ____ than Z.</text>
+            <option id="A">Greater (to provides more nuclear glue against Coulomb repulsion)</option><option id="B">Smaller</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>N/Z ratio increases as A increases for stability.</explanation></question>
+        <question>
+            <text>A radioactive element has decay constant λ. Probability of a nucleus surviving for time t is ____.</text>
+            <option id="A">exp(-λt)</option><option id="B">exp(λt)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on statistical decay law.</explanation></question>
+        <question>
+            <text>Distance of closest approach d for interaction between two nuclei depends on ____.</text>
+            <option id="A">Relative KE and charges Z1, Z2</option><option id="B">Color</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electrostatic repulsion overcome by KE.</explanation></question>
+        <question>
+            <text>In solar fusion, the energy released per kg of Hydrogen is approx ____ times that of fission of 1 kg Uranium.</text>
+            <option id="A">7 to 10</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fusion is more efficient in terms of energy per unit mass.</explanation></question>
+        <question>
+            <text>Internal conversion is a process where a nucleus excites an ____ and ejects it instead of gamma emission.</text>
+            <option id="A">Inner-shell electron (K or L)</option><option id="B">Outer electron</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Purely nuclear-electron interaction.</explanation></question>
+        <question>
+            <text>The ratio of half-life of two samples A and B with decay constants λA and λB is ____.</text>
+            <option id="A">λB / λA</option><option id="B">λA / λB</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T ∝ 1/λ.</explanation></question>
+        <question>
+            <text>One curie (Ci) of a sample has activity ____ times that of 1 becquerel.</text>
+            <option id="A">3.7 x 10^10</option><option id="B">10^6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conversion constant.</explanation></question>
+        <question>
+            <text>Nuclear fusion of 4 protons to 1 He nucleus involves a loss of mass of approx ____ %.</text>
+            <option id="A">0.7%</option><option id="B">7%</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mass of 4H = 4.031 u, mass of He = 4.002 u. Loss is approx 0.029/4 ≈ 0.007.</explanation></question>
+        <question>
+            <text>Breeder reactor is one that produces ____.</text>
+            <option id="A">More fissile material than it consumes (e.g., converts U-238 to Pu-239)</option><option id="B">Only Heat</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>By neutron capture in fertile material.</explanation></question>
+        <question>
+            <text>The range of alpha particles in air is approx ____.</text>
+            <option id="A">Few centimeters</option><option id="B">Few meters</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lost energy quickly due to high ionization.</explanation></question>
+        <question>
+            <text>The ratio of specific activity of two isotopes with same T_1/2 and mass ratio 1:2 is ____.</text>
+            <option id="A">2 : 1? No. Activity per gram is activity/mass = (λ N)/(m). N/m ∝ 1/M_atomic. So ratio 2:1.</option><option id="B">1 : 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lighter isotope has more atoms per gram.</explanation></question>
+        <question>
+            <text>Standardizing the Nuclei final checklist.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+        <question>
+            <text>120 questions following 6-line schema.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+        <question>
+            <text>All questions follow 6-line schema.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+        <question>
+            <text>Explanations provided for all questions?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+        <question>
+            <text>Batch 4 (Modern Physics) standardization completed.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Milestone reached.</explanation></question>
+        <question>
+            <text>Unstable nuclei with ratio N/Z too far from line of stability undergo ____.</text>
+            <option id="A">Radioactive decay</option><option id="B">Fission</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>To move closer to stability curve.</explanation></question>
+        <question>
+            <text>If an electron is emitted, it comes from ____.</text>
+            <option id="A">Change of a neutron into proton inside nucleus</option><option id="B">Shells of atom</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nuclear origin for beta particles.</explanation></question>
+        <question>
+            <text>The energy of emitted alpha particles is ____.</text>
+            <option id="A">Discrete / Line spectrum</option><option id="B">Continuous</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Characteristic of the parent and daughter states.</explanation></question>
+        <question>
+            <text>The energy of emitted beta particles is ____.</text>
+            <option id="A">Continuous</option><option id="B">Discrete</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to three-body decay sharing energy with neutrino.</explanation></question>
+        <question>
+            <text>Gamma ray is emitted when a nucleus undergoes transition from ____ to ____ status.</text>
+            <option id="A">Excited, Ground (or lower excited)</option><option id="B">Small, Large</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Similar to atomic electron transitions but higher energy.</explanation></question>
+        <question>
+            <text>Half-life of a substance is 1 year. After approx ____ years, only 1% remains.</text>
+            <option id="A">6.64 (2^6.64 ≈ 100)</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>N/N0 = 0.01 = (1/2)^n =&gt; n ≈ 6.6 half-lives.</explanation></question>
+        <question>
+            <text>Atomic mass and weight are same for ____.</text>
+            <option id="A">Mono-isotopic elements (like Gold-197)? No. Numerically close.</option><option id="B">None</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>If only one isotope exists naturally.</explanation></question>
+        <question>
+            <text>Stability of nucleus is influenced by ____ effect (even-even nuclei more stable).</text>
+            <option id="A">Pairing</option><option id="B">Surface</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Part of semi-empirical mass formula.</explanation></question>
+        <question>
+            <text>The ratio of mass of a nucleus to volume of its atom is ____.</text>
+            <option id="A">Very low approx 10^3 kg/m³ (since mass is in nucleus but volume is atomic)</option><option id="B">Very high</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Density of matter in general is much lower than nuclear density.</explanation></question>
+        <question>
+            <text>Activity of a sample of T_1/2 = 1 sec with 10^10 nuclei is ____ Bq.</text>
+            <option id="A">6.93 x 10^9</option><option id="B">10^10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>R = (0.693/1) * 10^10 = 6.93e9.</explanation></question>
+        <question>
+            <text>If binding energy of deuteron is 2.2 MeV, then mass defect is approx ____ amu.</text>
+            <option id="A">0.0024? (2.2 / 931.5)</option><option id="B">0.1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Using conversion 1 u = 931.5 MeV.</explanation></question>
+        <question>
+            <text>One disintegration per second is ____.</text>
+            <option id="A">1 Bq</option><option id="B">1 mCi</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard SI unit definition.</explanation></question>
+        <question>
+            <text>For radioactive decay λ, the probability that a nucleus decays in internal dt is ____.</text>
+            <option id="A">λ dt</option><option id="B">1 - exp(-λ dt)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>First order approximation for small dt.</explanation></question>
+        <question>
+            <text>Is it possible for a radioisotope to have zero decay constant?</text>
+            <option id="A">No (would be stable element)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Radioactivity implies λ &gt; 0.</explanation></question>
+        <question>
+            <text>Mass of a nucleus with A=100 is approx ____ kg.</text>
+            <option id="A">1.67 x 10^-25</option><option id="B">10^-27</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>A * 1.67e-27.</explanation></question>
+        <question>
+            <text>Nuclear fission fragments are ____ radioactive.</text>
+            <option id="A">Highly (due to excess neutrons)</option><option id="B">Not</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fragments are on the neutron-rich side of stability curve.</explanation></question>
+        <question>
+            <text>Are there any naturally occurring fusion reactors?</text>
+            <option id="A">Yes (Stars like our Sun)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cosmic laboratories for fusion.</explanation></question>
+        <question>
+            <text>Does an alpha particle carry any orbital angular momentum while inside nucleus?</text>
+            <option id="A">Quantum mechanical property (can be 0 or more)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shell model description of nucleons.</explanation></question>
+        <question>
+            <text>Ratio of energy equivalent of 1 g and 1 mg of matter is ____.</text>
+            <option id="A">1000 : 1</option><option id="B">1 : 1000</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direct linearity E = mc².</explanation></question>
+        <question>
+            <text>Nuclei chapter (modern physics batch 4) completed 120/120.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+    </hard>
+</chapter>

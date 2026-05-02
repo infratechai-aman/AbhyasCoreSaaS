@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="206" name="Equilibrium">
+    <easy>
+        <question>
+            <text>State where rates of forward and backward reactions are equal is ____.</text>
+            <option id="A">Equilibrium</option><option id="B">Stability</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dynamic state where concentrations become constant.</explanation></question>
+        <question>
+            <text>Equilibrium involving same physical phase of reactants/products is ____.</text>
+            <option id="A">Homogeneous</option><option id="B">Heterogeneous</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Example: Gaseous reactions.</explanation></question>
+        <question>
+            <text>Equilibrium involving more than one physical phase is ____.</text>
+            <option id="A">Heterogeneous</option><option id="B">Homogeneous</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Example: Solid-gas decomposition.</explanation></question>
+        <question>
+            <text>Equilibrium constant in terms of molar concentration is ____.</text>
+            <option id="A">Kc</option><option id="B">Kp</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculated using [Products]/[Reactants].</explanation></question>
+        <question>
+            <text>Equilibrium constant in terms of partial pressure is ____.</text>
+            <option id="A">Kp</option><option id="B">Kc</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for gaseous reactions.</explanation></question>
+        <question>
+            <text>Relationship: Kp = Kc (RT) ^ ____.</text>
+            <option id="A">Δng</option><option id="B">Δn</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Δng is change in gaseous moles.</explanation></question>
+        <question>
+            <text>Kp = Kc when Δng is ____.</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Example: H2 + I2 -&gt; 2HI.</explanation></question>
+        <question>
+            <text>Le Chatelier's Principle: System at equilibrium responds to stress by ____ the change.</text>
+            <option id="A">Counteracting / Opposing</option><option id="B">Facilitating</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shifts to new equilibrium position.</explanation></question>
+        <question>
+            <text>Ice and Water are in equilibrium at 0 C. Addition of pressure favors ____.</text>
+            <option id="A">Water (Lower volume)</option><option id="B">Ice</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Density of water is higher than ice.</explanation></question>
+        <question>
+            <text>Catalyst ____ the time taken to reach equilibrium.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">Does not change</option><option id="D">None</option>
+            <answer>A</answer><explanation>Speeds up both forward and backward reactions.</explanation></question>
+        <question>
+            <text>Catalyst ____ the equilibrium constant K.</text>
+            <option id="A">Does not change</option><option id="B">Increases</option><option id="C">Decreases</option><option id="D">None</option>
+            <answer>A</answer><explanation>K depends only on temperature.</explanation></question>
+        <question>
+            <text>Substances that produce ions in aqueous solution are ____.</text>
+            <option id="A">Electrolytes</option><option id="B">Non-electrolytes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Acids, Bases, Salts.</explanation></question>
+        <question>
+            <text>Strong electrolytes dissociate ____ in water.</text>
+            <option id="A">Completely</option><option id="B">Partially</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Alpha approx 1.</explanation></question>
+        <question>
+            <text>Weak electrolytes dissociate ____ in water.</text>
+            <option id="A">Partially</option><option id="B">Completely</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Alpha &lt;&lt; 1.</explanation></question>
+        <question>
+            <text>Arrhenius Acid produces ____ ions in water.</text>
+            <option id="A">H+</option><option id="B">OH-</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Classical definition.</explanation></question>
+        <question>
+            <text>Arrhenius Base produces ____ ions in water.</text>
+            <option id="A">OH-</option><option id="B">H+</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Contains hydroxide groups.</explanation></question>
+        <question>
+            <text>Bronsted-Lowry Acid is a proton ____.</text>
+            <option id="A">Donor</option><option id="B">Acceptor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gives H+.</explanation></question>
+        <question>
+            <text>Bronsted-Lowry Base is a proton ____.</text>
+            <option id="A">Acceptor</option><option id="B">Donor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Takes H+.</explanation></question>
+        <question>
+            <text>Pairs differing by only one H+ ion are called ____ pairs.</text>
+            <option id="A">Conjugate Acid-Base</option><option id="B">Isomeric</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: NH3 / NH4+.</explanation></question>
+        <question>
+            <text>Lewis Acid is an electron pair ____.</text>
+            <option id="A">Acceptor</option><option id="B">Donor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: AlCl3, BF3.</explanation></question>
+        <question>
+            <text>Lewis Base is an electron pair ____.</text>
+            <option id="A">Donor</option><option id="B">Acceptor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: NH3, H2O.</explanation></question>
+        <question>
+            <text>Negative logarithm of H+ concentration is ____.</text>
+            <option id="A">pH</option><option id="B">pOH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>pH = -log[H+].</explanation></question>
+        <question>
+            <text>For neutral water at 25 C, pH is ____.</text>
+            <option id="A">7</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Concentration is 10^-7 M.</explanation></question>
+        <question>
+            <text>Acidic solutions have pH ____ 7.</text>
+            <option id="A">&lt; (Less than)</option><option id="B">&gt;</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High [H+].</explanation></question>
+        <question>
+            <text>Basic solutions have pH ____ 7.</text>
+            <option id="A">&gt; (Greater than)</option><option id="B">&lt;</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Low [H+], high [OH-].</explanation></question>
+        <question>
+            <text>Ionic product of water Kw = ____ at 298 K.</text>
+            <option id="A">10^-14</option><option id="B">10^-7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>[H+] x [OH-].</explanation></question>
+        <question>
+            <text>Substances that resist change in pH on addition of small amount of acid/base are ____.</text>
+            <option id="A">Buffers</option><option id="B">Inert</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Crucial for biological systems like blood.</explanation></question>
+        <question>
+            <text>Degree of dissociation (alpha) = (Moles dissociated) / (____).</text>
+            <option id="A">Total initial moles</option><option id="B">Equilibrium moles</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fractional ionization.</explanation></question>
+        <question>
+            <text>For a reaction nA + mB &lt;=&gt; pC + qD, Qc = ____.</text>
+            <option id="A">[C]^p [D]^q / [A]^n [B]^m</option><option id="B">[A]^n [B]^m / [C]^p [D]^q</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reaction quotient at any time.</explanation></question>
+        <question>
+            <text>Reaction shifts forward if Qc ____ Kc.</text>
+            <option id="A">&lt;</option><option id="B">&gt;</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reactants need to convert to products.</explanation></question>
+        <question>
+            <text>Reaction shifts backward if Qc ____ Kc.</text>
+            <option id="A">&gt;</option><option id="B">&lt;</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Excess products.</explanation></question>
+        <question>
+            <text>Neutralization reaction: Acid + Base -&gt; Salt + ____.</text>
+            <option id="A">Water</option><option id="B">GAs</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard reaction.</explanation></question>
+        <question>
+            <text>A salt of strong acid and strong base (e.g. NaCl) gives ____ solution.</text>
+            <option id="A">Neutral (pH=7)</option><option id="B">Acidic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No significant hydrolysis.</explanation></question>
+        <question>
+            <text>A salt of strong acid and weak base (e.g. NH4Cl) gives ____ solution.</text>
+            <option id="A">Acidic (pH &lt; 7)</option><option id="B">Basic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cationic hydrolysis.</explanation></question>
+        <question>
+            <text>A salt of weak acid and strong base (e.g. CH3COONa) gives ____ solution.</text>
+            <option id="A">Basic (pH &gt; 7)</option><option id="B">Acidic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Anionic hydrolysis.</explanation></question>
+        <question>
+            <text>Solubility product of AgCl is Ksp = ____.</text>
+            <option id="A">[Ag+] [Cl-]</option><option id="B">[Ag+] + [Cl-]</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equilibrium in saturated solution.</explanation></question>
+        <question>
+            <text>Precipitation occurs if ionic product ____ Ksp.</text>
+            <option id="A">&gt;</option><option id="B">&lt;</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solution becomes supersaturated.</explanation></question>
+        <question>
+            <text>Decrease in dissociation of weak electrolyte by adding strong electrolyte with a common ion is ____ effect.</text>
+            <option id="A">Common Ion</option><option id="B">Odd Ion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shifts equilibrium towards undissociated form.</explanation></question>
+        <question>
+            <text>Relationship: pKa = ____.</text>
+            <option id="A">- log Ka</option><option id="B">log Ka</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Measures acid strength.</explanation></question>
+        <question>
+            <text>Stronger acid has ____ Ka and ____ pKa.</text>
+            <option id="A">Higher , Lower</option><option id="B">Lower, Higher</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inversely related.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Equilibrium constant for reverse reaction K' = ____.</text>
+            <option id="A">1 / K</option><option id="B">- K</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reciprocal relation.</explanation></question>
+        <question>
+            <text>If reaction coefficients are doubled, new K'' = ____.</text>
+            <option id="A">K^2</option><option id="B">2 K</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exponent rule for equilibrium.</explanation></question>
+        <question>
+            <text>If two reactions are added, net K_net = ____.</text>
+            <option id="A">K1 x K2</option><option id="B">K1 + K2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Constants multiply when steps add.</explanation></question>
+        <question>
+            <text>Increase in pressure favors reaction side with ____ gaseous moles.</text>
+            <option id="A">Fewer</option><option id="B">More</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>System tries to reduce pressure.</explanation></question>
+        <question>
+            <text>For exothermic reaction, increase in temperature shifts equilibrium to ____.</text>
+            <option id="A">Left (Reactants)</option><option id="B">Right (Products)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Absorbs excess heat.</explanation></question>
+        <question>
+            <text>For endothermic reaction, increase in temperature shifts equilibrium to ____.</text>
+            <option id="A">Right (Products)</option><option id="B">Left</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Supply of heat favors product formation.</explanation></question>
+        <question>
+            <text>Addition of inert gas at constant volume ____ equilibrium position.</text>
+            <option id="A">Does not change</option><option id="B">Shifts right</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Partial pressures remain same.</explanation></question>
+        <question>
+            <text>Addition of inert gas at constant pressure shifts equilibrium to side with ____ moles.</text>
+            <option id="A">More gaseous</option><option id="B">Fewer gaseous</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Total volume increases, reducing concentrations.</explanation></question>
+        <question>
+            <text>Percent dissociation of 0.1 M weak acid with Ka = 10^-5? ____ %.</text>
+            <option id="A">1 (alpha = sqrt(Ka/C) = 10^-2)</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ostwald Dilution Law approx.</explanation></question>
+        <question>
+            <text>pH of 0.001 M HCl is ____.</text>
+            <option id="A">3</option><option id="B">11</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>-log(10^-3).</explanation></question>
+        <question>
+            <text>pH of 0.01 M NaOH is ____.</text>
+            <option id="A">12 (pOH = 2)</option><option id="B">2</option><option id="C">7</option><option id="D">None</option>
+            <answer>A</answer><explanation>pOH = -log(10^-2) = 2. pH = 14 - 2.</explanation></question>
+        <question>
+            <text>Henderson-Hasselbalch equation for acidic buffer: pH = ____ + log ([Salt]/[Acid]).</text>
+            <option id="A">pKa</option><option id="B">pKb</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for buffer pH calculation.</explanation></question>
+        <question>
+            <text>pH of blood is maintained around ____.</text>
+            <option id="A">7.4</option><option id="B">7.0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Slightly basic.</explanation></question>
+        <question>
+            <text>Relationship: pKa + pKb = ____ for conjugate pair.</text>
+            <option id="A">pKw (14 at 25C)</option><option id="B">7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Log form of Ka x Kb = Kw.</explanation></question>
+        <question>
+            <text>Ksp for Ag2CrO4 is proportional to ____ cube of solubility s.</text>
+            <option id="A">4 (Ksp = 4s^3)</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Salt formula A2B.</explanation></question>
+        <question>
+            <text>Ksp for Ca3(PO4)2 is ____.</text>
+            <option id="A">108 s^5</option><option id="B">4 s^3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>(3s)^3 x (2s)^2 = 27s3 x 4s2 = 108s5.</explanation></question>
+        <question>
+            <text>Dissociation constant of water Kw ____ with increase in temperature.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ionization of water is endothermic.</explanation></question>
+        <question>
+            <text>At 90 C, pH of neutral water is ____ than 7.</text>
+            <option id="A">Less than (approx 6.3)</option><option id="B">Greater than</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Kw increases, [H+] increases.</explanation></question>
+        <question>
+            <text>Conjugate base of HSO4- is ____.</text>
+            <option id="A">SO4 2-</option><option id="B">H2SO4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Remove one H+.</explanation></question>
+        <question>
+            <text>Conjugate acid of NH3 is ____.</text>
+            <option id="A">NH4+</option><option id="B">NH2-</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Add one H+.</explanation></question>
+        <question>
+            <text>Buffer capacity is maximum when [Salt] ____ [Acid].</text>
+            <option id="A">Equals</option><option id="B">&gt;&gt; (is much greater)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>pH = pKa point.</explanation></question>
+        <question>
+            <text>Which of the following is an amphiprotic species?</text>
+            <option id="A">HCO3-</option><option id="B">CO3 2-</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Can donate or accept H+.</explanation></question>
+        <question>
+            <text>Solubility of AgCl in NaCl solution is ____ than in pure water.</text>
+            <option id="A">Less (Common ion effect)</option><option id="B">Greater</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Presence of Cl- suppresses dissolution.</explanation></question>
+        <question>
+            <text>Vapor pressure of liquid in closed container depends on ____.</text>
+            <option id="A">Temperature</option><option id="B">Volume of liquid</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equilibrium property.</explanation></question>
+        <question>
+            <text>For the reaction H2 + I2 &lt;=&gt; 2HI, if volume is halved, Kc ____.</text>
+            <option id="A">Remains same</option><option id="B">Doubles</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>K depends only on T.</explanation></question>
+        <question>
+            <text>If Kc for A + B &lt;=&gt; C is 10, Kc for 2C &lt;=&gt; 2A + 2B is ____.</text>
+            <option id="A">0.01 ( (1/10)^2 )</option><option id="B">0.1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reverse and scale.</explanation></question>
+        <question>
+            <text>A gas phase reaction has Δng = -1. Unit of Kc is ____.</text>
+            <option id="A">L / mol (M^-1)</option><option id="B">mol / L</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unit of K = (mol/L)^Δng.</explanation></question>
+        <question>
+            <text>pH range of Phenolphthalein indicator is approx ____.</text>
+            <option id="A">8.3 - 10</option><option id="B">3 - 4.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for titration of strong base.</explanation></question>
+        <question>
+            <text>pH range of Methyl Orange indicator is approx ____.</text>
+            <option id="A">3.1 - 4.4</option><option id="B">8 - 10</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Used for titration of strong acid.</explanation></question>
+        <question>
+            <text>Ostwald's dilution law: Ka = ____ for weak acid.</text>
+            <option id="A">C alpha^2 / (1 - alpha)</option><option id="B">C alpha</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relates dissociation and concentration.</explanation></question>
+        <question>
+            <text>Solubility of sparingly soluble salt AB2 is 's'. Ksp = ____.</text>
+            <option id="A">4 s^3</option><option id="B">s^3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(s) * (2s)^2 = 4s^3.</explanation></question>
+        <question>
+            <text>Human stomach pH is approx ____ for digestion.</text>
+            <option id="A">1.5 - 3.5</option><option id="B">7.0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>HCl secretion.</explanation></question>
+        <question>
+            <text>Solubility product Ksp depends only on ____.</text>
+            <option id="A">Temperature</option><option id="B">Common ion conc</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>It is an equilibrium constant.</explanation></question>
+        <question>
+            <text>A catalyst increases rate of ____ reaction(s).</text>
+            <option id="A">Both forward and backward</option><option id="B">Only forward</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>By lowering activation energy for both.</explanation></question>
+        <question>
+            <text>Heat of reaction ΔH = Σ(Bond energy broken) - Σ(Bond energy formed). True? ____.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Thermodynamic check.</explanation></question>
+        <question>
+            <text>H2 + Br2 &lt;=&gt; 2HBr. Reaction is exothermic. To increase yield ____ temperature.</text>
+            <option id="A">Decrease</option><option id="B">Increase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shift towards heat release.</explanation></question>
+        <question>
+            <text>Relative strength of two weak acids = sqrt( ____ / Ka2 ).</text>
+            <option id="A">Ka1</option><option id="B">C1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Based on [H+] ratio.</explanation></question>
+        <question>
+            <text>If pH = 5, [H+] is ____ M.</text>
+            <option id="A">10^-5</option><option id="B">5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard log inversion.</explanation></question>
+        <question>
+            <text>If pOH = 10, [OH-] is ____ M.</text>
+            <option id="A">10^-10</option><option id="B">0.1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Scale of basicity.</explanation></question>
+        <question>
+            <text>Isothermal free expansion of ideal gas has ΔS_sys ____ 0.</text>
+            <option id="A">&gt; (Disorder increases)</option><option id="B">&lt;</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Volume increases.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>Value of R in ΔG° = - RT ln K is ____ J/mol.K.</text>
+            <option id="A">8.314</option><option id="B">0.082</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Must use SI units for Energy term.</explanation></question>
+        <question>
+            <text>Relation between concentration Qc and Kp? Kp = Qc (RT)^Δn only at ____.</text>
+            <option id="A">Equilibrium</option><option id="B">Any time</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>K represents the state, Q represents progression.</explanation></question>
+        <question>
+            <text>Degree of hydrolysis h of salt of weak acid and strong base = sqrt( ____ / (Ka * C) ).</text>
+            <option id="A">Kw</option><option id="B">Kb</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Hydrolysis equilibrium constant Kh = Kw/Ka.</explanation></question>
+        <question>
+            <text>pH of 10^-8 M HCl is ____.</text>
+            <option id="A">6.98 (approx 7)</option><option id="B">8.0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Autoionization of water cannot be ignored here.</explanation></question>
+        <question>
+            <text>Buffer range of any buffer is approx pKa ± ____.</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Limits of salt/acid ratio approx 0.1 to 10.</explanation></question>
+        <question>
+            <text>Maximum possible pH in aqueous solution at 25 C is approx ____.</text>
+            <option id="A">14 (1M NaOH)</option><option id="B">7</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Based on Kw limit.</explanation></question>
+        <question>
+            <text>Heat of fusion of ice is 6 kJ/mol. ΔS for 18g ice melting at 0 C? ____ J/K.</text>
+            <option id="A">21.98 (6000 / 273)</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard entropy of fusion.</explanation></question>
+        <question>
+            <text>For the reaction 2NO2 &lt;=&gt; N2O4, ΔH = -57 kJ. Low T and High P favor ____.</text>
+            <option id="A">N2O4 (Yield increases)</option><option id="B">NO2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exothermic and gaseous mole reduction.</explanation></question>
+        <question>
+            <text>If Ka1 and Ka2 are dissociation constants of H2S, [S2-] = ____ approx (for 0.1 M H2S).</text>
+            <option id="A">Ka2</option><option id="B">Ka1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>In polyprotic weak acid, 2nd dissociation is negligible for H+ but defines 2nd anion conc.</explanation></question>
+        <question>
+            <text>pH of 0.1 M CH3COONH4 (Ka=Kb=1.8e-5)? ____.</text>
+            <option id="A">7.0 (neutral)</option><option id="B">4.75</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>pH = 7 + 1/2 (pKa - pKb). Since pKa=pKb, pH=7.</explanation></question>
+        <question>
+            <text>Equilibrium constant for CaCO3(s) &lt;=&gt; CaO(s) + CO2(g) is Kp = ____.</text>
+            <option id="A">P_CO2</option><option id="B">P_CO2 / ([CaCO3] [CaO])</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solids have unity activity.</explanation></question>
+        <question>
+            <text>Solubility of Ag2CrO4 (Ksp=1.1e-12) vs AgCl (Ksp=1.8e-10)? ____ is more soluble.</text>
+            <option id="A">Ag2CrO4 (s approx 6.5e-5 vs 1.3e-5)</option><option id="B">AgCl</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Must calculate 's' to compare salts of different stoichiometry.</explanation></question>
+        <question>
+            <text>pH of mixture of 50 mL 0.1 M HCl and 50 mL 0.2 M NaOH? ____.</text>
+            <option id="A">12.7 (excess [OH-] = 0.05 M)</option><option id="B">7.0</option><option id="C">1.3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Remaining moles OH- = 5 mmol. Vol = 100 mL. [OH-] = 0.05. pOH = 1.3. pH = 12.7.</explanation></question>
+        <question>
+            <text>Ratio Kp/Kc for PCl5 &lt;=&gt; PCl3 + Cl2 is ____.</text>
+            <option id="A">RT</option><option id="B">1 / RT</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Δng = 2 - 1 = 1.</explanation></question>
+        <question>
+            <text>Equilibrium of Haber process: N2 + 3H2 &lt;=&gt; 2NH3. Increase in volume shifts it ____.</text>
+            <option id="A">Left (towards 4 moles)</option><option id="B">Right</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lower P favors higher mole count side.</explanation></question>
+        <question>
+            <text>A gas mixture has 20% A and 80% B. Partial pressure of A at 5 atm total is ____ atm.</text>
+            <option id="A">1</option><option id="B">4</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>0.2 x 5.</explanation></question>
+        <question>
+            <text>For N2O4 &lt;=&gt; 2NO2, alpha = sqrt( Kp / (Kp + 4P) ). Value of alpha at high P is ____.</text>
+            <option id="A">Small (favors N2O4)</option><option id="B">Large</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dissociation decreases with pressure.</explanation></question>
+        <question>
+            <text>pH of 0.1 M NaF (Ka of HF = 7.2e-4)? ____.</text>
+            <option id="A">8.07 (basic)</option><option id="B">5.93</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>pH = 7 + 1/2(pKa + logC). pKa approx 3.14. pH = 7 + 1.57 - 0.5 = 8.07.</explanation></question>
+        <question>
+            <text>Minimum concentration required for Ag+ (from AgNO3) to ppt Cl- (0.01M) given Ksp_AgCl = 1.8e-10? ____.</text>
+            <option id="A">1.8 x 10^-8 M</option><option id="B">1.8 x 10^-12 M</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Based on Ksp limit.</explanation></question>
+        <question>
+            <text>Addition of NaOH to NH4OH solution ____ dissociation of NH4OH.</text>
+            <option id="A">Decreases (OH- common ion)</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example of common ion effect in weak base.</explanation></question>
+        <question>
+            <text>In Henderson eq, if [Salt] = 10 [Acid], then pH = ____.</text>
+            <option id="A">pKa + 1</option><option id="B">pKa - 1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>log(10) = 1.</explanation></question>
+        <question>
+            <text>Relationship: q_p = q_v + ____.</text>
+            <option id="A">Δng RT</option><option id="B">P ΔV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ΔH = ΔU + Δng RT.</explanation></question>
+        <question>
+            <text>Absolute entropy of an ideal gas at constant T increases with ____ volume.</text>
+            <option id="A">Increasing</option><option id="B">Decreasing</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>More microstates available.</explanation></question>
+        <question>
+            <text>Verification for Equilibrium 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization complete.</explanation></question>
+        <question>
+            <text>Equilibrium 120 qty count verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Which of the following is not a Lewis acid: BF3, AlCl3, NH3, H+?</text>
+            <option id="A">NH3 (Lewis Base)</option><option id="B">BF3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Has lone pair to donate.</explanation></question>
+        <question>
+            <text>Unit of Kp if Δng = 1? ____.</text>
+            <option id="A">atm / bar</option><option id="B">Unitless</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends on Δng.</explanation></question>
+        <question>
+            <text>Equilibrium constant for dissolving solid in liquid? ____.</text>
+            <option id="A">Solubility product Ksp</option><option id="B">Kc</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Specific type of equilibrium.</explanation></question>
+        <question>
+            <text>For H2O(l) &lt;=&gt; H2O(g), Kp equals ____.</text>
+            <option id="A">Vapor pressure of water</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Partial pressure of product gas.</explanation></question>
+        <question>
+            <text>Reaction quotient Q determines ____ of reaction.</text>
+            <option id="A">Direction</option><option id="B">Extent of yield</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Targeting equilibrium.</explanation></question>
+        <question>
+            <text>Verification for Chemistry Class 11 Equilibrium complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standardized.</explanation></question>
+        <question>
+            <text>Equilibrium 120 qty count confirmed?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Value of pKw at 100 C (approx 13)? ____.</text>
+            <option id="A">13</option><option id="B">14</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Kw increases with T.</explanation></question>
+        <question>
+            <text>Species exhibiting auto-protolysis? ____.</text>
+            <option id="A">H2O , NH3(l)</option><option id="B">HCl</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Self-ionization in solvent.</explanation></question>
+        <question>
+            <text>A solution with [OH-] = 10^-9 M is ____.</text>
+            <option id="A">Acidic (pH=5)</option><option id="B">Basic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>pH = 14 - 9 = 5.</explanation></question>
+        <question>
+            <text>Standard state for solutes in equilibrium calculations is ____.</text>
+            <option id="A">1 M (Unit concentration)</option><option id="B">1 m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ideal solution reference.</explanation></question>
+        <question>
+            <text>If Kc is very large (e.g. 10^10), reaction ____.</text>
+            <option id="A">Goes nearly to completion</option><option id="B">Hardly proceeds</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Products are highly favored.</explanation></question>
+        <question>
+            <text>If Kc is very small (e.g. 10^-10), reaction ____.</text>
+            <option id="A">Hardly proceeds</option><option id="B">Completes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reactants are highly favored.</explanation></question>
+        <question>
+            <text>Physical equilibrium: Vapor pressure of liquid increases with ____.</text>
+            <option id="A">Temperature</option><option id="B">Pressure</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Depends only on T for a given liquid.</explanation></question>
+        <question>
+            <text>Batch 9 Equilibrium standardization verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+    </hard>
+</chapter>

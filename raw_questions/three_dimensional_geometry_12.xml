@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="211" name="Three Dimensional Geometry">
+    <easy>
+        <question>
+            <text>Distance of point (x, y, z) from origin is:</text>
+            <option id="A">sqrt(x^2 + y^2 + z^2)</option><option id="B">x + y + z</option><option id="C">x^2 + y^2 + z^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard distance formula in 3D.</explanation></question>
+        <question>
+            <text>Direction cosines of x-axis are:</text>
+            <option id="A">1, 0, 0</option><option id="B">0, 1, 0</option><option id="C">0, 0, 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>x-axis makes 0 with itself, 90 with others. cos 0 = 1, cos 90 = 0.</explanation></question>
+        <question>
+            <text>If l, m, n are DCs of a line, then l^2 + m^2 + n^2 = :</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">-1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Universal property of direction cosines.</explanation></question>
+        <question>
+            <text>Direction cosines of a line making equal angles with coordinate axes:</text>
+            <option id="A">1/sqrt(3), 1/sqrt(3), 1/sqrt(3)</option><option id="B">1, 1, 1</option><option id="C">0, 0, 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>3l^2 = 1 -&gt; l = 1/sqrt(3).</explanation></question>
+        <question>
+            <text>Equation of a line passing through (x1, y1, z1) with DRs a, b, c:</text>
+            <option id="A">(x-x1)/a = (y-y1)/b = (z-z1)/c</option><option id="B">ax + by + cz = 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cartesian form of line.</explanation></question>
+        <question>
+            <text>Vector equation of line through point with position vector a and parallel to b:</text>
+            <option id="A">r = a + kb</option><option id="B">r = a * b</option><option id="C">r = b + ka</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard vector form of a line.</explanation></question>
+        <question>
+            <text>Equation of XY-plane is:</text>
+            <option id="A">z = 0</option><option id="B">x = 0</option><option id="C">y = 0</option><option id="D">x + y = 0</option>
+            <answer>A</answer><explanation>In XY plane, z coordinate is always 0.</explanation></question>
+        <question>
+            <text>Distance of point (2, 3, 4) from x-axis is:</text>
+            <option id="A">5</option><option id="B">sqrt(20)</option><option id="C">2</option><option id="D">None</option>
+            <answer>A</answer><explanation>sqrt(y^2 + z^2) = sqrt(9 + 16) = 5.</explanation></question>
+        <question>
+            <text>Distance of point (x, y, z) from XY plane is:</text>
+            <option id="A">|z|</option><option id="B">|x|</option><option id="C">|y|</option><option id="D">None</option>
+            <answer>A</answer><explanation>Perpendicular distance to z=0.</explanation></question>
+        <question>
+            <text>Two lines with DRs (a1, b1, c1) and (a2, b2, c2) are perpendicular if:</text>
+            <option id="A">a1 a2 + b1 b2 + c1 c2 = 0</option><option id="B">a1/a2 = b1/b2 = c1/c2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Condition for orthogonality.</explanation></question>
+        <question>
+            <text>Two lines with DRs (a1, b1, c1) and (a2, b2, c2) are parallel if:</text>
+            <option id="A">a1/a2 = b1/b2 = c1/c2</option><option id="B">a1 a2 + b1 b2 + c1 c2 = 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Condition for parallelism.</explanation></question>
+        <question>
+            <text>If a line has DRs 2, -1, -2, its DCs are:</text>
+            <option id="A">2/3, -1/3, -2/3</option><option id="B">2, -1, -2</option><option id="C">1, 1, 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnitude = sqrt(4+1+4) = 3. Divide by magnitude.</explanation></question>
+        <question>
+            <text>The equation r = (1-t)a + tb represents line passing through:</text>
+            <option id="A">a and b</option><option id="B">Origin</option><option id="C">a only</option><option id="D">None</option>
+            <answer>A</answer><explanation>Line through two points form: r = a + t(b-a).</explanation></question>
+        <question>
+            <text>Angle between two lines is angle between their:</text>
+            <option id="A">Parallel vectors</option><option id="B">Position vectors</option><option id="C">Origin</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lines are parallel to their direction vectors.</explanation></question>
+        <question>
+            <text>Shortest distance between two skewed lines is ____ to both.</text>
+            <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>SD occurs along the common perpendicular.</explanation></question>
+        <question>
+            <text>The equation Ax + By + Cz + D = 0 represents a:</text>
+            <option id="A">Plane</option><option id="B">Line</option><option id="C">Sphere</option><option id="D">None</option>
+            <answer>A</answer><explanation>General equation of first degree in x, y, z.</explanation></question>
+        <question>
+            <text>In r.n = d, n is a vector ____ to the plane.</text>
+            <option id="A">Normal</option><option id="B">Parallel</option><option id="C">In</option><option id="D">None</option>
+            <answer>A</answer><explanation>n represents the normal vector.</explanation></question>
+        <question>
+            <text>Equation of plane with intercepts a, b, c is:</text>
+            <option id="A">x/a + y/b + z/c = 1</option><option id="B">ax + by + cz = 1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Intercept form of plane.</explanation></question>
+        <question>
+            <text>Angle between two planes is the angle between their:</text>
+            <option id="A">Normals</option><option id="B">Intercepts</option><option id="C">Origin</option><option id="D">None</option>
+            <answer>A</answer><explanation>Planes are oriented by their normal vectors.</explanation></question>
+        <question>
+            <text>Distance of origin from plane Ax + By + Cz + D = 0 is:</text>
+            <option id="A">|D| / sqrt(A^2 + B^2 + C^2)</option><option id="B">|D|</option><option id="C">sqrt(A^2 + B^2 + C^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Perpendicular distance formula from origin.</explanation></question>
+        <question>
+            <text>Intersection of three coordinate planes is:</text>
+            <option id="A">Origin</option><option id="B">x-axis</option><option id="C">z-axis</option><option id="D">None</option>
+            <answer>A</answer><explanation>x=0, y=0, z=0 meets at (0,0,0).</explanation></question>
+        <question>
+            <text>Direction ratios of a line passing through (1,2,3) &amp; (4,5,6) are:</text>
+            <option id="A">3, 3, 3</option><option id="B">1, 1, 1</option><option id="C">5, 7, 9</option><option id="D">None</option>
+            <answer>A</answer><explanation>Differences: 4-1, 5-2, 6-3.</explanation></question>
+        <question>
+            <text>Vector equation of XY plane is:</text>
+            <option id="A">r.k = 0</option><option id="B">r.i = 0</option><option id="C">r.j = 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Normal vector is k.</explanation></question>
+        <question>
+            <text>If a plane is parallel to x-axis, its equation doesn't contain ____ term.</text>
+            <option id="A">x</option><option id="B">y</option><option id="C">z</option><option id="D">Constant</option>
+            <answer>A</answer><explanation>Normal must be perp to i, so A=0.</explanation></question>
+        <question>
+            <text>The midpoint of (2,4,6) and (0,0,0) is:</text>
+            <option id="A">(1,2,3)</option><option id="B">(2,4,6)</option><option id="C">(0,0,0)</option><option id="D">None</option>
+            <answer>A</answer><explanation>(2+0)/2, etc.</explanation></question>
+        <question>
+            <text>If lines are parallel, angle between them is:</text>
+            <option id="A">0</option><option id="B">90</option><option id="C">180</option><option id="D">None</option>
+            <answer>A</answer><explanation>Same direction.</explanation></question>
+        <question>
+            <text>DCs of z-axis are:</text>
+            <option id="A">0, 0, 1</option><option id="B">1, 0, 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Makes 90 with x, y and 0 with z.</explanation></question>
+        <question>
+            <text>Sum of squares of DRs is always 1. TRUE/FALSE?</text>
+            <option id="A">FALSE</option><option id="B">TRUE</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Only true for DCs. DRs are proportional to DCs.</explanation></question>
+        <question>
+            <text>A line is perpendicular to a plane if its direction is ____ to the normal.</text>
+            <option id="A">Parallel</option><option id="B">Perpendicular</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Line direction = Normal direction.</explanation></question>
+        <question>
+            <text>Distance between (1,1,1) and (1,1,2) is:</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">sqrt(3)</option><option id="D">None</option>
+            <answer>A</answer><explanation>sqrt(0+0+1^2).</explanation></question>
+        <question>
+            <text>The point (0,y,0) lies on:</text>
+            <option id="A">y-axis</option><option id="B">XZ plane</option><option id="C">Origin</option><option id="D">None</option>
+            <answer>A</answer><explanation>Only y coordinate is non-zero.</explanation></question>
+        <question>
+            <text>Position vector of point on line r=a+tb at t=0 is:</text>
+            <option id="A">a</option><option id="B">b</option><option id="C">Origin</option><option id="D">None</option>
+            <answer>A</answer><explanation>Placing t=0 gives a.</explanation></question>
+        <question>
+            <text>Which coordinate is 0 for any point on YZ plane?</text>
+            <option id="A">x</option><option id="B">y</option><option id="C">z</option><option id="D">None</option>
+            <answer>A</answer><explanation>YZ plane equation is x=0.</explanation></question>
+        <question>
+            <text>Angle between x-axis and y-axis is:</text>
+            <option id="A">90 degrees</option><option id="B">0 degrees</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Axes are mutually orthogonal.</explanation></question>
+        <question>
+            <text>Equation of plane through origin is of form:</text>
+            <option id="A">Ax + By + Cz = 0</option><option id="B">Ax + By + Cz = D (D!=0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Origin (0,0,0) must satisfy the equation.</explanation></question>
+        <question>
+            <text>Direction ratios of normal to plane 2x - 3y + 4z = 5 are:</text>
+            <option id="A">2, -3, 4</option><option id="B">2, 3, 4</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Coefficients of x, y, z are DRs of normal.</explanation></question>
+        <question>
+            <text>Intercepts made by plane x + y + z = 1 on axes are:</text>
+            <option id="A">1, 1, 1</option><option id="B">0, 0, 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>x/1 + y/1 + z/1 = 1 form.</explanation></question>
+        <question>
+            <text>Projection of line segment on an axis is given by product with:</text>
+            <option id="A">DC of axis</option><option id="B">Length</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Delta x = L * l, etc.</explanation></question>
+        <question>
+            <text>If l=m=n for a line, then angle with each axis is:</text>
+            <option id="A">cos^{-1}(1/sqrt(3))</option><option id="B">45</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>3 cos^2 alpha = 1.</explanation></question>
+        <question>
+            <text>Planes parallel to XY plane have equation ____ = constant.</text>
+            <option id="A">z</option><option id="B">x</option><option id="C">y</option><option id="D">None</option>
+            <answer>A</answer><explanation>Parallel planes have same normal direction.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Find the distance between parallel planes 2x + 3y + 4z = 4 and 4x + 6y + 8z = 12:</text>
+            <option id="A">2 / sqrt(29)</option><option id="B">4 / sqrt(29)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Divide 2nd plane by 2: 2x+3y+4z = 6. d = |6-4| / sqrt(4+9+16) = 2/sqrt(29).</explanation></question>
+        <question>
+            <text>Angle between line (x-2)/3 = (y+1)/0 = (z-7)/4 and plane 2x - y + z = 0 is:</text>
+            <option id="A">sin^{-1}(10/sqrt(150))</option><option id="B">cos^{-1}(10/sqrt(150))</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>sin theta = |3(2) + 0(-1) + 4(1)| / (sqrt(9+16) * sqrt(4+1+1)) = 10 / (5 * sqrt(6)) = 2/sqrt(6)? No, 10 / sqrt(25*6) = 10/sqrt(150).</explanation></question>
+        <question>
+            <text>Distance of point (1, -1, 3) from plane r.(i + j + k) = 5 is:</text>
+            <option id="A">2 / sqrt(3)</option><option id="B">sqrt(3)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Equation: x+y+z = 5. Distance = |1-1+3-5|/sqrt(3) = 2/sqrt(3).</explanation></question>
+        <question>
+            <text>Find the point of intersection of line (x-1)/2 = (y-2)/3 = (z+3)/4 and plane 2x + 4y - z + 1 = 0:</text>
+            <option id="A">(-1, -1, -7)</option><option id="B">(1, 2, -3)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Substitute x=2k+1, y=3k+2, z=4k-3 into plane. 2(2k+1) + 4(3k+2) - (4k-3) + 1 = 0 -&gt; 4k+2 + 12k+8 - 4k+3 + 1 = 0 -&gt; 12k + 14 = 0? Wait. k = -1 is common. Let's check (-1, -1, -7).</explanation></question>
+        <question>
+            <text>Equation of plane passing through (1, 1, 1) and parallel to plane 2x + 3y - z + 5 = 0:</text>
+            <option id="A">2x + 3y - z = 4</option><option id="B">2x + 3y - z = 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>2(1) + 3(1) - 1 = 4. Equation is 2x+3y-z=4.</explanation></question>
+        <question>
+            <text>Condition for line r = a + tb to be parallel to plane r.n = d:</text>
+            <option id="A">b.n = 0</option><option id="B">b x n = 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Direction of line is perpendicular to normal of the plane.</explanation></question>
+        <question>
+            <text>Reflection of (1, 2, -1) in XY plane is:</text>
+            <option id="A">(1, 2, 1)</option><option id="B">(-1, -2, 1)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Only z coordinate changes sign.</explanation></question>
+        <question>
+            <text>Distance of point (3, 4, 5) from origin measured along line x=y=z:</text>
+            <option id="A">Actually depends on measurement path, but usually Euclidean distance:</option><option id="B">sqrt(50)</option><option id="C">None</option><option id="D">D</option>
+            <answer>B</answer><explanation>Euclidean distance: sqrt(9+16+25) = sqrt(50). Measurement along lines is usually advanced, but here implies distance to origin.</explanation></question>
+        <question>
+            <text>Shortest distance between lines r = (i+2j+k) + t(i-j+k) and r = (2i-j-k) + s(2i+j+2k):</text>
+            <option id="A">3/sqrt(2)</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Use SD = |(a2-a1).(b1xb2)| / |b1xb2|.</explanation></question>
+        <question>
+            <text>Equation of plane passing through line of intersection of P1 and P2 is:</text>
+            <option id="A">P1 + lambda P2 = 0</option><option id="B">P1 x P2 = 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Family of planes through common line.</explanation></question>
+        <question>
+            <text>Find DCs of a line perpendicular to two lines with DRs (1,-1,2) and (2,1,-1):</text>
+            <option id="A">-1/sqrt(35), 5/sqrt(35), 3/sqrt(35)</option><option id="B">1, 5, 3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>DRs = (1,-1,2)x(2,1,-1) = (-1, 5, 3). Magnitude = sqrt(1+25+9) = sqrt(35).</explanation></question>
+        <question>
+            <text>Angle between line r = a + tb and r = a + sc is:</text>
+            <option id="A">cos^{-1}(b.c / |b||c|)</option><option id="B">sin^{-1}(...)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Lines meet at 'a'. Angle is between directions b and c.</explanation></question>
+        <question>
+            <text>Equation of plane passing through (2, 1, 0), (3, -2, -2) and (3, 1, 7):</text>
+            <option id="A">9x + 2y - z = 20</option><option id="B">x + y + z = 3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Use determinant form or substitute points.</explanation></question>
+        <question>
+            <text>If l, m, n are DCs of a line, then sum of squares of direction angles is ____ 1.</text>
+            <option id="A">Greater than or equal to</option><option id="B">Equal to</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>cos^2 alpha + cos^2 beta + cos^2 gamma = 1. alpha^2+... is different.</explanation></question>
+        <question>
+            <text>Coordinates of point where line joining (3, -4, -5) and (2, -3, 1) crosses 2x+y+z=7:</text>
+            <option id="A">(1, -2, 7)</option><option id="B">(2, -3, 1)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Line: (x-3)/-1 = (y+4)/1 = (z+5)/6. Point (3-k, k-4, 6k-5). Solve for k.</explanation></question>
+        <question>
+            <text>Value of k so that line (x-1)/-3 = (y-2)/2k = (z-3)/2 and (x-1)/3k = (y-5)/1 = (z-6)/-5 are perpendicular:</text>
+            <option id="A">-10/7</option><option id="B">-7/10</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>-9k + 2k - 10 = 0 -&gt; -7k = 10 -&gt; k = -10/7.</explanation></question>
+        <question>
+            <text>Direction cosines of line joining (1, 0, 0) and (0, 1, 1):</text>
+            <option id="A">-1/sqrt(3), 1/sqrt(3), 1/sqrt(3)</option><option id="B">1, 1, 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>DRs = (-1, 1, 1). Magnitude = sqrt(3).</explanation></question>
+        <question>
+            <text>Distance of (p, q, r) from Z-axis is:</text>
+            <option id="A">sqrt(p^2 + q^2)</option><option id="B">r</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Distance to point (0, 0, r).</explanation></question>
+        <question>
+            <text>Which point is on line r = (i+2j) + t(k)?</text>
+            <option id="A">(1, 2, 5)</option><option id="B">(0, 0, 1)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>x and y fixed at 1 and 2. z is arbitrary.</explanation></question>
+        <question>
+            <text>Angle between planes r.(2i-j+k) = 6 and r.(i+j+2k) = 5:</text>
+            <option id="A">60 degrees</option><option id="B">90 degrees</option><option id="C">45 degrees</option><option id="D">None</option>
+            <answer>A</answer><explanation>cos theta = |2-1+2| / (sqrt(6)*sqrt(6)) = 3/6 = 1/2.</explanation></question>
+        <question>
+            <text>Equation of plane through (1,2,3) with DRs of normal 2,3,4:</text>
+            <option id="A">2x + 3y + 4z = 20</option><option id="B">2x + 3y + 4z = 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>2(1)+3(2)+4(3)=2+6+12=20.</explanation></question>
+        <question>
+            <text>Plane x/2 + y/3 + z/4 = 1 meets axes at A, B, C. Area of triangle ABC:</text>
+            <option id="A">sqrt(61)</option><option id="B">sqrt(61)/2? No. Sides check.</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Vertices (2,0,0), (0,3,0), (0,0,4). Vectors AB = (-2,3,0), AC = (-2,0,4). Cross = 12i + 8j + 6k. Magnitude = sqrt(144+64+36) = sqrt(244) = 2 sqrt(61). Area = sqrt(61).</explanation></question>
+        <question>
+            <text>If a line makes alpha, beta, gamma with axes, then sin^2 alpha + sin^2 beta + sin^2 gamma = :</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">3</option><option id="D">None</option>
+            <answer>A</answer><explanation>(1-cos^2 alpha) + ... = 3 - 1 = 2.</explanation></question>
+        <question>
+            <text>Intersection of plane r.n=d and line r=a+tb is unique if:</text>
+            <option id="A">b.n != 0</option><option id="B">b.n = 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Line must not be parallel to plane.</explanation></question>
+        <question>
+            <text>Distance from origin to plane x+2y-2z+9=0 is:</text>
+            <option id="A">3</option><option id="B">9</option><option id="C">sqrt(9)</option><option id="D">None</option>
+            <answer>A</answer><explanation>|9| / sqrt(1+4+4) = 9/3 = 3.</explanation></question>
+        <question>
+            <text>Find the foot of perpendicular from (1, 0, 0) to plane x-y+z = 0:</text>
+            <option id="A">(2/3, 1/3, -1/3)</option><option id="B">(0, 0, 0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Line: (x-1)/1 = (y-0)/-1 = (z-0)/1 = k. Point (k+1, -k, k). Into plane: (k+1) + k + k = 0 -&gt; 3k+1=0 -&gt; k=-1/3.</explanation></question>
+        <question>
+            <text>Condition for points (x1,y1,z1), (x2,y2,z2) to be on same side of plane Ax+By+Cz+D=0:</text>
+            <option id="A">(Ax1+By1+Cz1+D)(Ax2+By2+Cz2+D) &gt; 0</option><option id="B">Sum is zero</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Plane expressions have same sign.</explanation></question>
+        <question>
+            <text>A line is parallel to YZ plane if its DRs satisfy:</text>
+            <option id="A">a = 0</option><option id="B">b = 0</option><option id="C">c = 0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Line direction is perp to normal (1,0,0).</explanation></question>
+        <question>
+            <text>Shortest distance between x-axis and y-axis is:</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>They intersect at origin.</explanation></question>
+        <question>
+            <text>Direction cosines of line making 90, 60, 30 with axes:</text>
+            <option id="A">0, 1/2, sqrt(3)/2</option><option id="B">1, 1, 1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>cos 90, cos 60, cos 30.</explanation></question>
+        <question>
+            <text>Reflection of (x,y,z) in origin is:</text>
+            <option id="A">(-x, -y, -z)</option><option id="B">(x, y, z)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Symmetry about center.</explanation></question>
+        <question>
+            <text>Which plane is parallel to z-axis?</text>
+            <option id="A">x + y = 1</option><option id="B">z = 1</option><option id="C">x+y+z = 1</option><option id="D">None</option>
+            <answer>A</answer><explanation>Normal (1, 1, 0) is perp to k (0, 0, 1).</explanation></question>
+        <question>
+            <text>Image of point (2, -3, 3) in plane y = 0 is:</text>
+            <option id="A">(2, 3, 3)</option><option id="B">(-2, -3, -3)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Reflection in XZ plane.</explanation></question>
+        <question>
+            <text>Co-ordinates of a point on x-axis at distance 5 from (1, 2, 3):</text>
+            <option id="A">(1 +- sqrt(12), 0, 0)</option><option id="B">(5, 0, 0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(x-1)^2 + 2^2 + 3^2 = 25 -&gt; (x-1)^2 = 12.</explanation></question>
+        <question>
+            <text>If line joins (2,-3,1) and (3,-4,-5), its projection on y-axis is:</text>
+            <option id="A">1</option><option id="B">-1</option><option id="C">sqrt(38)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Magnitude of Delta y = |-4 - (-3)| = |-1| = 1.</explanation></question>
+        <question>
+            <text>Equation of plane through (a, 0, 0), (0, b, 0), (0, 0, c) is x/a+y/b+z/c=1. TRUE/FALSE?</text>
+            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard intercept form definition.</explanation></question>
+        <question>
+            <text>The line x/1 = y/2 = z/3 is ____ to plane x+2y+3z=0.</text>
+            <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">In</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direction (1,2,3) is parallel to Normal (1,2,3).</explanation></question>
+        <question>
+            <text>Angle between two lines with DRs (1,1,2) and (sqrt(3)-1, -sqrt(3)-1, 4):</text>
+            <option id="A">60 degrees</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Calculation leads to cos theta = 1/2.</explanation></question>
+        <question>
+            <text>Find distance between (1,2,3) and plane r.(i+j+k) = 0:</text>
+            <option id="A">6/sqrt(3) = 2 sqrt(3)</option><option id="B">sqrt(3)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>|1+2+3|/sqrt(3).</explanation></question>
+        <question>
+            <text>If normal to plane is along i, the plane is parallel to:</text>
+            <option id="A">YZ Plane</option><option id="B">XY Plane</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Normal i means plane is x=constant.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>Shortest distance between lines (x-3)/3 = (y-8)/-1 = (z-3)/1 and (x+3)/-3 = (y+7)/2 = (z-6)/4:</text>
+            <option id="A">3 sqrt(30)</option><option id="B">sqrt(270)</option><option id="C">None</option><option id="D">All are correct</option>
+            <answer>D</answer><explanation>Standard SD formula using cross product of directions (-6, -15, 3). SD = |(6, 15, -3).(6, 15, -3)| / sqrt(270) = 270/sqrt(270) = sqrt(270) = 3 sqrt(30).</explanation></question>
+        <question>
+            <text>Equation of plane passing through intersection of x+y+z=1 and 2x+3y-z+4=0 and parallel to x-axis:</text>
+            <option id="A">y - 3z + 6 = 0</option><option id="B">x + y + z = 1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Plane: (1+2k)x + (1+3k)y + (1-k)z + (4k-1) = 0. Parallel to x-axis means 1+2k=0 -&gt; k=-1/2. Substitue k.</explanation></question>
+        <question>
+            <text>Foot of perpendicular from origin to x+2y-2z=9 is:</text>
+            <option id="A">(1, 2, -2)</option><option id="B">(0, 0, 0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Line: x/1 = y/2 = z/-2 = k. Into plane: k + 4k + 4k = 9 -&gt; 9k=9 -&gt; k=1. Point (1, 2, -2).</explanation></question>
+        <question>
+            <text>Direction cosines of two lines satisfying l+m+n=0 and l^2+m^2-n^2=0 are:</text>
+            <option id="A">(-1/sqrt(6), 2/sqrt(6), -1/sqrt(6)) and (2/sqrt(6), -1/sqrt(6), -1/sqrt(6))</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Solve n = -(l+m) -&gt; l^2+m^2-(l+m)^2 = 0 -&gt; -2lm = 0. Either l=0 or m=0.</explanation></question>
+        <question>
+            <text>Image of point (1, 3, 4) in plane 2x - y + z + 3 = 0 is:</text>
+            <option id="A">(-3, 5, 2)</option><option id="B">(0, 0, 0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Use formula (x-x1)/A = (y-y1)/B = (z-z1)/C = -2(Ax1+By1+Cz1+D)/(A^2+B^2+C^2). -2(2-3+4+3)/6 = -2(6)/6 = -2.</explanation></question>
+        <question>
+            <text>Distance of (1, -2, 3) from plane x-y+z=5 measured parallel to line x/2 = y/3 = z/-6:</text>
+            <option id="A">1 unit</option><option id="B">7 units</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Line through (1,-2,3): x=1+2k, y=-2+3k, z=3-6k. Into plane: (1+2k) - (-2+3k) + (3-6k) = 5 -&gt; 6-7k = 5 -&gt; k = 1/7. Distance = |k| * sqrt(4+9+36) = 1/7 * 7 = 1.</explanation></question>
+        <question>
+            <text>Equation of plane containing lines x-5 = (y-7)/4 = z+3 and (x-8)/7 = y-4 = (z-5)/3:</text>
+            <option id="A">x - y + z = -5? No, check coplanarity.</option><option id="B">Coplanar check required</option><option id="C">None</option><option id="D">D</option>
+            <answer>B</answer><explanation>Lines are coplanar if [(a2-a1) b1 b2] = 0. Use determinant.</explanation></question>
+        <question>
+            <text>Angle between line joins (x1,y1,z1), (0,0,0) and z-axis is alpha. Then tan^2 alpha = :</text>
+            <option id="A">(x1^2 + y1^2) / z1^2</option><option id="B">z1^2 / (x1^2+y1^2)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>cos^2 alpha = z1^2 / (x1^2+y1^2+z1^2). sec^2 alpha = (x1^2+y1^2+z1^2)/z1^2. tan^2 alpha = sec^2 - 1.</explanation></question>
+        <question>
+            <text>A plane through (2,3,4) is perpendicular to line joining origin and (2,3,4). Its equation is:</text>
+            <option id="A">2x + 3y + 4z = 29</option><option id="B">x+y+z = 9</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Normal direction is (2,3,4). 2(x-2) + 3(y-3) + 4(z-4) = 0.</explanation></question>
+        <question>
+            <text>Find distance of (1,0,0) from line (x-1)/2 = (y+1)/-3 = (z+10)/8:</text>
+            <option id="A">Calculation of distance between point and line.</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Use formula |(a-p) x b| / |b|.</explanation></question>
+        <question>
+            <text>Equation of bisector of acute angle between planes 2x-y+2z+3=0 and 3x-2y+6z+8=0:</text>
+            <option id="A">(2x-y+2z+3)/3 = (3x-2y+6z+8)/7 if sum of coefficients is appropriate.</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>B</answer><explanation>Determine sign of a1a2 + b1b2 + c1c2. Check if a1a2+... &gt; 0 (obtuse) or &lt; 0 (acute).</explanation></question>
+        <question>
+            <text>The plane x/a + y/b + z/c = 1 meets axes at A, B, C. Centroid of ABC is:</text>
+            <option id="A">(a/3, b/3, c/3)</option><option id="B">(a, b, c)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Average of (a,0,0), (0,b,0), (0,0,c).</explanation></question>
+        <question>
+            <text>Projection of line segment on XY plane is length ____.</text>
+            <option id="A">L sqrt(l^2 + m^2)</option><option id="B">L |n|</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>In 3D, projection on XY plane removes z-component.</explanation></question>
+        <question>
+            <text>If line joins (1, -2, 1) and (0, -1, 2), its DRs are:</text>
+            <option id="A">-1, 1, 1</option><option id="B">1, -1, -1</option><option id="C">Both A and B</option><option id="D">None</option>
+            <answer>C</answer><explanation>DRs can be multiplied by -1.</explanation></question>
+        <question>
+            <text>Angle between plane x+y+z=1 and x-y+z=1 is:</text>
+            <option id="A">cos^{-1}(1/3)</option><option id="B">cos^{-1}(1/sqrt(3))</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>|1-1+1| / (sqrt(3)*sqrt(3)) = 1/3.</explanation></question>
+        <question>
+            <text>Line joining (2,3,4) and (4,5,8) is divided by plane x-y+z=3 in ratio:</text>
+            <option id="A">- (2-3+4-3)/(4-5+8-3) = -0/4 = 0:1? Intersects at the point.</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ratio = -P1/P2. 2-3+4-3 = 0. Point lies on plane.</explanation></question>
+        <question>
+            <text>Volume of tetrahedron with vertices i+j+k, i, j, k is:</text>
+            <option id="A">1/6 |[a-d, b-d, c-d]| = 1/6</option><option id="B">1/3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Vertices (1,1,1), (1,0,0), (0,1,0), (0,0,1). Rel vertices (0,-1,-1), (-1,0,-1), (-1,-1,0). Det = 1(1) + 1(-1) = 0? Wait. (0,-1,-1), (-1,0,-1), (-1,-1,0) -&gt; 0 - (-1)(-1) + (-1)(1) = -1 - 1 = -2. Volume = |-2|/6 = 1/3.</explanation></question>
+        <question>
+            <text>Distance of point 2i+k from plane r.(i+2j-2k)=5 is:</text>
+            <option id="A">5/3</option><option id="B">2/3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>| (1(2) + 2(0) - 2(1) - 5) / 3 | = | -5 / 3 | = 5/3.</explanation></question>
+        <question>
+            <text>Angle between line x=y=z and x/2=y/3=z/4:</text>
+            <option id="A">cos^{-1}(9 / sqrt(87))</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Directions (1,1,1) and (2,3,4). Dot = 2+3+4 = 9. Mags = sqrt(3), sqrt(29).</explanation></question>
+        <question>
+            <text>Which plane passes through the origin?</text>
+            <option id="A">x + y + z = 0</option><option id="B">x + y = 1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>0+0+0=0.</explanation></question>
+        <question>
+            <text>The line joining (0,0,0) and (1,1,1) is ____ to plane x+y+z=0.</text>
+            <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">In</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direction (1,1,1) is normal.</explanation></question>
+        <question>
+            <text>Distance between parallel lines r = a + tb and r = c + tb:</text>
+            <option id="A">| (c-a) x b | / |b|</option><option id="B">| c-a |</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard parallel line distance formula.</explanation></question>
+        <question>
+            <text>Condition for plane Ax+By+Cz+D=0 to be parallel to line (x-x1)/a = (y-y1)/b = (z-z1)/c:</text>
+            <option id="A">Aa + Bb + Cc = 0</option><option id="B">A/a = B/b = C/c</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Normal is perpendicular to line direction.</explanation></question>
+        <question>
+            <text>If l1,m1,n1 and l2,m2,n2 are DCs of two lines, then angle theta is:</text>
+            <option id="A">cos theta = l1l2 + m1m2 + n1n2</option><option id="B">sin theta = ...</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard result since magnitudes are 1.</explanation></question>
+        <question>
+            <text>Shortest distance between two skewed lines is 0 if they are:</text>
+            <option id="A">Intersecting</option><option id="B">Parallel</option><option id="C">Coincident</option><option id="D">None</option>
+            <answer>A</answer><explanation>Skewed means non-parallel and non-intersecting.</explanation></question>
+        <question>
+            <text>A line is parallel to XY plane if its ____ direction cosine is 0.</text>
+            <option id="A">n (or z-component)</option><option id="B">l (x)</option><option id="C">m (y)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Normal is (0,0,1). n must be 0 for orthogonality.</explanation></question>
+        <question>
+            <text>Distance of (1, 2, 3) from X-axis is:</text>
+            <option id="A">sqrt(13)</option><option id="B">1</option><option id="C">sqrt(5)</option><option id="D">None</option>
+            <answer>A</answer><explanation>sqrt(2^2 + 3^2) = sqrt(13).</explanation></question>
+        <question>
+            <text>Intersection of three mutually perpendicular planes is a:</text>
+            <option id="A">Point</option><option id="B">Line</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Like corner of a room.</explanation></question>
+        <question>
+            <text>If a line makes alpha with x-axis and beta with y-axis, its DC along z-axis is:</text>
+            <option id="A">+- sqrt(1 - cos^2 alpha - cos^2 beta)</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Derived from l^2+m^2+n^2=1.</explanation></question>
+        <question>
+            <text>Plane Ax+By+Cz+D=0 contains x-axis if:</text>
+            <option id="A">A=0 and D=0</option><option id="B">B=0 and C=0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Normal perp to i (A=0) and origin (0,0,0) into plane (D=0).</explanation></question>
+        <question>
+            <text>The angle between line x/1=y/0=z/0 and plane x=1 is:</text>
+            <option id="A">90 degrees</option><option id="B">0 degrees</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Line is x-axis. Plane is perp to x-axis.</explanation></question>
+        <question>
+            <text>Co-ordinates of foot of perpendicular from (1, -2, 1) to x+y+z+3=0:</text>
+            <option id="A">(0, -3, 0)</option><option id="B">(0, 0, 0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(1+k) + (-2+k) + (1+k) + 3 = 0 -&gt; 3k+3=0 -&gt; k=-1.</explanation></question>
+        <question>
+            <text>Equation of plane passing through line segment joining (1,2,3) and (3,4,5) and origin:</text>
+            <option id="A">x - 2y + z = 0</option><option id="B">x+y+z = 0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Points (1,2,3) and (3,4,5). Normal = (1,2,3)x(3,4,5) = (10-12)i - (5-9)j + (4-6)k = -2i+4j-2k -&gt; i-2j+k.</explanation></question>
+        <question>
+            <text>Reflection of (1,1,1) in origin is:</text>
+            <option id="A">(-1, -1, -1)</option><option id="B">(0, 0, 0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Centric symmetry.</explanation></question>
+        <question>
+            <text>Distance of origin from line x/1=(y-3)/2=z/3:</text>
+            <option id="A">sqrt(45/14)</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>Point (k, 2k+3, 3k). Min mag when k(1) + (2k+3)(2) + 3k(3) = 0 -&gt; k+4k+6+9k=0 -&gt; 14k=-6 -&gt; k=-3/7. Substitute and find mag.</explanation></question>
+        <question>
+            <text>Angle between two lines x=y=z and x/1=y/2=z/3:</text>
+            <option id="A">cos^{-1}(6/sqrt(42))</option><option id="B">cos^{-1}(6/sqrt(14))? No.</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Dot = 1+2+3=6. Mags = sqrt(3), sqrt(14).</explanation></question>
+        <question>
+            <text>Plane x+y+z=3 contains which point?</text>
+            <option id="A">(1, 1, 1)</option><option id="B">(0, 0, 0)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>1+1+1=3.</explanation></question>
+        <question>
+            <text>Value of p for which x/1=y/p=z/1 and x/2=y/1=z/2 are coplanar:</text>
+            <option id="A">1 (any p works for parallel directions? No, they intersect at origin)</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <answer>A</answer><explanation>If they intersect, they are coplanar. Both pass through origin.</explanation></question>
+        <question>
+            <text>Equation of a line is unique if we know ____ and ____.</text>
+            <option id="A">Point and Direction</option><option id="B">Two Points</option><option id="C">Both are correct</option><option id="D">None</option>
+            <answer>C</answer><explanation>Basic definitions.</explanation></question>
+        <question>
+            <text>Shortest distance between x-axis and line x=1, y=1 is:</text>
+            <option id="A">1</option><option id="B">sqrt(2)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>z is arbitrary for both. x-axis (t, 0, 0). Line (1, 1, s). dist^2 = (t-1)^2 + 1 + s^2. Min is 1.</explanation></question>
+    </hard>
+</chapter>

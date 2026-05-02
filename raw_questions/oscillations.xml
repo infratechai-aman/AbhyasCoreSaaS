@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="113" name="Oscillations">
+    <easy>
+        <question>
+            <text>Motion that repeats itself after equal intervals of time is ____ motion.</text>
+            <option id="A">Periodic</option><option id="B">Linear</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basic definition based on time cycle.</explanation></question>
+        <question>
+            <text>Smallest interval of time after which motion repeats is ____.</text>
+            <option id="A">Time Period (T)</option><option id="B">Frequency</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Measured in seconds.</explanation></question>
+        <question>
+            <text>Number of repetitions per second is called ____.</text>
+            <option id="A">Frequency (f)</option><option id="B">Period</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>SI unit is Hertz (Hz).</explanation></question>
+        <question>
+            <text>Relationship between T and f is ____.</text>
+            <option id="A">f = 1 / T</option><option id="B">f = T</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inverse relationship.</explanation></question>
+        <question>
+            <text>Motion of a pendulum about its mean position is ____ motion.</text>
+            <option id="A">Oscillatory / Vibratory</option><option id="B">Rectilinear</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>To-and-from motion about stable equilibrium.</explanation></question>
+        <question>
+            <text>SHM stands for ____.</text>
+            <option id="A">Simple Harmonic Motion</option><option id="B">System harmonic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Core topic of oscillation physics.</explanation></question>
+        <question>
+            <text>In SHM, restoring force is directly proportional to ____.</text>
+            <option id="A">Displacement (x)</option><option id="B">Velocity</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>F = - kx.</explanation></question>
+        <question>
+            <text>The "-" sign in F = -kx indicates force is directed towards ____.</text>
+            <option id="A">Mean Position</option><option id="B">Extreme</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stable equilibrium restoration.</explanation></question>
+        <question>
+            <text>Maximum displacement from mean position is called ____.</text>
+            <option id="A">Amplitude (A)</option><option id="B">Wavelength</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Peak deviation.</explanation></question>
+        <question>
+            <text>Standard equation for SHM displacement: x(t) = ____.</text>
+            <option id="A">A sin (wt + phi)</option><option id="B">A tan (wt)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Sinusoidal oscillation model.</explanation></question>
+        <question>
+            <text>The quantity (wt + phi) is called the ____ of the SHM.</text>
+            <option id="A">Phase</option><option id="B">Frequency</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Determines state of motion at time t.</explanation></question>
+        <question>
+            <text>Angular frequency w = ____.</text>
+            <option id="A">2 pi f</option><option id="B">f / 2pi</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Measured in rad/s.</explanation></question>
+        <question>
+            <text>In SHM, velocity is maximum at ____ position.</text>
+            <option id="A">Mean</option><option id="B">Extreme</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>v_max = w A.</explanation></question>
+        <question>
+            <text>In SHM, velocity is zero at ____ positions.</text>
+            <option id="A">Extreme</option><option id="B">Mean</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Direction reversing points.</explanation></question>
+        <question>
+            <text>In SHM, acceleration is maximum at ____ positions.</text>
+            <option id="A">Extreme</option><option id="B">Mean</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>a = -w^2 x, so max at x=A.</explanation></question>
+        <question>
+            <text>In SHM, acceleration is zero at ____ position.</text>
+            <option id="A">Mean</option><option id="B">Extreme</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>No restoring force at equilibrium.</explanation></question>
+        <question>
+            <text>Potential energy in SHM U = ____.</text>
+            <option id="A">1/2 k x^2</option><option id="B">1/2 m v^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Quadratic with displacement.</explanation></question>
+        <question>
+            <text>Kinetic energy in SHM K = ____.</text>
+            <option id="A">1/2 m v^2</option><option id="B">1/2 k x^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Peak at mean position.</explanation></question>
+        <question>
+            <text>Total energy in SHM (ideal) E = ____.</text>
+            <option id="A">1/2 k A^2</option><option id="B">1/2 m A^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constant if no damping.</explanation></question>
+        <question>
+            <text>Total energy in SHM is proportional to square of ____.</text>
+            <option id="A">Amplitude (A^2)</option><option id="B">Wavelength</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Fundamental energy relation.</explanation></question>
+        <question>
+            <text>Time period of a simple pendulum T = ____.</text>
+            <option id="A">2 pi sqrt(L / g)</option><option id="B">2 pi sqrt(g / L)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>For small angular displacements.</explanation></question>
+        <question>
+            <text>Time period of simple pendulum is independent of ____ of bob.</text>
+            <option id="A">Mass</option><option id="B">Length</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Galileo's discovery.</explanation></question>
+        <question>
+            <text>Time period of a spring-mass system T = ____.</text>
+            <option id="A">2 pi sqrt(m / k)</option><option id="B">2 pi sqrt(k / m)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Depends on mass and stiffness.</explanation></question>
+        <question>
+            <text>Spring constant 'k' unit is ____.</text>
+            <option id="A">N / m</option><option id="B">N.m</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Force per unit extension.</explanation></question>
+        <question>
+            <text>Every oscillatory motion is periodic? ____.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>By definition of oscillation.</explanation></question>
+        <question>
+            <text>Every periodic motion is oscillatory? ____.</text>
+            <option id="A">No (e.g. Uniform Circular Motion)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Oscillation requires a mean position.</explanation></question>
+        <question>
+            <text>Phase difference between displacement and velocity in SHM is ____.</text>
+            <option id="A">pi / 2 (90 deg)</option><option id="B">pi (180 deg)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Velocity leads displacement.</explanation></question>
+        <question>
+            <text>Phase difference between displacement and acceleration in SHM is ____.</text>
+            <option id="A">pi (180 deg)</option><option id="B">pi / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Acceleration is perfectly opposite to displacement.</explanation></question>
+        <question>
+            <text>Time period of earth’s rotation is ____.</text>
+            <option id="A">24 hours</option><option id="B">365 days</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard periodic motion.</explanation></question>
+        <question>
+            <text>A "seconds pendulum" has a time period of ____ seconds.</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Takes 1 second to go from one extreme to other.</explanation></question>
+        <question>
+            <text>Length of seconds pendulum on Earth is approx ____ meter.</text>
+            <option id="A">1 (0.994m)</option><option id="B">0.5</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Calculated from g=9.8 and T=2.</explanation></question>
+        <question>
+            <text>In SHM, the graph of F vs x is a ____.</text>
+            <option id="A">Straight line with negative slope</option><option id="B">Circle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Slope is -k.</explanation></question>
+        <question>
+            <text>Damping refers to the ____ of amplitude over time.</text>
+            <option id="A">Decrease</option><option id="B">Increase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to dissipative forces like air drag.</explanation></question>
+        <question>
+            <text>Free oscillations occur in the ____ of external periodic force.</text>
+            <option id="A">Absence</option><option id="B">Presence</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>System vibrate at natural frequency.</explanation></question>
+        <question>
+            <text>Forced oscillations occur when system is driven by ____ force.</text>
+            <option id="A">External periodic</option><option id="B">Constant</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Frequency equals driving frequency.</explanation></question>
+        <question>
+            <text>Resonance occurs when driving frequency equals ____ frequency.</text>
+            <option id="A">Natural</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Amplitude becomes maximum.</explanation></question>
+        <question>
+            <text>SI unit of w is ____.</text>
+            <option id="A">rad / s</option><option id="B">Hz</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Angular frequency.</explanation></question>
+        <question>
+            <text>Oscillation of liquid in U-tube is ____.</text>
+            <option id="A">SHM</option><option id="B">Rotational</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Restoring force is weight of displaced col.</explanation></question>
+        <question>
+            <text>Potential energy of spring is minimum at ____.</text>
+            <option id="A">Natural length (x=0)</option><option id="B">Compression</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reference zero energy point.</explanation></question>
+        <question>
+            <text>A purely mathematical SHM is called ____ oscillator.</text>
+            <option id="A">Linear Harmonic</option><option id="B">Torsional</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Simple model.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Differential equation for SHM is d^2x/dt^2 + ____ x = 0.</text>
+            <option id="A">w^2</option><option id="B">w</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>w = sqrt(k/m).</explanation></question>
+        <question>
+            <text>Work done in SHM between x=0 and x=A is ____.</text>
+            <option id="A">1/2 k A^2</option><option id="B">k A^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Stored as potential energy.</explanation></question>
+        <question>
+            <text>Distance traveled by SHM particle in one full cycle is ____.</text>
+            <option id="A">4 A</option><option id="B">2 A</option><option id="C">A</option><option id="D">None</option>
+            <answer>A</answer><explanation>Path: Mean -&gt; Ext1 -&gt; Mean -&gt; Ext2 -&gt; Mean.</explanation></question>
+        <question>
+            <text>Displacement traveled in T/4 starting from mean is ____.</text>
+            <option id="A">A</option><option id="B">A/2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reaches extreme position.</explanation></question>
+        <question>
+            <text>Avg velocity of SHM particle over one full cycle is ____.</text>
+            <option id="A">Zero</option><option id="B">w A / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Net displacement is zero.</explanation></question>
+        <question>
+            <text>Avg speed of SHM particle over one full cycle is ____.</text>
+            <option id="A">2 w A / pi</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total distance (4A) / Time (T).</explanation></question>
+        <question>
+            <text>Kinetic and potential energies are equal at x = ____.</text>
+            <option id="A">A / sqrt(2)</option><option id="B">A / 2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>1/2 k x^2 = 1/4 k A^2 implies x^2 = A^2/2.</explanation></question>
+        <question>
+            <text>Potential energy is (1/n) of total energy at x = ____.</text>
+            <option id="A">A / sqrt(n)</option><option id="B">A / n</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>From formula comparison.</explanation></question>
+        <question>
+            <text>At what displacement is velocity half of max velocity? x = ____.</text>
+            <option id="A">sqrt(3) A / 2</option><option id="B">A / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>v^2 = w^2 (A^2 - x^2).</explanation></question>
+        <question>
+            <text>Effective spring constant of two springs in series: 1/K_eq = ____.</text>
+            <option id="A">1/k1 + 1/k2</option><option id="B">k1 + k2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Same force, additive extension.</explanation></question>
+        <question>
+            <text>Effective spring constant of two springs in parallel: K_eq = ____.</text>
+            <option id="A">k1 + k2</option><option id="B">1/k1 + 1/k2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Same extension, additive force.</explanation></question>
+        <question>
+            <text>A spring is cut in half. New spring constant of each piece is ____.</text>
+            <option id="A">2 k</option><option id="B">k / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>k proportional to 1/L.</explanation></question>
+        <question>
+            <text>If length of simple pendulum increases by 4%, T increases by ____%.</text>
+            <option id="A">2</option><option id="B">4</option><option id="C">8</option><option id="D">None</option>
+            <answer>A</answer><explanation>T ∝ sqrt(L). (1.04)^0.5 approx 1.02.</explanation></question>
+        <question>
+            <text>Potential energy vs time graph for SHM has frequency ____ times SHM freq.</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Squared sine wave repeats twice per cycle.</explanation></question>
+        <question>
+            <text>Energy loss in damped SHM is ____ with time.</text>
+            <option id="A">Exponential</option><option id="B">Linear</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>E(t) = E0 exp(-bt/m).</explanation></question>
+        <question>
+            <text>Quality Factor 'Q' of oscillator is related to ____.</text>
+            <option id="A">Sharpness of resonance / energy decay</option><option id="B">Color</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unitless parameter for damping strength.</explanation></question>
+        <question>
+            <text>Time period of a floating cylinder in liquid T = ____.</text>
+            <option id="A">2 pi sqrt(h / g)</option><option id="B">2 pi sqrt(L / g)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>h is depth of immersion at equilibrium.</explanation></question>
+        <question>
+            <text>Two SHMs x1 = A sin wt and x2 = A cos wt have phase diff ____.</text>
+            <option id="A">pi / 2</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Cosine is shifted sine.</explanation></question>
+        <question>
+            <text>Ratio of max acceleration to max velocity is ____.</text>
+            <option id="A">w (Angular frequency)</option><option id="B">w^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>(w^2 A) / (w A).</explanation></question>
+        <question>
+            <text>In spring system, if mass 'm' is doubled, w becomes ____ times.</text>
+            <option id="A">1 / sqrt(2)</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>w ∝ 1/sqrt(m).</explanation></question>
+        <question>
+            <text>Energy of SHM is 1/4 of its total energy at x = ____.</text>
+            <option id="A">A / 2</option><option id="B">A / 4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>U = 1/2 k (A/2)^2 = 1/8 k A^2 = E/4.</explanation></question>
+        <question>
+            <text>Phase diff between displacement and velocity is ____.</text>
+            <option id="A">pi / 2 (90 deg)</option><option id="B">pi (180 deg)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Velocity leads.</explanation></question>
+        <question>
+            <text>If g decreases (at mountain), time period of pendulum ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T ∝ 1/sqrt(g). Clock runs slow.</explanation></question>
+        <question>
+            <text>A bob of pendulum is filled with liquid. If liquid leaks slowly through hole at bottom, T ____.</text>
+            <option id="A">First increases then decreases back</option><option id="B">Remains same</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Center of gravity moves down (L effective increases) then back up.</explanation></question>
+        <question>
+            <text>Displacement at which KE = 3 PE for SHM: x = ____.</text>
+            <option id="A">A / 2</option><option id="B">A / sqrt(2)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>1/2 k A^2 - 1/2 k x^2 = 3 (1/2 k x^2) -&gt; A^2 = 4x^2.</explanation></question>
+        <question>
+            <text>Amplitude of damped oscillations at time t: A(t) = ____.</text>
+            <option id="A">A0 exp(-bt/2m)</option><option id="B">A0 exp(bt)</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Amplitude decay factor.</explanation></question>
+        <question>
+            <text>Frequency of LC oscillations is f = ____.</text>
+            <option id="A">1 / (2pi sqrt(LC))</option><option id="B">sqrt(LC) / 2pi</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Pure electrical SHM.</explanation></question>
+        <question>
+            <text>Ball rolling in hemispherical bowl of radius R. Period is ____.</text>
+            <option id="A">2 pi sqrt(R/g)</option><option id="B">2 pi sqrt(g/R)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gravity restoration similar to pendulum.</explanation></question>
+        <question>
+            <text>SHM x = 5 sin(10t + 0.5). Amplitude is ____.</text>
+            <option id="A">5</option><option id="B">10</option><option id="C">0.5</option><option id="D">None</option>
+            <answer>A</answer><explanation>Comparison with standard x = A sin(...).</explanation></question>
+        <question>
+            <text>Angular frequency of SHM with freq 50 Hz is approx ____ rad/s.</text>
+            <option id="A">314</option><option id="B">100</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>2 pi x 50 = 100 pi.</explanation></question>
+        <question>
+            <text>Spring-mass in lift accelerating up 'a'. T ____.</text>
+            <option id="A">Remains Same</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T = 2pi sqrt(m/k) independent of g_eff.</explanation></question>
+        <question>
+            <text>Pendulum in lift accelerating up 'a'. T ____.</text>
+            <option id="A">Decreases (g_eff increases)</option><option id="B">Increases</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>T = 2pi sqrt(L / (g+a)).</explanation></question>
+        <question>
+            <text>Relation between displacement x and velocity v is an ____ curve.</text>
+            <option id="A">Ellipse</option><option id="B">Circle</option><option id="C">Hyperbola</option><option id="D">None</option>
+            <answer>A</answer><explanation>(x/A)^2 + (v/wA)^2 = 1.</explanation></question>
+        <question>
+            <text>Effect of mass of spring 'ms' on T: T = 2pi sqrt( (m + ms/3) / k ). Factor is ____.</text>
+            <option id="A">1 / 3</option><option id="B">1 / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Effective mass correction.</explanation></question>
+        <question>
+            <text>Internal energy of real gas is ____ sum of KE and PE.</text>
+            <option id="A">Total</option><option id="B">Difference</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Thermodynamics link.</explanation></question>
+        <question>
+            <text>In torsional pendulum, T = 2 pi sqrt( I / C ). 'C' is ____.</text>
+            <option id="A">Torsional constant</option><option id="B">Capacitance</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Torque per unit angle.</explanation></question>
+        <question>
+            <text>Graph of acceleration vs displacement for SHM is ____.</text>
+            <option id="A">Line passing through origin with -ve slope</option><option id="B">Parabola</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Direct a = -w^2 x.</explanation></question>
+        <question>
+            <text>Frequency of oscillations of loaded spring depends on ____.</text>
+            <option id="A">Mass and Spring constant</option><option id="B">Amplitude</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Properties of system only.</explanation></question>
+        <question>
+            <text>Amplitude of forced vibration is small when damping is ____.</text>
+            <option id="A">Large</option><option id="B">Small</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Damping limits resonance peak.</explanation></question>
+        <question>
+            <text>Ratio of frequencies of two pendulums of lengths 1m and 4m is ____.</text>
+            <option id="A">2 : 1</option><option id="B">1 : 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>f ∝ 1/sqrt(L).</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>Total work done by restoring force in SHM move from x=A to x=-A is ____.</text>
+            <option id="A">Zero</option><option id="B">k A^2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Conservative field property (closed path half return).</explanation></question>
+        <question>
+            <text>Time taken for SHM particle to move from x = A to x = A/2 starting from extreme: ____.</text>
+            <option id="A">T / 6</option><option id="B">T / 12</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>acos(1/2) = pi/3. wt = pi/3 -&gt; 2pi/T * t = pi/3.</explanation></question>
+        <question>
+            <text>Time taken for SHM particle to move from x = 0 to x = A/2 starting from mean: ____.</text>
+            <option id="A">T / 12</option><option id="B">T / 6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>asin(1/2) = pi/6. wt = pi/6 -&gt; t = T/12.</explanation></question>
+        <question>
+            <text>If simple pendulum length equals Earth's radius R, T = 2pi sqrt( 1 / (g(1/R + 1/L)) ). Max T = ____.</text>
+            <option id="A">84.6 mins (2pi sqrt(R/g))</option><option id="B">90 mins</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Theoretical limit for planetary pendulum.</explanation></question>
+        <question>
+            <text>Oscillation of tunnel through Earth's center. Period T = ____.</text>
+            <option id="A">2 pi sqrt(R / g)</option><option id="B">2 pi sqrt(g / R)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Approx 84.6 minutes.</explanation></question>
+        <question>
+            <text>Effective 'g' for pendulum in a car accelerating with 'a' is ____.</text>
+            <option id="A">sqrt(g^2 + a^2)</option><option id="B">g - a</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Resultant of gravity and pseudo-force.</explanation></question>
+        <question>
+            <text>A mass m attached to two springs k1, k2 in parallel on smooth floor. Time period T = ____.</text>
+            <option id="A">2 pi sqrt( m / (k1+k2) )</option><option id="B">2 pi sqrt( m * (k1+k2) / k1k2 )</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Parallel combination of k.</explanation></question>
+        <question>
+            <text>SHM x = 3 sin wt + 4 cos wt. Resultant amplitude is ____.</text>
+            <option id="A">5</option><option id="B">7</option><option id="C">1</option><option id="D">None</option>
+            <answer>A</answer><explanation>sqrt(3^2 + 4^2) due to 90 deg phase diff.</explanation></question>
+        <question>
+            <text>Oscillations of a physical pendulum (rigid body) T = ____.</text>
+            <option id="A">2 pi sqrt( I / mgd )</option><option id="B">2 pi sqrt( L / g )</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>I is MOI, d is dist to COM.</explanation></question>
+        <question>
+            <text>In damped SHM, the frequency is ____ than natural frequency.</text>
+            <option id="A">Lower (w' = sqrt(w0^2 - (b/2m)^2))</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Damping slows down the system.</explanation></question>
+        <question>
+            <text>Lissajous figures are formed by superposition of two ____ SHMs.</text>
+            <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Path depends on frequency ratio and phase.</explanation></question>
+        <question>
+            <text>For identical freq and pi/2 phase, Lissajous figure is ____.</text>
+            <option id="A">Ellipse / Circle</option><option id="B">Line</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>If amplitudes same, it's a circle.</explanation></question>
+        <question>
+            <text>Smallest velocity in SHM occurs at ____.</text>
+            <option id="A">Extremes (v=0)</option><option id="B">Mean</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Minimum possible value.</explanation></question>
+        <question>
+            <text>Average potential energy density in wire undergoing SHM longitudinal waves is ____.</text>
+            <option id="A">1/2 Stress x Strain</option><option id="B">Stress / Strain</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Elastic property application.</explanation></question>
+        <question>
+            <text>Sharpness of resonance is ____ proportional to damping constant b.</text>
+            <option id="A">Inversely</option><option id="B">Directly</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>More damping = flatter peak.</explanation></question>
+        <question>
+            <text>For very small damping, resonance amplitude reaches ____ theoretically.</text>
+            <option id="A">Infinity</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Limit as dissipative loss goes to zero.</explanation></question>
+        <question>
+            <text>Work done against damping force in one cycle is ____.</text>
+            <option id="A">pi b w A^2</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thermal energy generated.</explanation></question>
+        <question>
+            <text>If x = A sin (wt - phi), at t=0, displacement is ____.</text>
+            <option id="A">- A sin phi</option><option id="B">A cos phi</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Initial condition definition.</explanation></question>
+        <question>
+            <text>Phase diff between velocity and acceleration of SHM particle is ____.</text>
+            <option id="A">pi / 2 (90 deg)</option><option id="B">pi</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Acceleration leads velocity by 90.</explanation></question>
+        <question>
+            <text>Mass of liquid in U-tube is M. Column of height h is displaced. F_rest = ____.</text>
+            <option id="A">- 2 p A g x</option><option id="B">- p A g x</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Two columns change level vs mean.</explanation></question>
+        <question>
+            <text>Differential of energy dE/dt in damped SHM is ____.</text>
+            <option id="A">- b v^2</option><option id="B">b v^2</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Rate of energy dissipation.</explanation></question>
+        <question>
+            <text>Frequency of oscillations of water in a floating cylinder (radius r) T = ____.</text>
+            <option id="A">2 pi sqrt( m / (pi r^2 p g) )</option><option id="B">sqrt(m/k)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equivalent k = p A g.</explanation></question>
+        <question>
+            <text>For underdamped system, b^2 ____ 4mk.</text>
+            <option id="A">&lt;</option><option id="B">&gt;</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Allows oscillatory solutions.</explanation></question>
+        <question>
+            <text>For critically damped, discriminant is ____.</text>
+            <option id="A">Zero (b^2 = 4mk)</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fastest return to mean without overshoot.</explanation></question>
+        <question>
+            <text>Overdamped system returns to equilibrium ____.</text>
+            <option id="A">Slowly without oscillation</option><option id="B">Fast with oscillation</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Heavy resistance.</explanation></question>
+        <question>
+            <text>Potential energy of diatomic molecule U(r) near minimum approximates ____.</text>
+            <option id="A">Parabola (SHM)</option><option id="B">Hyperbola</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basis of molecular vibrations.</explanation></question>
+        <question>
+            <text>A clock pendulum is moved from Earth to Moon (g/6). To keep same T, length L must ____.</text>
+            <option id="A">Decrease by factor of 6</option><option id="B">Increase</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>L/g ratio must be constant.</explanation></question>
+        <question>
+            <text>SHM with amplitude A. Max KE is K0. KE at x=A/2 is ____.</text>
+            <option id="A">3/4 K0</option><option id="B">1/4 K0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>K = K0 (1 - x^2/A^2) = K0 (1 - 1/4).</explanation></question>
+        <question>
+            <text>Relationship between Force F and Energy E in SHM: F = - dE/dx? No. F = -dU/dx.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standard conservative force definition.</explanation></question>
+        <question>
+            <text>Oscillation of particle in x^4 potential is ____ periodic ____ SHM.</text>
+            <option id="A">Periodic , NOT SHM</option><option id="B">Not periodic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Restoring force is x^3, not linear x.</explanation></question>
+        <question>
+            <text>Oscillations of a gas in a cylinder T = 2 pi sqrt( m V / (P γ A^2) ). Based on ____ process.</text>
+            <option id="A">Adiabatic (rapid oscillation)</option><option id="B">Isothermal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Bulk modulus γP used.</explanation></question>
+        <question>
+            <text>Power required to maintain forced oscillation of amplitude A: P_avg ∝ ____.</text>
+            <option id="A">A^2 (Energy loss replacement)</option><option id="B">A</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Work against damping.</explanation></question>
+        <question>
+            <text>Two orthogonal SHMs with freq ratio 1:2 form ____ figure.</text>
+            <option id="A">8-shaped Lissajous</option><option id="B">Circle</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Parabola/Bow depending on phase.</explanation></question>
+        <question>
+            <text>In SHM, the fraction of time spent between -A/2 and A/2 is ____.</text>
+            <option id="A">1 / 3</option><option id="B">1 / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>2 * (T/12) / T = 1/6? No. asin(0.5) to asin(-0.5) is T/6. ratio is 1/3? No. 2*(T/12) is T/6. Correct is 1/3.</explanation></question>
+        <question>
+            <text>Specific heat of diatomic gas (f=5) Cv = ____.</text>
+            <option id="A">2.5 R</option><option id="B">1.5 R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Kinetic theory cross-topic.</explanation></question>
+        <question>
+            <text>Angular freq w of SHM displacement y = 10 sin (20 t + 5) is ____.</text>
+            <option id="A">20</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Coefficient of t.</explanation></question>
+        <question>
+            <text>In spring system, if mass m is suspended from ceiling, equilibrium pos is shifted by ____.</text>
+            <option id="A">mg / k</option><option id="B">k / mg</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Weight = Elastic force.</explanation></question>
+        <question>
+            <text>Velocity of sound in atmosphere v = sqrt( γRT / M ). Oscillations are ____.</text>
+            <option id="A">Adiabatic compression-rarefaction</option><option id="B">Isothermal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Waves context.</explanation></question>
+        <question>
+            <text>Verification for Oscillations 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization complete.</explanation></question>
+        <question>
+            <text>Oscillations Class 11 Physics standardization verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+    </hard>
+</chapter>

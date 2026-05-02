@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="208" name="Hydrogen">
+    <easy>
+        <question>
+            <text>Hydrogen is the ____ element in the periodic table.</text>
+            <option id="A">First</option><option id="B">Last</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Z = 1. Simplest atom.</explanation></question>
+        <question>
+            <text>Hydrogen shows dual behavior, resembling both ____ and ____.</text>
+            <option id="A">Alkali metals , Halogens</option><option id="B">Alkali metals, Noble gases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electronic configuration ns1 (like alkali) and needs 1e- for octet (like halogens).</explanation></question>
+        <question>
+            <text>The most abundant element in the universe is ____.</text>
+            <option id="A">Hydrogen</option><option id="B">Helium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Makes up ~70% of total mass of universe.</explanation></question>
+        <question>
+            <text>Isotope of hydrogen with no neutrons is ____.</text>
+            <option id="A">Protium</option><option id="B">Deuterium</option><option id="C">Tritium</option><option id="D">None</option>
+            <answer>A</answer><explanation>Common hydrogen (1H1).</explanation></question>
+        <question>
+            <text>Isotope of hydrogen known as 'Heavy Hydrogen' is ____.</text>
+            <option id="A">Deuterium</option><option id="B">Protium</option><option id="C">Tritium</option><option id="D">None</option>
+            <answer>A</answer><explanation>Symbol D or 2H1. Contains 1 neutron.</explanation></question>
+        <question>
+            <text>Radioactive isotope of hydrogen is ____.</text>
+            <option id="A">Tritium</option><option id="B">Deuterium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Symbol T or 3H1. Beta emitter.</explanation></question>
+        <question>
+            <text>Laboratory preparation of Dihydrogen involves reaction of ____ with dilute HCl.</text>
+            <option id="A">Granulated Zinc</option><option id="B">Copper</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Zn + 2H+ -&gt; Zn2+ + H2.</explanation></question>
+        <question>
+            <text>Dihydrogen is commercially prepared by electrolysis of ____.</text>
+            <option id="A">Acidified Water</option><option id="B">Brine solution</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Uses Platinum electrodes.</explanation></question>
+        <question>
+            <text>High purity hydrogen (&gt;99.95%) is obtained by electrolysis of warm barium hydroxide solution using ____ electrodes.</text>
+            <option id="A">Nickel</option><option id="B">Iron</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Industrial process for very pure gas.</explanation></question>
+        <question>
+            <text>Water-gas is a mixture of ____ and ____.</text>
+            <option id="A">CO , H2</option><option id="B">CO2, H2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also called synthesis gas or syngas.</explanation></question>
+        <question>
+            <text>Reaction of steam with red hot coke is called ____ reaction.</text>
+            <option id="A">Water-gas / Coal Gasification</option><option id="B">Decomposition</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>C(s) + H2O(g) -&gt; CO(g) + H2(g).</explanation></question>
+        <question>
+            <text>Syngas is used for synthesis of ____ and many hydrocarbons.</text>
+            <option id="A">Methanol</option><option id="B">Ethanol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basis of many industrial chemicals.</explanation></question>
+        <question>
+            <text>Increasing H2 yield by reacting CO of syngas with steam is water-gas ____ reaction.</text>
+            <option id="A">Shift</option><option id="B">Synthesis</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>CO + H2O -&gt; CO2 + H2.</explanation></question>
+        <question>
+            <text>Dihydrogen reacts with Nitrogen at high P/T over Fe catalyst to form ____.</text>
+            <option id="A">Ammonia (NH3)</option><option id="B">Nitric acid</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Haber process.</explanation></question>
+        <question>
+            <text>Addition of hydrogen to unsaturated vegetable oils to form solid fats (vanaspati) is ____.</text>
+            <option id="A">Hydrogenation</option><option id="B">Hydration</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Uses Nickel catalyst.</explanation></question>
+        <question>
+            <text>Binary compounds of hydrogen with other elements are called ____.</text>
+            <option id="A">Hydrides</option><option id="B">Oxides</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Categorized into ionic, covalent, metallic.</explanation></question>
+        <question>
+            <text>Saline or Ionic hydrides are formed with ____ block elements.</text>
+            <option id="A">s-block</option><option id="B">p-block</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Active metals (except Be, Mg forming covalent).</explanation></question>
+        <question>
+            <text>Molecular or Covalent hydrides are formed with ____ block elements.</text>
+            <option id="A">p-block</option><option id="B">s-block</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: CH4, NH3, H2O.</explanation></question>
+        <question>
+            <text>Metallic or Non-stoichiometric hydrides are formed with ____ block elements.</text>
+            <option id="A">d and f block</option><option id="B">p-block</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hydrogen fits in interstices.</explanation></question>
+        <question>
+            <text>Electron-deficient hydride example: ____.</text>
+            <option id="A">B2H6 (Diborane)</option><option id="B">CH4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Group 13 hydrides.</explanation></question>
+        <question>
+            <text>Electron-precise hydride example: ____.</text>
+            <option id="A">CH4</option><option id="B">NH3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Group 14 hydrides.</explanation></question>
+        <question>
+            <text>Electron-rich hydride example: ____.</text>
+            <option id="A">NH3 (Has lone pair)</option><option id="B">CH4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Groups 15, 16, 17.</explanation></question>
+        <question>
+            <text>Amphoteric nature of water means it can act as both ____ and ____.</text>
+            <option id="A">Acid , Base</option><option id="B">Metal, Non-metal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Can donate or accept protons.</explanation></question>
+        <question>
+            <text>Water is a liquid at room temp due to ____ bonding.</text>
+            <option id="A">Hydrogen</option><option id="B">Ionic</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Extensive association.</explanation></question>
+        <question>
+            <text>Crystalline form of water is ____.</text>
+            <option id="A">Ice</option><option id="B">Vapor</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Hexagonal structure usually.</explanation></question>
+        <question>
+            <text>Hardness of water is due to presence of soluble salts of ____ and ____.</text>
+            <option id="A">Calcium , Magnesium</option><option id="B">Sodium, Potassium</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Specifically bicarbonates, chlorides, sulfates.</explanation></question>
+        <question>
+            <text>Temporary hardness is caused by ____ of Ca and Mg.</text>
+            <option id="A">Bicarbonates / Hydrogen carbonates</option><option id="B">Sulfates</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Removed by boiling.</explanation></question>
+        <question>
+            <text>Permanent hardness is caused by ____ and ____ of Ca and Mg.</text>
+            <option id="A">Chlorides , Sulfates</option><option id="B">Carbonates</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Requires chemical treatment.</explanation></question>
+        <question>
+            <text>Calgon is a commercial name for Sodium ____.</text>
+            <option id="A">Hexametaphosphate (Na6P6O18)</option><option id="B">Carbonate</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used for water softening.</explanation></question>
+        <question>
+            <text>Hydrogen Peroxide (H2O2) is an important ____ used in pollution control.</text>
+            <option id="A">Oxidizing / Reducing agent</option><option id="B">Fuel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Eco-friendly oxidant.</explanation></question>
+        <question>
+            <text>Structure of H2O2 is ____.</text>
+            <option id="A">Non-planar (Open book)</option><option id="B">Planar</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dihedral angle approx 111 in gas phase.</explanation></question>
+        <question>
+            <text>Heavy water is ____.</text>
+            <option id="A">D2O</option><option id="B">H2O2</option><option id="C">T2O</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used as moderator in nuclear reactors.</explanation></question>
+        <question>
+            <text>Hydrogen economy is based on the use of hydrogen as a ____.</text>
+            <option id="A">Fuel / Energy carrier</option><option id="B">Food</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Storage and transport of energy using H2.</explanation></question>
+        <question>
+            <text>The only liquid non-metal at STP is ____? (Br? no... Hydrogen question?) Hydrogen is gas.</text>
+            <option id="A">Bromine (not hydrogen)</option><option id="B">Mercury</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Misc chemical fact.</explanation></question>
+        <question>
+            <text>Density of hydrogen is ____ than air.</text>
+            <option id="A">Lower (Lightest gas)</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>0.089 g/L.</explanation></question>
+        <question>
+            <text>Nascent hydrogen is more ____ than ordinary dihydrogen.</text>
+            <option id="A">Reactive</option><option id="B">Stable</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Atomic hydrogen during generation.</explanation></question>
+        <question>
+            <text>Proton (H+) does not exist freely in aqueous solution; it forms ____ ions.</text>
+            <option id="A">Hydronium (H3O+)</option><option id="B">Hydroxide</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Heavily solvated.</explanation></question>
+        <question>
+            <text>H2O2 behaves as a/an ____ agent in both acidic and basic media.</text>
+            <option id="A">Oxidizing and Reducing</option><option id="B">Only Oxidizing</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Versatile redox reagent.</explanation></question>
+        <question>
+            <text>Volume strength of H2O2: 10 volume H2O2 means 1 L of it gives ____ L of O2 at STP.</text>
+            <option id="A">10</option><option id="B">22.4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard way to express concentration.</explanation></question>
+        <question>
+            <text>Hydrogen gas is highly ____ and burns with a pale blue flame.</text>
+            <option id="A">Combustible</option><option id="B">Acidic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Non-supporter of combustion but burns itself.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Which of the following is most abundant in the Earth's crust: H, O, Al, Fe?</text>
+            <option id="A">Oxygen</option><option id="B">Hydrogen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>H is only ~0.15% by mass in crust.</explanation></question>
+        <question>
+            <text>Ortho and Para hydrogen differ in ____ spins.</text>
+            <option id="A">Nuclear</option><option id="B">Electron</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Isomers of H2 molecule.</explanation></question>
+        <question>
+            <text>At room temp, ordinary hydrogen is approx ____ % ortho.</text>
+            <option id="A">75</option><option id="B">25</option><option id="C">50</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ortho is more stable at higher T.</explanation></question>
+        <question>
+            <text>Atomic hydrogen torch uses temp up to ____ K for welding.</text>
+            <option id="A">4000</option><option id="B">2000</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Recombination of atomic H releases huge heat.</explanation></question>
+        <question>
+            <text>Saline hydrides react with water to produce ____ gas.</text>
+            <option id="A">Dihydrogen (H2)</option><option id="B">Oxygen</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>LiH + H2O -&gt; LiOH + H2.</explanation></question>
+        <question>
+            <text>Which hydride is used to prepare other complex hydrides like LiAlH4?</text>
+            <option id="A">Lithium Hydride (LiH)</option><option id="B">NaH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Starting material for synthesis.</explanation></question>
+        <question>
+            <text>Presence of H-bonding in NH3, H2O, HF leads to ____ boiling points than expected for their mass.</text>
+            <option id="A">Higher</option><option id="B">Lower</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intermolecular association.</explanation></question>
+        <question>
+            <text>Hydrides of which group elements were known for the Hydrogen Gap? (d-block 7,8,9?)</text>
+            <option id="A">Groups 7, 8 and 9 (Except Cr in 6)</option><option id="B">Groups 1, 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Metals that do not easily form hydrides.</explanation></question>
+        <question>
+            <text>Auto-protolysis constant of water Kw at 298 K is ____.</text>
+            <option id="A">1.0 x 10^-14</option><option id="B">1.0 x 10^-7</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Critical for pH scale.</explanation></question>
+        <question>
+            <text>Permanent hardness removed by ____ method using zeolite / permutit.</text>
+            <option id="A">Ion-exchange</option><option id="B">Clark's</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Replaces Ca2+ with Na+.</explanation></question>
+        <question>
+            <text>Removing temporary hardness by adding lime is ____ method.</text>
+            <option id="A">Clark's</option><option id="B">Calgon</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Precipitates carbonates.</explanation></question>
+        <question>
+            <text>Synthetic resins use ____ and ____ exchange for demineralized water.</text>
+            <option id="A">Cation , Anion</option><option id="B">Na, Cl</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Produces water free from all soluble salts.</explanation></question>
+        <question>
+            <text>2-Ethylanthraquinone process is used for commercial production of ____.</text>
+            <option id="A">H2O2</option><option id="B">D2O</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cyclic auto-oxidation process.</explanation></question>
+        <question>
+            <text>H2O2 must be stored in ____ to prevent decomposition.</text>
+            <option id="A">Plastic or wax-lined glass (in dark)</option><option id="B">Copper vessels</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Light and metal ions catalyze decomposition.</explanation></question>
+        <question>
+            <text>The weight of one liter of H2 gas at STP is approx ____ g.</text>
+            <option id="A">0.09</option><option id="B">1.0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>M/22.4 approx 2/22.4.</explanation></question>
+        <question>
+            <text>Reaction: Zn + NaOH (heat) -&gt; ____ + H2.</text>
+            <option id="A">Na2ZnO2 (Sodium Zincate)</option><option id="B">Zn(OH)2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Amphoteric nature of Zn.</explanation></question>
+        <question>
+            <text>Maximum density of water is at ____ degree C.</text>
+            <option id="A">4 (3.98)</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Critical for aquatic life in winters.</explanation></question>
+        <question>
+            <text>Boiling point of D2O is ____ than H2O.</text>
+            <option id="A">Higher (101.4 C)</option><option id="B">Lower</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer>Due to higher mass and slightly stronger intermolecular forces.</question>
+        <question>
+            <text>Reaction: CaO + H2O -&gt; Ca(OH)2. This is ____ of water.</text>
+            <option id="A">Hydration / Hydrolysis? (Hydration)</option><option id="B">Redox</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Oxide to hydroxide conversion.</explanation></question>
+        <question>
+            <text>Reaction: P4O10 + 6H2O -&gt; 4H3PO4. Water acts as ____.</text>
+            <option id="A">Hydrating agent</option><option id="B">Oxidant</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Forms oxoacid.</explanation></question>
+        <question>
+            <text>Which of the following does not form an ionic hydride: Li, Mg, Ca, Sr?</text>
+            <option id="A">Mg (Forms covalent polymeric hydride)</option><option id="B">Ca</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Beryllium also forms covalent hydride.</explanation></question>
+        <question>
+            <text>Melting point of D2 is ____ than H2.</text>
+            <option id="A">Higher</option><option id="B">Lower</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Isotope effects on physical properties.</explanation></question>
+        <question>
+            <text>Bond dissociation enthalpy of H2 is ____ in single bonds for diatomic.</text>
+            <option id="A">Highest (435.9 kJ/mol)</option><option id="B">Lowest</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to small size of atoms.</explanation></question>
+        <question>
+            <text>Commercial 30% H2O2 is called '____ volume' H2O2.</text>
+            <option id="A">100</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculation: Moles in 1L of 30% H2O2 approx 8.8. Gives ~100L O2.</explanation></question>
+        <question>
+            <text>Reaction: 2KI + H2O2 -&gt; 2KOH + I2. H2O2 acts as ____.</text>
+            <option id="A">Oxidizing agent</option><option id="B">Reducing agent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Oxidizes Iodide to Iodine.</explanation></question>
+        <question>
+            <text>Reaction: 2KMnO4 + 3H2SO4 + 5H2O2 -&gt; K2SO4 + 2MnSO4 + 8H2O + 5O2. H2O2 acts as ____.</text>
+            <option id="A">Reducing agent</option><option id="B">Oxidizing agent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reduces Purple Mn+7 to Colorless Mn+2.</explanation></question>
+        <question>
+            <text>Interstitial hydrides are generally ____ than parent metals.</text>
+            <option id="A">Harder and more brittle</option><option id="B">Softer</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Inclusion of H atoms inhibits plane slipping.</explanation></question>
+        <question>
+            <text>Dihydrogen as a fuel has ____ calorific value per unit mass than petrol.</text>
+            <option id="A">Higher (3x)</option><option id="B">Lower</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Approx 150 kJ/g vs 45 kJ/g.</explanation></question>
+        <question>
+            <text>Disadvantage of H2 fuel is its ____ volume density.</text>
+            <option id="A">Low</option><option id="B">High</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Requires heavy compression or cooling.</explanation></question>
+        <question>
+            <text>H2O2 is used in restoring colors of old ____ paintings.</text>
+            <option id="A">Lead (Oil)</option><option id="B">Gold</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Converts black PbS to white PbSO4.</explanation></question>
+        <question>
+            <text>Structure of Ice: Each Oxygen is surrounded by ____ other oxygens tetrahedrally.</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Open cage-like structure.</explanation></question>
+        <question>
+            <text>Dielectric constant of water is ____ (~78).</text>
+            <option id="A">Very high</option><option id="B">Low</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Makes it an excellent solvent for ionic compounds.</explanation></question>
+        <question>
+            <text>Heavy water is obtained from ordinary water by ____.</text>
+            <option id="A">Prolonged electrolysis</option><option id="B">Filtration</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>H2O is electrolyzed faster than D2O.</explanation></question>
+        <question>
+            <text>Which hydride does not have the 'hydrogen gap': Cr, Fe, Co, Ni?</text>
+            <option id="A">Cr (Forms CrH)</option><option id="B">Fe</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Group 6 transition elements partial presence.</explanation></question>
+        <question>
+            <text>Hydrolysis of Al4C3 (Aluminum Carbide) gives ____ gas.</text>
+            <option id="A">Methane (CH4)</option><option id="B">Ethane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Al4C3 + 12H2O -&gt; 4Al(OH)3 + 3CH4.</explanation></question>
+        <question>
+            <text>Percentage by weight of hydrogen in H2O is approx ____ %.</text>
+            <option id="A">11.1</option><option id="B">2.0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>2 / 18 x 100.</explanation></question>
+        <question>
+            <text>In polyatomic molecules like water, O-H bond length is approx ____ pm.</text>
+            <option id="A">96</option><option id="B">120</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Characteristic covalent distance.</explanation></question>
+        <question>
+            <text>Liquid hydrogen is used as ____ in rockets.</text>
+            <option id="A">Fuel</option><option id="B">Oxidant</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Along with liquid oxygen.</explanation></question>
+        <question>
+            <text>Water-gas shift reaction use ____ catalyst.</text>
+            <option id="A">Iron chromate</option><option id="B">Nickel</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Optimizes industrial yield.</explanation></question>
+        <question>
+            <text>Which of the isotopes has max mass? ____.</text>
+            <option id="A">Tritium</option><option id="B">Deuterium</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Approx 3 amu.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>Heat of hydration of H+ ion is approx ____ kJ/mol.</text>
+            <option id="A">-1091 (Very High)</option><option id="B">-500</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Responsible for immediate hydration to H3O+.</explanation></question>
+        <question>
+            <text>Dipole moment of H2O is 1.84 D. If it were a linear molecule, it would be ____.</text>
+            <option id="A">Zero</option><option id="B">3.68</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cancellation of vectors.</explanation></question>
+        <question>
+            <text>Entropy of ortho-hydrogen ____ than para-hydrogen at same T?</text>
+            <option id="A">Higher (3 nuclear states vs 1)</option><option id="B">Lower</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Basis of ortho-para transition study.</explanation></question>
+        <question>
+            <text>The concentration of tritium in environmental water is approx ____ atoms per 10^18 atoms of protium.</text>
+            <option id="A">1</option><option id="B">1000</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Extremely rare in nature.</explanation></question>
+        <question>
+            <text>Which is more basic: NaOH or Ca(OH)2? (in molarity? NaOH) ____ .</text>
+            <option id="A">NaOH</option><option id="B">Ca(OH)2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Group 1 hydroxides are most basic.</explanation></question>
+        <question>
+            <text>Hydrolysis of Ca3P2 (Calcium Phosphide) gives ____ gas.</text>
+            <option id="A">Phosphine (PH3)</option><option id="B">Phosphorus</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard test for phosphide.</explanation></question>
+        <question>
+            <text>Reduction project: Cu2+ + H2 -&gt; ____ + 2H+.</text>
+            <option id="A">Cu (Solid)</option><option id="B">CuO</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>H2 can reduce metal ions below it in series at high T.</explanation></question>
+        <question>
+            <text>Bonding in Diborane (B2H6): There are ____ bridge bonds and ____ terminal bonds.</text>
+            <option id="A">2 , 4</option><option id="B">3, 3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>3-center 2-electron bonds.</explanation></question>
+        <question>
+            <text>Strength of 1 N H2O2 in 'volume' is approx ____.</text>
+            <option id="A">5.6</option><option id="B">11.2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on eq. wt M/2.</explanation></question>
+        <question>
+            <text>Strength of 1 M H2O2 in 'volume' is approx ____.</text>
+            <option id="A">11.2</option><option id="B">5.6</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>1 mole H2O2 gives 1/2 mole O2 (11.2 L).</explanation></question>
+        <question>
+            <text>Autoprotolysis of liquid NH3 is described by equilibrium ____.</text>
+            <option id="A">2NH3 &lt;=&gt; NH4+ + NH2-</option><option id="B">NH3 &lt;=&gt; NH2 + H</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Analogy to water ionization.</explanation></question>
+        <question>
+            <text>Perhydrol is a ____ % solution of H2O2.</text>
+            <option id="A">30</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Medicine cabinet disinfectant.</explanation></question>
+        <question>
+            <text>Density of D2O at 25 C is approx ____ g/cm3.</text>
+            <option id="A">1.106</option><option id="B">1.000</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>~11% heavier than normal water.</explanation></question>
+        <question>
+            <text>Dielectric constant of D2O is ____ than H2O.</text>
+            <option id="A">Lower (78.06 vs 78.39)</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Slightly weaker solvent for ions.</explanation></question>
+        <question>
+            <text>Hydrogen bonds in liquid water have life-time of order ____ seconds.</text>
+            <option id="A">10^-11 (Picoseconds)</option><option id="B">10^-3</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Highly dynamic flickering cluster model.</explanation></question>
+        <question>
+            <text>Lyman series of Hydrogen atom is in ____ region.</text>
+            <option id="A">Ultraviolet (UV)</option><option id="B">Visible</option><option id="C">Infrared</option><option id="D">None</option>
+            <answer>A</answer><explanation>n_lower = 1 transitions.</explanation></question>
+        <question>
+            <text>Balmer series of Hydrogen atom is in ____ region.</text>
+            <option id="A">Visible</option><option id="B">UV</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>n_lower = 2 transitions.</explanation></question>
+        <question>
+            <text>Which hydride shows metallic luster and conducts electricity (partially)?</text>
+            <option id="A">Titanium Hydride (TiH1.7)</option><option id="B">LiH</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property of non-stoichiometric metal hydrides.</explanation></question>
+        <question>
+            <text>Ratio of physical property Deuterium/Protium: Boiling point ratio is approx ____.</text>
+            <option id="A">1.1 (23.6 K vs 20.4 K)</option><option id="B">2.0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Isotope effect is large for Hydrogen.</explanation></question>
+        <question>
+            <text>Hydrogenation of carbon monoxide at 700 K in presence of ZnO/Cr2O3 gives ____.</text>
+            <option id="A">Methanol (CH3OH)</option><option id="B">Methane</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Industrial methanol synthesis.</explanation></question>
+        <question>
+            <text>Specific heat capacity of water is approx ____ J/g.K.</text>
+            <option id="A">4.18 (Very High)</option><option id="B">1.0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High value moderates global climate.</explanation></question>
+        <question>
+            <text>Heat of fusion of ice is ____ kJ/mol.</text>
+            <option id="A">6.01</option><option id="B">40.7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relatively high due to H-bonding.</explanation></question>
+        <question>
+            <text>Percentage of hydrogen in the sun's mass is approx ____ %.</text>
+            <option id="A">75</option><option id="B">25</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Active fusion fuel.</explanation></question>
+        <question>
+            <text>H2O2 decomposes slowly to H2O and ____.</text>
+            <option id="A">O2 (Oxygen)</option><option id="B">H2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exothermic spontaneous process.</explanation></question>
+        <question>
+            <text>Proton affinity of water is ____ than ammonia.</text>
+            <option id="A">Lower (NH3 is more basic)</option><option id="B">Higher</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>NH4+ is more stable than H3O+ relatively.</explanation></question>
+        <question>
+            <text>Verification for Hydrogen 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization complete.</explanation></question>
+        <question>
+            <text>Hydrogen 120 qty count verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Half-life of Tritium is approx ____ years.</text>
+            <option id="A">12.3</option><option id="B">5000</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relatively short-lived.</explanation></question>
+        <question>
+            <text>The enthalpy of vaporisation of water at 100 C is ____ kJ/mol.</text>
+            <option id="A">40.7</option><option id="B">6.0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard thermo value.</explanation></question>
+        <question>
+            <text>Heavy water was discovered by ____.</text>
+            <option id="A">Urey</option><option id="B">Mendeleev</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Nobel prize work.</explanation></question>
+        <question>
+            <text>Verification for Chemistry Class 11 Hydrogen complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standardized.</explanation></question>
+        <question>
+            <text>Hydrogen progress finalized?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Reaction of steam with CH4 at 1270 K in presence of Ni gives ____.</text>
+            <option id="A">CO + 3H2 (Syngas)</option><option id="B">CO2 + H2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Steam reforming of methane.</explanation></question>
+        <question>
+            <text>Which of the following is used to remove sulfur from syngas? (Wait... H2O2 used?) ____.</text>
+            <option id="A">Scrubbing / Oxidation</option><option id="B">Filtration</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Industrial purification.</explanation></question>
+        <question>
+            <text>Hydrogen 120 qty confirmed?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Atomic radius of hydrogen is approx ____ pm.</text>
+            <option id="A">37</option><option id="B">50</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Smallest atom radius.</explanation></question>
+        <question>
+            <text>Ionic radius of H- (Hydride) is approx ____ pm.</text>
+            <option id="A">208 (Quite Large)</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Large size due to electron-electron repulsion.</explanation></question>
+        <question>
+            <text>Batch 10 Chemistry Class 11 Inorganic progress verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standardizing.</explanation></question>
+        <question>
+            <text>Hydrogen 120 qty check done?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Bond length in D2 is ____ than H2.</text>
+            <option id="A">Almost same (74 pm)</option><option id="B">Much larger</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Electronic structure are same, only nuclear mass differs.</explanation></question>
+    </hard>
+</chapter>

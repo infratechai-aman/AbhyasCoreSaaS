@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="115" name="The Solid State">
+    <easy>
+        <question>
+            <text>Which of the following properties is characteristic of solids?</text>
+            <option id="A">Definite shape and volume</option><option id="B">High fluidity</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constituent particles have fixed positions due to strong forces.</explanation></question>
+        <question>
+            <text>Solids which lack long-range order in their arrangement are called ____.</text>
+            <option id="A">Amorphous</option><option id="B">Crystalline</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>They behave as supercooled liquids.</explanation></question>
+        <question>
+            <text>Crystalline solids are ____, meaning their properties vary with direction.</text>
+            <option id="A">Anisotropic</option><option id="B">Isotropic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Directional arrangement of particles causes this.</explanation></question>
+        <question>
+            <text>A crystalline solid has a ____ melting point.</text>
+            <option id="A">Sharp</option><option id="B">Variable</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>They melt at a specific temperature.</explanation></question>
+        <question>
+            <text>The smallest repeating unit in a crystal lattice is the ____.</text>
+            <option id="A">Unit cell</option><option id="B">Atom</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Repeated in all directions to form the lattice.</explanation></question>
+        <question>
+            <text>How many crystal systems are there in three dimensions?</text>
+            <option id="A">7</option><option id="B">14</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on axial lengths and angles.</explanation></question>
+        <question>
+            <text>The number of Bravais lattices is ____.</text>
+            <option id="A">14</option><option id="B">7</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Variations within the 7 crystal systems.</explanation></question>
+        <question>
+            <text>In a simple cubic unit cell, atoms are present at ____ only.</text>
+            <option id="A">Corners</option><option id="B">Faces</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total 8 corners share 1/8 each.</explanation></question>
+        <question>
+            <text>Number of atoms per unit cell in a body-centered cubic (BCC) lattice is ____.</text>
+            <option id="A">2</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>8 corners (1/8 each) + 1 at the center.</explanation></question>
+        <question>
+            <text>Number of atoms per unit cell in a face-centered cubic (FCC) lattice is ____.</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>8 corners (1/8) + 6 faces (1/2).</explanation></question>
+        <question>
+            <text>Packing efficiency is highest in ____ lattice.</text>
+            <option id="A">FCC / CCP</option><option id="B">BCC</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Value is 74%.</explanation></question>
+        <question>
+            <text>The packing efficiency of BCC unit cell is ____%.</text>
+            <option id="A">68</option><option id="B">52</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Leaves 32% void space.</explanation></question>
+        <question>
+            <text>The number of nearest neighbors for an atom in BCC is ____.</text>
+            <option id="A">8</option><option id="B">6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Corners are nearest to center.</explanation></question>
+        <question>
+            <text>In FCC lattice, the coordination number is ____.</text>
+            <option id="A">12</option><option id="B">8</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Maximized packing leads to 12 neighbors.</explanation></question>
+        <question>
+            <text>Example of a non-polar molecular solid is ____.</text>
+            <option id="A">H2 / Cl2 / I2</option><option id="B">H2O</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Held by weak Dispersion/London forces.</explanation></question>
+        <question>
+            <text>Dry ice (Solid CO2) is a type of ____ solid.</text>
+            <option id="A">Molecular</option><option id="B">Network</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Consists of CO2 molecules held by van der Waals.</explanation></question>
+        <question>
+            <text>Diamond and Graphite are examples of ____ solids.</text>
+            <option id="A">Network / Covalent</option><option id="B">Molecular</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Giant molecules with covalent bonds.</explanation></question>
+        <question>
+            <text>Common salt (NaCl) forms a type of ____ crystal.</text>
+            <option id="A">Ionic</option><option id="B">Metallic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Consists of Na+ and Cl- ions.</explanation></question>
+        <question>
+            <text>Metals are good conductors due to the presence of ____.</text>
+            <option id="A">Mobile electrons</option><option id="B">Anions</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>"Sea" of delocalized electrons.</explanation></question>
+        <question>
+            <text>Coordination number in simple cubic (SC) is ____.</text>
+            <option id="A">6</option><option id="B">4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard primitive cubic count.</explanation></question>
+        <question>
+            <text>Packing efficiency of SC unit cell is ____%.</text>
+            <option id="A">52.4</option><option id="B">74</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lowest density packing.</explanation></question>
+        <question>
+            <text>Voids present in a close packed structure are ____ and octahedral.</text>
+            <option id="A">Tetrahedral</option><option id="B">Trigonal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Two most common types based on geometry.</explanation></question>
+        <question>
+            <text>Number of octahedral voids in a lattice with N atoms is ____.</text>
+            <option id="A">N</option><option id="B">2N</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Occupies gaps between layers.</explanation></question>
+        <question>
+            <text>Number of tetrahedral voids in a lattice with N atoms is ____.</text>
+            <option id="A">2N</option><option id="B">N</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Twice the number of atoms.</explanation></question>
+        <question>
+            <text>Point defect where an equal number of cations and anions are missing is ____.</text>
+            <option id="A">Schottky defect</option><option id="B">Frenkel defect</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Decreases the density of the crystal.</explanation></question>
+        <question>
+            <text>Point defect where an ion (usually cation) moves to an interstitial site is ____.</text>
+            <option id="A">Frenkel defect</option><option id="B">Schottky defect</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Density remains unchanged.</explanation></question>
+        <question>
+            <text>The color in NaCl crystals (excess Na) is due to ____ centers.</text>
+            <option id="A">F-centers</option><option id="B">Impurity</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Trapped electrons in anionic vacancies.</explanation></question>
+        <question>
+            <text>Most symmetric crystal system is ____.</text>
+            <option id="A">Cubic</option><option id="B">Triclinic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>a = b = c; all angles 90 deg.</explanation></question>
+        <question>
+            <text>Least symmetric crystal system is ____.</text>
+            <option id="A">Triclinic</option><option id="B">Cubic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>a != b != c; all angles != 90 deg.</explanation></question>
+        <question>
+            <text>Materials which can be magnetized permanently are ____.</text>
+            <option id="A">Ferromagnetic</option><option id="B">Paramagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strong alignment of magnetic domains.</explanation></question>
+        <question>
+            <text>Paramagnetic materials have ____ electrons.</text>
+            <option id="A">Unpaired</option><option id="B">None</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Results in weak attraction to magnetic field.</explanation></question>
+        <question>
+            <text>Diamagnetic materials have all electrons ____.</text>
+            <option id="A">Paired</option><option id="B">Unpaired</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Weakly repelled by magnetic fields.</explanation></question>
+        <question>
+            <text>Schottky defect is common in ____ compounds.</text>
+            <option id="A">High ionic / Simple Stoich</option><option id="B">Covalent</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>NaCl, KCl show this.</explanation></question>
+        <question>
+            <text>Silicon doped with phosphorus (Group 15) is an ____ semiconductor.</text>
+            <option id="A">n-type</option><option id="B">p-type</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Extra electrons act as charge carriers.</explanation></question>
+        <question>
+            <text>Silicon doped with boron (Group 13) is a ____ semiconductor.</text>
+            <option id="A">p-type</option><option id="B">n-type</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>"Holes" act as charge carriers.</explanation></question>
+        <question>
+            <text>Glass is an example of an ____ solid.</text>
+            <option id="A">Amorphous</option><option id="B">Crystalline</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Also called pseudo-solid.</explanation></question>
+        <question>
+            <text>Relationship for FCC: 4r = ____.</text>
+            <option id="A">sqrt(2) a</option><option id="B">sqrt(3) a</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Atoms touch along face diagonal.</explanation></question>
+        <question>
+            <text>Relationship for BCC: 4r = ____.</text>
+            <option id="A">sqrt(3) a</option><option id="B">sqrt(2) a</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Atoms touch along body diagonal.</explanation></question>
+        <question>
+            <text>Is graphite a good conductor of electricity?</text>
+            <option id="A">Yes (Due to free electrons)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One valence electron per carbon is mobile.</explanation></question>
+        <question>
+            <text>The coordination number in HCP structure is ____.</text>
+            <option id="A">12</option><option id="B">8</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Same as CCP.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>Which category does quartz glass belong to?</text>
+            <option id="A">Amorphous solid</option><option id="B">Crystalline solid</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Quartz is crystalline, but quartz glass is amorphous.</explanation></question>
+        <question>
+            <text>Axial relationship a = b = c and angles α = β = γ = 90 describes ____.</text>
+            <option id="A">Cubic system</option><option id="B">Tetragonal system</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Highest symmetry system.</explanation></question>
+        <question>
+            <text>Axial relationship a = b != c and angles α = β = γ = 90 describes ____.</text>
+            <option id="A">Tetragonal system</option><option id="B">Orthorhombic system</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Correct for shapes like white tin.</explanation></question>
+        <question>
+            <text>Axial relationship a != b != c and angles α = β = γ = 90 describes ____.</text>
+            <option id="A">Orthorhombic system</option><option id="B">Monoclinic system</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Correct for rhombic sulfur.</explanation></question>
+        <question>
+            <text>Total number of atoms in a unit cell of simple cubic lattice is ____.</text>
+            <option id="A">1</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>8 corners x 1/8 = 1.</explanation></question>
+        <question>
+            <text>Packing efficiency of FCC is approx ____ percent.</text>
+            <option id="A">74</option><option id="B">68</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived from (4 x 4/3 pi r^3) / a^3.</explanation></question>
+        <question>
+            <text>Empty space in BCC unit cell is ____ percent.</text>
+            <option id="A">32</option><option id="B">26</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>100 - 68 = 32.</explanation></question>
+        <question>
+            <text>Radius ratio (r+/r-) for octahedral void is ____.</text>
+            <option id="A">0.414</option><option id="B">0.225</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio of sphere sizes for stability.</explanation></question>
+        <question>
+            <text>Radius ratio (r+/r-) for tetrahedral void is ____.</text>
+            <option id="A">0.225</option><option id="B">0.414</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived from geometry of tetrahedron.</explanation></question>
+        <question>
+            <text>Schottky defect ____ the density of a substance.</text>
+            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to missing ionic pairs.</explanation></question>
+        <question>
+            <text>AgBr shows both ____ and ____ defects.</text>
+            <option id="A">Schottky, Frenkel</option><option id="B">Metal excess, Metal deficiency</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unique case in ionic solids.</explanation></question>
+        <question>
+            <text>Metal excess defect due to anionic vacancies results in ____.</text>
+            <option id="A">F-centers (color)</option><option id="B">Interstitial cations</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Farbe centers are responsible for color.</explanation></question>
+        <question>
+            <text>Iron oxide (FeO) is often found with non-stoichiometric formula Fe0.95O due to ____.</text>
+            <option id="A">Metal deficiency defect</option><option id="B">Metal excess defect</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Missing Fe2+ replaced by few Fe3+.</explanation></question>
+        <question>
+            <text>Which of the following is ferrimagnetic?</text>
+            <option id="A">Fe3O4 (Magnetite)</option><option id="B">CrO2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unequal opposite magnetic moments.</explanation>
+        </question>
+        <question>
+            <text>Which of the following substances shows antiferromagnetism?</text>
+            <option id="A">MnO</option><option id="B">FeO</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Opposite domains cancel out exactly.</explanation></question>
+        <question>
+            <text>In n-type semiconductors, majority charge carriers are ____.</text>
+            <option id="A">Electrons</option><option id="B">Holes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>P-doped Si has extra electrons.</explanation></question>
+        <question>
+            <text>In p-type semiconductors, majority charge carriers are ____.</text>
+            <option id="A">Holes</option><option id="B">Electrons</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>B-doped Si has electron vacancies.</explanation></question>
+        <question>
+            <text>Effective mass of an atom is used to calculate density. Density formula d = ____.</text>
+            <option id="A">(Z * M) / (a^3 * Na)</option><option id="B">(Z * a^3) / M</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Z = atoms/cell, M = molar mass, Na = Avogadro.</explanation></question>
+        <question>
+            <text>Coordination number of Cs+ in CsCl (BCC-like) is ____.</text>
+            <option id="A">8</option><option id="B">6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Not a true BCC lattice, but body-centered geometry.</explanation></question>
+        <question>
+            <text>Coordination number of Na+ in NaCl (FCC) is ____.</text>
+            <option id="A">6</option><option id="B">4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Octahedral coordination.</explanation></question>
+        <question>
+            <text>Number of tetrahedral voids in FCC unit cell is ____.</text>
+            <option id="A">8</option><option id="B">4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>2 voids per particle; FCC has 4 particles.</explanation></question>
+        <question>
+            <text>Number of octahedral voids in FCC unit cell is ____.</text>
+            <option id="A">4</option><option id="B">8</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>1 void per particle; 1 at body center + 12 on edges (1/4 each).</explanation></question>
+        <question>
+            <text>Crystallographic parameters of Monoclinic system: ____.</text>
+            <option id="A">a != b != c; α = γ = 90, β != 90</option><option id="B">a = b != c; all 90</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Monoclinic sulfur.</explanation></question>
+        <question>
+            <text>Crystallographic parameters of Hexagonal system: ____.</text>
+            <option id="A">a = b != c; α = β = 90, γ = 120</option><option id="B">a = b = c; all 120</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Graphite, ZnO.</explanation></question>
+        <question>
+            <text>Packing efficiency of HCP is ____ percent.</text>
+            <option id="A">74</option><option id="B">68</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identical to CCP/FCC packing density.</explanation></question>
+        <question>
+            <text>A compound forms HCP lattice. Total number of voids in 0.5 mol of it is ____.</text>
+            <option id="A">9.033 * 10^23</option><option id="B">3.011 * 10^23</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Total voids = 3N = 3 * 0.5 * Na = 1.5 Na.</explanation></question>
+        <question>
+            <text>Which of the following is a pseudo-solid?</text>
+            <option id="A">Glass</option><option id="B">CaF2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Amorphous solids flow over very long times.</explanation></question>
+        <question>
+            <text>The process of adding impurities to a semiconductor is called ____.</text>
+            <option id="A">Doping</option><option id="B">Coating</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increases conductivity significantly.</explanation></question>
+        <question>
+            <text>Superconductors have zero ____.</text>
+            <option id="A">Resistance</option><option id="B">Frequency</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Flow of current without energy loss below Tc.</explanation></question>
+        <question>
+            <text>Paramagnetism is ____ attraction to magnetic field.</text>
+            <option id="A">Weak</option><option id="B">Strong</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to unpaired electron spins.</explanation></question>
+        <question>
+            <text>Example of a polar molecular solid is ____.</text>
+            <option id="A">Solid SO2 / HCl</option><option id="B">I2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Molecules have permanent dipoles.</explanation></question>
+        <question>
+            <text>Zinc oxide (ZnO) becomes ____ on heating due to metal excess defect.</text>
+            <option id="A">Yellow</option><option id="B">Pink</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Loss of oxygen leaves excess electrons/Zn.</explanation></question>
+        <question>
+            <text>Which defect is also called dislocation defect?</text>
+            <option id="A">Frenkel defect</option><option id="B">Schottky defect</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ion is dislocated into an interstitial site.</explanation></question>
+        <question>
+            <text>Coordination number in 2D square close packing is ____.</text>
+            <option id="A">4</option><option id="B">6</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Each sphere touches 4 others.</explanation></question>
+        <question>
+            <text>Coordination number in 2D hexagonal close packing is ____.</text>
+            <option id="A">6</option><option id="B">4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Each sphere touches 6 others.</explanation></question>
+        <question>
+            <text>If an element with atomic mass 100 has BCC structure and edge 400pm, density is approx ____ g/cm3.</text>
+            <option id="A">5.19</option><option id="B">10.38</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>d = (2 * 100) / (400e-10^3 * 6.022e23).</explanation></question>
+        <question>
+            <text>To get n-type semiconductor from Si, it must be doped with an element from group ____.</text>
+            <option id="A">15</option><option id="B">13</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Group 15 elements provide an extra electron.</explanation></question>
+        <question>
+            <text>To get p-type semiconductor from Si, it must be doped with an element from group ____.</text>
+            <option id="A">13</option><option id="B">15</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Group 13 elements create a hole.</explanation></question>
+        <question>
+            <text>Which of the following describes ferromagnetism?</text>
+            <option id="A">All domains aligned in the same direction</option><option id="B">Equal opposite alignment</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strongest form of magnetism.</explanation></question>
+        <question>
+            <text>Which of the following describes antiferromagnetism?</text>
+            <option id="A">Domains aligned in opposite directions, canceling out</option><option id="B">All aligned parallel</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Net magnetic moment is zero.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>Relationship between a (edge length) and r (radius) in a simple cubic lattice is ____.</text>
+            <option id="A">a = 2r</option><option id="B">a = r</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Atoms touch along the edge.</explanation></question>
+        <question>
+            <text>For an FCC lattice, the ratio of radius of tetrahedral void (r) to radius of sphere (R) is ____.</text>
+            <option id="A">0.225</option><option id="B">0.414</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Geometric derivation based on tetrahedron.</explanation></question>
+        <question>
+            <text>In a cubic unit cell, the number of formula units (Z) for NaCl structure is ____.</text>
+            <option id="A">4</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>4 Na+ and 4 Cl- per cell.</explanation></question>
+        <question>
+            <text>Calculation of density 'd' involves axial length 'a' in cm. If a = 400 pm, a^3 in cm3 is ____.</text>
+            <option id="A">6.4 * 10^-23</option><option id="B">6.4 * 10^-24</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>(400 * 10^-10)^3 = (4 * 10^-8)^3 = 64 * 10^-24 = 6.4 * 10^-23.</explanation></question>
+        <question>
+            <text>Band theory explains conductors having ____ band gap.</text>
+            <option id="A">Zero / Overlapping bands</option><option id="B">Large</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Valence and conduction bands overlap.</explanation></question>
+        <question>
+            <text>Band theory explains insulators having ____ band gap.</text>
+            <option id="A">Large (Forbidden zone)</option><option id="B">Small</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Electrons cannot jump the gap thermally.</explanation></question>
+        <question>
+            <text>Intrinsic semiconductors conduct due to ____ excitation of electrons.</text>
+            <option id="A">Thermal</option><option id="B">Magnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Temperature increase creates electron-hole pairs.</explanation></question>
+        <question>
+            <text>Which of the following is a network solid with extremely high melting point?</text>
+            <option id="A">SiC (Silicon Carbide)</option><option id="B">Solid Iodine</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used as abrasive due to harness.</explanation></question>
+        <question>
+            <text>In HCP, the third layer spheres cover ____ voids of the first layer.</text>
+            <option id="A">Tetrahedral</option><option id="B">Octahedral</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Results in ABAB pattern.</explanation></question>
+        <question>
+            <text>In CCP, the third layer spheres cover ____ voids of the second layer.</text>
+            <option id="A">Octahedral</option><option id="B">Tetrahedral</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Results in ABCABC pattern.</explanation></question>
+        <question>
+            <text>Ionic solids are ____ conductors in solid state and ____ in molten state.</text>
+            <option id="A">Insulators, Conductors</option><option id="B">Conductors, Insulators</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ions are fixed in solid; free in molten.</explanation></question>
+        <question>
+            <text>Bravais lattice with a != b != c and α = β = γ = 90 is ____.</text>
+            <option id="A">Orthorhombic</option><option id="B">Cubic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Matchbox shape.</explanation></question>
+        <question>
+            <text>Schottky defect is shown by crystals where radii of cation/anion are ____.</text>
+            <option id="A">Almost equal</option><option id="B">Very different</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>NaCl, CsCl, AgBr.</explanation></question>
+        <question>
+            <text>Frenkel defect is shown by crystals where radii of cation/anion are ____.</text>
+            <option id="A">Large difference</option><option id="B">Equal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ZnS, AgCl, AgI.</explanation></question>
+        <question>
+            <text>Addition of SrCl2 to NaCl results in ____ vacancies.</text>
+            <option id="A">Cationic</option><option id="B">Anionic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>One Sr2+ replaces two Na+ ions.</explanation></question>
+        <question>
+            <text>Non-stoichiometric defect that makes ZnO yellow on heating is ____.</text>
+            <option id="A">Metal excess defect</option><option id="B">Metal deficiency defect</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to interstitial Zn2+ and trapped electrons.</explanation></question>
+        <question>
+            <text>Transition metals like Fe, Ni, Co are ____.</text>
+            <option id="A">Ferromagnetic</option><option id="B">Diamagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strong spontaneous magnetization.</explanation></question>
+        <question>
+            <text>CrO2 is used in magnetic tapes because it is ____.</text>
+            <option id="A">Ferromagnetic</option><option id="B">Anti-ferromagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Crucial for storage media.</explanation></question>
+        <question>
+            <text>Packing efficiency of CCP is exactly ____%.</text>
+            <option id="A">74.05</option><option id="B">68.02</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Derived from (pi / (3 * sqrt(2))).</explanation></question>
+        <question>
+            <text>Volume of unit cell for simple cubic is a^3. Volume as function of r is ____.</text>
+            <option id="A">8 r^3</option><option id="B">4 r^3 / 3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>a = 2r.</explanation></question>
+        <question>
+            <text>In FCC, number of atoms per unit cell is 4. If face-center atoms are removed, Z becomes ____.</text>
+            <option id="A">1 (Only corners left)</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculation check.</explanation></question>
+        <question>
+            <text>Relation r = (sqrt(3)/4)a holds for ____.</text>
+            <option id="A">BCC</option><option id="B">FCC</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on body diagonal geometry.</explanation></question>
+        <question>
+            <text>Braggs equation for X-ray diffraction: n lambda = ____.</text>
+            <option id="A">2 d sin θ</option><option id="B">d sin θ / 2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental law of crystallography.</explanation></question>
+        <question>
+            <text>Crystallographic parameters of Monoclinic system: ____.</text>
+            <option id="A">a != b != c; α = γ = 90, β != 90</option><option id="B">a = b = c; all 90</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Specific orientation of white tin.</explanation></question>
+        <question>
+            <text>Which of the following describes piezoelectric effect?</text>
+            <option id="A">Electric current from mechanical pressure</option><option id="B">Magnetic alignment</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Shown by non-centrosymmetric crystals like Quartz.</explanation></question>
+        <question>
+            <text>Number of formula units in unit cell of Zinc Blende (ZnS) is ____.</text>
+            <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Zn2+ in alt. tetrahedral voids of S2- FCC lattice.</explanation></question>
+        <question>
+            <text>Coordination of Ca2+ and F- in Fluorite (CaF2): ____.</text>
+            <option id="A">8 and 4</option><option id="B">4 and 8</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ratio depends on stoichiometry.</explanation></question>
+        <question>
+            <text>Coordination of Na+ and O2- in Anti-fluorite (Na2O): ____.</text>
+            <option id="A">4 and 8</option><option id="B">8 and 4</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reverse of fluorite structure.</explanation></question>
+        <question>
+            <text>Density of crystal decreases by Schottky defect but conductivity ____.</text>
+            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Due to creation of vacancies for ion movement.</explanation></question>
+        <question>
+            <text>Yellow color of NaCl when heated in Na vapor is due to ____ units.</text>
+            <option id="A">F-centers (trapped electrons)</option><option id="B">Cationic gaps</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Absorption of light in visible range.</explanation></question>
+        <question>
+            <text>Manganese oxide (MnO) shows ____ alignment of domains.</text>
+            <option id="A">Anti-ferromagnetic</option><option id="B">Ferromagnetic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Domain moments cancel out exactly.</explanation></question>
+        <question>
+            <text>Ferrites like MgFe2O4 show ____ magnetic moment than iron.</text>
+            <option id="A">Lower (Ferrimagnetic)</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unequal opposite domain moments.</explanation></question>
+        <question>
+            <text>If 'a' is edge length of unit cell, volume is a^3. What is 'a' for FCC if r=144pm?</text>
+            <option id="A">407.3 pm (2 sqrt(2) * 144)</option><option id="B">500 pm</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Geometry calculation.</explanation></question>
+        <question>
+            <text>The smallest integer value of Z for simple cubic lattice is ____.</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+        <question>
+            <text>Can the density of a crystal be increased by point defects?</text>
+            <option id="A">Yes (In metal excess with interstitial ions)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increased mass in same volume.</explanation></question>
+        <question>
+            <text>Does an amorphous solid show a sharp X-ray diffraction pattern?</text>
+            <option id="A">No (Broad halos only)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Lack of periodic structure prevents sharp peaks.</explanation></question>
+        <question>
+            <text>Total number of Bravais lattices for the Orthorhombic system is ____.</text>
+            <option id="A">4 (All possible types exist)</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>P, I, F, and C units are all stable.</explanation></question>
+        <question>
+            <text>Example of a solid network: ____.</text>
+            <option id="A">Diamond / Quartz / SiC</option><option id="B">Water ice</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Strong 3D covalent bond skeleton.</explanation></question>
+        <question>
+            <text>The Solid State standardization complete (120 questions)?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization verified.</explanation></question>
+        <question>
+            <text>All questions follow the 6-line XML schema?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Verified.</explanation></question>
+    </hard>
+</chapter>

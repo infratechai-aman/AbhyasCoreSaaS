@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Chemistry" id="205" name="Chemical Thermodynamics">
+    <easy>
+        <question>
+            <text>Science that deals with energy changes accompanying physical and chemical processes is ____.</text>
+            <option id="A">Thermodynamics</option><option id="B">Kinetics</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Focuses on macroscopic behavior.</explanation></question>
+        <question>
+            <text>Part of the universe under thermodynamic study is called ____.</text>
+            <option id="A">System</option><option id="B">Surroundings</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Chosen portion for investigation.</explanation></question>
+        <question>
+            <text>Rest of the universe excluding the system is called ____.</text>
+            <option id="A">Surroundings</option><option id="B">System</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Universe = System + Surroundings.</explanation></question>
+        <question>
+            <text>A system that can exchange both energy and matter with surroundings is ____.</text>
+            <option id="A">Open</option><option id="B">Closed</option><option id="C">Isolated</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Open beaker of water.</explanation></question>
+        <question>
+            <text>A system that can exchange energy but not matter with surroundings is ____.</text>
+            <option id="A">Closed</option><option id="B">Open</option><option id="C">Isolated</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Sealed metal container.</explanation></question>
+        <question>
+            <text>A system that can exchange neither energy nor matter is ____.</text>
+            <option id="A">Isolated</option><option id="B">Closed</option><option id="C">Open</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Thermos flask (idealized).</explanation></question>
+        <question>
+            <text>State functions are properties that depend only on ____ and ____ states.</text>
+            <option id="A">Initial , Final</option><option id="B">Path</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Independent of the path taken.</explanation></question>
+        <question>
+            <text>Which of the following is a state function?</text>
+            <option id="A">Internal Energy (U)</option><option id="B">Work (w)</option><option id="C">Heat (q)</option><option id="D">None</option>
+            <answer>A</answer><explanation>w and q are path functions.</explanation></question>
+        <question>
+            <text>First Law of Thermodynamics is the Law of Conservation of ____.</text>
+            <option id="A">Energy</option><option id="B">Mass</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy is neither created nor destroyed.</explanation></question>
+        <question>
+            <text>Mathematical form of First Law (IUPAC): ΔU = ____.</text>
+            <option id="A">q + w</option><option id="B">q - w</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy change = Heat added + Work done on system.</explanation></question>
+        <question>
+            <text>Work done ON the system (compression) has ____ sign.</text>
+            <option id="A">Positive (+)</option><option id="B">Negative (-)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Increases internal energy.</explanation></question>
+        <question>
+            <text>Work done BY the system (expansion) has ____ sign.</text>
+            <option id="A">Negative (-)</option><option id="B">Positive (+)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Decreases internal energy.</explanation></question>
+        <question>
+            <text>Total heat content of a system at constant pressure is ____.</text>
+            <option id="A">Enthalpy (H)</option><option id="B">Entropy (S)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>H = U + PV.</explanation></question>
+        <question>
+            <text>Change in enthalpy ΔH = ΔU + ____.</text>
+            <option id="A">P ΔV</option><option id="B">V ΔP</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>At constant pressure.</explanation></question>
+        <question>
+            <text>For an exothermic reaction, ΔH is ____.</text>
+            <option id="A">Negative (Heat released)</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>System loses energy.</explanation></question>
+        <question>
+            <text>For an endothermic reaction, ΔH is ____.</text>
+            <option id="A">Positive (Heat absorbed)</option><option id="B">Negative</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>System gains energy.</explanation></question>
+        <question>
+            <text>Property of a system that depends on amount of matter is ____ property.</text>
+            <option id="A">Extensive</option><option id="B">Intensive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Mass, Volume, Enthalpy.</explanation></question>
+        <question>
+            <text>Property of a system independent of amount of matter is ____ property.</text>
+            <option id="A">Intensive</option><option id="B">Extensive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Example: Temperature, Density, Pressure.</explanation></question>
+        <question>
+            <text>Enthalpy change when 1 mole of substance is formed from its elements in standard state is standard enthalpy of ____.</text>
+            <option id="A">Formation (ΔfH°)</option><option id="B">Combustion</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reference value for calculations.</explanation></question>
+        <question>
+            <text>Standard enthalpy of formation of an element in its most stable state is ____.</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>By convention: e.g., O2(g), C(graphite) = 0.</explanation></question>
+        <question>
+            <text>Change in enthalpy when 1 mole of substance is completely burnt in excess air is enthalpy of ____.</text>
+            <option id="A">Combustion (ΔcH°)</option><option id="B">Neutralization</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Always negative (exothermic).</explanation></question>
+        <question>
+            <text>Measure of degree of randomness or disorder in a system is ____.</text>
+            <option id="A">Entropy (S)</option><option id="B">Enthalpy</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Thermodynamic property related to Second Law.</explanation></question>
+        <question>
+            <text>For a spontaneous process, total entropy ΔS_total must be ____.</text>
+            <option id="A">&gt; 0 (Positive)</option><option id="B">&lt; 0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Entropy of universe increases.</explanation></question>
+        <question>
+            <text>Criteria for spontaneity at constant P and T is ΔG ____ 0.</text>
+            <option id="A">&lt; (Negative)</option><option id="B">&gt;</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gibbs free energy must decrease.</explanation></question>
+        <question>
+            <text>Gibbs free energy equation: G = ____.</text>
+            <option id="A">H - TS</option><option id="B">H + TS</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relates enthalpy and entropy.</explanation></question>
+        <question>
+            <text>Change in Gibbs Free Energy: ΔG = ____.</text>
+            <option id="A">ΔH - T ΔS</option><option id="B">ΔH + T ΔS</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Driving force equation.</explanation></question>
+        <question>
+            <text>Process in which temperature remains constant is ____.</text>
+            <option id="A">Isothermal</option><option id="B">Adiabatic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>dT = 0.</explanation></question>
+        <question>
+            <text>Process in which no heat is exchanged with surroundings is ____.</text>
+            <option id="A">Adiabatic</option><option id="B">Isothermal</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>q = 0.</explanation></question>
+        <question>
+            <text>Process in which pressure remains constant is ____.</text>
+            <option id="A">Isobaric</option><option id="B">Isochoric</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>dP = 0.</explanation></question>
+        <question>
+            <text>Process in which volume remains constant is ____.</text>
+            <option id="A">Isochoric</option><option id="B">Isobaric</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>dV = 0, so work w = 0.</explanation></question>
+        <question>
+            <text>Capacity to do work is ____.</text>
+            <option id="A">Energy</option><option id="B">Power</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Found in various forms.</explanation></question>
+        <question>
+            <text>Unit of heat and work in SI is ____.</text>
+            <option id="A">Joule (J)</option><option id="B">Calorie</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basic unit of energy.</explanation></question>
+        <question>
+            <text>Standard state of a substance is its pure form at ____ bar.</text>
+            <option id="A">1</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>IUPAC convention (approx 1 atm).</explanation></question>
+        <question>
+            <text>Conversion: 1 calorie = approx ____ Joules.</text>
+            <option id="A">4.184</option><option id="B">8.314</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mechanical equivalent of heat.</explanation></question>
+        <question>
+            <text>Hess’s Law states that total enthalpy change depends only on ____ and ____ states.</text>
+            <option id="A">Initial , Final</option><option id="B">Path</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Additive property of enthalpies.</explanation></question>
+        <question>
+            <text>Enthalpy change for a cyclic process is ____.</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>State function returns to origin.</explanation></question>
+        <question>
+            <text>Third Law of Thermodynamics: Entropy of perfectly crystalline substance at 0 K is ____.</text>
+            <option id="A">Zero</option><option id="B">Infinite</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Complete order in crystal lattice.</explanation></question>
+        <question>
+            <text>Heat capacity at constant volume is denoted by ____.</text>
+            <option id="A">Cv</option><option id="B">Cp</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cv = (dU/dT).</explanation></question>
+        <question>
+            <text>Heat capacity at constant pressure is denoted by ____.</text>
+            <option id="A">Cp</option><option id="B">Cv</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cp = (dH/dT).</explanation></question>
+        <question>
+            <text>Relationship between Cp and Cv for 1 mole of ideal gas: Cp - Cv = ____.</text>
+            <option id="A">R</option><option id="B">k_B</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Mayer's formula.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>ΔH = ΔU + Δng RT. Δng is the change in moles of ____.</text>
+            <option id="A">Gaseous products - Gaseous reactants</option><option id="B">Total products</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Considers only gaseous species for Work term.</explanation></question>
+        <question>
+            <text>For the reaction H2(g) + Cl2(g) -&gt; 2HCl(g), ΔH is ____ ΔU.</text>
+            <option id="A">Equal to</option><option id="B">Greater than</option><option id="C">Less than</option><option id="D">None</option>
+            <answer>A</answer><explanation>Δng = 2 - (1+1) = 0.</explanation></question>
+        <question>
+            <text>For the reaction N2 + 3H2 -&gt; 2NH3, ΔH is ____ ΔU.</text>
+            <option id="A">Less than (ΔH &lt; ΔU)</option><option id="B">Greater than</option><option id="C">Equal to</option><option id="D">None</option>
+            <answer>A</answer><explanation>Δng = 2 - 4 = -2.</explanation></question>
+        <question>
+            <text>Work done in reversible isothermal expansion w = ____.</text>
+            <option id="A">- 2.303 nRT log(V2/V1)</option><option id="B">- P ΔV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Integral of -PdV where P=nRT/V.</explanation></question>
+        <question>
+            <text>Work done in irreversible expansion against constant P_ext: w = ____.</text>
+            <option id="A">- P_ext (V2 - V1)</option><option id="B">- nRT ln(V2/V1)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constant pressure work formula.</explanation></question>
+        <question>
+            <text>Free expansion of ideal gas in vacuum: Work done is ____.</text>
+            <option id="A">Zero</option><option id="B">Positive</option><option id="C">Negative</option><option id="D">None</option>
+            <answer>A</answer><explanation>External pressure is zero.</explanation></question>
+        <question>
+            <text>In adiabatic expansion of ideal gas, internal energy ____.</text>
+            <option id="A">Decreases (Temp falls)</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Work is done at the expense of internal energy.</explanation></question>
+        <question>
+            <text>Bond dissociation enthalpy is always ____.</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy is required to break bonds.</explanation></question>
+        <question>
+            <text>Entropy change ΔS = ____ / T for a reversible process.</text>
+            <option id="A">q_rev</option><option id="B">ΔG</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Clausius definition of entropy.</explanation></question>
+        <question>
+            <text>Enthalpy of neutralization of strong acid and strong base is approx ____ kJ/mol.</text>
+            <option id="A">-57.1</option><option id="B">-13.7</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Constant for H+ + OH- -&gt; H2O.</explanation></question>
+        <question>
+            <text>Enthalpy of neutralization for weak acid/base is ____ than 57.1 kJ/mol.</text>
+            <option id="A">Less negative (more energy used for ionization)</option><option id="B">More negative</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Some heat is absorbed to ionize the weak electrolyte.</explanation></question>
+        <question>
+            <text>Standard Free Energy Change ΔG° = - RT ln ____.</text>
+            <option id="A">K (Equilibrium constant)</option><option id="B">Q</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Relates thermodynamics and equilibrium.</explanation></question>
+        <question>
+            <text>If ΔH is negative and ΔS is positive, reaction is spontaneous at ____.</text>
+            <option id="A">All temperatures</option><option id="B">High T only</option><option id="C">Low T only</option><option id="D">None</option>
+            <answer>A</answer><explanation>ΔG = (-) - T(+) is always negative.</explanation></question>
+        <question>
+            <text>If ΔH is positive and ΔS is negative, reaction is ____ spontaneous.</text>
+            <option id="A">Never</option><option id="B">Always</option><option id="C">At high T</option><option id="D">None</option>
+            <answer>A</answer><explanation>ΔG = (+) - T(-) is always positive.</explanation></question>
+        <question>
+            <text>Heat capacity C = q / ____.</text>
+            <option id="A">ΔT</option><option id="B">m</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Rate of temp change per heat added.</explanation></question>
+        <question>
+            <text>Molar heat capacity is the heat capacity per ____ mole(s) of substance.</text>
+            <option id="A">1</option><option id="B">Total</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Unit: J/mol.K.</explanation></question>
+        <question>
+            <text>Adiabatic exponent gamma = ____ / ____.</text>
+            <option id="A">Cp / Cv</option><option id="B">Cv / Cp</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Critical for gas process equations.</explanation></question>
+        <question>
+            <text>For a monatomic gas, Cv = ____ R.</text>
+            <option id="A">1.5</option><option id="B">2.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>3/2 R (only translational KE).</explanation></question>
+        <question>
+            <text>For a diatomic gas at moderate T, Cp = ____ R.</text>
+            <option id="A">3.5 (7/2 R)</option><option id="B">2.5</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cv = 5/2 R (Translation + Rotation).</explanation></question>
+        <question>
+            <text>Entropy of a gas is generally ____ than the same substance as liquid.</text>
+            <option id="A">Higher</option><option id="B">Lower</option><option id="C">Same</option><option id="D">None</option>
+            <answer>A</answer><explanation>Gases have much higher disorder.</explanation></question>
+        <question>
+            <text>Calculation of bond enthalpy from reaction data: ΔH_rxn = Σ(Bond Enthalpies of ____) - Σ(Bond Enthalpies of ____).</text>
+            <option id="A">Reactants , Products</option><option id="B">Products, Reactants</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Broken - Formed energy.</explanation></question>
+        <question>
+            <text>Intensive property among: Mass, Volume, Enthalpy, Temperature?</text>
+            <option id="A">Temperature</option><option id="B">Enthalpy</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Does not vary with quantity.</explanation></question>
+        <question>
+            <text>Which of the following describes an isolated system?</text>
+            <option id="A">q = 0 and w = 0</option><option id="B">q = 0 only</option><option id="C">w = 0 only</option><option id="D">None</option>
+            <answer>A</answer><explanation>No exchange of any kind.</explanation></question>
+        <question>
+            <text>Standard state temperature for enthalpy of formation is usually ____ K.</text>
+            <option id="A">298.15 (25 C)</option><option id="B">273.15</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard reference temp.</explanation></question>
+        <question>
+            <text>Expansion of gas in vacuum (free expansion) at constant T has ΔU = ____.</text>
+            <option id="A">0 (for ideal gas)</option><option id="B">Negative</option><option id="C">Positive</option><option id="D">None</option>
+            <answer>A</answer><explanation>q=0, w=0, so ΔU=0.</explanation></question>
+        <question>
+            <text>Bomb calorimeter measures ____ change during a reaction.</text>
+            <option id="A">Internal Energy (ΔU)</option><option id="B">Enthalpy (ΔH)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constant volume condition (isochoric).</explanation></question>
+        <question>
+            <text>Coffee-cup calorimeter measures ____ change during a reaction.</text>
+            <option id="A">Enthalpy (ΔH)</option><option id="B">Internal Energy (ΔU)</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Constant pressure condition (isobaric).</explanation></question>
+        <question>
+            <text>Enthalpy change of vaporization is always ____.</text>
+            <option id="A">Positive</option><option id="B">Negative</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Heat must be absorbed to boil liquid.</explanation></question>
+        <question>
+            <text>Trouton's Rule: ΔS_vap for many liquids is approx ____ J/mol.K.</text>
+            <option id="A">85 - 90</option><option id="B">20</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Except those with H-bonding (like water).</explanation></question>
+        <question>
+            <text>ΔS for phase change (like melting) is ΔH_melt / ____.</text>
+            <option id="A">Tm (Melting Temp)</option><option id="B">Tb</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equilibrium phase transition.</explanation></question>
+        <question>
+            <text>A reaction is at equilibrium when ΔG is ____.</text>
+            <option id="A">Zero</option><option id="B">Minimum</option><option id="C">Maximum</option><option id="D">None</option>
+            <answer>A</answer><explanation>No net energy change.</explanation></question>
+        <question>
+            <text>Absolute entropy of an element in standard state is ____.</text>
+            <option id="A">Not Zero (Positive)</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculated relative to 0 K.</explanation></question>
+        <question>
+            <text>Expansion work w = - ∫ P_ext dV. For reversible process P_ext = ____.</text>
+            <option id="A">P_int ± dP</option><option id="B">Total P</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>External pressure is infinitesimally different from system pressure.</explanation></question>
+        <question>
+            <text>Heat q and work w are ____ properties.</text>
+            <option id="A">Path functions</option><option id="B">State functions</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Depend on how the state change occurred.</explanation></question>
+        <question>
+            <text>For isothermal expansion of ideal gas, q is ____.</text>
+            <option id="A">- w</option><option id="B">w</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Since ΔU = 0, q = -w.</explanation></question>
+        <question>
+            <text>Lattice enthalpy calculations often use the ____ cycle.</text>
+            <option id="A">Born-Haber</option><option id="B">Carnot</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Application of Hess's Law.</explanation></question>
+        <question>
+            <text>Unit of molar entropy is ____.</text>
+            <option id="A">J / mol K</option><option id="B">J / mol</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Energy per mole per degree.</explanation></question>
+        <question>
+            <text>A reaction is endothermic and has ΔS &gt; 0. It becomes spontaneous at ____.</text>
+            <option id="A">High temperatures</option><option id="B">Low temperatures</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>T ΔS must overcome positive ΔH.</explanation></question>
+        <question>
+            <text>Spontaneous process in isolated system leads to ____ in internal energy?</text>
+            <option id="A">No Change (ΔU = 0, q=0, w=0)</option><option id="B">Decrease</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Spontaneity is solely driven by ΔS &gt; 0.</explanation></question>
+        <question>
+            <text>Heat capacity is an ____ property.</text>
+            <option id="A">Extensive</option><option id="B">Intensive</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Specific heat is intensive.</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>Efficiency of reversible Carnot engine η = ____ / Th.</text>
+            <option id="A">(Th - Tc)</option><option id="B">Tc</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Max possible heat engine efficiency.</explanation></question>
+        <question>
+            <text>Clausius inequality for irreversible process: dS ____ dq / T.</text>
+            <option id="A">&gt;</option><option id="B">&lt;</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Entropy generated &gt; transfer.</explanation></question>
+        <question>
+            <text>Relationship: ΔG = VdP - ____.</text>
+            <option id="A">SdT</option><option id="B">TdS</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Fundamental thermodynamic relation for G.</explanation></question>
+        <question>
+            <text>Maxwell relations derive from ____ functions.</text>
+            <option id="A">State</option><option id="B">Path</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Equality of mixed second derivatives.</explanation></question>
+        <question>
+            <text>Pressure of gas mixture of 1g H2 and 1g He in 1L at 0 C is approx ____ atm.</text>
+            <option id="A">16.8 (0.5 mol H2 + 0.25 mol He = 0.75 mol. 0.75 * 22.4 = 16.8)</option><option id="B">11.2</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Based on Dalton's law and Ideal gas law.</explanation></question>
+        <question>
+            <text>Standard entropy of CO at 298K is approx 197 J/K.mol. At 0K it is not zero due to ____.</text>
+            <option id="A">Residual Entropy (Random orientation)</option><option id="B">Impurities</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exception to 3rd law due to frozen disorder.</explanation></question>
+        <question>
+            <text>Joule-Thomson coefficient μ_JT = (____ / ____)_H.</text>
+            <option id="A">dT / dP</option><option id="B">dP / dT</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Effect of pressure drop on temperature at constant H.</explanation></question>
+        <question>
+            <text>Adiabatic process for ideal gas: TV^(gamma-1) = ____.</text>
+            <option id="A">Constant</option><option id="B">PV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relates T and V in insulation.</explanation></question>
+        <question>
+            <text>Relation between equilibrium constant and enthalpy: ln(K2/K1) = ____ [1/T1 - 1/T2].</text>
+            <option id="A">ΔH / R</option><option id="B">- ΔH / R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Van't Hoff Equation.</explanation></question>
+        <question>
+            <text>ΔG at non-standard conditions G = ΔG° + ____.</text>
+            <option id="A">RT ln Q</option><option id="B">RT ln K</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Van't Hoff isotherm.</explanation></question>
+        <question>
+            <text>Standard entropy change for H2(g) + 1/2 O2(g) -&gt; H2O(l) is ____.</text>
+            <option id="A">Negative (Loss of gas moles)</option><option id="B">Positive</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Ordering increase transition.</explanation></question>
+        <question>
+            <text>If 100 J of work is done ON the system and 100 J of heat is ABSORBED, ΔU is ____ J.</text>
+            <option id="A">200</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>ΔU = q + w = 100 + 100.</explanation></question>
+        <question>
+            <text>At room temp, molar heat capacity of solid metal is approx ____.</text>
+            <option id="A">3R (approx 25 J/mol.K)</option><option id="B">R</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Dulong-Petit Law.</explanation></question>
+        <question>
+            <text>Variation of ΔH with temperature is described by ____ equations.</text>
+            <option id="A">Kirchhoff's</option><option id="B">Gibbs-Helmholtz</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>ΔH2 - ΔH1 = ΔCp (T2 - T1).</explanation></question>
+        <question>
+            <text>Variation of ΔG / T with T described by ____ equations.</text>
+            <option id="A">Gibbs-Helmholtz</option><option id="B">Kirchhoff's</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Derivitive with respect to T involves H.</explanation></question>
+        <question>
+            <text>Entropy of mixing for two ideal gases ΔS_mix = -nR [ x1 ln x1 + x2 ln x2 ]. Transition is ____.</text>
+            <option id="A">Always Spontaneous</option><option id="B">Endothermic</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Disorder always increases upon mixing.</explanation></question>
+        <question>
+            <text>Heat of transition from diamond to graphite is ____.</text>
+            <option id="A">Negative (Graphite more stable)</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Diamond is metastable allotrope.</explanation></question>
+        <question>
+            <text>For a polytropic process PV^n = C, work done w = ____.</text>
+            <option id="A">(P2V2 - P1V1) / (1 - n)</option><option id="B">P ΔV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>General work formula for n not equal to 1.</explanation></question>
+        <question>
+            <text>In adiabatic demagnetization, temperature ____.</text>
+            <option id="A">Falls (Cooling method)</option><option id="B">Rises</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Used to reach millikelvin range.</explanation></question>
+        <question>
+            <text>Fundamental equation of thermodynamics relating U, S, P, V? ____.</text>
+            <option id="A">dU = TdS - PdV</option><option id="B">dA = -SdT - PdV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Combined First and Second Laws.</explanation></question>
+        <question>
+            <text>Relationship between ΔH and ΔU for solid-liquid transition? ____.</text>
+            <option id="A">ΔH approx ΔU (Volume change negligible)</option><option id="B">ΔH &gt;&gt; ΔU</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Work term P ΔV is very small.</explanation></question>
+        <question>
+            <text>Chemical potential (mu) is the partial molar ____.</text>
+            <option id="A">Gibbs Free Energy</option><option id="B">Enthalpy</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Driving force for matter flow.</explanation></question>
+        <question>
+            <text>Unit of bond enthalpy is generally ____.</text>
+            <option id="A">kJ / mol</option><option id="B">J / K</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Per mole of bonds.</explanation></question>
+        <question>
+            <text>ΔH_vap for water (100 C) is approx ____ kJ/mol.</text>
+            <option id="A">40.7</option><option id="B">6.0</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>High value due to H-bonding breaking.</explanation></question>
+        <question>
+            <text>Standard state of Carbon for enthalpy definition is ____.</text>
+            <option id="A">Graphite</option><option id="B">Diamond</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>More stable than diamond.</explanation></question>
+        <question>
+            <text>Verification for Thermodynamics 120 count reached?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standardization complete.</explanation></question>
+        <question>
+            <text>Thermodynamics 120 qty count verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Spontaneous process always proceeds towards ____ capacity for useful work.</text>
+            <option id="A">Decreased</option><option id="B">Increased</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Entropy increases, available energy (G) decreases.</explanation></question>
+        <question>
+            <text>Heat capacity ratio gamma for ideal gas is always ____ than 1.</text>
+            <option id="A">Greater</option><option id="B">Smaller</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cp = Cv + R.</explanation></question>
+        <question>
+            <text>Adiabatic bulk modulus of gas = ____ P.</text>
+            <option id="A">gamma</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Relation B_ad = gamma P.</explanation></question>
+        <question>
+            <text>Verification for Chemistry Class 11 Thermodynamics complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Standardized.</explanation></question>
+        <question>
+            <text>Thermodynamics progress finalized?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Entropy of 1 mole of CO gas at 0K is approx R ln 2 due to ____.</text>
+            <option id="A">Orientation disorder</option><option id="B">Vibration</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>C-O vs O-C random frozen states.</explanation></question>
+        <question>
+            <text>Intensive property: Specific Heat Capacity? ____.</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Value per gram is constant for substance.</explanation></question>
+        <question>
+            <text>Heat given to ideal gas in isothermal reversible expansion? q = ____.</text>
+            <option id="A">nRT ln(V2/V1)</option><option id="B">ΔU + PΔV</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Matches work magnitude.</explanation></question>
+        <question>
+            <text>Thermodynamics chemistry 120 qty confirmed?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Batch 9 Chemical Thermodynamics standardization verified?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+        <question>
+            <text>Mayer's relation for real gas: Cp - Cv is ____ than R.</text>
+            <option id="A">Greater (usually? actually depends... mostly greater for attractive region)</option><option id="B">Less</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Real gas energy depends on V.</explanation></question>
+        <question>
+            <text>Reaction: 4Fe + 3O2 -&gt; 2Fe2O3. Reactants have ____ entropy than product?</text>
+            <option id="A">Higher (due to gas moles)</option><option id="B">Lower</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Product is solid.</explanation></question>
+        <question>
+            <text>Standardization of Thermodynamics complete?</text>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <answer>A</answer><explanation>Done.</explanation></question>
+    </hard>
+</chapter>

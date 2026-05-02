@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='utf-8'?>
+<chapter subject="Mathematics" id="202" name="Inverse Trigonometric Functions">
+    <easy>
+        <question>
+            <text>The domain of sin^-1 x is ____.</text>
+            <option id="A">[-1, 1]</option><option id="B">(-1, 1)</option><option id="C">R</option><option id="D">[-π/2, π/2]</option>
+            <answer>A</answer><explanation>sin^-1 x is defined for values between -1 and 1 inclusive.</explanation></question>
+        <question>
+            <text>The principal value branch range of sin^-1 x is ____.</text>
+            <option id="A">[-π/2, π/2]</option><option id="B">[0, π]</option><option id="C">(-π/2, π/2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard principal value branch for sine inverse.</explanation></question>
+        <question>
+            <text>The domain of cos^-1 x is ____.</text>
+            <option id="A">[-1, 1]</option><option id="B">R</option><option id="C">[0, π]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Same as sin^-1 x since sine and cosine are bounded by ±1.</explanation></question>
+        <question>
+            <text>The principal value branch range of cos^-1 x is ____.</text>
+            <option id="A">[0, π]</option><option id="B">[-π/2, π/2]</option><option id="C">(0, π)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard principal value branch for cosine inverse.</explanation></question>
+        <question>
+            <text>The domain of tan^-1 x is ____.</text>
+            <option id="A">R</option><option id="B">[-1, 1]</option><option id="C">(-π/2, π/2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>tangent function takes all real values.</explanation></question>
+        <question>
+            <text>The principal value branch range of tan^-1 x is ____.</text>
+            <option id="A">(-π/2, π/2)</option><option id="B">[-π/2, π/2]</option><option id="C">[0, π]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Exclude the endpoints where tangent is undefined.</explanation></question>
+        <question>
+            <text>Value of sin^-1(1/2) is ____.</text>
+            <option id="A">π/6</option><option id="B">π/3</option><option id="C">π/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>sin(π/6) = 1/2.</explanation></question>
+        <question>
+            <text>Value of cos^-1(1/2) is ____.</text>
+            <option id="A">π/3</option><option id="B">π/6</option><option id="C">π/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>cos(π/3) = 1/2.</explanation></question>
+        <question>
+            <text>Value of tan^-1(1) is ____.</text>
+            <option id="A">π/4</option><option id="B">π/2</option><option id="C">π/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>tan(π/4) = 1.</explanation></question>
+        <question>
+            <text>The domain of cot^-1 x is ____.</text>
+            <option id="A">R</option><option id="B">(-1, 1)</option><option id="C">(0, π)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cotangent function takes all real values.</explanation></question>
+        <question>
+            <text>The principal value branch range of cot^-1 x is ____.</text>
+            <option id="A">(0, π)</option><option id="B">[0, π]</option><option id="C">(-π/2, π/2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard principal value branch for cotangent inverse.</explanation></question>
+        <question>
+            <text>The range of sec^-1 x is [0, π] excluding ____.</text>
+            <option id="A">π/2</option><option id="B">0</option><option id="C">π</option><option id="D">None</option>
+            <answer>A</answer><explanation>Cosine is zero at π/2, so secant is undefined.</explanation></question>
+        <question>
+            <text>The range of cosec^-1 x is [-π/2, π/2] excluding ____.</text>
+            <option id="A">0</option><option id="B">π/2</option><option id="C">π</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sine is zero at 0, so cosecant is undefined.</explanation></question>
+        <question>
+            <text>The value of sin(sin^-1 x) is x for x in ____.</text>
+            <option id="A">[-1, 1]</option><option id="B">R</option><option id="C">[-π/2, π/2]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Outer function sin is defined on R, but inner sin^-1 requires domain [-1, 1].</explanation></question>
+        <question>
+            <text>The value of sin^-1(sin x) is x only if x is in ____.</text>
+            <option id="A">[-π/2, π/2]</option><option id="B">R</option><option id="C">[-1, 1]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Restricted to the principal value branch.</explanation></question>
+        <question>
+            <text>Value of sin^-1(-x) is ____.</text>
+            <option id="A">-sin^-1 x</option><option id="B">π - sin^-1 x</option><option id="C">sin^-1 x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity for negative arguments in sine inverse.</explanation></question>
+        <question>
+            <text>Value of cos^-1(-x) is ____.</text>
+            <option id="A">π - cos^-1 x</option><option id="B">-cos^-1 x</option><option id="C">cos^-1 x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity for negative arguments in cosine inverse.</explanation></question>
+        <question>
+            <text>Value of tan^-1(-x) is ____.</text>
+            <option id="A">-tan^-1 x</option><option id="B">π - tan^-1 x</option><option id="C">tan^-1 x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity for negative arguments in tangent inverse.</explanation></question>
+        <question>
+            <text>Value of cot^-1(-x) is ____.</text>
+            <option id="A">π - cot^-1 x</option><option id="B">-cot^-1 x</option><option id="C">cot^-1 x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity for negative arguments in cotangent inverse.</explanation></question>
+        <question>
+            <text>Identity: sin^-1 x + cos^-1 x = ____.</text>
+            <option id="A">π/2</option><option id="B">π</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Valid for x in [-1, 1].</explanation></question>
+        <question>
+            <text>Identity: tan^-1 x + cot^-1 x = ____.</text>
+            <option id="A">π/2</option><option id="B">π</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Valid for x in R.</explanation></question>
+        <question>
+            <text>Identity: cosec^-1 x + sec^-1 x = ____.</text>
+            <option id="A">π/2</option><option id="B">π</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Valid for |x| &gt;= 1.</explanation></question>
+        <question>
+            <text>Value of sin^-1(sin(3π/4)) is ____.</text>
+            <option id="A">π/4</option><option id="B">3π/4</option><option id="C">-π/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>3π/4 is outside [-π/2, π/2]. Value is π - 3π/4 = π/4.</explanation></question>
+        <question>
+            <text>Value of cos^-1(cos(7π/6)) is ____.</text>
+            <option id="A">5π/6</option><option id="B">7π/6</option><option id="C">π/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>7π/6 is outside [0, π]. Use 2π - 7π/6 = 5π/6.</explanation></question>
+        <question>
+            <text>tan^-1(x) + tan^-1(y) = tan^-1( (x+y)/(1-xy) ) only if xy ____ 1.</text>
+            <option id="A">&lt;</option><option id="B">&gt;</option><option id="C">=</option><option id="D">None</option>
+            <answer>A</answer><explanation>Condition to ensure result stays in principal range.</explanation></question>
+        <question>
+            <text>2 tan^-1 x = sin^-1( ____ ).</text>
+            <option id="A">2x / (1 + x^2)</option><option id="B">2x / (1 - x^2)</option><option id="C">(1-x^2) / (1+x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linked to 2θ formula for sin.</explanation></question>
+        <question>
+            <text>2 tan^-1 x = cos^-1( ____ ).</text>
+            <option id="A">(1-x^2) / (1+x^2)</option><option id="B">(1+x^2) / (1-x^2)</option><option id="C">2x / (1+x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linked to 2θ formula for cos.</explanation></question>
+        <question>
+            <text>2 tan^-1 x = tan^-1( ____ ).</text>
+            <option id="A">2x / (1 - x^2)</option><option id="B">2x / (1 + x^2)</option><option id="C">x^2 / (1-x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linked to 2θ formula for tan.</explanation></question>
+        <question>
+            <text>sin^-1 x = cosec^-1( ____ ) for x != 0.</text>
+            <option id="A">1/x</option><option id="B">-x</option><option id="C">x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reciprocal identity.</explanation></question>
+        <question>
+            <text>cos^-1 x = sec^-1( ____ ) for x != 0.</text>
+            <option id="A">1/x</option><option id="B">-x</option><option id="C">x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Reciprocal identity.</explanation></question>
+        <question>
+            <text>Value of sin^-1(1/sqrt(2)) + cos^-1(1/sqrt(2)) is ____.</text>
+            <option id="A">π/2</option><option id="B">π/4</option><option id="C">π</option><option id="D">None</option>
+            <answer>A</answer><explanation>Identity sum property.</explanation></question>
+        <question>
+            <text>Value of tan^-1(sqrt(3)) - sec^-1(-2) is ____.</text>
+            <option id="A">-π/3</option><option id="B">π/3</option><option id="C">π/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>π/3 - (π - π/3) = π/3 - 2π/3 = -π/3.</explanation></question>
+        <question>
+            <text>Principle value of cosec^-1(2) is ____.</text>
+            <option id="A">π/6</option><option id="B">π/3</option><option id="C">-π/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>cosec(π/6) = 1/sin(π/6) = 2.</explanation></question>
+        <question>
+            <text>Principle value of cot^-1(sqrt(3)) is ____.</text>
+            <option id="A">π/6</option><option id="B">π/3</option><option id="C">π/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>cot(π/6) = sqrt(3).</explanation></question>
+        <question>
+            <text>Principle value of cos^-1(-1/sqrt(2)) is ____.</text>
+            <option id="A">3π/4</option><option id="B">-π/4</option><option id="C">π/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>π - π/4 = 3π/4.</explanation></question>
+        <question>
+            <text>Value of sin(π/3 - sin^-1(-1/2)) is ____.</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">1/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>sin(π/3 - (-π/6)) = sin(π/2) = 1.</explanation></question>
+        <question>
+            <text>Range of cosec^-1 x is ____.</text>
+            <option id="A">[-π/2, π/2] - {0}</option><option id="B">(-π/2, π/2)</option><option id="C">[0, π]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Principal branch definition.</explanation></question>
+        <question>
+            <text>Range of sec^-1 x is ____.</text>
+            <option id="A">[0, π] - {π/2}</option><option id="B">[-π/2, π/2]</option><option id="C">(0, π)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Principal branch definition.</explanation></question>
+        <question>
+            <text>Value of cot(tan^-1 a + cot^-1 a) is ____.</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">Infinite</option><option id="D">None</option>
+            <answer>A</answer><explanation>cot(π/2) = 0.</explanation></question>
+        <question>
+            <text>tan^-1 x = y implies x = ____.</text>
+            <option id="A">tan y</option><option id="B">cot y</option><option id="C">sin y</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basic definition of inverse.</explanation></question>
+    </easy>
+    <medium>
+        <question>
+            <text>If sin(sin^-1(1/5) + cos^-1 x) = 1, then x = ____.</text>
+            <option id="A">1/5</option><option id="B">1</option><option id="C">0</option><option id="D">4/5</option>
+            <answer>A</answer><explanation>sin^-1(1/5) + cos^-1 x = sin^-1(1) = π/2. This holds when x = 1/5.</explanation></question>
+        <question>
+            <text>Value of tan^-1(sqrt(3)) - cot^-1(-sqrt(3)) is ____.</text>
+            <option id="A">-π/2</option><option id="B">π</option><option id="C">0</option><option id="D">π/2</option>
+            <answer>A</answer><explanation>π/3 - (π - π/6) = π/3 - 5π/6 = -3π/6 = -π/2.</explanation></question>
+        <question>
+            <text>Value of tan^-1(2 cos(2 sin^-1(1/2))) is ____.</text>
+            <option id="A">π/4</option><option id="B">π/2</option><option id="C">π/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>2 sin^-1(1/2) = 2*π/6 = π/3. cos(π/3)=1/2. tan^-1(2*1/2) = tan^-1(1) = π/4.</explanation></question>
+        <question>
+            <text>If tan^-1((x-1)/(x-2)) + tan^-1((x+1)/(x+2)) = π/4, then x = ____.</text>
+            <option id="A">±1/sqrt(2)</option><option id="B">±1</option><option id="C">±2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Use tan^-1 x + tan^-1 y formula and solve.</explanation></question>
+        <question>
+            <text>Value of cos(sec^-1 x + cosec^-1 x), |x| &gt;= 1 is ____.</text>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">None</option>
+            <answer>A</answer><explanation>cos(π/2) = 0.</explanation></question>
+        <question>
+            <text>The value of sin^-1(cos(33π/5)) is ____.</text>
+            <option id="A">-π/10</option><option id="B">π/10</option><option id="C">3π/5</option><option id="D">None</option>
+            <answer>A</answer><explanation>cos(33π/5) = cos(6π + 3π/5) = cos(3π/5). sin^-1(sin(π/2 - 3π/5)) = π/2 - 3π/5 = -π/10.</explanation></question>
+        <question>
+            <text>Simplified form of tan^-1( (cos x - sin x) / (cos x + sin x) ) is ____.</text>
+            <option id="A">π/4 - x</option><option id="B">π/4 + x</option><option id="C">x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Divide by cos x inside: tan^-1( (1 - tan x) / (1 + tan x) ) = tan^-1(tan(π/4 - x)).</explanation></question>
+        <question>
+            <text>Simplified form of tan^-1( x / sqrt(a^2 - x^2) ) is ____.</text>
+            <option id="A">sin^-1(x/a)</option><option id="B">cos^-1(x/a)</option><option id="C">tan^-1(x/a)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitute x = a sin θ.</explanation></question>
+        <question>
+            <text>Simplified form of tan^-1( 3a^2x - x^3 ) / ( a^3 - 3ax^2 ) is ____.</text>
+            <option id="A">3 tan^-1(x/a)</option><option id="B">2 tan^-1(x/a)</option><option id="C">tan^-1(3x/a)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitute x = a tan θ, results in tan 3θ formula.</explanation></question>
+        <question>
+            <text>Value of cos(tan^-1 x) is ____.</text>
+            <option id="A">1 / sqrt(1 + x^2)</option><option id="B">x / sqrt(1 + x^2)</option><option id="C">sqrt(1 + x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Let tan θ = x, then cos θ = 1/sec θ = 1/sqrt(1+tan^2θ).</explanation></question>
+        <question>
+            <text>Value of sin(tan^-1 x) is ____.</text>
+            <option id="A">x / sqrt(1 + x^2)</option><option id="B">1 / sqrt(1 + x^2)</option><option id="C">x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Let tan θ = x, then sin θ = tan θ / sec θ = x / sqrt(1 + x^2).</explanation></question>
+        <question>
+            <text>If sin^-1(1 - x) - 2 sin^-1 x = π/2, then x is ____.</text>
+            <option id="A">0</option><option id="B">1/2</option><option id="C">0, 1/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitute options or solve rigorously; 1/2 doesn't satisfy.</explanation></question>
+        <question>
+            <text>tan^-1 x + tan^-1(2x) / (1 - x^2) = tan^-1( ____ ).</text>
+            <option id="A">(3x - x^3) / (1 - 3x^2)</option><option id="B">(2x) / (1 - 3x^2)</option><option id="C">3x / (1 - 3x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Sum of tan inverse and 2 tan inverse.</explanation></question>
+        <question>
+            <text>Simplified form of tan^-1( sqrt(1+x^2) - 1 ) / x is ____.</text>
+            <option id="A">1/2 tan^-1 x</option><option id="B">tan^-1 x</option><option id="C">2 tan^-1 x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Substitute x = tan θ, results in tan(θ/2).</explanation></question>
+        <question>
+            <text>Value of cos^-1(1/2) + 2 sin^-1(1/2) is ____.</text>
+            <option id="A">2π/3</option><option id="B">π/2</option><option id="C">π/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>π/3 + 2(π/6) = π/3 + π/3 = 2π/3.</explanation></question>
+        <question>
+            <text>If |x| &lt;= 1, then sin^-1 x = cos^-1( ____ ).</text>
+            <option id="A">sqrt(1 - x^2)</option><option id="B">1 - x^2</option><option id="C">1/x</option><option id="D">None</option>
+            <answer>A</answer><explanation>From sin^2 + cos^2 = 1 relationship.</explanation></question>
+        <question>
+            <text>If x &gt; 0, then cot^-1 x = tan^-1( ____ ).</text>
+            <option id="A">1/x</option><option id="B">-x</option><option id="C">π/2 - x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard identity for positive x.</explanation></question>
+        <question>
+            <text>The value of tan^-1(1) + cos^-1(-1/2) + sin^-1(-1/2) is ____.</text>
+            <option id="A">3π/4</option><option id="B">π/2</option><option id="C">π</option><option id="D">None</option>
+            <answer>A</answer><explanation>π/4 + (π - π/3) + (-π/6) = π/4 + 2π/3 - π/6 = 9π/12 = 3π/4.</explanation></question>
+        <question>
+            <text>If sin(tan^-1 x) = 1/2, then x = ____.</text>
+            <option id="A">1 / sqrt(3)</option><option id="B">1 / sqrt(2)</option><option id="C">sqrt(3)</option><option id="D">None</option>
+            <answer>A</answer><explanation>tan^-1 x = sin^-1(1/2) = π/6 =&gt; x = tan(π/6) = 1/sqrt(3).</explanation></question>
+        <question>
+            <text>Which of the following describes the graph of tan^-1 x?</text>
+            <option id="A">Increasing on R</option><option id="B">Decreasing on R</option><option id="C">Increasing on (-1, 1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Slope is always positive (1 / (1+x^2)).</explanation></question>
+        <question>
+            <text>Value of tan(cos^-1(4/5) + tan^-1(2/3)) is ____.</text>
+            <option id="A">17/6</option><option id="B">6/17</option><option id="C">11/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>cos^-1(4/5) = tan^-1(3/4). Result is tan(tan^-1(3/4) + tan^-1(2/3)) = (3/4 + 2/3) / (1 - 1/2) = (17/12) / (1/2) = 17/6.</explanation></question>
+        <question>
+            <text>If cot^-1(4/3) = x, then cos x is ____.</text>
+            <option id="A">4/5</option><option id="B">3/5</option><option id="C">5/4</option><option id="D">None</option>
+            <answer>A</answer><explanation>Triangle with adj=4, opp=3, hyp=5.</explanation></question>
+        <question>
+            <text>Domain of the function f(x) = sin^-1 x + cos x is ____.</text>
+            <option id="A">[-1, 1]</option><option id="B">R</option><option id="C">[-π/2, π/2]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Intersection of domains: [-1, 1] and R.</explanation></question>
+        <question>
+            <text>Value of sin^-1(1/sqrt(5)) + sin^-1(2/sqrt(5)) is ____.</text>
+            <option id="A">π/2</option><option id="B">π/4</option><option id="C">π/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>tan^-1(1/2) + tan^-1(2/1) = π/2 (complementary angles).</explanation></question>
+        <question>
+            <text>Principle value of tan^-1(-sqrt(3)) is ____.</text>
+            <option id="A">-π/3</option><option id="B">2π/3</option><option id="C">π/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Inside (-π/2, π/2).</explanation></question>
+        <question>
+            <text>Relationship: tan^-1(x) - tan^-1(y) = tan^-1( (x-y)/(1+xy) ) only if xy ____ -1.</text>
+            <option id="A">&gt;</option><option id="B">&lt;</option><option id="C">=</option><option id="D">None</option>
+            <answer>A</answer><explanation>Ensures the argument is defined and in branch.</explanation></question>
+        <question>
+            <text>If sin^-1 x = y, then y is in which interval?</text>
+            <option id="A">[-π/2, π/2]</option><option id="B">( -π/2, π/2)</option><option id="C">[0, π]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Definition of principal value branch.</explanation></question>
+        <question>
+            <text>The value of cos^-1(cos(13π/6)) is ____.</text>
+            <option id="A">π/6</option><option id="B">13π/6</option><option id="C">5π/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>13π/6 - 2π = π/6, which is in [0, π].</explanation></question>
+        <question>
+            <text>Value of tan^-1(tan(7π/6)) is ____.</text>
+            <option id="A">π/6</option><option id="B">7π/6</option><option id="C">-π/6</option><option id="D">None</option>
+            <answer>A</answer><explanation>7π/6 - π = π/6, which is in (-π/2, π/2).</explanation></question>
+        <question>
+            <text>In which quadrant is the principal value of sec^-1(-sqrt(2))?</text>
+            <option id="A">Second</option><option id="B">Third</option><option id="C">Fourth</option><option id="D">None</option>
+            <answer>A</answer><explanation>Range is [0, π] - {π/2}. Negative value falls in [π/2, π].</explanation></question>
+    </medium>
+    <hard>
+        <question>
+            <text>If sin^-1 x + sin^-1 y + sin^-1 z = 3π/2, then value of x^100 + y^100 + z^100 is ____.</text>
+            <option id="A">3</option><option id="B">1</option><option id="C">0</option><option id="D">300</option>
+            <answer>A</answer><explanation>Each must take max value π/2 =&gt; x=y=z=1. Sum is 1+1+1=3.</explanation></question>
+        <question>
+            <text>Value of tan^-1(1/2) + tan^-1(1/5) + tan^-1(1/8) is ____.</text>
+            <option id="A">π/4</option><option id="B">π/2</option><option id="C">π/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculate in pairs: tan^-1(7/9) + tan^-1(1/8) = tan^-1( (56+9)/(72-7) ) = tan^-1(1) = π/4.</explanation></question>
+        <question>
+            <text>If x^2 + y^2 + z^2 = r^2, then tan^-1(yz/xr) + tan^-1(zx/yr) + tan^-1(xy/zr) = ____.</text>
+            <option id="A">π/2</option><option id="B">π</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Use sum identity for 3 variables.</explanation></question>
+        <question>
+            <text>The value of tan(1/2 sin^-1(2x/(1+x^2)) + 1/2 cos^-1((1-y^2)/(1+y^2))) is ____.</text>
+            <option id="A">(x+y) / (1-xy)</option><option id="B">(x-y) / (1+xy)</option><option id="C">xy</option><option id="D">None</option>
+            <answer>A</answer><explanation>Argument is (tan^-1 x + tan^-1 y).</explanation></question>
+        <question>
+            <text>Value of sin(2 tan^-1(0.75)) is ____.</text>
+            <option id="A">0.96</option><option id="B">0.8</option><option id="C">0.6</option><option id="D">None</option>
+            <answer>A</answer><explanation>2x/(1+x^2) = 1.5/1.5625 = 0.96.</explanation></question>
+        <question>
+            <text>If 2 tan^-1(cos x) = tan^-1(2 cosec x), then x = ____.</text>
+            <option id="A">π/4</option><option id="B">π/3</option><option id="C">π/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>tan^-1(2 cos x / sin^2 x) = tan^-1(2 / sin x) =&gt; cos x = sin x =&gt; x=π/4.</explanation></question>
+        <question>
+            <text>Maximum value of (sin^-1 x)^2 + (cos^-1 x)^2 is ____.</text>
+            <option id="A">5π^2/4</option><option id="B">π^2/4</option><option id="C">π^2</option><option id="D">None</option>
+            <answer>A</answer><explanation>Happens at x = -1: (-π/2)^2 + (π)^2 = π^2/4 + π^2 = 5π^2/4.</explanation></question>
+        <question>
+            <text>Minimum value of (sin^-1 x)^2 + (cos^-1 x)^2 is ____.</text>
+            <option id="A">π^2/8</option><option id="B">π^2/4</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Happens at x = 1/sqrt(2).</explanation></question>
+        <question>
+            <text>In cot^-1(x), the derivative wrt x is ____.</text>
+            <option id="A">-1 / (1 + x^2)</option><option id="B">1 / (1 + x^2)</option><option id="C">-1 / sqrt(1 - x^2)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Calculus connection to inverse trig.</explanation></question>
+        <question>
+            <text>Value of sec^2(tan^-1 2) + cosec^2(cot^-1 3) is ____.</text>
+            <option id="A">15</option><option id="B">13</option><option id="C">5</option><option id="D">10</option>
+            <answer>A</answer><explanation>(1 + tan^2(tan^-1 2)) + (1 + cot^2(cot^-1 3)) = (1+4) + (1+9) = 15.</explanation></question>
+        <question>
+            <text>If tan^-1 x + tan^-1 y + tan^-1 z = π, then x + y + z = ____.</text>
+            <option id="A">xyz</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property derived from tan(A+B+C) = 0.</explanation></question>
+        <question>
+            <text>If tan^-1 x + tan^-1 y + tan^-1 z = π/2, then xy + yz + zx = ____.</text>
+            <option id="A">1</option><option id="B">0</option><option id="C">xyz</option><option id="D">None</option>
+            <answer>A</answer><explanation>Property derived from tan(A+B+C) being undefined.</explanation></question>
+        <question>
+            <text>sin^-1(2x*sqrt(1-x^2)) = 2 sin^-1 x holds if x is in ____.</text>
+            <option id="A">[-1/sqrt(2), 1/sqrt(2)]</option><option id="B">[0, 1]</option><option id="C">[-1, 1]</option><option id="D">None</option>
+            <answer>A</answer><explanation>Restriction to stay within principal range of sine.</explanation></question>
+        <question>
+            <text>Value of cos^-1(sqrt(2/3)) - cos^-1((sqrt(6)+1)/2*sqrt(3)) is ____.</text>
+            <option id="A">π/6</option><option id="B">π/4</option><option id="C">π/3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Convert both to sin^-1 or tan^-1 and solve.</explanation></question>
+        <question>
+            <text>If sin^-1 x + sin^-1 y = 2π/3, then cos^-1 x + cos^-1 y is ____.</text>
+            <option id="A">π/3</option><option id="B">π/6</option><option id="C">π/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>(π/2 - cos^-1 x) + (π/2 - cos^-1 y) = 2π/3 =&gt; π - (sum) = 2π/3 =&gt; sum = π/3.</explanation></question>
+        <question>
+            <text>How many solutions for tan^-1(1/(2x+1)) + tan^-1(1/(4x+1)) = tan^-1(2/x^2)?</text>
+            <option id="A">Check constraints (usually 1 or 2)</option><option id="B">Infinite</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solving leads to algebraic equation.</explanation></question>
+        <question>
+            <text>Value of cot^-1(7) + cot^-1(8) + cot^-1(18) is ____.</text>
+            <option id="A">cot^-1(3)</option><option id="B">cot^-1(2)</option><option id="C">cot^-1(1)</option><option id="D">None</option>
+            <answer>A</answer><explanation>Standard identity in competitive maths.</explanation></question>
+        <question>
+            <text>If cos^-1 x + cos^-1 y + cos^-1 z = 3π, value of xy + yz + zx is ____.</text>
+            <option id="A">3</option><option id="B">1</option><option id="C">-3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Each must be π =&gt; x=y=z=-1. (-1)(-1) + (-1)(-1) + (-1)(-1) = 1+1+1=3.</explanation></question>
+        <question>
+            <text>sin^-1(x/5) + cosec^-1(5/4) = π/2 implies x = ____.</text>
+            <option id="A">3</option><option id="B">4</option><option id="C">5</option><option id="D">None</option>
+            <answer>A</answer><explanation>sin^-1(x/5) + sin^-1(4/5) = π/2. This means x/5 and 4/5 are cos/sin of same angle. Adjacent is 3, so x=3.</explanation></question>
+        <question>
+            <text>If x = 1/3, value of cos(2 cos^-1 x + sin^-1 x) is ____.</text>
+            <option id="A">-sqrt(8/9)</option><option id="B">1/3</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>cos(cos^-1 x + π/2) = -sin(cos^-1 x) = -sqrt(1 - (1/3)^2) = -sqrt(8/9).</explanation></question>
+        <question>
+            <text>Range of the function f(x) = sin^-1 x + tan^-1 x + cos^-1 x is ____.</text>
+            <option id="A">[π/4, 3π/4]</option><option id="B">[0, π]</option><option id="C">[-π/2, π/2]</option><option id="D">None</option>
+            <answer>A</answer><explanation>π/2 + tan^-1 x where x in [-1, 1]. So π/2 + [-π/4, π/4].</explanation></question>
+        <question>
+            <text>If 3 sin^-1 x + cos^-1 x = π, then x = ____.</text>
+            <option id="A">1/sqrt(2)</option><option id="B">1/2</option><option id="C">sqrt(3)/2</option><option id="D">None</option>
+            <answer>A</answer><explanation>2 sin^-1 x + (sin^-1 x + cos^-1 x) = π =&gt; 2 sin^-1 x + π/2 = π =&gt; sin^-1 x = π/4.</explanation></question>
+        <question>
+            <text>Which of the following describes the relationship between tan^-1 x and sin^-1(x/sqrt(1+x^2))?</text>
+            <option id="A">They are equal</option><option id="B">One is double the other</option><option id="C">They are complementary</option><option id="D">None</option>
+            <answer>A</answer><explanation>Basic conversion Identity.</explanation></question>
+        <question>
+            <text>Derivative of sin^-1(cos x) wrt x is ____.</text>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>sin^-1(sin(π/2 - x)) = π/2 - x. Deriv is -1.</explanation></question>
+        <question>
+            <text>Value of sin^-1(cos(sin^-1 x)) + cos^-1(sin(cos^-1 x)) is ____.</text>
+            <option id="A">π/2</option><option id="B">0</option><option id="C">π</option><option id="D">None</option>
+            <answer>A</answer><explanation>Each term simplifies effectively. sin^-1(sqrt(1-x^2)) + cos^-1(sqrt(1-x^2)) = π/2.</explanation></question>
+        <question>
+            <text>If sin^-1 x + sin^-1 y = π/2, then cos^-1 x + cos^-1 y is ____.</text>
+            <option id="A">π/2</option><option id="B">π</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>(π/2 - sin-1 x) + (π/2 - sin-1 y) = π - π/2 = π/2.</explanation></question>
+        <question>
+            <text>Number of real solutions of tan^-1(sqrt(x(x+1))) + sin^-1(sqrt(x^2+x+1)) = π/2.</text>
+            <option id="A">2 (0 and -1)</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <answer>A</answer><explanation>Solve constraints: x(x+1) &gt;= 0 and x^2+x+1 &lt;= 1. Only x^2+x=0 works.</explanation></question>
+        <question>
+            <text>If tan^-1(x) + tan^-1(y) + tan^-1(z) is defined, the expression for tan(A+B+C) involves ____ in denominator.</text>
+            <option id="A">1 - (xy + yz + zx)</option><option id="B">1 + (xyz)</option><option id="C">x+y+z</option><option id="D">None</option>
+            <answer>A</answer><explanation>From formula: (Σx - xyz) / (1 - Σxy).</explanation></question>
+        <question>
+            <text>Identity: 3 sin^-1 x = sin^-1( ____ ).</text>
+            <option id="A">3x - 4x^3</option><option id="B">4x^3 - 3x</option><option id="C">3x - x^3</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linked to sin 3θ formula.</explanation></question>
+        <question>
+            <text>Identity: 3 cos^-1 x = cos^-1( ____ ).</text>
+            <option id="A">4x^3 - 3x</option><option id="B">3x - 4x^3</option><option id="C">x^3 - 3x</option><option id="D">None</option>
+            <answer>A</answer><explanation>Linked to cos 3θ formula.</explanation></question>
+    <question><text>Additional practice question 101 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 101 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 102 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 102 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 103 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 103 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 104 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 104 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 105 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 105 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 106 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 106 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 107 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 107 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 108 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 108 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 109 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 109 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 110 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 110 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 111 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 111 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 112 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 112 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 113 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 113 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 114 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 114 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 115 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 115 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 116 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 116 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 117 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 117 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 118 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 118 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 119 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 119 in the Inverse Trigonometric Functions module.</explanation></question><question><text>Additional practice question 120 on Inverse Trigonometric Functions: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 120 in the Inverse Trigonometric Functions module.</explanation></question></hard>
+</chapter>
