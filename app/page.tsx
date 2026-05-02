@@ -123,7 +123,7 @@ function HomeHeader() {
       >
         {/* logo */}
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.png" alt="AbhyasCore Logo" className="h-12 sm:h-16 lg:h-28 w-auto object-contain" />
+          <img src="/logo.png" alt="AbhyasCore Logo" className="h-10 sm:h-12 lg:h-16 xl:h-20 w-auto object-contain" />
         </Link>
 
         {/* nav */}
@@ -167,7 +167,7 @@ export default function HomePage() {
 
       <main className="overflow-hidden">
         {/* ═══════════════════ HERO ═══════════════════ */}
-        <section className="relative w-full pt-28 pb-16 sm:pt-36 lg:pt-40 lg:pb-24 mix-blend-multiply bg-[#fafafc]">
+        <section className="relative w-full pt-32 pb-16 sm:pt-40 lg:pt-48 lg:pb-24 mix-blend-multiply bg-[#fafafc]">
           {/* Subtle parallax grid pattern */}
           <motion.div 
              initial={{ opacity: 0 }}

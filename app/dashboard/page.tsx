@@ -45,6 +45,42 @@ function DashboardContent() {
     }
   }, [user?.uid]);
 
+  // Auto-sync missing subscriptions for Free users
+  useEffect(() => {
+    const checkMissingSubscription = async () => {
+      if (!user?.uid || !user?.email || userData?.subscription?.plan !== "Free") return;
+      
+      try {
+        const res = await fetch("/api/payment/check-user-status", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ userId: user.uid, userEmail: user.email }),
+        });
+        const data = await res.json();
+        
+        if (data.hasActiveSubscription && data.plan) {
+          // Found an orphaned subscription! Sync it immediately.
+          await updateUserSubscription(
+            user.uid,
+            data.plan,
+            "active",
+            data.subscriptionId
+          );
+          setToast({ message: "Your Pro plan has been restored and synced!", type: "success" });
+          setTimeout(() => window.location.reload(), 1500);
+        }
+      } catch (err) {
+        console.error("Auto-sync failed", err);
+      }
+    };
+
+    // Only run this once per session to avoid spamming the API
+    if (!sessionStorage.getItem("hasCheckedSubSync")) {
+      sessionStorage.setItem("hasCheckedSubSync", "true");
+      checkMissingSubscription();
+    }
+  }, [user, userData]);
+
   // Pro features check
   const isPremium = userData?.subscription?.plan === "Pro Monthly" || userData?.subscription?.plan === "Pro Yearly" || userData?.subscription?.plan === "Weekly Pass";
 
