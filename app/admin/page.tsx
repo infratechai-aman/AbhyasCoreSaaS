@@ -57,6 +57,10 @@ export default function SuperAdminDashboard() {
   const { user, userData } = useAuth();
   const [mounted, setMounted] = useState(false);
 
+  // Razorpay Sync state
+  const [syncLoading, setSyncLoading] = useState(false);
+  const [syncResults, setSyncResults] = useState<{ synced: number; skipped: number; errors: string[] } | null>(null);
+
   // Promo tool state
   const [promoMode, setPromoMode] = useState<"search" | "create">("create");
   const [createName, setCreateName] = useState("");
@@ -222,6 +226,86 @@ export default function SuperAdminDashboard() {
      } finally {
        setPromoLoading(false);
      }
+  };
+
+  const handleSyncRazorpay = async () => {
+    setSyncLoading(true);
+    setSyncResults(null);
+    try {
+      // 1. Fetch all subscriptions from Razorpay
+      const res = await fetch("/api/payment/sync-subscriptions");
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+
+      const subs = data.subscriptions || [];
+      let synced = 0;
+      let skipped = 0;
+      const errors: string[] = [];
+
+      // 2. For each active/authenticated subscription, find and update the Firestore user
+      for (const sub of subs) {
+        if (sub.status !== "active" && sub.status !== "authenticated" && sub.status !== "created") {
+          skipped++;
+          continue;
+        }
+
+        const email = sub.userEmail;
+        const userId = sub.userId;
+
+        if (!email && !userId) {
+          skipped++;
+          continue;
+        }
+
+        try {
+          if (!db) throw new Error("DB not available");
+
+          // Try to find user by UID first, then by email
+          let userDocId: string | null = null;
+
+          if (userId) {
+            const userSnap = await getDocs(query(collection(db, "users"), where("__name__", "==", userId)));
+            if (!userSnap.empty) {
+              userDocId = userSnap.docs[0].id;
+            }
+          }
+
+          if (!userDocId && email) {
+            const emailSnap = await getDocs(query(collection(db, "users"), where("email", "==", email)));
+            if (!emailSnap.empty) {
+              userDocId = emailSnap.docs[0].id;
+            }
+          }
+
+          if (!userDocId) {
+            errors.push(`User not found: ${email || userId}`);
+            skipped++;
+            continue;
+          }
+
+          // Determine plan type from Razorpay notes
+          const plan = sub.planType === "pro_yearly" ? "Pro Yearly" : "Pro Monthly";
+
+          // Update Firestore
+          await updateDoc(doc(db, "users", userDocId), {
+            "subscription.plan": plan,
+            "subscription.status": "active",
+            "subscription.razorpaySubscriptionId": sub.subscriptionId,
+            updatedAt: serverTimestamp(),
+          });
+
+          synced++;
+        } catch (e: any) {
+          errors.push(`Failed for ${email || userId}: ${e.message}`);
+        }
+      }
+
+      setSyncResults({ synced, skipped, errors });
+    } catch (e: any) {
+      setSyncResults({ synced: 0, skipped: 0, errors: [e.message] });
+    } finally {
+      setSyncLoading(false);
+    }
   };
 
   if (!mounted) return null;
@@ -493,6 +577,67 @@ export default function SuperAdminDashboard() {
                  <span className="truncate">{promoCodeLink}</span>
                  <div className="uppercase tracking-widest text-[9px] px-2 py-1 bg-white rounded-md shadow-sm ml-4 border border-indigo-100 shrink-0">Copied!</div>
               </div>
+           )}
+        </motion.div>
+
+        {/* ─── Razorpay Payment Sync Tool ─── */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.38 }}
+          className="mt-6 rounded-2xl border border-emerald-200/80 bg-gradient-to-r from-emerald-50/50 to-white p-6 shadow-sm relative overflow-hidden"
+        >
+           <div className="absolute top-0 right-0 p-6 opacity-5 pointer-events-none text-emerald-900">
+             <CreditCard className="w-32 h-32" />
+           </div>
+           
+           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-5 relative z-10">
+              <div>
+                 <h2 className="text-[18px] font-bold text-slate-900 mb-1">Razorpay → Firestore Sync</h2>
+                 <p className="text-[12px] text-slate-500">Fetch all paid subscriptions from Razorpay and update Firestore users who paid but weren&apos;t upgraded.</p>
+              </div>
+              <button 
+                onClick={handleSyncRazorpay}
+                disabled={syncLoading}
+                className="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-all flex items-center gap-2 shadow-lg shadow-emerald-600/20 hover:scale-[1.02] shrink-0"
+              >
+                {syncLoading ? (
+                  <>
+                    <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                    Syncing...
+                  </>
+                ) : (
+                  <>
+                    <Activity className="w-4 h-4" />
+                    Sync All Payments
+                  </>
+                )}
+              </button>
+           </div>
+
+           {syncResults && (
+             <div className="space-y-3 relative z-10">
+                <div className="flex flex-wrap gap-3">
+                   <div className="px-4 py-2.5 rounded-xl bg-emerald-100 border border-emerald-200 text-emerald-800 text-[13px] font-bold">
+                     ✅ {syncResults.synced} users synced
+                   </div>
+                   <div className="px-4 py-2.5 rounded-xl bg-slate-100 border border-slate-200 text-slate-600 text-[13px] font-bold">
+                     ⏭️ {syncResults.skipped} skipped
+                   </div>
+                   {syncResults.errors.length > 0 && (
+                     <div className="px-4 py-2.5 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-[13px] font-bold">
+                       ⚠️ {syncResults.errors.length} errors
+                     </div>
+                   )}
+                </div>
+                {syncResults.errors.length > 0 && (
+                  <div className="bg-rose-50 border border-rose-100 rounded-xl p-3 max-h-32 overflow-y-auto">
+                     {syncResults.errors.map((err, i) => (
+                       <div key={i} className="text-[11px] text-rose-600 font-medium py-0.5">{err}</div>
+                     ))}
+                  </div>
+                )}
+             </div>
            )}
         </motion.div>
 

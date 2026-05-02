@@ -404,7 +404,10 @@ function DashboardContent() {
 
     {/* Styled Toast Notification */}
     {toast && (
-      <div className={`fixed top-6 right-6 z-[200] flex items-center gap-3 px-5 py-4 rounded-2xl shadow-2xl border backdrop-blur-xl animate-in slide-in-from-top-4 fade-in duration-300 max-w-md ${
+      <div className={`fixed z-[200] flex items-center gap-3 rounded-2xl shadow-2xl border backdrop-blur-xl max-w-md
+        bottom-20 left-4 right-4 px-4 py-3
+        md:bottom-auto md:top-6 md:left-auto md:right-6 md:px-5 md:py-4
+        ${
         toast.type === "success"
           ? "bg-emerald-50/95 border-emerald-200 text-emerald-900"
           : "bg-red-50/95 border-red-200 text-red-900"
@@ -414,8 +417,8 @@ function DashboardContent() {
         ) : (
           <AlertTriangle className="w-5 h-5 text-red-600 shrink-0" />
         )}
-        <p className="text-[13px] font-semibold leading-snug">{toast.message}</p>
-        <button onClick={() => setToast(null)} className="ml-auto shrink-0 text-slate-400 hover:text-slate-600">
+        <p className="text-[13px] font-semibold leading-snug flex-1">{toast.message}</p>
+        <button onClick={() => setToast(null)} className="shrink-0 text-slate-400 hover:text-slate-600">
           <X className="w-4 h-4" />
         </button>
       </div>
