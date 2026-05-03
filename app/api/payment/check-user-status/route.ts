@@ -86,7 +86,7 @@ export async function POST(req: Request) {
 
     if (activePayment) {
       // If we found a captured payment but no subscription, assume they bought a pass or legacy Pro
-      const amount = activePayment.amount;
+      const amount = Number(activePayment.amount);
       let plan = "Pro Monthly";
       if (amount >= 29900) plan = "Pro Yearly";
       else if (amount <= 700) plan = "Weekly Pass";
