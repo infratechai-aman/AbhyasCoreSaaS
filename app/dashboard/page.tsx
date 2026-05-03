@@ -75,8 +75,8 @@ function DashboardContent() {
     };
 
     // Only run this once per session to avoid spamming the API
-    if (!sessionStorage.getItem("hasCheckedSubSyncV2")) {
-      sessionStorage.setItem("hasCheckedSubSyncV2", "true");
+    if (!sessionStorage.getItem("hasCheckedSubSyncV3")) {
+      sessionStorage.setItem("hasCheckedSubSyncV3", "true");
       checkMissingSubscription();
     }
   }, [user, userData]);

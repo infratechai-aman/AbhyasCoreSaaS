@@ -294,7 +294,9 @@ export default function SuperAdminDashboard() {
           }
 
           // Determine plan type from Razorpay notes
-          const plan = sub.planType === "pro_yearly" ? "Pro Yearly" : "Pro Monthly";
+          let plan = "Pro Monthly";
+          if (sub.planType === "pro_yearly") plan = "Pro Yearly";
+          else if (sub.planType === "weekly_pass") plan = "Weekly Pass";
 
           // Update Firestore
           await updateDoc(doc(db, "users", userDocId), {
