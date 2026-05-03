@@ -21,16 +21,32 @@ export async function POST(req: Request) {
       key_secret: keySecret,
     });
 
-    // Fetch recent subscriptions (max 100)
-    // Note: If you have more than 100 subscriptions, you may need pagination.
-    const subscriptions = await razorpay.subscriptions.all({ count: 100 });
-
-    // Find if the user has any active or authenticated subscription
-    const activeSub = (subscriptions.items || []).find((sub: any) => {
-      const isStatusValid = sub.status === 'active' || sub.status === 'authenticated' || sub.status === 'created';
-      const isUserMatch = sub.notes?.user_email === userEmail || sub.notes?.user_id === userId;
-      return isStatusValid && isUserMatch;
-    });
+    // Check subscriptions first (up to 5 pages / 500 records)
+    let activeSub = null;
+    let hasMore = true;
+    let skip = 0;
+    
+    while (hasMore && skip < 500) {
+      const subs = await razorpay.subscriptions.all({ count: 100, skip });
+      if (!subs.items || subs.items.length === 0) {
+        hasMore = false;
+        break;
+      }
+      
+      const found = subs.items.find((sub: any) => {
+        const isStatusValid = sub.status === 'active' || sub.status === 'authenticated' || sub.status === 'created';
+        const isUserMatch = sub.notes?.user_email === userEmail || sub.notes?.user_id === userId;
+        return isStatusValid && isUserMatch;
+      });
+      
+      if (found) {
+        activeSub = found;
+        break;
+      }
+      
+      if (subs.items.length < 100) hasMore = false;
+      skip += 100;
+    }
 
     if (activeSub) {
       const plan = activeSub.notes?.plan_type === 'pro_yearly' ? 'Pro Yearly' : 'Pro Monthly';
@@ -38,6 +54,47 @@ export async function POST(req: Request) {
         hasActiveSubscription: true,
         plan: plan,
         subscriptionId: activeSub.id,
+      });
+    }
+
+    // If not found in subscriptions, check standard payments (for Weekly Pass or old legacy payments)
+    let activePayment = null;
+    hasMore = true;
+    skip = 0;
+    
+    while (hasMore && skip < 500) {
+      const payments = await razorpay.payments.all({ count: 100, skip });
+      if (!payments.items || payments.items.length === 0) {
+        hasMore = false;
+        break;
+      }
+      
+      const found = payments.items.find((pay: any) => {
+        const isCaptured = pay.status === 'captured';
+        const isUserMatch = pay.notes?.user_email === userEmail || pay.notes?.user_id === userId || pay.email === userEmail;
+        return isCaptured && isUserMatch;
+      });
+      
+      if (found) {
+        activePayment = found;
+        break;
+      }
+      
+      if (payments.items.length < 100) hasMore = false;
+      skip += 100;
+    }
+
+    if (activePayment) {
+      // If we found a captured payment but no subscription, assume they bought a pass or legacy Pro
+      const amount = activePayment.amount;
+      let plan = "Pro Monthly";
+      if (amount >= 29900) plan = "Pro Yearly";
+      else if (amount <= 700) plan = "Weekly Pass";
+      
+      return NextResponse.json({
+        hasActiveSubscription: true,
+        plan: plan,
+        subscriptionId: "legacy_payment_" + activePayment.id,
       });
     }
 
