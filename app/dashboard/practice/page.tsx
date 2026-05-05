@@ -79,6 +79,18 @@ export default function PracticePage() {
   return (
     <DashboardShell>
       <div className="p-4 md:p-8 space-y-8 max-w-7xl mx-auto">
+          {/* Top Toggle */}
+          <div className="inline-flex p-1 bg-white border border-slate-200/80 rounded-[10px] shadow-sm mb-6 md:mb-10 w-full sm:w-auto">
+            <Link href="/dashboard" className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2 rounded-md text-slate-500 hover:text-slate-800 text-[13px] font-medium transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-layout-dashboard shrink-0"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+              Overview
+            </Link>
+            <button className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2 rounded-md bg-indigo-600 text-white text-[13px] font-medium shadow-[0_2px_8px_rgba(79,70,229,0.25)]">
+              <Sparkles className="h-4 w-4 shrink-0" />
+              Practice Hub
+            </button>
+          </div>
+
         {/* Practice Hero Section */}
         <section className="relative rounded-[32px] overflow-hidden bg-slate-950 p-6 md:p-12 text-white shadow-2xl border border-white/5">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-[radial-gradient(circle_at_top_right,rgba(79,70,229,0.3),transparent_70%)] pointer-events-none" />

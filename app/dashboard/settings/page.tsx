@@ -99,6 +99,35 @@ export default function SettingsPage() {
           {/* Right Column */}
           <div className="space-y-6">
             
+            {/* Billing & Subscription */}
+            <div className="bg-white rounded-[24px] border border-slate-200/60 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
+              <h3 className="text-[15px] font-bold text-slate-900 mb-5">Billing & Subscription</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 mb-4">
+                 <div className="flex justify-between items-center mb-1">
+                    <span className="text-[13px] font-bold text-slate-900">Current Plan</span>
+                    <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider ${userData?.subscription?.plan && userData.subscription.plan !== "Free" ? "bg-emerald-100 text-emerald-700" : "bg-slate-200 text-slate-600"}`}>
+                       {userData?.subscription?.plan && userData.subscription.plan !== "Free" ? "Active" : "Free"}
+                    </span>
+                 </div>
+                 <div className="text-[16px] font-display font-bold text-indigo-600 mb-2">
+                    {userData?.subscription?.plan && userData.subscription.plan !== "Free" ? userData.subscription.plan : "Basic Free Tier"}
+                 </div>
+                 <div className="text-[11px] text-slate-500 font-medium">
+                    {userData?.subscription?.plan && userData.subscription.plan !== "Free" ? "Your subscription automatically renews to keep your access uninterrupted." : "Upgrade to Pro to unlock advanced AI practice and PYQs."}
+                 </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                 <button onClick={() => window.location.href = "/dashboard?checkout=Pro Monthly"} className="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-[13px] transition-colors shadow-sm">
+                    Upgrade Subscription
+                 </button>
+                 {userData?.subscription?.plan && userData.subscription.plan !== "Free" && (
+                   <button onClick={() => alert("To cancel your subscription, please visit your Razorpay email receipt and click 'Manage Subscription', or email support@abhyascore.com")} className="w-full py-2.5 rounded-xl border border-rose-200 text-rose-600 hover:bg-rose-50 font-bold text-[13px] transition-colors mt-1">
+                      Cancel Subscription
+                   </button>
+                 )}
+              </div>
+            </div>
+
             {/* Daily Goal */}
             <div className="bg-white rounded-[24px] border border-slate-200/60 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
               <div className="flex items-center justify-between mb-5">
