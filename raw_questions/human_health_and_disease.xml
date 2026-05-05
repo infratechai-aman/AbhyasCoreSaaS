@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="330" name="Human Health and Disease">
     <easy>
-
+        <question>
+            <text>Which of the following diseases is caused by a protozoan?</text>
+            <option id="A">Typhoid</option>
+            <option id="B">Malaria</option>
+            <option id="C">Pneumonia</option>
+            <option id="D">Ringworm</option>
+            <answer>B</answer>
+            <explanation>Malaria is caused by Plasmodium, a tiny protozoan. Typhoid and pneumonia are bacterial diseases, while ringworm is caused by fungi.</explanation>
+        </question>
+        <question>
+            <text>The yellowish fluid 'colostrum' secreted by mother during the initial days of lactation has abundant antibodies to protect the infant. Which antibody is most abundant in it?</text>
+            <option id="A">IgA</option>
+            <option id="B">IgM</option>
+            <option id="C">IgG</option>
+            <option id="D">IgE</option>
+            <answer>A</answer>
+            <explanation>Colostrum is rich in IgA antibodies, providing natural passive immunity to the infant.</explanation>
+        </question>
+        <question>
+            <text>Widal test is used for the diagnosis of:</text>
+            <option id="A">Malaria</option>
+            <option id="B">Cholera</option>
+            <option id="C">Typhoid</option>
+            <option id="D">Tuberculosis</option>
+            <answer>C</answer>
+            <explanation>Typhoid fever, caused by the bacterium Salmonella typhi, can be confirmed by the Widal test.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>Which of the following acts as a physiological barrier to the entry of microorganisms in the human body?</text>
+            <option id="A">Skin</option>
+            <option id="B">Epithelium of the urogenital tract</option>
+            <option id="C">Tears from eyes</option>
+            <option id="D">Monocytes</option>
+            <answer>C</answer>
+            <explanation>Tears from eyes, saliva in the mouth, and acid in the stomach are physiological barriers. Skin and epithelium are physical barriers, while monocytes are cellular barriers.</explanation>
+        </question>
+        <question>
+            <text>HIV that causes AIDS first starts destroying:</text>
+            <option id="A">Helper T-lymphocytes</option>
+            <option id="B">B-lymphocytes</option>
+            <option id="C">Leucocytes</option>
+            <option id="D">Thrombocytes</option>
+            <answer>A</answer>
+            <explanation>After entering the body, HIV enters macrophages and then Helper T-lymphocytes (TH), where it replicates and produces progeny viruses, progressively decreasing the number of helper T cells.</explanation>
+        </question>
+        <question>
+            <text>In the life cycle of Plasmodium, sexual stages (gametocytes) develop in:</text>
+            <option id="A">Human liver cells</option>
+            <option id="B">Human red blood cells (RBCs)</option>
+            <option id="C">Gut of mosquito</option>
+            <option id="D">Salivary glands of mosquito</option>
+            <answer>B</answer>
+            <explanation>The sexual stages (gametocytes) of Plasmodium develop in the human red blood cells. These are then taken up by the female Anopheles mosquito during a blood meal.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is an autoimmune disease?</text>
+            <option id="A">Asthma</option>
+            <option id="B">Rheumatoid arthritis</option>
+            <option id="C">Cirrhosis</option>
+            <option id="D">AIDS</option>
+            <answer>B</answer>
+            <explanation>Rheumatoid arthritis is an autoimmune disease where the body's immune system attacks self-cells, resulting in damage to the joints.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>Read the following statements about cancer cells:\nA. They show contact inhibition.\nB. They compete with normal cells for vital nutrients.\nC. They possess the property of metastasis.\nD. They undergo differentiation to form specialized tissues.\nHow many of the above statements are correct?</text>
+            <option id="A">One</option>
+            <option id="B">Two</option>
+            <option id="C">Three</option>
+            <option id="D">Four</option>
+            <answer>B</answer>
+            <explanation>Statements B and C are correct. Cancer cells lose the property of contact inhibition (Statement A is wrong) and they do not undergo normal differentiation (Statement D is wrong).</explanation>
+        </question>
+        <question>
+            <text>Cocaine is obtained from the plant Erythroxylum coca, native to South America. It exerts its action on the central nervous system by interfering with the transport of the neurotransmitter:</text>
+            <option id="A">Acetylcholine</option>
+            <option id="B">Serotonin</option>
+            <option id="C">Dopamine</option>
+            <option id="D">GABA</option>
+            <answer>C</answer>
+            <explanation>Cocaine, commonly called coke or crack, has a potent stimulating action on the central nervous system by interfering with the transport of the neurotransmitter dopamine.</explanation>
+        </question>
+        <question>
+            <text>Match the diseases with their causative agents:\n1. Elephantiasis   a. Trichophyton\n2. Ringworm        b. Wuchereria\n3. Amoebiasis      c. Haemophilus influenzae\n4. Pneumonia       d. Entamoeba histolytica</text>
+            <option id="A">1-b, 2-a, 3-d, 4-c</option>
+            <option id="B">1-a, 2-b, 3-d, 4-c</option>
+            <option id="C">1-b, 2-a, 3-c, 4-d</option>
+            <option id="D">1-c, 2-a, 3-d, 4-b</option>
+            <answer>A</answer>
+            <explanation>Elephantiasis is caused by filarial worms (Wuchereria), Ringworm by fungi (Trichophyton), Amoebiasis by protozoan (Entamoeba histolytica), and Pneumonia by bacteria (Haemophilus influenzae/Streptococcus pneumoniae).</explanation>
+        </question>
     </hard>
 </chapter>

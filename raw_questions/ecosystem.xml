@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="336" name="Ecosystem">
     <easy>
-
+        <question>
+            <text>Which of the following is NOT a functional component of an ecosystem?</text>
+            <option id="A">Productivity</option>
+            <option id="B">Decomposition</option>
+            <option id="C">Energy flow</option>
+            <option id="D">Stratification</option>
+            <answer>D</answer>
+            <explanation>The four functional components of an ecosystem are productivity, decomposition, energy flow, and nutrient cycling. Stratification is the vertical distribution of different species occupying different levels, which is a structural feature, not a functional component.</explanation>
+        </question>
+        <question>
+            <text>The rate of biomass production is called:</text>
+            <option id="A">Decomposition</option>
+            <option id="B">Productivity</option>
+            <option id="C">Respiration</option>
+            <option id="D">Humification</option>
+            <answer>B</answer>
+            <explanation>Productivity refers to the rate of biomass production. It is expressed in terms of g m-2 yr-1 or (kcal m-2) yr-1 to compare the productivity of different ecosystems.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is an example of an inverted pyramid of biomass?</text>
+            <option id="A">Grassland ecosystem</option>
+            <option id="B">Forest ecosystem</option>
+            <option id="C">Marine (aquatic) ecosystem</option>
+            <option id="D">Desert ecosystem</option>
+            <answer>C</answer>
+            <explanation>The pyramid of biomass in sea/ocean is generally inverted because the biomass of fishes far exceeds that of phytoplankton. Phytoplanktons have a rapid turnover rate.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>Gross primary productivity (GPP) minus respiration losses (R) is equal to:</text>
+            <option id="A">Secondary productivity</option>
+            <option id="B">Net primary productivity (NPP)</option>
+            <option id="C">Net secondary productivity</option>
+            <option id="D">Total biomass</option>
+            <answer>B</answer>
+            <explanation>Gross primary productivity minus respiration losses (R) is the net primary productivity (NPP). NPP = GPP - R. It represents the biomass available for the consumption of heterotrophs.</explanation>
+        </question>
+        <question>
+            <text>In the process of decomposition, the step where water-soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts is called:</text>
+            <option id="A">Fragmentation</option>
+            <option id="B">Leaching</option>
+            <option id="C">Catabolism</option>
+            <option id="D">Humification</option>
+            <answer>B</answer>
+            <explanation>By the process of leaching, water-soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts. This is a critical step in decomposition alongside fragmentation and catabolism.</explanation>
+        </question>
+        <question>
+            <text>Of the incident solar radiation, the photosynthetically active radiation (PAR) captures only about:</text>
+            <option id="A">1 - 5 %</option>
+            <option id="B">2 - 10 %</option>
+            <option id="C">50 %</option>
+            <option id="D">10 - 20 %</option>
+            <answer>B</answer>
+            <explanation>Plants capture only 2-10% of the photosynthetically active radiation (PAR), which itself is less than 50% of the incident solar radiation. This small amount of energy sustains the entire living world.</explanation>
+        </question>
+        <question>
+            <text>Which element cycle is completely sedimentary and has no gaseous phase?</text>
+            <option id="A">Carbon cycle</option>
+            <option id="B">Nitrogen cycle</option>
+            <option id="C">Phosphorus cycle</option>
+            <option id="D">Oxygen cycle</option>
+            <answer>C</answer>
+            <explanation>The phosphorus cycle is a sedimentary cycle. The natural reservoir of phosphorus is rock, which contains phosphorus in the form of phosphates. Unlike carbon or nitrogen, there is no respiratory release of phosphorus into the atmosphere.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>Identify the INCORRECT statement regarding ecological succession.</text>
+            <option id="A">The gradual and fairly predictable change in the species composition of a given area is called ecological succession.</option>
+            <option id="B">Primary succession begins in areas where no living organisms ever existed.</option>
+            <option id="C">Secondary succession is much slower than primary succession.</option>
+            <option id="D">The entire sequence of communities that successively change in a given area are called sere(s).</option>
+            <answer>C</answer>
+            <explanation>Secondary succession is generally FASTER than primary succession because some soil or sediment is already present, whereas primary succession requires the formation of soil from bare rock, which is a very slow process.</explanation>
+        </question>
+        <question>
+            <text>In a hydrarch succession, the correct sequence of seral stages is:</text>
+            <option id="A">Phytoplankton -> Submerged plants -> Submerged free-floating plants -> Reed-swamp -> Marsh-meadow -> Scrub -> Forest</option>
+            <option id="B">Phytoplankton -> Submerged free-floating plants -> Submerged plants -> Marsh-meadow -> Reed-swamp -> Scrub -> Forest</option>
+            <option id="C">Submerged plants -> Phytoplankton -> Reed-swamp -> Submerged free-floating plants -> Scrub -> Marsh-meadow -> Forest</option>
+            <option id="D">Phytoplankton -> Submerged plants -> Reed-swamp -> Submerged free-floating plants -> Marsh-meadow -> Scrub -> Forest</option>
+            <answer>A</answer>
+            <explanation>In hydrarch succession (succession in water), the pioneers are phytoplanktons. These are replaced by rooted-submerged plants, then rooted-floating angiosperms, followed by free-floating plants, then reed-swamp, marsh-meadow, scrub, and finally the climax forest.</explanation>
+        </question>
+        <question>
+            <text>Robert Costanza and his colleagues put an average price tag of US $33 trillion a year on fundamental global ecosystem services. Which service accounts for the largest percentage (about 50%) of this cost?</text>
+            <option id="A">Nutrient cycling</option>
+            <option id="B">Soil formation</option>
+            <option id="C">Climate regulation</option>
+            <option id="D">Recreation</option>
+            <answer>B</answer>
+            <explanation>According to Robert Costanza, soil formation accounts for about 50% of the total cost of various ecosystem services. Contributions of other services like recreation and nutrient cycling are less than 10% each.</explanation>
+        </question>
     </hard>
 </chapter>

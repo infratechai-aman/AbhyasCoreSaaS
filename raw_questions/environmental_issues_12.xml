@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="338" name="Environmental Issues">
     <easy>
-
+        <question>
+            <text>The Kyoto Protocol was endorsed at:</text>
+            <option id="A">CoP-3</option>
+            <option id="B">CoP-4</option>
+            <option id="C">CoP-5</option>
+            <option id="D">CoP-6</option>
+            <answer>A</answer>
+            <explanation>The Kyoto Protocol was endorsed at the Third Conference of Parties (CoP-3) in Kyoto, Japan, in 1997. It is an international treaty aimed at reducing greenhouse gas emissions.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is the most significant contributor to global warming?</text>
+            <option id="A">CFCs</option>
+            <option id="B">Methane</option>
+            <option id="C">Nitrous oxide</option>
+            <option id="D">Carbon dioxide</option>
+            <answer>D</answer>
+            <explanation>Carbon dioxide (CO2) is the major greenhouse gas contributing to global warming, responsible for about 60% of the greenhouse effect. It is followed by methane (20%), CFCs (14%), and N2O (6%).</explanation>
+        </question>
+        <question>
+            <text>Biomagnification of DDT in an aquatic food chain starting from water (0.003 ppb) can reach up to what concentration in fish-eating birds?</text>
+            <option id="A">2 ppm</option>
+            <option id="B">5 ppm</option>
+            <option id="C">25 ppm</option>
+            <option id="D">50 ppm</option>
+            <answer>C</answer>
+            <explanation>Biomagnification refers to the increase in concentration of a toxicant at successive trophic levels. For DDT, it starts at 0.003 ppb in water and can magnify up to 25 ppm in fish-eating birds, disrupting their calcium metabolism.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>An electrostatic precipitator is used to control which type of pollution?</text>
+            <option id="A">Water pollution</option>
+            <option id="B">Noise pollution</option>
+            <option id="C">Particulate air pollution</option>
+            <option id="D">Soil pollution</option>
+            <answer>C</answer>
+            <explanation>Electrostatic precipitators are highly efficient devices used in thermal power plants and industries to remove over 99% of particulate matter present in the exhaust by electrically charging the particles.</explanation>
+        </question>
+        <question>
+            <text>High Biochemical Oxygen Demand (BOD) in a water body indicates that:</text>
+            <option id="A">The water is highly pure</option>
+            <option id="B">The water has high dissolved oxygen</option>
+            <option id="C">The water is highly polluted with organic matter</option>
+            <option id="D">The water is deficient in microorganisms</option>
+            <answer>C</answer>
+            <explanation>BOD is the amount of oxygen required by bacteria to decompose organic matter in a sample of water. High BOD indicates that the water is heavily polluted with organic matter, leading to a sharp decline in dissolved oxygen.</explanation>
+        </question>
+        <question>
+            <text>Ozone depletion in the stratosphere is primarily caused by:</text>
+            <option id="A">Carbon dioxide</option>
+            <option id="B">Chlorofluorocarbons (CFCs)</option>
+            <option id="C">Sulfur dioxide</option>
+            <option id="D">Nitrogen oxides</option>
+            <answer>B</answer>
+            <explanation>Chlorofluorocarbons (CFCs) widely used as refrigerants move to the stratosphere where UV rays act on them to release active chlorine atoms. These chlorine atoms catalyze the degradation of ozone.</explanation>
+        </question>
+        <question>
+            <text>The process of nutrient enrichment of water bodies leading to algal blooms is called:</text>
+            <option id="A">Biomagnification</option>
+            <option id="B">Eutrophication</option>
+            <option id="C">Stratification</option>
+            <option id="D">Salinization</option>
+            <answer>B</answer>
+            <explanation>Eutrophication is the natural aging of a lake by nutrient enrichment (primarily nitrogen and phosphorus) of its water. Human activities can accelerate this process, known as cultural or accelerated eutrophication, causing massive algal blooms.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>According to the Central Pollution Control Board (CPCB), which particulate size is responsible for causing the greatest harm to human health?</text>
+            <option id="A">5.0 micrometers or less</option>
+            <option id="B">10 micrometers or less</option>
+            <option id="C">2.5 micrometers or less</option>
+            <option id="D">1.0 micrometers or less</option>
+            <answer>C</answer>
+            <explanation>According to CPCB, particulate size 2.5 micrometers or less in diameter (PM 2.5) are responsible for causing the greatest harm to human health because they can be breathed deep into the lungs and cause severe respiratory problems.</explanation>
+        </question>
+        <question>
+            <text>Which of the following treaties was signed in 1987 to control the emission of ozone-depleting substances?</text>
+            <option id="A">Kyoto Protocol</option>
+            <option id="B">Montreal Protocol</option>
+            <option id="C">Earth Summit</option>
+            <option id="D">World Summit</option>
+            <answer>B</answer>
+            <explanation>Recognizing the deleterious affects of ozone depletion, an international treaty, known as the Montreal Protocol, was signed at Montreal (Canada) in 1987 (effective in 1989) to control the emission of ozone depleting substances.</explanation>
+        </question>
+        <question>
+            <text>The 'Joint Forest Management' (JFM) concept was introduced by the Government of India in the 1980s. What is its main objective?</text>
+            <option id="A">To completely privatize all forest land in India.</option>
+            <option id="B">To involve local communities closely in protecting and managing forests.</option>
+            <option id="C">To ban all human entry into dense forest regions.</option>
+            <option id="D">To introduce exotic plant species to increase forest yield.</option>
+            <answer>B</answer>
+            <explanation>Realizing the significance of participation by local communities, the Government of India in 1980s introduced the concept of Joint Forest Management (JFM) to work closely with the local communities for protecting and managing forests.</explanation>
+        </question>
     </hard>
 </chapter>

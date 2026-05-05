@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="329" name="Evolution">
     <easy>
-
+        <question>
+            <text>Who proposed the theory of chemical evolution that life came from pre-existing non-living organic molecules?</text>
+            <option id="A">Louis Pasteur</option>
+            <option id="B">Oparin and Haldane</option>
+            <option id="C">Stanley Miller</option>
+            <option id="D">Charles Darwin</option>
+            <answer>B</answer>
+            <explanation>Oparin of Russia and Haldane of England proposed that the first form of life could have come from pre-existing non-living organic molecules (e.g., RNA, protein, etc.) and that formation of life was preceded by chemical evolution.</explanation>
+        </question>
+        <question>
+            <text>Analogous structures are a result of:</text>
+            <option id="A">Convergent evolution</option>
+            <option id="B">Divergent evolution</option>
+            <option id="C">Shared ancestry</option>
+            <option id="D">Genetic drift</option>
+            <answer>A</answer>
+            <explanation>Analogous structures are anatomically different structures evolving for the same function due to living in similar habitats. This is a result of convergent evolution (e.g., wings of butterfly and birds).</explanation>
+        </question>
+        <question>
+            <text>The phrase "Survival of the fittest" was coined by:</text>
+            <option id="A">Charles Darwin</option>
+            <option id="B">Jean-Baptiste Lamarck</option>
+            <option id="C">Herbert Spencer</option>
+            <option id="D">Hugo de Vries</option>
+            <answer>C</answer>
+            <explanation>Though heavily associated with Charles Darwin's theory of natural selection, the exact phrase "survival of the fittest" was first coined by Herbert Spencer after reading Darwin's On the Origin of Species.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>Which of the following provides evidence for divergent evolution?</text>
+            <option id="A">Flippers of penguins and dolphins</option>
+            <option id="B">Eye of the octopus and mammals</option>
+            <option id="C">Forelimbs of whales, bats, cheetah, and humans</option>
+            <option id="D">Sweet potato and potato</option>
+            <answer>C</answer>
+            <explanation>Forelimbs of whales, bats, cheetah, and humans share similarities in the pattern of bones (humerus, radius, ulna, carpals, metacarpals, phalanges) but perform different functions. This represents homologous organs, which indicate divergent evolution from a common ancestor.</explanation>
+        </question>
+        <question>
+            <text>Industrial melanism as observed in peppered moth (Biston betularia) in England is an example of:</text>
+            <option id="A">Artificial selection</option>
+            <option id="B">Directional natural selection</option>
+            <option id="C">Stabilizing natural selection</option>
+            <option id="D">Disruptive natural selection</option>
+            <answer>B</answer>
+            <explanation>Industrial melanism is an excellent example of directional natural selection, where the environment changed (pollution darkened the tree trunks), shifting the survival advantage from the light-colored moths to the dark-colored (melanic) moths.</explanation>
+        </question>
+        <question>
+            <text>In the Hardy-Weinberg equation, p² + 2pq + q² = 1, the term '2pq' represents:</text>
+            <option id="A">The frequency of the dominant allele</option>
+            <option id="B">The frequency of homozygous recessive individuals</option>
+            <option id="C">The frequency of heterozygous individuals</option>
+            <option id="D">The frequency of homozygous dominant individuals</option>
+            <answer>C</answer>
+            <explanation>In the Hardy-Weinberg equation, p represents the dominant allele frequency, q is the recessive allele frequency. Therefore, p² is homozygous dominant, q² is homozygous recessive, and 2pq represents the frequency of heterozygous individuals.</explanation>
+        </question>
+        <question>
+            <text>The brain capacity of Homo habilis was approximately:</text>
+            <option id="A">400 - 500 cc</option>
+            <option id="B">650 - 800 cc</option>
+            <option id="C">900 cc</option>
+            <option id="D">1400 cc</option>
+            <answer>B</answer>
+            <explanation>Homo habilis was the first human-like hominid. They probably did not eat meat, and their brain capacities were between 650-800 cc. Homo erectus had a larger brain capacity around 900 cc.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>According to Hugo de Vries, the mechanism of evolution is:</text>
+            <option id="A">Continuous minor variations</option>
+            <option id="B">Inheritance of acquired characters</option>
+            <option id="C">Saltation (single step large mutation)</option>
+            <option id="D">Natural selection</option>
+            <answer>C</answer>
+            <explanation>Hugo de Vries, based on his work on evening primrose, proposed that mutations are random and directionless and cause evolution. He believed mutation caused speciation and called it saltation (single step large mutation), unlike Darwin who believed evolution was gradual.</explanation>
+        </question>
+        <question>
+            <text>In the Miller-Urey experiment, the gases circulated in the closed flask were:</text>
+            <option id="A">CH4, NH3, H2, and H2O vapor at 800°C</option>
+            <option id="B">CO2, NH3, H2, and H2O vapor at 800°C</option>
+            <option id="C">CH4, NO2, H2, and H2O vapor at 500°C</option>
+            <option id="D">CH4, NH3, O2, and H2O vapor at 800°C</option>
+            <answer>A</answer>
+            <explanation>S.L. Miller created electric discharge in a closed flask containing CH4 (methane), H2 (hydrogen), NH3 (ammonia), and water vapor at 800°C to simulate primitive Earth conditions. Notably, oxygen (O2) was absent as primitive Earth had a reducing atmosphere.</explanation>
+        </question>
+        <question>
+            <text>The phenomenon where a small portion of a population breaks away and forms a new population in a new geographic area, exhibiting a different allelic frequency from the original population, is known as:</text>
+            <option id="A">Gene migration</option>
+            <option id="B">Genetic recombination</option>
+            <option id="C">Founder effect</option>
+            <option id="D">Directional selection</option>
+            <answer>C</answer>
+            <explanation>When a small group of individuals breaks off from a larger population to establish a colony, the new colony may have different allele frequencies than the original population. This specific type of genetic drift is called the Founder effect.</explanation>
+        </question>
     </hard>
 </chapter>

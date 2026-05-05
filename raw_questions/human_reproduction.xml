@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="325" name="Human Reproduction">
     <easy>
-
+        <question>
+            <text>In human males, the testes are situated outside the abdominal cavity within a pouch called the scrotum. The purpose of this is to:</text>
+            <option id="A">Protect them from mechanical shock</option>
+            <option id="B">Maintain a lower temperature for spermatogenesis</option>
+            <option id="C">Provide more space for sperm storage</option>
+            <option id="D">Facilitate easy release of sperm</option>
+            <answer>B</answer>
+            <explanation>The scrotum helps in maintaining the low temperature of the testes (2–2.5°C lower than the normal internal body temperature) necessary for spermatogenesis.</explanation>
+        </question>
+        <question>
+            <text>Which hormone is responsible for the intense uterine contractions during parturition?</text>
+            <option id="A">Progesterone</option>
+            <option id="B">Prolactin</option>
+            <option id="C">Oxytocin</option>
+            <option id="D">Estrogen</option>
+            <answer>C</answer>
+            <explanation>Oxytocin acts on the uterine muscle and causes stronger uterine contractions, which in turn stimulates further secretion of oxytocin, leading to the expulsion of the baby (parturition).</explanation>
+        </question>
+        <question>
+            <text>The structure that connects the developing fetus to the maternal body for the exchange of nutrients and wastes is the:</text>
+            <option id="A">Amnion</option>
+            <option id="B">Umbilical cord</option>
+            <option id="C">Placenta</option>
+            <option id="D">Yolk sac</option>
+            <answer>C</answer>
+            <explanation>The placenta facilitates the supply of oxygen and nutrients to the embryo and also the removal of carbon dioxide and excretory/waste materials produced by the embryo.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>Which cells in the testis synthesize and secrete testicular hormones called androgens?</text>
+            <option id="A">Sertoli cells</option>
+            <option id="B">Spermatogonia</option>
+            <option id="C">Leydig cells</option>
+            <option id="D">Primary spermatocytes</option>
+            <answer>C</answer>
+            <explanation>The regions outside the seminiferous tubules called interstitial spaces contain small blood vessels and interstitial cells or Leydig cells. Leydig cells synthesise and secrete testicular hormones called androgens.</explanation>
+        </question>
+        <question>
+            <text>In the human female menstrual cycle, the rapid secretion of LH leading to its maximum level during the mid-cycle (about 14th day) induces:</text>
+            <option id="A">Degeneration of the corpus luteum</option>
+            <option id="B">Development of ovarian follicles</option>
+            <option id="C">Rupture of the Graafian follicle and release of the ovum</option>
+            <option id="D">Thickening of the endometrium</option>
+            <answer>C</answer>
+            <explanation>Rapid secretion of LH leading to its maximum level during the mid-cycle is called the LH surge. It induces rupture of the Graafian follicle and thereby the release of ovum (ovulation).</explanation>
+        </question>
+        <question>
+            <text>The first movements of the fetus and appearance of hair on the head are usually observed during which month of pregnancy?</text>
+            <option id="A">Third month</option>
+            <option id="B">Fourth month</option>
+            <option id="C">Fifth month</option>
+            <option id="D">Sixth month</option>
+            <answer>C</answer>
+            <explanation>The first movements of the fetus and appearance of hair on the head are usually observed during the fifth month of human pregnancy.</explanation>
+        </question>
+        <question>
+            <text>What is the correct sequence of spermatogenesis?</text>
+            <option id="A">Spermatogonia -> Spermatids -> Primary spermatocytes -> Secondary spermatocytes -> Spermatozoa</option>
+            <option id="B">Spermatogonia -> Primary spermatocytes -> Secondary spermatocytes -> Spermatids -> Spermatozoa</option>
+            <option id="C">Primary spermatocytes -> Secondary spermatocytes -> Spermatogonia -> Spermatids -> Spermatozoa</option>
+            <option id="D">Spermatogonia -> Primary spermatocytes -> Spermatids -> Secondary spermatocytes -> Spermatozoa</option>
+            <answer>B</answer>
+            <explanation>Spermatogonia multiply by mitosis. Some grow into primary spermatocytes, which undergo meiosis I to form secondary spermatocytes, which undergo meiosis II to form spermatids. Spermatids transform into spermatozoa (sperms).</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>During fertilization, the sperm comes in contact with which layer of the ovum to induce changes in the membrane that block the entry of additional sperms?</text>
+            <option id="A">Corona radiata</option>
+            <option id="B">Zona pellucida</option>
+            <option id="C">Vitelline membrane</option>
+            <option id="D">Plasma membrane</option>
+            <answer>B</answer>
+            <explanation>During fertilisation, a sperm comes in contact with the zona pellucida layer of the ovum and induces changes in the membrane that block the entry of additional sperms, thus ensuring monospermy.</explanation>
+        </question>
+        <question>
+            <text>The acrosome of the sperm is a modified organelle that is essential for fertilization. Which cellular organelle gives rise to the acrosome?</text>
+            <option id="A">Mitochondria</option>
+            <option id="B">Endoplasmic reticulum</option>
+            <option id="C">Golgi body</option>
+            <option id="D">Lysosome</option>
+            <answer>C</answer>
+            <explanation>The acrosome is a cap-like structure at the anterior part of the sperm head, filled with enzymes that help fertilize the ovum. It is derived from the Golgi apparatus during spermiogenesis.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT secreted by the human placenta?</text>
+            <option id="A">hCG (Human Chorionic Gonadotropin)</option>
+            <option id="B">hPL (Human Placental Lactogen)</option>
+            <option id="C">Estrogens</option>
+            <option id="D">Relaxin</option>
+            <answer>D</answer>
+            <explanation>The placenta acts as an endocrine tissue and produces several hormones like hCG, hPL, estrogens, progestogens, etc. Relaxin is secreted by the ovary in the later phase of pregnancy.</explanation>
+        </question>
     </hard>
 </chapter>

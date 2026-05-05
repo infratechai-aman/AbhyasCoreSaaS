@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="332" name="Microbes in Human Welfare">
     <easy>
-
+        <question>
+            <text>Which microbe is used in the commercial production of citric acid?</text>
+            <option id="A">Aspergillus niger</option>
+            <option id="B">Acetobacter aceti</option>
+            <option id="C">Clostridium butylicum</option>
+            <option id="D">Lactobacillus</option>
+            <answer>A</answer>
+            <explanation>Aspergillus niger (a fungus) is used for the production of citric acid. Acetobacter aceti produces acetic acid, Clostridium butylicum produces butyric acid, and Lactobacillus produces lactic acid.</explanation>
+        </question>
+        <question>
+            <text>The large holes in 'Swiss cheese' are due to the production of a large amount of CO2 by a bacterium named:</text>
+            <option id="A">Penicillium roqueforti</option>
+            <option id="B">Propionibacterium sharmanii</option>
+            <option id="C">Saccharomyces cerevisiae</option>
+            <option id="D">Streptococcus thermophilus</option>
+            <answer>B</answer>
+            <explanation>The large holes in 'Swiss cheese' are due to production of a large amount of CO2 by a bacterium named Propionibacterium sharmanii.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is used as a biological control agent to control butterfly caterpillars?</text>
+            <option id="A">Trichoderma</option>
+            <option id="B">Baculovirus</option>
+            <option id="C">Bacillus thuringiensis</option>
+            <option id="D">Glomus</option>
+            <answer>C</answer>
+            <explanation>Bacillus thuringiensis (Bt) is a bacterium available as spores that are mixed with water and sprayed onto vulnerable plants to kill butterfly caterpillars.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>Cyclosporin A, used as an immunosuppressive agent in organ-transplant patients, is produced by the fungus:</text>
+            <option id="A">Monascus purpureus</option>
+            <option id="B">Trichoderma polysporum</option>
+            <option id="C">Penicillium notatum</option>
+            <option id="D">Aspergillus niger</option>
+            <answer>B</answer>
+            <explanation>Cyclosporin A is produced by the fungus Trichoderma polysporum. It is heavily used as an immunosuppressive agent in organ-transplant patients.</explanation>
+        </question>
+        <question>
+            <text>Statins, which are used as blood-cholesterol lowering agents, are produced by:</text>
+            <option id="A">A bacterium</option>
+            <option id="B">A virus</option>
+            <option id="C">A yeast</option>
+            <option id="D">A protozoan</option>
+            <answer>C</answer>
+            <explanation>Statins are produced by the yeast Monascus purpureus. They act by competitively inhibiting the enzyme responsible for synthesis of cholesterol.</explanation>
+        </question>
+        <question>
+            <text>During sewage treatment, 'flocs' refer to:</text>
+            <option id="A">Primary sludge settled at the bottom</option>
+            <option id="B">Masses of bacteria associated with fungal filaments to form mesh-like structures</option>
+            <option id="C">Anaerobic bacteria degrading organic matter</option>
+            <option id="D">Biogas produced in the digestor</option>
+            <answer>B</answer>
+            <explanation>During secondary treatment, vigorous growth of useful aerobic microbes takes place into flocs, which are masses of bacteria associated with fungal filaments to form mesh like structures.</explanation>
+        </question>
+        <question>
+            <text>Which of the following serves as an important biofertilizer in paddy fields?</text>
+            <option id="A">Rhizobium</option>
+            <option id="B">Azotobacter</option>
+            <option id="C">Cyanobacteria</option>
+            <option id="D">Mycorrhiza</option>
+            <answer>C</answer>
+            <explanation>Cyanobacteria (like Anabaena, Nostoc, Oscillatoria) are autotrophic microbes widely distributed in aquatic and terrestrial environments, many of which can fix atmospheric nitrogen. In paddy fields, cyanobacteria serve as an important biofertilizer.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>Which of the following is TRUE about the virus belonging to the genus Nucleopolyhedrovirus?</text>
+            <option id="A">They have broad-spectrum insecticidal applications.</option>
+            <option id="B">They are excellent candidates for species-specific, narrow spectrum insecticidal applications.</option>
+            <option id="C">They have severe negative impacts on plants and non-target insects.</option>
+            <option id="D">They are used primarily to control fungal pathogens on plant roots.</option>
+            <answer>B</answer>
+            <explanation>Baculoviruses (genus Nucleopolyhedrovirus) are excellent candidates for species-specific, narrow spectrum insecticidal applications. They have been shown to have no negative impacts on plants, mammals, birds, fish or even on non-target insects.</explanation>
+        </question>
+        <question>
+            <text>During the secondary treatment of sewage, what is the role of the anaerobic sludge digester?</text>
+            <option id="A">To rapidly multiply aerobic bacteria and reduce BOD.</option>
+            <option id="B">To digest the activated sludge and produce biogas.</option>
+            <option id="C">To physically filter out large debris like plastic and wood.</option>
+            <option id="D">To add chlorine and UV light to disinfect the water.</option>
+            <answer>B</answer>
+            <explanation>In the anaerobic sludge digester, anaerobic bacteria grow and digest the aerobic bacteria and the fungi in the sludge. During this digestion, a mixture of gases such as methane, hydrogen sulphide and carbon dioxide are produced, forming biogas.</explanation>
+        </question>
+        <question>
+            <text>The enzyme 'Streptokinase' produced by the bacterium Streptococcus and modified by genetic engineering is used as a:</text>
+            <option id="A">Clot buster</option>
+            <option id="B">Cholesterol lowering agent</option>
+            <option id="C">Immunosuppressive agent</option>
+            <option id="D">Blood thinner to prevent platelet aggregation</option>
+            <answer>A</answer>
+            <explanation>Streptokinase produced by the bacterium Streptococcus and modified by genetic engineering is used as a 'clot buster' for removing clots from the blood vessels of patients who have undergone myocardial infarction leading to heart attack.</explanation>
+        </question>
     </hard>
 </chapter>
