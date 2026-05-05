@@ -28,6 +28,33 @@
             <answer>C</answer>
             <explanation>Though heavily associated with Charles Darwin's theory of natural selection, the exact phrase "survival of the fittest" was first coined by Herbert Spencer after reading Darwin's On the Origin of Species.</explanation>
         </question>
+        <question>
+            <text>According to Charles Darwin, evolution is a gradual process that occurs primarily through:</text>
+            <option id="A">Mutation</option>
+            <option id="B">Natural selection</option>
+            <option id="C">Genetic drift</option>
+            <option id="D">Use and disuse of organs</option>
+            <answer>B</answer>
+            <explanation>According to Darwin, fitness is the end result of the ability to adapt and get selected by nature. He called it natural selection and implied it as a mechanism of evolution.</explanation>
+        </question>
+        <question>
+            <text>The presence of gill slits in the embryos of all vertebrates supports the theory of:</text>
+            <option id="A">Biogenesis</option>
+            <option id="B">Recapitulation</option>
+            <option id="C">Special creation</option>
+            <option id="D">Spontaneous generation</option>
+            <answer>B</answer>
+            <explanation>Ernst Haeckel proposed the biogenetic law (recapitulation theory), which states that 'ontogeny recapitulates phylogeny'. The presence of gill slits in embryos of all vertebrates supports this embryological evidence for evolution.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is considered the closest ancestor to modern humans?</text>
+            <option id="A">Australopithecus</option>
+            <option id="B">Homo habilis</option>
+            <option id="C">Homo erectus</option>
+            <option id="D">Homo neanderthalensis</option>
+            <answer>D</answer>
+            <explanation>Homo neanderthalensis (Neanderthal man) is considered the closest extinct human relative to modern humans (Homo sapiens), having lived near east and central Asia between 1,00,000-40,000 years back.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>B</answer>
             <explanation>Homo habilis was the first human-like hominid. They probably did not eat meat, and their brain capacities were between 650-800 cc. Homo erectus had a larger brain capacity around 900 cc.</explanation>
         </question>
+        <question>
+            <text>Industrial melanism as observed in peppered moth (Biston betularia) in England is an excellent example of:</text>
+            <option id="A">Genetic drift</option>
+            <option id="B">Directional natural selection</option>
+            <option id="C">Disruptive natural selection</option>
+            <option id="D">Stabilizing natural selection</option>
+            <answer>B</answer>
+            <explanation>Industrial melanism is a classic example of directional natural selection, where the environment changed (due to industrial smoke), shifting the advantage from the light-colored moths to the dark-colored (melanic) moths.</explanation>
+        </question>
+        <question>
+            <text>The process by which organisms with different evolutionary history evolve similar phenotypic adaptations in response to a common environmental challenge is called:</text>
+            <option id="A">Convergent evolution</option>
+            <option id="B">Divergent evolution</option>
+            <option id="C">Adaptive radiation</option>
+            <option id="D">Co-evolution</option>
+            <answer>A</answer>
+            <explanation>Convergent evolution is the process whereby organisms not closely related independently evolve similar traits as a result of having to adapt to similar environments or ecological niches (e.g., wings of butterfly and bird).</explanation>
+        </question>
+        <question>
+            <text>In the Hardy-Weinberg equation (p^2 + 2pq + q^2 = 1), what does the term '2pq' represent?</text>
+            <option id="A">The frequency of the dominant allele</option>
+            <option id="B">The frequency of homozygous dominant individuals</option>
+            <option id="C">The frequency of heterozygous individuals</option>
+            <option id="D">The frequency of homozygous recessive individuals</option>
+            <answer>C</answer>
+            <explanation>In the Hardy-Weinberg equation, p^2 represents the frequency of homozygous dominant individuals, q^2 represents homozygous recessive individuals, and 2pq represents the frequency of heterozygous individuals.</explanation>
+        </question>
+        <question>
+            <text>The first cellular form of life could not possibly have originated before:</text>
+            <option id="A">4.5 billion years ago</option>
+            <option id="B">3 billion years ago</option>
+            <option id="C">2 billion years ago</option>
+            <option id="D">2000 million years ago</option>
+            <answer>B</answer>
+            <explanation>The first non-cellular forms of life could have originated 3 billion years back. The first cellular form of life did not possibly originate till about 2000 million years ago.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">Directional selection</option>
             <answer>C</answer>
             <explanation>When a small group of individuals breaks off from a larger population to establish a colony, the new colony may have different allele frequencies than the original population. This specific type of genetic drift is called the Founder effect.</explanation>
+        </question>
+        <question>
+            <text>According to Hugo de Vries, the mechanism of evolution is:</text>
+            <option id="A">Multiple step mutations</option>
+            <option id="B">Saltation</option>
+            <option id="C">Phenotypic variations</option>
+            <option id="D">Use and disuse of organs</option>
+            <answer>B</answer>
+            <explanation>Hugo de Vries believed that it is mutation which causes evolution and not the minor variations (heritable) that Darwin talked about. He called this saltation (single step large mutation).</explanation>
+        </question>
+        <question>
+            <text>Which of the following factors is NOT considered to affect Hardy-Weinberg equilibrium?</text>
+            <option id="A">Gene migration</option>
+            <option id="B">Genetic drift</option>
+            <option id="C">Random mating</option>
+            <option id="D">Mutation</option>
+            <answer>C</answer>
+            <explanation>Hardy-Weinberg equilibrium relies on the assumption of random mating. Factors that affect (disrupt) the equilibrium include gene migration, genetic drift, mutation, genetic recombination, and natural selection.</explanation>
+        </question>
+        <question>
+            <text>The 'Founder Effect' is a special case of:</text>
+            <option id="A">Natural selection</option>
+            <option id="B">Genetic drift</option>
+            <option id="C">Mutation</option>
+            <option id="D">Gene flow</option>
+            <answer>B</answer>
+            <explanation>When a small group of individuals breaks off from a larger population to establish a colony, the new colony may have a different allele frequency than the original population. This is a type of genetic drift known as the founder effect.</explanation>
         </question>
     </hard>
 </chapter>

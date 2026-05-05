@@ -28,6 +28,33 @@
             <answer>C</answer>
             <explanation>Biomagnification refers to the increase in concentration of a toxicant at successive trophic levels. For DDT, it starts at 0.003 ppb in water and can magnify up to 25 ppm in fish-eating birds, disrupting their calcium metabolism.</explanation>
         </question>
+        <question>
+            <text>Which of the following is responsible for ozone depletion in the stratosphere?</text>
+            <option id="A">Chlorofluorocarbons (CFCs)</option>
+            <option id="B">Carbon dioxide</option>
+            <option id="C">Methane</option>
+            <option id="D">Sulfur dioxide</option>
+            <answer>A</answer>
+            <explanation>Chlorofluorocarbons (CFCs) are primarily responsible for ozone depletion in the stratosphere. They release active chlorine atoms which degrade ozone releasing molecular oxygen.</explanation>
+        </question>
+        <question>
+            <text>The process of nutrient enrichment of water bodies, leading to algal blooms and oxygen depletion, is known as:</text>
+            <option id="A">Biomagnification</option>
+            <option id="B">Eutrophication</option>
+            <option id="C">Stratification</option>
+            <option id="D">Biological oxygen demand</option>
+            <answer>B</answer>
+            <explanation>Eutrophication is the natural aging of a lake by nutrient enrichment of its water. Accelerated eutrophication occurs due to human activities like adding fertilizers and sewage.</explanation>
+        </question>
+        <question>
+            <text>In India, the Air (Prevention and Control of Pollution) Act came into force in the year:</text>
+            <option id="A">1974</option>
+            <option id="B">1981</option>
+            <option id="C">1986</option>
+            <option id="D">1992</option>
+            <answer>B</answer>
+            <explanation>In India, the Air (Prevention and Control of Pollution) Act came into force in 1981, but was amended in 1987 to include noise as an air pollutant.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>B</answer>
             <explanation>Eutrophication is the natural aging of a lake by nutrient enrichment (primarily nitrogen and phosphorus) of its water. Human activities can accelerate this process, known as cultural or accelerated eutrophication, causing massive algal blooms.</explanation>
         </question>
+        <question>
+            <text>What is the effect of an electrostatic precipitator installed in the exhaust of a thermal power plant?</text>
+            <option id="A">It removes toxic gases like sulfur dioxide.</option>
+            <option id="B">It removes particulate matter.</option>
+            <option id="C">It reduces the temperature of the exhaust gas.</option>
+            <option id="D">It converts carbon monoxide to carbon dioxide.</option>
+            <answer>B</answer>
+            <explanation>An electrostatic precipitator can remove over 99 per cent particulate matter present in the exhaust from a thermal power plant. It is not effective for gases like sulfur dioxide, for which a scrubber is used.</explanation>
+        </question>
+        <question>
+            <text>The phenomenon where the concentration of toxic substances increases at successive trophic levels is called:</text>
+            <option id="A">Bioremediation</option>
+            <option id="B">Biomagnification</option>
+            <option id="C">Bioaccumulation</option>
+            <option id="D">Eutrophication</option>
+            <answer>B</answer>
+            <explanation>Biomagnification refers to the increase in concentration of the toxicant at successive trophic levels. This happens because a toxic substance accumulated by an organism cannot be metabolised or excreted.</explanation>
+        </question>
+        <question>
+            <text>Which of the following conventions is associated with the reduction of greenhouse gas emissions?</text>
+            <option id="A">Montreal Protocol</option>
+            <option id="B">Kyoto Protocol</option>
+            <option id="C">Earth Summit (Rio de Janeiro)</option>
+            <option id="D">World Summit (Johannesburg)</option>
+            <answer>B</answer>
+            <explanation>The Kyoto Protocol is an international agreement linked to the United Nations Framework Convention on Climate Change, which commits its Parties by setting internationally binding emission reduction targets for greenhouse gases.</explanation>
+        </question>
+        <question>
+            <text>Polyblend, a fine powder of recycled modified plastic, has proved to be a good material for:</text>
+            <option id="A">Making plastic bags</option>
+            <option id="B">Constructing roads</option>
+            <option id="C">Fertilizer</option>
+            <option id="D">Water purification</option>
+            <answer>B</answer>
+            <explanation>Polyblend, developed by Ahmed Khan, is a fine powder of recycled modified plastic. This mixture is mixed with the bitumen that is used to lay roads, enhancing the bitumen's water repellant properties.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">To introduce exotic plant species to increase forest yield.</option>
             <answer>B</answer>
             <explanation>Realizing the significance of participation by local communities, the Government of India in 1980s introduced the concept of Joint Forest Management (JFM) to work closely with the local communities for protecting and managing forests.</explanation>
+        </question>
+        <question>
+            <text>A high Biological Oxygen Demand (BOD) in a water body indicates that:</text>
+            <option id="A">The water is pure and highly oxygenated.</option>
+            <option id="B">The water is highly polluted with organic matter.</option>
+            <option id="C">There is an excess of inorganic nutrients like nitrates.</option>
+            <option id="D">The number of heterotrophic bacteria is very low.</option>
+            <answer>B</answer>
+            <explanation>High BOD indicates that a large amount of oxygen is required by bacteria and other microorganisms to decompose the organic matter present in the water, meaning the water is highly polluted with organic matter.</explanation>
+        </question>
+        <question>
+            <text>Catalytic converters are fitted into automobiles to reduce emission of poisonous gases. Which of the following metals is NOT used as a catalyst in these converters?</text>
+            <option id="A">Platinum</option>
+            <option id="B">Palladium</option>
+            <option id="C">Rhodium</option>
+            <option id="D">Iron</option>
+            <answer>D</answer>
+            <explanation>Catalytic converters have expensive metals namely platinum-palladium and rhodium as the catalysts, which are fitted into automobiles for reducing emission of poisonous gases.</explanation>
+        </question>
+        <question>
+            <text>The 'Ozone hole' refers to:</text>
+            <option id="A">A literal hole in the stratosphere where no ozone exists.</option>
+            <option id="B">An area of the stratosphere with elevated ozone concentrations.</option>
+            <option id="C">A thinning of the ozone layer, particularly over the Antarctic region.</option>
+            <option id="D">A gap in the tropospheric ozone layer.</option>
+            <answer>C</answer>
+            <explanation>The term 'ozone hole' does not mean a literal hole, but rather refers to a severe depletion or thinning of the ozone layer, which is particularly marked over the Antarctic region.</explanation>
         </question>
     </hard>
 </chapter>

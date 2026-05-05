@@ -28,6 +28,33 @@
             <answer>C</answer>
             <explanation>Typhoid fever, caused by the bacterium Salmonella typhi, can be confirmed by the Widal test.</explanation>
         </question>
+        <question>
+            <text>Which of the following diseases is transmitted by the bite of an infected female Culex mosquito?</text>
+            <option id="A">Malaria</option>
+            <option id="B">Dengue</option>
+            <option id="C">Filariasis</option>
+            <option id="D">Chikungunya</option>
+            <answer>C</answer>
+            <explanation>Wuchereria (W. bancrofti and W. malayi), the filarial worms cause a slowly developing chronic inflammation of the organs in which they live for many years, usually the lymphatic vessels of the lower limbs and the disease is called elephantiasis or filariasis. The pathogens are transmitted to a healthy person through the bite by the female mosquito vectors (Culex).</explanation>
+        </question>
+        <question>
+            <text>The immune response that primarily involves the production of antibodies in the blood is called:</text>
+            <option id="A">Cell-mediated immunity</option>
+            <option id="B">Humoral immune response</option>
+            <option id="C">Innate immunity</option>
+            <option id="D">Passive immunity</option>
+            <answer>B</answer>
+            <explanation>Antibodies are found in the blood, so the response is also called as humoral immune response. This is one of the two types of our acquired immune response - antibody mediated.</explanation>
+        </question>
+        <question>
+            <text>Which lymphoid organ is quite large at the time of birth but keeps reducing in size with age, becoming very small by puberty?</text>
+            <option id="A">Spleen</option>
+            <option id="B">Thymus</option>
+            <option id="C">Bone marrow</option>
+            <option id="D">Tonsils</option>
+            <answer>B</answer>
+            <explanation>The thymus is quite large at the time of birth but keeps reducing in size with age and by the time puberty is attained it reduces to a very small size.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>B</answer>
             <explanation>Rheumatoid arthritis is an autoimmune disease where the body's immune system attacks self-cells, resulting in damage to the joints.</explanation>
         </question>
+        <question>
+            <text>The excessive response of the immune system to certain antigens present in the environment is called:</text>
+            <option id="A">Autoimmunity</option>
+            <option id="B">Immunodeficiency</option>
+            <option id="C">Allergy</option>
+            <option id="D">Inflammation</option>
+            <answer>C</answer>
+            <explanation>The exaggerated response of the immune system to certain antigens present in the environment is called allergy. The substances to which such an immune response is produced are called allergens.</explanation>
+        </question>
+        <question>
+            <text>Morphine, a very effective sedative and painkiller, is extracted from the latex of which plant?</text>
+            <option id="A">Cannabis sativa</option>
+            <option id="B">Erythroxylum coca</option>
+            <option id="C">Papaver somniferum</option>
+            <option id="D">Atropa belladonna</option>
+            <answer>C</answer>
+            <explanation>Opioids are the drugs, which bind to specific opioid receptors present in our central nervous system and gastrointestinal tract. Heroin, commonly called smack is chemically diacetylmorphine which is a white, odourless, bitter crystalline compound. This is obtained by acetylation of morphine, which is extracted from the latex of poppy plant Papaver somniferum.</explanation>
+        </question>
+        <question>
+            <text>Which test is widely used for the detection of AIDS?</text>
+            <option id="A">Widal test</option>
+            <option id="B">ELISA test</option>
+            <option id="C">Biopsy</option>
+            <option id="D">MRI</option>
+            <answer>B</answer>
+            <explanation>A widely used diagnostic test for AIDS is enzyme linked immuno-sorbent assay (ELISA).</explanation>
+        </question>
+        <question>
+            <text>The property of normal cells to inhibit uncontrolled growth and division upon touching other cells is known as:</text>
+            <option id="A">Metastasis</option>
+            <option id="B">Contact inhibition</option>
+            <option id="C">Apoptosis</option>
+            <option id="D">Transformation</option>
+            <answer>B</answer>
+            <explanation>Normal cells show a property called contact inhibition by virtue of which contact with other cells inhibits their uncontrolled growth. Cancer cells appears to have lost this property.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">1-c, 2-a, 3-d, 4-b</option>
             <answer>A</answer>
             <explanation>Elephantiasis is caused by filarial worms (Wuchereria), Ringworm by fungi (Trichophyton), Amoebiasis by protozoan (Entamoeba histolytica), and Pneumonia by bacteria (Haemophilus influenzae/Streptococcus pneumoniae).</explanation>
+        </question>
+        <question>
+            <text>Which of the following classes of antibodies is primarily responsible for allergic reactions?</text>
+            <option id="A">IgG</option>
+            <option id="B">IgM</option>
+            <option id="C">IgE</option>
+            <option id="D">IgA</option>
+            <answer>C</answer>
+            <explanation>The exaggerated response of the immune system to certain antigens present in the environment is called allergy. The antibodies produced to these are of IgE type.</explanation>
+        </question>
+        <question>
+            <text>Identify the INCORRECT statement regarding innate immunity.</text>
+            <option id="A">It is non-specific type of defense.</option>
+            <option id="B">It is present at the time of birth.</option>
+            <option id="C">It relies on the production of memory cells.</option>
+            <option id="D">It consists of four types of barriers (physical, physiological, cellular, cytokine).</option>
+            <answer>C</answer>
+            <explanation>Innate immunity is non-specific defense that is present at the time of birth. It does not rely on memory cells; memory is a characteristic feature of acquired (adaptive) immunity.</explanation>
+        </question>
+        <question>
+            <text>The infective stage of Plasmodium that enters the human body through the bite of an infected female Anopheles mosquito is:</text>
+            <option id="A">Trophozoite</option>
+            <option id="B">Merozoite</option>
+            <option id="C">Sporozoite</option>
+            <option id="D">Gametocyte</option>
+            <answer>C</answer>
+            <explanation>Plasmodium enters the human body as sporozoites (infectious form) through the bite of infected female Anopheles mosquito. The parasites initially multiply within the liver cells and then attack the red blood cells (RBCs).</explanation>
         </question>
     </hard>
 </chapter>

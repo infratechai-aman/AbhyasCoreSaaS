@@ -28,6 +28,33 @@
             <answer>C</answer>
             <explanation>Bacillus thuringiensis (Bt) is a bacterium available as spores that are mixed with water and sprayed onto vulnerable plants to kill butterfly caterpillars.</explanation>
         </question>
+        <question>
+            <text>Which of the following alcoholic beverages is produced without distillation?</text>
+            <option id="A">Whisky</option>
+            <option id="B">Brandy</option>
+            <option id="C">Rum</option>
+            <option id="D">Wine</option>
+            <answer>D</answer>
+            <explanation>Wine and beer are produced without distillation whereas whisky, brandy and rum are produced by distillation of the fermented broth.</explanation>
+        </question>
+        <question>
+            <text>The first antibiotic discovered was:</text>
+            <option id="A">Streptomycin</option>
+            <option id="B">Penicillin</option>
+            <option id="C">Tetracycline</option>
+            <option id="D">Erythromycin</option>
+            <answer>B</answer>
+            <explanation>Penicillin was the first antibiotic to be discovered, and it was a chance discovery by Alexander Fleming while working on Staphylococci bacteria.</explanation>
+        </question>
+        <question>
+            <text>Methanogens, which produce large amounts of methane along with CO2 and H2, are commonly found in:</text>
+            <option id="A">Aerobic sludge</option>
+            <option id="B">Rumen of cattle</option>
+            <option id="C">River water</option>
+            <option id="D">Sandy soil</option>
+            <answer>B</answer>
+            <explanation>Methanogens are commonly found in the anaerobic sludge during sewage treatment. These bacteria are also present in the rumen (a part of stomach) of cattle, where they help in the breakdown of cellulose.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>C</answer>
             <explanation>Cyanobacteria (like Anabaena, Nostoc, Oscillatoria) are autotrophic microbes widely distributed in aquatic and terrestrial environments, many of which can fix atmospheric nitrogen. In paddy fields, cyanobacteria serve as an important biofertilizer.</explanation>
         </question>
+        <question>
+            <text>The dough, which is used for making bread, is fermented by using baker's yeast, which is scientifically known as:</text>
+            <option id="A">Saccharomyces cerevisiae</option>
+            <option id="B">Lactobacillus acidophilus</option>
+            <option id="C">Streptococcus lactis</option>
+            <option id="D">Aspergillus niger</option>
+            <answer>A</answer>
+            <explanation>The dough, which is used for making bread, is fermented using baker's yeast (Saccharomyces cerevisiae).</explanation>
+        </question>
+        <question>
+            <text>Mycorrhiza is a symbiotic association between:</text>
+            <option id="A">Bacteria and roots of higher plants</option>
+            <option id="B">Fungi and roots of higher plants</option>
+            <option id="C">Algae and fungi</option>
+            <option id="D">Cyanobacteria and ferns</option>
+            <answer>B</answer>
+            <explanation>Fungi are also known to form symbiotic associations with plants (mycorrhiza). Many members of the genus Glomus form mycorrhiza, which help in absorbing phosphorus from the soil and pass it to the plant.</explanation>
+        </question>
+        <question>
+            <text>Biogas is a mixture of gases containing predominantly:</text>
+            <option id="A">Methane</option>
+            <option id="B">Carbon dioxide</option>
+            <option id="C">Hydrogen sulphide</option>
+            <option id="D">Carbon monoxide</option>
+            <answer>A</answer>
+            <explanation>Biogas is a mixture of gases (containing predominantly methane) produced by the microbial activity and which may be used as fuel.</explanation>
+        </question>
+        <question>
+            <text>What is the role of microbes in the production of toddy?</text>
+            <option id="A">Fermentation of sap from palms</option>
+            <option id="B">Distillation of fruit juices</option>
+            <option id="C">Pasteurization of milk</option>
+            <option id="D">Maturation of cheese</option>
+            <answer>A</answer>
+            <explanation>'Toddy', a traditional drink of some parts of southern India, is made by fermenting sap from palms using microbes.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">Blood thinner to prevent platelet aggregation</option>
             <answer>A</answer>
             <explanation>Streptokinase produced by the bacterium Streptococcus and modified by genetic engineering is used as a 'clot buster' for removing clots from the blood vessels of patients who have undergone myocardial infarction leading to heart attack.</explanation>
+        </question>
+        <question>
+            <text>Which of the following acts as a biofertilizer by fixing atmospheric nitrogen both in free-living state and in symbiotic association?</text>
+            <option id="A">Rhizobium</option>
+            <option id="B">Anabaena</option>
+            <option id="C">Azotobacter</option>
+            <option id="D">Glomus</option>
+            <answer>B</answer>
+            <explanation>Cyanobacteria like Anabaena can fix atmospheric nitrogen in free-living state (in soil/water) and also symbiotically (e.g., in the leaves of Azolla or coralloid roots of Cycas).</explanation>
+        </question>
+        <question>
+            <text>Baculoviruses are pathogens that attack insects and other arthropods. They are primarily used as:</text>
+            <option id="A">Chemical fertilizers</option>
+            <option id="B">Biological control agents</option>
+            <option id="C">Vectors in genetic engineering of plants</option>
+            <option id="D">Antibiotics</option>
+            <answer>B</answer>
+            <explanation>Baculoviruses are pathogens that attack insects and other arthropods. The majority of baculoviruses used as biological control agents are in the genus Nucleopolyhedrovirus.</explanation>
+        </question>
+        <question>
+            <text>The process of primary treatment of sewage involves:</text>
+            <option id="A">Sequential filtration and sedimentation</option>
+            <option id="B">Aeration and microbial digestion</option>
+            <option id="C">Chlorination and UV treatment</option>
+            <option id="D">Anaerobic digestion of sludge</option>
+            <answer>A</answer>
+            <explanation>Primary treatment basically involves physical removal of particles - large and small - from the sewage through filtration and sedimentation. Initially, floating debris is removed by sequential filtration.</explanation>
         </question>
     </hard>
 </chapter>

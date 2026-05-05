@@ -28,6 +28,33 @@
             <answer>C</answer>
             <explanation>The placenta facilitates the supply of oxygen and nutrients to the embryo and also the removal of carbon dioxide and excretory/waste materials produced by the embryo.</explanation>
         </question>
+        <question>
+            <text>Which part of the fallopian tube is the site of fertilization in humans?</text>
+            <option id="A">Infundibulum</option>
+            <option id="B">Ampulla</option>
+            <option id="C">Isthmus</option>
+            <option id="D">Cervix</option>
+            <answer>B</answer>
+            <explanation>Fertilisation can only occur if the ovum and sperms are transported simultaneously to the ampullary region. This is the reason why not all copulations lead to fertilisation and pregnancy.</explanation>
+        </question>
+        <question>
+            <text>The process of release of an ovum from a mature Graafian follicle is called:</text>
+            <option id="A">Implantation</option>
+            <option id="B">Gestation</option>
+            <option id="C">Ovulation</option>
+            <option id="D">Parturition</option>
+            <answer>C</answer>
+            <explanation>The secondary oocyte forms a new membrane called zona pellucida around it. The Graafian follicle now ruptures to release the secondary oocyte (ovum) from the ovary by the process called ovulation.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT a male accessory gland?</text>
+            <option id="A">Seminal vesicle</option>
+            <option id="B">Prostate gland</option>
+            <option id="C">Bulbourethral gland</option>
+            <option id="D">Bartholin's gland</option>
+            <answer>D</answer>
+            <explanation>The male accessory glands include paired seminal vesicles, a prostate and paired bulbourethral glands. Bartholin's glands are found in females, located on each side of the vaginal opening.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>B</answer>
             <explanation>Spermatogonia multiply by mitosis. Some grow into primary spermatocytes, which undergo meiosis I to form secondary spermatocytes, which undergo meiosis II to form spermatids. Spermatids transform into spermatozoa (sperms).</explanation>
         </question>
+        <question>
+            <text>In humans, the blastocyst becomes embedded in the endometrium of the uterus. This process is called:</text>
+            <option id="A">Cleavage</option>
+            <option id="B">Implantation</option>
+            <option id="C">Placentation</option>
+            <option id="D">Gastrulation</option>
+            <answer>B</answer>
+            <explanation>The blastomeres in the blastocyst are arranged into an outer layer called trophoblast and an inner group of cells attached to trophoblast called the inner cell mass. The trophoblast layer then gets attached to the endometrium and the inner cell mass gets differentiated as the embryo. After attachment, the uterine cells divide rapidly and covers the blastocyst. As a result, the blastocyst becomes embedded in the endometrium of the uterus. This is called implantation.</explanation>
+        </question>
+        <question>
+            <text>Which hormone is primarily responsible for maintaining the corpus luteum during the early stages of pregnancy?</text>
+            <option id="A">Progesterone</option>
+            <option id="B">Estrogen</option>
+            <option id="C">hCG (Human Chorionic Gonadotropin)</option>
+            <option id="D">LH (Luteinizing Hormone)</option>
+            <answer>C</answer>
+            <explanation>If fertilization occurs, the developing embryo secretes hCG (Human Chorionic Gonadotropin), which is analogous to LH. It maintains the corpus luteum, which continues to secrete progesterone essential for the maintenance of the endometrium.</explanation>
+        </question>
+        <question>
+            <text>During spermatogenesis, the primary spermatocytes undergo which type of cell division to form secondary spermatocytes?</text>
+            <option id="A">Mitosis</option>
+            <option id="B">Meiosis I</option>
+            <option id="C">Meiosis II</option>
+            <option id="D">Amitosis</option>
+            <answer>B</answer>
+            <explanation>A primary spermatocyte completes the first meiotic division (reduction division) leading to formation of two equal, haploid cells called secondary spermatocytes, which have only 23 chromosomes each.</explanation>
+        </question>
+        <question>
+            <text>The milk produced during the initial few days of lactation is called colostrum. Which antibody is most abundant in it?</text>
+            <option id="A">IgA</option>
+            <option id="B">IgG</option>
+            <option id="C">IgM</option>
+            <option id="D">IgE</option>
+            <answer>A</answer>
+            <explanation>The milk produced during the initial few days of lactation is called colostrum which contains several antibodies (abundantly IgA) absolutely essential to develop resistance for the new-born babies.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">Relaxin</option>
             <answer>D</answer>
             <explanation>The placenta acts as an endocrine tissue and produces several hormones like hCG, hPL, estrogens, progestogens, etc. Relaxin is secreted by the ovary in the later phase of pregnancy.</explanation>
+        </question>
+        <question>
+            <text>Which of the following events is NOT associated with the luteal phase of the menstrual cycle?</text>
+            <option id="A">Formation of corpus luteum</option>
+            <option id="B">Secretion of large amounts of progesterone</option>
+            <option id="C">Thickening of the endometrium</option>
+            <option id="D">Primary follicle grows to become a fully mature Graafian follicle</option>
+            <answer>D</answer>
+            <explanation>The primary follicle grows to become a fully mature Graafian follicle during the follicular phase, not the luteal phase. In the luteal phase, the remaining parts of the ruptured Graafian follicle transform as the corpus luteum.</explanation>
+        </question>
+        <question>
+            <text>What is the correct ploidy level of spermatogonia, primary spermatocyte, secondary spermatocyte, and spermatid respectively?</text>
+            <option id="A">2n, n, n, n</option>
+            <option id="B">2n, 2n, n, n</option>
+            <option id="C">n, 2n, n, n</option>
+            <option id="D">2n, 2n, 2n, n</option>
+            <answer>B</answer>
+            <explanation>Spermatogonia are diploid (2n=46). Some of them periodically undergo meiosis as primary spermatocytes (2n=46). They complete meiosis I to form secondary spermatocytes (n=23). These complete meiosis II to form spermatids (n=23).</explanation>
+        </question>
+        <question>
+            <text>The inner glandular layer that lines the uterine cavity is called:</text>
+            <option id="A">Perimetrium</option>
+            <option id="B">Myometrium</option>
+            <option id="C">Endometrium</option>
+            <option id="D">Mesometrium</option>
+            <answer>C</answer>
+            <explanation>The wall of the uterus has three layers of tissue. The external thin membranous perimetrium, middle thick layer of smooth muscle, myometrium and inner glandular layer called endometrium that lines the uterine cavity.</explanation>
         </question>
     </hard>
 </chapter>
