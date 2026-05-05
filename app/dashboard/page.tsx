@@ -186,7 +186,7 @@ function DashboardContent() {
               <LayoutDashboard className="h-4 w-4" />
               Overview
             </button>
-            <button className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2 rounded-md text-slate-500 hover:text-slate-800 text-[13px] font-medium transition-colors">
+            <button onClick={() => router.push('/dashboard/practice')} className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2 rounded-md text-slate-500 hover:text-slate-800 text-[13px] font-medium transition-colors">
               <Sparkles className="h-4 w-4 shrink-0" />
               Practice Hub
             </button>
@@ -326,7 +326,7 @@ function DashboardContent() {
                  </button>
                </div>
             ) : (
-              <button className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-600 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors">
+              <button onClick={() => router.push('/dashboard/settings')} className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-600 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors">
                 Manage Billing
               </button>
             )}
@@ -335,19 +335,19 @@ function DashboardContent() {
           {/* Exam Calendar */}
           <div className="mb-8 flex-1">
              <div className="flex items-center justify-between mb-5">
-               <h3 className="text-[13px] font-bold text-slate-900">Exam Calendar</h3>
-               <button className="text-[9px] uppercase tracking-[0.1em] font-bold text-indigo-600 hover:text-indigo-700">Full Schedule</button>
+               <h3 className="text-[13px] font-bold text-slate-900">{userData?.targetExam === "NEET" ? "NEET Exam Updates" : "JEE Exam Updates"}</h3>
+               <button onClick={() => setToast({ message: "Full calendar schedule is coming soon!", type: "success" })} className="text-[9px] uppercase tracking-[0.1em] font-bold text-indigo-600 hover:text-indigo-700">Full Schedule</button>
              </div>
 
              <div className="space-y-4">
                 {(userData?.targetExam === "NEET" ? [
-                  { month: "May", day: "04", title: "NEET UG 2026", desc: "Biology + PChem", color: "bg-emerald-500" },
-                  { month: "Jun", day: "22", title: "NEET UG (Reschedule)", desc: "If applicable", color: "bg-orange-500" },
-                  { month: "Jul", day: "15", title: "NEET PG 2026", desc: "Postgraduate Entrance", color: "bg-blue-500" }
+                  { month: "Feb", day: "09", title: "NEET UG Registration", desc: "Applications Open", color: "bg-blue-500" },
+                  { month: "May", day: "01", title: "NEET UG Admit Card", desc: "Download Begins", color: "bg-orange-500" },
+                  { month: "May", day: "04", title: "NEET UG 2025 Exam", desc: "Pen & Paper Mode", color: "bg-emerald-500" }
                 ] : [
-                  { month: "Jan", day: "22", title: "JEE Mains Session 1", desc: "All Subjects", color: "bg-blue-500" },
-                  { month: "Apr", day: "06", title: "JEE Mains Session 2", desc: "All Subjects", color: "bg-orange-500" },
-                  { month: "May", day: "18", title: "JEE Advanced 2026", desc: "Paper 1 & 2", color: "bg-emerald-500" }
+                  { month: "Jan", day: "22", title: "JEE Mains 2025 Session 1", desc: "B.E./B.Tech", color: "bg-blue-500" },
+                  { month: "Apr", day: "01", title: "JEE Mains 2025 Session 2", desc: "B.E./B.Tech", color: "bg-orange-500" },
+                  { month: "May", day: "18", title: "JEE Advanced 2025", desc: "Paper 1 & 2", color: "bg-emerald-500" }
                 ]).map((ev, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="flex flex-col items-center justify-center bg-white border border-slate-200 shadow-sm rounded-lg py-1.5 min-w-[48px]">
@@ -365,7 +365,7 @@ function DashboardContent() {
                 ))}
              </div>
 
-             <button className="mt-6 text-[11px] font-semibold text-slate-400 hover:text-indigo-600 transition-colors flex items-center">
+             <button onClick={() => setToast({ message: "Custom dates feature is coming soon!", type: "success" })} className="mt-6 text-[11px] font-semibold text-slate-400 hover:text-indigo-600 transition-colors flex items-center">
                + Add Important Date
              </button>
           </div>

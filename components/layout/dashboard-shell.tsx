@@ -95,7 +95,7 @@ export function DashboardShell({
       {/* Sidebar - Desktop Only */}
       <aside className="hidden md:flex w-[260px] bg-[#1e1e2f] shrink-0 flex-col items-stretch h-screen text-slate-300">
         <div className="p-6 pb-4">
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/dashboard" className="flex items-center gap-2">
             <img src="/logo.png" alt="AbhyasCore" className="h-14 w-auto object-contain" />
             <div>
               <div className="font-display font-bold text-[16px] text-white tracking-tight -mb-1">AbhyasCore<span className="text-indigo-400">AI</span></div>
