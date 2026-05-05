@@ -341,13 +341,13 @@ function DashboardContent() {
 
              <div className="space-y-4">
                 {(userData?.targetExam === "NEET" ? [
-                  { month: "Feb", day: "09", title: "NEET UG Registration", desc: "Applications Open", color: "bg-blue-500" },
-                  { month: "May", day: "01", title: "NEET UG Admit Card", desc: "Download Begins", color: "bg-orange-500" },
-                  { month: "May", day: "04", title: "NEET UG 2025 Exam", desc: "Pen & Paper Mode", color: "bg-emerald-500" }
+                  { month: "Feb", day: "09", title: "NEET 2026 Registration", desc: "Application Window", color: "bg-blue-500" },
+                  { month: "Apr", day: "20", title: "Admit Card Release", desc: "Download Portal", color: "bg-orange-500" },
+                  { month: "May", day: "03", title: "NEET UG 2026 Exam", desc: "Pen & Paper Mode", color: "bg-emerald-500" }
                 ] : [
-                  { month: "Jan", day: "22", title: "JEE Mains 2025 Session 1", desc: "B.E./B.Tech", color: "bg-blue-500" },
-                  { month: "Apr", day: "01", title: "JEE Mains 2025 Session 2", desc: "B.E./B.Tech", color: "bg-orange-500" },
-                  { month: "May", day: "18", title: "JEE Advanced 2025", desc: "Paper 1 & 2", color: "bg-emerald-500" }
+                  { month: "Jan", day: "21", title: "JEE Mains 2026 Session 1", desc: "B.E./B.Tech", color: "bg-blue-500" },
+                  { month: "Apr", day: "05", title: "JEE Mains 2026 Session 2", desc: "B.E./B.Tech", color: "bg-orange-500" },
+                  { month: "May", day: "24", title: "JEE Advanced 2026", desc: "Paper 1 & 2", color: "bg-emerald-500" }
                 ]).map((ev, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="flex flex-col items-center justify-center bg-white border border-slate-200 shadow-sm rounded-lg py-1.5 min-w-[48px]">

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, Suspense } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import { Clock, LayoutTemplate, AlertCircle, ChevronRight, Bookmark, X, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -387,18 +387,37 @@ function CustomExamConsoleInner() {
                     const status = statuses[q._safeId] || "not_visited";
                     const isCurrent = currentIndex === i;
                     
+                    const exam = searchParams.get("exam");
+                    let subjectHeader = null;
+                    if (exam === "NEET") {
+                       if (i === 0) subjectHeader = "Physics";
+                       if (i === 45) subjectHeader = "Chemistry";
+                       if (i === 90) subjectHeader = "Botany";
+                       if (i === 135) subjectHeader = "Zoology";
+                    } else {
+                       if (i === 0) subjectHeader = "Physics";
+                       if (i === 30) subjectHeader = "Chemistry";
+                       if (i === 60) subjectHeader = "Mathematics";
+                    }
+                    
                     return (
-                      <button
-                         key={q._safeId}
-                         onClick={() => jumpToQuestion(i)}
-                         className={`
-                           w-full aspect-square rounded-md border flex items-center justify-center text-[13px] font-bold transition-all relative
-                           ${getStatusColor(status)}
-                           ${isCurrent ? 'ring-2 ring-offset-2 ring-indigo-500 scale-110 z-10 shadow-lg' : ''}
-                         `}
-                      >
-                         {i + 1}
-                      </button>
+                      <React.Fragment key={q._safeId}>
+                        {subjectHeader && (
+                          <div className="col-span-5 text-[11px] font-bold text-slate-400 uppercase tracking-widest mt-4 mb-2 first:mt-0 border-b border-slate-200 pb-1">
+                            {subjectHeader}
+                          </div>
+                        )}
+                        <button
+                           onClick={() => jumpToQuestion(i)}
+                           className={`
+                             w-full aspect-square rounded-md border flex items-center justify-center text-[13px] font-bold transition-all relative
+                             ${getStatusColor(status)}
+                             ${isCurrent ? 'ring-2 ring-offset-2 ring-indigo-500 scale-110 z-10 shadow-lg' : ''}
+                           `}
+                        >
+                           {i + 1}
+                        </button>
+                      </React.Fragment>
                     )
                  })}
               </div>

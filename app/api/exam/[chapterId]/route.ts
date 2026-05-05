@@ -42,18 +42,27 @@ function sampleQuestions(questions: any[], count: number) {
 function formatMathText(str: string) {
   if (!str) return "";
   return str
-    .replace(/\bphi\b/g, "φ")
-    .replace(/\btheta\b/g, "θ")
-    .replace(/\balpha\b/g, "α")
-    .replace(/\bbeta\b/g, "β")
-    .replace(/\bgamma\b/g, "γ")
-    .replace(/\blambda\b/g, "λ")
-    .replace(/\bmu\b/g, "μ")
-    .replace(/\bpi\b/g, "π")
-    .replace(/\bomega\b/g, "ω")
-    .replace(/\bsigma\b/g, "σ")
-    .replace(/\bDelta\b/g, "Δ")
-    .replace(/\binfty\b/g, "∞");
+    .replace(/(^|\b|\d)phi(\b|$)/g, "$1φ$2")
+    .replace(/(^|\b|\d)theta(\b|$)/g, "$1θ$2")
+    .replace(/(^|\b|\d)alpha(\b|$)/g, "$1α$2")
+    .replace(/(^|\b|\d)beta(\b|$)/g, "$1β$2")
+    .replace(/(^|\b|\d)gamma(\b|$)/g, "$1γ$2")
+    .replace(/(^|\b|\d)lambda(\b|$)/g, "$1λ$2")
+    .replace(/(^|\b|\d)mu(\b|$)/g, "$1μ$2")
+    .replace(/(^|\b|\d)pi(\b|$)/g, "$1π$2")
+    .replace(/(^|\b|\d)omega(\b|$)/g, "$1ω$2")
+    .replace(/(^|\b|\d)sigma(\b|$)/g, "$1σ$2")
+    .replace(/(^|\b|\d)Delta(\b|$)/g, "$1Δ$2")
+    .replace(/(^|\b|\d)infty(\b|$)/g, "$1∞$2")
+    .replace(/\*/g, "·"); // Replace asterisk with nice multiplication dot
+}
+
+function sanitizeOptionText(str: string) {
+  let cleaned = formatMathText(str).trim();
+  if (/^[A-D]$/i.test(cleaned) || cleaned.toLowerCase() === "none") {
+    return "None of the above";
+  }
+  return cleaned;
 }
 
 export async function GET(req: NextRequest, { params }: { params: { chapterId: string } }) {
@@ -112,7 +121,7 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
         return {
           id: String(opt["@_id"] ?? ""),
           // #text holds the text content; fall back to string coercion
-          text: formatMathText(String(opt["#text"] ?? opt ?? ""))
+          text: sanitizeOptionText(String(opt["#text"] ?? opt ?? ""))
         };
       });
 
