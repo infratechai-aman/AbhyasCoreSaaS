@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="337" name="Biodiversity and Conservation">
     <easy>
-
+        <question>
+            <text>Which of the following is an example of ex situ conservation?</text>
+            <option id="A">National Park</option>
+            <option id="B">Wildlife Sanctuary</option>
+            <option id="C">Seed Bank</option>
+            <option id="D">Sacred Grove</option>
+            <answer>C</answer>
+            <explanation>Ex situ conservation involves the preservation of components of biological diversity outside their natural habitats, such as in seed banks, botanical gardens, and zoological parks. National parks, sanctuaries, and sacred groves are examples of in situ conservation.</explanation>
+        </question>
+        <question>
+            <text>The most important cause driving animals and plants to extinction is:</text>
+            <option id="A">Alien species invasions</option>
+            <option id="B">Habitat loss and fragmentation</option>
+            <option id="C">Over-exploitation</option>
+            <option id="D">Co-extinctions</option>
+            <answer>B</answer>
+            <explanation>Habitat loss and fragmentation is the primary cause of biodiversity loss. This is the first of the "Evil Quartet" described by ecologists.</explanation>
+        </question>
+        <question>
+            <text>The term "Biodiversity" was popularized by:</text>
+            <option id="A">Paul Ehrlich</option>
+            <option id="B">David Tilman</option>
+            <option id="C">Edward Wilson</option>
+            <option id="D">Alexander von Humboldt</option>
+            <answer>C</answer>
+            <explanation>The term 'Biodiversity' was popularized by the sociobiologist Edward Wilson to describe the combined diversity at all the levels of biological organization.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>According to Alexander von Humboldt's species-area relationship, the relationship between species richness and area for a wide variety of taxa turns out to be a:</text>
+            <option id="A">Straight line</option>
+            <option id="B">Rectangular hyperbola</option>
+            <option id="C">Sigmoid curve</option>
+            <option id="D">Parabola</option>
+            <answer>B</answer>
+            <explanation>Alexander von Humboldt observed that within a region species richness increased with increasing explored area, but only up to a limit. The relationship is a rectangular hyperbola. On a logarithmic scale, it is a straight line.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT a criterion for identifying a biodiversity hotspot?</text>
+            <option id="A">High levels of species richness</option>
+            <option id="B">High degree of endemism</option>
+            <option id="C">Accelerated habitat loss</option>
+            <option id="D">Large geographical area</option>
+            <answer>D</answer>
+            <explanation>Biodiversity hotspots are regions with very high levels of species richness and a high degree of endemism, but they are also under severe threat of habitat loss. A large geographical area is not a defining criterion.</explanation>
+        </question>
+        <question>
+            <text>The introduction of the Nile perch into Lake Victoria in East Africa led to the extinction of an ecologically unique assemblage of more than 200 species of:</text>
+            <option id="A">Cichlid fish</option>
+            <option id="B">Catfish</option>
+            <option id="C">Tilapia</option>
+            <option id="D">Salmon</option>
+            <answer>A</answer>
+            <explanation>The Nile perch introduced into Lake Victoria in east Africa led eventually to the extinction of an ecologically unique assemblage of more than 200 species of cichlid fish in the lake.</explanation>
+        </question>
+        <question>
+            <text>Which of the following represents the correct sequence of the number of species (highest to lowest) among global biodiversity?</text>
+            <option id="A">Fungi > Angiosperms > Algae > Lichens</option>
+            <option id="B">Angiosperms > Fungi > Algae > Lichens</option>
+            <option id="C">Fungi > Algae > Angiosperms > Lichens</option>
+            <option id="D">Angiosperms > Algae > Fungi > Lichens</option>
+            <answer>A</answer>
+            <explanation>Among plants and fungi, Fungi have the maximum number of species, followed by Angiosperms, Algae, Mosses, Ferns, and Lichens.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>In the Rivet Popper hypothesis proposed by Paul Ehrlich, the "rivets" on the wings of the airplane represent:</text>
+            <option id="A">Keystone species</option>
+            <option id="B">Endemic species</option>
+            <option id="C">Extinct species</option>
+            <option id="D">Invasive species</option>
+            <answer>A</answer>
+            <explanation>In the Rivet Popper hypothesis, rivets represent species. Rivets on the wings represent key species (keystone species) that drive major ecosystem functions. Losing them is an immediate threat to flight safety (ecosystem stability).</explanation>
+        </question>
+        <question>
+            <text>Read the following statements (A-D):\nA. The Amazon rain forest is estimated to produce 20% of the total oxygen in the earth's atmosphere.\nB. The historic Convention on Biological Diversity ('The Earth Summit') was held in Johannesburg in 2002.\nC. Dodo (Mauritius), Quagga (Africa) and Steller's Sea Cow (Russia) are examples of recent extinctions.\nD. The current species extinction rates are estimated to be 100 to 1,000 times faster than in the pre-human times.\nHow many of the above statements are correct?</text>
+            <option id="A">One</option>
+            <option id="B">Two</option>
+            <option id="C">Three</option>
+            <option id="D">Four</option>
+            <answer>C</answer>
+            <explanation>Statement B is incorrect because The Earth Summit was held in Rio de Janeiro in 1992. The World Summit on Sustainable Development was held in Johannesburg in 2002. Statements A, C, and D are correct.</explanation>
+        </question>
+        <question>
+            <text>When a host fish species becomes extinct, its unique assemblage of parasites also meets the same fate. This is an example of:</text>
+            <option id="A">Alien species invasion</option>
+            <option id="B">Co-extinction</option>
+            <option id="C">Over-exploitation</option>
+            <option id="D">Habitat fragmentation</option>
+            <answer>B</answer>
+            <explanation>Co-extinction refers to the phenomenon where the extinction of one species invariably leads to the extinction of another species with which it is intimately associated in an obligate manner.</explanation>
+        </question>
     </hard>
 </chapter>
