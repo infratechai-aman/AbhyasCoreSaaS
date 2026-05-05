@@ -28,6 +28,33 @@
             <answer>C</answer>
             <explanation>The term 'Biodiversity' was popularized by the sociobiologist Edward Wilson to describe the combined diversity at all the levels of biological organization.</explanation>
         </question>
+        <question>
+            <text>Which of the following is considered the most important cause driving animals and plants to extinction?</text>
+            <option id="A">Over-exploitation</option>
+            <option id="B">Alien species invasions</option>
+            <option id="C">Habitat loss and fragmentation</option>
+            <option id="D">Co-extinctions</option>
+            <answer>C</answer>
+            <explanation>Habitat loss and fragmentation is the most important cause driving animals and plants to extinction. The most dramatic examples of habitat loss come from tropical rain forests.</explanation>
+        </question>
+        <question>
+            <text>The total number of biodiversity hotspots identified in the world so far is:</text>
+            <option id="A">12</option>
+            <option id="B">24</option>
+            <option id="C">34</option>
+            <option id="D">40</option>
+            <answer>C</answer>
+            <explanation>Initially 25 biodiversity hotspots were identified but subsequently nine more have been added to the list, bringing the total number of biodiversity hotspots in the world to 34.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is an example of an ex situ conservation method?</text>
+            <option id="A">National Parks</option>
+            <option id="B">Biosphere Reserves</option>
+            <option id="C">Wildlife Sanctuaries</option>
+            <option id="D">Botanical Gardens</option>
+            <answer>D</answer>
+            <explanation>Ex situ conservation involves taking threatened animals and plants out from their natural habitat and placing them in special setting. Zoological parks, botanical gardens and wildlife safari parks serve this purpose.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>A</answer>
             <explanation>Among plants and fungi, Fungi have the maximum number of species, followed by Angiosperms, Algae, Mosses, Ferns, and Lichens.</explanation>
         </question>
+        <question>
+            <text>The term "Evil Quartet" refers to:</text>
+            <option id="A">The four major threats to ozone depletion</option>
+            <option id="B">The four main causes of biodiversity losses</option>
+            <option id="C">The four greenhouse gases</option>
+            <option id="D">The four mega-diverse countries</option>
+            <answer>B</answer>
+            <explanation>The "Evil Quartet" is the sobriquet used to describe the four major causes of biodiversity losses: (i) Habitat loss and fragmentation, (ii) Over-exploitation, (iii) Alien species invasions, and (iv) Co-extinctions.</explanation>
+        </question>
+        <question>
+            <text>Which of the following represents the correct sequence of taxa in terms of decreasing species diversity in the world?</text>
+            <option id="A">Insects > Molluscs > Crustaceans</option>
+            <option id="B">Crustaceans > Insects > Molluscs</option>
+            <option id="C">Molluscs > Crustaceans > Insects</option>
+            <option id="D">Insects > Crustaceans > Molluscs</option>
+            <answer>A</answer>
+            <explanation>Among animals, insects are the most species-rich taxonomic group, making up more than 70 per cent of the total. That means, out of every 10 animals on this planet, 7 are insects. Molluscs are the second largest.</explanation>
+        </question>
+        <question>
+            <text>Alexander von Humboldt observed that within a region species richness increased with increasing explored area, but only up to a limit. The relationship between species richness and area for a wide variety of taxa turns out to be a:</text>
+            <option id="A">Straight line</option>
+            <option id="B">Rectangular hyperbola</option>
+            <option id="C">Sigmoid curve</option>
+            <option id="D">Parabola</option>
+            <answer>B</answer>
+            <explanation>On a logarithmic scale, the relationship is a straight line, but on a normal scale, the relationship between species richness and area for a wide variety of taxa turns out to be a rectangular hyperbola.</explanation>
+        </question>
+        <question>
+            <text>The extinction of Steller's sea cow and Passenger pigeon is primarily attributed to:</text>
+            <option id="A">Habitat loss</option>
+            <option id="B">Over-exploitation by humans</option>
+            <option id="C">Alien species invasions</option>
+            <option id="D">Co-extinction</option>
+            <answer>B</answer>
+            <explanation>Over-exploitation by humans leads to extinction of many species. Steller's sea cow and passenger pigeon were driven to extinction due to overexploitation by humans.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">Habitat fragmentation</option>
             <answer>B</answer>
             <explanation>Co-extinction refers to the phenomenon where the extinction of one species invariably leads to the extinction of another species with which it is intimately associated in an obligate manner.</explanation>
+        </question>
+        <question>
+            <text>Which of the following statements about endemic species is TRUE?</text>
+            <option id="A">They are found universally across all continents.</option>
+            <option id="B">They are species with very broad niches.</option>
+            <option id="C">They are confined to that region and not found anywhere else.</option>
+            <option id="D">They are introduced species that have become invasive.</option>
+            <answer>C</answer>
+            <explanation>Endemism refers to species confined to a particular region and not found anywhere else. Hotspots are regions with very high levels of species richness and high degree of endemism.</explanation>
+        </question>
+        <question>
+            <text>The historic Convention on Biological Diversity ('The Earth Summit') held in Rio de Janeiro in 1992 called upon all nations to:</text>
+            <option id="A">Eliminate the use of CFCs by 2000.</option>
+            <option id="B">Take appropriate measures for conservation of biodiversity and sustainable use of its benefits.</option>
+            <option id="C">Reduce greenhouse gas emissions to 1990 levels.</option>
+            <option id="D">Significantly reduce the current rate of biodiversity loss at global, regional and local levels by 2010.</option>
+            <answer>B</answer>
+            <explanation>The Earth Summit held in Rio de Janeiro in 1992 called upon all nations to take appropriate measures for conservation of biodiversity and sustainable use of its benefits. The 2010 target was set at the World Summit on Sustainable Development in Johannesburg in 2002.</explanation>
+        </question>
+        <question>
+            <text>Cryopreservation of gametes of threatened species in viable and fertile condition can be referred to as:</text>
+            <option id="A">In situ conservation</option>
+            <option id="B">Advanced ex situ conservation</option>
+            <option id="C">In vivo conservation</option>
+            <option id="D">Sacred groves</option>
+            <answer>B</answer>
+            <explanation>In recent years, ex situ conservation has advanced beyond keeping threatened species in enclosures. Now gametes of threatened species can be preserved in viable and fertile condition for long periods using cryopreservation techniques.</explanation>
         </question>
     </hard>
 </chapter>

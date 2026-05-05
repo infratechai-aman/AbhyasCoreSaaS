@@ -46,6 +46,15 @@
             <answer>B</answer>
             <explanation>Insulin from an animal source, though effective, elicited an immune response in some patients, leading to allergies or other reactions to the foreign protein.</explanation>
         </question>
+        <question>
+            <text>The first clinical gene therapy was given for treating:</text>
+            <option id="A">Cystic fibrosis</option>
+            <option id="B">Adenosine deaminase (ADA) deficiency</option>
+            <option id="C">Rheumatoid arthritis</option>
+            <option id="D">Hemophilia</option>
+            <answer>B</answer>
+            <explanation>The first clinical gene therapy was given in 1990 to a 4-year old girl with adenosine deaminase (ADA) deficiency.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -93,6 +102,24 @@
             <answer>B</answer>
             <explanation>The Indian Government has set up organizations such as GEAC (Genetic Engineering Approval Committee), which makes decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services.</explanation>
         </question>
+        <question>
+            <text>Which peptide is absent in mature human insulin but present in pro-insulin?</text>
+            <option id="A">A peptide</option>
+            <option id="B">B peptide</option>
+            <option id="C">C peptide</option>
+            <option id="D">D peptide</option>
+            <answer>C</answer>
+            <explanation>Pro-insulin contains an extra stretch called the C peptide. This C peptide is not present in the mature insulin and is removed during maturation into insulin.</explanation>
+        </question>
+        <question>
+            <text>RNA interference (RNAi) involves the silencing of a specific mRNA due to a complementary dsRNA molecule. In which organisms does RNAi take place as a method of cellular defense?</text>
+            <option id="A">Only in bacteria</option>
+            <option id="B">Only in viruses</option>
+            <option id="C">All eukaryotic organisms</option>
+            <option id="D">All prokaryotic organisms</option>
+            <answer>C</answer>
+            <explanation>RNAi takes place in all eukaryotic organisms as a method of cellular defense. This method involves silencing of a specific mRNA due to a complementary dsRNA molecule.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -139,6 +166,24 @@
             <option id="D">All transgenic organisms are entirely predictable in their behavior when introduced into wild ecosystems.</option>
             <answer>D</answer>
             <explanation>The modification/usage of living organisms for public services (as food and medicine sources, for example) has also created problems with patents granted for the same. The behavior of transgenic organisms when introduced into wild ecosystems is completely unpredictable, making statement D incorrect.</explanation>
+        </question>
+        <question>
+            <text>The genetically modified brinjal in India has been developed for:</text>
+            <option id="A">Enhancing shelf life</option>
+            <option id="B">Insect-resistance</option>
+            <option id="C">Drought-resistance</option>
+            <option id="D">Enhancing mineral content</option>
+            <answer>B</answer>
+            <explanation>Bt brinjal was developed in India to provide resistance against lepidopteran insects (like fruit and shoot borer), similar to how Bt cotton works.</explanation>
+        </question>
+        <question>
+            <text>Which of the following bodies in India makes decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services?</text>
+            <option id="A">Genetic Engineering Approval Committee (GEAC)</option>
+            <option id="B">Indian Council of Agricultural Research (ICAR)</option>
+            <option id="C">Council of Scientific and Industrial Research (CSIR)</option>
+            <option id="D">Indian Council of Medical Research (ICMR)</option>
+            <answer>A</answer>
+            <explanation>The Indian Government has set up organizations such as GEAC (Genetic Engineering Approval Committee), which makes decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services.</explanation>
         </question>
     </hard>
 </chapter>

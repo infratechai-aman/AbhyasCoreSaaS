@@ -46,6 +46,15 @@
             <answer>B</answer>
             <explanation>The first restriction endonuclease whose functioning depended on a specific DNA nucleotide sequence was Hind II. It was isolated from Haemophilus influenzae.</explanation>
         </question>
+        <question>
+            <text>Which of the following techniques made it possible to genetically engineer living organisms by cutting and joining DNA from different sources?</text>
+            <option id="A">Polymerase Chain Reaction</option>
+            <option id="B">Recombinant DNA technology</option>
+            <option id="C">Gel electrophoresis</option>
+            <option id="D">DNA fingerprinting</option>
+            <answer>B</answer>
+            <explanation>Recombinant DNA technology is the technique of altering the chemistry of genetic material (DNA and RNA), to introduce these into host organisms and thus change the phenotype of the host organism.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -93,6 +102,24 @@
             <answer>A</answer>
             <explanation>A palindrome in DNA is a sequence of base pairs that reads the same on the two strands when the orientation of reading is kept the same. 5'-GAATTC-3' reads exactly the same on the opposite strand 3'-CTTAAG-5' when read from 5' to 3'.</explanation>
         </question>
+        <question>
+            <text>Which of the following is NOT a feature of a good cloning vector?</text>
+            <option id="A">Origin of replication (ori)</option>
+            <option id="B">Selectable marker</option>
+            <option id="C">Multiple recognition sites for a single restriction enzyme</option>
+            <option id="D">Small size</option>
+            <answer>C</answer>
+            <explanation>In order to link the alien DNA, the vector needs to have very few, preferably single, recognition sites for the commonly used restriction enzymes. Presence of more than one recognition sites within the vector will generate several fragments, which will complicate the gene cloning.</explanation>
+        </question>
+        <question>
+            <text>During the process of isolation of DNA, chilled ethanol is added to:</text>
+            <option id="A">Precipitate DNA</option>
+            <option id="B">Break open the cell to release DNA</option>
+            <option id="C">Remove proteins such as histones</option>
+            <option id="D">Facilitate action of restriction enzymes</option>
+            <answer>A</answer>
+            <explanation>After treating the cells with enzymes to remove RNA and proteins, the purified DNA finally precipitates out after the addition of chilled ethanol. This can be seen as collection of fine threads in the suspension.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -139,6 +166,24 @@
             <option id="D">Iron</option>
             <answer>B</answer>
             <explanation>Since DNA is a hydrophilic molecule, it cannot pass through cell membranes. To force bacteria to take up the plasmid, bacterial cells must first be made 'competent' to take up DNA. This is done by treating them with a specific concentration of a divalent cation, such as calcium, which increases the efficiency with which DNA enters the bacterium through pores in its cell wall.</explanation>
+        </question>
+        <question>
+            <text>Which enzyme is used to synthesize a DNA strand complementary to an RNA template in retroviruses?</text>
+            <option id="A">DNA polymerase</option>
+            <option id="B">RNA polymerase</option>
+            <option id="C">Reverse transcriptase</option>
+            <option id="D">Helicase</option>
+            <answer>C</answer>
+            <explanation>Retroviruses possess an RNA genome and use the enzyme reverse transcriptase to synthesize a complementary DNA (cDNA) strand, which is then incorporated into the host's genome.</explanation>
+        </question>
+        <question>
+            <text>In continuous culture system in bioreactors, the cells are maintained in their physiologically most active log/exponential phase by:</text>
+            <option id="A">Providing continuous aeration without adding nutrients</option>
+            <option id="B">Regularly adding fresh medium and draining out the used medium</option>
+            <option id="C">Maintaining a very high temperature</option>
+            <option id="D">Stopping the agitator system completely</option>
+            <answer>B</answer>
+            <explanation>In a continuous culture system, the used medium is drained out from one side while fresh medium is added from the other to maintain the cells in their physiologically most active log/exponential phase. This type of culturing method produces a larger biomass.</explanation>
         </question>
     </hard>
 </chapter>
