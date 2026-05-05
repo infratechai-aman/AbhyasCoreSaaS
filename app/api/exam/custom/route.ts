@@ -52,7 +52,8 @@ function formatMathText(str: string) {
 
 function sanitizeOptionText(str: string) {
   let cleaned = formatMathText(str).trim();
-  if (/^[A-D]$/i.test(cleaned) || cleaned.toLowerCase() === "none") {
+  const lower = cleaned.toLowerCase();
+  if (/^[A-D]$/i.test(cleaned) || lower === "none" || lower === "phi" || cleaned === "φ") {
     return "None of the above";
   }
   return cleaned;
