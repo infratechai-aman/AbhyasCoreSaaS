@@ -38,6 +38,24 @@ function sampleQuestions(questions: any[], count: number) {
   return shuffled.slice(0, count);
 }
 
+// Utility to format math symbols
+function formatMathText(str: string) {
+  if (!str) return "";
+  return str
+    .replace(/\bphi\b/g, "φ")
+    .replace(/\btheta\b/g, "θ")
+    .replace(/\balpha\b/g, "α")
+    .replace(/\bbeta\b/g, "β")
+    .replace(/\bgamma\b/g, "γ")
+    .replace(/\blambda\b/g, "λ")
+    .replace(/\bmu\b/g, "μ")
+    .replace(/\bpi\b/g, "π")
+    .replace(/\bomega\b/g, "ω")
+    .replace(/\bsigma\b/g, "σ")
+    .replace(/\bDelta\b/g, "Δ")
+    .replace(/\binfty\b/g, "∞");
+}
+
 export async function GET(req: NextRequest, { params }: { params: { chapterId: string } }) {
   try {
     const chapterId = params.chapterId;
@@ -94,7 +112,7 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
         return {
           id: String(opt["@_id"] ?? ""),
           // #text holds the text content; fall back to string coercion
-          text: String(opt["#text"] ?? opt ?? "")
+          text: formatMathText(String(opt["#text"] ?? opt ?? ""))
         };
       });
 
@@ -104,10 +122,10 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
 
       return {
         id: `q${i + 1}`,
-        text: String(q.text ?? ""),
+        text: formatMathText(String(q.text ?? "")),
         options: shuffledOptions,
         answer: newAnswer,
-        explanation: String(q.explanation ?? ""),
+        explanation: formatMathText(String(q.explanation ?? "")),
         difficulty: q.difficulty
       };
     });
