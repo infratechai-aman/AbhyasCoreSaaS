@@ -28,6 +28,33 @@
             <answer>B</answer>
             <explanation>Commensalism is an interaction in which one species benefits and the other is neither harmed nor benefited. Example: an orchid growing as an epiphyte on a mango branch.</explanation>
         </question>
+        <question>
+            <text>Which of the following describes an adaptation where an organism resembles its background to hide from predators?</text>
+            <option id="A">Mimicry</option>
+            <option id="B">Camouflage</option>
+            <option id="C">Aestivation</option>
+            <option id="D">Hibernation</option>
+            <answer>B</answer>
+            <explanation>Camouflage (cryptic coloration) is an adaptation where some species of insects and frogs are cryptically-coloured to avoid being detected easily by their predators.</explanation>
+        </question>
+        <question>
+            <text>Which age pyramid shape represents a rapidly growing population?</text>
+            <option id="A">Urn-shaped</option>
+            <option id="B">Bell-shaped</option>
+            <option id="C">Pyramid with a broad base</option>
+            <option id="D">Spindle-shaped</option>
+            <answer>C</answer>
+            <explanation>A population pyramid with a broad base represents a rapidly growing population, as it indicates a high proportion of individuals in the pre-reproductive age group.</explanation>
+        </question>
+        <question>
+            <text>The type of interaction where one organism catches, kills, and eats another organism is called:</text>
+            <option id="A">Parasitism</option>
+            <option id="B">Predation</option>
+            <option id="C">Amensalism</option>
+            <option id="D">Competition</option>
+            <answer>B</answer>
+            <explanation>Predation is nature's way of transferring to higher trophic levels the energy fixed by plants, where one organism (predator) catches, kills, and eats another organism (prey).</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>B</answer>
             <explanation>The interaction between sea anemone that has stinging tentacles and the clown fish that lives among them is an example of commensalism. The fish gets protection from predators, while the anemone does not appear to derive any benefit.</explanation>
         </question>
+        <question>
+            <text>If 'N' is the population density at time 't', then its density at time t+1 is: N_t+1 = N_t + [(B + I) - (D + E)]. What do B and E stand for respectively?</text>
+            <option id="A">Birth rate and Emigration</option>
+            <option id="B">Birth rate and Immigration</option>
+            <option id="C">Biomass and Energy</option>
+            <option id="D">Base rate and Extinction</option>
+            <answer>A</answer>
+            <explanation>In the population density equation, B stands for the number of births (Birth rate), I for Immigration, D for Deaths (Death rate), and E for Emigration.</explanation>
+        </question>
+        <question>
+            <text>What is the principle of Allen's Rule?</text>
+            <option id="A">Mammals from colder climates generally have shorter ears and limbs to minimize heat loss.</option>
+            <option id="B">Animals in colder climates have thicker layers of fat.</option>
+            <option id="C">Birds in warmer climates have longer wings.</option>
+            <option id="D">Reptiles adapt to desert climates by becoming nocturnal.</option>
+            <answer>A</answer>
+            <explanation>Allen's Rule states that mammals from colder climates generally have shorter ears and limbs to minimize heat loss.</explanation>
+        </question>
+        <question>
+            <text>Which of the following interactions is an example of amensalism?</text>
+            <option id="A">A tick feeding on a dog</option>
+            <option id="B">Penicillium secreting penicillin which kills nearby bacteria</option>
+            <option id="C">A clownfish living among the tentacles of a sea anemone</option>
+            <option id="D">Lichen</option>
+            <answer>B</answer>
+            <explanation>Amensalism is an interaction where one species is harmed (-) and the other is unaffected (0). The classic example is the mold Penicillium secreting penicillin, which kills bacteria without Penicillium gaining any obvious benefit or harm from the interaction itself.</explanation>
+        </question>
+        <question>
+            <text>In altitude sickness, the body compensates for low oxygen availability by:</text>
+            <option id="A">Increasing red blood cell production</option>
+            <option id="B">Decreasing the breathing rate</option>
+            <option id="C">Increasing the binding affinity of hemoglobin</option>
+            <option id="D">Decreasing the heart rate</option>
+            <answer>A</answer>
+            <explanation>The body compensates low oxygen availability at high altitudes by increasing red blood cell production, decreasing the binding affinity of hemoglobin, and by increasing breathing rate.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">8 offspring per lotus per year</option>
             <answer>A</answer>
             <explanation>Birth rate is expressed as change in numbers (increase) with respect to members of the population. Here, the birth rate is 8 / 20 = 0.4 offspring per lotus per year.</explanation>
+        </question>
+        <question>
+            <text>The "Prickly Pear Cactus" introduced into Australia in the 1920s caused havoc by spreading rapidly into millions of hectares of rangeland. It was finally brought under control by introducing:</text>
+            <option id="A">A competing plant species</option>
+            <option id="B">A cactus-feeding moth</option>
+            <option id="C">A fungal pathogen</option>
+            <option id="D">A viral disease</option>
+            <answer>B</answer>
+            <explanation>The prickly pear cactus introduced into Australia was finally brought under control only after a cactus-feeding predator (a moth) from its natural habitat was introduced into the country.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT an adaptation of parasites to their host?</text>
+            <option id="A">Loss of unnecessary sense organs</option>
+            <option id="B">Presence of adhesive organs or suckers</option>
+            <option id="C">Development of a highly complex digestive system</option>
+            <option id="D">High reproductive capacity</option>
+            <answer>C</answer>
+            <explanation>Parasites often have a simple digestive system or lose it entirely because they absorb pre-digested nutrients directly from their host. They do not develop a complex digestive system.</explanation>
+        </question>
+        <question>
+            <text>The Mediterranean orchid Ophrys employs which highly specialized mechanism to ensure pollination by bees?</text>
+            <option id="A">Offering a safe place to lay eggs</option>
+            <option id="B">Producing a high volume of concentrated nectar</option>
+            <option id="C">Sexual deceit</option>
+            <option id="D">Emitting a foul odor resembling rotting meat</option>
+            <answer>C</answer>
+            <explanation>The Mediterranean orchid Ophrys employs 'sexual deceit'. One petal of its flower bears an uncanny resemblance to the female of the bee species in size, colour and markings. The male bee is attracted to what it perceives as a female, 'pseudocopulates' with the flower, and during that process is dusted with pollen.</explanation>
         </question>
     </hard>
 </chapter>

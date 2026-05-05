@@ -28,6 +28,33 @@
             <answer>A</answer>
             <explanation>In a majority of angiosperms, one of the megaspores is functional while the other three degenerate. Only the functional megaspore develops into the female gametophyte (embryo sac).</explanation>
         </question>
+        <question>
+            <text>What is the male reproductive organ of a flower called?</text>
+            <option id="A">Carpel</option>
+            <option id="B">Pistil</option>
+            <option id="C">Stamen</option>
+            <option id="D">Sepal</option>
+            <answer>C</answer>
+            <explanation>The stamen represents the male reproductive organ of a flower, consisting of an anther and a filament.</explanation>
+        </question>
+        <question>
+            <text>Which of the following serves as the landing platform for pollen grains?</text>
+            <option id="A">Ovary</option>
+            <option id="B">Style</option>
+            <option id="C">Stigma</option>
+            <option id="D">Anther</option>
+            <answer>C</answer>
+            <explanation>The pistil consists of three parts: stigma, style, and ovary. The stigma serves as a landing platform for pollen grains.</explanation>
+        </question>
+        <question>
+            <text>The protective coverings of the ovule are known as:</text>
+            <option id="A">Integuments</option>
+            <option id="B">Nucellus</option>
+            <option id="C">Chalaza</option>
+            <option id="D">Micropyle</option>
+            <answer>A</answer>
+            <explanation>The ovule has one or two protective envelopes called integuments. Integuments encircle the ovule except at the tip where a small opening called the micropyle is organised.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>B</answer>
             <explanation>The hard outer layer called the exine is made up of sporopollenin which is one of the most resistant organic material known. It can withstand high temperatures and strong acids and alkali. No enzyme that degrades sporopollenin is so far known.</explanation>
         </question>
+        <question>
+            <text>During microsporogenesis, the microspore tetrad is formed from the microspore mother cell (MMC) through which type of division?</text>
+            <option id="A">Mitosis</option>
+            <option id="B">Meiosis</option>
+            <option id="C">Amitosis</option>
+            <option id="D">Endomitosis</option>
+            <answer>B</answer>
+            <explanation>As the anther develops, the cells of the sporogenous tissue (microspore mother cells or MMCs) undergo meiotic divisions to form microspore tetrads.</explanation>
+        </question>
+        <question>
+            <text>In over 60% of angiosperms, pollen grains are shed at which stage?</text>
+            <option id="A">1-celled stage</option>
+            <option id="B">2-celled stage</option>
+            <option id="C">3-celled stage</option>
+            <option id="D">4-celled stage</option>
+            <answer>B</answer>
+            <explanation>In over 60 per cent of angiosperms, pollen grains are shed at the 2-celled stage (consisting of the vegetative cell and the generative cell). In the remaining species, the generative cell divides to form the two male gametes before pollen grains are shed (3-celled stage).</explanation>
+        </question>
+        <question>
+            <text>The transfer of pollen grains from the anther to the stigma of a different plant is called:</text>
+            <option id="A">Autogamy</option>
+            <option id="B">Geitonogamy</option>
+            <option id="C">Xenogamy</option>
+            <option id="D">Cleistogamy</option>
+            <answer>C</answer>
+            <explanation>Xenogamy is the transfer of pollen grains from anther to the stigma of a different plant. This is the only type of pollination which during pollination brings genetically different types of pollen grains to the stigma.</explanation>
+        </question>
+        <question>
+            <text>Water pollination (hydrophily) is quite rare in flowering plants. Which of the following is an example of a water-pollinated plant?</text>
+            <option id="A">Water hyacinth</option>
+            <option id="B">Water lily</option>
+            <option id="C">Vallisneria</option>
+            <option id="D">Lotus</option>
+            <answer>C</answer>
+            <explanation>Pollination by water is quite rare in flowering plants. Some examples of water pollinated plants are Vallisneria and Hydrilla. In water hyacinth and water lily, the flowers emerge above the level of water and are pollinated by insects or wind.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">Zostera</option>
             <answer>B</answer>
             <explanation>Some plants such as Viola (common pansy), Oxalis, and Commelina produce two types of flowers: chasmogamous flowers (open) and cleistogamous flowers which do not open at all. Cleistogamous flowers are invariably autogamous.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a mechanism to prevent autogamy but not geitonogamy?</text>
+            <option id="A">Self-incompatibility</option>
+            <option id="B">Production of unisexual flowers on the same plant (monoecious)</option>
+            <option id="C">Production of unisexual flowers on different plants (dioecious)</option>
+            <option id="D">Cleistogamy</option>
+            <answer>B</answer>
+            <explanation>If both male and female flowers are present on the same plant such as castor and maize (monoecious), it prevents autogamy but not geitonogamy.</explanation>
+        </question>
+        <question>
+            <text>The central cell of the embryo sac, after triple fusion, becomes the:</text>
+            <option id="A">Zygote</option>
+            <option id="B">Primary endosperm cell (PEC)</option>
+            <option id="C">Synergid</option>
+            <option id="D">Antipodal cell</option>
+            <answer>B</answer>
+            <explanation>The central cell after triple fusion becomes the primary endosperm cell (PEC) and develops into the endosperm while the zygote develops into an embryo.</explanation>
+        </question>
+        <question>
+            <text>Which part of the embryo axis in a dicot embryo lies above the level of cotyledons and terminates with the plumule?</text>
+            <option id="A">Hypocotyl</option>
+            <option id="B">Radicle</option>
+            <option id="C">Epicotyl</option>
+            <option id="D">Root cap</option>
+            <answer>C</answer>
+            <explanation>The portion of embryonal axis above the level of cotyledons is the epicotyl, which terminates with the plumule or stem tip. The cylindrical portion below the level of cotyledons is hypocotyl that terminates at its lower end in the radicle.</explanation>
         </question>
     </hard>
 </chapter>

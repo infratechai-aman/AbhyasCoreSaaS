@@ -28,6 +28,33 @@
             <answer>C</answer>
             <explanation>A person with blood group 'O' lacks both A and B antigens on their red blood cells, and therefore has both anti-A and anti-B antibodies in their blood plasma.</explanation>
         </question>
+        <question>
+            <text>Which of the following describes Mendel's Law of Independent Assortment?</text>
+            <option id="A">Alleles of a trait separate during gamete formation.</option>
+            <option id="B">When two pairs of traits are combined in a hybrid, segregation of one pair of characters is independent of the other pair of characters.</option>
+            <option id="C">One allele is completely dominant over the other.</option>
+            <option id="D">Traits are inherited as a blended mixture from both parents.</option>
+            <answer>B</answer>
+            <explanation>The Law of Independent Assortment states that when two pairs of traits are combined in a hybrid, segregation of one pair of characters is independent of the other pair of characters.</explanation>
+        </question>
+        <question>
+            <text>In humans, how many pairs of autosomes are present in a normal diploid cell?</text>
+            <option id="A">22</option>
+            <option id="B">23</option>
+            <option id="C">44</option>
+            <option id="D">46</option>
+            <answer>A</answer>
+            <explanation>A normal human diploid cell has 23 pairs of chromosomes, out of which 22 pairs are exactly same in both males and females; these are the autosomes. The 23rd pair is the sex chromosomes.</explanation>
+        </question>
+        <question>
+            <text>Which term describes an individual who has two identical alleles for a particular gene?</text>
+            <option id="A">Heterozygous</option>
+            <option id="B">Homozygous</option>
+            <option id="C">Hemizygous</option>
+            <option id="D">Homologous</option>
+            <answer>B</answer>
+            <explanation>An individual with two identical alleles for a gene (e.g., TT or tt) is said to be homozygous for that gene.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>C</answer>
             <explanation>To determine the genotype of a tall plant at F2, Mendel crossed the tall plant from F2 with a dwarf plant. This he called a test cross. It involves crossing an organism with a dominant phenotype to a homozygous recessive individual.</explanation>
         </question>
+        <question>
+            <text>In a cross between a true-breeding red-flowered plant and a true-breeding white-flowered plant, all F1 offspring have red flowers. What is the phenotypic ratio when the F1 plants are self-pollinated?</text>
+            <option id="A">1:1</option>
+            <option id="B">3:1</option>
+            <option id="C">1:2:1</option>
+            <option id="D">9:3:3:1</option>
+            <answer>B</answer>
+            <explanation>This is a standard monohybrid cross with complete dominance. The F1 plants are heterozygous (Rr). When self-pollinated (Rr x Rr), the F2 generation will have a phenotypic ratio of 3 dominant (red) : 1 recessive (white).</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a classic example of pleiotropy?</text>
+            <option id="A">ABO blood grouping in humans</option>
+            <option id="B">Flower color in snapdragon</option>
+            <option id="C">Phenylketonuria in humans</option>
+            <option id="D">Skin color in humans</option>
+            <answer>C</answer>
+            <explanation>Pleiotropy is when a single gene can exhibit multiple phenotypic expression. A classic example is the disease phenylketonuria, which causes mental retardation as well as a reduction in hair and skin pigmentation.</explanation>
+        </question>
+        <question>
+            <text>The chromosomal theory of inheritance, which united the behavior of chromosomes with Mendelian principles, was proposed by:</text>
+            <option id="A">T.H. Morgan</option>
+            <option id="B">Walter Sutton and Theodore Boveri</option>
+            <option id="C">Gregor Mendel and Hugo de Vries</option>
+            <option id="D">James Watson and Francis Crick</option>
+            <answer>B</answer>
+            <explanation>Walter Sutton and Theodore Boveri noted that the behaviour of chromosomes was parallel to the behaviour of genes and used chromosome movement to explain Mendel's laws. This is known as the chromosomal theory of inheritance.</explanation>
+        </question>
+        <question>
+            <text>Colour blindness is an X-linked recessive disorder. If a colour-blind man marries a woman with normal vision whose father was colour-blind, what is the probability that their son will be colour-blind?</text>
+            <option id="A">0%</option>
+            <option id="B">25%</option>
+            <option id="C">50%</option>
+            <option id="D">100%</option>
+            <answer>C</answer>
+            <explanation>The woman is a carrier (X^C X^c) because her father was colour-blind (X^c Y). The man is colour-blind (X^c Y). For a son, he must receive the Y chromosome from the father and either X^C or X^c from the mother. The probability of receiving X^c from the mother is 50%.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">Methionine</option>
             <answer>B</answer>
             <explanation>Phenylketonuria is an autosomal recessive trait. The affected individual lacks an enzyme (phenylalanine hydroxylase) that converts the amino acid phenylalanine into tyrosine. As a result, phenylalanine accumulates and converts into phenylpyruvic acid, causing mental retardation.</explanation>
+        </question>
+        <question>
+            <text>Which of the following genetic disorders is an example of an autosomal dominant trait?</text>
+            <option id="A">Sickle-cell anemia</option>
+            <option id="B">Cystic fibrosis</option>
+            <option id="C">Myotonic dystrophy</option>
+            <option id="D">Hemophilia</option>
+            <answer>C</answer>
+            <explanation>Myotonic dystrophy is an example of an autosomal dominant trait. Sickle-cell anemia and cystic fibrosis are autosomal recessive, and hemophilia is sex-linked recessive.</explanation>
+        </question>
+        <question>
+            <text>Turner's syndrome is caused by the absence of one of the X chromosomes. The karyotype of such an individual is:</text>
+            <option id="A">44 + XXY</option>
+            <option id="B">44 + XO</option>
+            <option id="C">44 + XYY</option>
+            <option id="D">45 + XX</option>
+            <answer>B</answer>
+            <explanation>Such a disorder is caused due to the absence of one of the X chromosomes, i.e., 45 with XO (44 autosomes + XO). Such females are sterile as ovaries are rudimentary.</explanation>
+        </question>
+        <question>
+            <text>In a dihybrid cross of two heterozygous pea plants (RrYy x RrYy), what fraction of the offspring is expected to have the genotype RrYy?</text>
+            <option id="A">1/16</option>
+            <option id="B">2/16</option>
+            <option id="C">4/16</option>
+            <option id="D">9/16</option>
+            <answer>C</answer>
+            <explanation>Using the product rule for independent events: The probability of Rr from Rr x Rr is 1/2. The probability of Yy from Yy x Yy is 1/2. The probability of RrYy is (1/2) * (1/2) = 1/4 or 4/16.</explanation>
         </question>
     </hard>
 </chapter>

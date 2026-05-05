@@ -28,6 +28,33 @@
             <answer>B</answer>
             <explanation>In 1963, several varieties such as Sonalika and Kalyan Sona, which were high yielding and disease resistant, were introduced all over the wheat-growing belt of India.</explanation>
         </question>
+        <question>
+            <text>Which of the following is an example of a freshwater fish widely cultured in India?</text>
+            <option id="A">Hilsa</option>
+            <option id="B">Rohu</option>
+            <option id="C">Sardines</option>
+            <option id="D">Mackerel</option>
+            <answer>B</answer>
+            <explanation>Some of the freshwater fishes which are very common include Catla, Rohu and common carp. Hilsa, Sardines, Mackerel and Pomfrets are some of the marine fishes that are eaten.</explanation>
+        </question>
+        <question>
+            <text>The management of animals for milk and its products for human consumption is called:</text>
+            <option id="A">Poultry farming</option>
+            <option id="B">Dairy farming</option>
+            <option id="C">Apiculture</option>
+            <option id="D">Pisciculture</option>
+            <answer>B</answer>
+            <explanation>Dairying is the management of animals for milk and its products for human consumption.</explanation>
+        </question>
+        <question>
+            <text>Which of the following refers to the rearing of honey bees?</text>
+            <option id="A">Sericulture</option>
+            <option id="B">Pisciculture</option>
+            <option id="C">Apiculture</option>
+            <option id="D">Silviculture</option>
+            <answer>C</answer>
+            <explanation>Bee-keeping or apiculture is the maintenance of hives of honeybees for the production of honey and beeswax.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>B</answer>
             <explanation>MOET is a programme for herd improvement. In this method, a cow is administered hormones, with FSH-like activity, to induce follicular maturation and super ovulation. The embryos at 8-32 cell stages, are recovered non-surgically and transferred to surrogate mothers.</explanation>
         </question>
+        <question>
+            <text>Which mating method is used to combine desirable qualities of two different breeds into a single progeny?</text>
+            <option id="A">Inbreeding</option>
+            <option id="B">Out-crossing</option>
+            <option id="C">Cross-breeding</option>
+            <option id="D">Interspecific hybridization</option>
+            <answer>C</answer>
+            <explanation>In cross-breeding, superior males of one breed are mated with superior females of another breed. Cross-breeding allows the desirable qualities of two different breeds to be combined.</explanation>
+        </question>
+        <question>
+            <text>The mule is a result of:</text>
+            <option id="A">Inbreeding</option>
+            <option id="B">Out-crossing</option>
+            <option id="C">Cross-breeding</option>
+            <option id="D">Interspecific hybridization</option>
+            <answer>D</answer>
+            <explanation>In interspecific hybridization, male and female animals of two different related species are mated. For example, a mule is produced from a cross between a male donkey and a female horse.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a breed of cattle?</text>
+            <option id="A">Leghorn</option>
+            <option id="B">Jersey</option>
+            <option id="C">Rhode Island Red</option>
+            <option id="D">Hisardale</option>
+            <answer>B</answer>
+            <explanation>Jersey is a breed of cattle (cow). Leghorn and Rhode Island Red are poultry breeds, and Hisardale is a sheep breed.</explanation>
+        </question>
+        <question>
+            <text>To overcome 'inbreeding depression', which of the following practices is recommended?</text>
+            <option id="A">Continuous inbreeding for 10 generations</option>
+            <option id="B">A single outcross with an unrelated superior animal of the same breed</option>
+            <option id="C">Mating with a completely different species</option>
+            <option id="D">Isolating the herd from all other animals</option>
+            <answer>B</answer>
+            <explanation>It often helps to overcome inbreeding depression by a single outcross. This means mating the selected animals with unrelated superior animals of the same breed (having no common ancestors for 4-6 generations).</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">The fortification of natural habitats to protect endangered species.</option>
             <answer>B</answer>
             <explanation>Breeding crops with higher levels of vitamins and minerals, or higher protein and healthier fats is the most practical means to improve public health. This process is called biofortification. Examples include iron-fortified rice and vitamin A enriched carrots.</explanation>
+        </question>
+        <question>
+            <text>During plant tissue culture, what determines whether the explant differentiates into roots or shoots?</text>
+            <option id="A">The size of the explant</option>
+            <option id="B">The temperature of the culture room</option>
+            <option id="C">The concentration and ratio of auxins and cytokinins</option>
+            <option id="D">The amount of sucrose in the medium</option>
+            <answer>C</answer>
+            <explanation>The nutrient medium must provide a carbon source such as sucrose and also inorganic salts, vitamins, amino acids and growth regulators like auxins, cytokinins etc. The ratio of auxins to cytokinins determines whether roots or shoots will develop.</explanation>
+        </question>
+        <question>
+            <text>Which of the following statements about Single Cell Protein (SCP) is FALSE?</text>
+            <option id="A">It is an alternate source of proteins for animal and human nutrition.</option>
+            <option id="B">Microbes like Spirulina can be grown easily to produce large quantities of protein.</option>
+            <option id="C">Methylophilus methylotrophus can produce 25 tonnes of protein.</option>
+            <option id="D">It requires large tracts of fertile agricultural land to produce.</option>
+            <answer>D</answer>
+            <explanation>SCP reduces the pressure on agricultural land. Microbes like Spirulina can be grown easily on materials like waste water from potato processing plants, straw, molasses, animal manure and even sewage.</explanation>
+        </question>
+        <question>
+            <text>Which of the following crop varieties is specifically bred for resistance to White rust?</text>
+            <option id="A">Pusa Swarnim</option>
+            <option id="B">Pusa Shubhra</option>
+            <option id="C">Pusa Snowball K-1</option>
+            <option id="D">Pusa Komal</option>
+            <answer>A</answer>
+            <explanation>Pusa Swarnim (Karan rai), a variety of Brassica, was bred for resistance to the disease White rust.</explanation>
         </question>
     </hard>
 </chapter>

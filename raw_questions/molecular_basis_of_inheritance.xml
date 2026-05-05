@@ -28,6 +28,33 @@
             <answer>B</answer>
             <explanation>Francis Crick proposed the Central dogma in molecular biology, which states that the genetic information flows from DNA -> RNA -> Protein.</explanation>
         </question>
+        <question>
+            <text>Which molecule acts as an adapter, reading the genetic code on mRNA and bringing the corresponding amino acid during translation?</text>
+            <option id="A">rRNA</option>
+            <option id="B">hnRNA</option>
+            <option id="C">tRNA</option>
+            <option id="D">snRNA</option>
+            <answer>C</answer>
+            <explanation>tRNA (transfer RNA) acts as an adapter molecule. It has an anticodon loop that has bases complementary to the codon, and it has an amino acid acceptor end to which it binds to amino acids.</explanation>
+        </question>
+        <question>
+            <text>The sequence of structural genes in the lac operon is:</text>
+            <option id="A">z, y, a</option>
+            <option id="B">a, y, z</option>
+            <option id="C">y, z, a</option>
+            <option id="D">z, a, y</option>
+            <answer>A</answer>
+            <explanation>The lac operon consists of one regulatory gene (the i gene) and three structural genes (z, y, and a). The z gene codes for beta-galactosidase, y for permease, and a for transacetylase.</explanation>
+        </question>
+        <question>
+            <text>Which enzyme is primarily responsible for the transcription of mRNA in eukaryotes?</text>
+            <option id="A">RNA polymerase I</option>
+            <option id="B">RNA polymerase II</option>
+            <option id="C">RNA polymerase III</option>
+            <option id="D">DNA polymerase</option>
+            <answer>B</answer>
+            <explanation>In eukaryotes, RNA polymerase II transcribes precursor of mRNA, the heterogeneous nuclear RNA (hnRNA).</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -66,6 +93,42 @@
             <answer>B</answer>
             <explanation>The primary transcripts (hnRNA) contain both exons and introns and are non-functional. They undergo a process called splicing where introns are removed and exons are joined in a defined order.</explanation>
         </question>
+        <question>
+            <text>During DNA replication, which enzyme joins the discontinuous Okazaki fragments on the lagging strand?</text>
+            <option id="A">DNA Helicase</option>
+            <option id="B">DNA Polymerase</option>
+            <option id="C">DNA Ligase</option>
+            <option id="D">Primase</option>
+            <answer>C</answer>
+            <explanation>The discontinuously synthesized fragments (Okazaki fragments) are later joined by the enzyme DNA ligase.</explanation>
+        </question>
+        <question>
+            <text>In a DNA double helix, the two polynucleotide chains run in anti-parallel directions. If one strand has the polarity 5'->3', what is the polarity of the other strand?</text>
+            <option id="A">5'->3'</option>
+            <option id="B">3'->5'</option>
+            <option id="C">3'->3'</option>
+            <option id="D">5'->5'</option>
+            <answer>B</answer>
+            <explanation>The two chains of DNA have anti-parallel polarity. It means, if one chain has the polarity 5'->3', the other has 3'->5'.</explanation>
+        </question>
+        <question>
+            <text>What is the function of the 'promoter' region in a transcription unit?</text>
+            <option id="A">It defines the end of the transcription process.</option>
+            <option id="B">It codes for the polypeptide chain.</option>
+            <option id="C">It provides the binding site for RNA polymerase.</option>
+            <option id="D">It acts as a binding site for the repressor protein.</option>
+            <answer>C</answer>
+            <explanation>The promoter is located towards 5'-end (upstream) of the structural gene. It is a DNA sequence that provides binding site for RNA polymerase, and it is the presence of a promoter in a transcription unit that also defines the template and coding strands.</explanation>
+        </question>
+        <question>
+            <text>Taylor and colleagues performed experiments on Vicia faba (faba beans) to prove that DNA replication is semi-conservative. Which radioactive label did they use?</text>
+            <option id="A">Heavy isotope of nitrogen (15N)</option>
+            <option id="B">Radioactive thymidine</option>
+            <option id="C">Radioactive phosphorus (32P)</option>
+            <option id="D">Radioactive sulfur (35S)</option>
+            <answer>B</answer>
+            <explanation>Taylor and colleagues (1958) used radioactive thymidine to detect distribution of newly synthesized DNA in the chromosomes of Vicia faba to prove that the DNA in chromosomes also replicate semi-conservatively.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -94,6 +157,33 @@
             <option id="D">It is unambiguous</option>
             <answer>C</answer>
             <explanation>The genetic code is read in a contiguous fashion, meaning there are no punctuations, and it is NON-OVERLAPPING. It is degenerate (some amino acids are coded by more than one codon), unambiguous (one codon codes for only one amino acid), and nearly universal.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT a feature of the DNA double helix proposed by Watson and Crick?</text>
+            <option id="A">The two chains are coiled in a right-handed fashion.</option>
+            <option id="B">The pitch of the helix is 3.4 nm.</option>
+            <option id="C">There are roughly 10 base pairs in each turn.</option>
+            <option id="D">The backbone is constituted by sugar-nitrogenous base, and the phosphates project inside.</option>
+            <answer>D</answer>
+            <explanation>The backbone of a polynucleotide chain is formed due to sugar and phosphates. The nitrogenous bases linked to sugar moiety project from the backbone, they do not constitute the backbone themselves.</explanation>
+        </question>
+        <question>
+            <text>During translation, the first phase involves the activation of amino acids and their binding to specific tRNAs. This process requires ATP and is known as:</text>
+            <option id="A">Translocation</option>
+            <option id="B">Elongation</option>
+            <option id="C">Charging of tRNA or aminoacylation of tRNA</option>
+            <option id="D">Termination</option>
+            <answer>C</answer>
+            <explanation>In the first phase of translation, amino acids are activated in the presence of ATP and linked to their cognate tRNA. This process is commonly called as charging of tRNA or aminoacylation of tRNA.</explanation>
+        </question>
+        <question>
+            <text>Which of the following acts as the inducer in the lac operon?</text>
+            <option id="A">Glucose</option>
+            <option id="B">Galactose</option>
+            <option id="C">Lactose</option>
+            <option id="D">Beta-galactosidase</option>
+            <answer>C</answer>
+            <explanation>Lactose is the substrate for the enzyme beta-galactosidase and it regulates switching on and off of the operon. Hence, it is termed as the inducer.</explanation>
         </question>
     </hard>
 </chapter>
