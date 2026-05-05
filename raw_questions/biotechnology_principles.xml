@@ -1,12 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="333" name="Biotechnology: Principles and Processes">
     <easy>
-
+        <question>
+            <text>Restriction endonucleases are popularly called:</text>
+            <option id="A">Molecular stitchers</option>
+            <option id="B">Molecular scissors</option>
+            <option id="C">Biological glue</option>
+            <option id="D">Vectors</option>
+            <answer>B</answer>
+            <explanation>Restriction endonucleases are enzymes that cut DNA at specific recognition nucleotide sequences. Due to this cutting ability, they are popularly called 'molecular scissors'.</explanation>
+        </question>
+        <question>
+            <text>Which enzyme is used to join the ends of two DNA molecules?</text>
+            <option id="A">DNA polymerase</option>
+            <option id="B">Restriction exonuclease</option>
+            <option id="C">DNA ligase</option>
+            <option id="D">Taq polymerase</option>
+            <answer>C</answer>
+            <explanation>DNA ligase is the enzyme that facilitates the joining of DNA strands together by catalyzing the formation of a phosphodiester bond. It acts as biological 'glue'.</explanation>
+        </question>
+        <question>
+            <text>In gel electrophoresis, DNA fragments move towards the:</text>
+            <option id="A">Cathode because they are positively charged</option>
+            <option id="B">Anode because they are negatively charged</option>
+            <option id="C">Cathode because they are negatively charged</option>
+            <option id="D">Anode because they are positively charged</option>
+            <answer>B</answer>
+            <explanation>Since DNA fragments are negatively charged molecules (due to phosphate groups), they can be separated by forcing them to move towards the anode (positive electrode) under an electric field through a medium/matrix.</explanation>
+        </question>
+        <question>
+            <text>What are the three basic steps of the Polymerase Chain Reaction (PCR) in correct sequence?</text>
+            <option id="A">Denaturation, Extension, Annealing</option>
+            <option id="B">Annealing, Denaturation, Extension</option>
+            <option id="C">Denaturation, Annealing, Extension</option>
+            <option id="D">Extension, Denaturation, Annealing</option>
+            <answer>C</answer>
+            <explanation>The PCR cycle involves three major steps: Denaturation (heating to separate strands), Annealing (primers bind to target sequences), and Extension (Taq polymerase synthesizes new DNA).</explanation>
+        </question>
+        <question>
+            <text>The first restriction endonuclease isolated was:</text>
+            <option id="A">Eco RI</option>
+            <option id="B">Hind II</option>
+            <option id="C">Bam HI</option>
+            <option id="D">Sal I</option>
+            <answer>B</answer>
+            <explanation>The first restriction endonuclease whose functioning depended on a specific DNA nucleotide sequence was Hind II. It was isolated from Haemophilus influenzae.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>The cloning vector pBR322 has selectable marker genes that confer resistance against which two antibiotics?</text>
+            <option id="A">Ampicillin and Streptomycin</option>
+            <option id="B">Ampicillin and Tetracycline</option>
+            <option id="C">Chloramphenicol and Tetracycline</option>
+            <option id="D">Kanamycin and Ampicillin</option>
+            <answer>B</answer>
+            <explanation>pBR322 is an E. coli cloning vector that contains two selectable markers: the ampicillin resistance gene (ampR) and the tetracycline resistance gene (tetR).</explanation>
+        </question>
+        <question>
+            <text>During insertional inactivation, the presence of a chromogenic substrate gives blue-colored colonies if the plasmid in the bacteria does not have an insert. What happens if an insert is present?</text>
+            <option id="A">The colonies become red.</option>
+            <option id="B">The colonies become blue.</option>
+            <option id="C">The colonies do not produce any color (white).</option>
+            <option id="D">The colonies die.</option>
+            <answer>C</answer>
+            <explanation>If a recombinant DNA is inserted within the coding sequence of an enzyme, beta-galactosidase, it leads to insertional inactivation. The colonies do not produce any color (they appear white), which identifies them as recombinant colonies.</explanation>
+        </question>
+        <question>
+            <text>Taq polymerase, used extensively in PCR, is isolated from a bacterium called Thermus aquaticus. Why is this specific enzyme used?</text>
+            <option id="A">It cuts DNA at specific palindromic sequences.</option>
+            <option id="B">It remains active during the high temperature-induced denaturation of double-stranded DNA.</option>
+            <option id="C">It acts as a primer for DNA synthesis.</option>
+            <option id="D">It joins the Okazaki fragments during replication.</option>
+            <answer>B</answer>
+            <explanation>Taq polymerase is a thermostable DNA polymerase. It is used because it remains active and does not denature during the high temperature (around 94°C) required for the separation of DNA strands in PCR.</explanation>
+        </question>
+        <question>
+            <text>What is a 'bioreactor' used for in biotechnology?</text>
+            <option id="A">To separate DNA fragments by their size.</option>
+            <option id="B">To amplify small amounts of DNA exponentially.</option>
+            <option id="C">To process large volumes of culture for producing specific products like enzymes on a commercial scale.</option>
+            <option id="D">To extract pure DNA from plant cells.</option>
+            <answer>C</answer>
+            <explanation>Bioreactors are large vessels (100-1000 liters) in which raw materials are biologically converted into specific products, individual enzymes, etc., using microbial plant, animal or human cells. They provide optimal conditions for achieving the desired product.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is an example of a palindromic nucleotide sequence?</text>
+            <option id="A">5' - GAATTC - 3'\n3' - CTTAAG - 5'</option>
+            <option id="B">5' - CCAATG - 3'\n3' - GAATCC - 5'</option>
+            <option id="C">5' - CATTAG - 3'\n3' - GATAAC - 5'</option>
+            <option id="D">5' - GCGCAA - 3'\n3' - CGCGTT - 5'</option>
+            <answer>A</answer>
+            <explanation>A palindrome in DNA is a sequence of base pairs that reads the same on the two strands when the orientation of reading is kept the same. 5'-GAATTC-3' reads exactly the same on the opposite strand 3'-CTTAAG-5' when read from 5' to 3'.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>During the isolation of DNA, the addition of chilled ethanol is primarily intended to:</text>
+            <option id="A">Remove RNA from the mixture.</option>
+            <option id="B">Break the bacterial cell wall.</option>
+            <option id="C">Precipitate the purified DNA.</option>
+            <option id="D">Digest the histone proteins.</option>
+            <answer>C</answer>
+            <explanation>After treating the cell extract with enzymes like RNase and proteases to remove RNA and proteins respectively, the highly purified DNA is ultimately precipitated out of the solution by the addition of chilled ethanol. This can be seen as a collection of fine threads in the suspension (spooling).</explanation>
+        </question>
+        <question>
+            <text>In plant genetic engineering, which method involves bombarding cells with high-velocity microparticles of gold or tungsten coated with DNA?</text>
+            <option id="A">Micro-injection</option>
+            <option id="B">Electroporation</option>
+            <option id="C">Biolistics (Gene gun)</option>
+            <option id="D">Heat shock treatment</option>
+            <answer>C</answer>
+            <explanation>Biolistics or gene gun is a method suitable for plants. Cells are bombarded with high-velocity micro-particles of gold or tungsten coated with DNA. Micro-injection is primarily used for animal cells.</explanation>
+        </question>
+        <question>
+            <text>What does 'Downstream Processing' in industrial biotechnology primarily involve?</text>
+            <option id="A">The selection of recombinants from non-recombinants.</option>
+            <option id="B">The separation and purification of the product after the biosynthetic stage.</option>
+            <option id="C">The amplification of the gene of interest using PCR.</option>
+            <option id="D">The transfer of recombinant DNA into a host cell.</option>
+            <answer>B</answer>
+            <explanation>After completion of the biosynthetic stage in a bioreactor, the product has to be subjected to a series of processes before it is ready for marketing. These processes include separation and purification, which are collectively referred to as downstream processing.</explanation>
+        </question>
+        <question>
+            <text>The process of extracting separated bands of DNA from an agarose gel is known as:</text>
+            <option id="A">Spooling</option>
+            <option id="B">Elution</option>
+            <option id="C">Transformation</option>
+            <option id="D">Ligation</option>
+            <answer>B</answer>
+            <explanation>The separated bands of DNA are cut out from the agarose gel and extracted from the gel piece. This extraction process is known as elution. The purified DNA fragments are then used in constructing recombinant DNA.</explanation>
+        </question>
+        <question>
+            <text>In order to force bacteria to take up a recombinant plasmid, the bacterial cells must first be made 'competent'. This is typically achieved by treating them with a specific concentration of a divalent cation, such as:</text>
+            <option id="A">Sodium</option>
+            <option id="B">Calcium</option>
+            <option id="C">Potassium</option>
+            <option id="D">Iron</option>
+            <answer>B</answer>
+            <explanation>Since DNA is a hydrophilic molecule, it cannot pass through cell membranes. To force bacteria to take up the plasmid, bacterial cells must first be made 'competent' to take up DNA. This is done by treating them with a specific concentration of a divalent cation, such as calcium, which increases the efficiency with which DNA enters the bacterium through pores in its cell wall.</explanation>
+        </question>
     </hard>
 </chapter>

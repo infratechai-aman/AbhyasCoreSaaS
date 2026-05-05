@@ -1,12 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="334" name="Biotechnology and its Applications">
     <easy>
-
+        <question>
+            <text>What does 'Bt' in Bt cotton stand for?</text>
+            <option id="A">Biotechnology</option>
+            <option id="B">Bacillus thuringiensis</option>
+            <option id="C">Barium titanate</option>
+            <option id="D">Bacterium thermophilus</option>
+            <answer>B</answer>
+            <explanation>Bt stands for Bacillus thuringiensis, a soil bacterium that produces a toxin which kills certain insects. The gene for this toxin has been incorporated into cotton to make it pest-resistant.</explanation>
+        </question>
+        <question>
+            <text>The first clinical gene therapy was given in 1990 to a 4-year-old girl with which of the following deficiencies?</text>
+            <option id="A">Adenosine deaminase (ADA) deficiency</option>
+            <option id="B">Tyrosine kinase deficiency</option>
+            <option id="C">Phenylketonuria</option>
+            <option id="D">Cystic fibrosis</option>
+            <answer>A</answer>
+            <explanation>The first clinical gene therapy was given in 1990 to a 4-year-old girl with adenosine deaminase (ADA) deficiency. This enzyme is crucial for the immune system to function.</explanation>
+        </question>
+        <question>
+            <text>Golden rice is a promising transgenic crop. When compared to normal rice, it is enriched with:</text>
+            <option id="A">Vitamin C</option>
+            <option id="B">Iron</option>
+            <option id="C">Vitamin A (beta-carotene)</option>
+            <option id="D">Vitamin E</option>
+            <answer>C</answer>
+            <explanation>Golden rice has been genetically engineered to produce beta-carotene, a precursor of Vitamin A, in the edible parts of the rice to combat Vitamin A deficiency.</explanation>
+        </question>
+        <question>
+            <text>Which technique is based on the principle of antigen-antibody interaction?</text>
+            <option id="A">PCR</option>
+            <option id="B">ELISA</option>
+            <option id="C">Gel electrophoresis</option>
+            <option id="D">Recombinant DNA technology</option>
+            <answer>B</answer>
+            <explanation>ELISA (Enzyme-Linked Immunosorbent Assay) is based on the principle of antigen-antibody interaction. Infection by a pathogen can be detected by the presence of antigens or by detecting the antibodies synthesized against the pathogen.</explanation>
+        </question>
+        <question>
+            <text>Insulin originally extracted from the pancreas of slaughtered cattle and pigs caused what issue in some patients?</text>
+            <option id="A">It was totally ineffective</option>
+            <option id="B">It caused allergy or other types of reactions</option>
+            <option id="C">It caused immediate death</option>
+            <option id="D">It degraded too quickly in the blood</option>
+            <answer>B</answer>
+            <explanation>Insulin from an animal source, though effective, elicited an immune response in some patients, leading to allergies or other reactions to the foreign protein.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>The proteins encoded by the genes cryIAc and cryIIAb control which of the following pests?</text>
+            <option id="A">Cotton bollworms</option>
+            <option id="B">Corn borer</option>
+            <option id="C">Aphids</option>
+            <option id="D">Nematodes</option>
+            <answer>A</answer>
+            <explanation>The proteins encoded by the genes cryIAc and cryIIAb control the cotton bollworms, whereas the protein encoded by cryIAb controls the corn borer.</explanation>
+        </question>
+        <question>
+            <text>RNA interference (RNAi) takes place in all eukaryotic organisms as a method of:</text>
+            <option id="A">Cellular division</option>
+            <option id="B">Cellular defense</option>
+            <option id="C">Protein synthesis</option>
+            <option id="D">DNA replication</option>
+            <answer>B</answer>
+            <explanation>RNA interference (RNAi) takes place in all eukaryotic organisms as a method of cellular defense. This method involves silencing of a specific mRNA due to a complementary dsRNA molecule.</explanation>
+        </question>
+        <question>
+            <text>In mammals, including humans, insulin is synthesized as a pro-hormone. What needs to be removed for it to become a fully mature and functional hormone?</text>
+            <option id="A">A chain</option>
+            <option id="B">B chain</option>
+            <option id="C">C peptide</option>
+            <option id="D">Disulphide bridges</option>
+            <answer>C</answer>
+            <explanation>Pro-insulin contains an extra stretch called the C peptide. This C peptide is not present in the mature insulin and is removed during maturation into insulin.</explanation>
+        </question>
+        <question>
+            <text>Transgenic mice are primarily being developed for which of the following purposes?</text>
+            <option id="A">To increase meat production</option>
+            <option id="B">For use in testing the safety of vaccines before they are used on humans</option>
+            <option id="C">To study the evolution of mammals</option>
+            <option id="D">To produce human proteins like alpha-lactalbumin</option>
+            <answer>B</answer>
+            <explanation>Transgenic mice are being developed for use in testing the safety of vaccines before they are used on humans. For example, they have been used to test the safety of the polio vaccine.</explanation>
+        </question>
+        <question>
+            <text>The Indian Government has set up an organization that makes decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services. What is it called?</text>
+            <option id="A">ICAR</option>
+            <option id="B">GEAC</option>
+            <option id="C">CSIR</option>
+            <option id="D">IARI</option>
+            <answer>B</answer>
+            <explanation>The Indian Government has set up organizations such as GEAC (Genetic Engineering Approval Committee), which makes decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>In 1983, Eli Lilly, an American company, prepared two DNA sequences corresponding to A and B chains of human insulin. How were they produced to form human insulin (Humulin)?</text>
+            <option id="A">They were introduced in plasmids of Agrobacterium tumefaciens and chains were combined using restriction enzymes.</option>
+            <option id="B">They were introduced in plasmids of E. coli to produce insulin chains, extracted separately, and combined by creating disulfide bonds.</option>
+            <option id="C">They were inserted into retroviruses and grown in human cell cultures.</option>
+            <option id="D">They were grown directly in a bioreactor without a host organism.</option>
+            <answer>B</answer>
+            <explanation>Eli Lilly prepared two DNA sequences corresponding to A and B, chains of human insulin and introduced them in plasmids of E. coli to produce insulin chains. Chains A and B were produced separately, extracted and combined by creating disulfide bonds to form human insulin.</explanation>
+        </question>
+        <question>
+            <text>Which of the following approaches is used to cure ADA deficiency by modifying the patient's cells?</text>
+            <option id="A">Administering ADA enzyme via continuous IV infusion.</option>
+            <option id="B">Extracting lymphocytes, introducing a functional ADA cDNA using a retroviral vector, and returning them to the patient.</option>
+            <option id="C">Using RNA interference to silence the defective ADA gene.</option>
+            <option id="D">Injecting Agrobacterium tumefaciens carrying the ADA gene directly into the bone marrow.</option>
+            <answer>B</answer>
+            <explanation>In gene therapy for ADA deficiency, lymphocytes from the blood of the patient are grown in a culture outside the body. A functional ADA cDNA (using a retroviral vector) is then introduced into these lymphocytes, which are subsequently returned to the patient.</explanation>
+        </question>
+        <question>
+            <text>Nematode resistance in tobacco plants has been introduced using Agrobacterium vectors to express nematode-specific genes. Which RNAi-based mechanism is responsible for this resistance?</text>
+            <option id="A">The host plant produces a single-stranded RNA that degrades the nematode's DNA.</option>
+            <option id="B">The introduced DNA produces both sense and anti-sense RNA in the host, forming dsRNA that silences the specific mRNA of the nematode.</option>
+            <option id="C">The nematode produces dsRNA that acts as a toxin against its own cells upon entering the plant roots.</option>
+            <option id="D">The plant produces a toxic protein similar to Bt toxin that is lethal to the nematode.</option>
+            <answer>B</answer>
+            <explanation>Using Agrobacterium vectors, nematode-specific genes were introduced into the host plant. The introduction of DNA was such that it produced both sense and anti-sense RNA in the host cells. These two RNAs being complementary formed a dsRNA that initiated RNAi and silenced the specific mRNA of the nematode.</explanation>
+        </question>
+        <question>
+            <text>Transgenic animals that produce useful biological products can be created by the introduction of a portion of DNA which codes for a particular product. For which human disease has the protein alpha-1-antitrypsin been produced transgenically?</text>
+            <option id="A">Cystic fibrosis</option>
+            <option id="B">Phenylketonuria (PKU)</option>
+            <option id="C">Emphysema</option>
+            <option id="D">Alzheimer's disease</option>
+            <answer>C</answer>
+            <explanation>Alpha-1-antitrypsin is a protein produced transgenically to treat emphysema. Similar attempts are being made for treatment of phenylketonuria (PKU) and cystic fibrosis.</explanation>
+        </question>
+        <question>
+            <text>Which of the following statements about the ethical issues of biotechnology is INCORRECT?</text>
+            <option id="A">The Indian Government has set up GEAC to make decisions regarding the validity of GM research.</option>
+            <option id="B">Biopiracy refers to the use of bio-resources by multinational companies without proper authorization from the countries concerned.</option>
+            <option id="C">A patent granted in the USA for Basmati rice allowed an American company to claim a monopoly on a variety derived from Indian farmers' varieties.</option>
+            <option id="D">All transgenic organisms are entirely predictable in their behavior when introduced into wild ecosystems.</option>
+            <answer>D</answer>
+            <explanation>The modification/usage of living organisms for public services (as food and medicine sources, for example) has also created problems with patents granted for the same. The behavior of transgenic organisms when introduced into wild ecosystems is completely unpredictable, making statement D incorrect.</explanation>
+        </question>
     </hard>
 </chapter>
