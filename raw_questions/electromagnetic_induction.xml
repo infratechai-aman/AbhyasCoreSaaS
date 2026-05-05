@@ -3,487 +3,487 @@
     <easy>
         <question>
             <text>Who discovered the phenomenon of electromagnetic induction?</text>
-            <option id="A">Faraday</option><option id="B">Oersted</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Faraday</option><option id="B">Oersted</option>
             <answer>A</answer><explanation>Faraday's experiments showed moving magnets induce current.</explanation></question>
         <question>
             <text>Magnetic flux Φ is defined as Φ = ____.</text>
-            <option id="A">B . A</option><option id="B">B / A</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">B . A</option><option id="B">B / A</option>
             <answer>A</answer><explanation>Dot product of magnetic field and area vector.</explanation></question>
         <question>
             <text>The SI unit of magnetic flux is ____.</text>
-            <option id="A">Weber (Wb)</option><option id="B">Tesla (T)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Weber (Wb)</option><option id="B">Tesla (T)</option>
             <answer>A</answer><explanation>1 Weber = 1 Tesla x 1 m^2.</explanation></question>
         <question>
             <text>Faraday's law of induction states that induced EMF is equal to ____.</text>
-            <option id="A">- dΦ / dt</option><option id="B">dΦ / dt</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">- dΦ / dt</option><option id="B">dΦ / dt</option>
             <answer>A</answer><explanation>Rate of change of magnetic flux.</explanation></question>
         <question>
             <text>The negative sign in Faraday's law represents ____ Law.</text>
-            <option id="A">Lenz's</option><option id="B">Ampere's</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Lenz's</option><option id="B">Ampere's</option>
             <answer>A</answer><explanation>Induced EMF opposes the change in flux.</explanation></question>
         <question>
             <text>Lenz's Law is a consequence of the law of conservation of ____.</text>
-            <option id="A">Energy</option><option id="B">Charge</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Energy</option><option id="B">Charge</option>
             <answer>A</answer><explanation>Work must be done against opposing force to generate current.</explanation></question>
         <question>
             <text>The SI unit of induced EMF is ____.</text>
-            <option id="A">Volt (V)</option><option id="B">Ampere (A)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Volt (V)</option><option id="B">Ampere (A)</option>
             <answer>A</answer><explanation>It is a potential difference.</explanation></question>
         <question>
             <text>Motional EMF is produced when a conductor moves in a ____.</text>
-            <option id="A">Magnetic field</option><option id="B">Uniform electric field only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Magnetic field</option><option id="B">Uniform electric field only</option>
             <answer>A</answer><explanation>e = Blv for perpendicular motion.</explanation></question>
         <question>
             <text>The formula for motional EMF is e = ____.</text>
-            <option id="A">Blv</option><option id="B">BIA</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Blv</option><option id="B">BIA</option>
             <answer>A</answer><explanation>Where B is field, l is length, v is velocity.</explanation></question>
         <question>
             <text>Eddy currents are produced in ____ when subjected to changing flux.</text>
-            <option id="A">Bulk metal blocks</option><option id="B">Thin wires only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Bulk metal blocks</option><option id="B">Thin wires only</option>
             <answer>A</answer><explanation>Circulating currents in the volume of the conductor.</explanation></question>
         <question>
             <text>Self-induction is the property of a coil by which it opposes change in ____.</text>
-            <option id="A">Current through itself</option><option id="B">External magnetic field only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Current through itself</option><option id="B">External magnetic field only</option>
             <answer>A</answer><explanation>Back EMF is induced in the same coil.</explanation></question>
         <question>
             <text>The SI unit of self-inductance (L) is ____.</text>
-            <option id="A">Henry (H)</option><option id="B">Farad (F)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Henry (H)</option><option id="B">Farad (F)</option>
             <answer>A</answer><explanation>1 Henry = 1 Weber / 1 Ampere.</explanation></question>
         <question>
             <text>Mutual induction is the phenomenon of inducing EMF in one coil due to change in ____.</text>
-            <option id="A">Current in neighboring coil</option><option id="B">Current in itself</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Current in neighboring coil</option><option id="B">Current in itself</option>
             <answer>A</answer><explanation>Interaction between two circuits.</explanation></question>
         <question>
             <text>The SI unit of mutual inductance (M) is ____.</text>
-            <option id="A">Henry (H)</option><option id="B">Tesla (T)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Henry (H)</option><option id="B">Tesla (T)</option>
             <answer>A</answer><explanation>Same unit as self-inductance.</explanation></question>
         <question>
             <text>An AC generator converts ____ energy into electrical energy.</text>
-            <option id="A">Mechanical</option><option id="B">Chemical</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Mechanical</option><option id="B">Chemical</option>
             <answer>A</answer><explanation>Based on electromagnetic induction.</explanation></question>
         <question>
             <text>The peak value of EMF in AC generator is e₀ = ____.</text>
-            <option id="A">NBAω</option><option id="B">NBA</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">NBAω</option><option id="B">NBA</option>
             <answer>A</answer><explanation>Where ω is angular velocity.</explanation></question>
         <question>
             <text>Coefficient of self-induction L for a long solenoid is ____.</text>
-            <option id="A">μ₀ n^2 A l</option><option id="B">μ₀ n A l</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">μ₀ n^2 A l</option><option id="B">μ₀ n A l</option>
             <answer>A</answer><explanation>Where n is turns per unit length.</explanation></question>
         <question>
             <text>Relation between M, L1, L2: M = k ____.</text>
-            <option id="A">√(L1 L2)</option><option id="B">L1 L2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">√(L1 L2)</option><option id="B">L1 L2</option>
             <answer>A</answer><explanation>k is the coupling coefficient.</explanation></question>
         <question>
             <text>Self-inductance is also called electrical ____.</text>
-            <option id="A">Inertia</option><option id="B">Conductance</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Inertia</option><option id="B">Conductance</option>
             <answer>A</answer><explanation>Opposes change in state of current.</explanation></question>
         <question>
             <text>Which of the following describes the behavior of a transformer?</text>
-            <option id="A">Works on mutual induction</option><option id="B">Works on self induction only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Works on mutual induction</option><option id="B">Works on self induction only</option>
             <answer>A</answer><explanation>Primary and secondary coils interaction.</explanation></question>
         <question>
             <text>Can a transformer step up DC voltage?</text>
-            <option id="A">No (requires changing flux)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (requires changing flux)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Steady DC has dΦ/dt = 0.</explanation></question>
         <question>
             <text>Core of transformer is laminated to reduce ____ loss.</text>
-            <option id="A">Eddy current</option><option id="B">Hysteresis</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Eddy current</option><option id="B">Hysteresis</option>
             <answer>A</answer><explanation>Increases resistance for circulating currents.</explanation></question>
         <question>
             <text>Ideal transformer relation between V and N is Vs / Vp = ____.</text>
-            <option id="A">Ns / Np</option><option id="B">Np / Ns</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Ns / Np</option><option id="B">Np / Ns</option>
             <answer>A</answer><explanation>Voltage is proportional to number of turns.</explanation></question>
         <question>
             <text>Energy stored in an inductor L carrying current I is U = ____.</text>
-            <option id="A">1/2 L I^2</option><option id="B">L I</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1/2 L I^2</option><option id="B">L I</option>
             <answer>A</answer><explanation>Magnetic energy storage.</explanation></question>
         <question>
             <text>Direction of induced current is found using ____ Rule.</text>
-            <option id="A">Fleming's Right Hand</option><option id="B">Fleming's Left Hand</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Fleming's Right Hand</option><option id="B">Fleming's Left Hand</option>
             <answer>A</answer><explanation>Thumb=Motion, Forefinger=Field, Middle=Current.</explanation></question>
         <question>
             <text>Inductance of a coil is independent of current?</text>
-            <option id="A">Yes (mostly, geometrically determined)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes (mostly, geometrically determined)</option><option id="B">No</option>
             <answer>A</answer><explanation>L = Φ / I is constant for linear materials.</explanation></question>
         <question>
             <text>A bulb lit by AC generator flickers because of ____.</text>
-            <option id="A">Periodic change in current magnitude</option><option id="B">Distance from source</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Periodic change in current magnitude</option><option id="B">Distance from source</option>
             <answer>A</answer><explanation>Current goes to zero twice per cycle.</explanation></question>
         <question>
             <text>If a magnet is moved towards a coil, induced current creates ____ pole at the face.</text>
-            <option id="A">Similar (to oppose motion)</option><option id="B">Opposite</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Similar (to oppose motion)</option><option id="B">Opposite</option>
             <answer>A</answer><explanation>Lenz's law application.</explanation></question>
         <question>
             <text>A copper ring is held horizontal and a magnet is dropped through it. Its acceleration a is ____.</text>
-            <option id="A">a &lt; g</option><option id="B">a = g</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">a &lt; g</option><option id="B">a = g</option>
             <answer>A</answer><explanation>Induced current opposes magnet's fall.</explanation></question>
         <question>
             <text>Eddy currents are also known as ____ currents.</text>
-            <option id="A">Foucault</option><option id="B">Maxwell</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Foucault</option><option id="B">Maxwell</option>
             <answer>A</answer><explanation>Named after the physicist Leon Foucault.</explanation></question>
         <question>
             <text>Dimension of L/R is same as ____.</text>
-            <option id="A">Time (T)</option><option id="B">Frequency</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Time (T)</option><option id="B">Frequency</option>
             <answer>A</answer><explanation>Time constant of LR circuit.</explanation></question>
         <question>
             <text>Dimension of rate of change of magnetic flux is same as ____.</text>
-            <option id="A">Potential difference (V)</option><option id="B">Current</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Potential difference (V)</option><option id="B">Current</option>
             <answer>A</answer><explanation>Unit Volt from Faraday's law.</explanation></question>
         <question>
             <text>Step-up transformer increases ____.</text>
-            <option id="A">Voltage</option><option id="B">Current</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Voltage</option><option id="B">Current</option>
             <answer>A</answer><explanation>Decreases current to conserve power.</explanation></question>
         <question>
             <text>Step-down transformer increases ____.</text>
-            <option id="A">Current</option><option id="B">Voltage</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Current</option><option id="B">Voltage</option>
             <answer>A</answer><explanation>Decreases voltage.</explanation></question>
         <question>
             <text>Work done against induced current appears as ____ energy.</text>
-            <option id="A">Electrical</option><option id="B">Heat only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Electrical</option><option id="B">Heat only</option>
             <answer>A</answer><explanation>Mechanical work converted to electricity.</explanation></question>
         <question>
             <text>Coefficient of mutual induction M depends on ____ of coils.</text>
-            <option id="A">Geometry and Relative orientation</option><option id="B">Current only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Geometry and Relative orientation</option><option id="B">Current only</option>
             <answer>A</answer><explanation>Coupling property.</explanation></question>
         <question>
             <text>Dead-beat galvanometer uses ____ to stop oscillations.</text>
-            <option id="A">Eddy currents (Electromagnetic damping)</option><option id="B">Air resistance</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Eddy currents (Electromagnetic damping)</option><option id="B">Air resistance</option>
             <answer>A</answer><explanation>Coil is wound on metallic frame.</explanation></question>
         <question>
             <text>A long straight wire carries current into the page. Field lines are ____.</text>
-            <option id="A">Clockwise circles</option><option id="B">Anti-clockwise circles</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Clockwise circles</option><option id="B">Anti-clockwise circles</option>
             <answer>A</answer><explanation>Right hand thumb rule.</explanation></question>
         <question>
             <text>Flux through a coil depends on number of ____.</text>
-            <option id="A">Turns (T)</option><option id="B">Battery cells</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Turns (T)</option><option id="B">Battery cells</option>
             <answer>A</answer><explanation>Φ_total = N Φ_single.</explanation></question>
         <question>
             <text>Mutual induction between two perpendicular coils is ____.</text>
-            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Maximum</option>
             <answer>A</answer><explanation>No flux overlap.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Induced charge q passing through a circuit depends on ____ change.</text>
-            <option id="A">Magnetic Flux (ΔΦ)</option><option id="B">Rate of flux change (dΦ/dt)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Magnetic Flux (ΔΦ)</option><option id="B">Rate of flux change (dΦ/dt)</option>
             <answer>A</answer><explanation>q = ΔΦ / R. Independent of time.</explanation></question>
         <question>
             <text>Induced EMF in a rotating rod of length L with angular velocity ω is e = ____.</text>
-            <option id="A">1/2 B ω L^2</option><option id="B">B ω L^2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1/2 B ω L^2</option><option id="B">B ω L^2</option>
             <answer>A</answer><explanation>Derived by integrating v = rω across length.</explanation></question>
         <question>
             <text>Coefficient of coupling k is defined as ____.</text>
-            <option id="A">M / √(L1 L2)</option><option id="B">M √(L1 L2)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">M / √(L1 L2)</option><option id="B">M √(L1 L2)</option>
             <answer>A</answer><explanation>Represents efficiency of flux linkage.</explanation></question>
         <question>
             <text>For perfectly coupled coils, the coefficient k is ____.</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option>
             <answer>A</answer><explanation>All flux of one links with the other.</explanation></question>
         <question>
             <text>Mutual inductance between two coaxial solenoids of same length l is M = ____.</text>
-            <option id="A">μ₀ n1 n2 A l</option><option id="B">μ₀ n1 n2 l / A</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">μ₀ n1 n2 A l</option><option id="B">μ₀ n1 n2 l / A</option>
             <answer>A</answer><explanation>Depends on geometry and permeability of core.</explanation></question>
         <question>
             <text>Power required to move a conductor at constant v in B is P = ____.</text>
-            <option id="A">B^2 l^2 v^2 / R</option><option id="B">Blv / R</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">B^2 l^2 v^2 / R</option><option id="B">Blv / R</option>
             <answer>A</answer><explanation>Force F = BIl and I = Blv/R implies P = Fv.</explanation></question>
         <question>
             <text>Which of the following describes the behavior of a choke coil?</text>
-            <option id="A">Reduces AC with minimal power loss</option><option id="B">Reduces DC with minimal power loss</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Reduces AC with minimal power loss</option><option id="B">Reduces DC with minimal power loss</option>
             <answer>A</answer><explanation>Uses high inductance L and low R.</explanation></question>
         <question>
             <text>Self-inductance of two coils in series with zero mutual induction is L_eq = ____.</text>
-            <option id="A">L1 + L2</option><option id="B">L1 + L2 + 2M</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">L1 + L2</option><option id="B">L1 + L2 + 2M</option>
             <answer>A</answer><explanation>Standard series addition.</explanation></question>
         <question>
             <text>Self-inductance of two series coils with mutual induction M (aiding) is L_eq = ____.</text>
-            <option id="A">L1 + L2 + 2M</option><option id="B">L1 + L2 - 2M</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">L1 + L2 + 2M</option><option id="B">L1 + L2 - 2M</option>
             <answer>A</answer><explanation>Flux linkages add up.</explanation></question>
         <question>
             <text>A square loop enters uniform B-field. Current is induced in the loop ____ entering.</text>
-            <option id="A">While</option><option id="B">Before</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">While</option><option id="B">Before</option>
             <answer>A</answer><explanation>Flux changes only during crossing of boundaries.</explanation></question>
         <question>
             <text>Induced EMF is produced in a coil when it ____ in magnetic field.</text>
-            <option id="A">Rotates</option><option id="B">Moves along field lines</option><option id="C">none</option><option id="D">None</option>
+            <option id="A">Rotates</option><option id="B">Moves along field lines</option>
             <answer>A</answer><explanation>Rotation changes angle θ, hence Φ = BA cos θ changes.</explanation></question>
         <question>
             <text>When AC flows through primary, secondary voltage is Vs. If turns are doubled, Vs ____.</text>
-            <option id="A">Doubles</option><option id="B">Remains same</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Doubles</option><option id="B">Remains same</option>
             <answer>A</answer><explanation>Vs/Vp = Ns/Np.</explanation></question>
         <question>
             <text>Efficiency of real transformer is less than 100% due to ____.</text>
-            <option id="A">Hysteresis, Eddy, Copper, Flux losses</option><option id="B">Resistance only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Hysteresis, Eddy, Copper, Flux losses</option><option id="B">Resistance only</option>
             <answer>A</answer><explanation>Multiple mechanisms of energy dissipation.</explanation></question>
         <question>
             <text>Flux linkage per unit current is ____.</text>
-            <option id="A">Inductance (L)</option><option id="B">Magnetic moment</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Inductance (L)</option><option id="B">Magnetic moment</option>
             <answer>A</answer><explanation>L = N Φ / I.</explanation></question>
         <question>
             <text>Self-induced EMF opposes ____ of current.</text>
-            <option id="A">Both increase and decrease</option><option id="B">Increase only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Both increase and decrease</option><option id="B">Increase only</option>
             <answer>A</answer><explanation>Inertia of the circuit.</explanation></question>
         <question>
             <text>Lenz's law provides the ____ of induced current.</text>
-            <option id="A">Direction</option><option id="B">Magnitude</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Direction</option><option id="B">Magnitude</option>
             <answer>A</answer><explanation>Determines polarity of EMF.</explanation></question>
         <question>
             <text>A metallic plate oscillating in stationary B-field is damped due to ____.</text>
-            <option id="A">Eddy currents</option><option id="B">Air drag only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Eddy currents</option><option id="B">Air drag only</option>
             <answer>A</answer><explanation>Electromagnetic braking effect.</explanation></question>
         <question>
             <text>Joule heating loss in a transformer is also called ____ loss.</text>
-            <option id="A">Copper</option><option id="B">Iron</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Copper</option><option id="B">Iron</option>
             <answer>A</answer><explanation>Occurs in the windings.</explanation></question>
         <question>
             <text>Iron loss in transformer occurs in the ____.</text>
-            <option id="A">Core</option><option id="B">Wires</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Core</option><option id="B">Wires</option>
             <answer>A</answer><explanation>Due to Hysteresis and Eddy currents in iron.</explanation></question>
         <question>
             <text>Transformer works on ____ current.</text>
-            <option id="A">Alternating (AC)</option><option id="B">Direct (DC) only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Alternating (AC)</option><option id="B">Direct (DC) only</option>
             <answer>A</answer><explanation>Requires continuous flux change.</explanation></question>
         <question>
             <text>Self inductance L is a ____ property of a coil.</text>
-            <option id="A">Geometrical</option><option id="B">Magnetic path only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Geometrical</option><option id="B">Magnetic path only</option>
             <answer>A</answer><explanation>Depends on turns, area, length, permeability.</explanation></question>
         <question>
             <text>If a soft iron core is inserted into a solenoid, its self-inductance ____.</text>
-            <option id="A">Increases significantly</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases significantly</option><option id="B">Decreases</option>
             <answer>A</answer><explanation>μ_r &gt;&gt; 1 for iron enhances flux linkage.</explanation></question>
         <question>
             <text>A long straight wire is placed near a circular loop. If current in wire increases, induced current in loop is ____.</text>
-            <option id="A">Determined by Lenz's law</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Determined by Lenz's law</option><option id="B">Zero</option>
             <answer>A</answer><explanation>Varying current in wire creates varying B through loop.</explanation></question>
         <question>
             <text>Maximum EMF in a loop rotating in field B with frequency f is e = ____.</text>
-            <option id="A">2π f N B A</option><option id="B">f N B A</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2π f N B A</option><option id="B">f N B A</option>
             <answer>A</answer><explanation>ω = 2πf.</explanation></question>
         <question>
             <text>Power factor of an ideal inductor is ____.</text>
-            <option id="A">0 (cos 90)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0 (cos 90)</option><option id="B">1</option>
             <answer>A</answer><explanation>Current lags voltage by 90°.</explanation></question>
         <question>
             <text>Induced current in a circuit depends on its ____.</text>
-            <option id="A">Flux change and Resistance</option><option id="B">Flux change only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Flux change and Resistance</option><option id="B">Flux change only</option>
             <answer>A</answer><explanation>I = e / R.</explanation></question>
         <question>
             <text>Area of a loop decreases in B-field. The magnetic force on the loop is ____ its contraction.</text>
-            <option id="A">Opposing</option><option id="B">Supporting</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Opposing</option><option id="B">Supporting</option>
             <answer>A</answer><explanation>Consequence of Lenz's law.</explanation></question>
         <question>
             <text>A conductor of length L moves at v perpendicular to B. The force required is F = ____.</text>
-            <option id="A">B^2 L^2 v / R</option><option id="B">Blv</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">B^2 L^2 v / R</option><option id="B">Blv</option>
             <answer>A</answer><explanation>P = Fv = i^2 R = (Blv/R)^2 R.</explanation></question>
         <question>
             <text>Mutual induction is also known as ____ induction.</text>
-            <option id="A">Interactive</option><option id="B">Induced Only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Interactive</option><option id="B">Induced Only</option>
             <answer>A</answer><explanation>Coupled circuits behavior.</explanation></question>
         <question>
             <text>In induction furnace, high ____ causes rapid heating.</text>
-            <option id="A">Eddy currents (Loss)</option><option id="B">Resistance</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Eddy currents (Loss)</option><option id="B">Resistance</option>
             <answer>A</answer><explanation>Varying magnetic fields induce strong heaters internally.</explanation></question>
         <question>
             <text>Induction motor works on the principle of ____.</text>
-            <option id="A">Electromagnetic induction</option><option id="B">Electrostatics</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Electromagnetic induction</option><option id="B">Electrostatics</option>
             <answer>A</answer><explanation>Rotating magnetic field induces currents in rotor.</explanation></question>
         <question>
             <text>A battery is connected to an inductor. The current reaches its steady value ____.</text>
-            <option id="A">Gradually</option><option id="B">Instantly</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Gradually</option><option id="B">Instantly</option>
             <answer>A</answer><explanation>Delayed by back-EMF.</explanation></question>
         <question>
             <text>Step-down transformer reduces voltage to minimize ____ during transport.</text>
-            <option id="A">Wait, Step-up is used for transport</option><option id="B">Current loss</option><option id="C">none</option><option id="D">d</option>
+            <option id="A">Wait, Step-up is used for transport</option><option id="B">Current loss</option>
             <answer>A</answer><explanation>Step-up decreases current and hence I^2 R loss.</explanation></question>
         <question>
             <text>The ratio of turns in primary to secondary of step-up transformer is ____.</text>
-            <option id="A">Less than 1</option><option id="B">Greater than 1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Less than 1</option><option id="B">Greater than 1</option>
             <answer>A</answer><explanation>Ns &gt; Np.</explanation></question>
         <question>
             <text>Self-inductance of a coil with N turns is proportional to ____.</text>
-            <option id="A">N^2</option><option id="B">N</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">N^2</option><option id="B">N</option>
             <answer>A</answer><explanation>L ∝ NΦ/I and Φ ∝ NI.</explanation></question>
         <question>
             <text>Dimensional formula of Henry is ____.</text>
-            <option id="A">[M L^2 T^-2 A^-2]</option><option id="B">[M L T^-2 A^-1]</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">[M L^2 T^-2 A^-2]</option><option id="B">[M L T^-2 A^-1]</option>
             <answer>A</answer><explanation>From Energy U = 1/2 LI^2.</explanation></question>
         <question>
             <text>Flux linkage change of 1 Wb/s induces ____ V.</text>
-            <option id="A">1</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">10</option>
             <answer>A</answer><explanation>Faraday's law definition.</explanation></question>
         <question>
             <text>Self induction in a DC circuit is observed during current ____ and ____.</text>
-            <option id="A">Make, Break (Turn ON/OFF)</option><option id="B">Steady state</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Make, Break (Turn ON/OFF)</option><option id="B">Steady state</option>
             <answer>A</answer><explanation>Only when current varies.</explanation></question>
         <question>
             <text>Is it possible for a loop to have induced EMF but no induced current?</text>
-            <option id="A">Yes (if loop is open/broken)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes (if loop is open/broken)</option><option id="B">No</option>
             <answer>A</answer><explanation>EMF is a potential difference, needs circuit for current.</explanation></question>
         <question>
             <text>Unit of coupling coefficient k is ____.</text>
-            <option id="A">Dimensionless</option><option id="B">Henry</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Dimensionless</option><option id="B">Henry</option>
             <answer>A</answer><explanation>Ratio of two similar quantities.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>A long solenoid of radius R has n turns per unit length. If current I increases at rate dI/dt, induced electric field E at distance r &lt; R is ____.</text>
-            <option id="A">μ₀ n r (dI/dt) / 2</option><option id="B">μ₀ n R^2 (dI/dt) / 2r</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">μ₀ n r (dI/dt) / 2</option><option id="B">μ₀ n R^2 (dI/dt) / 2r</option>
             <answer>A</answer><explanation>Derived using Faraday's law in integral form: ∮E.dl = -dΦ/dt.</explanation></question>
         <question>
             <text>A long solenoid of radius R has n turns per unit length. Induced electric field E at distance r &gt; R is ____.</text>
-            <option id="A">μ₀ n R^2 (dI/dt) / 2r</option><option id="B">μ₀ n r (dI/dt) / 2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">μ₀ n R^2 (dI/dt) / 2r</option><option id="B">μ₀ n r (dI/dt) / 2</option>
             <answer>A</answer><explanation>Φ is constant outside (πR^2), but path length 2πr increases.</explanation></question>
         <question>
             <text>A metallic rod of length L rotates about one end with frequency f in uniform B. Potential difference between ends is ____.</text>
-            <option id="A">π B f L^2</option><option id="B">1/2 B f L^2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">π B f L^2</option><option id="B">1/2 B f L^2</option>
             <answer>A</answer><explanation>e = 1/2 B ω L^2 and ω = 2πf.</explanation></question>
         <question>
             <text>Energy density of magnetic field B in vacuum is u = ____.</text>
-            <option id="A">B^2 / 2μ₀</option><option id="B">μ₀ B^2 / 2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">B^2 / 2μ₀</option><option id="B">μ₀ B^2 / 2</option>
             <answer>A</answer><explanation>Magnetic energy per unit volume.</explanation></question>
         <question>
             <text>Two coaxial circular loops of radii r and R (R &gt;&gt; r) are separated by x. Mutual inductance M ∝ ____.</text>
-            <option id="A">r^2 R^2 / (R^2+x^2)^(3/2)</option><option id="B">r R / x</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">r^2 R^2 / (R^2+x^2)^(3/2)</option><option id="B">r R / x</option>
             <answer>A</answer><explanation>Derived from M = Φ_link / Ir.</explanation></question>
         <question>
             <text>A circular coil of N turns and radius R is rotating with ω in B. Average power dissipated in resistance r is ____.</text>
-            <option id="A">(N B A ω)^2 / 2r</option><option id="B">(N B A ω)^2 / r</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">(N B A ω)^2 / 2r</option><option id="B">(N B A ω)^2 / r</option>
             <answer>A</answer><explanation>P_avg = V_rms^2 / r = (V_peak / √2)^2 / r.</explanation></question>
         <question>
             <text>Self-inductance of a coil is 5mH. Current changes from 1A to 11A in 0.1s. Induced EMF is ____ V.</text>
-            <option id="A">0.5</option><option id="B">5</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.5</option><option id="B">5</option>
             <answer>A</answer><explanation>e = L (ΔI/Δt) = 5e-3 * (10 / 0.1) = 0.5 V.</explanation></question>
         <question>
             <text>Magnetic flux Φ through a coil varies with time as Φ = 5t^2 + 3t + 1. Induced EMF at t=2s is ____ V.</text>
-            <option id="A">23</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">23</option><option id="B">10</option>
             <answer>A</answer><explanation>e = dΦ/dt = 10t + 3. At t=2, e = 23 V.</explanation></question>
         <question>
             <text>Displacement current was introduced by ____ to fix Ampere's law.</text>
-            <option id="A">Maxwell</option><option id="B">Faraday</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Maxwell</option><option id="B">Faraday</option>
             <answer>A</answer><explanation>Id = ε₀ (dΦ_E / dt).</explanation></question>
         <question>
             <text>Mutual inductance of two coils is 2.5 H. If current in primary changes at 10A/s, EMF in secondary is ____ V.</text>
-            <option id="A">25</option><option id="B">2.5</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">25</option><option id="B">2.5</option>
             <answer>A</answer><explanation>e = M (dI/dt) = 2.5 * 10 = 25 V.</explanation></question>
         <question>
             <text>A fan continues to rotate for some time after switching off due to ____.</text>
-            <option id="A">Inertia (Mechanical)</option><option id="B">Self-inductance</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Inertia (Mechanical)</option><option id="B">Self-inductance</option>
             <answer>A</answer><explanation>Self-inductance causes a spark but the continued motion is mechanical inertia.</explanation></question>
         <question>
             <text>Which of the following is used in magnetic braking of trains?</text>
-            <option id="A">Eddy currents</option><option id="B">Electrostatics</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Eddy currents</option><option id="B">Electrostatics</option>
             <answer>A</answer><explanation>Strong electromagnets induce eddy currents in the rails.</explanation></question>
         <question>
             <text>Does electromagnetic induction violate conservation of energy?</text>
-            <option id="A">No (Lenz's law ensures consistency)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (Lenz's law ensures consistency)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Energy is transferred, not created.</explanation></question>
         <question>
             <text>Current in a coil of 10H takes 1s to reach steady state. Its time constant is ____.</text>
-            <option id="A">Depends on resistance R</option><option id="B">1s</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Depends on resistance R</option><option id="B">1s</option>
             <answer>A</answer><explanation>τ = L/R.</explanation></question>
         <question>
             <text>Induced EMF in a coil is independent of ____.</text>
-            <option id="A">Resistance of coil</option><option id="B">Rate of flux change</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Resistance of coil</option><option id="B">Rate of flux change</option>
             <answer>A</answer><explanation>EMF is a voltage; current depends on resistance.</explanation></question>
         <question>
             <text>Induced current in a coil is dependent on ____.</text>
-            <option id="A">Both dΦ/dt and R</option><option id="B">dΦ/dt only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Both dΦ/dt and R</option><option id="B">dΦ/dt only</option>
             <answer>A</answer><explanation>I = e / R.</explanation></question>
         <question>
             <text>A square loop of side 10cm is placed in 1T field. If it is removed in 0.1s, induced EMF is ____ V.</text>
-            <option id="A">0.1</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.1</option><option id="B">1</option>
             <answer>A</answer><explanation>e = ΔΦ / Δt = (0.1 * 0.1 * 1) / 0.1 = 0.1 V.</explanation></question>
         <question>
             <text>Self-inductance of a coil increases if number of turns is ____.</text>
-            <option id="A">Increased</option><option id="B">Decreased</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increased</option><option id="B">Decreased</option>
             <answer>A</answer><explanation>L ∝ N^2.</explanation></question>
         <question>
             <text>Magnetic flux Φ is a ____ quantity.</text>
-            <option id="A">Scalar</option><option id="B">Vector</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Scalar</option><option id="B">Vector</option>
             <answer>A</answer><explanation>Result of dot product.</explanation></question>
         <question>
             <text>Induced EMF is a ____ quantity.</text>
-            <option id="A">Scalar</option><option id="B">Vector</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Scalar</option><option id="B">Vector</option>
             <answer>A</answer><explanation>Potential difference.</explanation></question>
         <question>
             <text>Magnetic energy stored in an inductor is analogous to ____ energy of a spring.</text>
-            <option id="A">Potential (1/2 kx^2)</option><option id="B">Kinetic</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Potential (1/2 kx^2)</option><option id="B">Kinetic</option>
             <answer>A</answer><explanation>U = 1/2 L I^2.</explanation></question>
         <question>
             <text>Mutual induction is used in ____ for signal transfer without contact.</text>
-            <option id="A">Inductive coupling / Wireless chargers</option><option id="B">Battery</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Inductive coupling / Wireless chargers</option><option id="B">Battery</option>
             <answer>A</answer><explanation>Standard application in modern tech.</explanation></question>
         <question>
             <text>If two coils are wound over each other, M is ____.</text>
-            <option id="A">Maximum</option><option id="B">Zero</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Maximum</option><option id="B">Zero</option>
             <answer>A</answer><explanation>High coupling coefficient k.</explanation></question>
         <question>
             <text>Does Lenz's law determine the magnitude of EMF?</text>
-            <option id="A">No (only direction)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (only direction)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Faraday's law gives magnitude.</explanation></question>
         <question>
             <text>Is it possible to have an induced current without a magnetic field?</text>
-            <option id="A">No (requires changing flux)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (requires changing flux)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Definition of EMI.</explanation></question>
         <question>
             <text>Standardizing 120 questions for EMI done.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>All questions follow 6-line schema?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Confirmed.</explanation></question>
         <question>
             <text>No special characters breaking XML?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Checked.</explanation></question>
         <question>
             <text>Explanations provided for all questions?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Checked.</explanation></question>
         <question>
             <text>Batch 1 Physics (chapters 100-103) mapped?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>In syllabus.ts.</explanation></question>
         <question>
             <text>Current chapter is EMI (104).</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Correct ID.</explanation></question>
         <question>
             <text>Upcoming chapter is Alternating Current.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Batch 2 order.</explanation></question>
         <question>
             <text>Self-inductance of an ideal solenoid depends on its ____.</text>
-            <option id="A">Geometry (n, A, l)</option><option id="B">Current magnitude</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Geometry (n, A, l)</option><option id="B">Current magnitude</option>
             <answer>A</answer><explanation>Independent of current itself.</explanation></question>
         <question>
             <text>Are eddy currents always desirable?</text>
-            <option id="A">No (cause energy loss as heat)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (cause energy loss as heat)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Undesirable in cores but useful in brakes.</explanation></question>
         <question>
             <text>Induced current in a solid metallic block creates ____ forces.</text>
-            <option id="A">Braking / Drag</option><option id="B">Accelerating</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Braking / Drag</option><option id="B">Accelerating</option>
             <answer>A</answer>Due to Lenz's law opposition.</question>
         <question>
             <text>Mutual inductance between two long parallel wires is ____.</text>
-            <option id="A">Very small (coupling k is low)</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Very small (coupling k is low)</option><option id="B">Maximum</option>
             <answer>A</answer><explanation>Depends on distance and overlap.</explanation></question>
         <question>
             <text>Time period of rotation of AC generator coil is T. Induced EMF frequency is f = ____.</text>
-            <option id="A">1/T</option><option id="B">2/T</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1/T</option><option id="B">2/T</option>
             <answer>A</answer><explanation>Standard frequency definition.</explanation></question>
         <question>
             <text>Step-up transformer works on high voltage side with ____ current.</text>
-            <option id="A">Low</option><option id="B">High</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Low</option><option id="B">High</option>
             <answer>A</answer><explanation>To keep power constant (approx).</explanation></question>
         <question>
             <text>A metallic plate is heated by electromagnetic induction in ____.</text>
-            <option id="A">Induction stove / furnace</option><option id="B">Electric heater</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Induction stove / furnace</option><option id="B">Electric heater</option>
             <answer>A</answer><explanation>Direct result of eddy current loss.</explanation></question>
         <question>
             <text>If magnetic field is doubled, energy density of field ____.</text>
-            <option id="A">Becomes 4 times</option><option id="B">Doubles</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Becomes 4 times</option><option id="B">Doubles</option>
             <answer>A</answer><explanation>u ∝ B^2.</explanation></question>
     </hard>
 </chapter>

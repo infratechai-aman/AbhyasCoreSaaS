@@ -3,103 +3,103 @@
     <easy>
         <question>
             <text>LPP stands for:</text>
-            <option id="A">Linear Programming Problem</option><option id="B">Logic Programming Process</option><option id="C">Long Programming Path</option><option id="D">None</option>
+            <option id="A">Linear Programming Problem</option><option id="B">Logic Programming Process</option><option id="C">Long Programming Path</option>
             <answer>A</answer><explanation>Standard terminology.</explanation></question>
         <question>
             <text>In LPP, the function to be optimized is called:</text>
-            <option id="A">Objective Function</option><option id="B">Subjective Function</option><option id="C">Constraint Function</option><option id="D">None</option>
+            <option id="A">Objective Function</option><option id="B">Subjective Function</option><option id="C">Constraint Function</option>
             <answer>A</answer><explanation>The goal is to maximize or minimize the objective function.</explanation></question>
         <question>
             <text>The linear inequalities or restrictions on the variables are called:</text>
-            <option id="A">Constraints</option><option id="B">Boundaries</option><option id="C">Limits</option><option id="D">None</option>
+            <option id="A">Constraints</option><option id="B">Boundaries</option><option id="C">Limits</option>
             <answer>A</answer><explanation>Constraints restrict the values variables can take.</explanation></question>
         <question>
             <text>Finding the maximum or minimum value of a function is called:</text>
-            <option id="A">Optimization</option><option id="B">Integration</option><option id="C">Differentiation</option><option id="D">None</option>
+            <option id="A">Optimization</option><option id="B">Integration</option><option id="C">Differentiation</option>
             <answer>A</answer><explanation>Objective of LPP.</explanation></question>
         <question>
             <text>The common region determined by all the constraints is called:</text>
-            <option id="A">Feasible Region</option><option id="B">Infeasible Region</option><option id="C">Optimal Region</option><option id="D">None</option>
+            <option id="A">Feasible Region</option><option id="B">Infeasible Region</option><option id="C">Optimal Region</option>
             <answer>A</answer><explanation>Region containing all points satisfying all constraints.</explanation></question>
         <question>
             <text>Points within and on the boundary of the feasible region represent ____ solutions.</text>
-            <option id="A">Feasible</option><option id="B">Infeasible</option><option id="C">Optimal</option><option id="D">None</option>
+            <option id="A">Feasible</option><option id="B">Infeasible</option><option id="C">Optimal</option>
             <answer>A</answer><explanation>Definition of feasible solution.</explanation></question>
         <question>
             <text>Any point outside the feasible region is called a/an:</text>
-            <option id="A">Infeasible solution</option><option id="B">Feasible solution</option><option id="C">Optimal solution</option><option id="D">None</option>
+            <option id="A">Infeasible solution</option><option id="B">Feasible solution</option><option id="C">Optimal solution</option>
             <answer>A</answer><explanation>Does not satisfy at least one constraint.</explanation></question>
         <question>
             <text>The maximum or minimum value of an objective function usually occurs at ____ of the feasible region.</text>
-            <option id="A">Corner points</option><option id="B">Interior points</option><option id="C">The origin</option><option id="D">None</option>
+            <option id="A">Corner points</option><option id="B">Interior points</option><option id="C">The origin</option>
             <answer>A</answer><explanation>Fundamental theorem of Linear Programming.</explanation></question>
         <question>
             <text>If the feasible region is bounded, then the objective function ____ both a maximum and a minimum.</text>
-            <option id="A">Always has</option><option id="B">May have</option><option id="C">Never has</option><option id="D">None</option>
+            <option id="A">Always has</option><option id="B">May have</option><option id="C">Never has</option>
             <answer>A</answer><explanation>Property of continuous functions on closed bounded sets.</explanation></question>
         <question>
             <text>If the feasible region is unbounded, a maximum or minimum value ____ exist.</text>
-            <option id="A">May or may not</option><option id="B">Always</option><option id="C">Never</option><option id="D">None</option>
+            <option id="A">May or may not</option><option id="B">Always</option><option id="C">Never</option>
             <answer>A</answer><explanation>Depends on the slopes of the constraints and objective function.</explanation></question>
         <question>
             <text>Decision variables in a standard LPP must be:</text>
-            <option id="A">Non-negative (x,y &gt;= 0)</option><option id="B">Negative</option><option id="C">Zero</option><option id="D">None</option>
+            <option id="A">Non-negative (x,y &gt;= 0)</option><option id="B">Negative</option><option id="C">Zero</option>
             <answer>A</answer><explanation>Standard LPP assumes non-negative inputs.</explanation></question>
         <question>
             <text>Graphical method is suitable for LPP with ____ variables.</text>
-            <option id="A">Two</option><option id="B">Ten</option><option id="C">Infinite</option><option id="D">None</option>
+            <option id="A">Two</option><option id="B">Ten</option><option id="C">Infinite</option>
             <answer>A</answer><explanation>Limited by 2D visualization.</explanation></question>
         <question>
             <text>Objective function Z = ax + by is a ____ function of x and y.</text>
-            <option id="A">Linear</option><option id="B">Quadratic</option><option id="C">Logarithmic</option><option id="D">None</option>
+            <option id="A">Linear</option><option id="B">Quadratic</option><option id="C">Logarithmic</option>
             <answer>A</answer><explanation>Linearity is required for LPP.</explanation></question>
         <question>
             <text>Constraints x &gt;= 0 and y &gt;= 0 are often called:</text>
-            <option id="A">Non-negativity constraints</option><option id="B">Primary constraints</option><option id="C">Lower limits</option><option id="D">None</option>
+            <option id="A">Non-negativity constraints</option><option id="B">Primary constraints</option><option id="C">Lower limits</option>
             <answer>A</answer><explanation>Prevents negative quantities of physical items.</explanation></question>
         <question>
             <text>Feasible region is always a ____ region.</text>
-            <option id="A">Convex</option><option id="B">Concave</option><option id="C">Circular</option><option id="D">None</option>
+            <option id="A">Convex</option><option id="B">Concave</option><option id="C">Circular</option>
             <answer>A</answer><explanation>Intersection of half-planes is convex.</explanation></question>
         <question>
             <text>Maximum of Z = 3x + 4y for corner points (0,0), (4,0), (0,3) is:</text>
-            <option id="A">12</option><option id="B">0</option><option id="C">7</option><option id="D">None</option>
+            <option id="A">12</option><option id="B">0</option><option id="C">7</option>
             <answer>A</answer><explanation>At (4,0), Z=12. At (0,3), Z=12. Multiple optimal solutions exist.</explanation></question>
         <question>
             <text>A feasible solution that optimizes the objective function is called:</text>
-            <option id="A">Optimal feasible solution</option><option id="B">Basic solution</option><option id="C">Initial solution</option><option id="D">None</option>
+            <option id="A">Optimal feasible solution</option><option id="B">Basic solution</option><option id="C">Initial solution</option>
             <answer>A</answer><explanation>The best possible solution.</explanation></question>
         <question>
             <text>In solving LPP graphically, the region represented by ax + by &lt;= c is:</text>
-            <option id="A">Half plane containing origin if c &gt;= 0</option><option id="B">Full plane</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Half plane containing origin if c &gt;= 0</option><option id="B">Full plane</option>
             <answer>A</answer><explanation>Standard graphical representation.</explanation></question>
         <question>
             <text>Lines joining corner points of feasible region are called:</text>
-            <option id="A">Boundary lines</option><option id="B">Radial lines</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Boundary lines</option><option id="B">Radial lines</option>
             <answer>A</answer><explanation>Part of the constraints.</explanation></question>
         <question>
             <text>Corner point method is used to find ____ values.</text>
-            <option id="A">Optimal</option><option id="B">Average</option><option id="C">Median</option><option id="D">None</option>
+            <option id="A">Optimal</option><option id="B">Average</option><option id="C">Median</option>
             <answer>A</answer><explanation>It checks the vertices of the feasible region.</explanation></question>
         <question>
             <text>Optimal value of Z = 5x + 3y occurs at (2,4) or (3,3)? Find at (2,4):</text>
-            <option id="A">22</option><option id="B">19</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">22</option><option id="B">19</option>
             <answer>A</answer><explanation>5(2) + 3(4) = 10 + 12 = 22.</explanation></question>
         <question>
             <text>Optimal value of Z = 5x + 3y occurs at (2,4) or (3,3)? Find at (3,3):</text>
-            <option id="A">24</option><option id="B">22</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">24</option><option id="B">22</option>
             <answer>A</answer><explanation>5(3) + 3(3) = 15 + 9 = 24. This is better if maximizing.</explanation></question>
         <question>
             <text>If a constraint is 2x + 3y &lt;= 6, point (1,1) is:</text>
-            <option id="A">Feasible</option><option id="B">Infeasible</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Feasible</option><option id="B">Infeasible</option>
             <answer>A</answer><explanation>2(1)+3(1) = 5 &lt;= 6.</explanation></question>
         <question>
             <text>If a constraint is x + y &gt;= 10, point (2,3) is:</text>
-            <option id="A">Infeasible</option><option id="B">Feasible</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Infeasible</option><option id="B">Feasible</option>
             <answer>A</answer><explanation>2+3 = 5, which is NOT &gt;= 10.</explanation></question>
         <question>
             <text>Optimization means ____.</text>
-            <option id="A">Max or Min</option><option id="B">Only Max</option><option id="C">Only Min</option><option id="D">None</option>
+            <option id="A">Max or Min</option><option id="B">Only Max</option><option id="C">Only Min</option>
             <answer>A</answer><explanation>Generic term for finding best value.</explanation></question>
         <question>
             <text>Which quadrant does the feasible region of standard LPP lie in?</text>
@@ -107,47 +107,47 @@
             <answer>A</answer><explanation>Due to x, y &gt;= 0.</explanation></question>
         <question>
             <text>Intersection of x &gt;= 2 and x &lt;= 5 is:</text>
-            <option id="A">A vertical strip</option><option id="B">A horizontal strip</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">A vertical strip</option><option id="B">A horizontal strip</option>
             <answer>A</answer><explanation>Bounded by x=2 and x=5 lines.</explanation></question>
         <question>
             <text>Objective function must be ____.</text>
-            <option id="A">Optimized</option><option id="B">Ignored</option><option id="C">Constant</option><option id="D">None</option>
+            <option id="A">Optimized</option><option id="B">Ignored</option><option id="C">Constant</option>
             <answer>A</answer><explanation>Main purpose of LPP.</explanation></question>
         <question>
             <text>Constraints must be ____ equations or inequalities.</text>
-            <option id="A">Linear</option><option id="B">Circular</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Linear</option><option id="B">Circular</option>
             <answer>A</answer><explanation>Required for standard LPP.</explanation></question>
         <question>
             <text>Points (0,0) is feasible for x+y &lt;= 5. TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>0+0 &lt;= 5.</explanation></question>
         <question>
             <text>If optimal value is same at two corner points, it is same for ____ point on the line segment joining them.</text>
-            <option id="A">Every</option><option id="B">No other</option><option id="C">Only one other</option><option id="D">None</option>
+            <option id="A">Every</option><option id="B">No other</option><option id="C">Only one other</option>
             <answer>A</answer><explanation>Property of linear functions on convex sets.</explanation></question>
         <question>
             <text>Diet problem is an example of LPP. TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>Standard LPP application.</explanation></question>
         <question>
             <text>Transportation problem aims to minimize ____.</text>
-            <option id="A">Cost</option><option id="B">Time only</option><option id="C">Distance only</option><option id="D">None</option>
+            <option id="A">Cost</option><option id="B">Time only</option><option id="C">Distance only</option>
             <answer>A</answer><explanation>Cost of moving goods.</explanation></question>
         <question>
             <text>Manufacturing problem aims to maximize ____.</text>
-            <option id="A">Profit</option><option id="B">Waste</option><option id="C">Loss</option><option id="D">None</option>
+            <option id="A">Profit</option><option id="B">Waste</option><option id="C">Loss</option>
             <answer>A</answer><explanation>Standard business goal.</explanation></question>
         <question>
             <text>Can LPP have more than one optimal solution?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">Only if Z is zero</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Only if Z is zero</option>
             <answer>A</answer><explanation>Occurs if objective function is parallel to a constraint boundary.</explanation></question>
         <question>
             <text>If constraints are inconsistent, feasible region is:</text>
-            <option id="A">Empty</option><option id="B">Infinite</option><option id="C">Origin</option><option id="D">None</option>
+            <option id="A">Empty</option><option id="B">Infinite</option><option id="C">Origin</option>
             <answer>A</answer><explanation>No point satisfies all conditions.</explanation></question>
         <question>
             <text>Feasible region for y &gt;= 2 is:</text>
-            <option id="A">Region above y=2</option><option id="B">Region below y=2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Region above y=2</option><option id="B">Region below y=2</option>
             <answer>A</answer><explanation>Standard inequality graphing.</explanation></question>
         <question>
             <text>The process of formulation of LPP involves identifying:</text>
@@ -155,335 +155,335 @@
             <answer>D</answer><explanation>Steps in mathematical modeling.</explanation></question>
         <question>
             <text>Is Z = xy + 2 linear?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">Depends on x</option><option id="D">None</option>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Depends on x</option>
             <answer>A</answer><explanation>xy is a non-linear term.</explanation></question>
         <question>
             <text>Which of the following is most likely to be an objective function?</text>
-            <option id="A">Z = 3x + 2y</option><option id="B">x + y &lt;= 5</option><option id="C">x &gt;= 0</option><option id="D">None</option>
+            <option id="A">Z = 3x + 2y</option><option id="B">x + y &lt;= 5</option><option id="C">x &gt;= 0</option>
             <answer>A</answer><explanation>Objective function is an expression to be optimized, not an inequality.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Maximize Z = 4x + y subject to x+y &lt;= 50, 3x+y &lt;= 90, x &gt;= 0, y &gt;= 0. Corner points are (0,0), (30,0), (20,30), (0,50). Max value is:</text>
-            <option id="A">120</option><option id="B">110</option><option id="C">100</option><option id="D">None</option>
+            <option id="A">120</option><option id="B">110</option><option id="C">100</option>
             <answer>A</answer><explanation>At (30,0), Z = 120. At (20,30), Z = 80+30=110. At (0,50), Z=50.</explanation></question>
         <question>
             <text>Minimize Z = 200x + 500y subject to x + 2y &gt;= 10, 3x + 4y &lt;= 24, x &gt;= 0, y &gt;= 0. Feasible region exists? Check points:</text>
-            <option id="A">Yes, corner points (4,3), (0,5), (0,6), (8,0)? No, check intersections.</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Yes, corner points (4,3), (0,5), (0,6), (8,0)? No, check intersections.</option>
             <answer>A</answer><explanation>Intersection of x+2y=10 and 3x+4y=24: 2x+4y=20 -&gt; x=4, y=3. Region is bounded by (4,3), (0,5), (0,6), (8,0)? No, check inequalities properly.</explanation></question>
         <question>
             <text>The feasible region for LPP is always a ____ polygon.</text>
-            <option id="A">Convex</option><option id="B">Concave</option><option id="C">Star-shaped</option><option id="D">None</option>
+            <option id="A">Convex</option><option id="B">Concave</option><option id="C">Star-shaped</option>
             <answer>A</answer><explanation>Any two points in region have line segment within region.</explanation></question>
         <question>
             <text>In a LPP, if the objective function Z has same maximum value on two corner points, then it has ____ solutions.</text>
-            <option id="A">Infinite</option><option id="B">Two</option><option id="C">One</option><option id="D">None</option>
+            <option id="A">Infinite</option><option id="B">Two</option><option id="C">One</option>
             <answer>A</answer><explanation>All points on the edge joining those corners are optimal.</explanation></question>
         <question>
             <text>A constraint that does not affect the feasible region is called:</text>
-            <option id="A">Redundant constraint</option><option id="B">Primary constraint</option><option id="C">Active constraint</option><option id="D">None</option>
+            <option id="A">Redundant constraint</option><option id="B">Primary constraint</option><option id="C">Active constraint</option>
             <answer>A</answer><explanation>It is implied by other constraints.</explanation></question>
         <question>
             <text>Feasible region for constraints x+y &lt;= 1, x &gt;= 0, y &gt;= 0 is a:</text>
-            <option id="A">Triangle</option><option id="B">Square</option><option id="C">Line</option><option id="D">None</option>
+            <option id="A">Triangle</option><option id="B">Square</option><option id="C">Line</option>
             <answer>A</answer><explanation>Bounded by (0,0), (1,0), (0,1).</explanation></question>
         <question>
             <text>Objective function Z = 3x + 2y. Corner points: (0,0), (2,0), (0,3), (1,1). Max value of Z is:</text>
-            <option id="A">6</option><option id="B">5</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">6</option><option id="B">5</option>
             <answer>A</answer><explanation>At (2,0) Z=6. At (0,3) Z=6. Multiple optimal solutions.</explanation></question>
         <question>
             <text>If an LPP has objective function Z = 10x + 6y and constraints x + y &lt;= 12, 2x + y &lt;= 20, x, y &gt;= 0. Max Z is:</text>
-            <option id="A">104</option><option id="B">100</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">104</option><option id="B">100</option>
             <answer>A</answer><explanation>Corners: (0,0), (10,0), (8,4), (0,12). Z(10,0)=100, Z(8,4)=80+24=104, Z(0,12)=72.</explanation></question>
         <question>
             <text>The minimum value of Z = 3x + 5y subject to x + 3y &gt;= 3, x + y &gt;= 2, x, y &gt;= 0 is:</text>
-            <option id="A">7</option><option id="B">6</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">7</option><option id="B">6</option>
             <answer>A</answer><explanation>Corners: (0,2), (1.5, 0.5), (3,0). Z(0,2)=10, Z(1.5, 0.5)=4.5+2.5=7, Z(3,0)=9.</explanation></question>
         <question>
             <text>In graphical solution, z-line is: ax + by = k. We move this line in direction of ____ to find max.</text>
-            <option id="A">Increasing k</option><option id="B">Decreasing k</option><option id="C">The origin</option><option id="D">None</option>
+            <option id="A">Increasing k</option><option id="B">Decreasing k</option><option id="C">The origin</option>
             <answer>A</answer><explanation>Higher k means higher value of Z (if a,b &gt; 0).</explanation></question>
         <question>
             <text>Corner points of feasible region for x+y &lt;= 2, x+y &gt;= 1, x, y &gt;= 0 are:</text>
-            <option id="A">(1,0), (2,0), (0,2), (0,1)</option><option id="B">(0,0), (1,1)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(1,0), (2,0), (0,2), (0,1)</option><option id="B">(0,0), (1,1)</option>
             <answer>A</answer><explanation>Vertices of the trapezoidal region.</explanation></question>
         <question>
             <text>Minimize Z = -3x + 4y subject to x + 2y &lt;= 8, 3x + 2y &lt;= 12, x, y &gt;= 0. Corners: (0,0), (4,0), (2,3), (0,4). Min Z is:</text>
-            <option id="A">-12</option><option id="B">0</option><option id="C">6</option><option id="D">None</option>
+            <option id="A">-12</option><option id="B">0</option><option id="C">6</option>
             <answer>A</answer><explanation>Z(4,0) = -12. Other points: Z(0,0)=0, Z(2,3)=-6+12=6, Z(0,4)=16.</explanation></question>
         <question>
             <text>If the constraints of LPP are x+y &lt;= 5, x+y &gt;= 10, region is:</text>
-            <option id="A">Empty</option><option id="B">Bounded</option><option id="C">Unbounded</option><option id="D">None</option>
+            <option id="A">Empty</option><option id="B">Bounded</option><option id="C">Unbounded</option>
             <answer>A</answer><explanation>No x,y can be &lt;= 5 and &gt;= 10 simultaneously.</explanation></question>
         <question>
             <text>Optimal Z = 4x + 2y. Corners: (0,0), (5,0), (3,4), (0,6). Max is ____ at point ____.</text>
-            <option id="A">20, (5,0) and (3,4)</option><option id="B">20, (5,0) only</option><option id="C">20, (3,4) only</option><option id="D">None</option>
+            <option id="A">20, (5,0) and (3,4)</option><option id="B">20, (5,0) only</option><option id="C">20, (3,4) only</option>
             <answer>A</answer><explanation>Z(5,0)=20. Z(3,4)=12+8=20. Multiple solutions.</explanation></question>
         <question>
             <text>A diet problem involves minimizing ____ subject to nutritional ____.</text>
-            <option id="A">Cost, Constraints</option><option id="B">Weight, Calories</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Cost, Constraints</option><option id="B">Weight, Calories</option>
             <answer>A</answer><explanation>Standard formulation goal.</explanation></question>
         <question>
             <text>Iso-profit line is another name for ____ line.</text>
-            <option id="A">Objective function</option><option id="B">Constraint</option><option id="C">Feasible</option><option id="D">None</option>
+            <option id="A">Objective function</option><option id="B">Constraint</option><option id="C">Feasible</option>
             <answer>A</answer><explanation>Represents same profit level across different x,y.</explanation></question>
         <question>
             <text>Feasible region for x &gt;= 0, y &gt;= 0, x &lt;= 3, y &lt;= 3 is a:</text>
-            <option id="A">Square</option><option id="B">Rectangle</option><option id="C">Circle</option><option id="D">None</option>
+            <option id="A">Square</option><option id="B">Rectangle</option><option id="C">Circle</option>
             <answer>A</answer><explanation>Side length 3.</explanation></question>
         <question>
             <text>Maximum of Z = x + y subject to x/2 + y/3 &lt;= 1 is:</text>
-            <option id="A">3</option><option id="B">2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">3</option><option id="B">2</option>
             <answer>A</answer><explanation>Corners (0,0), (2,0), (0,3). Z=3 at (0,3).</explanation></question>
         <question>
             <text>If corner points of feasible region are (0,0), (5,0), (3,4) and (0,5), and Z = 5x + 10y, max is:</text>
-            <option id="A">55</option><option id="B">50</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">55</option><option id="B">50</option>
             <answer>A</answer><explanation>Z(3,4) = 15+40=55. Z(0,5)=50. Z(5,0)=25.</explanation></question>
         <question>
             <text>LPP can have ____ number of optimal solutions if they exist.</text>
-            <option id="A">One or Infinite</option><option id="B">Always One</option><option id="C">Exactly Two</option><option id="D">None</option>
+            <option id="A">One or Infinite</option><option id="B">Always One</option><option id="C">Exactly Two</option>
             <answer>A</answer><explanation>If two points are optimal, all points on the segment are optimal.</explanation></question>
         <question>
             <text>Feasible region of LPP with constraints x+y &lt;= 1, x+y &gt;= 1, x, y &gt;= 0 is:</text>
-            <option id="A">Line segment</option><option id="B">Triangle</option><option id="C">Empty</option><option id="D">None</option>
+            <option id="A">Line segment</option><option id="B">Triangle</option><option id="C">Empty</option>
             <answer>A</answer><explanation>The line segment between (1,0) and (0,1) where x+y=1.</explanation></question>
         <question>
             <text>If objective function is Z = 2x + 3y, for which direction is it easiest to find max?</text>
-            <option id="A">Away from origin</option><option id="B">Towards origin</option><option id="C">Circularly</option><option id="D">None</option>
+            <option id="A">Away from origin</option><option id="B">Towards origin</option><option id="C">Circularly</option>
             <answer>A</answer><explanation>Higher x,y usually mean higher Z for positive coefficients.</explanation></question>
         <question>
             <text>Point that minimizes Z = 3x + 2y for corners (0,0), (5,0), (0,5) is:</text>
-            <option id="A">(0,0)</option><option id="B">(5,0)</option><option id="C">(0,5)</option><option id="D">None</option>
+            <option id="A">(0,0)</option><option id="B">(5,0)</option><option id="C">(0,5)</option>
             <answer>A</answer><explanation>Z(0,0)=0 is the minimum.</explanation></question>
         <question>
             <text>Can the optimum value of LPP be negative?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">Only if x is negative</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Only if x is negative</option>
             <answer>A</answer><explanation>Coefficients in Z can be negative.</explanation></question>
         <question>
             <text>Number of constraints in x + y &lt;= 1, x &gt;= 0, y &gt;= 0 is:</text>
-            <option id="A">3</option><option id="B">1</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">3</option><option id="B">1</option><option id="C">2</option>
             <answer>A</answer><explanation>Non-negativity conditions count as constraints too.</explanation></question>
         <question>
             <text>Feasible region for x &lt;= y, x &gt;= 0, y &lt;= 2 is a triangle with vertices:</text>
-            <option id="A">(0,0), (0,2), (2,2)</option><option id="B">(0,0), (2,0), (2,2)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(0,0), (0,2), (2,2)</option><option id="B">(0,0), (2,0), (2,2)</option>
             <answer>A</answer><explanation>Region bounded by x=0, y=2 and x=y.</explanation></question>
         <question>
             <text>Objective function Z = 3x - 4y. Corner points: (0,0), (5,0), (6,2), (0,8). Point giving MINIMUM is:</text>
-            <option id="A">(0,8)</option><option id="B">(0,0)</option><option id="C">(6,2)</option><option id="D">None</option>
+            <option id="A">(0,8)</option><option id="B">(0,0)</option><option id="C">(6,2)</option>
             <answer>A</answer><explanation>Z(0,8) = -32. Z(0,0)=0, Z(5,0)=15, Z(6,2)=18-8=10.</explanation></question>
         <question>
             <text>Constraints x &gt;= 0, y &gt;= 0 are constraints of ____ quadrant.</text>
-            <option id="A">First</option><option id="B">Third</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">First</option><option id="B">Third</option>
             <answer>A</answer><explanation>Standard requirement.</explanation></question>
         <question>
             <text>Slope of Z = ax + by is:</text>
-            <option id="A">-a/b</option><option id="B">a/b</option><option id="C">b/a</option><option id="D">None</option>
+            <option id="A">-a/b</option><option id="B">a/b</option><option id="C">b/a</option>
             <answer>A</answer><explanation>y = (-a/b)x + Z/b.</explanation></question>
         <question>
             <text>A line 2x+3y=6 divides the plane into ____ half planes.</text>
-            <option id="A">Two</option><option id="B">One</option><option id="C">Four</option><option id="D">None</option>
+            <option id="A">Two</option><option id="B">One</option><option id="C">Four</option>
             <answer>A</answer><explanation>Open or closed half planes.</explanation></question>
         <question>
             <text>Corner points are determined by solving pairs of ____ equations.</text>
-            <option id="A">Constraint boundary</option><option id="B">Quadratic</option><option id="C">Objective</option><option id="D">None</option>
+            <option id="A">Constraint boundary</option><option id="B">Quadratic</option><option id="C">Objective</option>
             <answer>A</answer><explanation>Intersection of boundary lines.</explanation></question>
         <question>
             <text>Is (2,2) in the region x+y &lt;= 5, 2x+y &gt;= 10?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>2(2)+2 = 6, not &gt;= 10.</explanation></question>
         <question>
             <text>For Z = 2x+5y, if corners are (0,0), (10,0), (0,10), (8,8). Which point is ignored if maximizing?</text>
-            <option id="A">(0,0)</option><option id="B">(10,0)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(0,0)</option><option id="B">(10,0)</option>
             <answer>A</answer><explanation>(0,0) gives 0, usually discarded for max of positive functions.</explanation></question>
         <question>
             <text>Transportation problem usually has ____ of variables.</text>
-            <option id="A">Large number</option><option id="B">Only two</option><option id="C">Zero</option><option id="D">None</option>
+            <option id="A">Large number</option><option id="B">Only two</option><option id="C">Zero</option>
             <answer>A</answer><explanation>Multiple sources and destinations.</explanation></question>
         <question>
             <text>If Z = 3x - 2y, what is Z at (4,6)?</text>
-            <option id="A">0</option><option id="B">12</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">0</option><option id="B">12</option>
             <answer>A</answer><explanation>3(4) - 2(6) = 12 - 12 = 0.</explanation></question>
         <question>
             <text>Region x &gt;= 0, y &gt;= 0, x+y &lt;= 0 is:</text>
-            <option id="A">Point (0,0)</option><option id="B">Full first quadrant</option><option id="C">Empty</option><option id="D">None</option>
+            <option id="A">Point (0,0)</option><option id="B">Full first quadrant</option><option id="C">Empty</option>
             <answer>A</answer><explanation>Sum of two non-negatives is 0 only if both are 0.</explanation></question>
         <question>
             <text>Graph of x+y = 5 is a ____.</text>
-            <option id="A">Straight line</option><option id="B">Point</option><option id="C">Circle</option><option id="D">None</option>
+            <option id="A">Straight line</option><option id="B">Point</option><option id="C">Circle</option>
             <answer>A</answer><explanation>Linear equation in two variables.</explanation></question>
         <question>
             <text>Shadow price is a term sometimes used in ____ Analysis of LPP.</text>
-            <option id="A">Sensitivity</option><option id="B">Basic</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Sensitivity</option><option id="B">Basic</option>
             <answer>A</answer><explanation>Advanced LPP concept.</explanation></question>
         <question>
             <text>Objective function Z = 3x + 4y. Max value in region x^2+y^2 &lt;= 1? (Not an LPP, but check logic):</text>
-            <option id="A">5</option><option id="B">7</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">5</option><option id="B">7</option>
             <answer>A</answer><explanation>Max of ax+by on unit circle is sqrt(a^2+b^2) = 5.</explanation></question>
         <question>
             <text>Corner point (0,0) is always feasible for LPP with Ax + By &lt;= C (C &gt;= 0). TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>Substituting 0,0 gives 0 &lt;= C.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>If the feasible region is unbounded and the objective function is to be maximized, Z = ax + by, a maximum value exists if:</text>
-            <option id="A">The open half-plane ax + by &gt; M has no point in common with feasible region</option><option id="B">Always</option><option id="C">Never</option><option id="D">None</option>
+            <option id="A">The open half-plane ax + by &gt; M has no point in common with feasible region</option><option id="B">Always</option><option id="C">Never</option>
             <answer>A</answer><explanation>Condition for max to exist in an unbounded region.</explanation></question>
         <question>
             <text>If an LPP has constraints x + y &gt;= 10, 2x + 3y &lt;= 12, x,y &gt;= 0, the feasible region is:</text>
-            <option id="A">Empty</option><option id="B">Infinity</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Empty</option><option id="B">Infinity</option>
             <answer>A</answer><explanation>Maximum possible x+y for 2x+3y=12 is 6 (at x=6, y=0), which is &lt; 10.</explanation></question>
         <question>
             <text>Maximize Z = 3x + 2y subject to x + y &gt;= 1, x &lt;= 2, y &lt;= 2, x,y &gt;= 0. Corners are (1,0), (2,0), (2,2), (0,2), (0,1). Max is:</text>
-            <option id="A">10</option><option id="B">7</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">10</option><option id="B">7</option>
             <answer>A</answer><explanation>At (2,2), Z = 3(2) + 2(2) = 10.</explanation></question>
         <question>
             <text>In an LPP, if the objective function line is parallel to one of the constraint lines that forms part of the feasible region, then:</text>
-            <option id="A">Infinite many optimal solutions exist</option><option id="B">No solution exists</option><option id="C">Only one solution</option><option id="D">None</option>
+            <option id="A">Infinite many optimal solutions exist</option><option id="B">No solution exists</option><option id="C">Only one solution</option>
             <answer>A</answer><explanation>Slope of Z matches slope of a boundary edge.</explanation></question>
         <question>
             <text>Maximize Z = x + y subject to x + y &lt;= 1, x, y &gt;= 0. Every point on line segment x + y = 1 (x,y &gt;= 0) is:</text>
-            <option id="A">Optimal solution</option><option id="B">Corner point</option><option id="C">Infeasible</option><option id="D">None</option>
+            <option id="A">Optimal solution</option><option id="B">Corner point</option><option id="C">Infeasible</option>
             <answer>A</answer><explanation>Objective function coincides with the constraint boundary.</explanation></question>
         <question>
             <text>For Z = 2x + 4y, if the feasible region is the line x + 2y = 4 (0 &lt;= x &lt;= 4). How many solutions maximize Z?</text>
-            <option id="A">Infinite</option><option id="B">Two</option><option id="C">One</option><option id="D">None</option>
+            <option id="A">Infinite</option><option id="B">Two</option><option id="C">One</option>
             <answer>A</answer><explanation>Z is proportional to 2(x+2y) which is constant 8 on the entire segment.</explanation></question>
         <question>
             <text>If we minimize Z = 4x + 6y subject to 2x + 3y &gt;= 6, x + y &lt;= 4, x,y &gt;= 0. Minimum value 12 occurs at:</text>
-            <option id="A">Any point on line 2x + 3y = 6 between (0,2) and (3,0)</option><option id="B">Only (0,2)</option><option id="C">Only (3,0)</option><option id="D">None</option>
+            <option id="A">Any point on line 2x + 3y = 6 between (0,2) and (3,0)</option><option id="B">Only (0,2)</option><option id="C">Only (3,0)</option>
             <answer>A</answer><explanation>Z = 2(2x + 3y). On the line, Z = 2(6) = 12.</explanation></question>
         <question>
             <text>In LPP, can the feasible region be a single point?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">Only if all coefficients are zero</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Only if all coefficients are zero</option>
             <answer>A</answer><explanation>Eg. x+y &lt;= 0, x,y &gt;= 0.</explanation></question>
         <question>
             <text>Feasible region for LPP with constraints x &gt;= 3, y &gt;= 2, x + y &lt;= 5 is:</text>
-            <option id="A">None (single point 3,2? No, 3+2=5, so it is just the point (3,2))</option><option id="B">Triangle</option><option id="C">Infinite</option><option id="D">None</option>
+            <option id="A">None (single point 3,2? No, 3+2=5, so it is just the point (3,2))</option><option id="B">Triangle</option><option id="C">Infinite</option>
             <answer>A</answer><explanation>Only (3,2) satisfies all three. x&gt;=3, y&gt;=2 -&gt; x+y&gt;=5. Given x+y&lt;=5, so x+y=5. Forces x=3, y=2.</explanation></question>
         <question>
             <text>The set of all feasible solutions to an LPP is a convex set. TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>Mathematical property of linear intersections.</explanation></question>
         <question>
             <text>If an LPP has an optimal solution, it must be located at ____ corner points.</text>
-            <option id="A">One or more</option><option id="B">Exactly two</option><option id="C">All</option><option id="D">None</option>
+            <option id="A">One or more</option><option id="B">Exactly two</option><option id="C">All</option>
             <answer>A</answer><explanation>Fundamental theorem result.</explanation></question>
         <question>
             <text>If a constraint is 0x + 0y &lt;= 1, it is ____.</text>
-            <option id="A">Redundant (always true)</option><option id="B">Inconsistent</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Redundant (always true)</option><option id="B">Inconsistent</option>
             <answer>A</answer><explanation>Does not restrict x or y.</explanation></question>
         <question>
             <text>Is Z = 3|x| + 2y a linear objective function?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">Depends on y</option><option id="D">None</option>
+            <option id="A">No</option><option id="B">Yes</option><option id="C">Depends on y</option>
             <answer>A</answer><explanation>Absolute value is non-linear.</explanation></question>
         <question>
             <text>Max value of Z = x - y subject to x &lt;= 2, y &gt;= 1, x,y &gt;= 0 is:</text>
-            <option id="A">1</option><option id="B">2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1</option><option id="B">2</option>
             <answer>A</answer><explanation>x can be at most 2, y at least 1. x-y max when x max and y min -&gt; 2-1 = 1.</explanation></question>
         <question>
             <text>Feasible region for x+y &gt;= 1, x+y &lt;= -1, x,y &gt;= 0 is:</text>
-            <option id="A">Empty</option><option id="B">Infinite</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Empty</option><option id="B">Infinite</option>
             <answer>A</answer><explanation>x+y cannot be negative for positive x,y.</explanation></question>
         <question>
             <text>Can we maximize Z = x + y on the region x &gt;= 0, y &gt;= 0?</text>
-            <option id="A">No, unbounded above</option><option id="B">Yes, max is 0</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">No, unbounded above</option><option id="B">Yes, max is 0</option>
             <answer>A</answer><explanation>Z increases indefinitely.</explanation></question>
         <question>
             <text>Optimal point (x,y) must have ____ coordinates.</text>
-            <option id="A">Actually can be non-integers in standard LPP</option><option id="B">Only integers</option><option id="C">Only primary numbers</option><option id="D">None</option>
+            <option id="A">Actually can be non-integers in standard LPP</option><option id="B">Only integers</option><option id="C">Only primary numbers</option>
             <answer>A</answer><explanation>Integer LPP is a different sub-field.</explanation></question>
         <question>
             <text>If we have 10 constraints, the feasible region can have at most ____ vertices?</text>
-            <option id="A">Combinations of 10 taken 2 (45)? No, bounded by geometry.</option><option id="B">Infinite</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Combinations of 10 taken 2 (45)? No, bounded by geometry.</option><option id="B">Infinite</option>
             <answer>A</answer><explanation>10C2 is upper bound for intersection of lines in 2D.</explanation></question>
         <question>
             <text>Maximize Z = 3x + 4y subject to x+2y &lt;= 2, 2x+y &lt;= 2. Corners: (0,0), (1,0), (2/3, 2/3), (0,1). Max Z is:</text>
-            <option id="A">14/3</option><option id="B">4</option><option id="C">3</option><option id="D">None</option>
+            <option id="A">14/3</option><option id="B">4</option><option id="C">3</option>
             <answer>A</answer><explanation>At (2/3, 2/3), Z = 3(2/3) + 4(2/3) = 2 + 8/3 = 14/3 = 4.66. Compare with Z(0,1)=4 and Z(1,0)=3.</explanation></question>
         <question>
             <text>Minimum of Z = 5x + 2y subject to 2x + y &gt;= 10, x + 3y &gt;= 15. Corners: (0,10), (3,4), (15,0). Min Z is:</text>
-            <option id="A">23</option><option id="B">20</option><option id="C">30</option><option id="D">None</option>
+            <option id="A">23</option><option id="B">20</option><option id="C">30</option>
             <answer>A</answer><explanation>Z(0,10)=20. Z(3,4)=15+8=23. Z(15,0)=75. Wait. Min is Z(0,10)=20.</explanation></question>
         <question>
             <text>If an LPP has an unbounded feasible region, the objective function ____ a minimum value.</text>
-            <option id="A">Might still have</option><option id="B">Never has</option><option id="C">Always has</option><option id="D">None</option>
+            <option id="A">Might still have</option><option id="B">Never has</option><option id="C">Always has</option>
             <answer>A</answer><explanation>For min Z = x+y on x+y&gt;=1, Z_min = 1 even though region is infinite.</explanation></question>
         <question>
             <text>Any linear function Z = ax + by is both convex and concave. TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>Property of linear maps.</explanation></question>
         <question>
             <text>Corner point (x,y) of feasible region is a point that does not lie on any line segment joining two ____ points of the region.</text>
-            <option id="A">Other</option><option id="B">Same</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Other</option><option id="B">Same</option>
             <answer>A</answer><explanation>Definition of an extreme point.</explanation></question>
         <question>
             <text>If we scale objective function Z by 2, do the optimal coordinate (x,y) change?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Optima occurs at same points, value just doubles.</explanation></question>
         <question>
             <text>Which method is generally used for LPP with more than 2 variables?</text>
-            <option id="A">Simplex Method</option><option id="B">Graphical Method</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Simplex Method</option><option id="B">Graphical Method</option>
             <answer>A</answer><explanation>Algorithmic approach for higher dimensions.</explanation></question>
         <question>
             <text>Is Z = 5 min(x,y) a linear objective function?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>min() function introduces non-linearity (change in slope).</explanation></question>
         <question>
             <text>Feasible region of x-y &lt;= 0, x+y &lt;= 2, x,y &gt;= 0 is a triangle with vertices:</text>
-            <option id="A">(0,0), (1,1), (0,2)</option><option id="B">(0,0), (1,1), (2,0)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(0,0), (1,1), (0,2)</option><option id="B">(0,0), (1,1), (2,0)</option>
             <answer>A</answer><explanation>Bounded by y=x, x+y=2, x=0.</explanation></question>
         <question>
             <text>The line Z = 10 is an iso-profit line for Z = 2x+2y. Does (2,3) lie on it?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>2(2) + 2(3) = 4 + 6 = 10.</explanation></question>
         <question>
             <text>Corner points of x+y &lt;= 5, 2x+y &lt;= 8, x,y &gt;= 0 are (0,0), (4,0), (3,2), (0,5). True/False?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>Intersection of x+y=5 and 2x+y=8: x=3, y=2. Lines x=0, y=0, etc.</explanation></question>
         <question>
             <text>LPP can have ____ optimal solution if feasible region is just a line segment.</text>
-            <option id="A">Infinite or One</option><option id="B">Always Infinite</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Infinite or One</option><option id="B">Always Infinite</option>
             <answer>A</answer><explanation>Standard LPP rule applies.</explanation></question>
         <question>
             <text>Feasible region for y = 0, x &lt;= 1, x &gt;= 0 is:</text>
-            <option id="A">Segment [0,1] on x-axis</option><option id="B">Region below y=0</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Segment [0,1] on x-axis</option><option id="B">Region below y=0</option>
             <answer>A</answer><explanation>y is fixed at 0.</explanation></question>
         <question>
             <text>If Z = x - y, for which point do we get max in unit square (0&lt;=x,y&lt;=1)?</text>
-            <option id="A">(1,0)</option><option id="B">(0,1)</option><option id="C">(1,1)</option><option id="D">None</option>
+            <option id="A">(1,0)</option><option id="B">(0,1)</option><option id="C">(1,1)</option>
             <answer>A</answer><explanation>x=1, y=0 gives Z=1. Other points give &lt;= 0.</explanation></question>
         <question>
             <text>If we add a constant C to Z = ax + by + C, does it change the optimal (x,y)?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Relative values between feasible points remain same.</explanation></question>
         <question>
             <text>Feasible region of x+y &lt;= 5, x &gt;= 6 is empty. TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>6+0 = 6 &gt; 5. No y &gt;= 0 will satisfy x+y &lt;= 5 for x &gt;= 6.</explanation></question>
         <question>
             <text>Which of these is NOT a linear constraint?</text>
-            <option id="A">x*y &lt;= 4</option><option id="B">x + y &lt;= 4</option><option id="C">x &lt;= 4</option><option id="D">None</option>
+            <option id="A">x*y &lt;= 4</option><option id="B">x + y &lt;= 4</option><option id="C">x &lt;= 4</option>
             <answer>A</answer><explanation>x*y depends on product.</explanation></question>
         <question>
             <text>Minimize Z = x + y subject to x+y &gt;= 10, x &lt;= 12, y &lt;= 12, x,y &gt;= 0. Min is:</text>
-            <option id="A">10</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">10</option><option id="B">0</option>
             <answer>A</answer><explanation>Min possible sum is 10, achieved at points like (5,5), (10,0), etc.</explanation></question>
         <question>
             <text>If an LPP has an optimal solution at (2,3) and (4,5), it is also optimal at (3,4). TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>(3,4) is the midpoint of the segment joining them.</explanation></question>
         <question>
             <text>Is it possible to have a circular feasible region in LPP?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>LPP requires linear constraints (polygonal regions).</explanation></question>
         <question>
             <text>Shadow price measures the ____ in Z for a unit ____ in a constraint limit.</text>
-            <option id="A">Change, Change</option><option id="B">Ratio, Product</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Change, Change</option><option id="B">Ratio, Product</option>
             <answer>A</answer><explanation>Rate of change of objective with respect to resource capacity.</explanation></question>
         <question>
             <text>Final check: LPP theory was significantly developed by ____.</text>
-            <option id="A">Dantzig</option><option id="B">Newton</option><option id="C">Gauss</option><option id="D">None</option>
+            <option id="A">Dantzig</option><option id="B">Newton</option><option id="C">Gauss</option>
             <answer>A</answer><explanation>George Dantzig invented Simplex Method.</explanation></question>
     </hard>
 </chapter>

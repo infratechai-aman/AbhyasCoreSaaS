@@ -47,7 +47,7 @@
             <answer>A</answer><explanation>Geometric Mean.</explanation></question>
         <question>
             <text>Relation between AM and GM (AM &gt; GM):</text>
-            <option id="A">AM &gt;= GM</option><option id="B">AM &lt;= GM</option><option id="C">AM = GM always</option><option id="D">None</option>
+            <option id="A">AM &gt;= GM</option><option id="B">AM &lt;= GM</option><option id="C">AM = GM always</option>
             <answer>A</answer><explanation>Standard inequality.</explanation></question>
         <question>
             <text>Sum of squares of first n natural numbers:</text>
@@ -107,7 +107,7 @@
             <answer>A</answer><explanation>Geometric series sum.</explanation></question>
         <question>
             <text>Is 0, 0, 0... an AP?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">GP</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">GP</option>
             <answer>A</answer><explanation>d=0.</explanation></question>
         <question>
             <text>If sum of 3 numbers in AP is 15, middle number is:</text>
@@ -147,11 +147,11 @@
             <answer>A</answer><explanation>Harmonic Progression.</explanation></question>
         <question>
             <text>Reciprocal of terms in GP form:</text>
-            <option id="A">GP</option><option id="B">HP</option><option id="C">AP</option><option id="D">None</option>
+            <option id="A">GP</option><option id="B">HP</option><option id="C">AP</option>
             <answer>A</answer><explanation>1/r common ratio.</explanation></question>
         <question>
             <text>If a, b, c in AP, b-a = ?</text>
-            <option id="A">c-b</option><option id="B">c-a</option><option id="C">a-c</option><option id="D">b</option>
+            <option id="A">c-b</option><option id="B">c-a</option><option id="C">a-c</option>
             <answer>A</answer><explanation>Common difference.</explanation></question>
         <question>
             <text>Find x if x+2, 2x, 2x+3 are in AP:</text>
@@ -185,11 +185,11 @@
             <answer>A</answer><explanation>Standard property.</explanation></question>
         <question>
             <text>Insert 3 GM between 1 and 256:</text>
-            <option id="A">4, 16, 64</option><option id="B">2, 32, 128</option><option id="C">8, 64, 128</option><option id="D">None</option>
+            <option id="A">4, 16, 64</option><option id="B">2, 32, 128</option><option id="C">8, 64, 128</option>
             <answer>A</answer><explanation>r^4 = 256. r=4.</explanation></question>
         <question>
             <text>Sum of series 5 + 55 + 555 + ... n terms:</text>
-            <option id="A">5/9 [10(10^n - 1)/9 - n]</option><option id="B">5/9 [10(10^n - 1)/9 + n]</option><option id="C">5/81 [10^n - 1 - 9n]</option><option id="D">None</option>
+            <option id="A">5/9 [10(10^n - 1)/9 - n]</option><option id="B">5/9 [10(10^n - 1)/9 + n]</option><option id="C">5/81 [10^n - 1 - 9n]</option>
             <answer>A</answer><explanation>Standard pattern.</explanation></question>
         <question>
             <text>The sum of first p, q, r terms of AP are a, b, c. Then sum a/p(q-r) + ... is:</text>
@@ -197,7 +197,7 @@
             <answer>A</answer><explanation>Standard cyclic identity.</explanation></question>
         <question>
             <text>Sum of 0.6 + 0.66 + 0.666 ... n terms:</text>
-            <option id="A">6/9 [n - (1 - 0.1^n)/9]</option><option id="B">2/3 [n - (1 - 0.1^n)/9]</option><option id="C">Correct form</option><option id="D">None</option>
+            <option id="A">6/9 [n - (1 - 0.1^n)/9]</option><option id="B">2/3 [n - (1 - 0.1^n)/9]</option><option id="C">Correct form</option>
             <answer>B</answer><explanation>Simplifies to B.</explanation></question>
         <question>
             <text>If 9 times 9th term of AP = 13 times 13th term, then 22nd term is:</text>
@@ -233,7 +233,7 @@
             <answer>A</answer><explanation>Will use: Sum of 1/2 + 1/4 + ... = 1.</explanation></question>
         <question>
             <text>Sum of squares of first n odd numbers:</text>
-            <option id="A">n(4n^2 - 1)/3</option><option id="B">4n^3/3</option><option id="C">n(2n+1)/3</option><option id="D">None</option>
+            <option id="A">n(4n^2 - 1)/3</option><option id="B">4n^3/3</option><option id="C">n(2n+1)/3</option>
             <answer>A</answer><explanation>Formula.</explanation></question>
         <question>
             <text>If a, b, c are in HP, then 1/a, 1/b, 1/c are in:</text>
@@ -241,7 +241,7 @@
             <answer>A</answer><explanation>Def.</explanation></question>
         <question>
             <text>Insert two numbers between 3 and 81 so sequence is GP:</text>
-            <option id="A">9, 27</option><option id="B">6, 12</option><option id="C">12, 36</option><option id="D">None</option>
+            <option id="A">9, 27</option><option id="B">6, 12</option><option id="C">12, 36</option>
             <answer>A</answer><explanation>r^3 = 27 -&gt; r=3.</explanation></question>
         <question>
             <text>Sequence 1, 2, 2, 3, 3, 3... 100th term?</text>
@@ -249,7 +249,7 @@
             <answer>A</answer><explanation>k(k+1)/2 &gt;= 100. 14*15/2=105. Term is 14.</explanation></question>
         <question>
             <text>The sum of n terms of two APs are in ratio (3n+8):(7n+15). Ratio of 12th terms?</text>
-            <option id="A">7:16</option><option id="B">3:7</option><option id="C">12:15</option><option id="D">None</option>
+            <option id="A">7:16</option><option id="B">3:7</option><option id="C">12:15</option>
             <answer>A</answer><explanation>Replace n with 2n-1 = 23. (69+8)/(161+15) = 77/176 = 7/16.</explanation></question>
         <question>
             <text>Value of 2^(1/4) * 4^(1/8) * 8^(1/16) ... infinity:</text>
@@ -257,11 +257,11 @@
             <answer>A</answer><explanation>Power: 1/4 + 2/8 + 3/16 ... AGP. Sum is 1. 2^1 = 2.</explanation></question>
         <question>
             <text>Sum of 1*2 + 2*3 + ... n(n+1):</text>
-            <option id="A">n(n+1)(n+2)/3</option><option id="B">n(n+1)/2</option><option id="C">n(n+1)(2n+1)/6</option><option id="D">None</option>
+            <option id="A">n(n+1)(n+2)/3</option><option id="B">n(n+1)/2</option><option id="C">n(n+1)(2n+1)/6</option>
             <answer>A</answer><explanation>Sum n^2+n.</explanation></question>
         <question>
             <text>If AM of two numbers is A and G1, G2 are two GM's, then G1^2/G2 + G2^2/G1 = ?</text>
-            <option id="A">2A</option><option id="B">A</option><option id="C">G1G2</option><option id="D">A/2</option>
+            <option id="A">2A</option><option id="C">G1G2</option><option id="D">A/2</option>
             <answer>A</answer><explanation>Properties.</explanation></question>
         <question>
             <text>Sum of n terms of 1/(1*2) + 1/(2*3) ...</text>
@@ -293,7 +293,7 @@
             <answer>A</answer><explanation>101..199. 50 terms. Mean 150. 150*50 = 7500.</explanation></question>
         <question>
             <text>If a, b, c, d are in GP, then a+b, b+c, c+d are in:</text>
-            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option><option id="D">None</option>
+            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option>
             <answer>A</answer><explanation>Property.</explanation></question>
         <question>
             <text>Given S_n = 3n^2 + 5n. n-th term T_n is:</text>
@@ -313,7 +313,7 @@
             <answer>A</answer><explanation>(1-2)(1+2) + ... -1(3) + -1(7).. -Sum(odd)? Better: (1-4) + (9-16) = -3 -7 -11 -15 -19. AP sum -3..-19. 5 terms. 5/2(-22) = -55.</explanation></question>
         <question>
             <text>If log a, log b, log c are in AP, then a, b, c are in:</text>
-            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option><option id="D">None</option>
+            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option>
             <answer>A</answer><explanation>log b - log a = log c - log b -&gt; b/a = c/b.</explanation></question>
         <question>
             <text>Sum of infinity 1/3 + 1/3^2 + 1/3^3...</text>
@@ -321,7 +321,7 @@
             <answer>A</answer><explanation>(1/3) / (2/3) = 1/2.</explanation></question>
         <question>
             <text>Find n if n! term questions... n+(n-1) series -&gt; n(n+1)/2.</text>
-            <option id="A">Standard AP</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Standard AP</option>
             <answer>A</answer><explanation>Filler.</explanation></question>
     </medium>
     <hard>
@@ -343,7 +343,7 @@
             <answer>A</answer><explanation>Formula.</explanation></question>
         <question>
             <text>Sum of series (1) + (1+2) + (1+2+3) + ... n terms:</text>
-            <option id="A">n(n+1)(n+2)/6</option><option id="B">n(n+1)/2</option><option id="C">n(n+1)(2n+1)/6</option><option id="D">None</option>
+            <option id="A">n(n+1)(n+2)/6</option><option id="B">n(n+1)/2</option><option id="C">n(n+1)(2n+1)/6</option>
             <answer>A</answer><explanation>Sigma Sigma k.</explanation></question>
         <question>
             <text>If Hn is harmonic mean of n numbers, and numbers are 1, 1/2, ... ?</text>
@@ -375,7 +375,7 @@
             <answer>A</answer><explanation>32^(1 + 1/6 + ...). sum=1/(5/6) = 6/5. 32^(6/5) = 2^6 = 64.</explanation></question>
         <question>
             <text>If a, b, c in AP; a, b, d in GP. Then a, a-b, d-c are in:</text>
-            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option><option id="D">None</option>
+            <option id="A">GP</option><option id="B">AP</option><option id="C">HP</option>
             <answer>A</answer><explanation>Verify with a=2, b=4, c=6. d=8. 2, -2, 2. GP r=-1.</explanation></question>
         <question>
             <text>Sum of series (1^3 + 2^3 + ... n^3) / n(n+1)^2 ?</text>
@@ -395,7 +395,7 @@
             <answer>A</answer><explanation>Special AGP sum.</explanation></question>
         <question>
             <text>Ratio of sums of odd terms to even terms in (x+a)^n:</text>
-            <option id="A">Depends</option><option id="B">1</option><option id="C">x/a?</option><option id="D">None</option>
+            <option id="A">Depends</option><option id="B">1</option><option id="C">x/a?</option>
             <answer>A</answer><explanation>Ambiguous.</explanation></question>
         <question>
             <text>If sides of triangle in AP, angles in AP? (Sometimes). If angles in AP, one angle is:</text>
@@ -407,7 +407,7 @@
             <answer>A</answer><explanation>AM GM.</explanation></question>
         <question>
             <text>Sum of 1 + 3x + 6x^2 + 10x^3 ... to infinity:</text>
-            <option id="A">(1-x)^-3</option><option id="B">(1-x)^-2</option><option id="C">(1+x)^-3</option><option id="D">None</option>
+            <option id="A">(1-x)^-3</option><option id="B">(1-x)^-2</option><option id="C">(1+x)^-3</option>
             <answer>A</answer><explanation>Binomial.</explanation></question>
         <question>
             <text>If p, q, r in GP and x, y in AM of (p,q) and (q,r), then 1/x + 1/y = ?</text>
@@ -463,7 +463,7 @@
             <answer>A</answer><explanation>Increasing sequence.</explanation></question>
         <question>
             <text>Sum of 1 + 2x + 3x^2 + 4x^3 ... is:</text>
-            <option id="A">(1-x)^-2</option><option id="B">(1-x)^-1</option><option id="C">1/(1+x)^2</option><option id="D">None</option>
+            <option id="A">(1-x)^-2</option><option id="B">(1-x)^-1</option><option id="C">1/(1+x)^2</option>
             <answer>A</answer><explanation>Binomial.</explanation></question>
         <question>
             <text>Sum to infinity of (1/3)^2 + (1/3)^4 ...</text>
@@ -471,7 +471,7 @@
             <answer>A</answer><explanation>a=1/9, r=1/9. (1/9)/(8/9) = 1/8.</explanation></question>
         <question>
             <text>If a, b, c in AP, a^3+c^3 - 8b^3 ?</text>
-            <option id="A">Depends. a+c=2b. (2b)^3 - 8b^3 = 0? No a^3+c^3 is not (a+c)^3. a+c=2b. (2b-3abc)? No. 2b(4b^2-3ac)? </option><option id="B">Expression -6abc</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">Depends. a+c=2b. (2b)^3 - 8b^3 = 0? No a^3+c^3 is not (a+c)^3. a+c=2b. (2b-3abc)? No. 2b(4b^2-3ac)? </option><option id="B">Expression -6abc</option><option id="C">0</option>
             <answer>B</answer><explanation>Skip.</explanation></question>
         <question>
             <text>In GP t3=2, t6=-1/4. t10=?</text>

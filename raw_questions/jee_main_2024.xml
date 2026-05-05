@@ -5,8 +5,7 @@
       <text>Formula for Carnallite ore: ____.</text>
       <option id="A">KCl.MgCl2.6H2O</option>
       <option id="B">Na2CO3</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Source of Magnesium and Potassium.</explanation>
     </question>
@@ -14,8 +13,7 @@
       <text>Superposition principle is valid in ____ physics.</text>
       <option id="A">Linear systems (both quantum and classical waves)</option>
       <option id="B">Only high energy</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Fundamental wave property.</explanation>
     </question>
@@ -23,8 +21,7 @@
       <text>Dielectric constant of water is approx ____.</text>
       <option id="A">81</option>
       <option id="B">1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>High due to polar nature.</explanation>
     </question>
@@ -32,8 +29,7 @@
       <text>A function f: A-&gt;B is surjective if Range = ____.</text>
       <option id="A">Codomain B</option>
       <option id="B">Domain A</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Onto function.</explanation>
     </question>
@@ -42,7 +38,7 @@
       <option id="A">f(x) + g(x)</option>
       <option id="B">f(x)g(x)</option>
       <option id="C">f(g(x))</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Pointwise addition.</explanation>
     </question>
@@ -50,8 +46,7 @@
       <text>Disproportionation of Cl2 in hot concentrated NaOH gives ____ and ____.</text>
       <option id="A">Cl- , ClO3- (Chlorate)</option>
       <option id="B">Cl-, ClO-</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Further oxidation occurs at high T.</explanation>
     </question>
@@ -59,8 +54,7 @@
       <text>Spherical aberration is minimized by using ____.</text>
       <option id="A">Parabolic mirrors</option>
       <option id="B">Thick lenses</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Eliminates separate focal points for marginal rays.</explanation>
     </question>
@@ -68,8 +62,7 @@
       <text>Organic pollutants in water can be estimated by ____ test.</text>
       <option id="A">BOD or COD</option>
       <option id="B">Lassaigne's</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Oxygen consumption metrics.</explanation>
     </question>
@@ -78,7 +71,7 @@
       <option id="A">Does not exist (LHD=-1, RHD=1)</option>
       <option id="B">0</option>
       <option id="C">1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>f(x) = -x for x&lt;0, x for x&gt;0. Standard |x| behavior.</explanation>
     </question>
@@ -86,7 +79,7 @@
       <text>A satellite appears stationary from Earth. Its sense of rotation is ____.</text>
       <option id="A">West to East</option>
       <option id="B">East to West</option>
-      <option id="C">phi</option>
+      
       <option id="D">Polar</option>
       <answer>A</answer>
       <explanation>Must orbit in the SAME direction as Earth spins.</explanation>
@@ -95,8 +88,7 @@
       <text>Nitrogen molecule (N2) contains a ____ bond.</text>
       <option id="A">Triple</option>
       <option id="B">Double</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>One sigma, two pi.</explanation>
     </question>
@@ -104,8 +96,7 @@
       <text>Volume strength of H2O2: 10 volume H2O2 means 1 L of it gives ____ L of O2 at STP.</text>
       <option id="A">10</option>
       <option id="B">22.4</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standard way to express concentration.</explanation>
     </question>
@@ -113,8 +104,7 @@
       <text>Composition of 'London Smog' (Classical)? ____.</text>
       <option id="A">SO2 + Particulates + Humid air</option>
       <option id="B">NOx + O3</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Coal burning based pollution.</explanation>
     </question>
@@ -123,7 +113,7 @@
       <option id="A">-3/2</option>
       <option id="B">0</option>
       <option id="C">1/2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>|a+b+c|^2 = |a|^2 + |b|^2 + |c|^2 + 2(ab+bc+ca) = 0 -&gt; 3 + 2S = 0 -&gt; S = -3/2.</explanation>
     </question>
@@ -132,7 +122,7 @@
       <option id="A">Positive</option>
       <option id="B">Negative</option>
       <option id="C">Zero</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Because ΔS is negative for 2M + O2 -&gt; 2MO.</explanation>
     </question>
@@ -140,8 +130,7 @@
       <text>A Light Emitting Diode (LED) operates in ____ bias.</text>
       <option id="A">Forward</option>
       <option id="B">Reverse</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Recombination of carriers releases energy as photons.</explanation>
     </question>
@@ -158,8 +147,7 @@
       <text>Who proposed the wave theory of light?</text>
       <option id="A">Huygens</option>
       <option id="B">Newton</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Proposed in 1678, treating light as waves.</explanation>
     </question>
@@ -167,8 +155,7 @@
       <text>Batch 9 Chemical Thermodynamics standardization verified?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Done.</explanation>
     </question>
@@ -176,8 +163,7 @@
       <text>Carius method is used for estimation of ____ and ____.</text>
       <option id="A">Halogens , Sulfur</option>
       <option id="B">Carbon, Hydrogen</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Involves heating with fuming HNO3.</explanation>
     </question>
@@ -185,8 +171,7 @@
       <text>Ether nomenclature and cleavage mechanisms added.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Done.</explanation>
     </question>
@@ -221,8 +206,7 @@
       <text>Rydberg constant R has value approx ____ m⁻¹.</text>
       <option id="A">1.097 x 10^7</option>
       <option id="B">1.097 x 10^-7</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Used in wave number calculation.</explanation>
     </question>
@@ -251,7 +235,7 @@
       <option id="A">5/6</option>
       <option id="B">1/6</option>
       <option id="C">2/3</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Sum.</explanation>
     </question>
@@ -260,7 +244,7 @@
       <option id="A">Zero</option>
       <option id="B">Positive</option>
       <option id="C">Negative</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>External pressure is zero.</explanation>
     </question>
@@ -268,7 +252,7 @@
       <text>Body rolls down incline. Friction protects it from ____.</text>
       <option id="A">Slipping</option>
       <option id="B">Rotating</option>
-      <option id="C">phi</option>
+      
       <option id="D">Gravity</option>
       <answer>A</answer>
       <explanation>Provides the necessary torque for rotational sync.</explanation>
@@ -277,8 +261,7 @@
       <text>Cell constant G* = ____.</text>
       <option id="A">l / A</option>
       <option id="B">A / l</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Ratio of length to area in conductivity cell.</explanation>
     </question>
@@ -286,7 +269,7 @@
       <text>Newton's Universal Law of Gravitation states that force is directly proportional to product of ____.</text>
       <option id="A">Masses</option>
       <option id="B">Radii</option>
-      <option id="C">phi</option>
+      
       <option id="D">Velocities</option>
       <answer>A</answer>
       <explanation>F = G * m1 * m2 / r^2.</explanation>
@@ -295,8 +278,7 @@
       <text>Average value of Poynting vector S over a cycle is ____.</text>
       <option id="A">Intensity (I)</option>
       <option id="B">0</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Gives the net power direction.</explanation>
     </question>
@@ -304,8 +286,7 @@
       <text>Reaction shifts forward if Qc ____ Kc.</text>
       <option id="A">&lt;</option>
       <option id="B">&gt;</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Reactants need to convert to products.</explanation>
     </question>
@@ -313,8 +294,7 @@
       <text>Line passing through x1, y1 perpendicular to Ax+By+C=0:</text>
       <option id="A">B(x-x1) - A(y-y1) = 0</option>
       <option id="B">A(x-x1) ...</option>
-      <option id="C">C</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Slope B/A.</explanation>
     </question>
@@ -322,8 +302,7 @@
       <text>1 Coulomb = ____ statCoulombs.</text>
       <option id="A">3 x 10^9</option>
       <option id="B">10^-9</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Conversion factor.</explanation>
     </question>
@@ -331,8 +310,7 @@
       <text>The energy of emitted beta particles is ____.</text>
       <option id="A">Continuous</option>
       <option id="B">Discrete</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Due to three-body decay sharing energy with neutrino.</explanation>
     </question>
@@ -340,8 +318,7 @@
       <text>Standardizing the Nuclei final checklist.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Verified.</explanation>
     </question>
@@ -358,8 +335,7 @@
       <text>Compressing gas adiabatically ____ its temperature.</text>
       <option id="A">Increases</option>
       <option id="B">Decreases</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Work done on gas increases internal energy.</explanation>
     </question>
@@ -368,7 +344,7 @@
       <option id="A">1 - (xy + yz + zx)</option>
       <option id="B">1 + (xyz)</option>
       <option id="C">x+y+z</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>From formula: (Σx - xyz) / (1 - Σxy).</explanation>
     </question>
@@ -377,7 +353,7 @@
       <option id="A">Union</option>
       <option id="B">Intersection</option>
       <option id="C">Complement</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Either member logic.</explanation>
     </question>
@@ -385,8 +361,7 @@
       <text>Two capacitors 2μF and 4μF are in parallel. Ratio of charges is ____.</text>
       <option id="A">1:2</option>
       <option id="B">1:1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Q = CV, and V is same for parallel.</explanation>
     </question>
@@ -394,8 +369,7 @@
       <text>Mechanical waves can propagate in solids as both ____ and ____.</text>
       <option id="A">Transverse , Longitudinal</option>
       <option id="B">Sonic only</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Liquids/Gases only support longitudinal bulk waves.</explanation>
     </question>
@@ -403,8 +377,7 @@
       <text>Presence of Electron Withdrawing Groups (EWG) ____ the acidity of phenols.</text>
       <option id="A">Increases</option>
       <option id="B">Decreases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Effective at ortho/para positions.</explanation>
     </question>
@@ -413,7 +386,7 @@
       <option id="A">Yes</option>
       <option id="B">No</option>
       <option id="C">Maybe</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Done.</explanation>
     </question>
@@ -421,8 +394,7 @@
       <text>Which base is present in DNA but absent in RNA?</text>
       <option id="A">Thymine</option>
       <option id="B">Uracil</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Replaced by Uracil in RNA.</explanation>
     </question>
@@ -431,7 +403,7 @@
       <option id="A">(+/- 5, 0)</option>
       <option id="B">(+/- 4, 0)</option>
       <option id="C">(+/- 3, 0)</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>x^2/16 - y^2/9 = 1. c^2=16+9=25. c=5.</explanation>
     </question>
@@ -439,8 +411,7 @@
       <text>Compounds containing -CH2X group attached to sp3 carbon are ____.</text>
       <option id="A">Primary (1°) alkyl halides</option>
       <option id="B">Secondary (2°)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Halogen is attached to a primary carbon.</explanation>
     </question>
@@ -449,7 +420,7 @@
       <option id="A">Perpendicular</option>
       <option id="B">Parallel</option>
       <option id="C">In</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Direction (1,1,1) is normal.</explanation>
     </question>
@@ -457,8 +428,7 @@
       <text>The total number of protons and neutrons in a nucleus is called its ____.</text>
       <option id="A">Mass Number (A)</option>
       <option id="B">Atomic Number (Z)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>A = Z + N where N is number of neutrons.</explanation>
     </question>
@@ -466,8 +436,7 @@
       <text>The energy needed to remove electron from Li++ ground state is ____ eV.</text>
       <option id="A">122.4 (13.6 * 3²)</option>
       <option id="B">13.6</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Z = 3 for Lithium.</explanation>
     </question>
@@ -475,8 +444,7 @@
       <text>The noble gas used in magnetic resonance imaging (MRI) systems is ____.</text>
       <option id="A">Liquid Helium</option>
       <option id="B">Xenon</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Used as a cryogenic fluid for superconductors.</explanation>
     </question>
@@ -484,8 +452,7 @@
       <text>Acidity order: p-nitrophenol vs o-nitrophenol vs phenol? ____.</text>
       <option id="A">p-NP &gt; o-NP &gt; Phenol</option>
       <option id="B">Phenol &gt; p-NP</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>NO2 is EWG, p-isomer is most acidic due to lack of intramolecular H-bond stabilizing OH.</explanation>
     </question>
@@ -493,8 +460,7 @@
       <text>Subset of Universal relation is ____.</text>
       <option id="A">Any relation</option>
       <option id="B">Only Empty</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>By definition of universal set.</explanation>
     </question>
@@ -503,7 +469,7 @@
       <option id="A">4.5</option>
       <option id="B">3</option>
       <option id="C">4</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Intersection at x = 1, -2. Integral -2 to 1 (2 - x^2 - x) dx = [2x - x^3/3 - x^2/2] = (2 - 1/3 - 1/2) - (-4 + 8/3 - 2) = 4.5.</explanation>
     </question>
@@ -511,8 +477,7 @@
       <text>Electric dipole potential falls off at large distance as ____.</text>
       <option id="A">1/r^2</option>
       <option id="B">1/r</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Due to cancellation effect of opposite charges.</explanation>
     </question>
@@ -520,8 +485,7 @@
       <text>Phenol + NaNO2 + H2SO4 -&gt; Deep green color. This is ____ reaction.</text>
       <option id="A">Libermann</option>
       <option id="B">Kolbe</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Detailed name for the test.</explanation>
     </question>
@@ -529,7 +493,7 @@
       <text>Angular velocity is a ____ vector.</text>
       <option id="A">Axial</option>
       <option id="B">Polar</option>
-      <option id="C">phi</option>
+      
       <option id="D">Pseudo</option>
       <answer>A</answer>
       <explanation>Direction is along the axis of rotation using Right Hand Rule.</explanation>
@@ -538,8 +502,7 @@
       <text>p-block elements include groups ____ to ____.</text>
       <option id="A">13 to 18</option>
       <option id="B">3 to 12</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Last electron enters p-orbital.</explanation>
     </question>
@@ -565,8 +528,7 @@
       <text>Stiffness is property to resist ____.</text>
       <option id="A">Deformation</option>
       <option id="B">Flow</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Common term for elastic modulus.</explanation>
     </question>
@@ -574,8 +536,7 @@
       <text>Activation energy for forward reaction is 50 kJ/mol and ΔH is -20 kJ/mol. Ea for reverse is ____.</text>
       <option id="A">70 kJ/mol</option>
       <option id="B">30 kJ/mol</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Ef - Eb = ΔH =&gt; Eb = Ef - ΔH = 50 - (-20) = 70.</explanation>
     </question>
@@ -583,8 +544,7 @@
       <text>Structure of XeF6 according to VSEPR theory involves ____ valence shell pairs.</text>
       <option id="A">7</option>
       <option id="B">6</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>6 bond pairs and 1 lone pair.</explanation>
     </question>
@@ -592,8 +552,7 @@
       <text>Focal length of a mirror immersed in water ____.</text>
       <option id="A">Remains same</option>
       <option id="B">Increases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Depends only on R, not on surrounding medium.</explanation>
     </question>
@@ -601,8 +560,7 @@
       <text>Density of alkyl halides ____ with increase in number of halogen atoms.</text>
       <option id="A">Increases</option>
       <option id="B">Decreases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Mass increases significantly.</explanation>
     </question>
@@ -620,7 +578,7 @@
       <option id="A">1</option>
       <option id="B">2</option>
       <option id="C">0</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Integral 0 to pi/2 cos x dx = [sin x] = 1.</explanation>
     </question>
@@ -628,8 +586,7 @@
       <text>Normal reaction force is ____ to the surface of contact.</text>
       <option id="A">Perpendicular</option>
       <option id="B">Parallel</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>By definition of 'Normal'.</explanation>
     </question>
@@ -637,8 +594,7 @@
       <text>Does an EM wave have charge?</text>
       <option id="A">No (Electrically neutral)</option>
       <option id="B">Yes</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>They are oscillating fields, not particles with net charge.</explanation>
     </question>
@@ -658,7 +614,7 @@
       <option id="A">1</option>
       <option id="B">2</option>
       <option id="C">sqrt(3)</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>sqrt(0+0+1^2).</explanation>
     </question>
@@ -666,8 +622,7 @@
       <text>Simplest alkyne is ____.</text>
       <option id="A">Ethyne (C2H2)</option>
       <option id="B">Propane</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Common name Acetylene.</explanation>
     </question>
@@ -675,8 +630,7 @@
       <text>Which property remains unchanged when light enters water from air?</text>
       <option id="A">Frequency</option>
       <option id="B">Wavelength</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Determined by source oscillations.</explanation>
     </question>
@@ -684,8 +638,7 @@
       <text>Find IF for dy/dx + y / (x log x) = 1/x:</text>
       <option id="A">log x</option>
       <option id="B">x</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Same P as a previous question.</explanation>
     </question>
@@ -693,8 +646,7 @@
       <text>Reaction of alkanes with Halogens in presence of light/heat is ____.</text>
       <option id="A">Substitution / Halogenation</option>
       <option id="B">Addition</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Free radical mechanism.</explanation>
     </question>
@@ -703,7 +655,7 @@
       <option id="A">Yes</option>
       <option id="B">No</option>
       <option id="C">Maybe</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Standardization complete.</explanation>
     </question>
@@ -712,7 +664,7 @@
       <option id="A">1</option>
       <option id="B">0</option>
       <option id="C">P(B)</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Probabilities conditioned on same event behave like regular probabilities.</explanation>
     </question>
@@ -720,8 +672,7 @@
       <text>Coefficient of friction is dimensionless? ____.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Ratio of two forces.</explanation>
     </question>
@@ -729,8 +680,7 @@
       <text>Area of region common to circles x^2 + y^2 = 4 and (x-2)^2 + y^2 = 4:</text>
       <option id="A">8pi/3 - 2 sqrt(3)</option>
       <option id="B">pi - sqrt(3)</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Requires integration of circle segments.</explanation>
     </question>
@@ -738,8 +688,7 @@
       <text>Magnetic needle at the poles remains in ____ direction.</text>
       <option id="A">Any horizontal (stable in vertical)</option>
       <option id="B">North-South</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Bh is zero, so no horizontal restoring force.</explanation>
     </question>
@@ -747,8 +696,7 @@
       <text>Aldol condensation product followed by heating gives ____.</text>
       <option id="A">alpha,beta-unsaturated carbonyl compound</option>
       <option id="B">Alcohol</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Dehydration step.</explanation>
     </question>
@@ -756,8 +704,7 @@
       <text>Schrodinger equation H Psi = E Psi. H is ____ operator.</text>
       <option id="A">Hamiltonian (Energy)</option>
       <option id="B">Laplacian</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Represents total energy operator.</explanation>
     </question>
@@ -765,8 +712,7 @@
       <text>In cyclic process, net work done equals net ____ added.</text>
       <option id="A">Heat</option>
       <option id="B">Internal energy</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Since ΔU = 0.</explanation>
     </question>
@@ -774,8 +720,7 @@
       <text>Expansion of a body on heating is called ____ expansion.</text>
       <option id="A">Thermal</option>
       <option id="B">Elastic</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Result of increased molecular kinetic energy.</explanation>
     </question>
@@ -783,8 +728,7 @@
       <text>For a spontaneous process, total entropy ΔS_total must be ____.</text>
       <option id="A">&gt; 0 (Positive)</option>
       <option id="B">&lt; 0</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Entropy of universe increases.</explanation>
     </question>
@@ -793,7 +737,7 @@
       <option id="A">25+16-8 = 33/100</option>
       <option id="B">30/100</option>
       <option id="C">41/100</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>4(25), 6(16), 12(8).</explanation>
     </question>
@@ -802,7 +746,7 @@
       <option id="A">Electric Dipole</option>
       <option id="B">Capacitor</option>
       <option id="C">Resistor</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Produces a unique field pattern.</explanation>
     </question>

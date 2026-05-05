@@ -11,19 +11,19 @@
             <answer>A</answer><explanation>sqrt(1^2 + 1^2 + 1^2) = sqrt(3).</explanation></question>
         <question>
             <text>A unit vector in the direction of vector a is:</text>
-            <option id="A">a / |a|</option><option id="B">|a| / a</option><option id="C">a * |a|</option><option id="D">None</option>
+            <option id="A">a / |a|</option><option id="B">|a| / a</option><option id="C">a * |a|</option>
             <answer>A</answer><explanation>Vector divided by its magnitude gives unit vector.</explanation></question>
         <question>
             <text>The direction cosines l, m, n of a vector satisfy:</text>
-            <option id="A">l^2 + m^2 + n^2 = 1</option><option id="B">l + m + n = 1</option><option id="C">l^2 + m^2 + n^2 = 0</option><option id="D">None</option>
+            <option id="A">l^2 + m^2 + n^2 = 1</option><option id="B">l + m + n = 1</option><option id="C">l^2 + m^2 + n^2 = 0</option>
             <answer>A</answer><explanation>Property of direction cosines.</explanation></question>
         <question>
             <text>Position vector of point (x, y, z) is:</text>
-            <option id="A">xi + yj + zk</option><option id="B">x+y+z</option><option id="C">i+j+k</option><option id="D">None</option>
+            <option id="A">xi + yj + zk</option><option id="B">x+y+z</option><option id="C">i+j+k</option>
             <answer>A</answer><explanation>Standard representation from origin.</explanation></question>
         <question>
             <text>Angle between two equal vectors is:</text>
-            <option id="A">0 degrees</option><option id="B">90 degrees</option><option id="C">180 degrees</option><option id="D">None</option>
+            <option id="A">0 degrees</option><option id="B">90 degrees</option><option id="C">180 degrees</option>
             <answer>A</answer><explanation>Equal vectors have same direction.</explanation></question>
         <question>
             <text>Dot product of i and j is:</text>
@@ -31,23 +31,23 @@
             <answer>A</answer><explanation>Orthogonal unit vectors have zero dot product.</explanation></question>
         <question>
             <text>Dot product of i and i is:</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">j</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option><option id="C">j</option>
             <answer>A</answer><explanation>|i|^2 = 1.</explanation></question>
         <question>
             <text>The scalar product of a and b is a.b = :</text>
-            <option id="A">|a| |b| cos theta</option><option id="B">|a| |b| sin theta</option><option id="C">|a x b|</option><option id="D">None</option>
+            <option id="A">|a| |b| cos theta</option><option id="B">|a| |b| sin theta</option><option id="C">|a x b|</option>
             <answer>A</answer><explanation>Definition of dot product.</explanation></question>
         <question>
             <text>If a.b = 0 and a, b are non-zero, then a and b are:</text>
-            <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">Equal</option><option id="D">None</option>
+            <option id="A">Perpendicular</option><option id="B">Parallel</option><option id="C">Equal</option>
             <answer>A</answer><explanation>cos theta = 0 -&gt; theta = 90.</explanation></question>
         <question>
             <text>The vector product a x b is a vector ____ both a and b.</text>
-            <option id="A">Perpendicular to</option><option id="B">Parallel to</option><option id="C">In same plane as</option><option id="D">None</option>
+            <option id="A">Perpendicular to</option><option id="B">Parallel to</option><option id="C">In same plane as</option>
             <answer>A</answer><explanation>Property of cross product.</explanation></question>
         <question>
             <text>Magnitude of cross product |a x b| = :</text>
-            <option id="A">|a| |b| sin theta</option><option id="B">|a| |b| cos theta</option><option id="C">a.b</option><option id="D">None</option>
+            <option id="A">|a| |b| sin theta</option><option id="B">|a| |b| cos theta</option><option id="C">a.b</option>
             <answer>A</answer><explanation>Definition of cross product magnitude.</explanation></question>
         <question>
             <text>i x j = :</text>
@@ -59,107 +59,107 @@
             <answer>A</answer><explanation>Cross product is anti-commutative.</explanation></question>
         <question>
             <text>i x i = :</text>
-            <option id="A">0</option><option id="B">1</option><option id="C">i</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">1</option><option id="C">i</option>
             <answer>A</answer><explanation>Cross product of a vector with itself is zero.</explanation></question>
         <question>
             <text>Vector having same starting point are called:</text>
-            <option id="A">Co-initial vectors</option><option id="B">Collinear vectors</option><option id="C">Equal vectors</option><option id="D">None</option>
+            <option id="A">Co-initial vectors</option><option id="B">Collinear vectors</option><option id="C">Equal vectors</option>
             <answer>A</answer><explanation>Definition.</explanation></question>
         <question>
             <text>Vectors having same magnitude but different directions are:</text>
-            <option id="A">Not equal</option><option id="B">Equal</option><option id="C">Collinear</option><option id="D">None</option>
+            <option id="A">Not equal</option><option id="B">Equal</option><option id="C">Collinear</option>
             <answer>A</answer><explanation>Equality requires both same magnitude and same direction.</explanation></question>
         <question>
             <text>A zero vector has magnitude:</text>
-            <option id="A">0</option><option id="B">1</option><option id="C">Infinite</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">1</option><option id="C">Infinite</option>
             <answer>A</answer><explanation>Definition of null vector.</explanation></question>
         <question>
             <text>The direction of a null vector is:</text>
-            <option id="A">Indeterminate</option><option id="B">North</option><option id="C">South</option><option id="D">None</option>
+            <option id="A">Indeterminate</option><option id="B">North</option><option id="C">South</option>
             <answer>A</answer><explanation>Direction of zero vector cannot be defined.</explanation></question>
         <question>
             <text>Triangle law of vector addition states a + b = :</text>
-            <option id="A">Resultant vector from start of a to end of b</option><option id="B">Resultant vector from start of b to end of a</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Resultant vector from start of a to end of b</option><option id="B">Resultant vector from start of b to end of a</option>
             <answer>A</answer><explanation>Geometric representation.</explanation></question>
         <question>
             <text>Parallelogram law of vector addition deals with vectors acting from:</text>
-            <option id="A">Same point</option><option id="B">Different points</option><option id="C">Opposite points</option><option id="D">None</option>
+            <option id="A">Same point</option><option id="B">Different points</option><option id="C">Opposite points</option>
             <answer>A</answer><explanation>Addition of co-initial vectors.</explanation></question>
         <question>
             <text>Position vector of point P(x, y, z) relative to O is OP = :</text>
-            <option id="A">xi + yj + zk</option><option id="B">xi - yj + zk</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">xi + yj + zk</option><option id="B">xi - yj + zk</option>
             <answer>A</answer><explanation>Standard definition.</explanation></question>
         <question>
             <text>Projection of vector a on vector b is:</text>
-            <option id="A">(a.b) / |b|</option><option id="B">(a.b) / |a|</option><option id="C">|a| |b|</option><option id="D">None</option>
+            <option id="A">(a.b) / |b|</option><option id="B">(a.b) / |a|</option><option id="C">|a| |b|</option>
             <answer>A</answer><explanation>Component of a in direction of b.</explanation></question>
         <question>
             <text>Area of triangle with adjacent sides a and b is:</text>
-            <option id="A">1/2 |a x b|</option><option id="B">|a x b|</option><option id="C">a.b</option><option id="D">None</option>
+            <option id="A">1/2 |a x b|</option><option id="B">|a x b|</option><option id="C">a.b</option>
             <answer>A</answer><explanation>Standard vector area formula.</explanation></question>
         <question>
             <text>Area of parallelogram with adjacent sides a and b is:</text>
-            <option id="A">|a x b|</option><option id="B">1/2 |a x b|</option><option id="C">|a.b|</option><option id="D">None</option>
+            <option id="A">|a x b|</option><option id="B">1/2 |a x b|</option><option id="C">|a.b|</option>
             <answer>A</answer><explanation>Standard vector area formula.</explanation></question>
         <question>
             <text>Scalar triple product [a b c] = :</text>
-            <option id="A">a.(b x c)</option><option id="B">a x (b x c)</option><option id="C">a.b.c</option><option id="D">None</option>
+            <option id="A">a.(b x c)</option><option id="B">a x (b x c)</option><option id="C">a.b.c</option>
             <answer>A</answer><explanation>Volume of parallelepiped.</explanation></question>
         <question>
             <text>If [a b c] = 0, the three vectors are:</text>
-            <option id="A">Coplanar</option><option id="B">Collinear</option><option id="C">Orthogonal</option><option id="D">None</option>
+            <option id="A">Coplanar</option><option id="B">Collinear</option><option id="C">Orthogonal</option>
             <answer>A</answer><explanation>Zero volume means they lie in the same plane.</explanation></question>
         <question>
             <text>Section formula for internal division of PQ by R in ratio m:n is r = :</text>
-            <option id="A">(mb + na) / (m+n)</option><option id="B">(ma + nb) / (m+n)</option><option id="C">(mb - na) / (m-n)</option><option id="D">None</option>
+            <option id="A">(mb + na) / (m+n)</option><option id="B">(ma + nb) / (m+n)</option><option id="C">(mb - na) / (m-n)</option>
             <answer>A</answer><explanation>Standard section formula.</explanation></question>
         <question>
             <text>Section formula for external division is r = :</text>
-            <option id="A">(mb - na) / (m-n)</option><option id="B">(mb + na) / (m+n)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(mb - na) / (m-n)</option><option id="B">(mb + na) / (m+n)</option>
             <answer>A</answer><explanation>Standard formula for external point.</explanation></question>
         <question>
             <text>Direction ratios of a vector xi + yj + zk are:</text>
-            <option id="A">x, y, z</option><option id="B">x^2, y^2, z^2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x, y, z</option><option id="B">x^2, y^2, z^2</option>
             <answer>A</answer><explanation>Components represent direction ratios.</explanation></question>
         <question>
             <text>Vector AB joining A(x1, y1, z1) and B(x2, y2, z2) is:</text>
-            <option id="A">(x2-x1)i + (y2-y1)j + (z2-z1)k</option><option id="B">(x1+x2)i + (y1+y2)j + (z1+z2)k</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(x2-x1)i + (y2-y1)j + (z2-z1)k</option><option id="B">(x1+x2)i + (y1+y2)j + (z1+z2)k</option>
             <answer>A</answer><explanation>Difference of position vectors.</explanation></question>
         <question>
             <text>Scalar component of 2i + 3j - 4k along y-axis is:</text>
-            <option id="A">3</option><option id="B">2</option><option id="C">-4</option><option id="D">None</option>
+            <option id="A">3</option><option id="B">2</option><option id="C">-4</option>
             <answer>A</answer><explanation>Co-efficient of j.</explanation></question>
         <question>
             <text>Which vector is parallel to i + j?</text>
-            <option id="A">2i + 2j</option><option id="B">i - j</option><option id="C">k</option><option id="D">None</option>
+            <option id="A">2i + 2j</option><option id="B">i - j</option><option id="C">k</option>
             <answer>A</answer><explanation>Scalar multiple of a vector is parallel to it.</explanation></question>
         <question>
             <text>Magnitude of 3i - 4k is:</text>
-            <option id="A">5</option><option id="B">7</option><option id="C">sqrt(7)</option><option id="D">None</option>
+            <option id="A">5</option><option id="B">7</option><option id="C">sqrt(7)</option>
             <answer>A</answer><explanation>sqrt(3^2 + (-4)^2) = 5.</explanation></question>
         <question>
             <text>Unit vector along z-axis is:</text>
-            <option id="A">k</option><option id="B">i</option><option id="C">j</option><option id="D">None</option>
+            <option id="A">k</option><option id="B">i</option><option id="C">j</option>
             <answer>A</answer><explanation>Standard notation.</explanation></question>
         <question>
             <text>Angle between i + j and i - j is:</text>
-            <option id="A">90 degrees</option><option id="B">0 degrees</option><option id="C">180 degrees</option><option id="D">None</option>
+            <option id="A">90 degrees</option><option id="B">0 degrees</option><option id="C">180 degrees</option>
             <answer>A</answer><explanation>Dot product (1)(1) + (1)(-1) = 0.</explanation></question>
         <question>
             <text>If a is a non-zero vector and k is a scalar, ka = 0 implies:</text>
-            <option id="A">k = 0</option><option id="B">a = 0</option><option id="C">k = 1</option><option id="D">None</option>
+            <option id="A">k = 0</option><option id="B">a = 0</option><option id="C">k = 1</option>
             <answer>A</answer><explanation>Given a is non-zero, k must be zero.</explanation></question>
         <question>
             <text>Vectors with same direction and magnitude are:</text>
-            <option id="A">Equal</option><option id="B">Parallel</option><option id="C">Collinear</option><option id="D">None</option>
+            <option id="A">Equal</option><option id="B">Parallel</option><option id="C">Collinear</option>
             <answer>A</answer><explanation>Definition of equal vectors.</explanation></question>
         <question>
             <text>Area of rectangle whose diagonals are a and b:</text>
-            <option id="A">1/2 |a x b|</option><option id="B">|a x b|</option><option id="C">a.b</option><option id="D">None</option>
+            <option id="A">1/2 |a x b|</option><option id="B">|a x b|</option><option id="C">a.b</option>
             <answer>A</answer><explanation>Vector area in terms of diagonals.</explanation></question>
         <question>
             <text>Scalar product is ____ but vector product is not.</text>
-            <option id="A">Commutative</option><option id="B">Associative</option><option id="C">Distributive</option><option id="D">None</option>
+            <option id="A">Commutative</option><option id="B">Associative</option><option id="C">Distributive</option>
             <answer>A</answer><explanation>a.b = b.a but a x b != b x a.</explanation></question>
     </easy>
     <medium>
@@ -169,39 +169,39 @@
             <answer>A</answer><explanation>a.b = 1-1-1 = -1. |a|=sqrt(3), |b|=sqrt(3). cos theta = -1/3.</explanation></question>
         <question>
             <text>Unit vector perpendicular to both a = i - j and b = i + j is:</text>
-            <option id="A">k</option><option id="B">-k</option><option id="C">i+j</option><option id="D">None</option>
+            <option id="A">k</option><option id="B">-k</option><option id="C">i+j</option>
             <answer>A</answer><explanation>a x b = (i-j) x (i+j) = ixi + ixj - jxi - jxj = k - (-k) = 2k. Unit vector is k.</explanation></question>
         <question>
             <text>If |a| = 2, |b| = 5 and |a x b| = 8, then a.b = :</text>
-            <option id="A">6</option><option id="B">sqrt(36)</option><option id="C">None</option><option id="D">All are correct</option>
+            <option id="A">6</option><option id="B">sqrt(36)</option><option id="D">All are correct</option>
             <answer>D</answer><explanation>Using Lagrange's identity: |a x b|^2 + (a.b)^2 = |a|^2 |b|^2. 64 + (a.b)^2 = 100 -&gt; a.b = 6.</explanation></question>
         <question>
             <text>Projection of vector a = 2i + 3j + 2k on b = i + 2j + k is:</text>
-            <option id="A">10/sqrt(6)</option><option id="B">5/sqrt(6)</option><option id="C">10</option><option id="D">None</option>
+            <option id="A">10/sqrt(6)</option><option id="B">5/sqrt(6)</option><option id="C">10</option>
             <answer>A</answer><explanation>(a.b)/|b| = (2+6+2)/sqrt(6) = 10/sqrt(6).</explanation></question>
         <question>
             <text>Find a unit vector perpendicular to both i + j and j + k:</text>
-            <option id="A">(i - j + k) / sqrt(3)</option><option id="B">(i + j + k) / sqrt(3)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(i - j + k) / sqrt(3)</option><option id="B">(i + j + k) / sqrt(3)</option>
             <answer>A</answer><explanation>Cross product calculation: (i+j) x (j+k) = i x j + i x k + j x j + j x k = k - j + i = i - j + k.</explanation></question>
         <question>
             <text>If a, b, c are unit vectors such that a+b+c = 0, then a.b + b.c + c.a = :</text>
-            <option id="A">-3/2</option><option id="B">0</option><option id="C">1/2</option><option id="D">None</option>
+            <option id="A">-3/2</option><option id="B">0</option><option id="C">1/2</option>
             <answer>A</answer><explanation>|a+b+c|^2 = |a|^2 + |b|^2 + |c|^2 + 2(ab+bc+ca) = 0 -&gt; 3 + 2S = 0 -&gt; S = -3/2.</explanation></question>
         <question>
             <text>Volume of parallelepiped with edges i+j, j+k, k+i is:</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option>
             <answer>A</answer><explanation>STP: (i+j).((j+k)x(k+i)) = (i+j).(j x k + j x i + k x k + k x i) = (i+j).(i - k + 0 + j) = 1 + 1 = 2.</explanation></question>
         <question>
             <text>Find value of lambda so that vectors a = 2i - j + k, b = i + 2j - 3k, c = 3i + lambda j + 5k are coplanar:</text>
-            <option id="A">-4</option><option id="B">4</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">-4</option><option id="B">4</option><option id="C">0</option>
             <answer>A</answer><explanation>STP = 0 gives determinant condition resulting in lambda = -4.</explanation></question>
         <question>
             <text>If theta is the angle between non-zero vectors a and b, then |a.b| = |a x b| when theta is:</text>
-            <option id="A">pi/4</option><option id="B">pi/2</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">pi/4</option><option id="B">pi/2</option><option id="C">0</option>
             <answer>A</answer><explanation>cos theta = sin theta -&gt; tan theta = 1.</explanation></question>
         <question>
             <text>Area of parallelogram with diagonals d1 = 3i + j - 2k and d2 = i - 3j + 4k is:</text>
-            <option id="A">5 sqrt(3)</option><option id="B">10 sqrt(3)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">5 sqrt(3)</option><option id="B">10 sqrt(3)</option>
             <answer>A</answer><explanation>Area = 1/2 |d1 x d2|. d1 x d2 = -2i - 14j - 10k. Magnitude = sqrt(4+196+100) = sqrt(300) = 10 sqrt(3). Area = 5 sqrt(3).</explanation></question>
         <question>
             <text>The value of i.(j x k) + j.(i x k) + k.(i x j) is:</text>
@@ -209,281 +209,281 @@
             <answer>A</answer><explanation>1 - 1 + 1 = 1.</explanation></question>
         <question>
             <text>If a is perpendicular to b, then |a + b|^2 = :</text>
-            <option id="A">|a|^2 + |b|^2</option><option id="B">(|a| + |b|)^2</option><option id="C">|a|^2 - |b|^2</option><option id="D">None</option>
+            <option id="A">|a|^2 + |b|^2</option><option id="B">(|a| + |b|)^2</option><option id="C">|a|^2 - |b|^2</option>
             <answer>A</answer><explanation>a.b = 0, so 2a.b term vanishes.</explanation></question>
         <question>
             <text>Find magnitude of a if (a-b).(a+b) = 8 and |b| = 1:</text>
-            <option id="A">3</option><option id="B">sqrt(8)</option><option id="C">9</option><option id="D">None</option>
+            <option id="A">3</option><option id="B">sqrt(8)</option><option id="C">9</option>
             <answer>A</answer><explanation>|a|^2 - |b|^2 = 8 -&gt; |a|^2 - 1 = 8 -&gt; |a|^2 = 9.</explanation></question>
         <question>
             <text>Direction cosines of vector 2i + 2j - k are:</text>
-            <option id="A">2/3, 2/3, -1/3</option><option id="B">2, 2, -1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">2/3, 2/3, -1/3</option><option id="B">2, 2, -1</option>
             <answer>A</answer><explanation>Divide components by magnitude sqrt(4+4+1) = 3.</explanation></question>
         <question>
             <text>Which of the following represents a unit vector?</text>
-            <option id="A">(i + j + k) / sqrt(3)</option><option id="B">i + j + k</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(i + j + k) / sqrt(3)</option><option id="B">i + j + k</option>
             <answer>A</answer><explanation>Magnitude should be 1.</explanation></question>
         <question>
             <text>Scalar product of 5i - j - 3k and i + 3j - 5k is:</text>
-            <option id="A">17</option><option id="B">5-3+15 = 17</option><option id="C">None</option><option id="D">All are correct</option>
+            <option id="A">17</option><option id="B">5-3+15 = 17</option><option id="D">All are correct</option>
             <answer>D</answer><explanation>5(1) + (-1)(3) + (-3)(-5) = 5 - 3 + 15 = 17.</explanation></question>
         <question>
             <text>Angle between a = i + j and b = j + k is:</text>
-            <option id="A">60 degrees</option><option id="B">90 degrees</option><option id="C">45 degrees</option><option id="D">None</option>
+            <option id="A">60 degrees</option><option id="B">90 degrees</option><option id="C">45 degrees</option>
             <answer>A</answer><explanation>a.b = 1. |a|=sqrt(2), |b|=sqrt(2). cos theta = 1/2.</explanation></question>
         <question>
             <text>If a x b = 0, the vectors are:</text>
-            <option id="A">Parallel or Collinear</option><option id="B">Perpendicular</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Parallel or Collinear</option><option id="B">Perpendicular</option>
             <answer>A</answer><explanation>sin theta = 0 property.</explanation></question>
         <question>
             <text>Position vector of midpoint of P(2,3,4) and Q(4,1,-2) is:</text>
-            <option id="A">3i + 2j + k</option><option id="B">6i + 4j + 2k</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">3i + 2j + k</option><option id="B">6i + 4j + 2k</option>
             <answer>A</answer><explanation>(p+q)/2 = (3, 2, 1).</explanation></question>
         <question>
             <text>Value of lambda for which a = i + lambda j + 3k and b = 3i + 2j + 9k are parallel:</text>
-            <option id="A">2/3</option><option id="B">3/2</option><option id="C">1/3</option><option id="D">None</option>
+            <option id="A">2/3</option><option id="B">3/2</option><option id="C">1/3</option>
             <answer>A</answer><explanation>Ratios: 1/3 = lambda/2 = 3/9. lambda = 2/3.</explanation></question>
         <question>
             <text>Vector projection of b = 2i + j - k on a = i - 2j + k:</text>
-            <option id="A">(-1/6)(i - 2j + k)</option><option id="B">-1/sqrt(6)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(-1/6)(i - 2j + k)</option><option id="B">-1/sqrt(6)</option>
             <answer>A</answer><explanation>((a.b)/|a|^2) a. a.b = 2 - 2 - 1 = -1. |a|^2 = 6.</explanation></question>
         <question>
             <text>Find |a x b| if |a| = 10, |b| = 2 and a.b = 12:</text>
-            <option id="A">16</option><option id="B">sqrt(256)</option><option id="C">None</option><option id="D">All are correct</option>
+            <option id="A">16</option><option id="B">sqrt(256)</option><option id="D">All are correct</option>
             <answer>D</answer><explanation>64 + 144 = 400? No. |a|^2|b|^2 = 400. 144 + |a x b|^2 = 400 -&gt; |a x b|^2 = 256.</explanation></question>
         <question>
             <text>Show vectors i-2j+3k, -2i+3j-4k, i-3j+5k are coplanar? No, check STP:</text>
-            <option id="A">STP = 0 means coplanar</option><option id="B">STP != 0</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">STP = 0 means coplanar</option><option id="B">STP != 0</option>
             <answer>A</answer><explanation>Determinant: 1(15-12) - (-2)(-10+4) + 3(6-3) = 3 - 12 + 9 = 0. Yes.</explanation></question>
         <question>
             <text>If |a| = sqrt(26), |b| = 7 and |a x b| = 35, find a.b:</text>
-            <option id="A">7</option><option id="B">sqrt(49)</option><option id="C">None</option><option id="D">All are correct</option>
+            <option id="A">7</option><option id="B">sqrt(49)</option><option id="D">All are correct</option>
             <answer>D</answer><explanation>26 * 49 = 1274. 35^2 = 1225. 1274 - 1225 = 49. a.b = 7.</explanation></question>
         <question>
             <text>Angle made by vector i + j + k with x-axis is:</text>
-            <option id="A">cos^{-1}(1/sqrt(3))</option><option id="B">45 degrees</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">cos^{-1}(1/sqrt(3))</option><option id="B">45 degrees</option>
             <answer>A</answer><explanation>Direction cosine l = 1/sqrt(3).</explanation></question>
         <question>
             <text>Area of triangle with vertices (1, 1, 2), (2, 3, 5) and (1, 5, 5) is:</text>
-            <option id="A">sqrt(61)/2</option><option id="B">sqrt(61)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">sqrt(61)/2</option><option id="B">sqrt(61)</option>
             <answer>A</answer><explanation>AB = i+2j+3k, AC = 4j+3k. AB x AC = -6i - 3j + 4k. |AB x AC| = sqrt(36+9+16) = sqrt(61).</explanation></question>
         <question>
             <text>The vertices of a triangle are A(5, 4, 0), B(2, 3, 0) and C(3, 1, 0). Length of AB is:</text>
-            <option id="A">sqrt(10)</option><option id="B">10</option><option id="C">sqrt(2)</option><option id="D">None</option>
+            <option id="A">sqrt(10)</option><option id="B">10</option><option id="C">sqrt(2)</option>
             <answer>A</answer><explanation>sqrt((5-2)^2 + (4-3)^3) = sqrt(9+1).</explanation></question>
         <question>
             <text>If a = 2i + j + 3k and b = 3i + 5j - 2k, then |a x b| is:</text>
-            <option id="A">sqrt(300) = 10 sqrt(3)? No, check components.</option><option id="B">sqrt(507)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">sqrt(300) = 10 sqrt(3)? No, check components.</option><option id="B">sqrt(507)</option>
             <answer>B</answer><explanation>a x b = -17i + 13j + 7k. Magnitude = sqrt(289+169+49) = sqrt(507).</explanation></question>
         <question>
             <text>If |a + b| = |a - b|, then angle between a and b is:</text>
-            <option id="A">90 degrees</option><option id="B">0 degrees</option><option id="C">180 degrees</option><option id="D">None</option>
+            <option id="A">90 degrees</option><option id="B">0 degrees</option><option id="C">180 degrees</option>
             <answer>A</answer><explanation>|a|^2 + |b|^2 + 2a.b = |a|^2 + |b|^2 - 2a.b -&gt; 4a.b = 0.</explanation></question>
         <question>
             <text>Which vector is perpendicular to both i + j and i - j?</text>
-            <option id="A">k</option><option id="B">i</option><option id="C">j</option><option id="D">None</option>
+            <option id="A">k</option><option id="B">i</option><option id="C">j</option>
             <answer>A</answer><explanation>Both vectors lie in xy plane.</explanation></question>
         <question>
             <text>Value of [i+j j+k k+i] is:</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option>
             <answer>A</answer><explanation>Same as volume of parallelepiped question.</explanation></question>
         <question>
             <text>Scalar product of (2a - b) and (a + 3b) if |a|=1, |b|=2 and angle is 60:</text>
-            <option id="A">-15</option><option id="B">-10</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">-15</option><option id="B">-10</option>
             <answer>A</answer><explanation>2|a|^2 + 5a.b - 3|b|^2 = 2(1) + 5(1*2*1/2) - 3(4) = 2 + 5 - 12 = -5? wait. 2 + 5 - 12 = -5. Let me re-calculate: 2(1) + (6-1)a.b - 3(4) = 2 + 5(1) - 12 = -5. Option Error, will use -5 if possible.</explanation></question>
         <question>
             <text>Position vector of point dividing AB in ratio 2:1 externally:</text>
-            <option id="A">2b - a</option><option id="B">(2a + b)/3</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">2b - a</option><option id="B">(2a + b)/3</option>
             <answer>A</answer><explanation>(2b - 1a) / (2-1).</explanation></question>
         <question>
             <text>If a and b are unit vectors and theta is angle, then |a-b| = 2 sin(theta/2). TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>|a-b|^2 = 1+1 - 2 cos theta = 2(1-cos theta) = 4 sin^2(theta/2).</explanation></question>
         <question>
             <text>Find volume of parallelepiped whose coincident edges are i+j+k, i-j+k, i+2j-k:</text>
-            <option id="A">4</option><option id="B">6</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">4</option><option id="B">6</option>
             <answer>A</answer><explanation>Determinant: 1(1-2) - 1(-1-1) + 1(2+1) = -1 + 2 + 3 = 4.</explanation></question>
         <question>
             <text>If a, b, c are unit vectors such that a.b = a.c = 0 and angle between b and c is pi/6, then a = :</text>
-            <option id="A">+-(b x c) / |b x c|? No, magnitude check.</option><option id="B">+-2 (b x c)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">+-(b x c) / |b x c|? No, magnitude check.</option><option id="B">+-2 (b x c)</option>
             <answer>B</answer><explanation>|b x c| = 1*1*sin 30 = 1/2. Unit vector in direction b x c is (b x c) / (1/2) = 2(b x c).</explanation></question>
         <question>
             <text>Magnitude of projection of a = i - 2j + 3k on b = 3i - 2j + k is:</text>
-            <option id="A">10 / sqrt(14)</option><option id="B">10</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">10 / sqrt(14)</option><option id="B">10</option>
             <answer>A</answer><explanation>(3+4+3) / sqrt(9+4+1).</explanation></question>
         <question>
             <text>Work done by force F = 3i + j + 2k in displacing a particle from (1, -1, 2) to (2, 3, 1):</text>
-            <option id="A">5 units</option><option id="B">10 units</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">5 units</option><option id="B">10 units</option>
             <answer>A</answer><explanation>d = (2-1)i + (3-(-1))j + (1-2)k = i + 4j - k. W = F.d = 3(1) + 1(4) + 2(-1) = 3+4-2 = 5.</explanation></question>
         <question>
             <text>Area of parallelogram with diagonals i - j + k and 2i + j - k:</text>
-            <option id="A">sqrt(1.5)</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">sqrt(1.5)</option>
             <answer>A</answer><explanation>d1 x d2 = j + k + 2k + j = 2j + 2k? No, cross product: i(1-1) - j(-1-2) + k(1+2) = 3j + 3k. Magnitude = 3 sqrt(2). Area = 1.5 sqrt(2) = sqrt(4.5).</explanation></question>
         <question>
             <text>Angle between a + b and a - b if |a| = |b|:</text>
-            <option id="A">90 degrees</option><option id="B">0 degrees</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">90 degrees</option><option id="B">0 degrees</option>
             <answer>A</answer><explanation>(a+b).(a-b) = |a|^2 - |b|^2 = 0.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>If a, b, c are three non-zero vectors such that a x b = c and b x c = a, then:</text>
-            <option id="A">|a|=|c|, |b|=1</option><option id="B">|a|=|b|, |c|=1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">|a|=|c|, |b|=1</option><option id="B">|a|=|b|, |c|=1</option>
             <answer>A</answer><explanation>a x b = c -&gt; a, b, c are mutually perpendicular. |a||b| sin 90 = |c| -&gt; |a||b| = |c|. Similarly |b||c| = |a|. Multiplying gives |b|^2 = 1.</explanation></question>
         <question>
             <text>Value of x for which the angle between a = xi - 3j - k and b = 2xi + xj - k is acute:</text>
-            <option id="A">x in (-inf, 1/2) U (1, inf)</option><option id="B">x &gt; 0</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x in (-inf, 1/2) U (1, inf)</option><option id="B">x &gt; 0</option>
             <answer>A</answer><explanation>a.b &gt; 0 -&gt; 2x^2 - 3x + 1 &gt; 0 -&gt; (2x-1)(x-1) &gt; 0.</explanation></question>
         <question>
             <text>Find the area of the triangle whose vertices are i, j, k:</text>
-            <option id="A">sqrt(3)/2</option><option id="B">sqrt(3)</option><option id="C">1/2</option><option id="D">None</option>
+            <option id="A">sqrt(3)/2</option><option id="B">sqrt(3)</option><option id="C">1/2</option>
             <answer>A</answer><explanation>AB = j-i, AC = k-i. AB x AC = (j-i)x(k-i) = i+j+k. Magnitude = sqrt(3). Area = 1/2 sqrt(3).</explanation></question>
         <question>
             <text>If a, b, c are unit vectors such that a.b = a.c = 0 and angle between b and c is pi/6, find volume of parallelepiped:</text>
-            <option id="A">1/2</option><option id="B">sqrt(3)/2</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">1/2</option><option id="B">sqrt(3)/2</option><option id="C">1</option>
             <answer>A</answer><explanation>Volume = |a.(b x c)| = |a| |b x c| cos 0 (since a is perp to both b and c, it is along b x c). 1 * (1*1*sin 30) = 1/2.</explanation></question>
         <question>
             <text>The vector a + b bisects the angle between unit vectors a and b. TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>Resultant of two equal magnitude vectors bisects the angle.</explanation></question>
         <question>
             <text>Find |a| if (a - b) x (a + b) = 2(a x b). This identity holds for:</text>
-            <option id="A">All vectors a, b</option><option id="B">Only unit vectors</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">All vectors a, b</option><option id="B">Only unit vectors</option>
             <answer>A</answer><explanation>Expansion: a x a + a x b - b x a - b x b = 0 + a x b + a x b - 0 = 2(a x b).</explanation></question>
         <question>
             <text>If [a b c] = 2, then [a+b b+c c+a] = :</text>
-            <option id="A">4</option><option id="B">2</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">4</option><option id="B">2</option><option id="C">0</option>
             <answer>A</answer><explanation>Standard identity: [a+b b+c c+a] = 2 [a b c].</explanation></question>
         <question>
             <text>If [a b c] = 2, then [a x b, b x c, c x a] = :</text>
-            <option id="A">4</option><option id="B">8</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">4</option><option id="B">8</option><option id="C">2</option>
             <answer>A</answer><explanation>Standard identity: [a x b, b x c, c x a] = [a b c]^2 = 2^2 = 4.</explanation></question>
         <question>
             <text>Minimum value of |a + b| if |a|=3, |b|=4 is:</text>
-            <option id="A">1</option><option id="B">7</option><option id="C">5</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">7</option><option id="C">5</option>
             <answer>A</answer><explanation>When vectors are in opposite directions.</explanation></question>
         <question>
             <text>Angle between a and b if |a x b| = sqrt(3) a.b:</text>
-            <option id="A">60 degrees</option><option id="B">30 degrees</option><option id="C">45 degrees</option><option id="D">None</option>
+            <option id="A">60 degrees</option><option id="B">30 degrees</option><option id="C">45 degrees</option>
             <answer>A</answer><explanation>sin theta = sqrt(3) cos theta -&gt; tan theta = sqrt(3) -&gt; 60 degrees.</explanation></question>
         <question>
             <text>Distance of point 2i - j - 4k from plane r.(3i - 4j + 12k) = 9 is:</text>
-            <option id="A">1/13</option><option id="B">4/13</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1/13</option><option id="B">4/13</option>
             <answer>A</answer><explanation>| (6+4-48-9) / 13 | = | -47 / 13 |? Wait. 3(2) - 4(-1) + 12(-4) = 6+4-48 = -38. |-38-9|/13 = 47/13. Let me re-calculate: 3(2) + (-4)(-1) + 12(-4) = 6 + 4 - 48 = -38. Absolute: |-38-9| / 13 = 47/13.</explanation></question>
         <question>
             <text>The vectors a, b, c are non-coplanar. [a-b b-c c-a] = :</text>
-            <option id="A">0</option><option id="B">2 [a b c]</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">0</option><option id="B">2 [a b c]</option>
             <answer>A</answer><explanation>Cyclic difference sum is always 0 in STP.</explanation></question>
         <question>
             <text>Find r if r.a = 0, r.b = 0, r.c = 1. Solution exists if:</text>
-            <option id="A">a, b, c are non-coplanar</option><option id="B">a, b are parallel</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">a, b, c are non-coplanar</option><option id="B">a, b are parallel</option>
             <answer>A</answer><explanation>r must be along a x b. r = k(a x b). r.c = k [a b c] = 1 -&gt; k = 1/[a b c].</explanation></question>
         <question>
             <text>Lagrange's identity: (a x b).(c x d) = :</text>
-            <option id="A">(a.c)(b.d) - (a.d)(b.c)</option><option id="B">(a.b)(c.d)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(a.c)(b.d) - (a.d)(b.c)</option><option id="B">(a.b)(c.d)</option>
             <answer>A</answer><explanation>Vector identity for dot product of cross products.</explanation></question>
         <question>
             <text>Volume of tetrahedron with vertices (0,0,0), i, j, k:</text>
-            <option id="A">1/6</option><option id="B">1/3</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">1/6</option><option id="B">1/3</option><option id="C">1</option>
             <answer>A</answer><explanation>1/6 of volume of parallelepiped.</explanation></question>
         <question>
             <text>Shortest distance between lines r = a + tb and r = c + sd:</text>
-            <option id="A">| (c-a).(b x d) | / |b x d|</option><option id="B">| (c-a) x (b-d) |</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">| (c-a).(b x d) | / |b x d|</option><option id="B">| (c-a) x (b-d) |</option>
             <answer>A</answer><explanation>Standard 3D vector formula.</explanation></question>
         <question>
             <text>If a is a unit vector and (x-a).(x+a) = 15, then |x| is:</text>
-            <option id="A">4</option><option id="B">sqrt(14)</option><option id="C">16</option><option id="D">None</option>
+            <option id="A">4</option><option id="B">sqrt(14)</option><option id="C">16</option>
             <answer>A</answer><explanation>|x|^2 - |a|^2 = 15 -&gt; |x|^2 - 1 = 15 -&gt; |x|^2 = 16.</explanation></question>
         <question>
             <text>Reciprocal system of vectors a, b, c defined by a' = (b x c) / [a b c], etc. Then a.a' = :</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">[a b c]</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option><option id="C">[a b c]</option>
             <answer>A</answer><explanation>Property of reciprocal vectors.</explanation></question>
         <question>
             <text>Angle between line r = a + tb and plane r.n = d is phi. Then sin phi = :</text>
-            <option id="A">|b.n| / (|b||n|)</option><option id="B">b.n</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">|b.n| / (|b||n|)</option><option id="B">b.n</option>
             <answer>A</answer><explanation>Angle between line and normal is 90-phi.</explanation></question>
         <question>
             <text>Intersection of planes r.n1 = d1 and r.n2 = d2 is a line parallel to:</text>
-            <option id="A">n1 x n2</option><option id="B">n1 + n2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">n1 x n2</option><option id="B">n1 + n2</option>
             <answer>A</answer><explanation>Direction of common line is perpendicular to both normals.</explanation></question>
         <question>
             <text>If a, b are unit vectors and a+b is unit vector, angle theta is:</text>
-            <option id="A">120 degrees</option><option id="B">60 degrees</option><option id="C">90 degrees</option><option id="D">None</option>
+            <option id="A">120 degrees</option><option id="B">60 degrees</option><option id="C">90 degrees</option>
             <answer>A</answer><explanation>|a+b|^2 = 1+1+2 cos theta = 1 -&gt; cos theta = -1/2.</explanation></question>
         <question>
             <text>The vector (a x b) x (c x d) lies along the line of intersection of:</text>
-            <option id="A">Planes of (a,b) and (c,d)</option><option id="B">Planes of (a,c) and (b,d)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Planes of (a,b) and (c,d)</option><option id="B">Planes of (a,c) and (b,d)</option>
             <answer>A</answer><explanation>Perpendicular to both cross products, so in both planes.</explanation></question>
         <question>
             <text>Angle between two diagonals of a cube is:</text>
-            <option id="A">cos^{-1}(1/3)</option><option id="B">cos^{-1}(2/3)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">cos^{-1}(1/3)</option><option id="B">cos^{-1}(2/3)</option>
             <answer>A</answer><explanation>Diagonals are i+j+k and -i+j+k. Dot product = 1.</explanation></question>
         <question>
             <text>If |a|=1, |b|=2, |c|=3 and [a b c] = 6, then a, b, c are:</text>
-            <option id="A">Mutually perpendicular</option><option id="B">Coplanar</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Mutually perpendicular</option><option id="B">Coplanar</option>
             <answer>A</answer><explanation>Volume is product of magnitudes only if orthogonal.</explanation></question>
         <question>
             <text>Minimum distance between a point and line r = a + tb:</text>
-            <option id="A">| (p-a) x b | / |b|</option><option id="B">| (p-a).b |</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">| (p-a) x b | / |b|</option><option id="B">| (p-a).b |</option>
             <answer>A</answer><explanation>Vector distance formula.</explanation></question>
         <question>
             <text>If a x b = a x c, then:</text>
-            <option id="A">a is parallel to b-c</option><option id="B">b = c</option><option id="C">a perpendicular b-c</option><option id="D">None</option>
+            <option id="A">a is parallel to b-c</option><option id="B">b = c</option><option id="C">a perpendicular b-c</option>
             <answer>A</answer><explanation>a x (b-c) = 0.</explanation></question>
         <question>
             <text>Area of quadrilateral with diagonals a and b is:</text>
-            <option id="A">1/2 |a x b|</option><option id="B">|a x b|</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1/2 |a x b|</option><option id="B">|a x b|</option>
             <answer>A</answer><explanation>Generic quadrilateral area formula.</explanation></question>
         <question>
             <text>Unit vector along bisector of angle between i and j:</text>
-            <option id="A">(i + j) / sqrt(2)</option><option id="B">i + j</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(i + j) / sqrt(2)</option><option id="B">i + j</option>
             <answer>A</answer><explanation>Sum of unit vectors divided by magnitude.</explanation></question>
         <question>
             <text>If |a|=|b|=1 and |a+b|=sqrt(2), find angle:</text>
-            <option id="A">90 degrees</option><option id="B">45 degrees</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">90 degrees</option><option id="B">45 degrees</option>
             <answer>A</answer><explanation>1+1 + 2 cos theta = 2 -&gt; cos theta = 0.</explanation></question>
         <question>
             <text>If a, b, c are unit vectors, [a b c]^2 &lt;= 1. TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>Magnitude of STP &lt;= product of magnitudes = 1.</explanation></question>
         <question>
             <text>Intersection of three planes [a b c] != 0 is:</text>
-            <option id="A">Unique point</option><option id="B">Common line</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Unique point</option><option id="B">Common line</option>
             <answer>A</answer><explanation>STP != 0 means normals are linearly independent.</explanation></question>
         <question>
             <text>Vector projection of a on b plus projection of b on a is:</text>
-            <option id="A">None of these (depends on vectors)</option><option id="B">0</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">None of these (depends on vectors)</option><option id="B">0</option>
             <answer>A</answer><explanation>Vector quantity, not specific unless vectors are related.</explanation></question>
         <question>
             <text>If a.b = a.c and a x b = a x c, then b = c if a != 0. TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>a x (b-c) = 0 and a.(b-c) = 0. A vector cannot be both parallel and perpendicular to a non-zero vector unless it's zero.</explanation></question>
         <question>
             <text>Scalar component of a=2i+3j+k on b=i+j+k:</text>
-            <option id="A">6/sqrt(3)</option><option id="B">2 sqrt(3)</option><option id="C">None</option><option id="D">All are correct</option>
+            <option id="A">6/sqrt(3)</option><option id="B">2 sqrt(3)</option><option id="D">All are correct</option>
             <answer>D</answer><explanation>(2+3+1)/sqrt(3) = 6/sqrt(3) = 2 sqrt(3).</explanation></question>
         <question>
             <text>Angle between a and b if |a+b| = |a| + |b|:</text>
-            <option id="A">0 degrees</option><option id="B">180 degrees</option><option id="C">90 degrees</option><option id="D">None</option>
+            <option id="A">0 degrees</option><option id="B">180 degrees</option><option id="C">90 degrees</option>
             <answer>A</answer><explanation>Triangle inequality becomes equality when vectors are collinear and same direction.</explanation></question>
         <question>
             <text>Number of unit vectors perpendicular to a and b is:</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">Infinite</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option><option id="C">Infinite</option>
             <answer>A</answer><explanation>+- (a x b) / |a x b|.</explanation></question>
         <question>
             <text>If a is unit vector, then |a x i|^2 + |a x j|^2 + |a x k|^2 = :</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">3</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option><option id="C">3</option>
             <answer>A</answer><explanation>|a x i|^2 = |a|^2 - (a.i)^2? No, |a x b|^2 = |a|^2 - (a.b)^2. Sum = 3|a|^2 - (|a.i|^2 + |a.j|^2 + |a.k|^2) = 3(1) - 1 = 2.</explanation></question>
         <question>
             <text>Work done by F = i+j+k in moving x from origin to i+j+k:</text>
-            <option id="A">3 units</option><option id="B">1 unit</option><option id="C">sqrt(3)</option><option id="D">None</option>
+            <option id="A">3 units</option><option id="B">1 unit</option><option id="C">sqrt(3)</option>
             <answer>A</answer><explanation>(i+j+k).(i+j+k) = 1+1+1 = 3.</explanation></question>
         <question>
             <text>Moment of force F about point P is:</text>
-            <option id="A">r x F</option><option id="B">r.F</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">r x F</option><option id="B">r.F</option>
             <answer>A</answer><explanation>Torque vector definition.</explanation></question>
         <question>
             <text>Projection of i on j+k is:</text>
-            <option id="A">0</option><option id="B">1/sqrt(2)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">0</option><option id="B">1/sqrt(2)</option>
             <answer>A</answer><explanation>i is perpendicular to both j and k.</explanation></question>
     </hard>
 </chapter>

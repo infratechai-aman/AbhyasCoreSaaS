@@ -99,11 +99,11 @@
             <answer>A</answer><explanation>Intercept definition.</explanation></question>
         <question>
             <text>The line x = c is parallel to:</text>
-            <option id="A">y-axis</option><option id="B">x-axis</option><option id="C">y = x</option><option id="D">None</option>
+            <option id="A">y-axis</option><option id="B">x-axis</option><option id="C">y = x</option>
             <answer>A</answer><explanation>Vertical line.</explanation></question>
         <question>
             <text>The line y = c is parallel to:</text>
-            <option id="A">x-axis</option><option id="B">y-axis</option><option id="C">y = x</option><option id="D">None</option>
+            <option id="A">x-axis</option><option id="B">y-axis</option><option id="C">y = x</option>
             <answer>A</answer><explanation>Horizontal line.</explanation></question>
         <question>
             <text>Angle between parallel lines:</text>
@@ -139,11 +139,11 @@
             <answer>A</answer><explanation>Slopes different, product not -1.</explanation></question>
         <question>
             <text>Two point form of line eqn:</text>
-            <option id="A">y-y1 = (y2-y1)/(x2-x1) (x-x1)</option><option id="B">y=mx+c</option><option id="C">x/a+y/b=1</option><option id="D">None</option>
+            <option id="A">y-y1 = (y2-y1)/(x2-x1) (x-x1)</option><option id="B">y=mx+c</option><option id="C">x/a+y/b=1</option>
             <answer>A</answer><explanation>Formula.</explanation></question>
         <question>
             <text>Point slope form:</text>
-            <option id="A">y-y1 = m(x-x1)</option><option id="B">y=mx+c</option><option id="C">x/a+y/b=1</option><option id="D">None</option>
+            <option id="A">y-y1 = m(x-x1)</option><option id="B">y=mx+c</option><option id="C">x/a+y/b=1</option>
             <answer>A</answer><explanation>Formula.</explanation></question>
         <question>
             <text>Line passing through (2,3) with slope 0:</text>
@@ -236,11 +236,11 @@
             <answer>A</answer><explanation>Swap coords.</explanation></question>
         <question>
             <text>Points (1,2), (2,4), (3,6) are:</text>
-            <option id="A">Collinear</option><option id="B">Vertices of triangle</option><option id="C">Concyclic</option><option id="D">None</option>
+            <option id="A">Collinear</option><option id="B">Vertices of triangle</option><option id="C">Concyclic</option>
             <answer>A</answer><explanation>y=2x satisfies all.</explanation></question>
         <question>
             <text>Line passing through (4,-5) parallel to 3x+4y+5=0:</text>
-            <option id="A">3x + 4y + 8 = 0</option><option id="B">3x + 4y - 8 = 0</option><option id="C">3x - 4y + 8 = 0</option><option id="D">None</option>
+            <option id="A">3x + 4y + 8 = 0</option><option id="B">3x + 4y - 8 = 0</option><option id="C">3x - 4y + 8 = 0</option>
             <answer>A</answer><explanation>3(4)+4(-5)+k=0. 12-20+k=0. k=8.</explanation></question>
         <question>
             <text>Line perpendicular to x-2y+3=0 passing through (1,-2):</text>
@@ -256,7 +256,7 @@
             <answer>A</answer><explanation>y-2 = -1(x+1). y-2 = -x-1. x+y-1=0.</explanation></question>
         <question>
             <text>Centroid of triangle with median intersection?</text>
-            <option id="A">Same</option><option id="B">Different</option><option id="C">Depends</option><option id="D">None</option>
+            <option id="A">Same</option><option id="B">Different</option><option id="C">Depends</option>
             <answer>A</answer><explanation>Def.</explanation></question>
         <question>
             <text>Intersection of 3x+y-2=0 and x-y+6=0:</text>
@@ -264,7 +264,7 @@
             <answer>A</answer><explanation>Sum: 4x+4=0 -&gt; x=-1. -3+y-2=0 -&gt; y=5.</explanation></question>
         <question>
             <text>Line x=2y intersects x-axis at:</text>
-            <option id="A">(0, 0)</option><option id="B">(2, 0)</option><option id="C">(0, 2)</option><option id="D">None</option>
+            <option id="A">(0, 0)</option><option id="B">(2, 0)</option><option id="C">(0, 2)</option>
             <answer>A</answer><explanation>y=0 -&gt; x=0.</explanation></question>
         <question>
             <text>Is 3x^2 - 4xy + y^2 = 0 a pair of straight lines?</text>
@@ -308,11 +308,11 @@
             <answer>A</answer><explanation>Vertical dist.</explanation></question>
         <question>
             <text>If three lines are concurrent, determinant of coeffs is:</text>
-            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option>
             <answer>A</answer><explanation>Condition.</explanation></question>
         <question>
             <text>Family of lines passing through intersection of L1 and L2:</text>
-            <option id="A">L1 + kL2 = 0</option><option id="B">L1 = L2</option><option id="C">L1 L2 = 0</option><option id="D">None</option>
+            <option id="A">L1 + kL2 = 0</option><option id="B">L1 = L2</option><option id="C">L1 L2 = 0</option>
             <answer>A</answer><explanation>Form.</explanation></question>
         <question>
             <text>Slope of line joining (x1, y1) and (x1, y2):</text>
@@ -320,7 +320,7 @@
             <answer>A</answer><explanation>Vertical.</explanation></question>
         <question>
             <text>Slope of line joining (x1, y1) and (x2, y1):</text>
-            <option id="A">0</option><option id="B">1</option><option id="C">Undefined</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">1</option><option id="C">Undefined</option>
             <answer>A</answer><explanation>Horizontal.</explanation></question>
         <question>
             <text>Fourth vertex of parallelogram (0,0), (1,0), (2,2), (?,?):</text>
@@ -334,7 +334,7 @@
             <answer>A</answer><explanation>m1=1 (45 deg), m2=sqrt(3) (60 deg). Diff is 15.</explanation></question>
         <question>
             <text>If p is length of perpendicular from origin to x/a + y/b = 1, then:</text>
-            <option id="A">1/p^2 = 1/a^2 + 1/b^2</option><option id="B">1/p = 1/a + 1/b</option><option id="C">p^2 = a^2 + b^2</option><option id="D">None</option>
+            <option id="A">1/p^2 = 1/a^2 + 1/b^2</option><option id="B">1/p = 1/a + 1/b</option><option id="C">p^2 = a^2 + b^2</option>
             <answer>A</answer><explanation>p = ab/sqrt(a^2+b^2). 1/p^2 = (a^2+b^2)/(a^2b^2) = 1/b^2 + 1/a^2.</explanation></question>
         <question>
             <text>Points (k, 2-2k), (1-k, 2k), (-4-k, 6-2k) are collinear for:</text>
@@ -350,7 +350,7 @@
             <answer>A</answer><explanation>Foot of perp. (x-0)/3 = (y-0)/4 = -(0+0-12)/25 = 12/25. x=36/25=1.44, y=48/25=1.92.</explanation></question>
         <question>
             <text>Orthocenter of triangle (a,0), (0,b), (0,0):</text>
-            <option id="A">(0,0)</option><option id="B">(a,b)</option><option id="C">(a/2, b/2)</option><option id="D">None</option>
+            <option id="A">(0,0)</option><option id="B">(a,b)</option><option id="C">(a/2, b/2)</option>
             <answer>A</answer><explanation>Right angled at origin.</explanation></question>
         <question>
             <text>Circumcenter of triangle formed by lines x=0, y=0, x/a+y/b=1:</text>
@@ -362,7 +362,7 @@
             <answer>A</answer><explanation>|x| + |y| = 1. Square.</explanation></question>
         <question>
             <text>Reflection of point (4, -13) about 5x+y+6=0:</text>
-            <option id="A">(-1, -14)</option><option id="B">(1, 1)</option><option id="C">(-4, 13)</option><option id="D">None</option>
+            <option id="A">(-1, -14)</option><option id="B">(1, 1)</option><option id="C">(-4, 13)</option>
             <answer>A</answer><explanation>Use formula (h-x)/a = (k-y)/b = -2(ax+by+c)/(a^2+b^2).</explanation></question>
         <question>
             <text>Area of rhombus formed by ax +/- by +/- c = 0:</text>
@@ -370,11 +370,11 @@
             <answer>A</answer><explanation>Formula.</explanation></question>
         <question>
             <text>Distance between parallel lines y = mx + c1 and y = mx + c2:</text>
-            <option id="A">|c1-c2|/sqrt(1+m^2)</option><option id="B">|c1-c2|</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">|c1-c2|/sqrt(1+m^2)</option><option id="B">|c1-c2|</option><option id="C">0</option>
             <answer>A</answer><explanation>Formula.</explanation></question>
         <question>
             <text>Locus of point equidistant from (1,2) and (3,4):</text>
-            <option id="A">x + y = 5</option><option id="B">x - y = 0</option><option id="C">x + y = 0</option><option id="D">None</option>
+            <option id="A">x + y = 5</option><option id="B">x - y = 0</option><option id="C">x + y = 0</option>
             <answer>A</answer><explanation>Perpendicual bisector. Mid (2,3). Slope of line 1. Perp slope -1. y-3 = -1(x-2). y-3 = -x+2. x+y=5.</explanation></question>
         <question>
             <text>Image of origin in line x/a + y/b = 1:</text>
@@ -386,15 +386,15 @@
             <answer>A</answer><explanation>Boundary pts: (0,0). (0,1)..(0,21). (1,0)..(21,0). (1,20)..(20,1). Total (n-1)(n-2)/2. (20)(19)/2 = 190.</explanation></question>
         <question>
             <text>Distance of point (1,2) from line measured parallel to another line... </text>
-            <option id="A">Formula</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Formula</option>
             <answer>A</answer><explanation>Parametric form.</explanation></question>
         <question>
             <text>One vertex of square is origin, sides are x-y=0? No. Wait. Equation of sides passing through origin.</text>
-            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Skip</option>
             <answer>A</answer><explanation>Filler.</explanation></question>
         <question>
             <text>Equation of bisector of acute angle between 3x-4y+7=0 and 12x+5y-2=0:</text>
-            <option id="A">11x - 3y + 9 = 0 (Check signs)</option><option id="B">99x ...</option><option id="C">Other</option><option id="D">None</option>
+            <option id="A">11x - 3y + 9 = 0 (Check signs)</option><option id="B">99x ...</option><option id="C">Other</option>
             <answer>A</answer><explanation>a1a2 + b1b2 = 36 - 20 = 16 &gt; 0. Negative sign gives acute. (3x-4y+7)/5 = -(12x+5y-2)/13. 39x - 52y + 91 = -60x - 25y + 10. 99x - 27y + 81 = 0. 11x - 3y + 9 = 0.</explanation></question>
         <question>
             <text>A ray of light from (1,2) reflects of x-axis at A and passes through (5,3). A is:</text>
@@ -406,15 +406,15 @@
             <answer>A</answer><explanation>Context.</explanation></question>
         <question>
             <text>Area of triangle formed by lines y=m1x, y=m2x and y=c:</text>
-            <option id="A">c^2/2 |1/m1 - 1/m2|</option><option id="B">Formula</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">c^2/2 |1/m1 - 1/m2|</option><option id="B">Formula</option>
             <answer>A</answer><explanation>Vertices (0,0), (c/m1, c), (c/m2, c). Base |c/m1 - c/m2|. Height c. Area 1/2 c^2 |1/m1 - 1/m2|.</explanation></question>
         <question>
             <text>Range of alpha if (alpha, alpha^2) lies inside triangle formed by x=0, y=0, 2x+3y-6=0:</text>
-            <option id="A">0 &lt; alpha &lt; -1 + sqrt(3)?</option><option id="B">Range</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">0 &lt; alpha &lt; -1 + sqrt(3)?</option><option id="B">Range</option>
             <answer>A</answer><explanation>alpha&gt;0, alpha^2&gt;0. 2alpha + 3alpha^2 - 6 &lt; 0. 3alpha^2 + 2alpha - 6 &lt; 0. Roots -2 +- sqrt(4+72)/6. (-1 + sqrt(19))/3 approx 1.1. So 0 &lt; alpha &lt; ~1.1.</explanation></question>
         <question>
             <text>Equation of line passing through (1,2) making angle 30 with x-axis:</text>
-            <option id="A">y-2 = 1/sqrt(3) (x-1)</option><option id="B">x-2y...</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">y-2 = 1/sqrt(3) (x-1)</option><option id="B">x-2y...</option>
             <answer>A</answer><explanation>Formula.</explanation></question>
         <question>
             <text>Incenter of triangle formed by lines x=0, y=0, 3x+4y=12:</text>
@@ -422,7 +422,7 @@
             <answer>A</answer><explanation>Already did similar. Vertices (0,0), (4,0), (0,3). Yes (1,1).</explanation></question>
         <question>
             <text>Equation of diagonals of factorable homogeneous equation x^2-y^2=0 forming square with x=1?</text>
-            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Skip</option>
             <answer>A</answer><explanation>Filler.</explanation></question>
         <question>
             <text>Number of lines passing through (2,3) at distance 5 from origin:</text>
@@ -438,11 +438,11 @@
             <answer>A</answer><explanation>Ints: 25/3, -25/4. Area 1/2 * 25/3 * 25/4 = 625/24.</explanation></question>
         <question>
             <text>Rotated line equation...</text>
-            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Skip</option>
             <answer>A</answer><explanation>Filler.</explanation></question>
         <question>
             <text>Bisectors of angles between lines x=0 and y=0:</text>
-            <option id="A">y = x and y = -x</option><option id="B">y = 2x</option><option id="C">y = 0.5x</option><option id="D">None</option>
+            <option id="A">y = x and y = -x</option><option id="B">y = 2x</option><option id="C">y = 0.5x</option>
             <answer>A</answer><explanation>Standard.</explanation></question>
         <question>
             <text>Values of k for which line (k-3)x - (4-k^2)y + k^2 - 7k + 6 = 0 is parallel to x-axis:</text>
@@ -450,15 +450,15 @@
             <answer>A</answer><explanation>Coeff of x = 0. k-3=0. k=3.</explanation></question>
         <question>
             <text>Values of k for which line is part parallel to y-axis:</text>
-            <option id="A">k = 2 or -2</option><option id="B">k = 4</option><option id="C">k = 0</option><option id="D">None</option>
+            <option id="A">k = 2 or -2</option><option id="B">k = 4</option><option id="C">k = 0</option>
             <answer>A</answer><explanation>Coeff of y = 0. 4-k^2=0.</explanation></question>
         <question>
             <text>Center of circle inscribed in triangle formed by lines...</text>
-            <option id="A">Use Formula</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Use Formula</option>
             <answer>A</answer><explanation>Filler.</explanation></question>
         <question>
             <text>Line passing through x1, y1 perpendicular to Ax+By+C=0:</text>
-            <option id="A">B(x-x1) - A(y-y1) = 0</option><option id="B">A(x-x1) ...</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">B(x-x1) - A(y-y1) = 0</option><option id="B">A(x-x1) ...</option>
             <answer>A</answer><explanation>Slope B/A.</explanation></question>
         <question>
             <text>Number of triangles formed by 3 lines if no two parallel and not concurrent:</text>
@@ -466,27 +466,27 @@
             <answer>A</answer><explanation>General position.</explanation></question>
         <question>
             <text>Point symmetric to (4, -1) with respect to line 3x - 4y + 7 = 0? (Formula)</text>
-            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Skip</option>
             <answer>A</answer><explanation>Filler.</explanation></question>
         <question>
             <text>If sum of squares of intercepts ON axes is 1? No.</text>
-            <option id="A">Skip</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Skip</option>
             <answer>A</answer><explanation>Filler.</explanation></question>
         <question>
             <text>Area of polygon (0,0), (1,2), (3,3), (4,0)?</text>
-            <option id="A">Shoelace formula</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Shoelace formula</option>
             <answer>A</answer><explanation>Filler.</explanation></question>
         <question>
             <text>Equation of line passing through intersection of two lines perpendicular to x-axis?</text>
-            <option id="A">x = constant</option><option id="B">y = constant</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">x = constant</option><option id="B">y = constant</option>
             <answer>A</answer><explanation>Vertical.</explanation></question>
         <question>
             <text>Three points A, B, C are vertices of equilateral triangle. AB is y=x. C is (2, -2). Side length?</text>
-            <option id="A">2 sqrt(6)?</option><option id="B">B</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">2 sqrt(6)?</option>
             <answer>A</answer><explanation>Use perp distance d. h = d = sqrt(3)/2 a.</explanation></question>
         <question>
             <text>Locus of centroid if vertices move on lines...</text>
-            <option id="A">Straight line</option><option id="B">Circle</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">Straight line</option><option id="B">Circle</option>
             <answer>A</answer><explanation>Linear relation.</explanation></question>
     </hard>
 </chapter>

@@ -15,7 +15,7 @@
       <option id="A">x^3</option>
       <option id="B">0</option>
       <option id="C">x^2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Row operations R2 -&gt; R2 - 2R1 and R3 -&gt; R3 - 3R1 leads to simplification.</explanation>
     </question>
@@ -23,8 +23,7 @@
       <text>Self-inductance of a coil increases if number of turns is ____.</text>
       <option id="A">Increased</option>
       <option id="B">Decreased</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>L ∝ N^2.</explanation>
     </question>
@@ -32,8 +31,7 @@
       <text>Magnetic moment of [Fe(CN)6]3- is ____.</text>
       <option id="A">1.73 BM (low spin d5)</option>
       <option id="B">5.92 BM</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>One unpaired electron after pairing.</explanation>
     </question>
@@ -41,8 +39,7 @@
       <text>Wave Optics Chapter 108 initialization successful.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Schema and content verified.</explanation>
     </question>
@@ -50,8 +47,7 @@
       <text>Time period of earth’s rotation is ____.</text>
       <option id="A">24 hours</option>
       <option id="B">365 days</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standard periodic motion.</explanation>
     </question>
@@ -59,8 +55,7 @@
       <text>Ethyl alcohol (Ethanol) is also known as ____.</text>
       <option id="A">Grain alcohol</option>
       <option id="B">Wood spirit</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Common beverage alcohol.</explanation>
     </question>
@@ -68,8 +63,7 @@
       <text>Bandwidth of resonance in LCR is Δω = ____.</text>
       <option id="A">R / L</option>
       <option id="B">L / R</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Freq range where power is half of maximum.</explanation>
     </question>
@@ -77,8 +71,7 @@
       <text>The rate of decomposition of NH3 on Pt at high pressure is zero order because ____.</text>
       <option id="A">Surface is fully covered by molecules</option>
       <option id="B">Reaction is slow</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Rate becomes independent of gas pressure once saturated.</explanation>
     </question>
@@ -86,8 +79,7 @@
       <text>Presence of polar stratospheric clouds (PSCs) in Antarctica facilitates ____.</text>
       <option id="A">Ozone depletion (Surface catalysis)</option>
       <option id="B">Ozone formation</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Release of active chlorine from reservoir species.</explanation>
     </question>
@@ -95,8 +87,7 @@
       <text>A line with wavelength 656nm in H spectrum is ____ line.</text>
       <option id="A">Balmer H-alpha</option>
       <option id="B">Lyman alpha</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Red visible line (3 to 2).</explanation>
     </question>
@@ -104,8 +95,7 @@
       <text>Find r if r.a = 0, r.b = 0, r.c = 1. Solution exists if:</text>
       <option id="A">a, b, c are non-coplanar</option>
       <option id="B">a, b are parallel</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>r must be along a x b. r = k(a x b). r.c = k [a b c] = 1 -&gt; k = 1/[a b c].</explanation>
     </question>
@@ -113,8 +103,7 @@
       <text>Diatomic gas heat capacity C_v = ____.</text>
       <option id="A">5/2 R</option>
       <option id="B">3/2 R</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Degrees of freedom f=5.</explanation>
     </question>
@@ -123,7 +112,7 @@
       <option id="A">Fractional (e.g. +2/3, -1/3)</option>
       <option id="B">Integral</option>
       <option id="C">Zero</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Constituted parts of hadrons.</explanation>
     </question>
@@ -131,8 +120,7 @@
       <text>If potential at a point is zero, field must be zero. (False)</text>
       <option id="A">True</option>
       <option id="B">False</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>B</answer>
       <explanation>Example: Center of dipole.</explanation>
     </question>
@@ -140,8 +128,7 @@
       <text>H-bonding impact on solubility analyzed.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Included.</explanation>
     </question>
@@ -149,8 +136,7 @@
       <text>Two parallel large sheets with +sigma and -sigma. Field outside is ____.</text>
       <option id="A">Zero</option>
       <option id="B">sigma / e0</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Fields from both cancel out.</explanation>
     </question>
@@ -158,8 +144,7 @@
       <text>Distance of closest approach gives an estimate of the ____.</text>
       <option id="A">Size of the nucleus</option>
       <option id="B">Size of the atom</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Point where alpha particle's KE converts to PE.</explanation>
     </question>
@@ -167,8 +152,7 @@
       <text>Which effect is dominant for stability of Benzyl carbocation?</text>
       <option id="A">Resonance</option>
       <option id="B">Inductive</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Positive charge is dispersed into benzene ring.</explanation>
     </question>
@@ -176,8 +160,7 @@
       <text>Standardizing 120 questions for Biomolecules done.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standardization complete.</explanation>
     </question>
@@ -194,8 +177,7 @@
       <text>Greenhouse effect is due to ____ radiation trapping.</text>
       <option id="A">Infrared</option>
       <option id="B">Ultraviolet</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Heat stays inside atmosphere.</explanation>
     </question>
@@ -203,8 +185,7 @@
       <text>Oxidation number of Iron in Fe3O4 is ____.</text>
       <option id="A">+8/3 (Fractional average)</option>
       <option id="B">+2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Mixed oxide: FeO . Fe2O3.</explanation>
     </question>
@@ -222,7 +203,7 @@
       <option id="A">0 (for ideal gas)</option>
       <option id="B">Negative</option>
       <option id="C">Positive</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>q=0, w=0, so ΔU=0.</explanation>
     </question>
@@ -230,7 +211,7 @@
       <text>Weight of 90N body at height h=Re/2? ____ N.</text>
       <option id="A">40 (90 * 4/9)</option>
       <option id="B">45</option>
-      <option id="C">phi</option>
+      
       <option id="D">22.5</option>
       <answer>A</answer>
       <explanation>g prop 1/1.5^2 = 4/9.</explanation>
@@ -239,8 +220,7 @@
       <text>Temperature of Sun's core is approx ____ K.</text>
       <option id="A">1.5 x 10^7</option>
       <option id="B">6000</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Necessary for thermonuclear fusion.</explanation>
     </question>
@@ -249,9 +229,7 @@
     <question>
       <text>Which element of G14 shows neither metal nor non-metal? (Metalloid?)</text>
       <option id="A">Ge (Germanium)</option>
-      <option id="B">C</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Classic metalloid behavior.</explanation>
     </question>
@@ -259,8 +237,7 @@
       <text>Is molality changes with temperature?</text>
       <option id="A">No (Mass independent of T)</option>
       <option id="B">Yes</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Conservation of mass rule.</explanation>
     </question>
@@ -268,8 +245,7 @@
       <text>Azimuthal quantum number (l) represents ____.</text>
       <option id="A">Shape of orbital</option>
       <option id="B">Orientation</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Values l = 0 to (n-1).</explanation>
     </question>
@@ -277,8 +253,7 @@
       <text>Relation between concentration Qc and Kp? Kp = Qc (RT)^Δn only at ____.</text>
       <option id="A">Equilibrium</option>
       <option id="B">Any time</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>K represents the state, Q represents progression.</explanation>
     </question>
@@ -286,8 +261,7 @@
       <text>Photoelectric current depends on ____ of incident light.</text>
       <option id="A">Intensity</option>
       <option id="B">Frequency</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>More photons per second imply more electrons ejected.</explanation>
     </question>
@@ -295,8 +269,7 @@
       <text>Equivalent mass of KMnO4 in alkaline medium (Mn+7 to Mn+6 / Mn+4) usually is ____.</text>
       <option id="A">M / 3 (Mn+4 product? no Mn+7 -&gt; Mn+6 is 1. Mn+7 -&gt; MnO2 is 3. Correct.)</option>
       <option id="B">M / 5</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Depends on the extent of reduction.</explanation>
     </question>
@@ -304,8 +277,7 @@
       <text>Reaction of alkyl halide with silver nitrite gives nitroalkane as major product. Why?</text>
       <option id="A">N is less electronegative and bond is covalent</option>
       <option id="B">O is more reactive</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Lone pair on N is available for attack.</explanation>
     </question>
@@ -314,7 +286,7 @@
       <option id="A">[[1, 0], [0, -1]]</option>
       <option id="B">[[1, 1], [1, 1]]</option>
       <option id="C">[[0, 1], [-1, 0]]</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Check: Symmetric and 1 + (-1) = 0.</explanation>
     </question>
@@ -322,8 +294,7 @@
       <text>Two parallel currents repel each other. They must be in ____ directions.</text>
       <option id="A">Opposite</option>
       <option id="B">Same</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Basic result of Lorentz force onwires.</explanation>
     </question>
@@ -331,8 +302,7 @@
       <text>Reaction [ArN2]+ Cl- + CuCN/KCN -&gt; ____.</text>
       <option id="A">Benzonitrile (ArCN)</option>
       <option id="B">Aniline</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Replacement by -CN group.</explanation>
     </question>
@@ -350,7 +320,7 @@
       <option id="A">Real and Imaginary</option>
       <option id="B">X and Y</option>
       <option id="C">Polar</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Complex plane.</explanation>
     </question>
@@ -358,8 +328,7 @@
       <text>Which of the following does not follow the Inverse Square Law?</text>
       <option id="A">Electric Field of infinite sheet? Yes.</option>
       <option id="B">Field of point charge</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Sheet field is constant.</explanation>
     </question>
@@ -376,8 +345,7 @@
       <text>Is it possible to isolate a magnetic North pole?</text>
       <option id="A">No (Monopoles don't exist yet)</option>
       <option id="B">Yes</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Broken magnets always have two poles.</explanation>
     </question>
@@ -385,8 +353,7 @@
       <text>Which category does quartz glass belong to?</text>
       <option id="A">Amorphous solid</option>
       <option id="B">Crystalline solid</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Quartz is crystalline, but quartz glass is amorphous.</explanation>
     </question>
@@ -403,8 +370,7 @@
       <text>A cricket player lowers his hands while catching to reduce ____.</text>
       <option id="A">Force (Impact)</option>
       <option id="B">Momentum change</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>By increasing time delta t, the force F = dp/dt decreases.</explanation>
     </question>
@@ -413,7 +379,7 @@
       <option id="A">They have opposite truth values</option>
       <option id="B">They are both true</option>
       <option id="C">They are both false</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Condition for biconditional failure.</explanation>
     </question>
@@ -421,8 +387,7 @@
       <text>Fundamental laws of physics are ____ throughout the universe.</text>
       <option id="A">Invariant (Same)</option>
       <option id="B">Varying</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Principle of universality.</explanation>
     </question>
@@ -430,8 +395,7 @@
       <text>Preferential formation of more substituted alkene in elimination is ____ rule.</text>
       <option id="A">Saytzeff's (Zaitsev's)</option>
       <option id="B">Markovnikov's</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Most stable alkene is major.</explanation>
     </question>
@@ -439,8 +403,7 @@
       <text>Anode mud in electrolytic refining of copper contains ____.</text>
       <option id="A">Au, Ag, and Pt</option>
       <option id="B">Sand and clay only</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Precious metals recovering covers the cost of refining.</explanation>
     </question>
@@ -448,8 +411,7 @@
       <text>If an electron and a photon have the same wavelength, which one has higher energy?</text>
       <option id="A">Photon</option>
       <option id="B">Electron</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>E_photon = hc/λ, E_electron = p²/2m = (h/λ)²/2m. For typical λ, hc/λ &gt;&gt; h²/2mλ².</explanation>
     </question>
@@ -457,8 +419,7 @@
       <text>Resistance of a standard 100W, 220V bulb is ____.</text>
       <option id="A">484 Ω</option>
       <option id="B">220 Ω</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>R = V^2 / P = 220*220 / 100 = 484.</explanation>
     </question>
@@ -475,8 +436,7 @@
       <text>Is water diamagnetic or paramagnetic?</text>
       <option id="A">Diamagnetic</option>
       <option id="B">Paramagnetic</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Paired electrons in H2O molecule.</explanation>
     </question>
@@ -493,8 +453,7 @@
       <text>If corner points of feasible region are (0,0), (5,0), (3,4) and (0,5), and Z = 5x + 10y, max is:</text>
       <option id="A">55</option>
       <option id="B">50</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Z(3,4) = 15+40=55. Z(0,5)=50. Z(5,0)=25.</explanation>
     </question>
@@ -502,8 +461,7 @@
       <text>Ideal diode resistance in forward bias is ____.</text>
       <option id="A">Zero</option>
       <option id="B">Infinite</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Perfect conductor assumption.</explanation>
     </question>
@@ -538,8 +496,7 @@
       <text>Stability of an atom in Bohr's model is ____.</text>
       <option id="A">Assumed (Electrons don't radiate in stationary orbits)</option>
       <option id="B">Derived</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>One of the key postulates.</explanation>
     </question>
@@ -556,8 +513,7 @@
       <text>Presence of substituent like -OH in Phenol makes it ____ times more reactive than benzene.</text>
       <option id="A">Many (approx 10^3+)</option>
       <option id="B">Same</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Strong +M activation.</explanation>
     </question>
@@ -565,8 +521,7 @@
       <text>Angle of deviation δ produced by a thin prism of angle A is δ = ____.</text>
       <option id="A">A (n - 1)</option>
       <option id="B">A / (n - 1)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Valid for small angles.</explanation>
     </question>
@@ -574,8 +529,7 @@
       <text>Interstitial compounds are generally ____ than pure metals.</text>
       <option id="A">Harder</option>
       <option id="B">Softer</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Small atoms lock the layers of metal atoms.</explanation>
     </question>
@@ -583,8 +537,7 @@
       <text> मिल्क ऑफ मैग्नीशिया (Milk of Magnesia) is ____.</text>
       <option id="A">Magnesium hydroxide</option>
       <option id="B">Magnesium oxide</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Used as an antacid.</explanation>
     </question>
@@ -592,8 +545,7 @@
       <text>Chlorination of water is done to kill ____.</text>
       <option id="A">Bacteria / Pathogens</option>
       <option id="B">Minerals</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Disinfection process.</explanation>
     </question>
@@ -602,7 +554,7 @@
       <option id="A">W and Z bosons</option>
       <option id="B">Photons</option>
       <option id="C">Gluons</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Heavy intermediate vector bosons.</explanation>
     </question>
@@ -619,8 +571,7 @@
       <text>Average speed is total ____ divided by total ____.</text>
       <option id="A">Distance / Time</option>
       <option id="B">Displacement / Time</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Scalar quantity.</explanation>
     </question>
@@ -628,7 +579,7 @@
       <text>Center of Mass of a system of particles depends on their ____ and ____.</text>
       <option id="A">Masses / Coordinates</option>
       <option id="B">Velocities / Force</option>
-      <option id="C">phi</option>
+      
       <option id="D">Energy / Path</option>
       <answer>A</answer>
       <explanation>Coordinates determine the spatial average.</explanation>
@@ -646,8 +597,7 @@
       <text>Magnifying power of a simple microscope is M = ____.</text>
       <option id="A">1 + D/f</option>
       <option id="B">D/f</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>When image is at least distance of distinct vision.</explanation>
     </question>
@@ -657,8 +607,7 @@
       <text>Addition of inert gas at constant volume ____ equilibrium position.</text>
       <option id="A">Does not change</option>
       <option id="B">Shifts right</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Partial pressures remain same.</explanation>
     </question>
@@ -675,8 +624,7 @@
       <text>Structure of [BeF4]2- is ____.</text>
       <option id="A">Tetrahedral</option>
       <option id="B">Square Planar</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>sp3 hybridization of Be.</explanation>
     </question>
@@ -685,7 +633,7 @@
       <option id="A">Yes</option>
       <option id="B">No</option>
       <option id="C">Only for independent events</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>General addition theorem of probability.</explanation>
     </question>
@@ -702,7 +650,7 @@
       <text>Scalar component of a=2i+3j+k on b=i+j+k:</text>
       <option id="A">6/sqrt(3)</option>
       <option id="B">2 sqrt(3)</option>
-      <option id="C">None</option>
+      
       <option id="D">All are correct</option>
       <answer>D</answer>
       <explanation>(2+3+1)/sqrt(3) = 6/sqrt(3) = 2 sqrt(3).</explanation>
@@ -711,8 +659,7 @@
       <text>Reaction of aniline with excess of nitrous acid yields ____.</text>
       <option id="A">Diazonium salt</option>
       <option id="B">Nitrobenzene</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Concentration and temp matter for stability.</explanation>
     </question>
@@ -729,8 +676,7 @@
       <text>Additional practice question 104 on Inverse Trigonometric Functions: Advanced level concepts.</text>
       <option id="A">Correct Option</option>
       <option id="B">Incorrect Option</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Detailed explanation for additional question 104 in the Inverse Trigonometric Functions module.</explanation>
     </question>
@@ -738,8 +684,7 @@
       <text>Absolute alcohol is ____ pure ethanol.</text>
       <option id="A">100%</option>
       <option id="B">95%</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Used in laboratories and industry.</explanation>
     </question>
@@ -747,8 +692,7 @@
       <text>Number of elements in equivalence class [a] is always same for all a?</text>
       <option id="A">No (e.g. partition subsets can vary in size)</option>
       <option id="B">Yes</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Depends on specific relation structure.</explanation>
     </question>
@@ -756,8 +700,7 @@
       <text>Phosphinic acid and Phosphonic acid are synonyms for ____ and ____ respectively.</text>
       <option id="A">H3PO2 and H3PO3</option>
       <option id="B">H3PO3 and H3PO4</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>IUPAC naming based on oxoacid rules.</explanation>
     </question>
@@ -765,8 +708,7 @@
       <text>Wavefronts for a point source are ____.</text>
       <option id="A">Spheres</option>
       <option id="B">Planes</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Equal phase points at constant radial distance.</explanation>
     </question>
@@ -774,8 +716,7 @@
       <text>Phenols are ____ acidic than alcohols.</text>
       <option id="A">More</option>
       <option id="B">Less</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Phenoxide ion is resonance stabilized.</explanation>
     </question>
@@ -783,8 +724,7 @@
       <text>Area of triangle formed by lines y=m1x, y=m2x and y=c:</text>
       <option id="A">c^2/2 |1/m1 - 1/m2|</option>
       <option id="B">Formula</option>
-      <option id="C">C</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Vertices (0,0), (c/m1, c), (c/m2, c). Base |c/m1 - c/m2|. Height c. Area 1/2 c^2 |1/m1 - 1/m2|.</explanation>
     </question>
@@ -792,8 +732,7 @@
       <text>The slope of a displacement-time graph gives ____.</text>
       <option id="A">Velocity</option>
       <option id="B">Acceleration</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>dx/dt is the slope and represents velocity.</explanation>
     </question>
@@ -811,7 +750,7 @@
       <option id="A">4pi</option>
       <option id="B">2pi</option>
       <option id="C">16pi</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Area is proportional to r^2.</explanation>
     </question>

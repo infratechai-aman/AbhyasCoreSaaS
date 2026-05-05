@@ -11,7 +11,7 @@
             <answer>A</answer><explanation>n(A) * n(B) = 3 * 4 = 12.</explanation></question>
         <question>
             <text>An ordered pair (a, b) = (c, d) if and only if:</text>
-            <option id="A">a = c and b = d</option><option id="B">a = d and b = c</option><option id="C">a = c or b = d</option><option id="D">None</option>
+            <option id="A">a = c and b = d</option><option id="B">a = d and b = c</option><option id="C">a = c or b = d</option>
             <answer>A</answer><explanation>Equality of ordered pairs.</explanation></question>
         <question>
             <text>If A x B = {(a,1), (a,2), (b,1), (b,2)}, then A is:</text>
@@ -55,7 +55,7 @@
             <answer>A</answer><explanation>Possible outputs.</explanation></question>
         <question>
             <text>Range is a subset of:</text>
-            <option id="A">Codomain</option><option id="B">Domain</option><option id="C">A</option><option id="D">Real numbers</option>
+            <option id="A">Codomain</option><option id="B">Domain</option><option id="D">Real numbers</option>
             <answer>A</answer><explanation>Actual outputs subset of possible outputs.</explanation></question>
         <question>
             <text>Identity function I(x) = ?</text>
@@ -83,15 +83,15 @@
             <answer>A</answer><explanation>Denominator cannot be zero.</explanation></question>
         <question>
             <text>Sum of two functions (f+g)(x) is:</text>
-            <option id="A">f(x) + g(x)</option><option id="B">f(x)g(x)</option><option id="C">f(g(x))</option><option id="D">None</option>
+            <option id="A">f(x) + g(x)</option><option id="B">f(x)g(x)</option><option id="C">f(g(x))</option>
             <answer>A</answer><explanation>Pointwise addition.</explanation></question>
         <question>
             <text>Product of constant c and function f: (cf)(x) is:</text>
-            <option id="A">c * f(x)</option><option id="B">c + f(x)</option><option id="C">f(c)</option><option id="D">None</option>
+            <option id="A">c * f(x)</option><option id="B">c + f(x)</option><option id="C">f(c)</option>
             <answer>A</answer><explanation>Scalar multiplication.</explanation></question>
         <question>
             <text>Product of two real functions (fg)(x) is:</text>
-            <option id="A">f(x)g(x)</option><option id="B">f(g(x))</option><option id="C">f(x) + g(x)</option><option id="D">None</option>
+            <option id="A">f(x)g(x)</option><option id="B">f(g(x))</option><option id="C">f(x) + g(x)</option>
             <answer>A</answer><explanation>Pointwise multiplication.</explanation></question>
         <question>
             <text>Quotient (f/g)(x) is defined if:</text>
@@ -107,7 +107,7 @@
             <answer>A</answer><explanation>Not commutative generally.</explanation></question>
         <question>
             <text>Graph of modulus function is shaped like letter:</text>
-            <option id="A">V</option><option id="B">U</option><option id="C">C</option><option id="D">L</option>
+            <option id="A">V</option><option id="B">U</option><option id="D">L</option>
             <answer>A</answer><explanation>V-shape at origin.</explanation></question>
         <question>
             <text>Graph of f(x) = x^2 is a:</text>
@@ -119,7 +119,7 @@
             <answer>A</answer><explanation>Non-negative.</explanation></question>
         <question>
             <text>Which of these is a function?</text>
-            <option id="A">{(2,1), (3,1), (4,2)}</option><option id="B">{(2,1), (2,2), (3,1)}</option><option id="C">{(1,2), (1,3)}</option><option id="D">None</option>
+            <option id="A">{(2,1), (3,1), (4,2)}</option><option id="B">{(2,1), (2,2), (3,1)}</option><option id="C">{(1,2), (1,3)}</option>
             <answer>A</answer><explanation>Unique image for each domain element.</explanation></question>
         <question>
             <text>Vertical line test is used to identifying:</text>
@@ -139,7 +139,7 @@
             <answer>A</answer><explanation>2x = 4 -&gt; x = 2.</explanation></question>
         <question>
             <text>A function with domain and codomain as subsets of R is called:</text>
-            <option id="A">Real valued function</option><option id="B">Integer function</option><option id="C">Complex function</option><option id="D">None</option>
+            <option id="A">Real valued function</option><option id="B">Integer function</option><option id="C">Complex function</option>
             <answer>A</answer><explanation>Definition.</explanation></question>
         <question>
             <text>Range of constant function f(x)=5 is:</text>
@@ -155,7 +155,7 @@
             <answer>A</answer><explanation>Defined everywhere.</explanation></question>
         <question>
             <text>The graph of y = x passes through origin?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option><option id="C">Maybe</option>
             <answer>A</answer><explanation>(0,0) satisfies equation.</explanation></question>
         <question>
             <text>f(x) = x^3 is called:</text>
@@ -177,7 +177,7 @@
             <answer>A</answer><explanation>x - 5 &gt; 0.</explanation></question>
         <question>
             <text>Which relation is a function?</text>
-            <option id="A">{(x, y) | y = 2x, x in {1,2}}</option><option id="B">{(1, 2), (1, 3)}</option><option id="C">{(x, y) | x^2 + y^2 = 1} (Circle)</option><option id="D">None</option>
+            <option id="A">{(x, y) | y = 2x, x in {1,2}}</option><option id="B">{(1, 2), (1, 3)}</option><option id="C">{(x, y) | x^2 + y^2 = 1} (Circle)</option>
             <answer>A</answer><explanation>Linear relation is function.</explanation></question>
         <question>
             <text>If f(x) = x^2 + 1, g(x) = 2x - 3. (f+g)(1) = ?</text>
@@ -189,7 +189,7 @@
             <answer>A</answer><explanation>Squares are 1, 0, 1.</explanation></question>
         <question>
             <text>Cartesian product R x R represents:</text>
-            <option id="A">2D Plane coordinates</option><option id="B">Line</option><option id="C">Space</option><option id="D">None</option>
+            <option id="A">2D Plane coordinates</option><option id="B">Line</option><option id="C">Space</option>
             <answer>A</answer><explanation>R^2.</explanation></question>
         <question>
             <text>Cartesian product R x R x R represents:</text>
@@ -241,15 +241,15 @@
             <answer>A</answer><explanation>Integral part.</explanation></question>
         <question>
             <text>Relation R is reflexive if:</text>
-            <option id="A">(a, a) in R for all a in A</option><option id="B">(a, b) in R implies (b, a) in R</option><option id="C">(a, b) and (b, c) implies (a, c)</option><option id="D">None</option>
+            <option id="A">(a, a) in R for all a in A</option><option id="B">(a, b) in R implies (b, a) in R</option><option id="C">(a, b) and (b, c) implies (a, c)</option>
             <answer>A</answer><explanation>Property.</explanation></question>
         <question>
             <text>Relation R is symmetric if:</text>
-            <option id="A">(a, b) in R implies (b, a) in R</option><option id="B">(a, a) in R</option><option id="C">Transitive</option><option id="D">None</option>
+            <option id="A">(a, b) in R implies (b, a) in R</option><option id="B">(a, a) in R</option><option id="C">Transitive</option>
             <answer>A</answer><explanation>Property.</explanation></question>
         <question>
             <text>Relation R is transitive if:</text>
-            <option id="A">(a,b) and (b,c) implies (a,c)</option><option id="B">Symmetric</option><option id="C">Reflexive</option><option id="D">None</option>
+            <option id="A">(a,b) and (b,c) implies (a,c)</option><option id="B">Symmetric</option><option id="C">Reflexive</option>
             <answer>A</answer><explanation>Property.</explanation></question>
         <question>
             <text>Function f(x) = x^3 - 1. f(-1) + f(2) = ?</text>
@@ -305,7 +305,7 @@
             <answer>A</answer><explanation>(1,2) and (2,3) -&gt; need (1,3).</explanation></question>
         <question>
             <text>A = {1, 2, 3}, R = {(1,1), (2,2), (3,3)}. R is:</text>
-            <option id="A">Reflexive, Symmetric, Transitive (Equivalence)</option><option id="B">Only reflexive</option><option id="C">Only Symmetric</option><option id="D">None</option>
+            <option id="A">Reflexive, Symmetric, Transitive (Equivalence)</option><option id="B">Only reflexive</option><option id="C">Only Symmetric</option>
             <answer>A</answer><explanation>Smallest equivalence relation.</explanation></question>
         <question>
             <text>Range of f(x) = x / (1 + x^2)?</text>
@@ -363,7 +363,7 @@
             <answer>A</answer><explanation>Intersection of [-4,4] and R-(-1,1).</explanation></question>
         <question>
             <text>Inverse of f(x) = (2x - 1) / (x + 3)?</text>
-            <option id="A">y = (1 + 3x) / (2 - x)</option><option id="B">y = x</option><option id="C">y = (2x+1)/(x-3)</option><option id="D">None</option>
+            <option id="A">y = (1 + 3x) / (2 - x)</option><option id="B">y = x</option><option id="C">y = (2x+1)/(x-3)</option>
             <answer>A</answer><explanation>Swap x and y and solve.</explanation></question>
         <question>
             <text>If A has n elements, how many symmetric relations?</text>
@@ -435,7 +435,7 @@
             <answer>A</answer><explanation>2(x^2/2 + 1) = x^2 + 2.</explanation></question>
         <question>
             <text>Composite function fog is defined if:</text>
-            <option id="A">Range(g) subset Domain(f)</option><option id="B">Range(f) subset Domain(g)</option><option id="C">Domain(g) = Domain(f)</option><option id="D">None</option>
+            <option id="A">Range(g) subset Domain(f)</option><option id="B">Range(f) subset Domain(g)</option><option id="C">Domain(g) = Domain(f)</option>
             <answer>A</answer><explanation>Definition.</explanation></question>
         <question>
             <text>Which function is NOT onto from R to R?</text>
@@ -451,7 +451,7 @@
             <answer>A</answer><explanation>Complex analysis.</explanation></question>
         <question>
             <text>Domain of sqrt(sin x)?</text>
-            <option id="A">Union of [2nPi, (2n+1)Pi]</option><option id="B">R</option><option id="C">[0, Pi]</option><option id="D">None</option>
+            <option id="A">Union of [2nPi, (2n+1)Pi]</option><option id="B">R</option><option id="C">[0, Pi]</option>
             <answer>A</answer><explanation>Sin must be positive.</explanation></question>
         <question>
             <text>Range of |x - 2|?</text>
@@ -483,7 +483,7 @@
             <answer>A</answer><explanation>Integers only.</explanation></question>
         <question>
             <text>Inverse of f(x) = 10^x - 10^-x / (10^x + 10^-x)?</text>
-            <option id="A">0.5 log((1+x)/(1-x))</option><option id="B">log(x)</option><option id="C">10^x</option><option id="D">None</option>
+            <option id="A">0.5 log((1+x)/(1-x))</option><option id="B">log(x)</option><option id="C">10^x</option>
             <answer>A</answer><explanation>Logarithmic form of inverse tanh is related.</explanation></question>
     </hard>
 </chapter>

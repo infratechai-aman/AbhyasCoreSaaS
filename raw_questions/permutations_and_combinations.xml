@@ -63,11 +63,11 @@
             <answer>A</answer><explanation>Definition.</explanation></question>
         <question>
             <text>Multiplication principle applies when events are:</text>
-            <option id="A">Independent and sequential</option><option id="B">Mutually exclusive</option><option id="C">Simultaneous</option><option id="D">None</option>
+            <option id="A">Independent and sequential</option><option id="B">Mutually exclusive</option><option id="C">Simultaneous</option>
             <answer>A</answer><explanation>Fundamental principle of counting.</explanation></question>
         <question>
             <text>Addition principle applies when events are:</text>
-            <option id="A">Mutually exclusive alternatives</option><option id="B">Sequential</option><option id="C">Independent</option><option id="D">None</option>
+            <option id="A">Mutually exclusive alternatives</option><option id="B">Sequential</option><option id="C">Independent</option>
             <answer>A</answer><explanation>Fundamental principle of counting.</explanation></question>
         <question>
             <text>How many 2 digit numbers can be formed from 1, 2, 3 without repetition?</text>
@@ -451,7 +451,7 @@
             <answer>B</answer><explanation>F(1)=2 (0,1). F(2)=3 (00,01,10). F(3)=5. F(8) -&gt; F(10)=55. Correct answer B.</explanation></question>
         <question>
             <text>Coefficient of x^50 in (1+x)^1000 + 2x(1+x)^999 + ...</text>
-            <option id="A">1002C50</option><option id="B">1000C50</option><option id="C">1001C50</option><option id="D">None</option>
+            <option id="A">1002C50</option><option id="B">1000C50</option><option id="C">1001C50</option>
             <answer>A</answer><explanation>Series sum.</explanation></question>
         <question>
             <text>Maximum number of intersection points of 8 circles:</text>

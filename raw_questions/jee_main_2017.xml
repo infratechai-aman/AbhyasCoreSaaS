@@ -5,8 +5,7 @@
       <text>Natural polymers are found in ____.</text>
       <option id="A">Plants and Animals</option>
       <option id="B">Laboratories</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Example: Proteins, Cellulose, Starch, Rubber.</explanation>
     </question>
@@ -14,8 +13,7 @@
       <text>Metalloid in Group 15 is ____.</text>
       <option id="A">As (Arsenic) and Sb (Antimony)</option>
       <option id="B">N</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Middle of the Pnictogen group.</explanation>
     </question>
@@ -24,7 +22,7 @@
       <option id="A">Intersection</option>
       <option id="B">Union</option>
       <option id="C">Complement</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Common member logic.</explanation>
     </question>
@@ -33,7 +31,7 @@
       <option id="A">y = Cx</option>
       <option id="B">x = Cy</option>
       <option id="C">All are correct</option>
-      <option id="D">D</option>
+      
       <answer>C</answer>
       <explanation>dy/y = dx/x leads to y=Cx or x=Ky.</explanation>
     </question>
@@ -41,8 +39,7 @@
       <text>Phase diff between velocity and acceleration of SHM particle is ____.</text>
       <option id="A">pi / 2 (90 deg)</option>
       <option id="B">pi</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Acceleration leads velocity by 90.</explanation>
     </question>
@@ -50,8 +47,7 @@
       <text>Ionization enthalpy ____ along a period left to right.</text>
       <option id="A">Increases</option>
       <option id="B">Decreases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Harder to remove electron from smaller atom.</explanation>
     </question>
@@ -59,8 +55,7 @@
       <text>Expansion of a body on heating is called ____ expansion.</text>
       <option id="A">Thermal</option>
       <option id="B">Elastic</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Result of increased molecular kinetic energy.</explanation>
     </question>
@@ -68,8 +63,7 @@
       <text>Speed of sound is ____ of pressure at constant temperature.</text>
       <option id="A">Independent</option>
       <option id="B">Directly proportional</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Both P and ρ change proportionally in PV=RT.</explanation>
     </question>
@@ -78,7 +72,7 @@
       <option id="A">5.92</option>
       <option id="B">4.90</option>
       <option id="C">1.73</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>d5 config has 5 unpaired electrons. sqrt(5*7) = 5.92.</explanation>
     </question>
@@ -86,7 +80,7 @@
       <text>Work done against friction typically results in ____ energy.</text>
       <option id="A">Thermal (Heat)</option>
       <option id="B">Potential</option>
-      <option id="C">phi</option>
+      
       <option id="D">Kinetic</option>
       <answer>A</answer>
       <explanation>Energy is dissipated into internal heat.</explanation>
@@ -95,8 +89,7 @@
       <text>Equation of a line passing through (x1, y1, z1) with DRs a, b, c:</text>
       <option id="A">(x-x1)/a = (y-y1)/b = (z-z1)/c</option>
       <option id="B">ax + by + cz = 0</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Cartesian form of line.</explanation>
     </question>
@@ -114,7 +107,7 @@
       <option id="A">2 n^2</option>
       <option id="B">n^2</option>
       <option id="C">2l + 1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Bohr-Bury rule.</explanation>
     </question>
@@ -122,8 +115,7 @@
       <text>Enthalpy change for a cyclic process is ____.</text>
       <option id="A">Zero</option>
       <option id="B">Positive</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>State function returns to origin.</explanation>
     </question>
@@ -158,8 +150,7 @@
       <text>Aniline is stored in dark bottles because it ____ on exposure to air/light.</text>
       <option id="A">Oxidizes to form colored products</option>
       <option id="B">Evaporates</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Turns brown/black.</explanation>
     </question>
@@ -167,8 +158,7 @@
       <text>Secondary alcohols oxidize to ____.</text>
       <option id="A">Ketones</option>
       <option id="B">Aldehydes</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Using CrO3 or other agents.</explanation>
     </question>
@@ -176,8 +166,7 @@
       <text>Black color in resistor code represents ____.</text>
       <option id="A">0</option>
       <option id="B">1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>B B R O Y ... (Black=0, Brown=1).</explanation>
     </question>
@@ -185,8 +174,7 @@
       <text>Shadow price is a term sometimes used in ____ Analysis of LPP.</text>
       <option id="A">Sensitivity</option>
       <option id="B">Basic</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Advanced LPP concept.</explanation>
     </question>
@@ -195,7 +183,7 @@
       <option id="A">Y-axis</option>
       <option id="B">X-axis</option>
       <option id="C">Circle</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Perpendicular bisector of segment (-1, 0) to (1, 0). x=0.</explanation>
     </question>
@@ -212,8 +200,7 @@
       <text>Number of tetrahedral voids in FCC unit cell is ____.</text>
       <option id="A">8</option>
       <option id="B">4</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>2 voids per particle; FCC has 4 particles.</explanation>
     </question>
@@ -221,8 +208,7 @@
       <text>The ratio of peak voltage V₀ to peak current I₀ in LCR circuit is ____.</text>
       <option id="A">Impedance (Z)</option>
       <option id="B">Resistance (R)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>General AC resistance.</explanation>
     </question>
@@ -231,7 +217,7 @@
       <option id="A">Collinear</option>
       <option id="B">Vertices of triangle</option>
       <option id="C">Concyclic</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>y=2x satisfies all.</explanation>
     </question>
@@ -240,7 +226,7 @@
       <option id="A">[M L T^-2 A^-2]</option>
       <option id="B">[L T^-1]</option>
       <option id="C">[A^2]</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Calculated from force between wires.</explanation>
     </question>
@@ -250,8 +236,7 @@
       <text>Additional practice question 105 on Inverse Trigonometric Functions: Advanced level concepts.</text>
       <option id="A">Correct Option</option>
       <option id="B">Incorrect Option</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Detailed explanation for additional question 105 in the Inverse Trigonometric Functions module.</explanation>
     </question>
@@ -259,8 +244,7 @@
       <text>Radiation pressure for vertical reflection is P = ____.</text>
       <option id="A">2I / c</option>
       <option id="B">I / c</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Momentum change is twice (p final - p init).</explanation>
     </question>
@@ -268,17 +252,14 @@
       <text>Fructose is a(n) ____.</text>
       <option id="A">Ketohexose</option>
       <option id="B">Aldohexose</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Ketone group + 6 Carbons.</explanation>
     </question>
     <question>
       <text>In probability distribution, p(x) = k/x for x=1,2,3. Find k:</text>
       <option id="A">6/11</option>
-      <option id="B">None</option>
-      <option id="C">C</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>k(1 + 1/2 + 1/3) = 1 -&gt; k(11/6) = 1 -&gt; k = 6/11.</explanation>
     </question>
@@ -286,8 +267,7 @@
       <text>Oscillations of a gas in a cylinder T = 2 pi sqrt( m V / (P γ A^2) ). Based on ____ process.</text>
       <option id="A">Adiabatic (rapid oscillation)</option>
       <option id="B">Isothermal</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Bulk modulus γP used.</explanation>
     </question>
@@ -296,7 +276,7 @@
       <option id="A">Constraints</option>
       <option id="B">Boundaries</option>
       <option id="C">Limits</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Constraints restrict the values variables can take.</explanation>
     </question>
@@ -304,8 +284,7 @@
       <text>Soft iron is used in making electromagnets because of ____ retentivity and ____ coercivity.</text>
       <option id="A">High, Low</option>
       <option id="B">Low, High</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Easy to magnetize and demagnetize.</explanation>
     </question>
@@ -313,8 +292,7 @@
       <text>Thermal stress in a rod of length L, fixed at both ends, is ____.</text>
       <option id="A">Y α ΔT</option>
       <option id="B">Y L α ΔT</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Independent of L.</explanation>
     </question>
@@ -323,7 +301,7 @@
       <option id="A">Much stronger</option>
       <option id="B">Weaker</option>
       <option id="C">Equal</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>About 10^36 times stronger for protons.</explanation>
     </question>
@@ -331,8 +309,7 @@
       <text>DDT stands for ____.</text>
       <option id="A">p,p'-Dichlorodiphenyltrichloroethane</option>
       <option id="B">Diethyl dichloro toluene</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Powerful insecticide.</explanation>
     </question>
@@ -340,8 +317,7 @@
       <text>A man in a lift feels weightless when the lift falls ____.</text>
       <option id="A">Freely (a=g)</option>
       <option id="B">With constant velocity</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Normal reaction between man and floor becomes zero.</explanation>
     </question>
@@ -349,8 +325,7 @@
       <text>Schiff's base is formed by reaction of carbonyl compound with ____.</text>
       <option id="A">Primary amine (R-NH2)</option>
       <option id="B">Ammonia</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>&gt;C=N-R structure (substituted imine).</explanation>
     </question>
@@ -358,8 +333,7 @@
       <text>Earth's magnetic field strength at the surface is of the order of ____.</text>
       <option id="A">10^-5 T</option>
       <option id="B">1 T</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Approx 0.3-0.6 Gauss (1 Gauss = 10^-4 T).</explanation>
     </question>
@@ -367,7 +341,7 @@
       <text>Unit of G (Gravitational Constant) is ____.</text>
       <option id="A">Nm^2 / kg^2</option>
       <option id="B">Nm / kg</option>
-      <option id="C">phi</option>
+      
       <option id="D">J m / kg</option>
       <answer>A</answer>
       <explanation>Derived from Newton's Universal Law.</explanation>
@@ -376,8 +350,7 @@
       <text>In Mond's process for nickel, the volatile compound formed is ____.</text>
       <option id="A">Ni(CO)4</option>
       <option id="B">NiCl2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Nickel tetracarbonyl.</explanation>
     </question>
@@ -385,8 +358,7 @@
       <text>In the titration of Fe2+ with KMnO4, Fe2+ is ____.</text>
       <option id="A">Oxidized to Fe3+</option>
       <option id="B">Reduced to Fe</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Iron loses one electron.</explanation>
     </question>
@@ -403,8 +375,7 @@
       <text>Number of Faradays needed to produce 20g of Calcium (At.wt=40)?</text>
       <option id="A">1 F</option>
       <option id="B">2 F</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>20g = 0.5 mol Ca. Needs 2e- per atom =&gt; 1 mole electrons (1F).</explanation>
     </question>
@@ -430,8 +401,7 @@
       <text>Intersection of x &gt;= 2 and x &lt;= 5 is:</text>
       <option id="A">A vertical strip</option>
       <option id="B">A horizontal strip</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Bounded by x=2 and x=5 lines.</explanation>
     </question>
@@ -439,8 +409,7 @@
       <text>Ratio Kp/Kc for PCl5 &lt;=&gt; PCl3 + Cl2 is ____.</text>
       <option id="A">RT</option>
       <option id="B">1 / RT</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Δng = 2 - 1 = 1.</explanation>
     </question>
@@ -448,8 +417,7 @@
       <text>If base region is made thicker, β will ____.</text>
       <option id="A">Decrease (more recombination losses)</option>
       <option id="B">Increase</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Transistor gain drops if carriers don't reach collector.</explanation>
     </question>
@@ -457,8 +425,7 @@
       <text>If g decreases (at mountain), time period of pendulum ____.</text>
       <option id="A">Increases</option>
       <option id="B">Decreases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>T ∝ 1/sqrt(g). Clock runs slow.</explanation>
     </question>
@@ -466,8 +433,7 @@
       <text>Interhalogens of type XX' (e.g., ClF, BrF) are ____ covalent.</text>
       <option id="A">Highly polar</option>
       <option id="B">Non-polar</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Electronegativity difference between X and X'.</explanation>
     </question>
@@ -475,8 +441,7 @@
       <text>Additional practice question 103 on Gravitation: Advanced level concepts.</text>
       <option id="A">Correct Option</option>
       <option id="B">Incorrect Option</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Detailed explanation for additional question 103 in the Gravitation module.</explanation>
     </question>
@@ -484,8 +449,7 @@
       <text>Structure of XeF6 according to VSEPR theory involves ____ valence shell pairs.</text>
       <option id="A">7</option>
       <option id="B">6</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>6 bond pairs and 1 lone pair.</explanation>
     </question>
@@ -493,8 +457,7 @@
       <text>Secondary rainbow is formed by ____ TIR and ____ refractions.</text>
       <option id="A">2 TIR, 2 refractions</option>
       <option id="B">1 TIR, 2 refractions</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Colors are reversed compared to primary.</explanation>
     </question>
@@ -502,8 +465,7 @@
       <text>Steel vs Copper for structural beams choice is due to ____.</text>
       <option id="A">Higher Y</option>
       <option id="B">Lower weight</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Greater resistance to bending.</explanation>
     </question>
@@ -512,7 +474,7 @@
       <option id="A">7300</option>
       <option id="B">6400</option>
       <option id="C">4000</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Calculated sum of phases.</explanation>
     </question>
@@ -521,7 +483,7 @@
       <option id="A">Does not change</option>
       <option id="B">Increases</option>
       <option id="C">Decreases</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>K depends only on temperature.</explanation>
     </question>
@@ -529,8 +491,7 @@
       <text>Primary structure of nucleic acid is ____ sequence.</text>
       <option id="A">Nucleotide</option>
       <option id="B">Amino acid</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Determines genetic code.</explanation>
     </question>
@@ -538,8 +499,7 @@
       <text>Induction on n for sum of GP a + ar + ... is ____.</text>
       <option id="A">a(r^n - 1) / (r-1)</option>
       <option id="B">a r^n</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Fundamental GP formula.</explanation>
     </question>
@@ -547,8 +507,7 @@
       <text>Which of the following is an outer orbital complex?</text>
       <option id="A">[CoF6]3-</option>
       <option id="B">[Co(NH3)6]3+</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>F- is weak field ligand.</explanation>
     </question>
@@ -556,8 +515,7 @@
       <text>Work function of Alkali metals is ____ than that of other metals.</text>
       <option id="A">Lower</option>
       <option id="B">Higher</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Sensitive even to visible light.</explanation>
     </question>
@@ -566,7 +524,7 @@
       <option id="A">They are equal</option>
       <option id="B">One is double the other</option>
       <option id="C">They are complementary</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Basic conversion Identity.</explanation>
     </question>
@@ -583,8 +541,7 @@
       <text>A fan continues to rotate for some time after switching off due to ____.</text>
       <option id="A">Inertia (Mechanical)</option>
       <option id="B">Self-inductance</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Self-inductance causes a spark but the continued motion is mechanical inertia.</explanation>
     </question>
@@ -593,7 +550,7 @@
       <option id="A">1</option>
       <option id="B">2</option>
       <option id="C">0</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>y = mx has one parameter m.</explanation>
     </question>
@@ -601,8 +558,7 @@
       <text>In alkaline medium, KMnO4 is reduced to ____.</text>
       <option id="A">MnO2 (Dark brown ppt)</option>
       <option id="B">Mn2+</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Oxidation state change +7 to +4.</explanation>
     </question>
@@ -611,7 +567,7 @@
       <option id="A">Negative</option>
       <option id="B">Positive</option>
       <option id="C">Zero</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Entropy increases because two moles of gas are produced.</explanation>
     </question>
@@ -628,7 +584,7 @@
       <text>U(x) = a/x^12 - b/x^6. Force F(x) = ____.</text>
       <option id="A">12a/x^13 - 6b/x^7</option>
       <option id="B">6a/x^7 - 12b/x^13</option>
-      <option id="C">phi</option>
+      
       <option id="D">Zero</option>
       <answer>A</answer>
       <explanation>F = -dU/dx. Gradient of Lennard-Jones potential.</explanation>
@@ -637,8 +593,7 @@
       <text>BOD5 test is carried out at ____ degree C for 5 days.</text>
       <option id="A">20</option>
       <option id="B">37</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standard biological incubation temp.</explanation>
     </question>
@@ -646,8 +601,7 @@
       <text>Conservation of angular momentum depends on ____ symmetry.</text>
       <option id="A">Isotropy of space (Rotation)</option>
       <option id="B">Time shift</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Direction doesn't matter for space properties.</explanation>
     </question>
@@ -658,7 +612,7 @@
       <option id="A">6</option>
       <option id="B">9</option>
       <option id="C">3</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>n(n+1)/2 = 3(4)/2 = 6.</explanation>
     </question>
@@ -684,8 +638,7 @@
       <text>Probability of choosing a vowel from 'PROBABILITY':</text>
       <option id="A">4/11</option>
       <option id="B">3/11</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>O, A, I, I. Total 4.</explanation>
     </question>
@@ -693,8 +646,7 @@
       <text>The use of ____ instead of gasoline for cars helps reduce pollution.</text>
       <option id="A">CNG / Electric</option>
       <option id="B">Kerosene</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Cleaner burning fuel.</explanation>
     </question>
@@ -702,8 +654,7 @@
       <text>Equivalent mass of FeC2O4 undergoing oxidation (Fe+2 to +3 AND C2O4 to CO2) is ____.</text>
       <option id="A">M / 3</option>
       <option id="B">M / 1</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Fe (+1 e-) + C2O4 (+2 e-) = 3 electrons total.</explanation>
     </question>
@@ -720,8 +671,7 @@
       <text>Tollen's reagent is an ____ solution of silver nitrate.</text>
       <option id="A">Ammoniacal</option>
       <option id="B">Acidic</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Forms silver mirror with aldehydes.</explanation>
     </question>
@@ -729,8 +679,7 @@
       <text>Relation P = 1/3 n m v_rms^2 : 'n' is ____.</text>
       <option id="A">Number density (N/V)</option>
       <option id="B">Moles</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Molecules per unit volume.</explanation>
     </question>
@@ -738,8 +687,7 @@
       <text>Ksp for Ag2CrO4 is proportional to ____ cube of solubility s.</text>
       <option id="A">4 (Ksp = 4s^3)</option>
       <option id="B">1</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Salt formula A2B.</explanation>
     </question>
@@ -756,8 +704,7 @@
       <text>Two SHMs x1 = A sin wt and x2 = A cos wt have phase diff ____.</text>
       <option id="A">pi / 2</option>
       <option id="B">0</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Cosine is shifted sine.</explanation>
     </question>
@@ -765,8 +712,7 @@
       <text>In SN2 reaction, the geometry of product is ____ with respect to reactant.</text>
       <option id="A">Inverted (Walden Inversion)</option>
       <option id="B">Retained</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Backside attack by nucleophile.</explanation>
     </question>
@@ -774,8 +720,7 @@
       <text>Kirchhoff's Law of Radiation: a_λ = ____.</text>
       <option id="A">e_λ (Absorptivity = Emissivity)</option>
       <option id="B">1 - e_λ</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Good absorbers are good emitters.</explanation>
     </question>
@@ -784,7 +729,7 @@
       <option id="A">Measured</option>
       <option id="B">Heard only</option>
       <option id="C">Imagined</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Standard definition.</explanation>
     </question>
@@ -792,8 +737,7 @@
       <text>AgCl dissolves in NH4OH due to formation of ____ complex.</text>
       <option id="A">[Ag(NH3)2]Cl</option>
       <option id="B">[AgCl2]-</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Soluble diammine silver(I) chloride.</explanation>
     </question>
@@ -810,8 +754,7 @@
       <text>Does the phase of current change in an AC circuit as it travels?</text>
       <option id="A">No (not significantly at these scales)</option>
       <option id="B">Yes</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Lumped element model assumption.</explanation>
     </question>

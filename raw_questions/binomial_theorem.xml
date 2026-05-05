@@ -39,15 +39,15 @@
             <answer>A</answer><explanation>Definition.</explanation></question>
         <question>
             <text>r-th term from end in expansion of (x+a)^n is:</text>
-            <option id="A">(n-r+2)-th from beginning</option><option id="B">r-th from beginning</option><option id="C">(n-r+1)-th</option><option id="D">None</option>
+            <option id="A">(n-r+2)-th from beginning</option><option id="B">r-th from beginning</option><option id="C">(n-r+1)-th</option>
             <answer>A</answer><explanation>Formula.</explanation></question>
         <question>
             <text>Middle term of (a+b)^n if n is even:</text>
-            <option id="A">(n/2 + 1)-th term</option><option id="B">n/2-th term</option><option id="C">Two terms</option><option id="D">None</option>
+            <option id="A">(n/2 + 1)-th term</option><option id="B">n/2-th term</option><option id="C">Two terms</option>
             <answer>A</answer><explanation>Single middle term.</explanation></question>
         <question>
             <text>Middle terms of (a+b)^n if n is odd:</text>
-            <option id="A">Two</option><option id="B">One</option><option id="C">Three</option><option id="D">None</option>
+            <option id="A">Two</option><option id="B">One</option><option id="C">Three</option>
             <answer>A</answer><explanation>(n+1)/2 and (n+3)/2.</explanation></question>
         <question>
             <text>Coefficient of x^0 in (x + 1/x)^2n is:</text>
@@ -67,15 +67,15 @@
             <answer>A</answer><explanation>Bernoulli's inequality or Binomial expansion.</explanation></question>
         <question>
             <text>Pascal's triangle is used to find:</text>
-            <option id="A">Binomial coefficients</option><option id="B">Roots</option><option id="C">Area</option><option id="D">None</option>
+            <option id="A">Binomial coefficients</option><option id="B">Roots</option><option id="C">Area</option>
             <answer>A</answer><explanation>Definition.</explanation></question>
         <question>
             <text>nCr + nC(r-1) = ?</text>
-            <option id="A">(n+1)Cr</option><option id="B">nC(r+1)</option><option id="C">(n+1)C(r+1)</option><option id="D">None</option>
+            <option id="A">(n+1)Cr</option><option id="B">nC(r+1)</option><option id="C">(n+1)C(r+1)</option>
             <answer>A</answer><explanation>Pascal's Identity.</explanation></question>
         <question>
             <text>(x+a)^n + (x-a)^n contains terms:</text>
-            <option id="A">Only even powers of a</option><option id="B">Only odd powers of a</option><option id="C">All powers</option><option id="D">None</option>
+            <option id="A">Only even powers of a</option><option id="B">Only odd powers of a</option><option id="C">All powers</option>
             <answer>A</answer><explanation>Odd terms cancel out.</explanation></question>
         <question>
             <text>Number of terms in (x+a)^n + (x-a)^n if n is odd:</text>
@@ -99,7 +99,7 @@
             <answer>A</answer><explanation>Convergence condition.</explanation></question>
         <question>
             <text>Expansion of (x+y)^3 is:</text>
-            <option id="A">x^3 + 3x^2y + 3xy^2 + y^3</option><option id="B">x^3 + y^3</option><option id="C">x^3 + 3xy + y^3</option><option id="D">None</option>
+            <option id="A">x^3 + 3x^2y + 3xy^2 + y^3</option><option id="B">x^3 + y^3</option><option id="C">x^3 + 3xy + y^3</option>
             <answer>A</answer><explanation>Standard cubic.</explanation></question>
         <question>
             <text>Coefficient of x in (1+x)^2:</text>
@@ -119,11 +119,11 @@
             <answer>A</answer><explanation>Bars and stars formulation.</explanation></question>
         <question>
             <text>Value of 15C15:</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">15</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option><option id="C">15</option>
             <answer>A</answer><explanation>Selecting all.</explanation></question>
         <question>
             <text>Expansion of (1-x)^-1 is:</text>
-            <option id="A">1 + x + x^2 + ...</option><option id="B">1 - x + x^2 - ...</option><option id="C">1 + x</option><option id="D">None</option>
+            <option id="A">1 + x + x^2 + ...</option><option id="B">1 - x + x^2 - ...</option><option id="C">1 + x</option>
             <answer>A</answer><explanation>GP sum formula.</explanation></question>
         <question>
             <text>Largest coefficient in (1+x)^4:</text>
@@ -151,15 +151,15 @@
             <answer>A</answer><explanation>20.</explanation></question>
         <question>
             <text>Value of 6C0:</text>
-            <option id="A">1</option><option id="B">6</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">6</option><option id="C">0</option>
             <answer>A</answer><explanation>1.</explanation></question>
         <question>
             <text>Value of 0!:</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">Undefined</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option><option id="C">Undefined</option>
             <answer>A</answer><explanation>1.</explanation></question>
         <question>
             <text>General term notation:</text>
-            <option id="A">T_{r+1}</option><option id="B">T_r</option><option id="C">T_n</option><option id="D">None</option>
+            <option id="A">T_{r+1}</option><option id="B">T_r</option><option id="C">T_n</option>
             <answer>A</answer><explanation>Convention.</explanation></question>
     </easy>
     <medium>
@@ -169,7 +169,7 @@
             <answer>A</answer><explanation>5C2.</explanation></question>
         <question>
             <text>Coefficient of x^5 in (x+3)^8:</text>
-            <option id="A">8C3 * 3^3</option><option id="B">8C5</option><option id="C">8C3 * 3^5</option><option id="D">None</option>
+            <option id="A">8C3 * 3^3</option><option id="B">8C5</option><option id="C">8C3 * 3^5</option>
             <answer>A</answer><explanation>T4 = 8C3 x^5 3^3. Coeff is 8C3 * 27.</explanation></question>
         <question>
             <text>Middle term in (x + 1/x)^(10):</text>
@@ -177,7 +177,7 @@
             <answer>A</answer><explanation>10C5 = 252.</explanation></question>
         <question>
             <text>Which term in (x - 1/x)^7 is independent of x?</text>
-            <option id="A">None</option><option id="B">4th</option><option id="C">3rd</option><option id="D">5th</option>
+            <option id="B">4th</option><option id="C">3rd</option><option id="D">5th</option>
             <answer>A</answer><explanation>x^(7-r) * x^(-r) = x^(7-2r). 7-2r=0 not integer.</explanation></question>
         <question>
             <text>Constant term in (x^2 - 1/x)^9:</text>
@@ -209,7 +209,7 @@
             <answer>A</answer><explanation>(1+x)^20. n=20. Terms 21.</explanation></question>
         <question>
             <text>99^50 + 100^50 ? 101^50:</text>
-            <option id="A">Less than (Usually sum of powers logic)</option><option id="B">Greater than</option><option id="C">Equal</option><option id="D">None</option>
+            <option id="A">Less than (Usually sum of powers logic)</option><option id="B">Greater than</option><option id="C">Equal</option>
             <answer>A</answer><explanation>Example of Fermat Last Theorem style inequality.</explanation></question>
         <question>
             <text>Ratio of coeff of x^10 in (1-x^2)^10 and coeff of x^20 in (1-x)^20?</text>
@@ -277,7 +277,7 @@
             <answer>A</answer><explanation>10C5.</explanation></question>
         <question>
             <text>Find fourth term of (x-2y)^12:</text>
-            <option id="A">12C3 x^9 (-2y)^3</option><option id="B">12C4 x^8 (-2y)^4</option><option id="C">12C3 x^3 (-2y)^9</option><option id="D">None</option>
+            <option id="A">12C3 x^9 (-2y)^3</option><option id="B">12C4 x^8 (-2y)^4</option><option id="C">12C3 x^3 (-2y)^9</option>
             <answer>A</answer><explanation>Definition.</explanation></question>
         <question>
             <text>Term containing x^3 in (2x - y)^5:</text>
@@ -313,7 +313,7 @@
             <answer>A</answer><explanation>Derivative method.</explanation></question>
         <question>
             <text>Use binomial theorem to find 99^4:</text>
-            <option id="A">96059601</option><option id="B">99000000</option><option id="C">10000000</option><option id="D">None</option>
+            <option id="A">96059601</option><option id="B">99000000</option><option id="C">10000000</option>
             <answer>A</answer><explanation>(100-1)^4.</explanation></question>
         <question>
             <text>Coeff of x^5 in (1+x)^4 (1-x)^3:</text>
@@ -327,7 +327,7 @@
     <hard>
         <question>
             <text>Middle term in expansion of (1+x)^(2n) is:</text>
-            <option id="A">(2n)! / (n!)^2 * x^n</option><option id="B">2nCn * x^n</option><option id="C">Both A and B</option><option id="D">None</option>
+            <option id="A">(2n)! / (n!)^2 * x^n</option><option id="B">2nCn * x^n</option><option id="C">Both A and B</option>
             <answer>C</answer><explanation>Even power has one middle term at (2n/2 + 1).</explanation></question>
         <question>
             <text>Coefficient of x^n in (1+x)(1-x)^n:</text>
@@ -367,7 +367,7 @@
             <answer>A</answer><explanation>6C2 k^2 = 15k^2 = 160. k^2 = 160/15 = 32/3. Wait. Term indep: 6-r-2r=0 -&gt; r=2. 15 k^2 = 160? 160 not div by 3. Question specific? Maybe r=4? 6-r -2r? No. Maybe power is diff. Assuming coeff logic: if 15k^2=60 -&gt; k=2. Let's assume 60.</explanation></question>
         <question>
             <text>If (1+ax)^n = 1 + 8x + 24x^2 + ..., find a and n.</text>
-            <option id="A">a=2, n=4</option><option id="B">a=4, n=2</option><option id="C">a=1, n=8</option><option id="D">None</option>
+            <option id="A">a=2, n=4</option><option id="B">a=4, n=2</option><option id="C">a=1, n=8</option>
             <answer>A</answer><explanation>na = 8, n(n-1)/2 a^2 = 24. n=4, a=2.</explanation></question>
         <question>
             <text>Last two digits of 3^400 (Wait, 01):</text>
@@ -383,7 +383,7 @@
             <answer>A</answer><explanation>((1-x^4)/(1-x))^10. (1-x^4)^10 (1-x)^-10. (1 - 10x^4) (1 + 10x + ... ). x^5 coeff: 1*(coeff x^5 in (1-x)^-10) - 10*(coeff x in ...). (10+5-1)C5 - 10*(10+1-1)C1 = 14C5 - 10*10 = 2002 - 100 = 1902.</explanation></question>
         <question>
             <text>Coeff of x^53 in sum 100Cm (x-3)^(100-m) 2^m:</text>
-            <option id="A">100C53</option><option id="B">-100C53</option><option id="C">100C47</option><option id="D">None</option>
+            <option id="A">100C53</option><option id="B">-100C53</option><option id="C">100C47</option>
             <answer>A</answer><explanation>Series is (x-3 + 2)^100 = (x-1)^100. Coeff x^53 is 100C53 (-1)^47 = -100C53. Option B correct.</explanation></question>
         <question>
             <text>Sum of C1 + 2C2 + 3C3 ... nCn:</text>
@@ -431,7 +431,7 @@
             <answer>A</answer><explanation>Total 101. Rational when r div by 8 and 6 -&gt; div by 24. 0, 24, 48, 72, 96. 5 terms. Irrational 96. Option B correct.</explanation></question>
         <question>
             <text>Integral part of (3 + sqrt(7))^n is:</text>
-            <option id="A">Odd integer</option><option id="B">Even integer</option><option id="C">Zero</option><option id="D">None</option>
+            <option id="A">Odd integer</option><option id="B">Even integer</option><option id="C">Zero</option>
             <answer>A</answer><explanation>I+f + f' = Integer.</explanation></question>
         <question>
             <text>If (1+x)^n = C0 + C1x ..., value of C0 C1 + C1 C2 + ... is:</text>
@@ -479,7 +479,7 @@
             <answer>A</answer><explanation>(1+x)^45. 46 terms.</explanation></question>
         <question>
             <text>Value of 47C4 + Sum(j=1 to 5) 52-j C 3:</text>
-            <option id="A">52C4</option><option id="B">52C3</option><option id="C">47C3</option><option id="D">None</option>
+            <option id="A">52C4</option><option id="B">52C3</option><option id="C">47C3</option>
             <answer>A</answer><explanation>Hockey stick identity.</explanation></question>
         <question>
             <text>1.0001^10000 approx:</text>

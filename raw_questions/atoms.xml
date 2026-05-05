@@ -3,488 +3,488 @@
     <easy>
         <question>
             <text>Who performed the Alpha-particle scattering experiment?</text>
-            <option id="A">Geiger and Marsden (under Rutherford)</option><option id="B">Thomson</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Geiger and Marsden (under Rutherford)</option><option id="B">Thomson</option>
             <answer>A</answer><explanation>Conducted in 1911 to probe the structure of the atom.</explanation></question>
         <question>
             <text>In the Alpha-scattering experiment, most alpha particles ____ the gold foil.</text>
-            <option id="A">Passed straight through</option><option id="B">Reflected back</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Passed straight through</option><option id="B">Reflected back</option>
             <answer>A</answer><explanation>Indicated that most of the atom is empty space.</explanation></question>
         <question>
             <text>The negatively charged particle revolving around the nucleus is the ____.</text>
-            <option id="A">Electron</option><option id="B">Proton</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Electron</option><option id="B">Proton</option>
             <answer>A</answer><explanation>Basic atomic constituent.</explanation></question>
         <question>
             <text>The central heavy core of an atom is called the ____.</text>
-            <option id="A">Nucleus</option><option id="B">Cloud</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Nucleus</option><option id="B">Cloud</option>
             <answer>A</answer><explanation>Proposed by Rutherford after scattering results.</explanation></question>
         <question>
             <text>Rutherford's model of the atom is often compared to the ____ system.</text>
-            <option id="A">Planetary</option><option id="B">Plum pudding</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Planetary</option><option id="B">Plum pudding</option>
             <answer>A</answer><explanation>Electrons orbiting a central sun (nucleus).</explanation></question>
         <question>
             <text>Distance of closest approach gives an estimate of the ____.</text>
-            <option id="A">Size of the nucleus</option><option id="B">Size of the atom</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Size of the nucleus</option><option id="B">Size of the atom</option>
             <answer>A</answer><explanation>Point where alpha particle's KE converts to PE.</explanation></question>
         <question>
             <text>Bohr's model was primarily developed for the ____ atom.</text>
-            <option id="A">Hydrogen</option><option id="B">Helium</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Hydrogen</option><option id="B">Helium</option>
             <answer>A</answer><explanation>Simplest one-electron system.</explanation></question>
         <question>
             <text>Bohr's first postulate states that electrons revolve in ____ orbits.</text>
-            <option id="A">Stationary / Non-radiating</option><option id="B">Spiral</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Stationary / Non-radiating</option><option id="B">Spiral</option>
             <answer>A</answer><explanation>Overcame the drawback of Rutherford's model.</explanation></question>
         <question>
             <text>The angular momentum of an electron in Bohr's model is quantized as L = ____.</text>
-            <option id="A">n h / 2π</option><option id="B">n h</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">n h / 2π</option><option id="B">n h</option>
             <answer>A</answer><explanation>n is the principle quantum number (n=1,2,3...).</explanation></question>
         <question>
             <text>When an electron jumps from a higher orbit (E2) to a lower orbit (E1), it ____ a photon.</text>
-            <option id="A">Emits</option><option id="B">Absorbs</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Emits</option><option id="B">Absorbs</option>
             <answer>A</answer><explanation>Energy of photon ΔE = E2 - E1.</explanation></question>
         <question>
             <text>Energy of an electron in the n-th orbit of Hydrogen is E_n = ____ eV.</text>
-            <option id="A">-13.6 / n²</option><option id="B">-13.6 n²</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">-13.6 / n²</option><option id="B">-13.6 n²</option>
             <answer>A</answer><explanation>Negative sign indicates the electron is bound.</explanation></question>
         <question>
             <text>Ionization energy of Hydrogen atom is ____ eV.</text>
-            <option id="A">13.6</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">13.6</option><option id="B">0</option>
             <answer>A</answer><explanation>Energy required to remove electron from n=1 to infinity.</explanation></question>
         <question>
             <text>The radius of the n-th Bohr orbit is proportional to ____.</text>
-            <option id="A">n²</option><option id="B">n</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">n²</option><option id="B">n</option>
             <answer>A</answer><explanation>r_n = a₀ n² where a₀ is Bohr radius.</explanation></question>
         <question>
             <text>Bohr radius (r for n=1) of Hydrogen atom is approx ____ Å.</text>
-            <option id="A">0.53</option><option id="B">1.0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.53</option><option id="B">1.0</option>
             <answer>A</answer><explanation>Standard value (5.29 x 10^-11 m).</explanation></question>
         <question>
             <text>The spectral series of Hydrogen in visible region is ____ series.</text>
-            <option id="A">Balmer</option><option id="B">Lyman</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Balmer</option><option id="B">Lyman</option>
             <answer>A</answer><explanation>Corresponds to transitions ending at n=2.</explanation></question>
         <question>
             <text>Lyman series lies in the ____ region of spectrum.</text>
-            <option id="A">Ultraviolet (UV)</option><option id="B">Infrared (IR)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Ultraviolet (UV)</option><option id="B">Infrared (IR)</option>
             <answer>A</answer><explanation>High energy transition ending at n=1.</explanation></question>
         <question>
             <text>Paschen, Brackett and Pfund series lie in the ____ region.</text>
-            <option id="A">Infrared</option><option id="B">Visible</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Infrared</option><option id="B">Visible</option>
             <answer>A</answer><explanation>Lower energy transitions ending at n=3, 4, 5.</explanation></question>
         <question>
             <text>Rydberg constant R has value approx ____ m⁻¹.</text>
-            <option id="A">1.097 x 10^7</option><option id="B">1.097 x 10^-7</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1.097 x 10^7</option><option id="B">1.097 x 10^-7</option>
             <answer>A</answer><explanation>Used in wave number calculation.</explanation></question>
         <question>
             <text>Ground state of an atom is its ____ energy state.</text>
-            <option id="A">Lowest</option><option id="B">Highest</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Lowest</option><option id="B">Highest</option>
             <answer>A</answer><explanation>n = 1 state.</explanation></question>
         <question>
             <text>Binding energy of Hydrogen electron in first excited state (n=2) is ____ eV.</text>
-            <option id="A">3.4</option><option id="B">13.6</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">3.4</option><option id="B">13.6</option>
             <answer>A</answer><explanation>13.6 / 2² = 3.4 eV.</explanation></question>
         <question>
             <text>Velocity of an electron in Bohr orbit is proportional to ____.</text>
-            <option id="A">1 / n</option><option id="B">n</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / n</option><option id="B">n</option>
             <answer>A</answer><explanation>Electrons in higher orbits move slower.</explanation></question>
         <question>
             <text>Potential energy of electron in n-th orbit is U = ____ En.</text>
-            <option id="A">2</option><option id="B">-2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">-2</option>
             <answer>A</answer><explanation>Total Energy = KE + PE. PE = -2 KE. TE = -KE. So PE = 2 TE.</explanation></question>
         <question>
             <text>Kinetic energy of electron in n-th orbit is K = ____ En.</text>
-            <option id="A">-1</option><option id="B">+1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">+1</option>
             <answer>A</answer><explanation>KE is always positive, En is negative.</explanation></question>
         <question>
             <text>Ratio of radius of first and second Bohr orbits is ____.</text>
-            <option id="A">1 : 4</option><option id="B">1 : 2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 : 4</option><option id="B">1 : 2</option>
             <answer>A</answer><explanation>r ∝ n².</explanation></question>
         <question>
             <text>Frequency of revolution of electron f is proportional to ____.</text>
-            <option id="A">1 / n³</option><option id="B">1 / n</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / n³</option><option id="B">1 / n</option>
             <answer>A</answer><explanation>f = v / 2πr ∝ (1/n) / n² = 1/n³.</explanation></question>
         <question>
             <text>Isotope of Hydrogen with no neutrons is ____.</text>
-            <option id="A">Protium</option><option id="B">Deuterium</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Protium</option><option id="B">Deuterium</option>
             <answer>A</answer><explanation>Consists of 1 proton and 1 electron only.</explanation></question>
         <question>
             <text>Thomson's model of atom is called ____ model.</text>
-            <option id="A">Plum Pudding</option><option id="B">Nuclear</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Plum Pudding</option><option id="B">Nuclear</option>
             <answer>A</answer><explanation>Uniform positive charge with embedded electrons.</explanation></question>
         <question>
             <text>Failures of Rutherford's model: could not explain ____ and ____.</text>
-            <option id="A">Stability, Discrete Spectra</option><option id="B">Charge, Mass</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Stability, Discrete Spectra</option><option id="B">Charge, Mass</option>
             <answer>A</answer><explanation>Accelerated charges should radiate and spiral in; spectra should be continuous.</explanation></question>
         <question>
             <text>Largest wavelength in Lyman series occurs for transition from n=____ to n=1.</text>
-            <option id="A">2</option><option id="B">infinity</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">infinity</option>
             <answer>A</answer><explanation>Smallest energy gap (Lyman alpha line).</explanation></question>
         <question>
             <text>Shortest wavelength (series limit) occurs when jump is from n=____.</text>
-            <option id="A">Infinity</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Infinity</option><option id="B">2</option>
             <answer>A</answer><explanation>Maximum energy transition.</explanation></question>
         <question>
             <text>Number of spectral lines emitted when electron jumps from n=3 to n=1 is ____.</text>
-            <option id="A">3 (3-&gt;2, 2-&gt;1, 3-&gt;1)</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">3 (3-&gt;2, 2-&gt;1, 3-&gt;1)</option><option id="B">2</option>
             <answer>A</answer><explanation>n(n-1)/2 formula.</explanation></question>
         <question>
             <text>Excitation potential for Hydrogen (n=1 to n=2) is ____ V.</text>
-            <option id="A">10.2</option><option id="B">13.6</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">10.2</option><option id="B">13.6</option>
             <answer>A</answer><explanation>ΔE = 13.6 - 3.4 = 10.2 eV.</explanation></question>
         <question>
             <text>Is Bohr's model applicable to He+ ion?</text>
-            <option id="A">Yes (Hydrogen-like species)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes (Hydrogen-like species)</option><option id="B">No</option>
             <answer>A</answer><explanation>Applies to any system with 1 electron.</explanation></question>
         <question>
             <text>Impact parameter for an alpha particle scattering at 180° is ____.</text>
-            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Maximum</option>
             <answer>A</answer><explanation>Head-on collision.</explanation></question>
         <question>
             <text>Scattering of alpha particles is due to ____ forces.</text>
-            <option id="A">Electrostatic / Coulombic</option><option id="B">Nuclear</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Electrostatic / Coulombic</option><option id="B">Nuclear</option>
             <answer>A</answer><explanation>Repulsion between positive alpha and positive nucleus.</explanation></question>
         <question>
             <text>Atomic number Z represents number of ____ in nucleus.</text>
-            <option id="A">Protons</option><option id="B">Neutrons</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Protons</option><option id="B">Neutrons</option>
             <answer>A</answer><explanation>Determines the chemical identity.</explanation></question>
         <question>
             <text>Does an electron lose energy while revolving in Bohr's permitted orbit?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Stationary states postulate.</explanation></question>
         <question>
             <text>Atoms are electrically ____.</text>
-            <option id="A">Neutral</option><option id="B">Charged</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Neutral</option><option id="B">Charged</option>
             <answer>A</answer><explanation>Equal number of protons and electrons.</explanation></question>
         <question>
             <text>Emission spectrum of Hydrogen was explained by ____ model.</text>
-            <option id="A">Bohr's</option><option id="B">Dalton's</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Bohr's</option><option id="B">Dalton's</option>
             <answer>A</answer><explanation>By quantifying energy levels.</explanation></question>
         <question>
             <text>Atoms chapter initialization done.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Radius of Hydrogen atom r ∝ ____ and r ∝ 1 / ____.</text>
-            <option id="A">n², Z</option><option id="B">n, Z²</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">n², Z</option><option id="B">n, Z²</option>
             <answer>A</answer><explanation>r = (ε₀ h² / π m e²) * (n² / Z).</explanation></question>
         <question>
             <text>Energy of electron in orbit En ∝ ____ and En ∝ 1 / ____.</text>
-            <option id="A">Z², n²</option><option id="B">Z, n</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Z², n²</option><option id="B">Z, n</option>
             <answer>A</answer><explanation>En = -13.6 * Z² / n² eV.</explanation></question>
         <question>
             <text>Ratio of velocities of electron in first three orbits of Hydrogen: v1 : v2 : v3 = ____.</text>
-            <option id="A">1 : 1/2 : 1/3</option><option id="B">1 : 2 : 3</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 : 1/2 : 1/3</option><option id="B">1 : 2 : 3</option>
             <answer>A</answer><explanation>v ∝ 1/n.</explanation></question>
         <question>
             <text>Ratio of energy of electron in first three orbits of Hydrogen: E1 : E2 : E3 = ____.</text>
-            <option id="A">1 : 1/4 : 1/9</option><option id="B">1 : 2 : 3</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 : 1/4 : 1/9</option><option id="B">1 : 2 : 3</option>
             <answer>A</answer><explanation>E ∝ 1/n².</explanation></question>
         <question>
             <text>Relationship between KE, PE and Total Energy E: ____.</text>
-            <option id="A">K = -E, U = 2E</option><option id="B">K = E, U = -E</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">K = -E, U = 2E</option><option id="B">K = E, U = -E</option>
             <answer>A</answer><explanation>Standard electrostatic binding physics.</explanation></question>
         <question>
             <text>Wave number (1/λ) of radiation emitted is R Z² (____).</text>
-            <option id="A">1/n1² - 1/n2²</option><option id="B">1/n2² - 1/n1²</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1/n1² - 1/n2²</option><option id="B">1/n2² - 1/n1²</option>
             <answer>A</answer><explanation>n1 is lower orbit, n2 is higher orbit.</explanation></question>
         <question>
             <text>Excitation of electron from ground state to n=4 requires energy ____ eV.</text>
-            <option id="A">12.75</option><option id="B">10.2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">12.75</option><option id="B">10.2</option>
             <answer>A</answer><explanation>13.6 - (13.6/16) = 13.6 - 0.85 = 12.75 eV.</explanation></question>
         <question>
             <text>Maximum number of spectral lines from n to ground state is ____.</text>
-            <option id="A">n (n - 1) / 2</option><option id="B">n (n + 1) / 2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">n (n - 1) / 2</option><option id="B">n (n + 1) / 2</option>
             <answer>A</answer><explanation>Statistical combination of all possible jumps.</explanation></question>
         <question>
             <text>The ratio of maximum to minimum wavelength in Balmer series is ____.</text>
-            <option id="A">9 : 5</option><option id="B">4 : 3</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">9 : 5</option><option id="B">4 : 3</option>
             <answer>A</answer><explanation>λmax (3-&gt;2) = 36/5R. λmin (inf-&gt;2) = 4/R. Ratio = 36/20 = 9/5.</explanation></question>
         <question>
             <text>De-Broglie wavelength of electron in n-th orbit is related to circumference by 2π r = ____.</text>
-            <option id="A">n λ</option><option id="B">λ / n</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">n λ</option><option id="B">λ / n</option>
             <answer>A</answer><explanation>Condition for standing waves in orbit.</explanation></question>
         <question>
             <text>Bohr's model violates Heisenberg's Uncertainty Principle because it assumes fixed ____ and ____.</text>
-            <option id="A">Position, Momentum</option><option id="B">Charge, Mass</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Position, Momentum</option><option id="B">Charge, Mass</option>
             <answer>A</answer><explanation>Defines precise orbits which is quantum mechanically impossible.</explanation></question>
         <question>
             <text>Mass of alpha particle is approx ____ times mass of proton.</text>
-            <option id="A">4</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">4</option><option id="B">2</option>
             <answer>A</answer><explanation>Contains 2 protons and 2 neutrons.</explanation></question>
         <question>
             <text>Impact parameter b ∝ ____.</text>
-            <option id="A">cot(θ/2)</option><option id="B">tan(θ/2)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">cot(θ/2)</option><option id="B">tan(θ/2)</option>
             <answer>A</answer><explanation>Relationship between scattering angle and approach offset.</explanation></question>
         <question>
             <text>Fraction of alpha particles scattered at angle &gt; 90° is very ____.</text>
-            <option id="A">Small (approx 1 in 8000)</option><option id="B">Large</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Small (approx 1 in 8000)</option><option id="B">Large</option>
             <answer>A</answer><explanation>Nucleus is very small compared to atom.</explanation></question>
         <question>
             <text>Energy of 2nd excited state in Hydrogen is ____ eV.</text>
-            <option id="A">-1.51</option><option id="B">-3.4</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">-1.51</option><option id="B">-3.4</option>
             <answer>A</answer><explanation>n = 3 implies E = -13.6 / 9 = -1.51 eV.</explanation></question>
         <question>
             <text>Orbital frequency is proportional to Z² / n³. In He+, frequency compared to H is ____.</text>
-            <option id="A">4 times more (for same n)</option><option id="B">2 times more</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">4 times more (for same n)</option><option id="B">2 times more</option>
             <answer>A</answer><explanation>Z = 2 for Helium.</explanation></question>
         <question>
             <text>What happens to KE of electron as it jumps from n=2 to n=1?</text>
-            <option id="A">Increases 4 times</option><option id="B">Decreases 4 times</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases 4 times</option><option id="B">Decreases 4 times</option>
             <answer>A</answer><explanation>K ∝ 1/n².</explanation></question>
         <question>
             <text>Binding energy of electron in n=inf is ____.</text>
-            <option id="A">Zero</option><option id="B">Infinite</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Infinite</option>
             <answer>A</answer><explanation>Reference point for zero potential energy.</explanation></question>
         <question>
             <text>Shortest wavelength in Lyman series for Hydrogen is approx ____ Å.</text>
-            <option id="A">911</option><option id="B">1216</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">911</option><option id="B">1216</option>
             <answer>A</answer><explanation>λ = 1 / R ≈ 911.7 Å.</explanation></question>
         <question>
             <text>Longest wavelength in Balmer series is approx ____ Å.</text>
-            <option id="A">6563</option><option id="B">4861</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">6563</option><option id="B">4861</option>
             <answer>A</answer><explanation>Transition 3 -&gt; 2 (H-alpha line).</explanation></question>
         <question>
             <text>Ratio of energy needed to remove electron from n=1 and n=2 is ____.</text>
-            <option id="A">4 : 1</option><option id="B">1 : 4</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">4 : 1</option><option id="B">1 : 4</option>
             <answer>A</answer><explanation>13.6 vs 3.4 eV.</explanation></question>
         <question>
             <text>Does Bohr's model explain Stark and Zeeman effects?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Fine structure and splitting in external fields require further quantum treatment.</explanation></question>
         <question>
             <text>Spectral lines of Hydrogen-like atoms have wavelengths ∝ ____.</text>
-            <option id="A">1 / Z²</option><option id="B">1 / Z</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / Z²</option><option id="B">1 / Z</option>
             <answer>A</answer><explanation>Higher Z means higher energy gaps, thus shorter λ.</explanation></question>
         <question>
             <text>If angular momentum L is increased by 2 times, n ____.</text>
-            <option id="A">Doubles</option><option id="B">Increases 4 times</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Doubles</option><option id="B">Increases 4 times</option>
             <answer>A</answer><explanation>L = n h / 2π.</explanation></question>
         <question>
             <text>Transition that produces radiation of highest frequency is ____.</text>
-            <option id="A">n=2 to n=1</option><option id="B">n=3 to n=2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">n=2 to n=1</option><option id="B">n=3 to n=2</option>
             <answer>A</answer><explanation>Largest energy jump in the list.</explanation></question>
         <question>
             <text>Which series of spectral lines in H-atom is partly in visible and partly in UV?</text>
-            <option id="A">Balmer series? No, Balmer is mainly visible/near UV. Correct is Balmer.</option><option id="B">Lyman</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Balmer series? No, Balmer is mainly visible/near UV. Correct is Balmer.</option><option id="B">Lyman</option>
             <answer>A</answer><explanation>Series starts from 656nm and ends at 364nm.</explanation></question>
         <question>
             <text>Energy equivalent to Rydberg constant is h c R ≈ ____ eV.</text>
-            <option id="A">13.6</option><option id="B">27.2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">13.6</option><option id="B">27.2</option>
             <answer>A</answer><explanation>Base ionization energy of Hydrogen.</explanation></question>
         <question>
             <text>Acceleration of electron in n-th orbit is proportional to ____.</text>
-            <option id="A">1 / n⁴</option><option id="B">1 / n²</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / n⁴</option><option id="B">1 / n²</option>
             <answer>A</answer><explanation>a = v²/r ∝ (1/n²) / n² = 1/n⁴.</explanation></question>
         <question>
             <text>Total number of electrons in 1 gram-atom of Hydrogen is ____.</text>
-            <option id="A">Avogadro Number (6.022 x 10^23)</option><option id="B">10^20</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Avogadro Number (6.022 x 10^23)</option><option id="B">10^20</option>
             <answer>A</answer><explanation>By definition of mole.</explanation></question>
         <question>
             <text>The ratio of area of first and second Bohr orbits is ____.</text>
-            <option id="A">1 : 16</option><option id="B">1 : 4</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 : 16</option><option id="B">1 : 4</option>
             <answer>A</answer><explanation>Area ∝ r² ∝ n⁴.</explanation></question>
         <question>
             <text>Stability of an atom in Bohr's model is ____.</text>
-            <option id="A">Assumed (Electrons don't radiate in stationary orbits)</option><option id="B">Derived</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Assumed (Electrons don't radiate in stationary orbits)</option><option id="B">Derived</option>
             <answer>A</answer><explanation>One of the key postulates.</explanation></question>
         <question>
             <text>Bohr's model can explain spectrum of atoms with ____ electron(s).</text>
-            <option id="A">Only one</option><option id="B">Any number of</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Only one</option><option id="B">Any number of</option>
             <answer>A</answer><explanation>Fails for multi-electron atoms like He, Li.</explanation></question>
         <question>
             <text>Energy of photon required to move electron from n=2 to n=3 in He+ is ____ eV.</text>
-            <option id="A">7.56</option><option id="B">1.89</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">7.56</option><option id="B">1.89</option>
             <answer>A</answer><explanation>ΔE_H = 1.89 eV. For He+, multiply by Z² = 4. 1.89 * 4 = 7.56 eV.</explanation></question>
         <question>
             <text>Impact parameter for scattering angle 90° is approx ____.</text>
-            <option id="A">Radius of nucleus</option><option id="B">Bohr radius</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Radius of nucleus</option><option id="B">Bohr radius</option>
             <answer>A</answer><explanation>Close range interaction.</explanation></question>
         <question>
             <text>Is it possible for an electron to have zero total energy and still be part of atom?</text>
-            <option id="A">No (must be negative for bound state)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (must be negative for bound state)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Zero energy means it is just freed.</explanation></question>
         <question>
             <text>Correcting the XML standardization of Atoms chapter.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>Atomic spectra are ____ spectra.</text>
-            <option id="A">Line</option><option id="B">Continuous</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Line</option><option id="B">Continuous</option>
             <answer>A</answer><explanation>Due to discrete energy levels.</explanation></question>
         <question>
             <text>Can we see the Balmer series of Helium atom?</text>
-            <option id="A">He+ yes, neutral He No (different levels)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">He+ yes, neutral He No (different levels)</option><option id="B">No</option>
             <answer>A</answer><explanation>Only 1-electron systems match the Bohr pattern.</explanation></question>
         <question>
             <text>Transition 1-&gt;2 in H-atom corresponds to absorbed wavelength approx ____ nm.</text>
-            <option id="A">121.6</option><option id="B">91.1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">121.6</option><option id="B">91.1</option>
             <answer>A</answer><explanation>λ = 1240 / 10.2 ≈ 121.6 nm.</explanation></question>
         <question>
             <text>Wave number is reciprocal of wavelength?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>k = 1 / λ.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>If an electron in a Hydrogen atom is replaced by a muon (mass = 207 me), the Bohr radius becomes ____.</text>
-            <option id="A">1 / 207 of original</option><option id="B">207 times larger</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / 207 of original</option><option id="B">207 times larger</option>
             <answer>A</answer><explanation>r ∝ 1/m. Heavy electron-like particle orbits much closer.</explanation></question>
         <question>
             <text>For a muon-Hydrogen atom, the ground state energy is approx ____ eV.</text>
-            <option id="A">-2815</option><option id="B">-13.6</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">-2815</option><option id="B">-13.6</option>
             <answer>A</answer><explanation>E ∝ m. E = 207 * (-13.6) ≈ -2815 eV.</explanation></question>
         <question>
             <text>Relationship between angular momentum L and magnetic moment μ of an orbiting electron is ____.</text>
-            <option id="A">μ / L = e / 2m</option><option id="B">μ / L = e m / 2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">μ / L = e / 2m</option><option id="B">μ / L = e m / 2</option>
             <answer>A</answer><explanation>Gyromagnetic ratio is a constant for all orbits.</explanation></question>
         <question>
             <text>Bohr's quantization condition was explained by De-Broglie by assuming electrons to be ____ waves.</text>
-            <option id="A">Stationary / Standing</option><option id="B">Progressive</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Stationary / Standing</option><option id="B">Progressive</option>
             <answer>A</answer><explanation>Condition n λ = 2πr ensures constructive self-interference.</explanation></question>
         <question>
             <text>In a Hydrogen-like atom, an electron jumps from n=3 to n=2 emitting photon of wavelength λ. For jump n=4 to n=2, wavelength is ____.</text>
-            <option id="A">20/27 λ</option><option id="B">27/20 λ</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">20/27 λ</option><option id="B">27/20 λ</option>
             <answer>A</answer><explanation>Compare energy gaps (1/4 - 1/9) and (1/4 - 1/16).</explanation></question>
         <question>
             <text>Ratio of frequencies of longest wavelength lines in Lyman and Balmer series is ____.</text>
-            <option id="A">27 : 5</option><option id="B">5 : 27</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">27 : 5</option><option id="B">5 : 27</option>
             <answer>A</answer><explanation>f ∝ ΔE. Lyman (2-&gt;1) = 3/4 R. Balmer (3-&gt;2) = 5/36 R. Ratio = (3/4) / (5/36) = 27/5.</explanation></question>
         <question>
             <text>If Bohr's quantization was L = n h (instead of n h/2π), the energy of n-th orbit would be ____.</text>
-            <option id="A">En / 4π²</option><option id="B">En * 4π²</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">En / 4π²</option><option id="B">En * 4π²</option>
             <answer>A</answer><explanation>Energy ∝ 1/L².</explanation></question>
         <question>
             <text>Distance of closest approach d is inversely proportional to ____ of alpha particle.</text>
-            <option id="A">Kinetic energy (K)</option><option id="B">Velocity v</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Kinetic energy (K)</option><option id="B">Velocity v</option>
             <answer>A</answer><explanation>d = (1/4πε₀) * (2Ze²/K).</explanation></question>
         <question>
             <text>For a head-on collision, at distance d, the kinetic energy is ____.</text>
-            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Maximum</option>
             <answer>A</answer><explanation>Momentarily comes to rest before reversing.</explanation></question>
         <question>
             <text>Excitation of Hydrogen from n=1 to n=4 requires photon of freq f. To move from n=2 to n=4 requires freq ____.</text>
-            <option id="A">f * (3/4)? No. f14 = 15/16. f24 = 3/16. Ratio is 1/5.</option><option id="B">f/5</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">f * (3/4)? No. f14 = 15/16. f24 = 3/16. Ratio is 1/5.</option><option id="B">f/5</option>
             <answer>B</answer><explanation>ΔE_14 = 13.6(1 - 1/16). ΔE_24 = 13.6(1/4 - 1/16) = 13.6 (3/16). Ratio = 3/15 = 1/5.</explanation></question>
         <question>
             <text>Bohr's model does not account for the ____ of spectral lines.</text>
-            <option id="A">Relative intensities</option><option id="B">Wavelengths</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Relative intensities</option><option id="B">Wavelengths</option>
             <answer>A</answer><explanation>Predicts where lines are, but not how bright they are.</explanation></question>
         <question>
             <text>Rutherford's scattering formula predicts N(θ) ∝ ____.</text>
-            <option id="A">1 / sin⁴(θ/2)</option><option id="B">1 / sin²(θ/2)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / sin⁴(θ/2)</option><option id="B">1 / sin²(θ/2)</option>
             <answer>A</answer><explanation>Verification of Coulomb's inverse square law at atomic scales.</explanation></question>
         <question>
             <text>Number of alpha particles scattered at 60° is 100. At 90°, the number is approx ____.</text>
-            <option id="A">25 (sin 30 = 0.5, sin 45 = 0.707. (0.5/0.707)^4 = 1/4)</option><option id="B">50</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">25 (sin 30 = 0.5, sin 45 = 0.707. (0.5/0.707)^4 = 1/4)</option><option id="B">50</option>
             <answer>A</answer><explanation>Using N ∝ cosec^4(θ/2).</explanation></question>
         <question>
             <text>Binding energy per electron in He+ (n=1) is ____ eV.</text>
-            <option id="A">54.4 (13.6 * 2²)</option><option id="B">13.6</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">54.4 (13.6 * 2²)</option><option id="B">13.6</option>
             <answer>A</answer><explanation>Nucleus has 2 protons, exerting stronger pull.</explanation></question>
         <question>
             <text>Standardizing Atoms chapter (110) completion check.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>All questions follow 6-line schema.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>Explanations provided for all questions?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>If n -&gt; infinity, E -&gt; ____ eV.</text>
-            <option id="A">0 (Atom is ionized)</option><option id="B">-13.6</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0 (Atom is ionized)</option><option id="B">-13.6</option>
             <answer>A</answer><explanation>Convention for free particle.</explanation></question>
         <question>
             <text>Ratio of KE and Total Energy in Bohr model is ____.</text>
-            <option id="A">-1</option><option id="B">+1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">+1</option>
             <answer>A</answer><explanation>E = -K.</explanation></question>
         <question>
             <text>Velocity of light is approx ____ times velocity of electron in ground state of H.</text>
-            <option id="A">137</option><option id="B">1000</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">137</option><option id="B">1000</option>
             <answer>A</answer><explanation>v1 = c / 137 (Fine structure constant α).</explanation></question>
         <question>
             <text>Energy of an X-ray photon is approx ____ times that of visible light.</text>
-            <option id="A">1000</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1000</option><option id="B">10</option>
             <answer>A</answer><explanation>Orders of magnitude higher frequency.</explanation></question>
         <question>
             <text>Atomic mass unit (amu) is 1/12 of mass of ____ atom.</text>
-            <option id="A">Carbon-12</option><option id="B">Hydrogen-1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Carbon-12</option><option id="B">Hydrogen-1</option>
             <answer>A</answer><explanation>Standard reference.</explanation></question>
         <question>
             <text>Bohr's theory explains line spectrum because energy is ____ during jump.</text>
-            <option id="A">Lost as a single photon</option><option id="B">Absorbed continuously</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Lost as a single photon</option><option id="B">Absorbed continuously</option>
             <answer>A</answer><explanation>Quantized energy change implies discrete frequency.</explanation></question>
         <question>
             <text>Spectral series from Brackett involves n_final = ____.</text>
-            <option id="A">4</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">4</option><option id="B">3</option>
             <answer>A</answer><explanation>Transitions to 4th orbit.</explanation></question>
         <question>
             <text>What happens to orbital period T if n is doubled?</text>
-            <option id="A">8 times (T ∝ n³)</option><option id="B">2 times</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">8 times (T ∝ n³)</option><option id="B">2 times</option>
             <answer>A</answer><explanation>Derived from Kepler-like laws in atom.</explanation></question>
         <question>
             <text>Bohr's model assumes nucleus is ____.</text>
-            <option id="A">Infinitely heavy / Fixed</option><option id="B">Moving</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Infinitely heavy / Fixed</option><option id="B">Moving</option>
             <answer>A</answer><explanation>Correction needed for finite mass (reduced mass μ).</explanation></question>
         <question>
             <text>Does Bohr's model explain line widths?</text>
-            <option id="A">No (predicts zero width)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (predicts zero width)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Widths arise from uncertainty principle and Doppler shifts.</explanation>
         </question>
         <question>
             <text>Ratio of wavelengths of first lines of Lyman and Paschen series is ____.</text>
-            <option id="A">7 : 108</option><option id="B">108 : 7</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">7 : 108</option><option id="B">108 : 7</option>
             <answer>A</answer><explanation>Lyman (2-&gt;1) = 3/4. Paschen (4-&gt;3) = 7/144. λ ratio = (7/144) / (3/4) = 7 / 108.</explanation></question>
         <question>
             <text>The wave nature of electron was confirmed by ____.</text>
-            <option id="A">G.P. Thomson and Davisson-Germer</option><option id="B">Bohr</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">G.P. Thomson and Davisson-Germer</option><option id="B">Bohr</option>
             <answer>A</answer><explanation>Independent experimental verification.</explanation></question>
         <question>
             <text>Are there any exceptions to Bohr's model for single electron species?</text>
-            <option id="A">Only relativistic and fine structure corrections</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Only relativistic and fine structure corrections</option><option id="B">No</option>
             <answer>A</answer><explanation>Dirac equation provides more exact solution.</explanation></question>
         <question>
             <text>Magnetic field at the center of orbit is proportional to ____.</text>
-            <option id="A">1 / n⁵? No, i/r ∝ (v/r)/r ∝ v/r² ∝ (1/n)/n⁴ = 1/n⁵.</option><option id="B">1 / n³</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / n⁵? No, i/r ∝ (v/r)/r ∝ v/r² ∝ (1/n)/n⁴ = 1/n⁵.</option><option id="B">1 / n³</option>
             <answer>A</answer><explanation>Calculated from current loop model.</explanation></question>
         <question>
             <text>Atoms generate ____ radiation if electrons are in ground state.</text>
-            <option id="A">No</option><option id="B">Thermal</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No</option><option id="B">Thermal</option>
             <answer>A</answer><explanation>Stable state.</explanation></question>
         <question>
             <text>Bohr's principle of correspondence applies when n is ____.</text>
-            <option id="A">Very large</option><option id="B">Small</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Very large</option><option id="B">Small</option>
             <answer>A</answer><explanation>Quantum results approach classical results.</explanation></question>
         <question>
             <text>Work done by electrostatic force in one complete revolution of electron is ____.</text>
-            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Positive</option>
             <answer>A</answer><explanation>Conservative force over closed path.</explanation></question>
         <question>
             <text>Impact parameter for backward scattering (180°) is ____.</text>
-            <option id="A">Zero</option><option id="B">Infinity</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Infinity</option>
             <answer>A</answer><explanation>Head-on collision.</explanation></question>
         <question>
             <text>In Bohr model, as n increases, the distance between adjacent levels ____.</text>
-            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Decreases</option><option id="B">Increases</option>
             <answer>A</answer><explanation>Energies converge to zero.</explanation></question>
         <question>
             <text>The energy needed to remove electron from Li++ ground state is ____ eV.</text>
-            <option id="A">122.4 (13.6 * 3²)</option><option id="B">13.6</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">122.4 (13.6 * 3²)</option><option id="B">13.6</option>
             <answer>A</answer><explanation>Z = 3 for Lithium.</explanation></question>
         <question>
             <text>If En = -2 eV, then Un = ____ eV.</text>
-            <option id="A">-4</option><option id="B">+2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">-4</option><option id="B">+2</option>
             <answer>A</answer><explanation>PE = 2 * TE.</explanation></question>
         <question>
             <text>Atoms chapter (modern physics batch 4) completed 120/120.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>Explanations provided for all questions?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
     </hard>
 </chapter>

@@ -3,7 +3,7 @@
     <easy>
         <question>
             <text>If area of circle increases at rate of 2 cm^2/s, rate of increase of radius when r=10 cm is:</text>
-            <option id="A">1/(10 pi) cm/s</option><option id="B">1/(5 pi) cm/s</option><option id="C">10 pi cm/s</option><option id="D">None</option>
+            <option id="A">1/(10 pi) cm/s</option><option id="B">1/(5 pi) cm/s</option><option id="C">10 pi cm/s</option>
             <answer>A</answer><explanation>dA/dt = 2pi r dr/dt -&gt; 2 = 2pi(10)dr/dt -&gt; dr/dt = 1/(10 pi).</explanation></question>
         <question>
             <text>Slope of tangent to curve y = x^2 at (1, 1) is:</text>
@@ -11,7 +11,7 @@
             <answer>A</answer><explanation>dy/dx = 2x. At x=1, m=2.</explanation></question>
         <question>
             <text>Function f(x) = 2x + 3 is strictly:</text>
-            <option id="A">Increasing</option><option id="B">Decreasing</option><option id="C">Constant</option><option id="D">None</option>
+            <option id="A">Increasing</option><option id="B">Decreasing</option><option id="C">Constant</option>
             <answer>A</answer><explanation>f'(x) = 2 &gt; 0.</explanation></question>
         <question>
             <text>The equation of tangent to y=x^2 at (0,0) is:</text>
@@ -31,7 +31,7 @@
             <answer>A</answer><explanation>Vertical lines have undefined slope.</explanation></question>
         <question>
             <text>What is the normal to a curve?</text>
-            <option id="A">Line perpendicular to tangent at point of contact</option><option id="B">Line parallel to tangent</option><option id="C">A chord</option><option id="D">None</option>
+            <option id="A">Line perpendicular to tangent at point of contact</option><option id="B">Line parallel to tangent</option><option id="C">A chord</option>
             <answer>A</answer><explanation>Definition of normal.</explanation></question>
         <question>
             <text>Slope of normal to y=f(x) at point (x0, y0) is:</text>
@@ -47,11 +47,11 @@
             <answer>A</answer><explanation>Linear approximation formula.</explanation></question>
         <question>
             <text>A square side s increases at 3 cm/s. Rate of area increase when s=10 is:</text>
-            <option id="A">60 cm^2/s</option><option id="B">30 cm^2/s</option><option id="C">9 cm^2/s</option><option id="D">None</option>
+            <option id="A">60 cm^2/s</option><option id="B">30 cm^2/s</option><option id="C">9 cm^2/s</option>
             <answer>A</answer><explanation>A=s^2. dA/dt = 2s ds/dt = 2(10)(3) = 60.</explanation></question>
         <question>
             <text>Points where f'(x) = 0 or f'(x) is not defined are called:</text>
-            <option id="A">Critical points</option><option id="B">Inflection points</option><option id="C">Zero points</option><option id="D">None</option>
+            <option id="A">Critical points</option><option id="B">Inflection points</option><option id="C">Zero points</option>
             <answer>A</answer><explanation>Definition of critical points.</explanation></question>
         <question>
             <text>Strictly decreasing means f'(x) is:</text>
@@ -59,23 +59,23 @@
             <answer>A</answer><explanation>Definition of strictly decreasing.</explanation></question>
         <question>
             <text>Rate of change of sin x wrt x at x = pi/2 is:</text>
-            <option id="A">0</option><option id="B">1</option><option id="C">-1</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">1</option><option id="C">-1</option>
             <answer>A</answer><explanation>d/dx (sin x) = cos x. cos(pi/2) = 0.</explanation></question>
         <question>
             <text>If area of square is A, rate of change of A wrt perimeter P is:</text>
-            <option id="A">P/8</option><option id="B">P/4</option><option id="C">2P</option><option id="D">None</option>
+            <option id="A">P/8</option><option id="B">P/4</option><option id="C">2P</option>
             <answer>A</answer><explanation>A = s^2, P = 4s -&gt; s = P/4. A = (P/4)^2 = P^2/16. dA/dP = 2P/16 = P/8.</explanation></question>
         <question>
             <text>Strictly increasing on (0, pi/2):</text>
-            <option id="A">tan x</option><option id="B">cos x</option><option id="C">cot x</option><option id="D">None</option>
+            <option id="A">tan x</option><option id="B">cos x</option><option id="C">cot x</option>
             <answer>A</answer><explanation>tan' = sec^2 &gt; 0. cos' = -sin &lt; 0.</explanation></question>
         <question>
             <text>Derivative of area of circle wrt its radius is:</text>
-            <option id="A">Circumference</option><option id="B">Diameter</option><option id="C">Radius</option><option id="D">None</option>
+            <option id="A">Circumference</option><option id="B">Diameter</option><option id="C">Radius</option>
             <answer>A</answer><explanation>d/dr (pi r^2) = 2pi r.</explanation></question>
         <question>
             <text>Equation of normal to y = x at (1, 1) is:</text>
-            <option id="A">y + x = 2</option><option id="B">y = x</option><option id="C">y = -x</option><option id="D">None</option>
+            <option id="A">y + x = 2</option><option id="B">y = x</option><option id="C">y = -x</option>
             <answer>A</answer><explanation>Slope of tangent=1. Slope of normal=-1. Eq: y-1 = -1(x-1) -&gt; y+x=2.</explanation></question>
         <question>
             <text>A line is a tangent to a curve if it touches the curve at:</text>
@@ -83,7 +83,7 @@
             <answer>A</answer><explanation>Definition of tangent.</explanation></question>
         <question>
             <text>Function f(x) = e^x is:</text>
-            <option id="A">Strictly increasing on R</option><option id="B">Strictly decreasing on R</option><option id="C">Increasing only for x&gt;0</option><option id="D">None</option>
+            <option id="A">Strictly increasing on R</option><option id="B">Strictly decreasing on R</option><option id="C">Increasing only for x&gt;0</option>
             <answer>A</answer><explanation>e^x &gt; 0 always.</explanation></question>
         <question>
             <text>Stationary point is where f'(x) is:</text>
@@ -95,31 +95,31 @@
             <answer>A</answer><explanation>Line slope is -a/b. Perp slope is b/a.</explanation></question>
         <question>
             <text>Angle between curves is the angle between their:</text>
-            <option id="A">Tangents at point of intersection</option><option id="B">Normals at origin</option><option id="C">Chords</option><option id="D">None</option>
+            <option id="A">Tangents at point of intersection</option><option id="B">Normals at origin</option><option id="C">Chords</option>
             <answer>A</answer><explanation>Definition of angle between curves.</explanation></question>
         <question>
             <text>Two curves are orthogonal if product of their tangent slopes is:</text>
-            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option>
             <answer>A</answer><explanation>Definition of orthogonality.</explanation></question>
         <question>
             <text>If f(x) = log x, it is strictly increasing in:</text>
-            <option id="A">(0, infinity)</option><option id="B">R</option><option id="C">Only (1, infinity)</option><option id="D">None</option>
+            <option id="A">(0, infinity)</option><option id="B">R</option><option id="C">Only (1, infinity)</option>
             <answer>A</answer><explanation>f' = 1/x &gt; 0 for x &gt; 0.</explanation></question>
         <question>
             <text>Rate of change of perimeter of circle wrt r is:</text>
-            <option id="A">2 pi</option><option id="B">pi r</option><option id="C">2 pi r</option><option id="D">None</option>
+            <option id="A">2 pi</option><option id="B">pi r</option><option id="C">2 pi r</option>
             <answer>A</answer><explanation>P = 2pi r. dP/dr = 2pi.</explanation></question>
         <question>
             <text>Volume of cube increases at 8 cm^3/s. Surface area increase speed when edge=12 cm:</text>
-            <option id="A">8/3 cm^2/s</option><option id="B">4 cm^2/s</option><option id="C">2 cm^2/s</option><option id="D">None</option>
+            <option id="A">8/3 cm^2/s</option><option id="B">4 cm^2/s</option><option id="C">2 cm^2/s</option>
             <answer>A</answer><explanation>V=x^3, dV/dt=3x^2 dx/dt=8. S=6x^2, dS/dt=12x dx/dt. Subst dx/dt=8/(3x^2) gives dS/dt=32/x = 32/12 = 8/3.</explanation></question>
         <question>
             <text>If f'(x) = 0 in (a, b), then f is ____ in (a, b).</text>
-            <option id="A">Constant</option><option id="B">Increasing</option><option id="C">Decreasing</option><option id="D">None</option>
+            <option id="A">Constant</option><option id="B">Increasing</option><option id="C">Decreasing</option>
             <answer>A</answer><explanation>Zero derivative implies no change.</explanation></question>
         <question>
             <text>Point of local maximum of x^2 is:</text>
-            <option id="A">None</option><option id="B">x=0</option><option id="C">x=1</option><option id="D">None</option>
+            <option id="B">x=0</option><option id="C">x=1</option>
             <answer>A</answer><explanation>0 is a local minimum for x^2.</explanation></question>
         <question>
             <text>If dx is error in x, relative error is:</text>
@@ -127,35 +127,35 @@
             <answer>A</answer><explanation>Definition of relative error.</explanation></question>
         <question>
             <text>A simple cubic y = x^3 - 3x has critical points at:</text>
-            <option id="A">x = 1 and x = -1</option><option id="B">x = 0</option><option id="C">x = 3</option><option id="D">None</option>
+            <option id="A">x = 1 and x = -1</option><option id="B">x = 0</option><option id="C">x = 3</option>
             <answer>A</answer><explanation>3x^2 - 3 = 0 -&gt; x^2 = 1.</explanation></question>
         <question>
             <text>Maxima and minima are collectively called:</text>
-            <option id="A">Extremum points</option><option id="B">Turning points</option><option id="C">Critical values</option><option id="D">None</option>
+            <option id="A">Extremum points</option><option id="B">Turning points</option><option id="C">Critical values</option>
             <answer>A</answer><explanation>Standard mathematical term.</explanation></question>
         <question>
             <text>Second derivative test: If f''(c) &gt; 0, then c is a point of:</text>
-            <option id="A">Local minimum</option><option id="B">Local maximum</option><option id="C">Infection</option><option id="D">None</option>
+            <option id="A">Local minimum</option><option id="B">Local maximum</option><option id="C">Infection</option>
             <answer>A</answer><explanation>Concave up leads to minimum.</explanation></question>
         <question>
             <text>Second derivative test: If f''(c) &lt; 0, then c is a point of:</text>
-            <option id="A">Local maximum</option><option id="B">Local minimum</option><option id="C">Inflection</option><option id="D">None</option>
+            <option id="A">Local maximum</option><option id="B">Local minimum</option><option id="C">Inflection</option>
             <answer>A</answer><explanation>Concave down leads to maximum.</explanation></question>
         <question>
             <text>Function f(x) = x^3 has local maximum at:</text>
-            <option id="A">None</option><option id="B">x=0</option><option id="C">x=1</option><option id="D">x=-1</option>
+            <option id="B">x=0</option><option id="C">x=1</option><option id="D">x=-1</option>
             <answer>A</answer><explanation>f'(0)=0, but f''(0)=0 and f'''(0)!=0 (inflection at 0).</explanation></question>
         <question>
             <text>Normal to x^2 + y^2 = r^2 at any point always passes through:</text>
-            <option id="A">Origin (0,0)</option><option id="B">(r, 0)</option><option id="C">(0, r)</option><option id="D">None</option>
+            <option id="A">Origin (0,0)</option><option id="B">(r, 0)</option><option id="C">(0, r)</option>
             <answer>A</answer><explanation>Radial lines are normals to circles.</explanation></question>
         <question>
             <text>Approximate change in area of square of side x by increasing side by 2% is:</text>
-            <option id="A">0.04 x^2</option><option id="B">0.02 x^2</option><option id="C">0.2 x^2</option><option id="D">None</option>
+            <option id="A">0.04 x^2</option><option id="B">0.02 x^2</option><option id="C">0.2 x^2</option>
             <answer>A</answer><explanation>dA = 2x dx = 2x(0.02x) = 0.04 x^2.</explanation></question>
         <question>
             <text>Tangent at high point of a hill is:</text>
-            <option id="A">Horizontal</option><option id="B">Vertical</option><option id="C">Slanted</option><option id="D">None</option>
+            <option id="A">Horizontal</option><option id="B">Vertical</option><option id="C">Slanted</option>
             <answer>A</answer><explanation>dy/dx = 0 at peaks.</explanation></question>
         <question>
             <text>Equation of normal to y = sin x at (0, 0) is:</text>
@@ -169,321 +169,321 @@
             <answer>A</answer><explanation>f'(x) = 2x e^{-x} - x^2 e^{-x} = x(2-x) e^{-x}. Increasing when x(2-x)&gt;0.</explanation></question>
         <question>
             <text>The local minimum of f(x) = x + 1/x (for x &gt; 0) is at:</text>
-            <option id="A">x = 1</option><option id="B">x = 2</option><option id="C">x = e</option><option id="D">None</option>
+            <option id="A">x = 1</option><option id="B">x = 2</option><option id="C">x = e</option>
             <answer>A</answer><explanation>f' = 1 - 1/x^2 = 0 -&gt; x^2 = 1. For x&gt;0, x=1.</explanation></question>
         <question>
             <text>Slope of tangent to x = a cos^3 t, y = a sin^3 t at t = pi/4 is:</text>
-            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option>
             <answer>A</answer><explanation>dy/dx = (3a sin^2 t cos t) / (-3a cos^2 t sin t) = -tan t. At pi/4, -1.</explanation></question>
         <question>
             <text>Condition that curves y^2 = 4ax and xy = c^2 cut orthogonally is:</text>
-            <option id="A">c^4 = 32a^4</option><option id="B">c^2 = 4a^2</option><option id="C">None</option><option id="D">c^2 = a^2</option>
+            <option id="A">c^4 = 32a^4</option><option id="B">c^2 = 4a^2</option><option id="D">c^2 = a^2</option>
             <answer>A</answer><explanation>m1 = 2a/y, m2 = -y/x. Orthogonal if m1*m2 = -1 -&gt; -2a/x = -1 -&gt; x = 2a. Subst in curves.</explanation></question>
         <question>
             <text>Function f(x) = sin x + cos x is strictly decreasing in:</text>
-            <option id="A">(pi/4, 5pi/4)</option><option id="B">(0, pi/2)</option><option id="C">(pi/2, pi)</option><option id="D">None</option>
+            <option id="A">(pi/4, 5pi/4)</option><option id="B">(0, pi/2)</option><option id="C">(pi/2, pi)</option>
             <answer>A</answer><explanation>f' = cos x - sin x &lt; 0 when cos x &lt; sin x.</explanation></question>
         <question>
             <text>Equation of normal to y^2 = 4x at (1, 2) is:</text>
-            <option id="A">x + y = 3</option><option id="B">x - y = -1</option><option id="C">x + y = 1</option><option id="D">None</option>
+            <option id="A">x + y = 3</option><option id="B">x - y = -1</option><option id="C">x + y = 1</option>
             <answer>A</answer><explanation>2y dy/dx = 4 -&gt; dy/dx = 4/2y = 4/4 = 1. Normal slope -1. Eq: y-2 = -1(x-1) -&gt; x+y=3.</explanation></question>
         <question>
             <text>Smallest value of x^2 + 250/x is:</text>
-            <option id="A">75</option><option id="B">50</option><option id="C">100</option><option id="D">None</option>
+            <option id="A">75</option><option id="B">50</option><option id="C">100</option>
             <answer>A</answer><explanation>f' = 2x - 250/x^2 = 0 -&gt; x^3 = 125 -&gt; x=5. Value: 25 + 50 = 75.</explanation></question>
         <question>
             <text>The line y = x + 1 is a tangent to y^2 = 4x at:</text>
-            <option id="A">(1, 2)</option><option id="B">(2, 1)</option><option id="C">(1, -2)</option><option id="D">None</option>
+            <option id="A">(1, 2)</option><option id="B">(2, 1)</option><option id="C">(1, -2)</option>
             <answer>A</answer><explanation>dy/dx = 2/y. For y=x+1, slope=1. 2/y = 1 -&gt; y=2. x=y-1=1.</explanation></question>
         <question>
             <text>Approximate value of sqrt(25.3) using differentials:</text>
-            <option id="A">5.03</option><option id="B">5.06</option><option id="C">5.003</option><option id="D">None</option>
+            <option id="A">5.03</option><option id="B">5.06</option><option id="C">5.003</option>
             <answer>A</answer><explanation>f(x)=sqrt(x), x=25, dx=0.3. f(25.3) approx 5 + (1/10)(0.3) = 5.03.</explanation></question>
         <question>
             <text>Absolute maximum of f(x) = sin x + cos x in [0, pi] is:</text>
-            <option id="A">sqrt(2)</option><option id="B">1</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">sqrt(2)</option><option id="B">1</option><option id="C">2</option>
             <answer>A</answer><explanation>f' = cos x - sin x = 0 at x=pi/4. f(pi/4) = sqrt(2). Boundary f(0)=1, f(pi)=-1.</explanation></question>
         <question>
             <text>Points on x^2/9 + y^2/16 = 1 where tangent is horizontal:</text>
-            <option id="A">(0, 4) and (0, -4)</option><option id="B">(3, 0) and (-3, 0)</option><option id="C">(0, 0)</option><option id="D">None</option>
+            <option id="A">(0, 4) and (0, -4)</option><option id="B">(3, 0) and (-3, 0)</option><option id="C">(0, 0)</option>
             <answer>A</answer><explanation>dy/dx = -(16x)/(9y). dy/dx=0 -&gt; x=0. Subst in ellipse -&gt; y^2=16.</explanation></question>
         <question>
             <text>Points on x^2/9 + y^2/16 = 1 where tangent is vertical:</text>
-            <option id="A">(3, 0) and (-3, 0)</option><option id="B">(0, 4) and (0, -4)</option><option id="C">(1, 1)</option><option id="D">None</option>
+            <option id="A">(3, 0) and (-3, 0)</option><option id="B">(0, 4) and (0, -4)</option><option id="C">(1, 1)</option>
             <answer>A</answer><explanation>dy/dx undefined -&gt; y=0. x^2=9 -&gt; x=+-3.</explanation></question>
         <question>
             <text>Find the local maxima of f(x) = x^3 - 3x + 3:</text>
-            <option id="A">x = -1</option><option id="B">x = 1</option><option id="C">x = 0</option><option id="D">None</option>
+            <option id="A">x = -1</option><option id="B">x = 1</option><option id="C">x = 0</option>
             <answer>A</answer><explanation>f' = 3x^2 - 3. f'' = 6x. at x=-1, f'' &lt; 0 (Max). at x=1, f'' &gt; 0 (Min).</explanation></question>
         <question>
             <text>Gas escapes from spherical balloon at 900 cm^3/s. r' when r=15 cm:</text>
-            <option id="A">1/pi</option><option id="B">2/pi</option><option id="C">1/(2pi)</option><option id="D">None</option>
+            <option id="A">1/pi</option><option id="B">2/pi</option><option id="C">1/(2pi)</option>
             <answer>A</answer><explanation>dV/dt = 4pi r^2 dr/dt -&gt; 900 = 4pi(225) dr/dt -&gt; dr/dt = 900 / 900pi = 1/pi.</explanation></question>
         <question>
             <text>For the function f(x) = x^3 + 1, point (0, 1) is:</text>
-            <option id="A">Point of inflection</option><option id="B">Local maximum</option><option id="C">Local minimum</option><option id="D">None</option>
+            <option id="A">Point of inflection</option><option id="B">Local maximum</option><option id="C">Local minimum</option>
             <answer>A</answer><explanation>f'(0)=0 and f''(0)=0. f'''(0)=6 != 0.</explanation></question>
         <question>
             <text>Angle of intersection between y^2 = x and x^2 = y at (1, 1):</text>
-            <option id="A">tan^{-1}(3/4)</option><option id="B">pi/4</option><option id="C">pi/2</option><option id="D">None</option>
+            <option id="A">tan^{-1}(3/4)</option><option id="B">pi/4</option><option id="C">pi/2</option>
             <answer>A</answer><explanation>m1 = 1/2y = 1/2. m2 = 2x = 2. tan theta = |(2 - 1/2) / (1 + 1)| = 3/4.</explanation></question>
         <question>
             <text>Maximum area of rectangle with perimeter 40 is:</text>
-            <option id="A">100</option><option id="B">400</option><option id="C">200</option><option id="D">None</option>
+            <option id="A">100</option><option id="B">400</option><option id="C">200</option>
             <answer>A</answer><explanation>Square gives max area. Side = 40/4 = 10. Area = 100.</explanation></question>
         <question>
             <text>Product of two positive numbers is 16. Minimum sum is:</text>
-            <option id="A">8</option><option id="B">10</option><option id="C">16</option><option id="D">None</option>
+            <option id="A">8</option><option id="B">10</option><option id="C">16</option>
             <answer>A</answer><explanation>xy=16. S = x + 16/x. S' = 1 - 16/x^2 = 0 -&gt; x=4. Sum = 4+4=8.</explanation></question>
         <question>
             <text>Function f(x) = x^2 - 4x + 6 is increasing in interval:</text>
-            <option id="A">(2, inf)</option><option id="B">(-inf, 2)</option><option id="C">(0, inf)</option><option id="D">None</option>
+            <option id="A">(2, inf)</option><option id="B">(-inf, 2)</option><option id="C">(0, inf)</option>
             <answer>A</answer><explanation>f' = 2x - 4 &gt; 0 -&gt; x &gt; 2.</explanation></question>
         <question>
             <text>If x + y = 10, then maximum value of xy is:</text>
-            <option id="A">25</option><option id="B">10</option><option id="C">50</option><option id="D">None</option>
+            <option id="A">25</option><option id="B">10</option><option id="C">50</option>
             <answer>A</answer><explanation>Max when x=y=5.</explanation></question>
         <question>
             <text>Find dy/dx if x = t^2, y = t^3 - 3t at t=2:</text>
-            <option id="A">9/4</option><option id="B">3/2</option><option id="C">3</option><option id="D">None</option>
+            <option id="A">9/4</option><option id="B">3/2</option><option id="C">3</option>
             <answer>A</answer><explanation>dy/dx = (3t^2 - 3) / (2t). at t=2, (12-3)/4 = 9/4.</explanation></question>
         <question>
             <text>Normal to y(x-2)(x-3) = x+6 at point where curve cuts y-axis:</text>
-            <option id="A">5y - x = 5</option><option id="B">y + 5x = 1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">5y - x = 5</option><option id="B">y + 5x = 1</option>
             <answer>A</answer><explanation>x=0 -&gt; y(6)=6 -&gt; y=1. Point is (0,1). Differentiate implicitly to find slope.</explanation></question>
         <question>
             <text>Function f(x) = cos x is strictly increasing in:</text>
-            <option id="A">(pi, 2pi)</option><option id="B">(0, pi)</option><option id="C">(-pi/2, pi/2)</option><option id="D">None</option>
+            <option id="A">(pi, 2pi)</option><option id="B">(0, pi)</option><option id="C">(-pi/2, pi/2)</option>
             <answer>A</answer><explanation>f' = -sin x &gt; 0 when sin x &lt; 0.</explanation></question>
         <question>
             <text>Length of ladder L=5m leans against wall. Bottom pulled at 2 cm/s. Top speed when bottom=4m:</text>
-            <option id="A">8/3 cm/s</option><option id="B">2 cm/s</option><option id="C">4 cm/s</option><option id="D">None</option>
+            <option id="A">8/3 cm/s</option><option id="B">2 cm/s</option><option id="C">4 cm/s</option>
             <answer>A</answer><explanation>x^2+y^2=25. 2x dx/dt + 2y dy/dt = 0. 2(4)(2) + 2(3) dy/dt = 0 -&gt; dy/dt = -8/3.</explanation></question>
         <question>
             <text>Find all the points of local maxima and local minima of f(x) = sin 2x in [0, pi]:</text>
-            <option id="A">pi/4 (Max), 3pi/4 (Min)</option><option id="B">pi/2 (Max), pi (Min)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">pi/4 (Max), 3pi/4 (Min)</option><option id="B">pi/2 (Max), pi (Min)</option>
             <answer>A</answer><explanation>f' = 2 cos 2x = 0 -&gt; 2x = pi/2, 3pi/2 -&gt; x=pi/4, 3pi/4.</explanation></question>
         <question>
             <text>Angle between y^2 = 8x and x^2 = 4y-12 at (2, 4):</text>
-            <option id="A">0 (Curves touch)</option><option id="B">pi/2</option><option id="C">pi/4</option><option id="D">None</option>
+            <option id="A">0 (Curves touch)</option><option id="B">pi/2</option><option id="C">pi/4</option>
             <answer>A</answer><explanation>m1 = 8/2y = 8/8 = 1. m2 = 2x/4 = 4/4 = 1. same slope means they touch.</explanation></question>
         <question>
             <text>Interval where x^x is decreasing:</text>
-            <option id="A">(0, 1/e)</option><option id="B">(1/e, inf)</option><option id="C">(0, 1)</option><option id="D">None</option>
+            <option id="A">(0, 1/e)</option><option id="B">(1/e, inf)</option><option id="C">(0, 1)</option>
             <answer>A</answer><explanation>f' = x^x (1 + log x) &lt; 0 -&gt; log x &lt; -1 -&gt; x &lt; 1/e.</explanation></question>
         <question>
             <text>Tangent to y = e^{2x} at (0, 1) meets x-axis at:</text>
-            <option id="A">(-1/2, 0)</option><option id="B">(1/2, 0)</option><option id="C">(0, 0)</option><option id="D">None</option>
+            <option id="A">(-1/2, 0)</option><option id="B">(1/2, 0)</option><option id="C">(0, 0)</option>
             <answer>A</answer><explanation>m = 2e^0 = 2. Eq: y-1 = 2(x-0). y=0 -&gt; -1 = 2x -&gt; x = -1/2.</explanation></question>
         <question>
             <text>Function f(x) = x/log x is increasing for:</text>
-            <option id="A">x &gt; e</option><option id="B">x &lt; e</option><option id="C">x &gt; 1</option><option id="D">None</option>
+            <option id="A">x &gt; e</option><option id="B">x &lt; e</option><option id="C">x &gt; 1</option>
             <answer>A</answer><explanation>f' = (log x - 1)/(log x)^2 &gt; 0 -&gt; log x &gt; 1.</explanation></question>
         <question>
             <text>Local extremum of sin x * cos x occurs at:</text>
-            <option id="A">pi/4</option><option id="B">pi/2</option><option id="C">pi</option><option id="D">None</option>
+            <option id="A">pi/4</option><option id="B">pi/2</option><option id="C">pi</option>
             <answer>A</answer><explanation>f = 1/2 sin 2x. f' = cos 2x = 0 at 2x = pi/2.</explanation></question>
         <question>
             <text>Minimum value of f(x) = |x| + |x+1|:</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option><option id="C">2</option>
             <answer>A</answer><explanation>Constant 1 for x in [-1, 0].</explanation></question>
         <question>
             <text>Equation of normal to x^2 = 4y from point (1, 2) is:</text>
-            <option id="A">x + y = 3</option><option id="B">x - y = -1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x + y = 3</option><option id="B">x - y = -1</option>
             <answer>A</answer><explanation>Slope 1 leads to normality check from external point.</explanation></question>
         <question>
             <text>Strictly increasing for x in (0, 1):</text>
-            <option id="A">x^3 + x^2 + x + 1</option><option id="B">cos x</option><option id="C">1/x</option><option id="D">None</option>
+            <option id="A">x^3 + x^2 + x + 1</option><option id="B">cos x</option><option id="C">1/x</option>
             <answer>A</answer><explanation>Polynomial has positive coeffs.</explanation></question>
         <question>
             <text>If error in diameter of sphere is 1%, percentage error in volume is:</text>
-            <option id="A">3%</option><option id="B">1%</option><option id="C">6%</option><option id="D">None</option>
+            <option id="A">3%</option><option id="B">1%</option><option id="C">6%</option>
             <answer>A</answer><explanation>V is proportional to D^3. dV/V approx 3 dD/D.</explanation></question>
         <question>
             <text>Find the absolute minimum value of f(x) = x^4 - 2x^2 in [-2, 2]:</text>
-            <option id="A">-1</option><option id="B">0</option><option id="C">8</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">0</option><option id="C">8</option>
             <answer>A</answer><explanation>f'(x) = 4x^3 - 4x = 0 at x=0, 1, -1. f(1)=-1, f(0)=0. f(2)=8.</explanation></question>
         <question>
             <text>Point on y=x^2 closest to (0, 5):</text>
-            <option id="A">(sqrt(4.5), 4.5) and (-sqrt(4.5), 4.5)</option><option id="B">(2, 4)</option><option id="C">(0, 0)</option><option id="D">None</option>
+            <option id="A">(sqrt(4.5), 4.5) and (-sqrt(4.5), 4.5)</option><option id="B">(2, 4)</option><option id="C">(0, 0)</option>
             <answer>A</answer><explanation>D^2 = x^2 + (x^2-5)^2 = y + (y-5)^2. Min at y = 4.5.</explanation></question>
         <question>
             <text>Rolle's theorem value of c for f(x) = x^2 + 2x - 8 in [-4, 2]:</text>
-            <option id="A">-1</option><option id="B">0</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">0</option><option id="C">1</option>
             <answer>A</answer><explanation>f' = 2x + 2 = 0 -&gt; x = -1.</explanation></question>
         <question>
             <text>Function f(x) = x^2 - 1 is strictly increasing in:</text>
-            <option id="A">(0, inf)</option><option id="B">(-inf, 0)</option><option id="C">R</option><option id="D">None</option>
+            <option id="A">(0, inf)</option><option id="B">(-inf, 0)</option><option id="C">R</option>
             <answer>A</answer><explanation>f' = 2x &gt; 0 -&gt; x &gt; 0.</explanation></question>
         <question>
             <text>Slope of tangent to cos^{-1}(sin x) at x=0:</text>
-            <option id="A">-1</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">1</option><option id="C">0</option>
             <answer>A</answer><explanation>y = pi/2 - x. m = -1.</explanation></question>
         <question>
             <text>Equation of tangent to y = x + 4/x^2 which is parallel to x-axis:</text>
-            <option id="A">y = 3</option><option id="B">y = 1</option><option id="C">y = 0</option><option id="D">None</option>
+            <option id="A">y = 3</option><option id="B">y = 1</option><option id="C">y = 0</option>
             <answer>A</answer><explanation>dy/dx = 1 - 8/x^3 = 0 -&gt; x^3 = 8 -&gt; x = 2. y = 2 + 4/4 = 3.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Show that of all the rectangles inscribed in a fixed circle, the square has the maximum area. For circle radius R, max area is:</text>
-            <option id="A">2R^2</option><option id="B">R^2/2</option><option id="C">4R^2</option><option id="D">None</option>
+            <option id="A">2R^2</option><option id="B">R^2/2</option><option id="C">4R^2</option>
             <answer>A</answer><explanation>Let sides be 2R cos t, 2R sin t. Area = 2R^2 sin 2t. Max when 2t = pi/2 -&gt; t = pi/4 (Square).</explanation></question>
         <question>
             <text>Find the local minimum value of f(x) = sin^4 x + cos^4 x:</text>
-            <option id="A">1/2</option><option id="B">1</option><option id="C">1/4</option><option id="D">None</option>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">1/4</option>
             <answer>A</answer><explanation>f(x) = 1 - 2 sin^2 x cos^2 x = 1 - 1/2 sin^2 2x. Min when sin^2 2x = 1 -&gt; 1-1/2 = 1/2.</explanation></question>
         <question>
             <text>The point on the curve x^2 = 2y which is nearest to (0, 5) is:</text>
-            <option id="A">(2 sqrt(2), 4) and (-2 sqrt(2), 4)</option><option id="B">(2, 2)</option><option id="C">(0, 0)</option><option id="D">None</option>
+            <option id="A">(2 sqrt(2), 4) and (-2 sqrt(2), 4)</option><option id="B">(2, 2)</option><option id="C">(0, 0)</option>
             <answer>A</answer><explanation>D^2 = x^2 + (y-5)^2 = 2y + (y-5)^2. D' = 2 + 2(y-5) = 0 -&gt; y=4. x^2=8.</explanation></question>
         <question>
             <text>Find the height of the cylinder of maximum volume that can be inscribed in a sphere of radius R:</text>
-            <option id="A">2R / sqrt(3)</option><option id="B">R / sqrt(3)</option><option id="C">R sqrt(2)</option><option id="D">None</option>
+            <option id="A">2R / sqrt(3)</option><option id="B">R / sqrt(3)</option><option id="C">R sqrt(2)</option>
             <answer>A</answer><explanation>V = pi r^2 h. r^2 + (h/2)^2 = R^2 -&gt; V = pi(R^2 - h^2/4)h. V' = pi(R^2 - 3h^2/4) = 0 -&gt; h = 2R/sqrt(3).</explanation></question>
         <question>
             <text>Find the semi-vertical angle of the cone of maximum volume for a given slant length L:</text>
-            <option id="A">tan^{-1} sqrt(2)</option><option id="B">sin^{-1} sqrt(2)</option><option id="C">pi/4</option><option id="D">None</option>
+            <option id="A">tan^{-1} sqrt(2)</option><option id="B">sin^{-1} sqrt(2)</option><option id="C">pi/4</option>
             <answer>A</answer><explanation>V = 1/3 pi r^2 h. r=L sin a, h=L cos a. V = 1/3 pi L^3 sin^2 a cos a. Max when tan a = sqrt(2).</explanation></question>
         <question>
             <text>Distance between origin and tangent to x^{2/3} + y^{2/3} = a^{2/3} at point (x1, y1) is:</text>
-            <option id="A">(ax1 y1)^{1/3}</option><option id="B">a</option><option id="C">sqrt(x1 y1)</option><option id="D">None</option>
+            <option id="A">(ax1 y1)^{1/3}</option><option id="C">sqrt(x1 y1)</option>
             <answer>A</answer><explanation>Eq of tangent: x/x1^{1/3} + y/y1^{1/3} = a^{2/3}. Distance p = a^{2/3} / sqrt(x1^{-2/3} + y1^{-2/3}).</explanation></question>
         <question>
             <text>A cylindrical tank open at the top has a given surface area S. Maximum volume occurs when h = :</text>
-            <option id="A">r</option><option id="B">2r</option><option id="C">r/2</option><option id="D">None</option>
+            <option id="A">r</option><option id="B">2r</option><option id="C">r/2</option>
             <answer>A</answer><explanation>S = pi r^2 + 2pi r h. V = pi r^2 h. Subst h = (S-pi r^2)/2pi r. V = r/2 (S-pi r^2). V'=0 -&gt; S=3pi r^2 -&gt; h=r.</explanation></question>
         <question>
             <text>For the curve y = xe^x, the point of inflection is:</text>
-            <option id="A">x = -2</option><option id="B">x = -1</option><option id="C">x = 0</option><option id="D">None</option>
+            <option id="A">x = -2</option><option id="B">x = -1</option><option id="C">x = 0</option>
             <answer>A</answer><explanation>y' = e^x(x+1). y'' = e^x(x+2). y''=0 at x=-2.</explanation></question>
         <question>
             <text>The minimum value of f(x) = (x-1)/(x^2+1) in [0, 2] is:</text>
-            <option id="A">-1</option><option id="B">-1/2</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">-1/2</option><option id="C">0</option>
             <answer>A</answer><explanation>f(0)=-1. Critical points check. f(2)=1/5. f is increasing since numerator is x-1.</explanation></question>
         <question>
             <text>Water is dripping out at 1 cm^3/s from conical funnel (angle 45 deg). Surface area speed when depth=4 cm:</text>
-            <option id="A">sqrt(2) / (4 pi)</option><option id="B">1 / (2 pi)</option><option id="C">pi / 2</option><option id="D">None</option>
+            <option id="A">sqrt(2) / (4 pi)</option><option id="B">1 / (2 pi)</option><option id="C">pi / 2</option>
             <answer>A</answer><explanation>V = 1/3 pi h^3. dV/dt = pi h^2 dh/dt = 1 -&gt; dh/dt = 1/(16 pi). S = pi h^2 sqrt(2). dS/dt = 2pi h sqrt(2) dh/dt = 1/sqrt(2) * 1/4pi?</explanation></question>
         <question>
             <text>Maximum value of (1/x)^x is:</text>
-            <option id="A">e^{1/e}</option><option id="B">1/e</option><option id="C">e</option><option id="D">None</option>
+            <option id="A">e^{1/e}</option><option id="B">1/e</option><option id="C">e</option>
             <answer>A</answer><explanation>y = (1/x)^x. log y = -x log x. y' = y (-1 - log x) = 0 -&gt; log x = -1 -&gt; x = 1/e. y = e^{1/e}.</explanation></question>
         <question>
             <text>Angle between curves y^2 = x and y = |x-1| in first quadrant:</text>
-            <option id="A">tan^{-1}(3)</option><option id="B">pi/4</option><option id="C">pi/2</option><option id="D">None</option>
+            <option id="A">tan^{-1}(3)</option><option id="B">pi/4</option><option id="C">pi/2</option>
             <answer>A</answer><explanation>Intersection at y^2 = y+1? no. y^2 = 1-x or x-1. Check points and find slopes.</explanation></question>
         <question>
             <text>If f(x) = x^3 + ax^2 + bx + c, then f is strictly increasing on R if:</text>
-            <option id="A">a^2 &lt; 3b</option><option id="B">a^2 &gt; 3b</option><option id="C">a^2 = 3b</option><option id="D">None</option>
+            <option id="A">a^2 &lt; 3b</option><option id="B">a^2 &gt; 3b</option><option id="C">a^2 = 3b</option>
             <answer>A</answer><explanation>f' = 3x^2 + 2ax + b &gt; 0 always. Diskrimimant 4a^2 - 12b &lt; 0.</explanation></question>
         <question>
             <text>Area of triangle formed by tangent to xy = c^2, x-axis and y-axis is:</text>
-            <option id="A">2c^2</option><option id="B">c^2</option><option id="C">4c^2</option><option id="D">None</option>
+            <option id="A">2c^2</option><option id="B">c^2</option><option id="C">4c^2</option>
             <answer>A</answer><explanation>Tangent at (x1, y1): x y1 + y x1 = 2c^2. Intercepts are 2x1 and 2y1. Area = 1/2 * 4 x1 y1 = 2c^2.</explanation></question>
         <question>
             <text>Smallest value of a sec x + b cosec x in (0, pi/2):</text>
-            <option id="A">(a^{2/3} + b^{2/3})^{3/2}</option><option id="B">a + b</option><option id="C">2 sqrt(ab)</option><option id="D">None</option>
+            <option id="A">(a^{2/3} + b^{2/3})^{3/2}</option><option id="B">a + b</option><option id="C">2 sqrt(ab)</option>
             <answer>A</answer><explanation>Standard optimization result for weighted sums of sec/cosec.</explanation></question>
         <question>
             <text>If f(x) = x^2 - kx + 5 is strictly increasing on [1, 2], then k is:</text>
-            <option id="A">k &lt;= 2</option><option id="B">k &gt;= 2</option><option id="C">k = 2</option><option id="D">None</option>
+            <option id="A">k &lt;= 2</option><option id="B">k &gt;= 2</option><option id="C">k = 2</option>
             <answer>A</answer><explanation>f' = 2x - k &gt; 0 in [1, 2]. Min value at x=1: 2 - k &gt;= 0 -&gt; k &lt;= 2.</explanation></question>
         <question>
             <text>Value of c in Mean Value Theorem for f(x) = x(x-1)(x-2) in [0, 1/2]:</text>
-            <option id="A">(6 - sqrt(21)) / 6</option><option id="B">1/4</option><option id="C">1/3</option><option id="D">None</option>
+            <option id="A">(6 - sqrt(21)) / 6</option><option id="B">1/4</option><option id="C">1/3</option>
             <answer>A</answer><explanation>f(x) = x^3 - 3x^2 + 2x. f'(c) = 3c^2 - 6c + 2. f(1/2) = (1/2)(-1/2)(-3/2) = 3/8. f(0)=0. f'(c) = (3/8)/(1/2) = 3/4. Solve quad.</explanation></question>
         <question>
             <text>Slope of common tangent to y^2 = 4x and x^2 = 4y is:</text>
-            <option id="A">-1</option><option id="B">1</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">-1</option><option id="B">1</option><option id="C">2</option>
             <answer>A</answer><explanation>By symmetry or by equating tangent forms y = mx + 1/m and x = my + 1/m?</explanation></question>
         <question>
             <text>Find the point on y^2 = 4x which is at minimum distance from y = x + 1:</text>
-            <option id="A">(1, 2)</option><option id="B">(0, 0)</option><option id="C">(4, 4)</option><option id="D">None</option>
+            <option id="A">(1, 2)</option><option id="B">(0, 0)</option><option id="C">(4, 4)</option>
             <answer>A</answer><explanation>Tangent slope must be 1. 2/y = 1 -&gt; y=2. x=1.</explanation></question>
         <question>
             <text>Maximum volume of cone with slant height 3 is:</text>
-            <option id="A">2 pi sqrt(3)</option><option id="B">pi sqrt(3)</option><option id="C">8 pi / 3</option><option id="D">None</option>
+            <option id="A">2 pi sqrt(3)</option><option id="B">pi sqrt(3)</option><option id="C">8 pi / 3</option>
             <answer>A</answer><explanation>V = 1/3 pi r^2 h = 1/3 pi (9-h^2)h. Max at h = sqrt(3). V = 2pi sqrt(3).</explanation></question>
         <question>
             <text>If x + y = k is a normal to y^2 = 12x, then k = :</text>
-            <option id="A">9</option><option id="B">3</option><option id="C">6</option><option id="D">None</option>
+            <option id="A">9</option><option id="B">3</option><option id="C">6</option>
             <answer>A</answer><explanation>Normal slope -1. Form y = mx - 2am - am^3. Here m=1? no, y = -x + k. Normal eq y = Mx - 2AM - AM^3. Compare.</explanation></question>
         <question>
             <text>Function f(x) = |x-1|/x^2 is strictly increasing in:</text>
-            <option id="A">(1, 2)</option><option id="B">(0, 1)</option><option id="C">(2, inf)</option><option id="D">None</option>
+            <option id="A">(1, 2)</option><option id="B">(0, 1)</option><option id="C">(2, inf)</option>
             <answer>A</answer><explanation>For x &gt; 1, f = (x-1)/x^2. f' = (x^2 - 2x(x-1))/x^4 = (2x - x^2)/x^4 = (2-x)/x^3. Increasing for 1 &lt; x &lt; 2.</explanation></question>
         <question>
             <text>Max percentage error in P = x^a y^b / z^c is:</text>
-            <option id="A">a|dx/x| + b|dy/y| + c|dz/z|</option><option id="B">a+b+c</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">a|dx/x| + b|dy/y| + c|dz/z|</option><option id="B">a+b+c</option>
             <answer>A</answer><explanation>Log differentiation for error propagation.</explanation></question>
         <question>
             <text>Minimum value of x^2 + y^2 if x + y = 1 is:</text>
-            <option id="A">1/2</option><option id="B">1</option><option id="C">1/4</option><option id="D">None</option>
+            <option id="A">1/2</option><option id="B">1</option><option id="C">1/4</option>
             <answer>A</answer><explanation>x^2 + (1-x)^2 = 2x^2 - 2x + 1. Min at x=1/2. Value = 1/4 + 1/4 = 1/2.</explanation></question>
         <question>
             <text>If f(x) = (x^2 - 1)/(x^2 + 1), then global max in R is:</text>
-            <option id="A">1 (approaches as x -&gt; inf)</option><option id="B">0</option><option id="C">infinity</option><option id="D">None</option>
+            <option id="A">1 (approaches as x -&gt; inf)</option><option id="B">0</option><option id="C">infinity</option>
             <answer>A</answer><explanation>f(x) &lt; 1 always and lim f(x) = 1.</explanation></question>
         <question>
             <text>A man 2m tall walks at 3 km/h away from lamp post 5m high. Rate of shadow length change:</text>
-            <option id="A">2 km/h</option><option id="B">3 km/h</option><option id="C">5 km/h</option><option id="D">None</option>
+            <option id="A">2 km/h</option><option id="B">3 km/h</option><option id="C">5 km/h</option>
             <answer>A</answer><explanation>y/(x+y) = 2/5 -&gt; 5y = 2x + 2y -&gt; 3y = 2x. 3 dy/dt = 2(3) -&gt; dy/dt = 2.</explanation></question>
         <question>
             <text>Local maximum of f(x) = x / (1 + x tan x) in [0, pi/2]:</text>
-            <option id="A">x = cos x</option><option id="B">x = sin x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x = cos x</option><option id="B">x = sin x</option>
             <answer>A</answer><explanation>f' = 0 leads to transcendental relation.</explanation></question>
         <question>
             <text>Radius error 1%. Surface area error %:</text>
-            <option id="A">2%</option><option id="B">1%</option><option id="C">4%</option><option id="D">None</option>
+            <option id="A">2%</option><option id="B">1%</option><option id="C">4%</option>
             <answer>A</answer><explanation>S = 4pi r^2. dS/S = 2 dr/r.</explanation></question>
         <question>
             <text>Rate of change of f(x) = x^2 + 3x wrt g(x) = 2x - 1 at x=1:</text>
-            <option id="A">2.5</option><option id="B">5</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">2.5</option><option id="B">5</option><option id="C">2</option>
             <answer>A</answer><explanation>(2x+3) / 2. at x=1: 5/2 = 2.5.</explanation></question>
         <question>
             <text>Number of solutions to f(x) = x^3 - 3x + k = 0 in (-1, 1) if |k| &lt; 2:</text>
-            <option id="A">1</option><option id="B">3</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">3</option><option id="C">0</option>
             <answer>A</answer><explanation>f(-1) = 2+k &gt; 0. f(1) = 1-3+k = k-2 &lt; 0. By IVT, exactly one root.</explanation></question>
         <question>
             <text>The maximum value of slope of y = -x^3 + 3x^2 + 2x - 1:</text>
-            <option id="A">5</option><option id="B">2</option><option id="C">3</option><option id="D">None</option>
+            <option id="A">5</option><option id="B">2</option><option id="C">3</option>
             <answer>A</answer><explanation>Slope s = -3x^2 + 6x + 2. s' = -6x + 6 = 0 -&gt; x = 1. Max slope = -3 + 6 + 2 = 5.</explanation></question>
         <question>
             <text>Normal to x^2 = 4y which is parallel to x + 2y - 1 = 0:</text>
-            <option id="A">x + 2y = 12</option><option id="B">x + 2y = 4</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x + 2y = 12</option><option id="B">x + 2y = 4</option>
             <answer>A</answer><explanation>Slope -1/2. Equate to normal slope form.</explanation></question>
         <question>
             <text>Distance error 2%. Area of equilateral triangle error %:</text>
-            <option id="A">4%</option><option id="B">2%</option><option id="C">6%</option><option id="D">None</option>
+            <option id="A">4%</option><option id="B">2%</option><option id="C">6%</option>
             <answer>A</answer><explanation>A is proportional to s^2.</explanation></question>
         <question>
             <text>If h is altitude of right circular cone of max volume in sphere radius R, h = :</text>
-            <option id="A">4R/3</option><option id="B">R/3</option><option id="C">2R/3</option><option id="D">None</option>
+            <option id="A">4R/3</option><option id="B">R/3</option><option id="C">2R/3</option>
             <answer>A</answer><explanation>Standard optimization result for circumscribed cone.</explanation></question>
         <question>
             <text>Semi-vertical angle of right circular cylinder of max volume in cone 45 deg:</text>
-            <option id="A">Depends on radius</option><option id="B">45 deg</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Depends on radius</option><option id="B">45 deg</option>
             <answer>A</answer><explanation>Standard optimization result.</explanation></question>
         <question>
             <text>Two curves y = e^x and y = sin x intersect at how many points for x &lt; 0?</text>
-            <option id="A">Infinitely many</option><option id="B">Once</option><option id="C">Zero</option><option id="D">None</option>
+            <option id="A">Infinitely many</option><option id="B">Once</option><option id="C">Zero</option>
             <answer>A</answer><explanation>e^x decays but sin oscillations continue between -1 and 1.</explanation></question>
         <question>
             <text>Maximum relative error in r^2 is how many times radius error?</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">0.5</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option><option id="C">0.5</option>
             <answer>A</answer><explanation>Power rule for error.</explanation></question>
         <question>
             <text>If f(x) = (x-2)^{2/3}(2x+1), then local maxima is at:</text>
-            <option id="A">x = 1/2</option><option id="B">x = 0</option><option id="C">x = 2</option><option id="D">None</option>
+            <option id="A">x = 1/2</option><option id="B">x = 0</option><option id="C">x = 2</option>
             <answer>A</answer><explanation>f' = 0 leads to x=1/2 after simplification.</explanation></question>
         <question>
             <text>Global minimum of f(x) = (1/x)^x in (0, inf):</text>
-            <option id="A">e^{-1/e}</option><option id="B">1/e</option><option id="C">e</option><option id="D">None</option>
+            <option id="A">e^{-1/e}</option><option id="B">1/e</option><option id="C">e</option>
             <answer>A</answer><explanation>y = e^{-x log x}. Min when x log x is max -&gt; log x = -1 -&gt; x = 1/e. Min value e^{-1/e}.</explanation></question>
         <question>
             <text>If tangent to y^2 + 3x - 7 = 0 at (h, k) is parallel to y-axis, then k = :</text>
-            <option id="A">0</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">0</option><option id="B">1</option>
             <answer>A</answer><explanation>2y dy/dx + 3 = 0 -&gt; dy/dx = -3/2y. Undefined if y=0.</explanation></question>
     </hard>
 </chapter>

@@ -5,8 +5,7 @@
       <text>Form of solution for homogeneous DE dy/dx = g(y/x):</text>
       <option id="A">Variable separable in v and x</option>
       <option id="B">Linear DE</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Reduces to x dv/dx = g(v) - v.</explanation>
     </question>
@@ -15,7 +14,7 @@
       <option id="A">n(4n^2 - 1)/3</option>
       <option id="B">4n^3/3</option>
       <option id="C">n(2n+1)/3</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Formula.</explanation>
     </question>
@@ -23,8 +22,7 @@
       <text>Q119: Inertia of rest Example? ____.</text>
       <option id="A">Passenger falling back when bus starts</option>
       <option id="B">Falling forward when stops</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Tendency to stay at rest.</explanation>
     </question>
@@ -33,7 +31,7 @@
       <option id="A">Yes</option>
       <option id="B">No</option>
       <option id="C">x &gt;= 0</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Strictly positive.</explanation>
     </question>
@@ -41,8 +39,7 @@
       <text>Tangent to an electric field line at a point gives direction of ____.</text>
       <option id="A">Electric Field (E)</option>
       <option id="B">Potential</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Property of field line representation.</explanation>
     </question>
@@ -60,7 +57,7 @@
       <option id="A">E = mc^2</option>
       <option id="B">E = 1/2 mv^2</option>
       <option id="C">F = ma</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Mass-energy equivalence.</explanation>
     </question>
@@ -68,8 +65,7 @@
       <text>Which s-block ion is necessary for muscle contraction?</text>
       <option id="A">Ca2+</option>
       <option id="B">Mg2+</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Sarcoplasmic reticulum release triggers contraction.</explanation>
     </question>
@@ -77,7 +73,7 @@
       <text>Area under a Force-Displacement (F-S) graph represents ____.</text>
       <option id="A">Work Done</option>
       <option id="B">Power</option>
-      <option id="C">phi</option>
+      
       <option id="D">Acceleration</option>
       <answer>A</answer>
       <explanation>Integration of F ds results in the total work.</explanation>
@@ -87,7 +83,7 @@
       <option id="A">para</option>
       <option id="B">ortho</option>
       <option id="C">meta</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Symmetry leads to better packing in crystal lattice.</explanation>
     </question>
@@ -95,8 +91,7 @@
       <text>For an exothermic reaction, ΔH is ____.</text>
       <option id="A">Negative (Heat released)</option>
       <option id="B">Positive</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>System loses energy.</explanation>
     </question>
@@ -104,8 +99,7 @@
       <text>Half-life of first order is 10 min for [R]0=1.0M. For [R]0=2.0M, t1/2 is ____ min.</text>
       <option id="A">10</option>
       <option id="B">20</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Completely independent of initial concentration.</explanation>
     </question>
@@ -113,8 +107,7 @@
       <text>Use of H2O2 instead of Cl2 for bleaching paper is a part of ____ Chemistry.</text>
       <option id="A">Green</option>
       <option id="B">Physical</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Reduces chlorinated byproduct pollution.</explanation>
     </question>
@@ -123,7 +116,7 @@
       <option id="A">Line segment</option>
       <option id="B">Triangle</option>
       <option id="C">Empty</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>The line segment between (1,0) and (0,1) where x+y=1.</explanation>
     </question>
@@ -131,8 +124,7 @@
       <text>Oxidation level of C in Glucose (C6H12O6) is ____.</text>
       <option id="A">0 (Avg)</option>
       <option id="B">+1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Based on Cx(H2O)y composition.</explanation>
     </question>
@@ -140,8 +132,7 @@
       <text>Anion or neutral molecule donor that binds to central metal is called ____.</text>
       <option id="A">Ligand</option>
       <option id="B">Matrix</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Acts as a Lewis base.</explanation>
     </question>
@@ -149,8 +140,7 @@
       <text>Constraint relation sigma T dot v = ____.</text>
       <option id="A">Zero</option>
       <option id="B">Constant non-zero</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Power of internal forces is zero.</explanation>
     </question>
@@ -167,8 +157,7 @@
       <text>Additional practice question 118 on Motion of System of Particles: Advanced level concepts.</text>
       <option id="A">Correct Option</option>
       <option id="B">Incorrect Option</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Detailed explanation for additional question 118 in the Motion of System of Particles module.</explanation>
     </question>
@@ -176,8 +165,7 @@
       <text>Diffraction is a ____ phenomena.</text>
       <option id="A">Wave</option>
       <option id="B">Particle</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Inseparable from wave propagation.</explanation>
     </question>
@@ -186,7 +174,7 @@
       <option id="A">Everywhere</option>
       <option id="B">Only at 0</option>
       <option id="C">In [0, pi]</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Standard trig property.</explanation>
     </question>
@@ -194,8 +182,7 @@
       <text>Resistance of a conductor R depends on area A as ____.</text>
       <option id="A">R ∝ 1/A</option>
       <option id="B">R ∝ A</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Wider area offers less resistance.</explanation>
     </question>
@@ -203,8 +190,7 @@
       <text>Boric acid (H3BO3) is a ____ acid.</text>
       <option id="A">Monobasic / Weak Lewis</option>
       <option id="B">Strong basic</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Acts by accepting OH- from water.</explanation>
     </question>
@@ -212,8 +198,7 @@
       <text>Natural rubber is a linear polymer of ____.</text>
       <option id="A">Isoprene (2-methyl-1,3-butadiene)</option>
       <option id="B">Chloroprene</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>cis-polyisoprene.</explanation>
     </question>
@@ -221,17 +206,14 @@
       <text>Percentage by weight of hydrogen in H2O is approx ____ %.</text>
       <option id="A">11.1</option>
       <option id="B">2.0</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>2 / 18 x 100.</explanation>
     </question>
     <question>
       <text>Area of region {(x, y) : x^2 + y^2 &lt;= 2ax, y^2 &gt;= ax, x, y &gt;= 0}:</text>
       <option id="A">a^2(pi/4 - 2/3)</option>
-      <option id="B">None</option>
-      <option id="C">C</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Semicircle and parabola intersection.</explanation>
     </question>
@@ -240,7 +222,7 @@
       <option id="A">1/2</option>
       <option id="B">1</option>
       <option id="C">2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Triangle with vertices (0,0), (1,0), (1,1).</explanation>
     </question>
@@ -268,8 +250,7 @@
       <text>If a magnet is broken into pieces, each piece is a ____ magnet.</text>
       <option id="A">Complete</option>
       <option id="B">Partial (one pole)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Atomic dipoles realign to form new poles.</explanation>
     </question>
@@ -277,8 +258,7 @@
       <text>Disturbance that travels through a medium, transferring energy without bulk motion of matter is ____.</text>
       <option id="A">Wave</option>
       <option id="B">Particle flow</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Propagation of energy via oscillations.</explanation>
     </question>
@@ -286,8 +266,7 @@
       <text>Composition of 'Lithopone' white pigment: ____.</text>
       <option id="A">BaSO4 + ZnS</option>
       <option id="B">CaSO4 + ZnO</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Used in paints.</explanation>
     </question>
@@ -296,7 +275,7 @@
       <option id="A">k</option>
       <option id="B">0</option>
       <option id="C">1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Expectation of a constant is the constant itself.</explanation>
     </question>
@@ -304,8 +283,7 @@
       <text>A light of 600nm is used in YDSE. The 10th bright fringe is formed at x. For 400nm light, which bright fringe is at x?</text>
       <option id="A">15th</option>
       <option id="B">12th</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>n1 λ1 = n2 λ2 =&gt; 10 * 600 = n2 * 400 =&gt; n2 = 15.</explanation>
     </question>
@@ -313,8 +291,7 @@
       <text>Regelation is melting of ice under ____ and refreezing when removed.</text>
       <option id="A">Pressure</option>
       <option id="B">Heat only</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Pressure lowers the melting point of ice.</explanation>
     </question>
@@ -322,8 +299,7 @@
       <text>Oxidation of Xe to XePtF6 was inspired by the matching of IE of Xe with ____.</text>
       <option id="A">Oxygen (O2)</option>
       <option id="B">Fluorine</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Bartlett noticed O2 + PtF6 -&gt; O2+ [PtF6]-.</explanation>
     </question>
@@ -331,8 +307,7 @@
       <text>Silicon doped with phosphorus (Group 15) is an ____ semiconductor.</text>
       <option id="A">n-type</option>
       <option id="B">p-type</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Extra electrons act as charge carriers.</explanation>
     </question>
@@ -340,8 +315,7 @@
       <text>Which test distinguishes Methanoic and Ethanoic acids?</text>
       <option id="A">Tollen's reagent</option>
       <option id="B">NaHCO3</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Formic acid gives silver mirror, acetic acid doesn't.</explanation>
     </question>
@@ -350,7 +324,7 @@
       <option id="A">Closed</option>
       <option id="B">Open</option>
       <option id="C">Isolated</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Example: Sealed metal container.</explanation>
     </question>
@@ -358,8 +332,7 @@
       <text>Additional practice question 101 on Gravitation: Advanced level concepts.</text>
       <option id="A">Correct Option</option>
       <option id="B">Incorrect Option</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Detailed explanation for additional question 101 in the Gravitation module.</explanation>
     </question>
@@ -367,8 +340,7 @@
       <text>A battery is short-circuited. Current is I = ____.</text>
       <option id="A">E / r</option>
       <option id="B">Zero</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>External R becomes zero.</explanation>
     </question>
@@ -376,8 +348,7 @@
       <text>Which of the following does not form an ionic hydride: Li, Mg, Ca, Sr?</text>
       <option id="A">Mg (Forms covalent polymeric hydride)</option>
       <option id="B">Ca</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Beryllium also forms covalent hydride.</explanation>
     </question>
@@ -386,7 +357,7 @@
       <option id="A">-CHO</option>
       <option id="B">-CO-</option>
       <option id="C">-OH</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Formyl group.</explanation>
     </question>
@@ -404,7 +375,7 @@
       <option id="A">Determinant</option>
       <option id="B">Trace</option>
       <option id="C">Inverse</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>A determinant is a scalar value associated with a square matrix.</explanation>
     </question>
@@ -412,8 +383,7 @@
       <text>Species with bond order 0.5? ____.</text>
       <option id="A">H2+</option>
       <option id="B">He2+</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>1/2 (1 - 0).</explanation>
     </question>
@@ -421,8 +391,7 @@
       <text>Standard entropy of CO at 298K is approx 197 J/K.mol. At 0K it is not zero due to ____.</text>
       <option id="A">Residual Entropy (Random orientation)</option>
       <option id="B">Impurities</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Exception to 3rd law due to frozen disorder.</explanation>
     </question>
@@ -430,8 +399,7 @@
       <text>Semiconductor Electronics (Chapter 112) complete.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>120 questions following 6-line schema.</explanation>
     </question>
@@ -439,7 +407,7 @@
       <text>Does G vary with the temperature of the bodies?</text>
       <option id="A">No</option>
       <option id="B">Yes</option>
-      <option id="C">phi</option>
+      
       <option id="D">Only in gasses</option>
       <answer>A</answer>
       <explanation>Universal constant property.</explanation>
@@ -449,7 +417,7 @@
       <option id="A">8 (for order 3)</option>
       <option id="B">4</option>
       <option id="C">2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>|A|^3 = 2^3 = 8.</explanation>
     </question>
@@ -467,7 +435,7 @@
       <option id="A">(+/- 5, 0)</option>
       <option id="B">(+/- 4, 0)</option>
       <option id="C">(+/- 3, 0)</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>x^2/16 - y^2/9 = 1. c^2=16+9=25. c=5.</explanation>
     </question>
@@ -475,8 +443,7 @@
       <text>Induced EMF is a ____ quantity.</text>
       <option id="A">Scalar</option>
       <option id="B">Vector</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Potential difference.</explanation>
     </question>
@@ -493,8 +460,7 @@
       <text>The most stable allotrope of phosphorus is ____.</text>
       <option id="A">Black phosphorus</option>
       <option id="B">White phosphorus</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Formed by heating red phosphorus under high pressure.</explanation>
     </question>
@@ -511,8 +477,7 @@
       <text>In isobaric heating, fraction of heat used for internal energy = ____.</text>
       <option id="A">1 / gamma</option>
       <option id="B">gamma</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Cv / Cp = n Cv dT / n Cp dT.</explanation>
     </question>
@@ -521,7 +486,7 @@
       <option id="A">Line perpendicular to tangent at point of contact</option>
       <option id="B">Line parallel to tangent</option>
       <option id="C">A chord</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Definition of normal.</explanation>
     </question>
@@ -538,8 +503,7 @@
       <text>When light travels from rarer to denser medium, it bends ____ the normal.</text>
       <option id="A">Towards</option>
       <option id="B">Away from</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Due to decrease in speed.</explanation>
     </question>
@@ -548,7 +512,7 @@
       <option id="A">Parallel vectors</option>
       <option id="B">Position vectors</option>
       <option id="C">Origin</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Lines are parallel to their direction vectors.</explanation>
     </question>
@@ -556,8 +520,7 @@
       <text>Kroll's process is used for the extraction of ____.</text>
       <option id="A">Titanium (Ti) / Zirconium (Zr)</option>
       <option id="B">Aluminum</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Uses Magnesium to reduce refined chlorides.</explanation>
     </question>
@@ -565,8 +528,7 @@
       <text>Force on a current carrying wire in magnetic field is F = ____.</text>
       <option id="A">I(L × B)</option>
       <option id="B">I(L . B)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Sum of forces on individual moving charges.</explanation>
     </question>
@@ -574,8 +536,7 @@
       <text>In p-type semiconductors, majority charge carriers are ____.</text>
       <option id="A">Holes</option>
       <option id="B">Electrons</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>nh &gt;&gt; ne.</explanation>
     </question>
@@ -583,8 +544,7 @@
       <text>Drug-Target interaction details verified.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Included.</explanation>
     </question>
@@ -592,8 +552,7 @@
       <text>Chemical used to decrease fatigue is ____.</text>
       <option id="A">Tranquilizer (Mild)</option>
       <option id="B">Antacid</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Improve mood and focus.</explanation>
     </question>
@@ -602,7 +561,7 @@
       <option id="A">[[1, -a], [0, 1]]</option>
       <option id="B">[[1, 0], [-a, 1]]</option>
       <option id="C">[[1, 1/a], [0, 1]]</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Calculation: 1/1 * [[1, -a], [0, 1]].</explanation>
     </question>
@@ -610,8 +569,7 @@
       <text>Magnetic elements of Earth are ____, ____, and ____.</text>
       <option id="A">Declination, Dip, Horizontal component</option>
       <option id="B">North, South, East</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Completely describe the field at a point.</explanation>
     </question>
@@ -619,17 +577,14 @@
       <text>For a drop to be spherical, potential energy of surface must be ____.</text>
       <option id="A">Minimum</option>
       <option id="B">Maximum</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Sphere has minimum area for given volume.</explanation>
     </question>
     <question>
       <text>Vertices of a tetrahedron...</text>
       <option id="A">Centroid sum/4</option>
-      <option id="B">B</option>
-      <option id="C">C</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Center of tetrahedron.</explanation>
     </question>
@@ -637,8 +592,7 @@
       <text>Sulphanilic acid is useful in the synthesis of ____ drugs.</text>
       <option id="A">Sulpha (Antibiotics)</option>
       <option id="B">Painkillers</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Precursor to sulfanilamide proteins.</explanation>
     </question>
@@ -657,8 +611,7 @@
       <text>Reason for color of [Sc(H2O)6]3+? ____.</text>
       <option id="A">No color (d0)</option>
       <option id="B">d-d transition</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Sc3+ is d0.</explanation>
     </question>
@@ -666,8 +619,7 @@
       <text>Relationship between Pi and elevation in BP: Pi/ΔTb approx ____.</text>
       <option id="A">(density * R * T) / Kb</option>
       <option id="B">1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Mathematical link between colligative properties.</explanation>
     </question>
@@ -684,8 +636,7 @@
       <text>Newton proposed that light consists of tiny particles called ____.</text>
       <option id="A">Corpuscles</option>
       <option id="B">Photons</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Part of the Corpuscular theory of light.</explanation>
     </question>
@@ -693,8 +644,7 @@
       <text>In a reaction mechanism, the sum of molecularities of all steps is ____.</text>
       <option id="A">Meaningless</option>
       <option id="B">Overall order</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Molecularity is per step property.</explanation>
     </question>
@@ -711,8 +661,7 @@
       <text>Coordinates of point where line joining (3, -4, -5) and (2, -3, 1) crosses 2x+y+z=7:</text>
       <option id="A">(1, -2, 7)</option>
       <option id="B">(2, -3, 1)</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Line: (x-3)/-1 = (y+4)/1 = (z+5)/6. Point (3-k, k-4, 6k-5). Solve for k.</explanation>
     </question>
@@ -720,8 +669,7 @@
       <text>Adiabatic compression Work Done formula W = ____.</text>
       <option id="A">P1V1 - P2V2 / (gamma - 1)</option>
       <option id="B">RT ln V2/V1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Used in diesel engine ignition.</explanation>
     </question>
@@ -730,7 +678,7 @@
       <option id="A">Zero / Null</option>
       <option id="B">One</option>
       <option id="C">Many</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Symbol: phi.</explanation>
     </question>
@@ -738,8 +686,7 @@
       <text>Transition metals form complexes because of ____.</text>
       <option id="A">Small size, High charge, Empty d-orbitals</option>
       <option id="B">Large size</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Can accept electron pairs from ligands.</explanation>
     </question>
@@ -756,8 +703,7 @@
       <text>Pressure difference across a spherical liquid drop is ____.</text>
       <option id="A">2T / R</option>
       <option id="B">4T / R</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Excess pressure inside drop.</explanation>
     </question>
@@ -765,8 +711,7 @@
       <text>De-Broglie wavelength of electron in n-th orbit is related to circumference by 2π r = ____.</text>
       <option id="A">n λ</option>
       <option id="B">λ / n</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Condition for standing waves in orbit.</explanation>
     </question>
@@ -774,8 +719,7 @@
       <text>In Borax, number of cyclic B-O-B bonds is ____.</text>
       <option id="A">5</option>
       <option id="B">4</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Structure of [B4O5(OH)4]2- contains 5 bridges.</explanation>
     </question>
@@ -783,8 +727,7 @@
       <text>Syngas is used for synthesis of ____ and many hydrocarbons.</text>
       <option id="A">Methanol</option>
       <option id="B">Ethanol</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Basis of many industrial chemicals.</explanation>
     </question>
@@ -793,7 +736,7 @@
       <option id="A">Probability</option>
       <option id="B">Energy</option>
       <option id="C">Force</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Schrodinger equation variable.</explanation>
     </question>
@@ -801,8 +744,7 @@
       <text>Linear momentum of a photon is p = ____.</text>
       <option id="A">h / λ</option>
       <option id="B">h λ</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>From E = pc and E = hc/λ.</explanation>
     </question>
@@ -810,8 +752,7 @@
       <text>Number of photons in 1J of 500nm light is approx ____.</text>
       <option id="A">2.5 x 10^18</option>
       <option id="B">10^15</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>E_photon = 4e-19 J. Total photons = 1 / 4e-19 = 2.5e18.</explanation>
     </question>

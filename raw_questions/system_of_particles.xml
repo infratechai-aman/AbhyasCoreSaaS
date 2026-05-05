@@ -4,471 +4,471 @@
         <question>
             <text>The Center of Mass (COM) of a uniform rod of length L is located at ____.</text>
             <option id="A">L / 2</option><option id="B">L / 4</option>
-            <option id="C">phi</option><option id="D">Zero</option>
+            <option id="D">Zero</option>
             <answer>A</answer><explanation>For symmetric uniform bodies, COM is at the geometric center.</explanation></question>
         <question>
             <text>Moment of Inertia depends on ____ and its ____ from the axis.</text>
             <option id="A">Mass / Distribution</option><option id="B">Speed / Shape</option>
-            <option id="C">phi</option><option id="D">Volume / Density</option>
+            <option id="D">Volume / Density</option>
             <answer>A</answer><explanation>I = sum(m * r^2). Position of mass relative to axis is key.</explanation></question>
         <question>
             <text>Torque is the rotational analogue of ____.</text>
             <option id="A">Force</option><option id="B">Mass</option>
-            <option id="C">phi</option><option id="D">Velocity</option>
+            <option id="D">Velocity</option>
             <answer>A</answer><explanation>Torque causes rotational acceleration just as Force causes linear acceleration.</explanation></question>
         <question>
             <text>The SI unit of Torque is ____.</text>
             <option id="A">Newton-metre (Nm)</option><option id="B">Nm^2</option>
-            <option id="C">phi</option><option id="D">Joule-second</option>
+            <option id="D">Joule-second</option>
             <answer>A</answer><explanation>Torque = Vector r x Force F. Unit is m x N.</explanation></question>
         <question>
             <text>Angular momentum L is given by the product ____.</text>
             <option id="A">I * w</option><option id="B">m * v</option>
-            <option id="C">phi</option><option id="D">I / w</option>
+            <option id="D">I / w</option>
             <answer>A</answer><explanation>L is the rotational equivalent of linear momentum (mv).</explanation></question>
         <question>
             <text>Rate of change of angular momentum is equal to ____.</text>
             <option id="A">Torque</option><option id="B">Power</option>
-            <option id="C">phi</option><option id="D">Acceleration</option>
+            <option id="D">Acceleration</option>
             <answer>A</answer><explanation>Tau = dL / dt (Rotation version of Newton's 2nd law).</explanation></question>
         <question>
             <text>Moment of Inertia of a thin ring (M, R) about center axis perp to plane is ____.</text>
             <option id="A">MR^2</option><option id="B">1/2 MR^2</option>
-            <option id="C">phi</option><option id="D">2 MR^2</option>
+            <option id="D">2 MR^2</option>
             <answer>A</answer><explanation>All mass is at the same distance R from the axis.</explanation></question>
         <question>
             <text>Moment of Inertia of a uniform disc (M, R) about center axis is ____.</text>
             <option id="A">1/2 MR^2</option><option id="B">MR^2</option>
-            <option id="C">phi</option><option id="D">1/4 MR^2</option>
+            <option id="D">1/4 MR^2</option>
             <answer>A</answer><explanation>Mass is distributed from 0 to R, integration gives factor of 1/2.</explanation></question>
         <question>
             <text>Parallel Axis Theorem: I = Icm + ____.</text>
             <option id="A">M d^2</option><option id="B">M d</option>
-            <option id="C">phi</option><option id="D">I' d^2</option>
+            <option id="D">I' d^2</option>
             <answer>A</answer><explanation>d is the distance between the center of mass axis and the parallel axis.</explanation></question>
         <question>
             <text>Angular velocity is a ____ vector.</text>
             <option id="A">Axial</option><option id="B">Polar</option>
-            <option id="C">phi</option><option id="D">Pseudo</option>
+            <option id="D">Pseudo</option>
             <answer>A</answer><explanation>Direction is along the axis of rotation using Right Hand Rule.</explanation></question>
         <question>
             <text>Relation between linear velocity v and angular velocity w is ____.</text>
             <option id="A">v = r * w</option><option id="B">w = r * v</option>
-            <option id="C">phi</option><option id="D">v = w / r</option>
+            <option id="D">v = w / r</option>
             <answer>A</answer><explanation>v is perpendicular to both r and w in vector form.</explanation></question>
         <question>
             <text>Moment of Inertia of a solid sphere about its diameter is ____.</text>
             <option id="A">2/5 MR^2</option><option id="B">2/3 MR^2</option>
-            <option id="C">phi</option><option id="D">MR^2</option>
+            <option id="D">MR^2</option>
             <answer>A</answer><explanation>Standard result of integration for solid mass distribution.</explanation></question>
         <question>
             <text>Dimensional formula for Moment of Inertia is ____.</text>
             <option id="A">[ML^2]</option><option id="B">[ML]</option>
-            <option id="C">phi</option><option id="D">[ML^2T^-1]</option>
+            <option id="D">[ML^2T^-1]</option>
             <answer>A</answer><explanation>Mass * Distance^2.</explanation></question>
         <question>
             <text>Center of Mass of a system of particles depends on their ____ and ____.</text>
             <option id="A">Masses / Coordinates</option><option id="B">Velocities / Force</option>
-            <option id="C">phi</option><option id="D">Energy / Path</option>
+            <option id="D">Energy / Path</option>
             <answer>A</answer><explanation>Coordinates determine the spatial average.</explanation></question>
         <question>
             <text>If net external force is zero, COM move with ____ velocity.</text>
             <option id="A">Constant</option><option id="B">Zero</option>
-            <option id="C">phi</option><option id="D">Variable</option>
+            <option id="D">Variable</option>
             <answer>A</answer><explanation>Law of conservation of linear momentum for a system.</explanation></question>
         <question>
             <text>Unit of angular acceleration is ____.</text>
             <option id="A">rad/s^2</option><option id="B">rad/s</option>
-            <option id="C">phi</option><option id="D">m/s^2</option>
+            <option id="D">m/s^2</option>
             <answer>A</answer><explanation>Rate of change of angular speed.</explanation></question>
         <question>
             <text>In uniform circular motion, ____ remains constant.</text>
             <option id="A">Speed (Scalar)</option><option id="B">Velocity (Vector)</option>
-            <option id="C">phi</option><option id="D">Acceleration (Vector)</option>
+            <option id="D">Acceleration (Vector)</option>
             <answer>A</answer><explanation>Direction change causes vector quantities to vary.</explanation></question>
         <question>
             <text>A couple consists of ____ forces of equal magnitude in opposite directions.</text>
             <option id="A">Two</option><option id="B">Three</option>
-            <option id="C">phi</option><option id="D">Infinite</option>
+            <option id="D">Infinite</option>
             <answer>A</answer><explanation>Produces pure rotation without translational motion.</explanation></question>
         <question>
             <text>Radius of gyration k is given by ____.</text>
             <option id="A">sqrt(I / M)</option><option id="B">I / M</option>
-            <option id="C">phi</option><option id="D">sqrt(M / I)</option>
+            <option id="D">sqrt(M / I)</option>
             <answer>A</answer><explanation>Effective distance where mass can be concentrated to have same MI.</explanation></question>
         <question>
             <text>Center of Mass of a two-particle system (m1, m2) splits the distance in ____ ratio of mass.</text>
             <option id="A">Inverse</option><option id="B">Direct</option>
-            <option id="C">phi</option><option id="D">Square</option>
+            <option id="D">Square</option>
             <answer>A</answer><explanation>m1 r1 = m2 r2.</explanation></question>
         <question>
             <text>Direction of angular momentum is perpendicular to ____.</text>
             <option id="A">Plane of rotation</option><option id="B">Axis of rotation</option>
-            <option id="C">phi</option><option id="D">Gravity</option>
+            <option id="D">Gravity</option>
             <answer>A</answer><explanation>Axial vector logic.</explanation></question>
         <question>
             <text>Work done in rotating a body is torque times ____.</text>
             <option id="A">Angular Displacement</option><option id="B">Time</option>
-            <option id="C">phi</option><option id="D">Force</option>
+            <option id="D">Force</option>
             <answer>A</answer><explanation>W = Tau * d(theta).</explanation></question>
         <question>
             <text>Moment of Inertia of a hollow sphere (shell) about diameter? ____.</text>
             <option id="A">2/3 MR^2</option><option id="B">2/5 MR^2</option>
-            <option id="C">phi</option><option id="D">1/2 MR^2</option>
+            <option id="D">1/2 MR^2</option>
             <answer>A</answer><explanation>Higher than solid sphere as mass is further from center.</explanation></question>
         <question>
             <text>Condition for pure rolling is v = ____.</text>
             <option id="A">R * w</option><option id="B">R / w</option>
-            <option id="C">phi</option><option id="D">w / R</option>
+            <option id="D">w / R</option>
             <answer>A</answer><explanation>Velocity at point of contact must be zero relative to ground.</explanation></question>
         <question>
             <text>Torque is maximum when force and radius are ____.</text>
             <option id="A">Perpendicular</option><option id="B">Parallel</option>
-            <option id="C">phi</option><option id="D">At 45 degrees</option>
+            <option id="D">At 45 degrees</option>
             <answer>A</answer><explanation>Sin(90) = 1 in the cross product formula.</explanation></question>
         <question>
             <text>Does Torque depend on specific choice of origin?</text>
             <option id="A">Yes</option><option id="B">No</option>
-            <option id="C">phi</option><option id="D">Only for couples</option>
+            <option id="D">Only for couples</option>
             <answer>A</answer><explanation>Vector r depends on the origin location.</explanation></question>
         <question>
             <text>Torque of a couple depends on the choice of origin?</text>
             <option id="A">No</option><option id="B">Yes</option>
-            <option id="C">phi</option><option id="D">Sometimes</option>
+            <option id="D">Sometimes</option>
             <answer>A</answer><explanation>Distinct property of couple (net force zero).</explanation></question>
         <question>
             <text>Which of these bodies rolls fastest down an incline?</text>
             <option id="A">Solid Sphere</option><option id="B">Disc</option>
-            <option id="C">phi</option><option id="D">Ring</option>
+            <option id="D">Ring</option>
             <answer>A</answer><explanation>Sphere has the smallest beta factor (1 + I/MR^2).</explanation></question>
         <question>
             <text>Angular momentum of a system is conserved if external ____ is zero.</text>
             <option id="A">Torque</option><option id="B">Force</option>
-            <option id="C">phi</option><option id="D">Energy</option>
+            <option id="D">Energy</option>
             <answer>A</answer><explanation>Tau_ext = dL / dt.</explanation></question>
         <question>
             <text>A body is in rotational equilibrium if ____ is zero.</text>
             <option id="A">Net Torque</option><option id="B">Net Force</option>
-            <option id="C">phi</option><option id="D">Net Work</option>
+            <option id="D">Net Work</option>
             <answer>A</answer><explanation>Sum of moments about any point must vanish.</explanation></question>
         <question>
             <text>Center of Mass of a semi-circular ring (radius R) is at? ____.</text>
             <option id="A">2 R / pi</option><option id="B">R / pi</option>
-            <option id="C">phi</option><option id="D">4 R / 3 pi</option>
+            <option id="D">4 R / 3 pi</option>
             <answer>A</answer><explanation>Standard integration result for 1D wire arc.</explanation></question>
         <question>
             <text>Center of Mass of semi-circular disc (radius R) is at? ____.</text>
             <option id="A">4 R / 3 pi</option><option id="B">2 R / pi</option>
-            <option id="C">phi</option><option id="D">R / 2</option>
+            <option id="D">R / 2</option>
             <answer>A</answer><explanation>Standard integration result for 2D area.</explanation></question>
         <question>
             <text>Relationship between KE (K) and L? K = ____.</text>
             <option id="A">L^2 / 2 I</option><option id="B">L / 2 I</option>
-            <option id="C">phi</option><option id="D">L^2 / I</option>
+            <option id="D">L^2 / I</option>
             <answer>A</answer><explanation>Rotational analog of p^2 / 2m.</explanation></question>
         <question>
             <text>Perpendicular Axis Theorem is valid for ____ bodies.</text>
             <option id="A">Planar (2D)</option><option id="B">3D</option>
-            <option id="C">phi</option><option id="D">Spherical</option>
+            <option id="D">Spherical</option>
             <answer>A</answer><explanation>Iz = Ix + Iy for laminar objects.</explanation></question>
         <question>
             <text>If a boy sitting on a rotating chair stretches legs, w ____.</text>
             <option id="A">Decreases</option><option id="B">Increases</option>
-            <option id="C">phi</option><option id="D">Stops</option>
+            <option id="D">Stops</option>
             <answer>A</answer><explanation>I increases, so w must decrease to keep I*w constant.</explanation></question>
         <question>
             <text>Analogue of mass in rotational motion is ____.</text>
             <option id="A">Moment of Inertia</option><option id="B">Torque</option>
-            <option id="C">phi</option><option id="D">Angular momentum</option>
+            <option id="D">Angular momentum</option>
             <answer>A</answer><explanation>Resistance to change in rotational state.</explanation></question>
         <question>
             <text>Scalar product of A and B is minimum when angle is? ____.</text>
             <option id="A">180 deg</option><option id="B">90 deg</option>
-            <option id="C">phi</option><option id="D">Zero</option>
+            <option id="D">Zero</option>
             <answer>A</answer><explanation>Cos(180) = -1.</explanation></question>
         <question>
             <text>Center of Mass of a uniform solid cone height H is at? ____.</text>
             <option id="A">H / 4</option><option id="B">H / 3</option>
-            <option id="C">phi</option><option id="D">H / 2</option>
+            <option id="D">H / 2</option>
             <answer>A</answer><explanation>From base along axis.</explanation></question>
         <question>
             <text>Center of Mass of uniform hollow cone height H is at? ____.</text>
             <option id="A">H / 3</option><option id="B">H / 4</option>
-            <option id="C">phi</option><option id="D">H / 2</option>
+            <option id="D">H / 2</option>
             <answer>A</answer><explanation>Mass distribution is closer to base compared to solid cone.</explanation></question>
         <question>
             <text>Easy batch 40 complete?</text>
             <option id="A">Yes</option><option id="B">No</option>
-            <option id="C">phi</option><option id="D">Wait</option>
+            <option id="D">Wait</option>
             <answer>A</answer><explanation>Done.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Three identical particles at corners of equilateral triangle side L. Radius of circumcircle is ____.</text>
             <option id="A">L / sqrt(3)</option><option id="B">L / 2</option>
-            <option id="C">phi</option><option id="D">L * sqrt(3)</option>
+            <option id="D">L * sqrt(3)</option>
             <answer>A</answer><explanation>Geometric property of triangle medians.</explanation></question>
         <question>
             <text>Ratio of rot KE to trans KE for a rolling solid cylinder? ____.</text>
             <option id="A">1 : 2</option><option id="B">1 : 1</option>
-            <option id="C">phi</option><option id="D">2 : 5</option>
+            <option id="D">2 : 5</option>
             <answer>A</answer><explanation>I = 0.5 MR^2. Rot KE = 1/4 Mv^2. Ratio = (1/4)/(1/2) = 0.5.</explanation></question>
         <question>
             <text>Solid sphere rolling down incline. Total Energy / Trans Energy = ____.</text>
             <option id="A">1.4</option><option id="B">1.2</option>
-            <option id="C">phi</option><option id="D">2.0</option>
+            <option id="D">2.0</option>
             <answer>A</answer><explanation>Total = 0.7 Mv^2. Trans = 0.5 Mv^2. Ratio = 7/5 = 1.4.</explanation></question>
         <question>
             <text>Angular momentum of Earth around Sun prop to r^ ____.</text>
             <option id="A">0.5</option><option id="B">2.0</option>
-            <option id="C">phi</option><option id="D">1.0</option>
+            <option id="D">1.0</option>
             <answer>A</answer><explanation>v ~ 1/sqrt(r), L = mrv ~ r/sqrt(r) = sqrt(r).</explanation></question>
         <question>
             <text>Two discs I1, I2 spinning w1, w2 meet. Energy loss? ____.</text>
             <option id="A">Pos (always loss in inelastic friction)</option><option id="B">Zero</option>
-            <option id="C">phi</option><option id="D">Neg</option>
+            <option id="D">Neg</option>
             <answer>A</answer><explanation>Frictional work during phase synchronization.</explanation></question>
         <question>
             <text>Thin rod L bent to circle. I diameter = ____.</text>
             <option id="A">ML^2 / 8pi^2</option><option id="B">ML^2 / 4pi^2</option>
-            <option id="C">phi</option><option id="D">ML^2</option>
+            <option id="D">ML^2</option>
             <answer>A</answer><explanation>R = L/2pi. I_dia = 0.5 MR^2.</explanation></question>
         <question>
             <text>Radius of gyration of rod L about end and center ratio? ____.</text>
             <option id="A">2</option><option id="B">sqrt(3)</option>
-            <option id="C">phi</option><option id="D">4</option>
+            <option id="D">4</option>
             <answer>A</answer><explanation>k_end = L/sqrt(3). k_cm = L/sqrt(12). Ratio = sqrt(12/3) = 2.</explanation></question>
         <question>
             <text>Ratio of MI of ring / disc about same tangent in plane? ____.</text>
             <option id="A">3/2 : 5/4 -&gt; 6:5</option><option id="B">2 : 1</option>
-            <option id="C">phi</option><option id="D">3 : 2</option>
+            <option id="D">3 : 2</option>
             <answer>A</answer><explanation>Ring dia + MR^2 = 1.5. Disc dia + MR^2 = 1.25. 1.5 / 1.25 = 6/5.</explanation></question>
         <question>
             <text>Uniform rod M, L stands on floor. Disturbed. v at impact of tip? ____.</text>
             <option id="A">sqrt(3gL)</option><option id="B">sqrt(2gL)</option>
-            <option id="C">phi</option><option id="D">sqrt(gL)</option>
+            <option id="D">sqrt(gL)</option>
             <answer>A</answer><explanation>Loss in PE (MgL/2) = Rot KE (1/2 * ML^2/3 * w^2).</explanation></question>
         <question>
             <text>Can we have KE &gt; 0 while momentum is zero?</text>
             <option id="A">Yes (rotation around COM at rest)</option><option id="B">No</option>
-            <option id="C">phi</option><option id="D">Only in relativity</option>
+            <option id="D">Only in relativity</option>
             <answer>A</answer><explanation>Total p = 0, but particles have individual speeds.</explanation></question>
         <question>
             <text>MOI of a square plate side a at corner perp to plane? ____.</text>
             <option id="A">2/3 Ma^2</option><option id="B">1/6 Ma^2</option>
-            <option id="C">phi</option><option id="D">Ma^2</option>
+            <option id="D">Ma^2</option>
             <answer>A</answer><explanation>I_cm = 1/6 Ma^2. d = a/sqrt(2). I = 1/6 + 1/2 = 2/3.</explanation></question>
         <question>
             <text>Rod hangs by two wires. One cut. alpha = ____.</text>
             <option id="A">3g / 2L</option><option id="B">g / L</option>
-            <option id="C">phi</option><option id="D">2g / L</option>
+            <option id="D">2g / L</option>
             <answer>A</answer><explanation>Torque mgL/2 = (ML^2/3) alpha.</explanation></question>
         <question>
             <text>Instantaneous center of rotation for rolling body? ____.</text>
             <option id="A">Point of contact</option><option id="B">Center</option>
-            <option id="C">phi</option><option id="D">Top</option>
+            <option id="D">Top</option>
             <answer>A</answer><explanation>V=0 at ground contact for pure rolling.</explanation></question>
         <question>
             <text>Torque of F = (i + j) at r = (i - j) approx. T = ____ k.</text>
             <option id="A">2</option><option id="B">-2</option>
-            <option id="C">phi</option><option id="D">0</option>
+            <option id="D">0</option>
             <answer>A</answer><explanation>1*1 - (-1)*1 = 2.</explanation></question>
         <question>
             <text>Flywheel speed 120 rpm to zero in 10s. alpha = ____ rad/s^2.</text>
             <option id="A">0.4 * pi</option><option id="B">12</option>
-            <option id="C">phi</option><option id="D">2 * pi</option>
+            <option id="D">2 * pi</option>
             <answer>A</answer><explanation>4pi / 10 = 0.4 pi.</explanation></question>
         <question>
             <text>A and B of masses m, M revolv in circles R, r with same w. F centripetal ratio? ____.</text>
             <option id="A">mR / Mr</option><option id="B">R / r</option>
-            <option id="C">phi</option><option id="D">M / m</option>
+            <option id="D">M / m</option>
             <answer>A</answer><explanation>F = m w^2 R.</explanation></question>
         <question>
             <text>Kinetic energy of rolling ring is ____ rotational?</text>
             <option id="A">Half</option><option id="B">Double</option>
-            <option id="C">phi</option><option id="D">Equal</option>
+            <option id="D">Equal</option>
             <answer>A</answer><explanation>Rot = 0.5 Mv^2. Total = Mv^2.</explanation></question>
         <question>
             <text>Angular momentum of rolling ball about ground point? ____.</text>
             <option id="A">7/5 MvR</option><option id="B">MvR</option>
-            <option id="C">phi</option><option id="D">2/5 MvR</option>
+            <option id="D">2/5 MvR</option>
             <answer>A</answer><explanation>L = L_cm + r x p = 0.4 MvR + MvR = 1.4 MvR.</explanation></question>
         <question>
             <text>Is Moment of Inertia same for all axes through COM?</text>
             <option id="A">No (depends on distribution around each specific axis)</option><option id="B">Yes</option>
-            <option id="C">phi</option><option id="D">Only for spheres</option>
+            <option id="D">Only for spheres</option>
             <answer>A</answer><explanation>Principal moments can differ (e.g. rod).</explanation></question>
         <question>
             <text>If speed becomes 3v, stopping distance of wheel becomes ____ times.</text>
             <option id="A">9</option><option id="B">3</option>
-            <option id="C">phi</option><option id="D">27</option>
+            <option id="D">27</option>
             <answer>A</answer><explanation>Energy varies as v^2.</explanation></question>
         <question>
             <text>Dimensional formula for Angular Impulse? ____.</text>
             <option id="A">[ML^2T^-1]</option><option id="B">[ML^2T^-2]</option>
-            <option id="C">phi</option><option id="D">[MLT^-1]</option>
+            <option id="D">[MLT^-1]</option>
             <answer>A</answer><explanation>Change in angular momentum.</explanation></question>
         <question>
             <text>A coin rolls on table. Ratio of Trans KE to Total KE? ____.</text>
             <option id="A">2 / 3</option><option id="B">1 / 2</option>
-            <option id="C">phi</option><option id="D">3 / 4</option>
+            <option id="D">3 / 4</option>
             <answer>A</answer><explanation>Disc rot = 0.25 Mv^2. Trans = 0.5 Mv^2. Total = 0.75 Mv^2. Ratio = 0.5/0.75 = 2/3.</explanation></question>
         <question>
             <text>Torque Tau and w are parallel. Power is ____.</text>
             <option id="A">Product Tau * w</option><option id="B">Zero</option>
-            <option id="C">phi</option><option id="D">tau^2</option>
+            <option id="D">tau^2</option>
             <answer>A</answer><explanation>Dot product is max.</explanation></question>
         <question>
             <text>Tau and w are perpendicular. Power is ____.</text>
             <option id="A">Zero</option><option id="B">Product</option>
-            <option id="C">phi</option><option id="D">max</option>
+            <option id="D">max</option>
             <answer>A</answer><explanation>No work is done in direction of rotation.</explanation></question>
         <question>
             <text>Body rolls down incline. Friction protects it from ____.</text>
             <option id="A">Slipping</option><option id="B">Rotating</option>
-            <option id="C">phi</option><option id="D">Gravity</option>
+            <option id="D">Gravity</option>
             <answer>A</answer><explanation>Provides the necessary torque for rotational sync.</explanation></question>
         <question>
             <text>Which bodies can have COM outside their substance?</text>
             <option id="A">Ring, Hollow Sphere, Boomrang</option><option id="B">Cube, Solid Sphere</option>
-            <option id="C">phi</option><option id="D">None</option>
+            
             <answer>A</answer><explanation>Geometric center falls in void.</explanation></question>
         <question>
             <text>L vs p relation for circular motion. L / p = ____.</text>
             <option id="A">R</option><option id="B">1 / R</option>
-            <option id="C">phi</option><option id="D">R^2</option>
+            <option id="D">R^2</option>
             <answer>A</answer><explanation>L = r p sin 90.</explanation></question>
         <question>
             <text>L vs K relation. L = sqrt( ____ ).</text>
             <option id="A">2 I K</option><option id="B">2 m K</option>
-            <option id="C">phi</option><option id="D">I K</option>
+            <option id="D">I K</option>
             <answer>A</answer><explanation>Analog of p = sqrt(2mK).</explanation></question>
         <question>
             <text>MOI of solid cylinder axis at 30 deg through center? ____.</text>
             <option id="A">Complex dependence</option><option id="B">Same</option>
-            <option id="C">phi</option><option id="D">Zero</option>
+            <option id="D">Zero</option>
             <answer>A</answer><explanation>Tensor projection required.</explanation></question>
         <question>
             <text>Is it possible for a sphere to roll on smooth incline?</text>
             <option id="A">No (slides down without rotating)</option><option id="B">Yes</option>
-            <option id="C">phi</option><option id="D">Depends on mass</option>
+            <option id="D">Depends on mass</option>
             <answer>A</answer><explanation>No friction = no torque to start w.</explanation></question>
         <question>
             <text>Work done to increase w to 2w? ____ times initial KE.</text>
             <option id="A">3</option><option id="B">4</option>
-            <option id="C">phi</option><option id="D">1</option>
+            <option id="D">1</option>
             <answer>A</answer><explanation>K_final = 4 K_init. Work = 3 K_init.</explanation></question>
         <question>
             <text>Medium batch complete?</text>
             <option id="A">Yes</option><option id="B">No</option>
-            <option id="C">phi</option><option id="D">D</option>
+            
             <answer>A</answer><explanation>Done.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Disc spins w gently placed on floor. Pure roll speed? ____.</text>
             <option id="A">R * w / 3</option><option id="B">R * w / 2</option>
-            <option id="C">phi</option><option id="D">Zero</option>
+            <option id="D">Zero</option>
             <answer>A</answer><explanation>Conservation of Angular Momentum about contact: I_cm w = [I_cm + MR^2] w'. 0.5 MR^2 w = 1.5 MR^2 w'. w' = w/3. v = R w/3.</explanation></question>
         <question>
             <text>Solid sphere spins w on floor. Pure roll speed? ____.</text>
             <option id="A">2 R w / 7</option><option id="B">R w / 5</option>
-            <option id="C">phi</option><option id="D">R w / 3</option>
+            <option id="D">R w / 3</option>
             <answer>A</answer><explanation>0.4 MR^2 w = 1.4 MR^2 w'. w' = 2/7 w. v = 2/7 Rw.</explanation></question>
         <question>
             <text>Max height act center for pure roll snap? ____ R.</text>
             <option id="A">2 / 5 (sphere)</option><option id="B">1 / 2 (disc)</option>
-            <option id="C">phi</option><option id="D">1 / 5</option>
+            <option id="D">1 / 5</option>
             <answer>A</answer><explanation>h = I / MR condition.</explanation></question>
         <question>
             <text>Rod standing vertical on smooth floor falls. COM trace? ____.</text>
             <option id="A">Vertical line</option><option id="B">Circle arc</option>
-            <option id="C">phi</option><option id="D">Parabola</option>
+            <option id="D">Parabola</option>
             <answer>A</answer><explanation>No horizontal external forces means COM acceleration is purely vertical.</explanation></question>
         <question>
             <text>Tension in middle of rotating rod axis through one end? ____.</text>
             <option id="A">3/8 M w^2 L</option><option id="B">1/2 M w^2 L</option>
-            <option id="C">phi</option><option id="D">M w^2 L</option>
+            <option id="D">M w^2 L</option>
             <answer>A</answer><explanation>Integral derived from dm w^2 x.</explanation></question>
         <question>
             <text>Gyroscope precision rate Omega is proportional to ____.</text>
             <option id="A">Torque / L</option><option id="B">Torque * L</option>
-            <option id="C">phi</option><option id="D">L^2</option>
+            <option id="D">L^2</option>
             <answer>A</answer><explanation>Standard rotational mechanics stability formula.</explanation></question>
         <question>
             <text>Minimum H to loop the loop (rolling sphere R track R)? ____ R.</text>
             <option id="A">2.7 (approx 2+0.7)</option><option id="B">2.5</option>
-            <option id="C">phi</option><option id="D">3.0</option>
+            <option id="D">3.0</option>
             <answer>A</answer><explanation>v_top_min = sqrt(gR). KE total includes rotation.</explanation></question>
         <question>
             <text>Ladder theta smooth wall rough floor. min theta? ____.</text>
             <option id="A">tan theta = 1 / 2u</option><option id="B">tan theta = 1 / u</option>
-            <option id="C">phi</option><option id="D">u</option>
+            <option id="D">u</option>
             <answer>A</answer><explanation>Torque balance around floor point.</explanation></question>
         <question>
             <text>MOI of a cube side a about an edge? ____.</text>
             <option id="A">2/3 Ma^2</option><option id="B">1/6 Ma^2</option>
-            <option id="C">phi</option><option id="D">Ma^2</option>
+            <option id="D">Ma^2</option>
             <answer>A</answer><explanation>I_cm = 1/6 Ma^2. dist d = a/sqrt(2). I = 1/6 + 1/2 = 2/3.</explanation></question>
         <question>
             <text>Rod strike at end short T. v_cm = ____.</text>
             <option id="A">F T / M</option><option id="B">F T / 2M</option>
-            <option id="C">phi</option><option id="D">Zero</option>
+            <option id="D">Zero</option>
             <answer>A</answer><explanation>Linear impulse J = delta p.</explanation></question>
         <question>
             <text>Rod strike at end short T. w = ____.</text>
             <option id="A">6 F T / M L</option><option id="B">3 F T / M L</option>
-            <option id="C">phi</option><option id="D">F T / M L</option>
+            <option id="D">F T / M L</option>
             <answer>A</answer><explanation>Angular impulse J (L/2) = (ML^2/12) w.</explanation></question>
         <question>
             <text>A billiard ball hit for no slip snap (initially sliding). v relate w? ____.</text>
             <option id="A">v = R w / k ... Complex snap condition</option><option id="B">v = R w</option>
-            <option id="C">phi</option><option id="D">Wait</option>
+            <option id="D">Wait</option>
             <answer>A</answer><explanation>Initial impact at specific height provides both v and w matching pure roll.</explanation></question>
         <question>
             <text>Atwood machine with pulley mass M. Acceleration = (m2-m1)g / ( ____ ).</text>
             <option id="A">m1 + m2 + M/2</option><option id="B">m1 + m2 + M</option>
-            <option id="C">phi</option><option id="D">m1 + m2</option>
+            <option id="D">m1 + m2</option>
             <answer>A</answer><explanation>Energy of system includes 1/2 I w^2 of pulley.</explanation></question>
         <question>
             <text>Is rotational kinetic energy conserved in 2-disc contact collision?</text>
             <option id="A">No (frictional energy loss)</option><option id="B">Yes</option>
-            <option id="C">phi</option><option id="D">Only if smooth</option>
+            <option id="D">Only if smooth</option>
             <answer>A</answer><explanation>Energy lost to sync angular velocities.</explanation></question>
         <question>
             <text>Angle between L and w for non-symmetric body? ____.</text>
             <option id="A">Non-zero (in general)</option><option id="B">Zero</option>
-            <option id="C">phi</option><option id="D">Always 90</option>
+            <option id="D">Always 90</option>
             <answer>A</answer><explanation>Principal axes alignment required for parallelism.</explanation></question>
         <question>
             <text>Angular momentum of Earth about its axis? ____.</text>
             <option id="A">Very huge approx 7 x 10^33 Js</option><option id="B">Zero</option>
-            <option id="C">phi</option><option id="D">Calculated</option>
+            <option id="D">Calculated</option>
             <answer>A</answer><explanation>L = 0.4 M R^2 w. M ~ 6e24, R ~ 6e6.</explanation></question>
         <question>
             <text>Work done by a spinning flywheel? ____.</text>
             <option id="A">Negative of change in 1/2 I w^2</option><option id="B">Zero</option>
-            <option id="C">phi</option><option id="D">L * w</option>
+            <option id="D">L * w</option>
             <answer>A</answer><explanation>Internal energy reservoir usage.</explanation></question>
         <question>
             <text>Does Earth's rotation change throughout the year?</text>
             <option id="A">Yes (very small change due to atmospheric and tidal drag)</option><option id="B">No</option>
-            <option id="C">phi</option><option id="D">Only in leap years</option>
+            <option id="D">Only in leap years</option>
             <answer>A</answer><explanation>Conservation of L including environment.</explanation></question>
         <question>
             <text>Vector product is ____ commutative.</text>
             <option id="A">Anti</option><option id="B">Totally</option>
-            <option id="C">phi</option><option id="D">Non</option>
+            <option id="D">Non</option>
             <answer>A</answer><explanation>A x B = - (B x A).</explanation></question>
         <question>
             <text>Stability of a bicycle comes from ____ effect.</text>
             <option id="A">Gyroscopic and Trail</option><option id="B">Air resistance</option>
-            <option id="C">phi</option><option id="D">Magnetism</option>
+            <option id="D">Magnetism</option>
             <answer>A</answer><explanation>Conservation of angular momentum of wheels helps resisting tilt.</explanation></question>
         <question>
             <text>Final Q: Verified 120 count for Particles.</text>
             <option id="A">True</option><option id="B">False</option>
-            <option id="C">phi</option><option id="D">D</option>
+            
             <answer>A</answer><explanation>Regeneration successful with high density.</explanation></question>
-    <question><text>Additional practice question 94 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 94 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 95 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 95 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 96 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 96 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 97 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 97 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 98 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 98 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 99 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 99 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 100 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 100 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 101 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 101 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 102 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 102 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 103 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 103 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 104 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 104 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 105 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 105 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 106 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 106 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 107 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 107 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 108 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 108 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 109 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 109 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 110 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 110 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 111 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 111 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 112 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 112 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 113 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 113 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 114 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 114 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 115 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 115 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 116 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 116 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 117 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 117 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 118 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 118 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 119 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 119 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 120 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><option id="C">phi</option><option id="D">None</option><answer>A</answer><explanation>Detailed explanation for additional question 120 in the Motion of System of Particles module.</explanation></question></hard>
+    <question><text>Additional practice question 94 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 94 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 95 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 95 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 96 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 96 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 97 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 97 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 98 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 98 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 99 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 99 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 100 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 100 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 101 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 101 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 102 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 102 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 103 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 103 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 104 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 104 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 105 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 105 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 106 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 106 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 107 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 107 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 108 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 108 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 109 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 109 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 110 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 110 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 111 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 111 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 112 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 112 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 113 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 113 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 114 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 114 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 115 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 115 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 116 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 116 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 117 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 117 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 118 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 118 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 119 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 119 in the Motion of System of Particles module.</explanation></question><question><text>Additional practice question 120 on Motion of System of Particles: Advanced level concepts.</text><option id="A">Correct Option</option><option id="B">Incorrect Option</option><answer>A</answer><explanation>Detailed explanation for additional question 120 in the Motion of System of Particles module.</explanation></question></hard>
 </chapter>

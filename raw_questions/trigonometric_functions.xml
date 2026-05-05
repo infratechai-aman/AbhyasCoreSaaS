@@ -75,7 +75,7 @@
             <answer>A</answer><explanation>Amplitude 1.</explanation></question>
         <question>
             <text>Domain of tan(x) is R except:</text>
-            <option id="A">Odd multiples of Pi/2</option><option id="B">Multiples of Pi</option><option id="C">Multiples of 2Pi</option><option id="D">None</option>
+            <option id="A">Odd multiples of Pi/2</option><option id="B">Multiples of Pi</option><option id="C">Multiples of 2Pi</option>
             <answer>A</answer><explanation>Cos(x) is zero there.</explanation></question>
         <question>
             <text>sin(x) = 0 implies x = ?</text>
@@ -185,7 +185,7 @@
             <answer>A</answer><explanation>Sum to product.</explanation></question>
         <question>
             <text>Formula for cos(A) - cos(B):</text>
-            <option id="A">-2 sin((A+B)/2) sin((A-B)/2)</option><option id="B">2 cos((A+B)/2) cos((A-B)/2)</option><option id="C">2 sin((A+B)/2) cos((A-B)/2)</option><option id="D">None</option>
+            <option id="A">-2 sin((A+B)/2) sin((A-B)/2)</option><option id="B">2 cos((A+B)/2) cos((A-B)/2)</option><option id="C">2 sin((A+B)/2) cos((A-B)/2)</option>
             <answer>A</answer><explanation>Sum to product (negative sign).</explanation></question>
         <question>
             <text>tan(A+B) is:</text>
@@ -205,7 +205,7 @@
             <answer>A</answer><explanation>Triple angle.</explanation></question>
         <question>
             <text>cos(3x) formula:</text>
-            <option id="A">4cos^3(x) - 3cos(x)</option><option id="B">3cos(x) - 4cos^3(x)</option><option id="C">3sin(x) - 4sin^3(x)</option><option id="D">None</option>
+            <option id="A">4cos^3(x) - 3cos(x)</option><option id="B">3cos(x) - 4cos^3(x)</option><option id="C">3sin(x) - 4sin^3(x)</option>
             <answer>A</answer><explanation>Triple angle.</explanation></question>
         <question>
             <text>tan(3x) formula:</text>
@@ -265,11 +265,11 @@
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>General solution of cos(x) = cos(y):</text>
-            <option id="A">x = 2nPi ± y</option><option id="B">x = nPi ± y</option><option id="C">x = 2nPi + y</option><option id="D">None</option>
+            <option id="A">x = 2nPi ± y</option><option id="B">x = nPi ± y</option><option id="C">x = 2nPi + y</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>General solution of tan(x) = tan(y):</text>
-            <option id="A">x = nPi + y</option><option id="B">x = 2nPi + y</option><option id="C">x = nPi ± y</option><option id="D">None</option>
+            <option id="A">x = nPi + y</option><option id="B">x = 2nPi + y</option><option id="C">x = nPi ± y</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Value of sin(18) is:</text>
@@ -293,7 +293,7 @@
             <answer>A</answer><explanation>sin(2x)/2. Max 0.5.</explanation></question>
         <question>
             <text>tan(1) vs tan(2) (radians):</text>
-            <option id="A">tan(1) &gt; 0, tan(2) &lt; 0. So tan(1) &gt; tan(2)</option><option id="B">tan(2) &gt; tan(1)</option><option id="C">Equal</option><option id="D">None</option>
+            <option id="A">tan(1) &gt; 0, tan(2) &lt; 0. So tan(1) &gt; tan(2)</option><option id="B">tan(2) &gt; tan(1)</option><option id="C">Equal</option>
             <answer>A</answer><explanation>1 rad (57 deg) is Q1. 2 rad (114 deg) is Q2.</explanation></question>
         <question>
             <text>Triangle ABC, A+B+C=Pi. tan(A+B) = ?</text>
@@ -407,7 +407,7 @@
             <answer>A</answer><explanation>Elimination.</explanation></question>
         <question>
             <text>Solve 2sin^2(x) - 5sin(x) cos(x) - 8cos^2(x) = -2?</text>
-            <option id="A">Quad in tan x?</option><option id="B">None</option><option id="C">Solve</option><option id="D">Check</option>
+            <option id="A">Quad in tan x?</option><option id="C">Solve</option><option id="D">Check</option>
             <answer>A</answer><explanation>Homogeneous equation -2(sin^2+cos^2).</explanation></question>
         <question>
             <text>Find range of sin^2(x) + cos^4(x).</text>

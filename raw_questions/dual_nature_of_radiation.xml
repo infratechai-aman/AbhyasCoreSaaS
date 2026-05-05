@@ -3,488 +3,488 @@
     <easy>
         <question>
             <text>Who proposed the photon theory of light to explain the photoelectric effect?</text>
-            <option id="A">Einstein</option><option id="B">Newton</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Einstein</option><option id="B">Newton</option>
             <answer>A</answer><explanation>Einstein suggested that light acts as discrete packets of energy.</explanation></question>
         <question>
             <text>Phenomenon of emission of electrons from a metal surface when light of suitable frequency falls on it is ____.</text>
-            <option id="A">Photoelectric effect</option><option id="B">Thermionic emission</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Photoelectric effect</option><option id="B">Thermionic emission</option>
             <answer>A</answer><explanation>Direct conversion of light energy to electrical energy.</explanation></question>
         <question>
             <text>Minimum energy required to just eject an electron from a metal surface is called ____.</text>
-            <option id="A">Work Function (Φ₀)</option><option id="B">Ionization energy</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Work Function (Φ₀)</option><option id="B">Ionization energy</option>
             <answer>A</answer><explanation>Dependent on the material of the surface.</explanation></question>
         <question>
             <text>The SI unit of Work Function is ____.</text>
-            <option id="A">Joule (J) or eV</option><option id="B">Volt</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Joule (J) or eV</option><option id="B">Volt</option>
             <answer>A</answer><explanation>It is energy.</explanation></question>
         <question>
             <text>Relation between Work Function Φ₀ and threshold frequency f₀ is Φ₀ = ____.</text>
-            <option id="A">h f₀</option><option id="B">h / f₀</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h f₀</option><option id="B">h / f₀</option>
             <answer>A</answer><explanation>h is Planck's constant.</explanation></question>
         <question>
             <text>Threshold frequency is the minimum frequency below which ____ occurs.</text>
-            <option id="A">No photoelectron emission</option><option id="B">Emission happens always</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No photoelectron emission</option><option id="B">Emission happens always</option>
             <answer>A</answer><explanation>Characteristic of the metal.</explanation></question>
         <question>
             <text>What is the value of Planck's constant h?</text>
-            <option id="A">6.63 x 10^-34 J s</option><option id="B">6.63 x 10^-27 J s</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">6.63 x 10^-34 J s</option><option id="B">6.63 x 10^-27 J s</option>
             <answer>A</answer><explanation>Fundamental constant in quantum mechanics.</explanation></question>
         <question>
             <text>Einstein's photoelectric equation is Kmax = ____.</text>
-            <option id="A">h f - Φ₀</option><option id="B">h f + Φ₀</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h f - Φ₀</option><option id="B">h f + Φ₀</option>
             <answer>A</answer><explanation>Energy conservation: Incident energy = Work function + Max KE.</explanation></question>
         <question>
             <text>Maximum kinetic energy of photoelectrons depends on ____ of incident light.</text>
-            <option id="A">Frequency</option><option id="B">Intensity</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Frequency</option><option id="B">Intensity</option>
             <answer>A</answer><explanation>Verified experimentally by Millikan.</explanation></question>
         <question>
             <text>Photoelectric current depends on ____ of incident light.</text>
-            <option id="A">Intensity</option><option id="B">Frequency</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Intensity</option><option id="B">Frequency</option>
             <answer>A</answer><explanation>More photons per second imply more electrons ejected.</explanation></question>
         <question>
             <text>Stopping potential V₀ is the potential difference at which photoelectric current becomes ____.</text>
-            <option id="A">Zero</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Maximum</option>
             <answer>A</answer><explanation>Negative potential applied to anode to stop fastest electrons.</explanation></question>
         <question>
             <text>Relation between Stopping Potential V₀ and Max KE is Kmax = ____.</text>
-            <option id="A">e V₀</option><option id="B">V₀ / e</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">e V₀</option><option id="B">V₀ / e</option>
             <answer>A</answer><explanation>Energy gained by electron in stopping potential field.</explanation></question>
         <question>
             <text>Stopping potential is independent of ____ of radiation.</text>
-            <option id="A">Intensity</option><option id="B">Frequency</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Intensity</option><option id="B">Frequency</option>
             <answer>A</answer><explanation>For a fixed frequency, multiple intensities have same V₀.</explanation></question>
         <question>
             <text>Photons are essentially quanta of ____ field.</text>
-            <option id="A">Electromagnetic</option><option id="B">Gravitational</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Electromagnetic</option><option id="B">Gravitational</option>
             <answer>A</answer><explanation>Packets of EM energy.</explanation></question>
         <question>
             <text>Speed of photon in vacuum is ____.</text>
-            <option id="A">c (3 x 10^8 m/s)</option><option id="B">Less than c</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">c (3 x 10^8 m/s)</option><option id="B">Less than c</option>
             <answer>A</answer><explanation>Propagate at speed of light.</explanation></question>
         <question>
             <text>Rest mass of a photon is ____.</text>
-            <option id="A">Zero</option><option id="B">Finite</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Finite</option>
             <answer>A</answer><explanation>Photons only exist in motion at speed c.</explanation></question>
         <question>
             <text>Linear momentum of a photon is p = ____.</text>
-            <option id="A">h / λ</option><option id="B">h λ</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h / λ</option><option id="B">h λ</option>
             <answer>A</answer><explanation>From E = pc and E = hc/λ.</explanation></question>
         <question>
             <text>Energy of a photon of frequency f is E = ____.</text>
-            <option id="A">h f</option><option id="B">h / f</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h f</option><option id="B">h / f</option>
             <answer>A</answer><explanation>Planck's relation.</explanation></question>
         <question>
             <text>Who proposed the matter-wave hypothesis?</text>
-            <option id="A">De-Broglie</option><option id="B">Bohr</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">De-Broglie</option><option id="B">Bohr</option>
             <answer>A</answer><explanation>Suggested particles exhibit wave nature (1924).</explanation></question>
         <question>
             <text>De-Broglie wavelength of a particle of mass m and velocity v is λ = ____.</text>
-            <option id="A">h / (m v)</option><option id="B">m v / h</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h / (m v)</option><option id="B">m v / h</option>
             <answer>A</answer><explanation>λ = h / p.</explanation></question>
         <question>
             <text>Relation between λ and KE of a particle is λ = ____.</text>
-            <option id="A">h / √(2 m K)</option><option id="B">h / (2 m K)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h / √(2 m K)</option><option id="B">h / (2 m K)</option>
             <answer>A</answer><explanation>p = √(2mK).</explanation></question>
         <question>
             <text>De-Broglie wavelength of an electron accelerated through V volts is approx λ = ____ / √V nm.</text>
-            <option id="A">1.227</option><option id="B">12.27</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1.227</option><option id="B">12.27</option>
             <answer>A</answer><explanation>Numerical simplification for electrons.</explanation></question>
         <question>
             <text>Davisson-Germer experiment confirmed the ____ nature of electrons.</text>
-            <option id="A">Wave</option><option id="B">Particle</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Wave</option><option id="B">Particle</option>
             <answer>A</answer><explanation>Observed diffraction from nickel crystal.</explanation></question>
         <question>
             <text>Electrons are diffracted by crystals just like ____.</text>
-            <option id="A">X-rays</option><option id="B">Radio waves</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">X-rays</option><option id="B">Radio waves</option>
             <answer>A</answer><explanation>Wavelength comparable to atomic spacing.</explanation></question>
         <question>
             <text>In photoelectric effect, emission occurs within ____ seconds of illumination.</text>
-            <option id="A">10^-9 (Instantaneous)</option><option id="B">10^0 (Delayed)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">10^-9 (Instantaneous)</option><option id="B">10^0 (Delayed)</option>
             <answer>A</answer><explanation>Suggests direct collision of photons and electrons.</explanation></question>
         <question>
             <text>Increase in intensity of incident light increases ____ of emission.</text>
-            <option id="A">Number of electrons per second</option><option id="B">Speed of each electron</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Number of electrons per second</option><option id="B">Speed of each electron</option>
             <answer>A</answer><explanation>Intensity ∝ Rate of emission.</explanation></question>
         <question>
             <text>Work function of Alkali metals is ____ than that of other metals.</text>
-            <option id="A">Lower</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Lower</option><option id="B">Higher</option>
             <answer>A</answer><explanation>Sensitive even to visible light.</explanation></question>
         <question>
             <text>Work function of Cesium is approx ____ eV.</text>
-            <option id="A">2.14</option><option id="B">4.5</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2.14</option><option id="B">4.5</option>
             <answer>A</answer><explanation>One of the lowest work functions.</explanation>
         </question>
         <question>
             <text>Heisenberg's Uncertainty Principle is related to ____ nature of matter.</text>
-            <option id="A">Wave</option><option id="B">Particle only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Wave</option><option id="B">Particle only</option>
             <answer>A</answer><explanation>Wave packets represent localization with spread in momentum.</explanation></question>
         <question>
             <text>Photons are electrically ____.</text>
-            <option id="A">Neutral</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Neutral</option><option id="B">Positive</option>
             <answer>A</answer><explanation>Not deflected by electric/magnetic fields.</explanation></question>
         <question>
             <text>An electron-microscope relies on ____ nature of electrons.</text>
-            <option id="A">Wave</option><option id="B">Particle</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Wave</option><option id="B">Particle</option>
             <answer>A</answer><explanation>Uses shorter wavelength than light for higher resolution.</explanation></question>
         <question>
             <text>Energy of 1 eV is approx ____ Joules.</text>
-            <option id="A">1.6 x 10^-19</option><option id="B">1.6 x 10^-27</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1.6 x 10^-19</option><option id="B">1.6 x 10^-27</option>
             <answer>A</answer><explanation>Energy of an electron through 1V potential.</explanation></question>
         <question>
             <text>Which phenomenon supports wave nature of light?</text>
-            <option id="A">Both Interference and Diffraction</option><option id="B">Photoelectric effect</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Both Interference and Diffraction</option><option id="B">Photoelectric effect</option>
             <answer>A</answer><explanation>Classical wave properties.</explanation></question>
         <question>
             <text>Which phenomenon supports particle nature of light?</text>
-            <option id="A">Photoelectric effect</option><option id="B">Interference</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Photoelectric effect</option><option id="B">Interference</option>
             <answer>A</answer><explanation>Requires discrete energy exchange.</explanation></question>
         <question>
             <text>A substance has rest mass m₀. Its mass at speed v is m = ____.</text>
-            <option id="A">m₀ / √(1 - v²/c²)</option><option id="B">m₀ √(1 - v²/c²)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">m₀ / √(1 - v²/c²)</option><option id="B">m₀ √(1 - v²/c²)</option>
             <answer>A</answer><explanation>Relativistic mass increase.</explanation></question>
         <question>
             <text>Ratio of energy to momentum for a photon is ____.</text>
-            <option id="A">c (speed of light)</option><option id="B">1 / c</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">c (speed of light)</option><option id="B">1 / c</option>
             <answer>A</answer><explanation>E = pc.</explanation></question>
         <question>
             <text>Photo-cell is a device that converts ____ energy into ____ energy.</text>
-            <option id="A">Light, Electrical</option><option id="B">Electrical, Light</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Light, Electrical</option><option id="B">Electrical, Light</option>
             <answer>A</answer><explanation>Based on photoelectric effect.</explanation></question>
         <question>
             <text>Does the De-Broglie wavelength depend on the charge of the particle?</text>
-            <option id="A">No (depends on p = mv)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (depends on p = mv)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>General formula λ = h/p.</explanation></question>
         <question>
             <text>A heavier particle from two particles with same velocity has ____ wavelength.</text>
-            <option id="A">Shorter</option><option id="B">Longer</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Shorter</option><option id="B">Longer</option>
             <answer>A</answer><explanation>λ ∝ 1/m.</explanation></question>
         <question>
             <text>Dual Nature initialization done.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>If frequency of incident light is doubled, the stopping potential V₀ ____.</text>
-            <option id="A">Becomes more than double</option><option id="B">Doubles</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Becomes more than double</option><option id="B">Doubles</option>
             <answer>A</answer><explanation>e V₀ = h f - Φ₀ =&gt; e V₀' = 2 h f - Φ₀ = 2(e V₀ + Φ₀) - Φ₀ = 2 e V₀ + Φ₀. V₀' = 2 V₀ + Φ₀/e.</explanation></question>
         <question>
             <text>Stopping potential depends on ____ but not on ____.</text>
-            <option id="A">Frequency, Intensity</option><option id="B">Intensity, Frequency</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Frequency, Intensity</option><option id="B">Intensity, Frequency</option>
             <answer>A</answer><explanation>Intensity affects power, not energy per photon.</explanation></question>
         <question>
             <text>Slope of V₀ vs f graph for a photoelectric surface is ____.</text>
-            <option id="A">h / e</option><option id="B">e / h</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h / e</option><option id="B">e / h</option>
             <answer>A</answer><explanation>V₀ = (h/e) f - Φ₀/e. Form y = mx + c.</explanation></question>
         <question>
             <text>Intercept on the frequency axis of V₀ vs f graph gives ____.</text>
-            <option id="A">Threshold frequency (f₀)</option><option id="B">Work function</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Threshold frequency (f₀)</option><option id="B">Work function</option>
             <answer>A</answer><explanation>When V₀ = 0, f = f₀.</explanation></question>
         <question>
             <text>If light of 300nm falls on a metal with Φ₀ = 2eV, Max KE is approx ____ eV.</text>
-            <option id="A">2.13 (E = 1240/300 ≈ 4.13. K = 4.13 - 2)</option><option id="B">1.13</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2.13 (E = 1240/300 ≈ 4.13. K = 4.13 - 2)</option><option id="B">1.13</option>
             <answer>A</answer><explanation>Using E(eV) ≈ 1240 / λ(nm).</explanation></question>
         <question>
             <text>De-Broglie wavelength of a thermal neutron at temperature T is λ ∝ ____.</text>
-            <option id="A">1 / √T</option><option id="B">1 / T</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / √T</option><option id="B">1 / T</option>
             <answer>A</answer><explanation>K_avg = 3/2 k_B T. p = √(2mK) ∝ √T.</explanation></question>
         <question>
             <text>Comparison of λ of electron and proton with same KE: λ_e ____ λ_p.</text>
-            <option id="A">&gt; (λ ∝ 1/√m)</option><option id="B">&lt;</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">&gt; (λ ∝ 1/√m)</option><option id="B">&lt;</option>
             <answer>A</answer><explanation>Electrons being lighter have larger wavelength.</explanation></question>
         <question>
             <text>Emission of electrons by applying a strong electric field to surface is ____ emission.</text>
-            <option id="A">Field</option><option id="B">Secondary</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Field</option><option id="B">Secondary</option>
             <answer>A</answer><explanation>Cold cathode emission by tunneling.</explanation></question>
         <question>
             <text>Number of photons emitted per second from a 60W source of 600nm is approx ____.</text>
-            <option id="A">1.8 x 10^20</option><option id="B">10^15</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1.8 x 10^20</option><option id="B">10^15</option>
             <answer>A</answer><explanation>n = P / (hc/λ). hc ≈ 2e-25. n = 60 / (2e-25 / 600e-9) = 1.8e20.</explanation></question>
         <question>
             <text>Does an increase in intensity shift the threshold frequency?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>f₀ is a surface property.</explanation></question>
         <question>
             <text>Davisson and Germer used a ____ crystal to study electron diffraction.</text>
-            <option id="A">Nickel</option><option id="B">Silicon</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Nickel</option><option id="B">Silicon</option>
             <answer>A</answer><explanation>Crystal lattice acted as a diffraction grating.</explanation></question>
         <question>
             <text>For a given frequency, saturation current is proportional to ____.</text>
-            <option id="A">Intensity</option><option id="B">Distance from source only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Intensity</option><option id="B">Distance from source only</option>
             <answer>A</answer><explanation>More photons ejecting more electrons.</explanation></question>
         <question>
             <text>Momentum of an electron of wavelength 1 nm is approx ____ kg m/s.</text>
-            <option id="A">6.63 x 10^-25</option><option id="B">10^-19</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">6.63 x 10^-25</option><option id="B">10^-19</option>
             <answer>A</answer><explanation>p = h / λ = 6.63e-34 / 1e-9.</explanation></question>
         <question>
             <text>The work function for a metal surface is 4 eV. The threshold wavelength is ____ nm.</text>
-            <option id="A">310</option><option id="B">620</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">310</option><option id="B">620</option>
             <answer>A</answer><explanation>λ = 1240 / 4 = 310 nm.</explanation></question>
         <question>
             <text>Einstein's explanation of photoelectric effect assumes ____ collision between photon and electron.</text>
-            <option id="A">One-to-one</option><option id="B">Multiple photons to one electron</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">One-to-one</option><option id="B">Multiple photons to one electron</option>
             <answer>A</answer><explanation>Each photon delivers its entire energy to one electron.</explanation></question>
         <question>
             <text>Why is wave theory unable to explain threshold frequency?</text>
-            <option id="A">In wave theory, intensity (energy per sec) alone should cause emission after time lag</option><option id="B">Wait, it does explain? No.</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">In wave theory, intensity (energy per sec) alone should cause emission after time lag</option><option id="B">Wait, it does explain? No.</option>
             <answer>A</answer><explanation>Energy in wave is distributed; accumulation takes time regardless of frequency.</explanation></question>
         <question>
             <text>Davisson-Germer found max intensity at scattering angle ____ for 54V electrons.</text>
-            <option id="A">50°</option><option id="B">90°</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">50°</option><option id="B">90°</option>
             <answer>A</answer><explanation>Corresponded to constructive interference from nickel planes.</explanation></question>
         <question>
             <text>Photoelectric current is independent of ____.</text>
-            <option id="A">Potential of anode once saturated</option><option id="B">Intensity</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Potential of anode once saturated</option><option id="B">Intensity</option>
             <answer>A</answer><explanation>All emitted electrons reach the anode.</explanation></question>
         <question>
             <text>Wave nature is dominant for ____ objects at high speeds.</text>
-            <option id="A">Microscopic (like electrons)</option><option id="B">Macroscopic</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Microscopic (like electrons)</option><option id="B">Macroscopic</option>
             <answer>A</answer><explanation>For large m, λ is extremely small and undetectable.</explanation></question>
         <question>
             <text>If a particle's momentum is doubled, its De-Broglie wavelength ____.</text>
-            <option id="A">Is halved</option><option id="B">Is doubled</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Is halved</option><option id="B">Is doubled</option>
             <answer>A</answer><explanation>λ ∝ 1/p.</explanation></question>
         <question>
             <text>Maximum wavelength of incident radiation for which photoelectric effect occurs is λ₀. It corresponds to ____.</text>
-            <option id="A">Threshold wavelength</option><option id="B">Fringe width</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Threshold wavelength</option><option id="B">Fringe width</option>
             <answer>A</answer><explanation>λ₀ = c / f₀.</explanation></question>
         <question>
             <text>Slope of Kmax vs f graph is ____.</text>
-            <option id="A">h (Planck's constant)</option><option id="B">e</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h (Planck's constant)</option><option id="B">e</option>
             <answer>A</answer><explanation>Kmax = h f - Φ₀. Form y = mx + c with m = h.</explanation></question>
         <question>
             <text>Is the slope of V₀ vs f graph same for all metals?</text>
-            <option id="A">Yes (is h/e, universal constant)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes (is h/e, universal constant)</option><option id="B">No</option>
             <answer>A</answer><explanation>Only the intercept changes with material.</explanation></question>
         <question>
             <text>Photon momentum p and its energy E are related by p = ____.</text>
-            <option id="A">E / c</option><option id="B">E / c²</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">E / c</option><option id="B">E / c²</option>
             <answer>A</answer><explanation>Since speed is c.</explanation></question>
         <question>
             <text>An alpha particle and a proton have same velocity. λ_alpha / λ_proton = ____.</text>
-            <option id="A">1 / 4</option><option id="B">4 / 1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / 4</option><option id="B">4 / 1</option>
             <answer>A</answer><explanation>λ ∝ 1/m. m_alpha = 4 m_p.</explanation></question>
         <question>
             <text>Work function depends on ____ of the metal.</text>
-            <option id="A">Nature and surface conditions</option><option id="B">Size</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Nature and surface conditions</option><option id="B">Size</option>
             <answer>A</answer><explanation>Intrinsic property.</explanation></question>
         <question>
             <text>What happens to stopping potential if frequency of incident light is increased but intensity is constant?</text>
-            <option id="A">Increases</option><option id="B">Remains same</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases</option><option id="B">Remains same</option>
             <answer>A</answer><explanation>Faster electrons requiring higher stopping field.</explanation></question>
         <question>
             <text>Energy of a quantum of light of wavelength λ is inversely proportional to ____.</text>
-            <option id="A">λ</option><option id="B">f</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">λ</option><option id="B">f</option>
             <answer>A</answer><explanation>E = hc / λ.</explanation></question>
         <question>
             <text>Davisson-Germer experiment used electrons of energy ____ eV for best results.</text>
-            <option id="A">54</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">54</option><option id="B">100</option>
             <answer>A</answer><explanation>Matched wavelength for Bragg reflection peak.</explanation></question>
         <question>
             <text>If Φ₀ increases, threshold frequency ____.</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases</option><option id="B">Decreases</option>
             <answer>A</answer><explanation>Φ₀ = h f₀.</explanation></question>
         <question>
             <text>Standardizing Dual Nature Medium section - in final stages.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>Wait, is there any time lag in wave theory explanation of photoelectric effect?</text>
-            <option id="A">Yes (major flaw)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes (major flaw)</option><option id="B">No</option>
             <answer>A</answer><explanation>Would take hours/days to accumulate 2eV from weak wave.</explanation></question>
         <question>
             <text>Is mass of a photon constant?</text>
-            <option id="A">Depends on frequency (equivalent mass m = hf/c²)</option><option id="B">Yes, always 0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Depends on frequency (equivalent mass m = hf/c²)</option><option id="B">Yes, always 0</option>
             <answer>A</answer><explanation>Kinetic mass is hf/c². Rest mass is 0.</explanation></question>
         <question>
             <text>Momentum of a particle of energy E and mass m is p = √(____).</text>
-            <option id="A">2 m E</option><option id="B">2 E / m</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2 m E</option><option id="B">2 E / m</option>
             <answer>A</answer><explanation>Standard KE-momentum relation.</explanation></question>
         <question>
             <text>Can we see matter waves of a car moving at 100 km/h?</text>
-            <option id="A">No (λ is too small)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (λ is too small)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Too small to interact with any physical aperture.</explanation></question>
         <question>
             <text>Dual nature means matter/radiation behaves as both ____ and ____.</text>
-            <option id="A">Wave, Particle</option><option id="B">Alpha, Beta</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Wave, Particle</option><option id="B">Alpha, Beta</option>
             <answer>A</answer><explanation>Complementarity principle.</explanation></question>
         <question>
             <text>Work function for Silver is approx ____ eV.</text>
-            <option id="A">4.7</option><option id="B">2.0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">4.7</option><option id="B">2.0</option>
             <answer>A</answer><explanation>High work function metal.</explanation></question>
         <question>
             <text>Transition from wave to particle nature happens when scale ____.</text>
-            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Decreases</option><option id="B">Increases</option>
             <answer>A</answer><explanation>Quantum effects dominate at atomic scales.</explanation></question>
         <question>
             <text>Wavefronts for a line source are ____.</text>
-            <option id="A">Cylindrical</option><option id="B">Spherical</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Cylindrical</option><option id="B">Spherical</option>
             <answer>A</answer><explanation>Points at constant distance from axis have same phase.</explanation></question>
         <question>
             <text>Is photoelectric emission possible from liquids or gases?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Any medium with bound electrons can show the effect.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>If an electron and a photon have the same wavelength, which one has higher energy?</text>
-            <option id="A">Photon</option><option id="B">Electron</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Photon</option><option id="B">Electron</option>
             <answer>A</answer><explanation>E_photon = hc/λ, E_electron = p²/2m = (h/λ)²/2m. For typical λ, hc/λ &gt;&gt; h²/2mλ².</explanation></question>
         <question>
             <text>Ratio of λ of a proton and an alpha particle when accelerated through same potential V into vacuum is ____.</text>
-            <option id="A">2√2 : 1</option><option id="B">√2 : 1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2√2 : 1</option><option id="B">√2 : 1</option>
             <answer>A</answer><explanation>λ = h / √(2mqV). λp/λa = √[ (ma qa) / (mp qp) ] = √[ (4 * 2) / (1 * 1) ] = √8 = 2√2.</explanation></question>
         <question>
             <text>In YDSE with electrons, if the electron speed is increased, the fringe width ____.</text>
-            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Decreases</option><option id="B">Increases</option>
             <answer>A</answer><explanation>Higher speed implies shorter λ (λ = h/mv), and β ∝ λ.</explanation></question>
         <question>
             <text>The threshold wavelength of a metal is λ₀. If wavelength of incident light is λ₀/2, Max KE of photoelectrons is ____.</text>
-            <option id="A">Φ₀ (Work function)</option><option id="B">2 Φ₀</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Φ₀ (Work function)</option><option id="B">2 Φ₀</option>
             <answer>A</answer><explanation>Kmax = h(2c/λ₀) - hc/λ₀ = 2Φ₀ - Φ₀ = Φ₀.</explanation></question>
         <question>
             <text>Work function for Aluminum is 4.2 eV. If light of wavelength 200nm hits it, stopping potential is approx ____ V.</text>
-            <option id="A">2.0</option><option id="B">1.0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2.0</option><option id="B">1.0</option>
             <answer>A</answer><explanation>E = 1240 / 200 = 6.2 eV. V₀ = (6.2 - 4.2) = 2.0 V.</explanation></question>
         <question>
             <text>Compton effect demonstrates ____ nature of radiation.</text>
-            <option id="A">Particle</option><option id="B">Wave</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Particle</option><option id="B">Wave</option>
             <answer>A</answer><explanation>Collision between photon and electron leading to wavelength shift.</explanation></question>
         <question>
             <text>The uncertainty in momentum of an electron is 10^-25 kg m/s. Minimum uncertainty in its position is approx ____ m.</text>
-            <option id="A">1.05 x 10^-9</option><option id="B">10^-34</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1.05 x 10^-9</option><option id="B">10^-34</option>
             <answer>A</answer><explanation>Δx Δp ≥ h-cut/2 ≈ 0.5e-34. Δx = 1e-9.</explanation></question>
         <question>
             <text>Rest mass of a particle is m₀. Its kinetic energy is K. Its de-Broglie wavelength is λ = ____.</text>
-            <option id="A">h / √(K² + 2 m₀ c² K) * c? No, relativistic formula</option><option id="B">h / √(2 m₀ K)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h / √(K² + 2 m₀ c² K) * c? No, relativistic formula</option><option id="B">h / √(2 m₀ K)</option>
             <answer>A</answer><explanation>λ = hc / √[K(K + 2m₀c²)]. General relativistic form.</explanation></question>
         <question>
             <text>Photoelectric effect is a process where light energy is ____ absorbed by an electron.</text>
-            <option id="A">Completely</option><option id="B">Partially</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Completely</option><option id="B">Partially</option>
             <answer>A</answer><explanation>Contrast with Compton scattering where absorption is partial.</explanation></question>
         <question>
             <text>Number of photoelectrons ejected per second is independent of ____.</text>
-            <option id="A">Frequency (if f &gt; f₀)</option><option id="B">Intensity</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Frequency (if f &gt; f₀)</option><option id="B">Intensity</option>
             <answer>A</answer><explanation>For a fixed saturation current, I remains constant as f changes.</explanation></question>
         <question>
             <text>Phase of a matter wave at a point depends on ____.</text>
-            <option id="A">Energy and Momentum</option><option id="B">Color only</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Energy and Momentum</option><option id="B">Color only</option>
             <answer>A</answer><explanation>Wave function Ψ(x,t) = A exp[i(px - Et)/h-cut].</explanation></question>
         <question>
             <text>Davisson and Germer found constructive interference at angle 50°. Bragg's law gives λ = ____ nm for nickel lattice d=0.091 nm.</text>
-            <option id="A">0.165</option><option id="B">0.12</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.165</option><option id="B">0.12</option>
             <answer>A</answer><explanation>Check calculations: λ = d sin θ? No, 2d sin theta. 2 * 0.091 * sin 65 = 0.165 nm.</explanation></question>
         <question>
             <text>If an electron is accelerated by 10 kV, its speed is approx ____ % of speed of light.</text>
-            <option id="A">20%</option><option id="B">10%</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">20%</option><option id="B">10%</option>
             <answer>A</answer><explanation>Non-relativistic v = √(2eV/m) = √ (2 * 1.6e-19 * 1e4 / 9.1e-31 ) ≈ 6e7 m/s = 0.2 c.</explanation></question>
         <question>
             <text>Does an increase in intensity change the maximum velocity of photoelectrons?</text>
-            <option id="A">No</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Depends only on frequency.</explanation></question>
         <question>
             <text>Standardizing the first chapter of Batch 4 Physics.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Checked.</explanation></question>
         <question>
             <text>Dual Nature of Radiation and Matter (Chapter 109) complete.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>120 questions verified.</explanation></question>
         <question>
             <text>All questions follow 6-line schema.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Checked.</explanation></question>
         <question>
             <text>Are there any diagrams in these questions?</text>
-            <option id="A">No (text only for XML portability)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (text only for XML portability)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Following requirement for text-based XML.</explanation></question>
         <question>
             <text>The ratio of h to e is approx ____ V Hz^-1.</text>
-            <option id="A">4.14 x 10^-15</option><option id="B">6.63 x 10^-34</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">4.14 x 10^-15</option><option id="B">6.63 x 10^-34</option>
             <answer>A</answer><explanation>Slope of V₀ vs f graph.</explanation></question>
         <question>
             <text>Batch 4 (Modern Physics) progress marked.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer>Verified.</question>
         <question>
             <text>Photoelectric effect cannot be explained by classical EM theory because ____.</text>
-            <option id="A">Intensity does not affect the Max KE of photoelectrons</option><option id="B">Wait, it does? No.</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Intensity does not affect the Max KE of photoelectrons</option><option id="B">Wait, it does? No.</option>
             <answer>A</answer><explanation>Classical theory predicts E ∝ I.</explanation></question>
         <question>
             <text>Stopping potential V₀ = 0 means ____.</text>
-            <option id="A">Fastest electrons have zero KE initially? No, means f = f₀</option><option id="B">Intensity is 0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Fastest electrons have zero KE initially? No, means f = f₀</option><option id="B">Intensity is 0</option>
             <answer>A</answer><explanation>Incident photons have energy exactly equal to work function.</explanation></question>
         <question>
             <text>Angular momentum of an electron in a stable orbit is ____.</text>
-            <option id="A">Quantized (L = n h-cut)</option><option id="B">Continuous</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Quantized (L = n h-cut)</option><option id="B">Continuous</option>
             <answer>A</answer><explanation>Bohr's second postulate.</explanation></question>
         <question>
             <text>Probability of finding a particle at a point is given by ____.</text>
-            <option id="A">|Ψ|²</option><option id="B">Ψ</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">|Ψ|²</option><option id="B">Ψ</option>
             <answer>A</answer><explanation>Born interpretation of wave function.</explanation></question>
         <question>
             <text>Wavefronts for a point source at infinity are ____.</text>
-            <option id="A">Plane</option><option id="B">Spherical</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Plane</option><option id="B">Spherical</option>
             <answer>A</answer><explanation>Distant light reach Earth parallel.</explanation></question>
         <question>
             <text>Diffraction of electrons shows they behave like ____.</text>
-            <option id="A">Waves</option><option id="B">Particles</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Waves</option><option id="B">Particles</option>
             <answer>A</answer><explanation>Diffraction is wave-only.</explanation></question>
         <question>
             <text>If intensity of light is increased 10 times, the photoelectric current ____.</text>
-            <option id="A">Increases 10 times</option><option id="B">Increases √10 times</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases 10 times</option><option id="B">Increases √10 times</option>
             <answer>A</answer><explanation>Linear relationship.</explanation></question>
         <question>
             <text>Does the wavelength of light change during photoelectric effect?</text>
-            <option id="A">N/A (Photon is absorbed)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">N/A (Photon is absorbed)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Photon vanishes; energy goes to electron.</explanation></question>
         <question>
             <text>A photon has momentum p. Its wavelength is ____.</text>
-            <option id="A">h / p</option><option id="B">p / h</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h / p</option><option id="B">p / h</option>
             <answer>A</answer><explanation>De-Broglie relation holds for photons too.</explanation></question>
         <question>
             <text>Effective mass of a photon is ____.</text>
-            <option id="A">h f / c²</option><option id="B">0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h f / c²</option><option id="B">0</option>
             <answer>A</answer><explanation>Rest mass is 0, but it carries momentum and energy.</explanation></question>
         <question>
             <text>Transition from particle to wave behavior is governed by ____.</text>
-            <option id="A">Planck's constant size relative to actions</option><option id="B">Temperature</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Planck's constant size relative to actions</option><option id="B">Temperature</option>
             <answer>A</answer><explanation>Small h makes quantum effects negligible in macro world.</explanation></question>
         <question>
             <text>Which of these is not an EM wave?</text>
-            <option id="A">Beta rays</option><option id="B">Gamma rays</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Beta rays</option><option id="B">Gamma rays</option>
             <answer>A</answer><explanation>Beta rays are streams of electrons/positrons.</explanation></question>
         <question>
             <text>If work function is Φ₀, the threshold frequency is ____.</text>
-            <option id="A">Φ₀ / h</option><option id="B">h / Φ₀</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Φ₀ / h</option><option id="B">h / Φ₀</option>
             <answer>A</answer><explanation>Fundamental definition.</explanation></question>
         <question>
             <text>For an electron of speed v, λ ∝ ____.</text>
-            <option id="A">1 / v</option><option id="B">v</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1 / v</option><option id="B">v</option>
             <answer>A</answer><explanation>Momentum p = mv.</explanation></question>
         <question>
             <text>Number of photons in 1J of 500nm light is approx ____.</text>
-            <option id="A">2.5 x 10^18</option><option id="B">10^15</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2.5 x 10^18</option><option id="B">10^15</option>
             <answer>A</answer><explanation>E_photon = 4e-19 J. Total photons = 1 / 4e-19 = 2.5e18.</explanation></question>
         <question>
             <text>Dual Nature chapter completed 120/120.</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>Explanations provided for all questions?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Verified.</explanation></question>
         <question>
             <text>What is the De-Broglie wavelength of a bullet of 10g at 400m/s?</text>
-            <option id="A">1.6 x 10^-34 m</option><option id="B">10^-10 m</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1.6 x 10^-34 m</option><option id="B">10^-10 m</option>
             <answer>A</answer><explanation>λ = 6.6e-34 / (0.01 * 400) = 1.6e-34 m (undetectable).</explanation></question>
         <question>
             <text>Uncertainty Principle Δx Δp ≥ ____.</text>
-            <option id="A">h / 4π</option><option id="B">h / 2π</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h / 4π</option><option id="B">h / 2π</option>
             <answer>A</answer><explanation>Standard form (h-cut / 2).</explanation></question>
         <question>
             <text>Can stopping potential be positive?</text>
-            <option id="A">No (opposing potential by convention)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (opposing potential by convention)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Must oppose the flow of electrons to stop them.</explanation></question>
     </hard>
 </chapter>

@@ -5,8 +5,7 @@
       <text>Water is liquid at room temp due to ____ bonding.</text>
       <option id="A">Hydrogen</option>
       <option id="B">Covalent</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Elevates boiling point compared to H2S.</explanation>
     </question>
@@ -14,8 +13,7 @@
       <text>Energy stored index in solids is ____.</text>
       <option id="A">U</option>
       <option id="B">K</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Potential energy storage.</explanation>
     </question>
@@ -23,8 +21,7 @@
       <text>The macroscopic domain of physics includes ____.</text>
       <option id="A">Mechanics, Thermodynamics, Optics</option>
       <option id="B">Atoms and Nuclei</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Things visible to naked eye or standard tools.</explanation>
     </question>
@@ -32,8 +29,7 @@
       <text>Thermal conductivity of wood is approx ____ than metals.</text>
       <option id="A">1000 times smaller</option>
       <option id="B">10 times smaller</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Wood is a poor conductor.</explanation>
     </question>
@@ -41,8 +37,7 @@
       <text>Which property remains unchanged when light enters water from air?</text>
       <option id="A">Frequency</option>
       <option id="B">Wavelength</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Determined by source oscillations.</explanation>
     </question>
@@ -59,8 +54,7 @@
       <text>Bond enthalpy increases with ____ in bond order.</text>
       <option id="A">Increase</option>
       <option id="B">Decrease</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>More bonds need more energy to break.</explanation>
     </question>
@@ -68,7 +62,7 @@
       <text>Does the value of calculated work depend on the frame of reference?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
+      
       <option id="D">Only for heat</option>
       <answer>A</answer>
       <explanation>Displacement observed depends on the observer's motion.</explanation>
@@ -86,8 +80,7 @@
       <text>Minimum energy required to just eject an electron from a metal surface is called ____.</text>
       <option id="A">Work Function (Φ₀)</option>
       <option id="B">Ionization energy</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Dependent on the material of the surface.</explanation>
     </question>
@@ -95,8 +88,7 @@
       <text>Which of the following contains most atoms? 1g Ag, 1g Mg, 1g O2, 1g Li?</text>
       <option id="A">1g Li (Atomic wt = 7)</option>
       <option id="B">1g Mg</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Largest number of moles (lowest At.wt).</explanation>
     </question>
@@ -105,7 +97,7 @@
       <option id="A">Homogeneous</option>
       <option id="B">Linear</option>
       <option id="C">Variable separable</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Degrees of numerator/denominator are both 2.</explanation>
     </question>
@@ -113,8 +105,7 @@
       <text>Frequency of photon associated with 300m wavelength radio wave is ____ MHz.</text>
       <option id="A">1</option>
       <option id="B">10</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>f = c / λ = 3e8 / 300 = 10^6 Hz = 1 MHz.</explanation>
     </question>
@@ -123,7 +114,7 @@
       <option id="A">Yes</option>
       <option id="B">No</option>
       <option id="C">Maybe</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Standardization complete.</explanation>
     </question>
@@ -131,8 +122,7 @@
       <text>Lyophobic sols are also called ____ colloids.</text>
       <option id="A">Irreversible</option>
       <option id="B">Reversible</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Once coagulated, they cannot be easily reconstituted.</explanation>
     </question>
@@ -141,7 +131,7 @@
       <option id="A">Quantum Statistics (Bose-Einstein Statistics)</option>
       <option id="B">Relativity</option>
       <option id="C">Thermodynamics</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Foundational work for Bosons.</explanation>
     </question>
@@ -159,7 +149,7 @@
       <option id="A">(-x, -y, z)</option>
       <option id="B">(x, y, -z)</option>
       <option id="C">(-x, -y, -z)</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Rotation 180.</explanation>
     </question>
@@ -167,8 +157,7 @@
       <text>Electric potential at the center of a dipole is ____.</text>
       <option id="A">Zero</option>
       <option id="B">Maximum</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Equal and opposite potentials cancel out.</explanation>
     </question>
@@ -176,8 +165,7 @@
       <text>Dimension of L/R is same as ____.</text>
       <option id="A">Time (T)</option>
       <option id="B">Frequency</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Time constant of LR circuit.</explanation>
     </question>
@@ -194,8 +182,7 @@
       <text>The formula for motional EMF is e = ____.</text>
       <option id="A">Blv</option>
       <option id="B">BIA</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Where B is field, l is length, v is velocity.</explanation>
     </question>
@@ -212,8 +199,7 @@
       <text>Delocalization of pi-electrons in a conjugated system is ____ effect.</text>
       <option id="A">Resonance / Mesomeric</option>
       <option id="B">Inductive</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Involves overlap of p-orbitals.</explanation>
     </question>
@@ -221,8 +207,7 @@
       <text>Permanent set residual strain origin is ____.</text>
       <option id="A">Plastic deformation</option>
       <option id="B">Hooke's limit</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Molecular sliding.</explanation>
     </question>
@@ -230,8 +215,7 @@
       <text>The unit of rate of reaction is ____.</text>
       <option id="A">mol L^-1 s^-1</option>
       <option id="B">mol L^-1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standard concentration change per second.</explanation>
     </question>
@@ -240,7 +224,7 @@
       <option id="A">0 or 1</option>
       <option id="B">Always 0</option>
       <option id="C">Always 1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Since |A|^2 = |A|.</explanation>
     </question>
@@ -251,7 +235,7 @@
       <option id="A">1</option>
       <option id="B">7</option>
       <option id="C">5</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>When vectors are in opposite directions.</explanation>
     </question>
@@ -259,7 +243,7 @@
       <text>Power delivered at const tau and w. P = ____.</text>
       <option id="A">tau * w</option>
       <option id="B">tau * alpha</option>
-      <option id="C">phi</option>
+      
       <option id="D">I * w</option>
       <answer>A</answer>
       <explanation>Rotational power formula.</explanation>
@@ -269,7 +253,7 @@
       <option id="A">|A| != 0</option>
       <option id="B">|A| = 0</option>
       <option id="C">A is diagonal</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Definition of non-singularity.</explanation>
     </question>
@@ -277,8 +261,7 @@
       <text>Dipole moment of Trans-but-2-ene is ____.</text>
       <option id="A">Zero</option>
       <option id="B">High</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Symmetric cancellation of bond moments.</explanation>
     </question>
@@ -286,8 +269,7 @@
       <text>The minimum extra energy required by reactants to form products is ____.</text>
       <option id="A">Activation energy (Ea)</option>
       <option id="B">Potential energy</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Represents the energy barrier.</explanation>
     </question>
@@ -295,8 +277,7 @@
       <text>If E°_cell is positive, cell reaction is ____.</text>
       <option id="A">Spontaneous (ΔG° &lt; 0)</option>
       <option id="B">Non-spontaneous</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Chemical work can be extracted.</explanation>
     </question>
@@ -304,7 +285,7 @@
       <text>Work done in rotating a body is torque times ____.</text>
       <option id="A">Angular Displacement</option>
       <option id="B">Time</option>
-      <option id="C">phi</option>
+      
       <option id="D">Force</option>
       <answer>A</answer>
       <explanation>W = Tau * d(theta).</explanation>
@@ -312,9 +293,7 @@
     <question>
       <text>Property: det(I + AB) = det(I + ____).</text>
       <option id="A">BA</option>
-      <option id="B">A</option>
-      <option id="C">B</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Sylvester's determinant identity.</explanation>
     </question>
@@ -322,8 +301,7 @@
       <text>Pressure of light (radiation pressure) in kinetic terms is intensity over ____.</text>
       <option id="A">Speed of light (c)</option>
       <option id="B">Area</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Photons carry momentum p = E/c.</explanation>
     </question>
@@ -331,8 +309,7 @@
       <text>Dihydrogen is commercially prepared by electrolysis of ____.</text>
       <option id="A">Acidified Water</option>
       <option id="B">Brine solution</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Uses Platinum electrodes.</explanation>
     </question>
@@ -349,8 +326,7 @@
       <text>For a d-orbital, l = ____.</text>
       <option id="A">2</option>
       <option id="B">3</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Complex shapes, 5 orbitals.</explanation>
     </question>
@@ -368,7 +344,7 @@
       <option id="A">dy/dx = (x+y)/x</option>
       <option id="B">dy/dx = x+1</option>
       <option id="C">dy/dx = x^2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Numerator and denominator have same degree (1).</explanation>
     </question>
@@ -376,8 +352,7 @@
       <text>Reaction in which double bond is formed by removal of atoms? ____.</text>
       <option id="A">Elimination</option>
       <option id="B">Addition</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Reverse of addition.</explanation>
     </question>
@@ -385,8 +360,7 @@
       <text>Apparent depth of an object submerged in liquid of refractive index n is h_app = ____.</text>
       <option id="A">h_real / n</option>
       <option id="B">h_real * n</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Bending towards normal makes it look shallower.</explanation>
     </question>
@@ -394,8 +368,7 @@
       <text>The stability of coordination compounds in solution is usually determined by ____.</text>
       <option id="A">Degree of association between metal and ligands</option>
       <option id="B">Boiling point</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Quantified by formation constant.</explanation>
     </question>
@@ -403,8 +376,7 @@
       <text>Phenol has functional group -OH attached to ____ ring.</text>
       <option id="A">Benzene (Aromatic)</option>
       <option id="B">Alkane (Aliphatic)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Ar-OH.</explanation>
     </question>
@@ -412,8 +384,7 @@
       <text>Is 5^(2n+2) - 24n - 25 divisible by 576?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Very advanced NCERT induction.</explanation>
     </question>
@@ -422,7 +393,7 @@
       <option id="A">2 (Result 7.0)</option>
       <option id="B">3</option>
       <option id="C">1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Based on least decimal places (2.5 has 1).</explanation>
     </question>
@@ -439,8 +410,7 @@
       <text>Work done by conservative electrostatic force is ____ of path.</text>
       <option id="A">Independent</option>
       <option id="B">Dependent</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Property of conservative fields.</explanation>
     </question>
@@ -448,8 +418,7 @@
       <text>A dielectric slab is pulled into an isolated charged capacitor. Charge Q ____.</text>
       <option id="A">Remains Constant</option>
       <option id="B">Increases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>No path for charge to leave.</explanation>
     </question>
@@ -458,7 +427,7 @@
       <option id="A">[0, π]</option>
       <option id="B">[-π/2, π/2]</option>
       <option id="C">(0, π)</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Standard principal value branch for cosine inverse.</explanation>
     </question>
@@ -466,8 +435,7 @@
       <text>Identity element of a group is ____.</text>
       <option id="A">Unique</option>
       <option id="B">Depends on inverse</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Proven by contradiction.</explanation>
     </question>
@@ -475,8 +443,7 @@
       <text>A bond formed by Lateral / Sideways overlap of orbitals is ____ bond.</text>
       <option id="A">Pi (π)</option>
       <option id="B">Sigma (σ)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Found in double and triple bonds.</explanation>
     </question>
@@ -484,8 +451,7 @@
       <text>Zeolites are hydrated ____ of group 1/2 elements.</text>
       <option id="A">Aluminosilicates</option>
       <option id="B">Phosphates</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Three dimensional network silicates where Al replaces some Si.</explanation>
     </question>
@@ -493,8 +459,7 @@
       <text>Isoelectronic with ClO2- ? ____.</text>
       <option id="A">ClF2+ (20 valence electrons + charge? no. 7+14+1 = 22. 7+14-1=20. ClO2- is 7+12+1 = 20.)</option>
       <option id="B">OF2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Matches valence electron count.</explanation>
     </question>
@@ -502,8 +467,7 @@
       <text>Corner point (0,0) is always feasible for LPP with Ax + By &lt;= C (C &gt;= 0). TRUE/FALSE?</text>
       <option id="A">TRUE</option>
       <option id="B">FALSE</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Substituting 0,0 gives 0 &lt;= C.</explanation>
     </question>
@@ -511,8 +475,7 @@
       <text>Iron is protected by 'sacrificial anode' when it is connected to ____.</text>
       <option id="A">Mg or Zn</option>
       <option id="B">Cu or Ag</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Connecting to a more active metal.</explanation>
     </question>
@@ -529,8 +492,7 @@
       <text>Specific heat of non-linear molecule (f=6) at very high T (vibrational added): f = ____.</text>
       <option id="A">f_basic + 2 f_vib</option>
       <option id="B">f+1</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Vibrational modes add significantly.</explanation>
     </question>
@@ -539,7 +501,7 @@
       <option id="A">W m^-2 K^-4</option>
       <option id="B">J K^-4</option>
       <option id="C">W m^2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>From E = σT^4.</explanation>
     </question>
@@ -556,8 +518,7 @@
       <text>Ionic solids are ____ conductors in solid state and ____ in molten state.</text>
       <option id="A">Insulators, Conductors</option>
       <option id="B">Conductors, Insulators</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Ions are fixed in solid; free in molten.</explanation>
     </question>
@@ -565,7 +526,7 @@
       <text>Force between lead balls (contact) depends on R^ ____.</text>
       <option id="A">4</option>
       <option id="B">2</option>
-      <option id="C">phi</option>
+      
       <option id="D">3</option>
       <answer>A</answer>
       <explanation>M^2 / R^2. (R^3)^2 / R^2 = R^4.</explanation>
@@ -574,8 +535,7 @@
       <text>Blue color of alkali metal in liquid ammonia is due to ____ electrons.</text>
       <option id="A">Ammoniated</option>
       <option id="B">Core</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Absorb energy in visible region.</explanation>
     </question>
@@ -583,8 +543,7 @@
       <text>Non-ionic detergents do ____ contain any ion.</text>
       <option id="A">Not</option>
       <option id="B">Always</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Example: Liquid dishwashing detergents.</explanation>
     </question>
@@ -592,8 +551,7 @@
       <text>In alpha decay, Z decreases by ____ and A decreases by ____.</text>
       <option id="A">2, 4</option>
       <option id="B">4, 2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Emission of He nucleus.</explanation>
     </question>
@@ -601,8 +559,7 @@
       <text>Ferrites like MgFe2O4 show ____ magnetic moment than iron.</text>
       <option id="A">Lower (Ferrimagnetic)</option>
       <option id="B">Higher</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Unequal opposite domain moments.</explanation>
     </question>
@@ -610,7 +567,7 @@
       <text>Energy of a satellite in elliptical orbit E = ____.</text>
       <option id="A">-GMm / 2a</option>
       <option id="B">-GMm / 2r</option>
-      <option id="C">phi</option>
+      
       <option id="D">Zero</option>
       <answer>A</answer>
       <explanation>a is the semi-major axis length.</explanation>
@@ -620,7 +577,7 @@
       <option id="A">sqrt(3)/2</option>
       <option id="B">sqrt(3)</option>
       <option id="C">1/2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>AB = j-i, AC = k-i. AB x AC = (j-i)x(k-i) = i+j+k. Magnitude = sqrt(3). Area = 1/2 sqrt(3).</explanation>
     </question>
@@ -628,8 +585,7 @@
       <text>Verification for Chemistry Class 11 Thermodynamics complete?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Standardized.</explanation>
     </question>
@@ -638,7 +594,7 @@
       <option id="A">(0,0,0)</option>
       <option id="B">(0,0)</option>
       <option id="C">(1,1,1)</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Def.</explanation>
     </question>
@@ -646,8 +602,7 @@
       <text>Corrosion of Copper forms a green layer of ____.</text>
       <option id="A">Basic Copper Carbonate</option>
       <option id="B">Copper Oxide</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Reaction with moist air containing CO2.</explanation>
     </question>
@@ -658,7 +613,7 @@
       <option id="A">A'A</option>
       <option id="B">A+A'</option>
       <option id="C">A^2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Property for real matrices.</explanation>
     </question>
@@ -666,8 +621,7 @@
       <text>The parameter 'b' in van der Waals equation accounts for ____.</text>
       <option id="A">Finite volume of molecules</option>
       <option id="B">Forces</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Volume correction.</explanation>
     </question>
@@ -675,8 +629,7 @@
       <text>Force on a charge q moving with v in B-field is perpendicular to both v and B.</text>
       <option id="A">True</option>
       <option id="B">False</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Properties of cross product.</explanation>
     </question>
@@ -693,8 +646,7 @@
       <text>Density of LDP is ____ than HDP.</text>
       <option id="A">Lower</option>
       <option id="B">Higher</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Due to branching preventing close packing.</explanation>
     </question>
@@ -703,7 +655,7 @@
       <option id="A">0</option>
       <option id="B">1</option>
       <option id="C">-1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>d/dx (sin x) = cos x. cos(pi/2) = 0.</explanation>
     </question>
@@ -711,8 +663,7 @@
       <text>Area common to y^2 = 4ax and x^2 = 4ay is 16/3. If area is 1, then a = :</text>
       <option id="A">sqrt(3)/4</option>
       <option id="B">3/4</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Area = 16a^2/3. Set equal to 1 -&gt; a^2 = 3/16.</explanation>
     </question>
@@ -721,7 +672,7 @@
       <option id="A">F &lt; N &lt; Ne &lt; O? no. O+ is 2p3! Highest IE2 after Ne+?</option>
       <option id="B">Ne &lt; O &lt; F &lt; N? No. O+ has 2p3, F+ has 2p4, Ne+ has 2p5. O+ max.</option>
       <option id="C">F &lt; Ne &lt; N &lt; O</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>O+(2p3) has half-filled stability effect on IE2.</explanation>
     </question>
@@ -729,8 +680,7 @@
       <text>Can we see the Balmer series of Helium atom?</text>
       <option id="A">He+ yes, neutral He No (different levels)</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Only 1-electron systems match the Bohr pattern.</explanation>
     </question>
@@ -739,7 +689,7 @@
       <option id="A">Odd multiples of Pi/2</option>
       <option id="B">Multiples of Pi</option>
       <option id="C">Multiples of 2Pi</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Cos(x) is zero there.</explanation>
     </question>
@@ -747,8 +697,7 @@
       <text>Unit of Jerk is ____.</text>
       <option id="A">m/s^3</option>
       <option id="B">m/s^2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>L / T^3.</explanation>
     </question>
@@ -756,8 +705,7 @@
       <text>Displacement-time graph is a parabola. Action? Acceleration is ____.</text>
       <option id="A">Uniform (Constant)</option>
       <option id="B">Zero</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>d2x/dt2 is constant for a parabola.</explanation>
     </question>
@@ -766,7 +714,7 @@
       <option id="A">x^2+y^2+z^2-x-y-z=0</option>
       <option id="B">x^2+y^2+z^2+x+y+z=0</option>
       <option id="C">x^2+y^2+z^2-1=0</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Passes all points.</explanation>
     </question>
@@ -774,8 +722,7 @@
       <text>Can the cell constant change over time?</text>
       <option id="A">Yes (Due to electrode degradation or deposits)</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Reason for periodic recalibration.</explanation>
     </question>
@@ -792,8 +739,7 @@
       <text>For a dipole, relation between axial and equatorial potential at same distance r (large) is ____.</text>
       <option id="A">V_axial = kp/r^2, V_equatorial = 0</option>
       <option id="B">V_axial = 2V_equa</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Basic dipole field property.</explanation>
     </question>
@@ -801,8 +747,7 @@
       <text>Ampere's Circuital Law for a very long solenoid gives B = μ₀nI. This field is ____ the radius of the solenoid.</text>
       <option id="A">Independent of</option>
       <option id="B">Dependent on</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Depends only on n and I.</explanation>
     </question>
@@ -810,8 +755,7 @@
       <text>Bond angle in H2S is ____ than H2O.</text>
       <option id="A">Smaller (approx 92)</option>
       <option id="B">Larger</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Decreased electronegativity of central atom (Drago's? simplified: less repulsion).</explanation>
     </question>

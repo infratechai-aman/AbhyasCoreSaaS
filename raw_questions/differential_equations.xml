@@ -15,15 +15,15 @@
             <answer>A</answer><explanation>General solution has as many arbitrary constants as the order.</explanation></question>
         <question>
             <text>The number of arbitrary constants in a particular solution of a DE of order 3 is:</text>
-            <option id="A">0</option><option id="B">3</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">3</option><option id="C">1</option>
             <answer>A</answer><explanation>Particular solutions have no arbitrary constants.</explanation></question>
         <question>
             <text>A differential equation is said to be of first order and first degree if it's in the form:</text>
-            <option id="A">dy/dx = f(x,y)</option><option id="B">d^2y/dx^2 = f(x)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">dy/dx = f(x,y)</option><option id="B">d^2y/dx^2 = f(x)</option>
             <answer>A</answer><explanation>Standard first order DE form.</explanation></question>
         <question>
             <text>Differential equation for family of lines y = mx is:</text>
-            <option id="A">y = x(dy/dx)</option><option id="B">dy/dx = y</option><option id="C">dy/dx = x</option><option id="D">None</option>
+            <option id="A">y = x(dy/dx)</option><option id="B">dy/dx = y</option><option id="C">dy/dx = x</option>
             <answer>A</answer><explanation>m = y/x. dy/dx = m = y/x -&gt; y = x(dy/dx).</explanation></question>
         <question>
             <text>Degree of (d^2y/dx^2)^2 + (dy/dx)^3 = 0 is:</text>
@@ -31,459 +31,459 @@
             <answer>A</answer><explanation>Power of highest order derivative.</explanation></question>
         <question>
             <text>The order of DE representing family of circles x^2 + (y-b)^2 = r^2 (b is arbitrary) is:</text>
-            <option id="A">1</option><option id="B">2</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">2</option><option id="C">0</option>
             <answer>A</answer><explanation>One arbitrary constant 'b' leads to 1st order DE.</explanation></question>
         <question>
             <text>General solution of dy/dx = e^x is:</text>
-            <option id="A">y = e^x + C</option><option id="B">y = e^x</option><option id="C">y = xe^x + C</option><option id="D">None</option>
+            <option id="A">y = e^x + C</option><option id="B">y = e^x</option><option id="C">y = xe^x + C</option>
             <answer>A</answer><explanation>Integrate both sides.</explanation></question>
         <question>
             <text>General solution of dy/dx = 1/x is:</text>
-            <option id="A">y = log |x| + C</option><option id="B">y = 1/x^2 + C</option><option id="C">y = x + C</option><option id="D">None</option>
+            <option id="A">y = log |x| + C</option><option id="B">y = 1/x^2 + C</option><option id="C">y = x + C</option>
             <answer>A</answer><explanation>Integrate both sides.</explanation></question>
         <question>
             <text>Integrating factor (IF) for dy/dx + Py = Q is:</text>
-            <option id="A">e^{Integral P dx}</option><option id="B">Integral P dx</option><option id="C">e^{Integral Q dx}</option><option id="D">None</option>
+            <option id="A">e^{Integral P dx}</option><option id="B">Integral P dx</option><option id="C">e^{Integral Q dx}</option>
             <answer>A</answer><explanation>Standard linear DE formula.</explanation></question>
         <question>
             <text>Which of these is a homogeneous differential equation?</text>
-            <option id="A">dy/dx = (x+y)/x</option><option id="B">dy/dx = x+1</option><option id="C">dy/dx = x^2</option><option id="D">None</option>
+            <option id="A">dy/dx = (x+y)/x</option><option id="B">dy/dx = x+1</option><option id="C">dy/dx = x^2</option>
             <answer>A</answer><explanation>Numerator and denominator have same degree (1).</explanation></question>
         <question>
             <text>In dy/dx = f(x,y), if f(tx, ty) = f(x,y), then equation is:</text>
-            <option id="A">Homogeneous</option><option id="B">Linear</option><option id="C">Separable</option><option id="D">None</option>
+            <option id="A">Homogeneous</option><option id="B">Linear</option><option id="C">Separable</option>
             <answer>A</answer><explanation>Definition of homogeneous function of degree 0.</explanation></question>
         <question>
             <text>Order of d^3y/dx^3 + x(dy/dx)^4 = 0 is:</text>
-            <option id="A">3</option><option id="B">4</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">3</option><option id="B">4</option><option id="C">1</option>
             <answer>A</answer><explanation>Highest derivative is 3rd order.</explanation></question>
         <question>
             <text>Solution of dy/dx = y/x is:</text>
-            <option id="A">y = Cx</option><option id="B">y = x + C</option><option id="C">y = C/x</option><option id="D">None</option>
+            <option id="A">y = Cx</option><option id="B">y = x + C</option><option id="C">y = C/x</option>
             <answer>A</answer><explanation>dy/y = dx/x -&gt; log y = log x + log C -&gt; y = Cx.</explanation></question>
         <question>
             <text>The general solution of de/dx = x/y is:</text>
-            <option id="A">y^2 - x^2 = C</option><option id="B">y = x + C</option><option id="C">y^2 + x^2 = C</option><option id="D">None</option>
+            <option id="A">y^2 - x^2 = C</option><option id="B">y = x + C</option><option id="C">y^2 + x^2 = C</option>
             <answer>A</answer><explanation>y dy = x dx -&gt; y^2/2 = x^2/2 + C'.</explanation></question>
         <question>
             <text>Degree of dy/dx + sin y = 0 is:</text>
-            <option id="A">1</option><option id="B">Not defined</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">Not defined</option><option id="C">0</option>
             <answer>A</answer><explanation>It's polynomial in derivative dy/dx. sin y doesn't affect degree.</explanation></question>
         <question>
             <text>The solution of dy/dx + y = 0 is:</text>
-            <option id="A">y = Ce^{-x}</option><option id="B">y = Ce^x</option><option id="C">y = x + C</option><option id="D">None</option>
+            <option id="A">y = Ce^{-x}</option><option id="B">y = Ce^x</option><option id="C">y = x + C</option>
             <answer>A</answer><explanation>dy/y = -dx -&gt; log y = -x + C.</explanation></question>
         <question>
             <text>An equation of the form dx/dy + P1 x = Q1 is linear in:</text>
-            <option id="A">x</option><option id="B">y</option><option id="C">Both</option><option id="D">None</option>
+            <option id="A">x</option><option id="B">y</option><option id="C">Both</option>
             <answer>A</answer><explanation>Dependent variable is x.</explanation></question>
         <question>
             <text>Formation of DE involves ____ arbitrary constants.</text>
-            <option id="A">Eliminating</option><option id="B">Adding</option><option id="C">Multiplying</option><option id="D">None</option>
+            <option id="A">Eliminating</option><option id="B">Adding</option><option id="C">Multiplying</option>
             <answer>A</answer><explanation>Core process of forming DE from primitive.</explanation></question>
         <question>
             <text>Order of differential equation representing family of parabolas y^2 = 4ax:</text>
-            <option id="A">1</option><option id="B">2</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">2</option><option id="C">0</option>
             <answer>A</answer><explanation>One parameter 'a'.</explanation></question>
         <question>
             <text>Solution of dy/dx = k (constant) is:</text>
-            <option id="A">y = kx + C</option><option id="B">y = k + C</option><option id="C">y = x + C</option><option id="D">None</option>
+            <option id="A">y = kx + C</option><option id="B">y = k + C</option><option id="C">y = x + C</option>
             <answer>A</answer><explanation>Integration constant.</explanation></question>
         <question>
             <text>Degree of (d^3y/dx^3)^2 + 5 dy/dx = 0 is:</text>
-            <option id="A">2</option><option id="B">3</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">3</option><option id="C">1</option>
             <answer>A</answer><explanation>Highest derivative power.</explanation></question>
         <question>
             <text>Linear DE dy/dx + Py = Q has P and Q as functions of:</text>
-            <option id="A">x only</option><option id="B">y only</option><option id="C">Both x and y</option><option id="D">None</option>
+            <option id="A">x only</option><option id="B">y only</option><option id="C">Both x and y</option>
             <answer>A</answer><explanation>Standard form requirement.</explanation></question>
         <question>
             <text>The order of DE (dy/dx)^2 + 3y = e^x:</text>
-            <option id="A">1</option><option id="B">2</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">2</option><option id="C">0</option>
             <answer>A</answer><explanation>First derivative only.</explanation></question>
         <question>
             <text>Substitution used for homogeneous DE dy/dx = F(x,y):</text>
-            <option id="A">y = vx</option><option id="B">x = vy</option><option id="C">y = v+x</option><option id="D">None</option>
+            <option id="A">y = vx</option><option id="B">x = vy</option><option id="C">y = v+x</option>
             <answer>A</answer><explanation>Standard reduction method.</explanation></question>
         <question>
             <text>Equation dy/dx = (y^2 + x^2) / xy is:</text>
-            <option id="A">Homogeneous</option><option id="B">Linear</option><option id="C">Variable separable</option><option id="D">None</option>
+            <option id="A">Homogeneous</option><option id="B">Linear</option><option id="C">Variable separable</option>
             <answer>A</answer><explanation>Degrees of numerator/denominator are both 2.</explanation></question>
         <question>
             <text>If IF = x, then DE dy/dx + y/x = x^2 has solution:</text>
-            <option id="A">yx = x^4/4 + C</option><option id="B">y = x^3/3 + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">yx = x^4/4 + C</option><option id="B">y = x^3/3 + C</option>
             <answer>A</answer><explanation>y * IF = Integral (Q * IF) dx.</explanation></question>
         <question>
             <text>Solution of dy/dx = sec^2 x is:</text>
-            <option id="A">y = tan x + C</option><option id="B">y = sec x + C</option><option id="C">y = cot x + C</option><option id="D">None</option>
+            <option id="A">y = tan x + C</option><option id="B">y = sec x + C</option><option id="C">y = cot x + C</option>
             <answer>A</answer><explanation>Direct integration.</explanation></question>
         <question>
             <text>Degree of DE d^2y/dx^2 + (dy/dx)^1/2 = 0 is:</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">Not defined</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option><option id="C">Not defined</option>
             <answer>A</answer><explanation>Square both sides to remove radical: (d^2y/dx^2)^2 = dy/dx. Degree = 2.</explanation></question>
         <question>
             <text>Which of the following describes the growth of bacteria (rate proportional to amount)?</text>
-            <option id="A">dy/dx = ky</option><option id="B">dy/dx = kx</option><option id="C">dy/dx = k</option><option id="D">None</option>
+            <option id="A">dy/dx = ky</option><option id="B">dy/dx = kx</option><option id="C">dy/dx = k</option>
             <answer>A</answer><explanation>Basic population model.</explanation></question>
         <question>
             <text>Order of DE representing family of lines passing through origin:</text>
-            <option id="A">1</option><option id="B">2</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">2</option><option id="C">0</option>
             <answer>A</answer><explanation>y = mx has one parameter m.</explanation></question>
         <question>
             <text>Degree of DE (dy/dx)^3 = x is:</text>
-            <option id="A">3</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">3</option><option id="B">1</option>
             <answer>A</answer><explanation>Power of highest derivative.</explanation></question>
         <question>
             <text>Particular solution of dy/dx = 1, y(0)=1 is:</text>
-            <option id="A">y = x + 1</option><option id="B">y = x</option><option id="C">y = 1</option><option id="D">None</option>
+            <option id="A">y = x + 1</option><option id="B">y = x</option><option id="C">y = 1</option>
             <answer>A</answer><explanation>y = x + C. 1 = 0 + C -&gt; C = 1.</explanation></question>
         <question>
             <text>Integrating factor for dy/dx + y tan x = sec x is:</text>
-            <option id="A">sec x</option><option id="B">cos x</option><option id="C">tan x</option><option id="D">None</option>
+            <option id="A">sec x</option><option id="B">cos x</option><option id="C">tan x</option>
             <answer>A</answer><explanation>e^{Integral tan x dx} = e^{log sec x} = sec x.</explanation></question>
         <question>
             <text>Form of solution for homogeneous DE dy/dx = g(y/x):</text>
-            <option id="A">Variable separable in v and x</option><option id="B">Linear DE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Variable separable in v and x</option><option id="B">Linear DE</option>
             <answer>A</answer><explanation>Reduces to x dv/dx = g(v) - v.</explanation></question>
         <question>
             <text>DE for family of curves y = a sin(x + b) has order:</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option>
             <answer>A</answer><explanation>Two arbitrary constants a and b.</explanation></question>
         <question>
             <text>Order of DE for y = e^{ax+b} (a, b parameters):</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option><option id="C">0</option>
             <answer>A</answer><explanation>Two parameters -&gt; 2nd order.</explanation></question>
         <question>
             <text>Degree is defined if DE can be written as polynomial in:</text>
-            <option id="A">Derivatives</option><option id="B">x and y</option><option id="C">Arbitrary constants</option><option id="D">None</option>
+            <option id="A">Derivatives</option><option id="B">x and y</option><option id="C">Arbitrary constants</option>
             <answer>A</answer><explanation>Requirement for degree definition.</explanation></question>
         <question>
             <text>Differential of area under y=f(x) is dA = :</text>
-            <option id="A">y dx</option><option id="B">x dy</option><option id="C">dx/dy</option><option id="D">None</option>
+            <option id="A">y dx</option><option id="B">x dy</option><option id="C">dx/dy</option>
             <answer>A</answer><explanation>Relates integration to DEs.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Find the general solution of dy/dx + sqrt((1 - y^2) / (1 - x^2)) = 0:</text>
-            <option id="A">sin^{-1} x + sin^{-1} y = C</option><option id="B">sin^{-1} y - sin^{-1} x = C</option><option id="C">x + y = C</option><option id="D">None</option>
+            <option id="A">sin^{-1} x + sin^{-1} y = C</option><option id="B">sin^{-1} y - sin^{-1} x = C</option><option id="C">x + y = C</option>
             <answer>A</answer><explanation>dy / sqrt(1-y^2) + dx / sqrt(1-x^2) = 0. Integrate both sides.</explanation></question>
         <question>
             <text>The solution of dy/dx = (1 + y^2) / (1 + x^2) is:</text>
-            <option id="A">tan^{-1} y = tan^{-1} x + C</option><option id="B">y = x + C</option><option id="C">log(1+y^2) = log(1+x^2) + C</option><option id="D">None</option>
+            <option id="A">tan^{-1} y = tan^{-1} x + C</option><option id="B">y = x + C</option><option id="C">log(1+y^2) = log(1+x^2) + C</option>
             <answer>A</answer><explanation>Separable form: dy/(1+y^2) = dx/(1+x^2).</explanation></question>
         <question>
             <text>Solution of x dy/dx + 2y = x^2 is:</text>
-            <option id="A">y = x^2/4 + C/x^2</option><option id="B">y = x^2/4 + C</option><option id="C">y = x + C/x</option><option id="D">None</option>
+            <option id="A">y = x^2/4 + C/x^2</option><option id="B">y = x^2/4 + C</option><option id="C">y = x + C/x</option>
             <answer>A</answer><explanation>Linear DE: P = 2/x, IF = e^{2 log x} = x^2. yx^2 = Integral x^4/x * x^2? No, yx^2 = Integral x^2 * x dx = x^4/4 + C.</explanation></question>
         <question>
             <text>Form the DE of the family of ellipses with foci on x-axis and center at origin:</text>
-            <option id="A">x y d^2y/dx^2 + x(dy/dx)^2 - y(dy/dx) = 0</option><option id="B">d^2y/dx^2 + y = 0</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x y d^2y/dx^2 + x(dy/dx)^2 - y(dy/dx) = 0</option><option id="B">d^2y/dx^2 + y = 0</option>
             <answer>A</answer><explanation>Differentiate x^2/a^2 + y^2/b^2 = 1 twice and eliminate a, b.</explanation></question>
         <question>
             <text>Solution of homogeneous DE (x^2 + xy) dy = (x^2 + y^2) dx is:</text>
-            <option id="A">log x - y/x = C</option><option id="B">log |x+y| = C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">log x - y/x = C</option><option id="B">log |x+y| = C</option>
             <answer>A</answer><explanation>Substitute y = vx. dy/dx = (1+v^2)/(1+v).</explanation></question>
         <question>
             <text>Find IF for (1 + x^2) dy/dx + 2xy = cos x:</text>
-            <option id="A">1 + x^2</option><option id="B">x^2</option><option id="C">log(1+x^2)</option><option id="D">None</option>
+            <option id="A">1 + x^2</option><option id="B">x^2</option><option id="C">log(1+x^2)</option>
             <answer>A</answer><explanation>Divide by (1+x^2). P = 2x/(1+x^2). IF = e^{log(1+x^2)} = 1+x^2.</explanation></question>
         <question>
             <text>The solution of dy/dx + y cot x = 2 cos x is:</text>
-            <option id="A">y sin x = sin^2 x + C</option><option id="B">y sin x = -cos 2x + C</option><option id="C">y = sin x + C</option><option id="D">None</option>
+            <option id="A">y sin x = sin^2 x + C</option><option id="B">y sin x = -cos 2x + C</option><option id="C">y = sin x + C</option>
             <answer>A</answer><explanation>IF = sin x. y sin x = Integral 2 sin x cos x dx = sin^2 x + C.</explanation></question>
         <question>
             <text>Formation of DE for y = Ae^{3x} + Be^{-2x}:</text>
-            <option id="A">y'' - y' - 6y = 0</option><option id="B">y'' + y' - 6y = 0</option><option id="C">y'' - 6y = 0</option><option id="D">None</option>
+            <option id="A">y'' - y' - 6y = 0</option><option id="B">y'' + y' - 6y = 0</option><option id="C">y'' - 6y = 0</option>
             <answer>A</answer><explanation>Roots are 3, -2. Characteristic equation (m-3)(m+2) = m^2 - m - 6 = 0.</explanation></question>
         <question>
             <text>Find particular solution of log(dy/dx) = 3x + 4y, y(0)=0:</text>
-            <option id="A">4e^{3x} + 3e^{-4y} = 7</option><option id="B">e^{3x} + e^{4y} = 2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">4e^{3x} + 3e^{-4y} = 7</option><option id="B">e^{3x} + e^{4y} = 2</option>
             <answer>A</answer><explanation>dy/dx = e^{3x} e^{4y} -&gt; e^{-4y} dy = e^{3x} dx.</explanation></question>
         <question>
             <text>General solution of dy/dx = y/x + sin(y/x):</text>
-            <option id="A">tan(y/2x) = Cx</option><option id="B">cos(y/x) = Cx</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">tan(y/2x) = Cx</option><option id="B">cos(y/x) = Cx</option>
             <answer>A</answer><explanation>Homogeneous. v + x dv/dx = v + sin v -&gt; dv/sin v = dx/x -&gt; log tan(v/2) = log x + C.</explanation></question>
         <question>
             <text>Integrating factor for x log x dy/dx + y = 2 log x is:</text>
-            <option id="A">log x</option><option id="B">x</option><option id="C">1 / log x</option><option id="D">None</option>
+            <option id="A">log x</option><option id="B">x</option><option id="C">1 / log x</option>
             <answer>A</answer><explanation>P = 1 / (x log x). IF = e^{Integral 1/(x log x) dx} = e^{log(log x)} = log x.</explanation></question>
         <question>
             <text>Newton's Law of Cooling is represented by DE:</text>
-            <option id="A">dT/dt = -k(T - T_s)</option><option id="B">dT/dt = kT</option><option id="C">dT/dt = -kT^2</option><option id="D">None</option>
+            <option id="A">dT/dt = -k(T - T_s)</option><option id="B">dT/dt = kT</option><option id="C">dT/dt = -kT^2</option>
             <answer>A</answer><explanation>Rate of cooling proportional to temp difference.</explanation></question>
         <question>
             <text>General solution of dy/dx = (x+y+1) / (x+y-1):</text>
-            <option id="A">log|x+y| = x-y + C</option><option id="B">Requires x+y = u substitution</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">log|x+y| = x-y + C</option><option id="B">Requires x+y = u substitution</option>
             <answer>B</answer><explanation>Sub x+y = u makes it separable.</explanation></question>
         <question>
             <text>Number of arbitrary constants in DE of family of circles passing through origin and center on y-axis:</text>
-            <option id="A">1</option><option id="B">2</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">2</option><option id="C">0</option>
             <answer>A</answer><explanation>Equation x^2 + (y-a)^2 = a^2 simplifies to x^2 + y^2 - 2ay = 0. One constant 'a'.</explanation></question>
         <question>
             <text>The degree of DE d^2y/dx^2 = sqrt(1 + (dy/dx)^2) is:</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">2</option><option id="B">1</option>
             <answer>A</answer><explanation>Square both sides: (d^2y/dx^2)^2 = 1 + (dy/dx)^2. Degree = 2.</explanation></question>
         <question>
             <text>Find general solution of dy/dx = 2^{y-x}:</text>
-            <option id="A">2^{-y} = 2^{-x} + C</option><option id="B">2^y = 2^x + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">2^{-y} = 2^{-x} + C</option><option id="B">2^y = 2^x + C</option>
             <answer>A</answer><explanation>2^{-y} dy = 2^{-x} dx -&gt; Integrate.</explanation></question>
         <question>
             <text>Integrating factor for dy/dx + (2x / (1+x^2)) y = 1 / (1+x^2)^2:</text>
-            <option id="A">1 + x^2</option><option id="B">1 / (1+x^2)</option><option id="C">x^2</option><option id="D">None</option>
+            <option id="A">1 + x^2</option><option id="B">1 / (1+x^2)</option><option id="C">x^2</option>
             <answer>A</answer><explanation>Same IF as earlier problem.</explanation></question>
         <question>
             <text>Find particular solution of dy/dx = -4xy^2, y(0)=1:</text>
-            <option id="A">y = 1 / (2x^2 + 1)</option><option id="B">y = e^{-2x^2}</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y = 1 / (2x^2 + 1)</option><option id="B">y = e^{-2x^2}</option>
             <answer>A</answer><explanation>-dy/y^2 = 4x dx -&gt; 1/y = 2x^2 + C. y(0)=1 -&gt; C=1.</explanation></question>
         <question>
             <text>DE representing family of curves y = c1 e^x + c2 e^{-x} is:</text>
-            <option id="A">d^2y/dx^2 - y = 0</option><option id="B">d^2y/dx^2 + y = 0</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">d^2y/dx^2 - y = 0</option><option id="B">d^2y/dx^2 + y = 0</option>
             <answer>A</answer><explanation>Characteristic equation m^2 - 1 = 0.</explanation></question>
         <question>
             <text>Solution of (y^2 - x^2) dx + 2xy dy = 0 is family of circles with center on:</text>
-            <option id="A">y-axis</option><option id="B">x-axis</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y-axis</option><option id="B">x-axis</option>
             <answer>B</answer><explanation>DE is x^2 + y^2 - cx = 0.</explanation></question>
         <question>
             <text>Integrating factor for dy/dx - y/x = 2x^2:</text>
-            <option id="A">1/x</option><option id="B">x</option><option id="C">-log x</option><option id="D">None</option>
+            <option id="A">1/x</option><option id="B">x</option><option id="C">-log x</option>
             <answer>A</answer><explanation>e^{Integral -1/x dx} = e^{-log x} = 1/x.</explanation></question>
         <question>
             <text>If IF = sec^2 x for dy/dx + P y = Q, then P = :</text>
-            <option id="A">2 tan x</option><option id="B">tan x</option><option id="C">sec x</option><option id="D">None</option>
+            <option id="A">2 tan x</option><option id="B">tan x</option><option id="C">sec x</option>
             <answer>A</answer><explanation>e^{Integral P dx} = sec^2 x -&gt; Integral P dx = 2 log sec x -&gt; P = 2 tan x.</explanation></question>
         <question>
             <text>Differential equation for curves y = a cos x + b sin x:</text>
-            <option id="A">y'' + y = 0</option><option id="B">y'' - y = 0</option><option id="C">y' + y = 0</option><option id="D">None</option>
+            <option id="A">y'' + y = 0</option><option id="B">y'' - y = 0</option><option id="C">y' + y = 0</option>
             <answer>A</answer><explanation>Differentiate twice to get y'' = - (a cos x + b sin x) = -y.</explanation></question>
         <question>
             <text>Solution of dy/dx = e^{x-y} + x^2 e^{-y}:</text>
-            <option id="A">e^y = e^x + x^3/3 + C</option><option id="B">e^y = e^x + x^2 + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">e^y = e^x + x^3/3 + C</option><option id="B">e^y = e^x + x^2 + C</option>
             <answer>A</answer><explanation>e^y dy = (e^x + x^2) dx.</explanation></question>
         <question>
             <text>Find order of DE representing family of parabolas with axis parallel to x-axis:</text>
-            <option id="A">3</option><option id="B">2</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">3</option><option id="B">2</option><option id="C">1</option>
             <answer>A</answer><explanation>(y-k)^2 = 4a(x-h) has 3 parameters h, k, a.</explanation></question>
         <question>
             <text>Differential equation for family of all non-vertical lines in a plane:</text>
-            <option id="A">d^2y/dx^2 = 0</option><option id="B">dy/dx = m</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">d^2y/dx^2 = 0</option><option id="B">dy/dx = m</option>
             <answer>A</answer><explanation>y = mx + c has 2 parameters m, c.</explanation></question>
         <question>
             <text>Solution of dx/dy + 2x/y = y is:</text>
-            <option id="A">xy^2 = y^4/4 + C</option><option id="B">y x^2 = ...</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">xy^2 = y^4/4 + C</option><option id="B">y x^2 = ...</option>
             <answer>A</answer><explanation>Linear in x. IF = y^2. x y^2 = Integral y^3 dy.</explanation></question>
         <question>
             <text>General solution of x dy - y dx = 0:</text>
-            <option id="A">y = Cx</option><option id="B">x = Cy</option><option id="C">All are correct</option><option id="D">D</option>
+            <option id="A">y = Cx</option><option id="B">x = Cy</option><option id="C">All are correct</option>
             <answer>C</answer><explanation>dy/y = dx/x leads to y=Cx or x=Ky.</explanation></question>
         <question>
             <text>Find IF for dy/dx + y / (x log x) = 1/x:</text>
-            <option id="A">log x</option><option id="B">x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">log x</option><option id="B">x</option>
             <answer>A</answer><explanation>Same P as a previous question.</explanation></question>
         <question>
             <text>The solution of cos x dy + y sin x dx = dx is:</text>
-            <option id="A">y sec x = x + C</option><option id="B">y cos x = x + C</option><option id="C">y = x cos x + C</option><option id="D">None</option>
+            <option id="A">y sec x = x + C</option><option id="B">y cos x = x + C</option><option id="C">y = x cos x + C</option>
             <answer>A</answer><explanation>dy/dx + y tan x = sec x. IF = sec x.</explanation></question>
         <question>
             <text>Which equation is not linear?</text>
-            <option id="A">dy/dx + y^2 = x</option><option id="B">dy/dx + y = x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">dy/dx + y^2 = x</option><option id="B">dy/dx + y = x</option>
             <answer>A</answer><explanation>y^2 makes it non-linear.</explanation></question>
         <question>
             <text>Order and Degree of circle family passing through origin with center on x-axis:</text>
-            <option id="A">Order 1, Degree 1</option><option id="B">Order 1, Degree 2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Order 1, Degree 1</option><option id="B">Order 1, Degree 2</option>
             <answer>B</answer><explanation>x^2 + y^2 - 2ax = 0 -&gt; 2x + 2yy' - 2a = 0. Substitute 2a: x^2 + y^2 - x(2x + 2yy') = 0 -&gt; y^2 - x^2 - 2xyy' = 0. Degree is 1? Wait, let me re-verify. y' is linear here. Oh, degree is 1.</explanation></question>
         <question>
             <text>Solution of dy/dx = x^2/y^2 is:</text>
-            <option id="A">y^3 - x^3 = C</option><option id="B">y^2 - x^2 = C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y^3 - x^3 = C</option><option id="B">y^2 - x^2 = C</option>
             <answer>A</answer><explanation>y^2 dy = x^2 dx -&gt; y^3/3 = x^3/3 + C.</explanation></question>
         <question>
             <text>Integrating factor for dy/dx + y/x = x^n:</text>
-            <option id="A">x</option><option id="B">1/x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x</option><option id="B">1/x</option>
             <answer>A</answer><explanation>e^{log x} = x.</explanation></question>
         <question>
             <text>Find particular solution of dy/dx = y, y(0)=2:</text>
-            <option id="A">y = 2e^x</option><option id="B">y = e^x + 1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y = 2e^x</option><option id="B">y = e^x + 1</option>
             <answer>A</answer><explanation>y = Ce^x. 2 = C e^0.</explanation></question>
         <question>
             <text>DE for family of lines y = mx + c (c fixed):</text>
-            <option id="A">dy/dx = m</option><option id="B">d^2y/dx^2 = 0</option><option id="C">y = x/y'</option><option id="D">None</option>
+            <option id="A">dy/dx = m</option><option id="B">d^2y/dx^2 = 0</option><option id="C">y = x/y'</option>
             <answer>A</answer><explanation>If c is fixed and m is arbitrary, one constant -&gt; 1st order.</explanation></question>
         <question>
             <text>Solution of dy/dx = sqrt(y) is:</text>
-            <option id="A">2 sqrt(y) = x + C</option><option id="B">y = (x+C)^2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">2 sqrt(y) = x + C</option><option id="B">y = (x+C)^2</option>
             <answer>A</answer><explanation>y^{-1/2} dy = dx -&gt; 2 y^{1/2} = x + C.</explanation></question>
         <question>
             <text>Find general solution of dy/dx + 1 = e^{x+y}:</text>
-            <option id="A">-e^{-(x+y)} = x + C</option><option id="B">e^{x+y} = C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">-e^{-(x+y)} = x + C</option><option id="B">e^{x+y} = C</option>
             <answer>A</answer><explanation>Let x+y = u -&gt; 1 + dy/dx = du/dx. du/dx = e^u -&gt; e^{-u} du = dx.</explanation></question>
         <question>
             <text>Integrating factor for dy/dx + y/x = log x:</text>
-            <option id="A">x</option><option id="B">log x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x</option><option id="B">log x</option>
             <answer>A</answer><explanation>e^{log x} = x.</explanation></question>
         <question>
             <text>Homogeneous equation (dy/dx) = (3x+2y)/(2x-3y) has solution involving:</text>
-            <option id="A">log(x^2 + y^2) and tan^{-1}(y/x)</option><option id="B">Polynomials only</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">log(x^2 + y^2) and tan^{-1}(y/x)</option><option id="B">Polynomials only</option>
             <answer>A</answer><explanation>Standard reduction leads to log and arctan terms.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Solution of x dy/dx - y = x^2 (1 + e^x) is:</text>
-            <option id="A">y = x(x + xe^x + C)</option><option id="B">y = x(x + e^x + C)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y = x(x + xe^x + C)</option><option id="B">y = x(x + e^x + C)</option>
             <answer>B</answer><explanation>Divide by x: dy/dx - y/x = x(1+e^x). IF = 1/x. y/x = Integral (1+e^x) dx = x + e^x + C.</explanation></question>
         <question>
             <text>Solution of dy/dx + y f'(x) = f(x) f'(x) is:</text>
-            <option id="A">y e^{f(x)} = (f(x)-1) e^{f(x)} + C</option><option id="B">y = f(x) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y e^{f(x)} = (f(x)-1) e^{f(x)} + C</option><option id="B">y = f(x) + C</option>
             <answer>A</answer><explanation>Linear DE with P = f'(x). IF = e^{f(x)}. y e^{f(x)} = Integral f(x) f'(x) e^{f(x)} dx. Use integration by parts.</explanation></question>
         <question>
             <text>Find general solution of dy/dx = (x+2y+3) / (2x+3y+4):</text>
-            <option id="A">Reducible to homogeneous by substitution</option><option id="B">Linear DE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Reducible to homogeneous by substitution</option><option id="B">Linear DE</option>
             <answer>A</answer><explanation>Non-homogeneous of type (a1x+b1y+c1)/(a2x+b2y+c2). Use X = x-h, Y = y-k.</explanation></question>
         <question>
             <text>Solution of Bernoulli's equation dy/dx + y/x = y^2 log x is:</text>
-            <option id="A">1/y = 1 + log x + Cx</option><option id="B">y = 1/(1+log x)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1/y = 1 + log x + Cx</option><option id="B">y = 1/(1+log x)</option>
             <answer>A</answer><explanation>Divide by y^2. Substitute 1/y = z. dz/dx - z/x = -log x.</explanation></question>
         <question>
             <text>Orthogonal trajectory of family of parabolas y^2 = 4ax is:</text>
-            <option id="A">x^2 + y^2/2 = C</option><option id="B">x^2 + y^2 = C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x^2 + y^2/2 = C</option><option id="B">x^2 + y^2 = C</option>
             <answer>A</answer><explanation>DE of parabolas: 2y y' = 4a = y^2/x -&gt; y' = y/2x. Orthogonal DE: y' = -2x/y -&gt; y dy = -2x dx -&gt; y^2/2 + x^2 = C.</explanation></question>
         <question>
             <text>General solution of dy/dx + x sin 2y = x^3 cos^2 y:</text>
-            <option id="A">tan y = 1/2 (x^2 - 1) + C e^{-x^2}</option><option id="B">tan y = x^2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">tan y = 1/2 (x^2 - 1) + C e^{-x^2}</option><option id="B">tan y = x^2</option>
             <answer>A</answer><explanation>Divide by cos^2 y. sec^2 y dy/dx + 2x tan y = x^3. Substitute tan y = z.</explanation></question>
         <question>
             <text>Find the IF for dy/dx + y/(1-x^2)^{3/2} = (x + sqrt(1-x^2)) / (1-x^2)^2:</text>
-            <option id="A">exp(x/sqrt(1-x^2))</option><option id="B">log(1-x^2)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">exp(x/sqrt(1-x^2))</option><option id="B">log(1-x^2)</option>
             <answer>A</answer><explanation>Integral 1/(1-x^2)^{3/2} dx using x = sin theta.</explanation></question>
         <question>
             <text>Solution of x^2 dy + (xy + y^2) dx = 0 is:</text>
-            <option id="A">x^2 y + 1/2 y^2 x^2? No, y = x / (C + log x)</option><option id="B">y = Cx</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x^2 y + 1/2 y^2 x^2? No, y = x / (C + log x)</option><option id="B">y = Cx</option>
             <answer>A</answer><explanation>Homogeneous. x^2 dy/dx + xy + y^2 = 0 -&gt; dy/dx = -(xy + y^2)/x^2 = -(v + v^2).</explanation></question>
         <question>
             <text>Find particular solution of dy/dx = (x-y)^2, y(1)=1:</text>
-            <option id="A">tan^{-1}(x-y) = x - 1</option><option id="B">y = x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">tan^{-1}(x-y) = x - 1</option><option id="B">y = x</option>
             <answer>A</answer><explanation>Let x-y = z. 1 - dy/dx = dz/dx -&gt; 1 - z^2 = dz/dx -&gt; dx = dz/(1-z^2).</explanation></question>
         <question>
             <text>The solution of y dx - x dy + log x dx = 0 is:</text>
-            <option id="A">y/x = -1/x (log x + 1) + C</option><option id="B">y = x log x + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y/x = -1/x (log x + 1) + C</option><option id="B">y = x log x + C</option>
             <answer>A</answer><explanation>Divide by x^2 or use quotient rule form. (x dy - y dx)/x^2 = log x / x^2 -&gt; d(y/x) = log x / x^2 dx.</explanation></question>
         <question>
             <text>IF for x dy/dx + y = x^3 is:</text>
-            <option id="A">x</option><option id="B">log x</option><option id="C">e^x</option><option id="D">None</option>
+            <option id="A">x</option><option id="B">log x</option><option id="C">e^x</option>
             <answer>A</answer><explanation>d(xy) = x^3 dx. IF is x.</explanation></question>
         <question>
             <text>Solution of (x+y)^2 dy/dx = a^2:</text>
-            <option id="A">y - a tan^{-1}((x+y)/a) = C</option><option id="B">y = a tan(x/a)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y - a tan^{-1}((x+y)/a) = C</option><option id="B">y = a tan(x/a)</option>
             <answer>A</answer><explanation>Sub x+y = z. (z^2+a^2) dz = ...? No, z^2(dz/dx - 1) = a^2 -&gt; dz/dx = 1 + a^2/z^2 = (z^2+a^2)/z^2.</explanation></question>
         <question>
             <text>Differential equation for ellipses through origin and foci on x-axis:</text>
-            <option id="A">x^2 - y^2 + 2xyy' = 0? No, higher order.</option><option id="B">Complex form</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x^2 - y^2 + 2xyy' = 0? No, higher order.</option><option id="B">Complex form</option>
             <answer>B</answer><explanation>Depends on specific constraints. Generic ellipses have 5 parameters.</explanation></question>
         <question>
             <text>Solution of dy/dx = 1 / (x + y + 1) is:</text>
-            <option id="A">x = C e^y - y - 2</option><option id="B">y = log(x+y+1)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x = C e^y - y - 2</option><option id="B">y = log(x+y+1)</option>
             <answer>A</answer><explanation>dx/dy = x + y + 1 -&gt; dx/dy - x = y + 1. Linear in x. IF = e^{-y}.</explanation></question>
         <question>
             <text>IF for dy/dx + y/x log x = 1/x is:</text>
-            <option id="A">log x</option><option id="B">1/x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">log x</option><option id="B">1/x</option>
             <answer>A</answer><explanation>e^{Integral 1/(x log x) dx} = log x.</explanation></question>
         <question>
             <text>Solution of dy/dx = tan(y/x) + y/x is:</text>
-            <option id="A">sin(y/x) = Cx</option><option id="B">cos(y/x) = Cx</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">sin(y/x) = Cx</option><option id="B">cos(y/x) = Cx</option>
             <answer>A</answer><explanation>v + x dv/dx = v + tan v -&gt; x dv/dx = tan v -&gt; cot v dv = dx/x.</explanation></question>
         <question>
             <text>A curve passes through (1,1) such that slope is y/x. Its equation is:</text>
-            <option id="A">y = x</option><option id="B">y = x^2</option><option id="C">y = 1</option><option id="D">None</option>
+            <option id="A">y = x</option><option id="B">y = x^2</option><option id="C">y = 1</option>
             <answer>A</answer><explanation>dy/dx = y/x -&gt; y = Cx. (1,1) -&gt; 1=C.</explanation></question>
         <question>
             <text>Solution of dy/dx = (3x-y+3) / (x-3y-3):</text>
-            <option id="A">Reducible to homogeneous</option><option id="B">Linear</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Reducible to homogeneous</option><option id="B">Linear</option>
             <answer>A</answer><explanation>Non-parallel lines in fraction.</explanation></question>
         <question>
             <text>IF for (x^2+1) dy/dx + 2xy = sqrt(x^2+4):</text>
-            <option id="A">x^2 + 1</option><option id="B">log(x^2+1)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x^2 + 1</option><option id="B">log(x^2+1)</option>
             <answer>A</answer><explanation>P = 2x/(x^2+1).</explanation></question>
         <question>
             <text>Solution of x dy + (y - x^3) dx = 0 is:</text>
-            <option id="A">xy = x^4/4 + C</option><option id="B">y = x^2/4 + C/x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">xy = x^4/4 + C</option><option id="B">y = x^2/4 + C/x</option>
             <answer>A</answer><explanation>d(xy) = x^3 dx.</explanation></question>
         <question>
             <text>Equation d^2y/dx^2 + y = 0 has solution y = sin x. Particular solution with y(0)=1 is:</text>
-            <option id="A">y = cos x</option><option id="B">y = sin x</option><option id="C">y = sin x + cos x</option><option id="D">None</option>
+            <option id="A">y = cos x</option><option id="B">y = sin x</option><option id="C">y = sin x + cos x</option>
             <answer>A</answer><explanation>General: A cos x + B sin x. y(0)=1 -&gt; A=1. y'(0) unspecified? Usually implies simplest form.</explanation></question>
         <question>
             <text>Form of DE for all circles in first quadrant touching both axes:</text>
-            <option id="A">(x-a)^2 + (y-a)^2 = a^2</option><option id="B">x^2 + y^2 = a^2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(x-a)^2 + (y-a)^2 = a^2</option><option id="B">x^2 + y^2 = a^2</option>
             <answer>A</answer><explanation>One parameter 'a'. Leads to 1st order DE.</explanation></question>
         <question>
             <text>The solution of dy/dx = (x+y)/x is y = x log x + Cx. This is a ____ DE.</text>
-            <option id="A">Homogeneous and Linear</option><option id="B">Only Homogeneous</option><option id="C">Only Linear</option><option id="D">None</option>
+            <option id="A">Homogeneous and Linear</option><option id="B">Only Homogeneous</option><option id="C">Only Linear</option>
             <answer>A</answer><explanation>It fits both standard forms.</explanation></question>
         <question>
             <text>If dy/dx = xy / (x^2+1) and y(0)=1, then y(2) is:</text>
-            <option id="A">sqrt(5)</option><option id="B">5</option><option id="C">sqrt(2)</option><option id="D">None</option>
+            <option id="A">sqrt(5)</option><option id="B">5</option><option id="C">sqrt(2)</option>
             <answer>A</answer><explanation>dy/y = x/(x^2+1) dx -&gt; log y = 1/2 log(x^2+1). y = sqrt(x^2+1).</explanation></question>
         <question>
             <text>The solution of (dy/dx + y/x) = x^2 is:</text>
-            <option id="A">xy = x^4/4 + C</option><option id="B">y = x^3/4 + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">xy = x^4/4 + C</option><option id="B">y = x^3/4 + C</option>
             <answer>A</answer><explanation>IF = x. yx = Integral x^3 dx.</explanation></question>
         <question>
             <text>Formation of DE for y = cx + c^2:</text>
-            <option id="A">y = x y' + (y')^2</option><option id="B">y' = c</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y = x y' + (y')^2</option><option id="B">y' = c</option>
             <answer>A</answer><explanation>Clairaut's equation form.</explanation></question>
         <question>
             <text>Differential equation for family of all lines at distance 'p' from origin:</text>
-            <option id="A">(y - xy')^2 = p^2 (1 + (y')^2)</option><option id="B">y = mx + p</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(y - xy')^2 = p^2 (1 + (y')^2)</option><option id="B">y = mx + p</option>
             <answer>A</answer><explanation>Using normal form x cos a + y sin a = p and eliminating alpha.</explanation></question>
         <question>
             <text>Solution of dy/dx = (y/x)^2 + (y/x):</text>
-            <option id="A">-x/y = log x + C</option><option id="B">y/x = log x + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">-x/y = log x + C</option><option id="B">y/x = log x + C</option>
             <answer>A</answer><explanation>v + x dv/dx = v^2 + v -&gt; dv/v^2 = dx/x -&gt; -1/v = log x + C.</explanation></question>
         <question>
             <text>Integrating factor for x dy/dx - y = 2x^2:</text>
-            <option id="A">1/x</option><option id="B">x</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1/x</option><option id="B">x</option>
             <answer>A</answer><explanation>e^{Integral -1/x dx}.</explanation></question>
         <question>
             <text>Degree of d^2y/dx^2 + sin(dy/dx) = 0 is:</text>
-            <option id="A">Not defined</option><option id="B">1</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">Not defined</option><option id="B">1</option><option id="C">2</option>
             <answer>A</answer><explanation>Not a polynomial in derivatives.</explanation></question>
         <question>
             <text>Solution of dy/dx + y/x = 0 represents family of:</text>
-            <option id="A">Rectangular hyperbolas</option><option id="B">Circles</option><option id="C">Straight lines</option><option id="D">None</option>
+            <option id="A">Rectangular hyperbolas</option><option id="B">Circles</option><option id="C">Straight lines</option>
             <answer>A</answer><explanation>xy = C.</explanation></question>
         <question>
             <text>Solution of dy/dx = y^2 with y(0)=1 is:</text>
-            <option id="A">y = 1/(1-x)</option><option id="B">y = 1/(1+x)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y = 1/(1-x)</option><option id="B">y = 1/(1+x)</option>
             <answer>A</answer><explanation>-1/y = x + C. -1 = 0 + C -&gt; C = -1. -1/y = x - 1 -&gt; y = 1/(1-x).</explanation></question>
         <question>
             <text>Particular solution of dy/dx = cos x with y(0)=0:</text>
-            <option id="A">y = sin x</option><option id="B">y = sin x + 1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y = sin x</option><option id="B">y = sin x + 1</option>
             <answer>A</answer><explanation>Direct integration.</explanation></question>
         <question>
             <text>General solution of dy/dx = x^2 + x + 1:</text>
-            <option id="A">y = x^3/3 + x^2/2 + x + C</option><option id="B">y = x^2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y = x^3/3 + x^2/2 + x + C</option><option id="B">y = x^2</option>
             <answer>A</answer><explanation>Direct integration.</explanation></question>
         <question>
             <text>Which of the following describes a curve where sub-tangent is constant?</text>
-            <option id="A">y / y' = k</option><option id="B">y y' = k</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y / y' = k</option><option id="B">y y' = k</option>
             <answer>A</answer><explanation>Definition of sub-tangent.</explanation></question>
         <question>
             <text>Solution of dy/dx + Py = 0 is y = C exp(-Integral P dx). This is TRUE/FALSE?</text>
-            <option id="A">TRUE</option><option id="B">FALSE</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">TRUE</option><option id="B">FALSE</option>
             <answer>A</answer><explanation>Standard result for 1st order homogeneous linear DE.</explanation></question>
         <question>
             <text>Order of DE of all circles in a plane:</text>
-            <option id="A">3</option><option id="B">2</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">3</option><option id="B">2</option><option id="C">1</option>
             <answer>A</answer><explanation>(x-h)^2 + (y-k)^2 = r^2 has 3 parameters.</explanation></question>
         <question>
             <text>The solution of dy/dx + 2y = 4x is:</text>
-            <option id="A">y = 2x - 1 + C e^{-2x}</option><option id="B">y = 2x + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">y = 2x - 1 + C e^{-2x}</option><option id="B">y = 2x + C</option>
             <answer>A</answer><explanation>IF = e^{2x}. y e^{2x} = Integral 4x e^{2x} dx = 2x e^{2x} - e^{2x} + C.</explanation></question>
         <question>
             <text>Find IF for dy/dx + y/x sqrt(x) = 1:</text>
-            <option id="A">exp(2 sqrt(x))</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">exp(2 sqrt(x))</option>
             <answer>A</answer><explanation>Integral 1/sqrt(x) = 2 sqrt(x).</explanation></question>
         <question>
             <text>Differential of log y = x is dy/dx = :</text>
-            <option id="A">y</option><option id="B">1/y</option><option id="C">log x</option><option id="D">None</option>
+            <option id="A">y</option><option id="B">1/y</option><option id="C">log x</option>
             <answer>A</answer><explanation>y = e^x -&gt; y' = e^x = y.</explanation></question>
     </hard>
 </chapter>

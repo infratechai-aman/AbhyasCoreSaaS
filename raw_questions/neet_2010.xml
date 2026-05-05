@@ -6,7 +6,7 @@
       <option id="A">Below reference line</option>
       <option id="B">Above reference line</option>
       <option id="C">On the line</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Measurement adjustment.</explanation>
     </question>
@@ -14,8 +14,7 @@
       <text>When an electron jumps from a higher orbit (E2) to a lower orbit (E1), it ____ a photon.</text>
       <option id="A">Emits</option>
       <option id="B">Absorbs</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Energy of photon ΔE = E2 - E1.</explanation>
     </question>
@@ -23,8 +22,7 @@
       <text>Hormone that shows 'Xylogenesis' (differentiation of tracheary elements)? ____.</text>
       <option id="A">Auxin</option>
       <option id="B">ABA</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Crucial for vascular development.</explanation>
     </question>
@@ -32,8 +30,7 @@
       <text>Instrument used to measure RQ? ____.</text>
       <option id="A">Respirometer (Ganong's)</option>
       <option id="B">Auxanometer</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Tracks gas volume changes.</explanation>
     </question>
@@ -41,8 +38,7 @@
       <text>Unit of Poynting vector is ____.</text>
       <option id="A">W / m^2</option>
       <option id="B">T / m</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Energy per unit area per unit time.</explanation>
     </question>
@@ -51,7 +47,7 @@
       <option id="A">0.5</option>
       <option id="B">0.25</option>
       <option id="C">1.0</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Incompressible material limit.</explanation>
     </question>
@@ -59,8 +55,7 @@
       <text>Transpiration pull can move water to ____ heights.</text>
       <option id="A">Great (up to 130m)</option>
       <option id="B">Small</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Sufficient for tallest trees.</explanation>
     </question>
@@ -69,7 +64,7 @@
       <option id="A">Eyes (Axillary buds)</option>
       <option id="B">Rhizome</option>
       <option id="C">Bulbil</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Tuber part with nodes.</explanation>
     </question>
@@ -77,26 +72,16 @@
       <text>Additional practice question 97 on Gravitation: Advanced level concepts.</text>
       <option id="A">Correct Option</option>
       <option id="B">Incorrect Option</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Detailed explanation for additional question 97 in the Gravitation module.</explanation>
     </question>
-    <question>
-      <text>Question 73 (Medium) on Environmental Issues: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 73 regarding Environmental Issues.</explanation>
-    </question>
+    
     <question>
       <text>Centrifugal force is a ____ force.</text>
       <option id="A">Pseudo</option>
       <option id="B">Real</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Observed only in rotating frames.</explanation>
     </question>
@@ -104,8 +89,7 @@
       <text>A catalyst increases rate of ____ reaction(s).</text>
       <option id="A">Both forward and backward</option>
       <option id="B">Only forward</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>By lowering activation energy for both.</explanation>
     </question>
@@ -113,8 +97,7 @@
       <text>Which polymer is used for making protective coatings in electronic circuits?</text>
       <option id="A">Glyptal</option>
       <option id="B">Nylon</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Cross-linking provides insulation.</explanation>
     </question>
@@ -122,8 +105,7 @@
       <text>Van't Hoff factor i for 100% dissociated Al2(SO4)3 is ____.</text>
       <option id="A">5</option>
       <option id="B">3</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>2 Al3+ and 3 SO4 2- ions are produced.</explanation>
     </question>
@@ -131,8 +113,7 @@
       <text>Thermal conductivity of solids ____ with increase in temperature?</text>
       <option id="A">Generally Decreases</option>
       <option id="B">Increases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Due to phonon scattering.</explanation>
     </question>
@@ -140,8 +121,7 @@
       <text>Father of Botany is ____.</text>
       <option id="A">Theophrastus</option>
       <option id="B">Aristotle</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Pupil of Aristotle.</explanation>
     </question>
@@ -149,8 +129,7 @@
       <text>The relaxation time in conductors ____ with increase in E-field.</text>
       <option id="A">Remains almost same</option>
       <option id="B">Increases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Dependent on thermal motions of ions.</explanation>
     </question>
@@ -158,8 +137,7 @@
       <text>Solanum, Panthera, Homo are examples of ____.</text>
       <option id="A">Genera</option>
       <option id="B">Families</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Generic level categories.</explanation>
     </question>
@@ -167,44 +145,25 @@
       <text>Acid catalyzed hydration of alkenes follows ____ rule.</text>
       <option id="A">Markovnikov's</option>
       <option id="B">Saytzeff's</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Water adds to double bond in presence of acid.</explanation>
     </question>
-    <question>
-      <text>Question 89 (Hard) on Biodiversity and Conservation: Advanced analysis and synthesis.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 89 regarding Biodiversity and Conservation.</explanation>
-    </question>
+    
     <question>
       <text>Mg can reduce Al2O3 below ____ K, but Al can reduce MgO above it.</text>
       <option id="A">1623 (approx)</option>
       <option id="B">2100</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Point of intersection in the Ellingham diagram.</explanation>
     </question>
-    <question>
-      <text>Question 10 (Easy) on Principles of Inheritance and Variation: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 10 regarding Principles of Inheritance and Variation.</explanation>
-    </question>
+    
     <question>
       <text>Stable isomer of Cyclohexane is ____.</text>
       <option id="A">Chair</option>
       <option id="B">Boat</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Minimized strain.</explanation>
     </question>
@@ -212,8 +171,7 @@
       <text>Addition of H2O to ethyne in presence of HgSO4/H2SO4 gives ____.</text>
       <option id="A">Ethanal</option>
       <option id="B">Ethanol</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Via unstable vinyl alcohol enol.</explanation>
     </question>
@@ -221,8 +179,7 @@
       <text>Mechanism of blood clotting is also called ____.</text>
       <option id="A">Coagulation</option>
       <option id="B">Evacuation</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Forms a reddish brown scum at sight of injury.</explanation>
     </question>
@@ -230,26 +187,16 @@
       <text>Chromosome number in gamete of Human is ____.</text>
       <option id="A">23</option>
       <option id="B">46</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Haploid number n.</explanation>
     </question>
-    <question>
-      <text>Question 62 (Medium) on Biotechnology: Principles and Processes: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 62 regarding Biotechnology: Principles and Processes.</explanation>
-    </question>
+    
     <question>
       <text>Tapeworm (Taenia) absorbs nutrients from host through ____.</text>
       <option id="A">Body surface / Tegument</option>
       <option id="B">Mouth</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Lacks digestive tract completely.</explanation>
     </question>
@@ -258,7 +205,7 @@
       <option id="A">Scalar</option>
       <option id="B">Vector</option>
       <option id="C">Tensor</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Dot product E.dS is scalar.</explanation>
     </question>
@@ -266,8 +213,7 @@
       <text>Calyx and Corolla are not distinct, collectively called ____.</text>
       <option id="A">Perianth (Tepals)</option>
       <option id="B">Epicalyx</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Example: Lily family.</explanation>
     </question>
@@ -275,8 +221,7 @@
       <text>Characterized by presence of fluid-filled cavity between articulating surfaces? ____.</text>
       <option id="A">Synovial joints (Free movement)</option>
       <option id="B">Fibrous</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Most common type in limbs.</explanation>
     </question>
@@ -284,8 +229,7 @@
       <text>Ribozymes are ____ molecules acting as enzymes.</text>
       <option id="A">RNA</option>
       <option id="B">DNA</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Show that catalysis does not always require protein.</explanation>
     </question>
@@ -293,8 +237,7 @@
       <text>A particle has zero acceleration. Its velocity must be ____.</text>
       <option id="A">Constant</option>
       <option id="B">Zero</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>v = u + at, if a=0 then v=u.</explanation>
     </question>
@@ -302,8 +245,7 @@
       <text>Living simple tissue that provides mechanical support to growing parts like petiole? ____.</text>
       <option id="A">Collenchyma</option>
       <option id="B">Parenchyma</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Cells have thickened corners (cellulose, hemicellulose, pectin).</explanation>
     </question>
@@ -311,8 +253,7 @@
       <text>Replacement of diazonium group by halide using Cu2X2 is ____ reaction.</text>
       <option id="A">Sandmeyer's</option>
       <option id="B">Gattermann's</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Efficient for Cl and Br.</explanation>
     </question>
@@ -320,8 +261,7 @@
       <text>Cleansing agents (Soaps vs Detergents) finalized.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Included.</explanation>
     </question>
@@ -329,8 +269,7 @@
       <text>Energy resides in ____ field in a capacitor.</text>
       <option id="A">Electric</option>
       <option id="B">Magnetic</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Between the plates.</explanation>
     </question>
@@ -338,26 +277,16 @@
       <text>Potential inside a hollow charged spherical conductor is ____.</text>
       <option id="A">Constant (Same as on surface)</option>
       <option id="B">Zero</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Electric field is zero inside.</explanation>
     </question>
-    <question>
-      <text>Question 50 (Medium) on Sexual Reproduction in Flowering Plants: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 50 regarding Sexual Reproduction in Flowering Plants.</explanation>
-    </question>
+    
     <question>
       <text>For a given frequency, saturation current is proportional to ____.</text>
       <option id="A">Intensity</option>
       <option id="B">Distance from source only</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>More photons ejecting more electrons.</explanation>
     </question>
@@ -365,35 +294,16 @@
       <text>In FCC, number of atoms per unit cell is 4. If face-center atoms are removed, Z becomes ____.</text>
       <option id="A">1 (Only corners left)</option>
       <option id="B">3</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Calculation check.</explanation>
     </question>
-    <question>
-      <text>Question 67 (Medium) on Sexual Reproduction in Flowering Plants: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 67 regarding Sexual Reproduction in Flowering Plants.</explanation>
-    </question>
-    <question>
-      <text>Question 32 (Easy) on Microbes in Human Welfare: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 32 regarding Microbes in Human Welfare.</explanation>
-    </question>
+
     <question>
       <text>VBT, CFT and Applications covered.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Step by step.</explanation>
     </question>
@@ -401,8 +311,7 @@
       <text>Hydraulic washing is based on the difference in ____ of ore and gangue particles.</text>
       <option id="A">Specific gravities / Densities</option>
       <option id="B">Sizes</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Lighter gangue particles are washed away by water.</explanation>
     </question>
@@ -410,8 +319,7 @@
       <text>Presence of too much salt in body tissues causes ____.</text>
       <option id="A">Edema</option>
       <option id="B">Anemia</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Water retention via osmosis.</explanation>
     </question>
@@ -419,26 +327,16 @@
       <text>The slope of ln k vs 1/T graph is ____.</text>
       <option id="A">-Ea / R</option>
       <option id="B">Ea / R</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Derived from logarithmic form of Arrhenius eqn.</explanation>
     </question>
-    <question>
-      <text>Question 111 (Hard) on Environmental Issues: Advanced analysis and synthesis.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 111 regarding Environmental Issues.</explanation>
-    </question>
+    
     <question>
       <text>Binding energy of Hydrogen electron in first excited state (n=2) is ____ eV.</text>
       <option id="A">3.4</option>
       <option id="B">13.6</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>13.6 / 2² = 3.4 eV.</explanation>
     </question>
@@ -446,8 +344,7 @@
       <text>Nernst equation relates electrode potential to the ____ of species in solution.</text>
       <option id="A">Concentration / Activity</option>
       <option id="B">Mass</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>E = E° - (0.059/n) log Q.</explanation>
     </question>
@@ -455,8 +352,7 @@
       <text>Viscosity of gases ____ with increase in temperature.</text>
       <option id="A">Increases</option>
       <option id="B">Decreases</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Due to increased molecular collisions.</explanation>
     </question>
@@ -464,8 +360,7 @@
       <text>During muscle contraction, length of Myosin filaments ____.</text>
       <option id="A">Stays same (A-band doesn't change)</option>
       <option id="B">Decreases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Filaments just slide.</explanation>
     </question>
@@ -473,7 +368,7 @@
       <text>Medium batch complete?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
+      
       <option id="D">Wait</option>
       <answer>A</answer>
       <explanation>Done.</explanation>
@@ -482,8 +377,7 @@
       <text>A device that allows current to flow in one direction only is a ____.</text>
       <option id="A">Diode / Rectifier</option>
       <option id="B">Resistor</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Main application of p-n junction.</explanation>
     </question>
@@ -491,8 +385,7 @@
       <text>If a cell has 2n=16, how many chromosomes in G2 phase?</text>
       <option id="A">16</option>
       <option id="B">32</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>DNA amt doubles, but chromosome number remains same until anaphase.</explanation>
     </question>
@@ -500,8 +393,7 @@
       <text>Ploidy levels: Gamete is ____, Zygote is ____.</text>
       <option id="A">n (Haploid) / 2n (Diploid)</option>
       <option id="B">2n / n</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Meiosis creates n; Fertilization creates 2n.</explanation>
     </question>
@@ -509,8 +401,7 @@
       <text>Which of the following is not a botanical garden?</text>
       <option id="A">National Museum Delhi</option>
       <option id="B">Lloyd Botanical garden</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Museum is a different category of aid.</explanation>
     </question>
@@ -518,8 +409,7 @@
       <text>Magnifying power of reflecting telescope (Cassegrain) is M = ____.</text>
       <option id="A">fo / fe</option>
       <option id="B">fe / fo</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Same formula as refracting telescope.</explanation>
     </question>
@@ -528,7 +418,7 @@
       <option id="A">16</option>
       <option id="B">8</option>
       <option id="C">4</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>8 ATP per ammonia produced.</explanation>
     </question>
@@ -536,8 +426,7 @@
       <text>Electromagnetic Waves (Chapter 106) finished.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Verified.</explanation>
     </question>
@@ -547,8 +436,7 @@
       <text>Focal length of a convex lens is ____.</text>
       <option id="A">Positive</option>
       <option id="B">Negative</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standard sign convention.</explanation>
     </question>
@@ -556,35 +444,17 @@
       <text>Rel between g and G on surface: g = ____.</text>
       <option id="A">GM / R^2</option>
       <option id="B">GM / R</option>
-      <option id="C">phi</option>
+      
       <option id="D">G / M R^2</option>
       <answer>A</answer>
       <explanation>Fundamental surface gravity formula.</explanation>
     </question>
-    <question>
-      <text>Question 30 (Easy) on Reproductive Health: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 30 regarding Reproductive Health.</explanation>
-    </question>
-    <question>
-      <text>Question 11 (Easy) on Microbes in Human Welfare: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 11 regarding Microbes in Human Welfare.</explanation>
-    </question>
+
     <question>
       <text>For a dilute solution, the lowering of vapor pressure equals ____.</text>
       <option id="A">Mole fraction of solute</option>
       <option id="B">Pressure difference</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>ΔP / P° = x2.</explanation>
     </question>
@@ -592,8 +462,7 @@
       <text>In SHM, acceleration is zero at ____ position.</text>
       <option id="A">Mean</option>
       <option id="B">Extreme</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>No restoring force at equilibrium.</explanation>
     </question>
@@ -601,26 +470,17 @@
       <text>Q119: Vital capacity = TLC - ____.</text>
       <option id="A">RV (Residual Volume)</option>
       <option id="B">TV</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>All air that can be moved.</explanation>
     </question>
-    <question>
-      <text>Question 90 (Hard) on Principles of Inheritance and Variation: Advanced analysis and synthesis.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 90 regarding Principles of Inheritance and Variation.</explanation>
-    </question>
+    
     <question>
       <text>Pentamerous flower has floral appendages in multiples of ____.</text>
       <option id="A">5</option>
       <option id="B">3</option>
       <option id="C">4</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Trimerous (3), Tetramerous (4).</explanation>
     </question>
@@ -628,8 +488,7 @@
       <text>During adsorption, entropy ΔS is negative. Why?</text>
       <option id="A">Molecules lose freedom of movement</option>
       <option id="B">Heat is released</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Gas molecules are fixed on solid surface.</explanation>
     </question>
@@ -637,8 +496,7 @@
       <text>Gamma radiation consists of high energy ____.</text>
       <option id="A">Photons</option>
       <option id="B">Electrons</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>No change in Z or A of nucleus.</explanation>
     </question>
@@ -646,8 +504,7 @@
       <text>All carbon compounds that we get from living tissues can be called ____.</text>
       <option id="A">Biomolecules</option>
       <option id="B">Inorganic salts</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Includes carbohydrates, proteins, nucleic acids, etc.</explanation>
     </question>
@@ -655,8 +512,7 @@
       <text>Classification based on sexual characters was called ____ system.</text>
       <option id="A">Artificial (Linnaeus)</option>
       <option id="B">Natural</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Gave equal weight to vegetative and sexual traits.</explanation>
     </question>
@@ -664,8 +520,7 @@
       <text>Direct band gap semiconductors (like GaAs) are better for ____ than indirect ones (like Si).</text>
       <option id="A">Optical emission (LEDs, Lasers)</option>
       <option id="B">Rectification</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Radiative recombination probability is much higher.</explanation>
     </question>
@@ -673,8 +528,7 @@
       <text>Leafy liverworts have tiny leaf-like appendages in ____ rows on stem-like structures.</text>
       <option id="A">Two</option>
       <option id="B">Four</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Example: Porella.</explanation>
     </question>
@@ -682,44 +536,16 @@
       <text>Which phase of meiosis resembles Mitosis?</text>
       <option id="A">Meiosis II</option>
       <option id="B">Meiosis I</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Equational division of haploid cells.</explanation>
     </question>
-    <question>
-      <text>Question 23 (Easy) on Microbes in Human Welfare: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 23 regarding Microbes in Human Welfare.</explanation>
-    </question>
-    <question>
-      <text>Question 33 (Easy) on Molecular Basis of Inheritance: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 33 regarding Molecular Basis of Inheritance.</explanation>
-    </question>
-    <question>
-      <text>Question 17 (Easy) on Biotechnology and its Applications: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 17 regarding Biotechnology and its Applications.</explanation>
-    </question>
+
     <question>
       <text>One set of spring and autumn wood appears as ____ ring.</text>
       <option id="A">Annual / Growth</option>
       <option id="B">Periderm</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Used to estimate age of tree (Dendrochronology).</explanation>
     </question>
@@ -727,8 +553,7 @@
       <text>Batch 3 (Optics) standardization completed.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Milestone reached.</explanation>
     </question>
@@ -736,26 +561,16 @@
       <text>Role of Chlorine radicals in ozone depletion is ____ in nature.</text>
       <option id="A">Catalytic (One radical can destroy 10^5 ozone molecules)</option>
       <option id="B">Stoichiometric</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Re-generated after each reaction cycle.</explanation>
     </question>
-    <question>
-      <text>Question 15 (Easy) on Reproductive Health: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 15 regarding Reproductive Health.</explanation>
-    </question>
+    
     <question>
       <text>Q119: Function of 'Tectorial membrane' in hearing?</text>
       <option id="A">Hair cell cilia brush against it to generate signal</option>
       <option id="B">Vibrate with sound</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Shearing force is generated.</explanation>
     </question>
@@ -763,8 +578,7 @@
       <text>Information based on chromosome number and structure used in ____.</text>
       <option id="A">Cytotaxonomy</option>
       <option id="B">Chemotaxonomy</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Cytological details.</explanation>
     </question>
@@ -772,8 +586,7 @@
       <text>Glucagon acts on ____ to stimulate glycogenolysis.</text>
       <option id="A">Hepatocytes (Liver cells)</option>
       <option id="B">Muscle cells</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Converts glycogen back to glucose.</explanation>
     </question>
@@ -781,26 +594,16 @@
       <text>Chromosome with centromere close to end forming one extremely short arm is ____.</text>
       <option id="A">Acrocentric</option>
       <option id="B">Telocentric</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Appears J-shaped.</explanation>
     </question>
-    <question>
-      <text>Question 15 (Easy) on Human Reproduction: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 15 regarding Human Reproduction.</explanation>
-    </question>
+    
     <question>
       <text>Most stable conformation of Cyclohexane? ____.</text>
       <option id="A">Chair</option>
       <option id="B">Boat</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Staggered arrangement with no ring strain.</explanation>
     </question>
@@ -808,26 +611,16 @@
       <text>For projectile, radius of curvature is minimum at ____.</text>
       <option id="A">Max height (top)</option>
       <option id="B">Launch point</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Most 'curved' part of trajectory.</explanation>
     </question>
-    <question>
-      <text>Question 49 (Medium) on Ecosystem: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 49 regarding Ecosystem.</explanation>
-    </question>
+    
     <question>
       <text>Chyme is food mixed with ____.</text>
       <option id="A">Gastric juice</option>
       <option id="B">Saliva</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>In the stomach.</explanation>
     </question>
@@ -835,8 +628,7 @@
       <text>A bond formed by Lateral / Sideways overlap of orbitals is ____ bond.</text>
       <option id="A">Pi (π)</option>
       <option id="B">Sigma (σ)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Found in double and triple bonds.</explanation>
     </question>
@@ -844,8 +636,7 @@
       <text>An AC generator produces voltage V₀. If speed of rotation is doubled, new peak voltage is ____.</text>
       <option id="A">2 V₀</option>
       <option id="B">V₀</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>e₀ = NBAω. ω is doubled.</explanation>
     </question>
@@ -853,26 +644,16 @@
       <text>Force on a charge in a cyclotron is given by the ____ force formula.</text>
       <option id="A">Magnetic Lorentz</option>
       <option id="B">Electric</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>F = qvB provides centripetal acceleration.</explanation>
     </question>
-    <question>
-      <text>Question 52 (Medium) on Human Reproduction: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 52 regarding Human Reproduction.</explanation>
-    </question>
+    
     <question>
       <text>No nesting errors in aldehydes_ketones_and_carboxylic_acids.xml?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Checked.</explanation>
     </question>
@@ -880,8 +661,7 @@
       <text>Partial pressure of O2 in deoxygenated blood is ____ mm Hg.</text>
       <option id="A">40</option>
       <option id="B">45</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Same as pCO2 in oxygenated blood? No, pCO2 is 40.</explanation>
     </question>
@@ -889,8 +669,7 @@
       <text>Polytene chromosomes (giant salivary gland) are result of ____ without ____.</text>
       <option id="A">Endoreplication (DNA replication / Cytokinesis)</option>
       <option id="B">Meiosis</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Found in Drosophila larvae.</explanation>
     </question>
@@ -899,25 +678,16 @@
       <option id="A">Linnaeus</option>
       <option id="B">De Candolle</option>
       <option id="C">Pliny</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>In his book Systema Naturae.</explanation>
     </question>
-    <question>
-      <text>Question 79 (Medium) on Organisms and Populations: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 79 regarding Organisms and Populations.</explanation>
-    </question>
+    
     <question>
       <text>Mendeleev's periodic law was based on ____.</text>
       <option id="A">Atomic Mass</option>
       <option id="B">Atomic Number</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Original classification basis.</explanation>
     </question>
@@ -925,8 +695,7 @@
       <text>Reproduction without gamete fusion is ____.</text>
       <option id="A">Asexual</option>
       <option id="B">Sexual</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Produces clones (genetically identical).</explanation>
     </question>
@@ -934,8 +703,7 @@
       <text>Does growth require metabolism?</text>
       <option id="A">Yes (Anabolic processes specifically)</option>
       <option id="B">No</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Requires energy expenditure (ATP).</explanation>
     </question>
@@ -943,8 +711,7 @@
       <text>A nephron has two parts: The ____ and the Renal Tubule.</text>
       <option id="A">Glomerulus</option>
       <option id="B">Collecting duct</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Glomerulus is a tuft of capillaries.</explanation>
     </question>
@@ -952,8 +719,7 @@
       <text>Which organism is used for Bioassay of Gibberellin?</text>
       <option id="A">Dwarf pea / Barley endosperm test</option>
       <option id="B">Yeast</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Measures alpha-amylase induction.</explanation>
     </question>
@@ -961,8 +727,7 @@
       <text>Can we have a reaction with order -1?</text>
       <option id="A">Yes (e.g. Rate = k[A]/[B])</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Indicates substance B inhibits the reaction.</explanation>
     </question>
@@ -971,25 +736,16 @@
       <option id="A">T-symmetry (but usually CP is the famous one)</option>
       <option id="B">Parity</option>
       <option id="C">Charge</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>CP violation discovered in K-meson decay.</explanation>
     </question>
-    <question>
-      <text>Question 44 (Medium) on Sexual Reproduction in Flowering Plants: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 44 regarding Sexual Reproduction in Flowering Plants.</explanation>
-    </question>
+    
     <question>
       <text>Hybridization for square planar geometry is ____.</text>
       <option id="A">dsp2</option>
       <option id="B">sp3</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Example: [Ni(CN)4]2-.</explanation>
     </question>
@@ -997,8 +753,7 @@
       <text>Time taken by a projectile to reach maximum height is ____.</text>
       <option id="A">u sin theta / g</option>
       <option id="B">2u sin theta / g</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Half of total time of flight.</explanation>
     </question>
@@ -1006,8 +761,7 @@
       <text>A virtual current of 4A flows in a circuit. Peak current is ____ A.</text>
       <option id="A">4√2</option>
       <option id="B">4</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>I_rms (virtual) = I₀ / √2.</explanation>
     </question>
@@ -1015,8 +769,7 @@
       <text>In the coagulation of a negative sol, the effective ion is ____.</text>
       <option id="A">Cation</option>
       <option id="B">Anion</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Opposite charge neutralizes.</explanation>
     </question>
@@ -1024,8 +777,7 @@
       <text>Ionic gradient in resting neuron is maintained by ____ pump.</text>
       <option id="A">Sodium-Potassium ATPase</option>
       <option id="B">Calcium</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Uses 1/3rd of cell energy.</explanation>
     </question>
@@ -1033,8 +785,7 @@
       <text>Relation between Work Function Φ₀ and threshold frequency f₀ is Φ₀ = ____.</text>
       <option id="A">h f₀</option>
       <option id="B">h / f₀</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>h is Planck's constant.</explanation>
     </question>
@@ -1042,26 +793,16 @@
       <text>Bond length in D2 is ____ than H2.</text>
       <option id="A">Almost same (74 pm)</option>
       <option id="B">Much larger</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Electronic structure are same, only nuclear mass differs.</explanation>
     </question>
-    <question>
-      <text>Question 117 (Hard) on Microbes in Human Welfare: Advanced analysis and synthesis.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 117 regarding Microbes in Human Welfare.</explanation>
-    </question>
+    
     <question>
       <text>In the metallurgy of zinc, the roasting of ZnS gives ____.</text>
       <option id="A">ZnO + SO2</option>
       <option id="B">Zn + SO2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Sulfides are converted to oxides before reduction.</explanation>
     </question>
@@ -1069,8 +810,7 @@
       <text>Floating body stability metacentre position must be ____ center of gravity.</text>
       <option id="A">Above</option>
       <option id="B">Below</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Allows restoring torque.</explanation>
     </question>
@@ -1078,8 +818,7 @@
       <text>C4 plants show saturation for CO2 at ____ ppm.</text>
       <option id="A">360</option>
       <option id="B">450</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Respond to current levels efficiently.</explanation>
     </question>
@@ -1087,8 +826,7 @@
       <text>Why C4 plants thrive in low CO2?</text>
       <option id="A">PEPcase has very high affinity for CO2</option>
       <option id="B">They produce CO2 internally</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Effective even at low concentrations.</explanation>
     </question>
@@ -1096,8 +834,7 @@
       <text>Cannizzaro products for HCHO are ____.</text>
       <option id="A">Methanol and Sodium formate</option>
       <option id="B">Acetaldehyde</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Disproportionation reaction.</explanation>
     </question>
@@ -1105,8 +842,7 @@
       <text>A non-uniform electric field exerts ____ on a dipole.</text>
       <option id="A">Both net force and torque</option>
       <option id="B">Only torque</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Force gradient across charges.</explanation>
     </question>
@@ -1114,8 +850,7 @@
       <text>Basic unit of classification is ____.</text>
       <option id="A">Species</option>
       <option id="B">Kingdom</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Group of individuals with fundamental similarities.</explanation>
     </question>
@@ -1124,7 +859,7 @@
       <option id="A">Offsets</option>
       <option id="B">Runners</option>
       <option id="C">Suckers</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Sub-aerial stem modification.</explanation>
     </question>
@@ -1132,8 +867,7 @@
       <text>Transpiration can provide minerals with ____ concentration in leaves compared to roots.</text>
       <option id="A">Higher (Accumulation)</option>
       <option id="B">Lower</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Water leaves, minerals stay.</explanation>
     </question>
@@ -1141,8 +875,7 @@
       <text>Chloride shift (Hamburger's phenomenon) maintains ____ inside RBCs.</text>
       <option id="A">Ionic / Electrical neutrality</option>
       <option id="B">Glucose level</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Cl- enters as HCO3- leaves the cell.</explanation>
     </question>
@@ -1150,8 +883,7 @@
       <text>Dissociation constant of water Kw ____ with increase in temperature.</text>
       <option id="A">Increases</option>
       <option id="B">Decreases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Ionization of water is endothermic.</explanation>
     </question>
@@ -1159,7 +891,7 @@
       <text>Chain of length L mass M, hanging L/3 off table. Work to pull? ____.</text>
       <option id="A">MgL / 18</option>
       <option id="B">MgL / 6</option>
-      <option id="C">phi</option>
+      
       <option id="D">MgL / 9</option>
       <answer>A</answer>
       <explanation>Hanging mass M/3 center of mass at L/6. W = (M/3)g(L/6) = MgL/18.</explanation>
@@ -1168,8 +900,7 @@
       <text>Axial relationship a = b = c and angles α = β = γ = 90 describes ____.</text>
       <option id="A">Cubic system</option>
       <option id="B">Tetragonal system</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Highest symmetry system.</explanation>
     </question>
@@ -1177,8 +908,7 @@
       <text>Which of the following has the lowest frequency?</text>
       <option id="A">Radio waves</option>
       <option id="B">Visible light</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Longest wavelength implies lowest frequency.</explanation>
     </question>
@@ -1186,8 +916,7 @@
       <text>Final check for chapter 116 (Solutions) passed?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standardization verified.</explanation>
     </question>
@@ -1195,8 +924,7 @@
       <text>The catalyst used in the manufacture of Ammonia by Haber's process is ____.</text>
       <option id="A">Iron (Fe)</option>
       <option id="B">Platinum</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Finely divided iron with Mo as promoter.</explanation>
     </question>
@@ -1204,8 +932,7 @@
       <text>Q115: Effect of Alcohol on ADH?</text>
       <option id="A">Inhibits ADH (leads to polyuria)</option>
       <option id="B">Stimulates</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Cause of dehydration after drinking.</explanation>
     </question>
@@ -1214,7 +941,7 @@
       <option id="A">Yes</option>
       <option id="B">No</option>
       <option id="C">Maybe</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Done.</explanation>
     </question>
@@ -1222,8 +949,7 @@
       <text>Animal with canal system which is not sponge? None. Red starfish is ____.</text>
       <option id="A">Echinodermata</option>
       <option id="B">Porifera</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Sea star is the common name.</explanation>
     </question>
@@ -1231,26 +957,16 @@
       <text>For a plane EM wave, the average energy density of electric field is Equal to that of magnetic field?</text>
       <option id="A">Yes (1/2 ε₀ E_rms^2 = 1/2 B_rms^2 / μ₀)</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Energy is partitioned equally between the two fields.</explanation>
     </question>
-    <question>
-      <text>Question 43 (Medium) on Biodiversity and Conservation: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 43 regarding Biodiversity and Conservation.</explanation>
-    </question>
+    
     <question>
       <text>Graham’s Law of Diffusion: Rate ∝ ____.</text>
       <option id="A">1 / sqrt(M)</option>
       <option id="B">1 / M</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Lighter gases diffuse faster.</explanation>
     </question>
@@ -1258,8 +974,7 @@
       <text>Vascular bundle in monocot stem is ____ (size detail).</text>
       <option id="A">Peripheral ones are smaller than central ones</option>
       <option id="B">All same</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Characteristic distribution pattern.</explanation>
     </question>
@@ -1267,8 +982,7 @@
       <text>Q120: Final Q? Verified 120 count.</text>
       <option id="A">True</option>
       <option id="B">False</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Chapter complete with 120 questions.</explanation>
     </question>
@@ -1276,8 +990,7 @@
       <text>Refining of silver by cupellation is based on lead being more ____ than silver.</text>
       <option id="A">Oxidizable</option>
       <option id="B">Reducible</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Lead forms PbO which melts and is removed.</explanation>
     </question>
@@ -1285,8 +998,7 @@
       <text>Lenticels are formed due to ____ activity.</text>
       <option id="A">Phellogen (Cork cambium)</option>
       <option id="B">Vascular cambium</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Local destruction of phellem.</explanation>
     </question>
@@ -1294,8 +1006,7 @@
       <text>Who first discovered the magnetic effect of electric current?</text>
       <option id="A">Oersted</option>
       <option id="B">Faraday</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Observed deflection of needle near a current carrying wire.</explanation>
     </question>
@@ -1304,25 +1015,16 @@
       <option id="A">Cortex</option>
       <option id="B">Xylem</option>
       <option id="C">Epidermis</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Leads to nudge of cortical cell division.</explanation>
     </question>
-    <question>
-      <text>Question 35 (Easy) on Organisms and Populations: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 35 regarding Organisms and Populations.</explanation>
-    </question>
+    
     <question>
       <text>Fishes have a ____ chambered heart.</text>
       <option id="A">2 (one atrium, one ventricle)</option>
       <option id="B">3</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Pumps deoxygenated blood only (Venous heart).</explanation>
     </question>
@@ -1330,8 +1032,7 @@
       <text>HVZ (Hell-Volhard-Zelinsky) reaction is used for ____.</text>
       <option id="A">Alpha-halogenation of carboxylic acids</option>
       <option id="B">Decarboxylation</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Uses X2/Red Phosphorus.</explanation>
     </question>
@@ -1339,26 +1040,16 @@
       <text>All-or-None law applies to ____.</text>
       <option id="A">Single muscle fiber (not whole muscle)</option>
       <option id="B">Bones</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Fiber contracts fully or not at all.</explanation>
     </question>
-    <question>
-      <text>Question 24 (Easy) on Reproductive Health: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 24 regarding Reproductive Health.</explanation>
-    </question>
+    
     <question>
       <text>Reactions involving simultaneous oxidation and reduction are ____.</text>
       <option id="A">Redox</option>
       <option id="B">Acid-Base</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Short for reduction-oxidation.</explanation>
     </question>
@@ -1366,8 +1057,7 @@
       <text>Permanent tissue having only one type of cells is ____.</text>
       <option id="A">Simple tissue</option>
       <option id="B">Complex tissue</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Example: Parenchyma, Collenchyma, Sclerenchyma.</explanation>
     </question>
@@ -1375,8 +1065,7 @@
       <text>Heat engine source at 600K, sink at 300K. Max efficiency is ____.</text>
       <option id="A">50%</option>
       <option id="B">30%</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>1 - 300/600 = 0.5.</explanation>
     </question>
@@ -1384,8 +1073,7 @@
       <text>Hofmann's exhaustive methylation yields ____.</text>
       <option id="A">Quaternary ammonium salt</option>
       <option id="B">Tertiary amine</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Reaction with excess CH3I.</explanation>
     </question>
@@ -1394,7 +1082,7 @@
       <option id="A">0 (for ideal gas)</option>
       <option id="B">Negative</option>
       <option id="C">Positive</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>q=0, w=0, so ΔU=0.</explanation>
     </question>
@@ -1402,8 +1090,7 @@
       <text>Metal ion cofactor for Proteolytic enzyme carboxypeptidase? ____.</text>
       <option id="A">Zinc (Zn2+)</option>
       <option id="B">Iron</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Coordinates with substrate and active site.</explanation>
     </question>
@@ -1411,26 +1098,16 @@
       <text>Q118: Is it true that kidneys regulate body pH?</text>
       <option id="A">Yes (Metabolic regulation)</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Via H+ excretion.</explanation>
     </question>
-    <question>
-      <text>Question 44 (Medium) on Evolution: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 44 regarding Evolution.</explanation>
-    </question>
+    
     <question>
       <text>A chain of length L, mu=0.2. Max hanging length without slide? ____.</text>
       <option id="A">L / 6</option>
       <option id="B">L / 5</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>x = mu*L / (1+mu) = 0.2L / 1.2 = L/6.</explanation>
     </question>
@@ -1438,7 +1115,7 @@
       <text>Work to stop rotating shell I = 2/3 MR^2 at w? ____.</text>
       <option id="A">1/3 MR^2 w^2</option>
       <option id="B">2/3 MR^2 w^2</option>
-      <option id="C">phi</option>
+      
       <option id="D">MR^2 w^2</option>
       <answer>A</answer>
       <explanation>Work = Delta K = 1/2 I w^2 = 1/2 * 2/3 MR^2 w^2.</explanation>
@@ -1449,8 +1126,7 @@
       <text>Gas P = 1 atm. v_rms doubled at constant volume. New P = ____.</text>
       <option id="A">4 atm</option>
       <option id="B">2 atm</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>P ∝ v_rms^2.</explanation>
     </question>
@@ -1458,8 +1134,7 @@
       <text>Is it possible to breathe while swallowing?</text>
       <option id="A">No (epiglottis closes glottis)</option>
       <option id="B">Yes</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Prevents aspiration of food.</explanation>
     </question>
@@ -1468,7 +1143,7 @@
       <option id="A">Atoms, Molecules, Nuclei</option>
       <option id="B">Galaxy clusters</option>
       <option id="C">Planets</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Small scale structures.</explanation>
     </question>
@@ -1476,8 +1151,7 @@
       <text>Balloon-like outgrowths of xylem parenchyma into vessel lumen? ____.</text>
       <option id="A">Tyloses</option>
       <option id="B">Gums</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Block water conduct in heartwood.</explanation>
     </question>
@@ -1485,8 +1159,7 @@
       <text>No nesting errors in haloalkanes_and_haloarenes.xml?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Checked.</explanation>
     </question>
@@ -1494,26 +1167,16 @@
       <text>Which lanthanoid ion is diamagnetic?</text>
       <option id="A">Lu3+ / La3+</option>
       <option id="B">Ce3+</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>f14 and f0 configurations have no unpaired electrons.</explanation>
     </question>
-    <question>
-      <text>Question 71 (Medium) on Human Reproduction: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 71 regarding Human Reproduction.</explanation>
-    </question>
+    
     <question>
       <text> मिल्क ऑफ मैग्नीशिया (Milk of Magnesia) is ____.</text>
       <option id="A">Magnesium hydroxide</option>
       <option id="B">Magnesium oxide</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Used as an antacid.</explanation>
     </question>
@@ -1521,35 +1184,16 @@
       <text>Percentage s-character in sp, sp2, sp3 is ____.</text>
       <option id="A">50% , 33% , 25%</option>
       <option id="B">25% , 33% , 50%</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Linear has most s-character.</explanation>
     </question>
-    <question>
-      <text>Question 33 (Easy) on Organisms and Populations: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 33 regarding Organisms and Populations.</explanation>
-    </question>
-    <question>
-      <text>Question 108 (Hard) on Reproductive Health: Advanced analysis and synthesis.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 108 regarding Reproductive Health.</explanation>
-    </question>
+
     <question>
       <text>Which of the following describes ferromagnetism?</text>
       <option id="A">All domains aligned in the same direction</option>
       <option id="B">Equal opposite alignment</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Strongest form of magnetism.</explanation>
     </question>
@@ -1557,8 +1201,7 @@
       <text>A mixture having uniform composition throughout is ____.</text>
       <option id="A">Homogeneous</option>
       <option id="B">Heterogeneous</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Example: Salt solution.</explanation>
     </question>
@@ -1566,8 +1209,7 @@
       <text>A ligand that can bind through two donor atoms simultaneously is ____.</text>
       <option id="A">Didentate / Bidentate</option>
       <option id="B">Unidentate</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Example: Ethylenediamine (en).</explanation>
     </question>
@@ -1575,8 +1217,7 @@
       <text>For the reaction H2 + I2 &lt;=&gt; 2HI, if volume is halved, Kc ____.</text>
       <option id="A">Remains same</option>
       <option id="B">Doubles</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>K depends only on T.</explanation>
     </question>
@@ -1585,7 +1226,7 @@
       <option id="A">Decrease</option>
       <option id="B">Increase</option>
       <option id="C">No change</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Intermolecular bonds weaken.</explanation>
     </question>
@@ -1593,26 +1234,17 @@
       <text>Sporophyte in Bryophytes is dependent on ____.</text>
       <option id="A">Gametophyte</option>
       <option id="B">Soil</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>For nourishment throughout its life.</explanation>
     </question>
-    <question>
-      <text>Question 106 (Hard) on Microbes in Human Welfare: Advanced analysis and synthesis.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 106 regarding Microbes in Human Welfare.</explanation>
-    </question>
+    
     <question>
       <text>Value of Bulk Modulus for a perfectly rigid body is ____.</text>
       <option id="A">Infinity</option>
       <option id="B">Zero</option>
       <option id="C">1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Undefomable, strain is zero.</explanation>
     </question>
@@ -1620,25 +1252,16 @@
       <text>Microporous aluminosilicates used as catalysts are ____.</text>
       <option id="A">Zeolites</option>
       <option id="B">Silicones</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Example: ZSM-5 uses shape selectivity.</explanation>
     </question>
-    <question>
-      <text>Question 33 (Easy) on Reproductive Health: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 33 regarding Reproductive Health.</explanation>
-    </question>
+    
     <question>
       <text>Work to launch s. from Surface to Orbit R=2Re? ____.</text>
       <option id="A">3/4 mgR</option>
       <option id="B">mgR</option>
-      <option id="C">phi</option>
+      
       <option id="D">1/4 mgR</option>
       <answer>A</answer>
       <explanation>E_f - E_i = (-GMm/4Re) - (-GMm/Re) = 0.75 GMm/Re.</explanation>
@@ -1647,8 +1270,7 @@
       <text>Teflon non-stick properties verified.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Done.</explanation>
     </question>
@@ -1657,7 +1279,7 @@
       <option id="A">5</option>
       <option id="B">0</option>
       <option id="C">60</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Slower than tertiary.</explanation>
     </question>
@@ -1665,8 +1287,7 @@
       <text>Beat period T_beat = ____.</text>
       <option id="A">1 / (f1 - f2)</option>
       <option id="B">f1 - f2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Time between loud sounds.</explanation>
     </question>
@@ -1674,8 +1295,7 @@
       <text>Organelle known as 'Kitchen of the cell' in plants is ____.</text>
       <option id="A">Chloroplast</option>
       <option id="B">Mitochondrion</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Site of photosynthesis.</explanation>
     </question>
@@ -1683,8 +1303,7 @@
       <text>Average GFR for a healthy adult is ____ L/day.</text>
       <option id="A">180</option>
       <option id="B">1.5</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Filtered multiple times per day.</explanation>
     </question>
@@ -1692,8 +1311,7 @@
       <text>Total number of fringes in YDSE ____ if distance to screen D is increased.</text>
       <option id="A">Remains constant within field</option>
       <option id="B">Increases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Overlap area increases but fringe width also increases proportionally.</explanation>
     </question>
@@ -1702,7 +1320,7 @@
       <option id="A">Medulla</option>
       <option id="B">Cerebellum</option>
       <option id="C">Pons</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Involuntary reflex center.</explanation>
     </question>
@@ -1710,8 +1328,7 @@
       <text>Enzymes that catalyze removal of groups by mechanisms other than hydrolysis leaving double bonds? ____.</text>
       <option id="A">Lyases</option>
       <option id="B">Lygases</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Class 4 of enzymes.</explanation>
     </question>
@@ -1719,8 +1336,7 @@
       <text>Pressure difference across a spherical liquid drop is ____.</text>
       <option id="A">2T / R</option>
       <option id="B">4T / R</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Excess pressure inside drop.</explanation>
     </question>
@@ -1728,8 +1344,7 @@
       <text>Glandular tissue in Earthworm segments 14-16 is ____.</text>
       <option id="A">Clitellum</option>
       <option id="B">Setae</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Secretes of cocoon material.</explanation>
     </question>
@@ -1737,35 +1352,16 @@
       <text>Consolidation of short-term memory to long-term occurs in ____.</text>
       <option id="A">Hippocampus</option>
       <option id="B">Hypothalamus</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Part of limbic system.</explanation>
     </question>
-    <question>
-      <text>Question 64 (Medium) on Evolution: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 64 regarding Evolution.</explanation>
-    </question>
-    <question>
-      <text>Question 6 (Easy) on Principles of Inheritance and Variation: Basic definition and concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 6 regarding Principles of Inheritance and Variation.</explanation>
-    </question>
+
     <question>
       <text>Isomerism in Alkanes starts from ____ carbons.</text>
       <option id="A">4 (Butane)</option>
       <option id="B">1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Methane, Ethane, Propane are unique.</explanation>
     </question>
@@ -1773,26 +1369,17 @@
       <text>Centric fusion (Robertsonian) leads to ____.</text>
       <option id="A">Decrease in chromosome number</option>
       <option id="B">Increase</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Two chromosomes fuse into one.</explanation>
     </question>
-    <question>
-      <text>Question 51 (Medium) on Strategies for Enhancement in Food Production: Application of concepts.</text>
-      <option id="A">Option A (Correct)</option>
-      <option id="B">Option B</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
-      <answer>A</answer>
-      <explanation>Educational explanation for question 51 regarding Strategies for Enhancement in Food Production.</explanation>
-    </question>
+    
     <question>
       <text>Fractional oxidation state of Fe in Fe3O4 is ____.</text>
       <option id="A">+8/3</option>
       <option id="B">+2</option>
       <option id="C">+3</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Average of one Fe(II) and two Fe(III).</explanation>
     </question>
@@ -1800,8 +1387,7 @@
       <text>Ear is divided into three sections: External, Middle and ____.</text>
       <option id="A">Inner</option>
       <option id="B">Tympanic</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Performs functions of hearing and balance.</explanation>
     </question>

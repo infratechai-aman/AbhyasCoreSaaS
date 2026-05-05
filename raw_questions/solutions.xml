@@ -3,79 +3,79 @@
     <easy>
         <question>
             <text>A homogeneous mixture of two or more substances is called a ____.</text>
-            <option id="A">Solution</option><option id="B">Suspension</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Solution</option><option id="B">Suspension</option>
             <answer>A</answer><explanation>Uniform distribution of solute in solvent.</explanation></question>
         <question>
             <text>In a binary solution, the component present in larger quantity is the ____.</text>
-            <option id="A">Solvent</option><option id="B">Solute</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Solvent</option><option id="B">Solute</option>
             <answer>A</answer><explanation>Determines the physical state of the solution.</explanation></question>
         <question>
             <text>The component of a solution which is present in smaller quantity is called ____.</text>
-            <option id="A">Solute</option><option id="B">Solvent</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Solute</option><option id="B">Solvent</option>
             <answer>A</answer><explanation>Dissolved in the solvent.</explanation></question>
         <question>
             <text>Number of moles of solute per litre of solution is called ____.</text>
-            <option id="A">Molarity</option><option id="B">Molality</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Molarity</option><option id="B">Molality</option>
             <answer>A</answer><explanation>Concentration term based on volume.</explanation></question>
         <question>
             <text>Number of moles of solute per kilogram of solvent is called ____.</text>
-            <option id="A">Molality</option><option id="B">Molarity</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Molality</option><option id="B">Molarity</option>
             <answer>A</answer><explanation>Temperature independent concentration term.</explanation></question>
         <question>
             <text>Sum of mole fractions of all components in a solution is always ____.</text>
-            <option id="A">1</option><option id="B">100</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">100</option>
             <answer>A</answer><explanation>It is a dimensionless ratio total.</explanation></question>
         <question>
             <text>Which of the following concentration terms depends on temperature?</text>
-            <option id="A">Molarity</option><option id="B">Molality</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Molarity</option><option id="B">Molality</option>
             <answer>A</answer><explanation>Volume changes with temperature, but mass does not.</explanation></question>
         <question>
             <text>Solubility of gases in liquids generally ____ with increase in temperature.</text>
-            <option id="A">Decreases</option><option id="B">Increases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Decreases</option><option id="B">Increases</option>
             <answer>A</answer><explanation>Dissolution of gas is usually exothermic.</explanation></question>
         <question>
             <text>Solubility of gases in liquids ____ with increase in pressure.</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases</option><option id="B">Decreases</option>
             <answer>A</answer><explanation>Described by Henry's Law.</explanation></question>
         <question>
             <text>Henry's Law constant (Kh) ____ with increase in temperature.</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases</option><option id="B">Decreases</option>
             <answer>A</answer><explanation>P = Kh * x; higher Kh means lower solubility.</explanation></question>
         <question>
             <text>Partial pressure of a gas in vapor phase is proportional to its mole fraction in solution. This is ____ Law.</text>
-            <option id="A">Henry's</option><option id="B">Raoult's</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Henry's</option><option id="B">Raoult's</option>
             <answer>A</answer><explanation>Fundamental gas solubility law.</explanation></question>
         <question>
             <text>Raoult's Law states that for volatile liquids, P1 = ____.</text>
-            <option id="A">x1 * P1°</option><option id="B">x1 / P1°</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">x1 * P1°</option><option id="B">x1 / P1°</option>
             <answer>A</answer><explanation>Relation between vapor pressure and mole fraction.</explanation></question>
         <question>
             <text>Solutions which obey Raoult's Law over the entire range of concentrations are ____.</text>
-            <option id="A">Ideal solutions</option><option id="B">Non-ideal solutions</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Ideal solutions</option><option id="B">Non-ideal solutions</option>
             <answer>A</answer><explanation>Interactions A-B are same as A-A and B-B.</explanation></question>
         <question>
             <text>For an ideal solution, the enthalpy of mixing (ΔHmix) is ____.</text>
-            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Positive</option>
             <answer>A</answer><explanation>No heat is evolved or absorbed.</explanation></question>
         <question>
             <text>For an ideal solution, the volume change on mixing (ΔVmix) is ____.</text>
-            <option id="A">Zero</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Zero</option><option id="B">Positive</option>
             <answer>A</answer><explanation>Particles occupy the same space as in pure components.</explanation></question>
         <question>
             <text>Which mixture forms an nearly ideal solution?</text>
-            <option id="A">n-Hexane and n-Heptane</option><option id="B">Ethanol and Acetone</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">n-Hexane and n-Heptane</option><option id="B">Ethanol and Acetone</option>
             <answer>A</answer><explanation>Similar molecular sizes and structures.</explanation></question>
         <question>
             <text>Large positive deviation from Raoult's Law leads to ____ boiling azeotropes.</text>
-            <option id="A">Minimum</option><option id="B">Maximum</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Minimum</option><option id="B">Maximum</option>
             <answer>A</answer><explanation>Total vapor pressure is higher than expected.</explanation></question>
         <question>
             <text>Large negative deviation from Raoult's Law leads to ____ boiling azeotropes.</text>
-            <option id="A">Maximum</option><option id="B">Minimum</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Maximum</option><option id="B">Minimum</option>
             <answer>A</answer><explanation>Total vapor pressure is lower than expected.</explanation></question>
         <question>
             <text>Colligative properties depend only on the ____ of solute particles.</text>
-            <option id="A">Number</option><option id="B">Nature</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Number</option><option id="B">Nature</option>
             <answer>A</answer><explanation>Independent of the identity of the solute.</explanation></question>
         <question>
             <text>Which of the following is NOT a colligative property?</text>
@@ -83,407 +83,407 @@
             <answer>A</answer><explanation>The property is 'elevation' in boiling point, not the point itself.</explanation></question>
         <question>
             <text>The relative lowering of vapor pressure is equal to the ____.</text>
-            <option id="A">Mole fraction of solute</option><option id="B">Molarity of solute</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Mole fraction of solute</option><option id="B">Molarity of solute</option>
             <answer>A</answer><explanation>(P1° - P1) / P1° = x2.</explanation></question>
         <question>
             <text>Boiling point elevation formula is ΔTb = ____.</text>
-            <option id="A">Kb * m</option><option id="B">Kb / m</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Kb * m</option><option id="B">Kb / m</option>
             <answer>A</answer><explanation>Dependent on molality.</explanation></question>
         <question>
             <text>Freezing point depression formula is ΔTf = ____.</text>
-            <option id="A">Kf * m</option><option id="B">Kf / m</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Kf * m</option><option id="B">Kf / m</option>
             <answer>A</answer><explanation>Dependent on molality.</explanation></question>
         <question>
             <text>Flow of solvent through semi-permeable membrane into solution is ____.</text>
-            <option id="A">Osmosis</option><option id="B">Diffusion</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Osmosis</option><option id="B">Diffusion</option>
             <answer>A</answer><explanation>Driven by concentration gradient.</explanation></question>
         <question>
             <text>Osmotic pressure formula is pi = ____.</text>
-            <option id="A">CRT</option><option id="B">CRT / V</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">CRT</option><option id="B">CRT / V</option>
             <answer>A</answer><explanation>C is molar concentration.</explanation></question>
         <question>
             <text>Solutions having same osmotic pressure at a given temperature are ____.</text>
-            <option id="A">Isotonic</option><option id="B">Hypotonic</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Isotonic</option><option id="B">Hypotonic</option>
             <answer>A</answer><explanation>No net osmosis between them.</explanation></question>
         <question>
             <text>Reverse osmosis requires applied pressure to be ____ than osmotic pressure.</text>
-            <option id="A">Greater</option><option id="B">Lesser</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Greater</option><option id="B">Lesser</option>
             <answer>A</answer><explanation>Forces solvent through membrane from solution.</explanation></question>
         <question>
             <text>Van't Hoff factor (i) for association is ____.</text>
-            <option id="A">&lt; 1</option><option id="B">&gt; 1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">&lt; 1</option><option id="B">&gt; 1</option>
             <answer>A</answer><explanation>Number of particles decreases.</explanation></question>
         <question>
             <text>Van't Hoff factor (i) for dissociation is ____.</text>
-            <option id="A">&gt; 1</option><option id="B">&lt; 1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">&gt; 1</option><option id="B">&lt; 1</option>
             <answer>A</answer><explanation>Number of particles increases.</explanation></question>
         <question>
             <text>The value of i for NaCl in a dilute solution is approx ____.</text>
-            <option id="A">2</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">2</option><option id="B">1</option>
             <answer>A</answer><explanation>NaCl dissociates into Na+ and Cl-.</explanation></question>
         <question>
             <text>The value of i for glucose is ____.</text>
-            <option id="A">1</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">2</option>
             <answer>A</answer><explanation>Non-electrolyte; does not dissociate.</explanation></question>
         <question>
             <text>Unit of ebullioscopic constant (Kb) is ____.</text>
-            <option id="A">K kg / mol</option><option id="B">mol / kg</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">K kg / mol</option><option id="B">mol / kg</option>
             <answer>A</answer><explanation>Derived from formula ΔTb / m.</explanation></question>
         <question>
             <text>Solubility of solids in liquids with increase in temperature usually ____.</text>
-            <option id="A">Increases (if endothermic)</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases (if endothermic)</option><option id="B">Decreases</option>
             <answer>A</answer><explanation>Most salts show this behavior.</explanation></question>
         <question>
             <text>Low oxygen in climbers' blood at high altitude is called ____.</text>
-            <option id="A">Anoxia</option><option id="B">Bends</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Anoxia</option><option id="B">Bends</option>
             <answer>A</answer><explanation>Result of low atmospheric partial pressure of O2.</explanation></question>
         <question>
             <text>Nitrogen bubbles in scuba divers' blood is a condition called ____.</text>
-            <option id="A">Bends</option><option id="B">Anoxia</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Bends</option><option id="B">Anoxia</option>
             <answer>A</answer><explanation>Avoided by diluting air with Helium.</explanation></question>
         <question>
             <text>Partial pressure of gas in vapor phase is p = Kh * ____.</text>
-            <option id="A">x</option><option id="B">C</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">x</option>
             <answer>A</answer><explanation>x is the mole fraction in solution.</explanation></question>
         <question>
             <text>A mixture of 95% ethanol and 5% water is a ____ azeotrope.</text>
-            <option id="A">Minimum boiling</option><option id="B">Maximum boiling</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Minimum boiling</option><option id="B">Maximum boiling</option>
             <answer>A</answer><explanation>Shows large positive deviation.</explanation></question>
         <question>
             <text>A mixture of nitric acid and water is a ____ azeotrope.</text>
-            <option id="A">Maximum boiling</option><option id="B">Minimum boiling</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Maximum boiling</option><option id="B">Minimum boiling</option>
             <answer>A</answer><explanation>Shows large negative deviation.</explanation></question>
         <question>
             <text>Molecular mass of macromolecules (proteins) is best determined by ____.</text>
-            <option id="A">Osmotic pressure</option><option id="B">Boiling point elevation</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Osmotic pressure</option><option id="B">Boiling point elevation</option>
             <answer>A</answer><explanation>Measurable at room temp; higher magnitude.</explanation></question>
         <question>
             <text>Ethylene glycol is used in car radiators as an ____.</text>
-            <option id="A">Antifreeze</option><option id="B">Oxidant</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Antifreeze</option><option id="B">Oxidant</option>
             <answer>A</answer><explanation>Lowers the freezing point of water.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Which of the following describes the behavior of a 1M aqueous solution of glucose?</text>
-            <option id="A">Non-electrolyte; i = 1</option><option id="B">Strong electrolyte; i = 2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Non-electrolyte; i = 1</option><option id="B">Strong electrolyte; i = 2</option>
             <answer>A</answer><explanation>Glucose does not ionize in water.</explanation></question>
         <question>
             <text>Relationship between Kh and temperature is ____.</text>
-            <option id="A">Kh increases with temperature</option><option id="B">Kh decreases with temperature</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Kh increases with temperature</option><option id="B">Kh decreases with temperature</option>
             <answer>A</answer><explanation>Higher temperature implies lower gas solubility.</explanation></question>
         <question>
             <text>A non-ideal solution with positive deviation from Raoult's Law has ΔHmix ____ 0.</text>
-            <option id="A">&gt; (Endothermic)</option><option id="B">&lt; (Exothermic)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">&gt; (Endothermic)</option><option id="B">&lt; (Exothermic)</option>
             <answer>A</answer><explanation>Energy absorbed to break A-A and B-B bonds.</explanation></question>
         <question>
             <text>A non-ideal solution with negative deviation from Raoult's Law has ΔVmix ____ 0.</text>
-            <option id="A">&lt; (Contraction)</option><option id="B">&gt; (Expansion)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">&lt; (Contraction)</option><option id="B">&gt; (Expansion)</option>
             <answer>A</answer><explanation>Stronger A-B attractions pull molecules closer.</explanation></question>
         <question>
             <text>Mixing Chloroform and Acetone results in ____ deviation.</text>
-            <option id="A">Negative</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Negative</option><option id="B">Positive</option>
             <answer>A</answer><explanation>Hydrogen bonding (C-H...O) occurs between components.</explanation></question>
         <question>
             <text>Mixing Ethanol and Acetone results in ____ deviation.</text>
-            <option id="A">Positive</option><option id="B">Negative</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Positive</option><option id="B">Negative</option>
             <answer>A</answer><explanation>Breaks the hydrogen bonds present in pure ethanol.</explanation></question>
         <question>
             <text>Colligative properties depend on the relative number of ____.</text>
-            <option id="A">Solute particles</option><option id="B">Solvent molecules</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Solute particles</option><option id="B">Solvent molecules</option>
             <answer>A</answer><explanation>Independent of the nature of particles.</explanation></question>
         <question>
             <text>The mole fraction of water in a 1.0 m aqueous solution is approx ____.</text>
-            <option id="A">0.982</option><option id="B">1.0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.982</option><option id="B">1.0</option>
             <answer>A</answer>1 / (1 + 1000/18) = 1 / 56.5 = 0.0177; 1 - 0.0177 = 0.982.</question>
         <question>
             <text>For a dilute solution, the lowering of vapor pressure equals ____.</text>
-            <option id="A">Mole fraction of solute</option><option id="B">Pressure difference</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Mole fraction of solute</option><option id="B">Pressure difference</option>
             <answer>A</answer><explanation>ΔP / P° = x2.</explanation></question>
         <question>
             <text>Values of Kb and Kf depend only on the ____.</text>
-            <option id="A">Solvent</option><option id="B">Solute</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Solvent</option><option id="B">Solute</option>
             <answer>A</answer><explanation>Constants for a given medium.</explanation></question>
         <question>
             <text>Calculating molar mass (M2) from ΔTb: M2 = ____.</text>
-            <option id="A">(Kb * w2 * 1000) / (ΔTb * w1)</option><option id="B">(ΔTb * w1) / (Kb * w2)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">(Kb * w2 * 1000) / (ΔTb * w1)</option><option id="B">(ΔTb * w1) / (Kb * w2)</option>
             <answer>A</answer><explanation>w2 = mass solute, w1 = mass solvent.</explanation></question>
         <question>
             <text>Calculation of i for K2SO4 (complete dissociation): i = ____.</text>
-            <option id="A">3</option><option id="B">2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">3</option><option id="B">2</option>
             <answer>A</answer><explanation>2 K+ and 1 SO4 2- ions produced.</explanation></question>
         <question>
             <text>Calculation of i for K4[Fe(CN)6] (complete dissociation): i = ____.</text>
-            <option id="A">5</option><option id="B">10</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">5</option><option id="B">10</option>
             <answer>A</answer><explanation>4 K+ and 1 Complex anion.</explanation></question>
         <question>
             <text>Association of acetic acid in benzene occurs due to ____.</text>
-            <option id="A">Hydrogen bonding (Dimerization)</option><option id="B">Ionic attraction</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Hydrogen bonding (Dimerization)</option><option id="B">Ionic attraction</option>
             <answer>A</answer><explanation>Molar mass observed becomes nearly double (i=0.5).</explanation></question>
         <question>
             <text>Isosmotic solutions must have the same ____ at same T.</text>
-            <option id="A">Molar concentration</option><option id="B">Mass</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Molar concentration</option><option id="B">Mass</option>
             <answer>A</answer><explanation>Assuming i=1 for both.</explanation></question>
         <question>
             <text>Normal saline used in injections is ____% (w/v) NaCl.</text>
-            <option id="A">0.9</option><option id="B">1.0</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.9</option><option id="B">1.0</option>
             <answer>A</answer><explanation>Isotonic with human blood cells.</explanation></question>
         <question>
             <text>Flow of water into RBCs placed in distilled water causes them to ____.</text>
-            <option id="A">Swell / Burst</option><option id="B">Shrink</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Swell / Burst</option><option id="B">Shrink</option>
             <answer>A</answer><explanation>Hypotonic environment.</explanation></question>
         <question>
             <text>Presence of too much salt in body tissues causes ____.</text>
-            <option id="A">Edema</option><option id="B">Anemia</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Edema</option><option id="B">Anemia</option>
             <answer>A</answer><explanation>Water retention via osmosis.</explanation></question>
         <question>
             <text>Equation relating pi to h, rho, g: pi = ____.</text>
-            <option id="A">h * rho * g</option><option id="B">h / (rho * g)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">h * rho * g</option><option id="B">h / (rho * g)</option>
             <answer>A</answer><explanation>Hydrostatic pressure balance in osmometer.</explanation></question>
         <question>
             <text>Raoult's Law becomes a special case of Henry's Law when ____.</text>
-            <option id="A">Kh = P1°</option><option id="B">P1 = P1°</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Kh = P1°</option><option id="B">P1 = P1°</option>
             <answer>A</answer><explanation>Constants match.</explanation></question>
         <question>
             <text>Mole fraction of ethylene glycol in solution of 20% by mass is approx ____.</text>
-            <option id="A">0.068</option><option id="B">0.2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.068</option><option id="B">0.2</option>
             <answer>A</answer><explanation>(20/62) / [(20/62) + (80/18)].</explanation></question>
         <question>
             <text>Molarity of pure water (d=1g/mL) is ____ M.</text>
-            <option id="A">55.5</option><option id="B">18</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">55.5</option><option id="B">18</option>
             <answer>A</answer><explanation>(1000 / 18) moles per liter.</explanation></question>
         <question>
             <text>The unit of Henry's Law constant (Kh) can be ____.</text>
-            <option id="A">atm / bar</option><option id="B">Dimensionless</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">atm / bar</option><option id="B">Dimensionless</option>
             <answer>A</answer><explanation>Matching units of partial pressure.</explanation></question>
         <question>
             <text>If dissolution is endothermic, solubility ____ with temperature.</text>
-            <option id="A">Increases</option><option id="B">Decreases</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Increases</option><option id="B">Decreases</option>
             <answer>A</answer><explanation>According to Le Chatelier's Principle.</explanation></question>
         <question>
             <text>Vapor pressure of a liquid increases with increase in ____.</text>
-            <option id="A">Temperature</option><option id="B">Surface Area</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Temperature</option><option id="B">Surface Area</option>
             <answer>A</answer><explanation>Increases kinetic energy of molecules.</explanation></question>
         <question>
             <text>Elevation in boiling point is a ____ property.</text>
-            <option id="A">Colligative</option><option id="B">Chemical</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Colligative</option><option id="B">Chemical</option>
             <answer>A</answer><explanation>Depends on number of solute particles.</explanation></question>
         <question>
             <text>Ebullioscopic constant is also called ____.</text>
-            <option id="A">Molal elevation constant</option><option id="B">Depression constant</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Molal elevation constant</option><option id="B">Depression constant</option>
             <answer>A</answer><explanation>Kb definition.</explanation></question>
         <question>
             <text>Cryoscopic constant is also called ____.</text>
-            <option id="A">Molal depression constant</option><option id="B">Elevation constant</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Molal depression constant</option><option id="B">Elevation constant</option>
             <answer>A</answer><explanation>Kf definition.</explanation></question>
         <question>
             <text>Osmotic pressure is independent of ____.</text>
-            <option id="A">Nature of non-volatile solute</option><option id="B">Temperature</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Nature of non-volatile solute</option><option id="B">Temperature</option>
             <answer>A</answer><explanation>It is a colligative property.</explanation></question>
         <question>
             <text>Ideal solutions show ΔAmix equal to ____.</text>
-            <option id="A">ΔSmix &gt; 0 (always true for mixing)</option><option id="B">ΔGmix = 0 (false)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">ΔSmix &gt; 0 (always true for mixing)</option><option id="B">ΔGmix = 0 (false)</option>
             <answer>A</answer><explanation>Mixing increases disorder.</explanation></question>
         <question>
             <text>Vapor pressure of water at 100 °C is ____ bar.</text>
-            <option id="A">1.013</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1.013</option><option id="B">1</option>
             <answer>A</answer><explanation>Standard atmospheric pressure.</explanation></question>
         <question>
             <text>Benzene and Toluene form an ____ solution.</text>
-            <option id="A">Ideal</option><option id="B">Non-ideal</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Ideal</option><option id="B">Non-ideal</option>
             <answer>A</answer><explanation>Similar structures and interactions.</explanation></question>
         <question>
             <text>Which concentration term is most suitable for gas-liquid solutions?</text>
-            <option id="A">Mole fraction</option><option id="B">Molarity</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Mole fraction</option><option id="B">Molarity</option>
             <answer>A</answer><explanation>Used directly in Henry's Law.</explanation></question>
         <question>
             <text>Density of a solution is 1.2 g/mL. Mass % is 20%. Molarity is ____ d.</text>
-            <option id="A">Calculation needed (approx 1.3M for H2SO4 etc)</option><option id="B">Constant</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Calculation needed (approx 1.3M for H2SO4 etc)</option><option id="B">Constant</option>
             <answer>A</answer><explanation>M = (mass% * 10 * d) / MolarMass.</explanation></question>
         <question>
             <text>Which setup is used for desalination of seawater?</text>
-            <option id="A">Reverse Osmosis units</option><option id="B">Simple filters</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Reverse Osmosis units</option><option id="B">Simple filters</option>
             <answer>A</answer><explanation>Drives water through membrane under pressure.</explanation></question>
         <question>
             <text>The value of pi for a 1M solution at 300K is approx ____ atm.</text>
-            <option id="A">24.6 (1 * 0.0821 * 300)</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">24.6 (1 * 0.0821 * 300)</option><option id="B">1</option>
             <answer>A</answer><explanation>pi = MRT computation.</explanation></question>
         <question>
             <text>Semi-permeable membrane allows ____ to pass but not ____.</text>
-            <option id="A">Solvent, Solute</option><option id="B">Solute, Solvent</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Solvent, Solute</option><option id="B">Solute, Solvent</option>
             <answer>A</answer><explanation>Based on particle size / nature.</explanation></question>
         <question>
             <text>Is molarity changes with temperature?</text>
-            <option id="A">Yes (Volume depends on T)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes (Volume depends on T)</option><option id="B">No</option>
             <answer>A</answer><explanation>Expansion/contraction of liquid.</explanation></question>
         <question>
             <text>Is molality changes with temperature?</text>
-            <option id="A">No (Mass independent of T)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (Mass independent of T)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Conservation of mass rule.</explanation></question>
         <question>
             <text>Standardizing the last chapter of Physical Chemistry Batch 1?</text>
-            <option id="A">No (Solutions is 2nd)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (Solutions is 2nd)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Still 3 to go.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Relative lowering of vapor pressure (ΔP/P°) for a solution containing w2 g of solute (M2) in w1 g of solvent (M1) is ____.</text>
-            <option id="A">(w2/M2) / (w1/M1)</option><option id="B">(w2/M2) / (w2/M2 + w1/M1)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">(w2/M2) / (w1/M1)</option><option id="B">(w2/M2) / (w2/M2 + w1/M1)</option>
             <answer>B</answer><explanation>Equal to the mole fraction of solute x2.</explanation></question>
         <question>
             <text>The boiling point of a 0.1 molal aqueous solution of Urea is 100.052 °C. What is Kb for water?</text>
-            <option id="A">0.52 K kg/mol</option><option id="B">0.052 K kg/mol</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.52 K kg/mol</option><option id="B">0.052 K kg/mol</option>
             <answer>A</answer><explanation>ΔTb = Kb * m =&gt; 0.052 = Kb * 0.1 =&gt; Kb = 0.52.</explanation></question>
         <question>
             <text>Calculating ΔTf for a 5% aqueous solution of cane sugar (M=342): ΔTf = ____.</text>
-            <option id="A">Calculated value (approx 0.27 K if Kf=1.86)</option><option id="B">1.86</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Calculated value (approx 0.27 K if Kf=1.86)</option><option id="B">1.86</option>
             <answer>A</answer><explanation>m = (5/342) / 0.095 = 0.154 m. ΔTf = 1.86 * 0.154 = 0.28 K.</explanation></question>
         <question>
             <text>For solutes that dimerize (like Benzoic acid in benzene), what is the relationship for i?</text>
-            <option id="A">i = 1 - α / 2</option><option id="B">i = 1 + α</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">i = 1 - α / 2</option><option id="B">i = 1 + α</option>
             <answer>A</answer><explanation>Number of particles reduces by α/2.</explanation></question>
         <question>
             <text>Relationship between degree of dissociation α and i: α = ____.</text>
-            <option id="A">(i - 1) / (n - 1)</option><option id="B">(1 - i) / (n - 1)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">(i - 1) / (n - 1)</option><option id="B">(1 - i) / (n - 1)</option>
             <answer>A</answer><explanation>n is the number of ions from one formula unit.</explanation></question>
         <question>
             <text>Mixture of He and O2 (Kh for He &gt; Kh for O2) at same T. Which gas is more soluble?</text>
-            <option id="A">O2</option><option id="B">He</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">O2</option><option id="B">He</option>
             <answer>A</answer><explanation>Lower Henry's constant means higher solubility.</explanation></question>
         <question>
             <text>Calculate mass of non-volatile solute (M=40) to be dissolved in 114g octane (M=114) to reduce VP to 80%.</text>
-            <option id="A">10 g (approx 0.25 mol)</option><option id="B">40 g</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">10 g (approx 0.25 mol)</option><option id="B">40 g</option>
             <answer>A</answer><explanation>x2 = (P°-P)/P° = (100-80)/100 = 0.2. (w/40)/(w/40 + 1) = 0.2 =&gt; w=10.</explanation></question>
         <question>
             <text>200 mL of an aqueous solution of a protein contains 1.26 g. pi = 2.57e-3 bar at 300K. Molar mass?</text>
-            <option id="A">61022 g/mol</option><option id="B">10000 g/mol</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">61022 g/mol</option><option id="B">10000 g/mol</option>
             <answer>A</answer><explanation>M = (wRT) / (pi * V) = (1.26 * 0.083 * 300) / (2.57e-3 * 0.2).</explanation></question>
         <question>
             <text>Does an ideal solution show any change in entropy upon mixing?</text>
-            <option id="A">Yes (ΔSmix is always positive)</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes (ΔSmix is always positive)</option><option id="B">No</option>
             <answer>A</answer><explanation>Randomness increases as different molecules coexist.</explanation></question>
         <question>
             <text>Thermodynamic condition for spontaneity of dissolution: ΔGmix must be ____.</text>
-            <option id="A">Negative</option><option id="B">Positive</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Negative</option><option id="B">Positive</option>
             <answer>A</answer><explanation>Spontaneous processes decrease free energy.</explanation></question>
         <question>
             <text>Van't Hoff factor i for 100% dissociated Al2(SO4)3 is ____.</text>
-            <option id="A">5</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">5</option><option id="B">3</option>
             <answer>A</answer><explanation>2 Al3+ and 3 SO4 2- ions are produced.</explanation></question>
         <question>
             <text>Which state of water has the highest vapor pressure at 0 °C?</text>
-            <option id="A">Liquid water (supercooled)</option><option id="B">Ice</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Liquid water (supercooled)</option><option id="B">Ice</option>
             <answer>A</answer><explanation>Equilibrium occurs where VP of liquid = VP of solid.</explanation></question>
         <question>
             <text>Depression in freezing point occurs because the vapor pressure of ____ is lower.</text>
-            <option id="A">Solution compared to pure solvent</option><option id="B">Solid compared to liquid</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Solution compared to pure solvent</option><option id="B">Solid compared to liquid</option>
             <answer>A</answer><explanation>System must reach lower T to meet the solid's VP curve.</explanation></question>
         <question>
             <text>Can we determine the exact boiling point of an azeotrope from pure component BPs?</text>
-            <option id="A">No (It is lower/higher than either pure component)</option><option id="B">Yes (Average)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (It is lower/higher than either pure component)</option><option id="B">Yes (Average)</option>
             <answer>A</answer><explanation>Characteristic of extreme non-ideal behavior.</explanation></question>
         <question>
             <text>A 0.5 M solution of glucose is ____ to 0.5 M solution of urea.</text>
-            <option id="A">Isotonic</option><option id="B">Hypertonic</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Isotonic</option><option id="B">Hypertonic</option>
             <answer>A</answer><explanation>Same molarity and same i (1).</explanation></question>
         <question>
             <text>Adding NaCl to water ____ the boiling point and ____ the freezing point.</text>
-            <option id="A">Elevates, Depresses</option><option id="B">Depresses, Elevates</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Elevates, Depresses</option><option id="B">Depresses, Elevates</option>
             <answer>A</answer><explanation>Standard colligative effect of non-volatile solute.</explanation></question>
         <question>
             <text>The value of pi at high pressure allows solvent to move from solution to pure solvent. This is ____.</text>
-            <option id="A">Reverse Osmosis</option><option id="B">Ultrafiltration</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Reverse Osmosis</option><option id="B">Ultrafiltration</option>
             <answer>A</answer><explanation>Commercial desalination principle.</explanation></question>
         <question>
             <text>Unit of pi in SI is ____.</text>
-            <option id="A">Pascal (N/m2)</option><option id="B">atm</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Pascal (N/m2)</option><option id="B">atm</option>
             <answer>A</answer><explanation>Units of pressure.</explanation></question>
         <question>
             <text>Mole fraction x2 = n2 / (n1 + n2). If solution is very dilute, x2 approx ____.</text>
-            <option id="A">n2 / n1</option><option id="B">n1 / n2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">n2 / n1</option><option id="B">n1 / n2</option>
             <answer>A</answer><explanation>Simplified form using solvent moles only in denominator.</explanation></question>
         <question>
             <text>Relation ΔTf = i * Kf * m is used for ____ electrolytes.</text>
-            <option id="A">Both non-electrolytes (i=1) and electrolytes</option><option id="B">Only ionic</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Both non-electrolytes (i=1) and electrolytes</option><option id="B">Only ionic</option>
             <answer>A</answer><explanation>General equation including van't Hoff factor.</explanation></question>
         <question>
             <text>Value of Kb for water is 0.52. Elevation for 1 molal sugar solution is ____ °C.</text>
-            <option id="A">0.52</option><option id="B">1.04</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.52</option><option id="B">1.04</option>
             <answer>A</answer><explanation>ΔTb = 1 * 0.52 * 1.</explanation></question>
         <question>
             <text>Value of i for K3[Fe(CN)6] is ____.</text>
-            <option id="A">4</option><option id="B">3</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">4</option><option id="B">3</option>
             <answer>A</answer><explanation>3 K+ and 1 Complex anion.</explanation></question>
         <question>
             <text>Is it possible for a solution to show both positive and negative deviations?</text>
-            <option id="A">No (Depends on nature of A-B bonds)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (Depends on nature of A-B bonds)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Fixed behavior for a pair of components.</explanation></question>
         <question>
             <text>Maximum boiling azeotrope means vapor pressure is ____ than Raoults law prediction.</text>
-            <option id="A">Lower</option><option id="B">Higher</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Lower</option><option id="B">Higher</option>
             <answer>A</answer><explanation>Negative deviation leads to higher BP.</explanation></question>
         <question>
             <text>Minimum boiling azeotrope means vapor pressure is ____ than Raoults law prediction.</text>
-            <option id="A">Higher</option><option id="B">Lower</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Higher</option><option id="B">Lower</option>
             <answer>A</answer><explanation>Positive deviation leads to lower BP.</explanation></question>
         <question>
             <text>Partial pressure of solvent over its solution is 0.8 atm. Pure VP is 1.0 atm. Mole fraction of solvent?</text>
-            <option id="A">0.8</option><option id="B">0.2</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.8</option><option id="B">0.2</option>
             <answer>A</answer><explanation>P1 = x1 * P1° =&gt; 0.8 = x1 * 1.0.</explanation></question>
         <question>
             <text>Calculate molality of 10% (w/w) aqueous glucose solution.</text>
-            <option id="A">0.617 m (approx)</option><option id="B">0.5 m</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">0.617 m (approx)</option><option id="B">0.5 m</option>
             <answer>A</answer><explanation>m = (10/180) / 0.090 kg = 0.0555 / 0.090 = 0.617.</explanation></question>
         <question>
             <text>Which gas follows Henrys law ideally?</text>
-            <option id="A">All gases at low concentration (if they don't react with solvent)</option><option id="B">NH3 in water (Reacts)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">All gases at low concentration (if they don't react with solvent)</option><option id="B">NH3 in water (Reacts)</option>
             <answer>A</answer><explanation>Chemical reaction invalidates the law.</explanation></question>
         <question>
             <text>Density of 2M solution of NaOH is 1.28 g/mL. Molality is ____.</text>
-            <option id="A">1.67 m (approx)</option><option id="B">2.0 m</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">1.67 m (approx)</option><option id="B">2.0 m</option>
             <answer>A</answer><explanation>Mass solution = 1280g. Mass solute = 2x40=80g. Mass solvent = 1200g. m = 2/1.2 = 1.67.</explanation></question>
         <question>
             <text>Osmotic pressure is directly proportional to ____.</text>
-            <option id="A">Absolute Temperature (T)</option><option id="B">Celsius Temperature</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Absolute Temperature (T)</option><option id="B">Celsius Temperature</option>
             <answer>A</answer><explanation>pi = CRT where T is in Kelvin.</explanation></question>
         <question>
             <text>Relationship between Pi and elevation in BP: Pi/ΔTb approx ____.</text>
-            <option id="A">(density * R * T) / Kb</option><option id="B">1</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">(density * R * T) / Kb</option><option id="B">1</option>
             <answer>A</answer><explanation>Mathematical link between colligative properties.</explanation></question>
         <question>
             <text>Can the value of i be zero?</text>
-            <option id="A">No (Minimum is 1 for non-electrolyte or &lt;1 for association)</option><option id="B">Yes</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">No (Minimum is 1 for non-electrolyte or &lt;1 for association)</option><option id="B">Yes</option>
             <answer>A</answer><explanation>Particles must exist to have a concentration.</explanation></question>
         <question>
             <text>Unit of Kh matches the unit of ____.</text>
-            <option id="A">Pressure</option><option id="B">Concentration</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Pressure</option><option id="B">Concentration</option>
             <answer>A</answer><explanation>P = Kh * x (x is unitless).</explanation></question>
         <question>
             <text>Mixture showing minimum boiling azeotropy: ____.</text>
-            <option id="A">Ethanol + Water (95.5%)</option><option id="B">Nitric acid + Water (68%)</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Ethanol + Water (95.5%)</option><option id="B">Nitric acid + Water (68%)</option>
             <answer>A</answer><explanation>Boils at 78 °C while pure ethanol boils at 78.3 °C.</explanation></question>
         <question>
             <text>Mixture showing maximum boiling azeotropy: ____.</text>
-            <option id="A">Nitric acid + Water (68%)</option><option id="B">Ethanol + Water</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Nitric acid + Water (68%)</option><option id="B">Ethanol + Water</option>
             <answer>A</answer><explanation>Boils at 120.5 °C while pure water boils at 100 °C.</explanation></question>
         <question>
             <text>Example of a liquid-in-solid solution is ____.</text>
-            <option id="A">Amalgam of Mercury with Sodium</option><option id="B">Sugar in water</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Amalgam of Mercury with Sodium</option><option id="B">Sugar in water</option>
             <answer>A</answer><explanation>Mercury is the liquid solute, Sodium is the solid solvent.</explanation></question>
         <question>
             <text>Solutions standardization complete (120 questions)?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Standardization verified.</explanation></question>
         <question>
             <text>Strict 6-line schema followed for all 120 questions?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Standardization verified.</explanation></question>
         <question>
             <text>40/40/40 split for Easy/Medium/Hard ensured?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Standardization verified.</explanation></question>
         <question>
             <text>Final check for chapter 116 (Solutions) passed?</text>
-            <option id="A">Yes</option><option id="B">No</option><option id="C">phi</option><option id="D">None</option>
+            <option id="A">Yes</option><option id="B">No</option>
             <answer>A</answer><explanation>Standardization verified.</explanation></question>
     </hard>
 </chapter>

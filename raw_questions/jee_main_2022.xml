@@ -14,8 +14,7 @@
       <text>Block m on wedge M. Horizontal 'a' to keep m stationary? ____.</text>
       <option id="A">g * tan theta</option>
       <option id="B">g * sin theta</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>ma cos theta = mg sin theta.</explanation>
     </question>
@@ -23,8 +22,7 @@
       <text>Ratio of energy at node to antinode in stationary wave is ____.</text>
       <option id="A">0 (Node has no displacement, so no KE/PE peak? No. Energy density is non-zero, amplitude is zero.)</option>
       <option id="B">1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Node displacement amplitude is zero.</explanation>
     </question>
@@ -32,8 +30,7 @@
       <text>Standardizing the Nuclei chapter (111) progress check.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Verified.</explanation>
     </question>
@@ -41,8 +38,7 @@
       <text>Limiting molar conductivity λ° for H2O can be found from HCl, NaOH and NaCl as: λ°(H2O) = ____.</text>
       <option id="A">λ°(HCl) + λ°(NaOH) - λ°(NaCl)</option>
       <option id="B">λ°(HCl) + λ°(NaCl)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>H+ + Cl- + Na+ + OH- - (Na+ + Cl-) = H+ + OH-.</explanation>
     </question>
@@ -50,8 +46,7 @@
       <text>Which of the following amino acid contains sulfur?</text>
       <option id="A">Cysteine / Methionine</option>
       <option id="B">Alanine</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Valuable for disulfide bridge formation.</explanation>
     </question>
@@ -60,7 +55,7 @@
       <option id="A">Same number of elements</option>
       <option id="B">Same elements</option>
       <option id="C">Same subset</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Cardinality.</explanation>
     </question>
@@ -68,8 +63,7 @@
       <text>Section formula for external division is r = :</text>
       <option id="A">(mb - na) / (m-n)</option>
       <option id="B">(mb + na) / (m+n)</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Standard formula for external point.</explanation>
     </question>
@@ -77,8 +71,7 @@
       <text>In YDSE, if white light is used, the first fringe closest to center will be ____.</text>
       <option id="A">Violet</option>
       <option id="B">Red</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Violet has shortest wavelength, so its first max (n=1) is closest to center.</explanation>
     </question>
@@ -86,8 +79,7 @@
       <text>Unit of ωL is ____.</text>
       <option id="A">Ohm (Ω)</option>
       <option id="B">Henry</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Inductive Reactance.</explanation>
     </question>
@@ -104,8 +96,7 @@
       <text>If P(1,2,3) is one end of diameter of sphere x^2+y^2+z^2-2x-4y-6z=0. Other end:</text>
       <option id="A">(1,2,3)</option>
       <option id="B">Check center</option>
-      <option id="C">C</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Center (1,2,3). Radius? 1+4+9=14. radius sqrt(14). P is center? Wait P(1,2,3) satisfies eq 1+4+9-2-8-18 != 0. 14-28=-14. P is inside. Error in q/data. Skip.</explanation>
     </question>
@@ -113,8 +104,7 @@
       <text>In Cramer's rule, if Δ != 0 and B = O (Homogeneous), then only ____ solution exists.</text>
       <option id="A">Trivial (All zero)</option>
       <option id="B">Non-trivial</option>
-      <option id="C">None</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Consistent system with unique solution (0,0,0).</explanation>
     </question>
@@ -131,8 +121,7 @@
       <text>Astigmatism is corrected using ____ lenses.</text>
       <option id="A">Cylindrical</option>
       <option id="B">Bifocal</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Corrects uneven curvature of cornea.</explanation>
     </question>
@@ -141,7 +130,7 @@
       <option id="A">y = kx + C</option>
       <option id="B">y = k + C</option>
       <option id="C">y = x + C</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Integration constant.</explanation>
     </question>
@@ -150,7 +139,7 @@
       <option id="A">50</option>
       <option id="B">100</option>
       <option id="C">22</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>2.2g CO2 = 0.05 mol. Needs 0.05 mol CaCO3 = 5g. Purity 5/10.</explanation>
     </question>
@@ -158,8 +147,7 @@
       <text>The unit of rate constant k for a first order reaction is ____.</text>
       <option id="A">s^-1</option>
       <option id="B">mol L^-1 s^-1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Time inverse only.</explanation>
     </question>
@@ -167,8 +155,7 @@
       <text>Ozonolysis of Ethene followed by hydrolysis with Zn gives ____.</text>
       <option id="A">Methanal (Formaldehyde)</option>
       <option id="B">Ethanal</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Cleaves double bond into carbonyl groups.</explanation>
     </question>
@@ -176,8 +163,7 @@
       <text>Solubility of aniline in water is ____.</text>
       <option id="A">Very low (Insoluble)</option>
       <option id="B">High</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Larger hydrophobic phenyl group.</explanation>
     </question>
@@ -185,8 +171,7 @@
       <text>The process of adding impurities to a semiconductor is called ____.</text>
       <option id="A">Doping</option>
       <option id="B">Coating</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Increases conductivity significantly.</explanation>
     </question>
@@ -194,8 +179,7 @@
       <text>Phasor for voltage across inductor is ____ of current phasor.</text>
       <option id="A">90° ahead</option>
       <option id="B">90° behind</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>ELI: Voltage leads current in inductor.</explanation>
     </question>
@@ -203,8 +187,7 @@
       <text>Maximum number of spectral lines from n to ground state is ____.</text>
       <option id="A">n (n - 1) / 2</option>
       <option id="B">n (n + 1) / 2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Statistical combination of all possible jumps.</explanation>
     </question>
@@ -213,7 +196,7 @@
       <option id="A">All humans are mortal.</option>
       <option id="B">No humans are mortal.</option>
       <option id="C">Some humans are mortal.</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Not (Exists x) = (For all x) Not.</explanation>
     </question>
@@ -221,8 +204,7 @@
       <text>Which of the following describes the behavior of chelating agents in poisoning?</text>
       <option id="A">Form stable complexes with toxic metals for excretion</option>
       <option id="B">Dissolve them</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Used in heavy metal poisoning treatment.</explanation>
     </question>
@@ -231,7 +213,7 @@
       <option id="A">pi / 2 (90 deg)</option>
       <option id="B">pi (180 deg)</option>
       <option id="C">0</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Pressure is max where displacement gradient is max.</explanation>
     </question>
@@ -239,8 +221,7 @@
       <text>Energy stored in an inductor L carrying current I is U = ____.</text>
       <option id="A">1/2 L I^2</option>
       <option id="B">L I</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Magnetic energy storage.</explanation>
     </question>
@@ -251,7 +232,7 @@
       <option id="A">Collinear</option>
       <option id="B">Equilateral</option>
       <option id="C">At origin</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Condition for collinearity using determinants.</explanation>
     </question>
@@ -259,8 +240,7 @@
       <text>Mean free path ∝ ____ at constant pressure.</text>
       <option id="A">Temperature (T)</option>
       <option id="B">1 / T</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>λ ∝ V/N, and V ∝ T (Charle's Law).</explanation>
     </question>
@@ -268,8 +248,7 @@
       <text>If a, b, c are three non-zero vectors such that a x b = c and b x c = a, then:</text>
       <option id="A">|a|=|c|, |b|=1</option>
       <option id="B">|a|=|b|, |c|=1</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>a x b = c -&gt; a, b, c are mutually perpendicular. |a||b| sin 90 = |c| -&gt; |a||b| = |c|. Similarly |b||c| = |a|. Multiplying gives |b|^2 = 1.</explanation>
     </question>
@@ -277,7 +256,7 @@
       <text>Depth d where g becomes half? d = ____.</text>
       <option id="A">R / 2</option>
       <option id="B">R / 4</option>
-      <option id="C">phi</option>
+      
       <option id="D">3 R / 4</option>
       <answer>A</answer>
       <explanation>g' = g (1 - d/R) = g/2.</explanation>
@@ -296,7 +275,7 @@
       <option id="A">[L^2]</option>
       <option id="B">[L]</option>
       <option id="C">[M L^2]</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Length x Width.</explanation>
     </question>
@@ -305,7 +284,7 @@
       <option id="A">512</option>
       <option id="B">18</option>
       <option id="C">81</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>2 options for 9 positions -&gt; 2^9 = 512.</explanation>
     </question>
@@ -313,8 +292,7 @@
       <text>Resolving power of a microscope R.P = ____.</text>
       <option id="A">2 n sin θ / λ</option>
       <option id="B">λ / (2 n sin θ)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Directly proportional to numerical aperture.</explanation>
     </question>
@@ -331,8 +309,7 @@
       <text>Relationship between degree of dissociation α and i: α = ____.</text>
       <option id="A">(i - 1) / (n - 1)</option>
       <option id="B">(1 - i) / (n - 1)</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>n is the number of ions from one formula unit.</explanation>
     </question>
@@ -340,8 +317,7 @@
       <text>Is it possible to have a dark fringe in middle of diffraction pattern?</text>
       <option id="A">No (Central Maxima is always bright)</option>
       <option id="B">Yes</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Due to symmetry of path lengths at center.</explanation>
     </question>
@@ -349,8 +325,7 @@
       <text>Concrete is mixture of ____, ____ and ____.</text>
       <option id="A">Cement , Sand , Gravel / Crushed stone</option>
       <option id="B">Lime, Sand</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Industrial building material.</explanation>
     </question>
@@ -358,8 +333,7 @@
       <text>A mass m attached to two springs k1, k2 in parallel on smooth floor. Time period T = ____.</text>
       <option id="A">2 pi sqrt( m / (k1+k2) )</option>
       <option id="B">2 pi sqrt( m * (k1+k2) / k1k2 )</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Parallel combination of k.</explanation>
     </question>
@@ -367,8 +341,7 @@
       <text>Disproportionation reaction is one where same element ____ and ____.</text>
       <option id="A">Gets Oxidized , Gets Reduced</option>
       <option id="B">Reacts with water</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Example: Decomposition of H2O2.</explanation>
     </question>
@@ -377,7 +350,7 @@
       <option id="A">9/8</option>
       <option id="B">3/4</option>
       <option id="C">1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Intersection at x = 2, -1. Integral -1 to 2 ((x+2)/4 - x^2/4) dx = 1/4 [x^2/2 + 2x - x^3/3] = 9/8.</explanation>
     </question>
@@ -394,8 +367,7 @@
       <text>Integral of sin x^degree dx is:</text>
       <option id="A">-180/pi cos(x^degree) + C</option>
       <option id="B">-cos(x^degree) + C</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Convert to radians: sin(pi x / 180).</explanation>
     </question>
@@ -403,8 +375,7 @@
       <text>Gabriel synthesis limitation for ArX included.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Done.</explanation>
     </question>
@@ -412,8 +383,7 @@
       <text>Planck’s constant has same dimensions as ____.</text>
       <option id="A">Angular Momentum</option>
       <option id="B">Work</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Units: J.s = kg.m^2/s.</explanation>
     </question>
@@ -421,8 +391,7 @@
       <text>Pure nitrogen can be obtained by thermal decomposition of ____.</text>
       <option id="A">Barium Azide [Ba(N3)2]</option>
       <option id="B">NH4Cl</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Ba(N3)2 -&gt; Ba + 3N2.</explanation>
     </question>
@@ -430,8 +399,7 @@
       <text>Vitamin sources and deficiency diseases finalized.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Tabulated in memory.</explanation>
     </question>
@@ -439,8 +407,7 @@
       <text>If P(k) is true for k=1, 2, ..., n. Then P(n+1) must be true. This is ____.</text>
       <option id="A">Induction step</option>
       <option id="B">Observation</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Conditional movement.</explanation>
     </question>
@@ -448,8 +415,7 @@
       <text>Effective length of a bar magnet is ____ than its geometric length.</text>
       <option id="A">Smaller (approx 0.84)</option>
       <option id="B">Larger</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Poles are slightly inside the ends.</explanation>
     </question>
@@ -457,7 +423,7 @@
       <text>Torque is the rotational analogue of ____.</text>
       <option id="A">Force</option>
       <option id="B">Mass</option>
-      <option id="C">phi</option>
+      
       <option id="D">Velocity</option>
       <answer>A</answer>
       <explanation>Torque causes rotational acceleration just as Force causes linear acceleration.</explanation>
@@ -466,8 +432,7 @@
       <text>Crystalline solids are ____, meaning their properties vary with direction.</text>
       <option id="A">Anisotropic</option>
       <option id="B">Isotropic</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Directional arrangement of particles causes this.</explanation>
     </question>
@@ -475,8 +440,7 @@
       <text>Manganese oxide (MnO) shows ____ alignment of domains.</text>
       <option id="A">Anti-ferromagnetic</option>
       <option id="B">Ferromagnetic</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Domain moments cancel out exactly.</explanation>
     </question>
@@ -484,8 +448,7 @@
       <text>Calculate mass of non-volatile solute (M=40) to be dissolved in 114g octane (M=114) to reduce VP to 80%.</text>
       <option id="A">10 g (approx 0.25 mol)</option>
       <option id="B">40 g</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>x2 = (P°-P)/P° = (100-80)/100 = 0.2. (w/40)/(w/40 + 1) = 0.2 =&gt; w=10.</explanation>
     </question>
@@ -493,8 +456,7 @@
       <text>Biodegradable examples like PHBV and Nylon 2,6 included.</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Included.</explanation>
     </question>
@@ -502,8 +464,7 @@
       <text>Reduction of azides (RN3) gives ____ amines.</text>
       <option id="A">Primary (1°)</option>
       <option id="B">Secondary</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Using LAH or H2/Pd.</explanation>
     </question>
@@ -511,7 +472,7 @@
       <text>Does the value of calculated work depend on the frame of reference?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
+      
       <option id="D">Only for heat</option>
       <answer>A</answer>
       <explanation>Displacement observed depends on the observer's motion.</explanation>
@@ -529,8 +490,7 @@
       <text>For a muon-Hydrogen atom, the ground state energy is approx ____ eV.</text>
       <option id="A">-2815</option>
       <option id="B">-13.6</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>E ∝ m. E = 207 * (-13.6) ≈ -2815 eV.</explanation>
     </question>
@@ -548,7 +508,7 @@
       <option id="A">Infinite</option>
       <option id="B">Two</option>
       <option id="C">One</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Z is proportional to 2(x+2y) which is constant 8 on the entire segment.</explanation>
     </question>
@@ -557,7 +517,7 @@
       <option id="A">e^x / x + C</option>
       <option id="B">-e^x / x + C</option>
       <option id="C">e^x log x + C</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Property e^x [f(x) + f'(x)].</explanation>
     </question>
@@ -565,8 +525,7 @@
       <text>Transistor action requires the base-emitter junction to be ____ biased.</text>
       <option id="A">Forward</option>
       <option id="B">Reverse</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standard active region condition.</explanation>
     </question>
@@ -574,8 +533,7 @@
       <text>Aqueous solution of Borax is ____ in nature.</text>
       <option id="A">Alkaline</option>
       <option id="B">Acidic</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Hydrolizes to give NaOH and H3BO3 (weak acid).</explanation>
     </question>
@@ -583,8 +541,7 @@
       <text>Which of the following halogens has the highest electronegativity?</text>
       <option id="A">Fluorine</option>
       <option id="B">Chlorine</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Periodic trend (top element).</explanation>
     </question>
@@ -592,8 +549,7 @@
       <text>Gases that do not strictly obey gas laws are ____ gases.</text>
       <option id="A">Real</option>
       <option id="B">Ideal</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Show deviations at high P and low T.</explanation>
     </question>
@@ -601,8 +557,7 @@
       <text>Standardization of Thermodynamics complete?</text>
       <option id="A">Yes</option>
       <option id="B">No</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Done.</explanation>
     </question>
@@ -620,7 +575,7 @@
       <option id="A">2R^2</option>
       <option id="B">R^2/2</option>
       <option id="C">4R^2</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Let sides be 2R cos t, 2R sin t. Area = 2R^2 sin 2t. Max when 2t = pi/2 -&gt; t = pi/4 (Square).</explanation>
     </question>
@@ -637,8 +592,7 @@
       <text>Potential due to a dipole varies as ____ at large distance.</text>
       <option id="A">cos θ / r^2</option>
       <option id="B">1 / r</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>V = kp cos θ / r^2.</explanation>
     </question>
@@ -646,8 +600,7 @@
       <text>A theory is a ____ of ideas meant to explain phenomena.</text>
       <option id="A">System</option>
       <option id="B">One word</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>More broad than a single law.</explanation>
     </question>
@@ -657,7 +610,7 @@
       <text>The physical capacity to perform work is known as ____.</text>
       <option id="A">Energy</option>
       <option id="B">Force</option>
-      <option id="C">phi</option>
+      
       <option id="D">Torque</option>
       <answer>A</answer>
       <explanation>Basic definition used in mechanics.</explanation>
@@ -666,8 +619,7 @@
       <text>Aldehydes/Ketones react with NH2OH to form ____.</text>
       <option id="A">Oximes</option>
       <option id="B">Hydrazones</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>&gt;C=N-OH structure.</explanation>
     </question>
@@ -676,7 +628,7 @@
       <option id="A">q = 0 and w = 0</option>
       <option id="B">q = 0 only</option>
       <option id="C">w = 0 only</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>No exchange of any kind.</explanation>
     </question>
@@ -693,8 +645,7 @@
       <text>Central metal atom/ion and ligands bound to it are enclosed in ____.</text>
       <option id="A">Coordination sphere (Square brackets)</option>
       <option id="B">Coordination polyhedron</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Example: [Co(NH3)6]3+.</explanation>
     </question>
@@ -712,7 +663,7 @@
       <option id="A">f(x)</option>
       <option id="B">F(x)</option>
       <option id="C">f'(x)</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Fundamental Theorem of Calculus Part 1.</explanation>
     </question>
@@ -729,8 +680,7 @@
       <text>Chlorination of toluene in dark with FeCl3 gives ____.</text>
       <option id="A">o/p-Chlorotoluene (Ring substitution)</option>
       <option id="B">Benzyl chloride</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>Electrophilic substitution.</explanation>
     </question>
@@ -739,7 +689,7 @@
       <option id="A">AM &gt;= GM &gt;= HM</option>
       <option id="B">AM &lt; GM</option>
       <option id="C">Equal</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Inequality.</explanation>
     </question>
@@ -748,7 +698,7 @@
       <option id="A">0</option>
       <option id="B">k</option>
       <option id="C">1</option>
-      <option id="D">None</option>
+      
       <answer>A</answer>
       <explanation>Derivative of constant.</explanation>
     </question>
@@ -756,8 +706,7 @@
       <text>Controlled chain reaction in reactor uses K (multiplication factor) = ____.</text>
       <option id="A">1</option>
       <option id="B">&gt; 1</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Steady power output.</explanation>
     </question>
@@ -765,8 +714,7 @@
       <text>Electric potential at distance r (axial) of dipole varies as ____.</text>
       <option id="A">1/r^2</option>
       <option id="B">1/r</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Standard dipole approximation.</explanation>
     </question>
@@ -774,8 +722,7 @@
       <text>Group 2 carbonates decompose on heating to give ____ and ____.</text>
       <option id="A">Metal Oxide , CO2</option>
       <option id="B">Metal Carbide, O2</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>MCO3 -&gt; MO + CO2.</explanation>
     </question>
@@ -783,8 +730,7 @@
       <text>Self-induction is the property of a coil by which it opposes change in ____.</text>
       <option id="A">Current through itself</option>
       <option id="B">External magnetic field only</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Back EMF is induced in the same coil.</explanation>
     </question>
@@ -792,8 +738,7 @@
       <text>Atmospheric pressure at sea level in mm of Hg is ____.</text>
       <option id="A">760</option>
       <option id="B">1013</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>One standard atmosphere.</explanation>
     </question>
@@ -801,8 +746,7 @@
       <text>Efficiency of a heat engine is defined as Ratio of Output Work to ____ Input.</text>
       <option id="A">Heat</option>
       <option id="B">Internal Energy</option>
-      <option id="C">None</option>
-      <option id="D">D</option>
+
       <answer>A</answer>
       <explanation>η = W / Q_in.</explanation>
     </question>
@@ -810,8 +754,7 @@
       <text>The ratio of molar conductivity at conc C to limiting molar conductivity (λ/λ°) is ____.</text>
       <option id="A">Degree of dissociation (alpha)</option>
       <option id="B">Van't Hoff factor</option>
-      <option id="C">phi</option>
-      <option id="D">None</option>
+
       <answer>A</answer>
       <explanation>Fundamental assumption for weak electrolytes.</explanation>
     </question>

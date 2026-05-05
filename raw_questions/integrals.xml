@@ -3,15 +3,15 @@
     <easy>
         <question>
             <text>Integration is the inverse process of:</text>
-            <option id="A">Differentiation</option><option id="B">Multiplication</option><option id="C">Addition</option><option id="D">None</option>
+            <option id="A">Differentiation</option><option id="B">Multiplication</option><option id="C">Addition</option>
             <answer>A</answer><explanation>Definition of integration.</explanation></question>
         <question>
             <text>Integral of x^n dx (where n != -1) is:</text>
-            <option id="A">x^{n+1}/(n+1) + C</option><option id="B">nx^{n-1} + C</option><option id="C">x^n + C</option><option id="D">None</option>
+            <option id="A">x^{n+1}/(n+1) + C</option><option id="B">nx^{n-1} + C</option><option id="C">x^n + C</option>
             <answer>A</answer><explanation>Standard power rule for integrals.</explanation></question>
         <question>
             <text>Integral of 1/x dx is:</text>
-            <option id="A">log |x| + C</option><option id="B">x^0 + C</option><option id="C">1 + C</option><option id="D">None</option>
+            <option id="A">log |x| + C</option><option id="B">x^0 + C</option><option id="C">1 + C</option>
             <answer>A</answer><explanation>Standard logarithmic integral.</explanation></question>
         <question>
             <text>Integral of sin x dx is:</text>
@@ -23,165 +23,165 @@
             <answer>A</answer><explanation>Standard trig integral.</explanation></question>
         <question>
             <text>Integral of e^x dx is:</text>
-            <option id="A">e^x + C</option><option id="B">xe^{x-1} + C</option><option id="C">log x + C</option><option id="D">None</option>
+            <option id="A">e^x + C</option><option id="B">xe^{x-1} + C</option><option id="C">log x + C</option>
             <answer>A</answer><explanation>Exponential integral property.</explanation></question>
         <question>
             <text>Integral of sec^2 x dx is:</text>
-            <option id="A">tan x + C</option><option id="B">cot x + C</option><option id="C">sec x + C</option><option id="D">None</option>
+            <option id="A">tan x + C</option><option id="B">cot x + C</option><option id="C">sec x + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of cosec^2 x dx is:</text>
-            <option id="A">-cot x + C</option><option id="B">cot x + C</option><option id="C">-tan x + C</option><option id="D">None</option>
+            <option id="A">-cot x + C</option><option id="B">cot x + C</option><option id="C">-tan x + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of sec x tan x dx is:</text>
-            <option id="A">sec x + C</option><option id="B">tan x + C</option><option id="C">sec^2 x + C</option><option id="D">None</option>
+            <option id="A">sec x + C</option><option id="B">tan x + C</option><option id="C">sec^2 x + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of cosec x cot x dx is:</text>
-            <option id="A">-cosec x + C</option><option id="B">cosec x + C</option><option id="C">cot x + C</option><option id="D">None</option>
+            <option id="A">-cosec x + C</option><option id="B">cosec x + C</option><option id="C">cot x + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of 1 / sqrt(1 - x^2) dx is:</text>
-            <option id="A">sin^{-1} x + C</option><option id="B">cos^{-1} x + C</option><option id="C">tan^{-1} x + C</option><option id="D">None</option>
+            <option id="A">sin^{-1} x + C</option><option id="B">cos^{-1} x + C</option><option id="C">tan^{-1} x + C</option>
             <answer>A</answer><explanation>Inverse trig integral.</explanation></question>
         <question>
             <text>Integral of 1 / (1 + x^2) dx is:</text>
-            <option id="A">tan^{-1} x + C</option><option id="B">sin^{-1} x + C</option><option id="C">cos^{-1} x + C</option><option id="D">None</option>
+            <option id="A">tan^{-1} x + C</option><option id="B">sin^{-1} x + C</option><option id="C">cos^{-1} x + C</option>
             <answer>A</answer><explanation>Inverse trig integral.</explanation></question>
         <question>
             <text>Integral of a^x dx is:</text>
-            <option id="A">a^x / log a + C</option><option id="B">a^x log a + C</option><option id="C">x a^{x-1} + C</option><option id="D">None</option>
+            <option id="A">a^x / log a + C</option><option id="B">a^x log a + C</option><option id="C">x a^{x-1} + C</option>
             <answer>A</answer><explanation>General exponential integral.</explanation></question>
         <question>
             <text>Integral of 1 / (x sqrt(x^2 - 1)) dx is:</text>
-            <option id="A">sec^{-1} x + C</option><option id="B">cosec^{-1} x + C</option><option id="C">cos^{-1} x + C</option><option id="D">None</option>
+            <option id="A">sec^{-1} x + C</option><option id="B">cosec^{-1} x + C</option><option id="C">cos^{-1} x + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of constant k dx is:</text>
-            <option id="A">kx + C</option><option id="B">k + C</option><option id="C">x + C</option><option id="D">None</option>
+            <option id="A">kx + C</option><option id="B">k + C</option><option id="C">x + C</option>
             <answer>A</answer><explanation>Basic property.</explanation></question>
         <question>
             <text>The constant 'C' in indefinite integrals is called:</text>
-            <option id="A">Arbitrary constant</option><option id="B">Fixed constant</option><option id="C">Variable</option><option id="D">None</option>
+            <option id="A">Arbitrary constant</option><option id="B">Fixed constant</option><option id="C">Variable</option>
             <answer>A</answer><explanation>Terminology.</explanation></question>
         <question>
             <text>Integral of [f(x) + g(x)] dx = :</text>
-            <option id="A">Integral f(x) dx + Integral g(x) dx</option><option id="B">Integral f(x) dx * Integral g(x) dx</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Integral f(x) dx + Integral g(x) dx</option><option id="B">Integral f(x) dx * Integral g(x) dx</option>
             <answer>A</answer><explanation>Additivity of integrals.</explanation></question>
         <question>
             <text>Integral of tan x dx is:</text>
-            <option id="A">log |sec x| + C</option><option id="B">sec^2 x + C</option><option id="C">-log |sec x| + C</option><option id="D">None</option>
+            <option id="A">log |sec x| + C</option><option id="B">sec^2 x + C</option><option id="C">-log |sec x| + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of cot x dx is:</text>
-            <option id="A">log |sin x| + C</option><option id="B">log |cos x| + C</option><option id="C">-cosec^2 x + C</option><option id="D">None</option>
+            <option id="A">log |sin x| + C</option><option id="B">log |cos x| + C</option><option id="C">-cosec^2 x + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of sec x dx is:</text>
-            <option id="A">log |sec x + tan x| + C</option><option id="B">log |sec x| + C</option><option id="C">tan x + C</option><option id="D">None</option>
+            <option id="A">log |sec x + tan x| + C</option><option id="B">log |sec x| + C</option><option id="C">tan x + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of cosec x dx is:</text>
-            <option id="A">log |cosec x - cot x| + C</option><option id="B">log |sec x| + C</option><option id="C">-cot x + C</option><option id="D">None</option>
+            <option id="A">log |cosec x - cot x| + C</option><option id="B">log |sec x| + C</option><option id="C">-cot x + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Definite integral from a to a of f(x) dx is:</text>
-            <option id="A">0</option><option id="B">f(a)</option><option id="C">2f(a)</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">f(a)</option><option id="C">2f(a)</option>
             <answer>A</answer><explanation>Integral over zero width interval is zero.</explanation></question>
         <question>
             <text>Definite integral from a to b of f(x) dx is the negative of:</text>
-            <option id="A">Integral from b to a of f(x) dx</option><option id="B">Integral from a to b of -f(x) dx</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">Integral from b to a of f(x) dx</option><option id="B">Integral from a to b of -f(x) dx</option>
             <answer>A</answer><explanation>Property of limits swap.</explanation></question>
         <question>
             <text>Integral of 1 / (x^2 - a^2) dx is:</text>
-            <option id="A">1/2a log |(x-a)/(x+a)| + C</option><option id="B">1/a tan^{-1}(x/a) + C</option><option id="C">sin^{-1}(x/a) + C</option><option id="D">None</option>
+            <option id="A">1/2a log |(x-a)/(x+a)| + C</option><option id="B">1/a tan^{-1}(x/a) + C</option><option id="C">sin^{-1}(x/a) + C</option>
             <answer>A</answer><explanation>Special integral formula.</explanation></question>
         <question>
             <text>Integral of 1 / (a^2 - x^2) dx is:</text>
-            <option id="A">1/2a log |(a+x)/(a-x)| + C</option><option id="B">1/2a log |(x-a)/(x+a)| + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1/2a log |(a+x)/(a-x)| + C</option><option id="B">1/2a log |(x-a)/(x+a)| + C</option>
             <answer>A</answer><explanation>Special integral formula.</explanation></question>
         <question>
             <text>Integral of 1 / sqrt(x^2 - a^2) dx is:</text>
-            <option id="A">log |x + sqrt(x^2 - a^2)| + C</option><option id="B">sin^{-1}(x/a) + C</option><option id="C">cos^{-1}(x/a) + C</option><option id="D">None</option>
+            <option id="A">log |x + sqrt(x^2 - a^2)| + C</option><option id="B">sin^{-1}(x/a) + C</option><option id="C">cos^{-1}(x/a) + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Integral of 1 / sqrt(x^2 + a^2) dx is:</text>
-            <option id="A">log |x + sqrt(x^2 + a^2)| + C</option><option id="B">tan^{-1}(x/a) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">log |x + sqrt(x^2 + a^2)| + C</option><option id="B">tan^{-1}(x/a) + C</option>
             <answer>A</answer><explanation>Standard formula.</explanation></question>
         <question>
             <text>Fundamental Theorem of Calculus Part 2: Integral a to b of f(x) dx = :</text>
-            <option id="A">F(b) - F(a)</option><option id="B">F(a) - F(b)</option><option id="C">f(b) - f(a)</option><option id="D">None</option>
+            <option id="A">F(b) - F(a)</option><option id="B">F(a) - F(b)</option><option id="C">f(b) - f(a)</option>
             <answer>A</answer><explanation>Evaluation of definite integrals using antiderivatives.</explanation></question>
         <question>
             <text>Substitution x = a sin theta is used for integrals involving:</text>
-            <option id="A">sqrt(a^2 - x^2)</option><option id="B">sqrt(a^2 + x^2)</option><option id="C">sqrt(x^2 - a^2)</option><option id="D">None</option>
+            <option id="A">sqrt(a^2 - x^2)</option><option id="B">sqrt(a^2 + x^2)</option><option id="C">sqrt(x^2 - a^2)</option>
             <answer>A</answer><explanation>Trig substitution rule.</explanation></question>
         <question>
             <text>Integration by parts: Integral u v dx = :</text>
-            <option id="A">u * Integral v dx - Integral (u' * Integral v dx) dx</option><option id="B">u' v + u v'</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">u * Integral v dx - Integral (u' * Integral v dx) dx</option><option id="B">u' v + u v'</option>
             <answer>A</answer><explanation>Standard product rule for integration.</explanation></question>
         <question>
             <text>Integral of 0 dx is:</text>
-            <option id="A">Constant C</option><option id="B">0</option><option id="C">x</option><option id="D">None</option>
+            <option id="A">Constant C</option><option id="B">0</option><option id="C">x</option>
             <answer>A</answer><explanation>Derivative of constant is zero.</explanation></question>
         <question>
             <text>If f(x) is even, Integral from -a to a of f(x) dx is:</text>
-            <option id="A">2 * Integral from 0 to a of f(x) dx</option><option id="B">0</option><option id="C">Integral from 0 to a of f(x) dx</option><option id="D">None</option>
+            <option id="A">2 * Integral from 0 to a of f(x) dx</option><option id="B">0</option><option id="C">Integral from 0 to a of f(x) dx</option>
             <answer>A</answer><explanation>Symmetry property for even functions.</explanation></question>
         <question>
             <text>If f(x) is odd, Integral from -a to a of f(x) dx is:</text>
-            <option id="A">0</option><option id="B">2 * Integral from 0 to a of f(x) dx</option><option id="C">f(a)</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">2 * Integral from 0 to a of f(x) dx</option><option id="C">f(a)</option>
             <answer>A</answer><explanation>Symmetry property for odd functions.</explanation></question>
         <question>
             <text>The ILATE rule is used to select ____ in integration by parts.</text>
-            <option id="A">First function (u)</option><option id="B">Second function (v)</option><option id="C">Limits</option><option id="D">None</option>
+            <option id="A">First function (u)</option><option id="B">Second function (v)</option><option id="C">Limits</option>
             <answer>A</answer><explanation>Preference order: Inverse, Log, Algebric, Trig, Exp.</explanation></question>
         <question>
             <text>Integral of 1 / sqrt(a^2 - x^2) dx is:</text>
-            <option id="A">sin^{-1}(x/a) + C</option><option id="B">1/a sin^{-1}(x/a) + C</option><option id="C">cos^{-1}(x/a) + C</option><option id="D">None</option>
+            <option id="A">sin^{-1}(x/a) + C</option><option id="B">1/a sin^{-1}(x/a) + C</option><option id="C">cos^{-1}(x/a) + C</option>
             <answer>A</answer><explanation>Standard inverse trig formula.</explanation></question>
         <question>
             <text>Integral of e^x [f(x) + f'(x)] dx is:</text>
-            <option id="A">e^x f(x) + C</option><option id="B">e^x + f(x) + C</option><option id="C">f(x) + C</option><option id="D">None</option>
+            <option id="A">e^x f(x) + C</option><option id="B">e^x + f(x) + C</option><option id="C">f(x) + C</option>
             <answer>A</answer><explanation>Special property of exponential integration.</explanation></question>
         <question>
             <text>Value of h in limit of sum definition of integral:</text>
-            <option id="A">(b - a) / n</option><option id="B">(a - b) / n</option><option id="C">n / (b - a)</option><option id="D">None</option>
+            <option id="A">(b - a) / n</option><option id="B">(a - b) / n</option><option id="C">n / (b - a)</option>
             <answer>A</answer><explanation>Step size calculation.</explanation></question>
         <question>
             <text>In partial fraction, if factor is (x - a)^2, we use:</text>
-            <option id="A">A/(x-a) + B/(x-a)^2</option><option id="B">A/(x-a) + B</option><option id="C">Ax+B / (x-a)^2</option><option id="D">None</option>
+            <option id="A">A/(x-a) + B/(x-a)^2</option><option id="B">A/(x-a) + B</option><option id="C">Ax+B / (x-a)^2</option>
             <answer>A</answer><explanation>Rule for repeated linear factors.</explanation></question>
         <question>
             <text>Integration of absolute value |x| from -1 to 1 is:</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option><option id="C">2</option>
             <answer>A</answer><explanation>Sum of areas of two triangles (1/2 + 1/2).</explanation></question>
         <question>
             <text>Derivative of integral a to x of f(t) dt is:</text>
-            <option id="A">f(x)</option><option id="B">F(x)</option><option id="C">f'(x)</option><option id="D">None</option>
+            <option id="A">f(x)</option><option id="B">F(x)</option><option id="C">f'(x)</option>
             <answer>A</answer><explanation>Fundamental Theorem of Calculus Part 1.</explanation></question>
     </easy>
     <medium>
         <question>
             <text>Evaluate integral of log x dx:</text>
-            <option id="A">x log x - x + C</option><option id="B">1/x + C</option><option id="C">x log x + C</option><option id="D">None</option>
+            <option id="A">x log x - x + C</option><option id="B">1/x + C</option><option id="C">x log x + C</option>
             <answer>A</answer><explanation>By parts: u=log x, v=1.</explanation></question>
         <question>
             <text>Integral of sin^2 x dx is:</text>
-            <option id="A">x/2 - (sin 2x)/4 + C</option><option id="B">x/2 + (sin 2x)/4 + C</option><option id="C">-cos^2 x + C</option><option id="D">None</option>
+            <option id="A">x/2 - (sin 2x)/4 + C</option><option id="B">x/2 + (sin 2x)/4 + C</option><option id="C">-cos^2 x + C</option>
             <answer>A</answer><explanation>Use identity: sin^2 x = (1 - cos 2x)/2.</explanation></question>
         <question>
             <text>Integral of cos^2 x dx is:</text>
-            <option id="A">x/2 + (sin 2x)/4 + C</option><option id="B">x/2 - (sin 2x)/4 + C</option><option id="C">sin^2 x + C</option><option id="D">None</option>
+            <option id="A">x/2 + (sin 2x)/4 + C</option><option id="B">x/2 - (sin 2x)/4 + C</option><option id="C">sin^2 x + C</option>
             <answer>A</answer><explanation>Use identity: cos^2 x = (1 + cos 2x)/2.</explanation></question>
         <question>
             <text>Integral of x e^x dx is:</text>
-            <option id="A">e^x (x - 1) + C</option><option id="B">e^x (x + 1) + C</option><option id="C">x e^x + C</option><option id="D">None</option>
+            <option id="A">e^x (x - 1) + C</option><option id="B">e^x (x + 1) + C</option><option id="C">x e^x + C</option>
             <answer>A</answer><explanation>By parts: u=x, v=e^x.</explanation></question>
         <question>
             <text>Evaluate Integral 1 / (x^2 + 2x + 2) dx:</text>
-            <option id="A">tan^{-1}(x+1) + C</option><option id="B">log |x^2+2x+2| + C</option><option id="C">tan^{-1} x + C</option><option id="D">None</option>
+            <option id="A">tan^{-1}(x+1) + C</option><option id="B">log |x^2+2x+2| + C</option><option id="C">tan^{-1} x + C</option>
             <answer>A</answer><explanation>Complete the square: (x+1)^2 + 1.</explanation></question>
         <question>
             <text>Find Integral from 0 to pi/2 of sin x / (sin x + cos x) dx:</text>
@@ -189,107 +189,107 @@
             <answer>A</answer><explanation>Use property: Integral f(x) = Integral f(a-x). 2I = Integral 1 dx = pi/2.</explanation></question>
         <question>
             <text>Integral of tan^2 x dx is:</text>
-            <option id="A">tan x - x + C</option><option id="B">tan x + x + C</option><option id="C">sec^2 x + C</option><option id="D">None</option>
+            <option id="A">tan x - x + C</option><option id="B">tan x + x + C</option><option id="C">sec^2 x + C</option>
             <answer>A</answer><explanation>Use identity: tan^2 x = sec^2 x - 1.</explanation></question>
         <question>
             <text>Integral of cot^2 x dx is:</text>
-            <option id="A">-cot x - x + C</option><option id="B">-cot x + x + C</option><option id="C">cosec^2 x + C</option><option id="D">None</option>
+            <option id="A">-cot x - x + C</option><option id="B">-cot x + x + C</option><option id="C">cosec^2 x + C</option>
             <answer>A</answer><explanation>Use identity: cot^2 x = cosec^2 x - 1.</explanation></question>
         <question>
             <text>Integral of 1 / (x log x) dx is:</text>
-            <option id="A">log |log x| + C</option><option id="B">1 / (log x)^2 + C</option><option id="C">log x + C</option><option id="D">None</option>
+            <option id="A">log |log x| + C</option><option id="B">1 / (log x)^2 + C</option><option id="C">log x + C</option>
             <answer>A</answer><explanation>Substitution u = log x, du = 1/x dx.</explanation></question>
         <question>
             <text>Integral of e^{sin x} cos x dx is:</text>
-            <option id="A">e^{sin x} + C</option><option id="B">e^{cos x} + C</option><option id="C">cos x e^{sin x} + C</option><option id="D">None</option>
+            <option id="A">e^{sin x} + C</option><option id="B">e^{cos x} + C</option><option id="C">cos x e^{sin x} + C</option>
             <answer>A</answer><explanation>Substitution u = sin x.</explanation></question>
         <question>
             <text>Integral from 2 to 3 of 1/x dx is:</text>
-            <option id="A">log(3/2)</option><option id="B">log(5)</option><option id="C">log(1)</option><option id="D">None</option>
+            <option id="A">log(3/2)</option><option id="B">log(5)</option><option id="C">log(1)</option>
             <answer>A</answer><explanation>log 3 - log 2 = log(3/2).</explanation></question>
         <question>
             <text>Integral of 1 / (x^2 - 9) dx is:</text>
-            <option id="A">1/6 log |(x-3)/(x+3)| + C</option><option id="B">1/3 log |(x-3)/(x+3)| + C</option><option id="C">1/3 tan^{-1}(x/3) + C</option><option id="D">None</option>
+            <option id="A">1/6 log |(x-3)/(x+3)| + C</option><option id="B">1/3 log |(x-3)/(x+3)| + C</option><option id="C">1/3 tan^{-1}(x/3) + C</option>
             <answer>A</answer><explanation>Formula 1/2a log |(x-a)/(x+a)|.</explanation></question>
         <question>
             <text>Integral of 1 / (9 + x^2) dx is:</text>
-            <option id="A">1/3 tan^{-1}(x/3) + C</option><option id="B">tan^{-1}(x/3) + C</option><option id="C">1/9 tan^{-1}(x) + C</option><option id="D">None</option>
+            <option id="A">1/3 tan^{-1}(x/3) + C</option><option id="B">tan^{-1}(x/3) + C</option><option id="C">1/9 tan^{-1}(x) + C</option>
             <answer>A</answer><explanation>Formula 1/a tan^{-1}(x/a).</explanation></question>
         <question>
             <text>Integral from 0 to 1 of x / (x^2 + 1) dx is:</text>
-            <option id="A">1/2 log 2</option><option id="B">log 2</option><option id="C">pi/4</option><option id="D">None</option>
+            <option id="A">1/2 log 2</option><option id="B">log 2</option><option id="C">pi/4</option>
             <answer>A</answer><explanation>Substitution u = x^2 + 1, du = 2x dx.</explanation></question>
         <question>
             <text>Integral of x sin x dx is:</text>
-            <option id="A">-x cos x + sin x + C</option><option id="B">x cos x - sin x + C</option><option id="C">-x sin x + cos x + C</option><option id="D">None</option>
+            <option id="A">-x cos x + sin x + C</option><option id="B">x cos x - sin x + C</option><option id="C">-x sin x + cos x + C</option>
             <answer>A</answer><explanation>By parts: u=x, dv=sin x.</explanation></question>
         <question>
             <text>Find integral of sqrt(x^2 - a^2) dx:</text>
-            <option id="A">x/2 sqrt(x^2-a^2) - a^2/2 log|x + sqrt(x^2-a^2)| + C</option><option id="B">x/2 sqrt(x^2-a^2) + a^2/2 log|x + sqrt(x^2-a^2)| + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x/2 sqrt(x^2-a^2) - a^2/2 log|x + sqrt(x^2-a^2)| + C</option><option id="B">x/2 sqrt(x^2-a^2) + a^2/2 log|x + sqrt(x^2-a^2)| + C</option>
             <answer>A</answer><explanation>Standard special integral formula.</explanation></question>
         <question>
             <text>Find integral of sqrt(a^2 - x^2) dx:</text>
-            <option id="A">x/2 sqrt(a^2-x^2) + a^2/2 sin^{-1}(x/a) + C</option><option id="B">x/2 sqrt(a^2-x^2) - a^2/2 sin^{-1}(x/a) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x/2 sqrt(a^2-x^2) + a^2/2 sin^{-1}(x/a) + C</option><option id="B">x/2 sqrt(a^2-x^2) - a^2/2 sin^{-1}(x/a) + C</option>
             <answer>A</answer><explanation>Standard special integral formula.</explanation></question>
         <question>
             <text>Integral from 0 to 1 of 1 / sqrt(1 - x^2) dx is:</text>
-            <option id="A">pi/2</option><option id="B">pi</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">pi/2</option><option id="B">pi</option><option id="C">1</option>
             <answer>A</answer><explanation>sin^{-1}(1) - sin^{-1}(0) = pi/2.</explanation></question>
         <question>
             <text>Integral of 2x cos(x^2) dx is:</text>
-            <option id="A">sin(x^2) + C</option><option id="B">cos(x^2) + C</option><option id="C">2 sin(x^2) + C</option><option id="D">None</option>
+            <option id="A">sin(x^2) + C</option><option id="B">cos(x^2) + C</option><option id="C">2 sin(x^2) + C</option>
             <answer>A</answer><explanation>Substitution u = x^2.</explanation></question>
         <question>
             <text>Integral of (x+1)/(x^2+2x) dx is:</text>
-            <option id="A">1/2 log |x^2 + 2x| + C</option><option id="B">log |x^2 + 2x| + C</option><option id="C">log |x+1| + C</option><option id="D">None</option>
+            <option id="A">1/2 log |x^2 + 2x| + C</option><option id="B">log |x^2 + 2x| + C</option><option id="C">log |x+1| + C</option>
             <answer>A</answer><explanation>Substitution u = x^2 + 2x, du = (2x + 2) dx.</explanation></question>
         <question>
             <text>Integral of 1 / (x^2 + 4x + 5) dx is:</text>
-            <option id="A">tan^{-1}(x+2) + C</option><option id="B">tan^{-1}(x+4) + C</option><option id="C">log |x+2| + C</option><option id="D">None</option>
+            <option id="A">tan^{-1}(x+2) + C</option><option id="B">tan^{-1}(x+4) + C</option><option id="C">log |x+2| + C</option>
             <answer>A</answer><explanation>Complete square: (x+2)^2 + 1.</explanation></question>
         <question>
             <text>Integral from -1 to 1 of x^3 dx is:</text>
-            <option id="A">0</option><option id="B">1/2</option><option id="C">1/4</option><option id="D">None</option>
+            <option id="A">0</option><option id="B">1/2</option><option id="C">1/4</option>
             <answer>A</answer><explanation>Odd function property.</explanation></question>
         <question>
             <text>Integral from -1 to 1 of |x| dx is:</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">2</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option><option id="C">2</option>
             <answer>A</answer><explanation>2 * Integral 0 to 1 of x dx = 2 * [x^2/2] = 1.</explanation></question>
         <question>
             <text>Integral of e^x (sin x + cos x) dx is:</text>
-            <option id="A">e^x sin x + C</option><option id="B">e^x cos x + C</option><option id="C">-e^x sin x + C</option><option id="D">None</option>
+            <option id="A">e^x sin x + C</option><option id="B">e^x cos x + C</option><option id="C">-e^x sin x + C</option>
             <answer>A</answer><explanation>Property e^x [f(x) + f'(x)].</explanation></question>
         <question>
             <text>Integral of e^x (1/x - 1/x^2) dx is:</text>
-            <option id="A">e^x / x + C</option><option id="B">-e^x / x + C</option><option id="C">e^x log x + C</option><option id="D">None</option>
+            <option id="A">e^x / x + C</option><option id="B">-e^x / x + C</option><option id="C">e^x log x + C</option>
             <answer>A</answer><explanation>Property e^x [f(x) + f'(x)].</explanation></question>
         <question>
             <text>Integral of log(log x) + 1/log x dx is:</text>
-            <option id="A">x log(log x) + C</option><option id="B">x / log x + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x log(log x) + C</option><option id="B">x / log x + C</option>
             <answer>A</answer><explanation>By parts on log(log x).</explanation></question>
         <question>
             <text>Integral of 1 / (sin x cos x) dx is:</text>
-            <option id="A">log |tan x| + C</option><option id="B">log |sec x| + C</option><option id="C">tan x + C</option><option id="D">None</option>
+            <option id="A">log |tan x| + C</option><option id="B">log |sec x| + C</option><option id="C">tan x + C</option>
             <answer>A</answer><explanation>Multiply/divide by sec^2 x or use 2/sin 2x.</explanation></question>
         <question>
             <text>Integral from 0 to 1 of e^x dx is:</text>
-            <option id="A">e - 1</option><option id="B">e</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">e - 1</option><option id="B">e</option><option id="C">1</option>
             <answer>A</answer><explanation>e^1 - e^0 = e - 1.</explanation></question>
         <question>
             <text>Integral of dx / (x^2 + a^2) satisfies:</text>
-            <option id="A">Tangent form</option><option id="B">Log form</option><option id="C">Sine form</option><option id="D">None</option>
+            <option id="A">Tangent form</option><option id="B">Log form</option><option id="C">Sine form</option>
             <answer>A</answer><explanation>Result is 1/a tan^{-1}(x/a).</explanation></question>
         <question>
             <text>Integral of dx / (x^2 - a^2) involves log of ____ in numerator:</text>
-            <option id="A">x - a</option><option id="B">x + a</option><option id="C">a - x</option><option id="D">None</option>
+            <option id="A">x - a</option><option id="B">x + a</option><option id="C">a - x</option>
             <answer>A</answer><explanation>Formula: 1/2a log |(x-a)/(x+a)|.</explanation></question>
         <question>
             <text>Partial fraction for (x-1)/(x-2)(x-3):</text>
-            <option id="A">A/(x-2) + B/(x-3)</option><option id="B">Ax+B / (x-2)(x-3)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">A/(x-2) + B/(x-3)</option><option id="B">Ax+B / (x-2)(x-3)</option>
             <answer>A</answer><explanation>Distinct linear factors.</explanation></question>
         <question>
             <text>Determine the integral of tan^3 x dx:</text>
-            <option id="A">1/2 tan^2 x + log |cos x| + C</option><option id="B">1/2 tan^2 x - log |sec x| + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1/2 tan^2 x + log |cos x| + C</option><option id="B">1/2 tan^2 x - log |sec x| + C</option>
             <answer>A</answer><explanation>Write as tan x (sec^2 x - 1) = tan x sec^2 x - tan x.</explanation></question>
         <question>
             <text>Integral of sin x cos x dx using u = sin x:</text>
@@ -297,15 +297,15 @@
             <answer>D</answer><explanation>Equivalent up to a constant.</explanation></question>
         <question>
             <text>If u = x^2, then Integral of x e^{x^2} dx becomes:</text>
-            <option id="A">1/2 Integral e^u du</option><option id="B">Integral e^u du</option><option id="C">2 Integral e^u du</option><option id="D">None</option>
+            <option id="A">1/2 Integral e^u du</option><option id="B">Integral e^u du</option><option id="C">2 Integral e^u du</option>
             <answer>A</answer><explanation>du = 2x dx -&gt; x dx = 1/2 du.</explanation></question>
         <question>
             <text>Formula for Integral from a to b of f(x) dx using midpoints:</text>
-            <option id="A">Approximation only</option><option id="B">Exact value always</option><option id="C">Not possible</option><option id="D">None</option>
+            <option id="A">Approximation only</option><option id="B">Exact value always</option><option id="C">Not possible</option>
             <answer>A</answer><explanation>Riemann sum definition.</explanation></question>
         <question>
             <text>Integral of dx / sqrt(4 - x^2) is:</text>
-            <option id="A">sin^{-1}(x/2) + C</option><option id="B">1/2 sin^{-1}(x/2) + C</option><option id="C">log |x + sqrt(4-x^2)| + C</option><option id="D">None</option>
+            <option id="A">sin^{-1}(x/2) + C</option><option id="B">1/2 sin^{-1}(x/2) + C</option><option id="C">log |x + sqrt(4-x^2)| + C</option>
             <answer>A</answer><explanation>sin^{-1}(x/a) with a=2.</explanation></question>
         <question>
             <text>Integral from 0 to pi of sin x dx is:</text>
@@ -313,53 +313,53 @@
             <answer>A</answer><explanation>[-cos x] from 0 to pi = -(-1) - (-1) = 2.</explanation></question>
         <question>
             <text>Derivative of (x log x - x) is log x, so Integral log x dx is:</text>
-            <option id="A">x log x - x + C</option><option id="B">x log x + C</option><option id="C">x / log x + C</option><option id="D">None</option>
+            <option id="A">x log x - x + C</option><option id="B">x log x + C</option><option id="C">x / log x + C</option>
             <answer>A</answer><explanation>Direct antiderivative check.</explanation></question>
         <question>
             <text>Integral of x^2 / (x^3 + 1) dx is:</text>
-            <option id="A">1/3 log |x^3 + 1| + C</option><option id="B">log |x^3 + 1| + C</option><option id="C">1/2 log |x^3 + 1| + C</option><option id="D">None</option>
+            <option id="A">1/3 log |x^3 + 1| + C</option><option id="B">log |x^3 + 1| + C</option><option id="C">1/2 log |x^3 + 1| + C</option>
             <answer>A</answer><explanation>Substitution u = x^3 + 1.</explanation></question>
         <question>
             <text>Total number of indefinite integrals of a function is:</text>
-            <option id="A">Infinite</option><option id="B">One</option><option id="C">Finite</option><option id="D">None</option>
+            <option id="A">Infinite</option><option id="B">One</option><option id="C">Finite</option>
             <answer>A</answer><explanation>Due to arbitrary constant C.</explanation></question>
     </medium>
     <hard>
         <question>
             <text>Evaluate Integral from 0 to pi of x sin x / (1 + cos^2 x) dx:</text>
-            <option id="A">pi^2 / 4</option><option id="B">pi^2 / 2</option><option id="C">pi / 4</option><option id="D">None</option>
+            <option id="A">pi^2 / 4</option><option id="B">pi^2 / 2</option><option id="C">pi / 4</option>
             <answer>A</answer><explanation>Use property x -&gt; pi - x. 2I = Integral pi sin x / (1 + cos^2 x) dx = pi [ -tan^{-1}(cos x) ] 0 to pi = pi^2/2. So I = pi^2/4.</explanation></question>
         <question>
             <text>Find the integral of 1 / (x^4 + 1) dx:</text>
-            <option id="A">1/(2 sqrt(2)) [ tan^{-1}((x^2-1)/(x sqrt(2))) + 1/2 log |(x^2 - x sqrt(2) + 1)/(x^2 + x sqrt(2) + 1)| ] + C</option><option id="B">tan^{-1}(x^2) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1/(2 sqrt(2)) [ tan^{-1}((x^2-1)/(x sqrt(2))) + 1/2 log |(x^2 - x sqrt(2) + 1)/(x^2 + x sqrt(2) + 1)| ] + C</option><option id="B">tan^{-1}(x^2) + C</option>
             <answer>A</answer><explanation>Divide by x^2 and use x + 1/x substitution.</explanation></question>
         <question>
             <text>Evaluate Integral from 0 to pi/4 of log(1 + tan x) dx:</text>
-            <option id="A">pi/8 log 2</option><option id="B">pi/4 log 2</option><option id="C">log 2</option><option id="D">None</option>
+            <option id="A">pi/8 log 2</option><option id="B">pi/4 log 2</option><option id="C">log 2</option>
             <answer>A</answer><explanation>Use x -&gt; pi/4 - x. tan(pi/4 - x) = (1-tan x)/(1+tan x). log terms combine to log 2.</explanation></question>
         <question>
             <text>Find the value of Integral from 0 to pi/2 of log(sin x) dx:</text>
-            <option id="A">-pi/2 log 2</option><option id="B">-pi log 2</option><option id="C">pi/2 log 2</option><option id="D">None</option>
+            <option id="A">-pi/2 log 2</option><option id="B">-pi log 2</option><option id="C">pi/2 log 2</option>
             <answer>A</answer><explanation>Standard result for log-trig definite integrals.</explanation></question>
         <question>
             <text>Integral of sqrt(tan x) dx from 0 to pi/2 is:</text>
-            <option id="A">pi / sqrt(2)</option><option id="B">pi / 2</option><option id="C">pi</option><option id="D">None</option>
+            <option id="A">pi / sqrt(2)</option><option id="B">pi / 2</option><option id="C">pi</option>
             <answer>A</answer><explanation>Use x -&gt; pi/2 - x. 2I = Integral (sqrt(tan) + sqrt(cot)) dx. Map to 1/(x^4+1) type integral.</explanation></question>
         <question>
             <text>Evaluate Integral from 0 to 1 of log(1+x) / (1+x^2) dx:</text>
-            <option id="A">pi/8 log 2</option><option id="B">pi/4 log 2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">pi/8 log 2</option><option id="B">pi/4 log 2</option>
             <answer>A</answer><explanation>Substitute x = tan theta. Reduces to Integral log(1+tan theta) d-theta.</explanation></question>
         <question>
             <text>Integral of x^2 dx / (x^2+1)(x^2+4) is:</text>
-            <option id="A">-1/3 tan^{-1} x + 2/3 tan^{-1}(x/2) + C</option><option id="B">1/3 tan^{-1} x - 2/3 tan^{-1}(x/2) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">-1/3 tan^{-1} x + 2/3 tan^{-1}(x/2) + C</option><option id="B">1/3 tan^{-1} x - 2/3 tan^{-1}(x/2) + C</option>
             <answer>A</answer><explanation>Use partial fractions by treating x^2 as a variable momentarily.</explanation></question>
         <question>
             <text>Evaluate Integral dx / (x(x^n + 1)):</text>
-            <option id="A">1/n log |x^n / (x^n + 1)| + C</option><option id="B">log |x^n + 1| + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">1/n log |x^n / (x^n + 1)| + C</option><option id="B">log |x^n + 1| + C</option>
             <answer>A</answer><explanation>Multiply/divide by x^{n-1} and use u = x^n.</explanation></question>
         <question>
             <text>Integral from 0 to a of sqrt(x) / (sqrt(x) + sqrt(a-x)) dx is:</text>
-            <option id="A">a/2</option><option id="B">a</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">a/2</option><option id="C">0</option>
             <answer>A</answer><explanation>Use property x -&gt; a-x and sum the results.</explanation></question>
         <question>
             <text>Integral from 0 to pi of |cos x| dx is:</text>
@@ -367,15 +367,15 @@
             <answer>A</answer><explanation>Integral from 0 to pi/2 (cos x) + pi/2 to pi (-cos x) = 1 + 1 = 2.</explanation></question>
         <question>
             <text>Integral from 0 to 2pi of sin^{100} x cos^{99} x dx is:</text>
-            <option id="A">0</option><option id="B">1</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">0</option><option id="B">1</option>
             <answer>A</answer><explanation>Odd power of cosine over full period makes integral zero.</explanation></question>
         <question>
             <text>Find integral of dx / (5 + 4 cos x):</text>
-            <option id="A">2/3 tan^{-1}(1/3 tan(x/2)) + C</option><option id="B">2/3 log |tan(x/2)| + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">2/3 tan^{-1}(1/3 tan(x/2)) + C</option><option id="B">2/3 log |tan(x/2)| + C</option>
             <answer>A</answer><explanation>Use Half-angle substitution tan(x/2) = t.</explanation></question>
         <question>
             <text>Integral from -1 to 1 of log((2-x)/(2+x)) dx is:</text>
-            <option id="A">0</option><option id="B">log 2</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">0</option><option id="B">log 2</option>
             <answer>A</answer><explanation>Odd function property.</explanation></question>
         <question>
             <text>Evaluate Integral from 0 to pi/2 of sin^2 x dx:</text>
@@ -383,75 +383,75 @@
             <answer>A</answer><explanation>Integral of sin^2 = Integral of cos^2. Sum is pi/2, so each is pi/4.</explanation></question>
         <question>
             <text>Integral of (x^2 + 1) / (x^4 + 1) dx is:</text>
-            <option id="A">1/sqrt(2) tan^{-1}((x^2-1)/(x sqrt(2))) + C</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">1/sqrt(2) tan^{-1}((x^2-1)/(x sqrt(2))) + C</option>
             <answer>A</answer><explanation>Divide by x^2 and substitute u = x - 1/x.</explanation></question>
         <question>
             <text>Integral of (x^2 - 1) / (x^4 + 1) dx is:</text>
-            <option id="A">1/(2 sqrt(2)) log |(x^2 - x sqrt(2) + 1)/(x^2 + x sqrt(2) + 1)| + C</option><option id="B">None</option><option id="C">C</option><option id="D">D</option>
+            <option id="A">1/(2 sqrt(2)) log |(x^2 - x sqrt(2) + 1)/(x^2 + x sqrt(2) + 1)| + C</option>
             <answer>A</answer><explanation>Divide by x^2 and substitute u = x + 1/x.</explanation></question>
         <question>
             <text>Reduction formula for Integral sin^n x dx involves:</text>
-            <option id="A">(n-1)/n I_{n-2}</option><option id="B">(n-2)/n I_{n-1}</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(n-1)/n I_{n-2}</option><option id="B">(n-2)/n I_{n-1}</option>
             <answer>A</answer><explanation>Standard integration by parts result.</explanation></question>
         <question>
             <text>Integral from 0 to 1 of tan^{-1} x dx is:</text>
-            <option id="A">pi/4 - 1/2 log 2</option><option id="B">pi/4 + 1/2 log 2</option><option id="C">pi/2</option><option id="D">None</option>
+            <option id="A">pi/4 - 1/2 log 2</option><option id="B">pi/4 + 1/2 log 2</option><option id="C">pi/2</option>
             <answer>A</answer><explanation>By parts: x tan^{-1} x - 1/2 log(1+x^2).</explanation></question>
         <question>
             <text>Integral of e^x (x / (x+1)^2) dx is:</text>
-            <option id="A">e^x / (x+1) + C</option><option id="B">-e^x / (x+1) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">e^x / (x+1) + C</option><option id="B">-e^x / (x+1) + C</option>
             <answer>A</answer><explanation>Write x/(x+1)^2 as 1/(x+1) - 1/(x+1)^2.</explanation></question>
         <question>
             <text>Integral from 0 to pi/2 of sin^3 x dx is:</text>
-            <option id="A">2/3</option><option id="B">1/3</option><option id="C">pi/6</option><option id="D">None</option>
+            <option id="A">2/3</option><option id="B">1/3</option><option id="C">pi/6</option>
             <answer>A</answer><explanation>Integral (1 - cos^2 x) sin x dx = [ -cos x + 1/3 cos^3 x ].</explanation></question>
         <question>
             <text>Evaluated value of Integral from 0 to 1 of x(1-x)^n dx:</text>
-            <option id="A">1 / (n+1)(n+2)</option><option id="B">1 / (n+1)</option><option id="C">n / (n+1)</option><option id="D">None</option>
+            <option id="A">1 / (n+1)(n+2)</option><option id="B">1 / (n+1)</option><option id="C">n / (n+1)</option>
             <answer>A</answer><explanation>Use property x -&gt; 1 - x. Integral is (1-x) x^n = x^n - x^{n+1}. Result: 1/(n+1) - 1/(n+2).</explanation></question>
         <question>
             <text>Integral of 1 / (x^2 + a^2)^2 dx uses substitution:</text>
-            <option id="A">x = a tan theta</option><option id="B">x = a sin theta</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">x = a tan theta</option><option id="B">x = a sin theta</option>
             <answer>A</answer><explanation>Simplifies to cos^2 theta term.</explanation></question>
         <question>
             <text>Integral from 0 to 1.5 of [x] dx (Step function):</text>
-            <option id="A">0.5</option><option id="B">1.5</option><option id="C">1</option><option id="D">None</option>
+            <option id="A">0.5</option><option id="B">1.5</option><option id="C">1</option>
             <answer>A</answer><explanation>Area under step function (base 0.5, height 1).</explanation></question>
         <question>
             <text>Find integral from 0 to pi/4 of tan^n x + tan^{n-2} x dx:</text>
-            <option id="A">1 / (n-1)</option><option id="B">1 / n</option><option id="C">1 / (n+1)</option><option id="D">None</option>
+            <option id="A">1 / (n-1)</option><option id="B">1 / n</option><option id="C">1 / (n+1)</option>
             <answer>A</answer><explanation>tan^{n-2} x (1 + tan^2 x) = tan^{n-2} x sec^2 x. [ tan^{n-1} x / (n-1) ] 0 to pi/4.</explanation></question>
         <question>
             <text>Integration of cos sqrt(x) dx:</text>
-            <option id="A">2 [ sqrt(x) sin sqrt(x) + cos sqrt(x) ] + C</option><option id="B">sin sqrt(x) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">2 [ sqrt(x) sin sqrt(x) + cos sqrt(x) ] + C</option><option id="B">sin sqrt(x) + C</option>
             <answer>A</answer><explanation>Substitute t = sqrt(x), dx = 2t dt. Use by parts on t cos t.</explanation></question>
         <question>
             <text>Integral from 0 to infinity of e^{-x} dx is:</text>
-            <option id="A">1</option><option id="B">0</option><option id="C">infinity</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">0</option><option id="C">infinity</option>
             <answer>A</answer><explanation>Limit of -e^{-x} as x -&gt; inf is 0. 0 - (-1) = 1.</explanation></question>
         <question>
             <text>Limit as n -&gt; inf of 1/n Sum (r/n)^k is:</text>
-            <option id="A">1 / (k+1)</option><option id="B">1 / k</option><option id="C">k / (k+1)</option><option id="D">None</option>
+            <option id="A">1 / (k+1)</option><option id="B">1 / k</option><option id="C">k / (k+1)</option>
             <answer>A</answer><explanation>Equal to Integral from 0 to 1 of x^k dx.</explanation></question>
         <question>
             <text>Integral from -pi/4 to pi/4 of sin^2 x dx is:</text>
-            <option id="A">pi/4 - 1/2</option><option id="B">pi/8</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">pi/4 - 1/2</option><option id="B">pi/8</option>
             <answer>A</answer><explanation>2 * Integral 0 to pi/4 (1 - cos 2x)/2 = [ x - sin 2x / 2 ] 0 to pi/4 = pi/4 - 1/2.</explanation></question>
         <question>
             <text>Evaluate Integral 3x^2 dx / (x^6 + 1):</text>
-            <option id="A">tan^{-1}(x^3) + C</option><option id="B">log |x^3 + 1| + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">tan^{-1}(x^3) + C</option><option id="B">log |x^3 + 1| + C</option>
             <answer>A</answer><explanation>Substitution u = x^3.</explanation></question>
         <question>
             <text>Integral of (log x)^n / x dx is:</text>
-            <option id="A">(log x)^{n+1} / (n+1) + C</option><option id="B">n (log x)^{n-1} + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">(log x)^{n+1} / (n+1) + C</option><option id="B">n (log x)^{n-1} + C</option>
             <answer>A</answer><explanation>Substitution u = log x.</explanation></question>
         <question>
             <text>If Integral from 0 to k of 1 / (1 + x^2) dx = pi/4, then k = :</text>
-            <option id="A">1</option><option id="B">sqrt(3)</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">1</option><option id="B">sqrt(3)</option><option id="C">0</option>
             <answer>A</answer><explanation>tan^{-1}(k) = pi/4 -&gt; k = 1.</explanation></question>
         <question>
             <text>Integral from 0 to 1 of dx / (e^x + e^{-x}) is:</text>
-            <option id="A">tan^{-1} e - pi/4</option><option id="B">tan^{-1} e</option><option id="C">pi/4</option><option id="D">None</option>
+            <option id="A">tan^{-1} e - pi/4</option><option id="B">tan^{-1} e</option><option id="C">pi/4</option>
             <answer>A</answer><explanation>Multiply by e^x. Integral e^x / (e^{2x} + 1). [ tan^{-1}(e^x) ].</explanation></question>
         <question>
             <text>Which of the following functions have the same integral from 0 to pi/2?</text>
@@ -459,31 +459,31 @@
             <answer>D</answer><explanation>Symmetry property f(x) -&gt; f(pi/2 - x).</explanation></question>
         <question>
             <text>Integral of sin x^degree dx is:</text>
-            <option id="A">-180/pi cos(x^degree) + C</option><option id="B">-cos(x^degree) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">-180/pi cos(x^degree) + C</option><option id="B">-cos(x^degree) + C</option>
             <answer>A</answer><explanation>Convert to radians: sin(pi x / 180).</explanation></question>
         <question>
             <text>Evaluate Integral from a to b of dx / x:</text>
-            <option id="A">log(b/a)</option><option id="B">log(a/b)</option><option id="C">1/b - 1/a</option><option id="D">None</option>
+            <option id="A">log(b/a)</option><option id="B">log(a/b)</option><option id="C">1/b - 1/a</option>
             <answer>A</answer><explanation>log b - log a.</explanation></question>
         <question>
             <text>Integral from 0 to 1 of 1 / (1 + x) dx is:</text>
-            <option id="A">log 2</option><option id="B">1</option><option id="C">0</option><option id="D">None</option>
+            <option id="A">log 2</option><option id="B">1</option><option id="C">0</option>
             <answer>A</answer><explanation>log 2 - log 1 = log 2.</explanation></question>
         <question>
             <text>Integral of x^2 e^x dx is:</text>
-            <option id="A">e^x (x^2 - 2x + 2) + C</option><option id="B">e^x (x^2 + 2x + 2) + C</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">e^x (x^2 - 2x + 2) + C</option><option id="B">e^x (x^2 + 2x + 2) + C</option>
             <answer>A</answer><explanation>Apply integration by parts twice.</explanation></question>
         <question>
             <text>Formula for Integral from 0 to 2a of f(x) dx depends on:</text>
-            <option id="A">f(2a-x)</option><option id="B">f(a-x)</option><option id="C">None</option><option id="D">D</option>
+            <option id="A">f(2a-x)</option><option id="B">f(a-x)</option>
             <answer>A</answer><explanation>Splits into two integrals: 0 to a of [f(x) + f(2a-x)].</explanation></question>
         <question>
             <text>Integral of 1 / (x^2 - 1) dx is ____ as x -&gt; 1:</text>
-            <option id="A">Logarithmically divergent</option><option id="B">Finite</option><option id="C">Zero</option><option id="D">None</option>
+            <option id="A">Logarithmically divergent</option><option id="B">Finite</option><option id="C">Zero</option>
             <answer>A</answer><explanation>Vertical asymptote at x=1.</explanation></question>
         <question>
             <text>Integral from 0 to 1 of x^n dx is:</text>
-            <option id="A">1 / (n+1)</option><option id="B">n / (n+1)</option><option id="C">1 / n</option><option id="D">None</option>
+            <option id="A">1 / (n+1)</option><option id="B">n / (n+1)</option><option id="C">1 / n</option>
             <answer>A</answer><explanation>Fundamental power rule result.</explanation></question>
     </hard>
 </chapter>
