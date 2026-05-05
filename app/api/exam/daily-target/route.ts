@@ -40,8 +40,25 @@ function hashString(str: string): number {
     const c = str.charCodeAt(i);
     hash = (hash << 5) - hash + c;
     hash |= 0;
-  }
   return Math.abs(hash);
+}
+
+// Utility to format math symbols
+function formatMathText(str: string) {
+  if (!str) return "";
+  return str
+    .replace(/\bphi\b/g, "φ")
+    .replace(/\btheta\b/g, "θ")
+    .replace(/\balpha\b/g, "α")
+    .replace(/\bbeta\b/g, "β")
+    .replace(/\bgamma\b/g, "γ")
+    .replace(/\blambda\b/g, "λ")
+    .replace(/\bmu\b/g, "μ")
+    .replace(/\bpi\b/g, "π")
+    .replace(/\bomega\b/g, "ω")
+    .replace(/\bsigma\b/g, "σ")
+    .replace(/\bDelta\b/g, "Δ")
+    .replace(/\binfty\b/g, "∞");
 }
 
 const JEE_CHAPTERS = [
@@ -103,8 +120,8 @@ export async function GET(request: Request) {
             const rawOptions = q.option ? (Array.isArray(q.option) ? q.option : [q.option]) : [];
             const formattedOptions = rawOptions.map((opt: any) =>
               typeof opt === "string"
-                ? { id: "?", text: opt }
-                : { id: String(opt["@_id"] ?? ""), text: String(opt["#text"] ?? opt ?? "") }
+                ? { id: "?", text: formatMathText(opt) }
+                : { id: String(opt["@_id"] ?? ""), text: formatMathText(String(opt["#text"] ?? opt ?? "")) }
             );
 
             // Shuffle options using seeded RNG so order is consistent per day
@@ -121,9 +138,10 @@ export async function GET(request: Request) {
 
             return {
               id: q["@_id"] || Math.random().toString(36).slice(2, 9),
-              text: String(q.text ?? ""),
+              text: formatMathText(String(q.text ?? "")),
               options: reassigned,
               answer: newAnswer,
+              explanation: formatMathText(String(q.explanation ?? "")),
               difficulty: q.difficulty || "medium",
               chapterSource: chapter
             };

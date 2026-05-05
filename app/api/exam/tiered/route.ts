@@ -31,6 +31,24 @@ function shuffleOptionsAndAnswer(options: {id: string, text: string}[], answer: 
   return { options: reassigned, answer: newAnswer };
 }
 
+// Utility to format math symbols
+function formatMathText(str: string) {
+  if (!str) return "";
+  return str
+    .replace(/\bphi\b/g, "φ")
+    .replace(/\btheta\b/g, "θ")
+    .replace(/\balpha\b/g, "α")
+    .replace(/\bbeta\b/g, "β")
+    .replace(/\bgamma\b/g, "γ")
+    .replace(/\blambda\b/g, "λ")
+    .replace(/\bmu\b/g, "μ")
+    .replace(/\bpi\b/g, "π")
+    .replace(/\bomega\b/g, "ω")
+    .replace(/\bsigma\b/g, "σ")
+    .replace(/\bDelta\b/g, "Δ")
+    .replace(/\binfty\b/g, "∞");
+}
+
 const getTierDistribution = (tier: number, total: number) => {
     let e = 0, m = 0, h = 0;
     switch(tier) {
@@ -166,20 +184,20 @@ export async function GET(request: Request) {
                                     if (!q || !q.text) return null;
                                     const rawOptions = q.option ? (Array.isArray(q.option) ? q.option : [q.option]) : [];
                                     const formattedOptions = rawOptions.map((opt: any) => {
-                                        if (typeof opt === "string") return { id: "?", text: opt };
+                                        if (typeof opt === "string") return { id: "?", text: formatMathText(opt) };
                                         return {
                                             id: String(opt["@_id"] ?? ""),
-                                            text: String(opt["#text"] ?? opt ?? "")
+                                            text: formatMathText(String(opt["#text"] ?? opt ?? ""))
                                         };
                                     });
                                     const originalAnswer = String(q.answer ?? "");
                                     const { options: shuffledOpts, answer: newAnswer } = shuffleOptionsAndAnswer(formattedOptions, originalAnswer);
                                     return {
                                         id: q["@_id"] || Math.random().toString(36).slice(2, 9),
-                                        text: String(q.text ?? ""),
+                                        text: formatMathText(String(q.text ?? "")),
                                         options: shuffledOpts,
                                         answer: newAnswer,
-                                        explanation: String(q.explanation ?? ""),
+                                        explanation: formatMathText(String(q.explanation ?? "")),
                                         difficulty: diff,
                                         chapterSource: chapter
                                     };
