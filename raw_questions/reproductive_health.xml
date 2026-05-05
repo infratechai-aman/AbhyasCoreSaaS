@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="326" name="Reproductive Health">
     <easy>
-
+        <question>
+            <text>Which of the following is a non-medicated IUD?</text>
+            <option id="A">CuT</option>
+            <option id="B">Lippes loop</option>
+            <option id="C">Cu7</option>
+            <option id="D">LNG-20</option>
+            <answer>B</answer>
+            <explanation>Intra Uterine Devices (IUDs) are of three main types: non-medicated IUDs (e.g., Lippes loop), copper releasing IUDs (CuT, Cu7, Multiload 375), and the hormone releasing IUDs (Progestasert, LNG-20).</explanation>
+        </question>
+        <question>
+            <text>The technique in which sperm is directly injected into the ovum in the laboratory is called:</text>
+            <option id="A">ZIFT</option>
+            <option id="B">GIFT</option>
+            <option id="C">ICSI</option>
+            <option id="D">IUI</option>
+            <answer>C</answer>
+            <explanation>ICSI (Intra cytoplasmic sperm injection) is a specialized procedure to form an embryo in the laboratory in which a sperm is directly injected into the ovum.</explanation>
+        </question>
+        <question>
+            <text>Medical Termination of Pregnancy (MTP) is considered relatively safe up to how many weeks of pregnancy?</text>
+            <option id="A">8 weeks</option>
+            <option id="B">12 weeks</option>
+            <option id="C">20 weeks</option>
+            <option id="D">24 weeks</option>
+            <answer>B</answer>
+            <explanation>MTPs are considered relatively safe during the first trimester, i.e., up to 12 weeks of pregnancy. Second trimester abortions are much more risky.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>How do copper-releasing IUDs prevent conception?</text>
+            <option id="A">They suppress sperm motility and the fertilizing capacity of sperms.</option>
+            <option id="B">They make the uterus unsuitable for implantation.</option>
+            <option id="C">They inhibit ovulation.</option>
+            <option id="D">They block the entry of sperms through the cervix.</option>
+            <answer>A</answer>
+            <explanation>IUDs increase phagocytosis of sperms within the uterus and the Cu ions released suppress sperm motility and the fertilising capacity of sperms.</explanation>
+        </question>
+        <question>
+            <text>In the context of ART, what does ZIFT stand for?</text>
+            <option id="A">Zygote internal fallopian transfer</option>
+            <option id="B">Zygote intra fallopian transfer</option>
+            <option id="C">Zygote in vitro fertilization technique</option>
+            <option id="D">Zygote inter fallopian transfer</option>
+            <answer>B</answer>
+            <explanation>ZIFT stands for Zygote intra fallopian transfer. In this technique, the zygote or early embryos (with up to 8 blastomeres) are transferred into the fallopian tube.</explanation>
+        </question>
+        <question>
+            <text>Which of the following sexually transmitted infections is completely curable if detected early and treated properly?</text>
+            <option id="A">Hepatitis-B</option>
+            <option id="B">Genital herpes</option>
+            <option id="C">HIV infections</option>
+            <option id="D">Syphilis</option>
+            <answer>D</answer>
+            <explanation>Except for hepatitis-B, genital herpes and HIV infections, other sexually transmitted diseases (like syphilis, gonorrhoea, chlamydiasis) are completely curable if detected early and treated properly.</explanation>
+        </question>
+        <question>
+            <text>Saheli, an oral contraceptive pill for females, contains a non-steroidal preparation and is taken:</text>
+            <option id="A">Daily</option>
+            <option id="B">Weekly</option>
+            <option id="C">Monthly</option>
+            <option id="D">Only after coitus</option>
+            <answer>B</answer>
+            <explanation>'Saheli' is a new oral contraceptive for the females. It contains a non-steroidal preparation. It is a 'once a week' pill with very few side effects and high contraceptive value.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>Which of the following statements about amniocentesis is INCORRECT?</text>
+            <option id="A">It can be used to detect Down syndrome.</option>
+            <option id="B">It is based on the chromosomal pattern in the amniotic fluid.</option>
+            <option id="C">It is primarily intended to determine the sex of the unborn child.</option>
+            <option id="D">It can be used to detect hemophilia.</option>
+            <answer>C</answer>
+            <explanation>Amniocentesis is a fetal sex determination and disorder test based on the chromosomal pattern in the amniotic fluid. However, its primary and legal purpose is to test for the presence of certain genetic disorders (like Down syndrome, hemophilia, sickle-cell anemia), NOT to determine the sex of the child, which is illegal as it leads to female foeticide.</explanation>
+        </question>
+        <question>
+            <text>In vivo fertilization followed by embryo transfer (ET) is useful for females who:</text>
+            <option id="A">Cannot produce an ovum</option>
+            <option id="B">Cannot provide a suitable environment for fertilization but can retain the embryo</option>
+            <option id="C">Cannot conceive naturally but can provide a suitable environment for the further development of the embryo</option>
+            <option id="D">Have blocked fallopian tubes</option>
+            <answer>C</answer>
+            <explanation>In vivo fertilization is the fusion of gametes within the female. Embryos formed by in-vivo fertilisation can be used for transfer to assist those females who cannot conceive naturally but can provide suitable environment for further development.</explanation>
+        </question>
+        <question>
+            <text>The natural method of contraception known as 'Lactational amenorrhea' is effective up to a maximum period of:</text>
+            <option id="A">Three months</option>
+            <option id="B">Six months</option>
+            <option id="C">Twelve months</option>
+            <option id="D">Two years</option>
+            <answer>B</answer>
+            <explanation>Lactational amenorrhea (absence of menstruation) method is based on the fact that ovulation does not occur during the period of intense lactation following parturition. However, this method has been reported to be effective only up to a maximum period of six months following parturition.</explanation>
+        </question>
     </hard>
 </chapter>

@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="324" name="Sexual Reproduction in Flowering Plants">
     <easy>
-
+        <question>
+            <text>The innermost wall layer of the microsporangium which nourishes the developing pollen grains is called:</text>
+            <option id="A">Epidermis</option>
+            <option id="B">Endothecium</option>
+            <option id="C">Middle layers</option>
+            <option id="D">Tapetum</option>
+            <answer>D</answer>
+            <explanation>The innermost wall layer is the tapetum. It nourishes the developing pollen grains. Cells of the tapetum possess dense cytoplasm and generally have more than one nucleus.</explanation>
+        </question>
+        <question>
+            <text>Pollination by wind is called:</text>
+            <option id="A">Anemophily</option>
+            <option id="B">Hydrophily</option>
+            <option id="C">Entomophily</option>
+            <option id="D">Ornithophily</option>
+            <answer>A</answer>
+            <explanation>Pollination by wind is termed anemophily. It is the most common amongst abiotic pollinations.</explanation>
+        </question>
+        <question>
+            <text>In angiosperms, functional megaspore develops into:</text>
+            <option id="A">Embryo sac</option>
+            <option id="B">Ovule</option>
+            <option id="C">Endosperm</option>
+            <option id="D">Pollen sac</option>
+            <answer>A</answer>
+            <explanation>In a majority of angiosperms, one of the megaspores is functional while the other three degenerate. Only the functional megaspore develops into the female gametophyte (embryo sac).</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>Which of the following is an example of a false fruit?</text>
+            <option id="A">Mango</option>
+            <option id="B">Apple</option>
+            <option id="C">Banana</option>
+            <option id="D">Grape</option>
+            <answer>B</answer>
+            <explanation>In most plants, by the time the fruit develops from the ovary, other floral parts degenerate and fall off. However, in a few species such as apple, strawberry, cashew, etc., the thalamus also contributes to fruit formation. Such fruits are called false fruits.</explanation>
+        </question>
+        <question>
+            <text>The phenomenon where seed develops without fertilization is called:</text>
+            <option id="A">Parthenocarpy</option>
+            <option id="B">Apomixis</option>
+            <option id="C">Polyembryony</option>
+            <option id="D">Amphimixis</option>
+            <answer>B</answer>
+            <explanation>Although seeds, in general, are the products of fertilisation, a few flowering plants such as some species of Asteraceae and grasses, have evolved a special mechanism, to produce seeds without fertilisation, called apomixis.</explanation>
+        </question>
+        <question>
+            <text>Double fertilization is an event unique to angiosperms. It involves:</text>
+            <option id="A">Syngamy and triple fusion</option>
+            <option id="B">Fusion of two male gametes with one egg</option>
+            <option id="C">Fusion of one male gamete with two eggs</option>
+            <option id="D">Fusion of two male gametes with polar nuclei</option>
+            <answer>A</answer>
+            <explanation>Double fertilization involves two types of fusions, syngamy (fusion of one male gamete with the egg to form a zygote) and triple fusion (fusion of the other male gamete with the two polar nuclei to form the Primary Endosperm Nucleus - PEN).</explanation>
+        </question>
+        <question>
+            <text>The exine of a pollen grain is highly resistant to chemical and biological degradation because it is made of:</text>
+            <option id="A">Cellulose and pectin</option>
+            <option id="B">Sporopollenin</option>
+            <option id="C">Lignin</option>
+            <option id="D">Suberin</option>
+            <answer>B</answer>
+            <explanation>The hard outer layer called the exine is made up of sporopollenin which is one of the most resistant organic material known. It can withstand high temperatures and strong acids and alkali. No enzyme that degrades sporopollenin is so far known.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>Geitonogamy involves:</text>
+            <option id="A">Fertilization of a flower by the pollen from another flower of the same plant.</option>
+            <option id="B">Fertilization of a flower by the pollen from the same flower.</option>
+            <option id="C">Fertilization of a flower by the pollen from a flower of another plant in the same population.</option>
+            <option id="D">Fertilization of a flower by the pollen from a flower of another plant belonging to a distant population.</option>
+            <answer>A</answer>
+            <explanation>Geitonogamy is the transfer of pollen grains from the anther to the stigma of another flower of the same plant. Although geitonogamy is functionally cross-pollination involving a pollinating agent, genetically it is similar to autogamy since the pollen grains come from the same plant.</explanation>
+        </question>
+        <question>
+            <text>In a typical angiosperm embryo sac, the filiform apparatus is present at the micropylar part of the synergids. Its function is to:</text>
+            <option id="A">Nourish the egg cell</option>
+            <option id="B">Guide the entry of the pollen tube</option>
+            <option id="C">Produce nectar</option>
+            <option id="D">Develop into the endosperm</option>
+            <answer>B</answer>
+            <explanation>The synergids have special cellular thickenings at the micropylar tip called filiform apparatus, which play an important role in guiding the pollen tubes into the synergid.</explanation>
+        </question>
+        <question>
+            <text>Which of the following plants exhibits cleistogamous flowers?</text>
+            <option id="A">Papaya</option>
+            <option id="B">Viola (Common pansy)</option>
+            <option id="C">Vallisneria</option>
+            <option id="D">Zostera</option>
+            <answer>B</answer>
+            <explanation>Some plants such as Viola (common pansy), Oxalis, and Commelina produce two types of flowers: chasmogamous flowers (open) and cleistogamous flowers which do not open at all. Cleistogamous flowers are invariably autogamous.</explanation>
+        </question>
     </hard>
 </chapter>

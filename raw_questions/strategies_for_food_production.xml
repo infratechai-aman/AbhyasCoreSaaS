@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="331" name="Strategies for Enhancement in Food Production">
     <easy>
-
+        <question>
+            <text>Which of the following is considered the "Father of the Green Revolution" in the world?</text>
+            <option id="A">M.S. Swaminathan</option>
+            <option id="B">Norman E. Borlaug</option>
+            <option id="C">Verghese Kurien</option>
+            <option id="D">Hargobind Khorana</option>
+            <answer>B</answer>
+            <explanation>Norman E. Borlaug, an American agronomist, is considered the father of the Green Revolution worldwide for his work in developing semi-dwarf, high-yielding varieties of wheat. M.S. Swaminathan is the father of the Green Revolution in India.</explanation>
+        </question>
+        <question>
+            <text>The term "totipotency" refers to the ability of:</text>
+            <option id="A">A single cell to divide and produce all of the differentiated cells in an organism.</option>
+            <option id="B">An animal to regenerate lost parts.</option>
+            <option id="C">A plant to resist viral infections.</option>
+            <option id="D">A cell to undergo meiosis.</option>
+            <answer>A</answer>
+            <explanation>Totipotency is the capacity to generate a whole plant from any cell/explant. This property is heavily utilized in plant tissue culture to rapidly produce thousands of plants.</explanation>
+        </question>
+        <question>
+            <text>Sonalika and Kalyan Sona are high yielding and disease-resistant varieties of:</text>
+            <option id="A">Rice</option>
+            <option id="B">Wheat</option>
+            <option id="C">Maize</option>
+            <option id="D">Sugarcane</option>
+            <answer>B</answer>
+            <explanation>In 1963, several varieties such as Sonalika and Kalyan Sona, which were high yielding and disease resistant, were introduced all over the wheat-growing belt of India.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>Mating of closely related individuals within the same breed for 4-6 generations is called:</text>
+            <option id="A">Out-crossing</option>
+            <option id="B">Cross-breeding</option>
+            <option id="C">Inbreeding</option>
+            <option id="D">Interspecific hybridization</option>
+            <answer>C</answer>
+            <explanation>When breeding is between animals of the same breed for 4-6 generations, it is called inbreeding. Continued inbreeding, especially close inbreeding, usually reduces fertility and even productivity (inbreeding depression).</explanation>
+        </question>
+        <question>
+            <text>Which of the following techniques is employed to produce virus-free plants from an infected plant?</text>
+            <option id="A">Protoplast fusion</option>
+            <option id="B">Meristem culture</option>
+            <option id="C">Anther culture</option>
+            <option id="D">Somatic embryogenesis</option>
+            <answer>B</answer>
+            <explanation>Even if the plant is infected with a virus, the meristem (apical and axillary) is free of virus. Hence, one can remove the meristem and grow it in vitro to obtain virus-free plants.</explanation>
+        </question>
+        <question>
+            <text>Pomato is a somatic hybrid produced by the fusion of protoplasts of:</text>
+            <option id="A">Potato and Tomato</option>
+            <option id="B">Pomegranate and Tomato</option>
+            <option id="C">Poppy and Tomato</option>
+            <option id="D">Potato and Mango</option>
+            <answer>A</answer>
+            <explanation>Isolated protoplasts from two different varieties of plants can be fused to get hybrid protoplasts, called somatic hybrids. Fusion of protoplasts of tomato and potato resulted in a new plant, the pomato.</explanation>
+        </question>
+        <question>
+            <text>The technique of Multiple Ovulation Embryo Transfer Technology (MOET) is primarily used for:</text>
+            <option id="A">Increasing the production of honey</option>
+            <option id="B">Herd improvement in cattle</option>
+            <option id="C">Producing disease-resistant crops</option>
+            <option id="D">Cloning sheep</option>
+            <answer>B</answer>
+            <explanation>MOET is a programme for herd improvement. In this method, a cow is administered hormones, with FSH-like activity, to induce follicular maturation and super ovulation. The embryos at 8-32 cell stages, are recovered non-surgically and transferred to surrogate mothers.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>Which of the following crosses led to the development of the new sheep breed "Hisardale" in Punjab?</text>
+            <option id="A">Bikaneri ewes and Marino rams</option>
+            <option id="B">Marino ewes and Bikaneri rams</option>
+            <option id="C">Nali ewes and Corriedale rams</option>
+            <option id="D">Deccani ewes and Marino rams</option>
+            <answer>A</answer>
+            <explanation>Hisardale is a new breed of sheep developed in Punjab by crossing Bikaneri ewes and Marino rams. This is an example of cross-breeding, where superior males of one breed are mated with superior females of another breed.</explanation>
+        </question>
+        <question>
+            <text>Saccharum barberi was originally grown in north India, but had poor sugar content and yield. It was successfully crossed with which tropical cane to get the desirable qualities?</text>
+            <option id="A">Saccharum spontaneum</option>
+            <option id="B">Saccharum officinarum</option>
+            <option id="C">Saccharum sinense</option>
+            <option id="D">Saccharum robustum</option>
+            <answer>B</answer>
+            <explanation>Saccharum barberi was originally grown in north India, but had poor sugar content and yield. Tropical canes grown in south India Saccharum officinarum had thicker stems and higher sugar content. These two species were successfully crossed to get sugar cane varieties combining the desirable qualities.</explanation>
+        </question>
+        <question>
+            <text>Biofortification refers to:</text>
+            <option id="A">The use of microbes to extract heavy metals from soil.</option>
+            <option id="B">Breeding crops with higher levels of vitamins and minerals, or higher protein and healthier fats.</option>
+            <option id="C">The artificial addition of nutrients to food during processing.</option>
+            <option id="D">The fortification of natural habitats to protect endangered species.</option>
+            <answer>B</answer>
+            <explanation>Breeding crops with higher levels of vitamins and minerals, or higher protein and healthier fats is the most practical means to improve public health. This process is called biofortification. Examples include iron-fortified rice and vitamin A enriched carrots.</explanation>
+        </question>
     </hard>
 </chapter>

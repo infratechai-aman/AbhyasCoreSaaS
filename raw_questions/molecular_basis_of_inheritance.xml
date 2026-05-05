@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="328" name="Molecular Basis of Inheritance">
     <easy>
-
+        <question>
+            <text>In a DNA molecule, adenine pairs with thymine through how many hydrogen bonds?</text>
+            <option id="A">One</option>
+            <option id="B">Two</option>
+            <option id="C">Three</option>
+            <option id="D">Four</option>
+            <answer>B</answer>
+            <explanation>According to Watson and Crick's model of DNA, Adenine pairs with Thymine via two hydrogen bonds, and Guanine pairs with Cytosine via three hydrogen bonds.</explanation>
+        </question>
+        <question>
+            <text>Which of the following nitrogenous bases is present in RNA but NOT in DNA?</text>
+            <option id="A">Adenine</option>
+            <option id="B">Guanine</option>
+            <option id="C">Thymine</option>
+            <option id="D">Uracil</option>
+            <answer>D</answer>
+            <explanation>Uracil is present in RNA at the place of thymine. DNA contains adenine, guanine, cytosine, and thymine.</explanation>
+        </question>
+        <question>
+            <text>The central dogma of molecular biology, which states that genetic information flows from DNA to RNA to Protein, was proposed by:</text>
+            <option id="A">James Watson</option>
+            <option id="B">Francis Crick</option>
+            <option id="C">Gregor Mendel</option>
+            <option id="D">Frederick Griffith</option>
+            <answer>B</answer>
+            <explanation>Francis Crick proposed the Central dogma in molecular biology, which states that the genetic information flows from DNA -> RNA -> Protein.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>During DNA replication, Okazaki fragments are used to elongate:</text>
+            <option id="A">The leading strand towards the replication fork</option>
+            <option id="B">The lagging strand away from the replication fork</option>
+            <option id="C">The leading strand away from the replication fork</option>
+            <option id="D">The lagging strand towards the replication fork</option>
+            <answer>B</answer>
+            <explanation>Since DNA polymerase can only polymerize in the 5' to 3' direction, replication on one strand (the template with polarity 5'->3') is discontinuous. These discontinuously synthesized fragments are called Okazaki fragments, which elongate the lagging strand away from the replication fork.</explanation>
+        </question>
+        <question>
+            <text>In the lac operon, the repressor protein binds to which region of the operon?</text>
+            <option id="A">Promoter</option>
+            <option id="B">Operator</option>
+            <option id="C">Structural genes</option>
+            <option id="D">Regulator gene</option>
+            <answer>B</answer>
+            <explanation>The repressor protein synthesized by the i gene binds to the operator region of the operon and prevents RNA polymerase from transcribing the operon.</explanation>
+        </question>
+        <question>
+            <text>Which of the following enzymes is responsible for the transcription of tRNA in eukaryotes?</text>
+            <option id="A">RNA polymerase I</option>
+            <option id="B">RNA polymerase II</option>
+            <option id="C">RNA polymerase III</option>
+            <option id="D">Reverse transcriptase</option>
+            <answer>C</answer>
+            <explanation>In eukaryotes, RNA polymerase I transcribes rRNAs, RNA polymerase II transcribes precursor of mRNA (hnRNA), and RNA polymerase III is responsible for transcription of tRNA, 5srRNA, and snRNAs.</explanation>
+        </question>
+        <question>
+            <text>The process of splicing in eukaryotes involves the removal of:</text>
+            <option id="A">Exons and joining of introns</option>
+            <option id="B">Introns and joining of exons</option>
+            <option id="C">Both introns and exons</option>
+            <option id="D">Poly-A tail</option>
+            <answer>B</answer>
+            <explanation>The primary transcripts (hnRNA) contain both exons and introns and are non-functional. They undergo a process called splicing where introns are removed and exons are joined in a defined order.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>Hershey and Chase used radioactive isotopes to definitively prove that DNA is the genetic material. Which isotopes did they use to label the protein coat and the DNA of the bacteriophages, respectively?</text>
+            <option id="A">32P for protein, 35S for DNA</option>
+            <option id="B">35S for protein, 32P for DNA</option>
+            <option id="C">14C for protein, 15N for DNA</option>
+            <option id="D">15N for protein, 32P for DNA</option>
+            <answer>B</answer>
+            <explanation>They grew some viruses on a medium that contained radioactive phosphorus (32P) which labeled the DNA, and some others on a medium that contained radioactive sulfur (35S) which labeled the protein coat.</explanation>
+        </question>
+        <question>
+            <text>In a eukaryotic gene, the sequence of nucleotides in the mature mRNA is identical to the sequence in the coding strand of DNA (except for U replacing T). Which strand acts as the template for transcription?</text>
+            <option id="A">The coding strand, reading 5' to 3'</option>
+            <option id="B">The non-coding strand, reading 3' to 5'</option>
+            <option id="C">The non-coding strand, reading 5' to 3'</option>
+            <option id="D">Both strands act as templates simultaneously</option>
+            <answer>B</answer>
+            <explanation>The strand that has the polarity 3'->5' acts as a template, and is also referred to as template strand. The other strand with polarity 5'->3' and identical sequence to RNA is called the coding strand.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT a characteristic feature of the genetic code?</text>
+            <option id="A">It is degenerate</option>
+            <option id="B">It is nearly universal</option>
+            <option id="C">It is overlapping</option>
+            <option id="D">It is unambiguous</option>
+            <answer>C</answer>
+            <explanation>The genetic code is read in a contiguous fashion, meaning there are no punctuations, and it is NON-OVERLAPPING. It is degenerate (some amino acids are coded by more than one codon), unambiguous (one codon codes for only one amino acid), and nearly universal.</explanation>
+        </question>
     </hard>
 </chapter>

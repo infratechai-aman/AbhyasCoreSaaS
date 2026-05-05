@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="327" name="Principles of Inheritance and Variation">
     <easy>
-
+        <question>
+            <text>Who is known as the Father of Genetics?</text>
+            <option id="A">Charles Darwin</option>
+            <option id="B">Gregor Mendel</option>
+            <option id="C">Thomas Hunt Morgan</option>
+            <option id="D">Hugo de Vries</option>
+            <answer>B</answer>
+            <explanation>Gregor Mendel is known as the Father of Genetics because he discovered the fundamental laws of inheritance through his experiments on pea plants.</explanation>
+        </question>
+        <question>
+            <text>In a monohybrid cross, what is the phenotypic ratio of the F2 generation if complete dominance is present?</text>
+            <option id="A">1:2:1</option>
+            <option id="B">9:3:3:1</option>
+            <option id="C">3:1</option>
+            <option id="D">1:1</option>
+            <answer>C</answer>
+            <explanation>In a monohybrid cross involving complete dominance, the F2 phenotypic ratio is 3 dominant : 1 recessive (3:1).</explanation>
+        </question>
+        <question>
+            <text>A person with blood group 'O' has which antibodies in their blood plasma?</text>
+            <option id="A">Anti-A only</option>
+            <option id="B">Anti-B only</option>
+            <option id="C">Both Anti-A and Anti-B</option>
+            <option id="D">No antibodies</option>
+            <answer>C</answer>
+            <explanation>A person with blood group 'O' lacks both A and B antigens on their red blood cells, and therefore has both anti-A and anti-B antibodies in their blood plasma.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>When a red flower snapdragon plant (RR) is crossed with a white flower snapdragon plant (rr), all the F1 offspring have pink flowers (Rr). This is an example of:</text>
+            <option id="A">Co-dominance</option>
+            <option id="B">Incomplete dominance</option>
+            <option id="C">Multiple alleles</option>
+            <option id="D">Pleiotropy</option>
+            <answer>B</answer>
+            <explanation>Incomplete dominance is a form of inheritance in which one allele for a specific trait is not completely expressed over its paired allele. This results in a third phenotype in which the expressed physical trait is a combination (blend) of the phenotypes of both alleles.</explanation>
+        </question>
+        <question>
+            <text>Which genetic disorder is caused by the presence of an additional copy of chromosome number 21 (Trisomy 21)?</text>
+            <option id="A">Turner's syndrome</option>
+            <option id="B">Klinefelter's syndrome</option>
+            <option id="C">Down's syndrome</option>
+            <option id="D">Sickle-cell anemia</option>
+            <answer>C</answer>
+            <explanation>Down's syndrome is caused by the presence of an additional copy of chromosome number 21 (trisomy 21).</explanation>
+        </question>
+        <question>
+            <text>In humans, sex is determined by the XX-XY mechanism. What determines the sex of the child?</text>
+            <option id="A">The autosomes of the father</option>
+            <option id="B">The sex chromosome contributed by the mother</option>
+            <option id="C">The sex chromosome contributed by the father</option>
+            <option id="D">The temperature during embryonic development</option>
+            <answer>C</answer>
+            <explanation>Females produce only one type of ovum (with an X chromosome), while males produce two types of sperms (with X or Y). Thus, the genetic makeup of the sperm (X or Y) that fertilizes the ovum determines the sex of the child.</explanation>
+        </question>
+        <question>
+            <text>A test cross is performed to determine the genotype of a dominant phenotype. It involves crossing the unknown dominant phenotype with a:</text>
+            <option id="A">Heterozygous dominant</option>
+            <option id="B">Homozygous dominant</option>
+            <option id="C">Homozygous recessive</option>
+            <option id="D">Any of the above</option>
+            <answer>C</answer>
+            <explanation>To determine the genotype of a tall plant at F2, Mendel crossed the tall plant from F2 with a dwarf plant. This he called a test cross. It involves crossing an organism with a dominant phenotype to a homozygous recessive individual.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>Which of the following statements about Sickle-cell anemia is CORRECT?</text>
+            <option id="A">It is an autosomal dominant disorder.</option>
+            <option id="B">It is caused by the substitution of Glutamic acid by Valine at the 6th position of the beta globin chain.</option>
+            <option id="C">It provides complete immunity against malaria to homozygous individuals.</option>
+            <option id="D">It is caused by a chromosomal aneuploidy.</option>
+            <answer>B</answer>
+            <explanation>Sickle-cell anemia is an autosomal recessive trait caused by the substitution of Glutamic acid (Glu) by Valine (Val) at the sixth position of the beta globin chain of the haemoglobin molecule.</explanation>
+        </question>
+        <question>
+            <text>In his experiments on Drosophila melanogaster, T.H. Morgan observed that when the two genes in a dihybrid cross were situated on the same chromosome, the proportion of parental gene combinations was much higher than the non-parental type. He coined a term for this physical association of genes. What was it?</text>
+            <option id="A">Recombination</option>
+            <option id="B">Crossing over</option>
+            <option id="C">Linkage</option>
+            <option id="D">Mutation</option>
+            <answer>C</answer>
+            <explanation>Morgan coined the term linkage to describe this physical association of genes on a chromosome and the term recombination to describe the generation of non-parental gene combinations.</explanation>
+        </question>
+        <question>
+            <text>Phenylketonuria is an inborn error of metabolism. The affected individual lacks an enzyme that converts the amino acid phenylalanine into:</text>
+            <option id="A">Tryptophan</option>
+            <option id="B">Tyrosine</option>
+            <option id="C">Valine</option>
+            <option id="D">Methionine</option>
+            <answer>B</answer>
+            <explanation>Phenylketonuria is an autosomal recessive trait. The affected individual lacks an enzyme (phenylalanine hydroxylase) that converts the amino acid phenylalanine into tyrosine. As a result, phenylalanine accumulates and converts into phenylpyruvic acid, causing mental retardation.</explanation>
+        </question>
     </hard>
 </chapter>

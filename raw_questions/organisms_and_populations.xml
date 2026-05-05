@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter subject="Biology" id="335" name="Organisms and Populations">
     <easy>
-
+        <question>
+            <text>The process by which organisms maintain a constant internal environment despite fluctuating external environmental conditions is called:</text>
+            <option id="A">Acclimatization</option>
+            <option id="B">Homeostasis</option>
+            <option id="C">Adaptation</option>
+            <option id="D">Hibernation</option>
+            <answer>B</answer>
+            <explanation>Homeostasis is the process by which an organism tries to maintain the constancy of its internal environment (such as body temperature and osmotic concentration) despite varying external environmental conditions.</explanation>
+        </question>
+        <question>
+            <text>Organisms that can tolerate and thrive in a wide range of temperatures are called:</text>
+            <option id="A">Stenothermal</option>
+            <option id="B">Eurythermal</option>
+            <option id="C">Poikilothermal</option>
+            <option id="D">Endothermal</option>
+            <answer>B</answer>
+            <explanation>A few organisms can tolerate and thrive in a wide range of temperatures; they are called eurythermal. A vast majority of them are restricted to a narrow range of temperatures and are called stenothermal.</explanation>
+        </question>
+        <question>
+            <text>An interaction between two species in which one is benefited and the other is neither harmed nor benefited is called:</text>
+            <option id="A">Mutualism</option>
+            <option id="B">Commensalism</option>
+            <option id="C">Amensalism</option>
+            <option id="D">Parasitism</option>
+            <answer>B</answer>
+            <explanation>Commensalism is an interaction in which one species benefits and the other is neither harmed nor benefited. Example: an orchid growing as an epiphyte on a mango branch.</explanation>
+        </question>
     </easy>
     <medium>
-
+        <question>
+            <text>When a population grows in a habitat with limited resources, it exhibits a logistic growth curve. The equation for this curve is dN/dt = rN((K-N)/K). What does 'K' represent?</text>
+            <option id="A">Intrinsic rate of natural increase</option>
+            <option id="B">Carrying capacity</option>
+            <option id="C">Population density at time t</option>
+            <option id="D">Environmental resistance</option>
+            <answer>B</answer>
+            <explanation>In the logistic growth equation, K represents the carrying capacity, which is the maximum population size of a biological species that can be sustained in that specific environment, given the food, habitat, water, and other necessities available.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is an example of a morphological adaptation for minimizing water loss in desert plants?</text>
+            <option id="A">Presence of a special photosynthetic pathway (CAM)</option>
+            <option id="B">Leaves reduced to spines</option>
+            <option id="C">Stomata that remain open during the day</option>
+            <option id="D">Production of antifreeze proteins</option>
+            <answer>B</answer>
+            <explanation>Many desert plants like Opuntia have their leaves reduced to spines to minimize water loss through transpiration, and the photosynthetic function is taken over by the flattened stems. CAM pathway is a physiological adaptation, not morphological.</explanation>
+        </question>
+        <question>
+            <text>Gause's 'Competitive Exclusion Principle' states that:</text>
+            <option id="A">Two closely related species competing for the same resources can co-exist indefinitely.</option>
+            <option id="B">Two closely related species competing for the same resources cannot co-exist indefinitely and the competitively inferior one will be eliminated.</option>
+            <option id="C">Predators play an important role in maintaining species diversity in a community.</option>
+            <option id="D">Parasites always evolve to become less virulent to their hosts over time.</option>
+            <answer>B</answer>
+            <explanation>Gause's 'Competitive Exclusion Principle' states that two closely related species competing for the same resources cannot co-exist indefinitely and the competitively inferior one will be eliminated eventually.</explanation>
+        </question>
+        <question>
+            <text>The association between a sea anemone and a clown fish is an example of:</text>
+            <option id="A">Mutualism</option>
+            <option id="B">Commensalism</option>
+            <option id="C">Amensalism</option>
+            <option id="D">Parasitism</option>
+            <answer>B</answer>
+            <explanation>The interaction between sea anemone that has stinging tentacles and the clown fish that lives among them is an example of commensalism. The fish gets protection from predators, while the anemone does not appear to derive any benefit.</explanation>
+        </question>
     </medium>
     <hard>
-
+        <question>
+            <text>MacArthur showed that five closely related species of warblers living on the same tree were able to avoid competition and co-exist. This was achieved through:</text>
+            <option id="A">Competitive exclusion</option>
+            <option id="B">Character displacement</option>
+            <option id="C">Resource partitioning</option>
+            <option id="D">Predation</option>
+            <answer>C</answer>
+            <explanation>MacArthur showed that five closely related species of warblers living on the same tree were able to avoid competition and co-exist due to behavioral differences in their foraging activities, a mechanism known as resource partitioning.</explanation>
+        </question>
+        <question>
+            <text>Verhulst-Pearl logistic growth is described by a specific curve shape. What is the shape of this population growth curve?</text>
+            <option id="A">J-shaped</option>
+            <option id="B">Sigmoid (S-shaped)</option>
+            <option id="C">U-shaped</option>
+            <option id="D">Linear</option>
+            <answer>B</answer>
+            <explanation>A population growing in a habitat with limited resources shows initially a lag phase, followed by phases of acceleration and deceleration, and finally an asymptote when the population density reaches the carrying capacity. A plot of N in relation to time t results in a sigmoid (S-shaped) curve.</explanation>
+        </question>
+        <question>
+            <text>In the context of population attributes, if in a pond there were 20 lotus plants last year and through reproduction 8 new plants are added, taking the current population to 28, what is the birth rate?</text>
+            <option id="A">0.4 offspring per lotus per year</option>
+            <option id="B">0.8 offspring per lotus per year</option>
+            <option id="C">2.5 offspring per lotus per year</option>
+            <option id="D">8 offspring per lotus per year</option>
+            <answer>A</answer>
+            <explanation>Birth rate is expressed as change in numbers (increase) with respect to members of the population. Here, the birth rate is 8 / 20 = 0.4 offspring per lotus per year.</explanation>
+        </question>
     </hard>
 </chapter>
