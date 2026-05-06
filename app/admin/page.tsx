@@ -696,43 +696,64 @@ export default function SuperAdminDashboard() {
             transition={{ delay: 0.5 }}
             className="flex flex-col gap-5"
           >
-            {/* Traffic source */}
+            {/* Traffic source — LIVE from Firestore */}
             <div className="flex-1 rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm">
-              <h2 className="text-[16px] font-bold text-slate-900 mb-6">Top Performing Affiliates</h2>
-              <div className="space-y-4">
-                {[
-                  { name: "DineshSir", val: "342", color: "bg-indigo-500", trend: "+12%" },
-                  { name: "AmanT", val: "215", color: "bg-emerald-500", trend: "+8%" },
-                  { name: "PhysicsWallah", val: "189", color: "bg-amber-500", trend: "+24%" },
-                  { name: "UnacademyJEE", val: "94", color: "bg-rose-500", trend: "-5%" },
-                ].map((t) => (
-                  <div key={t.name} className="flex items-center justify-between group cursor-pointer">
-                    <div className="flex items-center gap-3">
-                      <div className={`h-2 w-2 rounded-full ${t.color}`} />
-                      <span className="text-[12px] font-semibold text-slate-600 group-hover:text-indigo-600 transition-colors uppercase tracking-wider">{t.name}</span>
+              <h2 className="text-[16px] font-bold text-slate-900 mb-2">Referral Affiliates (Live)</h2>
+              <p className="text-[11px] text-slate-400 font-medium mb-5">Paid users tracked per referral code from Firestore</p>
+              <div className="space-y-3">
+                {(() => {
+                  // Compute referral stats from real Firestore data
+                  const refMap: Record<string, { total: number; paid: number }> = {};
+                  realUsers.forEach((u: any) => {
+                    if (u.referredBy) {
+                      if (!refMap[u.referredBy]) refMap[u.referredBy] = { total: 0, paid: 0 };
+                      refMap[u.referredBy].total++;
+                      if (u.subscription?.status === "active" && u.subscription?.plan && u.subscription.plan !== "Free") {
+                        refMap[u.referredBy].paid++;
+                      }
+                    }
+                  });
+                  const colors = ["bg-indigo-500", "bg-emerald-500", "bg-amber-500", "bg-rose-500", "bg-violet-500", "bg-cyan-500"];
+                  const sorted = Object.entries(refMap).sort((a, b) => b[1].paid - a[1].paid);
+                  
+                  if (sorted.length === 0) {
+                    return <div className="text-[13px] text-slate-400 font-medium py-4 text-center">No referral data yet</div>;
+                  }
+                  
+                  return sorted.map(([code, data], i) => (
+                    <div key={code} className="flex items-center justify-between group cursor-pointer">
+                      <div className="flex items-center gap-3">
+                        <div className={`h-2 w-2 rounded-full ${colors[i % colors.length]}`} />
+                        <span className="text-[12px] font-semibold text-slate-600 group-hover:text-indigo-600 transition-colors uppercase tracking-wider">{code}</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                         <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">{data.total} signups</span>
+                         <span className="text-[12px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-100 px-2 py-0.5 rounded-md">{data.paid} paid</span>
+                      </div>
                     </div>
-                    <div className="flex items-center gap-2">
-                       <span className="text-[12px] font-bold text-slate-900">{t.val}</span>
-                       <span className={`text-[10px] font-bold ${t.trend.startsWith("+") ? "text-emerald-500" : "text-rose-500"}`}>{t.trend}</span>
-                    </div>
-                  </div>
-                ))}
+                  ));
+                })()}
               </div>
             </div>
 
-            {/* Conversion Rate */}
+            {/* Conversion Rate — LIVE */}
             <div className="rounded-2xl border border-indigo-100 bg-gradient-to-tr from-indigo-50 to-violet-50 p-6 shadow-sm h-36 flex flex-col justify-between">
               <div className="flex items-start justify-between">
                 <div>
-                  <h3 className="text-[13px] font-bold text-indigo-700 uppercase tracking-wider">Conversion Rate</h3>
-                  <p className="text-[11px] text-indigo-400 mt-0.5 font-medium">Free to Pro upgrades</p>
+                  <h3 className="text-[13px] font-bold text-indigo-700 uppercase tracking-wider">Referral Conversion</h3>
+                  <p className="text-[11px] text-indigo-400 mt-0.5 font-medium">Referred signups → paid</p>
                 </div>
                 <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-100 text-indigo-600">
                   <ArrowUpRight className="h-4 w-4" />
                 </div>
               </div>
               <div className="font-display text-4xl font-bold text-slate-900">
-                12.4% <span className="text-[16px] text-indigo-500 ml-1 font-semibold">avg</span>
+                {(() => {
+                  const referred = realUsers.filter((u: any) => u.referredBy);
+                  const paidReferred = referred.filter((u: any) => u.subscription?.status === "active" && u.subscription?.plan && u.subscription.plan !== "Free");
+                  const rate = referred.length > 0 ? ((paidReferred.length / referred.length) * 100).toFixed(1) : "0.0";
+                  return <>{rate}% <span className="text-[14px] text-indigo-500 ml-1 font-semibold">{paidReferred.length}/{referred.length}</span></>;
+                })()}
               </div>
             </div>
           </motion.div>
