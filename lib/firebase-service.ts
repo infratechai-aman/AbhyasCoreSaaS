@@ -76,22 +76,10 @@ export async function saveTestResult(userId: string, payload: any) {
     throw error;
   }
 }
-export async function updateUserSubscription(
-  userId: string,
-  plan: "Pro Monthly" | "Pro Yearly" | "Weekly Pass" | "Free",
-  status: "active" | "canceled" | "past_due" | "none",
-  razorpaySubscriptionId?: string
-) {
-  if (!db) return;
+// NOTE: updateUserSubscription was removed as a security hardening measure.
+// All subscription writes now happen exclusively via Firebase Admin SDK
+// in the server-side payment/verify and payment/webhook routes.
 
-  const userRef = doc(db, "users", userId);
-  await updateDoc(userRef, {
-    "subscription.plan": plan,
-    "subscription.status": status,
-    "subscription.razorpaySubscriptionId": razorpaySubscriptionId || null,
-    updatedAt: serverTimestamp(),
-  });
-}
 
 export async function getUserTestHistory(userId: string) {
   if (!db) return [];
