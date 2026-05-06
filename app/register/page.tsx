@@ -13,10 +13,12 @@ import {
   AlertCircle,
   Loader2,
   ChevronRight,
-  Target
+  Target,
+  Chrome,
+  Github
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
-import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification } from "firebase/auth";
+import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { Suspense } from "react";
 
@@ -78,6 +80,50 @@ function RegisterForm() {
       router.push("/verify-email");
     } catch (err: any) {
       setError(err.message || "Failed to create account. Please try again.");
+      setLoading(false);
+    }
+  };
+
+  const handleGoogleRegister = async () => {
+    setLoading(true);
+    setError("");
+    try {
+      if (!auth) throw new Error("Authentication service is not available.");
+      if (!db) throw new Error("Database service is not available.");
+      
+      const provider = new GoogleAuthProvider();
+      const result = await signInWithPopup(auth, provider);
+      const user = result.user;
+
+      // check if user document already exists
+      const userDoc = await getDoc(doc(db, "users", user.uid));
+      if (!userDoc.exists()) {
+        let finalReferredBy = null;
+        if (referredBy) {
+           try {
+             const promoDoc = await getDoc(doc(db, "promo_codes", referredBy));
+             if (promoDoc.exists() && promoDoc.data().active !== false) {
+               finalReferredBy = referredBy;
+             }
+           } catch (e) { console.error(e); }
+        }
+
+        await setDoc(doc(db, "users", user.uid), {
+          name: user.displayName || "Aspirant",
+          email: user.email,
+          targetExam: targetExam,
+          createdAt: new Date().toISOString(),
+          streak: 0,
+          questionsSolved: 0,
+          mocksCompleted: 0,
+          subscription: "free",
+          referredBy: finalReferredBy
+        });
+      }
+      
+      router.push("/dashboard");
+    } catch (err: any) {
+      setError(err.message || "Failed to register with Google.");
       setLoading(false);
     }
   };
@@ -191,6 +237,24 @@ function RegisterForm() {
               </button>
             </div>
           </form>
+
+          <div className="relative my-8 text-center">
+            <div className="absolute inset-0 flex items-center"><div className="w-full border-t border-slate-100"></div></div>
+            <span className="relative px-4 bg-white text-[11px] font-bold uppercase tracking-[0.2em] text-slate-300">or continue with</span>
+          </div>
+
+          <div className="grid grid-cols-2 gap-4">
+             <button 
+                onClick={handleGoogleRegister}
+                type="button" 
+                className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors font-bold text-[13px] text-slate-700"
+              >
+               <Chrome className="h-4 w-4 text-indigo-500" /> Google
+             </button>
+             <button type="button" className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors font-bold text-[13px] text-slate-700">
+               <Github className="h-4 w-4" /> GitHub
+             </button>
+          </div>
 
           <p className="text-[11px] text-slate-400 mt-6 text-center leading-relaxed">
             By signing up, you agree to our <span className="underline">Terms of Service</span> and <span className="underline">Privacy Policy</span>.
