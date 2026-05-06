@@ -111,7 +111,7 @@ function DashboardContent() {
         subscriptionId: data.subscriptionId,
         name: "AbhyasCore Pro",
         description: userData?.referredBy 
-          ? `Creator Promo! ₹${planType === 'yearly' ? '299 for 1 year, then ₹399/yr' : '29 for 30 days, then ₹49/month'}`
+          ? `AbhyasCore Pro — ₹${planType === 'yearly' ? '399/year' : '49/month'} with autopay`
           : `₹7 for 7-day trial, then ₹${planType === 'yearly' ? '399/year' : '49/month'}`,
         prefill: {
           name: userData?.displayName || userData?.name || "Aspirant",
@@ -138,7 +138,7 @@ function DashboardContent() {
           }
 
           setIsProcessingPayment(false);
-          setToast({ message: `Payment successful! Your ${userData?.referredBy ? 'Creator Promo plan' : '7-day Pro Trial'} is now active.`, type: "success" });
+          setToast({ message: `Payment successful! Your ${userData?.referredBy ? 'Pro plan' : '7-day Pro Trial'} is now active.`, type: "success" });
           // Hard reload to refresh auth context with new subscription data
           setTimeout(() => window.location.reload(), 1500);
         },
@@ -319,10 +319,10 @@ function DashboardContent() {
             {!isPremium ? (
                <div className="flex flex-col gap-2 w-full">
                  <button onClick={() => handleCheckout("monthly")} className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-700 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2">
-                   <Zap className="w-3.5 h-3.5" /> Pro ({userData?.referredBy ? "Promo ₹29" : "₹49/mo"})
+                   <Zap className="w-3.5 h-3.5" /> Pro (₹49/mo)
                  </button>
                  <button onClick={() => handleCheckout("yearly")} className="w-full py-2 rounded-lg bg-indigo-600 text-white text-[12px] font-bold tracking-wide hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2">
-                   <Crown className="w-3.5 h-3.5" /> Pro ({userData?.referredBy ? "Promo ₹299" : "₹399/yr"})
+                   <Crown className="w-3.5 h-3.5" /> Pro (₹399/yr)
                  </button>
                </div>
             ) : (

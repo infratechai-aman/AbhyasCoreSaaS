@@ -26,22 +26,33 @@ export async function POST(req: Request) {
       );
     }
 
-    let trialDays = 7;
-    let upfrontAmount = 700; // ₹7 in paise
-    let upfrontName = "7-Day Pro Trial";
-
+    // Referred users: skip trial entirely, go straight to full plan with autopay
+    // Non-referred users: ₹7 upfront for 7-day trial, then auto-renew at plan price
     if (isReferred) {
-      if (planType === 'yearly') {
-        trialDays = 365;
-        upfrontAmount = 29900; // ₹299
-        upfrontName = "Creator Promo: First Year";
-      } else {
-        trialDays = 30;
-        upfrontAmount = 2900; // ₹29
-        upfrontName = "Creator Promo: First Month";
-      }
+      // No trial, no addon — subscription starts immediately at full plan price
+      const subscription = await razorpay.subscriptions.create({
+        plan_id: planId,
+        customer_notify: 1,
+        total_count: 120,
+        notes: {
+          user_id: userId,
+          user_name: userName || '',
+          user_email: userEmail,
+          plan_type: planType === 'yearly' ? 'pro_yearly' : 'pro_monthly',
+          referral: 'true',
+        },
+      });
+
+      return NextResponse.json({
+        subscriptionId: subscription.id,
+        status: subscription.status,
+      });
     }
 
+    // Non-referred flow: 7-day trial with ₹7 upfront
+    const trialDays = 7;
+    const upfrontAmount = 700; // ₹7 in paise
+    const upfrontName = "7-Day Pro Trial";
     const trialEndTimestamp = Math.floor(Date.now() / 1000) + trialDays * 24 * 60 * 60;
 
     const subscription = await razorpay.subscriptions.create({
