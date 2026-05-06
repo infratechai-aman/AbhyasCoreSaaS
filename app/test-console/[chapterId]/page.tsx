@@ -22,6 +22,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
   
   const [currentIndex, setCurrentIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(3600); // 1 hour for 30 questions
+  const [initialTime, setInitialTime] = useState(3600);
   const [isPaletteOpen, setIsPaletteOpen] = useState(false);
   
   // States: 'not_visited', 'not_answered', 'answered', 'marked'
@@ -45,7 +46,9 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
 
     // Set dynamic timer based on exam
     const examTarget = userData?.targetExam || "JEE";
-    setTimeLeft(examTarget === "NEET" ? 2700 : 3600);
+    const examTime = examTarget === "NEET" ? 2700 : 3600;
+    setTimeLeft(examTime);
+    setInitialTime(examTime);
 
     // Fetch test data
     authenticatedFetch(`/api/exam/${params.chapterId}?exam=${examTarget}`)
@@ -70,7 +73,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
 
   // Timer logic
   useEffect(() => {
-    if (loading) return;
+    if (loading || submitting) return;
     const timer = setInterval(() => {
       setTimeLeft(prev => {
         if (prev <= 1) {
@@ -82,7 +85,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
       });
     }, 1000);
     return () => clearInterval(timer);
-  }, [loading]);
+  }, [loading, submitting]);
 
   const formatTime = (seconds: number) => {
     const min = Math.floor(seconds / 60);
@@ -167,7 +170,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
       const totalQuestions = data.questions.length;
       const unattempted = totalQuestions - (correct + wrong);
       const finalScore = (correct * 4) - (wrong * 1);
-      const timeUsed = 3600 - timeLeft;
+      const timeUsed = initialTime - timeLeft;
 
       const resultPayload = {
         chapterId: params.chapterId,
@@ -453,14 +456,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
         </div>
 
       </div>
-      
-      {/* Global styles for dark custom-scrollbar to keep it tight */}
-      <style dangerouslySetInnerHTML={{__html: `
-        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
-        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-      `}} />
+
     </div>
   );
 }

@@ -48,13 +48,21 @@ export function Footer() {
               India&apos;s most premium AI-powered mock test platform. Exam-real simulations, AI analytics, and rank prediction — all in one place.
             </p>
             <div className="mt-6 flex gap-4">
-              {["X", "In", "YT", "IG"].map((social) => (
-                <div
-                  key={social}
+              {[
+                { label: "X", href: "https://x.com" },
+                { label: "In", href: "https://linkedin.com" },
+                { label: "YT", href: "https://youtube.com" },
+                { label: "IG", href: "https://instagram.com" },
+              ].map((social) => (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/8 bg-white/5 text-xs font-bold text-slate-400 transition-all hover:border-indigo-400/30 hover:bg-indigo-500/10 hover:text-white"
                 >
-                  {social}
-                </div>
+                  {social.label}
+                </a>
               ))}
             </div>
           </div>

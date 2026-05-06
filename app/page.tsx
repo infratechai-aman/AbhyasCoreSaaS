@@ -137,7 +137,7 @@ function HomeHeader() {
 
         {/* cta */}
         <div className="flex items-center gap-4">
-          <Link href="/dashboard" className="hidden text-[13px] font-bold text-slate-500 transition-colors hover:text-indigo-600 uppercase tracking-wider sm:inline">
+          <Link href="/login" className="hidden text-[13px] font-bold text-slate-500 transition-colors hover:text-indigo-600 uppercase tracking-wider sm:inline">
             Log In
           </Link>
           <Link href="/dashboard">

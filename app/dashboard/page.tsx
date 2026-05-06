@@ -31,6 +31,8 @@ function DashboardContent() {
   const [isProcessingPayment, setIsProcessingPayment] = useState(false);
   const [recentMocks, setRecentMocks] = useState<any[]>([]);
   const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
+  const [difficulty, setDifficulty] = useState("Standard");
+  const [quickSubject, setQuickSubject] = useState("Full PCMB Syllabus");
 
   // Auto-dismiss toast after 5 seconds
   useEffect(() => {
@@ -217,7 +219,7 @@ function DashboardContent() {
           <div className="mb-10 md:mb-12">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-[14px] md:text-[15px] font-bold text-slate-900">Current Subjects <span className="text-slate-400 font-medium text-[12px] md:text-[13px] ml-1 md:ml-2">(Class 11)</span></h3>
-              <button className="text-[10px] font-bold tracking-[0.1em] text-indigo-600 uppercase hover:text-indigo-700 transition-colors hidden sm:block">View Full Curriculum</button>
+              <button onClick={() => router.push('/dashboard/practice')} className="text-[10px] font-bold tracking-[0.1em] text-indigo-600 uppercase hover:text-indigo-700 transition-colors hidden sm:block">View Full Curriculum</button>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
               {((Object.keys(Syllabus.Class11) as Array<keyof typeof Syllabus.Class11>).filter(sub => {
@@ -231,7 +233,7 @@ function DashboardContent() {
                 const ready = chapters.filter(c => c.hasData).length;
                 const percent = Math.round((ready / total) * 100);
                 return (
-                  <div key={sub} className="bg-white rounded-[16px] border border-slate-200/60 p-5 shadow-[0_2px_12px_rgba(0,0,0,0.02)] hover:border-indigo-200 transition-colors group cursor-pointer relative overflow-hidden">
+                  <div key={sub} onClick={() => router.push('/dashboard/practice')} className="bg-white rounded-[16px] border border-slate-200/60 p-5 shadow-[0_2px_12px_rgba(0,0,0,0.02)] hover:border-indigo-200 transition-colors group cursor-pointer relative overflow-hidden">
                      <div className="text-[14px] font-bold text-slate-900 mb-1">{sub}</div>
                      <div className="text-[11px] font-medium text-slate-500 mb-4">{ready} of {total} Chapters Ready</div>
                      <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
@@ -247,7 +249,7 @@ function DashboardContent() {
           <div>
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-[15px] font-bold text-slate-900">Recent Test Attempts</h3>
-              <button className="text-[10px] font-bold tracking-[0.1em] text-indigo-600 uppercase hover:text-indigo-700 transition-colors flex items-center gap-1">
+              <button onClick={() => router.push('/dashboard/repository')} className="text-[10px] font-bold tracking-[0.1em] text-indigo-600 uppercase hover:text-indigo-700 transition-colors flex items-center gap-1">
                 Access Vault <ChevronRight className="h-3 w-3" />
               </button>
             </div>
@@ -366,7 +368,7 @@ function DashboardContent() {
             <p className="text-[12px] leading-[1.6] text-slate-300 mb-4 relative z-10">
               Analyzing your mock tests right after attempting them boosts retention by 40%. Don't skip the post-mock AI review.
             </p>
-            <button className="text-[10px] font-bold uppercase tracking-[0.1em] text-indigo-400 hover:text-indigo-300 transition-colors relative z-10">
+            <button onClick={() => router.push('/dashboard/help-support')} className="text-[10px] font-bold uppercase tracking-[0.1em] text-indigo-400 hover:text-indigo-300 transition-colors relative z-10">
               Learn More &gt;
             </button>
           </div>
@@ -395,7 +397,7 @@ function DashboardContent() {
                  <>
                    <div className="mb-5">
                       <label className="text-[12px] font-bold uppercase tracking-wider text-slate-500 block mb-2">Subject Selection</label>
-                      <select className="w-full h-12 bg-slate-50 border border-slate-200 rounded-xl px-4 text-[14px] outline-none">
+                      <select value={quickSubject} onChange={(e) => setQuickSubject(e.target.value)} className="w-full h-12 bg-slate-50 border border-slate-200 rounded-xl px-4 text-[14px] outline-none">
                          <option>Full PCMB Syllabus (JEE/NEET)</option>
                          <option>Physics Only</option>
                          <option>Chemistry Only</option>
@@ -406,9 +408,9 @@ function DashboardContent() {
                    <div className="mb-6">
                       <label className="text-[12px] font-bold uppercase tracking-wider text-slate-500 block mb-2">Difficulty Curve</label>
                       <div className="flex gap-2">
-                         <button className="flex-1 py-2.5 rounded-xl border border-indigo-600 bg-indigo-50 text-indigo-700 font-bold text-[13px]">Standard</button>
-                         <button className="flex-1 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-600 font-bold text-[13px] hover:bg-slate-100">Adaptive</button>
-                         <button className="flex-1 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-600 font-bold text-[13px] hover:bg-slate-100">Hardcore</button>
+                         {["Standard", "Adaptive", "Hardcore"].map(d => (
+                           <button key={d} onClick={() => setDifficulty(d)} className={`flex-1 py-2.5 rounded-xl border font-bold text-[13px] transition-colors ${difficulty === d ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : 'border-slate-200 bg-slate-50 text-slate-600 hover:bg-slate-100'}`}>{d}</button>
+                         ))}
                       </div>
                    </div>
                    

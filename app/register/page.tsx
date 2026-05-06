@@ -188,7 +188,7 @@ function RegisterForm() {
               </motion.div>
             )}
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Full Name</label>
                 <div className="relative group">
@@ -245,7 +245,7 @@ function RegisterForm() {
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="••••••••"
                   required
-                  minLength={6}
+                  minLength={8}
                   className="w-full h-12 pl-11 pr-4 bg-slate-50 border border-slate-200 rounded-2xl text-[14px] outline-none focus:border-indigo-500 focus:bg-white transition-all"
                 />
               </div>
@@ -275,13 +275,13 @@ function RegisterForm() {
               >
                <Chrome className="h-4 w-4 text-indigo-500" /> Google
              </button>
-             <button type="button" className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors font-bold text-[13px] text-slate-700">
+             <button type="button" disabled title="Coming soon" className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 transition-colors font-bold text-[13px] text-slate-400 cursor-not-allowed opacity-50">
                <Github className="h-4 w-4" /> GitHub
              </button>
           </div>
 
           <p className="text-[11px] text-slate-400 mt-6 text-center leading-relaxed">
-            By signing up, you agree to our <span className="underline">Terms of Service</span> and <span className="underline">Privacy Policy</span>.
+            By signing up, you agree to our <Link href="/terms-and-conditions" className="underline hover:text-indigo-600 transition-colors">Terms of Service</Link> and <Link href="/privacy-policy" className="underline hover:text-indigo-600 transition-colors">Privacy Policy</Link>.
           </p>
         </div>
 

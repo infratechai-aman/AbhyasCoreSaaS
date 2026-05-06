@@ -183,9 +183,8 @@ export function DashboardShell({
           <h1 className="text-[16px] md:text-[18px] font-bold text-slate-900 truncate mr-2">{pageTitle}</h1>
           
           <div className="flex items-center gap-6">
-            <button className="text-slate-400 hover:text-slate-600 transition-colors relative">
+            <button title="Notifications coming soon" className="text-slate-400 hover:text-slate-600 transition-colors relative">
               <Bell className="h-5 w-5" />
-              <span className="absolute top-0 right-0 h-1.5 w-1.5 rounded-full bg-red-500 border border-white ring-2 ring-white"></span>
             </button>
 
             <div className="flex items-center gap-3">

@@ -106,7 +106,7 @@ export default function LoginPage() {
             <div>
               <div className="flex justify-between px-1 mb-2">
                 <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block">Password</label>
-                <Link href="#" className="text-[11px] font-bold text-indigo-600 hover:text-indigo-700 uppercase tracking-wider">Forgot?</Link>
+                <Link href="/forgot-password" className="text-[11px] font-bold text-indigo-600 hover:text-indigo-700 uppercase tracking-wider">Forgot?</Link>
               </div>
               <div className="relative group">
                 <Lock className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400 group-focus-within:text-indigo-500 transition-colors" />
@@ -143,7 +143,7 @@ export default function LoginPage() {
               >
                <Chrome className="h-4 w-4 text-indigo-500" /> Google
              </button>
-             <button type="button" className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors font-bold text-[13px] text-slate-700">
+             <button type="button" disabled title="Coming soon" className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 transition-colors font-bold text-[13px] text-slate-400 cursor-not-allowed opacity-50">
                <Github className="h-4 w-4" /> GitHub
              </button>
           </div>
