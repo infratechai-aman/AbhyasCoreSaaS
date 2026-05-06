@@ -9,6 +9,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { getAITutorHistory, saveAITutorChat } from "@/lib/firebase-service";
 import { useAuth } from "@/lib/auth-context";
+import { authenticatedFetch } from "@/lib/api";
 
 export default function AITutorPage() {
   const { canUseAITutor, remainingAITokens, isPro, limits } = usePremium();
@@ -40,7 +41,7 @@ export default function AITutorPage() {
 
      let accumulated = "";
      try {
-       const res = await fetch("/api/ai/tutor", {
+       const res = await authenticatedFetch("/api/ai/tutor", {
          method: "POST",
          headers: { "Content-Type": "application/json" },
          body: JSON.stringify({

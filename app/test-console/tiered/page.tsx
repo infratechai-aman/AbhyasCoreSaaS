@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 import { saveTestResult } from "@/lib/firebase-service";
+import { authenticatedFetch } from "@/lib/api";
 
 
 function CustomExamConsoleInner() {
@@ -44,7 +45,7 @@ function CustomExamConsoleInner() {
 
     setTimeLeft(10800); // 3 hours
 
-    fetch(`/api/exam/tiered?tier=${tier}&exam=${exam}`)
+    authenticatedFetch(`/api/exam/tiered?tier=${tier}&exam=${exam}`)
       .then(res => res.json())
       .then(json => {
         if (json.questions) {

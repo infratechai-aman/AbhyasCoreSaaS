@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 import { saveTestResult } from "@/lib/firebase-service";
+import { authenticatedFetch } from "@/lib/api";
 
 
 function CustomExamConsoleInner() {
@@ -38,7 +39,7 @@ function CustomExamConsoleInner() {
     // Set time: let's assume 2 minutes per question for custom exams
     setTimeLeft(parseInt(q) * 120);
 
-    fetch(`/api/exam/custom?c=${c}&q=${q}`)
+    authenticatedFetch(`/api/exam/custom?c=${c}&q=${q}`)
       .then(res => res.json())
       .then(json => {
         if (json.questions) {

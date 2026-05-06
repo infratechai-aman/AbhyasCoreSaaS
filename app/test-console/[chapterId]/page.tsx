@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 import { saveTestResult } from "@/lib/firebase-service";
 import { usePremium } from "@/lib/hooks/usePremium";
+import { authenticatedFetch } from "@/lib/api";
 
 export default function ExamConsole({ params }: { params: { chapterId: string } }) {
   const router = useRouter();
@@ -47,7 +48,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
     setTimeLeft(examTarget === "NEET" ? 2700 : 3600);
 
     // Fetch test data
-    fetch(`/api/exam/${params.chapterId}?exam=${examTarget}`)
+    authenticatedFetch(`/api/exam/${params.chapterId}?exam=${examTarget}`)
       .then(res => res.json())
       .then(json => {
         if (json.questions) {

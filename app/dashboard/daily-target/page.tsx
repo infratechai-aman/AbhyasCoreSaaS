@@ -5,6 +5,7 @@ import { useAuth } from "@/lib/auth-context";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Target, Clock, Flame, RotateCcw, Play, Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { authenticatedFetch } from "@/lib/api";
 
 function formatCountdown(seconds: number): string {
   const h = Math.floor(seconds / 3600);
@@ -29,7 +30,7 @@ export default function DailyTargetPage() {
   useEffect(() => {
     if (!user) return;
     const uid = user.uid || "anon";
-    fetch(`/api/exam/daily-target?exam=${exam}&uid=${uid}&q=10`)
+    authenticatedFetch(`/api/exam/daily-target?exam=${exam}&uid=${uid}&q=10`)
       .then(r => r.json())
       .then(data => {
         if (data.error) { setError(data.error); return; }
