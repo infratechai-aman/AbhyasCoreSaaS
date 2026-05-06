@@ -249,24 +249,35 @@ export default function TestsPage() {
               </div>
            </div>
 
-           {/* Modern Tabs for Subject */}
-           <div className="overflow-x-auto -mx-1 px-1 scrollbar-hide">
-             <div className="flex items-center gap-2 mb-8 bg-white p-1.5 rounded-2xl border border-slate-200/60 shadow-sm w-max">
-                {allowedSubjects.map((sub) => (
-                  <button
-                     key={sub}
-                     onClick={() => setActiveSubject(sub)}
-                     className={`px-6 py-2.5 rounded-xl text-[13px] font-bold transition-all ${
-                       activeSubject === sub 
-                         ? 'bg-slate-900 text-white shadow-md' 
-                         : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
-                     }`}
-                  >
-                     {sub}
-                  </button>
-                ))}
-             </div>
-           </div>
+            {/* Modern Tabs for Subject — Color-Coded by Subject */}
+            <div className="overflow-x-auto -mx-1 px-1 scrollbar-hide">
+              <div className="flex items-center gap-2 mb-8 bg-white p-1.5 rounded-2xl border border-slate-200/60 shadow-sm w-max">
+                 {allowedSubjects.map((sub) => {
+                   const subjectConfig: Record<string, { color: string; activeColor: string; icon: string }> = {
+                     Physics: { color: "text-blue-600", activeColor: "bg-blue-600", icon: "⚡" },
+                     Chemistry: { color: "text-emerald-600", activeColor: "bg-emerald-600", icon: "🧪" },
+                     Mathematics: { color: "text-violet-600", activeColor: "bg-violet-600", icon: "📐" },
+                     Biology: { color: "text-rose-600", activeColor: "bg-rose-600", icon: "🧬" },
+                   };
+                   const config = subjectConfig[sub] || { color: "text-slate-600", activeColor: "bg-slate-900", icon: "📘" };
+                   
+                   return (
+                     <button
+                        key={sub}
+                        onClick={() => setActiveSubject(sub)}
+                        className={`px-6 py-2.5 rounded-xl text-[13px] font-bold transition-all duration-300 flex items-center gap-2 ${
+                          activeSubject === sub 
+                            ? `${config.activeColor} text-white shadow-md` 
+                            : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+                        }`}
+                     >
+                        <span className={`text-[14px] ${activeSubject === sub ? '' : 'grayscale opacity-60'} transition-all`}>{config.icon}</span>
+                        {sub}
+                     </button>
+                   );
+                 })}
+              </div>
+            </div>
 
            {/* Square Practice Grid Layout */}
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">

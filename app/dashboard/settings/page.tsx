@@ -103,25 +103,71 @@ export default function SettingsPage() {
             <div className="bg-white rounded-[24px] border border-slate-200/60 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
               <h3 className="text-[15px] font-bold text-slate-900 mb-5">Billing & Subscription</h3>
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 mb-4">
-                 <div className="flex justify-between items-center mb-1">
+                 <div className="flex justify-between items-center mb-2">
                     <span className="text-[13px] font-bold text-slate-900">Current Plan</span>
                     <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider ${userData?.subscription?.plan && userData.subscription.plan !== "Free" ? "bg-emerald-100 text-emerald-700" : "bg-slate-200 text-slate-600"}`}>
-                       {userData?.subscription?.plan && userData.subscription.plan !== "Free" ? "Active" : "Free"}
+                       {userData?.subscription?.status === "active" ? "Active" : userData?.subscription?.plan && userData.subscription.plan !== "Free" ? "Inactive" : "Free"}
                     </span>
                  </div>
-                 <div className="text-[16px] font-display font-bold text-indigo-600 mb-2">
+                 <div className="text-[16px] font-display font-bold text-indigo-600 mb-3">
                     {userData?.subscription?.plan && userData.subscription.plan !== "Free" ? userData.subscription.plan : "Basic Free Tier"}
                  </div>
-                 <div className="text-[11px] text-slate-500 font-medium">
-                    {userData?.subscription?.plan && userData.subscription.plan !== "Free" ? "Your subscription automatically renews to keep your access uninterrupted." : "Upgrade to Pro to unlock advanced AI practice and PYQs."}
-                 </div>
+                 
+                 {/* Subscription Details */}
+                 {userData?.subscription?.plan && userData.subscription.plan !== "Free" && (
+                   <div className="space-y-2 pt-2 border-t border-slate-200">
+                     <div className="flex justify-between text-[12px]">
+                       <span className="text-slate-500 font-medium">Status</span>
+                       <span className="font-bold text-emerald-600 capitalize">{userData?.subscription?.status || "active"}</span>
+                     </div>
+                     {userData?.subscription?.subscriptionId && (
+                       <div className="flex justify-between text-[12px]">
+                         <span className="text-slate-500 font-medium">Subscription ID</span>
+                         <span className="font-mono text-slate-700 text-[11px]">
+                           {userData.subscription.subscriptionId.slice(0, 8)}...{userData.subscription.subscriptionId.slice(-4)}
+                         </span>
+                       </div>
+                     )}
+                     <div className="flex justify-between text-[12px]">
+                       <span className="text-slate-500 font-medium">Billing Cycle</span>
+                       <span className="font-bold text-slate-700">
+                         {userData?.subscription?.plan?.includes("Yearly") ? "Annual" : userData?.subscription?.plan?.includes("Weekly") ? "Weekly" : "Monthly"}
+                       </span>
+                     </div>
+                     <div className="flex justify-between text-[12px]">
+                       <span className="text-slate-500 font-medium">Auto-Renewal</span>
+                       <span className="font-bold text-slate-700">{userData?.subscription?.status === "active" ? "Enabled" : "Disabled"}</span>
+                     </div>
+                   </div>
+                 )}
+
+                 {(!userData?.subscription?.plan || userData?.subscription?.plan === "Free") && (
+                   <div className="text-[11px] text-slate-500 font-medium">
+                      Upgrade to Pro to unlock advanced AI practice, PYQs, and unlimited mocks.
+                   </div>
+                 )}
               </div>
               <div className="flex flex-col gap-2">
-                 <button onClick={() => window.location.href = "/dashboard?checkout=Pro Monthly"} className="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-[13px] transition-colors shadow-sm">
-                    Upgrade Subscription
-                 </button>
+                 {(!userData?.subscription?.plan || userData?.subscription?.plan === "Free" || userData?.subscription?.plan?.includes("Monthly")) && (
+                   <button onClick={() => window.location.href = "/dashboard?checkout=Pro Yearly"} className="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-[13px] transition-colors shadow-sm flex items-center justify-center gap-2">
+                      <Zap className="w-3.5 h-3.5" />
+                      {userData?.subscription?.plan?.includes("Monthly") ? "Upgrade to Yearly (Save 32%)" : "Upgrade to Pro — ₹399/year"}
+                   </button>
+                 )}
+                 {(!userData?.subscription?.plan || userData?.subscription?.plan === "Free") && (
+                   <button onClick={() => window.location.href = "/dashboard?checkout=Pro Monthly"} className="w-full py-2.5 rounded-xl border border-indigo-200 text-indigo-700 hover:bg-indigo-50 font-bold text-[13px] transition-colors flex items-center justify-center gap-2">
+                      Pro Monthly — ₹49/mo
+                   </button>
+                 )}
                  {userData?.subscription?.plan && userData.subscription.plan !== "Free" && (
-                   <button onClick={() => alert("To cancel your subscription, please visit your Razorpay email receipt and click 'Manage Subscription', or email support@abhyascore.com")} className="w-full py-2.5 rounded-xl border border-rose-200 text-rose-600 hover:bg-rose-50 font-bold text-[13px] transition-colors mt-1">
+                   <button 
+                     onClick={() => {
+                       if (confirm("Are you sure you want to cancel your subscription? You will lose access to Pro features at the end of your current billing cycle. To cancel, you can also visit your Razorpay email receipt and click 'Manage Subscription'.")) {
+                         window.open("mailto:support@abhyascore.com?subject=Cancel%20Subscription%20Request&body=Please%20cancel%20my%20subscription.%20My%20email%20is%20" + encodeURIComponent(userData?.email || ""), "_blank");
+                       }
+                     }} 
+                     className="w-full py-2.5 rounded-xl border border-rose-200 text-rose-600 hover:bg-rose-50 font-bold text-[13px] transition-colors mt-1"
+                   >
                       Cancel Subscription
                    </button>
                  )}

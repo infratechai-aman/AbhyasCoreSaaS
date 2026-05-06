@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { 
   BookOpen, 
   LayoutDashboard, 
@@ -60,11 +60,15 @@ export function DashboardShell({
   const router = useRouter();
   const { user, userData, loading, logout } = useAuth();
   const { isPro, isTrial, trialDaysRemaining, plan } = usePremium();
+  const hasRedirected = useRef(false);
 
   useEffect(() => {
+    if (hasRedirected.current) return;
     if (!loading && !user) {
+      hasRedirected.current = true;
       router.push("/login");
     } else if (!loading && user && !user.emailVerified && !userData?.isPromo) {
+      hasRedirected.current = true;
       router.push("/verify-email");
     }
   }, [user, loading, router, userData]);

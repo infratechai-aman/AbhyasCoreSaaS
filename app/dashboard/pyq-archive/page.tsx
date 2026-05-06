@@ -30,7 +30,7 @@ export default function PyqArchivePage() {
                 PYQ Archive
               </h1>
               <p className="text-slate-500">
-                Full-length, historical {isNeet ? "NEET" : "JEE Main"} papers from 2010 to 2024.
+                Full-length, historical {isNeet ? "NEET" : "JEE Main"} papers from 2010 to 2025.
               </p>
            </div>
         </div>

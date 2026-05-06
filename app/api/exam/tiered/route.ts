@@ -52,11 +52,33 @@ function formatMathText(str: string) {
 
 function sanitizeOptionText(str: string) {
   let cleaned = formatMathText(str).trim();
+  cleaned = cleaned.replace(/^(Option\s*)?[A-Da-d][\.\)\:\-]\s*/i, "");
   const lower = cleaned.toLowerCase();
-  if (/^[A-D]$/i.test(cleaned) || lower === "none" || lower === "phi" || cleaned === "φ") {
+  if (
+    cleaned.length === 0 || 
+    /^[A-D]$/i.test(cleaned) || 
+    lower === "none" || 
+    lower === "phi" || 
+    cleaned === "φ" ||
+    lower === "null" ||
+    lower === "undefined" ||
+    lower === "n/a"
+  ) {
     return "None of the above";
   }
   return cleaned;
+}
+
+function padOptionsToFour(options: {id: string, text: string}[]) {
+  const ids = ["A", "B", "C", "D"];
+  const fillers = ["None of the above", "All of the above", "Cannot be determined", "Not applicable"];
+  while (options.length < 4) {
+    const nextId = ids[options.length];
+    const existingTexts = options.map(o => o.text.toLowerCase());
+    let fillerText = fillers.find(f => !existingTexts.includes(f.toLowerCase())) || "None of the above";
+    options.push({ id: nextId, text: fillerText });
+  }
+  return options;
 }
 
 const getTierDistribution = (tier: number, total: number) => {
@@ -193,13 +215,14 @@ export async function GET(request: Request) {
                                 return list.map((q: any) => {
                                     if (!q || !q.text) return null;
                                     const rawOptions = q.option ? (Array.isArray(q.option) ? q.option : [q.option]) : [];
-                                    const formattedOptions = rawOptions.map((opt: any) => {
+                                    let formattedOptions = rawOptions.map((opt: any) => {
                                         if (typeof opt === "string") return { id: "?", text: sanitizeOptionText(opt) };
                                         return {
                                             id: String(opt["@_id"] ?? ""),
                                             text: sanitizeOptionText(String(opt["#text"] ?? opt ?? ""))
                                         };
                                     });
+                                    formattedOptions = padOptionsToFour(formattedOptions);
                                     const originalAnswer = String(q.answer ?? "");
                                     const { options: shuffledOpts, answer: newAnswer } = shuffleOptionsAndAnswer(formattedOptions, originalAnswer);
                                     return {

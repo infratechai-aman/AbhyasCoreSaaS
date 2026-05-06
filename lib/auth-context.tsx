@@ -31,8 +31,31 @@ export const useAuth = () => useContext(AuthContext);
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
-  const [userData, setUserData] = useState<any | null>(null);
+  // Hydrate userData from sessionStorage immediately to prevent flash-null on route transitions
+  const [userData, setUserData] = useState<any | null>(() => {
+    if (typeof window !== "undefined") {
+      try {
+        const cached = sessionStorage.getItem("abhyas_userData");
+        return cached ? JSON.parse(cached) : null;
+      } catch { return null; }
+    }
+    return null;
+  });
   const [loading, setLoading] = useState(true);
+
+  // Helper to update userData and persist to sessionStorage
+  const updateUserData = (data: any | null) => {
+    setUserData(data);
+    if (typeof window !== "undefined") {
+      try {
+        if (data) {
+          sessionStorage.setItem("abhyas_userData", JSON.stringify(data));
+        } else {
+          sessionStorage.removeItem("abhyas_userData");
+        }
+      } catch {}
+    }
+  };
 
   useEffect(() => {
     // Guard: if Firebase auth isn't available (e.g. during prerendering), skip
@@ -49,7 +72,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
           // Fetch additional user data from Firestore
           const userDoc = await getDoc(doc(db, "users", user.uid));
           if (userDoc.exists()) {
-            setUserData(userDoc.data());
+            updateUserData(userDoc.data());
           } else {
             // Initialize user doc if it doesn't exist
             const newData = {
@@ -63,23 +86,30 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               mocksCompleted: 0
             };
             await setDoc(doc(db, "users", user.uid), newData);
-            setUserData(newData);
+            updateUserData(newData);
           }
         } catch (error) {
           console.error("Firestore Permission or Fetch Error:", error);
-          // Provide default data so the app doesn't freeze in case of missing permissions
-          setUserData({
-            name: user.displayName || "Aspirant",
-            email: user.email,
-            targetExam: null, // Will trigger onboarding if permissions fail, which might fail again to save, but prevents white screen
-            academicClass: null,
-            streak: 0,
-            questionsSolved: 0,
-            mocksCompleted: 0
-          });
+          // Use cached data if available, otherwise provide defaults
+          const cachedFallback = typeof window !== "undefined" 
+            ? (() => { try { const c = sessionStorage.getItem("abhyas_userData"); return c ? JSON.parse(c) : null; } catch { return null; } })() 
+            : null;
+          
+          if (!cachedFallback) {
+            updateUserData({
+              name: user.displayName || "Aspirant",
+              email: user.email,
+              targetExam: null,
+              academicClass: null,
+              streak: 0,
+              questionsSolved: 0,
+              mocksCompleted: 0
+            });
+          }
+          // If cached data exists, keep it (don't overwrite with defaults)
         }
       } else {
-        setUserData(null);
+        updateUserData(null);
       }
       
       setLoading(false);
@@ -89,6 +119,9 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   }, []);
 
   const logout = async () => {
+    if (typeof window !== "undefined") {
+      try { sessionStorage.removeItem("abhyas_userData"); } catch {}
+    }
     if (auth) await signOut(auth);
   };
 

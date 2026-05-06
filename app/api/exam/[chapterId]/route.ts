@@ -59,11 +59,43 @@ function formatMathText(str: string) {
 
 function sanitizeOptionText(str: string) {
   let cleaned = formatMathText(str).trim();
+  // Remove leading "Option X:" or "X)" prefixes
+  cleaned = cleaned.replace(/^(Option\s*)?[A-Da-d][\.\)\:\-]\s*/i, "");
   const lower = cleaned.toLowerCase();
-  if (/^[A-D]$/i.test(cleaned) || lower === "none" || lower === "phi" || cleaned === "φ") {
+  // Empty, single-char, or meaningless options get replaced
+  if (
+    cleaned.length === 0 || 
+    /^[A-D]$/i.test(cleaned) || 
+    lower === "none" || 
+    lower === "phi" || 
+    cleaned === "φ" ||
+    lower === "null" ||
+    lower === "undefined" ||
+    lower === "n/a"
+  ) {
     return "None of the above";
   }
   return cleaned;
+}
+
+// Pad options to exactly 4 if fewer exist
+function padOptionsToFour(options: {id: string, text: string}[], answer: string) {
+  const ids = ["A", "B", "C", "D"];
+  const fillers = [
+    "None of the above",
+    "All of the above",
+    "Cannot be determined",
+    "Not applicable"
+  ];
+  
+  while (options.length < 4) {
+    const nextId = ids[options.length];
+    // Pick a filler that doesn't duplicate existing options
+    const existingTexts = options.map(o => o.text.toLowerCase());
+    let fillerText = fillers.find(f => !existingTexts.includes(f.toLowerCase())) || "None of the above";
+    options.push({ id: nextId, text: fillerText });
+  }
+  return options;
 }
 
 export async function GET(req: NextRequest, { params }: { params: { chapterId: string } }) {
@@ -116,15 +148,18 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
         ? (Array.isArray(q.option) ? q.option : [q.option]) 
         : [];
 
-      const formattedOptions = rawOptions.map((opt: any) => {
+      let formattedOptions = rawOptions.map((opt: any) => {
         // opt may be a primitive string or an object
-        if (typeof opt === "string") return { id: "?", text: opt };
+        if (typeof opt === "string") return { id: "?", text: sanitizeOptionText(opt) };
         return {
           id: String(opt["@_id"] ?? ""),
           // #text holds the text content; fall back to string coercion
           text: sanitizeOptionText(String(opt["#text"] ?? opt ?? ""))
         };
       });
+
+      // Pad to exactly 4 options if fewer exist (fixes "D shows as D" bug)
+      formattedOptions = padOptionsToFour(formattedOptions, String(q.answer ?? ""));
 
       // Shuffle options so the correct answer isn't always A
       const originalAnswer = String(q.answer ?? "");
