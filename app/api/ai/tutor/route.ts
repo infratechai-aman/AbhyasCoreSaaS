@@ -1,12 +1,57 @@
 import { getOpenAIClient } from "@/lib/openai";
 import { requireAuth } from "@/lib/auth-middleware";
+import { adminDb } from "@/lib/firebase-admin";
 import { isRateLimited } from "@/lib/rate-limit";
 import { NextResponse } from "next/server";
 
 export const runtime = "nodejs";
 
 const MAX_HISTORY_MESSAGES = 20;
-const MAX_TOKENS = 2000;
+const MAX_OUTPUT_TOKENS = 2000;
+
+// ─── Platform-wide daily token limits ───
+const DAILY_INPUT_LIMIT = 25_000;   // 25k input tokens/day for entire platform
+const DAILY_OUTPUT_LIMIT = 75_000;  // 75k output tokens/day for entire platform
+
+/** Get today's date key in IST (resets at midnight IST) */
+function getTodayIST(): string {
+  const now = new Date();
+  // IST = UTC + 5:30
+  const istOffset = 5.5 * 60 * 60 * 1000;
+  const istDate = new Date(now.getTime() + istOffset);
+  return istDate.toISOString().split("T")[0]; // "2026-05-07"
+}
+
+/** Check if daily token budget is exhausted */
+async function getDailyUsage(): Promise<{ input: number; output: number } | null> {
+  if (!adminDb) return null;
+  const dateKey = getTodayIST();
+  const docRef = adminDb.collection("ai_usage").doc(dateKey);
+  const snap = await docRef.get();
+  if (!snap.exists) return { input: 0, output: 0 };
+  const data = snap.data();
+  return {
+    input: data?.inputTokens || 0,
+    output: data?.outputTokens || 0,
+  };
+}
+
+/** Increment daily token usage */
+async function trackTokenUsage(inputTokens: number, outputTokens: number) {
+  if (!adminDb) return;
+  const dateKey = getTodayIST();
+  const docRef = adminDb.collection("ai_usage").doc(dateKey);
+
+  const { FieldValue } = await import("firebase-admin/firestore");
+  await docRef.set(
+    {
+      inputTokens: FieldValue.increment(inputTokens),
+      outputTokens: FieldValue.increment(outputTokens),
+      lastUpdated: new Date().toISOString(),
+    },
+    { merge: true }
+  );
+}
 
 export async function POST(request: Request) {
   // 1. Authenticate
@@ -19,6 +64,29 @@ export async function POST(request: Request) {
       status: 429,
       headers: { "Content-Type": "application/json" },
     });
+  }
+
+  // 3. Check platform-wide daily token budget
+  const usage = await getDailyUsage();
+  if (usage) {
+    if (usage.input >= DAILY_INPUT_LIMIT) {
+      return new Response(
+        JSON.stringify({
+          error: "AI Tutor daily input token limit reached (25k). Please try again tomorrow after midnight IST.",
+          limitReached: true,
+        }),
+        { status: 429, headers: { "Content-Type": "application/json" } }
+      );
+    }
+    if (usage.output >= DAILY_OUTPUT_LIMIT) {
+      return new Response(
+        JSON.stringify({
+          error: "AI Tutor daily output token limit reached (75k). Please try again tomorrow after midnight IST.",
+          limitReached: true,
+        }),
+        { status: 429, headers: { "Content-Type": "application/json" } }
+      );
+    }
   }
 
   const body = await request.json();
@@ -49,12 +117,21 @@ export async function POST(request: Request) {
       { role: "user" as const, content: prompt },
     ];
 
+    // Estimate input tokens (rough: ~4 chars = 1 token)
+    const estimatedInputTokens = Math.ceil(
+      messages.reduce((acc, m) => acc + m.content.length, 0) / 4
+    );
+
     const stream = await openai.chat.completions.create({
       model: "gpt-4o-mini",
       messages,
       stream: true,
-      max_tokens: MAX_TOKENS,
+      stream_options: { include_usage: true },
+      max_tokens: MAX_OUTPUT_TOKENS,
     });
+
+    let totalOutputChars = 0;
+    let finalUsage: { prompt_tokens?: number; completion_tokens?: number } | null = null;
 
     const encoder = new TextEncoder();
     const readable = new ReadableStream({
@@ -63,11 +140,21 @@ export async function POST(request: Request) {
           for await (const chunk of stream) {
             const delta = chunk.choices[0]?.delta?.content;
             if (delta) {
+              totalOutputChars += delta.length;
               controller.enqueue(encoder.encode(`data: ${JSON.stringify(delta)}\n\n`));
+            }
+            // Capture usage from the final chunk (OpenAI sends it with stream_options)
+            if (chunk.usage) {
+              finalUsage = chunk.usage;
             }
           }
           controller.enqueue(encoder.encode("data: [DONE]\n\n"));
           controller.close();
+
+          // Track token usage after stream completes
+          const inputUsed = finalUsage?.prompt_tokens || estimatedInputTokens;
+          const outputUsed = finalUsage?.completion_tokens || Math.ceil(totalOutputChars / 4);
+          trackTokenUsage(inputUsed, outputUsed).catch(console.error);
         } catch (err) {
           controller.error(err);
         }
