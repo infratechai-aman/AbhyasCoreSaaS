@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { XMLParser } from "fast-xml-parser";
 import fs from "fs/promises";
 import path from "path";
+import { requireAuth } from "@/lib/auth-middleware";
+import { isRateLimited } from "@/lib/rate-limit";
 
 // Utility to shuffle array
 function shuffleArray<T>(array: T[]): T[] {
@@ -100,6 +102,15 @@ function padOptionsToFour(options: {id: string, text: string}[], answer: string)
 
 export async function GET(req: NextRequest, { params }: { params: { chapterId: string } }) {
   try {
+    // Auth check
+    const authResult = await requireAuth(req);
+    if (authResult instanceof NextResponse) return authResult;
+
+    // Rate limit: 30 per minute per user
+    if (isRateLimited(`exam:${authResult.uid}`, 30, 60_000)) {
+      return NextResponse.json({ error: "Too many requests." }, { status: 429 });
+    }
+
     const chapterId = params.chapterId;
     const filePath = path.join(process.cwd(), "raw_questions", `${chapterId}.xml`);
     

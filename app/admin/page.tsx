@@ -36,6 +36,7 @@ import { db, firebaseConfig } from "@/lib/firebase";
 import { initializeApp, getApp, getApps } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useAuth } from "@/lib/auth-context";
+import { authenticatedFetch } from "@/lib/api";
 
 // Helper to compute revenue from a user's plan
 function getUserRevenue(u: any): number {
@@ -82,8 +83,11 @@ export default function SuperAdminDashboard() {
   const [realUsers, setRealUsers] = useState<any[]>([]);
   const [stats, setStats] = useState({ total: 0, paid: 0, monthlyRevenue: 0, totalRevenue: 0 });
 
+  // Fetch user data only AFTER admin verification (moved from unconditional useEffect)
+  useEffect(() => { setMounted(true); }, []);
+
   useEffect(() => {
-    setMounted(true);
+    if (!mounted || !user || user.email !== ADMIN_EMAIL) return; // Guard: only fetch for admin
     if (db) {
        getDocs(collection(db, "users")).then((snap) => {
          const usersList = snap.docs.map(d => ({ id: d.id, ...d.data() } as any));
@@ -110,7 +114,7 @@ export default function SuperAdminDashboard() {
          setStats({ total: usersList.length, paid: paidUsers.length, monthlyRevenue: monthlyRev, totalRevenue: totalRev });
        }).catch(console.error);
     }
-  }, []);
+  }, [mounted, user]);
 
   const handlePromoSearch = async () => {
     if (!emailQuery.trim()) return;
@@ -244,8 +248,10 @@ export default function SuperAdminDashboard() {
     setSyncLoading(true);
     setSyncResults(null);
     try {
-      // 1. Fetch all subscriptions from Razorpay
-      const res = await fetch("/api/payment/sync-subscriptions");
+      // 1. Fetch all subscriptions from Razorpay (admin-only, authenticated)
+      const res = await authenticatedFetch("/api/payment/sync-subscriptions", {
+        method: "POST",
+      });
       const data = await res.json();
       if (data.error) throw new Error(data.error);
 

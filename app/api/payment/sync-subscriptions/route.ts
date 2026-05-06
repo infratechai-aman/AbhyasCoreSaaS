@@ -1,14 +1,25 @@
 import { NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
+import { requireAdmin } from '@/lib/auth-middleware';
+import { isRateLimited } from '@/lib/rate-limit';
 
 /**
- * GET /api/payment/sync-subscriptions
+ * POST /api/payment/sync-subscriptions (Admin Only)
  * 
  * Fetches all active subscriptions from Razorpay and returns them.
- * The admin page will then match them against Firestore users and update their plans.
+ * Changed from GET to POST and requires admin authentication.
  */
-export async function GET() {
+export async function POST(req: Request) {
   try {
+    // 1. Admin-only authentication
+    const authResult = await requireAdmin(req);
+    if (authResult instanceof NextResponse) return authResult;
+
+    // 2. Rate limit: 3 syncs per minute
+    if (isRateLimited(`sync:${authResult.uid}`, 3, 60_000)) {
+      return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
+    }
+
     const keyId = process.env.RAZORPAY_KEY_ID;
     const keySecret = process.env.RAZORPAY_KEY_SECRET;
 
@@ -36,15 +47,14 @@ export async function GET() {
       }
     }
 
-    // Extract relevant info from each subscription
     const activeSubs = allSubs.map((sub: any) => ({
       subscriptionId: sub.id,
-      status: sub.status, // created, authenticated, active, pending, halted, cancelled, completed, expired
+      status: sub.status,
       planId: sub.plan_id,
       userId: sub.notes?.user_id || null,
       userEmail: sub.notes?.user_email || null,
       userName: sub.notes?.user_name || null,
-      planType: sub.notes?.plan_type || null, // 'pro_monthly' or 'pro_yearly'
+      planType: sub.notes?.plan_type || null,
       createdAt: sub.created_at,
     }));
 
@@ -63,7 +73,6 @@ export async function GET() {
       }
     }
 
-    // Extract captured payments
     const activePays = allPayments
       .filter((pay: any) => pay.status === 'captured')
       .map((pay: any) => {
@@ -84,12 +93,11 @@ export async function GET() {
         };
       });
 
-    // Combine both sets (prioritizing subscriptions)
     const combined = [...activeSubs, ...activePays];
 
     return NextResponse.json({ subscriptions: combined });
   } catch (error: any) {
     console.error('[sync-subscriptions] Error:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: 'Sync failed.' }, { status: 500 });
   }
 }

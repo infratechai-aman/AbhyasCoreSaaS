@@ -1,27 +1,27 @@
 import { NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
-import { db } from '@/lib/firebase';
-import { doc, getDoc } from 'firebase/firestore';
+import { requireAuth } from '@/lib/auth-middleware';
+import { adminDb } from '@/lib/firebase-admin';
+import { isRateLimited } from '@/lib/rate-limit';
 
 export async function POST(req: Request) {
   try {
-    const razorpay = new Razorpay({
-      key_id: process.env.RAZORPAY_KEY_ID!,
-      key_secret: process.env.RAZORPAY_KEY_SECRET!,
-    });
+    // 1. Authenticate
+    const authResult = await requireAuth(req);
+    if (authResult instanceof NextResponse) return authResult;
 
-    const body = await req.json();
-    const { userId, userName, userEmail } = body;
-
-    if (!userId || !userEmail) {
-      return NextResponse.json({ error: 'Missing required user fields.' }, { status: 400 });
+    // 2. Rate limit
+    if (isRateLimited(`weekly:${authResult.uid}`, 3, 60_000)) {
+      return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
     }
 
-    // Enforce one-time-per-account rule using Firestore
-    if (db) {
-      const userRef = doc(db, 'users', userId);
-      const userSnap = await getDoc(userRef);
-      if (userSnap.exists()) {
+    const userId = authResult.uid;
+    const userEmail = authResult.email;
+
+    // 3. Enforce one-time-per-account rule using Admin SDK
+    if (adminDb) {
+      const userSnap = await adminDb.collection('users').doc(userId).get();
+      if (userSnap.exists) {
         const data = userSnap.data();
         if (data?.weeklyPassUsed === true) {
           return NextResponse.json(
@@ -32,13 +32,17 @@ export async function POST(req: Request) {
       }
     }
 
+    const razorpay = new Razorpay({
+      key_id: process.env.RAZORPAY_KEY_ID!,
+      key_secret: process.env.RAZORPAY_KEY_SECRET!,
+    });
+
     const order = await razorpay.orders.create({
       amount: 700, // ₹7 in paise
       currency: 'INR',
       receipt: `weekly_${userId}_${Date.now()}`,
       notes: {
         user_id: userId,
-        user_name: userName || '',
         user_email: userEmail,
         plan_type: 'weekly_pass',
       },
@@ -51,6 +55,6 @@ export async function POST(req: Request) {
     });
   } catch (error: any) {
     console.error('[create-weekly-order] Error:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to create order.' }, { status: 500 });
   }
 }

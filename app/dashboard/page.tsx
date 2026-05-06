@@ -1,8 +1,9 @@
 "use client";
 
-import { useState, Suspense, useEffect } from "react";
+import { useState, Suspense, useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { getUserTestHistory, updateUserSubscription } from "@/lib/firebase-service";
+import { getUserTestHistory } from "@/lib/firebase-service";
+import { authenticatedFetch } from "@/lib/api";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
@@ -45,27 +46,19 @@ function DashboardContent() {
     }
   }, [user?.uid]);
 
-  // Auto-sync missing subscriptions for Free users
+  // Auto-sync missing subscriptions for Free users (uses authenticated API)
   useEffect(() => {
     const checkMissingSubscription = async () => {
       if (!user?.uid || !user?.email || userData?.subscription?.plan !== "Free") return;
       
       try {
-        const res = await fetch("/api/payment/check-user-status", {
+        const res = await authenticatedFetch("/api/payment/check-user-status", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ userId: user.uid, userEmail: user.email }),
         });
         const data = await res.json();
         
         if (data.hasActiveSubscription && data.plan) {
-          // Found an orphaned subscription! Sync it immediately.
-          await updateUserSubscription(
-            user.uid,
-            data.plan,
-            "active",
-            data.subscriptionId
-          );
           setToast({ message: "Your Pro plan has been restored and synced!", type: "success" });
           setTimeout(() => window.location.reload(), 1500);
         }
@@ -75,8 +68,8 @@ function DashboardContent() {
     };
 
     // Only run this once per session to avoid spamming the API
-    if (!sessionStorage.getItem("hasCheckedSubSyncV3")) {
-      sessionStorage.setItem("hasCheckedSubSyncV3", "true");
+    if (!sessionStorage.getItem("hasCheckedSubSyncV4")) {
+      sessionStorage.setItem("hasCheckedSubSyncV4", "true");
       checkMissingSubscription();
     }
   }, [user, userData]);
@@ -87,16 +80,11 @@ function DashboardContent() {
   const handleCheckout = async (planType: "monthly" | "yearly" = "monthly") => {
     try {
       setIsProcessingPayment(true);
-      const res = await fetch("/api/payment/create-subscription", {
+      // Use authenticated fetch — server will use the token to identify the user
+      const res = await authenticatedFetch("/api/payment/create-subscription", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          userId: user?.uid || "",
-          userName: userData?.displayName || userData?.name || "",
-          userEmail: user?.email || userData?.email || "",
-          planType,
-          isReferred: !!userData?.referredBy,
-        }),
+        body: JSON.stringify({ planType }),
       });
       const data = await res.json();
 
@@ -118,29 +106,21 @@ function DashboardContent() {
           email: userData?.email || "",
         },
         onSuccess: async (response) => {
-          // Verify payment signature
-          const verifyRes = await fetch("/api/payment/verify", {
+          // Verify payment signature — server writes subscription via Admin SDK
+          const verifyRes = await authenticatedFetch("/api/payment/verify", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(response),
+            body: JSON.stringify({ ...response, planType }),
           });
           const verifyData = await verifyRes.json();
 
-          if (verifyData.success && user?.uid) {
-            // Update Firestore with subscription plan
-            const selectedPlan = planType === "yearly" ? "Pro Yearly" : "Pro Monthly";
-            await updateUserSubscription(
-              user.uid,
-              selectedPlan,
-              "active",
-              response.razorpay_subscription_id
-            );
-          }
-
           setIsProcessingPayment(false);
-          setToast({ message: `Payment successful! Your ${userData?.referredBy ? 'Pro plan' : '7-day Pro Trial'} is now active.`, type: "success" });
-          // Hard reload to refresh auth context with new subscription data
-          setTimeout(() => window.location.reload(), 1500);
+          if (verifyData.success) {
+            setToast({ message: `Payment successful! Your ${userData?.referredBy ? 'Pro plan' : '7-day Pro Trial'} is now active.`, type: "success" });
+            setTimeout(() => window.location.reload(), 1500);
+          } else {
+            setToast({ message: "Payment verified but activation failed. Contact support.", type: "error" });
+          }
         },
         onError: () => {
           setIsProcessingPayment(false);
@@ -155,15 +135,19 @@ function DashboardContent() {
   };
 
 
-  // If redirect hit from landing page with checkout intent
+  // If redirect hit from landing page with checkout intent — use useEffect with ref guard
+  const checkoutTriggered = useRef(false);
   const checkoutIntent = searchParams?.get("checkout");
-  if (checkoutIntent && !isProcessingPayment && !isPremium) {
-     if (checkoutIntent === "Pro Monthly") {
+  useEffect(() => {
+    if (checkoutIntent && !isProcessingPayment && !isPremium && !checkoutTriggered.current) {
+      checkoutTriggered.current = true;
+      if (checkoutIntent === "Pro Monthly") {
         setTimeout(() => handleCheckout("monthly"), 500);
-     } else if (checkoutIntent === "Pro Yearly") {
+      } else if (checkoutIntent === "Pro Yearly") {
         setTimeout(() => handleCheckout("yearly"), 500);
-     }
-  }
+      }
+    }
+  }, [checkoutIntent, isProcessingPayment, isPremium]);
 
   const startTest = () => {
     setGenerating(true);

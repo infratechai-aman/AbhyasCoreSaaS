@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { XMLParser } from 'fast-xml-parser';
+import { requireAuth } from '@/lib/auth-middleware';
+import { isRateLimited } from '@/lib/rate-limit';
 
 export const dynamic = 'force-dynamic';
 
@@ -83,6 +85,15 @@ function padOptionsToFour(options: {id: string, text: string}[]) {
 
 export async function GET(request: Request) {
     try {
+        // Auth check
+        const authResult = await requireAuth(request);
+        if (authResult instanceof NextResponse) return authResult;
+
+        // Rate limit
+        if (isRateLimited(`exam:${authResult.uid}`, 30, 60_000)) {
+          return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
+        }
+
         const { searchParams } = new URL(request.url);
         const chaptersParam = searchParams.get('c');
         const countParam = searchParams.get('q') || '30';
@@ -92,7 +103,7 @@ export async function GET(request: Request) {
         }
 
         const chapters = chaptersParam.split(',').filter(Boolean);
-        const limit = parseInt(countParam, 10);
+        const limit = Math.min(parseInt(countParam, 10), 100); // Cap at 100
         
         const rawDir = path.join(process.cwd(), 'raw_questions');
         const parser = new XMLParser({

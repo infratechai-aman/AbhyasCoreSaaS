@@ -1,19 +1,28 @@
 import { NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
+import { requireAuth } from '@/lib/auth-middleware';
+import { isRateLimited } from '@/lib/rate-limit';
 
 export async function POST(req: Request) {
   try {
-    const { userId, userEmail } = await req.json();
+    // 1. Authenticate
+    const authResult = await requireAuth(req);
+    if (authResult instanceof NextResponse) return authResult;
 
-    if (!userId || !userEmail) {
-      return NextResponse.json({ error: 'Missing userId or userEmail' }, { status: 400 });
+    // 2. Rate limit
+    if (isRateLimited(`check-status:${authResult.uid}`, 5, 60_000)) {
+      return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
     }
+
+    // Use authenticated user's identity
+    const userId = authResult.uid;
+    const userEmail = authResult.email;
 
     const keyId = process.env.RAZORPAY_KEY_ID;
     const keySecret = process.env.RAZORPAY_KEY_SECRET;
 
     if (!keyId || !keySecret) {
-      return NextResponse.json({ error: 'Razorpay keys not configured.' }, { status: 500 });
+      return NextResponse.json({ error: 'Payment service not configured.' }, { status: 500 });
     }
 
     const razorpay = new Razorpay({
@@ -85,7 +94,6 @@ export async function POST(req: Request) {
     }
 
     if (activePayment) {
-      // If we found a captured payment but no subscription, assume they bought a pass or legacy Pro
       const amount = Number(activePayment.amount);
       let plan = "Pro Monthly";
       if (amount >= 29900) plan = "Pro Yearly";
@@ -101,6 +109,6 @@ export async function POST(req: Request) {
     return NextResponse.json({ hasActiveSubscription: false });
   } catch (error: any) {
     console.error('[check-user-status] Error:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: 'Status check failed.' }, { status: 500 });
   }
 }

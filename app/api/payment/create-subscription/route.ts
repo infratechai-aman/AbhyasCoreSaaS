@@ -1,18 +1,40 @@
 import { NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
+import { requireAuth } from '@/lib/auth-middleware';
+import { adminDb } from '@/lib/firebase-admin';
+import { isRateLimited } from '@/lib/rate-limit';
 
 export async function POST(req: Request) {
   try {
+    // 1. Authenticate
+    const authResult = await requireAuth(req);
+    if (authResult instanceof NextResponse) return authResult;
+
+    // 2. Rate limit
+    if (isRateLimited(`create-sub:${authResult.uid}`, 5, 60_000)) {
+      return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
+    }
+
     const razorpay = new Razorpay({
       key_id: process.env.RAZORPAY_KEY_ID!,
       key_secret: process.env.RAZORPAY_KEY_SECRET!,
     });
 
     const body = await req.json();
-    const { userId, userName, userEmail, planType = 'monthly', isReferred } = body;
+    const { planType = 'monthly' } = body;
 
-    if (!userId || !userEmail) {
-      return NextResponse.json({ error: 'Missing required user fields.' }, { status: 400 });
+    // Use authenticated user's identity — ignore client-supplied userId/email
+    const userId = authResult.uid;
+    const userEmail = authResult.email;
+
+    // Validate isReferred SERVER-SIDE from Firestore (don't trust client)
+    let isReferred = false;
+    if (adminDb) {
+      const userSnap = await adminDb.collection('users').doc(userId).get();
+      if (userSnap.exists) {
+        const data = userSnap.data();
+        isReferred = !!data?.referredBy;
+      }
     }
 
     const planId = planType === 'yearly' 
@@ -29,14 +51,12 @@ export async function POST(req: Request) {
     // Referred users: skip trial entirely, go straight to full plan with autopay
     // Non-referred users: ₹7 upfront for 7-day trial, then auto-renew at plan price
     if (isReferred) {
-      // No trial, no addon — subscription starts immediately at full plan price
       const subscription = await razorpay.subscriptions.create({
         plan_id: planId,
         customer_notify: 1,
         total_count: 120,
         notes: {
           user_id: userId,
-          user_name: userName || '',
           user_email: userEmail,
           plan_type: planType === 'yearly' ? 'pro_yearly' : 'pro_monthly',
           referral: 'true',
@@ -58,8 +78,8 @@ export async function POST(req: Request) {
     const subscription = await razorpay.subscriptions.create({
       plan_id: planId,
       customer_notify: 1,
-      total_count: 120, // 10 years max auto-renewal
-      start_at: trialEndTimestamp, // Delayed next charge
+      total_count: 120,
+      start_at: trialEndTimestamp,
       addons: [
         {
           item: {
@@ -71,7 +91,6 @@ export async function POST(req: Request) {
       ],
       notes: {
         user_id: userId,
-        user_name: userName || '',
         user_email: userEmail,
         plan_type: planType === 'yearly' ? 'pro_yearly' : 'pro_monthly',
       },
@@ -83,6 +102,6 @@ export async function POST(req: Request) {
     });
   } catch (error: any) {
     console.error('[create-subscription] Error:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to create subscription.' }, { status: 500 });
   }
 }

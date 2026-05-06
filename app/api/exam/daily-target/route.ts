@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { XMLParser } from 'fast-xml-parser';
+import { requireAuth } from '@/lib/auth-middleware';
+import { isRateLimited } from '@/lib/rate-limit';
 
 export const dynamic = 'force-dynamic';
 
@@ -96,6 +98,15 @@ const NEET_CHAPTERS = [
 
 export async function GET(request: Request) {
   try {
+    // Auth check
+    const authResult = await requireAuth(request);
+    if (authResult instanceof NextResponse) return authResult;
+
+    // Rate limit
+    if (isRateLimited(`exam:${authResult.uid}`, 30, 60_000)) {
+      return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
+    }
+
     const { searchParams } = new URL(request.url);
     const exam = (searchParams.get('exam') || 'JEE').toUpperCase();
     const userId = searchParams.get('uid') || 'anonymous';
