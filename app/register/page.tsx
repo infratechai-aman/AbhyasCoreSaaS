@@ -43,6 +43,30 @@ function RegisterForm() {
       if (!auth) throw new Error("Authentication service is not available.");
       if (!db) throw new Error("Database service is not available.");
 
+      // Input validation
+      const trimmedName = name.trim().replace(/<[^>]*>/g, ''); // Strip HTML tags
+      if (trimmedName.length < 2 || trimmedName.length > 50) {
+        throw new Error("Name must be between 2 and 50 characters.");
+      }
+
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email.trim())) {
+        throw new Error("Please enter a valid email address.");
+      }
+
+      if (password.length < 8) {
+        throw new Error("Password must be at least 8 characters long.");
+      }
+      if (!/[A-Z]/.test(password)) {
+        throw new Error("Password must contain at least one uppercase letter.");
+      }
+      if (!/[a-z]/.test(password)) {
+        throw new Error("Password must contain at least one lowercase letter.");
+      }
+      if (!/[0-9]/.test(password)) {
+        throw new Error("Password must contain at least one number.");
+      }
+
       // Check Promo Code Validity safely
       let finalReferredBy = null;
       if (referredBy) {
@@ -60,11 +84,11 @@ function RegisterForm() {
       const user = userCredential.user;
       
       // Update Auth Profile
-      await updateProfile(user, { displayName: name });
+      await updateProfile(user, { displayName: trimmedName });
       
       // Create Firestore User Doc
       await setDoc(doc(db, "users", user.uid), {
-        name,
+        name: trimmedName,
         email,
         targetExam,
         createdAt: new Date().toISOString(),
