@@ -55,6 +55,276 @@
             <answer>B</answer>
             <explanation>An individual with two identical alleles for a gene (e.g., TT or tt) is said to be homozygous for that gene.</explanation>
         </question>
+        <question>
+            <text>What was the experimental material used by Gregor Mendel for his laws of inheritance?</text>
+            <option id="A">Drosophila melanogaster (Fruit fly)</option>
+            <option id="B">Pisum sativum (Garden pea)</option>
+            <option id="C">Neurospora crassa</option>
+            <option id="D">Escherichia coli</option>
+            <answer>B</answer>
+            <explanation>Gregor Mendel, conducted hybridisation experiments on garden peas (Pisum sativum) for seven years (1856-1863) and proposed the laws of inheritance in living organisms.</explanation>
+        </question>
+        <question>
+            <text>In a heterozygous condition, the allele that expresses itself is called:</text>
+            <option id="A">Recessive</option>
+            <option id="B">Codominant</option>
+            <option id="C">Dominant</option>
+            <option id="D">Incomplete</option>
+            <answer>C</answer>
+            <explanation>In a dissimilar pair of factors (heterozygous condition) one member of the pair dominates (dominant) the other (recessive). The dominant allele expresses its phenotype.</explanation>
+        </question>
+        <question>
+            <text>The genetic constitution of an organism is called its:</text>
+            <option id="A">Phenotype</option>
+            <option id="B">Karyotype</option>
+            <option id="C">Genotype</option>
+            <option id="D">Morphotype</option>
+            <answer>C</answer>
+            <explanation>Genotype represents the genetic makeup of an organism, while phenotype refers to the observable physical traits.</explanation>
+        </question>
+        <question>
+            <text>Gregor Mendel conducted his hybridization experiments on which plant?</text>
+            <option id="A">Pisum sativum (Garden pea)</option>
+            <option id="B">Lathyrus odoratus (Sweet pea)</option>
+            <option id="C">Drosophila melanogaster</option>
+            <option id="D">Antirrhinum majus (Snapdragon)</option>
+            <answer>A</answer>
+            <explanation>Gregor Mendel, conducted hybridisation experiments on garden peas for seven years (1856-1863) and proposed the laws of inheritance in living organisms.</explanation>
+        </question>
+        <question>
+            <text>How many true-breeding pea plant varieties did Mendel select for his experiments?</text>
+            <option id="A">7</option>
+            <option id="B">14</option>
+            <option id="C">21</option>
+            <option id="D">4</option>
+            <answer>B</answer>
+            <explanation>Mendel selected 14 true-breeding pea plant varieties, as pairs which were similar except for one character with contrasting traits.</explanation>
+        </question>
+        <question>
+            <text>Which of the following traits of the pea plant was NOT studied by Mendel?</text>
+            <option id="A">Seed shape</option>
+            <option id="B">Pod color</option>
+            <option id="C">Flower position</option>
+            <option id="D">Leaf shape</option>
+            <answer>D</answer>
+            <explanation>Mendel studied 7 characters: Stem height, Flower colour, Flower position, Pod shape, Pod colour, Seed shape, and Seed colour. He did not study leaf shape.</explanation>
+        </question>
+        <question>
+            <text>In human ABO blood grouping, the alleles IA and IB are codominant. If a person inherits IA from one parent and IB from the other, what will be their blood group?</text>
+            <option id="A">A</option>
+            <option id="B">B</option>
+            <option id="C">AB</option>
+            <option id="D">O</option>
+            <answer>C</answer>
+            <explanation>When IA and IB are present together they both express their own types of sugars: this is because of co-dominance. Hence red blood cells have both A and B types of sugars. Therefore, the blood group is AB.</explanation>
+        </question>
+        <question>
+            <text>ABO blood grouping is also a good example of:</text>
+            <option id="A">Incomplete dominance</option>
+            <option id="B">Multiple alleles</option>
+            <option id="C">Pleiotropy</option>
+            <option id="D">Polygenic inheritance</option>
+            <answer>B</answer>
+            <explanation>ABO blood grouping also provides a good example of multiple alleles. Here you can see that there are more than two, i.e., three alleles (IA, IB, and i) governing the same character.</explanation>
+        </question>
+        <question>
+            <text>Occasionally, a single gene product may produce more than one effect. This phenomenon is called:</text>
+            <option id="A">Multiple allelism</option>
+            <option id="B">Codominance</option>
+            <option id="C">Pleiotropy</option>
+            <option id="D">Epistasis</option>
+            <answer>C</answer>
+            <explanation>A single gene product may produce more than one effect. This is the underlying mechanism of pleiotropy. For example, starch synthesis in pea seeds is controlled by one gene, which also affects seed shape.</explanation>
+        </question>
+        <question>
+            <text>Who proposed the chromosomal theory of inheritance?</text>
+            <option id="A">Gregor Mendel</option>
+            <option id="B">Walter Sutton and Theodor Boveri</option>
+            <option id="C">Thomas Hunt Morgan</option>
+            <option id="D">Alfred Sturtevant</option>
+            <answer>B</answer>
+            <explanation>Walter Sutton and Theodore Boveri noted that the behaviour of chromosomes was parallel to the behaviour of genes and used chromosome movement to explain Mendel's laws. Sutton united the knowledge of chromosomal segregation with Mendelian principles and called it the chromosomal theory of inheritance.</explanation>
+        </question>
+        <question>
+            <text>Morgan worked with the tiny fruit flies, Drosophila melanogaster, which were found very suitable for such studies because:</text>
+            <option id="A">They could be grown on simple synthetic medium in the laboratory</option>
+            <option id="B">They complete their life cycle in about two weeks</option>
+            <option id="C">A single mating could produce a large number of progeny flies</option>
+            <option id="D">All of the above</option>
+            <answer>D</answer>
+            <explanation>They could be grown on simple synthetic medium in the laboratory. They complete their life cycle in about two weeks, and a single mating could produce a large number of progeny flies. Also, there was a clear differentiation of the sexes - the male and female flies are easily distinguishable.</explanation>
+        </question>
+        <question>
+            <text>The physical association or linkage of the two genes on a chromosome is coined as:</text>
+            <option id="A">Recombination</option>
+            <option id="B">Linkage</option>
+            <option id="C">Mutation</option>
+            <option id="D">Segregation</option>
+            <answer>B</answer>
+            <explanation>Morgan coined the term linkage to describe this physical association of genes on a chromosome and the term recombination to describe the generation of non-parental gene combinations.</explanation>
+        </question>
+        <question>
+            <text>Who is known as the father of genetics?</text>
+            <option id="A">Thomas Hunt Morgan</option>
+            <option id="B">Gregor Mendel</option>
+            <option id="C">Charles Darwin</option>
+            <option id="D">Hugo de Vries</option>
+            <answer>B</answer>
+            <explanation>It was only during the mid-nineteenth century that a headway was made in the understanding of inheritance. Gregor Mendel, conducted hybridisation experiments on garden peas for seven years (1856-1863) and proposed the laws of inheritance in living organisms.</explanation>
+        </question>
+        <question>
+            <text>Mendel selected how many true-breeding pea plant varieties as pairs which were similar except for one character with contrasting traits?</text>
+            <option id="A">7</option>
+            <option id="B">14</option>
+            <option id="C">21</option>
+            <option id="D">2</option>
+            <answer>B</answer>
+            <explanation>Mendel selected 14 true-breeding pea plant varieties, as pairs which were similar except for one character with contrasting traits. Some of the contrasting traits selected were smooth or wrinkled seeds, yellow or green seeds, inflated (full) or constricted green or yellow pods and tall or dwarf plants.</explanation>
+        </question>
+        <question>
+            <text>In a monohybrid cross, what is the phenotypic ratio of the F2 generation?</text>
+            <option id="A">1:2:1</option>
+            <option id="B">3:1</option>
+            <option id="C">9:3:3:1</option>
+            <option id="D">1:1</option>
+            <answer>B</answer>
+            <explanation>In a monohybrid cross (a cross concerning a single character), the F2 generation consists of both the parental traits in the ratio 3:1 (dominant : recessive).</explanation>
+        </question>
+        <question>
+            <text>In Morgan's experiments with Drosophila, the term 'linkage' was coined to describe:</text>
+            <option id="A">The generation of non-parental gene combinations</option>
+            <option id="B">The physical association of genes on a chromosome</option>
+            <option id="C">The independent assortment of genes</option>
+            <option id="D">The mutation of genes caused by X-rays</option>
+            <answer>B</answer>
+            <explanation>Morgan coined the term linkage to describe this physical association of genes on a chromosome and the term recombination to describe the generation of non-parental gene combinations.</explanation>
+        </question>
+        <question>
+            <text>The term 'recombination' was used by Morgan to describe:</text>
+            <option id="A">The generation of parental gene combinations</option>
+            <option id="B">The physical association of genes on a chromosome</option>
+            <option id="C">The generation of non-parental gene combinations</option>
+            <option id="D">The crossing over of entire chromosomes</option>
+            <answer>C</answer>
+            <explanation>Morgan coined the term linkage to describe this physical association of genes on a chromosome and the term recombination to describe the generation of non-parental gene combinations.</explanation>
+        </question>
+        <question>
+            <text>Morgan and his group found that even when genes were grouped on the same chromosome, some genes were very tightly linked. This tight linkage resulted in:</text>
+            <option id="A">Very high recombination</option>
+            <option id="B">Very low recombination</option>
+            <option id="C">Independent assortment</option>
+            <option id="D">Polyploidy</option>
+            <answer>B</answer>
+            <explanation>Morgan and his group also found that even when genes were grouped on the same chromosome, some genes were very tightly linked (showed very low recombination) while others were loosely linked (showed higher recombination).</explanation>
+        </question>
+        <question>
+            <text>A wide-spread genetic disorder, Sickle-cell anaemia, is an autosome linked recessive trait. This disease is controlled by a single pair of allele, HbA and HbS. Out of the three possible genotypes, only homozygous individuals for HbS (HbS HbS) show the diseased phenotype. What phenotype do heterozygous (HbA HbS) individuals exhibit?</text>
+            <option id="A">They have full-blown sickle-cell anaemia</option>
+            <option id="B">They appear apparently unaffected but they are carriers of the disease</option>
+            <option id="C">They have a milder form of the disease with only occasional symptoms</option>
+            <option id="D">They develop the disease later in life</option>
+            <answer>B</answer>
+            <explanation>Out of the three possible genotypes only homozygous individuals for HbS (HbSHbS) show the diseased phenotype. Heterozygous (HbAHbS) individuals appear apparently unaffected but they are carrier of the disease as there is 50 per cent probability of transmission of the mutant gene to the progeny, thus exhibiting sickle-cell trait.</explanation>
+        </question>
+        <question>
+            <text>The substitution of amino acid in the globin protein that causes sickle-cell anaemia results from a single base substitution at the sixth codon of the beta globin gene. What is the specific base substitution in the mRNA?</text>
+            <option id="A">GAG to GUG</option>
+            <option id="B">GUG to GAG</option>
+            <option id="C">CTC to CAC</option>
+            <option id="D">UAA to UAG</option>
+            <answer>A</answer>
+            <explanation>The defect is caused by the substitution of Glutamic acid (Glu) by Valine (Val) at the sixth position of the beta globin chain of the haemoglobin molecule. The substitution of amino acid in the globin protein results due to the single base substitution at the sixth codon of the beta globin gene from GAG to GUG.</explanation>
+        </question>
+        <question>
+            <text>In sickle-cell anaemia, the mutant haemoglobin molecule undergoes polymerization under what specific physiological condition, causing the RBCs to become sickle-shaped?</text>
+            <option id="A">High oxygen tension</option>
+            <option id="B">Low oxygen tension</option>
+            <option id="C">High pH</option>
+            <option id="D">Low temperature</option>
+            <answer>B</answer>
+            <explanation>The mutant haemoglobin molecule undergoes polymerisation under low oxygen tension causing the change in the shape of the RBC from biconcave disc to elongated sickle like structure.</explanation>
+        </question>
+        <question>
+            <text>Sometimes the chromatids fail to separate during cell division, resulting in the gain or loss of a chromosome. What is this phenomenon called?</text>
+            <option id="A">Polyploidy</option>
+            <option id="B">Aneuploidy</option>
+            <option id="C">Mutation</option>
+            <option id="D">Recombination</option>
+            <answer>B</answer>
+            <explanation>Failure of segregation of chromatids during cell division cycle results in the gain or loss of a chromosome(s), called aneuploidy.</explanation>
+        </question>
+        <question>
+            <text>Down's syndrome is caused by the gain of an extra copy of which chromosome?</text>
+            <option id="A">Chromosome 18</option>
+            <option id="B">Chromosome 21</option>
+            <option id="C">X Chromosome</option>
+            <option id="D">Chromosome 13</option>
+            <answer>B</answer>
+            <explanation>For example, Down's syndrome results in the gain of extra copy of chromosome 21.</explanation>
+        </question>
+        <question>
+            <text>Turner's syndrome in human females is an example of aneuploidy resulting from the loss of an X chromosome. How many total chromosomes would an individual with Turner's syndrome have?</text>
+            <option id="A">45</option>
+            <option id="B">46</option>
+            <option id="C">47</option>
+            <option id="D">48</option>
+            <answer>A</answer>
+            <explanation>Turner's syndrome results due to loss of an X chromosome in human females (45 with XO).</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a classic symptom of Klinefelter's syndrome in males?</text>
+            <option id="A">Short stature and small round head</option>
+            <option id="B">Overall masculine development, but with feminine features like development of breast (Gynaecomastia)</option>
+            <option id="C">Webbed neck and broad chest</option>
+            <option id="D">Lack of secondary sexual characters</option>
+            <answer>B</answer>
+            <explanation>Klinefelter's Syndrome: This genetic disorder is also caused due to the presence of an additional copy of X-chromosome resulting into a karyotype of 47, XXY. Such an individual has overall masculine development, however, the feminine development (development of breast, i.e., Gynaecomastia) is also expressed.</explanation>
+        </question>
+        <question>
+            <text>What is the karyotype (chromosome constitution) of an individual with Klinefelter's syndrome?</text>
+            <option id="A">45, XO</option>
+            <option id="B">46, XX</option>
+            <option id="C">47, XXY</option>
+            <option id="D">47, XYY</option>
+            <answer>C</answer>
+            <explanation>Klinefelter's Syndrome: This genetic disorder is also caused due to the presence of an additional copy of X-chromosome resulting into a karyotype of 47, XXY.</explanation>
+        </question>
+        <question>
+            <text>Are individuals with Klinefelter's syndrome fertile or sterile?</text>
+            <option id="A">Fertile</option>
+            <option id="B">Sterile</option>
+            <option id="C">Fertile only if treated early</option>
+            <option id="D">Cannot be determined</option>
+            <answer>B</answer>
+            <explanation>Such an individual has overall masculine development... Such individuals are sterile.</explanation>
+        </question>
+        <question>
+            <text>Who proposed the Chromosomal Theory of Inheritance?</text>
+            <option id="A">Gregor Mendel</option>
+            <option id="B">Walter Sutton and Theodore Boveri</option>
+            <option id="C">Thomas Hunt Morgan</option>
+            <option id="D">Hugo de Vries</option>
+            <answer>B</answer>
+            <explanation>Sutton united the knowledge of chromosomal segregation with Mendelian principles and called it the chromosomal theory of inheritance.</explanation>
+        </question>
+        <question>
+            <text>Experimental verification of the chromosomal theory of inheritance led to discovering the basis for the variation that sexual reproduction produced. Who was responsible for this experimental verification?</text>
+            <option id="A">Thomas Hunt Morgan and his colleagues</option>
+            <option id="B">Walter Sutton and Theodore Boveri</option>
+            <option id="C">Gregor Mendel</option>
+            <option id="D">Watson and Crick</option>
+            <answer>A</answer>
+            <explanation>Experimental verification of the chromosomal theory of inheritance by Thomas Hunt Morgan and his colleagues, led to discovering the basis for the variation that sexual reproduction produced.</explanation>
+        </question>
+        <question>
+            <text>Morgan worked with the tiny fruit flies. What is the scientific name of the fruit fly?</text>
+            <option id="A">Drosophila melanogaster</option>
+            <option id="B">Musca domestica</option>
+            <option id="C">Apis mellifera</option>
+            <option id="D">Pisum sativum</option>
+            <answer>A</answer>
+            <explanation>Morgan worked with the tiny fruit flies, Drosophila melanogaster, which were found very suitable for such studies.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -129,6 +399,366 @@
             <answer>C</answer>
             <explanation>The woman is a carrier (X^C X^c) because her father was colour-blind (X^c Y). The man is colour-blind (X^c Y). For a son, he must receive the Y chromosome from the father and either X^C or X^c from the mother. The probability of receiving X^c from the mother is 50%.</explanation>
         </question>
+        <question>
+            <text>A cross between a red-flowered plant and a white-flowered plant yields pink-flowered F1 offspring. This is an example of:</text>
+            <option id="A">Complete dominance</option>
+            <option id="B">Incomplete dominance</option>
+            <option id="C">Codominance</option>
+            <option id="D">Multiple allelism</option>
+            <answer>B</answer>
+            <explanation>In incomplete dominance, the F1 phenotype does not resemble either of the two parents and is in between the two. The classic example is the inheritance of flower colour in the dog flower (snapdragon or Antirrhinum sp.).</explanation>
+        </question>
+        <question>
+            <text>Who among the following scientists independently rediscovered Mendel's results on the inheritance of characters in 1900?</text>
+            <option id="A">Watson, Crick, and Wilkins</option>
+            <option id="B">de Vries, Correns, and von Tschermak</option>
+            <option id="C">Sutton, Boveri, and Morgan</option>
+            <option id="D">Avery, MacLeod, and McCarty</option>
+            <answer>B</answer>
+            <explanation>In 1900, three Scientists (de Vries, Correns and von Tschermak) independently rediscovered Mendel's results on the inheritance of characters.</explanation>
+        </question>
+        <question>
+            <text>The mechanism of sex determination in birds (like fowl) is of the type:</text>
+            <option id="A">XX-XY type</option>
+            <option id="B">XX-XO type</option>
+            <option id="C">ZZ-ZW type</option>
+            <option id="D">Haplodiploidy</option>
+            <answer>C</answer>
+            <explanation>In birds, the females have one Z and one W chromosome (ZW), whereas males have a pair of Z chromosomes (ZZ). Hence, female heterogamety is seen in birds.</explanation>
+        </question>
+        <question>
+            <text>A change in a single base pair of DNA is called a:</text>
+            <option id="A">Frameshift mutation</option>
+            <option id="B">Point mutation</option>
+            <option id="C">Chromosomal aberration</option>
+            <option id="D">Aneuploidy</option>
+            <answer>B</answer>
+            <explanation>Mutation may arise due to change in a single base pair of DNA. This is known as point mutation. A classic example of such a mutation is sickle cell anemia.</explanation>
+        </question>
+        <question>
+            <text>The cross in which only one pair of contrasting characters is studied is called a:</text>
+            <option id="A">Dihybrid cross</option>
+            <option id="B">Monohybrid cross</option>
+            <option id="C">Test cross</option>
+            <option id="D">Back cross</option>
+            <answer>B</answer>
+            <explanation>Let us take the example of one such cross where Mendel crossed tall and dwarf pea plants to study the inheritance of one gene. Such a cross is known as a monohybrid cross.</explanation>
+        </question>
+        <question>
+            <text>In a typical Mendelian monohybrid cross, what is the phenotypic ratio obtained in the F2 generation?</text>
+            <option id="A">1:2:1</option>
+            <option id="B">3:1</option>
+            <option id="C">9:3:3:1</option>
+            <option id="D">1:1</option>
+            <answer>B</answer>
+            <explanation>In a typical monohybrid cross, the F2 generation shows a phenotypic ratio of 3 tall : 1 dwarf, which is 3:1.</explanation>
+        </question>
+        <question>
+            <text>The genes which code for a pair of contrasting traits are known as:</text>
+            <option id="A">Factors</option>
+            <option id="B">Alleles</option>
+            <option id="C">Loci</option>
+            <option id="D">Chromosomes</option>
+            <answer>B</answer>
+            <explanation>Genes which code for a pair of contrasting traits are known as alleles, i.e., they are slightly different forms of the same gene.</explanation>
+        </question>
+        <question>
+            <text>To determine the genotype of a tall plant at F2, Mendel crossed the tall plant from F2 with a dwarf plant. This type of cross is called a:</text>
+            <option id="A">Reciprocal cross</option>
+            <option id="B">Test cross</option>
+            <option id="C">Dihybrid cross</option>
+            <option id="D">Out cross</option>
+            <answer>B</answer>
+            <explanation>Mendel crossed the tall plant from F2 with a dwarf plant. This he called a test cross. In a typical test cross an organism showing a dominant phenotype (and whose genotype is to be determined) is crossed with the recessive parent instead of self-crossing.</explanation>
+        </question>
+        <question>
+            <text>Mendel crossed pea plants differing in two characters (e.g., seed shape and seed color). Such a cross is known as a:</text>
+            <option id="A">Monohybrid cross</option>
+            <option id="B">Dihybrid cross</option>
+            <option id="C">Test cross</option>
+            <option id="D">Back cross</option>
+            <answer>B</answer>
+            <explanation>Mendel also worked with and crossed pea plants that differed in two characters, as is seen in the cross between a pea plant that has seeds with yellow colour and round shape and one that had seeds of green colour and wrinkled shape. This is a dihybrid cross.</explanation>
+        </question>
+        <question>
+            <text>In a typical dihybrid cross (e.g., RrYy x RrYy), what is the phenotypic ratio in the F2 generation?</text>
+            <option id="A">3:1</option>
+            <option id="B">1:2:1</option>
+            <option id="C">9:3:3:1</option>
+            <option id="D">1:1:1:1</option>
+            <answer>C</answer>
+            <explanation>The phenotypic ratio of a dihybrid cross is 9:3:3:1. For example, 9 Round yellow : 3 Round green : 3 Wrinkled yellow : 1 Wrinkled green.</explanation>
+        </question>
+        <question>
+            <text>Which law states that "when two pairs of traits are combined in a hybrid, segregation of one pair of characters is independent of the other pair of characters"?</text>
+            <option id="A">Law of Dominance</option>
+            <option id="B">Law of Segregation</option>
+            <option id="C">Law of Independent Assortment</option>
+            <option id="D">Law of Linkage</option>
+            <answer>C</answer>
+            <explanation>Based upon such observations on dihybrid crosses (crosses between plants differing in two traits) Mendel proposed a second set of generalisations that we call Mendel's Law of Independent Assortment.</explanation>
+        </question>
+        <question>
+            <text>The physical association of genes on a chromosome is termed:</text>
+            <option id="A">Recombination</option>
+            <option id="B">Linkage</option>
+            <option id="C">Crossing over</option>
+            <option id="D">Segregation</option>
+            <answer>B</answer>
+            <explanation>Morgan attributed this due to the physical association or linkage of the two genes and coined the term linkage to describe this physical association of genes on a chromosome.</explanation>
+        </question>
+        <question>
+            <text>In some insects like grasshoppers, the sex determination mechanism is of the XO type. What is the sex chromosome complement of a male grasshopper?</text>
+            <option id="A">XX</option>
+            <option id="B">XY</option>
+            <option id="C">XO</option>
+            <option id="D">ZZ</option>
+            <answer>C</answer>
+            <explanation>In a large number of insects the mechanism of sex determination is of the XO type, i.e., all eggs bear an additional X-chromosome besides the other chromosomes (autosomes). On the other hand, some of the sperms bear the X-chromosome whereas some do not. Males have only one X-chromosome besides the autosomes (XO).</explanation>
+        </question>
+        <question>
+            <text>In birds, the sex determining mechanism is of the ZW type. In this system, which sex is heterogametic?</text>
+            <option id="A">Male</option>
+            <option id="B">Female</option>
+            <option id="C">Both</option>
+            <option id="D">Neither</option>
+            <answer>B</answer>
+            <explanation>In birds, the total number of chromosome is same in both males and females. But two different types of gametes in terms of the sex chromosomes, are produced by females, i.e., female heterogamety. In order to have a distinction with the mechanism of sex determination described earlier, the two different sex chromosomes of a female bird has been designated to be the Z and W chromosomes.</explanation>
+        </question>
+        <question>
+            <text>A change in a single base pair of DNA is called a:</text>
+            <option id="A">Frameshift mutation</option>
+            <option id="B">Point mutation</option>
+            <option id="C">Deletion</option>
+            <option id="D">Insertion</option>
+            <answer>B</answer>
+            <explanation>In addition to recombination, mutation is another phenomenon that leads to variation in DNA. Mutation is a phenomenon which results in alteration of DNA sequences and consequently results in changes in the genotype and the phenotype of an organism. Sickle cell anemia is a classic example of point mutation.</explanation>
+        </question>
+        <question>
+            <text>Haemophilia is a sex-linked recessive disease. Which of the following statements is TRUE regarding its inheritance pattern?</text>
+            <option id="A">It is more common in females than in males</option>
+            <option id="B">An affected male transmits the disease to his sons</option>
+            <option id="C">A carrier female transmits the disease to 50% of her sons</option>
+            <option id="D">The disease is located on the Y chromosome</option>
+            <answer>C</answer>
+            <explanation>This sex linked recessive disease, which shows its transmission from unaffected carrier female to some of the male progeny has been widely studied. The heterozygous female (carrier) for haemophilia may transmit the disease to sons.</explanation>
+        </question>
+        <question>
+            <text>Genes which code for a pair of contrasting traits are known as:</text>
+            <option id="A">Alleles</option>
+            <option id="B">Loci</option>
+            <option id="C">Genomes</option>
+            <option id="D">Chromosomes</option>
+            <answer>A</answer>
+            <explanation>Mendel called the factors that pass down from parent to offspring. Now we call them genes. Genes which code for a pair of contrasting traits are known as alleles, i.e., they are slightly different forms of the same gene.</explanation>
+        </question>
+        <question>
+            <text>Which of the following describes a test cross?</text>
+            <option id="A">Crossing an F1 individual with another F1 individual</option>
+            <option id="B">Crossing an F1 individual with a homozygous recessive parent</option>
+            <option id="C">Crossing an F1 individual with a homozygous dominant parent</option>
+            <option id="D">Crossing two different species</option>
+            <answer>B</answer>
+            <explanation>To determine the genotype of a tall plant at F2, Mendel crossed the tall plant from F2 with a dwarf plant. This he called a test cross. In a typical test cross an organism (pea plants here) showing a dominant phenotype (and whose genotype is to be determined) is crossed with the recessive parent instead of self-crossing.</explanation>
+        </question>
+        <question>
+            <text>According to Mendel's Law of Dominance, in a dissimilar pair of factors, one member of the pair dominates over the other. The one that is suppressed is called:</text>
+            <option id="A">Dominant</option>
+            <option id="B">Recessive</option>
+            <option id="C">Co-dominant</option>
+            <option id="D">Incompletely dominant</option>
+            <answer>B</answer>
+            <explanation>In a dissimilar pair of factors one member of the pair dominates (dominant) the other (recessive).</explanation>
+        </question>
+        <question>
+            <text>Incomplete dominance is seen in the flower color of which plant?</text>
+            <option id="A">Pisum sativum</option>
+            <option id="B">Antirrhinum majus (Snapdragon)</option>
+            <option id="C">Oenothera lamarckiana</option>
+            <option id="D">Lathyrus odoratus</option>
+            <answer>B</answer>
+            <explanation>When experiments on peas were repeated using other traits in other plants, it was found that sometimes the F1 had a phenotype that did not resemble either of the two parents and was in between the two. The inheritance of flower colour in the dog flower (snapdragon or Antirrhinum sp.) is a good example to understand incomplete dominance.</explanation>
+        </question>
+        <question>
+            <text>In Drosophila, the genes for white eye and yellow body were very tightly linked and showed what percentage of recombination?</text>
+            <option id="A">37.2 percent</option>
+            <option id="B">50 percent</option>
+            <option id="C">1.3 percent</option>
+            <option id="D">100 percent</option>
+            <answer>C</answer>
+            <explanation>For example he found that the genes white and yellow were very tightly linked and showed only 1.3 per cent recombination while white and miniature wing showed 37.2 per cent recombination.</explanation>
+        </question>
+        <question>
+            <text>Which student of Morgan used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes?</text>
+            <option id="A">Gregor Mendel</option>
+            <option id="B">Walter Sutton</option>
+            <option id="C">Alfred Sturtevant</option>
+            <option id="D">Theodor Boveri</option>
+            <answer>C</answer>
+            <explanation>His student Alfred Sturtevant used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes and 'mapped' their position on the chromosome.</explanation>
+        </question>
+        <question>
+            <text>Genetic maps, originally developed by Sturtevant, are extensively used today as a starting point in:</text>
+            <option id="A">Mendelian crosses</option>
+            <option id="B">The sequencing of whole genomes, such as in the Human Genome Project</option>
+            <option id="C">Determining sex in reptiles</option>
+            <option id="D">Studying incomplete dominance in snapdragons</option>
+            <answer>B</answer>
+            <explanation>Today genetic maps are extensively used as a starting point in the sequencing of whole genomes as was done in the case of the Human Genome Sequencing Project, described later.</explanation>
+        </question>
+        <question>
+            <text>The mechanism of sex determination where males produce two different types of gametes is called:</text>
+            <option id="A">Female heterogamety</option>
+            <option id="B">Male heterogamety</option>
+            <option id="C">Homogamety</option>
+            <option id="D">Parthenogenesis</option>
+            <answer>B</answer>
+            <explanation>Two types of sex determining mechanisms, i.e., XO type and XY type. But in both cases males produce two different types of gametes, (a) either with or without X-chromosome or (b) some gametes with X-chromosome and some with Y-chromosome. Such types of sex determining mechanism is designated to be the example of male heterogamety.</explanation>
+        </question>
+        <question>
+            <text>Phenylketonuria is an inborn error of metabolism that is also inherited as the autosomal recessive trait. The affected individual lacks an enzyme that converts the amino acid phenylalanine into:</text>
+            <option id="A">Valine</option>
+            <option id="B">Tyrosine</option>
+            <option id="C">Glutamic acid</option>
+            <option id="D">Tryptophan</option>
+            <answer>B</answer>
+            <explanation>Phenylketonuria: This inborn error of metabolism is also inherited as the autosomal recessive trait. The affected individual lacks an enzyme that converts the amino acid phenylalanine into tyrosine.</explanation>
+        </question>
+        <question>
+            <text>In individuals with Phenylketonuria, phenylalanine accumulates and is converted into phenylpyruvic acid and other derivatives. What is a significant consequence of this accumulation in the brain?</text>
+            <option id="A">Physical gigantism</option>
+            <option id="B">Mental retardness</option>
+            <option id="C">Increased intelligence</option>
+            <option id="D">Loss of vision</option>
+            <answer>B</answer>
+            <explanation>As a result of this phenylalanine is accumulated and converted into phenylpyruvic acid and other derivatives. Accumulation of these in brain results in mental retardness.</explanation>
+        </question>
+        <question>
+            <text>Why are phenylpyruvic acid and its derivatives excreted in the urine of individuals with Phenylketonuria?</text>
+            <option id="A">Because they are highly water soluble</option>
+            <option id="B">Because of their poor absorption by kidney</option>
+            <option id="C">Because the liver actively pumps them into the urine</option>
+            <option id="D">Because they are toxins that the body must eliminate</option>
+            <answer>B</answer>
+            <explanation>Accumulation of these in brain results in mental retardness. These are also excreted through urine because of its poor absorption by kidney.</explanation>
+        </question>
+        <question>
+            <text>Thalassemia is an autosome-linked recessive blood disease. Which of the following best describes the fundamental defect in thalassemia compared to sickle-cell anaemia?</text>
+            <option id="A">Thalassemia is a qualitative problem, while sickle-cell anaemia is a quantitative problem</option>
+            <option id="B">Thalassemia is a quantitative problem of synthesising too few globin molecules, while sickle-cell anaemia is a qualitative problem of synthesising an incorrectly functioning globin</option>
+            <option id="C">Both are quantitative problems</option>
+            <option id="D">Both are qualitative problems caused by single amino acid substitutions</option>
+            <answer>B</answer>
+            <explanation>Thalassemia differs from sickle-cell anaemia in that the former is a quantitative problem of synthesising too few globin molecules while the latter is a qualitative problem of synthesising an incorrectly functioning globin.</explanation>
+        </question>
+        <question>
+            <text>Failure of cytokinesis after the telophase stage of cell division results in an increase in a whole set of chromosomes in an organism. What is this called?</text>
+            <option id="A">Aneuploidy</option>
+            <option id="B">Polyploidy</option>
+            <option id="C">Trisomy</option>
+            <option id="D">Monosomy</option>
+            <answer>B</answer>
+            <explanation>Failure of cytokinesis after telophase stage of cell division results in an increase in a whole set of chromosomes in an organism and, this phenomenon is known as polyploidy.</explanation>
+        </question>
+        <question>
+            <text>Polyploidy, a condition where an organism has extra sets of chromosomes, is most often seen in which group of organisms?</text>
+            <option id="A">Mammals</option>
+            <option id="B">Insects</option>
+            <option id="C">Plants</option>
+            <option id="D">Birds</option>
+            <answer>C</answer>
+            <explanation>This condition [polyploidy] is often seen in plants.</explanation>
+        </question>
+        <question>
+            <text>The total number of chromosomes in a normal human cell is 46 (23 pairs). Out of these 23 pairs, 22 pairs are exactly same in both males and females. What are these 22 pairs called?</text>
+            <option id="A">Sex chromosomes</option>
+            <option id="B">Autosomes</option>
+            <option id="C">Allosomes</option>
+            <option id="D">Mitochondrial chromosomes</option>
+            <answer>B</answer>
+            <explanation>Out of these 23 pairs, 22 pairs are exactly same in both males and females; these are the autosomes.</explanation>
+        </question>
+        <question>
+            <text>The 23rd pair of chromosomes in humans are the sex chromosomes. What is the sex chromosome combination in a normal human female?</text>
+            <option id="A">XY</option>
+            <option id="B">XX</option>
+            <option id="C">XO</option>
+            <option id="D">XXY</option>
+            <answer>B</answer>
+            <explanation>A pair of X-chromosomes are present in the female, whereas the presence of an X and Y chromosome are determinant of the male characteristic.</explanation>
+        </question>
+        <question>
+            <text>Turner's syndrome is caused by the absence of one of the X chromosomes. What is the resulting karyotype?</text>
+            <option id="A">45 with XO</option>
+            <option id="B">47 with XXY</option>
+            <option id="C">46 with XX</option>
+            <option id="D">47 with XXX</option>
+            <answer>A</answer>
+            <explanation>Turner's Syndrome: Such a disorder is caused due to the absence of one of the X chromosomes, i.e., 45 with X0.</explanation>
+        </question>
+        <question>
+            <text>Which of the following statements best describes females with Turner's syndrome?</text>
+            <option id="A">They have normal ovarian function and are fertile</option>
+            <option id="B">They are sterile as their ovaries are rudimentary and lack secondary sexual characters</option>
+            <option id="C">They exhibit overall masculine development</option>
+            <option id="D">They have a normal lifespan but are unusually tall</option>
+            <answer>B</answer>
+            <explanation>Such females are sterile as ovaries are rudimentary besides other features including lack of other secondary sexual characters.</explanation>
+        </question>
+        <question>
+            <text>Mendel's laws of inheritance were rediscovered independently in 1900 by which three scientists?</text>
+            <option id="A">Watson, Crick, and Wilkins</option>
+            <option id="B">de Vries, Correns, and von Tschermak</option>
+            <option id="C">Sutton, Boveri, and Morgan</option>
+            <option id="D">Avery, MacLeod, and McCarty</option>
+            <answer>B</answer>
+            <explanation>It was in 1900 that three Scientists (de Vries, Correns and von Tschermak) independently rediscovered Mendel's results on the inheritance of characters.</explanation>
+        </question>
+        <question>
+            <text>What advancement in science by 1900 allowed scientists to carefully observe cell division and eventually discover chromosomes?</text>
+            <option id="A">Invention of the electron microscope</option>
+            <option id="B">Advancements in microscopy</option>
+            <option id="C">Discovery of X-ray diffraction</option>
+            <option id="D">Development of PCR</option>
+            <answer>B</answer>
+            <explanation>Also, by this time due to advancements in microscopy that were taking place, scientists were able to carefully observe cell division. This led to the discovery of structures in the nucleus that appeared to double and divide just before each cell division. These were called chromosomes.</explanation>
+        </question>
+        <question>
+            <text>Why was Drosophila melanogaster found to be very suitable for genetic studies?</text>
+            <option id="A">They have a long life span of several years</option>
+            <option id="B">They produce a small number of progeny</option>
+            <option id="C">They can be grown on simple synthetic medium in the laboratory</option>
+            <option id="D">They do not show sexual dimorphism</option>
+            <answer>C</answer>
+            <explanation>They could be grown on simple synthetic medium in the laboratory. They complete their life cycle in about two weeks, and a single mating could produce a large number of progeny flies. Also, there was a clear differentiation of the sexes – the male and female flies are easily distinguishable.</explanation>
+        </question>
+        <question>
+            <text>Morgan carried out several dihybrid crosses in Drosophila to study genes that were sex-linked. In one cross, he mated yellow-bodied, white-eyed females with brown-bodied, red-eyed males. How did the F2 ratio differ from the expected 9:3:3:1 ratio?</text>
+            <option id="A">It was exactly 9:3:3:1</option>
+            <option id="B">It deviated significantly from the 9:3:3:1 ratio</option>
+            <option id="C">It was a 1:1:1:1 ratio</option>
+            <option id="D">It was a 3:1 ratio</option>
+            <answer>B</answer>
+            <explanation>Morgan carried out several dihybrid crosses in Drosophila to study genes that were sex-linked... He observed that the two genes did not segregate independently of each other and the F2 ratio deviated very significantly from the 9:3:3:1 ratio (expected when the two genes are independent).</explanation>
+        </question>
+        <question>
+            <text>When two genes in a dihybrid cross were situated on the same chromosome, Morgan saw that the proportion of parental gene combinations was much higher than the non-parental type. He attributed this to the physical association or linkage of the two genes. What term did he coin to describe the non-parental gene combinations?</text>
+            <option id="A">Linkage</option>
+            <option id="B">Recombination</option>
+            <option id="C">Mutation</option>
+            <option id="D">Segregation</option>
+            <answer>B</answer>
+            <explanation>Morgan attributed this due to the physical association or linkage of the two genes and coined the term linkage to describe this physical association of genes on a chromosome and the term recombination to describe the generation of non-parental gene combinations.</explanation>
+        </question>
+        <question>
+            <text>Morgan found that even when genes were grouped on the same chromosome, some genes were very tightly linked, while others were loosely linked. Tightly linked genes showed:</text>
+            <option id="A">Very high recombination</option>
+            <option id="B">Very low recombination</option>
+            <option id="C">Independent assortment</option>
+            <option id="D">No linkage at all</option>
+            <answer>B</answer>
+            <explanation>Morgan and his group also found that even when genes were grouped on the same chromosome, some genes were very tightly linked (showed very low recombination) while others were loosely linked (showed higher recombination).</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -184,6 +814,276 @@
             <option id="D">9/16</option>
             <answer>C</answer>
             <explanation>Using the product rule for independent events: The probability of Rr from Rr x Rr is 1/2. The probability of Yy from Yy x Yy is 1/2. The probability of RrYy is (1/2) * (1/2) = 1/4 or 4/16.</explanation>
+        </question>
+        <question>
+            <text>Down's syndrome is caused by an extra copy of chromosome number 21. What is this condition genetically termed as?</text>
+            <option id="A">Monosomy of 21</option>
+            <option id="B">Trisomy of 21</option>
+            <option id="C">Nullisomy of 21</option>
+            <option id="D">Polyploidy</option>
+            <answer>B</answer>
+            <explanation>The cause of this genetic disorder is the presence of an additional copy of the chromosome number 21 (trisomy of 21). This disorder was first described by Langdon Down.</explanation>
+        </question>
+        <question>
+            <text>Which of the following describes Klinefelter's syndrome?</text>
+            <option id="A">44 Autosomes + XO</option>
+            <option id="B">44 Autosomes + XXY</option>
+            <option id="C">44 Autosomes + XYY</option>
+            <option id="D">44 Autosomes + XXX</option>
+            <answer>B</answer>
+            <explanation>This genetic disorder is also caused due to the presence of an additional copy of X-chromosome resulting into a karyotype of 47, XXY. Such an individual has overall masculine development, however, the feminine development (development of breast, i.e., Gynaecomastia) is also expressed.</explanation>
+        </question>
+        <question>
+            <text>What is the pattern of inheritance for Hemophilia?</text>
+            <option id="A">Autosomal dominant</option>
+            <option id="B">Autosomal recessive</option>
+            <option id="C">X-linked recessive</option>
+            <option id="D">Y-linked</option>
+            <answer>C</answer>
+            <explanation>Hemophilia is a sex-linked (X-linked) recessive disease, which shows its transmission from unaffected carrier female to some of the male progeny.</explanation>
+        </question>
+        <question>
+            <text>Which of Mendel's laws states that in a heterozygous organism, only one allele expresses itself, masking the expression of the other?</text>
+            <option id="A">Law of Dominance</option>
+            <option id="B">Law of Segregation</option>
+            <option id="C">Law of Independent Assortment</option>
+            <option id="D">Law of Incomplete Dominance</option>
+            <answer>A</answer>
+            <explanation>Based on his observations on monohybrid crosses Mendel proposed two general rules: the First Law or Law of Dominance and the Second Law or Law of Segregation. The Law of Dominance states that in a dissimilar pair of factors one member of the pair dominates (dominant) the other (recessive).</explanation>
+        </question>
+        <question>
+            <text>The Law of Segregation is based on the fact that:</text>
+            <option id="A">Alleles blend in heterozygous condition</option>
+            <option id="B">Alleles do not show any blending and that both the characters are recovered as such in the F2 generation</option>
+            <option id="C">Genes located on the same chromosome are inherited together</option>
+            <option id="D">Multiple genes control a single character</option>
+            <answer>B</answer>
+            <explanation>This law is based on the fact that the alleles do not show any blending and that both the characters are recovered as such in the F2 generation though one of these is not seen at the F1 stage. Though the parents contain two alleles during gamete formation, the factors or alleles of a pair segregate from each other.</explanation>
+        </question>
+        <question>
+            <text>In snapdragon (dog flower), a cross between true-breeding red-flowered (RR) and true-breeding white-flowered plants (rr) results in pink-flowered F1 plants (Rr). This is an example of:</text>
+            <option id="A">Codominance</option>
+            <option id="B">Incomplete dominance</option>
+            <option id="C">Multiple allelism</option>
+            <option id="D">Pleiotropy</option>
+            <answer>B</answer>
+            <explanation>When experiments on peas were repeated using other traits in other plants, it was found that sometimes the F1 had a phenotype that did not resemble either of the two parents and was in between the two. The inheritance of flower colour in the dog flower (snapdragon or Antirrhinum sp.) is a good example to understand incomplete dominance.</explanation>
+        </question>
+        <question>
+            <text>The generation of non-parental gene combinations is termed:</text>
+            <option id="A">Linkage</option>
+            <option id="B">Recombination</option>
+            <option id="C">Mutation</option>
+            <option id="D">Aneuploidy</option>
+            <answer>B</answer>
+            <explanation>Morgan coined the term recombination to describe the generation of non-parental gene combinations.</explanation>
+        </question>
+        <question>
+            <text>Who used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes and mapped their position on the chromosome?</text>
+            <option id="A">Thomas Hunt Morgan</option>
+            <option id="B">Alfred Sturtevant</option>
+            <option id="C">Gregor Mendel</option>
+            <option id="D">Walter Sutton</option>
+            <answer>B</answer>
+            <explanation>His student Alfred Sturtevant used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes and 'mapped' their position on the chromosome.</explanation>
+        </question>
+        <question>
+            <text>Traits that are generally controlled by three or more genes (like human skin color) are called:</text>
+            <option id="A">Pleiotropic traits</option>
+            <option id="B">Polygenic traits</option>
+            <option id="C">Multiple alleles</option>
+            <option id="D">Codominant traits</option>
+            <answer>B</answer>
+            <explanation>Traits that are generally controlled by three or more genes are thus called as polygenic traits. Human skin colour is a classic example. The phenotype reflects the contribution of each allele, i.e., the effect of each allele is additive.</explanation>
+        </question>
+        <question>
+            <text>Sickle-cell anaemia is an autosome linked recessive trait. The disease is controlled by a single pair of allele, HbA and HbS. What is the genotype of a carrier (unaffected) individual?</text>
+            <option id="A">HbA HbA</option>
+            <option id="B">HbA HbS</option>
+            <option id="C">HbS HbS</option>
+            <option id="D">HbS HbA</option>
+            <answer>B</answer>
+            <explanation>This is an autosome linked recessive trait that can be transmitted from parents to the offspring when both the partners are carrier for the gene (or heterozygous). The disease is controlled by a single pair of allele, HbA and HbS. Out of the three possible genotypes only homozygous individuals for HbS (HbS HbS) show the diseased phenotype. Heterozygous (HbA HbS) individuals appear apparently unaffected but they are carrier of the disease.</explanation>
+        </question>
+        <question>
+            <text>Phenylketonuria is an inborn error of metabolism that is inherited as an autosomal recessive trait. The affected individual lacks an enzyme that converts the amino acid phenylalanine into:</text>
+            <option id="A">Tryptophan</option>
+            <option id="B">Tyrosine</option>
+            <option id="C">Valine</option>
+            <option id="D">Glutamic acid</option>
+            <answer>B</answer>
+            <explanation>This inborn error of metabolism is also inherited as the autosomal recessive trait. The affected individual lacks an enzyme that converts the amino acid phenylalanine into tyrosine. As a result of this phenylalanine is accumulated and converted into phenylpyruvic acid and other derivatives.</explanation>
+        </question>
+        <question>
+            <text>Down's syndrome is caused by the presence of an additional copy of the chromosome number 21 (trisomy of 21). This is an example of:</text>
+            <option id="A">Aneuploidy</option>
+            <option id="B">Polyploidy</option>
+            <option id="C">Point mutation</option>
+            <option id="D">Frameshift mutation</option>
+            <answer>A</answer>
+            <explanation>Failure of segregation of chromatids during cell division cycle results in the gain or loss of a chromosome(s), called aneuploidy. For example, Down's syndrome results in the gain of extra copy of chromosome 21.</explanation>
+        </question>
+        <question>
+            <text>The ABO blood grouping in human beings is an example of:</text>
+            <option id="A">Incomplete dominance</option>
+            <option id="B">Co-dominance and Multiple allelism</option>
+            <option id="C">Polygenic inheritance</option>
+            <option id="D">Pleiotropy</option>
+            <answer>B</answer>
+            <explanation>ABO blood grouping in human beings is a good example of co-dominance. ABO blood groups are controlled by the gene I. Because there are three different alleles, there are six different combinations of these three alleles that are possible, therefore, a total of six different genotypes of the human ABO blood types. Thus, it is also an example of multiple alleles.</explanation>
+        </question>
+        <question>
+            <text>In a dihybrid cross between a plant with round yellow seeds (RRYY) and wrinkled green seeds (rryy), the phenotypic ratio in the F2 generation is:</text>
+            <option id="A">1:2:1</option>
+            <option id="B">3:1</option>
+            <option id="C">9:3:3:1</option>
+            <option id="D">1:1:1:1</option>
+            <answer>C</answer>
+            <explanation>The dihybrid cross between a plant with round yellow seeds and wrinkled green seeds produces an F2 generation with a phenotypic ratio of 9 (Round Yellow) : 3 (Round Green) : 3 (Wrinkled Yellow) : 1 (Wrinkled Green).</explanation>
+        </question>
+        <question>
+            <text>Which of the following scientists independently rediscovered Mendel's results on the inheritance of characters in 1900?</text>
+            <option id="A">Sutton, Boveri, and Morgan</option>
+            <option id="B">de Vries, Correns, and von Tschermak</option>
+            <option id="C">Watson, Crick, and Wilkins</option>
+            <option id="D">Beadle, Tatum, and Lederberg</option>
+            <answer>B</answer>
+            <explanation>In 1900, three Scientists (de Vries, Correns and von Tschermak) independently rediscovered Mendel's results on the inheritance of characters.</explanation>
+        </question>
+        <question>
+            <text>In some insects, like grasshoppers, the male has only one X chromosome besides the autosomes, while the female has a pair of X chromosomes. This is an example of which type of sex determination?</text>
+            <option id="A">XY type</option>
+            <option id="B">ZW type</option>
+            <option id="C">XO type</option>
+            <option id="D">Haplodiploidy</option>
+            <answer>C</answer>
+            <explanation>The grasshopper is an example of XO type of sex determination in which the males have only one X-chromosome besides the autosomes, whereas females have a pair of X-chromosomes.</explanation>
+        </question>
+        <question>
+            <text>In birds, the female produces two different types of gametes, one with a Z chromosome and the other with a W chromosome. This mechanism of sex determination is an example of:</text>
+            <option id="A">Male heterogamety</option>
+            <option id="B">Female heterogamety</option>
+            <option id="C">Haplodiploidy</option>
+            <option id="D">Environmental sex determination</option>
+            <answer>B</answer>
+            <explanation>In birds, the total number of chromosome is same in both males and females. But two different types of gametes in terms of the sex chromosomes, are produced by females, i.e., female heterogamety. In order to have a distinction with the mechanism of sex determination described earlier, the two different sex chromosomes of a female bird has been designated to be the Z and W chromosomes.</explanation>
+        </question>
+        <question>
+            <text>The sex determining mechanism in honey bees is based on the number of sets of chromosomes an individual receives. Males (drones) develop from unfertilized eggs by means of:</text>
+            <option id="A">Meiosis</option>
+            <option id="B">Parthenogenesis</option>
+            <option id="C">Fertilization</option>
+            <option id="D">Mitosis</option>
+            <answer>B</answer>
+            <explanation>The sex determining mechanism in honey bee is based on the number of sets of chromosomes an individual receives. An offspring formed from the union of a sperm and an egg develops as a female (queen or worker), and an unfertilised egg develops as a male (drone) by means of parthenogenesis.</explanation>
+        </question>
+        <question>
+            <text>Failure of segregation of chromatids during cell division cycle results in the gain or loss of a chromosome(s). This phenomenon is called:</text>
+            <option id="A">Polyploidy</option>
+            <option id="B">Aneuploidy</option>
+            <option id="C">Mutation</option>
+            <option id="D">Recombination</option>
+            <answer>B</answer>
+            <explanation>Failure of segregation of chromatids during cell division cycle results in the gain or loss of a chromosome(s), called aneuploidy.</explanation>
+        </question>
+        <question>
+            <text>Down's syndrome results in the gain of an extra copy of chromosome 21. This condition is also known as:</text>
+            <option id="A">Trisomy 21</option>
+            <option id="B">Monosomy 21</option>
+            <option id="C">Tetrasomy 21</option>
+            <option id="D">Nullisomy 21</option>
+            <answer>A</answer>
+            <explanation>For example, Down's syndrome results in the gain of extra copy of chromosome 21. Similarly, Turner's syndrome results due to loss of an X chromosome in human females.</explanation>
+        </question>
+        <question>
+            <text>Failure of cytokinesis after telophase stage of cell division results in an increase in a whole set of chromosomes in an organism. This phenomenon is often seen in plants and is called:</text>
+            <option id="A">Aneuploidy</option>
+            <option id="B">Polyploidy</option>
+            <option id="C">Trisomy</option>
+            <option id="D">Monosomy</option>
+            <answer>B</answer>
+            <explanation>Failure of cytokinesis after telophase stage of cell division results in an increase in a whole set of chromosomes in an organism and, this phenomenon is known as polyploidy. This condition is often seen in plants.</explanation>
+        </question>
+        <question>
+            <text>When a gamete has an extra copy of a chromosome, joining with a normal gamete results in a zygote with three copies of that chromosome instead of the normal two. This condition is known as:</text>
+            <option id="A">Monosomy</option>
+            <option id="B">Trisomy</option>
+            <option id="C">Polyploidy</option>
+            <option id="D">Nullisomy</option>
+            <answer>B</answer>
+            <explanation>During the formation of gametes, in case there is a failure of segregation of a chromatid pair... It may result in either an additional copy of a chromosome, or lack of one of any one pair of chromosomes. These situations are known as trisomy or monosomy of a chromosome, respectively.</explanation>
+        </question>
+        <question>
+            <text>Down's syndrome was first described by Langdon Down in which year?</text>
+            <option id="A">1866</option>
+            <option id="B">1900</option>
+            <option id="C">1953</option>
+            <option id="D">1990</option>
+            <answer>A</answer>
+            <explanation>The cause of this genetic disorder is the presence of an additional copy of the chromosome number 21 (trisomy of 21). This disorder was first described by Langdon Down (1866).</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT a typical physical feature of an individual with Down's syndrome?</text>
+            <option id="A">Short stature with small round head</option>
+            <option id="B">Furrowed tongue and partially open mouth</option>
+            <option id="C">Tall stature with feminised character</option>
+            <option id="D">Broad palm with characteristic palm crease</option>
+            <answer>C</answer>
+            <explanation>The affected individual is short statured with small round head, furrowed tongue and partially open mouth. Palm is broad with characteristic palm crease. Physical, psychomotor and mental development is retarded. (Tall stature with feminised character is a feature of Klinefelter's Syndrome, not Down's syndrome).</explanation>
+        </question>
+        <question>
+            <text>Who noted that the behaviour of chromosomes was parallel to the behaviour of genes and used chromosome movement to explain Mendel's laws?</text>
+            <option id="A">Thomas Hunt Morgan</option>
+            <option id="B">Walter Sutton and Theodore Boveri</option>
+            <option id="C">Gregor Mendel</option>
+            <option id="D">Hugo de Vries</option>
+            <answer>B</answer>
+            <explanation>By 1902, the chromosome movement during meiosis had been worked out. Walter Sutton and Theodore Boveri noted that the behaviour of chromosomes was parallel to the behaviour of genes and used chromosome movement to explain Mendel's laws.</explanation>
+        </question>
+        <question>
+            <text>During which stage of meiosis do homologous chromosomes pair up and segregate independently of another pair?</text>
+            <option id="A">Prophase II</option>
+            <option id="B">Anaphase of meiosis I</option>
+            <option id="C">Telophase I</option>
+            <option id="D">Metaphase II</option>
+            <answer>B</answer>
+            <explanation>Recall that you have studied the behaviour of chromosomes during mitosis (equational division) and during meiosis (reduction division). The important things to remember are that chromosomes as well as genes occur in pairs. The two alleles of a gene pair are located on homologous sites on homologous chromosomes... During Anaphase of meiosis I, the two chromosome pairs can align at the metaphase plate independently of each other.</explanation>
+        </question>
+        <question>
+            <text>Sutton united the knowledge of chromosomal segregation with Mendelian principles. What did he call this theory?</text>
+            <option id="A">Theory of Mutation</option>
+            <option id="B">Chromosomal Theory of Inheritance</option>
+            <option id="C">Law of Independent Assortment</option>
+            <option id="D">Theory of Natural Selection</option>
+            <answer>B</answer>
+            <explanation>Sutton and Boveri argued that the pairing and separation of a pair of chromosomes would lead to the segregation of a pair of factors they carried. Sutton united the knowledge of chromosomal segregation with Mendelian principles and called it the chromosomal theory of inheritance.</explanation>
+        </question>
+        <question>
+            <text>Who used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes and 'mapped' their position on the chromosome?</text>
+            <option id="A">Gregor Mendel</option>
+            <option id="B">Thomas Hunt Morgan</option>
+            <option id="C">Alfred Sturtevant</option>
+            <option id="D">Walter Sutton</option>
+            <answer>C</answer>
+            <explanation>His student Alfred Sturtevant used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes and 'mapped' their position on the chromosome.</explanation>
+        </question>
+        <question>
+            <text>Today genetic maps are extensively used as a starting point in the sequencing of whole genomes as was done in the case of the:</text>
+            <option id="A">Drosophila genome sequencing project</option>
+            <option id="B">Human Genome Sequencing Project</option>
+            <option id="C">Pea plant genome project</option>
+            <option id="D">E. coli genome project</option>
+            <answer>B</answer>
+            <explanation>Today genetic maps are extensively used as a starting point in the sequencing of whole genomes as was done in the case of the Human Genome Sequencing Project.</explanation>
+        </question>
+        <question>
+            <text>The mechanism of sex determination has always been a puzzle. The initial clue came from experiments on which organisms?</text>
+            <option id="A">Pea plants</option>
+            <option id="B">Insects</option>
+            <option id="C">Birds</option>
+            <option id="D">Mammals</option>
+            <answer>B</answer>
+            <explanation>The mechanism of sex determination has always been a puzzle before the geneticists. The initial clue about the genetic/chromosomal mechanism of sex determination can be traced back to some of the experiments carried out in insects.</explanation>
         </question>
     </hard>
 </chapter>

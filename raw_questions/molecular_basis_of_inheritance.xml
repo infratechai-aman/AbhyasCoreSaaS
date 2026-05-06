@@ -55,6 +55,276 @@
             <answer>B</answer>
             <explanation>In eukaryotes, RNA polymerase II transcribes precursor of mRNA, the heterogeneous nuclear RNA (hnRNA).</explanation>
         </question>
+        <question>
+            <text>Which of the following describes the structure of DNA?</text>
+            <option id="A">Single-stranded and linear</option>
+            <option id="B">Double-stranded and linear</option>
+            <option id="C">Single-stranded and circular</option>
+            <option id="D">Double helix</option>
+            <answer>D</answer>
+            <explanation>James Watson and Francis Crick, based on the X-ray diffraction data produced by Maurice Wilkins and Rosalind Franklin, proposed the famous Double Helix model for the structure of DNA.</explanation>
+        </question>
+        <question>
+            <text>According to Chargaff's rules, in a double-stranded DNA molecule:</text>
+            <option id="A">The ratio of adenine to thymine is variable</option>
+            <option id="B">The ratios between Adenine and Thymine and Guanine and Cytosine are constant and equals one</option>
+            <option id="C">Adenine pairs with Cytosine</option>
+            <option id="D">Guanine pairs with Thymine</option>
+            <answer>B</answer>
+            <explanation>Erwin Chargaff observed that for a double stranded DNA, the ratios between Adenine and Thymine and Guanine and Cytosine are constant and equals one (A=T and G=C).</explanation>
+        </question>
+        <question>
+            <text>The process of copying genetic information from one strand of the DNA into RNA is termed as:</text>
+            <option id="A">Translation</option>
+            <option id="B">Transcription</option>
+            <option id="C">Replication</option>
+            <option id="D">Transformation</option>
+            <answer>B</answer>
+            <explanation>The process of copying genetic information from one strand of the DNA into RNA is termed as transcription.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT a component of a nucleotide?</text>
+            <option id="A">A nitrogenous base</option>
+            <option id="B">A pentose sugar</option>
+            <option id="C">A phosphate group</option>
+            <option id="D">A sulphate group</option>
+            <answer>D</answer>
+            <explanation>A nucleotide has three components - a nitrogenous base, a pentose sugar (ribose in case of RNA, and deoxyribose for DNA), and a phosphate group.</explanation>
+        </question>
+        <question>
+            <text>In a DNA or RNA molecule, a nitrogenous base is linked to the pentose sugar through which type of linkage to form a nucleoside?</text>
+            <option id="A">Phosphodiester linkage</option>
+            <option id="B">N-glycosidic linkage</option>
+            <option id="C">Peptide linkage</option>
+            <option id="D">Hydrogen bond</option>
+            <answer>B</answer>
+            <explanation>A nitrogenous base is linked to the pentose sugar through a N-glycosidic linkage to form a nucleoside, such as adenosine or deoxyadenosine, guanosine or deoxyguanosine.</explanation>
+        </question>
+        <question>
+            <text>When a phosphate group is linked to the 5'-OH of a nucleoside, the resulting structure is called a:</text>
+            <option id="A">Nucleotide</option>
+            <option id="B">Nucleosome</option>
+            <option id="C">Polypeptide</option>
+            <option id="D">Chromatin</option>
+            <answer>A</answer>
+            <explanation>When a phosphate group is linked to OH of 5' C of a nucleoside through phosphoester linkage, a corresponding nucleotide (or deoxynucleotide depending upon the type of sugar present) is formed.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is considered the central dogma of molecular biology?</text>
+            <option id="A">RNA -> DNA -> Protein</option>
+            <option id="B">DNA -> RNA -> Protein</option>
+            <option id="C">Protein -> RNA -> DNA</option>
+            <option id="D">DNA -> Protein -> RNA</option>
+            <answer>B</answer>
+            <explanation>Francis Crick proposed the Central dogma in molecular biology, which states that the genetic information flows from DNA -> RNA -> Protein.</explanation>
+        </question>
+        <question>
+            <text>In some viruses, like retroviruses, the flow of information is in reverse direction. This process is called:</text>
+            <option id="A">Reverse transcription</option>
+            <option id="B">Reverse translation</option>
+            <option id="C">Reverse replication</option>
+            <option id="D">RNA splicing</option>
+            <answer>A</answer>
+            <explanation>In some viruses the flow of information is in reverse direction, that is, from RNA to DNA. This process is known as reverse transcription.</explanation>
+        </question>
+        <question>
+            <text>The length of DNA is usually defined as the number of nucleotides (or a pair of nucleotide referred to as base pairs) present in it. What is the length of E. coli DNA?</text>
+            <option id="A">4.6 x 10^6 bp</option>
+            <option id="B">3.3 x 10^9 bp</option>
+            <option id="C">48502 bp</option>
+            <option id="D">5386 nucleotides</option>
+            <answer>A</answer>
+            <explanation>Escherichia coli has 4.6 x 10^6 bp. Bacteriophage lambda has 48502 base pairs (bp), and haploid content of human DNA is 3.3 x 10^9 bp.</explanation>
+        </question>
+        <question>
+            <text>The process of copying genetic information from one strand of the DNA into RNA is termed as:</text>
+            <option id="A">Replication</option>
+            <option id="B">Transcription</option>
+            <option id="C">Translation</option>
+            <option id="D">Reverse transcription</option>
+            <answer>B</answer>
+            <explanation>The process of copying genetic information from one strand of the DNA into RNA is termed as transcription.</explanation>
+        </question>
+        <question>
+            <text>In a transcription unit, the promoter is located towards which end of the structural gene (with respect to the coding strand)?</text>
+            <option id="A">5' -end (upstream)</option>
+            <option id="B">3' -end (downstream)</option>
+            <option id="C">In the middle</option>
+            <option id="D">It varies depending on the gene</option>
+            <answer>A</answer>
+            <explanation>The promoter is said to be located towards 5' -end (upstream) of the structural gene (the reference is made with respect to the polarity of coding strand).</explanation>
+        </question>
+        <question>
+            <text>Which type of RNA brings amino acids and reads the genetic code during translation?</text>
+            <option id="A">mRNA</option>
+            <option id="B">rRNA</option>
+            <option id="C">tRNA</option>
+            <option id="D">snRNA</option>
+            <answer>C</answer>
+            <explanation>In bacteria, there are three major types of RNAs: mRNA (messenger RNA), tRNA (transfer RNA), and rRNA (ribosomal RNA). The tRNA brings aminoacids and reads the genetic code.</explanation>
+        </question>
+        <question>
+            <text>A nucleotide consists of three components: a nitrogenous base, a pentose sugar, and a:</text>
+            <option id="A">Sulphate group</option>
+            <option id="B">Phosphate group</option>
+            <option id="C">Hydroxyl group</option>
+            <option id="D">Methyl group</option>
+            <answer>B</answer>
+            <explanation>A nucleotide has three components - a nitrogenous base, a pentose sugar (ribose in case of RNA, and deoxyribose for DNA), and a phosphate group.</explanation>
+        </question>
+        <question>
+            <text>The two types of nitrogenous bases are Purines and Pyrimidines. Which of the following are Purines?</text>
+            <option id="A">Cytosine and Thymine</option>
+            <option id="B">Adenine and Guanine</option>
+            <option id="C">Adenine and Thymine</option>
+            <option id="D">Guanine and Cytosine</option>
+            <answer>B</answer>
+            <explanation>There are two types of nitrogenous bases - Purines (Adenine and Guanine), and Pyrimidines (Cytosine, Uracil and Thymine). Cytosine is common for both DNA and RNA and Thymine is present in DNA. Uracil is present in RNA at the place of Thymine.</explanation>
+        </question>
+        <question>
+            <text>The backbone of a polynucleotide chain is formed due to:</text>
+            <option id="A">Sugar and nitrogenous bases</option>
+            <option id="B">Phosphate and nitrogenous bases</option>
+            <option id="C">Sugar and phosphates</option>
+            <option id="D">Hydrogen bonds between bases</option>
+            <answer>C</answer>
+            <explanation>The backbone of a polynucleotide chain is formed due to sugar and phosphates. The nitrogenous bases linked to sugar moiety project from the backbone.</explanation>
+        </question>
+        <question>
+            <text>What are the two types of nucleic acids found in living systems?</text>
+            <option id="A">DNA and ATP</option>
+            <option id="B">DNA and RNA</option>
+            <option id="C">RNA and Protein</option>
+            <option id="D">DNA and Protein</option>
+            <answer>B</answer>
+            <explanation>Deoxyribonucleic acid (DNA) and ribonucleic acid (RNA) are the two types of nucleic acids found in living systems.</explanation>
+        </question>
+        <question>
+            <text>In most organisms, which molecule acts as the genetic material?</text>
+            <option id="A">RNA</option>
+            <option id="B">DNA</option>
+            <option id="C">Protein</option>
+            <option id="D">Carbohydrates</option>
+            <answer>B</answer>
+            <explanation>DNA acts as the genetic material in most of the organisms.</explanation>
+        </question>
+        <question>
+            <text>While RNA can act as a genetic material in some viruses, it mostly functions as a:</text>
+            <option id="A">Messenger</option>
+            <option id="B">Structural component of cell walls</option>
+            <option id="C">Energy storage molecule</option>
+            <option id="D">Lipid carrier</option>
+            <answer>A</answer>
+            <explanation>RNA though it also acts as a genetic material in some viruses, mostly functions as a messenger.</explanation>
+        </question>
+        <question>
+            <text>What are the three components of a nucleotide?</text>
+            <option id="A">A nitrogenous base, a pentose sugar, and a phosphate group</option>
+            <option id="B">A nitrogenous base, a hexose sugar, and a phosphate group</option>
+            <option id="C">An amino acid, a pentose sugar, and a phosphate group</option>
+            <option id="D">A nitrogenous base, a pentose sugar, and a lipid</option>
+            <answer>A</answer>
+            <explanation>A nucleotide has three components – a nitrogenous base, a pentose sugar (ribose in case of RNA, and deoxyribose for DNA), and a phosphate group.</explanation>
+        </question>
+        <question>
+            <text>Which of the following nitrogenous bases are classified as purines?</text>
+            <option id="A">Cytosine and Thymine</option>
+            <option id="B">Adenine and Guanine</option>
+            <option id="C">Adenine and Thymine</option>
+            <option id="D">Cytosine and Uracil</option>
+            <answer>B</answer>
+            <explanation>There are two types of nitrogenous bases – Purines (Adenine and Guanine), and Pyrimidines (Cytosine, Uracil and Thymine).</explanation>
+        </question>
+        <question>
+            <text>Which pyrimidine base is present in DNA but NOT in RNA?</text>
+            <option id="A">Cytosine</option>
+            <option id="B">Uracil</option>
+            <option id="C">Thymine</option>
+            <option id="D">Guanine</option>
+            <answer>C</answer>
+            <explanation>Cytosine is common for both DNA and RNA and Thymine is present in DNA. Uracil is present in RNA at the place of Thymine.</explanation>
+        </question>
+        <question>
+            <text>Which scientists first proposed the Double Helix model for the structure of DNA in 1953?</text>
+            <option id="A">Maurice Wilkins and Rosalind Franklin</option>
+            <option id="B">James Watson and Francis Crick</option>
+            <option id="C">Erwin Chargaff and Gregor Mendel</option>
+            <option id="D">Friedrich Meischer and Frederick Griffith</option>
+            <answer>B</answer>
+            <explanation>It was only in 1953 that James Watson and Francis Crick, based on the X-ray diffraction data produced by Maurice Wilkins and Rosalind Franklin, proposed a very simple but famous Double Helix model for the structure of DNA.</explanation>
+        </question>
+        <question>
+            <text>Watson and Crick's Double Helix model was based on X-ray diffraction data produced by which two scientists?</text>
+            <option id="A">Erwin Chargaff and Friedrich Meischer</option>
+            <option id="B">Maurice Wilkins and Rosalind Franklin</option>
+            <option id="C">Avery and MacLeod</option>
+            <option id="D">Hershey and Chase</option>
+            <answer>B</answer>
+            <explanation>It was only in 1953 that James Watson and Francis Crick, based on the X-ray diffraction data produced by Maurice Wilkins and Rosalind Franklin, proposed a very simple but famous Double Helix model for the structure of DNA.</explanation>
+        </question>
+        <question>
+            <text>One of the hallmarks of Watson and Crick's proposition was base pairing between the two strands of polynucleotide chains. This proposition was also based on the observation of which scientist?</text>
+            <option id="A">Erwin Chargaff</option>
+            <option id="B">Maurice Wilkins</option>
+            <option id="C">Rosalind Franklin</option>
+            <option id="D">Frederick Griffith</option>
+            <answer>A</answer>
+            <explanation>One of the hallmarks of their proposition was base pairing between the two strands of polynucleotide chains. However, this proposition was also based on the observation of Erwin Chargaff.</explanation>
+        </question>
+        <question>
+            <text>The plane of one base pair stacks over the other in the DNA double helix. This, along with H-bonds, provides what to the helical structure?</text>
+            <option id="A">Flexibility</option>
+            <option id="B">Charge</option>
+            <option id="C">Stability</option>
+            <option id="D">Replication capability</option>
+            <answer>C</answer>
+            <explanation>The plane of one base pair stacks over the other in double helix. This, in addition to H-bonds, confers stability of the helical structure.</explanation>
+        </question>
+        <question>
+            <text>Who stated the Central Dogma in molecular biology?</text>
+            <option id="A">James Watson</option>
+            <option id="B">Francis Crick</option>
+            <option id="C">Rosalind Franklin</option>
+            <option id="D">Erwin Chargaff</option>
+            <answer>B</answer>
+            <explanation>Francis Crick proposed the Central dogma in molecular biology, which states that the genetic information flows from DNA ---> RNA ---> Protein.</explanation>
+        </question>
+        <question>
+            <text>According to the Central Dogma in molecular biology, what is the direction of the flow of genetic information?</text>
+            <option id="A">RNA -> DNA -> Protein</option>
+            <option id="B">Protein -> RNA -> DNA</option>
+            <option id="C">DNA -> RNA -> Protein</option>
+            <option id="D">DNA -> Protein -> RNA</option>
+            <answer>C</answer>
+            <explanation>Francis Crick proposed the Central dogma in molecular biology, which states that the genetic information flows from DNA ---> RNA ---> Protein.</explanation>
+        </question>
+        <question>
+            <text>What is the negatively charged DNA wrapped around the positively charged histone octamer called?</text>
+            <option id="A">Chromatin</option>
+            <option id="B">Nucleosome</option>
+            <option id="C">Nucleoid</option>
+            <option id="D">Chromosome</option>
+            <answer>B</answer>
+            <explanation>The negatively charged DNA is wrapped around the positively charged histone octamer to form a structure called nucleosome.</explanation>
+        </question>
+        <question>
+            <text>A typical nucleosome contains how many base pairs of DNA helix?</text>
+            <option id="A">100 bp</option>
+            <option id="B">200 bp</option>
+            <option id="C">300 bp</option>
+            <option id="D">400 bp</option>
+            <answer>B</answer>
+            <explanation>A typical nucleosome contains 200 bp of DNA helix.</explanation>
+        </question>
+        <question>
+            <text>Nucleosomes constitute the repeating unit of a structure in the nucleus called:</text>
+            <option id="A">Chromatin</option>
+            <option id="B">Nucleolus</option>
+            <option id="C">Nuclear envelope</option>
+            <option id="D">Endoplasmic reticulum</option>
+            <answer>A</answer>
+            <explanation>Nucleosomes constitute the repeating unit of a structure in nucleus called chromatin, thread-like stained (coloured) bodies seen in nucleus.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -129,6 +399,366 @@
             <answer>B</answer>
             <explanation>Taylor and colleagues (1958) used radioactive thymidine to detect distribution of newly synthesized DNA in the chromosomes of Vicia faba to prove that the DNA in chromosomes also replicate semi-conservatively.</explanation>
         </question>
+        <question>
+            <text>In the lac operon, which molecule binds to the repressor protein to prevent it from binding to the operator region?</text>
+            <option id="A">Glucose</option>
+            <option id="B">Galactose</option>
+            <option id="C">Lactose (or allolactose)</option>
+            <option id="D">RNA polymerase</option>
+            <answer>C</answer>
+            <explanation>Lactose is the substrate for the enzyme beta-galactosidase and it regulates switching on and off of the operon. Hence, it is termed as inducer. It binds to the repressor and inactivates it.</explanation>
+        </question>
+        <question>
+            <text>What is the function of DNA ligase during DNA replication?</text>
+            <option id="A">Unwinding the double helix</option>
+            <option id="B">Synthesizing RNA primers</option>
+            <option id="C">Joining the Okazaki fragments together</option>
+            <option id="D">Adding nucleotides to the growing DNA chain</option>
+            <answer>C</answer>
+            <explanation>The discontinuously synthesised fragments (Okazaki fragments) are later joined by the enzyme DNA ligase.</explanation>
+        </question>
+        <question>
+            <text>Which type of RNA brings amino acids to the ribosome during translation?</text>
+            <option id="A">mRNA</option>
+            <option id="B">rRNA</option>
+            <option id="C">tRNA</option>
+            <option id="D">snRNA</option>
+            <answer>C</answer>
+            <explanation>The tRNA (transfer RNA) has an anticodon loop that has bases complementary to the codon, and it also has an amino acid accepter end to which it binds to amino acids.</explanation>
+        </question>
+        <question>
+            <text>The unambiguous and specific nature of the genetic code means that:</text>
+            <option id="A">One codon codes for multiple amino acids</option>
+            <option id="B">One codon codes for only one amino acid</option>
+            <option id="C">Some amino acids are coded by more than one codon</option>
+            <option id="D">The code is nearly universal across all organisms</option>
+            <answer>B</answer>
+            <explanation>One codon codes for only one amino acid, hence, it is unambiguous and specific. (The fact that some amino acids are coded by more than one codon is called degeneracy).</explanation>
+        </question>
+        <question>
+            <text>Two nucleotides are linked through which type of linkage to form a dinucleotide?</text>
+            <option id="A">N-glycosidic linkage</option>
+            <option id="B">3'-5' phosphodiester linkage</option>
+            <option id="C">Peptide bond</option>
+            <option id="D">Disulfide bond</option>
+            <answer>B</answer>
+            <explanation>Two nucleotides are linked through 3'-5' phosphodiester linkage to form a dinucleotide. More nucleotides can be joined in such a manner to form a polynucleotide chain.</explanation>
+        </question>
+        <question>
+            <text>According to Erwin Chargaff's rule, for a double-stranded DNA, the ratios between Adenine and Thymine and Guanine and Cytosine are:</text>
+            <option id="A">Variable and species-dependent</option>
+            <option id="B">Constant and equals one</option>
+            <option id="C">Constant and equals two</option>
+            <option id="D">Dependent on the age of the organism</option>
+            <answer>B</answer>
+            <explanation>Erwin Chargaff observed that for a double stranded DNA, the ratios between Adenine and Thymine and Guanine and Cytosine are constant and equals one.</explanation>
+        </question>
+        <question>
+            <text>In the double helix model of DNA, the two chains are coiled in a right-handed fashion. What is the pitch of the helix?</text>
+            <option id="A">3.4 nm</option>
+            <option id="B">0.34 nm</option>
+            <option id="C">34 nm</option>
+            <option id="D">2.0 nm</option>
+            <answer>A</answer>
+            <explanation>The two chains are coiled in a right-handed fashion. The pitch of the helix is 3.4 nm (a nanometre is one billionth of a metre, that is 10^-9 m) and there are roughly 10 bp in each turn.</explanation>
+        </question>
+        <question>
+            <text>In a nucleosome, the negatively charged DNA is wrapped around a positively charged histone octamer. Histones are rich in which basic amino acid residues?</text>
+            <option id="A">Lysine and Arginine</option>
+            <option id="B">Glutamic acid and Aspartic acid</option>
+            <option id="C">Serine and Threonine</option>
+            <option id="D">Valine and Leucine</option>
+            <answer>A</answer>
+            <explanation>Histones are rich in the basic amino acid residues lysine and arginine. Both the amino acid residues carry positive charges in their side chains. Histones are organised to form a unit of eight molecules called as histone octamer.</explanation>
+        </question>
+        <question>
+            <text>The packaging of chromatin at higher levels requires an additional set of proteins that are collectively referred to as:</text>
+            <option id="A">Histones</option>
+            <option id="B">Non-histone chromosomal (NHC) proteins</option>
+            <option id="C">Nucleosomes</option>
+            <option id="D">Scaffold proteins</option>
+            <answer>B</answer>
+            <explanation>The packaging of chromatin at higher level requires additional set of proteins that collectively are referred to as Non-histone chromosomal (NHC) proteins.</explanation>
+        </question>
+        <question>
+            <text>In a typical nucleus, some regions of chromatin are loosely packed (and stains light) and are referred to as euchromatin. The chromatin that is more densely packed and stains dark is called:</text>
+            <option id="A">Heterochromatin</option>
+            <option id="B">Chromatosome</option>
+            <option id="C">Centromere</option>
+            <option id="D">Telomere</option>
+            <answer>A</answer>
+            <explanation>In a typical nucleus, some region of chromatin are loosely packed (and stains light) and are referred to as euchromatin. The chromatin that is more densely packed and stains dark are called as Heterochromatin. Euchromatin is said to be transcriptionally active chromatin, whereas heterochromatin is inactive.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is NOT a property required for a molecule that can act as a genetic material?</text>
+            <option id="A">It should be able to generate its replica (Replication).</option>
+            <option id="B">It should be highly unstable chemically and structurally.</option>
+            <option id="C">It should provide the scope for slow changes (mutation) that are required for evolution.</option>
+            <option id="D">It should be able to express itself in the form of 'Mendelian Characters'.</option>
+            <answer>B</answer>
+            <explanation>A genetic material must be stable. It should chemically and structurally be stable. It should not change with different stages of life cycle, age or with change in physiology of the organism.</explanation>
+        </question>
+        <question>
+            <text>The process of replication of DNA was experimentally proved to be semi-conservative by:</text>
+            <option id="A">Watson and Crick</option>
+            <option id="B">Meselson and Stahl</option>
+            <option id="C">Hershey and Chase</option>
+            <option id="D">Avery, MacLeod, and McCarty</option>
+            <answer>B</answer>
+            <explanation>It is now proven that DNA replicates semi-conservatively. It was shown first in Escherichia coli and subsequently in higher organisms, such as plants and human cells. Matthew Meselson and Franklin Stahl performed the following experiment in 1958.</explanation>
+        </question>
+        <question>
+            <text>In eukaryotes, which enzyme is responsible for the transcription of hnRNA (the precursor of mRNA)?</text>
+            <option id="A">RNA polymerase I</option>
+            <option id="B">RNA polymerase II</option>
+            <option id="C">RNA polymerase III</option>
+            <option id="D">DNA polymerase</option>
+            <answer>B</answer>
+            <explanation>In eukaryotes, there are at least three RNA polymerases. RNA polymerase I transcribes rRNAs (28S, 18S, and 5.8S). RNA polymerase II transcribes precursor of mRNA, the heterogeneous nuclear RNA (hnRNA). RNA polymerase III is responsible for transcription of tRNA, 5srRNA, and snRNAs.</explanation>
+        </question>
+        <question>
+            <text>In the primary transcript of eukaryotes, the non-coding sequences that are removed during splicing are called:</text>
+            <option id="A">Exons</option>
+            <option id="B">Introns</option>
+            <option id="C">Promoters</option>
+            <option id="D">Terminators</option>
+            <answer>B</answer>
+            <explanation>The primary transcripts contain both the exons and the introns and are non-functional. Hence, it is subjected to a process called splicing where the introns are removed and exons are joined in a defined order.</explanation>
+        </question>
+        <question>
+            <text>During capping of hnRNA, an unusual nucleotide is added to the 5'-end. What is this nucleotide?</text>
+            <option id="A">Adenylate residue</option>
+            <option id="B">Methyl guanosine triphosphate</option>
+            <option id="C">Uracil triphosphate</option>
+            <option id="D">Cytosine monophosphate</option>
+            <answer>B</answer>
+            <explanation>hnRNA undergoes additional processing called as capping and tailing. In capping an unusual nucleotide (methyl guanosine triphosphate) is added to the 5'-end of hnRNA.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is the initiator codon that also codes for the amino acid Methionine (met)?</text>
+            <option id="A">AUG</option>
+            <option id="B">UAA</option>
+            <option id="C">UAG</option>
+            <option id="D">UGA</option>
+            <answer>A</answer>
+            <explanation>AUG has dual functions. It codes for Methionine (met) , and it also act as initiator codon. UAA, UAG, UGA are stop terminator codons.</explanation>
+        </question>
+        <question>
+            <text>According to Erwin Chargaff's rule, for a double-stranded DNA, the ratios between Adenine and Thymine, and Guanine and Cytosine are:</text>
+            <option id="A">Variable</option>
+            <option id="B">Constant and equals one</option>
+            <option id="C">Dependent on the organism's age</option>
+            <option id="D">Always 2:1</option>
+            <answer>B</answer>
+            <explanation>Erwin Chargaff observed that for a double stranded DNA, the ratios between Adenine and Thymine and Guanine and Cytosine are constant and equals one.</explanation>
+        </question>
+        <question>
+            <text>The two chains of a DNA double helix are coiled in a right-handed fashion. What is the pitch of the helix?</text>
+            <option id="A">3.4 nm</option>
+            <option id="B">0.34 nm</option>
+            <option id="C">34 nm</option>
+            <option id="D">2.0 nm</option>
+            <answer>A</answer>
+            <explanation>The two chains are coiled in a right-handed fashion. The pitch of the helix is 3.4 nm (a nanometre is one billionth of a metre, that is 10^-9 m) and there are roughly 10 bp in each turn.</explanation>
+        </question>
+        <question>
+            <text>In prokaryotes like E. coli, the DNA is not scattered throughout the cell but held together with some proteins in a region called the:</text>
+            <option id="A">Nucleus</option>
+            <option id="B">Nucleolus</option>
+            <option id="C">Nucleoid</option>
+            <option id="D">Centromere</option>
+            <answer>C</answer>
+            <explanation>In prokaryotes, such as, E. coli, though they do not have a defined nucleus, the DNA is not scattered throughout the cell. DNA (being negatively charged) is held with some proteins (that have positive charges) in a region termed as 'nucleoid'.</explanation>
+        </question>
+        <question>
+            <text>In eukaryotes, DNA is wrapped around a set of positively charged, basic proteins called:</text>
+            <option id="A">Non-histone chromosomal proteins</option>
+            <option id="B">Histones</option>
+            <option id="C">DNA polymerases</option>
+            <option id="D">Helicases</option>
+            <answer>B</answer>
+            <explanation>In eukaryotes, this organisation is much more complex. There is a set of positively charged, basic proteins called histones. Histones are rich in the basic amino acid residues lysines and arginines.</explanation>
+        </question>
+        <question>
+            <text>Apart from its messenger function, RNA has additional roles. It functions as:</text>
+            <option id="A">Adapter, structural, and in some cases as a catalytic molecule</option>
+            <option id="B">A long-term energy store</option>
+            <option id="C">A lipid synthesis regulator</option>
+            <option id="D">The primary component of cell membranes</option>
+            <answer>A</answer>
+            <explanation>RNA has additional roles as well. It functions as adapter, structural, and in some cases as a catalytic molecule.</explanation>
+        </question>
+        <question>
+            <text>DNA is a long polymer of:</text>
+            <option id="A">Ribonucleotides</option>
+            <option id="B">Deoxyribonucleotides</option>
+            <option id="C">Amino acids</option>
+            <option id="D">Monosaccharides</option>
+            <answer>B</answer>
+            <explanation>DNA is a long polymer of deoxyribonucleotides. The length of DNA is usually defined as number of nucleotides (or a pair of nucleotide referred to as base pairs) present in it.</explanation>
+        </question>
+        <question>
+            <text>The length of a DNA molecule is usually defined as the number of:</text>
+            <option id="A">Nucleotides or base pairs</option>
+            <option id="B">Amino acids</option>
+            <option id="C">Phosphodiester bonds</option>
+            <option id="D">Hydrogen bonds</option>
+            <answer>A</answer>
+            <explanation>The length of DNA is usually defined as number of nucleotides (or a pair of nucleotide referred to as base pairs) present in it. This also is the characteristic of an organism.</explanation>
+        </question>
+        <question>
+            <text>A bacteriophage known as phi X 174 has how many nucleotides?</text>
+            <option id="A">5386 nucleotides</option>
+            <option id="B">48502 base pairs</option>
+            <option id="C">4.6 x 10^6 base pairs</option>
+            <option id="D">3.3 x 10^9 base pairs</option>
+            <answer>A</answer>
+            <explanation>For example, a bacteriophage known as phi X 174 has 5386 nucleotides.</explanation>
+        </question>
+        <question>
+            <text>A nitrogenous base is linked to the pentose sugar to form a nucleoside. What type of linkage connects them?</text>
+            <option id="A">Phosphodiester linkage</option>
+            <option id="B">N-glycosidic linkage</option>
+            <option id="C">Peptide linkage</option>
+            <option id="D">Hydrogen bond</option>
+            <answer>B</answer>
+            <explanation>A nitrogenous base is linked to the OH of 1' C pentose sugar through a N-glycosidic linkage to form a nucleoside, such as adenosine or deoxyadenosine, guanosine or deoxyguanosine, cytidine or deoxycytidine and uridine or deoxythymidine.</explanation>
+        </question>
+        <question>
+            <text>When a phosphate group is linked to the 5' -OH of a nucleoside, what is formed?</text>
+            <option id="A">A new nucleoside</option>
+            <option id="B">A nucleotide</option>
+            <option id="C">A dinucleotide</option>
+            <option id="D">A polypeptide</option>
+            <answer>B</answer>
+            <explanation>When a phosphate group is linked to OH of 5' C of a nucleoside through phosphoester linkage, a corresponding nucleotide (or deoxynucleotide depending upon the type of sugar present) is formed.</explanation>
+        </question>
+        <question>
+            <text>Two nucleotides are linked through which type of linkage to form a dinucleotide?</text>
+            <option id="A">1'-5' phosphodiester linkage</option>
+            <option id="B">3'-5' phosphodiester linkage</option>
+            <option id="C">N-glycosidic linkage</option>
+            <option id="D">Peptide linkage</option>
+            <answer>B</answer>
+            <explanation>Two nucleotides are linked through 3'-5' phosphodiester linkage to form a dinucleotide.</explanation>
+        </question>
+        <question>
+            <text>In a polynucleotide chain, what components form the backbone?</text>
+            <option id="A">Nitrogenous bases and sugars</option>
+            <option id="B">Phosphates and nitrogenous bases</option>
+            <option id="C">Sugars and phosphates</option>
+            <option id="D">Only nitrogenous bases</option>
+            <answer>C</answer>
+            <explanation>The backbone of a polynucleotide chain is formed due to sugar and phosphates. The nitrogenous bases linked to sugar moiety project from the backbone.</explanation>
+        </question>
+        <question>
+            <text>Erwin Chargaff observed that for double stranded DNA, the ratios between Adenine and Thymine and Guanine and Cytosine are:</text>
+            <option id="A">Always 2:1</option>
+            <option id="B">Constant and equals one</option>
+            <option id="C">Variable depending on the species</option>
+            <option id="D">Always 3:1</option>
+            <answer>B</answer>
+            <explanation>This proposition was also based on the observation of Erwin Chargaff that for a double stranded DNA, the ratios between Adenine and Thymine and Guanine and Cytosine are constant and equals one.</explanation>
+        </question>
+        <question>
+            <text>The two chains of DNA are said to have anti-parallel polarity. This means if one chain has the polarity 5' -> 3', the other has the polarity:</text>
+            <option id="A">5' -> 3'</option>
+            <option id="B">3' -> 5'</option>
+            <option id="C">5' -> 5'</option>
+            <option id="D">3' -> 3'</option>
+            <answer>B</answer>
+            <explanation>The two chains have anti-parallel polarity. It means, if one chain has the polarity 5' ---> 3', the other has 3' ---> 5'.</explanation>
+        </question>
+        <question>
+            <text>In the DNA double helix, the bases of the two strands are paired through hydrogen bonds. How many hydrogen bonds are formed between Adenine and Thymine?</text>
+            <option id="A">One</option>
+            <option id="B">Two</option>
+            <option id="C">Three</option>
+            <option id="D">Four</option>
+            <answer>B</answer>
+            <explanation>Adenine forms two hydrogen bonds with Thymine from opposite strand and vice-versa.</explanation>
+        </question>
+        <question>
+            <text>In the DNA double helix, how many hydrogen bonds pair Guanine with Cytosine?</text>
+            <option id="A">One</option>
+            <option id="B">Two</option>
+            <option id="C">Three</option>
+            <option id="D">Four</option>
+            <answer>C</answer>
+            <explanation>Similarly, Guanine is bonded with Cytosine with three H-bonds.</explanation>
+        </question>
+        <question>
+            <text>In some viruses, the flow of information is in reverse direction, that is, from RNA to DNA. This process is known as:</text>
+            <option id="A">Translation</option>
+            <option id="B">Reverse transcription</option>
+            <option id="C">Replication</option>
+            <option id="D">Mutation</option>
+            <answer>B</answer>
+            <explanation>In some viruses the flow of information is in reverse direction, that is, from RNA to DNA.</explanation>
+        </question>
+        <question>
+            <text>What is the approximate distance between two consecutive base pairs in the DNA double helix?</text>
+            <option id="A">3.4 × 10^-9 m</option>
+            <option id="B">0.34 × 10^-9 m</option>
+            <option id="C">34 × 10^-9 m</option>
+            <option id="D">0.034 × 10^-9 m</option>
+            <answer>B</answer>
+            <explanation>Taken the distance between two consecutive base pairs as 0.34 nm (0.34 × 10^-9 m), if the length of DNA double helix in a typical mammalian cell is calculated (simply by multiplying the total number of bp with distance between two consecutive bp, that is, 6.6 × 10^9 bp × 0.34 × 10^-9 m/bp), it comes out to be approximately 2.2 metres.</explanation>
+        </question>
+        <question>
+            <text>If the total number of base pairs in a typical mammalian cell is 6.6 × 10^9 and the distance between two consecutive base pairs is 0.34 nm, what is the approximate length of the DNA double helix in that cell?</text>
+            <option id="A">2.2 mm</option>
+            <option id="B">2.2 cm</option>
+            <option id="C">2.2 meters</option>
+            <option id="D">2.2 kilometers</option>
+            <answer>C</answer>
+            <explanation>If the length of DNA double helix in a typical mammalian cell is calculated (simply by multiplying the total number of bp with distance between two consecutive bp, that is, 6.6 × 10^9 bp × 0.34 × 10^-9 m/bp), it comes out to be approximately 2.2 metres.</explanation>
+        </question>
+        <question>
+            <text>In prokaryotes like E. coli, which lack a defined nucleus, the DNA is held together with some proteins in a region called the:</text>
+            <option id="A">Nucleolus</option>
+            <option id="B">Nucleoid</option>
+            <option id="C">Chromatin</option>
+            <option id="D">Plasmid</option>
+            <answer>B</answer>
+            <explanation>In prokaryotes, such as, E. coli, though they do not have a defined nucleus, the DNA is not scattered throughout the cell. DNA (being negatively charged) is held with some proteins (that have positive charges) in a region termed as 'nucleoid'.</explanation>
+        </question>
+        <question>
+            <text>When viewed under an electron microscope (EM), what do the nucleosomes in chromatin appear as?</text>
+            <option id="A">Double helix</option>
+            <option id="B">Beads-on-string</option>
+            <option id="C">Solid rods</option>
+            <option id="D">Hollow tubes</option>
+            <answer>B</answer>
+            <explanation>The nucleosomes in chromatin are seen as 'beads-on-string' structure when viewed under electron microscope (EM).</explanation>
+        </question>
+        <question>
+            <text>The beads-on-string structure in chromatin is packaged to form chromatin fibers that are further coiled and condensed at metaphase of cell division to form:</text>
+            <option id="A">Nucleoli</option>
+            <option id="B">Chromosomes</option>
+            <option id="C">Plasmids</option>
+            <option id="D">Centrosomes</option>
+            <answer>B</answer>
+            <explanation>The beads-on-string structure in chromatin is packaged to form chromatin fibers that are further coiled and condensed at metaphase stage of cell division to form chromosomes.</explanation>
+        </question>
+        <question>
+            <text>The packaging of chromatin at higher levels requires an additional set of proteins. What are these proteins collectively referred to as?</text>
+            <option id="A">Histones</option>
+            <option id="B">Non-histone chromosomal (NHC) proteins</option>
+            <option id="C">DNA polymerases</option>
+            <option id="D">Ligases</option>
+            <answer>B</answer>
+            <explanation>The packaging of chromatin at higher level requires additional set of proteins that collectively are referred to as Non-histone chromosomal (NHC) proteins.</explanation>
+        </question>
+        <question>
+            <text>In a typical nucleus, some regions of chromatin are loosely packed (and stains light). What are these regions called?</text>
+            <option id="A">Heterochromatin</option>
+            <option id="B">Euchromatin</option>
+            <option id="C">Nucleosomes</option>
+            <option id="D">Centromeres</option>
+            <answer>B</answer>
+            <explanation>In a typical nucleus, some region of chromatin are loosely packed (and stains light) and are referred to as euchromatin.</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -184,6 +814,276 @@
             <option id="D">Beta-galactosidase</option>
             <answer>C</answer>
             <explanation>Lactose is the substrate for the enzyme beta-galactosidase and it regulates switching on and off of the operon. Hence, it is termed as the inducer.</explanation>
+        </question>
+        <question>
+            <text>In the Hershey-Chase experiment, bacteriophages were grown in media containing either radioactive phosphorus (32P) or radioactive sulfur (35S). What was the conclusion based on the results?</text>
+            <option id="A">Proteins are the genetic material because 35S entered the bacteria.</option>
+            <option id="B">DNA is the genetic material because 32P entered the bacteria.</option>
+            <option id="C">Both DNA and proteins are genetic material.</option>
+            <option id="D">Neither DNA nor proteins are genetic material.</option>
+            <answer>B</answer>
+            <explanation>Bacteria which were infected with viruses that had radioactive DNA (32P) were radioactive, indicating that DNA was the material that passed from the virus to the bacteria. Bacteria that were infected with viruses that had radioactive proteins (35S) were not radioactive.</explanation>
+        </question>
+        <question>
+            <text>Variable Number of Tandem Repeats (VNTRs) are extensively used in:</text>
+            <option id="A">Gene therapy</option>
+            <option id="B">DNA fingerprinting</option>
+            <option id="C">Production of transgenic animals</option>
+            <option id="D">Cloning</option>
+            <answer>B</answer>
+            <explanation>The technique of DNA Fingerprinting was initially developed by Alec Jeffreys. He used a satellite DNA as probe that shows very high degree of polymorphism. It was called as Variable Number of Tandem Repeats (VNTR).</explanation>
+        </question>
+        <question>
+            <text>During transcription in eukaryotes, the primary transcript (hnRNA) undergoes capping. What is added during this process?</text>
+            <option id="A">Poly-A tail at the 3' end</option>
+            <option id="B">Methyl guanosine triphosphate at the 5' end</option>
+            <option id="C">Introns are removed</option>
+            <option id="D">Exons are joined</option>
+            <answer>B</answer>
+            <explanation>In capping, an unusual nucleotide (methyl guanosine triphosphate) is added to the 5'-end of hnRNA. In tailing, adenylate residues (200-300) are added at 3'-end in a template independent manner.</explanation>
+        </question>
+        <question>
+            <text>Griffith conducted a series of experiments with Streptococcus pneumoniae to study the transforming principle. In his experiments, which strain was virulent and caused pneumonia in mice?</text>
+            <option id="A">R strain (Rough)</option>
+            <option id="B">S strain (Smooth)</option>
+            <option id="C">Both R and S strains</option>
+            <option id="D">Neither R nor S strain</option>
+            <answer>B</answer>
+            <explanation>When Streptococcus pneumoniae (pneumococcus) bacteria are grown on a culture plate, some produce smooth shiny colonies (S) while others produce rough colonies (R). This is because the S strain bacteria have a mucous (polysaccharide) coat, while R strain does not. Mice infected with the S strain (virulent) die from pneumonia infection but mice infected with the R strain do not develop pneumonia.</explanation>
+        </question>
+        <question>
+            <text>Who among the following scientists finally proved unequivocally that DNA is the genetic material, using bacteriophages?</text>
+            <option id="A">Avery, MacLeod, and McCarty</option>
+            <option id="B">Hershey and Chase</option>
+            <option id="C">Watson and Crick</option>
+            <option id="D">Meselson and Stahl</option>
+            <answer>B</answer>
+            <explanation>The unequivocal proof that DNA is the genetic material came from the experiments of Alfred Hershey and Martha Chase (1952). They worked with viruses that infect bacteria called bacteriophages.</explanation>
+        </question>
+        <question>
+            <text>In the Hershey-Chase experiment, what isotopes were used to label the viral DNA and the viral protein coat, respectively?</text>
+            <option id="A">32P for DNA and 35S for protein</option>
+            <option id="B">35S for DNA and 32P for protein</option>
+            <option id="C">14C for DNA and 15N for protein</option>
+            <option id="D">15N for DNA and 14C for protein</option>
+            <answer>A</answer>
+            <explanation>They grew some viruses on a medium that contained radioactive phosphorus (32P) and some others on medium that contained radioactive sulfur (35S). Viruses grown in the presence of radioactive phosphorus contained radioactive DNA but not radioactive protein because DNA contains phosphorus but protein does not. Similarly, viruses grown on radioactive sulfur contained radioactive protein but not radioactive DNA because DNA does not contain sulfur.</explanation>
+        </question>
+        <question>
+            <text>In the Meselson and Stahl experiment, E. coli was grown in a medium containing which heavy isotope of nitrogen?</text>
+            <option id="A">14N</option>
+            <option id="B">15N</option>
+            <option id="C">32P</option>
+            <option id="D">35S</option>
+            <answer>B</answer>
+            <explanation>They grew E. coli in a medium containing 15NH4Cl (15N is the heavy isotope of nitrogen) as the only nitrogen source for many generations. The result was that 15N was incorporated into newly synthesised DNA (as well as other nitrogen containing compounds).</explanation>
+        </question>
+        <question>
+            <text>The main enzyme involved in the process of DNA replication is:</text>
+            <option id="A">DNA-dependent RNA polymerase</option>
+            <option id="B">DNA-dependent DNA polymerase</option>
+            <option id="C">RNA-dependent DNA polymerase</option>
+            <option id="D">DNA ligase</option>
+            <answer>B</answer>
+            <explanation>In living cells, such as E. coli, the process of replication requires a set of catalysts (enzymes). The main enzyme is referred to as DNA-dependent DNA polymerase, since it uses a DNA template to catalyse the polymerisation of deoxynucleotides.</explanation>
+        </question>
+        <question>
+            <text>During DNA replication, on one strand (the template with polarity 3'->5'), the replication is continuous. On the other strand (the template with polarity 5'->3'), it is discontinuous. The discontinuously synthesised fragments are later joined by the enzyme:</text>
+            <option id="A">Helicase</option>
+            <option id="B">Primase</option>
+            <option id="C">DNA ligase</option>
+            <option id="D">Topoisomerase</option>
+            <answer>C</answer>
+            <explanation>Consequently, on one strand (the template with polarity 3'->5'), the replication is continuous, while on the other (the template with polarity 5'->3'), it is discontinuous. The discontinuously synthesised fragments are later joined by the enzyme DNA ligase.</explanation>
+        </question>
+        <question>
+            <text>The process of polymerisation of amino acids to form a polypeptide is called:</text>
+            <option id="A">Transcription</option>
+            <option id="B">Translation</option>
+            <option id="C">Replication</option>
+            <option id="D">Transformation</option>
+            <answer>B</answer>
+            <explanation>Translation refers to the process of polymerisation of amino acids to form a polypeptide. The order and sequence of amino acids are defined by the sequence of bases in the mRNA.</explanation>
+        </question>
+        <question>
+            <text>In the lac operon of E. coli, the 'i' gene codes for the:</text>
+            <option id="A">Repressor of the lac operon</option>
+            <option id="B">Beta-galactosidase</option>
+            <option id="C">Permease</option>
+            <option id="D">Transacetylase</option>
+            <answer>A</answer>
+            <explanation>The lac operon consists of one regulatory gene (the i gene - here the term i does not refer to inducer, rather it is derived from the word inhibitor) and three structural genes (z, y, and a). The i gene codes for the repressor of the lac operon.</explanation>
+        </question>
+        <question>
+            <text>What acts as the inducer in the lac operon system?</text>
+            <option id="A">Glucose</option>
+            <option id="B">Lactose or allolactose</option>
+            <option id="C">Galactose</option>
+            <option id="D">Repressor protein</option>
+            <answer>B</answer>
+            <explanation>Lactose is the substrate for the enzyme beta-galactosidase and it regulates switching on and off of the operon. Hence, it is termed as inducer.</explanation>
+        </question>
+        <question>
+            <text>The nucleosome in chromatin is seen as a 'beads-on-string' structure when viewed under electron microscope. The chromatin that is more densely packed and stains dark is called:</text>
+            <option id="A">Euchromatin</option>
+            <option id="B">Heterochromatin</option>
+            <option id="C">Centromere</option>
+            <option id="D">Telomere</option>
+            <answer>B</answer>
+            <explanation>In a typical nucleus, some region of chromatin are loosely packed (and stains light) and are referred to as euchromatin. The chromatin that is more densely packed and stains dark are called as Heterochromatin. Euchromatin is said to be transcriptionally active chromatin, whereas heterochromatin is inactive.</explanation>
+        </question>
+        <question>
+            <text>In Griffith's transforming principle experiment, which strain of Streptococcus pneumoniae caused pneumonia in mice when injected live?</text>
+            <option id="A">The R strain (Rough)</option>
+            <option id="B">The S strain (Smooth)</option>
+            <option id="C">Both R and S strains</option>
+            <option id="D">The heat-killed S strain</option>
+            <answer>B</answer>
+            <explanation>When Streptococcus pneumoniae (pneumococcus) bacteria are grown on a culture plate, some produce smooth shiny colonies (S) while others produce rough colonies (R). Mice infected with the S strain (virulent) die from pneumonia infection but mice infected with the R strain do not develop pneumonia.</explanation>
+        </question>
+        <question>
+            <text>The unequivocal proof that DNA is the genetic material came from the experiments of Hershey and Chase using:</text>
+            <option id="A">Mice and Streptococcus</option>
+            <option id="B">Drosophila melanogaster</option>
+            <option id="C">Bacteriophages and E. coli</option>
+            <option id="D">Neurospora crassa</option>
+            <answer>C</answer>
+            <explanation>The unequivocal proof that DNA is the genetic material came from the experiments of Alfred Hershey and Martha Chase (1952). They worked with viruses that infect bacteria called bacteriophages.</explanation>
+        </question>
+        <question>
+            <text>Bacteriophage lambda has how many base pairs?</text>
+            <option id="A">5386</option>
+            <option id="B">48502</option>
+            <option id="C">4.6 x 10^6</option>
+            <option id="D">3.3 x 10^9</option>
+            <answer>B</answer>
+            <explanation>Bacteriophage lambda has 48502 base pairs (bp).</explanation>
+        </question>
+        <question>
+            <text>Escherichia coli has a DNA length of:</text>
+            <option id="A">4.6 x 10^6 bp</option>
+            <option id="B">3.3 x 10^9 bp</option>
+            <option id="C">48502 bp</option>
+            <option id="D">5386 bp</option>
+            <answer>A</answer>
+            <explanation>Escherichia coli has 4.6 x 10^6 bp.</explanation>
+        </question>
+        <question>
+            <text>What is the haploid content of human DNA?</text>
+            <option id="A">4.6 x 10^6 bp</option>
+            <option id="B">3.3 x 10^9 bp</option>
+            <option id="C">6.6 x 10^9 bp</option>
+            <option id="D">48502 bp</option>
+            <answer>B</answer>
+            <explanation>Haploid content of human DNA is 3.3 x 10^9 bp.</explanation>
+        </question>
+        <question>
+            <text>At one end of a polynucleotide chain, the sugar has a free phosphate moiety attached to which carbon? This end is called the 5'-end.</text>
+            <option id="A">1' carbon</option>
+            <option id="B">2' carbon</option>
+            <option id="C">3' carbon</option>
+            <option id="D">5' carbon</option>
+            <answer>D</answer>
+            <explanation>A polymer thus formed has at one end a free phosphate moiety at 5' -end of sugar, which is referred to as 5'-end of polynucleotide chain.</explanation>
+        </question>
+        <question>
+            <text>At the other end of the polynucleotide chain, the sugar has a free OH group attached to which carbon? This end is called the 3'-end.</text>
+            <option id="A">1' carbon</option>
+            <option id="B">2' carbon</option>
+            <option id="C">3' carbon</option>
+            <option id="D">5' carbon</option>
+            <answer>C</answer>
+            <explanation>Similarly, at the other end of the polymer the sugar has a free OH of 3'C group which is referred to as 3' -end of the polynucleotide chain.</explanation>
+        </question>
+        <question>
+            <text>In RNA, every nucleotide residue has an additional -OH group present at which position in the ribose?</text>
+            <option id="A">1'-position</option>
+            <option id="B">2'-position</option>
+            <option id="C">3'-position</option>
+            <option id="D">5'-position</option>
+            <answer>B</answer>
+            <explanation>In RNA, every nucleotide residue has an additional –OH group present at 2' -position in the ribose. Also, in RNA the uracil is found at the place of thymine.</explanation>
+        </question>
+        <question>
+            <text>Because a purine always comes opposite to a pyrimidine in the DNA double helix, this generates approximately uniform ________ between the two strands.</text>
+            <option id="A">Charge</option>
+            <option id="B">Distance</option>
+            <option id="C">Polarity</option>
+            <option id="D">Length</option>
+            <answer>B</answer>
+            <explanation>As a result, always a purine comes opposite to a pyrimidine. This generates approximately uniform distance between the two strands of the helix.</explanation>
+        </question>
+        <question>
+            <text>The two chains of the DNA double helix are coiled in which fashion?</text>
+            <option id="A">Left-handed fashion</option>
+            <option id="B">Right-handed fashion</option>
+            <option id="C">Random fashion</option>
+            <option id="D">Zig-zag fashion</option>
+            <answer>B</answer>
+            <explanation>The two chains are coiled in a right-handed fashion.</explanation>
+        </question>
+        <question>
+            <text>What is the pitch of the DNA helix, and roughly how many base pairs are in each turn?</text>
+            <option id="A">3.4 nm pitch, 10 base pairs per turn</option>
+            <option id="B">34 nm pitch, 10 base pairs per turn</option>
+            <option id="C">0.34 nm pitch, 100 base pairs per turn</option>
+            <option id="D">3.4 nm pitch, 20 base pairs per turn</option>
+            <answer>A</answer>
+            <explanation>The pitch of the helix is 3.4 nm... and there are roughly 10 bp in each turn. Consequently, the distance between a bp in a helix is approximately 0.34 nm.</explanation>
+        </question>
+        <question>
+            <text>In eukaryotes, DNA is packaged with a set of positively charged, basic proteins. What are these proteins called?</text>
+            <option id="A">Acidic proteins</option>
+            <option id="B">Polymerases</option>
+            <option id="C">Histones</option>
+            <option id="D">Ribosomes</option>
+            <answer>C</answer>
+            <explanation>In eukaryotes, this organisation is much more complex. There is a set of positively charged, basic proteins called histones.</explanation>
+        </question>
+        <question>
+            <text>Histones are rich in which basic amino acid residues?</text>
+            <option id="A">Glutamate and aspartate</option>
+            <option id="B">Lysines and arginines</option>
+            <option id="C">Serine and threonine</option>
+            <option id="D">Leucine and valine</option>
+            <answer>B</answer>
+            <explanation>A protein acquires charge depending upon the abundance of amino acids residues with charged side chains. Histones are rich in the basic amino acid residues lysines and arginines.</explanation>
+        </question>
+        <question>
+            <text>Histones are organized to form a unit of eight molecules. What is this unit called?</text>
+            <option id="A">Histone monomer</option>
+            <option id="B">Histone dimer</option>
+            <option id="C">Histone octamer</option>
+            <option id="D">Nucleosome</option>
+            <answer>C</answer>
+            <explanation>Histones are organised to form a unit of eight molecules called histone octamer.</explanation>
+        </question>
+        <question>
+            <text>The chromatin that is more densely packed and stains dark is called:</text>
+            <option id="A">Euchromatin</option>
+            <option id="B">Heterochromatin</option>
+            <option id="C">Nucleosome</option>
+            <option id="D">Chromatid</option>
+            <answer>B</answer>
+            <explanation>The chromatin that is more densely packed and stains dark are called as Heterochromatin.</explanation>
+        </question>
+        <question>
+            <text>Transcriptionally, which type of chromatin is considered active?</text>
+            <option id="A">Heterochromatin</option>
+            <option id="B">Euchromatin</option>
+            <option id="C">Both are equally active</option>
+            <option id="D">Neither is active</option>
+            <answer>B</answer>
+            <explanation>Euchromatin is said to be transcriptionally active chromatin, whereas heterochromatin is inactive.</explanation>
+        </question>
+        <question>
+            <text>Prior to the work of Avery, MacLeod, and McCarty (1933-44), what biological molecule was thought to be the genetic material?</text>
+            <option id="A">DNA</option>
+            <option id="B">RNA</option>
+            <option id="C">Protein</option>
+            <option id="D">Carbohydrates</option>
+            <answer>C</answer>
+            <explanation>Prior to the work of Oswald Avery, Colin MacLeod and Maclyn McCarty (1933-44), the genetic material was thought to be a protein.</explanation>
         </question>
     </hard>
 </chapter>

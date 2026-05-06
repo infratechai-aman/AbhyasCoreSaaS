@@ -55,6 +55,276 @@
             <answer>B</answer>
             <explanation>Recombinant DNA technology is the technique of altering the chemistry of genetic material (DNA and RNA), to introduce these into host organisms and thus change the phenotype of the host organism.</explanation>
         </question>
+        <question>
+            <text>Which of the following processes involves passing an electric current through an agarose gel to separate DNA fragments based on their size?</text>
+            <option id="A">Polymerase Chain Reaction</option>
+            <option id="B">Gel electrophoresis</option>
+            <option id="C">DNA sequencing</option>
+            <option id="D">Southern blotting</option>
+            <answer>B</answer>
+            <explanation>The cutting of DNA by restriction endonucleases results in the fragments of DNA. These fragments can be separated by a technique known as gel electrophoresis. Since DNA fragments are negatively charged molecules they can be separated by forcing them to move towards the anode under an electric field through a medium/matrix.</explanation>
+        </question>
+        <question>
+            <text>The DNA fragments separated on an agarose gel can be visualised after staining with which of the following compounds?</text>
+            <option id="A">Methylene blue</option>
+            <option id="B">Ethidium bromide</option>
+            <option id="C">Acetocarmine</option>
+            <option id="D">Safranin</option>
+            <answer>B</answer>
+            <explanation>The separated DNA fragments can be visualised only after staining the DNA with a compound known as ethidium bromide followed by exposure to UV radiation.</explanation>
+        </question>
+        <question>
+            <text>The enzyme DNA ligase is often referred to as:</text>
+            <option id="A">Molecular scissors</option>
+            <option id="B">Molecular glue</option>
+            <option id="C">Molecular motor</option>
+            <option id="D">Molecular chaperone</option>
+            <answer>B</answer>
+            <explanation>DNA ligase acts as "molecular glue." It facilitates the joining of DNA strands together by catalyzing the formation of a phosphodiester bond.</explanation>
+        </question>
+        <question>
+            <text>The sequence of DNA where replication initiates is known as:</text>
+            <option id="A">Promoter</option>
+            <option id="B">Origin of replication (ori)</option>
+            <option id="C">Terminator</option>
+            <option id="D">Operator</option>
+            <answer>B</answer>
+            <explanation>In a chromosome there is a specific DNA sequence called the origin of replication, which is responsible for initiating replication. Any piece of DNA when linked to this sequence can be made to replicate within the host cells.</explanation>
+        </question>
+        <question>
+            <text>Which enzymes are responsible for restricting the growth of bacteriophages in E. coli by cleaving their DNA?</text>
+            <option id="A">DNA ligases</option>
+            <option id="B">Restriction endonucleases</option>
+            <option id="C">DNA polymerases</option>
+            <option id="D">Reverse transcriptases</option>
+            <answer>B</answer>
+            <explanation>In the year 1963, the two enzymes responsible for restricting the growth of bacteriophage in Escherichia coli were isolated. One of these added methyl groups to DNA, while the other cut DNA. The latter was called restriction endonuclease.</explanation>
+        </question>
+        <question>
+            <text>Restriction endonucleases cut the DNA strand a little away from the centre of the palindrome sites, leaving single-stranded overhanging stretches. These are called:</text>
+            <option id="A">Blunt ends</option>
+            <option id="B">Sticky ends</option>
+            <option id="C">Flush ends</option>
+            <option id="D">Closed ends</option>
+            <answer>B</answer>
+            <explanation>Restriction enzymes cut the strand of DNA a little away from the centre of the palindrome sites, but between the same two bases on the opposite strands. This leaves single stranded portions at the ends. There are overhanging stretches called sticky ends on each strand.</explanation>
+        </question>
+        <question>
+            <text>Which of the following processes involves the introduction of foreign DNA into a host cell?</text>
+            <option id="A">Transcription</option>
+            <option id="B">Transformation</option>
+            <option id="C">Translation</option>
+            <option id="D">Translocation</option>
+            <answer>B</answer>
+            <explanation>Transformation is a procedure through which a piece of DNA is introduced in a host bacterium. In recombinant DNA technology, this process is essential to ensure the foreign DNA enters the host cell and multiplies.</explanation>
+        </question>
+        <question>
+            <text>What is the primary function of a selectable marker in a cloning vector?</text>
+            <option id="A">It helps in identifying and eliminating non-transformants and selectively permitting the growth of the transformants.</option>
+            <option id="B">It initiates replication in the host cell.</option>
+            <option id="C">It cuts the DNA at specific sites.</option>
+            <option id="D">It links the alien DNA to the vector.</option>
+            <answer>A</answer>
+            <explanation>In addition to 'ori', the vector requires a selectable marker, which helps in identifying and eliminating non-transformants and selectively permitting the growth of the transformants.</explanation>
+        </question>
+        <question>
+            <text>Which gene in the cloning vector pBR322 is often used as a selectable marker?</text>
+            <option id="A">lacZ gene</option>
+            <option id="B">Ampicillin resistance gene (ampR)</option>
+            <option id="C">Tetracycline resistance gene (tetR)</option>
+            <option id="D">Both B and C</option>
+            <answer>D</answer>
+            <explanation>Normally, the genes encoding resistance to antibiotics such as ampicillin, chloramphenicol, tetracycline or kanamycin, etc., are considered useful selectable markers for E. coli. pBR322 contains both ampR and tetR genes.</explanation>
+        </question>
+        <question>
+            <text>The first recombinant DNA was constructed by linking an antibiotic resistance gene with a native plasmid of which bacterium?</text>
+            <option id="A">Escherichia coli</option>
+            <option id="B">Salmonella typhimurium</option>
+            <option id="C">Agrobacterium tumefaciens</option>
+            <option id="D">Bacillus thuringiensis</option>
+            <answer>B</answer>
+            <explanation>The construction of the first recombinant DNA emerged from the possibility of linking a gene encoding antibiotic resistance with a native plasmid of Salmonella typhimurium. Stanley Cohen and Herbert Boyer accomplished this in 1972.</explanation>
+        </question>
+        <question>
+            <text>The cutting of DNA at specific locations became possible with the discovery of:</text>
+            <option id="A">DNA ligases</option>
+            <option id="B">Restriction enzymes</option>
+            <option id="C">DNA polymerases</option>
+            <option id="D">Helicases</option>
+            <answer>B</answer>
+            <explanation>The cutting of DNA at specific locations became possible with the discovery of the so-called 'molecular scissors'- restriction enzymes. The cut piece of DNA was then linked with the plasmid DNA.</explanation>
+        </question>
+        <question>
+            <text>The enzyme responsible for linking the cut piece of alien DNA with the plasmid vector is called:</text>
+            <option id="A">Restriction endonuclease</option>
+            <option id="B">DNA ligase</option>
+            <option id="C">DNA polymerase</option>
+            <option id="D">RNA polymerase</option>
+            <answer>B</answer>
+            <explanation>The linking of antibiotic resistance gene with the plasmid vector became possible with the enzyme DNA ligase, which acts on cut DNA molecules and joins their ends.</explanation>
+        </question>
+        <question>
+            <text>The process of introducing a piece of alien DNA into a host bacterium is called:</text>
+            <option id="A">Transformation</option>
+            <option id="B">Transduction</option>
+            <option id="C">Conjugation</option>
+            <option id="D">Translation</option>
+            <answer>A</answer>
+            <explanation>Transformation is a procedure through which a piece of DNA is introduced in a host bacterium.</explanation>
+        </question>
+        <question>
+            <text>In genetic engineering, the term 'cloning' refers to:</text>
+            <option id="A">Making multiple identical copies of any template DNA</option>
+            <option id="B">Creating a new organism from a single somatic cell</option>
+            <option id="C">Transferring a gene into a plant</option>
+            <option id="D">Extracting DNA from a cell</option>
+            <answer>A</answer>
+            <explanation>The linked alien DNA can now be cloned, which means making multiple identical copies of any template DNA.</explanation>
+        </question>
+        <question>
+            <text>Which enzyme acts as 'molecular glue' to join DNA fragments?</text>
+            <option id="A">DNA polymerase</option>
+            <option id="B">Restriction endonuclease</option>
+            <option id="C">DNA ligase</option>
+            <option id="D">Helicase</option>
+            <answer>C</answer>
+            <explanation>The cut-out 'gene of interest' from the source DNA and the cut vector with space are mixed and ligase is added. This results in the preparation of recombinant DNA. DNA ligases are also called molecular glue.</explanation>
+        </question>
+        <question>
+            <text>The two core techniques that enabled the birth of modern biotechnology are genetic engineering and:</text>
+            <option id="A">Biochemical engineering</option>
+            <option id="B">Bioprocess engineering</option>
+            <option id="C">Tissue culture</option>
+            <option id="D">Cloning</option>
+            <answer>B</answer>
+            <explanation>Among many, the two core techniques that enabled birth of modern biotechnology are : 1. Genetic engineering 2. Bioprocess engineering (Maintenance of sterile (microbial contamination-free) ambience in chemical engineering processes to enable growth of only the desired microbe/eukaryotic cell in large quantities).</explanation>
+        </question>
+        <question>
+            <text>What is the main limitation of traditional hybridization procedures used in plant and animal breeding?</text>
+            <option id="A">They are too slow</option>
+            <option id="B">They only work for a few species</option>
+            <option id="C">They very often lead to inclusion and multiplication of undesirable genes along with the desired genes</option>
+            <option id="D">They require expensive laboratory equipment</option>
+            <answer>C</answer>
+            <explanation>Traditional hybridisation procedures used in plant and animal breeding, very often lead to inclusion and multiplication of undesirable genes along with the desired genes.</explanation>
+        </question>
+        <question>
+            <text>A piece of alien DNA, if introduced into a host organism without being integrated into the host's chromosome, will most likely:</text>
+            <option id="A">Replicate independently of the host</option>
+            <option id="B">Not be able to multiply itself in the progeny cells</option>
+            <option id="C">Destroy the host cell</option>
+            <option id="D">Form a plasmid</option>
+            <answer>B</answer>
+            <explanation>A piece of DNA, which is somehow transferred into an alien organism, most likely, this piece of DNA would not be able to multiply itself in the progeny cells of the organism. But, when it gets integrated into the genome of the recipient, it may multiply and be inherited along with the host DNA.</explanation>
+        </question>
+        <question>
+            <text>What is the main function of 'restriction enzymes' in biotechnology?</text>
+            <option id="A">To join two DNA fragments</option>
+            <option id="B">To cut DNA at specific locations</option>
+            <option id="C">To synthesize DNA from an RNA template</option>
+            <option id="D">To multiply host cells</option>
+            <answer>B</answer>
+            <explanation>The cutting of DNA at specific locations became possible with the discovery of the so-called 'molecular scissors'– restriction enzymes.</explanation>
+        </question>
+        <question>
+            <text>In genetic engineering, what is the role of a 'vector'?</text>
+            <option id="A">To cut the DNA at specific sites</option>
+            <option id="B">To join the DNA fragments</option>
+            <option id="C">To transfer the alien DNA attached to it into the host organism</option>
+            <option id="D">To express the protein product</option>
+            <answer>C</answer>
+            <explanation>The plasmid DNA acts as vectors to transfer the piece of DNA attached to it. A plasmid can be used as vector to deliver an alien piece of DNA into the host organism.</explanation>
+        </question>
+        <question>
+            <text>Which enzyme is responsible for linking the alien DNA with the plasmid vector?</text>
+            <option id="A">Restriction endonuclease</option>
+            <option id="B">DNA ligase</option>
+            <option id="C">DNA polymerase</option>
+            <option id="D">RNA polymerase</option>
+            <answer>B</answer>
+            <explanation>The linking of antibiotic resistance gene with the plasmid vector became possible with the enzyme DNA ligase, which acts on cut DNA molecules and joins their ends.</explanation>
+        </question>
+        <question>
+            <text>How are restriction endonucleases named? What do the first letter and the next two letters of the name represent?</text>
+            <option id="A">First letter represents the scientist's name, next two represent the year</option>
+            <option id="B">First letter comes from the genus, and the next two from the species of the prokaryotic cell from which they were isolated</option>
+            <option id="C">First letter represents the kingdom, next two represent the order</option>
+            <option id="D">First letter is random, next two indicate the sequence they cut</option>
+            <answer>B</answer>
+            <explanation>The convention for naming these enzymes is that the first letter of the name comes from the genus and the second two letters come from the species of the prokaryotic cell from which they were isolated.</explanation>
+        </question>
+        <question>
+            <text>In the restriction enzyme EcoRI, what does the letter 'R' stand for?</text>
+            <option id="A">Ribose</option>
+            <option id="B">Recombinant</option>
+            <option id="C">Name of the strain</option>
+            <option id="D">Roman numeral</option>
+            <answer>C</answer>
+            <explanation>For example, EcoRI comes from Escherichia coli RY 13. In EcoRI, the letter 'R' is derived from the name of strain. Roman numbers following the names indicate the order in which the enzymes were isolated from that strain of bacteria.</explanation>
+        </question>
+        <question>
+            <text>What type of sequence does a restriction endonuclease recognize in DNA?</text>
+            <option id="A">A random sequence of 10 base pairs</option>
+            <option id="B">A specific palindromic nucleotide sequence</option>
+            <option id="C">A sequence of only A and T bases</option>
+            <option id="D">A promoter sequence</option>
+            <answer>B</answer>
+            <explanation>Each restriction endonuclease recognises a specific palindromic nucleotide sequences in the DNA.</explanation>
+        </question>
+        <question>
+            <text>What is the primary purpose of a 'cloning vector' in recombinant DNA technology?</text>
+            <option id="A">To cut the DNA at specific sites</option>
+            <option id="B">To join two pieces of DNA together</option>
+            <option id="C">To act as a vehicle to transfer a piece of DNA into a host cell</option>
+            <option id="D">To amplify the DNA in vitro</option>
+            <answer>C</answer>
+            <explanation>You know that plasmids and bacteriophages have the ability to replicate within bacterial cells independent of the control of chromosomal DNA... The following are the features that are required to facilitate cloning into a vector.</explanation>
+        </question>
+        <question>
+            <text>Which of the following are common examples of cloning vectors used in biotechnology?</text>
+            <option id="A">Restriction enzymes and ligases</option>
+            <option id="B">Plasmids and bacteriophages</option>
+            <option id="C">Ribosomes and mRNA</option>
+            <option id="D">Polymerases and helicases</option>
+            <answer>B</answer>
+            <explanation>You know that plasmids and bacteriophages have the ability to replicate within bacterial cells independent of the control of chromosomal DNA.</explanation>
+        </question>
+        <question>
+            <text>Why are bacteriophages often useful as cloning vectors compared to some plasmids?</text>
+            <option id="A">They do not require a host cell to replicate</option>
+            <option id="B">They have very high copy numbers of their genome within the bacterial cells</option>
+            <option id="C">They are smaller and easier to handle</option>
+            <option id="D">They can only infect human cells</option>
+            <answer>B</answer>
+            <explanation>Bacteriophages because of their high number per cell, have very high copy numbers of their genome within the bacterial cells. Some plasmids may have only one or two copies per cell whereas others may have 15-100 copies per cell.</explanation>
+        </question>
+        <question>
+            <text>If a vector contains two or more recognition sites for the same restriction enzyme, what will be the result of cutting it with that enzyme?</text>
+            <option id="A">It will replicate faster</option>
+            <option id="B">It will generate several fragments, which will complicate gene cloning</option>
+            <option id="C">It will increase the transformation efficiency</option>
+            <option id="D">It will become a super-coiled plasmid</option>
+            <answer>B</answer>
+            <explanation>In order to link the alien DNA, the vector needs to have very few, preferably single, recognition sites for the commonly used restriction enzymes. Presence of more than one recognition sites within the vector will generate several fragments, which will complicate the gene cloning.</explanation>
+        </question>
+        <question>
+            <text>In the plasmid pBR322, the ligation of alien DNA is typically carried out at a restriction site present in one of the two:</text>
+            <option id="A">Origins of replication</option>
+            <option id="B">Antibiotic resistance genes</option>
+            <option id="C">Promoter regions</option>
+            <option id="D">Ribosome binding sites</option>
+            <answer>B</answer>
+            <explanation>The ligation of alien DNA is carried out at a restriction site present in one of the two antibiotic resistance genes. For example, you can ligate a foreign DNA at the BamH I site of tetracycline resistance gene in the vector pBR322.</explanation>
+        </question>
+        <question>
+            <text>If a foreign DNA is ligated at the BamH I site of the tetracycline resistance gene in the vector pBR322, what happens to the recombinant plasmid?</text>
+            <option id="A">It gains resistance to ampicillin</option>
+            <option id="B">It loses resistance to ampicillin</option>
+            <option id="C">It loses tetracycline resistance due to insertional inactivation</option>
+            <option id="D">It becomes toxic to the host cell</option>
+            <answer>C</answer>
+            <explanation>For example, you can ligate a foreign DNA at the BamH I site of tetracycline resistance gene in the vector pBR322. The recombinant plasmids will lose tetracycline resistance due to insertion of foreign DNA but can still be selected out from non-recombinant ones by plating the transformants on tetracycline containing medium.</explanation>
+        </question>
     </easy>
     <medium>
         <question>
@@ -120,6 +390,368 @@
             <answer>A</answer>
             <explanation>After treating the cells with enzymes to remove RNA and proteins, the purified DNA finally precipitates out after the addition of chilled ethanol. This can be seen as collection of fine threads in the suspension.</explanation>
         </question>
+        <question>
+            <text>Which method is used to introduce alien DNA directly into the nucleus of an animal cell?</text>
+            <option id="A">Biolistics</option>
+            <option id="B">Micro-injection</option>
+            <option id="C">Electroporation</option>
+            <option id="D">Heat shock</option>
+            <answer>B</answer>
+            <explanation>In micro-injection, recombinant DNA is directly injected into the nucleus of an animal cell. Biolistics (gene gun) is more suitable for plant cells.</explanation>
+        </question>
+        <question>
+            <text>In the naming convention of restriction enzymes (e.g., EcoRI), what does the first letter represent?</text>
+            <option id="A">Species of the prokaryotic cell</option>
+            <option id="B">Genus of the prokaryotic cell</option>
+            <option id="C">Strain of the bacteria</option>
+            <option id="D">Order in which the enzyme was isolated</option>
+            <answer>B</answer>
+            <explanation>The convention for naming these enzymes is that the first letter of the name comes from the genus and the second two letters come from the species of the prokaryotic cell from which they were isolated, e.g., EcoRI comes from Escherichia coli RY 13.</explanation>
+        </question>
+        <question>
+            <text>A cloning vector must possess a 'selectable marker'. What is its primary function?</text>
+            <option id="A">To initiate DNA replication</option>
+            <option id="B">To provide a site for restriction enzymes to cut</option>
+            <option id="C">To help in identifying and eliminating non-transformants and selectively permitting the growth of the transformants</option>
+            <option id="D">To carry the desired gene into the host cell</option>
+            <answer>C</answer>
+            <explanation>In addition to 'ori', the vector requires a selectable marker, which helps in identifying and eliminating non-transformants and selectively permitting the growth of the transformants. Normally, the genes encoding resistance to antibiotics such as ampicillin, chloramphenicol, tetracycline or kanamycin, etc., are considered useful selectable markers for E. coli.</explanation>
+        </question>
+        <question>
+            <text>During PCR, the process of cooling the reaction mixture to allow primers to bind to the complementary DNA strands is called:</text>
+            <option id="A">Denaturation</option>
+            <option id="B">Annealing</option>
+            <option id="C">Extension</option>
+            <option id="D">Ligation</option>
+            <answer>B</answer>
+            <explanation>PCR proceeds in three steps: (i) Denaturation (heating to separate strands), (ii) Annealing (cooling to allow primers to bind), and (iii) Extension (synthesis of new DNA by Taq polymerase).</explanation>
+        </question>
+        <question>
+            <text>The first restriction endonuclease, whose functioning depended on a specific DNA nucleotide sequence, was:</text>
+            <option id="A">EcoRI</option>
+            <option id="B">HindII</option>
+            <option id="C">BamHI</option>
+            <option id="D">SmaI</option>
+            <answer>B</answer>
+            <explanation>The first restriction endonuclease-Hind II, whose functioning depended on a specific DNA nucleotide sequence was isolated and characterised five years later.</explanation>
+        </question>
+        <question>
+            <text>In recombinant DNA technology, the term 'vector' refers to:</text>
+            <option id="A">The enzyme that cuts the DNA</option>
+            <option id="B">The host cell where the DNA is introduced</option>
+            <option id="C">A plasmid or virus that transfers the alien DNA into a host cell</option>
+            <option id="D">The probe used to identify the desired gene</option>
+            <answer>C</answer>
+            <explanation>A plasmid can be used as vector to deliver an alien piece of DNA into the host organism. It acts as a vehicle to carry the recombinant DNA into the host cell.</explanation>
+        </question>
+        <question>
+            <text>Which step of PCR involves the heating of the target DNA at a high temperature (usually around 94°C) to separate the two strands?</text>
+            <option id="A">Denaturation</option>
+            <option id="B">Annealing</option>
+            <option id="C">Extension</option>
+            <option id="D">Ligation</option>
+            <answer>A</answer>
+            <explanation>Denaturation is the first step of PCR, involving heating the target DNA at a high temperature (around 94°C) to separate the two strands, making them accessible for primer binding.</explanation>
+        </question>
+        <question>
+            <text>The thermostable DNA polymerase used in PCR is isolated from which organism?</text>
+            <option id="A">Escherichia coli</option>
+            <option id="B">Agrobacterium tumefaciens</option>
+            <option id="C">Thermus aquaticus</option>
+            <option id="D">Bacillus thuringiensis</option>
+            <answer>C</answer>
+            <explanation>The process of replication of DNA is repeated many times in PCR. Such repeated amplification is achieved by the use of a thermostable DNA polymerase (isolated from a bacterium, Thermus aquaticus), which remains active during the high temperature induced denaturation of double stranded DNA.</explanation>
+        </question>
+        <question>
+            <text>During insertional inactivation, the presence of an insert within the coding sequence of the beta-galactosidase gene results in colonies of what color when grown on a chromogenic substrate?</text>
+            <option id="A">Blue</option>
+            <option id="B">White (colorless)</option>
+            <option id="C">Red</option>
+            <option id="D">Green</option>
+            <answer>B</answer>
+            <explanation>A recombinant DNA is inserted within the coding sequence of an enzyme, beta-galactosidase. This results into inactivation of the gene for synthesis of this enzyme, which is referred to as insertional inactivation. The presence of a chromogenic substrate gives blue coloured colonies if the plasmid in the bacteria does not have an insert. Presence of insert results into insertional inactivation of the beta-galactosidase gene and the colonies do not produce any colour, these are identified as recombinant colonies.</explanation>
+        </question>
+        <question>
+            <text>Which bacterium is often referred to as a "natural genetic engineer" of plants because of its ability to transfer T-DNA into plant cells?</text>
+            <option id="A">Bacillus thuringiensis</option>
+            <option id="B">Agrobacterium tumefaciens</option>
+            <option id="C">Escherichia coli</option>
+            <option id="D">Thermus aquaticus</option>
+            <answer>B</answer>
+            <explanation>Agrobacterium tumefaciens, a pathogen of several dicot plants is able to deliver a piece of DNA known as 'T-DNA' to transform normal plant cells into a tumor. The tumor inducing (Ti) plasmid of Agrobacterium tumefaciens has now been modified into a cloning vector, acting as a natural genetic engineer.</explanation>
+        </question>
+        <question>
+            <text>In animal cells, which type of virus is commonly disarmed and used as a vector to deliver desirable genes into the host cells?</text>
+            <option id="A">Bacteriophage</option>
+            <option id="B">Retrovirus</option>
+            <option id="C">Adenovirus</option>
+            <option id="D">Rhinovirus</option>
+            <answer>B</answer>
+            <explanation>Similarly, retroviruses in animals have the ability to transform normal cells into cancerous cells. A better understanding of the art of delivering genes by pathogens in their eukaryotic hosts has generated knowledge to transform these tools of pathogens into useful vectors for delivering genes of interest to humans. Retroviruses have been disarmed and are now used to deliver desirable genes into animal cells.</explanation>
+        </question>
+        <question>
+            <text>Micro-injection is a method used to introduce foreign DNA into host cells. It is most commonly used for which type of cells?</text>
+            <option id="A">Bacterial cells</option>
+            <option id="B">Plant cells</option>
+            <option id="C">Animal cells</option>
+            <option id="D">Fungal cells</option>
+            <answer>C</answer>
+            <explanation>In a method known as micro-injection, recombinant DNA is directly injected into the nucleus of an animal cell.</explanation>
+        </question>
+        <question>
+            <text>In 1963, two enzymes responsible for restricting the growth of bacteriophage in E. coli were isolated. One of these added methyl groups to DNA, while the other:</text>
+            <option id="A">Synthesized new DNA strands</option>
+            <option id="B">Cut DNA</option>
+            <option id="C">Joined DNA fragments</option>
+            <option id="D">Removed RNA primers</option>
+            <answer>B</answer>
+            <explanation>In the year 1963, the two enzymes responsible for restricting the growth of bacteriophage in Escherichia coli were isolated. One of these added methyl groups to DNA, while the other cut DNA. The latter was called restriction endonuclease.</explanation>
+        </question>
+        <question>
+            <text>The first restriction endonuclease whose functioning depended on a specific DNA nucleotide sequence was:</text>
+            <option id="A">EcoRI</option>
+            <option id="B">BamHI</option>
+            <option id="C">Hind II</option>
+            <option id="D">SalI</option>
+            <answer>C</answer>
+            <explanation>The first restriction endonuclease-Hind II, whose functioning depended on a specific DNA nucleotide sequence was isolated and characterised five years later.</explanation>
+        </question>
+        <question>
+            <text>Restriction endonucleases function by inspecting the length of a DNA sequence and then binding to the DNA and cutting each of the two strands of the double helix at specific points in their:</text>
+            <option id="A">Sugar-phosphate backbones</option>
+            <option id="B">Hydrogen bonds</option>
+            <option id="C">Nitrogenous bases</option>
+            <option id="D">Phosphodiester bonds</option>
+            <answer>A</answer>
+            <explanation>Each restriction endonuclease functions by 'inspecting' the length of a DNA sequence. Once it finds its specific recognition sequence, it will bind to the DNA and cut each of the two strands of the double helix at specific points in their sugar-phosphate backbones.</explanation>
+        </question>
+        <question>
+            <text>EcoRI cuts the DNA between bases G and A only when the sequence ______ is present in the DNA.</text>
+            <option id="A">GAATTC</option>
+            <option id="B">GATATC</option>
+            <option id="C">CTTAAG</option>
+            <option id="D">CGTACG</option>
+            <answer>A</answer>
+            <explanation>The restriction enzyme EcoRI recognises the palindromic sequence GAATTC in DNA. It cuts the DNA between bases G and A only when the sequence GAATTC is present in the DNA.</explanation>
+        </question>
+        <question>
+            <text>Plasmids are extra-chromosomal, self-replicating, usually circular, double-stranded DNA molecules found naturally in:</text>
+            <option id="A">Viruses</option>
+            <option id="B">Bacteria</option>
+            <option id="C">Plant cells</option>
+            <option id="D">Animal cells</option>
+            <answer>B</answer>
+            <explanation>Plasmids are autonomously replicating circular extra-chromosomal DNA found in bacteria.</explanation>
+        </question>
+        <question>
+            <text>Which feature of a cloning vector is responsible for controlling the copy number of the linked DNA?</text>
+            <option id="A">Selectable marker</option>
+            <option id="B">Origin of replication (ori)</option>
+            <option id="C">Cloning site</option>
+            <option id="D">Promoter region</option>
+            <answer>B</answer>
+            <explanation>Origin of replication (ori) is a sequence from where replication starts and any piece of DNA when linked to this sequence can be made to replicate within the host cells. This sequence is also responsible for controlling the copy number of the linked DNA.</explanation>
+        </question>
+        <question>
+            <text>In the vector pBR322, the genes 'ampR' and 'tetR' act as:</text>
+            <option id="A">Origins of replication</option>
+            <option id="B">Cloning sites</option>
+            <option id="C">Selectable markers</option>
+            <option id="D">Promoters</option>
+            <answer>C</answer>
+            <explanation>Normally, the genes encoding resistance to antibiotics such as ampicillin, chloramphenicol, tetracycline or kanamycin, etc., are considered useful selectable markers for E. coli.</explanation>
+        </question>
+        <question>
+            <text>A technique to directly inject recombinant DNA into the nucleus of an animal cell is called:</text>
+            <option id="A">Biolistics</option>
+            <option id="B">Micro-injection</option>
+            <option id="C">Electroporation</option>
+            <option id="D">Gene gun</option>
+            <answer>B</answer>
+            <explanation>In a method known as micro-injection, recombinant DNA is directly injected into the nucleus of an animal cell.</explanation>
+        </question>
+        <question>
+            <text>The specific DNA sequence responsible for initiating replication in a chromosome is called the:</text>
+            <option id="A">Promoter sequence</option>
+            <option id="B">Terminator sequence</option>
+            <option id="C">Origin of replication</option>
+            <option id="D">Restriction site</option>
+            <answer>C</answer>
+            <explanation>This is because the alien piece of DNA has become part of a chromosome, which has the ability to replicate. In a chromosome there is a specific DNA sequence called the origin of replication, which is responsible for initiating replication.</explanation>
+        </question>
+        <question>
+            <text>The first recombinant DNA was constructed by Stanley Cohen and Herbert Boyer in the year:</text>
+            <option id="A">1963</option>
+            <option id="B">1972</option>
+            <option id="C">1983</option>
+            <option id="D">1990</option>
+            <answer>B</answer>
+            <explanation>The construction of the first recombinant DNA emerged from the possibility of linking a gene encoding antibiotic resistance with a native plasmid of Salmonella typhimurium. Stanley Cohen and Herbert Boyer accomplished this in 1972 by isolating the antibiotic resistance gene by cutting out a piece of DNA from a plasmid.</explanation>
+        </question>
+        <question>
+            <text>The cutting of DNA at specific locations became possible with the discovery of the so-called 'molecular scissors' known as:</text>
+            <option id="A">DNA ligases</option>
+            <option id="B">DNA polymerases</option>
+            <option id="C">Restriction enzymes</option>
+            <option id="D">Helicases</option>
+            <answer>C</answer>
+            <explanation>The cutting of DNA at specific locations became possible with the discovery of the so-called 'molecular scissors'– restriction enzymes.</explanation>
+        </question>
+        <question>
+            <text>Which organism was the source of the native plasmid used by Cohen and Boyer to construct the first recombinant DNA?</text>
+            <option id="A">Escherichia coli</option>
+            <option id="B">Salmonella typhimurium</option>
+            <option id="C">Bacillus thuringiensis</option>
+            <option id="D">Agrobacterium tumefaciens</option>
+            <answer>B</answer>
+            <explanation>The construction of the first recombinant DNA emerged from the possibility of linking a gene encoding antibiotic resistance with a native plasmid of Salmonella typhimurium.</explanation>
+        </question>
+        <question>
+            <text>The process of introducing a recombinant DNA into a host bacterium like E. coli is generally followed by the replication of the recombinant DNA. This multiplication is carried out by the host's:</text>
+            <option id="A">RNA polymerase</option>
+            <option id="B">DNA polymerase enzyme</option>
+            <option id="C">DNA ligase</option>
+            <option id="D">Restriction enzyme</option>
+            <answer>B</answer>
+            <explanation>When this DNA is transferred into Escherichia coli, a bacterium closely related to Salmonella, it could replicate using the new host's DNA polymerase enzyme and make multiple copies.</explanation>
+        </question>
+        <question>
+            <text>The ability to multiply copies of antibiotic resistance gene in E. coli was called:</text>
+            <option id="A">Translation</option>
+            <option id="B">Transcription</option>
+            <option id="C">Cloning</option>
+            <option id="D">Transformation</option>
+            <answer>C</answer>
+            <explanation>The ability to multiply copies of antibiotic resistance gene in E. coli was called cloning of antibiotic resistance gene in E. coli.</explanation>
+        </question>
+        <question>
+            <text>There are three basic steps in genetically modifying an organism. Which of the following is NOT one of them?</text>
+            <option id="A">Identification of DNA with desirable genes</option>
+            <option id="B">Introduction of the identified DNA into the host</option>
+            <option id="C">Maintenance of introduced DNA in the host and transfer of the DNA to its progeny</option>
+            <option id="D">Purification of the product using downstream processing</option>
+            <answer>D</answer>
+            <explanation>There are three basic steps in genetically modifying an organism — (i) identification of DNA with desirable genes; (ii) introduction of the identified DNA into the host; (iii) maintenance of introduced DNA in the host and transfer of the DNA to its progeny. Downstream processing is a part of bioprocessing, not the genetic modification steps.</explanation>
+        </question>
+        <question>
+            <text>Restriction enzymes belong to a larger class of enzymes called:</text>
+            <option id="A">Ligases</option>
+            <option id="B">Polymerases</option>
+            <option id="C">Nucleases</option>
+            <option id="D">Helicases</option>
+            <answer>C</answer>
+            <explanation>Restriction enzymes belong to a larger class of enzymes called nucleases.</explanation>
+        </question>
+        <question>
+            <text>What is a palindromic nucleotide sequence in DNA?</text>
+            <option id="A">A sequence that reads the same backward and forward on the same strand</option>
+            <option id="B">A sequence of base pairs that reads the same on the two strands when orientation of reading is kept the same</option>
+            <option id="C">A sequence that contains equal numbers of purines and pyrimidines</option>
+            <option id="D">A sequence that has no complementary strand</option>
+            <answer>B</answer>
+            <explanation>The palindrome in DNA is a sequence of base pairs that reads same on the two strands when orientation of reading is kept the same. For example, the following sequences reads the same on the two strands in 5' ---> 3' direction. This is also true if read in the 3' ---> 5' direction.
+            5' —— GAATTC —— 3'
+            3' —— CTTAAG —— 5'</explanation>
+        </question>
+        <question>
+            <text>Restriction enzymes cut the strand of DNA a little away from the centre of the palindrome sites, but between the same two bases on the opposite strands. This leaves single-stranded portions at the ends called:</text>
+            <option id="A">Blunt ends</option>
+            <option id="B">Sticky ends</option>
+            <option id="C">Primers</option>
+            <option id="D">Replicons</option>
+            <answer>B</answer>
+            <explanation>Restriction enzymes cut the strand of DNA a little away from the centre of the palindrome sites, but between the same two bases on the opposite strands. This leaves single stranded portions at the ends. There are overhanging stretches called sticky ends on each strand.</explanation>
+        </question>
+        <question>
+            <text>Why are the overhanging single-stranded ends of DNA cut by restriction enzymes called "sticky" ends?</text>
+            <option id="A">Because they contain a glue-like protein</option>
+            <option id="B">Because they form hydrogen bonds with their complementary cut counterparts</option>
+            <option id="C">Because they attach to the cell membrane</option>
+            <option id="D">Because they attract DNA ligase</option>
+            <answer>B</answer>
+            <explanation>These are named so because they form hydrogen bonds with their complementary cut counterparts. This stickiness of the ends facilitates the action of the enzyme DNA ligase.</explanation>
+        </question>
+        <question>
+            <text>When a vector DNA and the source DNA are cut with the SAME restriction enzyme, what is the result?</text>
+            <option id="A">They cannot be joined together</option>
+            <option id="B">The resulting DNA fragments have the same kind of 'sticky-ends' and can be joined together</option>
+            <option id="C">One piece will have sticky ends and the other will have blunt ends</option>
+            <option id="D">They will repel each other</option>
+            <answer>B</answer>
+            <explanation>When cut by the same restriction enzyme, the resultant DNA fragments have the same kind of 'sticky-ends' and, these can be joined together (end-to-end) using DNA ligases.</explanation>
+        </question>
+        <question>
+            <text>To facilitate cloning into a vector, certain features are required. What is the 'Origin of replication' (ori)?</text>
+            <option id="A">The site where the restriction enzyme cuts</option>
+            <option id="B">The gene that confers antibiotic resistance</option>
+            <option id="C">A sequence from where replication starts, and any piece of DNA linked to it can be made to replicate within the host cells</option>
+            <option id="D">The promoter region for gene expression</option>
+            <answer>C</answer>
+            <explanation>Origin of replication (ori): This is a sequence from where replication starts and any piece of DNA when linked to this sequence can be made to replicate within the host cells.</explanation>
+        </question>
+        <question>
+            <text>Besides initiating replication, what else does the 'Origin of replication' (ori) control in the host cell?</text>
+            <option id="A">The type of restriction enzymes produced</option>
+            <option id="B">The copy number of the linked DNA</option>
+            <option id="C">The size of the host cell</option>
+            <option id="D">The rate of translation</option>
+            <answer>B</answer>
+            <explanation>This sequence is also responsible for controlling the copy number of the linked DNA. So, if one wants to recover many copies of the target DNA it should be cloned in a vector whose origin support high copy number.</explanation>
+        </question>
+        <question>
+            <text>What is the function of a 'Selectable marker' in a cloning vector?</text>
+            <option id="A">To start replication</option>
+            <option id="B">To cut the DNA at a specific site</option>
+            <option id="C">To help in identifying and eliminating non-transformants and selectively permitting the growth of the transformants</option>
+            <option id="D">To bind to the target protein</option>
+            <answer>C</answer>
+            <explanation>Selectable marker: In addition to 'ori', the vector requires a selectable marker, which helps in identifying and eliminating non-transformants and selectively permitting the growth of the transformants.</explanation>
+        </question>
+        <question>
+            <text>What does the term 'transformation' refer to in biotechnology?</text>
+            <option id="A">The process by which a bacterium turns into a virus</option>
+            <option id="B">A procedure through which a piece of DNA is introduced in a host bacterium</option>
+            <option id="C">The translation of mRNA into a protein</option>
+            <option id="D">The mutation of a gene</option>
+            <answer>B</answer>
+            <explanation>Transformation is a procedure through which a piece of DNA is introduced in a host bacterium (you will study the process in subsequent section).</explanation>
+        </question>
+        <question>
+            <text>When distinguishing recombinants from non-recombinants using pBR322 (foreign DNA at BamHI site), transformants growing on ampicillin-containing medium are transferred to a medium containing tetracycline. What will the recombinants do?</text>
+            <option id="A">Grow on both ampicillin and tetracycline</option>
+            <option id="B">Grow on ampicillin but not on tetracycline</option>
+            <option id="C">Die on ampicillin but grow on tetracycline</option>
+            <option id="D">Die on both media</option>
+            <answer>B</answer>
+            <explanation>The transformants growing on ampicillin containing medium are then transferred on a medium containing tetracycline. The recombinants will grow in ampicillin containing medium but not on that containing tetracycline.</explanation>
+        </question>
+        <question>
+            <text>Selection of recombinants due to inactivation of antibiotics is a cumbersome procedure. Therefore, alternative selectable markers have been developed based on their ability to produce colour in the presence of a:</text>
+            <option id="A">Chromogenic substrate</option>
+            <option id="B">Radioactive probe</option>
+            <option id="C">Fluorescent dye</option>
+            <option id="D">Heavy metal</option>
+            <answer>A</answer>
+            <explanation>Selection of recombinants due to inactivation of antibiotics is a cumbersome procedure because it requires simultaneous plating on two plates having different antibiotics. Therefore, alternative selectable markers have been developed which differentiate recombinants from non-recombinants on the basis of their ability to produce colour in the presence of a chromogenic substrate.</explanation>
+        </question>
+        <question>
+            <text>In the chromogenic selection method, the insertion of DNA into the coding sequence of the beta-galactosidase gene results into insertional inactivation. What colour do colonies with the inserted DNA (recombinants) produce on the chromogenic substrate?</text>
+            <option id="A">Blue</option>
+            <option id="B">Red</option>
+            <option id="C">No colour (white)</option>
+            <option id="D">Yellow</option>
+            <answer>C</answer>
+            <explanation>In this, a recombinant DNA is inserted within the coding sequence of an enzyme, beta-galactosidase. This results into inactivation of the gene for synthesis of this enzyme, which is referred to as insertional inactivation. The presence of a chromogenic substrate gives blue coloured colonies if the plasmid in the bacteria does not have an insert. Presence of insert results into insertional inactivation of the beta-galactosidase gene and the colonies do not produce any colour, these are identified as recombinant colonies.</explanation>
+        </question>
+        <question>
+            <text>Agrobacterium tumefaciens is a pathogen of several dicot plants. What does it deliver into the plant cells to transform them into tumor cells?</text>
+            <option id="A">A virus</option>
+            <option id="B">A piece of DNA known as 'T-DNA'</option>
+            <option id="C">An RNA molecule</option>
+            <option id="D">A toxic protein</option>
+            <answer>B</answer>
+            <explanation>Agrobacterium tumefaciens, a pathogen of several dicot plants is able to deliver a piece of DNA known as 'T-DNA' to transform normal plant cells into a tumor...</explanation>
+        </question>
     </medium>
     <hard>
         <question>
@@ -184,6 +816,276 @@
             <option id="D">Stopping the agitator system completely</option>
             <answer>B</answer>
             <explanation>In a continuous culture system, the used medium is drained out from one side while fresh medium is added from the other to maintain the cells in their physiologically most active log/exponential phase. This type of culturing method produces a larger biomass.</explanation>
+        </question>
+        <question>
+            <text>Which of the following best describes the 'insertional inactivation' technique used for selecting recombinants?</text>
+            <option id="A">Using two antibiotic resistance genes sequentially.</option>
+            <option id="B">Inserting a recombinant DNA within the coding sequence of an enzyme, which inactivates the enzyme.</option>
+            <option id="C">Killing non-recombinants using heat shock.</option>
+            <option id="D">Using radioactive probes to destroy non-recombinant DNA.</option>
+            <answer>B</answer>
+            <explanation>Alternative selectable markers have been developed which differentiate recombinants from non-recombinants on the basis of their ability to produce colour in the presence of a chromogenic substrate. Here, a recombinant DNA is inserted within the coding sequence of an enzyme, beta-galactosidase. This results into inactivation of the enzyme, which is referred to as insertional inactivation. The presence of a chromogenic substrate gives blue coloured colonies if the plasmid in the bacteria does not have an insert. Presence of insert results into insertional inactivation of the beta-galactosidase and the colonies do not produce any colour, these are identified as recombinant colonies.</explanation>
+        </question>
+        <question>
+            <text>The first recombinant DNA was constructed by linking an antibiotic resistance gene with the native plasmid of:</text>
+            <option id="A">Escherichia coli</option>
+            <option id="B">Salmonella typhimurium</option>
+            <option id="C">Agrobacterium tumefaciens</option>
+            <option id="D">Thermus aquaticus</option>
+            <answer>B</answer>
+            <explanation>The construction of the first recombinant DNA emerged from the possibility of linking a gene encoding antibiotic resistance with a native plasmid (autonomously replicating circular extra-chromosomal DNA) of Salmonella typhimurium by Stanley Cohen and Herbert Boyer in 1972.</explanation>
+        </question>
+        <question>
+            <text>Agrobacterium tumefaciens is frequently used in plant genetics because it:</text>
+            <option id="A">Produces Bt toxin</option>
+            <option id="B">Can deliver a piece of DNA known as 'T-DNA' to transform normal plant cells into a tumor and direct these tumor cells to produce the chemicals required by the pathogen</option>
+            <option id="C">Fixes atmospheric nitrogen rapidly</option>
+            <option id="D">Synthesizes large amounts of restriction enzymes</option>
+            <answer>B</answer>
+            <explanation>Agrobacterium tumefaciens, a pathogen of several dicot plants is able to deliver a piece of DNA known as 'T-DNA' to transform normal plant cells into a tumor and direct these tumor cells to produce the chemicals required by the pathogen. The tumor inducing (Ti) plasmid of Agrobacterium tumefaciens has now been modified into a cloning vector which is no more pathogenic to the plants but is still able to use the mechanisms to deliver genes of our interest into a variety of plants.</explanation>
+        </question>
+        <question>
+            <text>If a piece of alien DNA is inserted at the BamHI site of the pBR322 vector, what will happen to the recombinant plasmid?</text>
+            <option id="A">It will lose resistance to ampicillin.</option>
+            <option id="B">It will lose resistance to tetracycline.</option>
+            <option id="C">It will lose the origin of replication.</option>
+            <option id="D">It will become highly virulent.</option>
+            <answer>B</answer>
+            <explanation>You can ligate a foreign DNA at the BamH I site of tetracycline resistance gene in the vector pBR322. The recombinant plasmids will lose tetracycline resistance due to insertion of foreign DNA but can still be selected out from non-recombinant ones by plating the transformants on tetracycline containing medium.</explanation>
+        </question>
+        <question>
+            <text>Which of the following is a method used to make host cells "competent" to take up plasmid DNA?</text>
+            <option id="A">Treating them with a specific concentration of a divalent cation, such as calcium</option>
+            <option id="B">Exposing them to UV radiation</option>
+            <option id="C">Treating them with restriction enzymes</option>
+            <option id="D">Heating them to boiling point</option>
+            <answer>A</answer>
+            <explanation>In order to force bacteria to take up the plasmid, the bacterial cells must first be made 'competent' to take up DNA. This is done by treating them with a specific concentration of a divalent cation, such as calcium, which increases the efficiency with which DNA enters the bacterium through pores in its cell wall.</explanation>
+        </question>
+        <question>
+            <text>Downstream processing is an essential step in biotechnology. It primarily involves:</text>
+            <option id="A">Isolation of the genetic material.</option>
+            <option id="B">Amplification of the gene of interest.</option>
+            <option id="C">Separation and purification of the product before it is ready for marketing.</option>
+            <option id="D">Insertion of recombinant DNA into the host cell.</option>
+            <answer>C</answer>
+            <explanation>After completion of the biosynthetic stage, the product has to be subjected through a series of processes before it is ready for marketing as a finished product. The processes include separation and purification, which are collectively referred to as downstream processing.</explanation>
+        </question>
+        <question>
+            <text>Biolistics or gene gun is a method suitable for introducing DNA into which type of cells?</text>
+            <option id="A">Bacterial cells</option>
+            <option id="B">Plant cells</option>
+            <option id="C">Animal cells</option>
+            <option id="D">Viral vectors</option>
+            <answer>B</answer>
+            <explanation>In another method, suitable for plants, cells are bombarded with high velocity micro-particles of gold or tungsten coated with DNA in a method known as biolistics or gene gun.</explanation>
+        </question>
+        <question>
+            <text>The enzyme used to break down the fungal cell wall during the isolation of genetic material is:</text>
+            <option id="A">Lysozyme</option>
+            <option id="B">Cellulase</option>
+            <option id="C">Chitinase</option>
+            <option id="D">Ribonuclease</option>
+            <answer>C</answer>
+            <explanation>In order to cut the DNA with restriction enzymes, it needs to be in pure form, free from other macro-molecules. This can be achieved by treating the bacterial cells/plant or animal tissue with enzymes such as lysozyme (bacteria), cellulase (plant cells), chitinase (fungus).</explanation>
+        </question>
+        <question>
+            <text>During the isolation of DNA, purified DNA ultimately precipitates out after the addition of chilled:</text>
+            <option id="A">Methanol</option>
+            <option id="B">Ethanol</option>
+            <option id="C">Propanol</option>
+            <option id="D">Acetone</option>
+            <answer>B</answer>
+            <explanation>After removing RNA by ribonuclease and proteins by proteases, the purified DNA ultimately precipitates out after the addition of chilled ethanol. This can be seen as collection of fine threads in the suspension.</explanation>
+        </question>
+        <question>
+            <text>In order to link the alien DNA, the vector needs to have very few, preferably single, recognition sites for the commonly used restriction enzymes. Why?</text>
+            <option id="A">To increase the efficiency of ligation</option>
+            <option id="B">To prevent the generation of several fragments, which would complicate gene cloning</option>
+            <option id="C">To allow multiple alien genes to be inserted simultaneously</option>
+            <option id="D">To ensure the vector replicates properly</option>
+            <answer>B</answer>
+            <explanation>In order to link the alien DNA, the vector needs to have very few, preferably single, recognition sites for the commonly used restriction enzymes. Presence of more than one recognition sites within the vector will generate several fragments, which will complicate the gene cloning.</explanation>
+        </question>
+        <question>
+            <text>If a recombinant DNA is inserted within the coding sequence of an enzyme beta-galactosidase, this results in the inactivation of the enzyme. This phenomenon is called:</text>
+            <option id="A">Transformational inactivation</option>
+            <option id="B">Insertional inactivation</option>
+            <option id="C">Homologous recombination</option>
+            <option id="D">Site-directed mutagenesis</option>
+            <answer>B</answer>
+            <explanation>A recombinant DNA is inserted within the coding sequence of an enzyme, beta-galactosidase. This results into inactivation of the gene for synthesis of this enzyme, which is referred to as insertional inactivation. The presence of a chromogenic substrate gives blue coloured colonies if the plasmid in the bacteria does not have an insert. Presence of insert results into insertional inactivation of the beta-galactosidase gene and the colonies do not produce any colour, these are identified as recombinant colonies.</explanation>
+        </question>
+        <question>
+            <text>Agrobacterium tumefaciens, a pathogen of several dicot plants, is able to deliver a piece of DNA known as:</text>
+            <option id="A">r-DNA</option>
+            <option id="B">c-DNA</option>
+            <option id="C">T-DNA</option>
+            <option id="D">m-DNA</option>
+            <answer>C</answer>
+            <explanation>Agrobacterium tumefaciens, a pathogen of several dicot plants is able to deliver a piece of DNA known as 'T-DNA' to transform normal plant cells into a tumor and direct these tumor cells to produce the chemicals required by the pathogen.</explanation>
+        </question>
+        <question>
+            <text>Biolistics or gene gun method is suitable for introducing recombinant DNA into:</text>
+            <option id="A">Bacteria</option>
+            <option id="B">Animal cells</option>
+            <option id="C">Plant cells</option>
+            <option id="D">Viruses</option>
+            <answer>C</answer>
+            <explanation>In another method, suitable for plants, cells are bombarded with high velocity micro-particles of gold or tungsten coated with DNA in a method known as biolistics or gene gun.</explanation>
+        </question>
+        <question>
+            <text>During the isolation of DNA, the enzyme used to break down the fungal cell wall is:</text>
+            <option id="A">Lysozyme</option>
+            <option id="B">Cellulase</option>
+            <option id="C">Chitinase</option>
+            <option id="D">Protease</option>
+            <answer>C</answer>
+            <explanation>The bacterial cells/plant or animal tissue are treated with enzymes such as lysozyme (bacteria), cellulase (plant cells), chitinase (fungus). You know that genes are located on long molecules of DNA interwined with proteins such as histones.</explanation>
+        </question>
+        <question>
+            <text>In PCR, the process of synthesizing a new DNA strand complementary to the template by Taq polymerase is called:</text>
+            <option id="A">Denaturation</option>
+            <option id="B">Annealing</option>
+            <option id="C">Extension</option>
+            <option id="D">Ligation</option>
+            <answer>C</answer>
+            <explanation>The enzyme DNA polymerase (Taq polymerase) extends the primers using the nucleotides provided in the reaction and the genomic DNA as template. This step is called Extension.</explanation>
+        </question>
+        <question>
+            <text>In the year 1963, the two enzymes responsible for restricting the growth of bacteriophage in E. coli were isolated. One of these added methyl groups to DNA, while the other:</text>
+            <option id="A">Added ethyl groups</option>
+            <option id="B">Cut DNA</option>
+            <option id="C">Joined DNA fragments</option>
+            <option id="D">Unwound the DNA helix</option>
+            <answer>B</answer>
+            <explanation>In the year 1963, the two enzymes responsible for restricting the growth of bacteriophage in Escherichia coli were isolated. One of these added methyl groups to DNA, while the other cut DNA. The later was called restriction endonuclease.</explanation>
+        </question>
+        <question>
+            <text>The first restriction endonuclease whose functioning depended on a specific DNA nucleotide sequence was:</text>
+            <option id="A">EcoRI</option>
+            <option id="B">BamHI</option>
+            <option id="C">HindII</option>
+            <option id="D">TaqI</option>
+            <answer>C</answer>
+            <explanation>The first restriction endonuclease–Hind II, whose functioning depended on a specific DNA nucleotide sequence was isolated and characterised five years later. It was found that Hind II always cut DNA molecules at a particular point by recognising a specific sequence of six base pairs.</explanation>
+        </question>
+        <question>
+            <text>Besides HindII, today we know of more than 900 restriction enzymes that have been isolated from over how many strains of bacteria?</text>
+            <option id="A">50</option>
+            <option id="B">100</option>
+            <option id="C">230</option>
+            <option id="D">500</option>
+            <answer>C</answer>
+            <explanation>Besides Hind II, today we know more than 900 restriction enzymes that have been isolated from over 230 strains of bacteria each of which recognise different recognition sequences.</explanation>
+        </question>
+        <question>
+            <text>Nucleases are of two kinds: exonucleases and endonucleases. What is the function of exonucleases?</text>
+            <option id="A">They make cuts at specific positions within the DNA</option>
+            <option id="B">They remove nucleotides from the ends of the DNA</option>
+            <option id="C">They join DNA fragments</option>
+            <option id="D">They synthesize complementary DNA strands</option>
+            <answer>B</answer>
+            <explanation>These are of two kinds; exonucleases and endonucleases. Exonucleases remove nucleotides from the ends of the DNA whereas, endonucleases make cuts at specific positions within the DNA.</explanation>
+        </question>
+        <question>
+            <text>Each restriction endonuclease functions by 'inspecting' the length of a DNA sequence. Once it finds its specific recognition sequence, it will bind to the DNA and cut each of the two strands of the double helix at specific points in their:</text>
+            <option id="A">Nitrogenous bases</option>
+            <option id="B">Hydrogen bonds</option>
+            <option id="C">Sugar-phosphate backbones</option>
+            <option id="D">Phosphodiester bonds only on one strand</option>
+            <answer>C</answer>
+            <explanation>Each restriction endonuclease functions by 'inspecting' the length of a DNA sequence. Once it finds its specific recognition sequence, it will bind to the DNA and cut each of the two strands of the double helix at specific points in their sugar-phosphate backbones.</explanation>
+        </question>
+        <question>
+            <text>The specific sequence of DNA recognized by a restriction endonuclease is called a:</text>
+            <option id="A">Palindromic nucleotide sequence</option>
+            <option id="B">Promoter sequence</option>
+            <option id="C">Terminator sequence</option>
+            <option id="D">Origin of replication</option>
+            <answer>A</answer>
+            <explanation>Each restriction endonuclease recognises a specific palindromic nucleotide sequences in the DNA.</explanation>
+        </question>
+        <question>
+            <text>What technique is used to separate DNA fragments after they have been cut by restriction endonucleases?</text>
+            <option id="A">PCR (Polymerase Chain Reaction)</option>
+            <option id="B">Gel electrophoresis</option>
+            <option id="C">Centrifugation</option>
+            <option id="D">Chromatography</option>
+            <answer>B</answer>
+            <explanation>The cutting of DNA by restriction endonucleases results in the fragments of DNA. These fragments can be separated by a technique known as gel electrophoresis.</explanation>
+        </question>
+        <question>
+            <text>In gel electrophoresis, since DNA fragments are negatively charged molecules, how are they forced to move?</text>
+            <option id="A">Towards the cathode under an electric field</option>
+            <option id="B">Towards the anode under an electric field</option>
+            <option id="C">By gravity alone</option>
+            <option id="D">By a magnetic field</option>
+            <answer>B</answer>
+            <explanation>Since DNA fragments are negatively-charged molecules they can be separated by forcing them to move towards the anode under an electric field through a medium/matrix.</explanation>
+        </question>
+        <question>
+            <text>What is the most commonly used matrix in gel electrophoresis for separating DNA fragments?</text>
+            <option id="A">Polyacrylamide</option>
+            <option id="B">Agarose (a natural polymer extracted from sea weeds)</option>
+            <option id="C">Starch gel</option>
+            <option id="D">Silica gel</option>
+            <answer>B</answer>
+            <explanation>Nowadays the most commonly used matrix is agarose which is a natural polymer extracted from sea weeds.</explanation>
+        </question>
+        <question>
+            <text>Which of the following genes are commonly used as selectable markers for E. coli?</text>
+            <option id="A">Genes encoding resistance to antibiotics like ampicillin, chloramphenicol, tetracycline, or kanamycin</option>
+            <option id="B">Genes encoding insulin</option>
+            <option id="C">Genes responsible for nitrogen fixation</option>
+            <option id="D">Genes encoding restriction endonucleases</option>
+            <answer>A</answer>
+            <explanation>Normally, the genes encoding resistance to antibiotics such as ampicillin, chloramphenicol, tetracycline or kanamycin, etc., are considered useful selectable markers for E. coli.</explanation>
+        </question>
+        <question>
+            <text>Do normal (wild-type) E. coli cells carry resistance against antibiotics like ampicillin or tetracycline?</text>
+            <option id="A">Yes, they are naturally resistant to all antibiotics</option>
+            <option id="B">No, they do not carry resistance against any of these antibiotics</option>
+            <option id="C">They are resistant to ampicillin but not tetracycline</option>
+            <option id="D">They develop resistance only when exposed to viruses</option>
+            <answer>B</answer>
+            <explanation>The normal E. coli cells do not carry resistance against any of these antibiotics.</explanation>
+        </question>
+        <question>
+            <text>In order to link the alien DNA, a vector needs recognition sites for the commonly used restriction enzymes. How many such recognition sites for a particular enzyme are preferable in a vector?</text>
+            <option id="A">As many as possible</option>
+            <option id="B">None</option>
+            <option id="C">Preferably single</option>
+            <option id="D">Exactly two</option>
+            <answer>C</answer>
+            <explanation>Cloning sites: In order to link the alien DNA, the vector needs to have very few, preferably single, recognition sites for the commonly used restriction enzymes. Presence of more than one recognition sites within the vector will generate several fragments, which will complicate the gene cloning.</explanation>
+        </question>
+        <question>
+            <text>Retroviruses in animals have the ability to transform normal cells into:</text>
+            <option id="A">Bacterial cells</option>
+            <option id="B">Cancerous cells</option>
+            <option id="C">Plant cells</option>
+            <option id="D">Stem cells</option>
+            <answer>B</answer>
+            <explanation>Similarly, retroviruses in animals have the ability to transform normal cells into cancerous cells.</explanation>
+        </question>
+        <question>
+            <text>To use Agrobacterium tumefaciens as a cloning vector, its tumor-inducing (Ti) plasmid has been modified into a:</text>
+            <option id="A">More virulent form</option>
+            <option id="B">Cloning vector which is no more pathogenic to the plants</option>
+            <option id="C">Bacteriophage</option>
+            <option id="D">Selectable marker</option>
+            <answer>B</answer>
+            <explanation>A better understanding of the art of delivering genes by pathogens... has generated knowledge to transform these tools of pathogens into useful vectors... The tumor inducing (Ti) plasmid of Agrobacterium tumefaciens has now been modified into a cloning vector which is no more pathogenic to the plants.</explanation>
+        </question>
+        <question>
+            <text>In order to force bacteria to take up the plasmid, the bacterial cells must first be made 'competent'. How is this typically done?</text>
+            <option id="A">By treating them with a specific concentration of a divalent cation, such as calcium</option>
+            <option id="B">By exposing them to UV light</option>
+            <option id="C">By growing them at very high temperatures</option>
+            <option id="D">By infecting them with a virus</option>
+            <answer>A</answer>
+            <explanation>Since DNA is a hydrophilic molecule, it cannot pass through cell membranes. Why? In order to force bacteria to take up the plasmid, the bacterial cells must first be made 'competent' to take up DNA. This is done by treating them with a specific concentration of a divalent cation, such as calcium, which increases the efficiency with which DNA enters the bacterium through pores in its cell wall.</explanation>
         </question>
     </hard>
 </chapter>
