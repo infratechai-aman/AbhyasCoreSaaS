@@ -74,7 +74,13 @@ function RegisterForm() {
         throw new Error(emailError);
       }
 
-      // Check Promo Code Validity safely
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
+      
+      // Update Auth Profile
+      await updateProfile(user, { displayName: trimmedName });
+
+      // Check Promo Code Validity safely AFTER auth to prevent permission errors
       let finalReferredBy = null;
       if (referredBy) {
          try {
@@ -86,12 +92,6 @@ function RegisterForm() {
            console.warn("Promo verification omitted due to permission or network", err);
          }
       }
-
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      const user = userCredential.user;
-      
-      // Update Auth Profile
-      await updateProfile(user, { displayName: trimmedName });
       
       // Create Firestore User Doc
       await setDoc(doc(db, "users", user.uid), {
