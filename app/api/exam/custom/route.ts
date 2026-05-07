@@ -4,6 +4,8 @@ import path from 'path';
 import { XMLParser } from 'fast-xml-parser';
 import { requireAuth } from '@/lib/auth-middleware';
 import { isRateLimited } from '@/lib/rate-limit';
+import { getUserSubscription } from '@/lib/subscription-middleware';
+import { sanitizeChapterId } from '@/lib/sanitize';
 
 export const dynamic = 'force-dynamic';
 
@@ -104,8 +106,23 @@ export async function GET(request: Request) {
 
         const chapters = chaptersParam.split(',').filter(Boolean);
         const limit = Math.min(parseInt(countParam, 10), 100); // Cap at 100
+
+        // Server-side subscription enforcement
+        const subInfo = await getUserSubscription(authResult);
+        if (!subInfo) {
+          return NextResponse.json({ error: 'Server error checking subscription.' }, { status: 500 });
+        }
+        // Free users: enforce weekly custom exam limit
+        if (!subInfo.isPro && subInfo.usage.customExamsCreatedWeek >= subInfo.limits.customExamsPerWeek) {
+          return NextResponse.json({ error: 'Weekly custom exam limit reached. Upgrade to Pro for more.' , limitReached: true }, { status: 403 });
+        }
+        // Pro users: enforce daily custom exam limit
+        if (subInfo.isPro && subInfo.usage.customExamsCreatedToday >= subInfo.limits.customExamsPerDay) {
+          return NextResponse.json({ error: 'Daily custom exam limit reached.' , limitReached: true }, { status: 403 });
+        }
         
         const rawDir = path.join(process.cwd(), 'raw_questions');
+        const resolvedRawDir = path.resolve(rawDir);
         const parser = new XMLParser({
             ignoreAttributes: false,
             attributeNamePrefix: "@_"
@@ -113,8 +130,17 @@ export async function GET(request: Request) {
 
         let allQuestions: any[] = [];
 
-        for (const chapter of chapters) {
+        for (const rawChapter of chapters) {
+            // Sanitize each chapter ID to prevent path traversal (CRITICAL-17)
+            const chapter = sanitizeChapterId(rawChapter);
+            if (!chapter) continue;
+
             const filePath = path.join(rawDir, `${chapter}.xml`);
+
+            // Defense in depth: verify resolved path is within raw_questions
+            const resolvedPath = path.resolve(filePath);
+            if (!resolvedPath.startsWith(resolvedRawDir + path.sep)) continue;
+
             if (fs.existsSync(filePath)) {
                 try {
                     const xmlData = fs.readFileSync(filePath, 'utf-8');

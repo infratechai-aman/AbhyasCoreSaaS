@@ -4,6 +4,8 @@ import path from 'path';
 import { XMLParser } from 'fast-xml-parser';
 import { requireAuth } from '@/lib/auth-middleware';
 import { isRateLimited } from '@/lib/rate-limit';
+import { checkExamAccess } from '@/lib/subscription-middleware';
+import { sanitizeChapterId } from '@/lib/sanitize';
 
 export const dynamic = 'force-dynamic';
 
@@ -181,6 +183,10 @@ export async function GET(request: Request) {
           return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
         }
 
+        // Server-side subscription enforcement
+        const subCheck = await checkExamAccess(authResult);
+        if (subCheck instanceof NextResponse) return subCheck;
+
         const { searchParams } = new URL(request.url);
         const tierParam = searchParams.get('tier') || '1';
         const examParam = searchParams.get('exam') || 'JEE';
@@ -193,6 +199,7 @@ export async function GET(request: Request) {
             : [ {sub: 'physics', q: 30}, {sub: 'chemistry', q: 30}, {sub: 'math', q: 30} ];
 
         const rawDir = path.join(process.cwd(), 'raw_questions');
+        const resolvedRawDir = path.resolve(rawDir);
         const parser = new XMLParser({
             ignoreAttributes: false,
             attributeNamePrefix: "@_"
@@ -209,8 +216,15 @@ export async function GET(request: Request) {
             let mediumPool: any[] = [];
             let hardPool: any[] = [];
 
-            for (const chapter of selectedFiles) {
+            for (const rawChapter of selectedFiles) {
+                // Sanitize chapter name (defense-in-depth, CRITICAL-17)
+                const chapter = sanitizeChapterId(rawChapter);
+                if (!chapter) continue;
+
                 const filePath = path.join(rawDir, `${chapter}.xml`);
+                const resolvedPath = path.resolve(filePath);
+                if (!resolvedPath.startsWith(resolvedRawDir + path.sep)) continue;
+
                 if (fs.existsSync(filePath)) {
                     try {
                         const xmlData = fs.readFileSync(filePath, 'utf-8');

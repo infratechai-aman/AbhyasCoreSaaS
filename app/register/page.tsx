@@ -21,6 +21,7 @@ import { auth, db } from "@/lib/firebase";
 import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { Suspense } from "react";
+import { validateRegistrationEmail } from "@/lib/disposable-emails";
 
 function RegisterForm() {
   const router = useRouter();
@@ -65,6 +66,12 @@ function RegisterForm() {
       }
       if (!/[0-9]/.test(password)) {
         throw new Error("Password must contain at least one number.");
+      }
+
+      // Block disposable/temporary emails (CRITICAL-26)
+      const emailError = validateRegistrationEmail(email);
+      if (emailError) {
+        throw new Error(emailError);
       }
 
       // Check Promo Code Validity safely

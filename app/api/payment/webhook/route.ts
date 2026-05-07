@@ -32,13 +32,16 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Missing signature.' }, { status: 400 });
     }
 
-    // Verify webhook signature
+    // Verify webhook signature using timing-safe comparison (HIGH-13)
     const expectedSignature = crypto
       .createHmac('sha256', secret)
       .update(body)
       .digest('hex');
 
-    if (expectedSignature !== signature) {
+    // Use timing-safe comparison to prevent side-channel attacks
+    const sigBuffer = Buffer.from(signature, 'hex');
+    const expectedBuffer = Buffer.from(expectedSignature, 'hex');
+    if (sigBuffer.length !== expectedBuffer.length || !crypto.timingSafeEqual(sigBuffer, expectedBuffer)) {
       console.error('[webhook] Invalid signature');
       return NextResponse.json({ error: 'Invalid signature' }, { status: 400 });
     }
@@ -53,7 +56,8 @@ export async function POST(req: Request) {
     }
 
     // Idempotency: check if we already processed this event
-    const eventId = event.event_id || `${eventType}_${Date.now()}`;
+    // Use content hash as fallback instead of Date.now() for collision resistance
+    const eventId = event.event_id || `${eventType}_${crypto.createHash('sha256').update(body).digest('hex').slice(0, 16)}`;
     const webhookRef = adminDb.collection('webhook_events').doc(eventId);
     const existingEvent = await webhookRef.get();
     if (existingEvent.exists) {
@@ -78,13 +82,22 @@ export async function POST(req: Request) {
           const userSnap = await userRef.get();
           
           if (userSnap.exists) {
-            await userRef.update({
+            const updateData: Record<string, any> = {
               'subscription.plan': plan,
               'subscription.status': 'active',
               'subscription.paymentId': payment.id,
               'subscription.activatedAt': new Date().toISOString(),
               updatedAt: new Date().toISOString(),
-            });
+            };
+
+            // CRITICAL-11: Set 7-day expiry for Weekly Pass
+            if (planType === 'weekly_pass') {
+              const expiry = new Date();
+              expiry.setDate(expiry.getDate() + 7);
+              updateData['subscription.expiryDate'] = expiry.toISOString();
+            }
+
+            await userRef.update(updateData);
 
             // Mark weekly pass as used
             if (planType === 'weekly_pass') {
@@ -167,6 +180,36 @@ export async function POST(req: Request) {
       case 'payment.failed': {
         const payment = payload.payment?.entity;
         console.warn('[webhook] Payment failed:', payment?.id, payment?.notes?.user_email);
+        break;
+      }
+
+      // MEDIUM-15: Handle refunds — downgrade user when payment is refunded
+      case 'refund.created':
+      case 'refund.processed': {
+        const refund = payload.refund?.entity;
+        if (refund) {
+          // The refund entity contains the payment_id; find the original payment's notes
+          const paymentId = refund.payment_id;
+          console.log('[webhook] Refund event:', eventType, 'paymentId:', paymentId);
+          
+          // Look up the user by payment ID across all users
+          if (paymentId) {
+            const usersSnap = await adminDb.collection('users')
+              .where('subscription.paymentId', '==', paymentId)
+              .get();
+            
+            for (const userDoc of usersSnap.docs) {
+              await userDoc.ref.update({
+                'subscription.plan': 'Free',
+                'subscription.status': 'none',
+                'subscription.refundedAt': new Date().toISOString(),
+                'subscription.refundId': refund.id,
+                updatedAt: new Date().toISOString(),
+              });
+              console.log('[webhook] Downgraded user after refund:', userDoc.id);
+            }
+          }
+        }
         break;
       }
 

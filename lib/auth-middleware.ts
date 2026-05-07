@@ -11,6 +11,7 @@ export interface AuthenticatedUser {
 /**
  * Verify Firebase ID token from Authorization header.
  * Returns the decoded user (uid + email) or null.
+ * Rejects unverified email accounts (MEDIUM-04).
  */
 export async function verifyAuthToken(
   request: Request
@@ -27,6 +28,12 @@ export async function verifyAuthToken(
 
     const decoded = await adminAuth.verifyIdToken(token);
     if (!decoded.uid || !decoded.email) return null;
+
+    // MEDIUM-04: Enforce email verification
+    // Skip check for admin and promo accounts (they may be pre-verified)
+    if (!decoded.email_verified && decoded.email !== ADMIN_EMAIL) {
+      return null;
+    }
 
     return { uid: decoded.uid, email: decoded.email };
   } catch (err) {

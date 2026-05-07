@@ -29,7 +29,10 @@ export async function POST(req: Request) {
       .update(razorpay_payment_id + '|' + razorpay_subscription_id)
       .digest('hex');
 
-    if (generated_signature !== razorpay_signature) {
+    // Timing-safe comparison to prevent side-channel attacks (MEDIUM-05)
+    const genBuffer = Buffer.from(generated_signature, 'hex');
+    const sigBuffer = Buffer.from(razorpay_signature, 'hex');
+    if (genBuffer.length !== sigBuffer.length || !crypto.timingSafeEqual(genBuffer, sigBuffer)) {
       return NextResponse.json({ success: false, message: 'Invalid signature' }, { status: 400 });
     }
 

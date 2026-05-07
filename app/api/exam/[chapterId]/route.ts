@@ -4,6 +4,8 @@ import fs from "fs/promises";
 import path from "path";
 import { requireAuth } from "@/lib/auth-middleware";
 import { isRateLimited } from "@/lib/rate-limit";
+import { checkExamAccess } from "@/lib/subscription-middleware";
+import { sanitizeChapterId } from "@/lib/sanitize";
 
 // Utility to shuffle array
 function shuffleArray<T>(array: T[]): T[] {
@@ -111,8 +113,24 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
       return NextResponse.json({ error: "Too many requests." }, { status: 429 });
     }
 
-    const chapterId = params.chapterId;
-    const filePath = path.join(process.cwd(), "raw_questions", `${chapterId}.xml`);
+    // Server-side subscription enforcement
+    const subCheck = await checkExamAccess(authResult);
+    if (subCheck instanceof NextResponse) return subCheck;
+
+    // Sanitize chapterId to prevent path traversal (CRITICAL-17)
+    const chapterId = sanitizeChapterId(params.chapterId);
+    if (!chapterId) {
+      return NextResponse.json({ error: "Invalid chapter ID." }, { status: 400 });
+    }
+
+    const rawDir = path.join(process.cwd(), "raw_questions");
+    const filePath = path.join(rawDir, `${chapterId}.xml`);
+
+    // Defense in depth: verify resolved path is within raw_questions
+    const resolved = path.resolve(filePath);
+    if (!resolved.startsWith(path.resolve(rawDir) + path.sep)) {
+      return NextResponse.json({ error: "Invalid chapter ID." }, { status: 400 });
+    }
     
     // Check if file exists
     try {

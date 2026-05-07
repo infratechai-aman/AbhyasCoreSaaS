@@ -43,10 +43,12 @@ service cloud.firestore {
     }
 
     // ─── Promo Codes ───
-    // Anyone authenticated can read promo codes (needed for referral validation).
+    // Authenticated users can READ a specific promo code by ID (for referral validation).
+    // List/query access is denied to prevent enumeration (MEDIUM-10).
     // Only Admin SDK can write (no client writes allowed).
     match /promo_codes/{code} {
-      allow read: if request.auth != null;
+      allow get: if request.auth != null;
+      allow list: if false;
       allow write: if false;
     }
 
@@ -59,6 +61,12 @@ service cloud.firestore {
     // ─── Webhook Events ───
     // Only Admin SDK can read/write (used for idempotency tracking).
     match /webhook_events/{eventId} {
+      allow read, write: if false;
+    }
+
+    // ─── Admin Audit Log ───
+    // Only Admin SDK can read/write — used for tracking admin actions.
+    match /admin_audit_log/{logId} {
       allow read, write: if false;
     }
 

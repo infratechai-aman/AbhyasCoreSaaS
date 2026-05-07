@@ -4,6 +4,8 @@ import path from 'path';
 import { XMLParser } from 'fast-xml-parser';
 import { requireAuth } from '@/lib/auth-middleware';
 import { isRateLimited } from '@/lib/rate-limit';
+import { checkExamAccess } from '@/lib/subscription-middleware';
+import { sanitizeChapterId } from '@/lib/sanitize';
 
 export const dynamic = 'force-dynamic';
 
@@ -107,6 +109,10 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
     }
 
+    // Server-side subscription enforcement
+    const subCheck = await checkExamAccess(authResult);
+    if (subCheck instanceof NextResponse) return subCheck;
+
     const { searchParams } = new URL(request.url);
     const exam = (searchParams.get('exam') || 'JEE').toUpperCase();
     const userId = searchParams.get('uid') || 'anonymous';
@@ -120,12 +126,20 @@ export async function GET(request: Request) {
     const shuffledChapters = seededShuffle(chapters, seed);
 
     const rawDir = path.join(process.cwd(), 'raw_questions');
+    const resolvedRawDir = path.resolve(rawDir);
     const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
 
     let allQuestions: any[] = [];
 
-    for (const chapter of shuffledChapters) {
+    for (const rawChapter of shuffledChapters) {
+      // Sanitize chapter ID (CRITICAL-17)
+      const chapter = sanitizeChapterId(rawChapter);
+      if (!chapter) continue;
+
       const filePath = path.join(rawDir, `${chapter}.xml`);
+      const resolvedPath = path.resolve(filePath);
+      if (!resolvedPath.startsWith(resolvedRawDir + path.sep)) continue;
+
       if (!fs.existsSync(filePath)) continue;
       try {
         const xmlData = fs.readFileSync(filePath, 'utf-8');

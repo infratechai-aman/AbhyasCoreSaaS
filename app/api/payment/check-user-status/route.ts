@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
 import { requireAuth } from '@/lib/auth-middleware';
+import { adminDb } from '@/lib/firebase-admin';
 import { isRateLimited } from '@/lib/rate-limit';
 
 export async function POST(req: Request) {
@@ -17,6 +18,46 @@ export async function POST(req: Request) {
     // Use authenticated user's identity
     const userId = authResult.uid;
     const userEmail = authResult.email;
+
+    // 2b. Check existing Firestore subscription first (fast path)
+    if (adminDb) {
+      const userSnap = await adminDb.collection('users').doc(userId).get();
+      if (userSnap.exists) {
+        const data = userSnap.data();
+        const sub = data?.subscription;
+        if (sub?.status === 'active' && sub?.plan && sub.plan !== 'Free') {
+          // Check expiry for time-limited plans
+          if (sub.expiryDate) {
+            const now = new Date();
+            const expiry = new Date(sub.expiryDate);
+            if (now > expiry) {
+              // Expired — downgrade in Firestore and continue to Razorpay check
+              await adminDb.collection('users').doc(userId).update({
+                'subscription.plan': 'Free',
+                'subscription.status': 'none',
+                'subscription.expiredAt': new Date().toISOString(),
+                updatedAt: new Date().toISOString(),
+              });
+              // Fall through to Razorpay check
+            } else {
+              // Still active
+              return NextResponse.json({
+                hasActiveSubscription: true,
+                plan: sub.plan,
+                subscriptionId: sub.razorpaySubscriptionId || sub.paymentId || 'firestore',
+              });
+            }
+          } else {
+            // No expiry = permanent subscription (monthly/yearly auto-renew)
+            return NextResponse.json({
+              hasActiveSubscription: true,
+              plan: sub.plan,
+              subscriptionId: sub.razorpaySubscriptionId || sub.paymentId || 'firestore',
+            });
+          }
+        }
+      }
+    }
 
     const keyId = process.env.RAZORPAY_KEY_ID;
     const keySecret = process.env.RAZORPAY_KEY_SECRET;
@@ -43,7 +84,7 @@ export async function POST(req: Request) {
       }
       
       const found = subs.items.find((sub: any) => {
-        const isStatusValid = sub.status === 'active' || sub.status === 'authenticated' || sub.status === 'created';
+        const isStatusValid = sub.status === 'active' || sub.status === 'authenticated';
         const isUserMatch = sub.notes?.user_email === userEmail || sub.notes?.user_id === userId;
         return isStatusValid && isUserMatch;
       });
@@ -66,46 +107,8 @@ export async function POST(req: Request) {
       });
     }
 
-    // If not found in subscriptions, check standard payments (for Weekly Pass or old legacy payments)
-    let activePayment = null;
-    hasMore = true;
-    skip = 0;
-    
-    while (hasMore && skip < 500) {
-      const payments = await razorpay.payments.all({ count: 100, skip });
-      if (!payments.items || payments.items.length === 0) {
-        hasMore = false;
-        break;
-      }
-      
-      const found = payments.items.find((pay: any) => {
-        const isCaptured = pay.status === 'captured';
-        const isUserMatch = pay.notes?.user_email === userEmail || pay.notes?.user_id === userId || pay.email === userEmail;
-        return isCaptured && isUserMatch;
-      });
-      
-      if (found) {
-        activePayment = found;
-        break;
-      }
-      
-      if (payments.items.length < 100) hasMore = false;
-      skip += 100;
-    }
-
-    if (activePayment) {
-      const amount = Number(activePayment.amount);
-      let plan = "Pro Monthly";
-      if (amount >= 29900) plan = "Pro Yearly";
-      else if (amount <= 700) plan = "Weekly Pass";
-      
-      return NextResponse.json({
-        hasActiveSubscription: true,
-        plan: plan,
-        subscriptionId: "legacy_payment_" + activePayment.id,
-      });
-    }
-
+    // No active Razorpay subscription found — do NOT re-grant from old payments
+    // Weekly Pass payments are one-time and expire; they should not reactivate
     return NextResponse.json({ hasActiveSubscription: false });
   } catch (error: any) {
     console.error('[check-user-status] Error:', error);

@@ -40,8 +40,15 @@ export default function SettingsPage() {
                 <div className="flex-1">
                   <div className="text-[16px] font-bold text-slate-900">{userData?.name || "Aspirant"}</div>
                   <div className="text-[12px] text-slate-500 mb-2">{userData?.email || "No email available"}</div>
-                  <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-[10px] font-bold uppercase tracking-wider border border-indigo-100">
-                    <Zap className="w-2.5 h-2.5" /> Premium Member
+                  <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border ${
+                    userData?.subscription?.status === "active" && userData?.subscription?.plan !== "Free"
+                      ? "bg-indigo-50 text-indigo-700 border-indigo-100"
+                      : "bg-slate-100 text-slate-600 border-slate-200"
+                  }`}>
+                    <Zap className="w-2.5 h-2.5" />
+                    {userData?.subscription?.status === "active" && userData?.subscription?.plan !== "Free"
+                      ? userData.subscription.plan
+                      : "Free Member"}
                   </span>
                 </div>
                 <button className="px-4 py-2 rounded-xl border border-slate-200 text-[12px] font-bold text-slate-600 hover:bg-slate-50 transition-colors">

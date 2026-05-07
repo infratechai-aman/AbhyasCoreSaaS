@@ -29,12 +29,8 @@ import {
   Wallet,
   Link2 as LinkIcon,
 } from "lucide-react";
-// All admin data is now computed live from Firestore - no mock imports needed
+// All admin operations now use server-side API routes (Admin SDK)
 
-import { collection, query, where, getDocs, updateDoc, doc, getDoc, serverTimestamp, setDoc } from "firebase/firestore";
-import { db, firebaseConfig } from "@/lib/firebase";
-import { initializeApp, getApp, getApps } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useAuth } from "@/lib/auth-context";
 import { authenticatedFetch } from "@/lib/api";
 
@@ -87,33 +83,26 @@ export default function SuperAdminDashboard() {
   useEffect(() => { setMounted(true); }, []);
 
   useEffect(() => {
-    if (!mounted || !user || user.email !== ADMIN_EMAIL) return; // Guard: only fetch for admin
-    if (db) {
-       getDocs(collection(db, "users")).then((snap) => {
-         const usersList = snap.docs.map(d => ({ id: d.id, ...d.data() } as any));
-         
-         // Sort by newest
-         usersList.sort((a: any, b: any) => {
-            const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
-            const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
-            return dateB - dateA;
-         });
-         
-         setRealUsers(usersList);
-         
-         const paidUsers = usersList.filter((u: any) => u.subscription?.status === "active");
-         const totalRev = paidUsers.reduce((sum: number, u: any) => sum + getUserRevenue(u), 0);
-         // Estimate monthly revenue: yearly users contribute 399/12 per month, monthly users 49, weekly 7
-         const monthlyRev = paidUsers.reduce((sum: number, u: any) => {
-           const plan = u.subscription?.plan || "";
-           if (plan.includes("Yearly")) return sum + Math.round(399 / 12);
-           if (plan.includes("Monthly")) return sum + 49;
-           if (plan.includes("Weekly")) return sum + 7;
-           return sum;
-         }, 0);
-         setStats({ total: usersList.length, paid: paidUsers.length, monthlyRevenue: monthlyRev, totalRevenue: totalRev });
-       }).catch(console.error);
-    }
+    if (!mounted || !user || user.email !== ADMIN_EMAIL) return;
+    // Fetch users via server-side Admin SDK (CRITICAL-01 fix)
+    authenticatedFetch("/api/admin/users", { method: "POST" })
+      .then(res => res.json())
+      .then(data => {
+        if (data.error) { console.error(data.error); return; }
+        const usersList = data.users || [];
+        setRealUsers(usersList);
+        const paidUsers = usersList.filter((u: any) => u.subscription?.status === "active");
+        const totalRev = paidUsers.reduce((sum: number, u: any) => sum + getUserRevenue(u), 0);
+        const monthlyRev = paidUsers.reduce((sum: number, u: any) => {
+          const plan = u.subscription?.plan || "";
+          if (plan.includes("Yearly")) return sum + Math.round(399 / 12);
+          if (plan.includes("Monthly")) return sum + 49;
+          if (plan.includes("Weekly")) return sum + 7;
+          return sum;
+        }, 0);
+        setStats({ total: usersList.length, paid: paidUsers.length, monthlyRevenue: monthlyRev, totalRevenue: totalRev });
+      })
+      .catch(console.error);
   }, [mounted, user]);
 
   const handlePromoSearch = async () => {
@@ -122,15 +111,15 @@ export default function SuperAdminDashboard() {
     setPromoMessage({ text: "", type: "" });
     setFoundUser(null);
     try {
-      if (!db) throw new Error("DB not initialized");
-      const q = query(collection(db, "users"), where("email", "==", emailQuery.trim().toLowerCase()));
-      const snap = await getDocs(q);
+      // Search in already-loaded users list (fetched via server-side Admin SDK)
+      const match = realUsers.find(
+        (u: any) => u.email === emailQuery.trim().toLowerCase()
+      );
       
-      if (snap.empty) {
+      if (!match) {
         setPromoMessage({ text: "User not found. Ask them to register first.", type: "error" });
       } else {
-        const userDoc = snap.docs[0];
-        setFoundUser({ id: userDoc.id, ...userDoc.data() });
+        setFoundUser(match);
       }
     } catch (err: any) {
       console.error(err);
@@ -149,46 +138,30 @@ export default function SuperAdminDashboard() {
     setFoundUser(null);
 
     try {
-      if (!db) throw new Error("DB not initialized");
-      
-      const secondaryApp = getApps().filter(app => app.name === "SecondaryPromoApp").length
-        ? getApp("SecondaryPromoApp")
-        : initializeApp(firebaseConfig, "SecondaryPromoApp");
-      
-      const secondaryAuth = getAuth(secondaryApp);
-      
-      const userCredential = await createUserWithEmailAndPassword(secondaryAuth, emailQuery.trim().toLowerCase(), createPassword);
-      const newUid = userCredential.user.uid;
-      
-      await updateProfile(userCredential.user, { displayName: createName.trim() });
-      
-      await setDoc(doc(db, "users", newUid), {
-        name: createName.trim(),
-        email: emailQuery.trim().toLowerCase(),
-        targetExam: createTargetExam,
-        createdAt: new Date().toISOString(),
-        streak: 0,
-        questionsSolved: 0,
-        mocksCompleted: 0,
-        subscription: {
-          plan: "Pro Yearly",
-          status: "active",
-          razorpaySubscriptionId: "MANUAL_PROMO_CREATOR_" + Date.now(),
-        },
-        maxTierPassed: 10,
-        isPromo: true
+      // Use server-side Admin SDK instead of client-side Firebase Auth (CRITICAL-01 fix)
+      const res = await authenticatedFetch("/api/admin/create-promo-account", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: emailQuery.trim().toLowerCase(),
+          password: createPassword,
+          name: createName.trim(),
+          targetExam: createTargetExam,
+        }),
       });
-      
-      await secondaryAuth.signOut();
+      const data = await res.json();
+
+      if (!res.ok || data.error) {
+        throw new Error(data.error || "Failed to create account.");
+      }
 
       setFoundUser({
-        id: newUid,
-        name: createName.trim(),
-        email: emailQuery.trim().toLowerCase(),
+        id: data.user.uid,
+        name: data.user.name,
+        email: data.user.email,
         subscription: { plan: "Pro Yearly", status: "active" }
       });
-      
-      setPromoMessage({ text: "Account securely created & granted Lifetime Pro!", type: "success" });
+      setPromoMessage({ text: data.message || "Account created & granted Lifetime Pro!", type: "success" });
     } catch (err: any) {
       console.error(err);
       setPromoMessage({ text: err.message || "Failed to create account.", type: "error" });
@@ -200,21 +173,23 @@ export default function SuperAdminDashboard() {
     if (!foundUser) return;
     setPromoLoading(true);
     try {
-      if (!db) throw new Error("DB not initialized");
-      const userRef = doc(db, "users", foundUser.id);
-      await updateDoc(userRef, {
-        "subscription.plan": "Pro Yearly",
-        "subscription.status": "active",
-        "subscription.razorpaySubscriptionId": "MANUAL_PROMO_CREATOR_" + Date.now(),
-        "maxTierPassed": 10,
-        "updatedAt": serverTimestamp(),
-        "isPromo": true
+      // Use server-side Admin SDK (CRITICAL-07 fix)
+      const res = await authenticatedFetch("/api/admin/grant-pro", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ userId: foundUser.id }),
       });
+      const data = await res.json();
+
+      if (!res.ok || data.error) {
+        throw new Error(data.error || "Upgrade failed.");
+      }
+
       setFoundUser({ ...foundUser, subscription: { plan: "Pro Yearly", status: "active" } });
-      setPromoMessage({ text: `Successfully upgraded ${foundUser.email} to Lifetime Pro!`, type: "success" });
+      setPromoMessage({ text: data.message || `Successfully upgraded to Lifetime Pro!`, type: "success" });
     } catch (err: any) {
       console.error(err);
-      setPromoMessage({ text: "Upgrade failed.", type: "error" });
+      setPromoMessage({ text: err.message || "Upgrade failed.", type: "error" });
     }
     setPromoLoading(false);
   };
@@ -225,17 +200,21 @@ export default function SuperAdminDashboard() {
      setPromoMessage({ text: "", type: "" });
      setPromoCodeLink("");
      try {
-       if (!db) throw new Error("DB not initialized");
-       const codeId = promoCodeName.trim().toUpperCase().replace(/\s+/g, '');
-       await setDoc(doc(db, "promo_codes", codeId), {
-         active: true,
-         creator: promoCodeName,
-         createdAt: serverTimestamp()
+       // Use server-side Admin SDK (CRITICAL-07 fix)
+       const res = await authenticatedFetch("/api/admin/create-promo-code", {
+         method: "POST",
+         headers: { "Content-Type": "application/json" },
+         body: JSON.stringify({ code: promoCodeName.trim(), creator: promoCodeName }),
        });
-       const rawLink = `https://abhyascore.com/register?ref=${codeId}`;
-       setPromoCodeLink(rawLink);
-       navigator.clipboard.writeText(rawLink);
-       setPromoMessage({ text: `Code ${codeId} active & link copied!`, type: "success" });
+       const data = await res.json();
+
+       if (!res.ok || data.error) {
+         throw new Error(data.error || "Failed to create code.");
+       }
+
+       setPromoCodeLink(data.link);
+       navigator.clipboard.writeText(data.link);
+       setPromoMessage({ text: data.message || `Code created & link copied!`, type: "success" });
      } catch (e: any) {
        console.error(e);
        setPromoMessage({ text: `Failed: ${e.message}`, type: "error" });
@@ -260,7 +239,7 @@ export default function SuperAdminDashboard() {
       let skipped = 0;
       const errors: string[] = [];
 
-      // 2. For each active/authenticated subscription, find and update the Firestore user
+      // 2. For each active/authenticated subscription, sync via server-side API
       for (const sub of subs) {
         if (sub.status !== "active" && sub.status !== "authenticated" && sub.status !== "created") {
           skipped++;
@@ -276,31 +255,15 @@ export default function SuperAdminDashboard() {
         }
 
         try {
-          if (!db) throw new Error("DB not available");
-
-          // Try to find user by UID first (direct doc lookup), then by email query
+          // Find user in locally loaded list (already fetched via server-side API)
           let userDocId: string | null = null;
-
+          
           if (userId) {
-            try {
-              const userSnap = await getDoc(doc(db, "users", userId));
-              if (userSnap.exists()) {
-                userDocId = userSnap.id;
-              }
-            } catch {
-              // UID lookup failed, try email next
-            }
+            const match = realUsers.find((u: any) => u.id === userId);
+            if (match) userDocId = match.id;
           }
-
+          
           if (!userDocId && email) {
-            const emailSnap = await getDocs(query(collection(db, "users"), where("email", "==", email)));
-            if (!emailSnap.empty) {
-              userDocId = emailSnap.docs[0].id;
-            }
-          }
-
-          // Fallback: match against locally loaded users list
-          if (!userDocId && email && realUsers.length > 0) {
             const match = realUsers.find((u: any) => u.email === email);
             if (match) userDocId = match.id;
           }
@@ -316,13 +279,17 @@ export default function SuperAdminDashboard() {
           if (sub.planType === "pro_yearly") plan = "Pro Yearly";
           else if (sub.planType === "weekly_pass") plan = "Weekly Pass";
 
-          // Update Firestore
-          await updateDoc(doc(db, "users", userDocId), {
-            "subscription.plan": plan,
-            "subscription.status": "active",
-            "subscription.razorpaySubscriptionId": sub.subscriptionId,
-            updatedAt: serverTimestamp(),
+          // Update via server-side Admin SDK (CRITICAL-07 fix)
+          const res = await authenticatedFetch("/api/admin/grant-pro", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ userId: userDocId, plan }),
           });
+          
+          if (!res.ok) {
+            const data = await res.json();
+            throw new Error(data.error || "Sync failed");
+          }
 
           synced++;
         } catch (e: any) {
