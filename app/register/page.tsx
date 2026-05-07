@@ -83,17 +83,20 @@ function RegisterForm() {
       // Use the referral code from the URL directly. The backend will validate it later.
       let finalReferredBy = referredBy ? referredBy.trim() : null;
       
-      // Create Firestore User Doc
+      // Check if user doc already exists (leftover from testing or auth-context race condition)
+      const userDoc = await getDoc(doc(db, "users", user.uid));
+
+      // Create or update Firestore User Doc
       await setDoc(doc(db, "users", user.uid), {
         name: trimmedName,
         email,
         targetExam,
-        createdAt: new Date().toISOString(),
+        createdAt: userDoc.exists() ? userDoc.data()?.createdAt || new Date().toISOString() : new Date().toISOString(),
         streak: 0,
         questionsSolved: 0,
         mocksCompleted: 0,
-        subscription: "free",
-        referredBy: finalReferredBy
+        ...(!userDoc.exists() && { subscription: "free" }),
+        ...(finalReferredBy && { referredBy: finalReferredBy })
       }, { merge: true });
       // Trigger Email Verification
       await sendEmailVerification(user);
@@ -126,11 +129,11 @@ function RegisterForm() {
           name: user.displayName || "Aspirant",
           email: user.email,
           targetExam: targetExam,
-          createdAt: new Date().toISOString(),
+          createdAt: userDoc.exists() ? userDoc.data()?.createdAt || new Date().toISOString() : new Date().toISOString(),
           streak: 0,
           questionsSolved: 0,
           mocksCompleted: 0,
-          subscription: "free",
+          ...(!userDoc.exists() && { subscription: "free" }),
           ...(finalReferredBy && { referredBy: finalReferredBy })
         }, { merge: true });
       }
