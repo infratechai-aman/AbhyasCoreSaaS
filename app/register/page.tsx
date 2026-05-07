@@ -80,18 +80,8 @@ function RegisterForm() {
       // Update Auth Profile
       await updateProfile(user, { displayName: trimmedName });
 
-      // Check Promo Code Validity safely AFTER auth to prevent permission errors
-      let finalReferredBy = null;
-      if (referredBy) {
-         try {
-           const promoDoc = await getDoc(doc(db, "promo_codes", referredBy));
-           if (promoDoc.exists() && promoDoc.data().active !== false) {
-             finalReferredBy = referredBy;
-           }
-         } catch (err) {
-           console.warn("Promo verification omitted due to permission or network", err);
-         }
-      }
+      // Use the referral code from the URL directly. The backend will validate it later.
+      let finalReferredBy = referredBy ? referredBy.trim() : null;
       
       // Create Firestore User Doc
       await setDoc(doc(db, "users", user.uid), {
@@ -129,15 +119,8 @@ function RegisterForm() {
       // check if user document already exists
       const userDoc = await getDoc(doc(db, "users", user.uid));
       if (!userDoc.exists()) {
-        let finalReferredBy = null;
-        if (referredBy) {
-           try {
-             const promoDoc = await getDoc(doc(db, "promo_codes", referredBy));
-             if (promoDoc.exists() && promoDoc.data().active !== false) {
-               finalReferredBy = referredBy;
-             }
-           } catch (e) { console.error(e); }
-        }
+        // Use the referral code from the URL directly.
+        let finalReferredBy = referredBy ? referredBy.trim() : null;
 
         await setDoc(doc(db, "users", user.uid), {
           name: user.displayName || "Aspirant",
