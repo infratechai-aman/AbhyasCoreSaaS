@@ -104,7 +104,7 @@ function RegisterForm() {
         mocksCompleted: 0,
         subscription: "free",
         referredBy: finalReferredBy
-      });
+      }, { merge: true });
       // Trigger Email Verification
       await sendEmailVerification(user);
       
@@ -149,7 +149,7 @@ function RegisterForm() {
           mocksCompleted: 0,
           subscription: "free",
           referredBy: finalReferredBy
-        });
+        }, { merge: true });
       }
       
       router.push("/dashboard");

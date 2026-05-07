@@ -83,7 +83,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               academicClass: null,
               streak: 0,
               questionsSolved: 0,
-              mocksCompleted: 0
+              mocksCompleted: 0,
+              subscription: "free"
             };
             await setDoc(doc(db, "users", user.uid), newData);
             updateUserData(newData);
