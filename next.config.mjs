@@ -25,6 +25,7 @@ const nextConfig = {
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           { key: "X-XSS-Protection", value: "1; mode=block" },
+          { key: "Cross-Origin-Opener-Policy", value: "same-origin-allow-popups" },
           {
             key: "Strict-Transport-Security",
             value: "max-age=63072000; includeSubDomains; preload",
@@ -42,7 +43,7 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline' https://accounts.google.com https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com data:",
               "img-src 'self' data: https: blob:",
-              "connect-src 'self' https://accounts.google.com https://*.googleapis.com https://securetoken.googleapis.com https://*.firebaseio.com https://*.firebaseapp.com https://*.firebase.com wss://*.firebaseio.com https://api.razorpay.com https://lux.razorpay.com https://checkout.razorpay.com https://cdn.razorpay.com https://api.openai.com https://www.google-analytics.com https://www.googletagmanager.com",
+              "connect-src 'self' https://accounts.google.com https://*.googleapis.com https://securetoken.googleapis.com https://*.firebaseio.com https://*.firebaseapp.com https://*.firebase.com wss://*.firebaseio.com https://api.razorpay.com https://lux.razorpay.com https://lumberjack.razorpay.com https://checkout.razorpay.com https://cdn.razorpay.com https://api.openai.com https://www.google-analytics.com https://www.googletagmanager.com",
               "frame-src 'self' https://accounts.google.com https://*.firebaseapp.com https://checkout.razorpay.com https://api.razorpay.com",
               "object-src 'none'",
               "base-uri 'self'",
