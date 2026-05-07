@@ -93,7 +93,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               subscription: "free"
             };
             try {
-              await setDoc(doc(db, "users", user.uid), newData);
+              await setDoc(doc(db!, "users", user.uid), newData);
               updateUserData(newData);
             } catch (error) {
               console.error("Firestore Permission or Fetch Error:", error);
