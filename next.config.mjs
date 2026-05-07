@@ -37,13 +37,12 @@ const nextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              // unsafe-eval needed for Next.js dev HMR + Razorpay checkout
-              `script-src 'self' 'unsafe-inline' 'unsafe-eval' https://checkout.razorpay.com https://cdn.razorpay.com https://*.googleapis.com https://apis.google.com https://www.googletagmanager.com`,
-              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-              "font-src 'self' https://fonts.gstatic.com",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https:",
+              "style-src 'self' 'unsafe-inline' https:",
+              "font-src 'self' https://fonts.gstatic.com data:",
               "img-src 'self' data: https: blob:",
-              "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebaseapp.com wss://*.firebaseio.com https://api.razorpay.com https://lux.razorpay.com https://checkout.razorpay.com https://cdn.razorpay.com https://api.openai.com https://www.google-analytics.com https://www.googletagmanager.com",
-              "frame-src https://checkout.razorpay.com https://api.razorpay.com https://accounts.google.com https://*.firebaseapp.com",
+              "connect-src 'self' https: wss:",
+              "frame-src 'self' https:",
               "object-src 'none'",
               "base-uri 'self'",
               "form-action 'self'",
