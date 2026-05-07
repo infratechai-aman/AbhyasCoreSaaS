@@ -118,7 +118,7 @@ function RegisterForm() {
 
       // check if user document already exists
       const userDoc = await getDoc(doc(db, "users", user.uid));
-      if (!userDoc.exists()) {
+      if (!userDoc.exists() || !userDoc.data()?.targetExam) {
         // Use the referral code from the URL directly.
         let finalReferredBy = referredBy ? referredBy.trim() : null;
 
@@ -131,7 +131,7 @@ function RegisterForm() {
           questionsSolved: 0,
           mocksCompleted: 0,
           subscription: "free",
-          referredBy: finalReferredBy
+          ...(finalReferredBy && { referredBy: finalReferredBy })
         }, { merge: true });
       }
       
