@@ -62,10 +62,6 @@ export function OnboardingModal() {
         streak: 0,
         questionsSolved: 0,
         mocksCompleted: 0,
-        subscription: {
-          plan: "Free",
-          status: "none",
-        },
         usage: {
           lastTrackedDate: now.toISOString().split("T")[0],
           examsAttemptedToday: 0,
