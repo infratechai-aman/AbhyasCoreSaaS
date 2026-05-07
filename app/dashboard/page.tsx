@@ -137,19 +137,25 @@ function DashboardContent() {
   };
 
 
-  // If redirect hit from landing page with checkout intent — use useEffect with ref guard
+  // Auto-prompt payment for referred users OR if redirect hit from landing page
   const checkoutTriggered = useRef(false);
   const checkoutIntent = searchParams?.get("checkout");
   useEffect(() => {
-    if (checkoutIntent && !isProcessingPayment && !isPremium && !checkoutTriggered.current) {
-      checkoutTriggered.current = true;
-      if (checkoutIntent === "Pro Monthly") {
-        setTimeout(() => handleCheckout("monthly"), 500);
-      } else if (checkoutIntent === "Pro Yearly") {
-        setTimeout(() => handleCheckout("yearly"), 500);
+    if (!isProcessingPayment && !isPremium && !checkoutTriggered.current) {
+      if (userData?.referredBy && userData?.subscription?.plan === "Free") {
+        checkoutTriggered.current = true;
+        // Delay slightly so the dashboard is visible before the Razorpay overlay pops up
+        setTimeout(() => handleCheckout("monthly"), 1200); 
+      } else if (checkoutIntent) {
+        checkoutTriggered.current = true;
+        if (checkoutIntent === "Pro Monthly") {
+          setTimeout(() => handleCheckout("monthly"), 500);
+        } else if (checkoutIntent === "Pro Yearly") {
+          setTimeout(() => handleCheckout("yearly"), 500);
+        }
       }
     }
-  }, [checkoutIntent, isProcessingPayment, isPremium]);
+  }, [checkoutIntent, isProcessingPayment, isPremium, userData]);
 
   const startTest = () => {
     setGenerating(true);
