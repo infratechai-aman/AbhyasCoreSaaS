@@ -37,15 +37,20 @@ export function OnboardingModal() {
 
   const handleExamSelect = (exam: "JEE" | "NEET") => {
     setSelectedExam(exam);
-    handleFinalize(exam);
+    if (userData?.referredBy) {
+      handleFinalize(false);
+    } else {
+      setStep(4); // Move to trial page
+    }
   };
 
-  // Final submit: save profile
-  const handleFinalize = async (exam: "JEE" | "NEET") => {
-    if (!user || !db || saving) return;
+  // Final submit: save profile + activate 7-day trial
+  const handleFinalize = async (claimTrial: boolean) => {
+    if (!user || !db || saving || !selectedExam) return;
     setSaving(true);
     
     const now = new Date();
+    const trialExpiry = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000); // +7 days
 
     try {
       await setDoc(doc(db, "users", user.uid), {
@@ -71,8 +76,12 @@ export function OnboardingModal() {
           completedExamIds: [],
         }
       }, { merge: true });
-      // Force reload to refresh auth context and dashboard syllabus
-      window.location.reload();
+      if (claimTrial) {
+        window.location.href = "/dashboard?checkout=Pro%20Monthly";
+      } else {
+        // Force reload to refresh auth context and dashboard syllabus
+        window.location.reload();
+      }
     } catch (error) {
       console.error("Failed to save onboarding data", error);
       alert("Something went wrong. Please try again.");
@@ -80,7 +89,7 @@ export function OnboardingModal() {
     }
   };
 
-  const progress = (step / 3) * 100;
+  const progress = (step / 4) * 100;
 
   return (
     <div className="fixed inset-0 z-[200] flex items-center justify-center bg-slate-900/60 backdrop-blur-md p-4">
@@ -241,7 +250,81 @@ export function OnboardingModal() {
             </div>
           )}
 
+          {/* ═══════════════ STEP 4: 7-DAY TRIAL OFFER ═══════════════ */}
+          {step === 4 && (
+            <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
+              {/* Celebration icon */}
+              <div className="relative mx-auto w-20 h-20 mb-6">
+                <div className="absolute inset-0 bg-amber-400/20 rounded-full blur-[30px] animate-pulse" />
+                <div className="relative w-20 h-20 bg-gradient-to-br from-amber-400 to-orange-500 rounded-[24px] flex items-center justify-center shadow-2xl shadow-amber-500/30">
+                  <Gift className="w-10 h-10 text-white" />
+                </div>
+              </div>
 
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-amber-700 text-[10px] font-bold tracking-[0.2em] uppercase mb-4">
+                <Star className="w-3.5 h-3.5 fill-amber-500" /> Welcome Gift
+              </div>
+
+              <h2 className="text-[28px] font-display font-bold text-slate-900 leading-tight mb-2">
+                🎉 Claim Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-500">₹7 for 7 Days Trial</span>
+              </h2>
+              <p className="text-slate-500 text-[14px] mb-8 max-w-sm mx-auto">
+                Get full access to every premium feature for 7 days. Auto-renews at ₹49/month after.
+              </p>
+
+              {/* Pro features list */}
+              <div className="bg-slate-50 rounded-2xl border border-slate-200/60 p-5 mb-8 text-left">
+                <div className="text-[11px] font-bold text-slate-400 uppercase tracking-[0.15em] mb-4">Everything Unlocked for 7 Days</div>
+                <div className="space-y-3">
+                  {[
+                    "Unlimited mock tests with repeats",
+                    "Market Practice & Examination Repository",
+                    "40,000 AI Tutor tokens per day",
+                    "5 Custom Exams per day",
+                    "Deep analytics & rank prediction",
+                  ].map((feat) => (
+                    <div key={feat} className="flex items-center gap-3">
+                      <div className="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3" />
+                      </div>
+                      <span className="text-[13px] font-medium text-slate-700">{feat}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-3 w-full">
+                {/* Claim Trial CTA */}
+                <button 
+                  onClick={() => handleFinalize(true)}
+                  disabled={saving}
+                  className="w-full flex items-center justify-center gap-3 py-4 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 disabled:opacity-50 text-white rounded-[16px] font-bold text-[16px] transition-all shadow-xl shadow-amber-500/25 hover:scale-[1.01]"
+                >
+                  <Crown className="w-5 h-5" /> Pay ₹7 to Start Trial
+                </button>
+
+                {/* Skip Trial Option */}
+                <button 
+                  onClick={() => handleFinalize(false)}
+                  disabled={saving}
+                  className="w-full py-3 text-slate-400 hover:text-slate-600 text-[13px] font-semibold transition-colors"
+                >
+                  Skip and continue with Free plan →
+                </button>
+              </div>
+
+              {/* Trust badge */}
+              <div className="mt-5 flex items-center justify-center gap-2 text-[10px] text-slate-400 font-bold">
+                <Shield className="w-3 h-3" /> Secure checkout • Auto-renews after 7 days • Cancel anytime
+              </div>
+
+              {saving && (
+                <div className="mt-4 text-[13px] font-bold text-amber-600 animate-pulse">
+                  Activating your trial access...
+                </div>
+              )}
+            </div>
+          )}
           
         </div>
       </div>
