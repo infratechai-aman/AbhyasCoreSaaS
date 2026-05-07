@@ -9,7 +9,7 @@ import {
   signInWithPopup
 } from "firebase/auth";
 import { auth, db } from "./firebase";
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc, onSnapshot } from "firebase/firestore";
 
 interface AuthContextType {
   user: User | null;
@@ -64,15 +64,21 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       return;
     }
 
-    const unsubscribe = onAuthStateChanged(auth, async (user) => {
+    let unsubscribeSnapshot: (() => void) | null = null;
+
+    const unsubscribeAuth = onAuthStateChanged(auth, async (user) => {
       setUser(user);
       
+      if (unsubscribeSnapshot) {
+        unsubscribeSnapshot();
+        unsubscribeSnapshot = null;
+      }
+
       if (user && db) {
-        try {
-          // Fetch additional user data from Firestore
-          const userDoc = await getDoc(doc(db, "users", user.uid));
+        unsubscribeSnapshot = onSnapshot(doc(db, "users", user.uid), async (userDoc) => {
           if (userDoc.exists()) {
             updateUserData(userDoc.data());
+            setLoading(false);
           } else {
             // Initialize user doc if it doesn't exist
             const newData = {
@@ -86,11 +92,16 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               mocksCompleted: 0,
               subscription: "free"
             };
-            await setDoc(doc(db, "users", user.uid), newData);
-            updateUserData(newData);
+            try {
+              await setDoc(doc(db, "users", user.uid), newData);
+              updateUserData(newData);
+            } catch (error) {
+              console.error("Firestore Permission or Fetch Error:", error);
+            }
+            setLoading(false);
           }
-        } catch (error) {
-          console.error("Firestore Permission or Fetch Error:", error);
+        }, (error) => {
+          console.error("Firestore Snapshot Error:", error);
           // Use cached data if available, otherwise provide defaults
           const cachedFallback = typeof window !== "undefined" 
             ? (() => { try { const c = sessionStorage.getItem("abhyas_userData"); return c ? JSON.parse(c) : null; } catch { return null; } })() 
@@ -98,8 +109,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
           
           if (!cachedFallback) {
             updateUserData({
-              name: user.displayName || "Aspirant",
-              email: user.email,
+              name: user?.displayName || "Aspirant",
+              email: user?.email,
               targetExam: null,
               academicClass: null,
               streak: 0,
@@ -107,16 +118,18 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               mocksCompleted: 0
             });
           }
-          // If cached data exists, keep it (don't overwrite with defaults)
-        }
+          setLoading(false);
+        });
       } else {
         updateUserData(null);
+        setLoading(false);
       }
-      
-      setLoading(false);
     });
 
-    return () => unsubscribe();
+    return () => {
+      unsubscribeAuth();
+      if (unsubscribeSnapshot) unsubscribeSnapshot();
+    };
   }, []);
 
   const logout = async () => {
