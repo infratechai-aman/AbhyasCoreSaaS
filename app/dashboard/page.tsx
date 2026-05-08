@@ -146,6 +146,7 @@ function DashboardContent() {
   // Auto-prompt payment for referred users OR if redirect hit from onboarding/landing page
   const checkoutTriggered = useRef(false);
   const checkoutIntent = searchParams?.get("checkout");
+  const isReferredFromUrl = searchParams?.get("referred") === "1";
   useEffect(() => {
     // IMPORTANT: Wait until user session and userData are fully loaded before triggering checkout
     if (!user || !userData) return;
@@ -160,20 +161,17 @@ function DashboardContent() {
     if (!isFreeUser) return;
 
     if (checkoutIntent) {
-      // Triggered by redirect from onboarding (both referred and general users)
       checkoutTriggered.current = true;
-      if (checkoutIntent === "Pro Monthly" || checkoutIntent === "Pro Yearly") {
-        // For referred users, show the Pro modal instead of directly opening Razorpay
-        if (userData?.referredBy) {
-          setSelectedProPlan(checkoutIntent === "Pro Yearly" ? "yearly" : "monthly");
-          setTimeout(() => setShowProModal(true), 600);
-        } else {
-          // General users coming from ₹7 trial — open Razorpay directly
-          if (checkoutIntent === "Pro Monthly") {
-            setTimeout(() => handleCheckout("monthly"), 800);
-          } else {
-            setTimeout(() => handleCheckout("yearly"), 800);
-          }
+      if (isReferredFromUrl || userData?.referredBy) {
+        // Referred users: show the Pro modal first
+        setSelectedProPlan(checkoutIntent === "Pro Yearly" ? "yearly" : "monthly");
+        setTimeout(() => setShowProModal(true), 600);
+      } else {
+        // General users coming from ₹7 trial — open Razorpay directly
+        if (checkoutIntent === "Pro Monthly") {
+          setTimeout(() => handleCheckout("monthly"), 800);
+        } else if (checkoutIntent === "Pro Yearly") {
+          setTimeout(() => handleCheckout("yearly"), 800);
         }
       }
     } else if (userData?.referredBy) {

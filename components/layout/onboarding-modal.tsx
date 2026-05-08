@@ -73,8 +73,8 @@ export function OnboardingModal() {
         }
       }, { merge: true });
       if (isReferred) {
-        // Referred users: force ₹49 checkout immediately
-        window.location.href = "/dashboard?checkout=Pro%20Monthly";
+        // Referred users: force ₹49 checkout via Pro modal
+        window.location.href = "/dashboard?checkout=Pro%20Monthly&referred=1";
       } else if (claimTrial) {
         // General users claiming ₹7 trial
         window.location.href = "/dashboard?checkout=Pro%20Monthly";
