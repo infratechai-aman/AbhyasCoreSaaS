@@ -141,28 +141,32 @@ function DashboardContent() {
   const checkoutTriggered = useRef(false);
   const checkoutIntent = searchParams?.get("checkout");
   useEffect(() => {
-    if (!isProcessingPayment && !isPremium && !checkoutTriggered.current) {
-      // Check if user is on free tier (handle both string "free" and object { plan: "Free" } formats)
-      const isFreeUser = !userData?.subscription || 
-        userData?.subscription === "free" || 
-        userData?.subscription?.plan === "Free" ||
-        userData?.subscription?.plan === "free";
+    // IMPORTANT: Wait until user session and userData are fully loaded before triggering checkout
+    if (!user || !userData) return;
+    if (isProcessingPayment || isPremium || checkoutTriggered.current) return;
 
-      if (checkoutIntent && isFreeUser) {
-        // Triggered by redirect from onboarding (both referred and general users)
-        checkoutTriggered.current = true;
-        if (checkoutIntent === "Pro Monthly") {
-          setTimeout(() => handleCheckout("monthly"), 800);
-        } else if (checkoutIntent === "Pro Yearly") {
-          setTimeout(() => handleCheckout("yearly"), 800);
-        }
-      } else if (userData?.referredBy && isFreeUser && !checkoutIntent) {
-        // Referred user landed on dashboard without explicit checkout intent — auto-prompt
-        checkoutTriggered.current = true;
-        setTimeout(() => handleCheckout("monthly"), 1200);
+    // Check if user is on free tier (handle both string "free" and object { plan: "Free" } formats)
+    const isFreeUser = !userData?.subscription || 
+      userData?.subscription === "free" || 
+      userData?.subscription?.plan === "Free" ||
+      userData?.subscription?.plan === "free";
+
+    if (!isFreeUser) return;
+
+    if (checkoutIntent) {
+      // Triggered by redirect from onboarding (both referred and general users)
+      checkoutTriggered.current = true;
+      if (checkoutIntent === "Pro Monthly") {
+        setTimeout(() => handleCheckout("monthly"), 800);
+      } else if (checkoutIntent === "Pro Yearly") {
+        setTimeout(() => handleCheckout("yearly"), 800);
       }
+    } else if (userData?.referredBy) {
+      // Referred user landed on dashboard without explicit checkout intent — auto-prompt
+      checkoutTriggered.current = true;
+      setTimeout(() => handleCheckout("monthly"), 1200);
     }
-  }, [checkoutIntent, isProcessingPayment, isPremium, userData]);
+  }, [checkoutIntent, isProcessingPayment, isPremium, userData, user]);
 
   const startTest = () => {
     setGenerating(true);
