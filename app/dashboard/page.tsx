@@ -18,7 +18,11 @@ import {
   Sparkles,
   Zap,
   ChevronRight,
-  LayoutDashboard
+  LayoutDashboard,
+  Shield,
+  Check,
+  Star,
+  Rocket
 } from "lucide-react";
 
 function DashboardContent() {
@@ -33,6 +37,8 @@ function DashboardContent() {
   const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
   const [difficulty, setDifficulty] = useState("Standard");
   const [quickSubject, setQuickSubject] = useState("Full PCMB Syllabus");
+  const [showProModal, setShowProModal] = useState(false);
+  const [selectedProPlan, setSelectedProPlan] = useState<"monthly" | "yearly">("monthly");
 
   // Auto-dismiss toast after 5 seconds
   useEffect(() => {
@@ -156,15 +162,24 @@ function DashboardContent() {
     if (checkoutIntent) {
       // Triggered by redirect from onboarding (both referred and general users)
       checkoutTriggered.current = true;
-      if (checkoutIntent === "Pro Monthly") {
-        setTimeout(() => handleCheckout("monthly"), 800);
-      } else if (checkoutIntent === "Pro Yearly") {
-        setTimeout(() => handleCheckout("yearly"), 800);
+      if (checkoutIntent === "Pro Monthly" || checkoutIntent === "Pro Yearly") {
+        // For referred users, show the Pro modal instead of directly opening Razorpay
+        if (userData?.referredBy) {
+          setSelectedProPlan(checkoutIntent === "Pro Yearly" ? "yearly" : "monthly");
+          setTimeout(() => setShowProModal(true), 600);
+        } else {
+          // General users coming from ₹7 trial — open Razorpay directly
+          if (checkoutIntent === "Pro Monthly") {
+            setTimeout(() => handleCheckout("monthly"), 800);
+          } else {
+            setTimeout(() => handleCheckout("yearly"), 800);
+          }
+        }
       }
     } else if (userData?.referredBy) {
-      // Referred user landed on dashboard without explicit checkout intent — auto-prompt
+      // Referred user landed on dashboard without explicit checkout intent — show Pro modal
       checkoutTriggered.current = true;
-      setTimeout(() => handleCheckout("monthly"), 1200);
+      setTimeout(() => setShowProModal(true), 1200);
     }
   }, [checkoutIntent, isProcessingPayment, isPremium, userData, user]);
 
@@ -438,6 +453,134 @@ function DashboardContent() {
                )}
             </div>
          </div>
+      </div>
+    )}
+
+    {/* ═══════════════ PRO UPGRADE MODAL (for referred users) ═══════════════ */}
+    {showProModal && (
+      <div className="fixed inset-0 z-[200] flex items-center justify-center bg-slate-900/60 backdrop-blur-md p-4">
+        <div className="bg-white rounded-[32px] w-full max-w-xl shadow-2xl overflow-hidden flex flex-col animate-in zoom-in-95 duration-300 relative">
+          {/* Close button */}
+          <button 
+            onClick={() => setShowProModal(false)}
+            className="absolute top-5 right-5 z-10 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-400 hover:text-slate-600 transition-colors"
+          >
+            <X className="w-4 h-4" />
+          </button>
+
+          <div className="p-10 pt-12 flex flex-col items-center text-center">
+            {/* Pro Crown icon */}
+            <div className="relative mx-auto w-20 h-20 mb-6">
+              <div className="absolute inset-0 bg-indigo-500/20 rounded-full blur-[30px] animate-pulse" />
+              <div className="relative w-20 h-20 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-[24px] flex items-center justify-center shadow-2xl shadow-indigo-500/30">
+                <Rocket className="w-10 h-10 text-white" />
+              </div>
+            </div>
+
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-[10px] font-bold tracking-[0.2em] uppercase mb-4">
+              <Star className="w-3.5 h-3.5 fill-indigo-500" /> Exclusive Invite
+            </div>
+
+            <h2 className="text-[28px] font-display font-bold text-slate-900 leading-tight mb-2">
+              🚀 Unlock <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">AbhyasCore Pro</span>
+            </h2>
+            <p className="text-slate-500 text-[14px] mb-6 max-w-sm mx-auto">
+              You&apos;ve been invited! Get unlimited access to every premium feature with your exclusive referral benefit.
+            </p>
+
+            {/* Plan Selection */}
+            <div className="grid grid-cols-2 gap-3 w-full mb-6">
+              <button
+                onClick={() => setSelectedProPlan("monthly")}
+                className={`relative p-4 rounded-2xl border-2 text-left transition-all ${
+                  selectedProPlan === "monthly"
+                    ? "border-indigo-600 bg-indigo-50 shadow-lg shadow-indigo-500/10"
+                    : "border-slate-200 bg-white hover:border-slate-300"
+                }`}
+              >
+                <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Monthly</div>
+                <div className="flex items-baseline gap-1">
+                  <span className={`text-[24px] font-black ${selectedProPlan === "monthly" ? "text-indigo-700" : "text-slate-800"}`}>₹49</span>
+                  <span className="text-[12px] text-slate-400 font-semibold">/month</span>
+                </div>
+                {selectedProPlan === "monthly" && (
+                  <div className="absolute top-3 right-3 w-5 h-5 rounded-full bg-indigo-600 flex items-center justify-center">
+                    <Check className="w-3 h-3 text-white" />
+                  </div>
+                )}
+              </button>
+              <button
+                onClick={() => setSelectedProPlan("yearly")}
+                className={`relative p-4 rounded-2xl border-2 text-left transition-all ${
+                  selectedProPlan === "yearly"
+                    ? "border-indigo-600 bg-indigo-50 shadow-lg shadow-indigo-500/10"
+                    : "border-slate-200 bg-white hover:border-slate-300"
+                }`}
+              >
+                <div className="absolute -top-2.5 right-3 px-2 py-0.5 rounded-full bg-emerald-500 text-white text-[9px] font-bold tracking-wider">SAVE 32%</div>
+                <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Yearly</div>
+                <div className="flex items-baseline gap-1">
+                  <span className={`text-[24px] font-black ${selectedProPlan === "yearly" ? "text-indigo-700" : "text-slate-800"}`}>₹399</span>
+                  <span className="text-[12px] text-slate-400 font-semibold">/year</span>
+                </div>
+                {selectedProPlan === "yearly" && (
+                  <div className="absolute top-3 right-3 w-5 h-5 rounded-full bg-indigo-600 flex items-center justify-center">
+                    <Check className="w-3 h-3 text-white" />
+                  </div>
+                )}
+              </button>
+            </div>
+
+            {/* Pro features list */}
+            <div className="bg-slate-50 rounded-2xl border border-slate-200/60 p-5 mb-6 text-left w-full">
+              <div className="text-[11px] font-bold text-slate-400 uppercase tracking-[0.15em] mb-4">Everything You Get with Pro</div>
+              <div className="space-y-3">
+                {[
+                  "Unlimited mock tests with repeats",
+                  "Market Practice & Examination Repository",
+                  "40,000 AI Tutor tokens per day",
+                  "5 Custom Exams per day",
+                  "Deep analytics & rank prediction",
+                  "Priority support & early access to features",
+                ].map((feat) => (
+                  <div key={feat} className="flex items-center gap-3">
+                    <div className="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
+                      <Check className="w-3 h-3" />
+                    </div>
+                    <span className="text-[13px] font-medium text-slate-700">{feat}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-3 w-full">
+              {/* Go Pro CTA */}
+              <button 
+                onClick={() => {
+                  setShowProModal(false);
+                  handleCheckout(selectedProPlan);
+                }}
+                disabled={isProcessingPayment}
+                className="w-full flex items-center justify-center gap-3 py-4 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 disabled:opacity-50 text-white rounded-[16px] font-bold text-[16px] transition-all shadow-xl shadow-indigo-500/25 hover:scale-[1.01]"
+              >
+                <Crown className="w-5 h-5" /> Go Pro Now — ₹{selectedProPlan === "yearly" ? "399/yr" : "49/mo"}
+              </button>
+
+              {/* Skip Option */}
+              <button 
+                onClick={() => setShowProModal(false)}
+                className="w-full py-3 text-slate-400 hover:text-slate-600 text-[13px] font-semibold transition-colors"
+              >
+                Maybe later, continue with Free plan →
+              </button>
+            </div>
+
+            {/* Trust badge */}
+            <div className="mt-5 flex items-center justify-center gap-2 text-[10px] text-slate-400 font-bold">
+              <Shield className="w-3 h-3" /> Secure checkout • Cancel anytime • Instant activation
+            </div>
+          </div>
+        </div>
       </div>
     )}
 
