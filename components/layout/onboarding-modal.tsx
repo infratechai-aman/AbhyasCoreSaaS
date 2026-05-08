@@ -38,19 +38,19 @@ export function OnboardingModal() {
   const handleExamSelect = (exam: "JEE" | "NEET") => {
     setSelectedExam(exam);
     if (userData?.referredBy) {
-      handleFinalize(false);
+      // Referred users skip trial — go straight to ₹49 checkout
+      handleFinalize(false, true);
     } else {
       setStep(4); // Move to trial page
     }
   };
 
-  // Final submit: save profile + activate 7-day trial
-  const handleFinalize = async (claimTrial: boolean) => {
+  // Final submit: save profile + optionally trigger checkout
+  const handleFinalize = async (claimTrial: boolean, isReferred: boolean = false) => {
     if (!user || !db || saving || !selectedExam) return;
     setSaving(true);
     
     const now = new Date();
-    const trialExpiry = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000); // +7 days
 
     try {
       await setDoc(doc(db, "users", user.uid), {
@@ -72,10 +72,14 @@ export function OnboardingModal() {
           completedExamIds: [],
         }
       }, { merge: true });
-      if (claimTrial) {
+      if (isReferred) {
+        // Referred users: force ₹49 checkout immediately
+        window.location.href = "/dashboard?checkout=Pro%20Monthly";
+      } else if (claimTrial) {
+        // General users claiming ₹7 trial
         window.location.href = "/dashboard?checkout=Pro%20Monthly";
       } else {
-        // Force reload to refresh auth context and dashboard syllabus
+        // General users skipping trial
         window.location.reload();
       }
     } catch (error) {
