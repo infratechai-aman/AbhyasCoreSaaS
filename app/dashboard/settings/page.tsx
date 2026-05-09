@@ -27,8 +27,9 @@ export default function SettingsPage() {
 
   // Calculate next billing date
   const nextBillingDate = useMemo(() => {
-    if (!isPro || !sub?.activatedAt) return null;
-    const activated = new Date(sub.activatedAt);
+    if (!isPro) return null;
+    const activatedStr = sub?.activatedAt || userData?.createdAt;
+    const activated = activatedStr ? new Date(activatedStr) : new Date();
     const now = new Date();
     
     if (isYearly) {
@@ -52,7 +53,7 @@ export default function SettingsPage() {
       }
       return next;
     }
-  }, [isPro, sub?.activatedAt, isYearly, isWeekly]);
+  }, [isPro, sub?.activatedAt, userData?.createdAt, isYearly, isWeekly]);
 
   const daysUntilBilling = useMemo(() => {
     if (!nextBillingDate) return null;
@@ -167,31 +168,33 @@ export default function SettingsPage() {
               <div className="p-6 pt-5">
                 <p className="text-[12px] text-slate-500 font-bold uppercase tracking-wider mb-4">Payment Info</p>
 
-                {isPro && nextBillingDate ? (
+                {isPro ? (
                   <div className="space-y-0">
                     {/* Next Payment */}
-                    <div className="flex items-start gap-4 p-4 rounded-xl border border-slate-200 mb-3">
-                      <div className="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
-                        <Calendar className="w-5 h-5" />
-                      </div>
-                      <div className="flex-1">
-                        <div className="text-[14px] font-bold text-slate-900 mb-0.5">Next payment</div>
-                        <div className="text-[13px] text-slate-700 font-medium">{formatDate(nextBillingDate)}</div>
-                        <div className="text-[11px] text-slate-500 mt-1 flex items-center gap-1.5">
-                          <Clock className="w-3 h-3" />
-                          {daysUntilBilling === 0 
-                            ? "Due today"
-                            : daysUntilBilling === 1 
-                              ? "Due tomorrow"
-                              : `${daysUntilBilling} days remaining`
-                          }
+                    {nextBillingDate && (
+                      <div className="flex items-start gap-4 p-4 rounded-xl border border-slate-200 mb-3">
+                        <div className="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
+                          <Calendar className="w-5 h-5" />
+                        </div>
+                        <div className="flex-1">
+                          <div className="text-[14px] font-bold text-slate-900 mb-0.5">Next payment</div>
+                          <div className="text-[13px] text-slate-700 font-medium">{formatDate(nextBillingDate)}</div>
+                          <div className="text-[11px] text-slate-500 mt-1 flex items-center gap-1.5">
+                            <Clock className="w-3 h-3" />
+                            {daysUntilBilling === 0 
+                              ? "Due today"
+                              : daysUntilBilling === 1 
+                                ? "Due tomorrow"
+                                : `${daysUntilBilling} days remaining`
+                            }
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          <span className="text-[18px] font-display font-black text-slate-900">{planPrice}</span>
+                          <div className="text-[10px] text-slate-400 font-medium">/{billingCycle}</div>
                         </div>
                       </div>
-                      <div className="text-right">
-                        <span className="text-[18px] font-display font-black text-slate-900">{planPrice}</span>
-                        <div className="text-[10px] text-slate-400 font-medium">/{billingCycle}</div>
-                      </div>
-                    </div>
+                    )}
 
                     {/* Subscription ID */}
                     {sub?.razorpaySubscriptionId && (
