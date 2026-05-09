@@ -453,7 +453,7 @@ function DashboardContent() {
     {/* ═══════════════ PRO UPGRADE MODAL (for referred users) ═══════════════ */}
     {showProModal && (
       <div className="fixed inset-0 z-[200] flex items-center justify-center bg-slate-900/60 backdrop-blur-md p-4">
-        <div className="bg-white rounded-[24px] md:rounded-[32px] w-full max-w-md shadow-2xl overflow-y-auto max-h-[90vh] flex flex-col animate-in zoom-in-95 duration-300 relative">
+        <div className="bg-white rounded-[24px] md:rounded-[32px] w-full max-w-md shadow-2xl overflow-y-auto max-h-[90vh] flex flex-col animate-in zoom-in-95 duration-300 relative scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
           {/* Close button */}
           <button 
             onClick={() => setShowProModal(false)}
