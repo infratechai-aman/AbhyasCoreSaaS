@@ -190,7 +190,7 @@ export async function POST(req: Request) {
         if (refund) {
           // The refund entity contains the payment_id; find the original payment's notes
           const paymentId = refund.payment_id;
-          console.log('[webhook] Refund event:', eventType, 'paymentId:', paymentId);
+          console.info('[webhook] Refund event:', eventType, 'paymentId:', paymentId);
           
           // Look up the user by payment ID across all users
           if (paymentId) {
@@ -206,7 +206,7 @@ export async function POST(req: Request) {
                 'subscription.refundId': refund.id,
                 updatedAt: new Date().toISOString(),
               });
-              console.log('[webhook] Downgraded user after refund:', userDoc.id);
+              console.info('[webhook] Downgraded user after refund:', userDoc.id);
             }
           }
         }
@@ -214,7 +214,7 @@ export async function POST(req: Request) {
       }
 
       default:
-        console.log('[webhook] Unhandled event type:', eventType);
+        console.info('[webhook] Unhandled event type:', eventType);
     }
 
     // Record that we processed this event (idempotency)

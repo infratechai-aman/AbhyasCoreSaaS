@@ -72,6 +72,21 @@ export async function POST(request: Request) {
     });
 
     const content = completion.choices[0]?.message?.content ?? "{}";
+
+    // Track token usage (MED-11: was missing, making analyze calls "free")
+    const tokensUsed = completion.usage?.total_tokens || Math.ceil(sanitizedStr.length / 4 + (content.length / 4));
+    try {
+      const { adminDb } = await import("@/lib/firebase-admin");
+      if (adminDb) {
+        const { FieldValue } = await import("firebase-admin/firestore");
+        const today = new Date().toISOString().split("T")[0];
+        adminDb.collection("users").doc(authResult.uid).update({
+          "usage.aiTokensUsedToday": FieldValue.increment(tokensUsed),
+          "usage.lastTrackedDate": today,
+        }).catch(console.error);
+      }
+    } catch {}
+
     return NextResponse.json(JSON.parse(content));
   } catch (error) {
     return NextResponse.json(

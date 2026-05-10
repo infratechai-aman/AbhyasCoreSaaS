@@ -92,7 +92,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               streak: 0,
               questionsSolved: 0,
               mocksCompleted: 0,
-              subscription: "free"
+              subscription: { plan: "Free", status: "none" }
             };
             try {
               await setDoc(doc(db!, "users", user.uid), newData);
@@ -148,6 +148,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       await signInWithPopup(auth, provider);
     } catch (error) {
       console.error("Google Sign-In Error:", error);
+      throw error;
     }
   };
 

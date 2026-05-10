@@ -56,15 +56,19 @@ export async function saveTestResult(userId: string, payload: any) {
       "usage.completedExamIds": arrayUnion(payload.chapterId || "unknown_exam")
     };
 
-    // Tier unlock logic
-    if (payload.chapterId && payload.chapterId.startsWith('tiered_') && payload.correctCount >= 45) {
-      const tierMatch = payload.chapterId.split('_')[1];
-      if (tierMatch) {
-         const passedTier = parseInt(tierMatch, 10);
-         const currentMax = userData.maxTierPassed || 0;
-         if (passedTier > currentMax) {
-            updates.maxTierPassed = passedTier;
-         }
+    // Tier unlock logic — use 75% correct threshold (works for any exam size)
+    if (payload.chapterId && payload.chapterId.startsWith('tiered_')) {
+      const questionsCount = payload.totalQuestions || payload.questions?.length || 0;
+      const threshold = Math.ceil(questionsCount * 0.75);
+      if (payload.correctCount >= threshold && questionsCount > 0) {
+        const tierMatch = payload.chapterId.split('_')[1];
+        if (tierMatch) {
+           const passedTier = parseInt(tierMatch, 10);
+           const currentMax = userData.maxTierPassed || 0;
+           if (passedTier > currentMax) {
+              updates.maxTierPassed = passedTier;
+           }
+        }
       }
     }
 

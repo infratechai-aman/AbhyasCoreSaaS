@@ -15,6 +15,12 @@ const spaceGrotesk = Space_Grotesk({
   display: "swap",
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "AbhyasCore — AI-Powered Mock Tests for JEE & NEET",
   description:

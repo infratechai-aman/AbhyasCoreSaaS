@@ -110,7 +110,7 @@ export function DashboardShell({
           </div>
         </div>
 
-        <nav className="flex-1 px-4 py-6 space-y-1 overflow-y-auto" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+        <nav className="flex-1 px-4 py-6 space-y-1 overflow-y-auto">
           <style>{`nav::-webkit-scrollbar { display: none; }`}</style>
           {navItems.map((item) => {
             const Icon = item.icon;
@@ -199,9 +199,11 @@ export function DashboardShell({
               </div>
             </div>
 
-            <button onClick={quickTestHandler} className="hidden md:flex items-center justify-center h-9 px-5 rounded-lg bg-indigo-600 text-white text-[13px] font-semibold shadow-[0_2px_8px_rgba(79,70,229,0.25)] hover:bg-indigo-700 transition-all hover:scale-[1.02]">
-              Quick Test
-            </button>
+            {quickTestHandler && (
+              <button onClick={quickTestHandler} className="hidden md:flex items-center justify-center h-9 px-5 rounded-lg bg-indigo-600 text-white text-[13px] font-semibold shadow-[0_2px_8px_rgba(79,70,229,0.25)] hover:bg-indigo-700 transition-all hover:scale-[1.02]">
+                Quick Test
+              </button>
+            )}
           </div>
         </header>
 

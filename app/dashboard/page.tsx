@@ -7,6 +7,7 @@ import { authenticatedFetch } from "@/lib/api";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
+import { usePremium } from "@/lib/hooks/usePremium";
 import { useRazorpay } from "@/lib/hooks/useRazorpay";
 import { X, CheckCircle, AlertTriangle } from "lucide-react";
 import { 
@@ -83,8 +84,8 @@ function DashboardContent() {
     }
   }, [user, userData]);
 
-  // Pro features check
-  const isPremium = userData?.subscription?.plan === "Pro Monthly" || userData?.subscription?.plan === "Pro Yearly" || userData?.subscription?.plan === "Weekly Pass" || userData?.subscription?.plan === "Pro Trial";
+  // Pro features check — use centralized hook that handles expiry
+  const { isPro: isPremium } = usePremium();
 
   const handleCheckout = async (planType: "monthly" | "yearly" = "monthly") => {
     if (isDebouncing) return;
@@ -359,16 +360,21 @@ function DashboardContent() {
                <button onClick={() => setToast({ message: "Full calendar schedule is coming soon!", type: "success" })} className="text-[9px] uppercase tracking-[0.1em] font-bold text-indigo-600 hover:text-indigo-700">Full Schedule</button>
              </div>
 
-             <div className="space-y-4">
-                {(userData?.targetExam === "NEET" ? [
-                  { month: "Jan", day: "15", title: "NEET 2026 Registration Opens", desc: "Application Window • nta.ac.in", color: "bg-blue-500" },
-                  { month: "Apr", day: "25", title: "NEET 2026 Admit Card", desc: "Download from exams.nta.ac.in", color: "bg-orange-500" },
-                  { month: "May", day: "03", title: "NEET UG 2026 Exam", desc: "2:00 PM – 5:00 PM IST • Offline", color: "bg-emerald-500" }
-                ] : [
-                  { month: "Jan", day: "21", title: "JEE Main 2026 Session 1", desc: "Jan 21 – 30 • B.E./B.Tech", color: "bg-blue-500" },
-                  { month: "Apr", day: "02", title: "JEE Main 2026 Session 2", desc: "Apr 2 – 8 • B.E./B.Tech", color: "bg-orange-500" },
-                  { month: "May", day: "17", title: "JEE Advanced 2026", desc: "Paper 1 & 2 • IIT Exam", color: "bg-emerald-500" }
-                ]).map((ev, i) => (
+              <div className="space-y-4">
+                {(() => {
+                  const currentYear = new Date().getFullYear();
+                  const examYear = new Date().getMonth() > 4 ? currentYear + 1 : currentYear;
+                  
+                  return userData?.targetExam === "NEET" ? [
+                    { month: "Jan", day: "15", title: `NEET ${examYear} Registration Opens`, desc: "Application Window • nta.ac.in", color: "bg-blue-500" },
+                    { month: "Apr", day: "25", title: `NEET ${examYear} Admit Card`, desc: "Download from exams.nta.ac.in", color: "bg-orange-500" },
+                    { month: "May", day: "03", title: `NEET UG ${examYear} Exam`, desc: "2:00 PM – 5:00 PM IST • Offline", color: "bg-emerald-500" }
+                  ] : [
+                    { month: "Jan", day: "21", title: `JEE Main ${examYear} Session 1`, desc: "Jan 21 – 30 • B.E./B.Tech", color: "bg-blue-500" },
+                    { month: "Apr", day: "02", title: `JEE Main ${examYear} Session 2`, desc: "Apr 2 – 8 • B.E./B.Tech", color: "bg-orange-500" },
+                    { month: "May", day: "17", title: `JEE Advanced ${examYear}`, desc: "Paper 1 & 2 • IIT Exam", color: "bg-emerald-500" }
+                  ];
+                })().map((ev, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="flex flex-col items-center justify-center bg-white border border-slate-200 shadow-sm rounded-lg py-1.5 min-w-[48px]">
                       <span className="text-[9px] uppercase font-bold text-slate-400 mb-0.5 tracking-wider">{ev.month}</span>

@@ -133,6 +133,13 @@ export async function getUserSubscription(
         const now = new Date();
         const expiry = new Date(subscription.expiryDate);
         if (now > expiry) {
+          // Auto-downgrade expired Pro Trial (mirror Weekly Pass pattern)
+          await userRef.update({
+            "subscription.plan": "Free",
+            "subscription.status": "none",
+            "subscription.expiredAt": new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+          });
           plan = "Free";
         } else {
           plan = "Pro Trial";

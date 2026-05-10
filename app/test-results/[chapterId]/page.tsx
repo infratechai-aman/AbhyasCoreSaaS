@@ -6,7 +6,7 @@ import Link from "next/link";
 import { 
   CheckCircle2, XCircle, ChevronDown, ChevronUp, 
   Trophy, Target, Clock, Zap, RotateCcw, LayoutDashboard, 
-  TrendingUp, AlertCircle, BookOpen, Download, Users, Dumbbell, Target as TargetIcon
+  TrendingUp, AlertCircle, BookOpen, Download, Users, Dumbbell
 } from "lucide-react";
 import { LineChart, Line, XAxis, Tooltip, ResponsiveContainer, YAxis } from "recharts";
 import html2canvas from "html2canvas";
@@ -60,7 +60,7 @@ export default function TestResultsPage() {
       if (user) {
         const userHist = await getUserTestHistory(user.uid);
         if (userHist) {
-           const formatted = userHist.reverse().map((h: any, i: number) => ({
+           const formatted = [...userHist].reverse().map((h: any, i: number) => ({
              name: `Test ${i+1}`,
              score: h.accuracy || Math.round((h.correctCount/(h.correctCount+h.wrongCount))*100) || 0
            })).slice(-6);
@@ -95,6 +95,44 @@ export default function TestResultsPage() {
   // FIX: timeTaken is seconds spent, no need to subtract from 3600 anymore
   const timeMins = Math.floor(timeTaken / 60);
   const timeSecs = timeTaken % 60;
+
+  // Compute real difficulty breakdown instead of Math.random()
+  const difficultyBreakdown = (() => {
+    const groups: Record<string, { correct: number; total: number }> = {
+      Easy: { correct: 0, total: 0 },
+      Medium: { correct: 0, total: 0 },
+      Hard: { correct: 0, total: 0 },
+    };
+    questions.forEach(q => {
+      const d = (q.difficulty || 'medium').toLowerCase();
+      const key = d === 'easy' ? 'Easy' : d === 'hard' ? 'Hard' : 'Medium';
+      groups[key].total++;
+      if (answers[q.id] === q.answer) groups[key].correct++;
+    });
+    return groups;
+  })();
+
+  // Compute dynamic strengths and weaknesses from difficulty performance
+  const dynamicInsights = (() => {
+    const strengths: string[] = [];
+    const weaknesses: string[] = [];
+    const easyAcc = difficultyBreakdown.Easy.total > 0 ? difficultyBreakdown.Easy.correct / difficultyBreakdown.Easy.total : 0;
+    const medAcc = difficultyBreakdown.Medium.total > 0 ? difficultyBreakdown.Medium.correct / difficultyBreakdown.Medium.total : 0;
+    const hardAcc = difficultyBreakdown.Hard.total > 0 ? difficultyBreakdown.Hard.correct / difficultyBreakdown.Hard.total : 0;
+    if (easyAcc >= 0.7) strengths.push('Strong fundamentals (easy questions)');
+    else if (easyAcc < 0.5 && difficultyBreakdown.Easy.total > 0) weaknesses.push('Revise basic concepts (easy questions)');
+    if (medAcc >= 0.6) strengths.push('Good application skills (medium questions)');
+    else if (medAcc < 0.4 && difficultyBreakdown.Medium.total > 0) weaknesses.push('Practice application-level problems');
+    if (hardAcc >= 0.5) strengths.push('Excellent problem-solving (hard questions)');
+    else if (hardAcc < 0.3 && difficultyBreakdown.Hard.total > 0) weaknesses.push('Focus on advanced/hard problems');
+    if (unattempted === 0) strengths.push('Full attempt rate — no questions skipped');
+    else if (unattempted > total * 0.3) weaknesses.push('Too many skipped — work on time management');
+    if (accuracy >= 80) strengths.push('High accuracy under exam conditions');
+    else if (wrong > correct && total - unattempted > 0) weaknesses.push('Reduce guessing — negative marking is costly');
+    if (strengths.length === 0) strengths.push('Consistent attempt across difficulty levels');
+    if (weaknesses.length === 0) weaknesses.push('Overall strong — keep refining edge cases');
+    return { strengths, weaknesses };
+  })();
 
   const filteredQs = questions.filter(q => {
     if (filterMode === "correct") return answers[q.id] === q.answer;
@@ -194,7 +232,7 @@ export default function TestResultsPage() {
                   {percentage >= 70 ? "Excellent Effort! 🚀" : percentage >= 40 ? "Good Attempt! 📈" : "Keep Practicing! 💪"}
                 </h2>
                 <p className="text-slate-500 text-[14px] mb-6">
-                  You performed better than <strong className="text-slate-700">{Math.min(99, percentage + 20)}%</strong> of learners who attempted this test.
+                  Rough estimate based on <strong className="text-slate-700">{total}</strong> questions attempted in this drill.
                 </p>
                 
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
@@ -269,7 +307,7 @@ export default function TestResultsPage() {
             
             <div className="bg-white rounded-[20px] border border-slate-200/60 p-5 flex items-center gap-4 shadow-sm">
               <div className="w-12 h-12 rounded-2xl bg-rose-50 flex items-center justify-center shrink-0">
-                <TargetIcon className="w-6 h-6 text-rose-500" />
+                <Target className="w-6 h-6 text-rose-500" />
               </div>
               <div>
                 <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Attempted</div>
@@ -298,7 +336,7 @@ export default function TestResultsPage() {
                 <div className="font-display text-[20px] font-bold text-slate-800">
                   {Math.max(1, Math.round(120000 * (1 - (percentage + 10)/100))) } / 1,20,000
                 </div>
-                <div className="text-[12px] text-slate-400 mt-0.5">In your category</div>
+                <div className="text-[10px] text-amber-500 font-medium mt-0.5">Rough estimate only</div>
               </div>
             </div>
 
@@ -307,9 +345,9 @@ export default function TestResultsPage() {
                 <Users className="w-6 h-6 text-blue-500" />
               </div>
               <div>
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Predicted Percentile</div>
+                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Estimated Percentile</div>
                 <div className="font-display text-[20px] font-bold text-slate-800">{Math.min(99.9, percentage + 25.4).toFixed(1)}</div>
-                <div className="text-[12px] text-slate-400 mt-0.5">You're ahead of {Math.min(99.9, percentage + 25.4).toFixed(1)}% learners</div>
+                <div className="text-[10px] text-amber-500 font-medium mt-0.5">Rough estimate only</div>
               </div>
             </div>
           </div>
@@ -323,16 +361,16 @@ export default function TestResultsPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="md:col-span-1">
-              <h4 className="text-[12px] font-bold uppercase tracking-widest text-slate-500 mb-4">Section Wise Breakdown</h4>
+              <h4 className="text-[12px] font-bold uppercase tracking-widest text-slate-500 mb-4">Difficulty Breakdown</h4>
               <div className="space-y-4">
-                {["Physics", "Chemistry", "Biology"].map((sec) => (
-                  <div key={sec} className="flex items-center justify-between">
+                {Object.entries(difficultyBreakdown).map(([level, stats]) => (
+                  <div key={level} className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 rounded-full bg-indigo-500" />
-                      <span className="text-[14px] font-medium text-slate-700">{sec}</span>
+                      <div className={`w-2 h-2 rounded-full ${level === 'Easy' ? 'bg-emerald-500' : level === 'Medium' ? 'bg-amber-500' : 'bg-rose-500'}`} />
+                      <span className="text-[14px] font-medium text-slate-700">{level}</span>
                     </div>
                     <div className="text-[13px] font-bold text-slate-900">
-                      {Math.max(0, Math.round(score * (Math.random() * 0.3 + 0.2)))} / {Math.round(maxScore/3)}
+                      {stats.correct} / {stats.total}
                     </div>
                   </div>
                 ))}
@@ -345,24 +383,20 @@ export default function TestResultsPage() {
                 <h4 className="text-[14px] font-bold text-emerald-900">Strengths</h4>
               </div>
               <ul className="space-y-2 text-[13px] text-emerald-800 font-medium list-disc pl-5">
-                <li>Core Concepts Accuracy</li>
-                <li>Time Management</li>
-                <li>Formula Application</li>
+                {dynamicInsights.strengths.map((s, i) => <li key={i}>{s}</li>)}
               </ul>
               <p className="text-[12px] text-emerald-600 mt-6">Great job! Keep building on your strengths.</p>
             </div>
 
             <div className="bg-rose-50/50 rounded-2xl border border-rose-100 p-5">
               <div className="flex items-center gap-2 mb-4">
-                <TargetIcon className="w-5 h-5 text-rose-500" />
+                <Target className="w-5 h-5 text-rose-500" />
                 <h4 className="text-[14px] font-bold text-rose-900">Areas to Improve</h4>
               </div>
               <ul className="space-y-2 text-[13px] text-rose-800 font-medium list-disc pl-5">
-                <li>Calculation Speed</li>
-                <li>Complex Problem Solving</li>
-                <li>Assertion & Reasoning</li>
+                {dynamicInsights.weaknesses.map((w, i) => <li key={i}>{w}</li>)}
               </ul>
-              <p className="text-[12px] text-rose-600 mt-6">Focus more on these areas to boost your score.</p>
+              <p className="text-[12px] text-rose-600 mt-6">Focus on these areas to boost your score.</p>
             </div>
           </div>
         </div>

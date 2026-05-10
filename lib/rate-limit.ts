@@ -2,7 +2,7 @@ import { adminDb } from "@/lib/firebase-admin";
 
 /**
  * Firestore-based sliding window rate limiter.
- * This prevents TOCTOU and works seamlessly across serverless instances.
+ * Uses transactions to prevent TOCTOU race conditions.
  */
 export async function isRateLimited(
   key: string,
@@ -19,32 +19,36 @@ export async function isRateLimited(
   const now = Date.now();
 
   try {
-    const docSnap = await docRef.get();
-    let timestamps: number[] = [];
+    const isBlocked = await adminDb.runTransaction(async (transaction) => {
+      const docSnap = await transaction.get(docRef);
+      let timestamps: number[] = [];
 
-    if (docSnap.exists) {
-      const data = docSnap.data();
-      if (data && Array.isArray(data.timestamps)) {
-        timestamps = data.timestamps;
+      if (docSnap.exists) {
+        const data = docSnap.data();
+        if (data && Array.isArray(data.timestamps)) {
+          timestamps = data.timestamps;
+        }
       }
-    }
 
-    // Remove timestamps outside the window
-    timestamps = timestamps.filter((t) => now - t < windowMs);
+      // Remove timestamps outside the window
+      timestamps = timestamps.filter((t) => now - t < windowMs);
 
-    if (timestamps.length >= maxRequests) {
-      return true; // BLOCKED
-    }
+      if (timestamps.length >= maxRequests) {
+        return true; // BLOCKED
+      }
 
-    timestamps.push(now);
-    
-    // Update Firestore
-    await docRef.set({
-      timestamps,
-      lastUpdated: new Date().toISOString()
+      timestamps.push(now);
+      
+      // Atomic write inside transaction
+      transaction.set(docRef, {
+        timestamps,
+        lastUpdated: new Date().toISOString()
+      });
+
+      return false; // ALLOWED
     });
 
-    return false; // ALLOWED
+    return isBlocked;
   } catch (error) {
     console.error("Rate limit check failed:", error);
     return false; // Fail open on error
