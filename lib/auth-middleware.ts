@@ -29,11 +29,10 @@ export async function verifyAuthToken(
     const decoded = await adminAuth.verifyIdToken(token);
     if (!decoded.uid || !decoded.email) return null;
 
-    // MEDIUM-04: Enforce email verification
-    // Temporarily disabled so test accounts with unverified/dummy emails can proceed to checkout.
-    // if (!decoded.email_verified && decoded.email !== ADMIN_EMAIL) {
-    //   return null;
-    // }
+    // MEDIUM-04: Enforce email verification for all non-admin users
+    if (!decoded.email_verified && decoded.email !== ADMIN_EMAIL) {
+      return null;
+    }
 
     return { uid: decoded.uid, email: decoded.email };
   } catch (err) {

@@ -14,7 +14,7 @@ export async function POST(request: Request) {
   if (authResult instanceof NextResponse) return authResult;
 
   // 2. Rate limit
-  if (isRateLimited(`admin:${authResult.uid}`, 10, 60_000)) {
+  if (await isRateLimited(`admin:${authResult.uid}`, 10, 60_000)) {
     return NextResponse.json({ error: "Too many requests." }, { status: 429 });
   }
 

@@ -32,16 +32,18 @@ export const useAuth = () => useContext(AuthContext);
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
   // Hydrate userData from sessionStorage immediately to prevent flash-null on route transitions
-  const [userData, setUserData] = useState<any | null>(() => {
+  const [userData, setUserData] = useState<any | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  // Hydrate userData from sessionStorage only after mount to prevent SSR hydration mismatch
+  useEffect(() => {
     if (typeof window !== "undefined") {
       try {
         const cached = sessionStorage.getItem("abhyas_userData");
-        return cached ? JSON.parse(cached) : null;
-      } catch { return null; }
+        if (cached) setUserData(JSON.parse(cached));
+      } catch {}
     }
-    return null;
-  });
-  const [loading, setLoading] = useState(true);
+  }, []);
 
   // Helper to update userData and persist to sessionStorage
   const updateUserData = (data: any | null) => {

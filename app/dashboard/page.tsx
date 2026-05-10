@@ -39,6 +39,7 @@ function DashboardContent() {
   const [quickSubject, setQuickSubject] = useState("Full PCMB Syllabus");
   const [showProModal, setShowProModal] = useState(false);
   const [selectedProPlan, setSelectedProPlan] = useState<"monthly" | "yearly">("monthly");
+  const [isDebouncing, setIsDebouncing] = useState(false);
 
   // Auto-dismiss toast after 5 seconds
   useEffect(() => {
@@ -50,7 +51,7 @@ function DashboardContent() {
 
   useEffect(() => {
     if (user?.uid) {
-      getUserTestHistory(user.uid).then(res => setRecentMocks(res));
+      getUserTestHistory(user.uid, 4).then(res => setRecentMocks(res));
     }
   }, [user?.uid]);
 
@@ -83,9 +84,13 @@ function DashboardContent() {
   }, [user, userData]);
 
   // Pro features check
-  const isPremium = userData?.subscription?.plan === "Pro Monthly" || userData?.subscription?.plan === "Pro Yearly" || userData?.subscription?.plan === "Weekly Pass";
+  const isPremium = userData?.subscription?.plan === "Pro Monthly" || userData?.subscription?.plan === "Pro Yearly" || userData?.subscription?.plan === "Weekly Pass" || userData?.subscription?.plan === "Pro Trial";
 
   const handleCheckout = async (planType: "monthly" | "yearly" = "monthly") => {
+    if (isDebouncing) return;
+    setIsDebouncing(true);
+    setTimeout(() => setIsDebouncing(false), 3000); // 3-second lockout
+
     try {
       setIsProcessingPayment(true);
       // Use authenticated fetch — server will use the token to identify the user
@@ -150,17 +155,12 @@ function DashboardContent() {
   useEffect(() => {
     // IMPORTANT: Wait until user session and userData are fully loaded before triggering checkout
     if (!user || !userData) return;
-    if (isProcessingPayment || isPremium || checkoutTriggered.current) return;
-
-    // Check if user is on free tier (handle both string "free" and object { plan: "Free" } formats)
-    const isFreeUser = !userData?.subscription || 
-      userData?.subscription === "free" || 
-      userData?.subscription?.plan === "Free" ||
-      userData?.subscription?.plan === "free";
-
-    if (!isFreeUser) return;
+    if (isProcessingPayment || checkoutTriggered.current) return;
 
     if (checkoutIntent) {
+      // Don't trigger if they already have this exact plan
+      if (userData?.subscription?.plan === checkoutIntent) return;
+
       checkoutTriggered.current = true;
       if (isReferredFromUrl || userData?.referredBy) {
         // Referred users: show the Pro modal first
@@ -185,6 +185,14 @@ function DashboardContent() {
       router.push("/dashboard/practice-mode");
     }, 1500);
   };
+
+  if (!user || !userData) {
+    return (
+      <div className="h-screen w-screen flex items-center justify-center bg-[#fafafc]">
+        <div className="w-10 h-10 border-4 border-indigo-100 border-t-indigo-600 rounded-full animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <>

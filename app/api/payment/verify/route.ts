@@ -11,7 +11,7 @@ export async function POST(req: Request) {
     if (authResult instanceof NextResponse) return authResult;
 
     // 2. Rate limit: 5 verifications per minute per user
-    if (isRateLimited(`verify:${authResult.uid}`, 5, 60_000)) {
+    if (await isRateLimited(`verify:${authResult.uid}`, 5, 60_000)) {
       return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
     }
 

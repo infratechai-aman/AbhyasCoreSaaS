@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
@@ -20,7 +20,12 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 
 export default function LoginPage() {
   const router = useRouter();
-  const { signInWithGoogle } = useAuth();
+  const { signInWithGoogle, user } = useAuth();
+
+  // Redirect already-logged-in users to dashboard
+  useEffect(() => {
+    if (user) router.replace("/dashboard");
+  }, [user, router]);
   
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -37,7 +42,17 @@ export default function LoginPage() {
       await signInWithEmailAndPassword(auth, email, password);
       router.push("/dashboard");
     } catch (err: any) {
-      setError(err.message || "Failed to log in. Please check your credentials.");
+      let friendlyMessage = "Failed to log in. Please check your credentials.";
+      if (err.message) {
+        if (err.message.includes("auth/wrong-password") || err.message.includes("auth/invalid-credential")) {
+          friendlyMessage = "Incorrect email or password. Please try again.";
+        } else if (err.message.includes("auth/user-not-found")) {
+          friendlyMessage = "No account found with this email.";
+        } else if (err.message.includes("auth/too-many-requests")) {
+          friendlyMessage = "Too many failed attempts. Please try again later.";
+        }
+      }
+      setError(friendlyMessage);
       setLoading(false);
     }
   };
@@ -47,7 +62,8 @@ export default function LoginPage() {
     try {
       await signInWithGoogle();
       router.push("/dashboard");
-    } catch (err) {
+    } catch (err: any) {
+      setError(err?.message || "Google sign-in failed. Please try again.");
       setLoading(false);
     }
   };

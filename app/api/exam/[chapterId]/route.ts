@@ -109,7 +109,7 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
     if (authResult instanceof NextResponse) return authResult;
 
     // Rate limit: 30 per minute per user
-    if (isRateLimited(`exam:${authResult.uid}`, 30, 60_000)) {
+    if (await isRateLimited(`exam:${authResult.uid}`, 30, 60_000)) {
       return NextResponse.json({ error: "Too many requests." }, { status: 429 });
     }
 

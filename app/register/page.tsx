@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
@@ -22,11 +22,18 @@ import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification, G
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { Suspense } from "react";
 import { validateRegistrationEmail } from "@/lib/disposable-emails";
+import { useAuth } from "@/lib/auth-context";
 
 function RegisterForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const { user } = useAuth();
   const referredBy = searchParams.get("ref") || "";
+
+  // Redirect already-logged-in users to dashboard
+  useEffect(() => {
+    if (user) router.replace("/dashboard");
+  }, [user, router]);
   
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

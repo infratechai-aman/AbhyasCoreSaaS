@@ -64,6 +64,12 @@ service cloud.firestore {
       allow read, write: if false;
     }
 
+    // ─── Rate Limits ───
+    // Only Admin SDK can read/write (used for serverless rate limiting).
+    match /rate_limits/{limitId} {
+      allow read, write: if false;
+    }
+
     // ─── Admin Audit Log ───
     // Only Admin SDK can read/write — used for tracking admin actions.
     match /admin_audit_log/{logId} {

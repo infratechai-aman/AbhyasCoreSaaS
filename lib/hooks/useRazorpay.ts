@@ -52,6 +52,7 @@ export function useRazorpay() {
   const openCheckout = useCallback((options: RazorpayOptions) => {
     if (!isReady || !window.Razorpay) {
       console.error('Razorpay SDK not loaded yet.');
+      alert('Payment gateway is loading. Please try again in a few seconds.');
       return;
     }
 

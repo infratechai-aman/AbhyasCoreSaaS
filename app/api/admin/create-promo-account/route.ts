@@ -13,7 +13,7 @@ export async function POST(request: Request) {
   const authResult = await requireAdmin(request);
   if (authResult instanceof NextResponse) return authResult;
 
-  if (isRateLimited(`admin:${authResult.uid}`, 5, 60_000)) {
+  if (await isRateLimited(`admin:${authResult.uid}`, 5, 60_000)) {
     return NextResponse.json({ error: "Too many requests." }, { status: 429 });
   }
 

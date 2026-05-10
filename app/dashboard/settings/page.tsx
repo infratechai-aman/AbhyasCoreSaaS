@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { 
   Bell, Shield, Moon, ChevronRight, Check, Zap, Target, 
@@ -16,6 +16,34 @@ export default function SettingsPage() {
   const [dailyGoal, setDailyGoal] = useState(30);
   const [cancelling, setCancelling] = useState(false);
   const [showCancelConfirm, setShowCancelConfirm] = useState(false);
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
+  const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
+
+  // Load persisted preferences on mount
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("abhyas_settings");
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed.notifications) setNotifications(parsed.notifications);
+        if (parsed.dailyGoal) setDailyGoal(parsed.dailyGoal);
+      }
+    } catch {}
+  }, []);
+
+  // Persist preferences on change
+  useEffect(() => {
+    try {
+      localStorage.setItem("abhyas_settings", JSON.stringify({ notifications, dailyGoal }));
+    } catch {}
+  }, [notifications, dailyGoal]);
+
+  useEffect(() => {
+    if (toast) {
+      const timer = setTimeout(() => setToast(null), 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [toast]);
 
   // Derive subscription info
   const sub = userData?.subscription;
@@ -71,16 +99,32 @@ export default function SettingsPage() {
   const handleCancelSubscription = async () => {
     setCancelling(true);
     try {
-      // Open email for cancellation request
-      window.open(
-        `mailto:support@abhyascore.com?subject=Cancel%20Subscription%20Request&body=Please%20cancel%20my%20subscription.%0A%0AEmail:%20${encodeURIComponent(userData?.email || "")}%0ASubscription%20ID:%20${encodeURIComponent(sub?.razorpaySubscriptionId || "")}`,
-        "_blank"
-      );
+      const res = await authenticatedFetch("/api/payment/cancel-subscription", {
+        method: "POST",
+      });
+      const data = await res.json();
+      
+      if (data.success) {
+        setToast({ message: data.message || "Subscription cancelled.", type: "success" });
+        setTimeout(() => window.location.reload(), 1500);
+      } else {
+        setToast({ message: data.error || "Failed to cancel subscription.", type: "error" });
+      }
+    } catch (err) {
+      setToast({ message: "An error occurred. Please try again.", type: "error" });
     } finally {
       setCancelling(false);
       setShowCancelConfirm(false);
     }
   };
+
+  if (!user || !userData) {
+    return (
+      <div className="h-screen w-screen flex items-center justify-center bg-[#fafafc]">
+        <div className="w-10 h-10 border-4 border-indigo-100 border-t-indigo-600 rounded-full animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <DashboardShell>
@@ -377,10 +421,29 @@ export default function SettingsPage() {
             {/* Danger Zone */}
             <div className="bg-white rounded-[24px] border border-red-100 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
               <h3 className="text-[15px] font-bold text-red-600 mb-4">Danger Zone</h3>
-              <button className="w-full py-3 rounded-xl border-2 border-red-200 text-red-600 font-bold text-[13px] hover:bg-red-50 transition-colors">
+              <button 
+                onClick={() => setShowResetConfirm(true)}
+                className="w-full py-3 rounded-xl border-2 border-red-200 text-red-600 font-bold text-[13px] hover:bg-red-50 transition-colors"
+              >
                 Reset All Progress Data
               </button>
             </div>
+
+            {/* Reset Confirmation Modal */}
+            {showResetConfirm && (
+              <div className="fixed inset-0 z-[200] flex items-center justify-center bg-slate-900/60 backdrop-blur-md p-4">
+                <div className="bg-white rounded-[24px] w-full max-w-sm shadow-2xl p-6 text-center relative">
+                  <button onClick={() => setShowResetConfirm(false)} className="absolute top-4 right-4 w-7 h-7 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-400 hover:text-slate-600 transition-colors"><X className="w-3.5 h-3.5" /></button>
+                  <div className="w-14 h-14 bg-red-100 rounded-2xl flex items-center justify-center mx-auto mb-4"><AlertTriangle className="w-7 h-7 text-red-500" /></div>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2">Reset All Progress?</h3>
+                  <p className="text-[13px] text-slate-500 mb-6">This will clear your local settings and cached data. Your test results in the cloud will not be affected.</p>
+                  <div className="flex gap-3">
+                    <button onClick={() => setShowResetConfirm(false)} className="flex-1 py-3 bg-slate-100 text-slate-700 rounded-xl font-bold text-[13px] hover:bg-slate-200 transition-colors">Cancel</button>
+                    <button onClick={() => { localStorage.clear(); setShowResetConfirm(false); setToast({ message: "Local progress data has been reset.", type: "success" }); }} className="flex-1 py-3 bg-red-600 text-white rounded-xl font-bold text-[13px] hover:bg-red-700 transition-colors">Reset</button>
+                  </div>
+                </div>
+              </div>
+            )}
 
           </div>
         </div>
@@ -407,7 +470,7 @@ export default function SettingsPage() {
               {nextBillingDate ? ` on ${formatDate(nextBillingDate)}` : ""}.
             </p>
             <p className="text-[11px] text-slate-400 mb-6">
-              This action will email our support team to process your cancellation.
+              This action will instantly cancel your subscription renewal. You will retain access until the end of your billing cycle.
             </p>
 
             <div className="space-y-2">
@@ -426,6 +489,23 @@ export default function SettingsPage() {
               </button>
             </div>
           </div>
+        </div>
+      )}
+      {toast && (
+        <div className={`fixed z-[200] flex items-center gap-3 rounded-2xl shadow-2xl border backdrop-blur-xl max-w-md
+          bottom-20 left-4 right-4 px-4 py-3
+          md:bottom-auto md:top-6 md:left-auto md:right-6 md:px-5 md:py-4
+          ${toast.type === "success" ? "bg-emerald-50/95 border-emerald-200 text-emerald-900" : "bg-red-50/95 border-red-200 text-red-900"}
+        `}>
+          {toast.type === "success" ? (
+            <Check className="w-5 h-5 text-emerald-600 shrink-0" />
+          ) : (
+            <AlertTriangle className="w-5 h-5 text-red-600 shrink-0" />
+          )}
+          <p className="text-[13px] font-semibold leading-snug flex-1">{toast.message}</p>
+          <button onClick={() => setToast(null)} className="shrink-0 text-slate-400 hover:text-slate-600">
+            <X className="w-4 h-4" />
+          </button>
         </div>
       )}
     </DashboardShell>

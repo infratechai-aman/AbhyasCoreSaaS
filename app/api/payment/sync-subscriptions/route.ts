@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     if (authResult instanceof NextResponse) return authResult;
 
     // 2. Rate limit: 3 syncs per minute
-    if (isRateLimited(`sync:${authResult.uid}`, 3, 60_000)) {
+    if (await isRateLimited(`sync:${authResult.uid}`, 3, 60_000)) {
       return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
     }
 

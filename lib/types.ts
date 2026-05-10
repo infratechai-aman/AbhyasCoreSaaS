@@ -70,7 +70,7 @@ export const PLAN_LIMITS = {
     canAccessRepository: false,
   },
   "Pro Trial": {
-    examsPerDay: Infinity,
+    examsPerDay: 999999,
     canRepeatExams: true,
     aiTokensPerDay: 40000,
     customExamsPerWeek: 35,
@@ -79,7 +79,7 @@ export const PLAN_LIMITS = {
     canAccessRepository: true,
   },
   "Pro Monthly": {
-    examsPerDay: Infinity,
+    examsPerDay: 999999,
     canRepeatExams: true,
     aiTokensPerDay: 40000,
     customExamsPerWeek: 35,
@@ -88,7 +88,7 @@ export const PLAN_LIMITS = {
     canAccessRepository: true,
   },
   "Pro Yearly": {
-    examsPerDay: Infinity,
+    examsPerDay: 999999,
     canRepeatExams: true,
     aiTokensPerDay: 40000,
     customExamsPerWeek: 35,
@@ -97,7 +97,7 @@ export const PLAN_LIMITS = {
     canAccessRepository: true,
   },
   "Weekly Pass": {
-    examsPerDay: Infinity,
+    examsPerDay: 999999,
     canRepeatExams: true,
     aiTokensPerDay: 40000,
     customExamsPerWeek: 35,

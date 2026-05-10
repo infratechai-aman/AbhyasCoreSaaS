@@ -179,7 +179,7 @@ export async function GET(request: Request) {
         if (authResult instanceof NextResponse) return authResult;
 
         // Rate limit
-        if (isRateLimited(`exam:${authResult.uid}`, 30, 60_000)) {
+        if (await isRateLimited(`exam:${authResult.uid}`, 30, 60_000)) {
           return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
         }
 

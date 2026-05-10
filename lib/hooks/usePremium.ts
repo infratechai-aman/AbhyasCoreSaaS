@@ -85,7 +85,7 @@ export function usePremium() {
 
   const canAttemptExam = isPro || examsAttemptedToday < limits.examsPerDay;
   const remainingExamsToday = isPro
-    ? Infinity
+    ? 999999
     : Math.max(0, limits.examsPerDay - examsAttemptedToday);
 
   const canRepeatExam = (examId: string) => {

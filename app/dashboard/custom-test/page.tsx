@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
-import { Target, Search, CheckCircle2, Circle, Flame, Rocket, ChevronRight, SlidersHorizontal, BookOpen, Lock, Crown } from "lucide-react";
+import { Target, Search, CheckCircle2, Circle, Flame, Rocket, ChevronRight, SlidersHorizontal, BookOpen, Lock, Crown, AlertCircle, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { usePremium } from "@/lib/hooks/usePremium";
 import Link from "next/link";
@@ -16,6 +16,7 @@ export default function CustomExamBuilder() {
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>(["Physics"]);
   const [selectedChapters, setSelectedChapters] = useState<Set<string>>(new Set());
   const [questionCount, setQuestionCount] = useState<number>(30);
+  const [validationError, setValidationError] = useState<string | null>(null);
   
   const subjects = targetExam === "JEE" ? ["Physics", "Chemistry", "Mathematics"] : ["Physics", "Chemistry", "Biology"];
 
@@ -60,7 +61,8 @@ export default function CustomExamBuilder() {
   const eligibleChapters = getEligibleChapters();
 
   const handleGenerate = () => {
-    if (selectedChapters.size === 0) return alert("Please select at least one chapter.");
+    if (selectedChapters.size === 0) { setValidationError("Please select at least one chapter."); return; }
+    setValidationError(null);
     const cParam = Array.from(selectedChapters).join(",");
     router.push(`/test-console/custom?c=${cParam}&q=${questionCount}`);
   };
@@ -68,6 +70,15 @@ export default function CustomExamBuilder() {
   return (
     <DashboardShell>
        <div className="max-w-5xl mx-auto py-8">
+
+          {/* Validation Error */}
+          {validationError && (
+            <div className="mb-6 bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-2xl flex items-center gap-3">
+              <AlertCircle className="w-5 h-5 text-red-500 shrink-0" />
+              <p className="text-[13px] font-semibold flex-1">{validationError}</p>
+              <button onClick={() => setValidationError(null)} className="text-red-400 hover:text-red-600 shrink-0"><X className="w-4 h-4" /></button>
+            </div>
+          )}
           
           <div className="mb-8">
              <div className="flex items-center gap-3 mb-2">

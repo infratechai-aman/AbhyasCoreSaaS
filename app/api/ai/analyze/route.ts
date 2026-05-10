@@ -10,7 +10,7 @@ export async function POST(request: Request) {
   if (authResult instanceof NextResponse) return authResult;
 
   // 2. Rate limit: 10 requests per minute per user
-  if (isRateLimited(`analyze:${authResult.uid}`, 10, 60_000)) {
+  if (await isRateLimited(`analyze:${authResult.uid}`, 10, 60_000)) {
     return NextResponse.json({ error: "Rate limit exceeded." }, { status: 429 });
   }
 
@@ -34,9 +34,9 @@ export async function POST(request: Request) {
     score: typeof body.score === "number" ? body.score : 0,
     percentage: typeof body.percentage === "number" ? body.percentage : 0,
     timeTaken: typeof body.timeTaken === "number" ? body.timeTaken : 0,
-    chapterName: typeof body.chapterName === "string" ? body.chapterName.slice(0, 100) : "Unknown",
-    subject: typeof body.subject === "string" ? body.subject.slice(0, 50) : "Unknown",
-    examType: typeof body.examType === "string" ? body.examType.slice(0, 10) : "JEE",
+    chapterName: typeof body.chapterName === "string" ? body.chapterName.slice(0, 100).replace(/[^a-zA-Z0-9\s-]/g, '') : "Unknown",
+    subject: typeof body.subject === "string" ? body.subject.slice(0, 50).replace(/[^a-zA-Z0-9\s-]/g, '') : "Unknown",
+    examType: typeof body.examType === "string" ? body.examType.slice(0, 10).replace(/[^a-zA-Z0-9\s-]/g, '') : "JEE",
     // Allow chapter-level breakdown if provided
     chapterBreakdown: Array.isArray(body.chapterBreakdown)
       ? body.chapterBreakdown.slice(0, 30).map((c: any) => ({

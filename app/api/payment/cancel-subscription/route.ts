@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     if (authResult instanceof NextResponse) return authResult;
 
     // 2. Rate limit: 3 cancellation attempts per hour
-    if (isRateLimited(`cancel:${authResult.uid}`, 3, 3600_000)) {
+    if (await isRateLimited(`cancel:${authResult.uid}`, 3, 3600_000)) {
       return NextResponse.json({ error: "Too many requests. Try again later." }, { status: 429 });
     }
 

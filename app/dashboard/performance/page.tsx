@@ -3,7 +3,7 @@ import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Target, TrendingUp, Zap, Clock, Trophy, Activity, AlertCircle, Sparkles, Loader2 } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
 import { useEffect, useState } from "react";
-import { collection, query, where, getDocs } from "firebase/firestore";
+import { collection, query, where, getDocs, limit, orderBy } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 
 // Color map for subject bars
@@ -44,7 +44,7 @@ export default function PerformancePage() {
          return;
       }
       try {
-        const q = query(collection(db, "results"), where("userId", "==", user.uid));
+        const q = query(collection(db, "results"), where("userId", "==", user.uid), orderBy("timestamp", "desc"), limit(50));
         const querySnapshot = await getDocs(q);
         
         let correct = 0;
@@ -152,7 +152,7 @@ export default function PerformancePage() {
               <div className="text-[36px] font-display font-bold leading-none mb-2 relative z-10">
                  {loading ? <Loader2 className="w-6 h-6 animate-spin text-white mb-2" /> : metrics.projectedAir.toLocaleString()}
               </div>
-              <div className="text-[12px] text-emerald-400 font-bold flex items-center gap-1 relative z-10"><TrendingUp className="w-3 h-3" /> Based on {metrics.totalQuestions} Qs attempted</div>
+              <div className="text-[12px] text-emerald-400 font-bold flex items-center gap-1 relative z-10"><TrendingUp className="w-3 h-3" /> Rough estimate • {metrics.totalQuestions} Qs</div>
            </div>
            
            <div className="bg-white rounded-[20px] border border-slate-200/60 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)] hover:-translate-y-1 transition-transform cursor-default relative overflow-hidden">
@@ -280,8 +280,8 @@ export default function PerformancePage() {
                     )}
                   </div>
                   
-                  <button className="w-full mt-6 py-3.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-bold text-[13px] flex items-center justify-center gap-2 shadow-md transition-colors">
-                     Generate Remedial Protocol
+                  <button className="w-full mt-6 py-3.5 bg-slate-300 text-slate-500 rounded-xl font-bold text-[13px] flex items-center justify-center gap-2 cursor-not-allowed" disabled>
+                     Generate Remedial Protocol — Coming Soon
                   </button>
                 </>
               )}

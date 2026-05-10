@@ -16,6 +16,7 @@ function CustomExamConsoleInner() {
   
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [data, setData] = useState<{ chapterName: string; subject: string; questions: any[] } | null>(null);
   
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -188,7 +189,7 @@ function CustomExamConsoleInner() {
       router.push(`/test-results/${customTestId}`);
     } catch (error) {
       console.error("Submission failed:", error);
-      alert("Failed to submit your test. Please check your connection.");
+      setSubmitError("Failed to submit your test. Please check your connection.");
     } finally {
       setSubmitting(false);
     }
@@ -230,6 +231,17 @@ function CustomExamConsoleInner() {
   return (
     <div className="h-screen w-screen bg-[#fafafc] flex flex-col overflow-hidden font-sans selection:bg-indigo-100">
       
+      {/* Submit Error Banner */}
+      {submitError && (
+        <div className="fixed top-2 left-1/2 -translate-x-1/2 z-[100] max-w-md w-full mx-auto">
+          <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-2xl shadow-xl flex items-center gap-3 backdrop-blur-xl">
+            <AlertCircle className="w-5 h-5 text-red-500 shrink-0" />
+            <p className="text-[13px] font-semibold flex-1">{submitError}</p>
+            <button onClick={() => setSubmitError(null)} className="text-red-400 hover:text-red-600 shrink-0"><X className="w-4 h-4" /></button>
+          </div>
+        </div>
+      )}
+
       {/* ─── Header ─── */}
       <header className="h-[60px] bg-slate-900 text-white flex items-center justify-between px-3 md:px-6 shrink-0 shadow-md relative z-20">
          <div className="flex items-center gap-3 md:gap-4 flex-1 min-w-0 pr-2">

@@ -81,7 +81,7 @@ export async function saveTestResult(userId: string, payload: any) {
 // in the server-side payment/verify and payment/webhook routes.
 
 
-export async function getUserTestHistory(userId: string) {
+export async function getUserTestHistory(userId: string, limitCount: number = 50) {
   if (!db) return [];
   try {
     const resultsRef = collection(db, "results");
@@ -89,7 +89,7 @@ export async function getUserTestHistory(userId: string) {
       resultsRef,
       where("userId", "==", userId),
       orderBy("timestamp", "desc"),
-      limit(50)
+      limit(limitCount)
     );
     const snap = await getDocs(q);
     return snap.docs.map(doc => ({ id: doc.id, ...doc.data() }));

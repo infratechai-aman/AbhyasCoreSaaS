@@ -3,7 +3,7 @@ import { Sparkles } from "lucide-react";
 
 const footerLinks = {
   Platform: [
-    { label: "Mock Tests", href: "/dashboard/tests/mock-live" },
+    { label: "Mock Tests", href: "/dashboard/tests" },
     { label: "Practice Mode", href: "/dashboard/practice" },
     { label: "AI Tutor", href: "/dashboard/ai-tutor" },
     { label: "Performance", href: "/dashboard/performance" },
@@ -49,10 +49,10 @@ export function Footer() {
             </p>
             <div className="mt-6 flex gap-4">
               {[
-                { label: "X", href: "https://x.com" },
-                { label: "In", href: "https://linkedin.com" },
-                { label: "YT", href: "https://youtube.com" },
-                { label: "IG", href: "https://instagram.com" },
+                { label: "X", href: "#" },
+                { label: "In", href: "#" },
+                { label: "YT", href: "#" },
+                { label: "IG", href: "#" },
               ].map((social) => (
                 <a
                   key={social.label}

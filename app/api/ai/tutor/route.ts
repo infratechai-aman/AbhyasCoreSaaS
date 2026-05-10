@@ -10,49 +10,8 @@ export const runtime = "nodejs";
 const MAX_HISTORY_MESSAGES = 20;
 const MAX_OUTPUT_TOKENS = 2000;
 
-// ─── Platform-wide daily token limits ───
-const DAILY_INPUT_LIMIT = 25_000;   // 25k input tokens/day for entire platform
-const DAILY_OUTPUT_LIMIT = 75_000;  // 75k output tokens/day for entire platform
-
-/** Get today's date key in IST (resets at midnight IST) */
-function getTodayIST(): string {
-  const now = new Date();
-  // IST = UTC + 5:30
-  const istOffset = 5.5 * 60 * 60 * 1000;
-  const istDate = new Date(now.getTime() + istOffset);
-  return istDate.toISOString().split("T")[0]; // "2026-05-07"
-}
-
-/** Check if daily token budget is exhausted */
-async function getDailyUsage(): Promise<{ input: number; output: number } | null> {
-  if (!adminDb) return null;
-  const dateKey = getTodayIST();
-  const docRef = adminDb.collection("ai_usage").doc(dateKey);
-  const snap = await docRef.get();
-  if (!snap.exists) return { input: 0, output: 0 };
-  const data = snap.data();
-  return {
-    input: data?.inputTokens || 0,
-    output: data?.outputTokens || 0,
-  };
-}
-
-/** Increment daily token usage */
-async function trackTokenUsage(inputTokens: number, outputTokens: number) {
-  if (!adminDb) return;
-  const dateKey = getTodayIST();
-  const docRef = adminDb.collection("ai_usage").doc(dateKey);
-
-  const { FieldValue } = await import("firebase-admin/firestore");
-  await docRef.set(
-    {
-      inputTokens: FieldValue.increment(inputTokens),
-      outputTokens: FieldValue.increment(outputTokens),
-      lastUpdated: new Date().toISOString(),
-    },
-    { merge: true }
-  );
-}
+// Removed global token tracking to prevent TOCTOU race conditions.
+// We strictly enforce per-user 40k limits securely via Firestore usage metrics.
 
 export async function POST(request: Request) {
   // 1. Authenticate
@@ -60,7 +19,7 @@ export async function POST(request: Request) {
   if (authResult instanceof NextResponse) return authResult;
 
   // 2. Rate limit: 10 requests per minute per user
-  if (isRateLimited(`tutor:${authResult.uid}`, 10, 60_000)) {
+  if (await isRateLimited(`tutor:${authResult.uid}`, 10, 60_000)) {
     return new Response(JSON.stringify({ error: "Rate limit exceeded. Please wait a moment." }), {
       status: 429,
       headers: { "Content-Type": "application/json" },
@@ -79,28 +38,7 @@ export async function POST(request: Request) {
     );
   }
 
-  // 3. Check platform-wide daily token budget
-  const usage = await getDailyUsage();
-  if (usage) {
-    if (usage.input >= DAILY_INPUT_LIMIT) {
-      return new Response(
-        JSON.stringify({
-          error: "AI Tutor daily input token limit reached (25k). Please try again tomorrow after midnight IST.",
-          limitReached: true,
-        }),
-        { status: 429, headers: { "Content-Type": "application/json" } }
-      );
-    }
-    if (usage.output >= DAILY_OUTPUT_LIMIT) {
-      return new Response(
-        JSON.stringify({
-          error: "AI Tutor daily output token limit reached (75k). Please try again tomorrow after midnight IST.",
-          limitReached: true,
-        }),
-        { status: 429, headers: { "Content-Type": "application/json" } }
-      );
-    }
-  }
+  // Removed global limit checks to fix TOCTOU bypass and support scale.
 
   const body = await request.json();
   // Cap conversation history to prevent token bombing
@@ -174,8 +112,7 @@ export async function POST(request: Request) {
           const inputUsed = finalUsage?.prompt_tokens || estimatedInputTokens;
           const outputUsed = finalUsage?.completion_tokens || Math.ceil(totalOutputChars / 4);
           
-          // Platform-wide tracking
-          trackTokenUsage(inputUsed, outputUsed).catch(console.error);
+          // Platform-wide tracking removed.
           
           // Per-user tracking (HIGH-32 fix)
           if (adminDb) {

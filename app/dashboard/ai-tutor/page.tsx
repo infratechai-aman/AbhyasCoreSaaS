@@ -17,14 +17,14 @@ export default function AITutorPage() {
   const [query, setQuery] = useState("");
   const [generating, setGenerating] = useState(false);
   const endOfChatRef = useRef<HTMLDivElement>(null);
-  const { userData } = useAuth();
+  const { user, userData } = useAuth();
   const [chatHistory, setChatHistory] = useState<any[]>([]);
 
   useEffect(() => {
-     if (userData?.uid) {
-       getAITutorHistory(userData.uid).then(res => setChatHistory(res));
+     if (user?.uid) {
+       getAITutorHistory(user.uid).then(res => setChatHistory(res));
      }
-  }, [userData?.uid]);
+  }, [user?.uid]);
 
   useEffect(() => {
      endOfChatRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -97,10 +97,10 @@ export default function AITutorPage() {
        setMessages(prev => [...prev, { role: "assistant", content: "Network error occurred." }]);
      } finally {
        setGenerating(false);
-       if (userData?.uid && accumulated.trim()) {
-          saveAITutorChat(userData.uid, text.substring(0, 30) + "...", [...history, userMsg, { role: "assistant", content: accumulated }])
+       if (user?.uid && accumulated.trim()) {
+          saveAITutorChat(user.uid, text.substring(0, 30) + "...", [...history, userMsg, { role: "assistant", content: accumulated }])
             .then(() => {
-               getAITutorHistory(userData.uid).then(res => setChatHistory(res));
+               getAITutorHistory(user.uid).then(res => setChatHistory(res));
             });
        }
      }
@@ -177,7 +177,7 @@ export default function AITutorPage() {
                    </div>
                 </div>
                 <div className="hidden sm:flex gap-2">
-                   <span className="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-500 text-[10px] uppercase font-bold tracking-wider rounded-lg">Model: GPT-4o-Turbo</span>
+                   <span className="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-500 text-[10px] uppercase font-bold tracking-wider rounded-lg">Model: GPT-4o Mini</span>
                 </div>
              </div>
              
@@ -287,15 +287,15 @@ export default function AITutorPage() {
                      Based on your last mock test, your accuracy on isothermal and adiabatic processes dropped by 18%. Let me generate a specialized 5-question test to fix this.
                   </p>
                   
-                  <button className="w-full py-3.5 bg-white hover:bg-slate-50 text-indigo-700 font-bold text-[13px] rounded-xl shadow-lg transition-colors flex items-center justify-center gap-2">
-                     <BrainCircuit className="w-4 h-4" /> Start AI Review
+                  <button className="w-full py-3.5 bg-white/60 text-indigo-400 font-bold text-[13px] rounded-xl shadow-lg flex items-center justify-center gap-2 cursor-not-allowed" disabled>
+                     <BrainCircuit className="w-4 h-4" /> Coming Soon
                   </button>
                </div>
             </div>
             
             <div className="bg-white rounded-[28px] border border-slate-200/60 p-6 shadow-sm flex-1 flex flex-col">
                <h3 className="text-[14px] font-bold text-slate-900 mb-5 flex items-center justify-between">
-                 Chat History <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider hover:text-indigo-600 cursor-pointer">Clear</span>
+                 Chat History <span onClick={() => { setMessages([]); setChatHistory([]); }} className="text-[10px] text-slate-400 font-bold uppercase tracking-wider hover:text-red-500 cursor-pointer transition-colors">Clear All</span>
                </h3>
                
                <div className="space-y-3 flex-1 overflow-y-auto pr-1">

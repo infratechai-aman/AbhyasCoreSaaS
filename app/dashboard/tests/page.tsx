@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
-import { Target, Clock, Trophy, ChevronRight, LayoutGrid, Rocket, Bookmark, Shield, Flame, Lock } from "lucide-react";
+import { Target, Clock, Trophy, ChevronRight, LayoutGrid, Rocket, Bookmark, Shield, Flame, Lock, X, CheckCircle, AlertTriangle } from "lucide-react";
 import { Syllabus, SubjectSyllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
 
@@ -14,14 +14,17 @@ export default function TestsPage() {
   const [activeClass, setActiveClass] = useState<keyof typeof Syllabus>("Class11");
   const [activeSubject, setActiveSubject] = useState<keyof SubjectSyllabus>("Physics");
 
-  const [localMaxTier, setLocalMaxTier] = useState<number>(0);
-  
+  const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
+
   useEffect(() => {
-     setLocalMaxTier(parseInt(localStorage.getItem('maxTierPassed') || '0', 10));
-  }, []);
+    if (toast) {
+      const timer = setTimeout(() => setToast(null), 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [toast]);
 
   const targetExam = userData?.targetExam || "JEE";
-  const totalMaxTierPassed = Math.max(userData?.maxTierPassed || 0, localMaxTier);
+  const totalMaxTierPassed = userData?.maxTierPassed || 0;
   
   const handleTieredMock = (level: number) => {
     if (level > totalMaxTierPassed + 1) return;
@@ -35,9 +38,11 @@ export default function TestsPage() {
   });
 
   // Ensure activeSubject is valid for the current track
-  if (!allowedSubjects.includes(activeSubject)) {
-    setActiveSubject(allowedSubjects[0]);
-  }
+  useEffect(() => {
+    if (allowedSubjects.length > 0 && !allowedSubjects.includes(activeSubject)) {
+      setActiveSubject(allowedSubjects[0]);
+    }
+  }, [activeSubject, allowedSubjects]);
 
   const syllabusData = Syllabus[activeClass][activeSubject];
 
@@ -66,7 +71,7 @@ export default function TestsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
               {targetExam === "JEE" ? (
                 // JEE Full Mock Card
-                <div onClick={() => alert("Full Grand Simulations are currently being populated. Check back within 48 hours!")} className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
+                <div onClick={() => setToast({ message: "Full Grand Simulations are currently being populated. Check back within 48 hours!", type: "success" })} className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
                   <div className="absolute -right-8 -top-8 w-40 h-40 bg-indigo-500 rounded-full blur-[50px] opacity-30 group-hover:opacity-50 transition-all" />
                   
                   <div className="flex justify-between items-start mb-6 relative z-10">
@@ -100,7 +105,7 @@ export default function TestsPage() {
                 </div>
               ) : (
                 // NEET Full Mock Card
-                <div onClick={() => alert("Full Grand Simulations are currently being populated. Check back within 48 hours!")} className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
+                <div onClick={() => setToast({ message: "Full Grand Simulations are currently being populated. Check back within 48 hours!", type: "success" })} className="relative bg-slate-900 text-white rounded-[24px] p-6 shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-all">
                   <div className="absolute -right-8 -top-8 w-40 h-40 bg-emerald-500 rounded-full blur-[50px] opacity-30 group-hover:opacity-50 transition-all" />
                   
                   <div className="flex justify-between items-start mb-6 relative z-10">
@@ -337,6 +342,23 @@ export default function TestsPage() {
         </div>
         
       </div>
+      {toast && (
+        <div className={`fixed z-[200] flex items-center gap-3 rounded-2xl shadow-2xl border backdrop-blur-xl max-w-md
+          bottom-20 left-4 right-4 px-4 py-3
+          md:bottom-auto md:top-6 md:left-auto md:right-6 md:px-5 md:py-4
+          ${toast.type === "success" ? "bg-emerald-50/95 border-emerald-200 text-emerald-900" : "bg-red-50/95 border-red-200 text-red-900"}
+        `}>
+          {toast.type === "success" ? (
+            <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
+          ) : (
+            <AlertTriangle className="w-5 h-5 text-red-600 shrink-0" />
+          )}
+          <p className="text-[13px] font-semibold leading-snug flex-1">{toast.message}</p>
+          <button onClick={() => setToast(null)} className="shrink-0 text-slate-400 hover:text-slate-600">
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+      )}
     </DashboardShell>
   );
 }

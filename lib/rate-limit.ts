@@ -1,50 +1,52 @@
-/**
- * Simple in-memory sliding window rate limiter.
- * For production scale, migrate to Upstash Redis.
- */
-
-interface RateLimitEntry {
-  timestamps: number[];
-}
-
-const store = new Map<string, RateLimitEntry>();
-
-// Clean up stale entries every 5 minutes
-setInterval(() => {
-  const now = Date.now();
-  for (const [key, entry] of store.entries()) {
-    entry.timestamps = entry.timestamps.filter((t) => now - t < 120_000);
-    if (entry.timestamps.length === 0) store.delete(key);
-  }
-}, 300_000);
+import { adminDb } from "@/lib/firebase-admin";
 
 /**
- * Check if a request should be rate limited.
- * @param key - Unique identifier (e.g., userId or IP)
- * @param maxRequests - Max requests allowed in the window
- * @param windowMs - Time window in milliseconds
- * @returns true if the request should be BLOCKED
+ * Firestore-based sliding window rate limiter.
+ * This prevents TOCTOU and works seamlessly across serverless instances.
  */
-export function isRateLimited(
+export async function isRateLimited(
   key: string,
   maxRequests: number,
   windowMs: number
-): boolean {
+): Promise<boolean> {
+  if (!adminDb) {
+    console.error("Firestore Admin DB not initialized for rate limiting.");
+    return false; // Fail open if no DB to prevent blocking legitimate users during setup
+  }
+
+  const safeKey = key.replace(/[^a-zA-Z0-9_-]/g, "_"); // sanitize key for Firestore doc ID
+  const docRef = adminDb.collection("rate_limits").doc(safeKey);
   const now = Date.now();
-  let entry = store.get(key);
 
-  if (!entry) {
-    entry = { timestamps: [] };
-    store.set(key, entry);
+  try {
+    const docSnap = await docRef.get();
+    let timestamps: number[] = [];
+
+    if (docSnap.exists) {
+      const data = docSnap.data();
+      if (data && Array.isArray(data.timestamps)) {
+        timestamps = data.timestamps;
+      }
+    }
+
+    // Remove timestamps outside the window
+    timestamps = timestamps.filter((t) => now - t < windowMs);
+
+    if (timestamps.length >= maxRequests) {
+      return true; // BLOCKED
+    }
+
+    timestamps.push(now);
+    
+    // Update Firestore
+    await docRef.set({
+      timestamps,
+      lastUpdated: new Date().toISOString()
+    });
+
+    return false; // ALLOWED
+  } catch (error) {
+    console.error("Rate limit check failed:", error);
+    return false; // Fail open on error
   }
-
-  // Remove timestamps outside the window
-  entry.timestamps = entry.timestamps.filter((t) => now - t < windowMs);
-
-  if (entry.timestamps.length >= maxRequests) {
-    return true; // BLOCKED
-  }
-
-  entry.timestamps.push(now);
-  return false; // ALLOWED
 }
