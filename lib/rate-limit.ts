@@ -1,56 +1,38 @@
 import { adminDb } from "@/lib/firebase-admin";
 
-/**
- * Firestore-based sliding window rate limiter.
- * Uses transactions to prevent TOCTOU race conditions.
- */
+// SECURITY & OPTIMIZATION: Use in-memory LRU-style rate limiter instead of Firestore.
+// This saves 1 Read + 1 Write per API request, drastically reducing Firebase costs.
+// In a serverless environment, this is instance-scoped (loose limit), but sufficient for DoS protection.
+const rateLimitCache = new Map<string, number[]>();
+
 export async function isRateLimited(
   key: string,
   maxRequests: number,
   windowMs: number
 ): Promise<boolean> {
-  if (!adminDb) {
-    console.error("Firestore Admin DB not initialized for rate limiting.");
-    return true; // SECURITY (VULN-04): Fail CLOSED — block requests when DB is unavailable
-  }
-
-  const safeKey = key.replace(/[^a-zA-Z0-9_-]/g, "_"); // sanitize key for Firestore doc ID
-  const docRef = adminDb.collection("rate_limits").doc(safeKey);
   const now = Date.now();
-
-  try {
-    const isBlocked = await adminDb.runTransaction(async (transaction) => {
-      const docSnap = await transaction.get(docRef);
-      let timestamps: number[] = [];
-
-      if (docSnap.exists) {
-        const data = docSnap.data();
-        if (data && Array.isArray(data.timestamps)) {
-          timestamps = data.timestamps;
-        }
+  const safeKey = key.replace(/[^a-zA-Z0-9_-]/g, "_");
+  
+  // Clean up old entries periodically to prevent memory leaks in long-running instances
+  if (Math.random() < 0.01) {
+    for (const [k, timestamps] of rateLimitCache.entries()) {
+      const valid = timestamps.filter(t => now - t < windowMs);
+      if (valid.length === 0) {
+        rateLimitCache.delete(k);
+      } else {
+        rateLimitCache.set(k, valid);
       }
-
-      // Remove timestamps outside the window
-      timestamps = timestamps.filter((t) => now - t < windowMs);
-
-      if (timestamps.length >= maxRequests) {
-        return true; // BLOCKED
-      }
-
-      timestamps.push(now);
-      
-      // Atomic write inside transaction
-      transaction.set(docRef, {
-        timestamps,
-        lastUpdated: new Date().toISOString()
-      });
-
-      return false; // ALLOWED
-    });
-
-    return isBlocked;
-  } catch (error) {
-    console.error("Rate limit check failed:", error);
-    return true; // SECURITY (VULN-04): Fail CLOSED on error — block when uncertain
+    }
   }
+
+  const timestamps = (rateLimitCache.get(safeKey) || []).filter(t => now - t < windowMs);
+  
+  if (timestamps.length >= maxRequests) {
+    return true; // BLOCKED
+  }
+  
+  timestamps.push(now);
+  rateLimitCache.set(safeKey, timestamps);
+  
+  return false; // ALLOWED
 }
