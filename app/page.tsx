@@ -163,6 +163,28 @@ export default function HomePage() {
 
   return (
     <div style={homeTheme} className="min-h-screen bg-[var(--bg)] text-slate-900 selection:bg-indigo-100 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "AbhyasCore",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "399",
+              "priceCurrency": "INR"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1250"
+            }
+          })
+        }}
+      />
       <HomeHeader />
 
       <main className="overflow-hidden">

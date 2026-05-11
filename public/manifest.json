@@ -1,0 +1,21 @@
+{
+  "name": "AbhyasCore - AI Mock Tests",
+  "short_name": "AbhyasCore",
+  "description": "India's most premium AI-powered mock test platform for JEE and NEET aspirants.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/favicon_white.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon_white.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
