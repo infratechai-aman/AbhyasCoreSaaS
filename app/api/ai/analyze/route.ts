@@ -3,6 +3,7 @@ import { getOpenAIClient } from "@/lib/openai";
 import { requireAuth } from "@/lib/auth-middleware";
 import { isRateLimited } from "@/lib/rate-limit";
 import { getUserSubscription } from "@/lib/subscription-middleware";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 export async function POST(request: Request) {
   // 1. Authenticate
@@ -23,7 +24,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Daily AI token limit reached. Upgrade to Pro for more.", limitReached: true }, { status: 403 });
   }
 
-  const body = await request.json();
+  const body = await parseBodyWithLimit(request, "1mb");
+  if (body instanceof NextResponse) return body;
 
   // Validate input: only allow expected fields (CRITICAL-30 defense)
   const sanitizedData = {

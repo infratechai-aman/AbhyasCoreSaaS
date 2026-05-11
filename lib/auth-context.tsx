@@ -55,15 +55,29 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
           const { subscription, usage, ...safeData } = data;
           sessionStorage.setItem("abhyas_userData", JSON.stringify(safeData));
           // Set a minimal cookie for Next.js Middleware route protection
-          document.cookie = "abhyas_session=1; path=/; max-age=86400; SameSite=Lax";
-          const ADMIN_EMAIL = (process.env.NEXT_PUBLIC_ADMIN_EMAIL || "").toLowerCase();
-          if (data.email && data.email.toLowerCase() === ADMIN_EMAIL) {
-            document.cookie = "abhyas_admin=1; path=/; max-age=86400; SameSite=Lax";
+          document.cookie = "abhyas_session=1; path=/; max-age=86400; SameSite=Lax; Secure";
+          // MED-03 FIX: Check admin status via server-side endpoint instead of
+          // exposing admin email in NEXT_PUBLIC env var. Fire-and-forget.
+          const currentUser = auth?.currentUser;
+          if (currentUser) {
+            currentUser.getIdToken().then((idToken) => {
+              fetch("/api/admin/verify", {
+                method: "POST",
+                headers: { Authorization: `Bearer ${idToken}` },
+              })
+                .then((r) => r.ok ? r.json() : null)
+                .then((d) => {
+                  if (d?.isAdmin) {
+                    document.cookie = "abhyas_admin=1; path=/; max-age=86400; SameSite=Lax; Secure";
+                  }
+                })
+                .catch(() => {});
+            }).catch(() => {});
           }
         } else {
           sessionStorage.removeItem("abhyas_userData");
-          document.cookie = "abhyas_session=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
-          document.cookie = "abhyas_admin=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+          document.cookie = "abhyas_session=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure";
+          document.cookie = "abhyas_admin=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure";
         }
       } catch {}
     }

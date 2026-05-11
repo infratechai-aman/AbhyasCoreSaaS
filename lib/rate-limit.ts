@@ -1,9 +1,17 @@
 import { adminDb } from "@/lib/firebase-admin";
 
-// SECURITY & OPTIMIZATION: Use in-memory LRU-style rate limiter instead of Firestore.
-// This saves 1 Read + 1 Write per API request, drastically reducing Firebase costs.
-// In a serverless environment, this is instance-scoped (loose limit), but sufficient for DoS protection.
+/**
+ * In-memory rate limiter for serverless functions.
+ *
+ * ARCHITECTURAL NOTE: This is instance-scoped — each serverless cold start
+ * gets a fresh Map. This is acceptable for initial scale (up to ~5,000 CCU)
+ * but should be replaced with Upstash Redis or Vercel KV for distributed
+ * rate limiting when scaling beyond that threshold.
+ *
+ * Hardened with a max cache size to prevent unbounded memory growth.
+ */
 const rateLimitCache = new Map<string, number[]>();
+const MAX_CACHE_SIZE = 10_000; // Prevent memory exhaustion
 
 export async function isRateLimited(
   key: string,
@@ -13,7 +21,15 @@ export async function isRateLimited(
   const now = Date.now();
   const safeKey = key.replace(/[^a-zA-Z0-9_-]/g, "_");
   
-  // Clean up old entries periodically to prevent memory leaks in long-running instances
+  // Evict oldest entries if cache grows too large (prevents memory leak)
+  if (rateLimitCache.size > MAX_CACHE_SIZE) {
+    const keysToDelete = Array.from(rateLimitCache.keys()).slice(0, Math.floor(MAX_CACHE_SIZE * 0.2));
+    for (const k of keysToDelete) {
+      rateLimitCache.delete(k);
+    }
+  }
+
+  // Clean up expired entries periodically (1% chance per request)
   if (Math.random() < 0.01) {
     for (const [k, timestamps] of rateLimitCache.entries()) {
       const valid = timestamps.filter(t => now - t < windowMs);
@@ -36,3 +52,4 @@ export async function isRateLimited(
   
   return false; // ALLOWED
 }
+

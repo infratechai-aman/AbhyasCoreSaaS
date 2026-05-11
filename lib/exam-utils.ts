@@ -1,0 +1,154 @@
+/**
+ * Shared exam utilities used across all exam API routes.
+ * Eliminates ~400 lines of duplicated code.
+ */
+
+// ── Array Shuffle ──
+export function shuffleArray<T>(array: T[]): T[] {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// ── Shuffle Options & Remap Correct Answer ──
+export function shuffleOptionsAndAnswer(
+  options: { id: string; text: string }[],
+  answer: string
+) {
+  const shuffled = [...options];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  const ids = ["A", "B", "C", "D"];
+  let newAnswer = answer;
+  const reassigned = shuffled.map((opt, idx) => {
+    const newId = ids[idx] || opt.id;
+    if (opt.id === answer) newAnswer = newId;
+    return { id: newId, text: opt.text };
+  });
+  return { options: reassigned, answer: newAnswer };
+}
+
+// ── Math Symbol Formatting ──
+export function formatMathText(str: string): string {
+  if (!str) return "";
+  return str
+    .replace(/(^|\b|\d)phi(\b|$)/g, "$1φ$2")
+    .replace(/(^|\b|\d)theta(\b|$)/g, "$1θ$2")
+    .replace(/(^|\b|\d)alpha(\b|$)/g, "$1α$2")
+    .replace(/(^|\b|\d)beta(\b|$)/g, "$1β$2")
+    .replace(/(^|\b|\d)gamma(\b|$)/g, "$1γ$2")
+    .replace(/(^|\b|\d)lambda(\b|$)/g, "$1λ$2")
+    .replace(/(^|\b|\d)mu(\b|$)/g, "$1μ$2")
+    .replace(/(^|\b|\d)pi(\b|$)/g, "$1π$2")
+    .replace(/(^|\b|\d)omega(\b|$)/g, "$1ω$2")
+    .replace(/(^|\b|\d)sigma(\b|$)/g, "$1σ$2")
+    .replace(/(^|\b|\d)Delta(\b|$)/g, "$1Δ$2")
+    .replace(/(^|\b|\d)infty(\b|$)/g, "$1∞$2")
+    .replace(/\*/g, "·");
+}
+
+// ── Option Text Sanitization ──
+export function sanitizeOptionText(str: string): string {
+  let cleaned = formatMathText(str).trim();
+  // Remove leading "Option X:" or "X)" prefixes
+  cleaned = cleaned.replace(/^(Option\s*)?[A-Da-d][\.)\:\-]\s*/i, "");
+  const lower = cleaned.toLowerCase();
+  if (
+    cleaned.length === 0 ||
+    /^[A-D]$/i.test(cleaned) ||
+    lower === "none" ||
+    lower === "phi" ||
+    cleaned === "φ" ||
+    lower === "null" ||
+    lower === "undefined" ||
+    lower === "n/a"
+  ) {
+    return "None of the above";
+  }
+  return cleaned;
+}
+
+// ── Pad Options to Exactly 4 ──
+export function padOptionsToFour(
+  options: { id: string; text: string }[]
+): { id: string; text: string }[] {
+  const ids = ["A", "B", "C", "D"];
+  const fillers = [
+    "None of the above",
+    "All of the above",
+    "Cannot be determined",
+    "Not applicable",
+  ];
+  while (options.length < 4) {
+    const nextId = ids[options.length];
+    const existingTexts = options.map((o) => o.text.toLowerCase());
+    const fillerText =
+      fillers.find((f) => !existingTexts.includes(f.toLowerCase())) ||
+      "None of the above";
+    options.push({ id: nextId, text: fillerText });
+  }
+  return options;
+}
+
+// ── Sample Random Questions ──
+export function sampleQuestions(questions: any[], count: number): any[] {
+  if (!questions) return [];
+  const validQuestions = Array.isArray(questions) ? questions : [questions];
+  const shuffled = shuffleArray(validQuestions);
+  return shuffled.slice(0, count);
+}
+
+// ── Format Raw XML Options Into Structured Array ──
+export function formatRawOptions(rawOptions: any[]): { id: string; text: string }[] {
+  return rawOptions.map((opt: any) => {
+    if (typeof opt === "string") return { id: "?", text: sanitizeOptionText(opt) };
+    return {
+      id: String(opt["@_id"] ?? ""),
+      text: sanitizeOptionText(String(opt["#text"] ?? opt ?? "")),
+    };
+  });
+}
+
+// ── Process a Single Raw Question From XML ──
+export function processQuestion(q: any, index: number, difficulty?: string): any | null {
+  if (!q || !q.text) return null;
+
+  const rawOptions = q.option
+    ? Array.isArray(q.option)
+      ? q.option
+      : [q.option]
+    : [];
+
+  let formattedOptions = formatRawOptions(rawOptions);
+  formattedOptions = padOptionsToFour(formattedOptions);
+  const originalAnswer = String(q.answer ?? "");
+  const { options: shuffledOpts, answer: newAnswer } = shuffleOptionsAndAnswer(
+    formattedOptions,
+    originalAnswer
+  );
+
+  return {
+    id: q["@_id"] || `q${index + 1}`,
+    text: formatMathText(String(q.text ?? "")),
+    options: shuffledOpts,
+    answer: newAnswer,
+    explanation: formatMathText(String(q.explanation ?? "")),
+    difficulty: difficulty || q.difficulty || "medium",
+  };
+}
+
+// ── Strip Answers for Client Response ──
+export function stripAnswersForClient(questions: any[]): any[] {
+  return questions.map((q: any) => ({
+    id: q.id,
+    text: q.text,
+    options: q.options,
+    difficulty: q.difficulty,
+    ...(q.chapterSource && { chapterSource: q.chapterSource }),
+  }));
+}

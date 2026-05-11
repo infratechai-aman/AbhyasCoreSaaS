@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -8,7 +9,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
           <div className="flex items-center justify-center">
-            <img src="/logo.png" alt="AbhyasCore Logo" className="h-20 w-auto object-contain" />
+            <Image src="/logo.png" alt="AbhyasCore Logo" width={128} height={80} className="h-20 w-auto object-contain" />
           </div>
         </Link>
         <nav className="hidden items-center gap-8 text-sm text-muted lg:flex">

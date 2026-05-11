@@ -1,52 +1,73 @@
 import { NextResponse } from "next/server";
-import { requireAdmin } from "@/lib/auth-middleware";
 import { adminDb } from "@/lib/firebase-admin";
 
 /**
  * POST /api/admin/cleanup
- * SECURITY (VULN-10): Cleans up stale exam_sessions to prevent database unbounded growth.
- * Can be triggered via Admin Dashboard or a scheduled Cron job.
+ * 
+ * Cleans up expired exam sessions from Firestore to prevent unbounded collection growth.
+ * Designed to be called by Vercel Cron Jobs.
+ * 
+ * Setup: Add to vercel.json → crons: [{ path: "/api/admin/cleanup", schedule: "0 2 * * *" }]
  */
 export async function POST(req: Request) {
   try {
-    // 1. Authenticate (only admins or secure cron)
-    const authResult = await requireAdmin(req);
-    // Allow cron jobs with secret bearer token
+    // Verify this is a cron job or admin request
     const isCron = req.headers.get("Authorization") === `Bearer ${process.env.CRON_SECRET}`;
     
-    if (authResult instanceof NextResponse && !isCron) {
-      return authResult; // Unauthorized
+    if (!isCron) {
+      // Fall back to admin auth check
+      const { requireAdmin } = await import("@/lib/auth-middleware");
+      const authResult = await requireAdmin(req);
+      if (authResult instanceof NextResponse) return authResult;
     }
 
     if (!adminDb) {
       return NextResponse.json({ error: "Server not configured." }, { status: 500 });
     }
 
-    // Delete sessions older than 24 hours (createdAt is stored as ISO string)
-    const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
-    const oldSessionsQuery = await adminDb
+    const now = new Date().toISOString();
+    let deletedSessions = 0;
+    let deletedWebhookEvents = 0;
+
+    // 1. Delete expired exam sessions (expiresAt < now)
+    const expiredSessions = await adminDb
       .collection("exam_sessions")
-      .where("createdAt", "<", oneDayAgo)
+      .where("expiresAt", "<", now)
+      .limit(500) // Process in batches to avoid timeout
+      .get();
+
+    if (!expiredSessions.empty) {
+      const batch = adminDb.batch();
+      expiredSessions.docs.forEach((doc) => batch.delete(doc.ref));
+      await batch.commit();
+      deletedSessions = expiredSessions.size;
+    }
+
+    // 2. Delete old webhook events (older than 30 days)
+    const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString();
+    const oldWebhookEvents = await adminDb
+      .collection("webhook_events")
+      .where("processedAt", "<", thirtyDaysAgo)
       .limit(500)
       .get();
 
-    if (oldSessionsQuery.empty) {
-      return NextResponse.json({ message: "No stale sessions found.", deleted: 0 });
+    if (!oldWebhookEvents.empty) {
+      const batch = adminDb.batch();
+      oldWebhookEvents.docs.forEach((doc) => batch.delete(doc.ref));
+      await batch.commit();
+      deletedWebhookEvents = oldWebhookEvents.size;
     }
 
-    const batch = adminDb.batch();
-    oldSessionsQuery.docs.forEach((doc) => {
-      batch.delete(doc.ref);
-    });
+    console.info(`[cleanup] Deleted ${deletedSessions} expired sessions, ${deletedWebhookEvents} old webhook events`);
 
-    await batch.commit();
-
-    return NextResponse.json({ 
-      message: `Successfully deleted ${oldSessionsQuery.size} stale exam sessions.`,
-      deleted: oldSessionsQuery.size 
+    return NextResponse.json({
+      success: true,
+      deletedSessions,
+      deletedWebhookEvents,
+      timestamp: now,
     });
   } catch (err: any) {
     console.error("[admin/cleanup] Error:", err);
-    return NextResponse.json({ error: "Internal server error." }, { status: 500 });
+    return NextResponse.json({ error: "Cleanup failed." }, { status: 500 });
   }
 }

@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { requireAuth } from "@/lib/auth-middleware";
 import { adminDb } from "@/lib/firebase-admin";
 import { isRateLimited } from "@/lib/rate-limit";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 /**
  * POST /api/ai/save-chat
@@ -24,7 +25,8 @@ export async function POST(request: Request) {
   }
 
   try {
-    const body = await request.json();
+    const body = await parseBodyWithLimit(request, "512kb");
+    if (body instanceof NextResponse) return body;
     const { title, messages } = body;
 
     // Validate and cap inputs

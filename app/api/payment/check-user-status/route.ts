@@ -25,7 +25,7 @@ export async function POST(req: Request) {
       if (userSnap.exists) {
         const data = userSnap.data();
         const sub = data?.subscription;
-        if (sub?.status === 'active' && sub?.plan && sub.plan !== 'Free') {
+        if ((sub?.status === 'active' || sub?.status === 'cancelling') && sub?.plan && sub.plan !== 'Free') {
           // Check expiry for time-limited plans
           if (sub.expiryDate) {
             const now = new Date();

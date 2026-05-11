@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { requireAuth } from "@/lib/auth-middleware";
 import { adminDb, adminAuth } from "@/lib/firebase-admin";
 import { isRateLimited } from "@/lib/rate-limit";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 /**
  * POST /api/account/delete
@@ -19,6 +20,10 @@ export async function POST(request: Request) {
   if (await isRateLimited(`delete-account:${authResult.uid}`, 2, 3600_000)) {
     return NextResponse.json({ error: "Too many requests. Try again later." }, { status: 429 });
   }
+
+  // 2b. Body limit protection
+  const bodyResult = await parseBodyWithLimit(request, '128kb');
+  if (bodyResult instanceof NextResponse) return bodyResult;
 
   if (!adminDb || !adminAuth) {
     return NextResponse.json({ error: "Server not configured." }, { status: 500 });

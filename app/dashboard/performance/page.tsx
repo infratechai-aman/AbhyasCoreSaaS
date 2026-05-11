@@ -150,9 +150,9 @@ export default function PerformancePage() {
                  </div>
               </div>
               <div className="text-[36px] font-display font-bold leading-none mb-2 relative z-10">
-                 {loading ? <Loader2 className="w-6 h-6 animate-spin text-white mb-2" /> : metrics.projectedAir.toLocaleString()}
+                 {loading ? <Loader2 className="w-6 h-6 animate-spin text-white mb-2" /> : metrics.totalExams === 0 ? "—" : metrics.projectedAir.toLocaleString()}
               </div>
-              <div className="text-[12px] text-emerald-400 font-bold flex items-center gap-1 relative z-10"><TrendingUp className="w-3 h-3" /> Rough estimate • {metrics.totalQuestions} Qs</div>
+              <div className="text-[12px] text-emerald-400 font-bold flex items-center gap-1 relative z-10"><TrendingUp className="w-3 h-3" /> {metrics.totalExams === 0 ? "Take exams to see projection" : `Rough estimate • ${metrics.totalQuestions} Qs`}</div>
            </div>
            
            <div className="bg-white rounded-[20px] border border-slate-200/60 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)] hover:-translate-y-1 transition-transform cursor-default relative overflow-hidden">

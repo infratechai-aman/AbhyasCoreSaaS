@@ -2,17 +2,24 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 /**
- * SECURITY (VULN-05): Edge Route Middleware
+ * SECURITY (VULN-05 + CRIT-03): Edge Route Middleware
+ * 
  * Prevents unauthenticated users from downloading the JS bundles for protected routes.
- * Relies on lightweight cookies set by the client-side Firebase auth state listener.
+ * Uses lightweight cookies set by the client-side Firebase auth state listener.
+ * 
+ * NOTE: This is a UI-level gate only. All actual data access is protected
+ * by server-side Firebase Admin SDK token verification in API routes.
+ * Even if someone bypasses this middleware, they get an empty UI shell with
+ * zero data — every API call requires a valid Firebase ID token.
  */
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Protect Admin Routes
+  // Protect Admin Routes — require both session AND admin cookie
   if (pathname.startsWith('/admin')) {
+    const isAuth = request.cookies.get('abhyas_session')?.value === '1';
     const isAdmin = request.cookies.get('abhyas_admin')?.value === '1';
-    if (!isAdmin) {
+    if (!isAuth || !isAdmin) {
       return NextResponse.redirect(new URL('/login', request.url));
     }
   }
@@ -25,7 +32,11 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  return NextResponse.next();
+  // Add security headers to all responses
+  const response = NextResponse.next();
+  response.headers.set('X-Content-Type-Options', 'nosniff');
+
+  return response;
 }
 
 export const config = {

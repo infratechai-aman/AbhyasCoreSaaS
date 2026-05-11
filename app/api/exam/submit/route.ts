@@ -3,6 +3,7 @@ import { requireAuth } from "@/lib/auth-middleware";
 import { isRateLimited } from "@/lib/rate-limit";
 import { adminDb } from "@/lib/firebase-admin";
 import { FieldValue } from "firebase-admin/firestore";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 /**
  * POST /api/exam/submit
@@ -31,7 +32,8 @@ export async function POST(request: Request) {
   }
 
   try {
-    const body = await request.json();
+    const body = await parseBodyWithLimit(request, "1mb");
+    if (body instanceof NextResponse) return body;
     const { examSessionId, answers, timeTaken } = body;
 
     // Validate input

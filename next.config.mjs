@@ -18,6 +18,7 @@ const nextConfig = {
   },
   async headers() {
     return [
+      // ── Global Security Headers ──
       {
         source: "/(.*)",
         headers: [
@@ -51,15 +52,11 @@ const nextConfig = {
           },
         ],
       },
-    ];
-  },
-  async headers() {
-    return [
+      // ── API CORS Headers ──
       {
-        // SECURITY (VULN-17): CORS protection for API routes
         source: "/api/:path*",
         headers: [
-          { key: "Access-Control-Allow-Origin", value: "https://abhyascore.com" }, // Restrict in production
+          { key: "Access-Control-Allow-Origin", value: "https://abhyascore.com" },
           { key: "Access-Control-Allow-Methods", value: "GET, POST, PUT, DELETE, OPTIONS" },
           { key: "Access-Control-Allow-Headers", value: "Content-Type, Authorization" },
         ],

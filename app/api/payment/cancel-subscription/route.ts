@@ -3,6 +3,7 @@ import Razorpay from "razorpay";
 import { requireAuth } from "@/lib/auth-middleware";
 import { adminDb } from "@/lib/firebase-admin";
 import { isRateLimited } from "@/lib/rate-limit";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 /**
  * POST /api/payment/cancel-subscription
@@ -19,6 +20,10 @@ export async function POST(req: Request) {
     if (await isRateLimited(`cancel:${authResult.uid}`, 3, 3600_000)) {
       return NextResponse.json({ error: "Too many requests. Try again later." }, { status: 429 });
     }
+
+    // 2b. Body limit protection
+    const bodyResult = await parseBodyWithLimit(req, '128kb');
+    if (bodyResult instanceof NextResponse) return bodyResult;
 
     if (!adminDb) {
       return NextResponse.json({ error: "Server not configured." }, { status: 500 });
@@ -61,9 +66,11 @@ export async function POST(req: Request) {
       }
     }
 
-    // 5. Update Firestore
+    // 5. Update Firestore — use "cancelling" (not "cancelled") so the user keeps
+    //    access until the billing cycle ends. The webhook will set status to "none"
+    //    when Razorpay fires subscription.cancelled/completed at cycle end.
     await userRef.update({
-      "subscription.status": "cancelled",
+      "subscription.status": "cancelling",
       "subscription.cancelledAt": new Date().toISOString(),
       "subscription.cancelReason": "user_self_serve",
       updatedAt: new Date().toISOString(),

@@ -3,6 +3,7 @@ import { requireAdmin } from "@/lib/auth-middleware";
 import { adminDb, adminAuth } from "@/lib/firebase-admin";
 import { isRateLimited } from "@/lib/rate-limit";
 import { logAdminAction } from "@/lib/admin-audit";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 /**
  * POST /api/admin/create-promo-account
@@ -22,7 +23,9 @@ export async function POST(request: Request) {
   }
 
   try {
-    const { email, password, name, targetExam } = await request.json();
+    const body = await parseBodyWithLimit(request, '128kb');
+    if (body instanceof NextResponse) return body;
+    const { email, password, name, targetExam } = body;
 
     if (!email || !password || !name) {
       return NextResponse.json(
@@ -99,7 +102,7 @@ export async function POST(request: Request) {
     }
 
     return NextResponse.json(
-      { error: err.message || "Failed to create account." },
+      { error: "Failed to create account. Please try again." },
       { status: 500 }
     );
   }

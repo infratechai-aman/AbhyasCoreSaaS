@@ -3,6 +3,7 @@ import { requireAdmin } from "@/lib/auth-middleware";
 import { adminDb } from "@/lib/firebase-admin";
 import { isRateLimited } from "@/lib/rate-limit";
 import { logAdminAction } from "@/lib/admin-audit";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 /**
  * POST /api/admin/create-promo-code
@@ -22,7 +23,9 @@ export async function POST(request: Request) {
   }
 
   try {
-    const { code, creator } = await request.json();
+    const body = await parseBodyWithLimit(request, '128kb');
+    if (body instanceof NextResponse) return body;
+    const { code, creator } = body;
 
     if (!code || typeof code !== "string") {
       return NextResponse.json({ error: "Missing promo code." }, { status: 400 });

@@ -3,6 +3,7 @@ import Razorpay from 'razorpay';
 import { requireAuth } from '@/lib/auth-middleware';
 import { adminDb } from '@/lib/firebase-admin';
 import { isRateLimited } from '@/lib/rate-limit';
+import { parseBodyWithLimit } from '@/lib/body-limit';
 
 export async function POST(req: Request) {
   try {
@@ -20,7 +21,8 @@ export async function POST(req: Request) {
       key_secret: process.env.RAZORPAY_KEY_SECRET!,
     });
 
-    const body = await req.json();
+    const body = await parseBodyWithLimit(req, '256kb');
+    if (body instanceof NextResponse) return body;
     const { planType = 'monthly' } = body;
 
     // Use authenticated user's identity — ignore client-supplied userId/email

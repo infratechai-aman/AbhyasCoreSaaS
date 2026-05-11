@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Mail, ArrowLeft, Loader2, AlertCircle, CheckCircle2, KeyRound } from "lucide-react";
 import { auth } from "@/lib/firebase";
@@ -23,14 +24,16 @@ export default function ForgotPasswordPage() {
       await sendPasswordResetEmail(auth, email.trim());
       setSent(true);
     } catch (err: any) {
+      // SECURITY: Never reveal whether an email exists in the system.
+      // auth/user-not-found is treated as success to prevent user enumeration.
       if (err.code === "auth/user-not-found") {
-        setError("No account found with this email address.");
+        setSent(true); // Show the same "check your email" UI
       } else if (err.code === "auth/too-many-requests") {
         setError("Too many requests. Please wait a few minutes and try again.");
       } else if (err.code === "auth/invalid-email") {
         setError("Please enter a valid email address.");
       } else {
-        setError(err.message || "Failed to send reset email. Please try again.");
+        setError("Something went wrong. Please try again.");
       }
     } finally {
       setLoading(false);
@@ -53,7 +56,7 @@ export default function ForgotPasswordPage() {
         {/* Logo */}
         <div className="flex flex-col items-center mb-10">
           <Link href="/" className="flex flex-col items-center gap-3 mb-4">
-            <img src="/logo.png" alt="AbhyasCore Logo" className="h-44 w-auto object-contain" />
+            <Image src="/logo.png" alt="AbhyasCore Logo" width={280} height={176} className="h-44 w-auto object-contain" priority />
           </Link>
           <h1 className="text-xl font-bold text-slate-800 tracking-tight">Reset Password</h1>
           <p className="text-slate-500 text-sm mt-1">We&apos;ll send you a link to reset your password</p>

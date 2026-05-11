@@ -123,7 +123,7 @@ function HomeHeader() {
       >
         {/* logo */}
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.png" alt="AbhyasCore Logo" className="h-10 sm:h-12 lg:h-16 xl:h-20 w-auto object-contain" />
+          <Image src="/logo.png" alt="AbhyasCore Logo" width={160} height={80} className="h-10 sm:h-12 lg:h-16 xl:h-20 w-auto object-contain" priority />
         </Link>
 
         {/* nav */}
@@ -474,7 +474,7 @@ export default function HomePage() {
                       whileHover={{ y: -5 }}
                       className="absolute top-0 right-4 w-[480px] h-[340px] rounded-[24px] border border-white/80 bg-white/40 shadow-[0_20px_50px_rgba(0,0,0,0.1)] backdrop-blur-xl overflow-hidden z-20"
                    >
-                     <img src="/assets/main_dashboard.png" alt="UI" className="w-full h-full object-cover object-top opacity-95" />
+                     <Image src="/assets/main_dashboard.png" alt="AbhyasCore Dashboard" width={480} height={340} className="w-full h-full object-cover object-top opacity-95" />
                    </motion.div>
 
                    {/* Secondary chart overlapping */}
@@ -485,7 +485,7 @@ export default function HomePage() {
                       viewport={{ once: true }}
                       className="absolute bottom-10 left-0 w-[340px] h-[300px] rounded-[24px] border border-white/80 bg-white/60 shadow-[0_20px_50px_rgba(0,0,0,0.15)] backdrop-blur-2xl overflow-hidden z-30"
                    >
-                     <img src="/assets/analytics_chart.png" alt="Analytics" className="w-full h-full object-cover object-left opacity-95" />
+                     <Image src="/assets/analytics_chart.png" alt="AbhyasCore Analytics" width={340} height={300} className="w-full h-full object-cover object-left opacity-95" />
                    </motion.div>
                 </motion.div>
              </div>

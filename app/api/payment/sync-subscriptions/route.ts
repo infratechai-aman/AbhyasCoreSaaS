@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
 import { requireAdmin } from '@/lib/auth-middleware';
 import { isRateLimited } from '@/lib/rate-limit';
+import { parseBodyWithLimit } from '@/lib/body-limit';
 
 /**
  * POST /api/payment/sync-subscriptions (Admin Only)
@@ -19,6 +20,10 @@ export async function POST(req: Request) {
     if (await isRateLimited(`sync:${authResult.uid}`, 3, 60_000)) {
       return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
     }
+
+    // 2b. Body limit protection
+    const bodyResult = await parseBodyWithLimit(req, '128kb');
+    if (bodyResult instanceof NextResponse) return bodyResult;
 
     const keyId = process.env.RAZORPAY_KEY_ID;
     const keySecret = process.env.RAZORPAY_KEY_SECRET;

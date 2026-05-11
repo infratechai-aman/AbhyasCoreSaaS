@@ -3,6 +3,7 @@ import { requireAdmin } from "@/lib/auth-middleware";
 import { adminDb } from "@/lib/firebase-admin";
 import { isRateLimited } from "@/lib/rate-limit";
 import { logAdminAction } from "@/lib/admin-audit";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 /**
  * POST /api/admin/grant-pro
@@ -22,7 +23,9 @@ export async function POST(request: Request) {
   }
 
   try {
-    const { userId, plan } = await request.json();
+    const body = await parseBodyWithLimit(request, '128kb');
+    if (body instanceof NextResponse) return body;
+    const { userId, plan } = body;
 
     if (!userId || typeof userId !== "string") {
       return NextResponse.json({ error: "Missing userId." }, { status: 400 });

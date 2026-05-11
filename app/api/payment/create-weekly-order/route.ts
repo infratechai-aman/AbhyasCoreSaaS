@@ -3,6 +3,7 @@ import Razorpay from 'razorpay';
 import { requireAuth } from '@/lib/auth-middleware';
 import { adminDb } from '@/lib/firebase-admin';
 import { isRateLimited } from '@/lib/rate-limit';
+import { parseBodyWithLimit } from '@/lib/body-limit';
 
 export async function POST(req: Request) {
   try {
@@ -14,6 +15,10 @@ export async function POST(req: Request) {
     if (await isRateLimited(`weekly:${authResult.uid}`, 3, 60_000)) {
       return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
     }
+
+    // 2b. Body limit protection
+    const bodyResult = await parseBodyWithLimit(req, '256kb');
+    if (bodyResult instanceof NextResponse) return bodyResult;
 
     const userId = authResult.uid;
     const userEmail = authResult.email;

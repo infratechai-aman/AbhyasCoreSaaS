@@ -4,6 +4,7 @@ import { adminDb } from "@/lib/firebase-admin";
 import { isRateLimited } from "@/lib/rate-limit";
 import { NextResponse } from "next/server";
 import { getUserSubscription } from "@/lib/subscription-middleware";
+import { parseBodyWithLimit } from "@/lib/body-limit";
 
 export const runtime = "nodejs";
 
@@ -50,7 +51,8 @@ export async function POST(request: Request) {
 
   // Removed global limit checks to fix TOCTOU bypass and support scale.
 
-  const body = await request.json();
+  const body = await parseBodyWithLimit(request, "512kb");
+  if (body instanceof NextResponse) return body;
   // Cap conversation history to prevent token bombing
   const rawHistory: Array<{ role: string; content: string }> = (body.history ?? []).slice(-MAX_HISTORY_MESSAGES);
   const prompt: string = body.question;

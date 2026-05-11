@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Sparkles } from "lucide-react";
 
 const footerLinks = {
@@ -41,7 +42,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-3">
               <div className="bg-white p-3 rounded-2xl">
-                <img src="/logo.png" alt="AbhyasCore Logo" className="h-[70px] w-auto object-contain" />
+                <Image src="/logo.png" alt="AbhyasCore Logo" width={112} height={70} className="h-[70px] w-auto object-contain" />
               </div>
             </Link>
             <p className="mt-6 max-w-sm text-sm leading-7 text-slate-400">

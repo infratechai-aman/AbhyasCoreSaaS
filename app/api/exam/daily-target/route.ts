@@ -7,6 +7,7 @@ import { requireAuth } from '@/lib/auth-middleware';
 import { isRateLimited } from '@/lib/rate-limit';
 import { checkExamAccess } from '@/lib/subscription-middleware';
 import { sanitizeChapterId } from '@/lib/sanitize';
+import { formatMathText, sanitizeOptionText } from '@/lib/exam-utils';
 
 export const dynamic = 'force-dynamic';
 
@@ -49,33 +50,6 @@ function hashString(str: string): number {
   return Math.abs(hash);
 }
 
-// Utility to format math symbols
-function formatMathText(str: string) {
-  if (!str) return "";
-  return str
-    .replace(/(^|\b|\d)phi(\b|$)/g, "$1φ$2")
-    .replace(/(^|\b|\d)theta(\b|$)/g, "$1θ$2")
-    .replace(/(^|\b|\d)alpha(\b|$)/g, "$1α$2")
-    .replace(/(^|\b|\d)beta(\b|$)/g, "$1β$2")
-    .replace(/(^|\b|\d)gamma(\b|$)/g, "$1γ$2")
-    .replace(/(^|\b|\d)lambda(\b|$)/g, "$1λ$2")
-    .replace(/(^|\b|\d)mu(\b|$)/g, "$1μ$2")
-    .replace(/(^|\b|\d)pi(\b|$)/g, "$1π$2")
-    .replace(/(^|\b|\d)omega(\b|$)/g, "$1ω$2")
-    .replace(/(^|\b|\d)sigma(\b|$)/g, "$1σ$2")
-    .replace(/(^|\b|\d)Delta(\b|$)/g, "$1Δ$2")
-    .replace(/(^|\b|\d)infty(\b|$)/g, "$1∞$2")
-    .replace(/\*/g, "·");
-}
-
-function sanitizeOptionText(str: string) {
-  let cleaned = formatMathText(str).trim();
-  const lower = cleaned.toLowerCase();
-  if (/^[A-D]$/i.test(cleaned) || lower === "none" || lower === "phi" || cleaned === "φ") {
-    return "None of the above";
-  }
-  return cleaned;
-}
 
 const JEE_CHAPTERS = [
   "kinematics","laws_of_motion","work_energy_power","gravitation",
@@ -116,7 +90,7 @@ export async function GET(request: Request) {
 
     const { searchParams } = new URL(request.url);
     const exam = (searchParams.get('exam') || 'JEE').toUpperCase();
-    const userId = searchParams.get('uid') || 'anonymous';
+    const userId = authResult.uid; // MED-02 FIX: Use verified uid, not untrusted query param
     const count = parseInt(searchParams.get('q') || '10', 10);
 
     const dateStr = getISTDateString();

@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { useAuth } from "@/lib/auth-context";
 import { motion } from "framer-motion";
 import { 
@@ -10,7 +11,6 @@ import {
   Mail, 
   Lock, 
   ArrowRight, 
-  Github, 
   Chrome,
   AlertCircle,
   Loader2
@@ -82,7 +82,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="flex flex-col items-center mb-10">
           <Link href="/" className="flex flex-col items-center gap-3 mb-4">
-            <img src="/logo.png" alt="AbhyasCore Logo" className="h-44 w-auto object-contain" />
+            <Image src="/logo.png" alt="AbhyasCore Logo" width={280} height={176} className="h-44 w-auto object-contain" priority />
           </Link>
           <h1 className="text-xl font-bold text-slate-800 tracking-tight">Welcome Back</h1>
           <p className="text-slate-500 text-sm mt-1">Sign in to continue your rank-building journey</p>
@@ -103,10 +103,11 @@ export default function LoginPage() {
             )}
 
             <div>
-              <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Email Address</label>
+              <label htmlFor="login-email" className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Email Address</label>
               <div className="relative group">
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400 group-focus-within:text-indigo-500 transition-colors" />
                 <input 
+                  id="login-email"
                   type="email" 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -119,12 +120,13 @@ export default function LoginPage() {
 
             <div>
               <div className="flex justify-between px-1 mb-2">
-                <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block">Password</label>
+                <label htmlFor="login-password" className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block">Password</label>
                 <Link href="/forgot-password" className="text-[11px] font-bold text-indigo-600 hover:text-indigo-700 uppercase tracking-wider">Forgot?</Link>
               </div>
               <div className="relative group">
                 <Lock className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400 group-focus-within:text-indigo-500 transition-colors" />
                 <input 
+                  id="login-password"
                   type="password" 
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
@@ -149,18 +151,13 @@ export default function LoginPage() {
             <span className="relative px-4 bg-white text-[11px] font-bold uppercase tracking-[0.2em] text-slate-300">or continue with</span>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-             <button 
+          <button 
                 onClick={handleGoogleSignIn}
                 type="button" 
-                className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors font-bold text-[13px] text-slate-700"
+                className="w-full h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors font-bold text-[13px] text-slate-700"
               >
-               <Chrome className="h-4 w-4 text-indigo-500" /> Google
+               <Chrome className="h-4 w-4 text-indigo-500" /> Continue with Google
              </button>
-             <button type="button" disabled title="Coming soon" className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 transition-colors font-bold text-[13px] text-slate-400 cursor-not-allowed opacity-50">
-               <Github className="h-4 w-4" /> GitHub
-             </button>
-          </div>
         </div>
 
         <p className="text-center mt-8 text-slate-500 text-[14px]">

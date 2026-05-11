@@ -3,18 +3,23 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://abhyascore.com';
 
-  // Core static marketing and informational pages
+  // Core static marketing and informational pages (only pages that EXIST)
   const staticRoutes = [
     '',
     '/about',
     '/contact',
     '/faq',
-    '/pricing', // Assuming there will be a pricing page
     '/login',
     '/register',
+    '/forgot-password',
     '/privacy-policy',
     '/terms-and-conditions',
     '/refund-and-cancellation',
+    '/help-center',
+    '/blog',
+    '/careers',
+    '/press-kit',
+    '/system-status',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date().toISOString(),

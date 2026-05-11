@@ -112,7 +112,7 @@ export async function getUserSubscription(
     const subscription = data.subscription || {};
     let plan: PlanName = "Free";
 
-    if (subscription.status === "active" && subscription.plan) {
+    if ((subscription.status === "active" || subscription.status === "cancelling") && subscription.plan) {
       // Check Weekly Pass expiry
       if (subscription.plan === "Weekly Pass" && subscription.expiryDate) {
         const now = new Date();

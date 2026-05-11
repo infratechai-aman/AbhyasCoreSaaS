@@ -9,8 +9,8 @@ import {
   TrendingUp, AlertCircle, BookOpen, Download, Users, Dumbbell
 } from "lucide-react";
 import { LineChart, Line, XAxis, Tooltip, ResponsiveContainer, YAxis } from "recharts";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
+// html2canvas and jspdf are loaded dynamically on demand (see downloadReport)
+// to avoid adding ~300kB to the initial page bundle.
 import { useAuth } from "@/lib/auth-context";
 import { getTestResultById, getUserTestHistory } from "@/lib/firebase-service";
 
@@ -149,6 +149,11 @@ export default function TestResultsPage() {
     if (!element) return;
     setIsDownloading(true);
     try {
+      // Dynamic import to avoid loading ~300kB on initial page load
+      const [{ default: html2canvas }, { default: jsPDF }] = await Promise.all([
+        import("html2canvas"),
+        import("jspdf"),
+      ]);
       const canvas = await html2canvas(element, { scale: 2, backgroundColor: "#fafafc" });
       const imgData = canvas.toDataURL("image/png");
       const pdf = new jsPDF("p", "mm", "a4");

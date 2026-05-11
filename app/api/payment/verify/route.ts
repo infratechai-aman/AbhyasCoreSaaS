@@ -3,6 +3,7 @@ import crypto from 'crypto';
 import { requireAuth } from '@/lib/auth-middleware';
 import { adminDb } from '@/lib/firebase-admin';
 import { isRateLimited } from '@/lib/rate-limit';
+import { parseBodyWithLimit } from '@/lib/body-limit';
 
 export async function POST(req: Request) {
   try {
@@ -15,7 +16,9 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Too many requests.' }, { status: 429 });
     }
 
-    const { razorpay_payment_id, razorpay_subscription_id, razorpay_signature, planType } = await req.json();
+    const body = await parseBodyWithLimit(req, '256kb');
+    if (body instanceof NextResponse) return body;
+    const { razorpay_payment_id, razorpay_subscription_id, razorpay_signature, planType } = body;
 
     // SECURITY (VULN-14): Validate required payment fields exist and are strings
     if (!razorpay_payment_id || typeof razorpay_payment_id !== 'string' ||

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { 
   Sparkles, 
   Mail, 
@@ -14,8 +15,7 @@ import {
   Loader2,
   ChevronRight,
   Target,
-  Chrome,
-  Github
+  Chrome
 } from "lucide-react";
 import { auth, db } from "@/lib/firebase";
 import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
@@ -168,7 +168,7 @@ function RegisterForm() {
         {/* Logo */}
         <div className="flex flex-col items-center mb-8 text-center px-4">
           <Link href="/" className="flex flex-col items-center gap-3 mb-4">
-            <img src="/logo.png" alt="AbhyasCore Logo" className="h-44 w-auto object-contain" />
+            <Image src="/logo.png" alt="AbhyasCore Logo" width={280} height={176} className="h-44 w-auto object-contain" priority />
           </Link>
           <h1 className="text-xl font-bold text-slate-800 tracking-tight">Create Your Account</h1>
           <p className="text-slate-500 text-sm mt-1">Join 50,000+ aspirants preparing smarter with AI</p>
@@ -190,10 +190,11 @@ function RegisterForm() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Full Name</label>
+                <label htmlFor="register-name" className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Full Name</label>
                 <div className="relative group">
                   <User className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400 group-focus-within:text-indigo-500 transition-colors" />
                   <input 
+                    id="register-name"
                     type="text" 
                     value={name}
                     onChange={(e) => setName(e.target.value)}
@@ -204,10 +205,11 @@ function RegisterForm() {
                 </div>
               </div>
               <div>
-                <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Target Exam</label>
+                <label htmlFor="register-exam" className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Target Exam</label>
                 <div className="relative group">
                   <Target className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400 pointer-events-none" />
                   <select 
+                    id="register-exam"
                     value={targetExam}
                     onChange={(e) => setTargetExam(e.target.value)}
                     className="w-full h-12 pl-11 pr-4 bg-slate-50 border border-slate-200 rounded-2xl text-[14px] outline-none appearance-none focus:border-indigo-500 cursor-pointer"
@@ -221,10 +223,11 @@ function RegisterForm() {
             </div>
 
             <div>
-              <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Email Address</label>
+              <label htmlFor="register-email" className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Email Address</label>
               <div className="relative group">
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400 group-focus-within:text-indigo-500 transition-colors" />
                 <input 
+                  id="register-email"
                   type="email" 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -236,10 +239,11 @@ function RegisterForm() {
             </div>
 
             <div>
-              <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Create Password</label>
+              <label htmlFor="register-password" className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400 block mb-2 px-1">Create Password</label>
               <div className="relative group">
                 <Lock className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400 group-focus-within:text-indigo-500 transition-colors" />
                 <input 
+                  id="register-password"
                   type="password" 
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
@@ -267,18 +271,13 @@ function RegisterForm() {
             <span className="relative px-4 bg-white text-[11px] font-bold uppercase tracking-[0.2em] text-slate-300">or continue with</span>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-             <button 
+          <button 
                 onClick={handleGoogleRegister}
                 type="button" 
-                className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors font-bold text-[13px] text-slate-700"
+                className="w-full h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-50 transition-colors font-bold text-[13px] text-slate-700"
               >
-               <Chrome className="h-4 w-4 text-indigo-500" /> Google
+               <Chrome className="h-4 w-4 text-indigo-500" /> Continue with Google
              </button>
-             <button type="button" disabled title="Coming soon" className="h-14 border border-slate-200 rounded-2xl flex items-center justify-center gap-3 transition-colors font-bold text-[13px] text-slate-400 cursor-not-allowed opacity-50">
-               <Github className="h-4 w-4" /> GitHub
-             </button>
-          </div>
 
           <p className="text-[11px] text-slate-400 mt-6 text-center leading-relaxed">
             By signing up, you agree to our <Link href="/terms-and-conditions" className="underline hover:text-indigo-600 transition-colors">Terms of Service</Link> and <Link href="/privacy-policy" className="underline hover:text-indigo-600 transition-colors">Privacy Policy</Link>.
