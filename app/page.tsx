@@ -38,10 +38,10 @@ const navLinks = [
 ];
 
 const stats = [
-  { value: "50K+", label: "Active Students" },
-  { value: "2M+", label: "Tests Taken" },
-  { value: "98%", label: "Satisfaction" },
-  { value: "4.9★", label: "App Rating" },
+  { value: "10K+", label: "Questions Available" },
+  { value: "120+", label: "Chapters Covered" },
+  { value: "3", label: "Exam Formats" },
+  { value: "AI", label: "Powered Analytics" },
 ];
 
 const howItWorks = [

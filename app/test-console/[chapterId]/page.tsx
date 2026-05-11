@@ -5,7 +5,6 @@ import { Clock, LayoutTemplate, AlertCircle, ChevronRight, Bookmark, X, PlayCirc
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
-import { saveTestResult } from "@/lib/firebase-service";
 import { usePremium } from "@/lib/hooks/usePremium";
 import { authenticatedFetch } from "@/lib/api";
 
@@ -56,7 +55,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
       .then(res => res.json())
       .then(json => {
         if (json.questions) {
-          setData(json);
+          setData({ ...json, examSessionId: json.examSessionId });
           // Initialize statuses
           const initialStatuses: any = {};
           json.questions.forEach((q: any, i: number) => {
@@ -157,52 +156,50 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
     setSubmitting(true);
 
     try {
-      // 1. Calculate Score based on JEE (+4, -1)
-      let correct = 0;
-      let wrong = 0;
-      data.questions.forEach((q: any) => {
-        const userAns = answers[q.id];
-        if (userAns) {
-          if (userAns === q.answer) correct++;
-          else wrong++;
-        }
-      });
-
-      const totalQuestions = data.questions.length;
-      const unattempted = totalQuestions - (correct + wrong);
-      const finalScore = (correct * 4) - (wrong * 1);
       const timeUsed = initialTime - timeLeft;
 
-      const resultPayload = {
-        chapterId: params.chapterId,
-        chapterName: data.chapterName,
-        subject: data.subject,
-        questions: data.questions,
-        answers,
-        correctCount: correct,
-        wrongCount: wrong,
-        skippedCount: unattempted,
-        totalScore: finalScore,
-        maxScore: totalQuestions * 4,
-        timeTaken: timeUsed,
-        accuracy: (correct + wrong) > 0 ? (correct / (correct + wrong)) * 100 : 0
-      };
+      // Submit to server-side grading endpoint (answers validated server-side)
+      const res = await authenticatedFetch("/api/exam/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          examSessionId: (data as any).examSessionId,
+          answers,
+          timeTaken: timeUsed,
+        }),
+      });
 
-      // 2. Persist to Firebase if logged in
-      if (user) {
-        await saveTestResult(user.uid, resultPayload);
+      const result = await res.json();
+
+      if (!res.ok) {
+        throw new Error(result.error || "Submission failed");
       }
 
-      // 3. Fallback/Sync with LocalStorage for the results page
+      // Store server-graded results for the results page
       localStorage.setItem(`test_results_${params.chapterId}`, JSON.stringify({
-        ...resultPayload,
-        timeTaken: timeLeft // Keeping consistency with existing results page logic which expects remaining time
+        chapterId: params.chapterId,
+        chapterName: result.chapterName,
+        subject: result.subject,
+        questions: data.questions.map((q: any) => {
+          const graded = result.gradedQuestions?.find((g: any) => g.id === q.id);
+          return { ...q, answer: graded?.correctAnswer, explanation: graded?.explanation };
+        }),
+        answers,
+        correctCount: result.correctCount,
+        wrongCount: result.wrongCount,
+        skippedCount: result.skippedCount,
+        totalScore: result.score,
+        maxScore: result.maxScore,
+        timeTaken: timeLeft,
+        accuracy: (result.correctCount + result.wrongCount) > 0
+          ? (result.correctCount / (result.correctCount + result.wrongCount)) * 100 : 0,
+        resultId: result.resultId,
       }));
 
       router.push(`/test-results/${params.chapterId}`);
-    } catch (error) {
+    } catch (error: any) {
       console.error("Submission failed:", error);
-      setSubmitError("Failed to submit your test. Please check your connection.");
+      setSubmitError(error.message || "Failed to submit your test. Please check your connection.");
     } finally {
       setSubmitting(false);
     }
@@ -309,7 +306,7 @@ export default function ExamConsole({ params }: { params: { chapterId: string } 
                <Clock className="w-3.5 h-3.5 md:w-4 md:h-4 text-emerald-400 animate-pulse" />
                <span className="font-display text-[15px] md:text-[18px] font-bold tracking-wider text-emerald-400">{formatTime(timeLeft)}</span>
             </div>
-            <button onClick={submitExam} className="px-3 md:px-5 py-1.5 md:py-2 bg-rose-600 hover:bg-rose-500 transition-colors text-white text-[10px] md:text-[12px] font-bold uppercase tracking-widest rounded-md md:rounded-lg shadow-lg">
+            <button onClick={submitExam} disabled={submitting} className="px-3 md:px-5 py-1.5 md:py-2 bg-rose-600 hover:bg-rose-500 transition-colors text-white text-[10px] md:text-[12px] font-bold uppercase tracking-widest rounded-md md:rounded-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed">
                Submit
             </button>
          </div>

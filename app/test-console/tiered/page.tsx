@@ -5,7 +5,6 @@ import { Clock, LayoutTemplate, AlertCircle, ChevronRight, Bookmark, X, Loader2 
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
-import { saveTestResult } from "@/lib/firebase-service";
 import { authenticatedFetch } from "@/lib/api";
 
 
@@ -152,59 +151,57 @@ function CustomExamConsoleInner() {
     setSubmitting(true);
 
     try {
-      let correct = 0;
-      let wrong = 0;
-      data.questions.forEach((q: any) => {
-        const userAns = answers[q._safeId];
-        if (userAns) {
-          if (userAns === q.answer) correct++;
-          else wrong++;
-        }
-      });
-
-      const totalQuestions = data.questions.length;
-      const unattempted = totalQuestions - (correct + wrong);
-      const finalScore = (correct * 4) - (wrong * 1);
       const totalAllocatedTime = 10800;
       const timeUsed = totalAllocatedTime - timeLeft;
 
-      const resultPayload = {
-        chapterId: customTestId,
-        chapterName: "Custom Generation Drill",
-        subject: "Mixed Syllabus",
-        questions: data.questions.map(q => ({...q, id: q._safeId})), 
-        answers,
-        correctCount: correct,
-        wrongCount: wrong,
-        skippedCount: unattempted,
-        totalScore: finalScore,
-        maxScore: totalQuestions * 4,
-        timeTaken: timeUsed,
-        accuracy: (correct + wrong) > 0 ? (correct / (correct + wrong)) * 100 : 0
-      };
+      // Map _safeId answers back to original question IDs for server
+      const serverAnswers: Record<string, string> = {};
+      data.questions.forEach((q: any) => {
+        const userAns = answers[q._safeId];
+        if (userAns) {
+          serverAnswers[q.id] = userAns;
+        }
+      });
 
-      if (user) {
-        await saveTestResult(user.uid, resultPayload);
-      }
+      // Submit to server-side grading endpoint
+      const res = await authenticatedFetch("/api/exam/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          examSessionId: (data as any).examSessionId,
+          answers: serverAnswers,
+          timeTaken: timeUsed,
+        }),
+      });
 
-      const tierMatch = searchParams.get("tier");
-      if (tierMatch && correct >= 45) {
-         const passedTier = parseInt(tierMatch, 10);
-         const currentLocalMax = parseInt(localStorage.getItem('maxTierPassed') || '0', 10);
-         if (passedTier > currentLocalMax) {
-            localStorage.setItem('maxTierPassed', passedTier.toString());
-         }
-      }
+      const result = await res.json();
+      if (!res.ok) throw new Error(result.error || "Submission failed");
 
+      // Store server-graded results for the results page
       localStorage.setItem(`test_results_${customTestId}`, JSON.stringify({
-        ...resultPayload,
-        timeTaken: timeLeft 
+        chapterId: customTestId,
+        chapterName: result.chapterName || "Custom Generation Drill",
+        subject: result.subject || "Mixed Syllabus",
+        questions: data.questions.map((q: any) => {
+          const graded = result.gradedQuestions?.find((g: any) => g.id === q.id);
+          return { ...q, id: q._safeId, answer: graded?.correctAnswer, explanation: graded?.explanation };
+        }),
+        answers,
+        correctCount: result.correctCount,
+        wrongCount: result.wrongCount,
+        skippedCount: result.skippedCount,
+        totalScore: result.score,
+        maxScore: result.maxScore,
+        timeTaken: timeLeft,
+        accuracy: (result.correctCount + result.wrongCount) > 0
+          ? (result.correctCount / (result.correctCount + result.wrongCount)) * 100 : 0,
+        resultId: result.resultId,
       }));
 
       router.push(`/test-results/${customTestId}`);
-    } catch (error) {
+    } catch (error: any) {
       console.error("Submission failed:", error);
-      setSubmitError("Failed to submit your test. Please check your connection.");
+      setSubmitError(error.message || "Failed to submit your test. Please check your connection.");
     } finally {
       setSubmitting(false);
     }
@@ -277,7 +274,7 @@ function CustomExamConsoleInner() {
                <Clock className="w-3.5 h-3.5 md:w-4 md:h-4 text-emerald-400 animate-pulse" />
                <span className="font-display text-[15px] md:text-[18px] font-bold tracking-wider text-emerald-400">{formatTime(timeLeft)}</span>
             </div>
-            <button onClick={submitExam} className="px-3 md:px-5 py-1.5 md:py-2 bg-rose-600 hover:bg-rose-500 transition-colors text-white text-[10px] md:text-[12px] font-bold uppercase tracking-widest rounded-md md:rounded-lg shadow-lg">
+            <button onClick={submitExam} disabled={submitting} className="px-3 md:px-5 py-1.5 md:py-2 bg-rose-600 hover:bg-rose-500 transition-colors text-white text-[10px] md:text-[12px] font-bold uppercase tracking-widest rounded-md md:rounded-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed">
                Submit
             </button>
          </div>

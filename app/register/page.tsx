@@ -102,7 +102,7 @@ function RegisterForm() {
         streak: 0,
         questionsSolved: 0,
         mocksCompleted: 0,
-        ...(!userDoc.exists() && { subscription: "free" }),
+        ...(!userDoc.exists() && { subscription: { plan: "Free", status: "none" } }),
         ...(finalReferredBy && { referredBy: finalReferredBy })
       }, { merge: true });
       // Trigger Email Verification
@@ -140,7 +140,7 @@ function RegisterForm() {
           streak: 0,
           questionsSolved: 0,
           mocksCompleted: 0,
-          ...(!userDoc.exists() && { subscription: "free" }),
+          ...(!userDoc.exists() && { subscription: { plan: "Free", status: "none" } }),
           ...(finalReferredBy && { referredBy: finalReferredBy })
         }, { merge: true });
       }

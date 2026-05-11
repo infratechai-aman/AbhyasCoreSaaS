@@ -119,24 +119,17 @@ export async function getTestResultById(docId: string) {
 }
 
 export async function saveAITutorChat(userId: string, title: string, messages: any[]) {
-  if (!db) return null;
   try {
-    // MEDIUM-33: Cap message history to prevent unbounded document growth
-    const MAX_MESSAGES = 50;
-    const MAX_CONTENT_LENGTH = 10000;
-    const cappedMessages = messages.slice(-MAX_MESSAGES).map((m: any) => ({
-      role: typeof m.role === "string" ? m.role : "user",
-      content: typeof m.content === "string" ? m.content.slice(0, MAX_CONTENT_LENGTH) : "",
-    }));
-
-    const chatsRef = collection(db, "ai_chats");
-    const chatDoc = await addDoc(chatsRef, {
-      userId,
-      title: typeof title === "string" ? title.slice(0, 200) : "Chat",
-      messages: cappedMessages,
-      timestamp: serverTimestamp()
+    // SECURITY (VULN-03): Use server-side endpoint instead of client-side Firestore writes
+    const { authenticatedFetch } = await import("./api");
+    const res = await authenticatedFetch("/api/ai/save-chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ title, messages }),
     });
-    return chatDoc.id;
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.chatId || null;
   } catch (error) {
     console.error("Error saving AI chat:", error);
     return null;

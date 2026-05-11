@@ -14,8 +14,19 @@ import { adminDb } from '@/lib/firebase-admin';
  *         subscription.halted, subscription.completed, payment.failed
  * Secret: Set RAZORPAY_WEBHOOK_SECRET in your .env.local and Vercel
  */
+// SECURITY (VULN-08): In-memory rate limiter to prevent basic DoS on webhook
+const webhookRateLimiter = new Map<string, number[]>();
+
 export async function POST(req: Request) {
   try {
+    const ip = req.headers.get("x-forwarded-for") || "unknown";
+    const now = Date.now();
+    const hits = (webhookRateLimiter.get(ip) || []).filter(t => now - t < 60_000);
+    if (hits.length > 50) {
+      return NextResponse.json({ error: "Too many webhook requests" }, { status: 429 });
+    }
+    hits.push(now);
+    webhookRateLimiter.set(ip, hits);
     const body = await req.text();
     const signature = req.headers.get('x-razorpay-signature');
     const secret = process.env.RAZORPAY_WEBHOOK_SECRET;

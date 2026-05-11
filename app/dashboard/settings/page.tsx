@@ -5,7 +5,7 @@ import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { 
   Bell, Shield, Moon, ChevronRight, Check, Zap, Target, 
   Crown, Calendar, CreditCard, Clock, AlertTriangle,
-  Sparkles, ArrowUpRight, X
+  Sparkles, ArrowUpRight, X, Trash2
 } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
 import { authenticatedFetch } from "@/lib/api";
@@ -18,6 +18,8 @@ export default function SettingsPage() {
   const [showCancelConfirm, setShowCancelConfirm] = useState(false);
   const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [deleting, setDeleting] = useState(false);
 
   // Load persisted preferences on mount
   useEffect(() => {
@@ -115,6 +117,27 @@ export default function SettingsPage() {
     } finally {
       setCancelling(false);
       setShowCancelConfirm(false);
+    }
+  };
+
+  const handleDeleteAccount = async () => {
+    setDeleting(true);
+    try {
+      const res = await authenticatedFetch("/api/account/delete", { method: "POST" });
+      const data = await res.json();
+      if (data.success) {
+        setToast({ message: "Account deleted. Redirecting...", type: "success" });
+        // Clear local data
+        try { localStorage.clear(); sessionStorage.clear(); } catch {}
+        setTimeout(() => window.location.href = "/", 2000);
+      } else {
+        setToast({ message: data.error || "Failed to delete account.", type: "error" });
+      }
+    } catch {
+      setToast({ message: "An error occurred. Please contact support.", type: "error" });
+    } finally {
+      setDeleting(false);
+      setShowDeleteConfirm(false);
     }
   };
 
@@ -421,12 +444,20 @@ export default function SettingsPage() {
             {/* Danger Zone */}
             <div className="bg-white rounded-[24px] border border-red-100 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
               <h3 className="text-[15px] font-bold text-red-600 mb-4">Danger Zone</h3>
-              <button 
-                onClick={() => setShowResetConfirm(true)}
-                className="w-full py-3 rounded-xl border-2 border-red-200 text-red-600 font-bold text-[13px] hover:bg-red-50 transition-colors"
-              >
-                Reset All Progress Data
-              </button>
+              <div className="space-y-3">
+                <button 
+                  onClick={() => setShowResetConfirm(true)}
+                  className="w-full py-3 rounded-xl border-2 border-red-200 text-red-600 font-bold text-[13px] hover:bg-red-50 transition-colors"
+                >
+                  Reset All Progress Data
+                </button>
+                <button 
+                  onClick={() => setShowDeleteConfirm(true)}
+                  className="w-full py-3 rounded-xl bg-red-600 text-white font-bold text-[13px] hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
+                >
+                  <Trash2 className="w-4 h-4" /> Delete Account Permanently
+                </button>
+              </div>
             </div>
 
             {/* Reset Confirmation Modal */}
@@ -486,6 +517,40 @@ export default function SettingsPage() {
                 className="w-full py-3 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 font-bold text-[14px] transition-colors"
               >
                 Keep My Membership
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      {/* Delete Account Confirmation Modal */}
+      {showDeleteConfirm && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-3xl border border-red-200 shadow-2xl p-8 max-w-md w-full">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-12 h-12 bg-red-100 rounded-2xl flex items-center justify-center">
+                <Trash2 className="w-6 h-6 text-red-600" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-slate-900">Delete Account</h3>
+                <p className="text-[12px] text-slate-500">This action cannot be undone.</p>
+              </div>
+            </div>
+            <p className="text-[13px] text-slate-600 mb-6 leading-relaxed">
+              All your data will be permanently deleted, including your profile, test results, AI chat history, and exam sessions. If you have an active subscription, please cancel it first.
+            </p>
+            <div className="space-y-3">
+              <button
+                onClick={handleDeleteAccount}
+                disabled={deleting}
+                className="w-full py-3 rounded-xl bg-red-600 hover:bg-red-700 disabled:opacity-50 text-white font-bold text-[14px] transition-colors"
+              >
+                {deleting ? "Deleting..." : "Yes, Delete My Account"}
+              </button>
+              <button
+                onClick={() => setShowDeleteConfirm(false)}
+                className="w-full py-3 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 font-bold text-[14px] transition-colors"
+              >
+                Cancel
               </button>
             </div>
           </div>

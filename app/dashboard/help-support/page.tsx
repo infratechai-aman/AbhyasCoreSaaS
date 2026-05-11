@@ -1,3 +1,5 @@
+"use client";
+
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { MessageCircle, Mail, ChevronDown, BookOpen, Zap, AlertCircle, LifeBuoy, ExternalLink } from "lucide-react";
 
@@ -74,8 +76,8 @@ export default function HelpSupportPage() {
                 <p className="text-[13px] text-slate-400 leading-relaxed mb-5">
                   Get instant help from our support team. Available Mon–Sat, 9 AM – 9 PM IST.
                 </p>
-                <button className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-[13px] rounded-xl transition-colors shadow-lg">
-                  Start Chat Session
+                <button onClick={() => window.open('mailto:support@abhyascore.com', '_blank')} className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-[13px] rounded-xl transition-colors shadow-lg">
+                  Email Support Team
                 </button>
               </div>
             </div>

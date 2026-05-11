@@ -17,6 +17,13 @@ export async function POST(req: Request) {
 
     const { razorpay_payment_id, razorpay_subscription_id, razorpay_signature, planType } = await req.json();
 
+    // SECURITY (VULN-14): Validate required payment fields exist and are strings
+    if (!razorpay_payment_id || typeof razorpay_payment_id !== 'string' ||
+        !razorpay_subscription_id || typeof razorpay_subscription_id !== 'string' ||
+        !razorpay_signature || typeof razorpay_signature !== 'string') {
+      return NextResponse.json({ success: false, message: 'Missing payment parameters.' }, { status: 400 });
+    }
+
     // 3. Verify Razorpay signature
     const secret = process.env.RAZORPAY_KEY_SECRET;
     if (!secret) {
@@ -29,7 +36,12 @@ export async function POST(req: Request) {
       .update(razorpay_payment_id + '|' + razorpay_subscription_id)
       .digest('hex');
 
-    // Timing-safe comparison to prevent side-channel attacks (MEDIUM-05)
+    // Timing-safe comparison to prevent side-channel attacks
+    // SECURITY (VULN-14): Validate hex format before Buffer.from to prevent crash
+    const hexRegex = /^[0-9a-f]+$/i;
+    if (!hexRegex.test(razorpay_signature) || razorpay_signature.length % 2 !== 0) {
+      return NextResponse.json({ success: false, message: 'Invalid signature format.' }, { status: 400 });
+    }
     const genBuffer = Buffer.from(generated_signature, 'hex');
     const sigBuffer = Buffer.from(razorpay_signature, 'hex');
     if (genBuffer.length !== sigBuffer.length || !crypto.timingSafeEqual(genBuffer, sigBuffer)) {

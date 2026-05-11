@@ -49,10 +49,10 @@ export function Footer() {
             </p>
             <div className="mt-6 flex gap-4">
               {[
-                { label: "X", href: "#" },
-                { label: "In", href: "#" },
-                { label: "YT", href: "#" },
-                { label: "IG", href: "#" },
+                { label: "X", href: "https://x.com/abhyascore" },
+                { label: "In", href: "https://linkedin.com/company/abhyascore" },
+                { label: "YT", href: "https://youtube.com/@abhyascore" },
+                { label: "IG", href: "https://instagram.com/abhyascore" },
               ].map((social) => (
                 <a
                   key={social.label}

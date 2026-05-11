@@ -1,3 +1,4 @@
+import crypto from 'crypto';
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
@@ -196,7 +197,40 @@ export async function GET(request: Request) {
 
     // Deterministic selection using same seed → same 10 questions all day
     const seededPool = seededShuffle(allQuestions, seed + 1);
-    const finalQuestions = seededPool.slice(0, count);
+    const finalQuestions = seededPool.slice(0, count).map((q: any, i: number) => ({
+      ...q,
+      id: q.id || `q${i + 1}`,
+    }));
+
+    // ── SECURITY: Store answer key server-side, strip from client response ──
+    const { adminDb } = await import("@/lib/firebase-admin");
+    const examSessionId = crypto.randomUUID();
+
+    const answerKey: Record<string, { answer: string; explanation: string }> = {};
+    finalQuestions.forEach((q: any) => {
+      answerKey[q.id] = { answer: q.answer, explanation: q.explanation };
+    });
+
+    if (adminDb) {
+      await adminDb.collection("exam_sessions").doc(examSessionId).set({
+        userId: authResult.uid,
+        chapterId: `daily_${dateStr}`,
+        chapterName: `Daily ${exam} Target`,
+        subject: "Mixed",
+        answerKey,
+        questionCount: finalQuestions.length,
+        createdAt: new Date().toISOString(),
+        expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
+      });
+    }
+
+    const clientQuestions = finalQuestions.map((q: any) => ({
+      id: q.id,
+      text: q.text,
+      options: q.options,
+      difficulty: q.difficulty,
+      chapterSource: q.chapterSource,
+    }));
 
     // Calculate seconds until next midnight IST
     const nowUTC = Date.now();
@@ -206,9 +240,10 @@ export async function GET(request: Request) {
     const secondsUntilReset = Math.floor((istMidnightNext - nowUTC) / 1000);
 
     return NextResponse.json({
+      examSessionId,
       chapterName: `Daily ${exam} Target`,
       subject: "Mixed",
-      questions: finalQuestions,
+      questions: clientQuestions,
       date: dateStr,
       exam,
       secondsUntilReset,

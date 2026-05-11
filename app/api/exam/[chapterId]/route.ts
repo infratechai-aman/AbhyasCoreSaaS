@@ -1,3 +1,4 @@
+import crypto from "crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { XMLParser } from "fast-xml-parser";
 import fs from "fs/promises";
@@ -204,10 +205,43 @@ export async function GET(req: NextRequest, { params }: { params: { chapterId: s
       };
     });
 
+    // ── SECURITY: Store answer key server-side, send only questions to client ──
+    const { adminDb } = await import("@/lib/firebase-admin");
+    const examSessionId = crypto.randomUUID();
+
+    // Build answer key map (server-side only)
+    const answerKey: Record<string, { answer: string; explanation: string }> = {};
+    drillQuestions.forEach((q: any) => {
+      answerKey[q.id] = { answer: q.answer, explanation: q.explanation };
+    });
+
+    // Store answer key in Firestore (readable only by Admin SDK)
+    if (adminDb) {
+      await adminDb.collection("exam_sessions").doc(examSessionId).set({
+        userId: authResult.uid,
+        chapterId,
+        chapterName: result.chapter["@_name"] || "Practice Drill",
+        subject: result.chapter["@_subject"] || "Unknown",
+        answerKey,
+        questionCount: drillQuestions.length,
+        createdAt: new Date().toISOString(),
+        expiresAt: new Date(Date.now() + 4 * 60 * 60 * 1000).toISOString(), // 4 hours
+      });
+    }
+
+    // Strip answers and explanations from client response
+    const clientQuestions = drillQuestions.map((q: any) => ({
+      id: q.id,
+      text: q.text,
+      options: q.options,
+      difficulty: q.difficulty
+    }));
+
     return NextResponse.json({
+      examSessionId,
       chapterName: result.chapter["@_name"] || "Practice Drill",
       subject: result.chapter["@_subject"] || "Unknown",
-      questions: drillQuestions
+      questions: clientQuestions
     });
 
   } catch (error: any) {

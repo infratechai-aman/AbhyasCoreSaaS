@@ -5,41 +5,46 @@ service cloud.firestore {
     // ─── Users ───
     // Users can read their own document.
     // Users can create their own document on registration.
-    // Users can update their own document BUT cannot touch subscription, isPromo, or maxTierPassed fields.
-    // These protected fields are only writable via Firebase Admin SDK (server-side).
+    // Users can update their own document BUT cannot touch protected fields.
+    // Protected fields are only writable via Firebase Admin SDK (server-side).
     match /users/{userId} {
       allow read: if request.auth != null && request.auth.uid == userId;
 
       allow create: if request.auth != null
                     && request.auth.uid == userId
                     && (!('subscription' in request.resource.data)
-                        || request.resource.data.subscription == 'free');
+                        || request.resource.data.subscription == 'free'
+                        || request.resource.data.subscription.plan == 'Free');
 
+      // SECURITY: Block ALL server-managed fields from client-side updates.
+      // This includes subscription, usage counters, gamification stats, and tier data.
       allow update: if request.auth != null
                     && request.auth.uid == userId
                     && !request.resource.data.diff(resource.data).affectedKeys()
-                        .hasAny(['subscription', 'isPromo']);
+                        .hasAny(['subscription', 'isPromo', 'usage', 'maxTierPassed',
+                                 'weeklyPassUsed', 'mocksCompleted', 'questionsSolved', 'streak']);
     }
 
     // ─── Test Results ───
-    // Users can read and create their own results.
-    // Cannot update or delete results (immutable records).
+    // Users can read their own results.
+    // SECURITY (VULN-01/02): Client-side create BLOCKED.
+    // All results are created server-side via /api/exam/submit (Admin SDK).
     match /results/{docId} {
       allow read: if request.auth != null
                   && resource.data.userId == request.auth.uid;
 
-      allow create: if request.auth != null
-                    && request.resource.data.userId == request.auth.uid;
+      allow create, update, delete: if false;
     }
 
     // ─── AI Chat History ───
-    // Users can read and create their own AI chats.
+    // Users can read their own AI chats.
+    // SECURITY (VULN-03): Client-side create BLOCKED to prevent Firestore cost bomb.
+    // All chats are saved server-side via /api/ai/save-chat (Admin SDK).
     match /ai_chats/{docId} {
       allow read: if request.auth != null
                   && resource.data.userId == request.auth.uid;
 
-      allow create: if request.auth != null
-                    && request.resource.data.userId == request.auth.uid;
+      allow create, update, delete: if false;
     }
 
     // ─── Promo Codes ───
@@ -73,6 +78,13 @@ service cloud.firestore {
     // ─── Admin Audit Log ───
     // Only Admin SDK can read/write — used for tracking admin actions.
     match /admin_audit_log/{logId} {
+      allow read, write: if false;
+    }
+
+    // ─── Exam Sessions ───
+    // Stores server-side answer keys for active exams.
+    // Only Admin SDK can read/write — clients MUST NOT see answer keys.
+    match /exam_sessions/{sessionId} {
       allow read, write: if false;
     }
 

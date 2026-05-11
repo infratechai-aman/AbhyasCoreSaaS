@@ -1,7 +1,8 @@
 import { adminAuth } from "./firebase-admin";
 import { NextResponse } from "next/server";
 
-const ADMIN_EMAIL = "aman.infratechai@gmail.com";
+// SECURITY (VULN-13): No hardcoded fallback — require env var
+const ADMIN_EMAIL = (process.env.ADMIN_EMAIL || "").toLowerCase();
 
 export interface AuthenticatedUser {
   uid: string;
@@ -30,7 +31,7 @@ export async function verifyAuthToken(
     if (!decoded.uid || !decoded.email) return null;
 
     // MEDIUM-04: Enforce email verification for all non-admin users
-    if (!decoded.email_verified && decoded.email !== ADMIN_EMAIL) {
+    if (!decoded.email_verified && decoded.email.toLowerCase() !== ADMIN_EMAIL) {
       return null;
     }
 
@@ -66,7 +67,7 @@ export async function requireAdmin(
   const result = await requireAuth(request);
   if (result instanceof NextResponse) return result;
 
-  if (result.email !== ADMIN_EMAIL) {
+  if (result.email.toLowerCase() !== ADMIN_EMAIL) {
     return NextResponse.json(
       { error: "Forbidden. Admin access only." },
       { status: 403 }

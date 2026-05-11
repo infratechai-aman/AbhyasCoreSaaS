@@ -38,7 +38,7 @@ const nextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self' https:",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://accounts.google.com https://apis.google.com https://www.gstatic.com https://www.googletagmanager.com https://checkout.razorpay.com https://cdn.razorpay.com https://*.googleapis.com",
+              "script-src 'self' 'unsafe-inline' https://accounts.google.com https://apis.google.com https://www.gstatic.com https://www.googletagmanager.com https://checkout.razorpay.com https://cdn.razorpay.com https://*.googleapis.com",
               "script-src-elem 'self' 'unsafe-inline' https://accounts.google.com https://apis.google.com https://www.gstatic.com https://www.googletagmanager.com https://checkout.razorpay.com https://cdn.razorpay.com https://*.googleapis.com",
               "style-src 'self' 'unsafe-inline' https://accounts.google.com https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com data:",
@@ -55,6 +55,21 @@ const nextConfig = {
       },
     ];
   },
+  async headers() {
+    return [
+      {
+        // SECURITY (VULN-17): CORS protection for API routes
+        source: "/api/:path*",
+        headers: [
+          { key: "Access-Control-Allow-Origin", value: "https://abhyascore.com" }, // Restrict in production
+          { key: "Access-Control-Allow-Methods", value: "GET, POST, PUT, DELETE, OPTIONS" },
+          { key: "Access-Control-Allow-Headers", value: "Content-Type, Authorization" },
+        ],
+      },
+    ];
+  },
+  // SECURITY (VULN-23): Enforce global server body size limits
+  serverExternalPackages: ["firebase-admin"],
 };
 
 export default nextConfig;

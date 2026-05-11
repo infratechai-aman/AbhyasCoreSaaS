@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Target, Zap, ChevronRight, Lock } from "lucide-react";
@@ -21,10 +21,12 @@ export default function PracticeModePage() {
     return true;
   });
 
-  // Ensure activeSubject is valid
-  if (!allowedSubjects.includes(activeSubject)) {
-    setActiveSubject(allowedSubjects[0]);
-  }
+  // Ensure activeSubject is valid for the current track
+  useEffect(() => {
+    if (allowedSubjects.length > 0 && !allowedSubjects.includes(activeSubject)) {
+      setActiveSubject(allowedSubjects[0]);
+    }
+  }, [activeSubject, allowedSubjects]);
 
   const syllabusData = Syllabus[activeClass][activeSubject];
 

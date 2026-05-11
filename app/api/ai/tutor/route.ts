@@ -38,6 +38,16 @@ export async function POST(request: Request) {
     );
   }
 
+  // SECURITY (VULN-12): Pre-deduct to prevent TOCTOU race conditions
+  if (adminDb) {
+    const today = new Date().toISOString().split("T")[0];
+    const { FieldValue } = await import("firebase-admin/firestore");
+    await adminDb.collection("users").doc(authResult.uid).update({
+      "usage.aiTokensUsedToday": FieldValue.increment(2000),
+      "usage.lastTrackedDate": today,
+    }).catch(console.error);
+  }
+
   // Removed global limit checks to fix TOCTOU bypass and support scale.
 
   const body = await request.json();
@@ -119,10 +129,17 @@ export async function POST(request: Request) {
             const today = new Date().toISOString().split("T")[0];
             const userRef = adminDb.collection("users").doc(authResult.uid);
             const { FieldValue } = await import("firebase-admin/firestore");
-            userRef.update({
-              "usage.aiTokensUsedToday": FieldValue.increment(inputUsed + outputUsed),
-              "usage.lastTrackedDate": today,
-            }).catch(console.error);
+            
+            // SECURITY (VULN-12): Refund unused tokens from the 2000 pre-deducted
+            const totalUsed = inputUsed + outputUsed;
+            const refundAmount = 2000 - totalUsed;
+            
+            if (refundAmount !== 0) {
+              userRef.update({
+                "usage.aiTokensUsedToday": FieldValue.increment(-refundAmount),
+                "usage.lastTrackedDate": today,
+              }).catch(console.error);
+            }
           }
         } catch (err) {
           controller.error(err);

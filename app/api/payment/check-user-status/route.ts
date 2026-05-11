@@ -59,59 +59,12 @@ export async function POST(req: Request) {
       }
     }
 
-    const keyId = process.env.RAZORPAY_KEY_ID;
-    const keySecret = process.env.RAZORPAY_KEY_SECRET;
-
-    if (!keyId || !keySecret) {
-      return NextResponse.json({ error: 'Payment service not configured.' }, { status: 500 });
-    }
-
-    const razorpay = new Razorpay({
-      key_id: keyId,
-      key_secret: keySecret,
-    });
-
-    // Check subscriptions first (up to 5 pages / 500 records)
-    let activeSub = null;
-    let hasMore = true;
-    let skip = 0;
-    
-    while (hasMore && skip < 500) {
-      const subs = await razorpay.subscriptions.all({ count: 100, skip });
-      if (!subs.items || subs.items.length === 0) {
-        hasMore = false;
-        break;
-      }
-      
-      const found = subs.items.find((sub: any) => {
-        const isStatusValid = sub.status === 'active' || sub.status === 'authenticated';
-        const isUserMatch = sub.notes?.user_email === userEmail || sub.notes?.user_id === userId;
-        return isStatusValid && isUserMatch;
-      });
-      
-      if (found) {
-        activeSub = found;
-        break;
-      }
-      
-      if (subs.items.length < 100) hasMore = false;
-      skip += 100;
-    }
-
-    if (activeSub) {
-      const plan = activeSub.notes?.plan_type === 'pro_yearly' ? 'Pro Yearly' : 'Pro Monthly';
-      return NextResponse.json({
-        hasActiveSubscription: true,
-        plan: plan,
-        subscriptionId: activeSub.id,
-      });
-    }
-
-    // No active Razorpay subscription found — do NOT re-grant from old payments
-    // Weekly Pass payments are one-time and expire; they should not reactivate
+    // SECURITY (VULN-16): Do not fallback to iterating all Razorpay subscriptions.
+    // Trust Firestore as the strict source of truth for scalable performance.
     return NextResponse.json({ hasActiveSubscription: false });
   } catch (error: any) {
+    // SECURITY (VULN-25): Sanitize error message
     console.error('[check-user-status] Error:', error);
-    return NextResponse.json({ error: 'Status check failed.' }, { status: 500 });
+    return NextResponse.json({ error: 'Internal server error.' }, { status: 500 });
   }
 }

@@ -11,7 +11,7 @@ export async function isRateLimited(
 ): Promise<boolean> {
   if (!adminDb) {
     console.error("Firestore Admin DB not initialized for rate limiting.");
-    return false; // Fail open if no DB to prevent blocking legitimate users during setup
+    return true; // SECURITY (VULN-04): Fail CLOSED — block requests when DB is unavailable
   }
 
   const safeKey = key.replace(/[^a-zA-Z0-9_-]/g, "_"); // sanitize key for Firestore doc ID
@@ -51,6 +51,6 @@ export async function isRateLimited(
     return isBlocked;
   } catch (error) {
     console.error("Rate limit check failed:", error);
-    return false; // Fail open on error
+    return true; // SECURITY (VULN-04): Fail CLOSED on error — block when uncertain
   }
 }

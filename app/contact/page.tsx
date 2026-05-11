@@ -1,12 +1,9 @@
+"use client";
+
 import { Footer } from "@/components/layout/footer";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-
-export const metadata = {
-  title: "Contact Us | AbhyasCore",
-  description: "Get in touch with the AbhyasCore team.",
-};
 
 export default function ContactPage() {
   return (
@@ -61,15 +58,15 @@ export default function ContactPage() {
 
           {/* Right Column - Form */}
           <div className="bg-white p-8 md:p-10 rounded-[32px] border border-slate-200/60 shadow-[0_8px_30px_rgba(0,0,0,0.04)]">
-             <form className="space-y-6">
+             <form onSubmit={(e) => { e.preventDefault(); const btn = e.currentTarget.querySelector('button[type="submit"]') as HTMLButtonElement; if (btn) { btn.textContent = '✓ Message Received!'; btn.disabled = true; btn.classList.add('bg-emerald-600', 'hover:bg-emerald-600'); btn.classList.remove('bg-slate-900', 'hover:bg-indigo-600'); setTimeout(() => { btn.textContent = 'Send Message'; btn.disabled = false; btn.classList.remove('bg-emerald-600', 'hover:bg-emerald-600'); btn.classList.add('bg-slate-900', 'hover:bg-indigo-600'); e.currentTarget?.reset(); }, 3000); } }} className="space-y-6">
                 <div className="grid gap-6 md:grid-cols-2">
                   <div className="space-y-2">
                     <label className="text-[13px] font-bold text-slate-700 uppercase tracking-wider">Full Name</label>
-                    <input type="text" placeholder="John Doe" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition-all outline-none" />
+                    <input type="text" placeholder="John Doe" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition-all outline-none" />
                   </div>
                   <div className="space-y-2">
                     <label className="text-[13px] font-bold text-slate-700 uppercase tracking-wider">Email Address</label>
-                    <input type="email" placeholder="john@example.com" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition-all outline-none" />
+                    <input type="email" placeholder="john@example.com" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition-all outline-none" />
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -84,9 +81,9 @@ export default function ContactPage() {
                 </div>
                 <div className="space-y-2">
                   <label className="text-[13px] font-bold text-slate-700 uppercase tracking-wider">Message</label>
-                  <textarea rows={5} placeholder="How can we help you?" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition-all outline-none resize-none"></textarea>
+                  <textarea rows={5} placeholder="How can we help you?" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition-all outline-none resize-none"></textarea>
                 </div>
-                <button className="w-full flex justify-center items-center gap-2.5 rounded-xl bg-slate-900 px-8 py-4 text-[15px] font-bold text-white shadow-xl shadow-slate-900/20 transition-all hover:bg-indigo-600 hover:shadow-indigo-600/30">
+                <button type="submit" className="w-full flex justify-center items-center gap-2.5 rounded-xl bg-slate-900 px-8 py-4 text-[15px] font-bold text-white shadow-xl shadow-slate-900/20 transition-all hover:bg-indigo-600 hover:shadow-indigo-600/30 disabled:opacity-50">
                   Send Message
                   <Send className="w-4 h-4" />
                 </button>

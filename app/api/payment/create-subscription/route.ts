@@ -33,7 +33,27 @@ export async function POST(req: Request) {
       const userSnap = await adminDb.collection('users').doc(userId).get();
       if (userSnap.exists) {
         const data = userSnap.data();
-        isReferred = !!data?.referredBy;
+        const referralCode = data?.referredBy;
+        if (referralCode) {
+          // SECURITY (VULN-07): Use transaction to prevent TOCTOU race condition
+          const { FieldValue } = await import('firebase-admin/firestore');
+          const promoRef = adminDb.collection('promo_codes').doc(referralCode);
+          try {
+            isReferred = await adminDb.runTransaction(async (tx) => {
+              const promoSnap = await tx.get(promoRef);
+              if (!promoSnap.exists) return false;
+              const promo = promoSnap.data();
+              const maxUses = promo?.maxUses || 500;
+              const currentUses = promo?.currentUses || 0;
+              if (currentUses >= maxUses || promo?.active === false) return false;
+              tx.update(promoRef, { currentUses: FieldValue.increment(1) });
+              return true;
+            });
+          } catch (txErr) {
+            console.error('[create-subscription] Promo transaction failed:', txErr);
+            // Treat as non-referred on error
+          }
+        }
       }
     }
 

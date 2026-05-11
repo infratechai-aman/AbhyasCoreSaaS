@@ -1,3 +1,4 @@
+import crypto from 'crypto';
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
@@ -302,10 +303,47 @@ export async function GET(request: Request) {
             finalQuestions = finalQuestions.concat(subjectQuestions);
         }
 
-        return NextResponse.json({
+        // Ensure all questions have unique IDs
+        finalQuestions = finalQuestions.map((q: any, i: number) => ({
+          ...q,
+          id: q.id || `q${i + 1}`,
+        }));
+
+        // ── SECURITY: Store answer key server-side, strip from client response ──
+        const { adminDb } = await import("@/lib/firebase-admin");
+        const examSessionId = crypto.randomUUID();
+
+        const answerKey: Record<string, { answer: string; explanation: string }> = {};
+        finalQuestions.forEach((q: any) => {
+          answerKey[q.id] = { answer: q.answer, explanation: q.explanation };
+        });
+
+        if (adminDb) {
+          await adminDb.collection("exam_sessions").doc(examSessionId).set({
+            userId: authResult.uid,
+            chapterId: `tiered_${tier}`,
             chapterName: `Tier ${tier} Simulation Mock`,
             subject: examParam,
-            questions: finalQuestions
+            answerKey,
+            questionCount: finalQuestions.length,
+            createdAt: new Date().toISOString(),
+            expiresAt: new Date(Date.now() + 6 * 60 * 60 * 1000).toISOString(), // 6 hours for mock
+          });
+        }
+
+        const clientQuestions = finalQuestions.map((q: any) => ({
+          id: q.id,
+          text: q.text,
+          options: q.options,
+          difficulty: q.difficulty,
+          chapterSource: q.chapterSource,
+        }));
+
+        return NextResponse.json({
+            examSessionId,
+            chapterName: `Tier ${tier} Simulation Mock`,
+            subject: examParam,
+            questions: clientQuestions
         });
 
     } catch (error: any) {

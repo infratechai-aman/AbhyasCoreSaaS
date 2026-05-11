@@ -22,6 +22,7 @@ export default function DailyTargetPage() {
   const [loading, setLoading]       = useState(true);
   const [launching, setLaunching]   = useState(false);
   const [questions, setQuestions]   = useState<any[]>([]);
+  const [examSessionId, setExamSessionId] = useState("");
   const [date, setDate]             = useState("");
   const [countdown, setCountdown]   = useState(0);
   const [error, setError]           = useState("");
@@ -35,6 +36,7 @@ export default function DailyTargetPage() {
       .then(data => {
         if (data.error) { setError(data.error); return; }
         setQuestions(data.questions || []);
+        setExamSessionId(data.examSessionId || "");
         setDate(data.date || "");
         setCountdown(data.secondsUntilReset || 0);
       })
@@ -56,6 +58,7 @@ export default function DailyTargetPage() {
     sessionStorage.setItem("daily_target_questions", JSON.stringify(questions));
     sessionStorage.setItem("daily_target_exam",      exam);
     sessionStorage.setItem("daily_target_date",      date);
+    sessionStorage.setItem("daily_target_session_id", examSessionId);
     router.push("/test-console/daily");
   }
 

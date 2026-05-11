@@ -42,12 +42,10 @@ export default function LoginPage() {
       await signInWithEmailAndPassword(auth, email, password);
       router.push("/dashboard");
     } catch (err: any) {
-      let friendlyMessage = "Failed to log in. Please check your credentials.";
+      let friendlyMessage = "Incorrect email or password. Please try again.";
       if (err.message) {
-        if (err.message.includes("auth/wrong-password") || err.message.includes("auth/invalid-credential")) {
+        if (err.message.includes("auth/wrong-password") || err.message.includes("auth/invalid-credential") || err.message.includes("auth/user-not-found")) {
           friendlyMessage = "Incorrect email or password. Please try again.";
-        } else if (err.message.includes("auth/user-not-found")) {
-          friendlyMessage = "No account found with this email.";
         } else if (err.message.includes("auth/too-many-requests")) {
           friendlyMessage = "Too many failed attempts. Please try again later.";
         }

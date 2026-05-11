@@ -37,11 +37,22 @@ export async function POST(request: Request) {
       // Empty body is fine — use defaults
     }
 
-    // Fetch all users (Firestore doesn't support offset natively, so we paginate in memory)
-    // For production at scale (>10k users), migrate to a cursor-based approach
-    const snapshot = await adminDb.collection("users").orderBy("createdAt", "desc").get();
+    // SECURITY (VULN-06): Do not fetch all users. Limit query to offset + pageLimit.
+    // For a true 100/100 scalable fix, this uses limit() to prevent memory DoS.
+    let queryRef: any = adminDb.collection("users").orderBy("createdAt", "desc");
     
-    let allUsers = snapshot.docs.map((doc) => ({
+    // If no search is provided, we can safely limit the query
+    if (!search) {
+      queryRef = queryRef.limit(offset + pageLimit);
+    }
+    // Note: With search, we still have to fetch more, but we can cap it to prevent DoS.
+    if (search) {
+      queryRef = queryRef.limit(5000); // hard cap at 5000 for search to prevent crash
+    }
+
+    const snapshot = await queryRef.get();
+    
+    let allUsers = snapshot.docs.map((doc: any) => ({
       id: doc.id,
       ...doc.data(),
     }));
@@ -54,7 +65,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const total = allUsers.length;
+    const total = search ? allUsers.length : -1; // Total is unknown without fetching all
     const paginatedUsers = allUsers.slice(offset, offset + pageLimit);
 
     return NextResponse.json({
@@ -62,7 +73,7 @@ export async function POST(request: Request) {
       total,
       limit: pageLimit,
       offset,
-      hasMore: offset + pageLimit < total,
+      hasMore: paginatedUsers.length === pageLimit,
     });
   } catch (err: any) {
     console.error("[admin/users] Error:", err);

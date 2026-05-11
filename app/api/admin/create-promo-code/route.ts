@@ -43,6 +43,8 @@ export async function POST(request: Request) {
       active: true,
       creator: creator || codeId,
       createdAt: new Date().toISOString(),
+      maxUses: 500,      // Limit total referrals per code
+      currentUses: 0,    // Atomically incremented on each use
     });
 
     const link = `https://abhyascore.com/register?ref=${codeId}`;

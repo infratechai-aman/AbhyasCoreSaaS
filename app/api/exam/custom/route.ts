@@ -1,3 +1,4 @@
+import crypto from 'crypto';
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
@@ -204,12 +205,46 @@ export async function GET(request: Request) {
 
         // Shuffle and slice
         const shuffled = shuffleArray(allQuestions);
-        const finalQuestions = shuffled.slice(0, limit);
+        const finalQuestions = shuffled.slice(0, limit).map((q: any, i: number) => ({
+          ...q,
+          id: q.id || `q${i + 1}`,
+        }));
+
+        // ── SECURITY: Store answer key server-side, strip from client response ──
+        const { adminDb } = await import("@/lib/firebase-admin");
+        const examSessionId = crypto.randomUUID();
+
+        const answerKey: Record<string, { answer: string; explanation: string }> = {};
+        finalQuestions.forEach((q: any) => {
+          answerKey[q.id] = { answer: q.answer, explanation: q.explanation };
+        });
+
+        if (adminDb) {
+          await adminDb.collection("exam_sessions").doc(examSessionId).set({
+            userId: authResult.uid,
+            chapterId: "custom",
+            chapterName: "Custom Drill",
+            subject: "Mixed",
+            answerKey,
+            questionCount: finalQuestions.length,
+            createdAt: new Date().toISOString(),
+            expiresAt: new Date(Date.now() + 4 * 60 * 60 * 1000).toISOString(),
+          });
+        }
+
+        const clientQuestions = finalQuestions.map((q: any) => ({
+          id: q.id,
+          text: q.text,
+          options: q.options,
+          difficulty: q.difficulty,
+          chapterSource: q.chapterSource,
+        }));
 
         return NextResponse.json({ 
+            examSessionId,
             chapterName: "Custom Drill", 
             subject: "Mixed", 
-            questions: finalQuestions,
+            questions: clientQuestions,
             totalAvailable: allQuestions.length
         });
 

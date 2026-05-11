@@ -51,9 +51,19 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     if (typeof window !== "undefined") {
       try {
         if (data) {
-          sessionStorage.setItem("abhyas_userData", JSON.stringify(data));
+          // SECURITY (VULN-20): Omit sensitive fields from client-side cache
+          const { subscription, usage, ...safeData } = data;
+          sessionStorage.setItem("abhyas_userData", JSON.stringify(safeData));
+          // Set a minimal cookie for Next.js Middleware route protection
+          document.cookie = "abhyas_session=1; path=/; max-age=86400; SameSite=Lax";
+          const ADMIN_EMAIL = (process.env.NEXT_PUBLIC_ADMIN_EMAIL || "").toLowerCase();
+          if (data.email && data.email.toLowerCase() === ADMIN_EMAIL) {
+            document.cookie = "abhyas_admin=1; path=/; max-age=86400; SameSite=Lax";
+          }
         } else {
           sessionStorage.removeItem("abhyas_userData");
+          document.cookie = "abhyas_session=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+          document.cookie = "abhyas_admin=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
         }
       } catch {}
     }
@@ -135,6 +145,16 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   }, []);
 
   const logout = async () => {
+    // Revoke refresh tokens server-side (invalidates all sessions)
+    try {
+      const token = auth ? await auth.currentUser?.getIdToken() : null;
+      if (token) {
+        await fetch("/api/auth/logout", {
+          method: "POST",
+          headers: { Authorization: `Bearer ${token}` },
+        }).catch(() => {}); // Don't block logout on network error
+      }
+    } catch {}
     if (typeof window !== "undefined") {
       try { sessionStorage.removeItem("abhyas_userData"); } catch {}
     }

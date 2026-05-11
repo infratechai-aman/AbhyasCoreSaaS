@@ -51,11 +51,10 @@ function formatINR(amount: number): string {
   return `\u20b9${amount}`;
 }
 
-const ADMIN_EMAIL = "aman.infratechai@gmail.com";
-
 export default function SuperAdminDashboard() {
   const { user, userData } = useAuth();
   const [mounted, setMounted] = useState(false);
+  const [isAdmin, setIsAdmin] = useState<boolean | null>(null); // null = loading
 
   // Razorpay Sync state
   const [syncLoading, setSyncLoading] = useState(false);
@@ -82,8 +81,17 @@ export default function SuperAdminDashboard() {
   // Fetch user data only AFTER admin verification (moved from unconditional useEffect)
   useEffect(() => { setMounted(true); }, []);
 
+  // Verify admin status via server-side API (no hardcoded email in client bundle)
   useEffect(() => {
-    if (!mounted || !user || user.email !== ADMIN_EMAIL) return;
+    if (!mounted || !user) return;
+    authenticatedFetch("/api/admin/verify", { method: "POST" })
+      .then(res => res.json())
+      .then(data => setIsAdmin(data.isAdmin === true))
+      .catch(() => setIsAdmin(false));
+  }, [mounted, user]);
+
+  useEffect(() => {
+    if (!mounted || !user || !isAdmin) return;
     // Fetch users via server-side Admin SDK (CRITICAL-01 fix)
     authenticatedFetch("/api/admin/users", { method: "POST" })
       .then(res => res.json())
@@ -103,7 +111,7 @@ export default function SuperAdminDashboard() {
         setStats({ total: usersList.length, paid: paidUsers.length, monthlyRevenue: monthlyRev, totalRevenue: totalRev });
       })
       .catch(console.error);
-  }, [mounted, user]);
+  }, [mounted, user, isAdmin]);
 
   const handlePromoSearch = async () => {
     if (!emailQuery.trim()) return;
@@ -305,10 +313,16 @@ export default function SuperAdminDashboard() {
     }
   };
 
-  if (!mounted) return null;
+  if (!mounted || isAdmin === null) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-[#fafafc]">
+        <div className="w-10 h-10 border-4 border-indigo-100 border-t-indigo-600 rounded-full animate-spin" />
+      </div>
+    );
+  }
 
-  // Strict Security Lock
-  if (!user || user.email !== ADMIN_EMAIL) {
+  // Strict Security Lock — verified server-side
+  if (!user || !isAdmin) {
      return (
        <div className="min-h-screen flex flex-col items-center justify-center bg-[#fafafc] text-center p-6">
           <ShieldAlert className="w-16 h-16 text-rose-500 mb-4" />
