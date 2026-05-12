@@ -26,9 +26,6 @@ const getSubjectForChapter = (chapterSource: string) => {
     for (const sub of ["Physics", "Chemistry", "Mathematics", "Biology"]) {
       const subjectData = classData[sub as keyof typeof classData];
       if (subjectData?.find(ch => ch.file?.replace('.xml', '') === chapterSource)) {
-         if (sub === "Biology") {
-            return BOTANY_CHAPTERS.includes(chapterSource) ? "Botany" : "Zoology";
-         }
          return sub;
       }
     }
@@ -422,7 +419,7 @@ function CustomExamConsoleInner() {
            <div className="flex-1 overflow-y-auto p-5 custom-scrollbar">
               {(() => {
                 const grouped = data.questions.reduce((acc, q, i) => {
-                  const subject = getSubjectForChapter(q.chapterSource);
+                  const subject = q.inferredSubject || getSubjectForChapter(q.chapterSource);
                   if (!acc[subject]) acc[subject] = [];
                   acc[subject].push({ q, i });
                   return acc;
