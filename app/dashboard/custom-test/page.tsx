@@ -209,21 +209,55 @@ export default function CustomExamBuilder() {
                         <p>Select at least one subject to view chapters.</p>
                      </div>
                    ) : (
-                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {eligibleChapters.map((ch, idx) => {
-                           const isSelected = selectedChapters.has(ch.file);
+                     <div className="space-y-8">
+                        {selectedSubjects.map(subject => {
+                           const subjectChapters = eligibleChapters.filter(ch => ch.subject === subject);
+                           if (subjectChapters.length === 0) return null;
+                           
+                           const allSelected = subjectChapters.every(ch => selectedChapters.has(ch.file));
+                           
                            return (
-                             <div 
-                               key={`${ch.file}-${idx}`}
-                               onClick={() => toggleChapter(ch.file)}
-                               className={`p-4 rounded-xl border-2 cursor-pointer transition-all flex gap-3 ${isSelected ? 'border-indigo-600 bg-indigo-50/50' : 'border-slate-100 hover:border-indigo-200 hover:bg-slate-50'}`}
-                             >
-                               <div className="pt-0.5">
-                                 {isSelected ? <CheckCircle2 className="w-5 h-5 text-indigo-600" /> : <Circle className="w-5 h-5 text-slate-300" />}
+                             <div key={subject} className="animate-in fade-in slide-in-from-bottom-2 duration-300">
+                               <div className="flex items-center justify-between border-b-2 border-slate-100 pb-3 mb-4 sticky top-0 bg-white/95 backdrop-blur-sm z-10">
+                                  <h4 className="font-bold text-[16px] text-slate-800 flex items-center gap-2">
+                                    <div className="w-2 h-2 rounded-full bg-indigo-500"></div>
+                                    {subject} <span className="text-slate-400 text-[12px] font-medium tracking-normal">({subjectChapters.length})</span>
+                                  </h4>
+                                  <button 
+                                     onClick={() => {
+                                        const newSelected = new Set(selectedChapters);
+                                        if (allSelected) {
+                                           subjectChapters.forEach(ch => newSelected.delete(ch.file));
+                                        } else {
+                                           subjectChapters.forEach(ch => newSelected.add(ch.file));
+                                        }
+                                        setSelectedChapters(newSelected);
+                                     }}
+                                     className={`text-[11px] font-bold px-3 py-1.5 rounded-full transition-colors ${allSelected ? 'bg-slate-100 text-slate-500 hover:bg-slate-200' : 'bg-indigo-50 text-indigo-600 hover:bg-indigo-100'}`}
+                                  >
+                                     {allSelected ? "Deselect Section" : "Select All"}
+                                  </button>
                                </div>
-                               <div>
-                                 <div className={`text-[14px] font-bold leading-tight mb-1 cursor-pointer ${isSelected ? 'text-indigo-900' : 'text-slate-700'}`}>{ch.name}</div>
-                                 <div className="text-[10px] uppercase font-bold tracking-widest text-slate-400">{ch.subject} • {ch.class}</div>
+
+                               <div className="grid grid-cols-1 xl:grid-cols-2 gap-3">
+                                  {subjectChapters.map((ch, idx) => {
+                                     const isSelected = selectedChapters.has(ch.file);
+                                     return (
+                                       <div 
+                                         key={`${ch.file}-${idx}`}
+                                         onClick={() => toggleChapter(ch.file)}
+                                         className={`p-3.5 rounded-xl border-2 cursor-pointer transition-all flex gap-3 items-start ${isSelected ? 'border-indigo-600 bg-indigo-50/50 shadow-sm' : 'border-slate-100 hover:border-indigo-200 hover:bg-slate-50'}`}
+                                       >
+                                         <div className="pt-0.5 shrink-0">
+                                           {isSelected ? <CheckCircle2 className="w-5 h-5 text-indigo-600" /> : <Circle className="w-5 h-5 text-slate-300" />}
+                                         </div>
+                                         <div className="min-w-0">
+                                           <div className={`text-[13px] font-bold leading-snug mb-1 truncate whitespace-normal line-clamp-2 ${isSelected ? 'text-indigo-900' : 'text-slate-700'}`}>{ch.name}</div>
+                                           <div className="text-[10px] uppercase font-bold tracking-widest text-slate-400">Class {ch.class}</div>
+                                         </div>
+                                       </div>
+                                     );
+                                  })}
                                </div>
                              </div>
                            );
