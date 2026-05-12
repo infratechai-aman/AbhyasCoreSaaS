@@ -33,6 +33,8 @@ export default function AffiliateHubPage() {
         if (!res.ok) {
           if (res.status === 404) {
              setError("NOT_CREATOR");
+          } else if (res.status === 401) {
+             window.location.href = "/creator/login";
           } else {
              setError(json.error || "Failed to load data.");
           }

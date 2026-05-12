@@ -18,7 +18,7 @@ export default function CreatorLayout({ children }: { children: React.ReactNode 
 
   useEffect(() => {
     if (!loading && !user && mounted) {
-      router.push("/login");
+      router.push("/creator/login");
     }
   }, [user, loading, router, mounted]);
 
