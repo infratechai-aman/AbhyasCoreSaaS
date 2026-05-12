@@ -76,7 +76,7 @@ export default function HelpSupportPage() {
                 <p className="text-[13px] text-slate-400 leading-relaxed mb-5">
                   Get instant help from our support team. Available Mon–Sat, 9 AM – 9 PM IST.
                 </p>
-                <button onClick={() => window.open('mailto:support@abhyascore.com', '_blank')} className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-[13px] rounded-xl transition-colors shadow-lg">
+                <button onClick={() => window.open('mailto:aman.infratechai@gmail.com', '_blank')} className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-[13px] rounded-xl transition-colors shadow-lg">
                   Email Support Team
                 </button>
               </div>
@@ -90,10 +90,10 @@ export default function HelpSupportPage() {
               <h3 className="text-[15px] font-bold text-slate-900 mb-1">Email Support</h3>
               <p className="text-[12px] text-slate-500 mb-4">Send us a detailed message. We respond within 24 hours on business days.</p>
               <a
-                href="mailto:support@abhyascore.com"
+                href="mailto:aman.infratechai@gmail.com"
                 className="flex items-center justify-between w-full py-3 px-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl font-bold text-[13px] text-slate-700 transition-colors"
               >
-                support@abhyascore.com
+                aman.infratechai@gmail.com
                 <ExternalLink className="w-4 h-4 text-slate-400" />
               </a>
             </div>
