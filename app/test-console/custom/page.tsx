@@ -429,7 +429,9 @@ function CustomExamConsoleInner() {
                   const qs = qsArray as { q: any; i: number }[];
                   return (
                     <div key={subject} className="mb-6 last:mb-0">
-                      <h4 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3 border-b border-slate-200 pb-1">{subject}</h4>
+                      {subject !== "Mixed" && (
+                        <h4 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3 border-b border-slate-200 pb-1">{subject}</h4>
+                      )}
                       <div className="grid grid-cols-5 gap-2">
                          {qs.map(({ q, i }) => {
                             const status = statuses[q._safeId] || "not_visited";

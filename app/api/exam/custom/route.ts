@@ -140,33 +140,6 @@ export async function GET(request: Request) {
             });
           });
           
-          // Heuristic Fallback if AI script hasn't been run
-          if (!found && (chapterFile.startsWith("jee_") || chapterFile.startsWith("neet_"))) {
-             const txt = (questionObj.text || "").toLowerCase();
-             const isNeet = chapterFile.startsWith("neet_");
-             
-             const mathWords = ["integral", "derivative", "matrix", "modulus", "probability", "tangent", "vertex", "ellipse", "parabola", "vector", "theorem", "polynomial", "algebra", "det [", "let f(x)", "dy/dx"];
-             const chemWords = ["reaction", "acid", "mole", "aqueous", "temperature", "pressure", "enthalpy", "compound", "bond", "oxidation", "reagent", "catalyst", "isomer", "orbitals", "polymer", "gas", "solution", "concentration"];
-             const bioWords = ["cell", "plant", "animal", "tissue", "gene", "protein", "dna", "rna", "enzyme", "blood", "muscle", "disease", "organism", "species", "reproduction", "bacteria", "virus", "biomolecules", "botanical", "museum"];
-             const physWords = ["velocity", "force", "mass", "acceleration", "electric", "magnetic", "circuit", "ohm", "lens", "optics", "momentum", "energy", "power", "friction", "gravity", "voltage", "current", "flux", "inductance", "rms", "ac"];
-             
-             let mathScore = mathWords.filter(w => txt.includes(w)).length;
-             let chemScore = chemWords.filter(w => txt.includes(w)).length;
-             let bioScore = bioWords.filter(w => txt.includes(w)).length;
-             let physScore = physWords.filter(w => txt.includes(w)).length;
-             
-             if (isNeet) {
-                 if (bioScore >= Math.max(physScore, chemScore)) matchedSubject = "Biology";
-                 else if (chemScore > physScore) matchedSubject = "Chemistry";
-                 else matchedSubject = "Physics";
-             } else {
-                 if (mathScore >= Math.max(physScore, chemScore)) matchedSubject = "Mathematics";
-                 else if (chemScore > physScore) matchedSubject = "Chemistry";
-                 else matchedSubject = "Physics";
-             }
-             return matchedSubject;
-          }
-          
           // NEET specialization
           if (matchedSubject === "Biology") {
             return "Biology"; // No longer split into Botany/Zoology per previous fix
