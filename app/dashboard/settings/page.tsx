@@ -263,16 +263,6 @@ export default function SettingsPage() {
                       </div>
                     )}
 
-                    {/* Subscription ID */}
-                    {sub?.razorpaySubscriptionId && (
-                      <div className="flex items-center justify-between p-3 rounded-lg bg-slate-50 border border-slate-100 mb-3">
-                        <span className="text-[11px] text-slate-500 font-medium">Subscription ID</span>
-                        <span className="font-mono text-[11px] text-slate-600">
-                          {sub.razorpaySubscriptionId.slice(0, 10)}...{sub.razorpaySubscriptionId.slice(-4)}
-                        </span>
-                      </div>
-                    )}
-
                     {/* Activated On */}
                     {sub?.activatedAt && (
                       <div className="flex items-center justify-between p-3 rounded-lg bg-slate-50 border border-slate-100 mb-3">
