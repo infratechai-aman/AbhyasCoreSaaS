@@ -1,24 +1,32 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DashboardShell } from "@/components/layout/dashboard-shell";
 import { Syllabus } from "@/lib/syllabus";
 import { Target, Search, CheckCircle2, Circle, Flame, Rocket, ChevronRight, SlidersHorizontal, BookOpen, Lock, Crown, AlertCircle, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { usePremium } from "@/lib/hooks/usePremium";
+import { useAuth } from "@/lib/auth-context";
 import Link from "next/link";
 
 export default function CustomExamBuilder() {
   const router = useRouter();
   const { canUseCustomBuilder, remainingCustomExams, isPro, plan } = usePremium();
+  const { userData } = useAuth();
   const [targetExam, setTargetExam] = useState<"JEE" | "NEET">("JEE");
   
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>(["Physics"]);
   const [selectedChapters, setSelectedChapters] = useState<Set<string>>(new Set());
   const [questionCount, setQuestionCount] = useState<number>(30);
   const [validationError, setValidationError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (userData?.targetExam === "JEE") setTargetExam("JEE");
+    else if (userData?.targetExam === "NEET") setTargetExam("NEET");
+  }, [userData?.targetExam]);
   
   const subjects = targetExam === "JEE" ? ["Physics", "Chemistry", "Mathematics"] : ["Physics", "Chemistry", "Biology"];
+  const maxQuestions = targetExam === "NEET" ? 180 : 90;
 
   const toggleSubject = (sub: string) => {
     setSelectedSubjects(prev => 
@@ -130,18 +138,22 @@ export default function CustomExamBuilder() {
                      <Target className="w-4 h-4 text-indigo-500" /> Target Examination
                    </h3>
                    <div className="flex gap-3">
-                      <button 
-                        onClick={() => { setTargetExam("JEE"); setSelectedSubjects(["Physics"]); setSelectedChapters(new Set()); }}
-                        className={`flex-1 py-2.5 rounded-xl text-[14px] font-bold transition-all ${targetExam === "JEE" ? 'bg-indigo-600 text-white shadow-md' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
-                      >
-                        JEE Main
-                      </button>
-                      <button 
-                        onClick={() => { setTargetExam("NEET"); setSelectedSubjects(["Physics"]); setSelectedChapters(new Set()); }}
-                        className={`flex-1 py-2.5 rounded-xl text-[14px] font-bold transition-all ${targetExam === "NEET" ? 'bg-indigo-600 text-white shadow-md' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
-                      >
-                        NEET (UG)
-                      </button>
+                      {(!userData?.targetExam || userData.targetExam === "Both" || userData.targetExam === "JEE") && (
+                        <button 
+                          onClick={() => { setTargetExam("JEE"); setSelectedSubjects(["Physics"]); setSelectedChapters(new Set()); }}
+                          className={`flex-1 py-2.5 rounded-xl text-[14px] font-bold transition-all ${targetExam === "JEE" ? 'bg-indigo-600 text-white shadow-md' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
+                        >
+                          JEE Main
+                        </button>
+                      )}
+                      {(!userData?.targetExam || userData.targetExam === "Both" || userData.targetExam === "NEET") && (
+                        <button 
+                          onClick={() => { setTargetExam("NEET"); setSelectedSubjects(["Physics"]); setSelectedChapters(new Set()); }}
+                          className={`flex-1 py-2.5 rounded-xl text-[14px] font-bold transition-all ${targetExam === "NEET" ? 'bg-indigo-600 text-white shadow-md' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
+                        >
+                          NEET (UG)
+                        </button>
+                      )}
                    </div>
                 </div>
 
@@ -157,7 +169,9 @@ export default function CustomExamBuilder() {
                           onClick={() => toggleSubject(sub)}
                           className={`flex items-center justify-between p-3 rounded-xl border-2 transition-all ${selectedSubjects.includes(sub) ? 'border-emerald-500 bg-emerald-50' : 'border-slate-100 hover:border-slate-300'}`}
                         >
-                          <span className={`text-[14px] font-bold ${selectedSubjects.includes(sub) ? 'text-emerald-700' : 'text-slate-600'}`}>{sub}</span>
+                          <span className={`text-[14px] font-bold ${selectedSubjects.includes(sub) ? 'text-emerald-700' : 'text-slate-600'}`}>
+                            {sub === "Biology" ? "Zoology & Botany" : sub}
+                          </span>
                           {selectedSubjects.includes(sub) ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <Circle className="w-5 h-5 text-slate-300" />}
                         </button>
                       ))}
@@ -175,14 +189,14 @@ export default function CustomExamBuilder() {
                    </div>
                    <input 
                      type="range" 
-                     min="10" max="90" step="5" 
+                     min="10" max={maxQuestions} step="5" 
                      value={questionCount} 
                      onChange={(e) => setQuestionCount(parseInt(e.target.value))}
                      className="w-full accent-indigo-600 h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"
                    />
                    <div className="flex justify-between text-[11px] font-bold text-slate-400 mt-2">
                      <span>10 Qs</span>
-                     <span>90 Qs</span>
+                     <span>{maxQuestions} Qs</span>
                    </div>
                 </div>
 
