@@ -35,11 +35,10 @@ export async function GET(request: Request) {
     const codeId = codeDoc.id;
     const codeData = codeDoc.data();
 
-    // 2. Find all users referred by this code
+    // 2. Find all users referred by this code (sort in memory to avoid needing a Firestore composite index)
     const usersSnapshot = await adminDb
       .collection("users")
       .where("referredBy", "==", codeId)
-      .orderBy("createdAt", "desc")
       .get();
 
     const referredUsers = usersSnapshot.docs.map((doc) => {
@@ -50,6 +49,13 @@ export async function GET(request: Request) {
         createdAt: data.createdAt,
         subscription: data.subscription,
       };
+    });
+
+    // Sort by createdAt descending
+    referredUsers.sort((a, b) => {
+      const timeA = new Date(a.createdAt || 0).getTime();
+      const timeB = new Date(b.createdAt || 0).getTime();
+      return timeB - timeA;
     });
 
     // 3. Calculate stats
