@@ -60,11 +60,16 @@ export default function TestResultsPage() {
       if (user) {
         const userHist = await getUserTestHistory(user.uid);
         if (userHist) {
-           const formatted = [...userHist].reverse().map((h: any, i: number) => ({
+           let formatted = [...userHist].reverse().map((h: any, i: number) => ({
              name: `Test ${i+1}`,
              score: h.accuracy || Math.round((h.correctCount/(h.correctCount+h.wrongCount))*100) || 0
            })).slice(-6);
-           setHistory(formatted.length > 0 ? formatted : [{name: "Current", score: 0}]);
+           
+           if (formatted.length === 1) {
+             formatted.unshift({ name: "Start", score: 0 });
+           }
+           
+           setHistory(formatted.length > 0 ? formatted : [{name: "Start", score: 0}, {name: "Test 1", score: 0}]);
         }
       }
     }
