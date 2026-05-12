@@ -8,12 +8,15 @@ import { useAuth } from "@/lib/auth-context";
 import { authenticatedFetch } from "@/lib/api";
 import { Syllabus } from "@/lib/syllabus";
 
-const ZOOLOGY_CHAPTERS = [
-  "animal_kingdom", "structural_organisation_in_animals", "biomolecules", 
-  "digestion_and_absorption", "breathing_and_exchange_of_gases", "body_fluids_and_circulation",
-  "excretory_products_and_their_elimination", "locomotion_and_movement", "neural_control_and_coordination",
-  "chemical_coordination_and_integration", "human_reproduction", "reproductive_health",
-  "evolution", "human_health_and_disease", "biotechnology_principles", "biotechnology_applications"
+const BOTANY_CHAPTERS = [
+  "living_world", "biological_classification", "plant_kingdom",
+  "morphology_flowering_plants", "anatomy_flowering_plants",
+  "cell_unit_of_life", "cell_cycle", "transport_in_plants",
+  "mineral_nutrition", "photosynthesis", "respiration_in_plants",
+  "plant_growth", "reproduction_in_organisms", "sexual_reproduction_plants",
+  "principles_of_inheritance", "molecular_basis", "strategies_enhancement",
+  "microbes_in_human_welfare", "organisms_and_populations",
+  "ecosystem", "biodiversity", "environmental_issues"
 ];
 
 const getSubjectForChapter = (chapterSource: string) => {
@@ -24,7 +27,7 @@ const getSubjectForChapter = (chapterSource: string) => {
       const subjectData = classData[sub as keyof typeof classData];
       if (subjectData?.find(ch => ch.file?.replace('.xml', '') === chapterSource)) {
          if (sub === "Biology") {
-            return ZOOLOGY_CHAPTERS.includes(chapterSource) ? "Zoology" : "Botany";
+            return BOTANY_CHAPTERS.includes(chapterSource) ? "Botany" : "Zoology";
          }
          return sub;
       }

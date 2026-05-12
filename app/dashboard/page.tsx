@@ -547,7 +547,7 @@ function DashboardContent() {
                   "Unlimited mock tests with repeats",
                   "Market Practice & Examination Repository",
                   "40,000 AI Tutor tokens per day",
-                  "5 Custom Exams per day",
+                  "10 Custom Exams per day",
                   "Deep analytics & rank prediction",
                   "Priority support & early access",
                 ].map((feat) => (

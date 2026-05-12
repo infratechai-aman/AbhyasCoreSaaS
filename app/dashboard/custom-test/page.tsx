@@ -114,7 +114,7 @@ export default function CustomExamBuilder() {
                     }
                   </div>
                   <div className="text-[11px] text-slate-500 font-medium">
-                    {isPro ? 'Pro plan: 5 custom exams/day' : 'Free plan: 1 custom exam/week'}
+                    {isPro ? 'Pro plan: 10 custom exams/day' : 'Free plan: 1 custom exam/week'}
                   </div>
                 </div>
              </div>
