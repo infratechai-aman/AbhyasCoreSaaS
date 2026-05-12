@@ -158,7 +158,7 @@ export async function GET(request: Request) {
         }
 
         const subjects = Object.keys(questionsBySubject).sort((a,b) => {
-            const order = ["Physics", "Chemistry", "Botany", "Zoology", "Mathematics"];
+            const order = ["Physics", "Chemistry", "Botany", "Zoology", "Biology", "Mathematics"];
             return order.indexOf(a) - order.indexOf(b);
         });
 
