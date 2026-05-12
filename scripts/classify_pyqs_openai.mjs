@@ -46,6 +46,15 @@ ${texts.map((t, i) => `[Question ${i + 1}]: ${t}`).join('\n\n')}
     
     // Ensure all subjects are valid
     parsed = parsed.map(s => allowedSubjects.includes(s) ? s : allowedSubjects[0]);
+    
+    // Ensure strict length matching
+    if (parsed.length > texts.length) {
+      parsed = parsed.slice(0, texts.length);
+    }
+    while (parsed.length < texts.length) {
+      parsed.push(allowedSubjects[0]);
+    }
+    
     return parsed;
   } catch (error) {
     console.error("Failed to classify batch:", error.message);
