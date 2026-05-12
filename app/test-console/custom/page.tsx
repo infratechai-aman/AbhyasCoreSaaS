@@ -286,8 +286,8 @@ function CustomExamConsoleInner() {
                <LayoutTemplate className="w-4 h-4 text-white" />
             </div>
             <div className="flex-1 min-w-0">
-               <div className="text-[13px] md:text-[14px] font-bold tracking-wide truncate">Custom Synthesized Test</div>
-               <div className="text-[9px] md:text-[10px] text-rose-300 font-bold tracking-widest uppercase truncate">Mixed Chapters • {data.questions.length} Qs</div>
+               <div className="text-[13px] md:text-[14px] font-bold tracking-wide truncate">{searchParams.get('c')?.startsWith('jee_') || searchParams.get('c')?.startsWith('neet_') ? 'Previous Year Paper Simulation' : 'Custom Synthesized Test'}</div>
+               <div className="text-[9px] md:text-[10px] text-rose-300 font-bold tracking-widest uppercase truncate">{searchParams.get('c')?.startsWith('neet_') ? "Physics • Chemistry • Biology" : searchParams.get('c')?.startsWith('jee_') ? "Physics • Chemistry • Mathematics" : "Custom Chapters"} • {data.questions.length} Qs</div>
             </div>
          </div>
          

@@ -261,8 +261,8 @@ function CustomExamConsoleInner() {
                <LayoutTemplate className="w-4 h-4 text-white" />
             </div>
             <div className="flex-1 min-w-0">
-               <div className="text-[13px] md:text-[14px] font-bold tracking-wide truncate">Custom Synthesized Test</div>
-               <div className="text-[9px] md:text-[10px] text-rose-300 font-bold tracking-widest uppercase truncate">Mixed Chapters • {data.questions.length} Qs</div>
+               <div className="text-[13px] md:text-[14px] font-bold tracking-wide truncate">Tiered Simulation Mock</div>
+               <div className="text-[9px] md:text-[10px] text-rose-300 font-bold tracking-widest uppercase truncate">{searchParams.get("exam") === "NEET" ? "Physics • Chemistry • Biology" : "Physics • Chemistry • Mathematics"} • {data.questions.length} Qs</div>
             </div>
          </div>
          
