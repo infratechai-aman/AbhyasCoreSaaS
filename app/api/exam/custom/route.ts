@@ -6,6 +6,7 @@ import { XMLParser } from 'fast-xml-parser';
 import { requireAuth } from '@/lib/auth-middleware';
 import { isRateLimited } from '@/lib/rate-limit';
 import { getUserSubscription } from '@/lib/subscription-middleware';
+import { Syllabus } from '@/lib/syllabus';
 import { sanitizeChapterId } from '@/lib/sanitize';
 import {
   shuffleArray,
@@ -120,9 +121,93 @@ export async function GET(request: Request) {
             return NextResponse.json({ error: "No valid questions found for the selected chapters" }, { status: 404 });
         }
 
-        // Shuffle and slice
-        const shuffled = shuffleArray(allQuestions);
-        const finalQuestions = shuffled.slice(0, limit).map((q: any, i: number) => ({
+        // --- EQUAL DISTRIBUTION BY SUBJECT LOGIC ---
+        function getSubjectForChapter(chapterFile: string) {
+          let matchedSubject = "Physics"; // fallback
+          Object.values(Syllabus).forEach((classData) => {
+            Object.entries(classData).forEach(([subject, chapters]) => {
+              if (chapters.some((c: any) => c.file === chapterFile + ".xml" || c.file === chapterFile)) {
+                matchedSubject = subject;
+              }
+            });
+          });
+        
+          // NEET specialization
+          if (matchedSubject === "Biology") {
+            const botanyChapters = [
+              "living_world", "biological_classification", "plant_kingdom",
+              "morphology_flowering_plants", "anatomy_flowering_plants",
+              "cell_unit_of_life", "cell_cycle", "transport_in_plants",
+              "mineral_nutrition", "photosynthesis", "respiration_in_plants",
+              "plant_growth", "reproduction_in_organisms", "sexual_reproduction_plants",
+              "principles_of_inheritance", "molecular_basis", "strategies_enhancement",
+              "microbes_in_human_welfare", "organisms_and_populations",
+              "ecosystem", "biodiversity", "environmental_issues"
+            ];
+            if (botanyChapters.includes(chapterFile)) {
+              return "Botany";
+            }
+            return "Zoology";
+          }
+          return matchedSubject;
+        }
+
+        const questionsBySubject: Record<string, any[]> = {};
+        for (const q of allQuestions) {
+           const subject = getSubjectForChapter(q.chapterSource);
+           if (!questionsBySubject[subject]) questionsBySubject[subject] = [];
+           questionsBySubject[subject].push(q);
+        }
+
+        const subjects = Object.keys(questionsBySubject).sort((a,b) => {
+            const order = ["Physics", "Chemistry", "Botany", "Zoology", "Mathematics"];
+            return order.indexOf(a) - order.indexOf(b);
+        });
+
+        const quotas: Record<string, number> = {};
+        subjects.forEach(s => quotas[s] = 0);
+        
+        let remainingToAllocate = limit;
+        let subjectsWithQuestions = [...subjects];
+
+        while (remainingToAllocate > 0 && subjectsWithQuestions.length > 0) {
+            const share = Math.max(1, Math.floor(remainingToAllocate / subjectsWithQuestions.length));
+            const nextSubjects: string[] = [];
+            
+            for (const subject of subjectsWithQuestions) {
+                const available = questionsBySubject[subject].length;
+                const currentQuota = quotas[subject];
+                
+                if (available > currentQuota) {
+                    const toAdd = Math.min(share, available - currentQuota);
+                    const actualAdd = Math.min(toAdd, remainingToAllocate);
+                    quotas[subject] += actualAdd;
+                    remainingToAllocate -= actualAdd;
+                    
+                    if (quotas[subject] < available) {
+                        nextSubjects.push(subject);
+                    }
+                }
+            }
+            
+            if (subjectsWithQuestions.length === nextSubjects.length) {
+                if (remainingToAllocate > 0 && remainingToAllocate < nextSubjects.length) {
+                    for (let i = 0; i < remainingToAllocate; i++) {
+                        quotas[nextSubjects[i]]++;
+                    }
+                    remainingToAllocate = 0;
+                }
+            }
+            subjectsWithQuestions = nextSubjects;
+        }
+
+        const finalQuestionsArray: any[] = [];
+        subjects.forEach(subject => {
+            const shuffled = shuffleArray(questionsBySubject[subject]);
+            finalQuestionsArray.push(...shuffled.slice(0, quotas[subject]));
+        });
+
+        const finalQuestions = finalQuestionsArray.map((q: any, i: number) => ({
           ...q,
           id: q.id || `q${i + 1}`,
         }));
