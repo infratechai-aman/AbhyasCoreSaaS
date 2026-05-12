@@ -9,6 +9,7 @@ const nextConfig = {
     ]
   },
   experimental: {
+    serverComponentsExternalPackages: ["firebase-admin"],
     // Bundle raw_questions XML files into Vercel serverless functions
     outputFileTracingIncludes: {
       "/api/exam/custom": ["./raw_questions/**/*.xml"],
@@ -65,7 +66,6 @@ const nextConfig = {
     ];
   },
   // SECURITY (VULN-23): Enforce global server body size limits
-  serverExternalPackages: ["firebase-admin"],
 };
 
 export default nextConfig;
