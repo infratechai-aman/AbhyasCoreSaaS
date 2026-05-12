@@ -182,7 +182,7 @@ export default function TestsPage() {
                              <div className="flex items-center justify-between border-t border-slate-100 pt-3 mt-4">
                                 <div className="flex items-center gap-3 text-[10px] font-bold text-slate-400">
                                    <span className="flex items-center gap-1"><Clock className="w-3 h-3 text-slate-400" /> 180M</span>
-                                   <span className="flex items-center gap-1"><Target className="w-3 h-3 text-slate-400" /> 300</span>
+                                   <span className="flex items-center gap-1"><Target className="w-3 h-3 text-slate-400" /> {targetExam === "NEET" ? "720" : "300"}</span>
                                 </div>
                                 <button className={`flex items-center justify-center w-6 h-6 rounded-full transition-all shadow-sm ${isLocked ? 'bg-slate-100 text-slate-400' : 'bg-slate-50 text-slate-400 group-hover:bg-indigo-600 group-hover:text-white'}`}>
                                   <ChevronRight className="w-3 h-3" />
