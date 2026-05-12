@@ -123,7 +123,7 @@ export async function POST(req: Request) {
       status: subscription.status,
     });
   } catch (error: any) {
-    console.error('[create-subscription] Error:', error);
-    return NextResponse.json({ error: 'Failed to create subscription.' }, { status: 500 });
+    console.error('[create-subscription] Error:', error?.error?.description || error?.message || error);
+    return NextResponse.json({ error: error?.error?.description || 'Failed to create subscription.' }, { status: 500 });
   }
 }
