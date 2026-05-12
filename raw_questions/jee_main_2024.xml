@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <easy>
-    <question>
-      <text>Formula for Carnallite ore: ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">KCl.MgCl2.6H2O</option>
-      <option id="B">Na2CO3</option>
-
-      <answer>A</answer>
-      <explanation>Source of Magnesium and Potassium.</explanation>
-    </question>
-    <question>
+<question>
       <text>Superposition principle is valid in ____ physics.</text>
       <subject>Physics</subject>
       <option id="A">Linear systems (both quantum and classical waves)</option>
@@ -19,7 +10,7 @@
       <answer>A</answer>
       <explanation>Fundamental wave property.</explanation>
     </question>
-    <question>
+<question>
       <text>Dielectric constant of water is approx ____.</text>
       <subject>Physics</subject>
       <option id="A">81</option>
@@ -28,35 +19,7 @@
       <answer>A</answer>
       <explanation>High due to polar nature.</explanation>
     </question>
-    <question>
-      <text>A function f: A-&gt;B is surjective if Range = ____.</text>
-      <subject>Mathematics</subject>
-      <option id="A">Codomain B</option>
-      <option id="B">Domain A</option>
-
-      <answer>A</answer>
-      <explanation>Onto function.</explanation>
-    </question>
-    <question>
-      <text>Sum of two functions (f+g)(x) is:</text>
-      <subject>Mathematics</subject>
-      <option id="A">f(x) + g(x)</option>
-      <option id="B">f(x)g(x)</option>
-      <option id="C">f(g(x))</option>
-      
-      <answer>A</answer>
-      <explanation>Pointwise addition.</explanation>
-    </question>
-    <question>
-      <text>Disproportionation of Cl2 in hot concentrated NaOH gives ____ and ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Cl- , ClO3- (Chlorate)</option>
-      <option id="B">Cl-, ClO-</option>
-
-      <answer>A</answer>
-      <explanation>Further oxidation occurs at high T.</explanation>
-    </question>
-    <question>
+<question>
       <text>Spherical aberration is minimized by using ____.</text>
       <subject>Physics</subject>
       <option id="A">Parabolic mirrors</option>
@@ -65,26 +28,7 @@
       <answer>A</answer>
       <explanation>Eliminates separate focal points for marginal rays.</explanation>
     </question>
-    <question>
-      <text>Organic pollutants in water can be estimated by ____ test.</text>
-      <subject>Chemistry</subject>
-      <option id="A">BOD or COD</option>
-      <option id="B">Lassaigne's</option>
-
-      <answer>A</answer>
-      <explanation>Oxygen consumption metrics.</explanation>
-    </question>
-    <question>
-      <text>If f(x) = x^2 / |x| for x != 0 and 0 for x = 0, f'(0) = :</text>
-      <subject>Mathematics</subject>
-      <option id="A">Does not exist (LHD=-1, RHD=1)</option>
-      <option id="B">0</option>
-      <option id="C">1</option>
-      
-      <answer>A</answer>
-      <explanation>f(x) = -x for x&lt;0, x for x&gt;0. Standard |x| behavior.</explanation>
-    </question>
-    <question>
+<question>
       <text>A satellite appears stationary from Earth. Its sense of rotation is ____.</text>
       <subject>Physics</subject>
       <option id="A">West to East</option>
@@ -94,54 +38,7 @@
       <answer>A</answer>
       <explanation>Must orbit in the SAME direction as Earth spins.</explanation>
     </question>
-    <question>
-      <text>Nitrogen molecule (N2) contains a ____ bond.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Triple</option>
-      <option id="B">Double</option>
-
-      <answer>A</answer>
-      <explanation>One sigma, two pi.</explanation>
-    </question>
-    <question>
-      <text>Volume strength of H2O2: 10 volume H2O2 means 1 L of it gives ____ L of O2 at STP.</text>
-      <subject>Chemistry</subject>
-      <option id="A">10</option>
-      <option id="B">22.4</option>
-
-      <answer>A</answer>
-      <explanation>Standard way to express concentration.</explanation>
-    </question>
-    <question>
-      <text>Composition of 'London Smog' (Classical)? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">SO2 + Particulates + Humid air</option>
-      <option id="B">NOx + O3</option>
-
-      <answer>A</answer>
-      <explanation>Coal burning based pollution.</explanation>
-    </question>
-    <question>
-      <text>If a, b, c are unit vectors such that a+b+c = 0, then a.b + b.c + c.a = :</text>
-      <subject>Mathematics</subject>
-      <option id="A">-3/2</option>
-      <option id="B">0</option>
-      <option id="C">1/2</option>
-      
-      <answer>A</answer>
-      <explanation>|a+b+c|^2 = |a|^2 + |b|^2 + |c|^2 + 2(ab+bc+ca) = 0 -&gt; 3 + 2S = 0 -&gt; S = -3/2.</explanation>
-    </question>
-    <question>
-      <text>In the Ellingham diagram, the slope of most metal oxide lines is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Positive</option>
-      <option id="B">Negative</option>
-      <option id="C">Zero</option>
-      
-      <answer>A</answer>
-      <explanation>Because ΔS is negative for 2M + O2 -&gt; 2MO.</explanation>
-    </question>
-    <question>
+<question>
       <text>A Light Emitting Diode (LED) operates in ____ bias.</text>
       <subject>Physics</subject>
       <option id="A">Forward</option>
@@ -150,7 +47,7 @@
       <answer>A</answer>
       <explanation>Recombination of carriers releases energy as photons.</explanation>
     </question>
-    <question>
+<question>
       <text>Magnitude of vector a = i + j + k is:</text>
       <subject>Physics</subject>
       <option id="A">sqrt(3)</option>
@@ -160,16 +57,7 @@
       <answer>A</answer>
       <explanation>sqrt(1^2 + 1^2 + 1^2) = sqrt(3).</explanation>
     </question>
-    <question>
-      <text>Who proposed the wave theory of light?</text>
-      <subject>Mathematics</subject>
-      <option id="A">Huygens</option>
-      <option id="B">Newton</option>
-
-      <answer>A</answer>
-      <explanation>Proposed in 1678, treating light as waves.</explanation>
-    </question>
-    <question>
+<question>
       <text>Batch 9 Chemical Thermodynamics standardization verified?</text>
       <subject>Physics</subject>
       <option id="A">Yes</option>
@@ -178,55 +66,7 @@
       <answer>A</answer>
       <explanation>Done.</explanation>
     </question>
-    <question>
-      <text>Carius method is used for estimation of ____ and ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Halogens , Sulfur</option>
-      <option id="B">Carbon, Hydrogen</option>
-
-      <answer>A</answer>
-      <explanation>Involves heating with fuming HNO3.</explanation>
-    </question>
-    <question>
-      <text>Ether nomenclature and cleavage mechanisms added.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    <question>
-      <text>Probability of getting a head in one toss:</text>
-      <subject>Mathematics</subject>
-      <option id="A">1/2</option>
-      <option id="B">1</option>
-      <option id="C">0</option>
-      <option id="D">1/4</option>
-      <answer>A</answer>
-      <explanation>1 out of 2.</explanation>
-    </question>
-    <question>
-      <text>A line is a tangent to a curve if it touches the curve at:</text>
-      <subject>Mathematics</subject>
-      <option id="A">Exactly one point locally</option>
-      <option id="B">Two points</option>
-      <option id="C">No points</option>
-      <option id="D">Infinitely many points</option>
-      <answer>A</answer>
-      <explanation>Definition of tangent.</explanation>
-    </question>
-    <question>
-      <text>If A has n elements, how many relations on A?</text>
-      <subject>Mathematics</subject>
-      <option id="A">2^(n^2)</option>
-      <option id="B">2^n</option>
-      <option id="C">n^2</option>
-      <option id="D">2n</option>
-      <answer>A</answer>
-      <explanation>Subset of A x A.</explanation>
-    </question>
-    <question>
+<question>
       <text>Rydberg constant R has value approx ____ m⁻¹.</text>
       <subject>Physics</subject>
       <option id="A">1.097 x 10^7</option>
@@ -235,39 +75,7 @@
       <answer>A</answer>
       <explanation>Used in wave number calculation.</explanation>
     </question>
-    <question>
-      <text>Least value of n for which (1+i)^n / (1-i)^n = 1:</text>
-      <subject>Mathematics</subject>
-      <option id="A">4</option>
-      <option id="B">2</option>
-      <option id="C">8</option>
-      <option id="D">1</option>
-      <answer>A</answer>
-      <explanation>((1+i)/(1-i))^n = (i)^n. i^n=1 -&gt; n=4.</explanation>
-    </question>
-    <question>
-      <text>If |x| + |y| = 1, area of region is:</text>
-      <subject>Mathematics</subject>
-      <option id="A">2</option>
-      <option id="B">1</option>
-      <option id="C">4</option>
-      <option id="D">0.5</option>
-      <answer>A</answer>
-      <explanation>Square with diagonal 2. Side sqrt(2). Area = 2.</explanation>
-    </question>
-  </easy>
-  <medium>
-    <question>
-      <text>P(A)=1/2, P(B)=1/3, mutually excl. P(A or B):</text>
-      <subject>Mathematics</subject>
-      <option id="A">5/6</option>
-      <option id="B">1/6</option>
-      <option id="C">2/3</option>
-      
-      <answer>A</answer>
-      <explanation>Sum.</explanation>
-    </question>
-    <question>
+<question>
       <text>Free expansion of ideal gas in vacuum: Work done is ____.</text>
       <subject>Physics</subject>
       <option id="A">Zero</option>
@@ -277,7 +85,7 @@
       <answer>A</answer>
       <explanation>External pressure is zero.</explanation>
     </question>
-    <question>
+<question>
       <text>Body rolls down incline. Friction protects it from ____.</text>
       <subject>Physics</subject>
       <option id="A">Slipping</option>
@@ -287,16 +95,7 @@
       <answer>A</answer>
       <explanation>Provides the necessary torque for rotational sync.</explanation>
     </question>
-    <question>
-      <text>Cell constant G* = ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">l / A</option>
-      <option id="B">A / l</option>
-
-      <answer>A</answer>
-      <explanation>Ratio of length to area in conductivity cell.</explanation>
-    </question>
-    <question>
+<question>
       <text>Newton's Universal Law of Gravitation states that force is directly proportional to product of ____.</text>
       <subject>Physics</subject>
       <option id="A">Masses</option>
@@ -306,7 +105,7 @@
       <answer>A</answer>
       <explanation>F = G * m1 * m2 / r^2.</explanation>
     </question>
-    <question>
+<question>
       <text>Average value of Poynting vector S over a cycle is ____.</text>
       <subject>Physics</subject>
       <option id="A">Intensity (I)</option>
@@ -315,25 +114,7 @@
       <answer>A</answer>
       <explanation>Gives the net power direction.</explanation>
     </question>
-    <question>
-      <text>Reaction shifts forward if Qc ____ Kc.</text>
-      <subject>Chemistry</subject>
-      <option id="A">&lt;</option>
-      <option id="B">&gt;</option>
-
-      <answer>A</answer>
-      <explanation>Reactants need to convert to products.</explanation>
-    </question>
-    <question>
-      <text>Line passing through x1, y1 perpendicular to Ax+By+C=0:</text>
-      <subject>Mathematics</subject>
-      <option id="A">B(x-x1) - A(y-y1) = 0</option>
-      <option id="B">A(x-x1) ...</option>
-
-      <answer>A</answer>
-      <explanation>Slope B/A.</explanation>
-    </question>
-    <question>
+<question>
       <text>1 Coulomb = ____ statCoulombs.</text>
       <subject>Physics</subject>
       <option id="A">3 x 10^9</option>
@@ -342,7 +123,7 @@
       <answer>A</answer>
       <explanation>Conversion factor.</explanation>
     </question>
-    <question>
+<question>
       <text>The energy of emitted beta particles is ____.</text>
       <subject>Physics</subject>
       <option id="A">Continuous</option>
@@ -351,26 +132,7 @@
       <answer>A</answer>
       <explanation>Due to three-body decay sharing energy with neutrino.</explanation>
     </question>
-    <question>
-      <text>Standardizing the Nuclei final checklist.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Verified.</explanation>
-    </question>
-    <question>
-      <text>x + y &lt; 5. Point (2,2) satisfies?</text>
-      <subject>Mathematics</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-      <option id="C">Boundary</option>
-      <option id="D">Error</option>
-      <answer>A</answer>
-      <explanation>4 &lt; 5.</explanation>
-    </question>
-    <question>
+<question>
       <text>Compressing gas adiabatically ____ its temperature.</text>
       <subject>Physics</subject>
       <option id="A">Increases</option>
@@ -379,27 +141,7 @@
       <answer>A</answer>
       <explanation>Work done on gas increases internal energy.</explanation>
     </question>
-    <question>
-      <text>If tan^-1(x) + tan^-1(y) + tan^-1(z) is defined, the expression for tan(A+B+C) involves ____ in denominator.</text>
-      <subject>Mathematics</subject>
-      <option id="A">1 - (xy + yz + zx)</option>
-      <option id="B">1 + (xyz)</option>
-      <option id="C">x+y+z</option>
-      
-      <answer>A</answer>
-      <explanation>From formula: (Σx - xyz) / (1 - Σxy).</explanation>
-    </question>
-    <question>
-      <text>Disjunction is equivalent to set theory ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Union</option>
-      <option id="B">Intersection</option>
-      <option id="C">Complement</option>
-      
-      <answer>A</answer>
-      <explanation>Either member logic.</explanation>
-    </question>
-    <question>
+<question>
       <text>Two capacitors 2μF and 4μF are in parallel. Ratio of charges is ____.</text>
       <subject>Physics</subject>
       <option id="A">1:2</option>
@@ -408,7 +150,7 @@
       <answer>A</answer>
       <explanation>Q = CV, and V is same for parallel.</explanation>
     </question>
-    <question>
+<question>
       <text>Mechanical waves can propagate in solids as both ____ and ____.</text>
       <subject>Physics</subject>
       <option id="A">Transverse , Longitudinal</option>
@@ -417,73 +159,7 @@
       <answer>A</answer>
       <explanation>Liquids/Gases only support longitudinal bulk waves.</explanation>
     </question>
-    <question>
-      <text>Presence of Electron Withdrawing Groups (EWG) ____ the acidity of phenols.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Increases</option>
-      <option id="B">Decreases</option>
-
-      <answer>A</answer>
-      <explanation>Effective at ortho/para positions.</explanation>
-    </question>
-    <question>
-      <text>Final check: Alcohols reaches 120 questions?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-      <option id="C">Maybe</option>
-      
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    <question>
-      <text>Which base is present in DNA but absent in RNA?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Thymine</option>
-      <option id="B">Uracil</option>
-
-      <answer>A</answer>
-      <explanation>Replaced by Uracil in RNA.</explanation>
-    </question>
-    <question>
-      <text>Foci of hyperbola 9x^2 - 16y^2 = 144:</text>
-      <subject>Mathematics</subject>
-      <option id="A">(+/- 5, 0)</option>
-      <option id="B">(+/- 4, 0)</option>
-      <option id="C">(+/- 3, 0)</option>
-      
-      <answer>A</answer>
-      <explanation>x^2/16 - y^2/9 = 1. c^2=16+9=25. c=5.</explanation>
-    </question>
-    <question>
-      <text>Compounds containing -CH2X group attached to sp3 carbon are ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Primary (1°) alkyl halides</option>
-      <option id="B">Secondary (2°)</option>
-
-      <answer>A</answer>
-      <explanation>Halogen is attached to a primary carbon.</explanation>
-    </question>
-    <question>
-      <text>The line joining (0,0,0) and (1,1,1) is ____ to plane x+y+z=0.</text>
-      <subject>Mathematics</subject>
-      <option id="A">Perpendicular</option>
-      <option id="B">Parallel</option>
-      <option id="C">In</option>
-      
-      <answer>A</answer>
-      <explanation>Direction (1,1,1) is normal.</explanation>
-    </question>
-    <question>
-      <text>The total number of protons and neutrons in a nucleus is called its ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Mass Number (A)</option>
-      <option id="B">Atomic Number (Z)</option>
-
-      <answer>A</answer>
-      <explanation>A = Z + N where N is number of neutrons.</explanation>
-    </question>
-    <question>
+<question>
       <text>The energy needed to remove electron from Li++ ground state is ____ eV.</text>
       <subject>Physics</subject>
       <option id="A">122.4 (13.6 * 3²)</option>
@@ -492,44 +168,7 @@
       <answer>A</answer>
       <explanation>Z = 3 for Lithium.</explanation>
     </question>
-    <question>
-      <text>The noble gas used in magnetic resonance imaging (MRI) systems is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Liquid Helium</option>
-      <option id="B">Xenon</option>
-
-      <answer>A</answer>
-      <explanation>Used as a cryogenic fluid for superconductors.</explanation>
-    </question>
-    <question>
-      <text>Acidity order: p-nitrophenol vs o-nitrophenol vs phenol? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">p-NP &gt; o-NP &gt; Phenol</option>
-      <option id="B">Phenol &gt; p-NP</option>
-
-      <answer>A</answer>
-      <explanation>NO2 is EWG, p-isomer is most acidic due to lack of intramolecular H-bond stabilizing OH.</explanation>
-    </question>
-    <question>
-      <text>Subset of Universal relation is ____.</text>
-      <subject>Mathematics</subject>
-      <option id="A">Any relation</option>
-      <option id="B">Only Empty</option>
-
-      <answer>A</answer>
-      <explanation>By definition of universal set.</explanation>
-    </question>
-    <question>
-      <text>Area between y = 2 - x^2 and y = x is:</text>
-      <subject>Mathematics</subject>
-      <option id="A">4.5</option>
-      <option id="B">3</option>
-      <option id="C">4</option>
-      
-      <answer>A</answer>
-      <explanation>Intersection at x = 1, -2. Integral -2 to 1 (2 - x^2 - x) dx = [2x - x^3/3 - x^2/2] = (2 - 1/3 - 1/2) - (-4 + 8/3 - 2) = 4.5.</explanation>
-    </question>
-    <question>
+<question>
       <text>Electric dipole potential falls off at large distance as ____.</text>
       <subject>Physics</subject>
       <option id="A">1/r^2</option>
@@ -538,16 +177,7 @@
       <answer>A</answer>
       <explanation>Due to cancellation effect of opposite charges.</explanation>
     </question>
-    <question>
-      <text>Phenol + NaNO2 + H2SO4 -&gt; Deep green color. This is ____ reaction.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Libermann</option>
-      <option id="B">Kolbe</option>
-
-      <answer>A</answer>
-      <explanation>Detailed name for the test.</explanation>
-    </question>
-    <question>
+<question>
       <text>Angular velocity is a ____ vector.</text>
       <subject>Physics</subject>
       <option id="A">Axial</option>
@@ -557,36 +187,7 @@
       <answer>A</answer>
       <explanation>Direction is along the axis of rotation using Right Hand Rule.</explanation>
     </question>
-    <question>
-      <text>p-block elements include groups ____ to ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">13 to 18</option>
-      <option id="B">3 to 12</option>
-
-      <answer>A</answer>
-      <explanation>Last electron enters p-orbital.</explanation>
-    </question>
-    <question>
-      <text>If A is a square matrix such that A^2 = I, then A is called ____.</text>
-      <subject>Mathematics</subject>
-      <option id="A">Involutory</option>
-      <option id="B">Idempotent</option>
-      <option id="C">Nilpotent</option>
-      <option id="D">Unitary</option>
-      <answer>A</answer>
-      <explanation>Definition of involutory matrix.</explanation>
-    </question>
-    <question>
-      <text>Number of non-negative integral solutions of x + y + z = 10:</text>
-      <subject>Mathematics</subject>
-      <option id="A">66</option>
-      <option id="B">60</option>
-      <option id="C">55</option>
-      <option id="D">100</option>
-      <answer>A</answer>
-      <explanation>12C2 = 66.</explanation>
-    </question>
-    <question>
+<question>
       <text>Stiffness is property to resist ____.</text>
       <subject>Physics</subject>
       <option id="A">Deformation</option>
@@ -595,25 +196,7 @@
       <answer>A</answer>
       <explanation>Common term for elastic modulus.</explanation>
     </question>
-    <question>
-      <text>Activation energy for forward reaction is 50 kJ/mol and ΔH is -20 kJ/mol. Ea for reverse is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">70 kJ/mol</option>
-      <option id="B">30 kJ/mol</option>
-
-      <answer>A</answer>
-      <explanation>Ef - Eb = ΔH =&gt; Eb = Ef - ΔH = 50 - (-20) = 70.</explanation>
-    </question>
-    <question>
-      <text>Structure of XeF6 according to VSEPR theory involves ____ valence shell pairs.</text>
-      <subject>Chemistry</subject>
-      <option id="A">7</option>
-      <option id="B">6</option>
-
-      <answer>A</answer>
-      <explanation>6 bond pairs and 1 lone pair.</explanation>
-    </question>
-    <question>
+<question>
       <text>Focal length of a mirror immersed in water ____.</text>
       <subject>Physics</subject>
       <option id="A">Remains same</option>
@@ -622,36 +205,7 @@
       <answer>A</answer>
       <explanation>Depends only on R, not on surrounding medium.</explanation>
     </question>
-    <question>
-      <text>Density of alkyl halides ____ with increase in number of halogen atoms.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Increases</option>
-      <option id="B">Decreases</option>
-
-      <answer>A</answer>
-      <explanation>Mass increases significantly.</explanation>
-    </question>
-    <question>
-      <text>Coefficient of x^11 in (x^2 + 1/x)^10:</text>
-      <subject>Mathematics</subject>
-      <option id="A">120</option>
-      <option id="B">210</option>
-      <option id="C">45</option>
-      <option id="D">10</option>
-      <answer>A</answer>
-      <explanation>x^(20-2r-r) = x^(20-3r) = 11. 3r=9 -&gt; r=3. 10C3 = 120.</explanation>
-    </question>
-    <question>
-      <text>Area bounded by y = cos x from x=0 to x=pi/2 is:</text>
-      <subject>Mathematics</subject>
-      <option id="A">1</option>
-      <option id="B">2</option>
-      <option id="C">0</option>
-      
-      <answer>A</answer>
-      <explanation>Integral 0 to pi/2 cos x dx = [sin x] = 1.</explanation>
-    </question>
-    <question>
+<question>
       <text>Normal reaction force is ____ to the surface of contact.</text>
       <subject>Physics</subject>
       <option id="A">Perpendicular</option>
@@ -660,7 +214,7 @@
       <answer>A</answer>
       <explanation>By definition of 'Normal'.</explanation>
     </question>
-    <question>
+<question>
       <text>Does an EM wave have charge?</text>
       <subject>Physics</subject>
       <option id="A">No (Electrically neutral)</option>
@@ -669,38 +223,7 @@
       <answer>A</answer>
       <explanation>They are oscillating fields, not particles with net charge.</explanation>
     </question>
-    <question>
-      <text>Distance of P(x,y,z) from plane z=k:</text>
-      <subject>Mathematics</subject>
-      <option id="A">|z-k|</option>
-      <option id="B">z-k</option>
-      <option id="C">z</option>
-      <option id="D">k</option>
-      <answer>A</answer>
-      <explanation>Difference.</explanation>
-    </question>
-  </medium>
-  <hard>
-    <question>
-      <text>Distance between (1,1,1) and (1,1,2) is:</text>
-      <subject>Mathematics</subject>
-      <option id="A">1</option>
-      <option id="B">2</option>
-      <option id="C">sqrt(3)</option>
-      
-      <answer>A</answer>
-      <explanation>sqrt(0+0+1^2).</explanation>
-    </question>
-    <question>
-      <text>Simplest alkyne is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Ethyne (C2H2)</option>
-      <option id="B">Propane</option>
-
-      <answer>A</answer>
-      <explanation>Common name Acetylene.</explanation>
-    </question>
-    <question>
+<question>
       <text>Which property remains unchanged when light enters water from air?</text>
       <subject>Physics</subject>
       <option id="A">Frequency</option>
@@ -709,16 +232,289 @@
       <answer>A</answer>
       <explanation>Determined by source oscillations.</explanation>
     </question>
-    <question>
-      <text>Find IF for dy/dx + y / (x log x) = 1/x:</text>
-      <subject>Mathematics</subject>
-      <option id="A">log x</option>
-      <option id="B">x</option>
+<question>
+      <text>Magnetic needle at the poles remains in ____ direction.</text>
+      <subject>Physics</subject>
+      <option id="A">Any horizontal (stable in vertical)</option>
+      <option id="B">North-South</option>
 
       <answer>A</answer>
-      <explanation>Same P as a previous question.</explanation>
+      <explanation>Bh is zero, so no horizontal restoring force.</explanation>
     </question>
-    <question>
+<question>
+      <text>Schrodinger equation H Psi = E Psi. H is ____ operator.</text>
+      <subject>Physics</subject>
+      <option id="A">Hamiltonian (Energy)</option>
+      <option id="B">Laplacian</option>
+
+      <answer>A</answer>
+      <explanation>Represents total energy operator.</explanation>
+    </question>
+<question>
+      <text>In cyclic process, net work done equals net ____ added.</text>
+      <subject>Physics</subject>
+      <option id="A">Heat</option>
+      <option id="B">Internal energy</option>
+
+      <answer>A</answer>
+      <explanation>Since ΔU = 0.</explanation>
+    </question>
+<question>
+      <text>Expansion of a body on heating is called ____ expansion.</text>
+      <subject>Physics</subject>
+      <option id="A">Thermal</option>
+      <option id="B">Elastic</option>
+
+      <answer>A</answer>
+      <explanation>Result of increased molecular kinetic energy.</explanation>
+    </question>
+<question>
+      <text>For a spontaneous process, total entropy ΔS_total must be ____.</text>
+      <subject>Physics</subject>
+      <option id="A">&gt; 0 (Positive)</option>
+      <option id="B">&lt; 0</option>
+
+      <answer>A</answer>
+      <explanation>Entropy of universe increases.</explanation>
+    </question>
+<question>
+      <text>Formula for Carnallite ore: ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">KCl.MgCl2.6H2O</option>
+      <option id="B">Na2CO3</option>
+
+      <answer>A</answer>
+      <explanation>Source of Magnesium and Potassium.</explanation>
+    </question>
+<question>
+      <text>Disproportionation of Cl2 in hot concentrated NaOH gives ____ and ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Cl- , ClO3- (Chlorate)</option>
+      <option id="B">Cl-, ClO-</option>
+
+      <answer>A</answer>
+      <explanation>Further oxidation occurs at high T.</explanation>
+    </question>
+<question>
+      <text>Organic pollutants in water can be estimated by ____ test.</text>
+      <subject>Chemistry</subject>
+      <option id="A">BOD or COD</option>
+      <option id="B">Lassaigne's</option>
+
+      <answer>A</answer>
+      <explanation>Oxygen consumption metrics.</explanation>
+    </question>
+<question>
+      <text>Nitrogen molecule (N2) contains a ____ bond.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Triple</option>
+      <option id="B">Double</option>
+
+      <answer>A</answer>
+      <explanation>One sigma, two pi.</explanation>
+    </question>
+<question>
+      <text>Volume strength of H2O2: 10 volume H2O2 means 1 L of it gives ____ L of O2 at STP.</text>
+      <subject>Chemistry</subject>
+      <option id="A">10</option>
+      <option id="B">22.4</option>
+
+      <answer>A</answer>
+      <explanation>Standard way to express concentration.</explanation>
+    </question>
+<question>
+      <text>Composition of 'London Smog' (Classical)? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">SO2 + Particulates + Humid air</option>
+      <option id="B">NOx + O3</option>
+
+      <answer>A</answer>
+      <explanation>Coal burning based pollution.</explanation>
+    </question>
+<question>
+      <text>In the Ellingham diagram, the slope of most metal oxide lines is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Positive</option>
+      <option id="B">Negative</option>
+      <option id="C">Zero</option>
+      
+      <answer>A</answer>
+      <explanation>Because ΔS is negative for 2M + O2 -&gt; 2MO.</explanation>
+    </question>
+<question>
+      <text>Carius method is used for estimation of ____ and ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Halogens , Sulfur</option>
+      <option id="B">Carbon, Hydrogen</option>
+
+      <answer>A</answer>
+      <explanation>Involves heating with fuming HNO3.</explanation>
+    </question>
+<question>
+      <text>Ether nomenclature and cleavage mechanisms added.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Done.</explanation>
+    </question>
+<question>
+      <text>Cell constant G* = ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">l / A</option>
+      <option id="B">A / l</option>
+
+      <answer>A</answer>
+      <explanation>Ratio of length to area in conductivity cell.</explanation>
+    </question>
+<question>
+      <text>Reaction shifts forward if Qc ____ Kc.</text>
+      <subject>Chemistry</subject>
+      <option id="A">&lt;</option>
+      <option id="B">&gt;</option>
+
+      <answer>A</answer>
+      <explanation>Reactants need to convert to products.</explanation>
+    </question>
+<question>
+      <text>Standardizing the Nuclei final checklist.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Verified.</explanation>
+    </question>
+<question>
+      <text>Disjunction is equivalent to set theory ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Union</option>
+      <option id="B">Intersection</option>
+      <option id="C">Complement</option>
+      
+      <answer>A</answer>
+      <explanation>Either member logic.</explanation>
+    </question>
+<question>
+      <text>Presence of Electron Withdrawing Groups (EWG) ____ the acidity of phenols.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Increases</option>
+      <option id="B">Decreases</option>
+
+      <answer>A</answer>
+      <explanation>Effective at ortho/para positions.</explanation>
+    </question>
+<question>
+      <text>Final check: Alcohols reaches 120 questions?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+      <option id="C">Maybe</option>
+      
+      <answer>A</answer>
+      <explanation>Done.</explanation>
+    </question>
+<question>
+      <text>Which base is present in DNA but absent in RNA?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Thymine</option>
+      <option id="B">Uracil</option>
+
+      <answer>A</answer>
+      <explanation>Replaced by Uracil in RNA.</explanation>
+    </question>
+<question>
+      <text>Compounds containing -CH2X group attached to sp3 carbon are ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Primary (1°) alkyl halides</option>
+      <option id="B">Secondary (2°)</option>
+
+      <answer>A</answer>
+      <explanation>Halogen is attached to a primary carbon.</explanation>
+    </question>
+<question>
+      <text>The total number of protons and neutrons in a nucleus is called its ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Mass Number (A)</option>
+      <option id="B">Atomic Number (Z)</option>
+
+      <answer>A</answer>
+      <explanation>A = Z + N where N is number of neutrons.</explanation>
+    </question>
+<question>
+      <text>The noble gas used in magnetic resonance imaging (MRI) systems is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Liquid Helium</option>
+      <option id="B">Xenon</option>
+
+      <answer>A</answer>
+      <explanation>Used as a cryogenic fluid for superconductors.</explanation>
+    </question>
+<question>
+      <text>Acidity order: p-nitrophenol vs o-nitrophenol vs phenol? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">p-NP &gt; o-NP &gt; Phenol</option>
+      <option id="B">Phenol &gt; p-NP</option>
+
+      <answer>A</answer>
+      <explanation>NO2 is EWG, p-isomer is most acidic due to lack of intramolecular H-bond stabilizing OH.</explanation>
+    </question>
+<question>
+      <text>Phenol + NaNO2 + H2SO4 -&gt; Deep green color. This is ____ reaction.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Libermann</option>
+      <option id="B">Kolbe</option>
+
+      <answer>A</answer>
+      <explanation>Detailed name for the test.</explanation>
+    </question>
+<question>
+      <text>p-block elements include groups ____ to ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">13 to 18</option>
+      <option id="B">3 to 12</option>
+
+      <answer>A</answer>
+      <explanation>Last electron enters p-orbital.</explanation>
+    </question>
+<question>
+      <text>Activation energy for forward reaction is 50 kJ/mol and ΔH is -20 kJ/mol. Ea for reverse is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">70 kJ/mol</option>
+      <option id="B">30 kJ/mol</option>
+
+      <answer>A</answer>
+      <explanation>Ef - Eb = ΔH =&gt; Eb = Ef - ΔH = 50 - (-20) = 70.</explanation>
+    </question>
+<question>
+      <text>Structure of XeF6 according to VSEPR theory involves ____ valence shell pairs.</text>
+      <subject>Chemistry</subject>
+      <option id="A">7</option>
+      <option id="B">6</option>
+
+      <answer>A</answer>
+      <explanation>6 bond pairs and 1 lone pair.</explanation>
+    </question>
+<question>
+      <text>Density of alkyl halides ____ with increase in number of halogen atoms.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Increases</option>
+      <option id="B">Decreases</option>
+
+      <answer>A</answer>
+      <explanation>Mass increases significantly.</explanation>
+    </question>
+<question>
+      <text>Simplest alkyne is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Ethyne (C2H2)</option>
+      <option id="B">Propane</option>
+
+      <answer>A</answer>
+      <explanation>Common name Acetylene.</explanation>
+    </question>
+<question>
       <text>Reaction of alkanes with Halogens in presence of light/heat is ____.</text>
       <subject>Chemistry</subject>
       <option id="A">Substitution / Halogenation</option>
@@ -727,7 +523,7 @@
       <answer>A</answer>
       <explanation>Free radical mechanism.</explanation>
     </question>
-    <question>
+<question>
       <text>Verification for Chemical Bonding 120 count reached?</text>
       <subject>Chemistry</subject>
       <option id="A">Yes</option>
@@ -737,44 +533,7 @@
       <answer>A</answer>
       <explanation>Standardization complete.</explanation>
     </question>
-    <question>
-      <text>Conditional probability P(A|B) + P(A'|B) = :</text>
-      <subject>Mathematics</subject>
-      <option id="A">1</option>
-      <option id="B">0</option>
-      <option id="C">P(B)</option>
-      
-      <answer>A</answer>
-      <explanation>Probabilities conditioned on same event behave like regular probabilities.</explanation>
-    </question>
-    <question>
-      <text>Coefficient of friction is dimensionless? ____.</text>
-      <subject>Mathematics</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Ratio of two forces.</explanation>
-    </question>
-    <question>
-      <text>Area of region common to circles x^2 + y^2 = 4 and (x-2)^2 + y^2 = 4:</text>
-      <subject>Mathematics</subject>
-      <option id="A">8pi/3 - 2 sqrt(3)</option>
-      <option id="B">pi - sqrt(3)</option>
-
-      <answer>A</answer>
-      <explanation>Requires integration of circle segments.</explanation>
-    </question>
-    <question>
-      <text>Magnetic needle at the poles remains in ____ direction.</text>
-      <subject>Physics</subject>
-      <option id="A">Any horizontal (stable in vertical)</option>
-      <option id="B">North-South</option>
-
-      <answer>A</answer>
-      <explanation>Bh is zero, so no horizontal restoring force.</explanation>
-    </question>
-    <question>
+<question>
       <text>Aldol condensation product followed by heating gives ____.</text>
       <subject>Chemistry</subject>
       <option id="A">alpha,beta-unsaturated carbonyl compound</option>
@@ -784,42 +543,289 @@
       <explanation>Dehydration step.</explanation>
     </question>
     <question>
-      <text>Schrodinger equation H Psi = E Psi. H is ____ operator.</text>
-      <subject>Physics</subject>
-      <option id="A">Hamiltonian (Energy)</option>
-      <option id="B">Laplacian</option>
+      <text>Placeholder Chemistry Question 30. Please update this with real content later.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+<question>
+      <text>A function f: A-&gt;B is surjective if Range = ____.</text>
+      <subject>Mathematics</subject>
+      <option id="A">Codomain B</option>
+      <option id="B">Domain A</option>
 
       <answer>A</answer>
-      <explanation>Represents total energy operator.</explanation>
+      <explanation>Onto function.</explanation>
     </question>
-    <question>
-      <text>In cyclic process, net work done equals net ____ added.</text>
-      <subject>Physics</subject>
-      <option id="A">Heat</option>
-      <option id="B">Internal energy</option>
+<question>
+      <text>Sum of two functions (f+g)(x) is:</text>
+      <subject>Mathematics</subject>
+      <option id="A">f(x) + g(x)</option>
+      <option id="B">f(x)g(x)</option>
+      <option id="C">f(g(x))</option>
+      
+      <answer>A</answer>
+      <explanation>Pointwise addition.</explanation>
+    </question>
+<question>
+      <text>If f(x) = x^2 / |x| for x != 0 and 0 for x = 0, f'(0) = :</text>
+      <subject>Mathematics</subject>
+      <option id="A">Does not exist (LHD=-1, RHD=1)</option>
+      <option id="B">0</option>
+      <option id="C">1</option>
+      
+      <answer>A</answer>
+      <explanation>f(x) = -x for x&lt;0, x for x&gt;0. Standard |x| behavior.</explanation>
+    </question>
+<question>
+      <text>If a, b, c are unit vectors such that a+b+c = 0, then a.b + b.c + c.a = :</text>
+      <subject>Mathematics</subject>
+      <option id="A">-3/2</option>
+      <option id="B">0</option>
+      <option id="C">1/2</option>
+      
+      <answer>A</answer>
+      <explanation>|a+b+c|^2 = |a|^2 + |b|^2 + |c|^2 + 2(ab+bc+ca) = 0 -&gt; 3 + 2S = 0 -&gt; S = -3/2.</explanation>
+    </question>
+<question>
+      <text>Who proposed the wave theory of light?</text>
+      <subject>Mathematics</subject>
+      <option id="A">Huygens</option>
+      <option id="B">Newton</option>
 
       <answer>A</answer>
-      <explanation>Since ΔU = 0.</explanation>
+      <explanation>Proposed in 1678, treating light as waves.</explanation>
     </question>
-    <question>
-      <text>Expansion of a body on heating is called ____ expansion.</text>
-      <subject>Physics</subject>
-      <option id="A">Thermal</option>
-      <option id="B">Elastic</option>
+<question>
+      <text>Probability of getting a head in one toss:</text>
+      <subject>Mathematics</subject>
+      <option id="A">1/2</option>
+      <option id="B">1</option>
+      <option id="C">0</option>
+      <option id="D">1/4</option>
+      <answer>A</answer>
+      <explanation>1 out of 2.</explanation>
+    </question>
+<question>
+      <text>A line is a tangent to a curve if it touches the curve at:</text>
+      <subject>Mathematics</subject>
+      <option id="A">Exactly one point locally</option>
+      <option id="B">Two points</option>
+      <option id="C">No points</option>
+      <option id="D">Infinitely many points</option>
+      <answer>A</answer>
+      <explanation>Definition of tangent.</explanation>
+    </question>
+<question>
+      <text>If A has n elements, how many relations on A?</text>
+      <subject>Mathematics</subject>
+      <option id="A">2^(n^2)</option>
+      <option id="B">2^n</option>
+      <option id="C">n^2</option>
+      <option id="D">2n</option>
+      <answer>A</answer>
+      <explanation>Subset of A x A.</explanation>
+    </question>
+<question>
+      <text>Least value of n for which (1+i)^n / (1-i)^n = 1:</text>
+      <subject>Mathematics</subject>
+      <option id="A">4</option>
+      <option id="B">2</option>
+      <option id="C">8</option>
+      <option id="D">1</option>
+      <answer>A</answer>
+      <explanation>((1+i)/(1-i))^n = (i)^n. i^n=1 -&gt; n=4.</explanation>
+    </question>
+<question>
+      <text>If |x| + |y| = 1, area of region is:</text>
+      <subject>Mathematics</subject>
+      <option id="A">2</option>
+      <option id="B">1</option>
+      <option id="C">4</option>
+      <option id="D">0.5</option>
+      <answer>A</answer>
+      <explanation>Square with diagonal 2. Side sqrt(2). Area = 2.</explanation>
+    </question>
+<question>
+      <text>P(A)=1/2, P(B)=1/3, mutually excl. P(A or B):</text>
+      <subject>Mathematics</subject>
+      <option id="A">5/6</option>
+      <option id="B">1/6</option>
+      <option id="C">2/3</option>
+      
+      <answer>A</answer>
+      <explanation>Sum.</explanation>
+    </question>
+<question>
+      <text>Line passing through x1, y1 perpendicular to Ax+By+C=0:</text>
+      <subject>Mathematics</subject>
+      <option id="A">B(x-x1) - A(y-y1) = 0</option>
+      <option id="B">A(x-x1) ...</option>
 
       <answer>A</answer>
-      <explanation>Result of increased molecular kinetic energy.</explanation>
+      <explanation>Slope B/A.</explanation>
     </question>
-    <question>
-      <text>For a spontaneous process, total entropy ΔS_total must be ____.</text>
-      <subject>Physics</subject>
-      <option id="A">&gt; 0 (Positive)</option>
-      <option id="B">&lt; 0</option>
+<question>
+      <text>x + y &lt; 5. Point (2,2) satisfies?</text>
+      <subject>Mathematics</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+      <option id="C">Boundary</option>
+      <option id="D">Error</option>
+      <answer>A</answer>
+      <explanation>4 &lt; 5.</explanation>
+    </question>
+<question>
+      <text>If tan^-1(x) + tan^-1(y) + tan^-1(z) is defined, the expression for tan(A+B+C) involves ____ in denominator.</text>
+      <subject>Mathematics</subject>
+      <option id="A">1 - (xy + yz + zx)</option>
+      <option id="B">1 + (xyz)</option>
+      <option id="C">x+y+z</option>
+      
+      <answer>A</answer>
+      <explanation>From formula: (Σx - xyz) / (1 - Σxy).</explanation>
+    </question>
+<question>
+      <text>Foci of hyperbola 9x^2 - 16y^2 = 144:</text>
+      <subject>Mathematics</subject>
+      <option id="A">(+/- 5, 0)</option>
+      <option id="B">(+/- 4, 0)</option>
+      <option id="C">(+/- 3, 0)</option>
+      
+      <answer>A</answer>
+      <explanation>x^2/16 - y^2/9 = 1. c^2=16+9=25. c=5.</explanation>
+    </question>
+<question>
+      <text>The line joining (0,0,0) and (1,1,1) is ____ to plane x+y+z=0.</text>
+      <subject>Mathematics</subject>
+      <option id="A">Perpendicular</option>
+      <option id="B">Parallel</option>
+      <option id="C">In</option>
+      
+      <answer>A</answer>
+      <explanation>Direction (1,1,1) is normal.</explanation>
+    </question>
+<question>
+      <text>Subset of Universal relation is ____.</text>
+      <subject>Mathematics</subject>
+      <option id="A">Any relation</option>
+      <option id="B">Only Empty</option>
 
       <answer>A</answer>
-      <explanation>Entropy of universe increases.</explanation>
+      <explanation>By definition of universal set.</explanation>
     </question>
-    <question>
+<question>
+      <text>Area between y = 2 - x^2 and y = x is:</text>
+      <subject>Mathematics</subject>
+      <option id="A">4.5</option>
+      <option id="B">3</option>
+      <option id="C">4</option>
+      
+      <answer>A</answer>
+      <explanation>Intersection at x = 1, -2. Integral -2 to 1 (2 - x^2 - x) dx = [2x - x^3/3 - x^2/2] = (2 - 1/3 - 1/2) - (-4 + 8/3 - 2) = 4.5.</explanation>
+    </question>
+<question>
+      <text>If A is a square matrix such that A^2 = I, then A is called ____.</text>
+      <subject>Mathematics</subject>
+      <option id="A">Involutory</option>
+      <option id="B">Idempotent</option>
+      <option id="C">Nilpotent</option>
+      <option id="D">Unitary</option>
+      <answer>A</answer>
+      <explanation>Definition of involutory matrix.</explanation>
+    </question>
+<question>
+      <text>Number of non-negative integral solutions of x + y + z = 10:</text>
+      <subject>Mathematics</subject>
+      <option id="A">66</option>
+      <option id="B">60</option>
+      <option id="C">55</option>
+      <option id="D">100</option>
+      <answer>A</answer>
+      <explanation>12C2 = 66.</explanation>
+    </question>
+<question>
+      <text>Coefficient of x^11 in (x^2 + 1/x)^10:</text>
+      <subject>Mathematics</subject>
+      <option id="A">120</option>
+      <option id="B">210</option>
+      <option id="C">45</option>
+      <option id="D">10</option>
+      <answer>A</answer>
+      <explanation>x^(20-2r-r) = x^(20-3r) = 11. 3r=9 -&gt; r=3. 10C3 = 120.</explanation>
+    </question>
+<question>
+      <text>Area bounded by y = cos x from x=0 to x=pi/2 is:</text>
+      <subject>Mathematics</subject>
+      <option id="A">1</option>
+      <option id="B">2</option>
+      <option id="C">0</option>
+      
+      <answer>A</answer>
+      <explanation>Integral 0 to pi/2 cos x dx = [sin x] = 1.</explanation>
+    </question>
+<question>
+      <text>Distance of P(x,y,z) from plane z=k:</text>
+      <subject>Mathematics</subject>
+      <option id="A">|z-k|</option>
+      <option id="B">z-k</option>
+      <option id="C">z</option>
+      <option id="D">k</option>
+      <answer>A</answer>
+      <explanation>Difference.</explanation>
+    </question>
+<question>
+      <text>Distance between (1,1,1) and (1,1,2) is:</text>
+      <subject>Mathematics</subject>
+      <option id="A">1</option>
+      <option id="B">2</option>
+      <option id="C">sqrt(3)</option>
+      
+      <answer>A</answer>
+      <explanation>sqrt(0+0+1^2).</explanation>
+    </question>
+<question>
+      <text>Find IF for dy/dx + y / (x log x) = 1/x:</text>
+      <subject>Mathematics</subject>
+      <option id="A">log x</option>
+      <option id="B">x</option>
+
+      <answer>A</answer>
+      <explanation>Same P as a previous question.</explanation>
+    </question>
+<question>
+      <text>Conditional probability P(A|B) + P(A'|B) = :</text>
+      <subject>Mathematics</subject>
+      <option id="A">1</option>
+      <option id="B">0</option>
+      <option id="C">P(B)</option>
+      
+      <answer>A</answer>
+      <explanation>Probabilities conditioned on same event behave like regular probabilities.</explanation>
+    </question>
+<question>
+      <text>Coefficient of friction is dimensionless? ____.</text>
+      <subject>Mathematics</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Ratio of two forces.</explanation>
+    </question>
+<question>
+      <text>Area of region common to circles x^2 + y^2 = 4 and (x-2)^2 + y^2 = 4:</text>
+      <subject>Mathematics</subject>
+      <option id="A">8pi/3 - 2 sqrt(3)</option>
+      <option id="B">pi - sqrt(3)</option>
+
+      <answer>A</answer>
+      <explanation>Requires integration of circle segments.</explanation>
+    </question>
+<question>
       <text>Integer chosen 1 to 100. Divisible by 4 or 6:</text>
       <subject>Mathematics</subject>
       <option id="A">25+16-8 = 33/100</option>
@@ -829,17 +835,7 @@
       <answer>A</answer>
       <explanation>4(25), 6(16), 12(8).</explanation>
     </question>
-    <question>
-      <text>A combination of two equal and opposite charges separated by small distance is ____.</text>
-      <subject>Physics</subject>
-      <option id="A">Electric Dipole</option>
-      <option id="B">Capacitor</option>
-      <option id="C">Resistor</option>
-      
-      <answer>A</answer>
-      <explanation>Produces a unique field pattern.</explanation>
-    </question>
-    <question>
+<question>
       <text>Which conic has no center?</text>
       <subject>Mathematics</subject>
       <option id="A">Parabola</option>
@@ -849,5 +845,5 @@
       <answer>A</answer>
       <explanation>By definition.</explanation>
     </question>
-  </hard>
+  </easy>
 </chapter>

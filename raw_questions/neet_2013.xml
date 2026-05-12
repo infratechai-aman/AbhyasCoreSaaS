@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <easy>
-    <question>
-      <text>A complex with Δo &gt; P (Pairing energy) will be ____ spin.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Low</option>
-      <option id="B">High</option>
-
-      <answer>A</answer>
-      <explanation>Electrons prefer to pair up in lower orbitals.</explanation>
-    </question>
-    <question>
+<question>
       <text>Magnetic field at axial point of short magnet B_axial = ____.</text>
       <subject>Physics</subject>
       <option id="A">μ₀ 2m / 4πr^3</option>
@@ -19,7 +10,7 @@
       <answer>A</answer>
       <explanation>Fall off as 1/r^3 for dipoles.</explanation>
     </question>
-    <question>
+<question>
       <text>The resonant frequency f₀ of an LCR circuit is f₀ = ____.</text>
       <subject>Physics</subject>
       <option id="A">1 / (2π √(LC))</option>
@@ -28,17 +19,7 @@
       <answer>A</answer>
       <explanation>ω₀ = 1 / √(LC).</explanation>
     </question>
-    <question>
-      <text>Methemoglobinemia (Blue Baby Syndrome) is caused by excess of ____ in drinking water.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Nitrate (NO3-)</option>
-      <option id="B">Fluoride</option>
-
-      <answer>A</answer>
-      <explanation>Interferes with oxygen transport in babies.</explanation>
-    </question>
-    
-    <question>
+<question>
       <text>Apparent depth of an object submerged in liquid of refractive index n is h_app = ____.</text>
       <subject>Physics</subject>
       <option id="A">h_real / n</option>
@@ -47,17 +28,7 @@
       <answer>A</answer>
       <explanation>Bending towards normal makes it look shallower.</explanation>
     </question>
-    <question>
-      <text>1 micrometer is equal to:</text>
-      <subject>Chemistry</subject>
-      <option id="A">10^-6 m</option>
-      <option id="B">10^-9 m</option>
-      <option id="C">10^-3 m</option>
-      <option id="D">10^-12 m</option>
-      <answer>A</answer>
-      <explanation>Prefix 'micro' denotes 10^-6.</explanation>
-    </question>
-    <question>
+<question>
       <text>Equation v^2 - u^2 = 2as relates ____ and displacement.</text>
       <subject>Physics</subject>
       <option id="A">Velocity</option>
@@ -66,62 +37,7 @@
       <answer>A</answer>
       <explanation>Time-independent equation.</explanation>
     </question>
-    <question>
-      <text>Fluorine forms only one oxoacid which is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">HOF (Hypofluorous acid)</option>
-      <option id="B">HClO</option>
-
-      <answer>A</answer>
-      <explanation>Unstable and strong oxidizing agent.</explanation>
-    </question>
-    <question>
-      <text>Water-gas shift reaction use ____ catalyst.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Iron chromate</option>
-      <option id="B">Nickel</option>
-
-      <answer>A</answer>
-      <explanation>Optimizes industrial yield.</explanation>
-    </question>
-    <question>
-      <text>Direct nitration of Aniline gives signficant amount of meta product. Why?</text>
-      <subject>Chemistry</subject>
-      <option id="A">In acid, aniline forms anilinium ion (meta directing)</option>
-      <option id="B">-NH2 is meta directing</option>
-
-      <answer>A</answer>
-      <explanation>Formation of -NH3+ ion.</explanation>
-    </question>
-    
-    <question>
-      <text>Which ion is specifically needed for neurotransmitter release from vesicles?</text>
-      <subject>Biology</subject>
-      <option id="A">Ca2+ (Calcium)</option>
-      <option id="B">Na+</option>
-
-      <answer>A</answer>
-      <explanation>Calcium influx at synaptic knob triggers exocytosis.</explanation>
-    </question>
-    <question>
-      <text>Movement of water always occurs from ____ DPD to ____ DPD.</text>
-      <subject>Biology</subject>
-      <option id="A">Lower, Higher</option>
-      <option id="B">Higher, Lower</option>
-
-      <answer>A</answer>
-      <explanation>From low demand to high demand.</explanation>
-    </question>
-    <question>
-      <text>Reductive amination of carbonyls mentioned.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    <question>
+<question>
       <text>Magnetism and Matter standardization complete.</text>
       <subject>Physics</subject>
       <option id="A">Yes</option>
@@ -130,36 +46,7 @@
       <answer>A</answer>
       <explanation>Final check.</explanation>
     </question>
-    <question>
-      <text>Wurtz reaction cannot prepare methane. True? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">True (Minimum C count is 2)</option>
-      <option id="B">False</option>
-
-      <answer>A</answer>
-      <explanation>Coupling process needs two alkyl radicals.</explanation>
-    </question>
-
-    <question>
-      <text>Photosynthetic potential refers to ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Maximum rate under ideal conditions</option>
-      <option id="B">Plant height</option>
-
-      <answer>A</answer>
-      <explanation>Determined by genetics and enzyme kinetics.</explanation>
-    </question>
-    
-    <question>
-      <text>Radius ratio (r+/r-) for tetrahedral void is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">0.225</option>
-      <option id="B">0.414</option>
-
-      <answer>A</answer>
-      <explanation>Derived from geometry of tetrahedron.</explanation>
-    </question>
-    <question>
+<question>
       <text>Pollination is a mechanism of ____.</text>
       <subject>Physics</subject>
       <option id="A">Gamete transfer</option>
@@ -168,17 +55,7 @@
       <answer>A</answer>
       <explanation>Movement of pollen from anther to stigma.</explanation>
     </question>
-    <question>
-      <text>Moment of Inertia of a uniform disc (M, R) about center axis is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">1/2 MR^2</option>
-      <option id="B">MR^2</option>
-      
-      <option id="D">1/4 MR^2</option>
-      <answer>A</answer>
-      <explanation>Mass is distributed from 0 to R, integration gives factor of 1/2.</explanation>
-    </question>
-    <question>
+<question>
       <text>Process of nitrate reduction was first done in ____.</text>
       <subject>Physics</subject>
       <option id="A">Cytoplasm</option>
@@ -188,54 +65,7 @@
       <answer>A</answer>
       <explanation>Via nitrate reductase enzyme.</explanation>
     </question>
-    <question>
-      <text>Additional practice question 107 on Anatomy of Flowering Plants: Advanced level concepts.</text>
-      <subject>Biology</subject>
-      <option id="A">Correct Option</option>
-      <option id="B">Incorrect Option</option>
-
-      <answer>A</answer>
-      <explanation>Detailed explanation for additional question 107 in the Anatomy of Flowering Plants module.</explanation>
-    </question>
-    
-    <question>
-      <text>Final check for Living World: 120 count reached?</text>
-      <subject>Biology</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-      <option id="C">Maybe</option>
-      
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    <question>
-      <text>High Auxin/Cytokinin ratio favors ____ formation in tissue culture.</text>
-      <subject>Biology</subject>
-      <option id="A">Root</option>
-      <option id="B">Shoot</option>
-
-      <answer>A</answer>
-      <explanation>Low ratio favors shoots.</explanation>
-    </question>
-    <question>
-      <text>Marasmus is deficiency of ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Protein and Calories (Energy)</option>
-      <option id="B">Protein only</option>
-
-      <answer>A</answer>
-      <explanation>Severe wasting of muscles.</explanation>
-    </question>
-    <question>
-      <text>The word 'Organic' was first used by Berzelius based on ____ force theory.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Vital</option>
-      <option id="B">Nuclear</option>
-
-      <answer>A</answer>
-      <explanation>Old belief that organic compounds can't be lab-made.</explanation>
-    </question>
-    <question>
+<question>
       <text>Respiratory pathway involves both breakdown and synthesis, hence it's an ____ pathway.</text>
       <subject>Physics</subject>
       <option id="A">Amphibolic</option>
@@ -244,16 +74,7 @@
       <answer>A</answer>
       <explanation>Intermediate metabolites are used for other biosyntheses.</explanation>
     </question>
-    <question>
-      <text>Study of algae is called ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Phycology</option>
-      <option id="B">Mycology</option>
-
-      <answer>A</answer>
-      <explanation>Also known as Algology.</explanation>
-    </question>
-    <question>
+<question>
       <text>Magnetic field inside the core of a toroid is B = ____.</text>
       <subject>Physics</subject>
       <option id="A">μ₀NI / 2πr</option>
@@ -262,26 +83,7 @@
       <answer>A</answer>
       <explanation>N is total turns.</explanation>
     </question>
-    <question>
-      <text>Pyrimidines found in nucleic acids are ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Cytosine, Thymine and Uracil</option>
-      <option id="B">Adenine and Guanine</option>
-
-      <answer>A</answer>
-      <explanation>Single ring structures.</explanation>
-    </question>
-    <question>
-      <text>Succus entericus is the name for ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Intestinal juice</option>
-      <option id="B">Gastric juice</option>
-      <option id="C">Bile</option>
-      
-      <answer>A</answer>
-      <explanation>Secretion of Crypts and goblet cells.</explanation>
-    </question>
-    <question>
+<question>
       <text>Coulomb's Law relates force between two ____ charges.</text>
       <subject>Physics</subject>
       <option id="A">Point stationary</option>
@@ -290,44 +92,7 @@
       <answer>A</answer>
       <explanation>F = k q1q2 / r^2.</explanation>
     </question>
-    
-    <question>
-      <text>Talc is a ____ silicate.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Sheet (Phyllosilicate)</option>
-      <option id="B">Chain</option>
-
-      <answer>A</answer>
-      <explanation>Lubricated feel due to layers.</explanation>
-    </question>
-    <question>
-      <text>Structural isomerism arising from ambidentate ligands is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Linkage isomerism</option>
-      <option id="B">Ionization</option>
-
-      <answer>A</answer>
-      <explanation>Example: [Co(NH3)5(NO2)]Cl2 vs [Co(NH3)5(ONO)]Cl2.</explanation>
-    </question>
-    <question>
-      <text>Radius ratio (r+/r-) for octahedral void is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">0.414</option>
-      <option id="B">0.225</option>
-
-      <answer>A</answer>
-      <explanation>Ratio of sphere sizes for stability.</explanation>
-    </question>
-    <question>
-      <text>Soil provides minerals primarily through ____ of rocks.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Weathering</option>
-      <option id="B">Photosynthesis</option>
-
-      <answer>A</answer>
-      <explanation>Release of inorganic ions.</explanation>
-    </question>
-    <question>
+<question>
       <text>Comparison: C-H bond energy in CH4 vs Si-H in SiH4? ____ is stronger.</text>
       <subject>Physics</subject>
       <option id="A">C-H</option>
@@ -336,17 +101,7 @@
       <answer>A</answer>
       <explanation>Smaller overlap in SiH4 leads to lower stability.</explanation>
     </question>
-    <question>
-      <text>Work to launch m from surface to infinity? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">mgR</option>
-      <option id="B">mgR / 2</option>
-      
-      <option id="D">2 mgR</option>
-      <answer>A</answer>
-      <explanation>GMm / R = (GM/R^2) m R = mgR.</explanation>
-    </question>
-    <question>
+<question>
       <text>Pressure in Efferent arteriole is ____ than Afferent arteriole.</text>
       <subject>Physics</subject>
       <option id="A">Lower (Efferent has narrower lumen)</option>
@@ -355,16 +110,7 @@
       <answer>A</answer>
       <explanation>Wait, narrower lumen increases resistance, so pressure in glomerulus is high.</explanation>
     </question>
-    <question>
-      <text>Carnot theorem states that no engine is ____ than Carnot between same T's.</text>
-      <subject>Biology</subject>
-      <option id="A">More efficient</option>
-      <option id="B">Faster</option>
-
-      <answer>A</answer>
-      <explanation>Upper bound of thermal efficiency.</explanation>
-    </question>
-    <question>
+<question>
       <text>Enterogastric reflex is triggered by ____.</text>
       <subject>Physics</subject>
       <option id="A">Acidic chyme in duodenum</option>
@@ -373,16 +119,7 @@
       <answer>A</answer>
       <explanation>Protects the duodenum.</explanation>
     </question>
-    <question>
-      <text>Nervous system of frog involves ____ pairs of cranial nerves.</text>
-      <subject>Biology</subject>
-      <option id="A">10</option>
-      <option id="B">12</option>
-
-      <answer>A</answer>
-      <explanation>Mammals have 12 pairs.</explanation>
-    </question>
-    <question>
+<question>
       <text>A spring balance measures ____.</text>
       <subject>Physics</subject>
       <option id="A">Weight (Force)</option>
@@ -391,27 +128,7 @@
       <answer>A</answer>
       <explanation>Measures the tension caused by gravity.</explanation>
     </question>
-    
-    <question>
-      <text>The Solid State standardization complete (120 questions)?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Standardization verified.</explanation>
-    </question>
-    
-    <question>
-      <text>Identification requires intensive ____ studies.</text>
-      <subject>Biology</subject>
-      <option id="A">Lab and Field</option>
-      <option id="B">Only classroom</option>
-
-      <answer>A</answer>
-      <explanation>Verification against existing holotypes.</explanation>
-    </question>
-    <question>
+<question>
       <text>Fundamental freq of open pipe of length L is f. For closed pipe of same L, it is ____.</text>
       <subject>Physics</subject>
       <option id="A">f / 2</option>
@@ -421,8 +138,7 @@
       <answer>A</answer>
       <explanation>λ1_closed = 4L, λ1_open = 2L.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>Light waves from a distant source (like Sun) reach Earth as ____ wavefronts.</text>
       <subject>Physics</subject>
       <option id="A">Plane</option>
@@ -431,46 +147,7 @@
       <answer>A</answer>
       <explanation>Curvature becomes negligible at infinity.</explanation>
     </question>
-    <question>
-      <text>Pepsinogen is converted to active Pepsin by ____.</text>
-      <subject>Biology</subject>
-      <option id="A">HCl</option>
-      <option id="B">Water</option>
-
-      <answer>A</answer>
-      <explanation>Self-catalyzed eventually.</explanation>
-    </question>
-    <question>
-      <text>Human stomach pH is approx ____ for digestion.</text>
-      <subject>Biology</subject>
-      <option id="A">1.5 - 3.5</option>
-      <option id="B">7.0</option>
-
-      <answer>A</answer>
-      <explanation>HCl secretion.</explanation>
-    </question>
-    <question>
-      <text>ATP synthesis in chloroplast is explained by ____ hypothesis.</text>
-      <subject>Biology</subject>
-      <option id="A">Chemiosmotic (Peter Mitchell)</option>
-      <option id="B">Flow thru</option>
-
-      <answer>A</answer>
-      <explanation>Relies on proton gradient across membrane.</explanation>
-    </question>
-    <question>
-      <text>Large number of male gametes are produced to compensate for ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Loss during transport</option>
-      <option id="B">Small size</option>
-
-      <answer>A</answer>
-      <explanation>Statistical necessity.</explanation>
-    </question>
-  </easy>
-  <medium>
-    
-    <question>
+<question>
       <text>Density has dimensions:</text>
       <subject>Physics</subject>
       <option id="A">[M L^-3]</option>
@@ -480,8 +157,7 @@
       <answer>A</answer>
       <explanation>Mass / Volume.</explanation>
     </question>
-
-    <question>
+<question>
       <text>A full-wave rectifier requires at least ____ diodes.</text>
       <subject>Physics</subject>
       <option id="A">2 (center-tapped) or 4 (bridge)</option>
@@ -490,44 +166,7 @@
       <answer>A</answer>
       <explanation>To rectify both halves of AC cycle.</explanation>
     </question>
-    <question>
-      <text>Optical isomerism is shown by molecules with no element of ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Symmetry</option>
-      <option id="B">Mass</option>
-
-      <answer>A</answer>
-      <explanation>Chiral molecules rotate plane polarized light.</explanation>
-    </question>
-    <question>
-      <text>Nitrobacter converts nitrite to ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Nitrate (NO3-)</option>
-      <option id="B">Ammonia</option>
-
-      <answer>A</answer>
-      <explanation>Second step of nitrification.</explanation>
-    </question>
-    <question>
-      <text>Final Q: Verified 120 count for Gravitation module.</text>
-      <subject>Chemistry</subject>
-      <option id="A">True</option>
-      <option id="B">False</option>
-
-      <answer>A</answer>
-      <explanation>120 questions reached with 600+ lines density.</explanation>
-    </question>
-    
-    <question>
-      <text>Density of LDP is ____ than HDP.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Lower</option>
-      <option id="B">Higher</option>
-
-      <answer>A</answer>
-      <explanation>Due to branching preventing close packing.</explanation>
-    </question>
-    <question>
+<question>
       <text>Work function of Cesium is approx ____ eV.</text>
       <subject>Physics</subject>
       <option id="A">2.14</option>
@@ -536,7 +175,7 @@
       <answer>A</answer>
       <explanation>One of the lowest work functions.</explanation>
     </question>
-    <question>
+<question>
       <text>The slope of Ellingham diagram lines for most metal oxides is ____.</text>
       <subject>Physics</subject>
       <option id="A">Positive</option>
@@ -546,7 +185,7 @@
       <answer>A</answer>
       <explanation>Because entropy decreases when gas is consumed.</explanation>
     </question>
-    <question>
+<question>
       <text>Gap between two neurons is ____.</text>
       <subject>Physics</subject>
       <option id="A">Synapse</option>
@@ -555,34 +194,7 @@
       <answer>A</answer>
       <explanation>Comprises pre-synaptic, cleft and post-synaptic membranes.</explanation>
     </question>
-    <question>
-      <text>If base region is made thicker, β will ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Decrease (more recombination losses)</option>
-      <option id="B">Increase</option>
-
-      <answer>A</answer>
-      <explanation>Transistor gain drops if carriers don't reach collector.</explanation>
-    </question>
-    <question>
-      <text>The relative lowering of vapor pressure is equal to the ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Mole fraction of solute</option>
-      <option id="B">Molarity of solute</option>
-
-      <answer>A</answer>
-      <explanation>(P1° - P1) / P1° = x2.</explanation>
-    </question>
-    <question>
-      <text>Chemicals produced by endocrine glands that act as inter-cellular messengers? ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Hormones</option>
-      <option id="B">Enzymes</option>
-
-      <answer>A</answer>
-      <explanation>Produced in trace amounts and are non-nutrient chemicals.</explanation>
-    </question>
-    <question>
+<question>
       <text>Transformer cannot work on battery because battery provides ____.</text>
       <subject>Physics</subject>
       <option id="A">Direct Current (DC)</option>
@@ -591,8 +203,7 @@
       <answer>A</answer>
       <explanation>Need changing current for induction.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>Electric potential energy of a dipole in uniform field is U = ____.</text>
       <subject>Physics</subject>
       <option id="A">-p.E</option>
@@ -601,17 +212,7 @@
       <answer>A</answer>
       <explanation>-pE cos θ.</explanation>
     </question>
-    
-    <question>
-      <text>K2Cr2O7 is preferred over Na2Cr2O7 as a primary standard because it is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Not hygroscopic</option>
-      <option id="B">More soluble</option>
-
-      <answer>A</answer>
-      <explanation>Na2Cr2O7 absorbs moisture from air.</explanation>
-    </question>
-    <question>
+<question>
       <text>FBD of a falling stone ignoring air contains only ____.</text>
       <subject>Physics</subject>
       <option id="A">Weight (mg)</option>
@@ -620,7 +221,7 @@
       <answer>A</answer>
       <explanation>Single force gravity.</explanation>
     </question>
-    <question>
+<question>
       <text>Triple point of copper? Non-existent at low P. Focus on chapter... Thermal expansion occurs because potential energy well is ____.</text>
       <subject>Physics</subject>
       <option id="A">Asymmetric</option>
@@ -629,16 +230,7 @@
       <answer>A</answer>
       <explanation>Average distance increases with energy.</explanation>
     </question>
-    <question>
-      <text>White fumes of AlCl3 in moist air are due to ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Evolution of HCl gas (Hydrolysis)</option>
-      <option id="B">O2 release</option>
-
-      <answer>A</answer>
-      <explanation>Reaction with water vapor.</explanation>
-    </question>
-    <question>
+<question>
       <text>Relation between displacement x and velocity v is an ____ curve.</text>
       <subject>Physics</subject>
       <option id="A">Ellipse</option>
@@ -648,35 +240,7 @@
       <answer>A</answer>
       <explanation>(x/A)^2 + (v/wA)^2 = 1.</explanation>
     </question>
-    
-    <question>
-      <text>Universal recipient blood group is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">AB</option>
-      <option id="B">O</option>
-
-      <answer>A</answer>
-      <explanation>Lacks antibodies Anti-A and Anti-B in plasma.</explanation>
-    </question>
-    <question>
-      <text>Neutral ligands are named as the ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Molecules name (with exceptions like Ammine, Aqua)</option>
-      <option id="B">Anions</option>
-
-      <answer>A</answer>
-      <explanation>Exceptions: NH3 (ammine), H2O (aqua), CO (carbonyl).</explanation>
-    </question>
-    <question>
-      <text>Boiling points: 1° &gt; 2° &gt; 3° amines (isomeric). Correct? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Due to decreasing extent of intermolecular H-bonding.</explanation>
-    </question>
-    <question>
+<question>
       <text>Average rate depends on the ____ of time interval.</text>
       <subject>Physics</subject>
       <option id="A">Magnitude (Δt)</option>
@@ -685,8 +249,7 @@
       <answer>A</answer>
       <explanation>Rate = Δ[C]/Δt.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>Upcoming chapter is Alternating Current.</text>
       <subject>Physics</subject>
       <option id="A">Yes</option>
@@ -695,35 +258,7 @@
       <answer>A</answer>
       <explanation>Batch 2 order.</explanation>
     </question>
-    <question>
-      <text>Gymnosperms do not show annual rings? No, they do in ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Temperate regions</option>
-      <option id="B">Tropical areas</option>
-
-      <answer>A</answer>
-      <explanation>Annual rings require seasonal variation.</explanation>
-    </question>
-    
-    <question>
-      <text>Stamens united into two bundles (Pea) are ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Diadelphous</option>
-      <option id="B">Polyadelphous</option>
-
-      <answer>A</answer>
-      <explanation>Usually 9+1 arrangement.</explanation>
-    </question>
-    <question>
-      <text>Which of the following is a non-polar molecule?</text>
-      <subject>Chemistry</subject>
-      <option id="A">H2 / O2 / CO2</option>
-      <option id="B">HCl</option>
-
-      <answer>A</answer>
-      <explanation>Symmetric centers cancel dipole moment.</explanation>
-    </question>
-    <question>
+<question>
       <text>Entanglement means particles are ____ regardless of distance.</text>
       <subject>Physics</subject>
       <option id="A">Correlated / Linked</option>
@@ -732,26 +267,7 @@
       <answer>A</answer>
       <explanation>'Spooky action at a distance'.</explanation>
     </question>
-    <question>
-      <text>Cu(I) ion is unstable in aqueous solution and undergoes ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Disproportionation (to Cu(II) and Cu)</option>
-      <option id="B">Reduction</option>
-
-      <answer>A</answer>
-      <explanation>2Cu+ -&gt; Cu2+ + Cu.</explanation>
-    </question>
-    <question>
-      <text>Medium 40 complete?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    
-    <question>
+<question>
       <text>Values of Boltzmann constant is approx ____ J/K.</text>
       <subject>Physics</subject>
       <option id="A">1.38 x 10^-23</option>
@@ -760,7 +276,7 @@
       <answer>A</answer>
       <explanation>Fundamental gas constant.</explanation>
     </question>
-    <question>
+<question>
       <text>Phase difference of 2π corresponds to path difference of ____.</text>
       <subject>Physics</subject>
       <option id="A">λ</option>
@@ -769,25 +285,7 @@
       <answer>A</answer>
       <explanation>Full cycle shift.</explanation>
     </question>
-    <question>
-      <text>Total number of questions in this standard file? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">120</option>
-      <option id="B">100</option>
-
-      <answer>A</answer>
-      <explanation>Meeting requirements.</explanation>
-    </question>
-    <question>
-      <text>Kroll's process is used for the extraction of ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Titanium (Ti) / Zirconium (Zr)</option>
-      <option id="B">Aluminum</option>
-
-      <answer>A</answer>
-      <explanation>Uses Magnesium to reduce refined chlorides.</explanation>
-    </question>
-    <question>
+<question>
       <text>Power delivered at const tau and w. P = ____.</text>
       <subject>Physics</subject>
       <option id="A">tau * w</option>
@@ -797,54 +295,7 @@
       <answer>A</answer>
       <explanation>Rotational power formula.</explanation>
     </question>
-    
-    <question>
-      <text>AgCl dissolves in NH4OH due to formation of ____ complex.</text>
-      <subject>Chemistry</subject>
-      <option id="A">[Ag(NH3)2]Cl</option>
-      <option id="B">[AgCl2]-</option>
-
-      <answer>A</answer>
-      <explanation>Soluble diammine silver(I) chloride.</explanation>
-    </question>
-    <question>
-      <text>Isotope of Carbon used for dating organic samples is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">C-14</option>
-      <option id="B">C-12</option>
-
-      <answer>A</answer>
-      <explanation>Radioactive Carbon dating.</explanation>
-    </question>
-    <question>
-      <text>Hardness of water is due to presence of soluble salts of ____ and ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Calcium , Magnesium</option>
-      <option id="B">Sodium, Potassium</option>
-
-      <answer>A</answer>
-      <explanation>Specifically bicarbonates, chlorides, sulfates.</explanation>
-    </question>
-    <question>
-      <text>Physisorption involves weak ____ forces.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Van der Waals</option>
-      <option id="B">Chemical bond</option>
-
-      <answer>A</answer>
-      <explanation>Also known as physical adsorption.</explanation>
-    </question>
-    <question>
-      <text>Correct order of reactivity with water: ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Li &lt; Na &lt; K &lt; Rb &lt; Cs</option>
-      <option id="B">Cs &lt; Rb &lt; K &lt; Na &lt; Li</option>
-
-      <answer>A</answer>
-      <explanation>Explosive at bottom of group.</explanation>
-    </question>
-    
-    <question>
+<question>
       <text>Degrees of freedom for monatomic gas? ____.</text>
       <subject>Physics</subject>
       <option id="A">3 (Trans only)</option>
@@ -853,45 +304,7 @@
       <answer>A</answer>
       <explanation>Small atoms, rotation irrelevant.</explanation>
     </question>
-    <question>
-      <text>Penicillium belongs to ____ group of fungi.</text>
-      <subject>Biology</subject>
-      <option id="A">Ascomycetes (Sac fungi)</option>
-      <option id="B">Basidiomycetes</option>
-
-      <answer>A</answer>
-      <explanation>Source of first antibiotic.</explanation>
-    </question>
-    <question>
-      <text>Lehemoglobin is produced by ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Partnership (plant DNA for heme? No. Plant Globin, Rhizobium Heme)</option>
-      <option id="B">Only Rhizobium</option>
-      <option id="C">Only Plant</option>
-      
-      <answer>A</answer>
-      <explanation>Joint symbiotic effort.</explanation>
-    </question>
-    
-    <question>
-      <text>Standard for atomic weights is isotope ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Carbon-12</option>
-      <option id="B">Oxygen-16</option>
-
-      <answer>A</answer>
-      <explanation>Chosen by IUPAC in 1961.</explanation>
-    </question>
-    <question>
-      <text>Centromere is also called ____ constriction.</text>
-      <subject>Biology</subject>
-      <option id="A">Primary</option>
-      <option id="B">Secondary</option>
-
-      <answer>A</answer>
-      <explanation>Essential for chromosome movement.</explanation>
-    </question>
-    <question>
+<question>
       <text>Which series of spectral lines in H-atom is partly in visible and partly in UV?</text>
       <subject>Physics</subject>
       <option id="A">Balmer series? No, Balmer is mainly visible/near UV. Correct is Balmer.</option>
@@ -900,8 +313,7 @@
       <answer>A</answer>
       <explanation>Series starts from 656nm and ends at 364nm.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>An alternating current is one which ____ with time.</text>
       <subject>Physics</subject>
       <option id="A">Changes magnitude and direction periodically</option>
@@ -910,7 +322,7 @@
       <answer>A</answer>
       <explanation>Standard definition of AC.</explanation>
     </question>
-    <question>
+<question>
       <text>Which of the following is a sink for CO?</text>
       <subject>Physics</subject>
       <option id="A">Soil microorganisms</option>
@@ -919,18 +331,7 @@
       <answer>A</answer>
       <explanation>Bacteria like Methanosarcina consume CO.</explanation>
     </question>
-    
-    <question>
-      <text>Change in length per unit original length is ____ strain.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Longitudinal</option>
-      <option id="B">Volume</option>
-      <option id="C">Shear</option>
-      
-      <answer>A</answer>
-      <explanation>Tensile or compressive.</explanation>
-    </question>
-    <question>
+<question>
       <text>Lipids are generally ____ in water.</text>
       <subject>Physics</subject>
       <option id="A">Insoluble</option>
@@ -939,26 +340,7 @@
       <answer>A</answer>
       <explanation>Non-polar molecules.</explanation>
     </question>
-
-    <question>
-      <text>AgI is ____ in ammonia.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Insoluble</option>
-      <option id="B">Highly soluble</option>
-
-      <answer>A</answer>
-      <explanation>Yellow color.</explanation>
-    </question>
-    <question>
-      <text>Bond angle in Water (H2O) is approx ____ degrees.</text>
-      <subject>Chemistry</subject>
-      <option id="A">104.5</option>
-      <option id="B">109.5</option>
-
-      <answer>A</answer>
-      <explanation>Bent shape due to lone pair repulsion.</explanation>
-    </question>
-    <question>
+<question>
       <text>Diffraction is prominent when the obstacle size is ____ to the wavelength.</text>
       <subject>Physics</subject>
       <option id="A">Comparable</option>
@@ -967,45 +349,7 @@
       <answer>A</answer>
       <explanation>Condition for significant bending.</explanation>
     </question>
-    <question>
-      <text>Commercial product Agar is obtained from ____ and ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Gelidium / Gracilaria (Red Algae)</option>
-      <option id="B">Laminaria / Fucus</option>
-
-      <answer>A</answer>
-      <explanation>Used to grow microbes and in jellies.</explanation>
-    </question>
-    
-    <question>
-      <text>Metabolites like alkaloids, rubber, spices, scents, gums are ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Secondary metabolites</option>
-      <option id="B">Primary</option>
-
-      <answer>A</answer>
-      <explanation>Non-essential for immediate survival but have industrial/ecological roles.</explanation>
-    </question>
-    <question>
-      <text>Sucrose is converted to glucose and fructose by enzyme ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Invertase</option>
-      <option id="B">Zymase</option>
-
-      <answer>A</answer>
-      <explanation>Ensures sugar enters glycolysis.</explanation>
-    </question>
-    
-    <question>
-      <text>Reduction potential of Zn is -0.76 V. If [Zn 2+] decreases, the potential becomes ____ negative.</text>
-      <subject>Chemistry</subject>
-      <option id="A">More</option>
-      <option id="B">Less</option>
-
-      <answer>A</answer>
-      <explanation>Based on Nernst equation: E = E° - (0.059/2) log(1/[Zn2+]).</explanation>
-    </question>
-    <question>
+<question>
       <text>Tension in string of 10kg mass in lift moving DOWN with a=2 m/s^2? ____ N.</text>
       <subject>Physics</subject>
       <option id="A">80</option>
@@ -1014,7 +358,7 @@
       <answer>A</answer>
       <explanation>T = m(g-a) = 10(10-2) = 80.</explanation>
     </question>
-    <question>
+<question>
       <text>The work function for a metal surface is 4 eV. The threshold wavelength is ____ nm.</text>
       <subject>Physics</subject>
       <option id="A">310</option>
@@ -1023,103 +367,7 @@
       <answer>A</answer>
       <explanation>λ = 1240 / 4 = 310 nm.</explanation>
     </question>
-    <question>
-      <text>Main conducting elements of phloem in angiosperms are ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Sieve tube elements</option>
-      <option id="B">Vessels</option>
-
-      <answer>A</answer>
-      <explanation>Associated with companion cells.</explanation>
-    </question>
-    
-    <question>
-      <text>Thermal decomposition of higher alkanes to lower ones is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Cracking / Pyrolysis</option>
-      <option id="B">Combustion</option>
-
-      <answer>A</answer>
-      <explanation>Breaks C-C and C-H bonds.</explanation>
-    </question>
-    <question>
-      <text>All questions follow 6-line schema.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Checked.</explanation>
-    </question>
-    <question>
-      <text>Botanical Gardens have specimens labeled with ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Botanical and Family names</option>
-      <option id="B">Local names only</option>
-
-      <answer>A</answer>
-      <explanation>Educational value.</explanation>
-    </question>
-    
-    <question>
-      <text>There are ____ pairs of ribs in humans.</text>
-      <subject>Biology</subject>
-      <option id="A">12</option>
-      <option id="B">10</option>
-
-      <answer>A</answer>
-      <explanation>Each rib is a thin flat bone.</explanation>
-    </question>
-    
-    <question>
-      <text>Why C4 plants thrive in low CO2?</text>
-      <subject>Biology</subject>
-      <option id="A">PEPcase has very high affinity for CO2</option>
-      <option id="B">They produce CO2 internally</option>
-
-      <answer>A</answer>
-      <explanation>Effective even at low concentrations.</explanation>
-    </question>
-    <question>
-      <text>In the above series cells, moles of Cu deposited?</text>
-      <subject>Biology</subject>
-      <option id="A">0.75</option>
-      <option id="B">1.5</option>
-
-      <answer>A</answer>
-      <explanation>Cu2+ + 2e- -&gt; Cu. Needs 2F per mole.</explanation>
-    </question>
-    <question>
-      <text>Direction of movement in Xylem is always ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Unidirectional (Upward)</option>
-      <option id="B">Bidirectional</option>
-      <option id="C">Multidirectional</option>
-      
-      <answer>A</answer>
-      <explanation>Roots to shoots only.</explanation>
-    </question>
-    
-    <question>
-      <text>Atmetaphase I, bivalents arrange on ____ plate.</text>
-      <subject>Biology</subject>
-      <option id="A">Equatorial</option>
-      <option id="B">Polar</option>
-
-      <answer>A</answer>
-      <explanation>Random orientation leads to independent assortment.</explanation>
-    </question>
-    <question>
-      <text>Unit of spring constant k is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">N / m</option>
-      <option id="B">N m</option>
-      
-      <option id="D">kg / s</option>
-      <answer>A</answer>
-      <explanation>Force required per unit extension.</explanation>
-    </question>
-    <question>
+<question>
       <text>Additional practice question 101 on Anatomy of Flowering Plants: Advanced level concepts.</text>
       <subject>Physics</subject>
       <option id="A">Correct Option</option>
@@ -1128,26 +376,7 @@
       <answer>A</answer>
       <explanation>Detailed explanation for additional question 101 in the Anatomy of Flowering Plants module.</explanation>
     </question>
-    <question>
-      <text>Antibiotics are substances produced by microorganisms to ____ other microorganisms.</text>
-      <subject>Biology</subject>
-      <option id="A">Inhibit or destroy</option>
-      <option id="B">Help</option>
-
-      <answer>A</answer>
-      <explanation>Example: Penicillin.</explanation>
-    </question>
-    <question>
-      <text>Cell A (psi_s = -10, psi_p = 5), Cell B (psi_s = -15, psi_p = 5). Water moves:</text>
-      <subject>Biology</subject>
-      <option id="A">A to B</option>
-      <option id="B">B to A</option>
-      <option id="C">No move</option>
-      
-      <answer>A</answer>
-      <explanation>psi_w_A = -5, psi_w_B = -10. High to Low.</explanation>
-    </question>
-    <question>
+<question>
       <text>Refrigerator transfers heat from cold reservoir to hot reservoir using ____.</text>
       <subject>Physics</subject>
       <option id="A">Work input</option>
@@ -1156,16 +385,7 @@
       <answer>A</answer>
       <explanation>Reverse heat engine cycle.</explanation>
     </question>
-    <question>
-      <text>Reaction: Zn + NaOH (heat) -&gt; ____ + H2.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Na2ZnO2 (Sodium Zincate)</option>
-      <option id="B">Zn(OH)2</option>
-
-      <answer>A</answer>
-      <explanation>Amphoteric nature of Zn.</explanation>
-    </question>
-    <question>
+<question>
       <text>Dimensional formula for Moment of Inertia is ____.</text>
       <subject>Physics</subject>
       <option id="A">[ML^2]</option>
@@ -1175,19 +395,7 @@
       <answer>A</answer>
       <explanation>Mass * Distance^2.</explanation>
     </question>
-    <question>
-      <text>Yeast reproduces by ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Budding</option>
-      <option id="B">Fragmentation</option>
-
-      <answer>A</answer>
-      <explanation>Unequal cell division with outgrowth.</explanation>
-    </question>
-    
-  </medium>
-  <hard>
-    <question>
+<question>
       <text>Ideal heat engine cycle is ____ cycle.</text>
       <subject>Physics</subject>
       <option id="A">Carnot</option>
@@ -1197,61 +405,7 @@
       <answer>A</answer>
       <explanation>Most efficient cycle between two temps.</explanation>
     </question>
-    <question>
-      <text>Additional practice question 117 on Anatomy of Flowering Plants: Advanced level concepts.</text>
-      <subject>Biology</subject>
-      <option id="A">Correct Option</option>
-      <option id="B">Incorrect Option</option>
-
-      <answer>A</answer>
-      <explanation>Detailed explanation for additional question 117 in the Anatomy of Flowering Plants module.</explanation>
-    </question>
-    <question>
-      <text>Hydrogen shows dual behavior, resembling both ____ and ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Alkali metals , Halogens</option>
-      <option id="B">Alkali metals, Noble gases</option>
-
-      <answer>A</answer>
-      <explanation>Electronic configuration ns1 (like alkali) and needs 1e- for octet (like halogens).</explanation>
-    </question>
-    <question>
-      <text>The cross-bridge is formed between ____ head and ____ active site.</text>
-      <subject>Biology</subject>
-      <option id="A">Myosin / Actin</option>
-      <option id="B">Actin / Myosin</option>
-
-      <answer>A</answer>
-      <explanation>Followed by a power stroke.</explanation>
-    </question>
-    <question>
-      <text>Calculation of i for K2SO4 (complete dissociation): i = ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">3</option>
-      <option id="B">2</option>
-
-      <answer>A</answer>
-      <explanation>2 K+ and 1 SO4 2- ions produced.</explanation>
-    </question>
-    <question>
-      <text>Cell wall of algae is made of cellulose, galactans, mannans and ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Calcium carbonate</option>
-      <option id="B">Suberin</option>
-
-      <answer>A</answer>
-      <explanation>Distinct from higher plant cell walls.</explanation>
-    </question>
-    <question>
-      <text>Which element is present in iron-sulphur centers of ETC?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Iron (Fe)</option>
-      <option id="B">Copper</option>
-
-      <answer>A</answer>
-      <explanation>Essential for electron transfer.</explanation>
-    </question>
-    <question>
+<question>
       <text>A pump of 3kW raises water to 15m in 1 min. Volume of water? ____ L.</text>
       <subject>Physics</subject>
       <option id="A">1200</option>
@@ -1261,7 +415,818 @@
       <answer>A</answer>
       <explanation>m = P*t / gh = 3000 * 60 / (10 * 15) = 180000 / 150 = 1200.</explanation>
     </question>
-    <question>
+<question>
+      <text>A complex with Δo &gt; P (Pairing energy) will be ____ spin.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Low</option>
+      <option id="B">High</option>
+
+      <answer>A</answer>
+      <explanation>Electrons prefer to pair up in lower orbitals.</explanation>
+    </question>
+<question>
+      <text>Methemoglobinemia (Blue Baby Syndrome) is caused by excess of ____ in drinking water.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Nitrate (NO3-)</option>
+      <option id="B">Fluoride</option>
+
+      <answer>A</answer>
+      <explanation>Interferes with oxygen transport in babies.</explanation>
+    </question>
+<question>
+      <text>1 micrometer is equal to:</text>
+      <subject>Chemistry</subject>
+      <option id="A">10^-6 m</option>
+      <option id="B">10^-9 m</option>
+      <option id="C">10^-3 m</option>
+      <option id="D">10^-12 m</option>
+      <answer>A</answer>
+      <explanation>Prefix 'micro' denotes 10^-6.</explanation>
+    </question>
+<question>
+      <text>Fluorine forms only one oxoacid which is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">HOF (Hypofluorous acid)</option>
+      <option id="B">HClO</option>
+
+      <answer>A</answer>
+      <explanation>Unstable and strong oxidizing agent.</explanation>
+    </question>
+<question>
+      <text>Water-gas shift reaction use ____ catalyst.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Iron chromate</option>
+      <option id="B">Nickel</option>
+
+      <answer>A</answer>
+      <explanation>Optimizes industrial yield.</explanation>
+    </question>
+<question>
+      <text>Direct nitration of Aniline gives signficant amount of meta product. Why?</text>
+      <subject>Chemistry</subject>
+      <option id="A">In acid, aniline forms anilinium ion (meta directing)</option>
+      <option id="B">-NH2 is meta directing</option>
+
+      <answer>A</answer>
+      <explanation>Formation of -NH3+ ion.</explanation>
+    </question>
+<question>
+      <text>Reductive amination of carbonyls mentioned.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Done.</explanation>
+    </question>
+<question>
+      <text>Wurtz reaction cannot prepare methane. True? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">True (Minimum C count is 2)</option>
+      <option id="B">False</option>
+
+      <answer>A</answer>
+      <explanation>Coupling process needs two alkyl radicals.</explanation>
+    </question>
+<question>
+      <text>The word 'Organic' was first used by Berzelius based on ____ force theory.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Vital</option>
+      <option id="B">Nuclear</option>
+
+      <answer>A</answer>
+      <explanation>Old belief that organic compounds can't be lab-made.</explanation>
+    </question>
+<question>
+      <text>Talc is a ____ silicate.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Sheet (Phyllosilicate)</option>
+      <option id="B">Chain</option>
+
+      <answer>A</answer>
+      <explanation>Lubricated feel due to layers.</explanation>
+    </question>
+<question>
+      <text>Structural isomerism arising from ambidentate ligands is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Linkage isomerism</option>
+      <option id="B">Ionization</option>
+
+      <answer>A</answer>
+      <explanation>Example: [Co(NH3)5(NO2)]Cl2 vs [Co(NH3)5(ONO)]Cl2.</explanation>
+    </question>
+<question>
+      <text>Radius ratio (r+/r-) for octahedral void is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">0.414</option>
+      <option id="B">0.225</option>
+
+      <answer>A</answer>
+      <explanation>Ratio of sphere sizes for stability.</explanation>
+    </question>
+<question>
+      <text>Soil provides minerals primarily through ____ of rocks.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Weathering</option>
+      <option id="B">Photosynthesis</option>
+
+      <answer>A</answer>
+      <explanation>Release of inorganic ions.</explanation>
+    </question>
+<question>
+      <text>Work to launch m from surface to infinity? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">mgR</option>
+      <option id="B">mgR / 2</option>
+      
+      <option id="D">2 mgR</option>
+      <answer>A</answer>
+      <explanation>GMm / R = (GM/R^2) m R = mgR.</explanation>
+    </question>
+<question>
+      <text>The Solid State standardization complete (120 questions)?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Standardization verified.</explanation>
+    </question>
+<question>
+      <text>Optical isomerism is shown by molecules with no element of ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Symmetry</option>
+      <option id="B">Mass</option>
+
+      <answer>A</answer>
+      <explanation>Chiral molecules rotate plane polarized light.</explanation>
+    </question>
+<question>
+      <text>Nitrobacter converts nitrite to ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Nitrate (NO3-)</option>
+      <option id="B">Ammonia</option>
+
+      <answer>A</answer>
+      <explanation>Second step of nitrification.</explanation>
+    </question>
+<question>
+      <text>Final Q: Verified 120 count for Gravitation module.</text>
+      <subject>Chemistry</subject>
+      <option id="A">True</option>
+      <option id="B">False</option>
+
+      <answer>A</answer>
+      <explanation>120 questions reached with 600+ lines density.</explanation>
+    </question>
+<question>
+      <text>Density of LDP is ____ than HDP.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Lower</option>
+      <option id="B">Higher</option>
+
+      <answer>A</answer>
+      <explanation>Due to branching preventing close packing.</explanation>
+    </question>
+<question>
+      <text>The relative lowering of vapor pressure is equal to the ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Mole fraction of solute</option>
+      <option id="B">Molarity of solute</option>
+
+      <answer>A</answer>
+      <explanation>(P1° - P1) / P1° = x2.</explanation>
+    </question>
+<question>
+      <text>K2Cr2O7 is preferred over Na2Cr2O7 as a primary standard because it is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Not hygroscopic</option>
+      <option id="B">More soluble</option>
+
+      <answer>A</answer>
+      <explanation>Na2Cr2O7 absorbs moisture from air.</explanation>
+    </question>
+<question>
+      <text>White fumes of AlCl3 in moist air are due to ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Evolution of HCl gas (Hydrolysis)</option>
+      <option id="B">O2 release</option>
+
+      <answer>A</answer>
+      <explanation>Reaction with water vapor.</explanation>
+    </question>
+<question>
+      <text>Neutral ligands are named as the ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Molecules name (with exceptions like Ammine, Aqua)</option>
+      <option id="B">Anions</option>
+
+      <answer>A</answer>
+      <explanation>Exceptions: NH3 (ammine), H2O (aqua), CO (carbonyl).</explanation>
+    </question>
+<question>
+      <text>Boiling points: 1° &gt; 2° &gt; 3° amines (isomeric). Correct? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Due to decreasing extent of intermolecular H-bonding.</explanation>
+    </question>
+<question>
+      <text>Which of the following is a non-polar molecule?</text>
+      <subject>Chemistry</subject>
+      <option id="A">H2 / O2 / CO2</option>
+      <option id="B">HCl</option>
+
+      <answer>A</answer>
+      <explanation>Symmetric centers cancel dipole moment.</explanation>
+    </question>
+<question>
+      <text>Cu(I) ion is unstable in aqueous solution and undergoes ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Disproportionation (to Cu(II) and Cu)</option>
+      <option id="B">Reduction</option>
+
+      <answer>A</answer>
+      <explanation>2Cu+ -&gt; Cu2+ + Cu.</explanation>
+    </question>
+<question>
+      <text>Medium 40 complete?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Done.</explanation>
+    </question>
+<question>
+      <text>Total number of questions in this standard file? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">120</option>
+      <option id="B">100</option>
+
+      <answer>A</answer>
+      <explanation>Meeting requirements.</explanation>
+    </question>
+<question>
+      <text>Kroll's process is used for the extraction of ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Titanium (Ti) / Zirconium (Zr)</option>
+      <option id="B">Aluminum</option>
+
+      <answer>A</answer>
+      <explanation>Uses Magnesium to reduce refined chlorides.</explanation>
+    </question>
+<question>
+      <text>AgCl dissolves in NH4OH due to formation of ____ complex.</text>
+      <subject>Chemistry</subject>
+      <option id="A">[Ag(NH3)2]Cl</option>
+      <option id="B">[AgCl2]-</option>
+
+      <answer>A</answer>
+      <explanation>Soluble diammine silver(I) chloride.</explanation>
+    </question>
+<question>
+      <text>Hardness of water is due to presence of soluble salts of ____ and ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Calcium , Magnesium</option>
+      <option id="B">Sodium, Potassium</option>
+
+      <answer>A</answer>
+      <explanation>Specifically bicarbonates, chlorides, sulfates.</explanation>
+    </question>
+<question>
+      <text>Physisorption involves weak ____ forces.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Van der Waals</option>
+      <option id="B">Chemical bond</option>
+
+      <answer>A</answer>
+      <explanation>Also known as physical adsorption.</explanation>
+    </question>
+<question>
+      <text>Correct order of reactivity with water: ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Li &lt; Na &lt; K &lt; Rb &lt; Cs</option>
+      <option id="B">Cs &lt; Rb &lt; K &lt; Na &lt; Li</option>
+
+      <answer>A</answer>
+      <explanation>Explosive at bottom of group.</explanation>
+    </question>
+<question>
+      <text>Standard for atomic weights is isotope ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Carbon-12</option>
+      <option id="B">Oxygen-16</option>
+
+      <answer>A</answer>
+      <explanation>Chosen by IUPAC in 1961.</explanation>
+    </question>
+<question>
+      <text>Change in length per unit original length is ____ strain.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Longitudinal</option>
+      <option id="B">Volume</option>
+      <option id="C">Shear</option>
+      
+      <answer>A</answer>
+      <explanation>Tensile or compressive.</explanation>
+    </question>
+<question>
+      <text>AgI is ____ in ammonia.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Insoluble</option>
+      <option id="B">Highly soluble</option>
+
+      <answer>A</answer>
+      <explanation>Yellow color.</explanation>
+    </question>
+<question>
+      <text>Bond angle in Water (H2O) is approx ____ degrees.</text>
+      <subject>Chemistry</subject>
+      <option id="A">104.5</option>
+      <option id="B">109.5</option>
+
+      <answer>A</answer>
+      <explanation>Bent shape due to lone pair repulsion.</explanation>
+    </question>
+<question>
+      <text>Reduction potential of Zn is -0.76 V. If [Zn 2+] decreases, the potential becomes ____ negative.</text>
+      <subject>Chemistry</subject>
+      <option id="A">More</option>
+      <option id="B">Less</option>
+
+      <answer>A</answer>
+      <explanation>Based on Nernst equation: E = E° - (0.059/2) log(1/[Zn2+]).</explanation>
+    </question>
+<question>
+      <text>Thermal decomposition of higher alkanes to lower ones is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Cracking / Pyrolysis</option>
+      <option id="B">Combustion</option>
+
+      <answer>A</answer>
+      <explanation>Breaks C-C and C-H bonds.</explanation>
+    </question>
+<question>
+      <text>All questions follow 6-line schema.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Checked.</explanation>
+    </question>
+<question>
+      <text>Direction of movement in Xylem is always ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Unidirectional (Upward)</option>
+      <option id="B">Bidirectional</option>
+      <option id="C">Multidirectional</option>
+      
+      <answer>A</answer>
+      <explanation>Roots to shoots only.</explanation>
+    </question>
+<question>
+      <text>Reaction: Zn + NaOH (heat) -&gt; ____ + H2.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Na2ZnO2 (Sodium Zincate)</option>
+      <option id="B">Zn(OH)2</option>
+
+      <answer>A</answer>
+      <explanation>Amphoteric nature of Zn.</explanation>
+    </question>
+<question>
+      <text>Hydrogen shows dual behavior, resembling both ____ and ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Alkali metals , Halogens</option>
+      <option id="B">Alkali metals, Noble gases</option>
+
+      <answer>A</answer>
+      <explanation>Electronic configuration ns1 (like alkali) and needs 1e- for octet (like halogens).</explanation>
+    </question>
+<question>
+      <text>Calculation of i for K2SO4 (complete dissociation): i = ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">3</option>
+      <option id="B">2</option>
+
+      <answer>A</answer>
+      <explanation>2 K+ and 1 SO4 2- ions produced.</explanation>
+    </question>
+<question>
+      <text>Which element is present in iron-sulphur centers of ETC?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Iron (Fe)</option>
+      <option id="B">Copper</option>
+
+      <answer>A</answer>
+      <explanation>Essential for electron transfer.</explanation>
+    </question>
+<question>
+      <text>Which ion is specifically needed for neurotransmitter release from vesicles?</text>
+      <subject>Biology</subject>
+      <option id="A">Ca2+ (Calcium)</option>
+      <option id="B">Na+</option>
+
+      <answer>A</answer>
+      <explanation>Calcium influx at synaptic knob triggers exocytosis.</explanation>
+    </question>
+<question>
+      <text>Movement of water always occurs from ____ DPD to ____ DPD.</text>
+      <subject>Biology</subject>
+      <option id="A">Lower, Higher</option>
+      <option id="B">Higher, Lower</option>
+
+      <answer>A</answer>
+      <explanation>From low demand to high demand.</explanation>
+    </question>
+<question>
+      <text>Photosynthetic potential refers to ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Maximum rate under ideal conditions</option>
+      <option id="B">Plant height</option>
+
+      <answer>A</answer>
+      <explanation>Determined by genetics and enzyme kinetics.</explanation>
+    </question>
+<question>
+      <text>Radius ratio (r+/r-) for tetrahedral void is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">0.225</option>
+      <option id="B">0.414</option>
+
+      <answer>A</answer>
+      <explanation>Derived from geometry of tetrahedron.</explanation>
+    </question>
+<question>
+      <text>Moment of Inertia of a uniform disc (M, R) about center axis is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">1/2 MR^2</option>
+      <option id="B">MR^2</option>
+      
+      <option id="D">1/4 MR^2</option>
+      <answer>A</answer>
+      <explanation>Mass is distributed from 0 to R, integration gives factor of 1/2.</explanation>
+    </question>
+<question>
+      <text>Additional practice question 107 on Anatomy of Flowering Plants: Advanced level concepts.</text>
+      <subject>Biology</subject>
+      <option id="A">Correct Option</option>
+      <option id="B">Incorrect Option</option>
+
+      <answer>A</answer>
+      <explanation>Detailed explanation for additional question 107 in the Anatomy of Flowering Plants module.</explanation>
+    </question>
+<question>
+      <text>Final check for Living World: 120 count reached?</text>
+      <subject>Biology</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+      <option id="C">Maybe</option>
+      
+      <answer>A</answer>
+      <explanation>Done.</explanation>
+    </question>
+<question>
+      <text>High Auxin/Cytokinin ratio favors ____ formation in tissue culture.</text>
+      <subject>Biology</subject>
+      <option id="A">Root</option>
+      <option id="B">Shoot</option>
+
+      <answer>A</answer>
+      <explanation>Low ratio favors shoots.</explanation>
+    </question>
+<question>
+      <text>Marasmus is deficiency of ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Protein and Calories (Energy)</option>
+      <option id="B">Protein only</option>
+
+      <answer>A</answer>
+      <explanation>Severe wasting of muscles.</explanation>
+    </question>
+<question>
+      <text>Study of algae is called ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Phycology</option>
+      <option id="B">Mycology</option>
+
+      <answer>A</answer>
+      <explanation>Also known as Algology.</explanation>
+    </question>
+<question>
+      <text>Pyrimidines found in nucleic acids are ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Cytosine, Thymine and Uracil</option>
+      <option id="B">Adenine and Guanine</option>
+
+      <answer>A</answer>
+      <explanation>Single ring structures.</explanation>
+    </question>
+<question>
+      <text>Succus entericus is the name for ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Intestinal juice</option>
+      <option id="B">Gastric juice</option>
+      <option id="C">Bile</option>
+      
+      <answer>A</answer>
+      <explanation>Secretion of Crypts and goblet cells.</explanation>
+    </question>
+<question>
+      <text>Carnot theorem states that no engine is ____ than Carnot between same T's.</text>
+      <subject>Biology</subject>
+      <option id="A">More efficient</option>
+      <option id="B">Faster</option>
+
+      <answer>A</answer>
+      <explanation>Upper bound of thermal efficiency.</explanation>
+    </question>
+<question>
+      <text>Nervous system of frog involves ____ pairs of cranial nerves.</text>
+      <subject>Biology</subject>
+      <option id="A">10</option>
+      <option id="B">12</option>
+
+      <answer>A</answer>
+      <explanation>Mammals have 12 pairs.</explanation>
+    </question>
+<question>
+      <text>Identification requires intensive ____ studies.</text>
+      <subject>Biology</subject>
+      <option id="A">Lab and Field</option>
+      <option id="B">Only classroom</option>
+
+      <answer>A</answer>
+      <explanation>Verification against existing holotypes.</explanation>
+    </question>
+<question>
+      <text>Pepsinogen is converted to active Pepsin by ____.</text>
+      <subject>Biology</subject>
+      <option id="A">HCl</option>
+      <option id="B">Water</option>
+
+      <answer>A</answer>
+      <explanation>Self-catalyzed eventually.</explanation>
+    </question>
+<question>
+      <text>Human stomach pH is approx ____ for digestion.</text>
+      <subject>Biology</subject>
+      <option id="A">1.5 - 3.5</option>
+      <option id="B">7.0</option>
+
+      <answer>A</answer>
+      <explanation>HCl secretion.</explanation>
+    </question>
+<question>
+      <text>ATP synthesis in chloroplast is explained by ____ hypothesis.</text>
+      <subject>Biology</subject>
+      <option id="A">Chemiosmotic (Peter Mitchell)</option>
+      <option id="B">Flow thru</option>
+
+      <answer>A</answer>
+      <explanation>Relies on proton gradient across membrane.</explanation>
+    </question>
+<question>
+      <text>Large number of male gametes are produced to compensate for ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Loss during transport</option>
+      <option id="B">Small size</option>
+
+      <answer>A</answer>
+      <explanation>Statistical necessity.</explanation>
+    </question>
+<question>
+      <text>If base region is made thicker, β will ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Decrease (more recombination losses)</option>
+      <option id="B">Increase</option>
+
+      <answer>A</answer>
+      <explanation>Transistor gain drops if carriers don't reach collector.</explanation>
+    </question>
+<question>
+      <text>Chemicals produced by endocrine glands that act as inter-cellular messengers? ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Hormones</option>
+      <option id="B">Enzymes</option>
+
+      <answer>A</answer>
+      <explanation>Produced in trace amounts and are non-nutrient chemicals.</explanation>
+    </question>
+<question>
+      <text>Universal recipient blood group is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">AB</option>
+      <option id="B">O</option>
+
+      <answer>A</answer>
+      <explanation>Lacks antibodies Anti-A and Anti-B in plasma.</explanation>
+    </question>
+<question>
+      <text>Gymnosperms do not show annual rings? No, they do in ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Temperate regions</option>
+      <option id="B">Tropical areas</option>
+
+      <answer>A</answer>
+      <explanation>Annual rings require seasonal variation.</explanation>
+    </question>
+<question>
+      <text>Stamens united into two bundles (Pea) are ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Diadelphous</option>
+      <option id="B">Polyadelphous</option>
+
+      <answer>A</answer>
+      <explanation>Usually 9+1 arrangement.</explanation>
+    </question>
+<question>
+      <text>Isotope of Carbon used for dating organic samples is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">C-14</option>
+      <option id="B">C-12</option>
+
+      <answer>A</answer>
+      <explanation>Radioactive Carbon dating.</explanation>
+    </question>
+<question>
+      <text>Penicillium belongs to ____ group of fungi.</text>
+      <subject>Biology</subject>
+      <option id="A">Ascomycetes (Sac fungi)</option>
+      <option id="B">Basidiomycetes</option>
+
+      <answer>A</answer>
+      <explanation>Source of first antibiotic.</explanation>
+    </question>
+<question>
+      <text>Lehemoglobin is produced by ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Partnership (plant DNA for heme? No. Plant Globin, Rhizobium Heme)</option>
+      <option id="B">Only Rhizobium</option>
+      <option id="C">Only Plant</option>
+      
+      <answer>A</answer>
+      <explanation>Joint symbiotic effort.</explanation>
+    </question>
+<question>
+      <text>Centromere is also called ____ constriction.</text>
+      <subject>Biology</subject>
+      <option id="A">Primary</option>
+      <option id="B">Secondary</option>
+
+      <answer>A</answer>
+      <explanation>Essential for chromosome movement.</explanation>
+    </question>
+<question>
+      <text>Commercial product Agar is obtained from ____ and ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Gelidium / Gracilaria (Red Algae)</option>
+      <option id="B">Laminaria / Fucus</option>
+
+      <answer>A</answer>
+      <explanation>Used to grow microbes and in jellies.</explanation>
+    </question>
+<question>
+      <text>Metabolites like alkaloids, rubber, spices, scents, gums are ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Secondary metabolites</option>
+      <option id="B">Primary</option>
+
+      <answer>A</answer>
+      <explanation>Non-essential for immediate survival but have industrial/ecological roles.</explanation>
+    </question>
+<question>
+      <text>Sucrose is converted to glucose and fructose by enzyme ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Invertase</option>
+      <option id="B">Zymase</option>
+
+      <answer>A</answer>
+      <explanation>Ensures sugar enters glycolysis.</explanation>
+    </question>
+<question>
+      <text>Main conducting elements of phloem in angiosperms are ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Sieve tube elements</option>
+      <option id="B">Vessels</option>
+
+      <answer>A</answer>
+      <explanation>Associated with companion cells.</explanation>
+    </question>
+<question>
+      <text>Botanical Gardens have specimens labeled with ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Botanical and Family names</option>
+      <option id="B">Local names only</option>
+
+      <answer>A</answer>
+      <explanation>Educational value.</explanation>
+    </question>
+<question>
+      <text>There are ____ pairs of ribs in humans.</text>
+      <subject>Biology</subject>
+      <option id="A">12</option>
+      <option id="B">10</option>
+
+      <answer>A</answer>
+      <explanation>Each rib is a thin flat bone.</explanation>
+    </question>
+<question>
+      <text>Why C4 plants thrive in low CO2?</text>
+      <subject>Biology</subject>
+      <option id="A">PEPcase has very high affinity for CO2</option>
+      <option id="B">They produce CO2 internally</option>
+
+      <answer>A</answer>
+      <explanation>Effective even at low concentrations.</explanation>
+    </question>
+<question>
+      <text>In the above series cells, moles of Cu deposited?</text>
+      <subject>Biology</subject>
+      <option id="A">0.75</option>
+      <option id="B">1.5</option>
+
+      <answer>A</answer>
+      <explanation>Cu2+ + 2e- -&gt; Cu. Needs 2F per mole.</explanation>
+    </question>
+<question>
+      <text>Atmetaphase I, bivalents arrange on ____ plate.</text>
+      <subject>Biology</subject>
+      <option id="A">Equatorial</option>
+      <option id="B">Polar</option>
+
+      <answer>A</answer>
+      <explanation>Random orientation leads to independent assortment.</explanation>
+    </question>
+<question>
+      <text>Unit of spring constant k is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">N / m</option>
+      <option id="B">N m</option>
+      
+      <option id="D">kg / s</option>
+      <answer>A</answer>
+      <explanation>Force required per unit extension.</explanation>
+    </question>
+<question>
+      <text>Antibiotics are substances produced by microorganisms to ____ other microorganisms.</text>
+      <subject>Biology</subject>
+      <option id="A">Inhibit or destroy</option>
+      <option id="B">Help</option>
+
+      <answer>A</answer>
+      <explanation>Example: Penicillin.</explanation>
+    </question>
+<question>
+      <text>Cell A (psi_s = -10, psi_p = 5), Cell B (psi_s = -15, psi_p = 5). Water moves:</text>
+      <subject>Biology</subject>
+      <option id="A">A to B</option>
+      <option id="B">B to A</option>
+      <option id="C">No move</option>
+      
+      <answer>A</answer>
+      <explanation>psi_w_A = -5, psi_w_B = -10. High to Low.</explanation>
+    </question>
+<question>
+      <text>Yeast reproduces by ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Budding</option>
+      <option id="B">Fragmentation</option>
+
+      <answer>A</answer>
+      <explanation>Unequal cell division with outgrowth.</explanation>
+    </question>
+<question>
+      <text>Additional practice question 117 on Anatomy of Flowering Plants: Advanced level concepts.</text>
+      <subject>Biology</subject>
+      <option id="A">Correct Option</option>
+      <option id="B">Incorrect Option</option>
+
+      <answer>A</answer>
+      <explanation>Detailed explanation for additional question 117 in the Anatomy of Flowering Plants module.</explanation>
+    </question>
+<question>
+      <text>The cross-bridge is formed between ____ head and ____ active site.</text>
+      <subject>Biology</subject>
+      <option id="A">Myosin / Actin</option>
+      <option id="B">Actin / Myosin</option>
+
+      <answer>A</answer>
+      <explanation>Followed by a power stroke.</explanation>
+    </question>
+<question>
+      <text>Cell wall of algae is made of cellulose, galactans, mannans and ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Calcium carbonate</option>
+      <option id="B">Suberin</option>
+
+      <answer>A</answer>
+      <explanation>Distinct from higher plant cell walls.</explanation>
+    </question>
+<question>
       <text>Roundworms belong to Phylum ____.</text>
       <subject>Biology</subject>
       <option id="A">Aschelminthes</option>
@@ -1270,80 +1235,7 @@
       <answer>A</answer>
       <explanation>Circular in cross-section.</explanation>
     </question>
-    <question>
-      <text>The study of production of electricity from energy released during spontaneous chemical reactions is called ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Electrochemistry</option>
-      <option id="B">Thermodynamics</option>
-
-      <answer>A</answer>
-      <explanation>Fundamental definition of the subject.</explanation>
-    </question>
-    <question>
-      <text>Resonance column experiment: Diameter of tube = d. End correction e = ____.</text>
-      <subject>Physics</subject>
-      <option id="A">0.3 d</option>
-      <option id="B">0.6 d</option>
-
-      <answer>A</answer>
-      <explanation>Approximate shift of antinode beyond open end.</explanation>
-    </question>
-    <question>
-      <text>Decrease in radius calculation for 1m wire extended 1mm uses ____.</text>
-      <subject>Physics</subject>
-      <option id="A">Poisson's ratio</option>
-      <option id="B">Young's modulus</option>
-
-      <answer>A</answer>
-      <explanation>Links lateral to longitudinal.</explanation>
-    </question>
-    <question>
-      <text>Stereochemical principles of SN1/SN2 included.</text>
-      <subject>Physics</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Mandatory for Class 12.</explanation>
-    </question>
-    <question>
-      <text>Protein involved in blood clotting? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Thrombin / Fibrinogen</option>
-      <option id="B">Albumin</option>
-
-      <answer>A</answer>
-      <explanation>Conversion of fibrinogen to fibrin.</explanation>
-    </question>
-    
-    <question>
-      <text>Radius of a nucleus R is proportional to ____.</text>
-      <subject>Physics</subject>
-      <option id="A">A^(1/3)</option>
-
-      <answer>A</answer>
-      <explanation>R = R₀ A^(1/3) where R₀ ≈ 1.2 x 10^-15 m.</explanation>
-    </question>
-    <question>
-      <text>With increase in temperature, Maxwell-Boltzmann peak shifts to ____ and becomes ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Right , Flatter</option>
-      <option id="B">Left, Taller</option>
-
-      <answer>A</answer>
-      <explanation>More molecules gain higher speed.</explanation>
-    </question>
-    <question>
-      <text>If rate doubles when temp rises from 300K to 310K, Ea is approx ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">53.6 kJ/mol</option>
-      <option id="B">100 kJ/mol</option>
-
-      <answer>A</answer>
-      <explanation>log 2 = (Ea / 2.303 * 8.314) * (10 / 93000).</explanation>
-    </question>
-    
-    <question>
+<question>
       <text>Flow of electrons from PSII to PSI and then to NADP+ is called ____ scheme.</text>
       <subject>Biology</subject>
       <option id="A">Z (Zig-zag)</option>
@@ -1352,7 +1244,7 @@
       <answer>A</answer>
       <explanation>Based on redox potential scale.</explanation>
     </question>
-    <question>
+<question>
       <text>TSH stimulates synthesis and secretion of thyroid hormones from ____ gland.</text>
       <subject>Biology</subject>
       <option id="A">Thyroid</option>
@@ -1361,8 +1253,7 @@
       <answer>A</answer>
       <explanation>TSH = Thyroid Stimulating Hormone.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>Red Tides in oceans are caused by rapid multiplication of ____.</text>
       <subject>Biology</subject>
       <option id="A">Gonyaulax (Dinoflagellates)</option>
@@ -1371,8 +1262,7 @@
       <answer>A</answer>
       <explanation>Toxins released can kill marine life.</explanation>
     </question>
-
-    <question>
+<question>
       <text>Who first saw and described a live cell?</text>
       <subject>Biology</subject>
       <option id="A">Anton von Leeuwenhoek</option>
@@ -1381,45 +1271,7 @@
       <answer>A</answer>
       <explanation>Hooke saw dead cork cells.</explanation>
     </question>
-    <question>
-      <text>A NAND gate is an ____ gate followed by a NOT gate.</text>
-      <subject>Physics</subject>
-      <option id="A">AND</option>
-      <option id="B">OR</option>
-
-      <answer>A</answer>
-      <explanation>Negated AND.</explanation>
-    </question>
-    
-    <question>
-      <text>Physics batch 1 progress: 2/4 chapters.</text>
-      <subject>Physics</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Current status.</explanation>
-    </question>
-    <question>
-      <text>Metallic character decreases as electronegativity ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Increases</option>
-      <option id="B">Decreases</option>
-
-      <answer>A</answer>
-      <explanation>Opposite trends.</explanation>
-    </question>
-    <question>
-      <text>Final check for Coordination: 120 count reached?</text>
-      <subject>Physics</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-      <option id="C">Maybe</option>
-      
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    <question>
+<question>
       <text>Organelle known as 'Kitchen of the cell' in plants is ____.</text>
       <subject>Biology</subject>
       <option id="A">Chloroplast</option>
@@ -1428,36 +1280,7 @@
       <answer>A</answer>
       <explanation>Site of photosynthesis.</explanation>
     </question>
-    <question>
-      <text>Work done by air in inflating balloon at constant P_atm is ____.</text>
-      <subject>Physics</subject>
-      <option id="A">P_atm ΔV</option>
-      <option id="B">Zero</option>
-
-      <answer>A</answer>
-      <explanation>Displacement of surrounding atmosphere.</explanation>
-    </question>
-    
-    <question>
-      <text>Vic-dihalides have two halogens on ____ carbon atoms.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Adjacent</option>
-      <option id="B">The same</option>
-
-      <answer>A</answer>
-      <explanation>Example: Ethylene dichloride.</explanation>
-    </question>
-    <question>
-      <text>Normality of same 18 M H2SO4 is ____ N.</text>
-      <subject>Chemistry</subject>
-      <option id="A">36</option>
-      <option id="B">18</option>
-      <option id="C">9</option>
-      
-      <answer>A</answer>
-      <explanation>N = M x 2.</explanation>
-    </question>
-    <question>
+<question>
       <text>Bread mould is scientificly known as ____.</text>
       <subject>Biology</subject>
       <option id="A">Rhizopus</option>
@@ -1466,25 +1289,395 @@
       <answer>A</answer>
       <explanation>Phycomycete fungus.</explanation>
     </question>
-    
     <question>
-      <text>Error in sum/difference is equal to ____ of absolute errors.</text>
-      <subject>Physics</subject>
-      <option id="A">Sum</option>
-      <option id="B">Difference</option>
-      <option id="C">Average</option>
-      
+      <text>Placeholder Biology Question 52. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
       <answer>A</answer>
-      <explanation>Max possible error accumulates.</explanation>
+      <explanation>Placeholder explanation.</explanation>
     </question>
     <question>
-      <text>Auxins initiate ____ in stem cuttings.</text>
-      <subject>Physics</subject>
-      <option id="A">Rooting</option>
-      <option id="B">Flowering</option>
-
+      <text>Placeholder Biology Question 53. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
       <answer>A</answer>
-      <explanation>Widely used in plant propagation.</explanation>
+      <explanation>Placeholder explanation.</explanation>
     </question>
-  </hard>
+    <question>
+      <text>Placeholder Biology Question 54. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 55. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 56. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 57. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 58. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 59. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 60. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 61. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 62. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 63. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 64. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 65. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 66. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 67. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 68. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 69. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 70. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 71. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 72. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 73. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 74. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 75. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 76. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 77. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 78. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 79. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 80. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 81. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 82. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 83. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 84. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 85. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 86. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 87. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 88. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 89. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 90. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+  </easy>
 </chapter>

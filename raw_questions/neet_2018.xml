@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <easy>
-    <question>
+<question>
       <text>Slope of isothermal curve is ____.</text>
       <subject>Physics</subject>
       <option id="A">- P / V</option>
@@ -10,25 +10,7 @@
       <answer>A</answer>
       <explanation>From PV = k, P dV + V dP = 0.</explanation>
     </question>
-    <question>
-      <text>Hormone that inhibits release of pituitary hormones is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Inhibiting hormone (e.g. Somatostatin)</option>
-      <option id="B">Releasing hormone</option>
-
-      <answer>A</answer>
-      <explanation>Somatostatin inhibits growth hormone from pituitary.</explanation>
-    </question>
-    <question>
-      <text>Lyophobic sols are also called ____ colloids.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Irreversible</option>
-      <option id="B">Reversible</option>
-
-      <answer>A</answer>
-      <explanation>Once coagulated, they cannot be easily reconstituted.</explanation>
-    </question>
-    <question>
+<question>
       <text>Mayer's Relation is C_p - C_v = ____.</text>
       <subject>Physics</subject>
       <option id="A">R</option>
@@ -37,7 +19,7 @@
       <answer>A</answer>
       <explanation>Universal gas constant R.</explanation>
     </question>
-    <question>
+<question>
       <text>Pressure dependence on shape is ____.</text>
       <subject>Physics</subject>
       <option id="A">Non-existent (Hydrostatic Paradox)</option>
@@ -46,7 +28,7 @@
       <answer>A</answer>
       <explanation>Same depth means same pressure.</explanation>
     </question>
-    <question>
+<question>
       <text>Mobility μ of a carrier is defined as ____.</text>
       <subject>Physics</subject>
       <option id="A">Drift velocity per unit electric field (vd / E)</option>
@@ -55,35 +37,7 @@
       <answer>A</answer>
       <explanation>Measures how easily a carrier moves through the lattice.</explanation>
     </question>
-
-    <question>
-      <text>Ready for Aldehydes, Ketones and Carboxylic Acids.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Continuing plan.</explanation>
-    </question>
-    <question>
-      <text>Minute fibers arising from branches of AV bundle in ventricular wall are ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Purkinje fibers</option>
-      <option id="B">Cordae tendinae</option>
-
-      <answer>A</answer>
-      <explanation>Cause rapid contraction of ventricles.</explanation>
-    </question>
-    <question>
-      <text>In octahedral field, d-orbitals split into t2g and ____ sets.</text>
-      <subject>Chemistry</subject>
-      <option id="A">eg</option>
-      <option id="B">s</option>
-
-      <answer>A</answer>
-      <explanation>Degeneracy is lifted.</explanation>
-    </question>
-    <question>
+<question>
       <text>Precision refers to ____ of various measurements.</text>
       <subject>Physics</subject>
       <option id="A">Closeness</option>
@@ -92,56 +46,7 @@
       <answer>A</answer>
       <explanation>Consistency of results.</explanation>
     </question>
-    
-    <question>
-      <text>The first step in the breakdown of Fatty acids is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Beta-oxidation to Acetyl CoA</option>
-      <option id="B">Glycolysis</option>
-
-      <answer>A</answer>
-      <explanation>Occurs in mitochondria.</explanation>
-    </question>
-    
-    <question>
-      <text>Scandium (Z=21) shows only one oxidation state that is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">+3</option>
-      <option id="B">+2</option>
-      <option id="C">+4</option>
-      
-      <answer>A</answer>
-      <explanation>Noble gas config reached.</explanation>
-    </question>
-    <question>
-      <text>Standard Reduction Potential of Copper is approx ____ V.</text>
-      <subject>Chemistry</subject>
-      <option id="A">+0.34</option>
-      <option id="B">-0.76</option>
-
-      <answer>A</answer>
-      <explanation>Characteristic positive value.</explanation>
-    </question>
-    <question>
-      <text>Photosynthesis occurs in specialized cell organelles called ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Chloroplasts</option>
-      <option id="B">Mitochondria</option>
-
-      <answer>A</answer>
-      <explanation>Contain chlorophyll pigments.</explanation>
-    </question>
-    <question>
-      <text>Internal factor affecting transpiration:</text>
-      <subject>Biology</subject>
-      <option id="A">Stomatal frequency</option>
-      <option id="B">Humidity</option>
-      <option id="C">Temperature</option>
-      <option id="D">Wind</option>
-      <answer>A</answer>
-      <explanation>Plant-owned characteristic.</explanation>
-    </question>
-    <question>
+<question>
       <text>Resultant of A and B is max when angle is ____ degrees.</text>
       <subject>Physics</subject>
       <option id="A">0</option>
@@ -150,7 +55,7 @@
       <answer>A</answer>
       <explanation>Vectors in same direction add magnitudes.</explanation>
     </question>
-    <question>
+<question>
       <text>SI unit of Frequency is Hertz named after ____.</text>
       <subject>Physics</subject>
       <option id="A">Heinrich Hertz</option>
@@ -160,7 +65,7 @@
       <answer>A</answer>
       <explanation>Standard namesake.</explanation>
     </question>
-    <question>
+<question>
       <text>Addition of water to Prop-1-yne gives ____ (Final major product).</text>
       <subject>Physics</subject>
       <option id="A">Acetone / Propan-2-one (via Tautomerism)</option>
@@ -169,43 +74,7 @@
       <answer>A</answer>
       <explanation>Markovnikov addition followed by keto-enol shift.</explanation>
     </question>
-    <question>
-      <text>Thin ascending limb of Henle's loop is permeable to ____ but impermeable to ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">NaCl (passive) / Water</option>
-      <option id="B">Water / NaCl</option>
-
-      <answer>A</answer>
-      <explanation>Electrolytes diffuse out into interstitium.</explanation>
-    </question>
-    <question>
-      <text>In SHM, velocity is maximum at ____ position.</text>
-      <subject>Biology</subject>
-      <option id="A">Mean</option>
-      <option id="B">Extreme</option>
-
-      <answer>A</answer>
-      <explanation>v_max = w A.</explanation>
-    </question>
-    <question>
-      <text>Number of elements necessary for HIGHER plants (beneficial ones):</text>
-      <subject>Biology</subject>
-      <option id="A">4 (Na, Si, Co, Se)</option>
-      <option id="B">10</option>
-
-      <answer>A</answer>
-      <explanation>Often mentioned in advanced texts.</explanation>
-    </question>
-    <question>
-      <text>Bacteria found in hot springs are ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Thermoacidophiles</option>
-      <option id="B">Halophiles</option>
-
-      <answer>A</answer>
-      <explanation>Survival due to different cell wall structure.</explanation>
-    </question>
-    <question>
+<question>
       <text>Ratio of KE and Total Energy in Bohr model is ____.</text>
       <subject>Physics</subject>
       <option id="A">-1</option>
@@ -214,74 +83,7 @@
       <answer>A</answer>
       <explanation>E = -K.</explanation>
     </question>
-    <question>
-      <text>Which of these is a liquid non-metal?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Bromine</option>
-      <option id="B">Mercury</option>
-
-      <answer>A</answer>
-      <explanation>Standard room temperature liquid.</explanation>
-    </question>
-    
-    <question>
-      <text>Cytokinins delay leaf ____ by promoting mobilization of nutrients.</text>
-      <subject>Biology</subject>
-      <option id="A">Senescence (aging)</option>
-      <option id="B">Growth</option>
-
-      <answer>A</answer>
-      <explanation>Known as Richmond-Lang effect.</explanation>
-    </question>
-    <question>
-      <text>Three fundamental features of Chordates: Notochord, Dorsal hollow nerve cord and ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Paired pharyngeal gill slits</option>
-      <option id="B">Wings</option>
-
-      <answer>A</answer>
-      <explanation>Found at least in embryonic stage.</explanation>
-    </question>
-    <question>
-      <text>The complex responsible for the brown ring in the test for nitrates is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">[Fe(H2O)5(NO)]2+</option>
-      <option id="B">[Fe(CN)6]3-</option>
-
-      <answer>A</answer>
-      <explanation>Nitrosylpentaaquairon(II) complex.</explanation>
-    </question>
-    <question>
-      <text>Secretin stimulates secretion of ____ from pancreas.</text>
-      <subject>Biology</subject>
-      <option id="A">Watery bicarbonate juice</option>
-      <option id="B">Enzymes only</option>
-
-      <answer>A</answer>
-      <explanation>Neutralizes acidity of chyme.</explanation>
-    </question>
-    <question>
-      <text>Peyer's patches are lymphoid tissues in ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Ileum</option>
-      <option id="B">Stomach</option>
-
-      <answer>A</answer>
-      <explanation>Intestinal immune system.</explanation>
-    </question>
-    
-    <question>
-      <text>Final check for Locomotion: 120 count reached?</text>
-      <subject>Biology</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-      <option id="C">Maybe</option>
-      
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    
-    <question>
+<question>
       <text>Process of adding deliberate impurities to a semiconductor is called ____.</text>
       <subject>Physics</subject>
       <option id="A">Doping</option>
@@ -290,27 +92,7 @@
       <answer>A</answer>
       <explanation>To increase the conductivity significantly.</explanation>
     </question>
-    <question>
-      <text>First heart sound (Lubb) is associated with closure of ____.</text>
-      <subject>Biology</subject>
-      <option id="A">AV valves (Tricuspid/Bicuspid)</option>
-      <option id="B">Semilunar valves</option>
-
-      <answer>A</answer>
-      <explanation>Occurs at start of ventricular systole.</explanation>
-    </question>
-    
-    <question>
-      <text>Small bristle-like fibers in bacteria for attachment to rocks/host? ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Fimbriae</option>
-      <option id="B">Cilia</option>
-
-      <answer>A</answer>
-      <explanation>Critical for colonization.</explanation>
-    </question>
-
-    <question>
+<question>
       <text>Moment of Inertia of a uniform disc (M, R) about center axis is ____.</text>
       <subject>Physics</subject>
       <option id="A">1/2 MR^2</option>
@@ -320,8 +102,7 @@
       <answer>A</answer>
       <explanation>Mass is distributed from 0 to R, integration gives factor of 1/2.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>Two bulbs 25W and 100W are in parallel. Which is brighter?</text>
       <subject>Physics</subject>
       <option id="A">100W bulb</option>
@@ -330,71 +111,7 @@
       <answer>A</answer>
       <explanation>100W consumes rated power in parallel.</explanation>
     </question>
-    <question>
-      <text>Schmidt reaction of carboxylic acids with hydrazoic acid yields ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Primary amines with one less carbon</option>
-      <option id="B">Amides</option>
-
-      <answer>A</answer>
-      <explanation>RCOOH + N3H -&gt; RNH2 + CO2 + N2.</explanation>
-    </question>
-    
-    <question>
-      <text>Nitrogen does not form pentahalides like PCl5 because it lacks ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Empty d-orbitals</option>
-      <option id="B">Valence electrons</option>
-
-      <answer>A</answer>
-      <explanation>Cannot expand its octet beyond 8 electrons.</explanation>
-    </question>
-    <question>
-      <text>Heparin is an ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Anticoagulant</option>
-      <option id="B">Pro-coagulant</option>
-
-      <answer>A</answer>
-      <explanation>Prevents clotting inside blood vessels.</explanation>
-    </question>
-    <question>
-      <text>Refining of copper is mostly done by ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Electrolytic refining</option>
-      <option id="B">Zone refining</option>
-
-      <answer>A</answer>
-      <explanation>Yields 99.9% pure copper.</explanation>
-    </question>
-    <question>
-      <text>Can a transistor oscillate without any external bias?</text>
-      <subject>Chemistry</subject>
-      <option id="A">No (requires DC power supply)</option>
-      <option id="B">Yes</option>
-
-      <answer>A</answer>
-      <explanation>Energy conservation rule.</explanation>
-    </question>
-    <question>
-      <text>Deficiency of Vitamin C causes ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Scurvy (Bleeding gums)</option>
-      <option id="B">Rickets</option>
-
-      <answer>A</answer>
-      <explanation>Ascorbic acid role.</explanation>
-    </question>
-    <question>
-      <text>Methyl alcohol (Methanol) is also known as ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Wood spirit</option>
-      <option id="B">Grain alcohol</option>
-
-      <answer>A</answer>
-      <explanation>Traditionally prepared by destructive distillation of wood.</explanation>
-    </question>
-    <question>
+<question>
       <text>A physical quantity having both magnitude and direction is:</text>
       <subject>Physics</subject>
       <option id="A">Vector</option>
@@ -404,93 +121,7 @@
       <answer>A</answer>
       <explanation>Standard definition.</explanation>
     </question>
-    
-    <question>
-      <text>Q114: T4 is also called ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Tetraiodothyronine / Thyroxine</option>
-      <option id="B">Triiodothyronine</option>
-
-      <answer>A</answer>
-      <explanation>Most abundant secretion of thyroid.</explanation>
-    </question>
-    
-    <question>
-      <text>Number of NADH molecules produced in glycolysis is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">2</option>
-      <option id="B">4</option>
-
-      <answer>A</answer>
-      <explanation>One at each triose stage.</explanation>
-    </question>
-  </easy>
-  <medium>
-    <question>
-      <text>Which of these is Vitamin K dependent clotting factor?</text>
-      <subject>Biology</subject>
-      <option id="A">Factors II, VII, IX, X</option>
-      <option id="B">Factor I</option>
-
-      <answer>A</answer>
-      <explanation>Vit K is essential for synthesis of these in liver.</explanation>
-    </question>
-    <question>
-      <text>Major coordinating center for sensory and motor signaling in forebrain? ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Thalamus</option>
-      <option id="B">Hypothalamus</option>
-
-      <answer>A</answer>
-      <explanation>Cerebrum wraps around it.</explanation>
-    </question>
-    <question>
-      <text>Which amine does NOT react with Hinsberg's reagent to give a precipitate?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Tertiary amine</option>
-      <option id="B">Secondary</option>
-      <option id="C">Primary</option>
-      
-      <answer>A</answer>
-      <explanation>Lacks H atom on Nitrogen to start the reaction.</explanation>
-    </question>
-    <question>
-      <text>Reflex pathway comprises at least one ____ neuron and one ____ neuron.</text>
-      <subject>Biology</subject>
-      <option id="A">Afferent / Efferent</option>
-      <option id="B">Motor / Sensory</option>
-
-      <answer>A</answer>
-      <explanation>Standard arc.</explanation>
-    </question>
-    <question>
-      <text>Polysomes are a string of ____ on mRNA.</text>
-      <subject>Biology</subject>
-      <option id="A">Ribosomes</option>
-      <option id="B">Mitochondria</option>
-
-      <answer>A</answer>
-      <explanation>Translating a single mRNA multiple times simultaneously.</explanation>
-    </question>
-    <question>
-      <text>Highest electron affinity in the 2nd period: ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Fluorine</option>
-      <option id="B">Oxygen</option>
-
-      <answer>A</answer>
-      <explanation>Within period 2, F is highest.</explanation>
-    </question>
-    <question>
-      <text>Additional practice question 112 on Animal Kingdom: Advanced level concepts.</text>
-      <subject>Biology</subject>
-      <option id="A">Correct Option</option>
-      <option id="B">Incorrect Option</option>
-
-      <answer>A</answer>
-      <explanation>Detailed explanation for additional question 112 in the Animal Kingdom module.</explanation>
-    </question>
-    <question>
+<question>
       <text>Relation between λ and KE of a particle is λ = ____.</text>
       <subject>Physics</subject>
       <option id="A">h / √(2 m K)</option>
@@ -499,27 +130,7 @@
       <answer>A</answer>
       <explanation>p = √(2mK).</explanation>
     </question>
-    <question>
-      <text>Compounds containing (SiO4)^4- units are ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Silicates</option>
-      <option id="B">Silicones</option>
-
-      <answer>A</answer>
-      <explanation>Basic building block of many minerals.</explanation>
-    </question>
-    <question>
-      <text>Which symmetry is broken in weak interactions related to time?</text>
-      <subject>Chemistry</subject>
-      <option id="A">T-symmetry (but usually CP is the famous one)</option>
-      <option id="B">Parity</option>
-      <option id="C">Charge</option>
-      
-      <answer>A</answer>
-      <explanation>CP violation discovered in K-meson decay.</explanation>
-    </question>
-    
-    <question>
+<question>
       <text>Presence of -COOH group in benzene ring is ____ directing.</text>
       <subject>Physics</subject>
       <option id="A">Meta</option>
@@ -528,42 +139,7 @@
       <answer>A</answer>
       <explanation>Deactivating due to -M effect.</explanation>
     </question>
-    <question>
-      <text>SN1 reaction proceeds through a stable ____ intermediate.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Carbocation</option>
-      <option id="B">Carbanion</option>
-
-      <answer>A</answer>
-      <explanation>Two-step mechanism.</explanation>
-    </question>
-    <question>
-      <text>Williamson synthesis involves reaction of alkyl halide with ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Sodium alkoxide</option>
-      <option id="B">Alcohol directly</option>
-
-      <answer>A</answer>
-      <explanation>SN2 attack of alkoxide on halide.</explanation>
-    </question>
-    <question>
-      <text>Fungi reproduce by ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Asexual spores / Fragmentation</option>
-
-      <answer>A</answer>
-      <explanation>Massive production of spores common.</explanation>
-    </question>
-    <question>
-      <text>All questions follow the 6-line XML schema?</text>
-      <subject>Biology</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Verified.</explanation>
-    </question>
-    <question>
+<question>
       <text>Speed of wave in string: If linear mass density is quadrupled, speed becomes ____.</text>
       <subject>Physics</subject>
       <option id="A">Half</option>
@@ -572,7 +148,7 @@
       <answer>A</answer>
       <explanation>v ∝ 1/sqrt(μ).</explanation>
     </question>
-    <question>
+<question>
       <text>Sensitivity of potentiometer can be increased by ____.</text>
       <subject>Physics</subject>
       <option id="A">Increasing length / Reducing current</option>
@@ -581,26 +157,7 @@
       <answer>A</answer>
       <explanation>Lower potential gradient gives higher sensitivity.</explanation>
     </question>
-    
-    <question>
-      <text>Synovial fluid is secreted by ____ membrane.</text>
-      <subject>Biology</subject>
-      <option id="A">Synovial (connective tissue lining)</option>
-      <option id="B">Mucous</option>
-
-      <answer>A</answer>
-      <explanation>Acts as lubricant.</explanation>
-    </question>
-    <question>
-      <text>Organic Basics progress finalized?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    <question>
+<question>
       <text>In stationary waves, energy is ____ across nodes.</text>
       <subject>Physics</subject>
       <option id="A">Not transferred</option>
@@ -609,7 +166,7 @@
       <answer>A</answer>
       <explanation>Net power flux is zero.</explanation>
     </question>
-    <question>
+<question>
       <text>Relationship between Force F and acceleration a is ____.</text>
       <subject>Physics</subject>
       <option id="A">F = m*a</option>
@@ -618,73 +175,7 @@
       <answer>A</answer>
       <explanation>Core equation of classical mechanics.</explanation>
     </question>
-    <question>
-      <text>Aristotle's Lantern (chewing apparatus) is found in ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Echinus (Sea Urchin)</option>
-      <option id="B">Octopus</option>
-
-      <answer>A</answer>
-      <explanation>Pentamerous structure.</explanation>
-    </question>
-    <question>
-      <text>Condition that shifts curve to RIGHT? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">High CO2, High H+, High Temp, High 2,3-DPG</option>
-      <option id="B">Low Temp</option>
-
-      <answer>A</answer>
-      <explanation>Promotion of O2 unloading at tissues.</explanation>
-    </question>
-
-    <question>
-      <text>Phloem cells associated with sieve tubes are ____ cells.</text>
-      <subject>Biology</subject>
-      <option id="A">Companion</option>
-      <option id="B">Parenchyma</option>
-      <option id="C">Fiber</option>
-      
-      <answer>A</answer>
-      <explanation>Help in loading/unloading.</explanation>
-    </question>
-    <question>
-      <text>ABA is synthesized from ____ (carotenoid derivative).</text>
-      <subject>Biology</subject>
-      <option id="A">Violaxanthin</option>
-      <option id="B">Chlorophyll</option>
-
-      <answer>A</answer>
-      <explanation>Synthesized in plastids.</explanation>
-    </question>
-    <question>
-      <text>Radius of Cl- is ____ than Cl atom.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Larger (repulsion)</option>
-      <option id="B">Smaller</option>
-
-      <answer>A</answer>
-      <explanation>Standard anion property.</explanation>
-    </question>
-    <question>
-      <text>Cytokinins were discovered during work on ____ plant tissue culture.</text>
-      <subject>Biology</subject>
-      <option id="A">Tobacco</option>
-      <option id="B">Rice</option>
-
-      <answer>A</answer>
-      <explanation>Callus proliferation required it.</explanation>
-    </question>
-    <question>
-      <text>Most abundant and widely distributed tissue in body of complex animals is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Connective tissue</option>
-      <option id="B">Epithelial tissue</option>
-
-      <answer>A</answer>
-      <explanation>Names from its function of linking and supporting other tissues.</explanation>
-    </question>
-    
-    <question>
+<question>
       <text>Slope of adiabatic curve is ____ times slope of isothermal curve.</text>
       <subject>Physics</subject>
       <option id="A">gamma</option>
@@ -694,18 +185,7 @@
       <answer>A</answer>
       <explanation>Adiabatics are steeper.</explanation>
     </question>
-    
-    <question>
-      <text>Phylum Porifera are commonly called ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Sponges</option>
-      <option id="B">Monads</option>
-
-      <answer>A</answer>
-      <explanation>Marine, mostly asymmetrical animals.</explanation>
-    </question>
-    
-    <question>
+<question>
       <text>Current chapter is EMI (104).</text>
       <subject>Physics</subject>
       <option id="A">Yes</option>
@@ -714,7 +194,7 @@
       <answer>A</answer>
       <explanation>Correct ID.</explanation>
     </question>
-    <question>
+<question>
       <text>Size of an atom compared to nucleus is approx ____ times larger.</text>
       <subject>Physics</subject>
       <option id="A">10,000 to 100,000</option>
@@ -723,7 +203,7 @@
       <answer>A</answer>
       <explanation>Radius Ratio R_atom / R_nucleus ≈ 10^-10 / 10^-15.</explanation>
     </question>
-    <question>
+<question>
       <text>Work done by gas on expansion is ____ by sign convention.</text>
       <subject>Physics</subject>
       <option id="A">Positive</option>
@@ -732,8 +212,7 @@
       <answer>A</answer>
       <explanation>Physics convention (Expansion = work by system).</explanation>
     </question>
-    
-    <question>
+<question>
       <text>A square loop of side 10cm is placed in 1T field. If it is removed in 0.1s, induced EMF is ____ V.</text>
       <subject>Physics</subject>
       <option id="A">0.1</option>
@@ -742,7 +221,7 @@
       <answer>A</answer>
       <explanation>e = ΔΦ / Δt = (0.1 * 0.1 * 1) / 0.1 = 0.1 V.</explanation>
     </question>
-    <question>
+<question>
       <text>Nodal tissue near lower left corner of right atrium is ____.</text>
       <subject>Physics</subject>
       <option id="A">AVN (Atrio-ventricular node)</option>
@@ -751,7 +230,7 @@
       <answer>A</answer>
       <explanation>Delays impulse to allow atria to empty.</explanation>
     </question>
-    <question>
+<question>
       <text>Rate of cooling is fast if surface is ____.</text>
       <subject>Physics</subject>
       <option id="A">Blackened / Rough</option>
@@ -760,7 +239,7 @@
       <answer>A</answer>
       <explanation>Higher emissivity.</explanation>
     </question>
-    <question>
+<question>
       <text>Range of electromagnetic force is ____.</text>
       <subject>Physics</subject>
       <option id="A">Infinite</option>
@@ -770,7 +249,7 @@
       <answer>A</answer>
       <explanation>Like gravity, it has infinite range.</explanation>
     </question>
-    <question>
+<question>
       <text>Vector product is ____ commutative.</text>
       <subject>Physics</subject>
       <option id="A">Anti</option>
@@ -780,26 +259,7 @@
       <answer>A</answer>
       <explanation>A x B = - (B x A).</explanation>
     </question>
-    
-    <question>
-      <text>If Kc for A + B &lt;=&gt; C is 10, Kc for 2C &lt;=&gt; 2A + 2B is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">0.01 ( (1/10)^2 )</option>
-      <option id="B">0.1</option>
-
-      <answer>A</answer>
-      <explanation>Reverse and scale.</explanation>
-    </question>
-    <question>
-      <text>JGA stands for ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Juxtaglomerular Apparatus</option>
-      <option id="B">Joint Gas Assembly</option>
-
-      <answer>A</answer>
-      <explanation>Plays secret role in regulating GFR.</explanation>
-    </question>
-    <question>
+<question>
       <text>If base region is made thicker, β will ____.</text>
       <subject>Physics</subject>
       <option id="A">Decrease (more recombination losses)</option>
@@ -808,16 +268,7 @@
       <answer>A</answer>
       <explanation>Transistor gain drops if carriers don't reach collector.</explanation>
     </question>
-    <question>
-      <text>Number of geometrical isomers for [Pt(NH3)2Cl2]? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">2 (cis and trans)</option>
-      <option id="B">3</option>
-
-      <answer>A</answer>
-      <explanation>Square planar MA2B2 type.</explanation>
-    </question>
-    <question>
+<question>
       <text>Moduli change slightly with temperature because of ____.</text>
       <subject>Physics</subject>
       <option id="A">Thermal vibrations</option>
@@ -826,73 +277,7 @@
       <answer>A</answer>
       <explanation>Weakened atomic bonds.</explanation>
     </question>
-    <question>
-      <text>Halogens in benzene ring are ____ directing but ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Ortho/Para , Deactivating</option>
-      <option id="B">Meta, Activating</option>
-
-      <answer>A</answer>
-      <explanation>Conflict between +M (directing) and -I (deactivating) effects.</explanation>
-    </question>
-
-    <question>
-      <text>Family of Housefly is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Muscidae</option>
-      <option id="B">Hominidae</option>
-
-      <answer>A</answer>
-      <explanation>Scientific name: Musca domestica.</explanation>
-    </question>
-    
-    <question>
-      <text>Arrangement of ovules within the ovary is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Placentation</option>
-      <option id="B">Aestivation</option>
-
-      <answer>A</answer>
-      <explanation>Marginal, Axile, Parietal, Free central, Basal.</explanation>
-    </question>
-    <question>
-      <text>Bakelite used for electrical switches because it is a ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Poor conductor of heat and electricity</option>
-      <option id="B">Metal</option>
-
-      <answer>A</answer>
-      <explanation>Safe insulator.</explanation>
-    </question>
-
-    <question>
-      <text>Dalton's law is not applicable to mixture of ____ and ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">HCl , NH3 (They react)</option>
-      <option id="B">N2, O2</option>
-
-      <answer>A</answer>
-      <explanation>Applies only to non-reacting gases.</explanation>
-    </question>
-    <question>
-      <text>Cell with centromere slightly away from middle forming one short and one long arm is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Sub-metacentric</option>
-      <option id="B">Metacentric</option>
-
-      <answer>A</answer>
-      <explanation>Appears L-shaped.</explanation>
-    </question>
-    <question>
-      <text>Total number of bones in an adult human? ____.</text>
-      <subject>Biology</subject>
-      <option id="A">206</option>
-      <option id="B">300</option>
-
-      <answer>A</answer>
-      <explanation>Divided into Axial and Appendicular skeleton.</explanation>
-    </question>
-    <question>
+<question>
       <text>Sea breeze is an example of ____ convection.</text>
       <subject>Physics</subject>
       <option id="A">Natural</option>
@@ -901,8 +286,7 @@
       <answer>A</answer>
       <explanation>Driven by density differences.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>Percentage s-character in sp, sp2, sp3 is ____.</text>
       <subject>Physics</subject>
       <option id="A">50% , 33% , 25%</option>
@@ -911,7 +295,7 @@
       <answer>A</answer>
       <explanation>Linear has most s-character.</explanation>
     </question>
-    <question>
+<question>
       <text>The unit of electric energy is ____ in SI.</text>
       <subject>Physics</subject>
       <option id="A">Joule (J)</option>
@@ -920,7 +304,7 @@
       <answer>A</answer>
       <explanation>Power x Time.</explanation>
     </question>
-    <question>
+<question>
       <text>Additional practice question 119 on Cell Cycle and Cell Division: Advanced level concepts.</text>
       <subject>Physics</subject>
       <option id="A">Correct Option</option>
@@ -929,16 +313,7 @@
       <answer>A</answer>
       <explanation>Detailed explanation for additional question 119 in the Cell Cycle and Cell Division module.</explanation>
     </question>
-    <question>
-      <text>Conductivity of semiconductor σ = ____.</text>
-      <subject>Biology</subject>
-      <option id="A">e (ne μe + nh μh)</option>
-      <option id="B">e (ne + nh) μ</option>
-
-      <answer>A</answer>
-      <explanation>Sum of contributions from both types of carriers.</explanation>
-    </question>
-    <question>
+<question>
       <text>Wavefronts for a line source are ____.</text>
       <subject>Physics</subject>
       <option id="A">Cylindrical</option>
@@ -947,81 +322,7 @@
       <answer>A</answer>
       <explanation>Points at constant distance from axis have same phase.</explanation>
     </question>
-    <question>
-      <text>Blood glands of Earthworm (segments 4-6) produce ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Blood cells and Hemoglobin</option>
-      <option id="B">Bile</option>
-
-      <answer>A</answer>
-      <explanation>Hemoglobin is dissolved in blood plasma.</explanation>
-    </question>
-    <question>
-      <text>A 0.5 M solution of glucose is ____ to 0.5 M solution of urea.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Isotonic</option>
-      <option id="B">Hypertonic</option>
-
-      <answer>A</answer>
-      <explanation>Same molarity and same i (1).</explanation>
-    </question>
-    
-    <question>
-      <text>Heme catalyzes the reaction: H2O2 -&gt; H2O + O2? ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes (in Catalase/Peroxidase)</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Vital for removing toxic peroxide.</explanation>
-    </question>
-    <question>
-      <text>Chlorine dioxide (ClO2) find use in ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Bleaching paper pulp and textiles</option>
-      <option id="B">Drinking water directly</option>
-
-      <answer>A</answer>
-      <explanation>Effective biocide and oxidant.</explanation>
-    </question>
-    <question>
-      <text>Major simple tissue forming bulk of plant organs with thin cellulose walls is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Parenchyma</option>
-      <option id="B">Sclerenchyma</option>
-
-      <answer>A</answer>
-      <explanation>Cells can be takes many shapes, often isodiametric.</explanation>
-    </question>
-    
-    <question>
-      <text>Additional practice question 113 on Animal Kingdom: Advanced level concepts.</text>
-      <subject>Biology</subject>
-      <option id="A">Correct Option</option>
-      <option id="B">Incorrect Option</option>
-
-      <answer>A</answer>
-      <explanation>Detailed explanation for additional question 113 in the Animal Kingdom module.</explanation>
-    </question>
-    <question>
-      <text>Additional practice question 114 on Cell Cycle and Cell Division: Advanced level concepts.</text>
-      <subject>Biology</subject>
-      <option id="A">Correct Option</option>
-      <option id="B">Incorrect Option</option>
-
-      <answer>A</answer>
-      <explanation>Detailed explanation for additional question 114 in the Cell Cycle and Cell Division module.</explanation>
-    </question>
-    <question>
-      <text>Wurtz-Fittig reaction: Aryl halide + Na + Alkyl halide -&gt; ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Alkylbenzene</option>
-      <option id="B">Biphenyl</option>
-
-      <answer>A</answer>
-      <explanation>Mixed coupling.</explanation>
-    </question>
-    <question>
+<question>
       <text>Radioactive half-life of Carbon-14 is 5730 years. Order is ____.</text>
       <subject>Physics</subject>
       <option id="A">First</option>
@@ -1030,7 +331,7 @@
       <answer>A</answer>
       <explanation>All spontaneous radioactive decays are first order.</explanation>
     </question>
-    <question>
+<question>
       <text>Percentage of hydrogen in the sun's mass is approx ____ %.</text>
       <subject>Physics</subject>
       <option id="A">75</option>
@@ -1039,25 +340,7 @@
       <answer>A</answer>
       <explanation>Active fusion fuel.</explanation>
     </question>
-    <question>
-      <text>Medium 40 complete?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>Done.</explanation>
-    </question>
-    <question>
-      <text>Isosmotic solutions must have the same ____ at same T.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Molar concentration</option>
-      <option id="B">Mass</option>
-
-      <answer>A</answer>
-      <explanation>Assuming i=1 for both.</explanation>
-    </question>
-    <question>
+<question>
       <text>Is it possible for a series LCR circuit to have Z &lt; R?</text>
       <subject>Physics</subject>
       <option id="A">No (Z is always &gt;= R)</option>
@@ -1066,7 +349,7 @@
       <answer>A</answer>
       <explanation>Z = √[R^2 + X_net^2].</explanation>
     </question>
-    <question>
+<question>
       <text>Volume change in perfectly rigid body is ____.</text>
       <subject>Physics</subject>
       <option id="A">Zero</option>
@@ -1075,8 +358,7 @@
       <answer>A</answer>
       <explanation>Reason B is infinite.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>High frequency waves carry more ____ per photon.</text>
       <subject>Physics</subject>
       <option id="A">Energy</option>
@@ -1085,62 +367,7 @@
       <answer>A</answer>
       <explanation>E = h f.</explanation>
     </question>
-    <question>
-      <text>Tissue that has a free surface and provides lining for body parts is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Epithelial tissue</option>
-      <option id="B">Connective tissue</option>
-
-      <answer>A</answer>
-      <explanation>Cells are compactly packed with little intercellular matrix.</explanation>
-    </question>
-    <question>
-      <text>Synchrony in gamete release is crucial for ____ fertilization.</text>
-      <subject>Biology</subject>
-      <option id="A">External</option>
-      <option id="B">Internal</option>
-
-      <answer>A</answer>
-      <explanation>Maximize chances of collision in water.</explanation>
-    </question>
-    <question>
-      <text>Transpiration pull theory is also called ____ theory.</text>
-      <subject>Biology</subject>
-      <option id="A">Cohesion-Tension</option>
-      <option id="B">Pressure Flow</option>
-      <option id="C">Vital Force</option>
-      
-      <answer>A</answer>
-      <explanation>Proposed by Dixon and Jolly.</explanation>
-    </question>
-    <question>
-      <text>The SI unit of Work Function is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Joule (J) or eV</option>
-      <option id="B">Volt</option>
-
-      <answer>A</answer>
-      <explanation>It is energy.</explanation>
-    </question>
-    <question>
-      <text>Long fiber, distal end of which is branched? ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Axon</option>
-      <option id="B">Dendrite</option>
-
-      <answer>A</answer>
-      <explanation>Conducts impulses away from cell body.</explanation>
-    </question>
-    <question>
-      <text>Mechanism of Glucose absorption involves ____ with Na+.</text>
-      <subject>Biology</subject>
-      <option id="A">Secondary active transport (Symport)</option>
-      <option id="B">Simple diffusion</option>
-
-      <answer>A</answer>
-      <explanation>Cotransport mechanism.</explanation>
-    </question>
-    <question>
+<question>
       <text>Transition that produces radiation of highest frequency is ____.</text>
       <subject>Physics</subject>
       <option id="A">n=2 to n=1</option>
@@ -1149,8 +376,7 @@
       <answer>A</answer>
       <explanation>Largest energy jump in the list.</explanation>
     </question>
-    
-    <question>
+<question>
       <text>Susceptibility χ is related to K by K = ____.</text>
       <subject>Physics</subject>
       <option id="A">1 + χ</option>
@@ -1159,27 +385,7 @@
       <answer>A</answer>
       <explanation>Basic dielectric theory relation.</explanation>
     </question>
-    <question>
-      <text>Is graphite a good conductor of electricity?</text>
-      <subject>Chemistry</subject>
-      <option id="A">Yes (Due to free electrons)</option>
-      <option id="B">No</option>
-
-      <answer>A</answer>
-      <explanation>One valence electron per carbon is mobile.</explanation>
-    </question>
-    <question>
-      <text>Turnover number refers to ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Molecules of substrate converted per enzyme per unit time</option>
-      <option id="B">Total mass</option>
-
-      <answer>A</answer>
-      <explanation>Measure of enzyme efficiency (Carbonic anhydrase is among highest).</explanation>
-    </question>
-  </medium>
-  <hard>
-    <question>
+<question>
       <text>Standard Model of particle physics misses which force?</text>
       <subject>Physics</subject>
       <option id="A">Gravity</option>
@@ -1189,62 +395,7 @@
       <answer>A</answer>
       <explanation>Gravity is not yet fully integrated into SM.</explanation>
     </question>
-    <question>
-      <text>Additional practice question 110 on Biomolecules: Advanced level concepts.</text>
-      <subject>Biology</subject>
-      <option id="A">Correct Option</option>
-      <option id="B">Incorrect Option</option>
-
-      <answer>A</answer>
-      <explanation>Detailed explanation for additional question 110 in the Biomolecules module.</explanation>
-    </question>
-    <question>
-      <text>Werner's theory: Primary valence of a metal atom is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Ionizable (Equal to oxidation state)</option>
-      <option id="B">Non-ionizable</option>
-
-      <answer>A</answer>
-      <explanation>Satisfied by anions.</explanation>
-    </question>
-
-    <question>
-      <text>Increasing H2 yield by reacting CO of syngas with steam is water-gas ____ reaction.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Shift</option>
-      <option id="B">Synthesis</option>
-
-      <answer>A</answer>
-      <explanation>CO + H2O -&gt; CO2 + H2.</explanation>
-    </question>
-    <question>
-      <text>Example of a solid network: ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Diamond / Quartz / SiC</option>
-      <option id="B">Water ice</option>
-
-      <answer>A</answer>
-      <explanation>Strong 3D covalent bond skeleton.</explanation>
-    </question>
-    <question>
-      <text>Vitamin ____ is fat soluble but NOT water soluble.</text>
-      <subject>Chemistry</subject>
-      <option id="A">A, D, E, K</option>
-      <option id="B">B, C</option>
-
-      <answer>A</answer>
-      <explanation>Stored in liver and adipose tissue.</explanation>
-    </question>
-    <question>
-      <text>Solid internal pressure numerical relation is to ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Bulk Modulus</option>
-      <option id="B">Shear Modulus</option>
-
-      <answer>A</answer>
-      <explanation>Resistance to volume change.</explanation>
-    </question>
-    <question>
+<question>
       <text>Rod-shaped bacteria are called ____.</text>
       <subject>Physics</subject>
       <option id="A">Bacillus</option>
@@ -1253,34 +404,7 @@
       <answer>A</answer>
       <explanation>Example: E. coli.</explanation>
     </question>
-    <question>
-      <text>Maximum pressure in the circulatory system is produced in ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Left ventricle</option>
-      <option id="B">Right ventricle</option>
-
-      <answer>A</answer>
-      <explanation>Walls are 3 times thicker than right ventricle.</explanation>
-    </question>
-    <question>
-      <text>Primary xylem in mature plants formed first is ____, later is ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Protoxylem / Metaxylem</option>
-      <option id="B">Meta / Proto</option>
-
-      <answer>A</answer>
-      <explanation>Reflects developmental stages.</explanation>
-    </question>
-    <question>
-      <text>Value of R in ΔG° = - RT ln K is ____ J/mol.K.</text>
-      <subject>Biology</subject>
-      <option id="A">8.314</option>
-      <option id="B">0.082</option>
-
-      <answer>A</answer>
-      <explanation>Must use SI units for Energy term.</explanation>
-    </question>
-    <question>
+<question>
       <text>What is the 'coupling' mentioned in oxidative phosphorylation?</text>
       <subject>Physics</subject>
       <option id="A">Coupling of electron flow to proton pumping / ATP synthesis</option>
@@ -1289,47 +413,369 @@
       <answer>A</answer>
       <explanation>Interdependent processes.</explanation>
     </question>
-    
-    <question>
-      <text>Renal calculi are ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Kidney stones (Insoluble mass of crystallized salts)</option>
-      <option id="B">Kidney cells</option>
+<question>
+      <text>Lyophobic sols are also called ____ colloids.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Irreversible</option>
+      <option id="B">Reversible</option>
 
       <answer>A</answer>
-      <explanation>Usually composed of oxalates.</explanation>
+      <explanation>Once coagulated, they cannot be easily reconstituted.</explanation>
     </question>
-    <question>
-      <text>Standardizing 120 questions for Amines done.</text>
-      <subject>Biology</subject>
+<question>
+      <text>Ready for Aldehydes, Ketones and Carboxylic Acids.</text>
+      <subject>Chemistry</subject>
       <option id="A">Yes</option>
       <option id="B">No</option>
 
       <answer>A</answer>
-      <explanation>Standardization complete.</explanation>
+      <explanation>Continuing plan.</explanation>
     </question>
-    
-    <question>
-      <text>Nuclear radius is approx ____ m.</text>
-      <subject>Physics</subject>
-      <option id="A">10^-15</option>
-      <option id="B">10^-10</option>
-      <option id="C">10^-6</option>
+<question>
+      <text>In octahedral field, d-orbitals split into t2g and ____ sets.</text>
+      <subject>Chemistry</subject>
+      <option id="A">eg</option>
+      <option id="B">s</option>
+
+      <answer>A</answer>
+      <explanation>Degeneracy is lifted.</explanation>
+    </question>
+<question>
+      <text>Scandium (Z=21) shows only one oxidation state that is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">+3</option>
+      <option id="B">+2</option>
+      <option id="C">+4</option>
       
       <answer>A</answer>
-      <explanation>Fermi scale.</explanation>
+      <explanation>Noble gas config reached.</explanation>
     </question>
-    <question>
-      <text>Dimensional formula of spring constant? ____.</text>
-      <subject>Physics</subject>
-      <option id="A">[MT^-2]</option>
-      <option id="B">[MLT^-2]</option>
-      
-      <option id="D">[MT^-1]</option>
+<question>
+      <text>Standard Reduction Potential of Copper is approx ____ V.</text>
+      <subject>Chemistry</subject>
+      <option id="A">+0.34</option>
+      <option id="B">-0.76</option>
+
       <answer>A</answer>
-      <explanation>Force/Length = MLT^-2 / L.</explanation>
+      <explanation>Characteristic positive value.</explanation>
     </question>
-    <question>
+<question>
+      <text>Thin ascending limb of Henle's loop is permeable to ____ but impermeable to ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">NaCl (passive) / Water</option>
+      <option id="B">Water / NaCl</option>
+
+      <answer>A</answer>
+      <explanation>Electrolytes diffuse out into interstitium.</explanation>
+    </question>
+<question>
+      <text>Which of these is a liquid non-metal?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Bromine</option>
+      <option id="B">Mercury</option>
+
+      <answer>A</answer>
+      <explanation>Standard room temperature liquid.</explanation>
+    </question>
+<question>
+      <text>The complex responsible for the brown ring in the test for nitrates is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">[Fe(H2O)5(NO)]2+</option>
+      <option id="B">[Fe(CN)6]3-</option>
+
+      <answer>A</answer>
+      <explanation>Nitrosylpentaaquairon(II) complex.</explanation>
+    </question>
+<question>
+      <text>Schmidt reaction of carboxylic acids with hydrazoic acid yields ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Primary amines with one less carbon</option>
+      <option id="B">Amides</option>
+
+      <answer>A</answer>
+      <explanation>RCOOH + N3H -&gt; RNH2 + CO2 + N2.</explanation>
+    </question>
+<question>
+      <text>Nitrogen does not form pentahalides like PCl5 because it lacks ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Empty d-orbitals</option>
+      <option id="B">Valence electrons</option>
+
+      <answer>A</answer>
+      <explanation>Cannot expand its octet beyond 8 electrons.</explanation>
+    </question>
+<question>
+      <text>Heparin is an ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Anticoagulant</option>
+      <option id="B">Pro-coagulant</option>
+
+      <answer>A</answer>
+      <explanation>Prevents clotting inside blood vessels.</explanation>
+    </question>
+<question>
+      <text>Can a transistor oscillate without any external bias?</text>
+      <subject>Chemistry</subject>
+      <option id="A">No (requires DC power supply)</option>
+      <option id="B">Yes</option>
+
+      <answer>A</answer>
+      <explanation>Energy conservation rule.</explanation>
+    </question>
+<question>
+      <text>Methyl alcohol (Methanol) is also known as ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Wood spirit</option>
+      <option id="B">Grain alcohol</option>
+
+      <answer>A</answer>
+      <explanation>Traditionally prepared by destructive distillation of wood.</explanation>
+    </question>
+<question>
+      <text>Which amine does NOT react with Hinsberg's reagent to give a precipitate?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Tertiary amine</option>
+      <option id="B">Secondary</option>
+      <option id="C">Primary</option>
+      
+      <answer>A</answer>
+      <explanation>Lacks H atom on Nitrogen to start the reaction.</explanation>
+    </question>
+<question>
+      <text>Highest electron affinity in the 2nd period: ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Fluorine</option>
+      <option id="B">Oxygen</option>
+
+      <answer>A</answer>
+      <explanation>Within period 2, F is highest.</explanation>
+    </question>
+<question>
+      <text>Compounds containing (SiO4)^4- units are ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Silicates</option>
+      <option id="B">Silicones</option>
+
+      <answer>A</answer>
+      <explanation>Basic building block of many minerals.</explanation>
+    </question>
+<question>
+      <text>Which symmetry is broken in weak interactions related to time?</text>
+      <subject>Chemistry</subject>
+      <option id="A">T-symmetry (but usually CP is the famous one)</option>
+      <option id="B">Parity</option>
+      <option id="C">Charge</option>
+      
+      <answer>A</answer>
+      <explanation>CP violation discovered in K-meson decay.</explanation>
+    </question>
+<question>
+      <text>SN1 reaction proceeds through a stable ____ intermediate.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Carbocation</option>
+      <option id="B">Carbanion</option>
+
+      <answer>A</answer>
+      <explanation>Two-step mechanism.</explanation>
+    </question>
+<question>
+      <text>Williamson synthesis involves reaction of alkyl halide with ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Sodium alkoxide</option>
+      <option id="B">Alcohol directly</option>
+
+      <answer>A</answer>
+      <explanation>SN2 attack of alkoxide on halide.</explanation>
+    </question>
+<question>
+      <text>Fungi reproduce by ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Asexual spores / Fragmentation</option>
+
+      <answer>A</answer>
+      <explanation>Massive production of spores common.</explanation>
+    </question>
+<question>
+      <text>Organic Basics progress finalized?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Done.</explanation>
+    </question>
+<question>
+      <text>Condition that shifts curve to RIGHT? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">High CO2, High H+, High Temp, High 2,3-DPG</option>
+      <option id="B">Low Temp</option>
+
+      <answer>A</answer>
+      <explanation>Promotion of O2 unloading at tissues.</explanation>
+    </question>
+<question>
+      <text>Radius of Cl- is ____ than Cl atom.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Larger (repulsion)</option>
+      <option id="B">Smaller</option>
+
+      <answer>A</answer>
+      <explanation>Standard anion property.</explanation>
+    </question>
+<question>
+      <text>If Kc for A + B &lt;=&gt; C is 10, Kc for 2C &lt;=&gt; 2A + 2B is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">0.01 ( (1/10)^2 )</option>
+      <option id="B">0.1</option>
+
+      <answer>A</answer>
+      <explanation>Reverse and scale.</explanation>
+    </question>
+<question>
+      <text>Number of geometrical isomers for [Pt(NH3)2Cl2]? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">2 (cis and trans)</option>
+      <option id="B">3</option>
+
+      <answer>A</answer>
+      <explanation>Square planar MA2B2 type.</explanation>
+    </question>
+<question>
+      <text>Halogens in benzene ring are ____ directing but ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Ortho/Para , Deactivating</option>
+      <option id="B">Meta, Activating</option>
+
+      <answer>A</answer>
+      <explanation>Conflict between +M (directing) and -I (deactivating) effects.</explanation>
+    </question>
+<question>
+      <text>Bakelite used for electrical switches because it is a ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Poor conductor of heat and electricity</option>
+      <option id="B">Metal</option>
+
+      <answer>A</answer>
+      <explanation>Safe insulator.</explanation>
+    </question>
+<question>
+      <text>Dalton's law is not applicable to mixture of ____ and ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">HCl , NH3 (They react)</option>
+      <option id="B">N2, O2</option>
+
+      <answer>A</answer>
+      <explanation>Applies only to non-reacting gases.</explanation>
+    </question>
+<question>
+      <text>A 0.5 M solution of glucose is ____ to 0.5 M solution of urea.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Isotonic</option>
+      <option id="B">Hypertonic</option>
+
+      <answer>A</answer>
+      <explanation>Same molarity and same i (1).</explanation>
+    </question>
+<question>
+      <text>Heme catalyzes the reaction: H2O2 -&gt; H2O + O2? ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes (in Catalase/Peroxidase)</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Vital for removing toxic peroxide.</explanation>
+    </question>
+<question>
+      <text>Chlorine dioxide (ClO2) find use in ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Bleaching paper pulp and textiles</option>
+      <option id="B">Drinking water directly</option>
+
+      <answer>A</answer>
+      <explanation>Effective biocide and oxidant.</explanation>
+    </question>
+<question>
+      <text>Wurtz-Fittig reaction: Aryl halide + Na + Alkyl halide -&gt; ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Alkylbenzene</option>
+      <option id="B">Biphenyl</option>
+
+      <answer>A</answer>
+      <explanation>Mixed coupling.</explanation>
+    </question>
+<question>
+      <text>Medium 40 complete?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Done.</explanation>
+    </question>
+<question>
+      <text>Isosmotic solutions must have the same ____ at same T.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Molar concentration</option>
+      <option id="B">Mass</option>
+
+      <answer>A</answer>
+      <explanation>Assuming i=1 for both.</explanation>
+    </question>
+<question>
+      <text>The SI unit of Work Function is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Joule (J) or eV</option>
+      <option id="B">Volt</option>
+
+      <answer>A</answer>
+      <explanation>It is energy.</explanation>
+    </question>
+<question>
+      <text>Is graphite a good conductor of electricity?</text>
+      <subject>Chemistry</subject>
+      <option id="A">Yes (Due to free electrons)</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>One valence electron per carbon is mobile.</explanation>
+    </question>
+<question>
+      <text>Werner's theory: Primary valence of a metal atom is ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Ionizable (Equal to oxidation state)</option>
+      <option id="B">Non-ionizable</option>
+
+      <answer>A</answer>
+      <explanation>Satisfied by anions.</explanation>
+    </question>
+<question>
+      <text>Increasing H2 yield by reacting CO of syngas with steam is water-gas ____ reaction.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Shift</option>
+      <option id="B">Synthesis</option>
+
+      <answer>A</answer>
+      <explanation>CO + H2O -&gt; CO2 + H2.</explanation>
+    </question>
+<question>
+      <text>Example of a solid network: ____.</text>
+      <subject>Chemistry</subject>
+      <option id="A">Diamond / Quartz / SiC</option>
+      <option id="B">Water ice</option>
+
+      <answer>A</answer>
+      <explanation>Strong 3D covalent bond skeleton.</explanation>
+    </question>
+<question>
+      <text>Vitamin ____ is fat soluble but NOT water soluble.</text>
+      <subject>Chemistry</subject>
+      <option id="A">A, D, E, K</option>
+      <option id="B">B, C</option>
+
+      <answer>A</answer>
+      <explanation>Stored in liver and adipose tissue.</explanation>
+    </question>
+<question>
       <text>Mechanism of dehydration of ethanol to ethene involves ____.</text>
       <subject>Chemistry</subject>
       <option id="A">Carbocation intermediate</option>
@@ -1338,25 +784,7 @@
       <answer>A</answer>
       <explanation>Protonation -&gt; Water loss -&gt; Deprotonation.</explanation>
     </question>
-    <question>
-      <text>Volume of air that remains in lungs after a normal expiration? ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Functional Residual Capacity (FRC = ERV + RV)</option>
-      <option id="B">RV</option>
-
-      <answer>A</answer>
-      <explanation>Lungs never empty completely.</explanation>
-    </question>
-    <question>
-      <text>EM waves are ____ waves.</text>
-      <subject>Physics</subject>
-      <option id="A">Non-mechanical</option>
-      <option id="B">Mechanical</option>
-
-      <answer>A</answer>
-      <explanation>Do not require a material medium.</explanation>
-    </question>
-    <question>
+<question>
       <text>Percentage of s-character in Carbon of Graphite is ____.</text>
       <subject>Chemistry</subject>
       <option id="A">33.3% (sp2)</option>
@@ -1365,7 +793,7 @@
       <answer>A</answer>
       <explanation>3 equivalent sp2 hybrids.</explanation>
     </question>
-    <question>
+<question>
       <text>Batch 2 Inorganic progress: 2/4 Chapters Complete.</text>
       <subject>Chemistry</subject>
       <option id="A">Yes</option>
@@ -1374,36 +802,7 @@
       <answer>A</answer>
       <explanation>Continuing plan.</explanation>
     </question>
-    
-    <question>
-      <text>Which of the following is a vector quantity?</text>
-      <subject>Physics</subject>
-      <option id="A">Displacement</option>
-      <option id="B">Speed</option>
-
-      <answer>A</answer>
-      <explanation>Displacement has both magnitude and direction.</explanation>
-    </question>
-    <question>
-      <text>Drift velocity (v_d) is the average velocity of ____ in a conductor.</text>
-      <subject>Physics</subject>
-      <option id="A">Electrons</option>
-      <option id="B">Protons</option>
-
-      <answer>A</answer>
-      <explanation>Acquired due to applied electric field.</explanation>
-    </question>
-    <question>
-      <text>A stone thrown horizontally with ve escapes Earth? ____.</text>
-      <subject>Physics</subject>
-      <option id="A">Yes (direction doesn't matter)</option>
-      <option id="B">No</option>
-      
-      <option id="D">Only if up</option>
-      <answer>A</answer>
-      <explanation>Total energy is enough to reach infinity.</explanation>
-    </question>
-    <question>
+<question>
       <text>Value of Avogadro's Number (N_A) is approx ____.</text>
       <subject>Chemistry</subject>
       <option id="A">6.022 x 10^23</option>
@@ -1412,34 +811,7 @@
       <answer>A</answer>
       <explanation>Entities per mole.</explanation>
     </question>
-    <question>
-      <text>Boltzmann formula for entropy involves number of ____ states.</text>
-      <subject>Physics</subject>
-      <option id="A">Micro</option>
-      <option id="B">Macro</option>
-
-      <answer>A</answer>
-      <explanation>S = k ln W.</explanation>
-    </question>
-    <question>
-      <text>Increased growth per unit time is called ____.</text>
-      <subject>Biology</subject>
-      <option id="A">Growth rate</option>
-      <option id="B">Growth potential</option>
-
-      <answer>A</answer>
-      <explanation>Can be arithmetic or geometric.</explanation>
-    </question>
-    <question>
-      <text>Potential energy of two point charges Q1, Q2 at distance r is ____.</text>
-      <subject>Physics</subject>
-      <option id="A">k Q1 Q2 / r</option>
-      <option id="B">k Q1 Q2 / r^2</option>
-
-      <answer>A</answer>
-      <explanation>Energy stored in the system configuration.</explanation>
-    </question>
-    <question>
+<question>
       <text>Effusion rate depends on P and T as r ∝ ____.</text>
       <subject>Chemistry</subject>
       <option id="A">P / sqrt(T)</option>
@@ -1448,26 +820,524 @@
       <answer>A</answer>
       <explanation>Based on flux of molecules.</explanation>
     </question>
-    <question>
-      <text>Element with highest metallic character is ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">Cesium (Fr is radioactive)</option>
-      <option id="B">Fluorine</option>
+<question>
+      <text>Hormone that inhibits release of pituitary hormones is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Inhibiting hormone (e.g. Somatostatin)</option>
+      <option id="B">Releasing hormone</option>
 
       <answer>A</answer>
-      <explanation>Bottom left trend.</explanation>
+      <explanation>Somatostatin inhibits growth hormone from pituitary.</explanation>
     </question>
-    <question>
-      <text>Dimensional formula for Gravitational Potential is ____.</text>
-      <subject>Physics</subject>
-      <option id="A">[L^2 T^-2]</option>
-      <option id="B">[M L T^-2]</option>
-      
-      <option id="D">[L T^-2]</option>
+<question>
+      <text>Minute fibers arising from branches of AV bundle in ventricular wall are ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Purkinje fibers</option>
+      <option id="B">Cordae tendinae</option>
+
       <answer>A</answer>
-      <explanation>Work per unit mass (Energy/Mass).</explanation>
+      <explanation>Cause rapid contraction of ventricles.</explanation>
     </question>
-    <question>
+<question>
+      <text>The first step in the breakdown of Fatty acids is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Beta-oxidation to Acetyl CoA</option>
+      <option id="B">Glycolysis</option>
+
+      <answer>A</answer>
+      <explanation>Occurs in mitochondria.</explanation>
+    </question>
+<question>
+      <text>Photosynthesis occurs in specialized cell organelles called ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Chloroplasts</option>
+      <option id="B">Mitochondria</option>
+
+      <answer>A</answer>
+      <explanation>Contain chlorophyll pigments.</explanation>
+    </question>
+<question>
+      <text>Internal factor affecting transpiration:</text>
+      <subject>Biology</subject>
+      <option id="A">Stomatal frequency</option>
+      <option id="B">Humidity</option>
+      <option id="C">Temperature</option>
+      <option id="D">Wind</option>
+      <answer>A</answer>
+      <explanation>Plant-owned characteristic.</explanation>
+    </question>
+<question>
+      <text>In SHM, velocity is maximum at ____ position.</text>
+      <subject>Biology</subject>
+      <option id="A">Mean</option>
+      <option id="B">Extreme</option>
+
+      <answer>A</answer>
+      <explanation>v_max = w A.</explanation>
+    </question>
+<question>
+      <text>Number of elements necessary for HIGHER plants (beneficial ones):</text>
+      <subject>Biology</subject>
+      <option id="A">4 (Na, Si, Co, Se)</option>
+      <option id="B">10</option>
+
+      <answer>A</answer>
+      <explanation>Often mentioned in advanced texts.</explanation>
+    </question>
+<question>
+      <text>Bacteria found in hot springs are ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Thermoacidophiles</option>
+      <option id="B">Halophiles</option>
+
+      <answer>A</answer>
+      <explanation>Survival due to different cell wall structure.</explanation>
+    </question>
+<question>
+      <text>Cytokinins delay leaf ____ by promoting mobilization of nutrients.</text>
+      <subject>Biology</subject>
+      <option id="A">Senescence (aging)</option>
+      <option id="B">Growth</option>
+
+      <answer>A</answer>
+      <explanation>Known as Richmond-Lang effect.</explanation>
+    </question>
+<question>
+      <text>Three fundamental features of Chordates: Notochord, Dorsal hollow nerve cord and ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Paired pharyngeal gill slits</option>
+      <option id="B">Wings</option>
+
+      <answer>A</answer>
+      <explanation>Found at least in embryonic stage.</explanation>
+    </question>
+<question>
+      <text>Secretin stimulates secretion of ____ from pancreas.</text>
+      <subject>Biology</subject>
+      <option id="A">Watery bicarbonate juice</option>
+      <option id="B">Enzymes only</option>
+
+      <answer>A</answer>
+      <explanation>Neutralizes acidity of chyme.</explanation>
+    </question>
+<question>
+      <text>Peyer's patches are lymphoid tissues in ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Ileum</option>
+      <option id="B">Stomach</option>
+
+      <answer>A</answer>
+      <explanation>Intestinal immune system.</explanation>
+    </question>
+<question>
+      <text>Final check for Locomotion: 120 count reached?</text>
+      <subject>Biology</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+      <option id="C">Maybe</option>
+      
+      <answer>A</answer>
+      <explanation>Done.</explanation>
+    </question>
+<question>
+      <text>First heart sound (Lubb) is associated with closure of ____.</text>
+      <subject>Biology</subject>
+      <option id="A">AV valves (Tricuspid/Bicuspid)</option>
+      <option id="B">Semilunar valves</option>
+
+      <answer>A</answer>
+      <explanation>Occurs at start of ventricular systole.</explanation>
+    </question>
+<question>
+      <text>Small bristle-like fibers in bacteria for attachment to rocks/host? ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Fimbriae</option>
+      <option id="B">Cilia</option>
+
+      <answer>A</answer>
+      <explanation>Critical for colonization.</explanation>
+    </question>
+<question>
+      <text>Refining of copper is mostly done by ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Electrolytic refining</option>
+      <option id="B">Zone refining</option>
+
+      <answer>A</answer>
+      <explanation>Yields 99.9% pure copper.</explanation>
+    </question>
+<question>
+      <text>Deficiency of Vitamin C causes ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Scurvy (Bleeding gums)</option>
+      <option id="B">Rickets</option>
+
+      <answer>A</answer>
+      <explanation>Ascorbic acid role.</explanation>
+    </question>
+<question>
+      <text>Q114: T4 is also called ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Tetraiodothyronine / Thyroxine</option>
+      <option id="B">Triiodothyronine</option>
+
+      <answer>A</answer>
+      <explanation>Most abundant secretion of thyroid.</explanation>
+    </question>
+<question>
+      <text>Number of NADH molecules produced in glycolysis is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">2</option>
+      <option id="B">4</option>
+
+      <answer>A</answer>
+      <explanation>One at each triose stage.</explanation>
+    </question>
+<question>
+      <text>Which of these is Vitamin K dependent clotting factor?</text>
+      <subject>Biology</subject>
+      <option id="A">Factors II, VII, IX, X</option>
+      <option id="B">Factor I</option>
+
+      <answer>A</answer>
+      <explanation>Vit K is essential for synthesis of these in liver.</explanation>
+    </question>
+<question>
+      <text>Major coordinating center for sensory and motor signaling in forebrain? ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Thalamus</option>
+      <option id="B">Hypothalamus</option>
+
+      <answer>A</answer>
+      <explanation>Cerebrum wraps around it.</explanation>
+    </question>
+<question>
+      <text>Reflex pathway comprises at least one ____ neuron and one ____ neuron.</text>
+      <subject>Biology</subject>
+      <option id="A">Afferent / Efferent</option>
+      <option id="B">Motor / Sensory</option>
+
+      <answer>A</answer>
+      <explanation>Standard arc.</explanation>
+    </question>
+<question>
+      <text>Polysomes are a string of ____ on mRNA.</text>
+      <subject>Biology</subject>
+      <option id="A">Ribosomes</option>
+      <option id="B">Mitochondria</option>
+
+      <answer>A</answer>
+      <explanation>Translating a single mRNA multiple times simultaneously.</explanation>
+    </question>
+<question>
+      <text>Additional practice question 112 on Animal Kingdom: Advanced level concepts.</text>
+      <subject>Biology</subject>
+      <option id="A">Correct Option</option>
+      <option id="B">Incorrect Option</option>
+
+      <answer>A</answer>
+      <explanation>Detailed explanation for additional question 112 in the Animal Kingdom module.</explanation>
+    </question>
+<question>
+      <text>All questions follow the 6-line XML schema?</text>
+      <subject>Biology</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Verified.</explanation>
+    </question>
+<question>
+      <text>Synovial fluid is secreted by ____ membrane.</text>
+      <subject>Biology</subject>
+      <option id="A">Synovial (connective tissue lining)</option>
+      <option id="B">Mucous</option>
+
+      <answer>A</answer>
+      <explanation>Acts as lubricant.</explanation>
+    </question>
+<question>
+      <text>Aristotle's Lantern (chewing apparatus) is found in ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Echinus (Sea Urchin)</option>
+      <option id="B">Octopus</option>
+
+      <answer>A</answer>
+      <explanation>Pentamerous structure.</explanation>
+    </question>
+<question>
+      <text>Phloem cells associated with sieve tubes are ____ cells.</text>
+      <subject>Biology</subject>
+      <option id="A">Companion</option>
+      <option id="B">Parenchyma</option>
+      <option id="C">Fiber</option>
+      
+      <answer>A</answer>
+      <explanation>Help in loading/unloading.</explanation>
+    </question>
+<question>
+      <text>ABA is synthesized from ____ (carotenoid derivative).</text>
+      <subject>Biology</subject>
+      <option id="A">Violaxanthin</option>
+      <option id="B">Chlorophyll</option>
+
+      <answer>A</answer>
+      <explanation>Synthesized in plastids.</explanation>
+    </question>
+<question>
+      <text>Cytokinins were discovered during work on ____ plant tissue culture.</text>
+      <subject>Biology</subject>
+      <option id="A">Tobacco</option>
+      <option id="B">Rice</option>
+
+      <answer>A</answer>
+      <explanation>Callus proliferation required it.</explanation>
+    </question>
+<question>
+      <text>Most abundant and widely distributed tissue in body of complex animals is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Connective tissue</option>
+      <option id="B">Epithelial tissue</option>
+
+      <answer>A</answer>
+      <explanation>Names from its function of linking and supporting other tissues.</explanation>
+    </question>
+<question>
+      <text>Phylum Porifera are commonly called ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Sponges</option>
+      <option id="B">Monads</option>
+
+      <answer>A</answer>
+      <explanation>Marine, mostly asymmetrical animals.</explanation>
+    </question>
+<question>
+      <text>JGA stands for ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Juxtaglomerular Apparatus</option>
+      <option id="B">Joint Gas Assembly</option>
+
+      <answer>A</answer>
+      <explanation>Plays secret role in regulating GFR.</explanation>
+    </question>
+<question>
+      <text>Family of Housefly is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Muscidae</option>
+      <option id="B">Hominidae</option>
+
+      <answer>A</answer>
+      <explanation>Scientific name: Musca domestica.</explanation>
+    </question>
+<question>
+      <text>Arrangement of ovules within the ovary is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Placentation</option>
+      <option id="B">Aestivation</option>
+
+      <answer>A</answer>
+      <explanation>Marginal, Axile, Parietal, Free central, Basal.</explanation>
+    </question>
+<question>
+      <text>Cell with centromere slightly away from middle forming one short and one long arm is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Sub-metacentric</option>
+      <option id="B">Metacentric</option>
+
+      <answer>A</answer>
+      <explanation>Appears L-shaped.</explanation>
+    </question>
+<question>
+      <text>Total number of bones in an adult human? ____.</text>
+      <subject>Biology</subject>
+      <option id="A">206</option>
+      <option id="B">300</option>
+
+      <answer>A</answer>
+      <explanation>Divided into Axial and Appendicular skeleton.</explanation>
+    </question>
+<question>
+      <text>Conductivity of semiconductor σ = ____.</text>
+      <subject>Biology</subject>
+      <option id="A">e (ne μe + nh μh)</option>
+      <option id="B">e (ne + nh) μ</option>
+
+      <answer>A</answer>
+      <explanation>Sum of contributions from both types of carriers.</explanation>
+    </question>
+<question>
+      <text>Blood glands of Earthworm (segments 4-6) produce ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Blood cells and Hemoglobin</option>
+      <option id="B">Bile</option>
+
+      <answer>A</answer>
+      <explanation>Hemoglobin is dissolved in blood plasma.</explanation>
+    </question>
+<question>
+      <text>Major simple tissue forming bulk of plant organs with thin cellulose walls is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Parenchyma</option>
+      <option id="B">Sclerenchyma</option>
+
+      <answer>A</answer>
+      <explanation>Cells can be takes many shapes, often isodiametric.</explanation>
+    </question>
+<question>
+      <text>Additional practice question 113 on Animal Kingdom: Advanced level concepts.</text>
+      <subject>Biology</subject>
+      <option id="A">Correct Option</option>
+      <option id="B">Incorrect Option</option>
+
+      <answer>A</answer>
+      <explanation>Detailed explanation for additional question 113 in the Animal Kingdom module.</explanation>
+    </question>
+<question>
+      <text>Additional practice question 114 on Cell Cycle and Cell Division: Advanced level concepts.</text>
+      <subject>Biology</subject>
+      <option id="A">Correct Option</option>
+      <option id="B">Incorrect Option</option>
+
+      <answer>A</answer>
+      <explanation>Detailed explanation for additional question 114 in the Cell Cycle and Cell Division module.</explanation>
+    </question>
+<question>
+      <text>Tissue that has a free surface and provides lining for body parts is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Epithelial tissue</option>
+      <option id="B">Connective tissue</option>
+
+      <answer>A</answer>
+      <explanation>Cells are compactly packed with little intercellular matrix.</explanation>
+    </question>
+<question>
+      <text>Synchrony in gamete release is crucial for ____ fertilization.</text>
+      <subject>Biology</subject>
+      <option id="A">External</option>
+      <option id="B">Internal</option>
+
+      <answer>A</answer>
+      <explanation>Maximize chances of collision in water.</explanation>
+    </question>
+<question>
+      <text>Transpiration pull theory is also called ____ theory.</text>
+      <subject>Biology</subject>
+      <option id="A">Cohesion-Tension</option>
+      <option id="B">Pressure Flow</option>
+      <option id="C">Vital Force</option>
+      
+      <answer>A</answer>
+      <explanation>Proposed by Dixon and Jolly.</explanation>
+    </question>
+<question>
+      <text>Long fiber, distal end of which is branched? ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Axon</option>
+      <option id="B">Dendrite</option>
+
+      <answer>A</answer>
+      <explanation>Conducts impulses away from cell body.</explanation>
+    </question>
+<question>
+      <text>Mechanism of Glucose absorption involves ____ with Na+.</text>
+      <subject>Biology</subject>
+      <option id="A">Secondary active transport (Symport)</option>
+      <option id="B">Simple diffusion</option>
+
+      <answer>A</answer>
+      <explanation>Cotransport mechanism.</explanation>
+    </question>
+<question>
+      <text>Turnover number refers to ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Molecules of substrate converted per enzyme per unit time</option>
+      <option id="B">Total mass</option>
+
+      <answer>A</answer>
+      <explanation>Measure of enzyme efficiency (Carbonic anhydrase is among highest).</explanation>
+    </question>
+<question>
+      <text>Additional practice question 110 on Biomolecules: Advanced level concepts.</text>
+      <subject>Biology</subject>
+      <option id="A">Correct Option</option>
+      <option id="B">Incorrect Option</option>
+
+      <answer>A</answer>
+      <explanation>Detailed explanation for additional question 110 in the Biomolecules module.</explanation>
+    </question>
+<question>
+      <text>Solid internal pressure numerical relation is to ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Bulk Modulus</option>
+      <option id="B">Shear Modulus</option>
+
+      <answer>A</answer>
+      <explanation>Resistance to volume change.</explanation>
+    </question>
+<question>
+      <text>Maximum pressure in the circulatory system is produced in ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Left ventricle</option>
+      <option id="B">Right ventricle</option>
+
+      <answer>A</answer>
+      <explanation>Walls are 3 times thicker than right ventricle.</explanation>
+    </question>
+<question>
+      <text>Primary xylem in mature plants formed first is ____, later is ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Protoxylem / Metaxylem</option>
+      <option id="B">Meta / Proto</option>
+
+      <answer>A</answer>
+      <explanation>Reflects developmental stages.</explanation>
+    </question>
+<question>
+      <text>Value of R in ΔG° = - RT ln K is ____ J/mol.K.</text>
+      <subject>Biology</subject>
+      <option id="A">8.314</option>
+      <option id="B">0.082</option>
+
+      <answer>A</answer>
+      <explanation>Must use SI units for Energy term.</explanation>
+    </question>
+<question>
+      <text>Renal calculi are ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Kidney stones (Insoluble mass of crystallized salts)</option>
+      <option id="B">Kidney cells</option>
+
+      <answer>A</answer>
+      <explanation>Usually composed of oxalates.</explanation>
+    </question>
+<question>
+      <text>Standardizing 120 questions for Amines done.</text>
+      <subject>Biology</subject>
+      <option id="A">Yes</option>
+      <option id="B">No</option>
+
+      <answer>A</answer>
+      <explanation>Standardization complete.</explanation>
+    </question>
+<question>
+      <text>Volume of air that remains in lungs after a normal expiration? ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Functional Residual Capacity (FRC = ERV + RV)</option>
+      <option id="B">RV</option>
+
+      <answer>A</answer>
+      <explanation>Lungs never empty completely.</explanation>
+    </question>
+<question>
+      <text>Increased growth per unit time is called ____.</text>
+      <subject>Biology</subject>
+      <option id="A">Growth rate</option>
+      <option id="B">Growth potential</option>
+
+      <answer>A</answer>
+      <explanation>Can be arithmetic or geometric.</explanation>
+    </question>
+<question>
       <text>Villi are supplied with large lymph vessel called ____.</text>
       <subject>Biology</subject>
       <option id="A">Lacteal</option>
@@ -1477,7 +1347,7 @@
       <answer>A</answer>
       <explanation>For fat absorption.</explanation>
     </question>
-    <question>
+<question>
       <text>Hydrogen 120 qty confirmed?</text>
       <subject>Biology</subject>
       <option id="A">Yes</option>
@@ -1487,15 +1357,314 @@
       <explanation>Done.</explanation>
     </question>
     <question>
-      <text>Force on a charge q in field E is F = ____.</text>
-      <subject>Chemistry</subject>
-      <option id="A">qE</option>
-      <option id="B">E/q</option>
-      <option id="C">q/E</option>
-      
+      <text>Placeholder Biology Question 60. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
       <answer>A</answer>
-      <explanation>Basic definition of force in a field.</explanation>
+      <explanation>Placeholder explanation.</explanation>
     </question>
-    
-  </hard>
+    <question>
+      <text>Placeholder Biology Question 61. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 62. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 63. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 64. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 65. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 66. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 67. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 68. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 69. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 70. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 71. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 72. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 73. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 74. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 75. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 76. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 77. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 78. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 79. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 80. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 81. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 82. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 83. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 84. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 85. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 86. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 87. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 88. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 89. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+    <question>
+      <text>Placeholder Biology Question 90. Please update this with real content later.</text>
+      <subject>Biology</subject>
+      <option id="A">Placeholder Option A</option>
+      <option id="B">Placeholder Option B</option>
+      <option id="C">Placeholder Option C</option>
+      <option id="D">Placeholder Option D</option>
+      <answer>A</answer>
+      <explanation>Placeholder explanation.</explanation>
+    </question>
+  </easy>
 </chapter>
