@@ -46,7 +46,6 @@ const navItems = [
   { name: 'Leaderboard', href: '/dashboard/leaderboard', icon: Target, proOnly: false },
   { name: 'Repository', href: '/dashboard/repository', icon: Archive, proOnly: true },
   { name: 'AI Tutor', href: '/dashboard/ai-tutor', icon: BrainCircuit, proOnly: false },
-  { name: 'Affiliate Hub', href: '/dashboard/affiliate', icon: Users, proOnly: false },
 ];
 
 const bottomNavItems = [
