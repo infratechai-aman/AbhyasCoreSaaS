@@ -77,11 +77,20 @@ export default function PerformancePage() {
         const accuracy = attempted > 0 ? (correct / attempted) * 100 : 0;
         const avgPace = attempted > 0 ? totalTime / attempted : 0;
         
-        // AIR projection algorithm
-        let simulatedAir = 32180;
-        if (accuracy > 80) simulatedAir = 3218;
-        if (accuracy > 90) simulatedAir = 450;
-        if (accuracy < 50 && accuracy > 0) simulatedAir = 150000;
+        // AIR projection algorithm (Dynamic scaling based on accuracy)
+        let simulatedAir = 0;
+        if (attempted > 0) {
+          if (accuracy >= 95) simulatedAir = Math.floor(100 - (accuracy - 95) * 19); 
+          else if (accuracy >= 90) simulatedAir = Math.floor(500 - (accuracy - 90) * 80); 
+          else if (accuracy >= 80) simulatedAir = Math.floor(5000 - (accuracy - 80) * 450); 
+          else if (accuracy >= 70) simulatedAir = Math.floor(30000 - (accuracy - 70) * 2500); 
+          else if (accuracy >= 60) simulatedAir = Math.floor(80000 - (accuracy - 60) * 5000); 
+          else if (accuracy >= 50) simulatedAir = Math.floor(200000 - (accuracy - 50) * 12000); 
+          else if (accuracy >= 40) simulatedAir = Math.floor(400000 - (accuracy - 40) * 20000); 
+          else simulatedAir = Math.floor(600000 - (accuracy) * 5000); 
+          
+          if (simulatedAir < 1) simulatedAir = 1;
+        }
 
         setMetrics({
            totalQuestions: attempted,
