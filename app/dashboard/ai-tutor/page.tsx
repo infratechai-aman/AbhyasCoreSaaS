@@ -146,7 +146,7 @@ export default function AITutorPage() {
                 />
               </div>
               {!canUseAITutor && !isPro && (
-                <Link href="/dashboard?checkout=Pro%20Monthly">
+                <Link href="/dashboard?checkout=Pro%20Monthly&direct=1">
                   <button className="flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-indigo-600 text-white rounded-lg md:rounded-xl text-[11px] md:text-[12px] font-bold hover:bg-indigo-700 transition-colors shadow-md">
                     <Crown className="w-3.5 h-3.5" /> Upgrade
                   </button>

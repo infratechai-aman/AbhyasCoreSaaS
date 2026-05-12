@@ -87,10 +87,13 @@ function DashboardContent() {
   // Pro features check — use centralized hook that handles expiry
   const { isPro: isPremium } = usePremium();
 
-  const handleCheckout = async (planType: "monthly" | "yearly" = "monthly") => {
+  const handleCheckout = async (planType: "monthly" | "yearly" = "monthly", skipTrial: boolean = false) => {
     if (isDebouncing) return;
     setIsDebouncing(true);
     setTimeout(() => setIsDebouncing(false), 3000); // 3-second lockout
+
+    // Determine if this is a direct purchase (no trial)
+    const isDirect = skipTrial || !!userData?.referredBy;
 
     try {
       setIsProcessingPayment(true);
@@ -98,7 +101,7 @@ function DashboardContent() {
       const res = await authenticatedFetch("/api/payment/create-subscription", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ planType }),
+        body: JSON.stringify({ planType, skipTrial }),
       });
       const data = await res.json();
 
@@ -108,13 +111,15 @@ function DashboardContent() {
         return;
       }
 
+      const priceLabel = planType === 'yearly' ? '399/year' : '49/month';
+
       openCheckout({
         type: "subscription",
         subscriptionId: data.subscriptionId,
         name: "AbhyasCore Pro",
-        description: userData?.referredBy 
-          ? `AbhyasCore Pro — ₹${planType === 'yearly' ? '399/year' : '49/month'} with autopay`
-          : `₹7 for 7-day trial, then ₹${planType === 'yearly' ? '399/year' : '49/month'}`,
+        description: isDirect
+          ? `AbhyasCore Pro — ₹${priceLabel} with autopay`
+          : `₹7 for 7-day trial, then ₹${priceLabel}`,
         prefill: {
           name: userData?.displayName || userData?.name || "Aspirant",
           email: userData?.email || "",
@@ -130,7 +135,7 @@ function DashboardContent() {
 
           setIsProcessingPayment(false);
           if (verifyData.success) {
-            setToast({ message: `Payment successful! Your ${userData?.referredBy ? 'Pro plan' : '7-day Pro Trial'} is now active.`, type: "success" });
+            setToast({ message: `Payment successful! Your Pro plan is now active.`, type: "success" });
             setTimeout(() => window.location.reload(), 1500);
           } else {
             setToast({ message: "Payment verified but activation failed. Contact support.", type: "error" });
@@ -153,6 +158,7 @@ function DashboardContent() {
   const checkoutTriggered = useRef(false);
   const checkoutIntent = searchParams?.get("checkout");
   const isReferredFromUrl = searchParams?.get("referred") === "1";
+  const isDirectFromUrl = searchParams?.get("direct") === "1";
   useEffect(() => {
     // IMPORTANT: Wait until user session and userData are fully loaded before triggering checkout
     if (!user || !userData) return;
@@ -168,11 +174,13 @@ function DashboardContent() {
         setSelectedProPlan(checkoutIntent === "Pro Yearly" ? "yearly" : "monthly");
         setTimeout(() => setShowProModal(true), 600);
       } else {
-        // General users coming from ₹7 trial — open Razorpay directly
+        // direct=1 means user clicked upgrade from sidebar/settings/lock-screen → skip trial
+        // No direct param means user came from onboarding ₹7 trial flow
+        const shouldSkipTrial = isDirectFromUrl;
         if (checkoutIntent === "Pro Monthly") {
-          setTimeout(() => handleCheckout("monthly"), 800);
+          setTimeout(() => handleCheckout("monthly", shouldSkipTrial), 800);
         } else if (checkoutIntent === "Pro Yearly") {
-          setTimeout(() => handleCheckout("yearly"), 800);
+          setTimeout(() => handleCheckout("yearly", shouldSkipTrial), 800);
         }
       }
     }
@@ -339,10 +347,10 @@ function DashboardContent() {
             </p>
             {!isPremium ? (
                <div className="flex flex-col gap-2 w-full">
-                 <button onClick={() => handleCheckout("monthly")} className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-700 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2">
+                 <button onClick={() => handleCheckout("monthly", true)} className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-700 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2">
                    <Zap className="w-3.5 h-3.5" /> Pro (₹49/mo)
                  </button>
-                 <button onClick={() => handleCheckout("yearly")} className="w-full py-2 rounded-lg bg-indigo-600 text-white text-[12px] font-bold tracking-wide hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2">
+                 <button onClick={() => handleCheckout("yearly", true)} className="w-full py-2 rounded-lg bg-indigo-600 text-white text-[12px] font-bold tracking-wide hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2">
                    <Crown className="w-3.5 h-3.5" /> Pro (₹399/yr)
                  </button>
                </div>
@@ -566,7 +574,7 @@ function DashboardContent() {
               <button 
                 onClick={() => {
                   setShowProModal(false);
-                  handleCheckout(selectedProPlan);
+                  handleCheckout(selectedProPlan, true);
                 }}
                 disabled={isProcessingPayment}
                 className="w-full flex items-center justify-center gap-2 py-3.5 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 disabled:opacity-50 text-white rounded-[14px] font-bold text-[15px] transition-all shadow-xl shadow-indigo-500/25 hover:scale-[1.01]"

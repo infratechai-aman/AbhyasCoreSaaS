@@ -23,7 +23,7 @@ export async function POST(req: Request) {
 
     const body = await parseBodyWithLimit(req, '256kb');
     if (body instanceof NextResponse) return body;
-    const { planType = 'monthly' } = body;
+    const { planType = 'monthly', skipTrial = false } = body;
 
     // Use authenticated user's identity — ignore client-supplied userId/email
     const userId = authResult.uid;
@@ -70,9 +70,9 @@ export async function POST(req: Request) {
       );
     }
 
-    // Referred users: skip trial entirely, go straight to full plan with autopay
-    // Non-referred users: ₹7 upfront for 7-day trial, then auto-renew at plan price
-    if (isReferred) {
+    // Referred users OR direct purchase: skip trial, go straight to full plan
+    // Otherwise: ₹7 upfront for 7-day trial, then auto-renew at plan price
+    if (isReferred || skipTrial) {
       const subscription = await razorpay.subscriptions.create({
         plan_id: planId,
         customer_notify: 1,

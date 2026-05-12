@@ -203,7 +203,7 @@ export default function SettingsPage() {
               {/* Change Plan Row */}
               {isPro && !isYearly && (
                 <button 
-                  onClick={() => window.location.href = "/dashboard?checkout=Pro Yearly"}
+                  onClick={() => window.location.href = "/dashboard?checkout=Pro Yearly&direct=1"}
                   className="mx-6 mb-4 w-[calc(100%-48px)] flex items-center justify-between p-4 rounded-xl border border-slate-200 hover:bg-slate-50 transition-colors group"
                 >
                   <div>
@@ -217,7 +217,7 @@ export default function SettingsPage() {
               {!isPro && (
                 <div className="mx-6 mb-4 space-y-2">
                   <button 
-                    onClick={() => window.location.href = "/dashboard?checkout=Pro Monthly"}
+                    onClick={() => window.location.href = "/dashboard?checkout=Pro Monthly&direct=1"}
                     className="w-full flex items-center justify-between p-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white transition-colors group"
                   >
                     <div className="text-left">

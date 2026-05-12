@@ -66,13 +66,13 @@ export function ProLockScreen({ featureName, description, isTrialExpired }: ProL
 
         {/* CTA */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mx-auto w-full">
-          <Link href="/dashboard?checkout=Pro%20Monthly" className="w-full sm:w-auto">
+          <Link href="/dashboard?checkout=Pro%20Monthly&direct=1" className="w-full sm:w-auto">
             <button className="w-full px-6 py-3.5 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white rounded-2xl font-bold text-[14px] shadow-xl shadow-indigo-600/25 transition-all hover:scale-[1.02] hover:-translate-y-0.5 flex items-center justify-center gap-2">
               <Zap className="w-4 h-4" />
               Pro (₹49/mo)
             </button>
           </Link>
-          <Link href="/dashboard?checkout=Pro%20Yearly" className="w-full sm:w-auto">
+          <Link href="/dashboard?checkout=Pro%20Yearly&direct=1" className="w-full sm:w-auto">
             <button className="w-full px-6 py-3.5 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white rounded-2xl font-bold text-[14px] shadow-xl shadow-indigo-600/25 transition-all hover:scale-[1.02] hover:-translate-y-0.5 flex items-center justify-center gap-2">
               <Crown className="w-4 h-4" />
               Pro (₹399/yr)
@@ -81,7 +81,7 @@ export function ProLockScreen({ featureName, description, isTrialExpired }: ProL
         </div>
 
         <p className="mt-4 text-[11px] font-medium text-slate-400">
-          Start with a ₹7 Trial for 7 days • Cancel anytime
+          Secure checkout • Cancel anytime • Instant activation
         </p>
       </div>
     </div>
