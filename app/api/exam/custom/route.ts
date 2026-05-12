@@ -164,42 +164,21 @@ export async function GET(request: Request) {
             return order.indexOf(a) - order.indexOf(b);
         });
 
-        const quotas: Record<string, number> = {};
-        subjects.forEach(s => quotas[s] = 0);
-        
-        let remainingToAllocate = limit;
-        let subjectsWithQuestions = [...subjects];
+        // 1. Determine strict equal quota
+        const baseQuota = Math.floor(limit / subjects.length);
+        const remainder = limit % subjects.length;
 
-        while (remainingToAllocate > 0 && subjectsWithQuestions.length > 0) {
-            const share = Math.max(1, Math.floor(remainingToAllocate / subjectsWithQuestions.length));
-            const nextSubjects: string[] = [];
+        const quotas: Record<string, number> = {};
+        
+        // Assign base quota (plus remainder distribution to early subjects)
+        subjects.forEach((s, idx) => {
+            let target = baseQuota;
+            if (idx < remainder) target += 1;
             
-            for (const subject of subjectsWithQuestions) {
-                const available = questionsBySubject[subject].length;
-                const currentQuota = quotas[subject];
-                
-                if (available > currentQuota) {
-                    const toAdd = Math.min(share, available - currentQuota);
-                    const actualAdd = Math.min(toAdd, remainingToAllocate);
-                    quotas[subject] += actualAdd;
-                    remainingToAllocate -= actualAdd;
-                    
-                    if (quotas[subject] < available) {
-                        nextSubjects.push(subject);
-                    }
-                }
-            }
-            
-            if (subjectsWithQuestions.length === nextSubjects.length) {
-                if (remainingToAllocate > 0 && remainingToAllocate < nextSubjects.length) {
-                    for (let i = 0; i < remainingToAllocate; i++) {
-                        quotas[nextSubjects[i]]++;
-                    }
-                    remainingToAllocate = 0;
-                }
-            }
-            subjectsWithQuestions = nextSubjects;
-        }
+            // Cap at available questions. If available is less than target, they just get what's available.
+            // We strictly DO NOT redistribute the deficit to other subjects to maintain visual equality in the palette.
+            quotas[s] = Math.min(target, questionsBySubject[s].length);
+        });
 
         const finalQuestionsArray: any[] = [];
         subjects.forEach(subject => {
