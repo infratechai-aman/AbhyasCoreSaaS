@@ -58,14 +58,40 @@ export async function GET(request: Request) {
       return timeB - timeA;
     });
 
-    // 3. Calculate stats
+    // 3. Calculate stats + finance
+    const now = new Date();
+    const todayStr = now.toISOString().split("T")[0]; // "2026-05-12"
+    const weekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+    const monthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+
     let totalSignups = referredUsers.length;
     let paidConversions = 0;
+    let totalRevenue = 0;
+    let signupsToday = 0;
+    let signupsThisWeek = 0;
+    let signupsThisMonth = 0;
+
+    // Plan pricing map (in ₹)
+    const planPricing: Record<string, number> = {
+      "Pro Monthly": 49,
+      "Pro Yearly": 399,
+      "Pro Weekly": 7,
+    };
     
     // Process recent signups (masking emails for privacy)
     const recentSignups = referredUsers.map((user) => {
       const isPaid = user.subscription?.status === "active" && user.subscription?.plan && user.subscription.plan !== "Free";
-      if (isPaid) paidConversions++;
+      if (isPaid) {
+        paidConversions++;
+        const planName = user.subscription?.plan || "";
+        totalRevenue += planPricing[planName] || 49; // default to ₹49 if unknown
+      }
+
+      // Time-based counts
+      const createdDate = new Date(user.createdAt || 0);
+      if (user.createdAt && user.createdAt.startsWith(todayStr)) signupsToday++;
+      if (createdDate >= weekAgo) signupsThisWeek++;
+      if (createdDate >= monthAgo) signupsThisMonth++;
 
       // Mask email: a***@gmail.com
       const emailParts = user.email ? user.email.split("@") : ["unknown", "unknown"];
@@ -83,6 +109,7 @@ export async function GET(request: Request) {
     });
 
     const conversionRate = totalSignups > 0 ? ((paidConversions / totalSignups) * 100).toFixed(1) : "0.0";
+    const creatorEarnings = Math.round(totalRevenue * 0.40); // 40% commission
 
     return NextResponse.json({
       success: true,
@@ -93,7 +120,14 @@ export async function GET(request: Request) {
         totalSignups,
         paidConversions,
         conversionRate,
-        recentSignups: recentSignups.slice(0, 50), // Send only last 50
+        // Finance
+        totalRevenue,
+        creatorEarnings,
+        // Time-based referrals
+        signupsToday,
+        signupsThisWeek,
+        signupsThisMonth,
+        recentSignups: recentSignups.slice(0, 50),
       }
     });
 

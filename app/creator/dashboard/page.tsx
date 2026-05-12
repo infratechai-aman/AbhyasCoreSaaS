@@ -11,7 +11,12 @@ import {
   Link2 as LinkIcon,
   Copy,
   CheckCircle2,
-  Lock
+  Lock,
+  IndianRupee,
+  Wallet,
+  CalendarDays,
+  CalendarRange,
+  Calendar
 } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
 import { authenticatedFetch } from "@/lib/api";
@@ -149,7 +154,77 @@ export default function AffiliateHubPage() {
          </div>
       </motion.div>
 
-      {/* Metrics Grid */}
+      {/* ═══════ FINANCE SECTION ═══════ */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.05 }}
+        className="mb-8 rounded-[24px] border border-emerald-200/80 bg-gradient-to-r from-emerald-50/40 via-white to-teal-50/40 p-6 sm:p-8 shadow-sm relative overflow-hidden"
+      >
+        <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none text-emerald-900">
+          <IndianRupee className="w-40 h-40" />
+        </div>
+        <div className="flex items-center gap-2 mb-6 relative z-10">
+          <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600">
+            <Wallet className="h-4 w-4" />
+          </div>
+          <h2 className="text-[15px] font-bold text-slate-900 uppercase tracking-widest">Earnings</h2>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 relative z-10">
+          <div className="rounded-2xl bg-white border border-emerald-100 p-5 shadow-sm">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1">Total Revenue Generated</p>
+            <div className="flex items-baseline gap-1">
+              <span className="text-[11px] font-bold text-slate-400">₹</span>
+              <span className="font-display text-[36px] font-bold tracking-tight text-slate-900">{data.totalRevenue?.toLocaleString("en-IN") || 0}</span>
+            </div>
+            <p className="text-[11px] text-slate-400 mt-1 font-medium">From {data.paidConversions} paid conversions</p>
+          </div>
+
+          <div className="rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 p-5 shadow-lg shadow-emerald-500/20 text-white">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-emerald-100/80 mb-1">Your Earnings (40%)</p>
+            <div className="flex items-baseline gap-1">
+              <span className="text-[11px] font-bold text-emerald-200">₹</span>
+              <span className="font-display text-[36px] font-bold tracking-tight">{data.creatorEarnings?.toLocaleString("en-IN") || 0}</span>
+            </div>
+            <p className="text-[11px] text-emerald-100/70 mt-1 font-medium">Commission rate: 40%</p>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* ═══════ TIME-BASED REFERRAL CARDS ═══════ */}
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-3 mb-8">
+        {[
+          { label: "Today", value: data.signupsToday ?? 0, icon: CalendarDays, color: "text-sky-600", bg: "bg-sky-50", border: "border-sky-100", gradient: "from-sky-500 to-blue-500" },
+          { label: "This Week", value: data.signupsThisWeek ?? 0, icon: CalendarRange, color: "text-violet-600", bg: "bg-violet-50", border: "border-violet-100", gradient: "from-violet-500 to-purple-500" },
+          { label: "This Month", value: data.signupsThisMonth ?? 0, icon: Calendar, color: "text-amber-600", bg: "bg-amber-50", border: "border-amber-100", gradient: "from-amber-500 to-orange-500" },
+        ].map((stat, i) => {
+          const Icon = stat.icon;
+          return (
+            <motion.div
+              key={stat.label}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 + i * 0.08 }}
+              className={`group relative overflow-hidden rounded-[24px] border ${stat.border} bg-white p-6 shadow-sm hover:shadow-md transition-all`}
+            >
+              <div className="flex items-center justify-between relative z-10">
+                <div className={`flex h-12 w-12 items-center justify-center rounded-2xl ${stat.bg} ${stat.color}`}>
+                  <Icon className="h-5 w-5" />
+                </div>
+              </div>
+              <div className="mt-5 relative z-10">
+                <h3 className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Referrals {stat.label}</h3>
+                <span className="mt-1 block font-display text-[32px] font-bold tracking-tight text-slate-900">
+                  {stat.value}
+                </span>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+
+      {/* ═══════ OVERVIEW METRICS ═══════ */}
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-3 mb-8">
         {[
           { label: "Total Signups", value: data.totalSignups, icon: Users, color: "text-indigo-600", bg: "bg-indigo-50", border: "border-indigo-100" },
@@ -162,7 +237,7 @@ export default function AffiliateHubPage() {
               key={stat.label}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1 }}
+              transition={{ delay: 0.2 + i * 0.08 }}
               className={`group relative overflow-hidden rounded-[24px] border ${stat.border} bg-white p-6 shadow-sm hover:shadow-md transition-all`}
             >
               <div className="flex items-center justify-between relative z-10">
