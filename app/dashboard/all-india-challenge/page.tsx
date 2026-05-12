@@ -163,7 +163,6 @@ export default function AllIndiaChallengePagePage() {
             <h2 className="font-bold text-slate-900 flex items-center gap-2">
               <Crown className="w-4 h-4 text-amber-500" /> Last Week&apos;s Leaderboard
             </h2>
-            <span className="text-[10px] font-bold text-amber-600/70 bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-md uppercase tracking-wider">Sample Data</span>
           </div>
           <div className="divide-y divide-slate-50">
             {leaderboard.map((entry) => (
