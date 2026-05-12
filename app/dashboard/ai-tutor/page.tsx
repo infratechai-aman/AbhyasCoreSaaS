@@ -177,7 +177,7 @@ export default function AITutorPage() {
                    </div>
                 </div>
                 <div className="hidden sm:flex gap-2">
-                   <span className="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-500 text-[10px] uppercase font-bold tracking-wider rounded-lg">Model: GPT-4o Mini</span>
+                   <span className="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-500 text-[10px] uppercase font-bold tracking-wider rounded-lg">Model: OpenAI</span>
                 </div>
              </div>
              
@@ -254,9 +254,12 @@ export default function AITutorPage() {
                      onChange={(e) => setQuery(e.target.value)}
                      onKeyDown={(e) => e.key === "Enter" && handleSend(query)}
                      placeholder="Message AbhyasCore..." 
-                     className="w-full h-14 bg-slate-50 border border-slate-200 rounded-2xl pl-12 pr-16 text-[14px] font-medium text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all placeholder:text-slate-400 shadow-inner disabled:opacity-50" 
+                     className="w-full h-14 bg-slate-50 border border-slate-200 rounded-2xl pl-12 pr-32 text-[14px] font-medium text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all placeholder:text-slate-400 shadow-inner disabled:opacity-50" 
                      disabled={generating || !canUseAITutor}
                    />
+                   <div className="absolute right-14 flex items-center gap-1.5 px-2.5 py-1 bg-slate-200/50 rounded-lg text-[10px] font-bold text-slate-500 hidden sm:flex">
+                     <span>{(remainingAITokens / 1000).toFixed(0)}k / {(limits.aiTokensPerDay / 1000).toFixed(0)}k</span>
+                   </div>
                    <button 
                       onClick={() => handleSend(query)}
                       disabled={generating || !canUseAITutor} 
