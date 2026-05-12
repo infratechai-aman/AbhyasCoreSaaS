@@ -39,7 +39,7 @@ const getTierDistribution = (tier: number, total: number) => {
     return {
         easy: Math.round(total * e),
         medium: Math.round(total * m),
-        hard: total - Math.round(total * e) - Math.round(total * m)
+        hard: Math.max(0, total - Math.round(total * e) - Math.round(total * m))
     };
 };
 
