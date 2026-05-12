@@ -147,7 +147,7 @@ export async function GET(request: Request) {
             return `${now.getFullYear()}-W${weekNumber.toString().padStart(2, "0")}`;
           })();
 
-          // Store exam session + increment usage counter atomically
+          // Store exam session 
           const batch = adminDb.batch();
 
           batch.set(adminDb.collection("exam_sessions").doc(examSessionId), {
@@ -159,14 +159,7 @@ export async function GET(request: Request) {
             questionCount: finalQuestions.length,
             createdAt: new Date().toISOString(),
             expiresAt: new Date(Date.now() + 4 * 60 * 60 * 1000).toISOString(),
-          });
-
-          // HIGH-04 FIX: Atomically increment custom exam usage counters
-          batch.update(adminDb.collection("users").doc(authResult.uid), {
-            "usage.customExamsCreatedToday": FieldValue.increment(1),
-            "usage.customExamsCreatedWeek": FieldValue.increment(1),
-            "usage.lastTrackedDate": today,
-            "usage.lastTrackedWeek": currentWeek,
+            isCustom: true,
           });
 
           await batch.commit();

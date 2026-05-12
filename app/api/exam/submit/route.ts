@@ -146,11 +146,26 @@ export async function POST(request: Request) {
     });
 
     // Increment daily exam counter atomically (Fix #4: TOCTOU race prevention)
-    batch.update(userRef, {
+    const updateData: any = {
       "usage.examsAttemptedToday": FieldValue.increment(1),
       "usage.lastTrackedDate": today,
       [`usage.completedExamIds`]: FieldValue.arrayUnion(session.chapterId),
-    });
+    };
+
+    if (session.isCustom) {
+      const currentWeek = (() => {
+        const now = new Date();
+        const oneJan = new Date(now.getFullYear(), 0, 1);
+        const days = Math.floor((now.getTime() - oneJan.getTime()) / 86_400_000);
+        const weekNumber = Math.ceil((days + oneJan.getDay() + 1) / 7);
+        return `${now.getFullYear()}-W${weekNumber.toString().padStart(2, "0")}`;
+      })();
+      updateData["usage.customExamsCreatedToday"] = FieldValue.increment(1);
+      updateData["usage.customExamsCreatedWeek"] = FieldValue.increment(1);
+      updateData["usage.lastTrackedWeek"] = currentWeek;
+    }
+
+    batch.update(userRef, updateData);
 
     await batch.commit();
 
