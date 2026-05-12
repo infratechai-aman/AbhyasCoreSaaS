@@ -25,7 +25,7 @@ export async function POST(request: Request) {
   try {
     const body = await parseBodyWithLimit(request, '128kb');
     if (body instanceof NextResponse) return body;
-    const { code, creator } = body;
+    const { code, creator, ownerEmail } = body;
 
     if (!code || typeof code !== "string") {
       return NextResponse.json({ error: "Missing promo code." }, { status: 400 });
@@ -45,6 +45,7 @@ export async function POST(request: Request) {
     await adminDb.collection("promo_codes").doc(codeId).set({
       active: true,
       creator: creator || codeId,
+      ownerEmail: ownerEmail ? ownerEmail.trim().toLowerCase() : null,
       createdAt: new Date().toISOString(),
       maxUses: 500,      // Limit total referrals per code
       currentUses: 0,    // Atomically incremented on each use
@@ -56,7 +57,7 @@ export async function POST(request: Request) {
     logAdminAction({
       adminUid: authResult.uid,
       action: "create_promo_code",
-      details: { code: codeId, creator: creator || codeId, link },
+      details: { code: codeId, creator: creator || codeId, ownerEmail: ownerEmail || null, link },
     });
 
     return NextResponse.json({

@@ -1,0 +1,98 @@
+import { NextResponse } from "next/server";
+import { requireAuth } from "@/lib/auth-middleware";
+import { adminDb } from "@/lib/firebase-admin";
+
+/**
+ * GET /api/creator/referrals
+ * Fetches referral statistics for the currently logged-in creator.
+ */
+export async function GET(request: Request) {
+  const authResult = await requireAuth(request);
+  if (authResult instanceof NextResponse) return authResult;
+
+  if (!adminDb) {
+    return NextResponse.json({ error: "Server not configured." }, { status: 500 });
+  }
+
+  try {
+    const userEmail = authResult.email.toLowerCase();
+
+    // 1. Find if the user owns any promo code
+    const codesSnapshot = await adminDb
+      .collection("promo_codes")
+      .where("ownerEmail", "==", userEmail)
+      .limit(1)
+      .get();
+
+    if (codesSnapshot.empty) {
+      return NextResponse.json(
+        { isCreator: false, message: "No promo codes assigned to this account." },
+        { status: 404 }
+      );
+    }
+
+    const codeDoc = codesSnapshot.docs[0];
+    const codeId = codeDoc.id;
+    const codeData = codeDoc.data();
+
+    // 2. Find all users referred by this code
+    const usersSnapshot = await adminDb
+      .collection("users")
+      .where("referredBy", "==", codeId)
+      .orderBy("createdAt", "desc")
+      .get();
+
+    const referredUsers = usersSnapshot.docs.map((doc) => {
+      const data = doc.data();
+      return {
+        id: doc.id,
+        email: data.email,
+        createdAt: data.createdAt,
+        subscription: data.subscription,
+      };
+    });
+
+    // 3. Calculate stats
+    let totalSignups = referredUsers.length;
+    let paidConversions = 0;
+    
+    // Process recent signups (masking emails for privacy)
+    const recentSignups = referredUsers.map((user) => {
+      const isPaid = user.subscription?.status === "active" && user.subscription?.plan && user.subscription.plan !== "Free";
+      if (isPaid) paidConversions++;
+
+      // Mask email: a***@gmail.com
+      const emailParts = user.email ? user.email.split("@") : ["unknown", "unknown"];
+      const maskedEmail = emailParts[0].length > 1 
+        ? `${emailParts[0].charAt(0)}***@${emailParts[1]}` 
+        : `***@${emailParts[1]}`;
+
+      return {
+        id: user.id,
+        maskedEmail,
+        createdAt: user.createdAt,
+        isPaid,
+        plan: user.subscription?.plan || "Free",
+      };
+    });
+
+    const conversionRate = totalSignups > 0 ? ((paidConversions / totalSignups) * 100).toFixed(1) : "0.0";
+
+    return NextResponse.json({
+      success: true,
+      isCreator: true,
+      data: {
+        codeId,
+        active: codeData.active,
+        totalSignups,
+        paidConversions,
+        conversionRate,
+        recentSignups: recentSignups.slice(0, 50), // Send only last 50
+      }
+    });
+
+  } catch (err: any) {
+    console.error("[creator/referrals] Error:", err);
+    return NextResponse.json({ error: "Failed to fetch referral data." }, { status: 500 });
+  }
+}

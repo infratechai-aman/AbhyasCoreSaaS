@@ -72,6 +72,7 @@ export default function SuperAdminDashboard() {
 
   // Link Generator state
   const [promoCodeName, setPromoCodeName] = useState("");
+  const [promoCodeEmail, setPromoCodeEmail] = useState("");
   const [promoCodeLink, setPromoCodeLink] = useState("");
 
   // Real data state
@@ -212,7 +213,7 @@ export default function SuperAdminDashboard() {
        const res = await authenticatedFetch("/api/admin/create-promo-code", {
          method: "POST",
          headers: { "Content-Type": "application/json" },
-         body: JSON.stringify({ code: promoCodeName.trim(), creator: promoCodeName }),
+         body: JSON.stringify({ code: promoCodeName.trim(), creator: promoCodeName, ownerEmail: promoCodeEmail.trim() }),
        });
        const data = await res.json();
 
@@ -566,20 +567,29 @@ export default function SuperAdminDashboard() {
               </div>
            </div>
 
-           <div className="flex items-center gap-3 mb-4 max-w-2xl relative z-10">
-              <div className="flex-1">
+            <div className="flex flex-col md:flex-row items-center gap-3 mb-4 max-w-2xl relative z-10">
+              <div className="flex-1 w-full">
                  <input 
                    type="text" 
                    value={promoCodeName}
                    onChange={e => setPromoCodeName(e.target.value)}
-                   placeholder="Enter Creator Name (e.g. PhysicsWallah)" 
+                   placeholder="Code Name (e.g. PhysicsWallah)" 
+                   className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium transition-all"
+                 />
+              </div>
+              <div className="flex-1 w-full">
+                 <input 
+                   type="email" 
+                   value={promoCodeEmail}
+                   onChange={e => setPromoCodeEmail(e.target.value)}
+                   placeholder="Creator Email (Optional)" 
                    className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl focus:border-indigo-500 outline-none text-[13px] font-medium transition-all"
                  />
               </div>
               <button 
                  onClick={handleGeneratePromoCode} 
                  disabled={promoLoading || !promoCodeName} 
-                 className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors shrink-0 flex items-center gap-2"
+                 className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-[13px] font-bold rounded-xl disabled:opacity-50 transition-colors shrink-0 flex items-center gap-2 w-full md:w-auto justify-center"
               >
                  <Sparkles className="w-4 h-4" /> 
                  {promoLoading && !promoCodeLink ? "Generating..." : "Generate & Copy"}
