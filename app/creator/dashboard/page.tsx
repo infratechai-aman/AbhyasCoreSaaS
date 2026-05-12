@@ -18,7 +18,7 @@ import { useAuth } from "@/lib/auth-context";
 import { authenticatedFetch } from "@/lib/api";
 
 export default function AffiliateHubPage() {
-  const { user } = useAuth();
+  const { user, logout } = useAuth();
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
@@ -34,6 +34,9 @@ export default function AffiliateHubPage() {
           if (res.status === 404) {
              setError("NOT_CREATOR");
           } else if (res.status === 401) {
+             try {
+                await logout();
+             } catch (e) {}
              window.location.href = "/creator/login";
           } else {
              setError(json.error || "Failed to load data.");
