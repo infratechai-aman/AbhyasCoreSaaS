@@ -40,7 +40,8 @@ export default function LoginPage() {
     try {
       if (!auth) throw new Error("Authentication service is not available.");
       await signInWithEmailAndPassword(auth, email, password);
-      router.push("/dashboard");
+      // Full page navigation to properly initialize auth context + Firestore listeners
+      window.location.href = "/dashboard";
     } catch (err: any) {
       let friendlyMessage = "Incorrect email or password. Please try again.";
       if (err.message) {
@@ -59,7 +60,7 @@ export default function LoginPage() {
     setLoading(true);
     try {
       await signInWithGoogle();
-      router.push("/dashboard");
+      window.location.href = "/dashboard";
     } catch (err: any) {
       setError(err?.message || "Google sign-in failed. Please try again.");
       setLoading(false);
