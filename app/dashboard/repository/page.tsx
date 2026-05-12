@@ -82,9 +82,14 @@ export default function RepositoryPage() {
                   ) : pastExams.map((exam) => {
                     const d = exam.timestamp?.toDate ? exam.timestamp.toDate() : new Date();
                     const dateStr = d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-                    const score = (exam.correctCount || 0) * 4 - ((exam.totalQuestions || 0) - (exam.correctCount || 0)) * 1; 
-                    const totalScore = (exam.totalQuestions || 30) * 4;
-                    const accuracy = Math.round(((exam.correctCount || 0) / (exam.totalQuestions || 1)) * 100);
+                    const correct = exam.correctCount || 0;
+                    const wrong = exam.wrongCount || 0;
+                    const attempted = correct + wrong;
+                    const totalQs = exam.questionCount || exam.totalQuestions || attempted || 30;
+                    
+                    const score = (correct * 4) - (wrong * 1); 
+                    const totalScore = totalQs * 4;
+                    const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
                     
                     return (
                     <div key={exam.id} className="grid grid-cols-[1.5fr_1fr_1fr_1fr_auto] gap-4 px-6 py-5 hover:bg-slate-50/80 transition-colors group items-center">
