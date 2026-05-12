@@ -21,8 +21,7 @@ import {
   Archive,
   Lock,
   Menu,
-  X,
-  Users
+  X
 } from "lucide-react";
 import { OnboardingModal } from "@/components/layout/onboarding-modal";
 import { usePremium } from "@/lib/hooks/usePremium";

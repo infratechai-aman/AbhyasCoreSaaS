@@ -6,7 +6,6 @@ import {
   Users,
   CreditCard,
   TrendingUp,
-  ArrowUpRight,
   Sparkles,
   ShieldAlert,
   Link2 as LinkIcon,
