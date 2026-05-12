@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { setDoc, doc } from "firebase/firestore";
-import { db } from "@/lib/firebase";
 import { useAuth } from "@/lib/auth-context";
 import { 
   Target, Activity, Atom, User, 
@@ -47,31 +45,30 @@ export function OnboardingModal() {
 
   // Final submit: save profile + optionally trigger checkout
   const handleFinalize = async (claimTrial: boolean, isReferred: boolean = false) => {
-    if (!user || !db || saving || !selectedExam) return;
+    if (!user || saving || !selectedExam) return;
     setSaving(true);
-    
-    const now = new Date();
 
     try {
-      await setDoc(doc(db, "users", user.uid), {
-        name: formData.name,
-        email: user.email,
-        academicClass: formData.academicClass,
-        targetExam: selectedExam,
-        createdAt: now.toISOString(),
-        streak: 0,
-        questionsSolved: 0,
-        mocksCompleted: 0,
-        usage: {
-          lastTrackedDate: now.toISOString().split("T")[0],
-          examsAttemptedToday: 0,
-          aiTokensUsedToday: 0,
-          customExamsCreatedToday: 0,
-          lastTrackedWeek: "",
-          customExamsCreatedWeek: 0,
-          completedExamIds: [],
-        }
-      }, { merge: true });
+      // Use server-side API to bypass Firestore rules for unverified-email users
+      const idToken = await user.getIdToken();
+      const res = await fetch("/api/onboarding", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${idToken}`,
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          academicClass: formData.academicClass,
+          targetExam: selectedExam,
+        }),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || "Failed to save profile.");
+      }
+
       if (isReferred) {
         // Referred users: force ₹49 checkout via Pro modal
         window.location.href = "/dashboard?checkout=Pro%20Monthly&referred=1";
