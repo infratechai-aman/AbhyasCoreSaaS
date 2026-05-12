@@ -70,13 +70,17 @@ export async function POST(req: Request) {
       );
     }
 
+    // Yearly plans: 10 renewals (10 years). Monthly: 120 renewals (10 years).
+    // Razorpay caps total_count at 100 per interval.
+    const totalCount = planType === 'yearly' ? 10 : 120;
+
     // Referred users OR direct purchase: skip trial, go straight to full plan
     // Otherwise: ₹7 upfront for 7-day trial, then auto-renew at plan price
     if (isReferred || skipTrial) {
       const subscription = await razorpay.subscriptions.create({
         plan_id: planId,
         customer_notify: 1,
-        total_count: 120,
+        total_count: totalCount,
         notes: {
           user_id: userId,
           user_email: userEmail,
