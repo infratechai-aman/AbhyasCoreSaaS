@@ -59,83 +59,92 @@ export default function RepositoryPage() {
         </div>
 
         {/* Exams List */}
-        <Card className="rounded-[32px] border-slate-200 bg-white p-2 md:p-4 overflow-hidden">
-          <div className="overflow-x-auto scrollbar-hide">
-             <div className="min-w-[700px]">
-                {/* Table Header */}
-                <div className="grid grid-cols-[1.5fr_1fr_1fr_1fr_auto] gap-4 px-6 py-4 border-b border-slate-100 text-[11px] font-bold text-slate-400 uppercase tracking-widest">
-                  <div>Examination</div>
-                  <div>Date & Time</div>
-                  <div>Score</div>
-                  <div>Accuracy & %ile</div>
-                  <div className="w-10"></div>
+        <Card className="rounded-[32px] border-slate-200 bg-white p-1 md:p-4 overflow-hidden mb-6">
+          <div className="w-full">
+            {/* Table Header (Desktop Only) */}
+            <div className="hidden md:grid grid-cols-[1.5fr_1fr_1fr_1fr_auto] gap-4 px-6 py-4 border-b border-slate-100 text-[11px] font-bold text-slate-400 uppercase tracking-widest">
+              <div>Examination</div>
+              <div>Date & Time</div>
+              <div>Score</div>
+              <div>Accuracy</div>
+              <div className="w-10"></div>
+            </div>
+
+            {/* Table Body */}
+            <div className="divide-y divide-slate-100/60">
+              {loading ? (
+                <div className="py-8 flex justify-center w-full">
+                   <Loader2 className="w-8 h-8 text-indigo-500 animate-spin" />
                 </div>
-
-                {/* Table Body */}
-                <div className="divide-y divide-slate-100/60">
-                  {loading ? (
-                    <div className="py-8 flex justify-center w-full">
-                       <Loader2 className="w-8 h-8 text-indigo-500 animate-spin" />
+              ) : pastExams.length === 0 ? (
+                <div className="py-12 px-6 text-center text-slate-400 font-medium">No previous examinations found. Please complete a mock test!</div>
+              ) : pastExams.map((exam) => {
+                const d = exam.timestamp?.toDate ? exam.timestamp.toDate() : new Date();
+                const dateStr = d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+                const correct = exam.correctCount || 0;
+                const wrong = exam.wrongCount || 0;
+                const attempted = correct + wrong;
+                const totalQs = exam.questionCount || exam.totalQuestions || attempted || 30;
+                
+                const score = (correct * 4) - (wrong * 1); 
+                const totalScore = totalQs * 4;
+                const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+                
+                return (
+                <div key={exam.id} className="flex flex-col md:grid md:grid-cols-[1.5fr_1fr_1fr_1fr_auto] gap-3 md:gap-4 px-5 md:px-6 py-5 hover:bg-slate-50/80 transition-colors group md:items-center relative">
+                  
+                  {/* Name & Type */}
+                  <div className="pr-10 md:pr-0">
+                    <div className="font-bold text-[15px] md:text-[14px] text-slate-900 mb-1.5 md:mb-1 leading-tight">{exam.chapterName || exam.chapterId || "Mock Test"}</div>
+                    <div className="flex items-center gap-2">
+                       <div className="text-[10px] font-bold text-indigo-600 bg-indigo-50 py-0.5 px-2 rounded-md inline-block uppercase tracking-wider">
+                         {exam.subject || "Full Syllabus"}
+                       </div>
+                       {/* Date on mobile inline with tag */}
+                       <div className="md:hidden flex items-center gap-1 text-[11px] text-slate-400 font-medium whitespace-nowrap">
+                         <Calendar className="w-3 h-3" /> {dateStr}
+                       </div>
                     </div>
-                  ) : pastExams.length === 0 ? (
-                    <div className="py-8 text-center text-slate-400 font-medium">No previous examinations found. Please complete a mock test!</div>
-                  ) : pastExams.map((exam) => {
-                    const d = exam.timestamp?.toDate ? exam.timestamp.toDate() : new Date();
-                    const dateStr = d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-                    const correct = exam.correctCount || 0;
-                    const wrong = exam.wrongCount || 0;
-                    const attempted = correct + wrong;
-                    const totalQs = exam.questionCount || exam.totalQuestions || attempted || 30;
-                    
-                    const score = (correct * 4) - (wrong * 1); 
-                    const totalScore = totalQs * 4;
-                    const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
-                    
-                    return (
-                    <div key={exam.id} className="grid grid-cols-[1.5fr_1fr_1fr_1fr_auto] gap-4 px-6 py-5 hover:bg-slate-50/80 transition-colors group items-center">
-                      
-                      {/* Name & Type */}
-                      <div>
-                        <div className="font-bold text-[14px] text-slate-900 mb-1">{exam.chapterName || exam.chapterId || "Mock Test"}</div>
-                        <div className="text-[11px] font-semibold text-indigo-500 bg-indigo-50 py-0.5 px-2 rounded-md inline-block">
-                          {exam.subject || "Full Syllabus"}
-                        </div>
-                      </div>
+                  </div>
 
-                      {/* Date */}
-                      <div className="flex items-center gap-1.5 text-sm text-slate-500 font-medium whitespace-nowrap">
-                        <Calendar className="w-3.5 h-3.5 text-slate-400" /> {dateStr}
-                      </div>
+                  {/* Date (Desktop Only) */}
+                  <div className="hidden md:flex items-center gap-1.5 text-sm text-slate-500 font-medium whitespace-nowrap">
+                    <Calendar className="w-3.5 h-3.5 text-slate-400" /> {dateStr}
+                  </div>
 
-                      {/* Score */}
-                      <div>
-                        <div className="text-[16px] font-bold text-slate-900">
-                          {score} <span className="text-slate-400 text-sm font-medium">/ {totalScore}</span>
-                        </div>
+                  {/* Score & Accuracy Container for Mobile */}
+                  <div className="flex md:contents items-center gap-8 mt-2 md:mt-0">
+                    {/* Score */}
+                    <div>
+                      <div className="text-[10px] md:hidden font-bold text-slate-400 uppercase tracking-widest mb-0.5">Score</div>
+                      <div className="text-[16px] font-bold text-slate-900">
+                        {score} <span className="text-slate-400 text-sm font-medium">/ {totalScore}</span>
                       </div>
-
-                      {/* Accuracy & Percentile */}
-                      <div>
-                        <div className="flex flex-col gap-1">
-                          <div className="flex items-center gap-1.5 text-sm font-semibold text-emerald-600">
-                            <Target className="w-3.5 h-3.5" /> {accuracy}%
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Action */}
-                      <div className="flex justify-end">
-                        <Link href={`/test-results/${exam.id}?dbRef=true`}>
-                           <button className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-100 text-slate-400 group-hover:bg-indigo-600 group-hover:text-white transition-all shadow-sm">
-                             <ChevronRight className="w-4 h-4" />
-                           </button>
-                        </Link>
-                      </div>
-
                     </div>
-                  )})}
+
+                    {/* Accuracy */}
+                    <div>
+                      <div className="text-[10px] md:hidden font-bold text-slate-400 uppercase tracking-widest mb-0.5">Accuracy</div>
+                      <div className="flex flex-col gap-1">
+                        <div className="flex items-center gap-1.5 text-sm font-bold text-emerald-600">
+                          <Target className="w-4 h-4 md:w-3.5 md:h-3.5" /> {accuracy}%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Action */}
+                  <div className="absolute right-4 top-5 md:relative md:right-0 md:top-0 flex justify-end">
+                    <Link href={`/test-results/${exam.id}?dbRef=true`}>
+                       <button className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-100 text-slate-400 group-hover:bg-indigo-600 group-hover:text-white transition-all shadow-sm">
+                         <ChevronRight className="w-4 h-4" />
+                       </button>
+                    </Link>
+                  </div>
+
                 </div>
-             </div>
+              )})}
+            </div>
           </div>
         </Card>
 
