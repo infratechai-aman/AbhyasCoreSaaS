@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { 
   BookOpen, 
   LayoutDashboard, 
@@ -19,7 +19,9 @@ import {
   Sparkles,
   Database,
   Archive,
-  Lock
+  Lock,
+  Menu,
+  X
 } from "lucide-react";
 import { OnboardingModal } from "@/components/layout/onboarding-modal";
 import { usePremium } from "@/lib/hooks/usePremium";
@@ -62,6 +64,7 @@ export function DashboardShell({
   const { user, userData, loading, logout } = useAuth();
   const { isPro, isTrial, trialDaysRemaining, plan } = usePremium();
   const hasRedirected = useRef(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     if (hasRedirected.current) return;
@@ -215,7 +218,7 @@ export function DashboardShell({
 
       {/* Mobile Bottom Navigation Bar */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 h-[60px] bg-white border-t border-slate-200 flex items-center justify-around z-50 px-1 shadow-[0_-4px_24px_rgba(0,0,0,0.03)] pb-[env(safe-area-inset-bottom)]">
-        {navItems.slice(0, 5).map((item) => {
+        {navItems.slice(0, 4).map((item) => {
           const Icon = item.icon;
           const active = isActive(item.href);
           
@@ -239,7 +242,53 @@ export function DashboardShell({
             </Link>
           );
         })}
+
+        <button
+          onClick={() => setIsMobileMenuOpen(true)}
+          className="flex flex-col items-center justify-center w-full h-full gap-1 transition-colors text-slate-400 hover:text-slate-600"
+        >
+          <Menu className={`h-[22px] w-[22px] stroke-2 ${isMobileMenuOpen ? "text-indigo-600" : ""}`} />
+          <span className={`text-[10px] tracking-wide font-medium ${isMobileMenuOpen ? "text-indigo-600 font-bold" : ""}`}>
+            Menu
+          </span>
+        </button>
       </nav>
+
+      {/* Mobile Drawer */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden fixed inset-0 z-[60] flex flex-col justify-end">
+          <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-sm" onClick={() => setIsMobileMenuOpen(false)} />
+          <div className="relative bg-white rounded-t-[32px] p-6 pb-10 shadow-2xl animate-in slide-in-from-bottom-full duration-300">
+            <div className="flex justify-between items-center mb-6">
+              <h3 className="font-display font-bold text-slate-900 text-[20px]">More Options</h3>
+              <button onClick={() => setIsMobileMenuOpen(false)} className="w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            
+            <div className="grid grid-cols-4 gap-4">
+               {navItems.slice(4).concat(bottomNavItems as any).map((item) => {
+                  const Icon = item.icon;
+                  return (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="flex flex-col items-center justify-start gap-2 p-3 pt-4 rounded-[20px] border border-slate-100 bg-slate-50/50 hover:bg-slate-100 transition-colors h-[84px]"
+                    >
+                      <Icon className="w-6 h-6 text-indigo-500" />
+                      <span className="text-[10px] font-bold text-slate-600 text-center leading-tight">{item.name}</span>
+                    </Link>
+                  );
+               })}
+            </div>
+            
+            <button onClick={handleLogout} className="mt-8 w-full flex items-center justify-center gap-2 py-3.5 rounded-xl border border-rose-100 bg-rose-50 hover:bg-rose-100 text-rose-600 font-bold text-[14px] transition-colors">
+              <LogOut className="w-4 h-4" /> Sign Out
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
