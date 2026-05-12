@@ -402,8 +402,7 @@ function CustomExamConsoleInner() {
                     if (exam === "NEET") {
                        if (i === 0) subjectHeader = "Physics";
                        if (i === 45) subjectHeader = "Chemistry";
-                       if (i === 90) subjectHeader = "Botany";
-                       if (i === 135) subjectHeader = "Zoology";
+                       if (i === 90) subjectHeader = "Biology";
                     } else {
                        if (i === 0) subjectHeader = "Physics";
                        if (i === 30) subjectHeader = "Chemistry";

@@ -45,7 +45,7 @@ export default function MockTestsPage() {
                {[
                  { title: "JEE Advanced 2026", type: "Paper 1 & 2", diff: "Hard", time: "6 Hours", qps: 108, color: "from-indigo-500 to-indigo-600", tag: "LIVE" },
                  { title: "JEE Mains Session 2", type: "Full Syllabus", diff: "Standard", time: "3 Hours", qps: 90, color: "from-cyan-500 to-blue-600" },
-                 { title: "NEET UG Mega Mock", type: "Botany + Zoology", diff: "Adaptive", time: "3h 20m", qps: 200, color: "from-emerald-500 to-teal-600" }
+                 { title: "NEET UG Mega Mock", type: "Biology", diff: "Adaptive", time: "3h 20m", qps: 200, color: "from-emerald-500 to-teal-600" }
                ].map((test, i) => (
                  <div key={i} className="group relative bg-white rounded-[24px] border border-slate-200/60 overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-xl hover:shadow-indigo-500/10 hover:border-indigo-200 transition-all duration-300 flex flex-col">
                     <div className={`h-2 w-full bg-gradient-to-r ${test.color}`} />

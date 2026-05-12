@@ -170,7 +170,7 @@ export default function CustomExamBuilder() {
                           className={`flex items-center justify-between p-3 rounded-xl border-2 transition-all ${selectedSubjects.includes(sub) ? 'border-emerald-500 bg-emerald-50' : 'border-slate-100 hover:border-slate-300'}`}
                         >
                           <span className={`text-[14px] font-bold ${selectedSubjects.includes(sub) ? 'text-emerald-700' : 'text-slate-600'}`}>
-                            {sub === "Biology" ? "Zoology & Botany" : sub}
+                            {sub}
                           </span>
                           {selectedSubjects.includes(sub) ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : <Circle className="w-5 h-5 text-slate-300" />}
                         </button>
