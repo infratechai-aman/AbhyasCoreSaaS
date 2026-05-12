@@ -26,8 +26,11 @@ export default function PyqArchivePage() {
               <History className="w-6 h-6 text-indigo-600" />
            </div>
            <div>
-              <h1 className="text-[28px] font-display font-bold text-slate-900">
+              <h1 className="text-[28px] font-display font-bold text-slate-900 flex flex-wrap items-center gap-3">
                 PYQ Archive
+                <span className="text-[10px] font-bold text-amber-600/70 bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-md uppercase tracking-wider mt-1 md:mt-0">
+                  Simulations • Real PYQs before June
+                </span>
               </h1>
               <p className="text-slate-500">
                 Full-length, historical {isNeet ? "NEET" : "JEE Main"} papers from 2010 to 2025.
