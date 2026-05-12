@@ -183,35 +183,47 @@ export async function GET(request: Request) {
             return order.indexOf(a) - order.indexOf(b);
         });
 
-        // 1. Determine strict quota based on weight
-        const totalWeight = subjects.reduce((sum, s) => sum + (s === "Biology" ? 2 : 1), 0);
-        const baseUnit = Math.floor(limit / totalWeight);
-        let remainder = limit % totalWeight;
-
-        const quotas: Record<string, number> = {};
-        
-        // Assign weighted quota
-        subjects.forEach((s) => {
-            let weight = s === "Biology" ? 2 : 1;
-            let target = baseUnit * weight;
-            
-            // Distribute remainder one by one (giving priority to heavier subjects if needed, though simple iteration is fine)
-            while (remainder > 0 && weight > 0) {
-               target += 1;
-               remainder -= 1;
-               weight -= 1;
-            }
-            
-            // Cap at available questions. If available is less than target, they just get what's available.
-            // We strictly DO NOT redistribute the deficit to other subjects to maintain visual equality in the palette.
-            quotas[s] = Math.min(target, questionsBySubject[s].length);
-        });
-
+        const isPyq = chapters.length === 1 && (chapters[0].startsWith("jee_") || chapters[0].startsWith("neet_"));
         const finalQuestionsArray: any[] = [];
-        subjects.forEach(subject => {
-            const shuffled = shuffleArray(questionsBySubject[subject]);
-            finalQuestionsArray.push(...shuffled.slice(0, quotas[subject]));
-        });
+        
+        if (isPyq) {
+            // For PYQs, do not apply quotas. Just sort them by subject and push them all.
+            subjects.forEach(subject => {
+                finalQuestionsArray.push(...questionsBySubject[subject]);
+            });
+            // Cap at the requested limit just in case
+            if (finalQuestionsArray.length > limit) {
+                finalQuestionsArray.length = limit;
+            }
+        } else {
+            // 1. Determine strict quota based on weight
+            const totalWeight = subjects.reduce((sum, s) => sum + (s === "Biology" ? 2 : 1), 0);
+            const baseUnit = Math.floor(limit / totalWeight);
+            let remainder = limit % totalWeight;
+    
+            const quotas: Record<string, number> = {};
+            
+            // Assign weighted quota
+            subjects.forEach((s) => {
+                let weight = s === "Biology" ? 2 : 1;
+                let target = baseUnit * weight;
+                
+                // Distribute remainder one by one
+                while (remainder > 0 && weight > 0) {
+                   target += 1;
+                   remainder -= 1;
+                   weight -= 1;
+                }
+                
+                // Cap at available questions
+                quotas[s] = Math.min(target, questionsBySubject[s].length);
+            });
+    
+            subjects.forEach(subject => {
+                const shuffled = shuffleArray(questionsBySubject[subject]);
+                finalQuestionsArray.push(...shuffled.slice(0, quotas[subject]));
+            });
+        }
 
         const finalQuestions = finalQuestionsArray.map((q: any, i: number) => ({
           ...q,
