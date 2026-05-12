@@ -8,7 +8,7 @@ import {
   Trophy, Target, Clock, Zap, RotateCcw, LayoutDashboard, 
   TrendingUp, AlertCircle, BookOpen, Download, Users, Dumbbell
 } from "lucide-react";
-import { LineChart, Line, XAxis, Tooltip, ResponsiveContainer, YAxis } from "recharts";
+import { LineChart, Line, XAxis, Tooltip, ResponsiveContainer, YAxis, AreaChart, Area, PieChart, Pie, Cell } from "recharts";
 // html2canvas and jspdf are loaded dynamically on demand (see downloadReport)
 // to avoid adding ~300kB to the initial page bundle.
 import { useAuth } from "@/lib/auth-context";
@@ -206,13 +206,13 @@ export default function TestResultsPage() {
               {/* Score Arc */}
               <div className="relative w-48 h-48 shrink-0 flex flex-col items-center justify-center">
                 <svg className="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 120 120">
-                  <circle cx="60" cy="60" r="50" fill="none" stroke="#f1f5f9" strokeWidth="12" />
+                  <circle cx="60" cy="60" r="46" fill="none" stroke="#f8fafc" strokeWidth="16" />
                   <circle 
-                    cx="60" cy="60" r="50" fill="none" 
+                    cx="60" cy="60" r="46" fill="none" 
                     stroke="url(#scoreGradient)" 
-                    strokeWidth="12" strokeLinecap="round"
-                    strokeDasharray={`${2 * Math.PI * 50}`}
-                    strokeDashoffset={`${2 * Math.PI * 50 * (1 - percentage / 100)}`}
+                    strokeWidth="16" strokeLinecap="round"
+                    strokeDasharray={`${2 * Math.PI * 46}`}
+                    strokeDashoffset={`${2 * Math.PI * 46 * (1 - percentage / 100)}`}
                     className="transition-all duration-1000 ease-out"
                   />
                   <defs>
@@ -222,70 +222,103 @@ export default function TestResultsPage() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <div className="text-center z-10">
-                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">ABHYASCORE</div>
-                  <div className="font-display text-[42px] font-bold text-slate-800 leading-none">{score}</div>
-                  <div className="text-[14px] text-slate-400 font-medium mt-1">/ {maxScore}</div>
+                <div className="text-center z-10 flex flex-col items-center justify-center w-[96px] h-[96px] bg-white rounded-full shadow-[0_2px_12px_rgba(0,0,0,0.06)] border border-slate-50 absolute">
+                  <div className="text-[8px] font-bold text-slate-500 uppercase tracking-widest mb-0.5">ABHYASCORE</div>
+                  <div className="font-display text-[32px] font-bold text-slate-900 leading-none tracking-tight">{score}</div>
+                  <div className="text-[11px] text-slate-400 font-bold mt-0.5">/ {maxScore}</div>
                 </div>
-                <div className="absolute -bottom-2 bg-indigo-600 text-white text-[12px] font-bold px-4 py-1 rounded-full shadow-md">
+                <div className="absolute -bottom-1 bg-indigo-600 text-white text-[11px] font-bold px-5 py-1.5 rounded-full shadow-lg border-[3px] border-white z-20">
                   {percentage}% Score
                 </div>
               </div>
 
-              <div className="flex-1 w-full text-center md:text-left">
-                <h2 className="font-display text-[26px] font-bold text-slate-900 mb-2 flex items-center justify-center md:justify-start gap-2">
-                  {percentage >= 70 ? "Excellent Effort! 🚀" : percentage >= 40 ? "Good Attempt! 📈" : "Keep Practicing! 💪"}
-                </h2>
-                <p className="text-slate-500 text-[14px] mb-6">
-                  Rough estimate based on <strong className="text-slate-700">{total}</strong> questions attempted in this drill.
-                </p>
+              <div className="flex-1 w-full flex flex-col justify-center">
+                <div className="mb-6 text-center md:text-left">
+                   <h2 className="font-display text-[24px] font-bold text-slate-900 mb-1.5 flex items-center justify-center md:justify-start gap-2">
+                     {percentage >= 70 ? "Excellent Effort! 🚀" : percentage >= 40 ? "Great Attempt! 🎉" : "Keep Practicing! 💪"}
+                   </h2>
+                   <p className="text-slate-500 text-[13px] font-medium">
+                     You've completed the test with strong effort and consistency.
+                   </p>
+                </div>
                 
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-                  <div className="bg-emerald-50/50 border border-emerald-100 rounded-2xl p-4 text-center">
-                    <div className="flex items-center justify-center gap-1.5 mb-1">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                      <span className="text-[12px] font-bold text-emerald-700">Correct</span>
+                  {/* Correct */}
+                  <div className="bg-white border border-emerald-100 rounded-[16px] p-4 text-center shadow-sm relative overflow-hidden group hover:border-emerald-200 transition-colors">
+                    <div className="absolute inset-0 bg-emerald-50/30 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <div className="relative z-10">
+                      <div className="flex items-center justify-center gap-1.5 mb-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-500" />
+                        <span className="text-[12px] font-bold text-slate-700">Correct</span>
+                      </div>
+                      <div className="text-[28px] font-display font-bold text-emerald-500 leading-none mb-1">{correct}</div>
+                      <div className="text-[10px] text-emerald-500 font-bold tracking-wide">+4 marks</div>
                     </div>
-                    <div className="text-[24px] font-display font-bold text-emerald-600">{correct}</div>
-                    <div className="text-[10px] text-emerald-500/70 font-medium mt-0.5">+4 marks</div>
                   </div>
-                  <div className="bg-rose-50/50 border border-rose-100 rounded-2xl p-4 text-center">
-                    <div className="flex items-center justify-center gap-1.5 mb-1">
-                      <XCircle className="w-4 h-4 text-rose-500" />
-                      <span className="text-[12px] font-bold text-rose-700">Wrong</span>
+
+                  {/* Wrong */}
+                  <div className="bg-white border border-rose-100 rounded-[16px] p-4 text-center shadow-sm relative overflow-hidden group hover:border-rose-200 transition-colors">
+                    <div className="absolute inset-0 bg-rose-50/30 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <div className="relative z-10">
+                      <div className="flex items-center justify-center gap-1.5 mb-2">
+                        <XCircle className="w-4 h-4 text-rose-500" />
+                        <span className="text-[12px] font-bold text-slate-700">Wrong</span>
+                      </div>
+                      <div className="text-[28px] font-display font-bold text-rose-500 leading-none mb-1">{wrong}</div>
+                      <div className="text-[10px] text-rose-500 font-bold tracking-wide">-1 mark</div>
                     </div>
-                    <div className="text-[24px] font-display font-bold text-rose-600">{wrong}</div>
-                    <div className="text-[10px] text-rose-500/70 font-medium mt-0.5">-1 mark</div>
                   </div>
-                  <div className="bg-amber-50/50 border border-amber-100 rounded-2xl p-4 text-center">
-                    <div className="flex items-center justify-center gap-1.5 mb-1">
-                      <TrendingUp className="w-4 h-4 text-amber-500" />
-                      <span className="text-[12px] font-bold text-amber-700">Skipped</span>
+
+                  {/* Skipped */}
+                  <div className="bg-white border border-amber-100/60 rounded-[16px] p-4 text-center shadow-sm relative overflow-hidden group hover:border-amber-200 transition-colors">
+                    <div className="absolute inset-0 bg-amber-50/30 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <div className="relative z-10">
+                      <div className="flex items-center justify-center gap-1.5 mb-2">
+                        <div className="w-4 h-4 rounded-full border-[2px] border-amber-500 flex items-center justify-center"><div className="w-2 h-0.5 bg-amber-500 rounded-full"/></div>
+                        <span className="text-[12px] font-bold text-slate-700">Skipped</span>
+                      </div>
+                      <div className="text-[28px] font-display font-bold text-amber-500 leading-none mb-1">{unattempted}</div>
+                      <div className="text-[10px] text-amber-500 font-bold tracking-wide">0 marks</div>
                     </div>
-                    <div className="text-[24px] font-display font-bold text-amber-600">{unattempted}</div>
-                    <div className="text-[10px] text-amber-500/70 font-medium mt-0.5">0 marks</div>
                   </div>
-                  <div className="bg-indigo-50/50 border border-indigo-100 rounded-2xl p-4 text-center">
-                    <div className="flex items-center justify-center gap-1.5 mb-1">
-                      <Target className="w-4 h-4 text-indigo-500" />
-                      <span className="text-[12px] font-bold text-indigo-700">Accuracy</span>
+
+                  {/* Accuracy */}
+                  <div className="bg-blue-50/30 border border-blue-100/80 rounded-[16px] p-4 text-center shadow-sm relative overflow-hidden group hover:border-blue-200 transition-colors">
+                    <div className="absolute inset-0 bg-blue-50/50 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <div className="relative z-10">
+                      <div className="flex items-center justify-center gap-1.5 mb-2">
+                        <Target className="w-4 h-4 text-blue-600" />
+                        <span className="text-[12px] font-bold text-blue-700">Accuracy</span>
+                      </div>
+                      <div className="text-[28px] font-display font-bold text-blue-600 leading-none mb-1">{accuracy}%</div>
+                      <div className="text-[10px] text-blue-600/70 font-bold tracking-wide">Good</div>
                     </div>
-                    <div className="text-[24px] font-display font-bold text-indigo-600">{accuracy}%</div>
-                    <div className="text-[10px] text-indigo-500/70 font-medium mt-0.5">Good</div>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="mt-8 border-t border-slate-100 pt-6">
-              <h3 className="text-[13px] font-bold text-slate-800 uppercase tracking-widest mb-4">Your Performance Trend</h3>
-              <div className="h-[140px] w-full">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-[12px] font-bold text-slate-500 uppercase tracking-widest">Your Performance Trend</h3>
+                <div className="flex items-center gap-1.5 border border-slate-200 rounded-lg px-2.5 py-1 shadow-sm">
+                   <span className="text-[11px] font-bold text-slate-600">Score</span>
+                   <ChevronDown className="w-3 h-3 text-slate-400" />
+                </div>
+              </div>
+              <div className="h-[180px] w-full mt-6">
                 <ResponsiveContainer width="100%" height="100%">
-                  <LineChart data={history} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
-                    <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fontSize: 10, fill: '#94a3b8' }} />
-                    <Tooltip cursor={{ stroke: '#e2e8f0', strokeWidth: 2 }} contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }} />
-                    <Line type="monotone" dataKey="score" stroke="#6366f1" strokeWidth={3} dot={{ r: 4, fill: '#6366f1', strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 6 }} />
-                  </LineChart>
+                  <AreaChart data={history} margin={{ top: 20, right: 20, bottom: 0, left: 0 }}>
+                    <defs>
+                      <linearGradient id="colorScore" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="5%" stopColor="#6366f1" stopOpacity={0.25} />
+                        <stop offset="95%" stopColor="#6366f1" stopOpacity={0} />
+                      </linearGradient>
+                    </defs>
+                    <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fontSize: 10, fill: '#94a3b8', fontWeight: 600 }} dy={10} />
+                    <Tooltip cursor={{ stroke: '#e2e8f0', strokeWidth: 1, strokeDasharray: "4 4" }} contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', fontWeight: 'bold' }} />
+                    <Area type="monotone" dataKey="score" stroke="#6366f1" strokeWidth={3} fillOpacity={1} fill="url(#colorScore)" dot={{ r: 4, fill: '#6366f1', strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 6, fill: '#4f46e5', stroke: '#fff', strokeWidth: 2 }} />
+                  </AreaChart>
                 </ResponsiveContainer>
               </div>
             </div>
@@ -299,109 +332,152 @@ export default function TestResultsPage() {
           </div>
 
           {/* Sidebar Stats */}
-          <div className="lg:col-span-4 flex flex-col gap-4">
-            <div className="bg-white rounded-[20px] border border-slate-200/60 p-5 flex items-center gap-4 shadow-sm">
-              <div className="w-12 h-12 rounded-2xl bg-amber-50 flex items-center justify-center shrink-0">
-                <Clock className="w-6 h-6 text-amber-500" />
+          <div className="lg:col-span-4 flex flex-col gap-4 md:gap-5">
+            <div className="bg-white rounded-[24px] border border-slate-100 p-6 flex items-center gap-5 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <div className="w-12 h-12 rounded-full bg-indigo-50/50 border border-indigo-100/50 flex items-center justify-center shrink-0">
+                <Clock className="w-5 h-5 text-indigo-500" />
               </div>
               <div>
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Time Taken</div>
-                <div className="font-display text-[20px] font-bold text-slate-800">{timeMins}m {timeSecs}s</div>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-slate-500 mb-0.5">Time Taken</div>
+                <div className="font-display text-[20px] font-bold text-slate-800 leading-none mb-1">{timeMins}m {timeSecs}s</div>
+                <div className="text-[11px] text-slate-400 font-medium">Keep practicing to improve speed!</div>
               </div>
             </div>
             
-            <div className="bg-white rounded-[20px] border border-slate-200/60 p-5 flex items-center gap-4 shadow-sm">
-              <div className="w-12 h-12 rounded-2xl bg-rose-50 flex items-center justify-center shrink-0">
-                <Target className="w-6 h-6 text-rose-500" />
+            <div className="bg-white rounded-[24px] border border-slate-100 p-6 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <div className="flex items-center gap-5 mb-4">
+                <div className="w-12 h-12 rounded-full bg-rose-50/50 border border-rose-100/50 flex items-center justify-center shrink-0">
+                  <Target className="w-5 h-5 text-rose-500" />
+                </div>
+                <div>
+                  <div className="text-[10px] font-bold uppercase tracking-widest text-slate-500 mb-0.5">Attempted</div>
+                  <div className="font-display text-[20px] font-bold text-slate-800 leading-none mb-1">{total - unattempted} / {total}</div>
+                  <div className="text-[11px] text-slate-400 font-medium">{Math.round(((total-unattempted)/total)*100)}% Attempted</div>
+                </div>
               </div>
-              <div>
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Attempted</div>
-                <div className="font-display text-[20px] font-bold text-slate-800">{total - unattempted} / {total}</div>
-                <div className="text-[12px] text-slate-400 mt-0.5">{Math.round(((total-unattempted)/total)*100)}% Attempted</div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-[20px] border border-slate-200/60 p-5 flex items-center gap-4 shadow-sm">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-50 flex items-center justify-center shrink-0">
-                <TrendingUp className="w-6 h-6 text-emerald-500" />
-              </div>
-              <div>
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Expected Score</div>
-                <div className="font-display text-[20px] font-bold text-slate-800">{score} / {maxScore}</div>
-                <div className="text-[12px] text-slate-400 mt-0.5">Based on marking scheme</div>
+              <div className="flex items-center gap-3">
+                <div className="h-1.5 flex-1 bg-rose-50 rounded-full overflow-hidden">
+                  <div className="h-full bg-rose-400 rounded-full" style={{ width: `${Math.round(((total-unattempted)/total)*100)}%` }} />
+                </div>
+                <span className="text-[11px] font-bold text-slate-500">{Math.round(((total-unattempted)/total)*100)}%</span>
               </div>
             </div>
 
-            <div className="bg-white rounded-[20px] border border-slate-200/60 p-5 flex items-center gap-4 shadow-sm">
-              <div className="w-12 h-12 rounded-2xl bg-purple-50 flex items-center justify-center shrink-0">
-                <Trophy className="w-6 h-6 text-purple-500" />
+            <div className="bg-white rounded-[24px] border border-slate-100 p-6 flex items-center gap-5 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <div className="w-12 h-12 rounded-full bg-emerald-50/50 border border-emerald-100/50 flex items-center justify-center shrink-0">
+                <TrendingUp className="w-5 h-5 text-emerald-500" />
               </div>
               <div>
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Predicted Rank</div>
-                <div className="font-display text-[20px] font-bold text-slate-800">
+                <div className="text-[10px] font-bold uppercase tracking-widest text-slate-500 mb-0.5">Expected Score</div>
+                <div className="font-display text-[20px] font-bold text-slate-800 leading-none mb-1">{score} / {maxScore}</div>
+                <div className="text-[11px] text-slate-400 font-medium">Based on marking scheme</div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-[24px] border border-slate-100 p-6 flex items-center gap-5 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <div className="w-12 h-12 rounded-full bg-purple-50/50 border border-purple-100/50 flex items-center justify-center shrink-0">
+                <Trophy className="w-5 h-5 text-purple-500" />
+              </div>
+              <div>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-slate-500 mb-0.5">Predicted Rank</div>
+                <div className="font-display text-[20px] font-bold text-slate-800 leading-none mb-1">
                   {Math.max(1, Math.round(120000 * (1 - (percentage + 10)/100))) } / 1,20,000
                 </div>
-                <div className="text-[10px] text-amber-500 font-medium mt-0.5">Rough estimate only</div>
+                <div className="text-[11px] text-amber-500 font-semibold">Rough estimate only</div>
               </div>
             </div>
 
-            <div className="bg-white rounded-[20px] border border-slate-200/60 p-5 flex items-center gap-4 shadow-sm">
-              <div className="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center shrink-0">
-                <Users className="w-6 h-6 text-blue-500" />
+            <div className="bg-white rounded-[24px] border border-slate-100 p-6 flex items-center gap-5 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <div className="w-12 h-12 rounded-full bg-blue-50/50 border border-blue-100/50 flex items-center justify-center shrink-0">
+                <Users className="w-5 h-5 text-blue-500" />
               </div>
               <div>
-                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Estimated Percentile</div>
-                <div className="font-display text-[20px] font-bold text-slate-800">{Math.min(99.9, percentage + 25.4).toFixed(1)}</div>
-                <div className="text-[10px] text-amber-500 font-medium mt-0.5">Rough estimate only</div>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-slate-500 mb-0.5">Estimated Percentile</div>
+                <div className="font-display text-[20px] font-bold text-slate-800 leading-none mb-1">{Math.min(99.9, percentage + 25.4).toFixed(1)}</div>
+                <div className="text-[11px] text-amber-500 font-semibold">Rough estimate only</div>
               </div>
             </div>
           </div>
         </div>
 
         {/* Deep Analytics */}
-        <div className="bg-white rounded-[24px] border border-slate-200/60 p-6 md:p-8 shadow-sm mb-8">
-          <div className="flex items-center justify-between mb-6">
-            <h3 className="text-[18px] font-display font-bold text-slate-900">Detailed Performance</h3>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="md:col-span-1">
-              <h4 className="text-[12px] font-bold uppercase tracking-widest text-slate-500 mb-4">Difficulty Breakdown</h4>
-              <div className="space-y-4">
-                {Object.entries(difficultyBreakdown).map(([level, stats]) => (
-                  <div key={level} className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <div className={`w-2 h-2 rounded-full ${level === 'Easy' ? 'bg-emerald-500' : level === 'Medium' ? 'bg-amber-500' : 'bg-rose-500'}`} />
-                      <span className="text-[14px] font-medium text-slate-700">{level}</span>
-                    </div>
-                    <div className="text-[13px] font-bold text-slate-900">
-                      {stats.correct} / {stats.total}
-                    </div>
+        <div className="mb-8">
+          <h3 className="text-[13px] font-bold text-slate-800 uppercase tracking-widest mb-4">Detailed Performance</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="bg-white border border-slate-100 rounded-[24px] p-6 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <h4 className="text-[10px] font-bold uppercase tracking-widest text-slate-500 mb-6">Difficulty Breakdown</h4>
+              <div className="flex flex-col sm:flex-row items-center gap-6">
+                <div className="relative w-28 h-28 shrink-0">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <PieChart>
+                      <Pie
+                        data={[
+                          { name: 'Easy', value: difficultyBreakdown.Easy.total, color: '#10b981' },
+                          { name: 'Medium', value: difficultyBreakdown.Medium.total, color: '#f59e0b' },
+                          { name: 'Hard', value: difficultyBreakdown.Hard.total, color: '#f43f5e' }
+                        ].filter(d => d.value > 0)}
+                        cx="50%" cy="50%" innerRadius={35} outerRadius={45}
+                        paddingAngle={2} dataKey="value" stroke="none"
+                      >
+                        {[
+                          { name: 'Easy', value: difficultyBreakdown.Easy.total, color: '#10b981' },
+                          { name: 'Medium', value: difficultyBreakdown.Medium.total, color: '#f59e0b' },
+                          { name: 'Hard', value: difficultyBreakdown.Hard.total, color: '#f43f5e' }
+                        ].filter(d => d.value > 0).map((entry, index) => (
+                          <Cell key={`cell-${index}`} fill={entry.color} />
+                        ))}
+                      </Pie>
+                    </PieChart>
+                  </ResponsiveContainer>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+                     <span className="text-[16px] font-bold text-slate-800 leading-none">{Math.round(((total-unattempted)/total)*100)}%</span>
+                     <span className="text-[8px] uppercase tracking-wider text-slate-400 font-bold mt-0.5">Attempted</span>
                   </div>
-                ))}
+                </div>
+                <div className="flex-1 w-full space-y-3">
+                  {Object.entries(difficultyBreakdown).map(([level, stats]) => (
+                    <div key={level} className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <div className={`w-2 h-2 rounded-full ${level === 'Easy' ? 'bg-emerald-500' : level === 'Medium' ? 'bg-amber-500' : 'bg-rose-500'}`} />
+                        <span className="text-[12px] font-semibold text-slate-700">{level}</span>
+                      </div>
+                      <div className="text-[12px] font-bold text-slate-900">
+                        {stats.correct} / {stats.total}
+                      </div>
+                    </div>
+                  ))}
+                  <div className="flex items-center justify-between pt-2 border-t border-slate-100">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Total Attempted</span>
+                      <div className="text-[12px] font-bold text-slate-800">
+                        {total - unattempted} / {total}
+                      </div>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="bg-emerald-50/50 rounded-2xl border border-emerald-100 p-5">
-              <div className="flex items-center gap-2 mb-4">
-                <Dumbbell className="w-5 h-5 text-emerald-500" />
-                <h4 className="text-[14px] font-bold text-emerald-900">Strengths</h4>
+            <div className="bg-emerald-50/40 rounded-[24px] border border-emerald-100 p-6 relative overflow-hidden group shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <Target className="absolute -bottom-4 -right-4 w-32 h-32 text-emerald-500/10 group-hover:scale-110 transition-transform duration-500" />
+              <div className="flex items-center gap-2 mb-4 relative z-10">
+                <Dumbbell className="w-4 h-4 text-emerald-500" />
+                <h4 className="text-[10px] font-bold uppercase tracking-widest text-emerald-700">Strengths</h4>
               </div>
-              <ul className="space-y-2 text-[13px] text-emerald-800 font-medium list-disc pl-5">
+              <ul className="space-y-2.5 text-[12px] text-emerald-800 font-medium list-disc pl-5 relative z-10">
                 {dynamicInsights.strengths.map((s, i) => <li key={i}>{s}</li>)}
               </ul>
-              <p className="text-[12px] text-emerald-600 mt-6">Great job! Keep building on your strengths.</p>
+              <p className="text-[12px] text-emerald-600 mt-6 font-semibold relative z-10">Great job! Keep building on your strengths.</p>
             </div>
 
-            <div className="bg-rose-50/50 rounded-2xl border border-rose-100 p-5">
-              <div className="flex items-center gap-2 mb-4">
-                <Target className="w-5 h-5 text-rose-500" />
-                <h4 className="text-[14px] font-bold text-rose-900">Areas to Improve</h4>
+            <div className="bg-rose-50/40 rounded-[24px] border border-rose-100 p-6 relative overflow-hidden group shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <TrendingUp className="absolute -bottom-4 -right-4 w-32 h-32 text-rose-500/10 group-hover:scale-110 transition-transform duration-500" />
+              <div className="flex items-center gap-2 mb-4 relative z-10">
+                <AlertCircle className="w-4 h-4 text-rose-500" />
+                <h4 className="text-[10px] font-bold uppercase tracking-widest text-rose-700">Areas to Improve</h4>
               </div>
-              <ul className="space-y-2 text-[13px] text-rose-800 font-medium list-disc pl-5">
-                {dynamicInsights.weaknesses.map((w, i) => <li key={i}>{w}</li>)}
+              <ul className="space-y-2.5 text-[12px] text-rose-800 font-medium list-disc pl-5 relative z-10">
+                {dynamicInsights.weaknesses.map((s, i) => <li key={i}>{s}</li>)}
               </ul>
-              <p className="text-[12px] text-rose-600 mt-6">Focus on these areas to boost your score.</p>
+              <p className="text-[12px] text-rose-600 mt-6 font-semibold relative z-10">Focus on these areas to boost your score.</p>
             </div>
           </div>
         </div>
