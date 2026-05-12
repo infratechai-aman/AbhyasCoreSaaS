@@ -33,9 +33,14 @@ export function OnboardingModal() {
     setStep(s => Math.max(s - 1, 1));
   };
 
+  const isReferred = () => {
+    if (userData?.referredBy) return true;
+    try { return sessionStorage.getItem("abhyas_referred") === "1"; } catch { return false; }
+  };
+
   const handleExamSelect = (exam: "JEE" | "NEET") => {
     setSelectedExam(exam);
-    if (userData?.referredBy) {
+    if (isReferred()) {
       // Referred users skip trial — go straight to ₹49 checkout
       handleFinalize(false, true);
     } else {

@@ -105,6 +105,12 @@ function RegisterForm() {
         ...(!userDoc.exists() && { subscription: { plan: "Free", status: "none" } }),
         ...(finalReferredBy && { referredBy: finalReferredBy })
       }, { merge: true });
+
+      // Store referral flag for onboarding modal (Firestore snapshot may not sync in time)
+      if (finalReferredBy) {
+        try { sessionStorage.setItem("abhyas_referred", "1"); } catch {}
+      }
+
       // Trigger Email Verification
       await sendEmailVerification(user);
       
