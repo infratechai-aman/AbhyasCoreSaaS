@@ -76,7 +76,11 @@ export default function HelpSupportPage() {
                 <p className="text-[13px] text-slate-400 leading-relaxed mb-5">
                   Get instant help from our support team. Available Mon–Sat, 9 AM – 9 PM IST.
                 </p>
-                <button onClick={() => window.open('mailto:aman.infratechai@gmail.com', '_blank')} className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-[13px] rounded-xl transition-colors shadow-lg">
+                <button 
+                  onClick={() => window.location.href = "mailto:aman.infratechai@gmail.com?subject=Support%20Request"}
+                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-[13px] rounded-xl transition-colors shadow-lg flex items-center justify-center gap-2"
+                >
+                  <Mail className="w-4 h-4" />
                   Email Support Team
                 </button>
               </div>
@@ -103,13 +107,17 @@ export default function HelpSupportPage() {
               <h3 className="text-[15px] font-bold text-slate-900 mb-4">Quick Resources</h3>
               <div className="space-y-2">
                 {[
-                  { icon: BookOpen, label: "Documentation & Guides" },
-                  { icon: Zap, label: "Platform Status Page" },
-                  { icon: AlertCircle, label: "Report a Bug" },
+                  { icon: BookOpen, label: "Documentation & Guides", subject: "Documentation Request" },
+                  { icon: Zap, label: "Platform Status Page", subject: "Platform Status Inquiry" },
+                  { icon: AlertCircle, label: "Report a Bug", subject: "Bug Report" },
                 ].map((item) => {
                   const Icon = item.icon;
                   return (
-                    <button key={item.label} className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors text-left group">
+                    <button 
+                      key={item.label} 
+                      onClick={() => window.location.href = `mailto:aman.infratechai@gmail.com?subject=${encodeURIComponent(item.subject)}`}
+                      className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors text-left group"
+                    >
                       <div className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-400 group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-colors">
                         <Icon className="w-4 h-4" />
                       </div>

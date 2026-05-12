@@ -287,7 +287,7 @@ export default function CustomExamBuilder() {
                    <button 
                       onClick={handleGenerate}
                       disabled={selectedChapters.size === 0 || !canUseCustomBuilder}
-                      className="bg-indigo-600 disabled:bg-slate-300 disabled:text-slate-500 disabled:cursor-not-allowed hover:bg-indigo-500 text-white px-8 py-3 rounded-xl text-[14px] font-bold shadow-lg shadow-indigo-600/30 transition-all flex items-center gap-2 hover:scale-[1.02]"
+                      className="bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-500 disabled:cursor-not-allowed hover:bg-emerald-500 text-white px-8 py-3 rounded-xl text-[14px] font-bold shadow-lg shadow-emerald-600/30 transition-all flex items-center gap-2 hover:scale-[1.02]"
                     >
                       {canUseCustomBuilder ? (
                         <><Rocket className="w-4 h-4" /> Generate Custom Run</>

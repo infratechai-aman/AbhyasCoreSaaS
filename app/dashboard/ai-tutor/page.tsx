@@ -107,32 +107,32 @@ export default function AITutorPage() {
   };
   return (
     <DashboardShell>
-      <div className="flex flex-col h-full bg-[#fafafc] p-4 md:p-8 overflow-x-hidden overflow-y-auto">
+      <div className="flex flex-col h-[calc(100vh-70px)] md:h-full bg-[#fafafc] p-3 md:p-8 overflow-hidden">
         
-        <div className="mb-10 max-w-2xl">
+        <div className="mb-4 md:mb-10 max-w-2xl shrink-0 hidden sm:block">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-violet-50 border border-violet-100 text-violet-700 text-[10px] font-bold tracking-[0.2em] uppercase mb-4 shadow-sm">
              <Fingerprint className="w-3.5 h-3.5" /> Generative AI Copilot
           </div>
-          <h2 className="text-[32px] font-display font-bold text-slate-900 tracking-tight leading-none mb-3">AI Copilot</h2>
-          <p className="text-slate-500 text-[14px]">
+          <h2 className="text-[24px] md:text-[32px] font-display font-bold text-slate-900 tracking-tight leading-none mb-3">AI Copilot</h2>
+          <p className="text-slate-500 text-[13px] md:text-[14px]">
             Your personal 24/7 mentor. Paste complex questions, request alternative solutions, or ask for a custom revision map based on your weaknesses.
           </p>
         </div>
 
         {/* Token Usage Banner */}
-        <div className={`rounded-2xl border p-4 mb-6 flex items-center justify-between max-w-4xl ${canUseAITutor ? 'bg-violet-50 border-violet-200' : 'bg-red-50 border-red-200'}`}>
+        <div className={`rounded-xl md:rounded-2xl border p-3 md:p-4 mb-4 md:mb-6 flex items-center justify-between max-w-4xl shrink-0 ${canUseAITutor ? 'bg-violet-50 border-violet-200' : 'bg-red-50 border-red-200'}`}>
            <div className="flex items-center gap-3">
-              <div className={`w-9 h-9 rounded-xl flex items-center justify-center ${canUseAITutor ? 'bg-violet-100 text-violet-600' : 'bg-red-100 text-red-600'}`}>
+              <div className={`w-8 h-8 md:w-9 md:h-9 rounded-xl flex items-center justify-center ${canUseAITutor ? 'bg-violet-100 text-violet-600' : 'bg-red-100 text-red-600'}`}>
                 {canUseAITutor ? <Sparkles className="w-4 h-4" /> : <Lock className="w-4 h-4" />}
               </div>
               <div>
-                <div className={`text-[13px] font-bold ${canUseAITutor ? 'text-violet-900' : 'text-red-900'}`}>
+                <div className={`text-[12px] md:text-[13px] font-bold ${canUseAITutor ? 'text-violet-900' : 'text-red-900'}`}>
                   {canUseAITutor
-                    ? `${(remainingAITokens / 1000).toFixed(0)}k tokens remaining today`
+                    ? `${(remainingAITokens / 1000).toFixed(0)}k tokens remaining`
                     : 'Daily AI token limit reached'
                   }
                 </div>
-                <div className="text-[11px] text-slate-500 font-medium">
+                <div className="text-[10px] md:text-[11px] text-slate-500 font-medium hidden sm:block">
                   {isPro ? 'Pro plan: 40k tokens/day' : 'Free plan: 10k tokens/day'}
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function AITutorPage() {
               </div>
               {!canUseAITutor && !isPro && (
                 <Link href="/dashboard?checkout=Pro%20Monthly">
-                  <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-xl text-[12px] font-bold hover:bg-indigo-700 transition-colors shadow-md">
+                  <button className="flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-indigo-600 text-white rounded-lg md:rounded-xl text-[11px] md:text-[12px] font-bold hover:bg-indigo-700 transition-colors shadow-md">
                     <Crown className="w-3.5 h-3.5" /> Upgrade
                   </button>
                 </Link>
@@ -155,10 +155,10 @@ export default function AITutorPage() {
            </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr] gap-8 flex-1">
+        <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-4 md:gap-8 flex-1 min-h-0">
           
           {/* Main Chat Area */}
-          <div className="bg-white rounded-[32px] border border-slate-200/60 p-2 shadow-[0_8px_32px_rgba(0,0,0,0.04)] flex flex-col h-full min-h-[500px] overflow-hidden">
+          <div className="bg-white rounded-[24px] md:rounded-[32px] border border-slate-200/60 p-1.5 md:p-2 shadow-[0_8px_32px_rgba(0,0,0,0.04)] flex flex-col h-full overflow-hidden">
              
              {/* Chat Header */}
              <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-white/50 backdrop-blur-md z-10">
@@ -274,7 +274,7 @@ export default function AITutorPage() {
           </div>
           
           {/* Right Sidebar Data Panel */}
-          <div className="flex flex-col gap-6">
+          <div className="hidden lg:flex flex-col gap-6">
           
             <div className="relative bg-slate-900 rounded-[28px] p-6 text-white overflow-hidden shadow-2xl">
                <div className="absolute top-0 right-0 p-8 opacity-20">
