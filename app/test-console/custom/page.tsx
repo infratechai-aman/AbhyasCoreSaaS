@@ -11,12 +11,13 @@ import { authenticatedFetch } from "@/lib/api";
 function CustomExamConsoleInner() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [data, setData] = useState<{ chapterName: string; subject: string; questions: any[] } | null>(null);
+  const [dataFetched, setDataFetched] = useState(false);
   
   const [currentIndex, setCurrentIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(0); 
@@ -28,6 +29,9 @@ function CustomExamConsoleInner() {
   const [customTestId] = useState(`custom_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`);
 
   useEffect(() => {
+    if (authLoading) return; // Wait for Firebase Auth to initialize
+    if (dataFetched) return;
+
     const c = searchParams.get("c");
     const q = searchParams.get("q") || "30";
     
@@ -35,6 +39,8 @@ function CustomExamConsoleInner() {
        setLoading(false);
        return;
     }
+
+    setDataFetched(true);
 
     // Set time: let's assume 2 minutes per question for custom exams
     setTimeLeft(parseInt(q) * 120);
@@ -59,7 +65,7 @@ function CustomExamConsoleInner() {
         console.error(e);
         setLoading(false);
       });
-  }, [searchParams]);
+  }, [searchParams, authLoading, dataFetched]);
 
   useEffect(() => {
     if (loading) return;
