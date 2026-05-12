@@ -139,6 +139,7 @@ export function processQuestion(q: any, index: number, difficulty?: string): any
     answer: newAnswer,
     explanation: formatMathText(String(q.explanation ?? "")),
     difficulty: difficulty || q.difficulty || "medium",
+    ...(q.subject && { subject: String(q.subject) }),
   };
 }
 

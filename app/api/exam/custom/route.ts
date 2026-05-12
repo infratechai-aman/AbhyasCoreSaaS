@@ -122,7 +122,12 @@ export async function GET(request: Request) {
         }
 
         // --- EQUAL DISTRIBUTION BY SUBJECT LOGIC ---
-        function getSubjectForChapter(chapterFile: string, questionText: string = "") {
+        function getSubjectForChapter(chapterFile: string, questionObj: any = {}) {
+          // If the XML has an explicit <subject> tag (added by our cleanup script)
+          if (questionObj.subject) {
+             return questionObj.subject;
+          }
+
           let matchedSubject = "Physics"; // fallback
           let found = false;
           
@@ -135,32 +140,6 @@ export async function GET(request: Request) {
             });
           });
           
-          if (!found && (chapterFile.startsWith("jee_") || chapterFile.startsWith("neet_"))) {
-             const txt = questionText.toLowerCase();
-             const isNeet = chapterFile.startsWith("neet_");
-             
-             const mathWords = ["integral", "derivative", "matrix", "modulus", "probability", "tangent", "vertex", "ellipse", "parabola", "vector", "theorem", "polynomial", "algebra", "det [", "let f(x)", "dy/dx"];
-             const chemWords = ["reaction", "acid", "mole", "aqueous", "temperature", "pressure", "enthalpy", "compound", "bond", "oxidation", "reagent", "catalyst", "isomer", "orbitals", "polymer", "gas", "solution", "concentration"];
-             const bioWords = ["cell", "plant", "animal", "tissue", "gene", "protein", "dna", "rna", "enzyme", "blood", "muscle", "disease", "organism", "species", "reproduction", "bacteria", "virus"];
-             const physWords = ["velocity", "force", "mass", "acceleration", "electric", "magnetic", "circuit", "ohm", "lens", "optics", "momentum", "energy", "power", "friction", "gravity", "voltage", "current", "flux", "inductance"];
-             
-             let mathScore = mathWords.filter(w => txt.includes(w)).length;
-             let chemScore = chemWords.filter(w => txt.includes(w)).length;
-             let bioScore = bioWords.filter(w => txt.includes(w)).length;
-             let physScore = physWords.filter(w => txt.includes(w)).length;
-             
-             if (isNeet) {
-                 if (bioScore >= Math.max(physScore, chemScore)) matchedSubject = "Biology";
-                 else if (chemScore > physScore) matchedSubject = "Chemistry";
-                 else matchedSubject = "Physics";
-             } else {
-                 if (mathScore >= Math.max(physScore, chemScore)) matchedSubject = "Mathematics";
-                 else if (chemScore > physScore) matchedSubject = "Chemistry";
-                 else matchedSubject = "Physics";
-             }
-             return matchedSubject;
-          }
-        
           // NEET specialization
           if (matchedSubject === "Biology") {
             return "Biology"; // No longer split into Botany/Zoology per previous fix
@@ -171,7 +150,7 @@ export async function GET(request: Request) {
 
         const questionsBySubject: Record<string, any[]> = {};
         for (const q of allQuestions) {
-           const subject = getSubjectForChapter(q.chapterSource, q.text);
+           const subject = getSubjectForChapter(q.chapterSource, q);
            if (!questionsBySubject[subject]) questionsBySubject[subject] = [];
            // Attach the classified subject so the frontend can use it!
            q.inferredSubject = subject;
