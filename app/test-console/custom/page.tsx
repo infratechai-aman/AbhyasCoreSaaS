@@ -6,6 +6,33 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 import { authenticatedFetch } from "@/lib/api";
+import { Syllabus } from "@/lib/syllabus";
+
+const ZOOLOGY_CHAPTERS = [
+  "animal_kingdom", "structural_organisation_in_animals", "biomolecules", 
+  "digestion_and_absorption", "breathing_and_exchange_of_gases", "body_fluids_and_circulation",
+  "excretory_products_and_their_elimination", "locomotion_and_movement", "neural_control_and_coordination",
+  "chemical_coordination_and_integration", "human_reproduction", "reproductive_health",
+  "evolution", "human_health_and_disease", "biotechnology_principles", "biotechnology_applications"
+];
+
+const getSubjectForChapter = (chapterSource: string) => {
+  if (!chapterSource) return "Mixed";
+  for (const cls of ["Class11", "Class12"]) {
+    const classData = Syllabus[cls as keyof typeof Syllabus];
+    for (const sub of ["Physics", "Chemistry", "Mathematics", "Biology"]) {
+      const subjectData = classData[sub as keyof typeof classData];
+      if (subjectData?.find(ch => ch.file?.replace('.xml', '') === chapterSource)) {
+         if (sub === "Biology") {
+            return ZOOLOGY_CHAPTERS.includes(chapterSource) ? "Zoology" : "Botany";
+         }
+         return sub;
+      }
+    }
+  }
+  return "Mixed";
+};
+
 
 
 function CustomExamConsoleInner() {
@@ -390,26 +417,43 @@ function CustomExamConsoleInner() {
            </div>
            
            <div className="flex-1 overflow-y-auto p-5 custom-scrollbar">
-              <div className="grid grid-cols-5 gap-2">
-                 {data.questions.map((q: any, i: number) => {
-                    const status = statuses[q._safeId] || "not_visited";
-                    const isCurrent = currentIndex === i;
-                    
-                    return (
-                      <button
-                         key={q._safeId}
-                         onClick={() => jumpToQuestion(i)}
-                         className={`
-                           w-full aspect-square rounded-md border flex items-center justify-center text-[13px] font-bold transition-all relative
-                           ${getStatusColor(status)}
-                           ${isCurrent ? 'ring-2 ring-offset-2 ring-indigo-500 scale-110 z-10 shadow-lg' : ''}
-                         `}
-                      >
-                         {i + 1}
-                      </button>
-                    )
-                 })}
-              </div>
+              {(() => {
+                const grouped = data.questions.reduce((acc, q, i) => {
+                  const subject = getSubjectForChapter(q.chapterSource);
+                  if (!acc[subject]) acc[subject] = [];
+                  acc[subject].push({ q, i });
+                  return acc;
+                }, {} as Record<string, { q: any; i: number }[]>);
+                
+                return Object.entries(grouped).map(([subject, qsArray]) => {
+                  const qs = qsArray as { q: any; i: number }[];
+                  return (
+                    <div key={subject} className="mb-6 last:mb-0">
+                      <h4 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3 border-b border-slate-200 pb-1">{subject}</h4>
+                      <div className="grid grid-cols-5 gap-2">
+                         {qs.map(({ q, i }) => {
+                            const status = statuses[q._safeId] || "not_visited";
+                            const isCurrent = currentIndex === i;
+                            
+                            return (
+                              <button
+                                 key={q._safeId}
+                                 onClick={() => jumpToQuestion(i)}
+                                 className={`
+                                   w-full aspect-square rounded-md border flex items-center justify-center text-[13px] font-bold transition-all relative
+                                   ${getStatusColor(status)}
+                                   ${isCurrent ? 'ring-2 ring-offset-2 ring-indigo-500 scale-110 z-10 shadow-lg' : ''}
+                                 `}
+                              >
+                                 {i + 1}
+                              </button>
+                            )
+                         })}
+                      </div>
+                    </div>
+                  );
+                });
+              })()}
            </div>
         </div>
 
