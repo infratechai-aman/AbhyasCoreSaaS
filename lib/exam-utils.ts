@@ -150,5 +150,6 @@ export function stripAnswersForClient(questions: any[]): any[] {
     options: q.options,
     difficulty: q.difficulty,
     ...(q.chapterSource && { chapterSource: q.chapterSource }),
+    ...(q.inferredSubject && { inferredSubject: q.inferredSubject }),
   }));
 }

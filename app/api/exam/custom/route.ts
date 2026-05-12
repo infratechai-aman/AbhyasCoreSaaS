@@ -42,7 +42,7 @@ export async function GET(request: Request) {
         }
 
         const chapters = chaptersParam.split(',').filter(Boolean);
-        const limit = Math.min(parseInt(countParam, 10), 100); // Cap at 100
+        const limit = Math.min(parseInt(countParam, 10), 300); // Cap at 300 to allow full NEET papers
 
         // Server-side subscription enforcement
         const subInfo = await getUserSubscription(authResult);
@@ -183,16 +183,24 @@ export async function GET(request: Request) {
             return order.indexOf(a) - order.indexOf(b);
         });
 
-        // 1. Determine strict equal quota
-        const baseQuota = Math.floor(limit / subjects.length);
-        const remainder = limit % subjects.length;
+        // 1. Determine strict quota based on weight
+        const totalWeight = subjects.reduce((sum, s) => sum + (s === "Biology" ? 2 : 1), 0);
+        const baseUnit = Math.floor(limit / totalWeight);
+        let remainder = limit % totalWeight;
 
         const quotas: Record<string, number> = {};
         
-        // Assign base quota (plus remainder distribution to early subjects)
-        subjects.forEach((s, idx) => {
-            let target = baseQuota;
-            if (idx < remainder) target += 1;
+        // Assign weighted quota
+        subjects.forEach((s) => {
+            let weight = s === "Biology" ? 2 : 1;
+            let target = baseUnit * weight;
+            
+            // Distribute remainder one by one (giving priority to heavier subjects if needed, though simple iteration is fine)
+            while (remainder > 0 && weight > 0) {
+               target += 1;
+               remainder -= 1;
+               weight -= 1;
+            }
             
             // Cap at available questions. If available is less than target, they just get what's available.
             // We strictly DO NOT redistribute the deficit to other subjects to maintain visual equality in the palette.
