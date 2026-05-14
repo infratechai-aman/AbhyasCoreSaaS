@@ -51,8 +51,12 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     if (typeof window !== "undefined") {
       try {
         if (data) {
-          // SECURITY (VULN-20): Omit sensitive fields from client-side cache
-          const { subscription, usage, ...safeData } = data;
+          // SECURITY (VULN-20): Omit sensitive payment IDs from client-side cache
+          // but keep plan + status so usePremium() doesn't flash "Free" on reload
+          const { usage, ...safeData } = data;
+          if (safeData.subscription) {
+            safeData.subscription = { plan: safeData.subscription.plan, status: safeData.subscription.status };
+          }
           sessionStorage.setItem("abhyas_userData", JSON.stringify(safeData));
           // Set a minimal cookie for Next.js Middleware route protection
           document.cookie = "abhyas_session=1; path=/; max-age=86400; SameSite=Lax; Secure";
