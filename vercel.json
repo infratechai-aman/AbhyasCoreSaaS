@@ -3,6 +3,10 @@
     {
       "path": "/api/admin/cleanup",
       "schedule": "0 2 * * *"
+    },
+    {
+      "path": "/api/cron/marketing-emails",
+      "schedule": "0 9 * * *"
     }
   ]
 }
