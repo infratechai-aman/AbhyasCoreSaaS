@@ -347,6 +347,9 @@ function DashboardContent() {
             </p>
             {!isPremium ? (
                <div className="flex flex-col gap-2 w-full">
+                 <button onClick={() => handleCheckout("monthly", false)} className="w-full py-2.5 rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white text-[12px] font-bold tracking-wide transition-all shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2">
+                   <Star className="w-3.5 h-3.5 fill-white" /> ₹7 for 7 Days Trial
+                 </button>
                  <button onClick={() => handleCheckout("monthly", true)} className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-700 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2">
                    <Zap className="w-3.5 h-3.5" /> Pro (₹49/mo)
                  </button>
