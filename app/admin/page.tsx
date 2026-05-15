@@ -36,12 +36,21 @@ import { authenticatedFetch } from "@/lib/api";
 
 // Helper to compute revenue from a user's plan
 function getUserRevenue(u: any): number {
-  if (u.subscription?.status !== "active") return 0;
+  const status = u.subscription?.status;
+  if (status !== "active" && status !== "cancelling") return 0;
   const plan = u.subscription?.plan || "";
   if (plan.includes("Yearly")) return 399;
   if (plan.includes("Monthly")) return 49;
   if (plan.includes("Weekly")) return 7;
   return 0;
+}
+
+// Check if user is a paid subscriber (active or cancelling with remaining access)
+function isPaidUser(u: any): boolean {
+  const status = u.subscription?.status;
+  if (status !== "active" && status !== "cancelling") return false;
+  const plan = u.subscription?.plan || "";
+  return plan !== "Free" && plan !== "";
 }
 
 // Helper to format currency
@@ -93,14 +102,18 @@ export default function SuperAdminDashboard() {
 
   useEffect(() => {
     if (!mounted || !user || !isAdmin) return;
-    // Fetch users via server-side Admin SDK (CRITICAL-01 fix)
-    authenticatedFetch("/api/admin/users", { method: "POST" })
+    // Fetch ALL users via server-side Admin SDK (limit 500 to cover full userbase)
+    authenticatedFetch("/api/admin/users", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ limit: 500 }),
+    })
       .then(res => res.json())
       .then(data => {
         if (data.error) { console.error(data.error); return; }
         const usersList = data.users || [];
         setRealUsers(usersList);
-        const paidUsers = usersList.filter((u: any) => u.subscription?.status === "active");
+        const paidUsers = usersList.filter((u: any) => isPaidUser(u));
         const totalRev = paidUsers.reduce((sum: number, u: any) => sum + getUserRevenue(u), 0);
         const monthlyRev = paidUsers.reduce((sum: number, u: any) => {
           const plan = u.subscription?.plan || "";
@@ -803,12 +816,12 @@ export default function SuperAdminDashboard() {
               </div>
               <div>
                 <h2 className="text-[15px] font-bold text-slate-900">Monthly Subscribers</h2>
-                <p className="text-[11px] text-slate-400 font-medium">{realUsers.filter((u: any) => u.subscription?.status === "active" && u.subscription?.plan?.includes("Monthly")).length} active · ₹7 trial then ₹49/mo</p>
+                <p className="text-[11px] text-slate-400 font-medium">{realUsers.filter((u: any) => (u.subscription?.status === "active" || u.subscription?.status === "cancelling") && u.subscription?.plan?.includes("Monthly")).length} active · ₹7 trial then ₹49/mo</p>
               </div>
             </div>
             <div className="divide-y divide-slate-100">
               {(() => {
-                const liveMonthly = realUsers.filter((u: any) => u.subscription?.status === "active" && u.subscription?.plan?.includes("Monthly"));
+                const liveMonthly = realUsers.filter((u: any) => (u.subscription?.status === "active" || u.subscription?.status === "cancelling") && u.subscription?.plan?.includes("Monthly"));
                 if (liveMonthly.length === 0) return <div className="px-6 py-8 text-center text-[13px] text-slate-400 font-medium">No monthly subscribers yet</div>;
                 return liveMonthly.map((user, i) => (
                 <div key={i} className="flex items-center justify-between px-6 py-4 hover:bg-slate-50/60 transition-colors">
@@ -845,12 +858,12 @@ export default function SuperAdminDashboard() {
               </div>
               <div>
                 <h2 className="text-[15px] font-bold text-slate-900">Weekly Pass Users</h2>
-                <p className="text-[11px] text-slate-400 font-medium">{realUsers.filter((u: any) => u.subscription?.status === "active" && u.subscription?.plan?.includes("Weekly")).length} purchased · ₹7 one-time</p>
+                <p className="text-[11px] text-slate-400 font-medium">{realUsers.filter((u: any) => (u.subscription?.status === "active" || u.subscription?.status === "cancelling") && u.subscription?.plan?.includes("Weekly")).length} purchased · ₹7 one-time</p>
               </div>
             </div>
             <div className="divide-y divide-slate-100">
               {(() => {
-                const liveWeekly = realUsers.filter((u: any) => u.subscription?.status === "active" && u.subscription?.plan?.includes("Weekly"));
+                const liveWeekly = realUsers.filter((u: any) => (u.subscription?.status === "active" || u.subscription?.status === "cancelling") && u.subscription?.plan?.includes("Weekly"));
                 if (liveWeekly.length === 0) return <div className="px-6 py-8 text-center text-[13px] text-slate-400 font-medium">No weekly pass purchases yet</div>;
                 return liveWeekly.map((user, i) => (
                 <div key={i} className="flex items-center justify-between px-6 py-4 hover:bg-slate-50/60 transition-colors">
@@ -947,7 +960,7 @@ export default function SuperAdminDashboard() {
                     </td>
                     <td className="px-6 py-4">
                       <div className="font-bold text-slate-700">
-                         {user.subscription?.plan === "Pro Yearly" ? "₹598" : user.subscription?.plan ? "₹49" : "₹0"}
+                         {formatINR(getUserRevenue(user))}
                       </div>
                     </td>
                     <td className="px-6 py-4 text-right">
