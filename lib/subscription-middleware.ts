@@ -149,7 +149,25 @@ export async function getUserSubscription(
         subscription.plan === "Pro Yearly" ||
         subscription.plan === "Weekly Pass"
       ) {
-        plan = subscription.plan;
+        // For cancelling subscriptions with an expiry, check if the paid period is over
+        if (subscription.status === "cancelling" && subscription.expiryDate) {
+          const now = new Date();
+          const expiry = new Date(subscription.expiryDate);
+          if (now > expiry) {
+            // Billing cycle ended — downgrade
+            await userRef.update({
+              "subscription.plan": "Free",
+              "subscription.status": "none",
+              "subscription.expiredAt": new Date().toISOString(),
+              updatedAt: new Date().toISOString(),
+            });
+            plan = "Free";
+          } else {
+            plan = subscription.plan;
+          }
+        } else {
+          plan = subscription.plan;
+        }
       }
     }
 

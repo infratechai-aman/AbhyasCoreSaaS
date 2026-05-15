@@ -95,7 +95,7 @@ export default function SettingsPage() {
     return date.toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" });
   };
 
-  const planPrice = isYearly ? "₹399" : isWeekly ? "₹49" : "₹49";
+  const planPrice = isYearly ? "₹399" : isWeekly ? "₹7" : "₹49";
   const billingCycle = isYearly ? "year" : isWeekly ? "week" : "month";
 
   const handleCancelSubscription = async () => {
@@ -222,7 +222,7 @@ export default function SettingsPage() {
                   >
                     <div className="text-left">
                       <span className="text-[14px] font-bold">Upgrade to Pro</span>
-                      <p className="text-[11px] text-indigo-200">₹49/month or ₹399/year — unlock everything</p>
+                      <p className="text-[11px] text-indigo-200">₹7/week · ₹49/month · ₹399/year — unlock everything</p>
                     </div>
                     <ArrowUpRight className="w-4 h-4 text-indigo-200 group-hover:text-white transition-colors" />
                   </button>

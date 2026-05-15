@@ -89,7 +89,7 @@ export async function GET(request: Request) {
 
       try {
         await transporter.sendMail({
-          from: '"AbhyasCore Team" <updates@abhyascore.com>',
+          from: '"AbhyasCore Team" <team@abhyascore.com>',
           to: user.email,
           subject: "Ready to ace your exams? 🚀",
           html: emailHtml,
@@ -109,7 +109,7 @@ export async function GET(request: Request) {
 
     return NextResponse.json({ 
       success: true, 
-      message: \`Successfully processed and sent \${sentCount} promotional emails.\` 
+      message: `Successfully processed and sent ${sentCount} promotional emails.` 
     });
 
   } catch (error) {

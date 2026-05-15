@@ -9,7 +9,7 @@ import { Syllabus } from "@/lib/syllabus";
 import { useAuth } from "@/lib/auth-context";
 import { usePremium } from "@/lib/hooks/usePremium";
 import { useRazorpay } from "@/lib/hooks/useRazorpay";
-import { X, CheckCircle, AlertTriangle } from "lucide-react";
+import { X, CheckCircle, AlertTriangle, Timer } from "lucide-react";
 import { 
   FileText, 
   Database, 
@@ -153,6 +153,52 @@ function DashboardContent() {
     }
   };
 
+  const handleWeeklyPass = async () => {
+    if (isDebouncing) return;
+    setIsDebouncing(true);
+    setTimeout(() => setIsDebouncing(false), 3000);
+
+    try {
+      setIsProcessingPayment(true);
+      const res = await authenticatedFetch("/api/payment/create-weekly-order", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({}),
+      });
+      const data = await res.json();
+
+      if (data.error) {
+        setToast({ message: data.error, type: "error" });
+        setIsProcessingPayment(false);
+        return;
+      }
+
+      openCheckout({
+        type: "order",
+        orderId: data.orderId,
+        amount: data.amount,
+        currency: data.currency || "INR",
+        name: "AbhyasCore Weekly Pass",
+        description: "₹7 — 7 days of full Pro access. One-time, no auto-renewal.",
+        prefill: {
+          name: userData?.displayName || userData?.name || "Aspirant",
+          email: userData?.email || "",
+        },
+        onSuccess: async () => {
+          setIsProcessingPayment(false);
+          setToast({ message: "Weekly Pass activated! Enjoy 7 days of Pro access.", type: "success" });
+          setTimeout(() => window.location.reload(), 1500);
+        },
+        onError: () => {
+          setIsProcessingPayment(false);
+          setToast({ message: "Payment failed or cancelled.", type: "error" });
+        },
+      });
+    } catch (e) {
+      console.error(e);
+      setIsProcessingPayment(false);
+    }
+  };
 
   // Auto-prompt payment for referred users OR if redirect hit from onboarding/landing page
   const checkoutTriggered = useRef(false);
@@ -347,13 +393,16 @@ function DashboardContent() {
             </p>
             {!isPremium ? (
                <div className="flex flex-col gap-2 w-full">
-                 <button onClick={() => handleCheckout("monthly", false)} className="w-full py-2.5 rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white text-[12px] font-bold tracking-wide transition-all shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2">
-                   <Star className="w-3.5 h-3.5 fill-white" /> ₹7 for 7 Days Trial
-                 </button>
-                 <button onClick={() => handleCheckout("monthly", true)} className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-700 text-[12px] font-bold tracking-wide hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2">
+                 {!userData?.weeklyPassUsed && (
+                   <button onClick={handleWeeklyPass} disabled={isProcessingPayment} className="w-full py-2.5 rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 disabled:opacity-50 text-white text-[12px] font-bold tracking-wide transition-all shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2">
+                     <Timer className="w-3.5 h-3.5" /> ₹7 for 7 Days
+                     <span className="text-[9px] opacity-80 font-semibold">(one-time)</span>
+                   </button>
+                 )}
+                 <button onClick={() => handleCheckout("monthly", true)} disabled={isProcessingPayment} className="w-full py-2 rounded-lg border border-indigo-200 text-indigo-700 text-[12px] font-bold tracking-wide hover:bg-indigo-50 disabled:opacity-50 transition-colors flex items-center justify-center gap-2">
                    <Zap className="w-3.5 h-3.5" /> Pro (₹49/mo)
                  </button>
-                 <button onClick={() => handleCheckout("yearly", true)} className="w-full py-2 rounded-lg bg-indigo-600 text-white text-[12px] font-bold tracking-wide hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2">
+                 <button onClick={() => handleCheckout("yearly", true)} disabled={isProcessingPayment} className="w-full py-2 rounded-lg bg-indigo-600 text-white text-[12px] font-bold tracking-wide hover:bg-indigo-700 disabled:opacity-50 transition-colors flex items-center justify-center gap-2">
                    <Crown className="w-3.5 h-3.5" /> Pro (₹399/yr)
                  </button>
                </div>

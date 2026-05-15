@@ -158,12 +158,32 @@ export async function POST(req: Request) {
           const userSnap = await userRef.get();
 
           if (userSnap.exists) {
-            await userRef.update({
-              'subscription.plan': 'Free',
-              'subscription.status': 'none',
-              'subscription.cancelledAt': new Date().toISOString(),
-              updatedAt: new Date().toISOString(),
-            });
+            // Razorpay fires subscription.cancelled immediately even when
+            // cancel_at_cycle_end=true (user just turned off auto-renewal).
+            // Check if the paid period has actually ended before downgrading.
+            const endTimestamp = subscription.ended_at || subscription.end_at || subscription.current_end;
+            const now = Math.floor(Date.now() / 1000); // Razorpay uses Unix seconds
+
+            if (endTimestamp && endTimestamp > now) {
+              // Paid period still active — keep access, mark as cancelling with expiry
+              const expiryDate = new Date(endTimestamp * 1000).toISOString();
+              await userRef.update({
+                'subscription.status': 'cancelling',
+                'subscription.expiryDate': expiryDate,
+                'subscription.cancelledAt': new Date().toISOString(),
+                updatedAt: new Date().toISOString(),
+              });
+              console.info(`[webhook] User ${userId} cancel-at-cycle-end. Access until ${expiryDate}`);
+            } else {
+              // Paid period is over or no end timestamp — downgrade immediately
+              await userRef.update({
+                'subscription.plan': 'Free',
+                'subscription.status': 'none',
+                'subscription.cancelledAt': new Date().toISOString(),
+                updatedAt: new Date().toISOString(),
+              });
+              console.info(`[webhook] User ${userId} fully downgraded to Free.`);
+            }
           }
         }
         break;
