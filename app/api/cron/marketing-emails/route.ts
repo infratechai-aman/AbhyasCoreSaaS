@@ -14,6 +14,10 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Missing Brevo SMTP credentials in environment variables" }, { status: 500 });
   }
 
+  if (!adminDb) {
+    return NextResponse.json({ error: "Server not configured." }, { status: 500 });
+  }
+
   try {
     // 3. Find "Free" users who haven't been emailed recently
     const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString();
