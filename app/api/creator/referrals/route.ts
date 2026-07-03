@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { requireAuth } from "@/lib/auth-middleware";
 import { adminDb } from "@/lib/firebase-admin";
 
+export const dynamic = "force-dynamic";
+
 /**
  * GET /api/creator/referrals
  * Fetches referral statistics for the currently logged-in creator.
