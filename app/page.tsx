@@ -140,6 +140,11 @@ function HomeHeader() {
           <Link href="/login" className="hidden text-[13px] font-bold text-slate-500 transition-colors hover:text-indigo-600 uppercase tracking-wider sm:inline">
             Log In
           </Link>
+          <Link href="/institute/dashboard">
+            <button className="hidden sm:inline-block rounded-xl border border-indigo-200 bg-indigo-50 px-4 py-2 text-[11px] sm:text-[12px] font-bold text-indigo-700 transition-all hover:bg-indigo-100 hover:border-indigo-300 uppercase tracking-wide">
+              🏫 Institute Portal
+            </button>
+          </Link>
           <Link href="/dashboard">
             <button className="rounded-xl bg-slate-900 px-4 py-2 sm:px-5 sm:py-2.5 text-[11px] sm:text-[13px] font-bold text-white shadow-lg shadow-slate-900/20 transition-all hover:bg-indigo-600 hover:shadow-indigo-600/30 hover:scale-[1.03] uppercase tracking-wide">
               Premium Portal
@@ -628,6 +633,64 @@ export default function HomePage() {
                    </motion.div>
                  ))}
               </div>
+           </div>
+        </section>
+
+        {/* ═══════════════════ INSTITUTE PORTAL BANNER ═══════════════════ */}
+        <section className="px-4 py-20 lg:py-24 bg-white">
+           <div className="mx-auto max-w-[1200px]">
+              <motion.div
+                 initial={{ opacity: 0, y: 30 }}
+                 whileInView={{ opacity: 1, y: 0 }}
+                 viewport={{ once: true }}
+                 className="rounded-[32px] border border-indigo-200/60 bg-gradient-to-br from-indigo-50/80 to-violet-50/50 p-10 lg:p-14 relative overflow-hidden"
+              >
+                 <div className="absolute top-0 right-0 w-60 h-60 bg-violet-500/10 rounded-full blur-[80px] mix-blend-multiply" />
+                 <div className="relative z-10 grid lg:grid-cols-[1fr_auto] gap-10 items-center">
+                    <div>
+                       <div className="inline-flex items-center gap-2 rounded-full border border-violet-300 bg-violet-100 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-violet-700 mb-5">
+                          <span className="h-2 w-2 rounded-full bg-violet-500 animate-pulse" />
+                          Institute Edition · New
+                       </div>
+                       <h2 className="font-display text-[32px] font-bold leading-tight text-slate-900 lg:text-[44px] tracking-tight">
+                          Conduct Exams.
+                          <br />
+                          <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">
+                             Own the Results.
+                          </span>
+                       </h2>
+                       <p className="mt-4 text-[15px] leading-relaxed text-slate-500 font-medium max-w-xl">
+                          Generate password-protected exam links for your batch in 60 seconds. Full JEE &amp; NEET coverage — chapter-wise, subject-wise, full mocks. Track every student's performance in real-time.
+                       </p>
+                       <div className="mt-8 flex flex-col sm:flex-row gap-3">
+                          <Link href="/institute/dashboard">
+                             <button className="flex items-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 px-6 py-3 text-[14px] font-bold text-white shadow-lg shadow-indigo-500/25 transition-all hover:shadow-indigo-500/40 hover:-translate-y-0.5">
+                                🏫 Start as Institute →
+                             </button>
+                          </Link>
+                          <Link href="#how-it-works">
+                             <button className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-[14px] font-bold text-slate-700 transition-all hover:border-indigo-200 hover:shadow-sm">
+                                Learn More
+                             </button>
+                          </Link>
+                       </div>
+                    </div>
+                    <div className="hidden lg:grid grid-cols-2 gap-4">
+                       {[
+                          { icon: "📝", value: "12K+", label: "Questions" },
+                          { icon: "📊", value: "Live", label: "Analytics" },
+                          { icon: "🔗", value: "1-Click", label: "Share Links" },
+                          { icon: "🏆", value: "CSV", label: "Export" },
+                       ].map((stat) => (
+                          <div key={stat.label} className="rounded-2xl border border-white/80 bg-white/60 backdrop-blur-md p-5 text-center shadow-sm">
+                             <div className="text-xl mb-1">{stat.icon}</div>
+                             <div className="font-display text-lg font-bold text-slate-900">{stat.value}</div>
+                             <div className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-400 mt-0.5">{stat.label}</div>
+                          </div>
+                       ))}
+                    </div>
+                 </div>
+              </motion.div>
            </div>
         </section>
 

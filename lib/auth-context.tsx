@@ -78,6 +78,29 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
                 .catch(() => {});
             }).catch(() => {});
           }
+          // Check if user is an institute owner
+          if (currentUser) {
+            currentUser.getIdToken().then((idToken) => {
+              fetch("/api/institute/verify-owner", {
+                method: "POST",
+                headers: { Authorization: `Bearer ${idToken}` },
+              })
+                .then((r) => r.ok ? r.json() : null)
+                .then((d) => {
+                  if (d?.isInstitute) {
+                    document.cookie = "abhyas_institute=1; path=/; max-age=86400; SameSite=Lax; Secure";
+                    // Store institute info in sessionStorage for quick access
+                    try {
+                      sessionStorage.setItem("abhyas_institute", JSON.stringify({
+                        id: d.instituteId,
+                        name: d.instituteName,
+                      }));
+                    } catch {}
+                  }
+                })
+                .catch(() => {});
+            }).catch(() => {});
+          }
         } else {
           sessionStorage.removeItem("abhyas_userData");
           document.cookie = "abhyas_session=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure";

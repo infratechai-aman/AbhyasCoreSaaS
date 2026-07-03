@@ -32,6 +32,15 @@ export function middleware(request: NextRequest) {
     }
   }
 
+  // Protect Institute Portal Routes
+  if (pathname.startsWith('/institute')) {
+    const isAuth = request.cookies.get('abhyas_session')?.value === '1';
+    const isInstitute = request.cookies.get('abhyas_institute')?.value === '1';
+    if (!isAuth || !isInstitute) {
+      return NextResponse.redirect(new URL('/login', request.url));
+    }
+  }
+
   // Add security headers to all responses
   const response = NextResponse.next();
   response.headers.set('X-Content-Type-Options', 'nosniff');
@@ -40,5 +49,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/dashboard/:path*', '/test-console/:path*', '/admin/:path*'],
+  matcher: ['/dashboard/:path*', '/test-console/:path*', '/admin/:path*', '/institute/:path*'],
 };

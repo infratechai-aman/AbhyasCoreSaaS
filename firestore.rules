@@ -88,6 +88,22 @@ service cloud.firestore {
       allow read, write: if false;
     }
 
+    // ─── Institute Portal (B2B) ───
+    // All institute data is managed via Admin SDK only.
+    // No client-side reads or writes allowed.
+    match /institutes/{instituteId} {
+      allow read, write: if false;
+    }
+    match /institute_exams/{examId} {
+      allow read, write: if false;
+    }
+    match /institute_attempts/{attemptId} {
+      allow read, write: if false;
+    }
+    match /institute_exam_sessions/{sessionId} {
+      allow read, write: if false;
+    }
+
     // ─── Default Deny ───
     // Block all access to any collection not explicitly listed above.
     match /{document=**} {
