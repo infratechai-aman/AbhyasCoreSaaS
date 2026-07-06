@@ -13,6 +13,38 @@ export const dynamic = "force-dynamic";
  * recent exams, and top students.
  */
 export async function GET(request: Request) {
+  const isDemo = new URL(request.url).searchParams.get("demo") === "true";
+  
+  if (isDemo) {
+    return NextResponse.json({
+      instituteName: "Demo Institute",
+      plan: "coaching",
+      maxAttempts: 5000,
+      usedAttempts: 1250,
+      totalExams: 42,
+      totalAttempts: 3248,
+      liveExamCount: 2,
+      activeStudents: 96,
+      avgScore: 64.8,
+      recentExams: [
+        { id: "1", title: "JEE Main Full Mock Test - 04", targetExam: "JEE", examType: "full", status: "ended", createdAt: new Date().toISOString(), duration: 180, attemptCount: 256, avgScore: 63.2, topScore: 98.5 },
+        { id: "2", title: "NEET 2026 Full Mock Test - 03", targetExam: "NEET", examType: "full", status: "ended", createdAt: new Date(Date.now() - 86400000).toISOString(), duration: 200, attemptCount: 180, avgScore: 65.7, topScore: 97.0 },
+        { id: "3", title: "JEE Advanced Sectional - Physics", targetExam: "JEE", examType: "chapter", status: "ended", createdAt: new Date(Date.now() - 172800000).toISOString(), duration: 60, attemptCount: 120, avgScore: 59.1, topScore: 94.0 },
+      ],
+      allExams: [
+        { id: "1", title: "JEE Main Full Mock Test - 04", targetExam: "JEE", examType: "full", status: "ended", createdAt: new Date().toISOString(), duration: 180, attemptCount: 256, avgScore: 63.2, topScore: 98.5 },
+        { id: "2", title: "NEET 2026 Full Mock Test - 03", targetExam: "NEET", examType: "full", status: "ended", createdAt: new Date(Date.now() - 86400000).toISOString(), duration: 200, attemptCount: 180, avgScore: 65.7, topScore: 97.0 },
+      ],
+      topStudents: [
+        { name: "Aman Verma", rollNo: "101", avgScore: 98.5, count: 5 },
+        { name: "Rohan Gupta", rollNo: "102", avgScore: 97.0, count: 4 },
+        { name: "Ishita Sharma", rollNo: "103", avgScore: 96.2, count: 5 },
+        { name: "Aditya Singh", rollNo: "104", avgScore: 95.1, count: 3 },
+        { name: "Nandini Patel", rollNo: "105", avgScore: 94.3, count: 5 },
+      ]
+    });
+  }
+
   // 1. Authenticate
   const authResult = await requireAuth(request);
   if (authResult instanceof NextResponse) return authResult;

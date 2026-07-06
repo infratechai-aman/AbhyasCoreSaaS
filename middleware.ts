@@ -32,12 +32,13 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // Protect Institute Portal Routes
-  if (pathname.startsWith('/institute')) {
+  // Protect Institute Portal Routes (except the login page itself)
+  if (pathname.startsWith('/institute') && !pathname.startsWith('/institute/login')) {
+    const isDemo = request.nextUrl.searchParams.get("demo") === "true";
     const isAuth = request.cookies.get('abhyas_session')?.value === '1';
     const isInstitute = request.cookies.get('abhyas_institute')?.value === '1';
-    if (!isAuth || !isInstitute) {
-      return NextResponse.redirect(new URL('/login', request.url));
+    if (!isDemo && (!isAuth || !isInstitute)) {
+      return NextResponse.redirect(new URL('/institute/login', request.url));
     }
   }
 

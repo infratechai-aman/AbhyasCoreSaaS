@@ -140,7 +140,7 @@ function HomeHeader() {
           <Link href="/login" className="hidden text-[13px] font-bold text-slate-500 transition-colors hover:text-indigo-600 uppercase tracking-wider sm:inline">
             Log In
           </Link>
-          <Link href="/institute/dashboard">
+          <Link href="/institute/login">
             <button className="hidden sm:inline-block rounded-xl border border-indigo-200 bg-indigo-50 px-4 py-2 text-[11px] sm:text-[12px] font-bold text-indigo-700 transition-all hover:bg-indigo-100 hover:border-indigo-300 uppercase tracking-wide">
               🏫 Institute Portal
             </button>
@@ -663,7 +663,7 @@ export default function HomePage() {
                           Generate password-protected exam links for your batch in 60 seconds. Full JEE &amp; NEET coverage — chapter-wise, subject-wise, full mocks. Track every student's performance in real-time.
                        </p>
                        <div className="mt-8 flex flex-col sm:flex-row gap-3">
-                          <Link href="/institute/dashboard">
+                          <Link href="/institute/login">
                              <button className="flex items-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 px-6 py-3 text-[14px] font-bold text-white shadow-lg shadow-indigo-500/25 transition-all hover:shadow-indigo-500/40 hover:-translate-y-0.5">
                                 🏫 Start as Institute →
                              </button>

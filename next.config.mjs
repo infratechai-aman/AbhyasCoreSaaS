@@ -39,8 +39,8 @@ const nextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self' https:",
-              "script-src 'self' 'unsafe-inline' https://accounts.google.com https://apis.google.com https://www.gstatic.com https://www.googletagmanager.com https://checkout.razorpay.com https://cdn.razorpay.com https://*.googleapis.com https://vercel.live",
-              "script-src-elem 'self' 'unsafe-inline' https://accounts.google.com https://apis.google.com https://www.gstatic.com https://www.googletagmanager.com https://checkout.razorpay.com https://cdn.razorpay.com https://*.googleapis.com https://vercel.live",
+              `script-src 'self' 'unsafe-inline' ${process.env.NODE_ENV === 'development' ? "'unsafe-eval'" : ""} https://accounts.google.com https://apis.google.com https://www.gstatic.com https://www.googletagmanager.com https://checkout.razorpay.com https://cdn.razorpay.com https://*.googleapis.com https://vercel.live`,
+              `script-src-elem 'self' 'unsafe-inline' ${process.env.NODE_ENV === 'development' ? "'unsafe-eval'" : ""} https://accounts.google.com https://apis.google.com https://www.gstatic.com https://www.googletagmanager.com https://checkout.razorpay.com https://cdn.razorpay.com https://*.googleapis.com https://vercel.live`,
               "style-src 'self' 'unsafe-inline' https://accounts.google.com https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com data:",
               "img-src 'self' data: https: blob:",
