@@ -105,9 +105,9 @@ export default function InstituteDashboard() {
   const [activeTab, setActiveTab] = useState("Overview");
 
   useEffect(() => {
-    const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
+    const isDemo = typeof window !== "undefined" && (window.location.search.includes("demo=true") || document.cookie.includes("abhyas_institute=1"));
     if (isDemo || user) {
-      fetchStats(isDemo);
+      fetchStats(isDemo && !user);
     }
   }, [user]);
 
@@ -218,9 +218,9 @@ export default function InstituteDashboard() {
   const attemptsPercent = Math.min((usedAttemptsFormatted / maxAttemptsFormatted) * 100, 100);
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6 lg:gap-0 lg:h-[calc(100vh-72px)] bg-[#fafafc] -m-4 md:-m-8">
+    <div className="flex flex-col lg:flex-row gap-6 lg:gap-0 lg:h-[calc(100vh-72px)] bg-[#fafafc]">
       {/* Left Main Content */}
-      <div className="flex-1 overflow-y-auto p-4 md:p-8 custom-scrollbar">
+      <div className="flex-1 overflow-y-auto p-5 md:p-8 custom-scrollbar">
         {/* Top Pills */}
         <div className="flex items-center gap-2 mb-8">
           <button 
@@ -241,6 +241,8 @@ export default function InstituteDashboard() {
           </button>
         </div>
 
+        {activeTab === "Overview" && (
+        <>
         {/* Welcome Text */}
         <div className="mb-8">
           <h2 className="text-[24px] font-bold text-slate-900 mb-1 tracking-tight">
@@ -367,7 +369,7 @@ export default function InstituteDashboard() {
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-[15px] font-bold text-slate-900">Top Performing Students</h3>
               <button 
-                onClick={() => router.push('/institute/results')}
+                onClick={() => router.push('/institute/repository')}
                 className="text-[10px] font-bold tracking-[0.1em] text-indigo-600 uppercase hover:text-indigo-700 transition-colors flex items-center gap-1"
               >
                 View Leaderboard <ChevronRight className="h-3 w-3" />
@@ -414,6 +416,80 @@ export default function InstituteDashboard() {
         </div>
         
         <div className="h-12"></div>
+        </>
+        )}
+
+        {activeTab === "Live Exams" && (
+        <>
+        <div className="mb-8">
+          <h2 className="text-[24px] font-bold text-slate-900 mb-1 tracking-tight">Live Exams</h2>
+          <p className="text-[14px] text-slate-500">Currently active exams that students can join right now.</p>
+        </div>
+
+        {allExams.filter(e => e.status === "live").length === 0 ? (
+          <div className="py-16 flex flex-col items-center justify-center bg-slate-50 rounded-[16px] border border-slate-200/60 border-dashed">
+            <Activity className="w-8 h-8 text-slate-300 mb-3" />
+            <p className="text-slate-500 text-[13px] font-medium mb-4">No live exams right now.</p>
+            <button onClick={() => router.push('/institute/create-exam')} className="flex items-center gap-2 h-9 px-5 rounded-lg bg-indigo-600 text-white text-[13px] font-semibold shadow-[0_2px_8px_rgba(79,70,229,0.25)] hover:bg-indigo-700 transition-all">
+              Create an Exam
+            </button>
+          </div>
+        ) : (
+          <div className="flex flex-col gap-4">
+            {allExams.filter(e => e.status === "live").map((exam, i) => (
+              <div key={i} className="bg-white rounded-[16px] border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)] p-6">
+                <div className="flex items-start justify-between">
+                  <div className="flex items-start gap-4">
+                    <div className="h-12 w-12 shrink-0 rounded-xl bg-red-50 border border-red-100 text-red-600 flex items-center justify-center">
+                      <Activity className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-[15px] font-bold text-slate-900">{exam.title}</span>
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-50 text-[9px] font-bold text-red-600 tracking-[0.1em] uppercase">
+                          <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" /> LIVE
+                        </span>
+                      </div>
+                      <div className="text-[12px] text-slate-500 mb-3">
+                        {exam.targetExam} • {exam.questionCount} Questions • {exam.duration}min
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-1.5 bg-slate-50 border border-slate-100 rounded-lg px-3 py-1.5">
+                          <Users className="w-3.5 h-3.5 text-slate-400" />
+                          <span className="text-[12px] font-bold text-slate-700">{exam.attemptCount} Attempts</span>
+                        </div>
+                        <div className="flex items-center gap-1.5 bg-slate-50 border border-slate-100 rounded-lg px-3 py-1.5">
+                          <TrendingUp className="w-3.5 h-3.5 text-slate-400" />
+                          <span className="text-[12px] font-bold text-slate-700">Avg: {exam.avgScore}%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 shrink-0">
+                    <button
+                      onClick={() => {
+                        const baseUrl = typeof window !== 'undefined' ? window.location.origin : '';
+                        navigator.clipboard.writeText(`${baseUrl}/exam/join/${exam.examCode}`);
+                      }}
+                      className="h-9 px-4 rounded-lg bg-white border border-slate-200 text-[12px] font-semibold text-slate-600 hover:border-indigo-300 hover:text-indigo-600 transition-all"
+                    >
+                      🔗 Copy Link
+                    </button>
+                    <button
+                      onClick={() => router.push(`/institute/repository/${exam.id}`)}
+                      className="h-9 px-4 rounded-lg bg-white border border-slate-200 text-[12px] font-semibold text-slate-600 hover:border-indigo-300 hover:text-indigo-600 transition-all"
+                    >
+                      📊 Results
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+        <div className="h-12"></div>
+        </>
+        )}
       </div>
 
       {/* Right Info Sidebar - Matches ScorePrepPro style exactly */}

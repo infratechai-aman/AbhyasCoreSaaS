@@ -6,12 +6,11 @@ import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
 import {
   LayoutDashboard,
-  Users,
   PlusSquare,
   ClipboardList,
-  Trophy,
+  Archive,
   BarChart3,
-  BookOpen,
+  BrainCircuit,
   Settings,
   Bell,
   LogOut,
@@ -21,12 +20,11 @@ import {
 
 const navItems = [
   { id: "dashboard", label: "Overview", icon: LayoutDashboard, href: "/institute/dashboard" },
-  { id: "batches", label: "Batches", icon: Users, href: "/institute/batches" },
   { id: "create-exam", label: "Create Exam", icon: PlusSquare, href: "/institute/create-exam" },
   { id: "exams", label: "Exams", icon: ClipboardList, href: "/institute/exams" },
-  { id: "results", label: "Results", icon: Trophy, href: "/institute/results" },
+  { id: "repository", label: "Repository", icon: Archive, href: "/institute/repository" },
   { id: "analytics", label: "Analytics", icon: BarChart3, href: "/institute/analytics" },
-  { id: "question-bank", label: "Question Bank", icon: BookOpen, href: "/institute/question-bank" },
+  { id: "ai-tutor", label: "AI Tutor", icon: BrainCircuit, href: "/institute/ai-tutor" },
 ];
 
 const bottomNavItems = [
@@ -96,12 +94,11 @@ export default function InstituteLayout({ children }: { children: React.ReactNod
   }, [user]);
 
   const getActiveItem = () => {
-    if (pathname.includes("/batches")) return "batches";
     if (pathname.includes("/create-exam")) return "create-exam";
     if (pathname.includes("/exams")) return "exams";
-    if (pathname.includes("/results")) return "results";
+    if (pathname.includes("/repository")) return "repository";
     if (pathname.includes("/analytics")) return "analytics";
-    if (pathname.includes("/question-bank")) return "question-bank";
+    if (pathname.includes("/ai-tutor")) return "ai-tutor";
     if (pathname.includes("/settings")) return "settings";
     return "dashboard";
   };
@@ -146,11 +143,9 @@ export default function InstituteLayout({ children }: { children: React.ReactNod
         {/* Logo matching student portal */}
         <div className="p-6 pb-4">
           <div className="flex items-center gap-2 cursor-default">
-            <Image src="/logo.png" alt="AbhyasCore" width={112} height={56} className="h-14 w-auto object-contain brightness-150" />
+            <Image src="/logo.png" alt="AbhyasCore" width={112} height={56} className="h-10 w-auto object-contain" priority />
             <div>
-              <div className="font-bold text-[16px] text-white tracking-tight -mb-1" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-                AbhyasCore<span className="text-indigo-400">Inst.</span>
-              </div>
+              <div className="font-display font-bold text-[16px] text-white tracking-tight -mb-1">AbhyasCore<span className="text-indigo-400">AI</span></div>
               <div className="text-[9px] font-bold tracking-[0.15em] text-slate-400 uppercase mt-0.5">
                 Institute Portal
               </div>
@@ -296,9 +291,7 @@ export default function InstituteLayout({ children }: { children: React.ReactNod
 
         {/* Content Area */}
         <main className="flex-1 overflow-y-auto relative z-10 custom-scrollbar scroll-smooth">
-          <div className="p-4 md:p-8 max-w-[1400px] mx-auto w-full">
-            {children}
-          </div>
+          {children}
         </main>
       </div>
     </div>

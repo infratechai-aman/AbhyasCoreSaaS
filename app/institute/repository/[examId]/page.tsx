@@ -91,8 +91,8 @@ export default function ExamResultsPage() {
     return (
       <div className="flex items-center justify-center h-64">
         <div className="flex flex-col items-center gap-3">
-          <div className="w-8 h-8 border-3 border-[#7c3aed] border-t-transparent rounded-full animate-spin" />
-          <p className="text-sm text-[#64748b] font-medium">Loading results...</p>
+          <div className="w-8 h-8 border-3 border-indigo-600 border-t-transparent rounded-full animate-spin" />
+          <p className="text-sm text-slate-500 font-medium">Loading results...</p>
         </div>
       </div>
     );
@@ -104,7 +104,7 @@ export default function ExamResultsPage() {
         <p className="text-red-600 font-semibold">{error}</p>
         <button
           onClick={() => router.push("/institute/exams")}
-          className="mt-3 px-4 py-2 bg-[#7c3aed] text-white rounded-lg text-sm font-bold"
+          className="mt-3 px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-bold"
         >
           Back to Exams
         </button>
@@ -115,11 +115,11 @@ export default function ExamResultsPage() {
   const attempts: Attempt[] = data?.attempts || [];
 
   return (
-    <div style={{ fontFamily: "'Inter', sans-serif" }}>
+    <div className="flex-1 p-5 md:p-8 max-w-5xl">
       {/* Back Button */}
       <button
         onClick={() => router.push("/institute/exams")}
-        className="flex items-center gap-1 text-xs font-semibold text-[#64748b] mb-4 bg-transparent border-none cursor-pointer hover:text-[#4f46e5]"
+        className="flex items-center gap-1 text-xs font-semibold text-slate-500 mb-4 bg-transparent border-none cursor-pointer hover:text-indigo-600"
       >
         ← Back to Exams
       </button>
@@ -128,16 +128,12 @@ export default function ExamResultsPage() {
       <div className="rounded-2xl bg-[#18184a] p-10 text-center mb-5 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_-10%,rgba(124,58,237,0.35),transparent)] pointer-events-none" />
         <h2
-          className="text-sm font-bold text-white/60 uppercase tracking-[0.2em] mb-2 relative z-10"
-          style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-        >
+          className="text-sm font-bold text-white/60 uppercase tracking-[0.2em] mb-2 relative z-10">
           {data?.examTitle || "Exam Results"}
         </h2>
         <div className="relative z-10">
           <span
-            className="text-6xl font-extrabold text-white leading-none"
-            style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-          >
+            className="text-6xl font-extrabold text-white leading-none">
             {data?.totalAttempts || 0}
           </span>
           <span className="text-2xl text-white/40 ml-1">attempts</span>
@@ -150,9 +146,7 @@ export default function ExamResultsPage() {
         <div className="flex justify-center gap-9 relative z-10">
           <div className="text-center">
             <div
-              className="text-2xl font-extrabold text-[#4ade80]"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-            >
+              className="text-2xl font-extrabold text-[#4ade80]">
               {data?.avgScore || 0}%
             </div>
             <div className="text-[9px] font-semibold uppercase tracking-[0.14em] text-white/[0.35] mt-0.5">
@@ -161,9 +155,7 @@ export default function ExamResultsPage() {
           </div>
           <div className="text-center">
             <div
-              className="text-2xl font-extrabold text-[#60a5fa]"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-            >
+              className="text-2xl font-extrabold text-[#60a5fa]">
               {data?.topScore || 0}%
             </div>
             <div className="text-[9px] font-semibold uppercase tracking-[0.14em] text-white/[0.35] mt-0.5">
@@ -172,9 +164,7 @@ export default function ExamResultsPage() {
           </div>
           <div className="text-center">
             <div
-              className="text-2xl font-extrabold text-[#fbbf24]"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-            >
+              className="text-2xl font-extrabold text-[#fbbf24]">
               {data?.avgTimeTaken ? formatTime(data.avgTimeTaken) : "—"}
             </div>
             <div className="text-[9px] font-semibold uppercase tracking-[0.14em] text-white/[0.35] mt-0.5">
@@ -187,27 +177,25 @@ export default function ExamResultsPage() {
       {/* Leaderboard Header */}
       <div className="flex items-center justify-between mb-3">
         <h3
-          className="text-sm font-extrabold text-[#0f172a]"
-          style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-        >
+          className="text-sm font-extrabold text-slate-900 tracking-tight">
           🏆 Leaderboard
         </h3>
         <button
           onClick={exportCSV}
           disabled={attempts.length === 0}
-          className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg border border-[#e2e8f0] bg-white text-[11px] font-bold text-[#64748b] cursor-pointer transition-all hover:border-[#a5b4fc] hover:text-[#4f46e5] hover:bg-[#f5f3ff] disabled:opacity-50 disabled:cursor-not-allowed"
+          className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg border border-slate-200/60 bg-white text-[11px] font-bold text-slate-500 cursor-pointer transition-all hover:border-indigo-200 hover:text-indigo-600 hover:bg-indigo-50/50 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           📥 Export CSV
         </button>
       </div>
 
       {/* Results Table */}
-      <div className="bg-white border border-[#e2e8f0] rounded-[14px] shadow-[0_1px_4px_rgba(0,0,0,0.03)] overflow-hidden">
+      <div className="bg-white border border-slate-200/60 rounded-[16px] shadow-[0_2px_12px_rgba(0,0,0,0.02)] overflow-hidden">
         {attempts.length === 0 ? (
           <div className="text-center py-12">
             <p className="text-2xl mb-2">📊</p>
-            <p className="text-sm font-semibold text-[#64748b]">No attempts yet</p>
-            <p className="text-xs text-[#94a3b8] mt-1">
+            <p className="text-sm font-semibold text-slate-500">No attempts yet</p>
+            <p className="text-xs text-slate-400 mt-1">
               Share the exam link with your students to start collecting results.
             </p>
           </div>
@@ -219,7 +207,7 @@ export default function ExamResultsPage() {
                   (h) => (
                     <th
                       key={h}
-                      className="text-left px-3 py-2.5 text-[9px] font-bold uppercase tracking-[0.14em] text-[#94a3b8] border-b border-[#e2e8f0]"
+                      className="text-left px-3 py-2.5 text-[9px] font-bold uppercase tracking-[0.14em] text-slate-400 border-b border-slate-200/60"
                     >
                       {h}
                     </th>
@@ -239,31 +227,29 @@ export default function ExamResultsPage() {
                     : "";
                 return (
                   <tr key={a.id} className="hover:bg-[#fafafa] transition-colors">
-                    <td className="px-3 py-3 border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 border-b border-slate-50">
                       <span
                         className={`w-6 h-6 rounded-md inline-flex items-center justify-center text-[10px] font-extrabold ${
-                          rankBg || "text-[#94a3b8]"
+                          rankBg || "text-slate-400"
                         }`}
                       >
                         {a.rank <= 3 ? ["🥇", "🥈", "🥉"][a.rank - 1] : a.rank}
                       </span>
                     </td>
-                    <td className="px-3 py-3 text-xs font-bold text-[#0f172a] border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 text-xs font-bold text-slate-900 border-b border-slate-50">
                       {a.studentName}
                     </td>
-                    <td className="px-3 py-3 text-xs text-[#64748b] border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 text-xs text-slate-500 border-b border-slate-50">
                       {a.rollNo}
                     </td>
-                    <td className="px-3 py-3 border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 border-b border-slate-50">
                       <span
-                        className="text-sm font-extrabold text-[#0f172a]"
-                        style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-                      >
+                        className="text-sm font-extrabold text-slate-900 tracking-tight">
                         {a.score}
                       </span>
-                      <span className="text-[10px] text-[#94a3b8]">/{a.maxScore}</span>
+                      <span className="text-[10px] text-slate-400">/{a.maxScore}</span>
                     </td>
-                    <td className="px-3 py-3 border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 border-b border-slate-50">
                       <span
                         className={`text-xs font-extrabold ${
                           a.percentage >= 80
@@ -271,23 +257,23 @@ export default function ExamResultsPage() {
                             : a.percentage >= 60
                             ? "text-[#2563eb]"
                             : a.percentage >= 40
-                            ? "text-[#d97706]"
-                            : "text-[#dc2626]"
+                            ? "text-orange-600"
+                            : "text-red-600"
                         }`}
                       >
                         {a.percentage}%
                       </span>
                     </td>
-                    <td className="px-3 py-3 text-xs font-semibold text-[#16a34a] border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 text-xs font-semibold text-[#16a34a] border-b border-slate-50">
                       {a.correct}
                     </td>
-                    <td className="px-3 py-3 text-xs font-semibold text-[#dc2626] border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 text-xs font-semibold text-red-600 border-b border-slate-50">
                       {a.wrong}
                     </td>
-                    <td className="px-3 py-3 text-xs font-semibold text-[#d97706] border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 text-xs font-semibold text-orange-600 border-b border-slate-50">
                       {a.skipped}
                     </td>
-                    <td className="px-3 py-3 text-xs text-[#64748b] border-b border-[#f8fafc]">
+                    <td className="px-3 py-3 text-xs text-slate-500 border-b border-slate-50">
                       {formatTime(a.timeTaken)}
                     </td>
                   </tr>

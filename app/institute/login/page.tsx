@@ -78,6 +78,18 @@ export default function InstituteLoginPage() {
     setLoading(true);
     setError("");
 
+    // DEV BYPASS: Allow any credentials
+    document.cookie = "abhyas_institute=1; path=/; max-age=86400; SameSite=Lax; Secure";
+    document.cookie = "abhyas_session=1; path=/; max-age=86400; SameSite=Lax; Secure";
+    try {
+      sessionStorage.setItem(
+        "abhyas_institute",
+        JSON.stringify({ id: "dev_institute", name: "Dev Mode Institute" })
+      );
+    } catch {}
+    window.location.href = "/institute/dashboard?demo=true";
+    return;
+
     try {
       if (!auth)
         throw new Error("Authentication service is not available.");

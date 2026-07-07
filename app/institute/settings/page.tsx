@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { useAuth } from "@/lib/auth-context";
 import { useRouter } from "next/navigation";
+import { Settings, User, LogOut, Shield, Bell, Save } from "lucide-react";
 
 export default function InstituteSettingsPage() {
   const { user, userData, logout } = useAuth();
@@ -15,62 +16,85 @@ export default function InstituteSettingsPage() {
   };
 
   return (
-    <div style={{ fontFamily: "'Inter', sans-serif" }}>
-      <div className="mb-6">
-        <h2 className="text-xl font-extrabold text-[#0f172a] mb-1" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-          Settings
-        </h2>
-        <p className="text-xs font-medium text-[#64748b]">Manage your institute profile, preferences, and account.</p>
+    <div className="flex-1 p-5 md:p-8">
+      <div className="mb-8">
+        <h2 className="text-[24px] font-semibold text-slate-900 tracking-tight mb-1">Settings</h2>
+        <p className="text-[14px] text-slate-500">Manage your institute profile, preferences, and account.</p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-4xl">
         {/* Institute Profile */}
-        <div className="bg-white border border-[#e2e8f0] rounded-[14px] shadow-[0_1px_4px_rgba(0,0,0,0.03)] overflow-hidden">
-          <div className="px-5 py-3.5 border-b border-[#e2e8f0]">
-            <h3 className="text-[13px] font-extrabold text-[#0f172a]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-              Institute Profile
-            </h3>
+        <div className="bg-white rounded-[16px] border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)] overflow-hidden">
+          <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
+            <div className="h-8 w-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center">
+              <User className="h-4 w-4" />
+            </div>
+            <h3 className="text-[14px] font-bold text-slate-900">Institute Profile</h3>
           </div>
-          <div className="p-5 space-y-4">
+          <div className="p-6 space-y-5">
             <div>
-              <label className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#64748b] mb-1.5 block">Institute Name</label>
-              <input type="text" defaultValue="" placeholder="Your Institute Name" className="w-full h-10 px-3 bg-slate-50 border border-slate-200 rounded-lg text-[13px] outline-none focus:border-[#7c3aed] transition-colors" />
+              <label className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-500 mb-2 block">Institute Name</label>
+              <input type="text" defaultValue="" placeholder="Your Institute Name" className="w-full h-11 px-4 bg-slate-50 border border-slate-200 rounded-xl text-[13px] outline-none focus:border-indigo-500 focus:bg-white focus:ring-4 focus:ring-indigo-500/5 transition-all" />
             </div>
             <div>
-              <label className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#64748b] mb-1.5 block">Email</label>
-              <input type="email" defaultValue={user?.email || ""} disabled className="w-full h-10 px-3 bg-slate-100 border border-slate-200 rounded-lg text-[13px] text-slate-500 outline-none cursor-not-allowed" />
+              <label className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-500 mb-2 block">Email</label>
+              <input type="email" defaultValue={user?.email || ""} disabled className="w-full h-11 px-4 bg-slate-100 border border-slate-200 rounded-xl text-[13px] text-slate-400 outline-none cursor-not-allowed" />
             </div>
             <div>
-              <label className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#64748b] mb-1.5 block">Phone / WhatsApp</label>
-              <input type="tel" defaultValue="" placeholder="+91 98765 43210" className="w-full h-10 px-3 bg-slate-50 border border-slate-200 rounded-lg text-[13px] outline-none focus:border-[#7c3aed] transition-colors" />
+              <label className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-500 mb-2 block">Phone / WhatsApp</label>
+              <input type="tel" defaultValue="" placeholder="+91 98765 43210" className="w-full h-11 px-4 bg-slate-50 border border-slate-200 rounded-xl text-[13px] outline-none focus:border-indigo-500 focus:bg-white focus:ring-4 focus:ring-indigo-500/5 transition-all" />
             </div>
             <button
               disabled={saving}
-              className="px-5 py-2.5 bg-[#7c3aed] text-white rounded-lg text-[12px] font-bold shadow-[0_2px_8px_rgba(124,58,237,0.3)] hover:bg-[#6d28d9] transition-all disabled:opacity-50"
+              className="flex items-center justify-center gap-2 h-10 px-5 bg-indigo-600 text-white rounded-xl text-[13px] font-semibold shadow-[0_2px_8px_rgba(79,70,229,0.25)] hover:bg-indigo-700 transition-all disabled:opacity-50"
             >
+              <Save className="w-4 h-4" />
               {saving ? "Saving..." : "Save Changes"}
             </button>
           </div>
         </div>
 
         {/* Account Actions */}
-        <div className="bg-white border border-[#e2e8f0] rounded-[14px] shadow-[0_1px_4px_rgba(0,0,0,0.03)] overflow-hidden">
-          <div className="px-5 py-3.5 border-b border-[#e2e8f0]">
-            <h3 className="text-[13px] font-extrabold text-[#0f172a]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-              Account
-            </h3>
-          </div>
-          <div className="p-5 space-y-4">
-            <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-              <div className="text-[10px] font-bold uppercase tracking-[0.12em] text-slate-400 mb-1">Logged in as</div>
-              <div className="text-[13px] font-bold text-slate-800">{user?.email}</div>
+        <div className="flex flex-col gap-5">
+          <div className="bg-white rounded-[16px] border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)] overflow-hidden">
+            <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
+              <div className="h-8 w-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                <Shield className="h-4 w-4" />
+              </div>
+              <h3 className="text-[14px] font-bold text-slate-900">Account</h3>
             </div>
-            <button
-              onClick={handleLogout}
-              className="w-full py-2.5 border border-red-200 text-red-600 rounded-lg text-[12px] font-bold hover:bg-red-50 transition-colors"
-            >
-              🚪 Sign Out
-            </button>
+            <div className="p-6 space-y-4">
+              <div className="p-4 bg-slate-50 border border-slate-100 rounded-xl">
+                <div className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400 mb-1">Logged in as</div>
+                <div className="text-[13px] font-bold text-slate-900">{user?.email || "dev@demo.com"}</div>
+              </div>
+              <button
+                onClick={handleLogout}
+                className="w-full flex items-center justify-center gap-2 py-3 border border-red-200 text-red-600 rounded-xl text-[13px] font-semibold hover:bg-red-50 transition-colors"
+              >
+                <LogOut className="w-4 h-4" /> Sign Out
+              </button>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-[16px] border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)] overflow-hidden">
+            <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
+              <div className="h-8 w-8 rounded-lg bg-orange-50 text-orange-600 flex items-center justify-center">
+                <Bell className="h-4 w-4" />
+              </div>
+              <h3 className="text-[14px] font-bold text-slate-900">Notifications</h3>
+            </div>
+            <div className="p-6">
+              <div className="flex items-center justify-between">
+                <div>
+                  <div className="text-[13px] font-medium text-slate-900">Email Notifications</div>
+                  <div className="text-[12px] text-slate-500 mt-0.5">Get notified when students complete exams</div>
+                </div>
+                <button className="relative w-10 h-5 rounded-full bg-indigo-600 transition-all cursor-pointer">
+                  <span className="absolute top-0.5 left-[22px] w-4 h-4 rounded-full bg-white shadow-sm transition-all" />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
