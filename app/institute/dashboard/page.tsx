@@ -197,20 +197,26 @@ export default function InstituteDashboard() {
   const topStudents: TopStudent[] = stats?.topStudents || [];
   const totalAttempts = stats?.totalAttempts || 0;
 
-  const scoreDistribution = [
-    { label: "80% and above", value: Math.round(totalAttempts * 0.12) || 0, color: "#10b981" },
-    { label: "60% - 80%", value: Math.round(totalAttempts * 0.28) || 0, color: "#4f46e5" },
-    { label: "40% - 60%", value: Math.round(totalAttempts * 0.34) || 0, color: "#f59e0b" },
-    { label: "Below 40%", value: Math.round(totalAttempts * 0.26) || 0, color: "#ef4444" },
+  const scoreDistribution = stats?.scoreDistribution || [
+    { label: "80% and above", value: 0, color: "#10b981" },
+    { label: "60% - 80%", value: 0, color: "#4f46e5" },
+    { label: "40% - 60%", value: 0, color: "#f59e0b" },
+    { label: "Below 40%", value: 0, color: "#ef4444" },
   ];
 
-  const chapterPerformance = [
-    { label: "Electrostatics", value: 41, color: "#ef4444" },
-    { label: "Current Electricity", value: 45, color: "#f59e0b" },
-    { label: "Modern Physics", value: 62, color: "#4f46e5" },
-    { label: "Magnetic Effects", value: 48, color: "#f59e0b" },
-    { label: "Semiconductor", value: 71, color: "#10b981" },
-  ];
+  const getSubjectColor = (accuracy: number) => {
+    if (accuracy >= 70) return "#10b981";
+    if (accuracy >= 50) return "#4f46e5";
+    if (accuracy >= 35) return "#f59e0b";
+    return "#ef4444";
+  };
+
+  const subjectPerformance = (stats?.subjectPerformance || []).map((sp: any) => ({
+    label: sp.name,
+    value: sp.accuracy,
+    attempts: sp.attempts,
+    color: getSubjectColor(sp.accuracy),
+  }));
 
   const planName = stats?.plan === "coaching" ? "Coaching Plan" : stats?.plan === "enterprise" ? "Enterprise" : "Free Plan";
   const usedAttemptsFormatted = stats?.usedAttempts || 0;
@@ -305,13 +311,15 @@ export default function InstituteDashboard() {
               </div>
             </div>
 
-            {/* Chapter Performance Card */}
+            {/* Subject Performance Card */}
             <div className="bg-white rounded-[16px] border border-slate-200/60 p-6 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
-              <h4 className="text-[13px] font-bold text-slate-900 mb-6">Chapter Wise Accuracy</h4>
+              <h4 className="text-[13px] font-bold text-slate-900 mb-6">Subject Wise Accuracy</h4>
               <div>
-                {chapterPerformance.map((ch, i) => (
-                  <HorizontalBar key={i} label={ch.label} value={ch.value} maxValue={100} color={ch.color} />
-                ))}
+                {subjectPerformance.length > 0 ? subjectPerformance.map((sp: any, i: number) => (
+                  <HorizontalBar key={i} label={sp.label} value={sp.value} maxValue={100} color={sp.color} />
+                )) : (
+                  <p className="text-[12px] text-slate-400 text-center py-4">No subject data yet. Create exams to see performance.</p>
+                )}
               </div>
             </div>
           </div>

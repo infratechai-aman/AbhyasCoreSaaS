@@ -58,13 +58,7 @@ export default function RepositoryPage() {
         createdAt: e.createdAt,
       })));
     } catch {
-      // Demo fallback
-      setExams([
-        { id: "1", title: "JEE Main Full Mock Test 1", targetExam: "JEE", examType: "full", status: "ended", attemptCount: 45, avgScore: 64, topScore: 92, questionCount: 90, createdAt: new Date().toISOString() },
-        { id: "2", title: "Physics: Mechanics Chapter Test", targetExam: "JEE", examType: "chapter", status: "ended", attemptCount: 28, avgScore: 71, topScore: 96, questionCount: 30, createdAt: new Date(Date.now() - 86400000).toISOString() },
-        { id: "3", title: "NEET Biology Full Mock", targetExam: "NEET", examType: "full", status: "live", attemptCount: 12, avgScore: 58, topScore: 85, questionCount: 45, createdAt: new Date(Date.now() - 172800000).toISOString() },
-        { id: "4", title: "Chemistry: Organic Reactions", targetExam: "JEE", examType: "chapter", status: "ended", attemptCount: 62, avgScore: 54, topScore: 88, questionCount: 25, createdAt: new Date(Date.now() - 259200000).toISOString() },
-      ]);
+      setExams([]);
     } finally {
       setLoading(false);
     }
