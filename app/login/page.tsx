@@ -165,10 +165,7 @@ export default function LoginPage() {
           Don't have an account?{" "}
           <Link href="/register" className="font-bold text-indigo-600 hover:text-indigo-700 underline underline-offset-4">Create Account</Link>
         </p>
-        <p className="text-center mt-3 text-slate-400 text-[13px]">
-          Are you a teacher?{" "}
-          <Link href="/institute/login" className="font-semibold text-violet-600 hover:text-violet-700 underline underline-offset-4">Institute Login →</Link>
-        </p>
+
       </motion.div>
     </div>
   );
