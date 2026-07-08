@@ -54,8 +54,10 @@ export default function InstituteLayout({ children }: { children: React.ReactNod
     }
   }, []);
 
-  // Fetch dashboard stats for sidebar info
+  // Fetch dashboard stats for sidebar info (skip on login page)
   useEffect(() => {
+    if (pathname === "/institute/login") return;
+
     const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     
     if (isDemo) {
@@ -91,7 +93,7 @@ export default function InstituteLayout({ children }: { children: React.ReactNod
         })
         .catch(() => {});
     });
-  }, [user]);
+  }, [user, pathname]);
 
   const getActiveItem = () => {
     if (pathname.includes("/create-exam")) return "create-exam";
