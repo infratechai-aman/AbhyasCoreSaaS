@@ -122,7 +122,7 @@ export default function ExamJoinPage() {
               alt="AbhyasCore Logo"
               width={200}
               height={126}
-              className="h-24 w-auto object-contain brightness-0 invert"
+              className="h-16 w-auto object-contain drop-shadow-[0_2px_12px_rgba(124,58,237,0.4)]"
               priority
             />
           </div>
@@ -191,25 +191,17 @@ export default function ExamJoinPage() {
 
         <div className="anim-fade-in w-full max-w-[440px] relative z-10">
           {/* Mobile Logo */}
-          <div className="flex items-center gap-3 mb-8 lg:mb-6">
+          <div className="flex items-center gap-3 mb-6">
             <Image
               src="/logo.png"
               alt="AbhyasCore"
-              width={140}
-              height={88}
-              className="h-12 w-auto object-contain lg:hidden"
+              width={160}
+              height={100}
+              className="h-11 w-auto object-contain"
               priority
             />
-            <div className="hidden lg:flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#4f46e5] to-[#7c3aed] flex items-center justify-center text-white font-black text-sm shadow-lg shadow-indigo-500/20">
-                A
-              </div>
-              <div>
-                <div className="text-[15px] font-extrabold text-slate-900" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-                  AbhyasCore
-                </div>
-                <div className="text-[10px] text-slate-400 font-medium">Institute Exam Portal</div>
-              </div>
+            <div className="hidden lg:block">
+              <div className="text-[10px] text-slate-400 font-medium">Institute Exam Portal</div>
             </div>
           </div>
 
