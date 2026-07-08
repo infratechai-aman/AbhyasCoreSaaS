@@ -88,13 +88,12 @@ export async function GET(request: Request) {
     const examsSnap = await adminDb
       .collection("institute_exams")
       .where("createdBy", "==", instituteId)
-      .orderBy("createdAt", "desc")
       .get();
 
     const exams = examsSnap.docs.map((doc) => {
       const { passwordHash, ...safeData } = doc.data() as any;
       return { id: doc.id, ...safeData };
-    });
+    }).sort((a: any, b: any) => (b.createdAt || "").localeCompare(a.createdAt || ""));
 
     const totalExams = exams.length;
     const liveExams = exams.filter((e: any) => e.status === "live");
