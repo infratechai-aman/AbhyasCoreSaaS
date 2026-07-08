@@ -34,7 +34,7 @@ export default function AnalyticsPage() {
   const [totalExams, setTotalExams] = useState(0);
 
   useEffect(() => {
-    const isDemo = typeof window !== "undefined" && (window.location.search.includes("demo=true") || document.cookie.includes("abhyas_institute=1"));
+    const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     if (isDemo || user) {
       fetchStats(isDemo && !user);
     }

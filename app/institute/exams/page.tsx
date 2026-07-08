@@ -16,7 +16,7 @@ export default function ExamsListPage() {
   const [togglingId, setTogglingId] = useState<string | null>(null);
 
   useEffect(() => {
-    const isDemo = typeof window !== "undefined" && (window.location.search.includes("demo=true") || document.cookie.includes("abhyas_institute=1"));
+    const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     if (isDemo || user) {
       fetchExams(isDemo && !user);
     }

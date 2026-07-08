@@ -105,7 +105,7 @@ export default function InstituteDashboard() {
   const [activeTab, setActiveTab] = useState("Overview");
 
   useEffect(() => {
-    const isDemo = typeof window !== "undefined" && (window.location.search.includes("demo=true") || document.cookie.includes("abhyas_institute=1"));
+    const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     if (isDemo || user) {
       fetchStats(isDemo && !user);
     }

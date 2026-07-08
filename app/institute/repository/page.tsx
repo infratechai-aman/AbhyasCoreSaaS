@@ -27,7 +27,7 @@ export default function RepositoryPage() {
   const [exams, setExams] = useState<ExamResult[]>([]);
 
   useEffect(() => {
-    const isDemo = typeof window !== "undefined" && (window.location.search.includes("demo=true") || document.cookie.includes("abhyas_institute=1"));
+    const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     if (isDemo || user) {
       fetchResults(isDemo && !user);
     }
