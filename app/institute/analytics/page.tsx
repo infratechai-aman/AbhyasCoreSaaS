@@ -6,6 +6,7 @@ import {
   BarChart3, TrendingUp, Target, Download, FileText, ChevronRight,
   ArrowUpRight, ArrowDownRight, Loader2
 } from "lucide-react";
+import { fetchDashboardStats } from "@/lib/dashboard-cache";
 
 interface SubjectPerf {
   name: string;
@@ -36,23 +37,13 @@ export default function AnalyticsPage() {
   useEffect(() => {
     const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     if (isDemo || user) {
-      fetchStats(isDemo && !user);
+      loadStats(isDemo && !user);
     }
   }, [user]);
 
-  const fetchStats = async (isDemo = false) => {
+  const loadStats = async (isDemo = false) => {
     try {
-      let headers: Record<string, string> = {};
-      let url = "/api/institute/dashboard-stats";
-      if (isDemo) url += "?demo=true";
-      else if (user) {
-        const token = await user.getIdToken();
-        headers = { Authorization: `Bearer ${token}` };
-      }
-
-      const res = await fetch(url, { headers });
-      if (!res.ok) throw new Error("Failed");
-      const data = await res.json();
+      const data = await fetchDashboardStats(user, isDemo);
 
       // Set overall stats
       setAvgAccuracy(data.avgScore || 0);

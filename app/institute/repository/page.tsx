@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { Archive, Calendar, Target, ChevronRight, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
+import { fetchDashboardStats } from "@/lib/dashboard-cache";
 
 interface ExamResult {
   id: string;
@@ -29,22 +30,13 @@ export default function RepositoryPage() {
   useEffect(() => {
     const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     if (isDemo || user) {
-      fetchResults(isDemo && !user);
+      loadResults(isDemo && !user);
     }
   }, [user]);
 
-  const fetchResults = async (isDemo = false) => {
+  const loadResults = async (isDemo = false) => {
     try {
-      let headers: Record<string, string> = {};
-      let url = "/api/institute/dashboard-stats";
-      if (isDemo) url += "?demo=true";
-      else if (user) {
-        const token = await user.getIdToken();
-        headers = { Authorization: `Bearer ${token}` };
-      }
-      const res = await fetch(url, { headers });
-      if (!res.ok) throw new Error("Failed");
-      const data = await res.json();
+      const data = await fetchDashboardStats(user, isDemo);
       setExams((data.allExams || []).map((e: any) => ({
         id: e.id,
         title: e.title,

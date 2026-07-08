@@ -181,7 +181,7 @@ export default function ExamJoinPage() {
 
         <div className="anim-fade-in w-full max-w-[440px] relative z-10">
           {/* Mobile Logo */}
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex items-center justify-center gap-3 mb-6">
             <Image
               src="/logo.png"
               alt="AbhyasCore"

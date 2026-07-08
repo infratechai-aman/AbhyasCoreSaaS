@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useAuth } from "@/lib/auth-context";
 import { useRouter } from "next/navigation";
 import { FileText, Plus, ChevronRight, ClipboardList, Users, Activity } from "lucide-react";
+import { fetchDashboardStats } from "@/lib/dashboard-cache";
 
 export default function ExamsListPage() {
   const { user } = useAuth();
@@ -18,25 +19,13 @@ export default function ExamsListPage() {
   useEffect(() => {
     const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     if (isDemo || user) {
-      fetchExams(isDemo && !user);
+      loadExams(isDemo && !user);
     }
   }, [user]);
 
-  const fetchExams = async (isDemo = false) => {
+  const loadExams = async (isDemo = false) => {
     try {
-      let headers: Record<string, string> = {};
-      let url = "/api/institute/dashboard-stats";
-      
-      if (isDemo) {
-        url += "?demo=true";
-      } else if (user) {
-        const token = await user.getIdToken();
-        headers = { Authorization: `Bearer ${token}` };
-      }
-      
-      const res = await fetch(url, { headers });
-      if (!res.ok) throw new Error("Failed to fetch exams");
-      const data = await res.json();
+      const data = await fetchDashboardStats(user, isDemo);
       setExams(data.allExams || []);
     } catch (e: any) {
       setError("Failed to load exams. Please try again.");
@@ -103,7 +92,7 @@ export default function ExamsListPage() {
       <div className="flex-1 p-5 md:p-8">
         <div className="bg-red-50 border border-red-200 rounded-xl p-6 text-center max-w-md mx-auto mt-10">
           <p className="text-red-600 font-semibold">{error}</p>
-          <button onClick={() => { setError(""); setLoading(true); fetchExams(false); }} className="mt-4 px-4 py-2 bg-red-600 text-white rounded-lg text-sm font-bold shadow-md">
+          <button onClick={() => { setError(""); setLoading(true); loadExams(false); }} className="mt-4 px-4 py-2 bg-red-600 text-white rounded-lg text-sm font-bold shadow-md">
             Retry
           </button>
         </div>

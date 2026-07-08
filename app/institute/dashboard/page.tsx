@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { useAuth } from "@/lib/auth-context";
 import { useRouter } from "next/navigation";
+import { fetchDashboardStats } from "@/lib/dashboard-cache";
 import { 
   FileText, 
   Users, 
@@ -107,25 +108,13 @@ export default function InstituteDashboard() {
   useEffect(() => {
     const isDemo = typeof window !== "undefined" && window.location.search.includes("demo=true");
     if (isDemo || user) {
-      fetchStats(isDemo && !user);
+      loadStats(isDemo && !user);
     }
   }, [user]);
 
-  const fetchStats = async (isDemo = false) => {
+  const loadStats = async (isDemo = false) => {
     try {
-      let headers = {};
-      let url = "/api/institute/dashboard-stats";
-      
-      if (isDemo) {
-        url += "?demo=true";
-      } else if (user) {
-        const token = await user.getIdToken();
-        headers = { Authorization: `Bearer ${token}` };
-      }
-      
-      const res = await fetch(url, { headers });
-      if (!res.ok) throw new Error("Failed to fetch");
-      const data = await res.json();
+      const data = await fetchDashboardStats(user, isDemo);
       setStats(data);
     } catch (e) {
       setError("Failed to load dashboard data.");
@@ -158,7 +147,7 @@ export default function InstituteDashboard() {
     return (
       <div className="bg-red-50 border border-red-200 rounded-xl p-6 text-center max-w-md mx-auto mt-10">
         <p className="text-red-600 font-semibold">{error}</p>
-        <button onClick={() => fetchStats(false)} className="mt-4 px-4 py-2 bg-red-600 text-white rounded-lg text-sm font-bold shadow-md">
+        <button onClick={() => loadStats(false)} className="mt-4 px-4 py-2 bg-red-600 text-white rounded-lg text-sm font-bold shadow-md">
           Retry
         </button>
       </div>
