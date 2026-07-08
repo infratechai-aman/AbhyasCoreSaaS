@@ -78,18 +78,6 @@ export default function InstituteLoginPage() {
     setLoading(true);
     setError("");
 
-    // DEV BYPASS: Allow any credentials
-    document.cookie = "abhyas_institute=1; path=/; max-age=86400; SameSite=Lax; Secure";
-    document.cookie = "abhyas_session=1; path=/; max-age=86400; SameSite=Lax; Secure";
-    try {
-      sessionStorage.setItem(
-        "abhyas_institute",
-        JSON.stringify({ id: "dev_institute", name: "Dev Mode Institute" })
-      );
-    } catch {}
-    window.location.href = "/institute/dashboard?demo=true";
-    return;
-
     try {
       if (!auth)
         throw new Error("Authentication service is not available.");
@@ -98,11 +86,14 @@ export default function InstituteLoginPage() {
     } catch (err: any) {
       let friendlyMessage = "Incorrect email or password. Please try again.";
       if (err.message) {
-        if (
-          err.message.includes("auth/too-many-requests")
-        ) {
-          friendlyMessage =
-            "Too many failed attempts. Please try again later.";
+        if (err.message.includes("auth/too-many-requests")) {
+          friendlyMessage = "Too many failed attempts. Please try again later.";
+        } else if (err.message.includes("auth/user-not-found") || err.message.includes("auth/invalid-credential")) {
+          friendlyMessage = "No account found with this email. Please check your credentials.";
+        } else if (err.message.includes("auth/wrong-password")) {
+          friendlyMessage = "Incorrect password. Please try again.";
+        } else if (err.message.includes("auth/invalid-email")) {
+          friendlyMessage = "Please enter a valid email address.";
         }
       }
       setError(friendlyMessage);
