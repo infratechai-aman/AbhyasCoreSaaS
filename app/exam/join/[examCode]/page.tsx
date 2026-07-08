@@ -115,17 +115,7 @@ export default function ExamJoinPage() {
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "url('/noise.svg')", backgroundRepeat: "repeat" }} />
 
         <div className="relative z-10 px-12 xl:px-16 max-w-[560px]">
-          {/* Logo */}
-          <div className="mb-10 anim-fade-in">
-            <Image
-              src="/logo.png"
-              alt="AbhyasCore Logo"
-              width={200}
-              height={126}
-              className="h-16 w-auto object-contain drop-shadow-[0_2px_12px_rgba(124,58,237,0.4)]"
-              priority
-            />
-          </div>
+
 
           {/* Badge */}
           <div className="anim-fade-in inline-flex items-center gap-2 rounded-full border border-[#7c3aed]/40 bg-[#7c3aed]/10 px-4 py-1.5 mb-5">
@@ -195,14 +185,11 @@ export default function ExamJoinPage() {
             <Image
               src="/logo.png"
               alt="AbhyasCore"
-              width={160}
-              height={100}
-              className="h-11 w-auto object-contain"
+              width={400}
+              height={252}
+              className="h-[120px] w-auto object-contain"
               priority
             />
-            <div className="hidden lg:block">
-              <div className="text-[10px] text-slate-400 font-medium">Institute Exam Portal</div>
-            </div>
           </div>
 
           {/* Form Card */}
