@@ -8,7 +8,11 @@ import type { ExamSessionTokenPayload } from "@/lib/institute-types";
 
 export const dynamic = "force-dynamic";
 
-const JWT_SECRET = process.env.INSTITUTE_JWT_SECRET || process.env.JWT_SECRET || "abhyas-institute-exam-secret-key";
+const JWT_SECRET = process.env.INSTITUTE_JWT_SECRET || process.env.JWT_SECRET || (() => {
+  const fbKey = process.env.FIREBASE_SERVICE_ACCOUNT_KEY;
+  if (fbKey) return "abhyas-inst-" + fbKey.slice(0, 32);
+  return "abhyas-institute-exam-secret-key";
+})();
 
 /**
  * POST /api/institute/submit-attempt
