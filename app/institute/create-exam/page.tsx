@@ -49,14 +49,21 @@ export default function CreateExamPage() {
     return ["Physics", "Chemistry", "Biology"];
   }, [targetExam]);
 
-  // Full Mock → auto-select all subjects
+  // Full Mock → auto-select all subjects + set default question count & duration
   const isFullMock = examType === "full";
   useEffect(() => {
     if (isFullMock) {
       setSelectedSubjects([...availableSubjects]);
       setSelectedChapters([]);
+      // Set exam-specific defaults (editable)
+      if (targetExam === "NEET") {
+        setQuestionCount(180);
+      } else {
+        setQuestionCount(45);
+      }
+      setDuration(180); // 3 hours for both JEE & NEET
     }
-  }, [isFullMock, availableSubjects]);
+  }, [isFullMock, availableSubjects, targetExam]);
 
   // Calculate question distribution preview
   const questionDistribution = useMemo(() => {

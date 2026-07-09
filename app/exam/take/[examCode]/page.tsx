@@ -49,6 +49,12 @@ export default function ExamTakePage() {
   const [sessionLoaded, setSessionLoaded] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
   const [sidebarSubjectFilter, setSidebarSubjectFilter] = useState<string | null>(null);
+
+  // Anti-cheating state
+  const [tabSwitchCount, setTabSwitchCount] = useState(0);
+  const [showTabWarning, setShowTabWarning] = useState(false);
+  const MAX_TAB_SWITCHES = 3;
+
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const startTimeRef = useRef<number>(Date.now());
   const endTimeRef = useRef<number>(0);
@@ -107,6 +113,68 @@ export default function ExamTakePage() {
     }, 1000);
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [sessionLoaded, submitted]);
+
+  // ── Anti-Cheating: Tab Switch Detection ──
+  useEffect(() => {
+    if (!sessionLoaded || submitted) return;
+
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        setTabSwitchCount((prev) => {
+          const newCount = prev + 1;
+          if (newCount >= MAX_TAB_SWITCHES) {
+            // Auto-submit after 3rd switch
+            setTimeout(() => submitRef.current(true), 500);
+          } else {
+            setShowTabWarning(true);
+          }
+          return newCount;
+        });
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => document.removeEventListener("visibilitychange", handleVisibilityChange);
+  }, [sessionLoaded, submitted]);
+
+  // ── Anti-Cheating: Copy, Right-click, Screenshot Prevention ──
+  useEffect(() => {
+    if (!sessionLoaded || submitted) return;
+
+    const preventCopy = (e: ClipboardEvent) => { e.preventDefault(); };
+    const preventContextMenu = (e: MouseEvent) => { e.preventDefault(); };
+    const preventSelect = (e: Event) => { e.preventDefault(); };
+    const preventKeyShortcuts = (e: KeyboardEvent) => {
+      // Block: PrintScreen, Ctrl+C, Ctrl+A, Ctrl+S, Ctrl+P, Ctrl+Shift+I (DevTools)
+      if (e.key === "PrintScreen") {
+        e.preventDefault();
+        navigator.clipboard.writeText("").catch(() => {});
+      }
+      if (e.ctrlKey && ["c", "a", "s", "p", "u"].includes(e.key.toLowerCase())) {
+        e.preventDefault();
+      }
+      if (e.ctrlKey && e.shiftKey && ["i", "j", "c"].includes(e.key.toLowerCase())) {
+        e.preventDefault();
+      }
+      if (e.key === "F12") {
+        e.preventDefault();
+      }
+    };
+
+    document.addEventListener("copy", preventCopy);
+    document.addEventListener("cut", preventCopy as any);
+    document.addEventListener("contextmenu", preventContextMenu);
+    document.addEventListener("selectstart", preventSelect);
+    document.addEventListener("keydown", preventKeyShortcuts);
+
+    return () => {
+      document.removeEventListener("copy", preventCopy);
+      document.removeEventListener("cut", preventCopy as any);
+      document.removeEventListener("contextmenu", preventContextMenu);
+      document.removeEventListener("selectstart", preventSelect);
+      document.removeEventListener("keydown", preventKeyShortcuts);
     };
   }, [sessionLoaded, submitted]);
 
@@ -377,16 +445,22 @@ export default function ExamTakePage() {
         @keyframes slideInRight { from { opacity: 0; transform: translateX(100%); } to { opacity: 1; transform: translateX(0); } }
         @keyframes pulse-gentle { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
         @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+        @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-8px); } 75% { transform: translateX(8px); } }
         .anim-fade-in { animation: fadeInUp 0.4s ease-out both; }
         .anim-slide-in { animation: slideInRight 0.3s ease-out both; }
         .anim-pulse-gentle { animation: pulse-gentle 1.5s ease-in-out infinite; }
         .anim-float { animation: float 4s ease-in-out infinite; }
+        .anim-shake { animation: shake 0.4s ease-in-out; }
         .timer-ring { transition: stroke-dashoffset 0.9s cubic-bezier(0.4, 0, 0.2, 1); }
         .glass { background: rgba(255,255,255,0.55); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.6); }
         .glass-strong { background: rgba(255,255,255,0.72); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border: 1px solid rgba(255,255,255,0.7); }
         .sidebar-scroll::-webkit-scrollbar { width: 3px; }
         .sidebar-scroll::-webkit-scrollbar-track { background: transparent; }
         .sidebar-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+        /* Anti-cheating styles */
+        * { -webkit-user-select: none !important; -moz-user-select: none !important; -ms-user-select: none !important; user-select: none !important; }
+        img { -webkit-user-drag: none !important; user-drag: none !important; pointer-events: none; }
+        @media print { body { display: none !important; } }
       `}</style>
 
       {/* ═══ TOP HEADER BAR ═══ */}
@@ -826,6 +900,60 @@ export default function ExamTakePage() {
                 ) : "Yes, Submit"}
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* ═══ TAB SWITCH WARNING MODAL ═══ */}
+      {showTabWarning && (
+        <div className="fixed inset-0 bg-[rgba(127,29,29,0.6)] backdrop-blur-md z-[1100] flex items-center justify-center p-4">
+          <div className="anim-shake glass-strong rounded-[24px] p-8 w-full max-w-[420px] shadow-[0_24px_60px_rgba(0,0,0,0.25)] border-2 border-red-300/50">
+            <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-red-100 to-red-50 flex items-center justify-center mx-auto mb-5">
+              <svg className="w-8 h-8 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+            </div>
+
+            <h3 className="text-[22px] font-extrabold text-red-700 text-center mb-2" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+              ⚠️ Tab Switch Detected!
+            </h3>
+            <p className="text-[13px] text-slate-600 leading-relaxed text-center mb-4">
+              Switching tabs during the exam is <strong className="text-red-700">not allowed</strong>. 
+              This activity has been recorded.
+            </p>
+
+            {/* Warning counter */}
+            <div className="flex items-center justify-center gap-3 mb-6">
+              {Array.from({ length: MAX_TAB_SWITCHES }).map((_, i) => (
+                <div
+                  key={i}
+                  className={`w-10 h-10 rounded-xl flex items-center justify-center text-[14px] font-extrabold transition-all ${
+                    i < tabSwitchCount
+                      ? "bg-red-500 text-white shadow-[0_2px_10px_rgba(239,68,68,0.4)]"
+                      : "bg-slate-100 text-slate-300"
+                  }`}
+                  style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+                >
+                  {i + 1}
+                </div>
+              ))}
+            </div>
+
+            <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3 text-center mb-6">
+              <span className="text-[12px] font-bold text-red-700">
+                Warning {tabSwitchCount} of {MAX_TAB_SWITCHES}
+              </span>
+              <span className="text-[11px] text-red-500 block mt-0.5">
+                Your exam will be auto-submitted after {MAX_TAB_SWITCHES} violations.
+              </span>
+            </div>
+
+            <button
+              onClick={() => setShowTabWarning(false)}
+              className="w-full h-12 rounded-xl bg-gradient-to-r from-red-500 to-red-600 text-white text-[14px] font-bold cursor-pointer shadow-[0_4px_14px_rgba(239,68,68,0.3)] hover:shadow-[0_6px_20px_rgba(239,68,68,0.4)] transition-all"
+            >
+              I Understand — Return to Exam
+            </button>
           </div>
         </div>
       )}
