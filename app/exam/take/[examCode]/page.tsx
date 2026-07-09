@@ -42,6 +42,7 @@ export default function ExamTakePage() {
   const [showSidebar, setShowSidebar] = useState(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const startTimeRef = useRef<number>(Date.now());
+  const endTimeRef = useRef<number>(0);
   const submitRef = useRef<(auto?: boolean) => void>(() => {});
 
   // Load session from sessionStorage
@@ -56,7 +57,19 @@ export default function ExamTakePage() {
       const parsed = JSON.parse(cached);
       setSession(parsed);
       setQuestions(parsed.questions || []);
-      setTimeLeft((parsed.duration || 60) * 60);
+
+      const durationMs = (parsed.duration || 60) * 60 * 1000;
+      // Check if we have a saved end time (persists across page switches)
+      const savedEndTime = sessionStorage.getItem("institute_exam_endtime");
+      if (savedEndTime) {
+        endTimeRef.current = parseInt(savedEndTime, 10);
+      } else {
+        endTimeRef.current = Date.now() + durationMs;
+        sessionStorage.setItem("institute_exam_endtime", String(endTimeRef.current));
+      }
+
+      const remaining = Math.max(0, Math.floor((endTimeRef.current - Date.now()) / 1000));
+      setTimeLeft(remaining);
       startTimeRef.current = Date.now();
 
       const initialStatuses: Record<string, QStatus> = {};
@@ -73,17 +86,15 @@ export default function ExamTakePage() {
     }
   }, [examCode, router]);
 
-  // Timer — guarded by sessionLoaded
+  // Timer — uses absolute end time so it survives tab switches
   useEffect(() => {
-    if (!sessionLoaded || submitted || timeLeft <= 0) return;
+    if (!sessionLoaded || submitted) return;
     timerRef.current = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          submitRef.current(true);
-          return 0;
-        }
-        return prev - 1;
-      });
+      const remaining = Math.max(0, Math.floor((endTimeRef.current - Date.now()) / 1000));
+      setTimeLeft(remaining);
+      if (remaining <= 0) {
+        submitRef.current(true);
+      }
     }, 1000);
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
@@ -167,6 +178,7 @@ export default function ExamTakePage() {
         setSubmitted(true);
         if (typeof window !== "undefined") {
           sessionStorage.removeItem("institute_exam_session");
+          sessionStorage.removeItem("institute_exam_endtime");
         }
       } catch (e) {
         alert("Network error. Please check your connection and try again.");
@@ -215,81 +227,95 @@ export default function ExamTakePage() {
         </div>
 
         <div className="max-w-[860px] mx-auto w-full px-6 py-8">
-          <div className="anim-fade-in rounded-[24px] bg-gradient-to-br from-[#0f0a2e] via-[#1e1252] to-[#2d1b69] p-10 text-center mb-6 relative overflow-hidden">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_-10%,rgba(124,58,237,0.35),transparent)] pointer-events-none" />
-            <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "url('/noise.svg')", backgroundRepeat: "repeat" }} />
-            <div className="relative z-10">
-              <p className="text-[10px] font-bold text-white/30 uppercase tracking-[0.25em] mb-3">{session.examTitle}</p>
-              <div className="anim-scale">
-                <span className="text-[64px] font-extrabold text-white leading-none" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-                  {result.score}
-                </span>
-                <span className="text-[24px] text-white/30 font-bold">/{result.maxScore}</span>
-              </div>
-              <p className="text-[11px] text-white/30 mt-2 mb-8">+4 correct / −1 wrong marking</p>
-              <div className="flex justify-center gap-10">
-                {[
-                  { value: result.correctCount, label: "Correct", color: "text-emerald-400" },
-                  { value: result.wrongCount, label: "Wrong", color: "text-red-400" },
-                  { value: result.skippedCount, label: "Skipped", color: "text-amber-400" },
-                  { value: `${result.percentage}%`, label: "Score", color: "text-blue-400" },
-                ].map((stat, i) => (
-                  <div key={i} className="text-center">
-                    <div className={`text-[26px] font-extrabold ${stat.color} leading-none`} style={{ fontFamily: "'Space Grotesk', sans-serif" }}>{stat.value}</div>
-                    <div className="text-[9px] font-bold uppercase tracking-[0.16em] text-white/25 mt-1.5">{stat.label}</div>
+          {/* Show full results only when resultAvailable is true */}
+          {result.resultAvailable ? (
+            <>
+              <div className="anim-fade-in rounded-[24px] bg-gradient-to-br from-[#0f0a2e] via-[#1e1252] to-[#2d1b69] p-10 text-center mb-6 relative overflow-hidden">
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_-10%,rgba(124,58,237,0.35),transparent)] pointer-events-none" />
+                <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "url('/noise.svg')", backgroundRepeat: "repeat" }} />
+                <div className="relative z-10">
+                  <p className="text-[10px] font-bold text-white/30 uppercase tracking-[0.25em] mb-3">{session.examTitle}</p>
+                  <div className="anim-scale">
+                    <span className="text-[64px] font-extrabold text-white leading-none" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                      {result.score}
+                    </span>
+                    <span className="text-[24px] text-white/30 font-bold">/{result.maxScore}</span>
                   </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {result.resultAvailable && result.gradedQuestions && (
-            <div className="anim-fade-in bg-white/70 backdrop-blur-xl border border-white/50 rounded-[20px] overflow-hidden shadow-[0_8px_40px_rgba(0,0,0,0.06)]">
-              <div className="px-6 py-4 border-b border-slate-100/60">
-                <h3 className="text-[15px] font-extrabold text-slate-900" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Question-wise Review</h3>
-              </div>
-              <div>
-                {result.gradedQuestions.map((gq: any, i: number) => {
-                  const q = questions.find((qq) => qq.id === gq.id);
-                  return (
-                    <div key={gq.id} className="flex gap-4 px-6 py-4 border-b border-slate-50/60 last:border-b-0 hover:bg-white/40 transition-colors">
-                      <span className={`w-8 h-8 rounded-xl flex items-center justify-center text-sm flex-shrink-0 mt-0.5 ${
-                        gq.isCorrect ? "bg-emerald-100 text-emerald-600" : gq.userAnswer ? "bg-red-100 text-red-600" : "bg-slate-100 text-slate-400"
-                      }`}>
-                        {gq.isCorrect ? "✓" : gq.userAnswer ? "✗" : "—"}
-                      </span>
-                      <div className="flex-1">
-                        <p className="text-[9px] font-bold uppercase tracking-[0.14em] text-slate-400 mb-1">Question {i + 1}</p>
-                        <p className="text-[13px] font-medium text-slate-900 leading-relaxed mb-2">{q?.text || `Q${i + 1}`}</p>
-                        <p className="text-[12px] font-semibold">
-                          {gq.userAnswer ? (
-                            <span className={gq.isCorrect ? "text-emerald-600" : "text-red-600"}>
-                              Your answer: {gq.userAnswer} {gq.isCorrect ? "✓" : `✗ (Correct: ${gq.correctAnswer})`}
-                            </span>
-                          ) : (
-                            <span className="text-amber-600">Skipped — Correct: {gq.correctAnswer}</span>
-                          )}
-                        </p>
-                        {gq.explanation && (
-                          <p className="text-[11px] text-slate-500 mt-1.5 leading-relaxed bg-indigo-50/50 rounded-lg px-3 py-2">💡 {gq.explanation}</p>
-                        )}
+                  <p className="text-[11px] text-white/30 mt-2 mb-8">+4 correct / −1 wrong marking</p>
+                  <div className="flex justify-center gap-10">
+                    {[
+                      { value: result.correctCount, label: "Correct", color: "text-emerald-400" },
+                      { value: result.wrongCount, label: "Wrong", color: "text-red-400" },
+                      { value: result.skippedCount, label: "Skipped", color: "text-amber-400" },
+                      { value: `${result.percentage}%`, label: "Score", color: "text-blue-400" },
+                    ].map((stat, i) => (
+                      <div key={i} className="text-center">
+                        <div className={`text-[26px] font-extrabold ${stat.color} leading-none`} style={{ fontFamily: "'Space Grotesk', sans-serif" }}>{stat.value}</div>
+                        <div className="text-[9px] font-bold uppercase tracking-[0.16em] text-white/25 mt-1.5">{stat.label}</div>
                       </div>
-                    </div>
-                  );
-                })}
+                    ))}
+                  </div>
+                </div>
               </div>
-            </div>
-          )}
 
-          {!result.resultAvailable && (
-            <div className="bg-white/70 backdrop-blur-xl border border-white/50 rounded-[20px] p-10 text-center shadow-[0_8px_40px_rgba(0,0,0,0.06)]">
-              <div className="w-14 h-14 rounded-2xl bg-slate-100 flex items-center justify-center mx-auto mb-4">
-                <svg className="w-7 h-7 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              {result.gradedQuestions && (
+                <div className="anim-fade-in bg-white/70 backdrop-blur-xl border border-white/50 rounded-[20px] overflow-hidden shadow-[0_8px_40px_rgba(0,0,0,0.06)]">
+                  <div className="px-6 py-4 border-b border-slate-100/60">
+                    <h3 className="text-[15px] font-extrabold text-slate-900" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Question-wise Review</h3>
+                  </div>
+                  <div>
+                    {result.gradedQuestions.map((gq: any, i: number) => {
+                      const q = questions.find((qq) => qq.id === gq.id);
+                      return (
+                        <div key={gq.id} className="flex gap-4 px-6 py-4 border-b border-slate-50/60 last:border-b-0 hover:bg-white/40 transition-colors">
+                          <span className={`w-8 h-8 rounded-xl flex items-center justify-center text-sm flex-shrink-0 mt-0.5 ${
+                            gq.isCorrect ? "bg-emerald-100 text-emerald-600" : gq.userAnswer ? "bg-red-100 text-red-600" : "bg-slate-100 text-slate-400"
+                          }`}>
+                            {gq.isCorrect ? "✓" : gq.userAnswer ? "✗" : "—"}
+                          </span>
+                          <div className="flex-1">
+                            <p className="text-[9px] font-bold uppercase tracking-[0.14em] text-slate-400 mb-1">Question {i + 1}</p>
+                            <p className="text-[13px] font-medium text-slate-900 leading-relaxed mb-2">{q?.text || `Q${i + 1}`}</p>
+                            <p className="text-[12px] font-semibold">
+                              {gq.userAnswer ? (
+                                <span className={gq.isCorrect ? "text-emerald-600" : "text-red-600"}>
+                                  Your answer: {gq.userAnswer} {gq.isCorrect ? "✓" : `✗ (Correct: ${gq.correctAnswer})`}
+                                </span>
+                              ) : (
+                                <span className="text-amber-600">Skipped — Correct: {gq.correctAnswer}</span>
+                              )}
+                            </p>
+                            {gq.explanation && (
+                              <p className="text-[11px] text-slate-500 mt-1.5 leading-relaxed bg-indigo-50/50 rounded-lg px-3 py-2">💡 {gq.explanation}</p>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+            </>
+          ) : (
+            /* Results hidden (manual / after_exam_ends) — only show confirmation */
+            <div className="anim-fade-in rounded-[24px] bg-white/70 backdrop-blur-xl border border-white/50 p-12 text-center shadow-[0_8px_40px_rgba(0,0,0,0.06)]">
+              <div className="w-20 h-20 rounded-full bg-emerald-100 flex items-center justify-center mx-auto mb-6">
+                <svg className="w-10 h-10 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <p className="text-[15px] font-bold text-slate-900 mb-1">Results will be released by your institute</p>
-              <p className="text-[13px] text-slate-500">Your answers have been recorded. Check back later.</p>
+              <h2 className="text-[24px] font-extrabold text-slate-900 mb-2" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                Exam Submitted Successfully!
+              </h2>
+              <p className="text-[14px] text-slate-500 mb-6 max-w-[400px] mx-auto">
+                Your answers have been recorded. Results will be released by your institute when they are ready.
+              </p>
+              <div className="inline-flex items-center gap-2 bg-indigo-50 rounded-xl px-5 py-3 text-[13px] font-semibold text-indigo-700">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                Results are pending release
+              </div>
             </div>
           )}
         </div>

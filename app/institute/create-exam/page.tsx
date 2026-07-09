@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { useAuth } from "@/lib/auth-context";
 import { useRouter } from "next/navigation";
 import { Syllabus } from "@/lib/syllabus";
@@ -8,7 +8,7 @@ import type { TargetExam, ExamType, ExamDifficulty, ResultVisibility } from "@/l
 import { 
   ChevronRight, ChevronLeft, Check, Zap, BookOpen, Clock, 
   Lock, Copy, MessageCircle, Plus, FileText,
-  ArrowRight
+  ArrowRight, Eye, RefreshCw, ChevronDown, ChevronUp
 } from "lucide-react";
 
 export default function CreateExamPage() {
@@ -37,6 +37,10 @@ export default function CreateExamPage() {
   const [createdExam, setCreatedExam] = useState<any>(null);
   const [copied, setCopied] = useState(false);
   const [activeSubjectTab, setActiveSubjectTab] = useState("");
+  const [previewQuestions, setPreviewQuestions] = useState<any[]>([]);
+  const [previewLoading, setPreviewLoading] = useState(false);
+  const [previewError, setPreviewError] = useState("");
+  const [expandedQ, setExpandedQ] = useState<number | null>(null);
 
   // Available subjects based on target exam
   const availableSubjects = useMemo(() => {
@@ -494,14 +498,15 @@ export default function CreateExamPage() {
         </div>
       )}
 
-      {/* Step 4: Review */}
+      {/* Step 4: Review with Question Preview */}
       {step === 4 && (
-        <div className="max-w-3xl">
+        <div className="max-w-4xl">
           <h3 className="text-[18px] font-bold text-slate-900 mb-2">Review & Create</h3>
-          <p className="text-[13px] text-slate-500 mb-8">Double-check your exam configuration before creating.</p>
+          <p className="text-[13px] text-slate-500 mb-8">Double-check your exam configuration and preview the questions before creating.</p>
 
+          {/* Config Summary */}
           <div className="bg-white rounded-[16px] border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)] p-6 mb-6">
-            <div className="grid grid-cols-2 gap-y-5 gap-x-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-y-5 gap-x-8">
               <div><div className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400 mb-1">Title</div><div className="text-[14px] font-bold text-slate-900">{title}</div></div>
               <div><div className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400 mb-1">Target Exam</div><div className="text-[14px] font-bold text-slate-900">{targetExam}</div></div>
               <div><div className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400 mb-1">Format</div><div className="text-[14px] font-bold text-slate-900 capitalize">{examType === "full" ? "Full Mock" : "Chapter Test"}</div></div>
@@ -511,6 +516,121 @@ export default function CreateExamPage() {
               <div><div className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400 mb-1">Password</div><div className="text-[14px] font-mono font-bold text-indigo-600">{password}</div></div>
               <div><div className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400 mb-1">Chapters</div><div className="text-[14px] font-bold text-slate-900">{selectedChapters.length} selected</div></div>
             </div>
+          </div>
+
+          {/* Question Preview Section */}
+          <div className="bg-white rounded-[16px] border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)] mb-6 overflow-hidden">
+            <div className="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="h-8 w-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                  <Eye className="h-4 w-4" />
+                </div>
+                <div>
+                  <h4 className="text-[14px] font-bold text-slate-900">Question Preview</h4>
+                  <p className="text-[11px] text-slate-400">
+                    {previewQuestions.length > 0 ? `${previewQuestions.length} questions generated` : "Preview questions before creating the exam"}
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={async () => {
+                  setPreviewLoading(true);
+                  setPreviewError("");
+                  try {
+                    const token = await user?.getIdToken();
+                    const res = await fetch("/api/institute/preview-questions", {
+                      method: "POST",
+                      headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+                      body: JSON.stringify({ chapters: selectedChapters, difficulty, questionCount }),
+                    });
+                    const data = await res.json();
+                    if (!res.ok) { setPreviewError(data.error || "Failed to load preview."); return; }
+                    setPreviewQuestions(data.questions || []);
+                  } catch { setPreviewError("Network error."); } finally { setPreviewLoading(false); }
+                }}
+                disabled={previewLoading}
+                className="flex items-center gap-2 h-9 px-4 rounded-lg bg-indigo-50 text-indigo-600 text-[12px] font-semibold hover:bg-indigo-100 transition-all disabled:opacity-50"
+              >
+                {previewLoading ? (
+                  <><RefreshCw className="w-3.5 h-3.5 animate-spin" /> Generating...</>
+                ) : previewQuestions.length > 0 ? (
+                  <><RefreshCw className="w-3.5 h-3.5" /> Regenerate</>
+                ) : (
+                  <><Eye className="w-3.5 h-3.5" /> Load Preview</>
+                )}
+              </button>
+            </div>
+
+            {previewError && (
+              <div className="px-6 py-3 bg-red-50 text-red-600 text-[12px] font-semibold">⚠️ {previewError}</div>
+            )}
+
+            {previewQuestions.length > 0 && (
+              <div className="max-h-[500px] overflow-y-auto">
+                {previewQuestions.map((q: any, i: number) => (
+                  <div key={q.id || i} className="border-b border-slate-50 last:border-b-0">
+                    <button
+                      onClick={() => setExpandedQ(expandedQ === i ? null : i)}
+                      className="w-full px-6 py-3.5 flex items-center gap-3 hover:bg-slate-50/50 transition-colors text-left"
+                    >
+                      <span className="w-7 h-7 rounded-lg bg-slate-100 text-slate-500 flex items-center justify-center text-[11px] font-bold flex-shrink-0">
+                        {i + 1}
+                      </span>
+                      <span className="flex-1 text-[13px] font-medium text-slate-800 line-clamp-1">{q.text}</span>
+                      <div className="flex items-center gap-2 flex-shrink-0">
+                        <span className={`px-2 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider ${
+                          q.difficulty === "easy" ? "bg-emerald-50 text-emerald-600" :
+                          q.difficulty === "hard" ? "bg-red-50 text-red-600" :
+                          "bg-amber-50 text-amber-600"
+                        }`}>{q.difficulty}</span>
+                        {expandedQ === i ? <ChevronUp className="w-4 h-4 text-slate-400" /> : <ChevronDown className="w-4 h-4 text-slate-400" />}
+                      </div>
+                    </button>
+                    {expandedQ === i && (
+                      <div className="px-6 pb-4 pl-16">
+                        <p className="text-[13px] text-slate-700 mb-3 leading-relaxed">{q.text}</p>
+                        <div className="grid gap-2 mb-3">
+                          {(q.options || []).map((opt: any) => (
+                            <div
+                              key={opt.id}
+                              className={`flex items-center gap-2 px-3 py-2 rounded-lg text-[12px] font-medium ${
+                                opt.id === q.answer
+                                  ? "bg-emerald-50 border border-emerald-200 text-emerald-800"
+                                  : "bg-slate-50 border border-slate-100 text-slate-600"
+                              }`}
+                            >
+                              <span className={`w-5 h-5 rounded flex items-center justify-center text-[10px] font-bold ${
+                                opt.id === q.answer ? "bg-emerald-500 text-white" : "bg-white border border-slate-200 text-slate-400"
+                              }`}>
+                                {opt.id.toUpperCase()}
+                              </span>
+                              <span>{opt.text}</span>
+                              {opt.id === q.answer && <span className="ml-auto text-[10px] font-bold text-emerald-600">✓ Correct</span>}
+                            </div>
+                          ))}
+                        </div>
+                        {q.explanation && (
+                          <div className="bg-indigo-50/60 rounded-lg px-3 py-2 text-[11px] text-slate-600 leading-relaxed">
+                            💡 {q.explanation}
+                          </div>
+                        )}
+                        <div className="flex gap-2 mt-2">
+                          <span className="text-[10px] font-semibold text-slate-400">Chapter: {q.chapterSource?.replace(/_/g, " ")}</span>
+                          <span className="text-slate-300">•</span>
+                          <span className="text-[10px] font-semibold text-slate-400">{q.inferredSubject}</span>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {!previewLoading && previewQuestions.length === 0 && !previewError && (
+              <div className="px-6 py-8 text-center">
+                <p className="text-[13px] text-slate-400">Click "Load Preview" to see the questions that will be generated.</p>
+              </div>
+            )}
           </div>
 
           <div className="flex items-center gap-3">

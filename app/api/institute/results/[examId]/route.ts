@@ -49,7 +49,6 @@ export async function GET(
     const attemptsSnap = await adminDb
       .collection("institute_attempts")
       .where("examId", "==", examId)
-      .orderBy("score", "desc")
       .get();
 
     const rawAttempts = attemptsSnap.docs.map((doc) => ({

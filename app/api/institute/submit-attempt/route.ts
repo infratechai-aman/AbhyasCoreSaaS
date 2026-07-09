@@ -181,21 +181,33 @@ export async function POST(request: Request) {
     }
 
     // 8. Return graded results
-    return NextResponse.json({
-      attemptId: attemptRef.id,
-      studentName,
-      rollNo,
-      totalQuestions,
-      correctCount,
-      wrongCount,
-      skippedCount,
-      score,
-      maxScore,
-      percentage,
-      timeTaken,
-      ...(showResults ? { gradedQuestions } : {}),
-      resultAvailable: showResults,
-    });
+    if (showResults) {
+      return NextResponse.json({
+        attemptId: attemptRef.id,
+        studentName,
+        rollNo,
+        totalQuestions,
+        correctCount,
+        wrongCount,
+        skippedCount,
+        score,
+        maxScore,
+        percentage,
+        timeTaken,
+        gradedQuestions,
+        resultAvailable: true,
+      });
+    } else {
+      // Hide ALL score details — student only sees submission confirmation
+      return NextResponse.json({
+        attemptId: attemptRef.id,
+        studentName,
+        rollNo,
+        totalQuestions,
+        timeTaken,
+        resultAvailable: false,
+      });
+    }
   } catch (error: any) {
     console.error("[institute/submit-attempt] Error:", error);
     return NextResponse.json({ error: "Failed to submit exam." }, { status: 500 });
