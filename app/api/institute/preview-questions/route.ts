@@ -7,7 +7,7 @@ import { isRateLimited } from "@/lib/rate-limit";
 import { adminDb } from "@/lib/firebase-admin";
 import { Syllabus } from "@/lib/syllabus";
 import { sanitizeChapterId } from "@/lib/sanitize";
-import { shuffleArray, processQuestion } from "@/lib/exam-utils";
+import { shuffleArray, processQuestion, distributeQuestionsBySubject } from "@/lib/exam-utils";
 
 export const dynamic = "force-dynamic";
 
@@ -46,7 +46,7 @@ export async function POST(request: Request) {
 
     // 4. Parse request body
     const body = await request.json();
-    const { chapters, difficulty, questionCount } = body;
+    const { chapters, difficulty, questionCount, targetExam } = body;
 
     if (!chapters || !Array.isArray(chapters) || chapters.length === 0) {
       return NextResponse.json({ error: "No chapters selected." }, { status: 400 });
@@ -136,9 +136,8 @@ export async function POST(request: Request) {
       );
     }
 
-    // 6. Sample and return preview (with answers for institute owner to review)
-    const shuffled = shuffleArray(allQuestions);
-    const previewQuestions = shuffled.slice(0, Math.min(count, shuffled.length));
+    // 6. Distribute questions equally across subjects and return preview
+    const previewQuestions = distributeQuestionsBySubject(allQuestions, count, targetExam);
 
     const questionsWithIds = previewQuestions.map((q: any, i: number) => ({
       id: q.id || `q${i + 1}`,

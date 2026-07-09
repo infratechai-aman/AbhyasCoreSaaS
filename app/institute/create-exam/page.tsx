@@ -4,6 +4,7 @@ import React, { useState, useMemo, useEffect } from "react";
 import { useAuth } from "@/lib/auth-context";
 import { useRouter } from "next/navigation";
 import { Syllabus } from "@/lib/syllabus";
+import { calculateSubjectQuotas } from "@/lib/exam-utils";
 import type { TargetExam, ExamType, ExamDifficulty, ResultVisibility } from "@/lib/institute-types";
 import { 
   ChevronRight, ChevronLeft, Check, Zap, BookOpen, Clock, 
@@ -47,6 +48,21 @@ export default function CreateExamPage() {
     if (targetExam === "JEE") return ["Physics", "Chemistry", "Mathematics"];
     return ["Physics", "Chemistry", "Biology"];
   }, [targetExam]);
+
+  // Full Mock → auto-select all subjects
+  const isFullMock = examType === "full";
+  useEffect(() => {
+    if (isFullMock) {
+      setSelectedSubjects([...availableSubjects]);
+      setSelectedChapters([]);
+    }
+  }, [isFullMock, availableSubjects]);
+
+  // Calculate question distribution preview
+  const questionDistribution = useMemo(() => {
+    if (selectedSubjects.length <= 1) return null;
+    return calculateSubjectQuotas(selectedSubjects, questionCount, targetExam);
+  }, [selectedSubjects, questionCount, targetExam]);
 
   // Get chapters for selected subjects
   const availableChapters = useMemo(() => {
@@ -297,18 +313,32 @@ export default function CreateExamPage() {
           {/* Subject Selection */}
           <div className="mb-6">
             <label className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-500 mb-3 block">Subjects</label>
+            {isFullMock && (
+              <div className="mb-3 flex items-center gap-2 bg-indigo-50 border border-indigo-100 rounded-lg px-3 py-2">
+                <svg className="w-4 h-4 text-indigo-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span className="text-[11px] font-semibold text-indigo-700">All subjects are required for Full Mock exams.</span>
+              </div>
+            )}
             <div className="flex gap-3">
               {availableSubjects.map((sub) => (
                 <button
                   key={sub}
-                  onClick={() => toggleSubject(sub)}
+                  onClick={() => !isFullMock && toggleSubject(sub)}
+                  disabled={isFullMock}
                   className={`px-5 py-2.5 rounded-lg text-[13px] font-semibold transition-all ${
                     selectedSubjects.includes(sub)
-                      ? "bg-indigo-600 text-white shadow-[0_2px_8px_rgba(79,70,229,0.25)]"
+                      ? isFullMock
+                        ? "bg-indigo-600 text-white opacity-80 cursor-not-allowed"
+                        : "bg-indigo-600 text-white shadow-[0_2px_8px_rgba(79,70,229,0.25)]"
                       : "bg-white border border-slate-200 text-slate-600 hover:border-indigo-300 hover:text-indigo-600"
                   }`}
                 >
                   {sub}
+                  {isFullMock && selectedSubjects.includes(sub) && (
+                    <span className="ml-1.5 text-white/60">🔒</span>
+                  )}
                 </button>
               ))}
             </div>
@@ -409,6 +439,54 @@ export default function CreateExamPage() {
                 className="w-full h-12 px-4 bg-slate-50 border border-slate-200 rounded-xl text-[18px] font-bold text-slate-900 outline-none focus:border-indigo-500 focus:bg-white transition-all text-center"
               />
             </div>
+
+            {/* Question Distribution Preview */}
+            {questionDistribution && (
+              <div className="bg-white rounded-[16px] p-5 border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)] md:col-span-2">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="h-8 w-8 rounded-lg bg-violet-50 text-violet-600 flex items-center justify-center">
+                    <BookOpen className="h-4 w-4" />
+                  </div>
+                  <div className="text-[10px] font-bold tracking-[0.1em] text-slate-500 uppercase">Question Distribution</div>
+                </div>
+                <div className="space-y-3">
+                  {Object.entries(questionDistribution).map(([subject, count]) => {
+                    const percentage = Math.round((count / questionCount) * 100);
+                    const colorMap: Record<string, { bg: string; bar: string; text: string }> = {
+                      Physics: { bg: "bg-blue-50", bar: "bg-blue-500", text: "text-blue-700" },
+                      Chemistry: { bg: "bg-emerald-50", bar: "bg-emerald-500", text: "text-emerald-700" },
+                      Mathematics: { bg: "bg-violet-50", bar: "bg-violet-500", text: "text-violet-700" },
+                      Biology: { bg: "bg-rose-50", bar: "bg-rose-500", text: "text-rose-700" },
+                    };
+                    const colors = colorMap[subject] || { bg: "bg-slate-50", bar: "bg-slate-500", text: "text-slate-700" };
+                    return (
+                      <div key={subject}>
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className={`text-[12px] font-bold ${colors.text}`}>{subject}</span>
+                          <span className="text-[12px] font-extrabold text-slate-900">{count} <span className="text-slate-400 font-semibold text-[10px]">({percentage}%)</span></span>
+                        </div>
+                        <div className={`h-2.5 rounded-full ${colors.bg} overflow-hidden`}>
+                          <div
+                            className={`h-full rounded-full ${colors.bar} transition-all duration-500 ease-out`}
+                            style={{ width: `${percentage}%` }}
+                          />
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between">
+                  <span className="text-[11px] font-semibold text-slate-400">Total</span>
+                  <span className="text-[13px] font-extrabold text-slate-900">{questionCount} questions</span>
+                </div>
+                {targetExam === "NEET" && selectedSubjects.includes("Biology") && (
+                  <div className="mt-2 flex items-center gap-1.5 bg-rose-50 rounded-lg px-3 py-1.5">
+                    <span className="text-[10px]">🧬</span>
+                    <span className="text-[10px] font-semibold text-rose-600">Biology gets 2× share (Botany + Zoology)</span>
+                  </div>
+                )}
+              </div>
+            )}
             
             {/* Duration */}
             <div className="bg-white rounded-[16px] p-5 border border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
@@ -541,7 +619,7 @@ export default function CreateExamPage() {
                     const res = await fetch("/api/institute/preview-questions", {
                       method: "POST",
                       headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
-                      body: JSON.stringify({ chapters: selectedChapters, difficulty, questionCount }),
+                      body: JSON.stringify({ chapters: selectedChapters, difficulty, questionCount, targetExam }),
                     });
                     const data = await res.json();
                     if (!res.ok) { setPreviewError(data.error || "Failed to load preview."); return; }

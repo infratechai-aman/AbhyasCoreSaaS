@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import React, { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import { useRouter, useParams } from "next/navigation";
 import Image from "next/image";
 
@@ -23,6 +23,14 @@ const STATUS_COLORS = {
   marked:         { bg: "bg-amber-400",    text: "text-white",     label: "Marked",       dot: "bg-amber-400"  },
 } as const;
 
+/* ── Subject color map ── */
+const SUBJECT_COLORS: Record<string, { bg: string; text: string; border: string; badge: string; icon: string }> = {
+  Physics:     { bg: "bg-blue-50",    text: "text-blue-700",    border: "border-l-blue-500",    badge: "bg-blue-100 text-blue-700 border-blue-200",    icon: "⚡" },
+  Chemistry:   { bg: "bg-emerald-50", text: "text-emerald-700", border: "border-l-emerald-500", badge: "bg-emerald-100 text-emerald-700 border-emerald-200", icon: "🧪" },
+  Mathematics: { bg: "bg-violet-50",  text: "text-violet-700",  border: "border-l-violet-500",  badge: "bg-violet-100 text-violet-700 border-violet-200",  icon: "📐" },
+  Biology:     { bg: "bg-rose-50",    text: "text-rose-700",    border: "border-l-rose-500",    badge: "bg-rose-100 text-rose-700 border-rose-200",    icon: "🧬" },
+};
+
 export default function ExamTakePage() {
   const router = useRouter();
   const params = useParams();
@@ -40,6 +48,7 @@ export default function ExamTakePage() {
   const [showConfirm, setShowConfirm] = useState(false);
   const [sessionLoaded, setSessionLoaded] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
+  const [sidebarSubjectFilter, setSidebarSubjectFilter] = useState<string | null>(null);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const startTimeRef = useRef<number>(Date.now());
   const endTimeRef = useRef<number>(0);
@@ -332,6 +341,29 @@ export default function ExamTakePage() {
   const isTimeWarning = timeLeft < 300;
   const isTimeCritical = timeLeft < 60;
   const totalDuration = session?.duration ? session.duration * 60 : 3600;
+
+  // Group questions by subject for sidebar display
+  const subjectGroups = useMemo(() => {
+    const groups: { subject: string; questions: { q: Question; index: number }[] }[] = [];
+    const subjectMap = new Map<string, { q: Question; index: number }[]>();
+    
+    questions.forEach((q, i) => {
+      const sub = q.inferredSubject || "General";
+      if (!subjectMap.has(sub)) subjectMap.set(sub, []);
+      subjectMap.get(sub)!.push({ q, index: i });
+    });
+    
+    // Maintain order: Physics → Chemistry → Mathematics → Biology → others
+    const order = ["Physics", "Chemistry", "Mathematics", "Biology"];
+    const orderedKeys = [...order.filter(s => subjectMap.has(s)), ...Array.from(subjectMap.keys()).filter(s => !order.includes(s))];
+    
+    for (const sub of orderedKeys) {
+      groups.push({ subject: sub, questions: subjectMap.get(sub)! });
+    }
+    return groups;
+  }, [questions]);
+
+  const hasMultipleSubjects = subjectGroups.length > 1;
   // Timer ring: shows remaining time (ring shrinks as time passes)
   const ringRadius = 44;
   const ringCircumference = 2 * Math.PI * ringRadius;
@@ -479,9 +511,15 @@ export default function ExamTakePage() {
                 {currentQuestion.difficulty}
               </span>
             )}
-            {currentQuestion?.inferredSubject && (
-              <span className="text-[11px] font-medium text-slate-400">{currentQuestion.inferredSubject}</span>
-            )}
+            {currentQuestion?.inferredSubject && (() => {
+              const subColors = SUBJECT_COLORS[currentQuestion.inferredSubject] || { badge: "bg-slate-100 text-slate-700 border-slate-200", icon: "📝" };
+              return (
+                <span className={`inline-flex items-center gap-1.5 h-7 px-3 rounded-lg text-[11px] font-bold border ${subColors.badge}`}>
+                  <span className="text-[12px]">{subColors.icon}</span>
+                  {currentQuestion.inferredSubject}
+                </span>
+              );
+            })()}
           </div>
 
           {/* Question Card — Glassmorphic */}
@@ -599,28 +637,101 @@ export default function ExamTakePage() {
               </button>
             </div>
 
-            {/* Question Palette Grid */}
-            <div className="glass-strong rounded-2xl p-4 shadow-[0_4px_20px_rgba(0,0,0,0.04)] mb-4">
-              <div className="grid grid-cols-6 gap-[6px]">
-                {questions.map((q, i) => {
-                  const status = statuses[q.id] || "not-visited";
-                  const isCurrent = i === currentQ;
-                  const colors = STATUS_COLORS[status];
+            {/* Question Palette Grid — Grouped by Subject */}
+            {hasMultipleSubjects ? (
+              <>
+                {/* Subject filter tabs */}
+                <div className="glass rounded-xl p-1.5 mb-3 flex gap-1">
+                  <button
+                    onClick={() => setSidebarSubjectFilter(null)}
+                    className={`flex-1 py-1.5 rounded-lg text-[10px] font-bold transition-all ${
+                      sidebarSubjectFilter === null ? "bg-slate-900 text-white shadow-sm" : "text-slate-500 hover:text-slate-700"
+                    }`}
+                  >
+                    All
+                  </button>
+                  {subjectGroups.map(({ subject }) => {
+                    const colors = SUBJECT_COLORS[subject];
+                    return (
+                      <button
+                        key={subject}
+                        onClick={() => setSidebarSubjectFilter(sidebarSubjectFilter === subject ? null : subject)}
+                        className={`flex-1 py-1.5 rounded-lg text-[10px] font-bold transition-all ${
+                          sidebarSubjectFilter === subject ? "bg-slate-900 text-white shadow-sm" : "text-slate-500 hover:text-slate-700"
+                        }`}
+                      >
+                        {subject.slice(0, 3)}
+                      </button>
+                    );
+                  })}
+                </div>
 
-                  return (
-                    <button
-                      key={q.id}
-                      onClick={() => { navigateQ(i); setShowSidebar(false); }}
-                      className={`aspect-square rounded-lg flex items-center justify-center text-[11px] font-bold cursor-pointer transition-all duration-150 hover:scale-105 ${colors.bg} ${colors.text} ${
-                        isCurrent ? "ring-[2.5px] ring-indigo-500 ring-offset-[2px] ring-offset-white scale-110 shadow-md" : ""
-                      }`}
-                    >
-                      {i + 1}
-                    </button>
-                  );
-                })}
+                {/* Subject-grouped question palette */}
+                {subjectGroups
+                  .filter(({ subject }) => !sidebarSubjectFilter || subject === sidebarSubjectFilter)
+                  .map(({ subject, questions: subjectQs }) => {
+                    const colors = SUBJECT_COLORS[subject] || { bg: "bg-slate-50", text: "text-slate-700", border: "border-l-slate-400", icon: "📝" };
+                    const subjectAnswered = subjectQs.filter(({ q }) => answers[q.id]).length;
+                    return (
+                      <div key={subject} className={`glass-strong rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] mb-3 overflow-hidden border-l-[3px] ${colors.border}`}>
+                        {/* Subject header */}
+                        <div className={`px-3.5 py-2.5 ${colors.bg} flex items-center justify-between`}>
+                          <div className="flex items-center gap-2">
+                            <span className="text-[13px]">{colors.icon}</span>
+                            <span className={`text-[11px] font-bold ${colors.text}`}>{subject}</span>
+                          </div>
+                          <span className={`text-[10px] font-bold ${colors.text} opacity-70`}>
+                            {subjectAnswered}/{subjectQs.length}
+                          </span>
+                        </div>
+                        {/* Question grid */}
+                        <div className="p-3">
+                          <div className="grid grid-cols-6 gap-[5px]">
+                            {subjectQs.map(({ q, index: i }) => {
+                              const status = statuses[q.id] || "not-visited";
+                              const isCurrent = i === currentQ;
+                              const statusColors = STATUS_COLORS[status];
+                              return (
+                                <button
+                                  key={q.id}
+                                  onClick={() => { navigateQ(i); setShowSidebar(false); }}
+                                  className={`aspect-square rounded-lg flex items-center justify-center text-[10px] font-bold cursor-pointer transition-all duration-150 hover:scale-105 ${statusColors.bg} ${statusColors.text} ${
+                                    isCurrent ? "ring-[2.5px] ring-indigo-500 ring-offset-[2px] ring-offset-white scale-110 shadow-md" : ""
+                                  }`}
+                                >
+                                  {i + 1}
+                                </button>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+              </>
+            ) : (
+              /* Single subject — flat grid (original layout) */
+              <div className="glass-strong rounded-2xl p-4 shadow-[0_4px_20px_rgba(0,0,0,0.04)] mb-4">
+                <div className="grid grid-cols-6 gap-[6px]">
+                  {questions.map((q, i) => {
+                    const status = statuses[q.id] || "not-visited";
+                    const isCurrent = i === currentQ;
+                    const colors = STATUS_COLORS[status];
+                    return (
+                      <button
+                        key={q.id}
+                        onClick={() => { navigateQ(i); setShowSidebar(false); }}
+                        className={`aspect-square rounded-lg flex items-center justify-center text-[11px] font-bold cursor-pointer transition-all duration-150 hover:scale-105 ${colors.bg} ${colors.text} ${
+                          isCurrent ? "ring-[2.5px] ring-indigo-500 ring-offset-[2px] ring-offset-white scale-110 shadow-md" : ""
+                        }`}
+                      >
+                        {i + 1}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Legend */}
             <div className="glass rounded-xl p-3.5 mb-4">

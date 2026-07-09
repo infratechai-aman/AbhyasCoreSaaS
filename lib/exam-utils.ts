@@ -154,3 +154,130 @@ export function stripAnswersForClient(questions: any[]): any[] {
     ...(q.inferredSubject && { inferredSubject: q.inferredSubject }),
   }));
 }
+
+// ── Calculate Per-Subject Question Quotas ──
+/**
+ * Distributes `totalQuestions` across subjects.
+ * - NEET special case: Biology gets 2× weight (Botany + Zoology combined).
+ *   e.g. 180 total with 3 subjects → Physics: 45, Chemistry: 45, Biology: 90
+ * - General case: equal split with remainder distributed round-robin.
+ *   e.g. 45 total with 3 subjects → 15 each
+ */
+export function calculateSubjectQuotas(
+  subjects: string[],
+  totalQuestions: number,
+  targetExam?: string
+): Record<string, number> {
+  if (subjects.length === 0) return {};
+  if (subjects.length === 1) return { [subjects[0]]: totalQuestions };
+
+  const quotas: Record<string, number> = {};
+
+  if (targetExam === "NEET" && subjects.includes("Biology")) {
+    // NEET: Biology gets double weight
+    // totalWeight = (number of non-Bio subjects × 1) + (Bio × 2)
+    const totalWeight = subjects.length + 1; // Bio counts as 2
+    const baseShare = Math.floor(totalQuestions / totalWeight);
+    let remainder = totalQuestions % totalWeight;
+
+    for (const sub of subjects) {
+      const weight = sub === "Biology" ? 2 : 1;
+      quotas[sub] = baseShare * weight;
+    }
+    // Distribute remainder: Biology first (since it has double weight), then others
+    const orderedForRemainder = [...subjects].sort((a, b) =>
+      a === "Biology" ? -1 : b === "Biology" ? 1 : 0
+    );
+    for (const sub of orderedForRemainder) {
+      if (remainder <= 0) break;
+      quotas[sub]++;
+      remainder--;
+    }
+  } else {
+    // General: equal split
+    const perSubject = Math.floor(totalQuestions / subjects.length);
+    let remainder = totalQuestions % subjects.length;
+    for (const sub of subjects) {
+      quotas[sub] = perSubject + (remainder > 0 ? 1 : 0);
+      if (remainder > 0) remainder--;
+    }
+  }
+
+  return quotas;
+}
+
+// ── Distribute Questions Across Subjects Using Quotas ──
+/**
+ * Takes a flat list of questions (each with `inferredSubject`), groups by subject,
+ * applies quotas from `calculateSubjectQuotas`, shuffles within each subject,
+ * and returns a flat list ordered by subject.
+ * If a subject has fewer questions than its quota, the surplus is redistributed.
+ */
+export function distributeQuestionsBySubject(
+  allQuestions: any[],
+  totalRequested: number,
+  targetExam?: string
+): any[] {
+  // Group by subject
+  const subjectGroups: Record<string, any[]> = {};
+  allQuestions.forEach((q) => {
+    const sub = q.inferredSubject || "Unknown";
+    if (!subjectGroups[sub]) subjectGroups[sub] = [];
+    subjectGroups[sub].push(q);
+  });
+
+  const subjectNames = Object.keys(subjectGroups);
+  if (subjectNames.length <= 1) {
+    // Single subject — just shuffle and slice
+    return shuffleArray(allQuestions).slice(0, totalRequested);
+  }
+
+  // Calculate initial quotas
+  const quotas = calculateSubjectQuotas(subjectNames, totalRequested, targetExam);
+
+  // First pass: pick min(quota, available) from each subject
+  const picked: Record<string, any[]> = {};
+  let totalPicked = 0;
+  let deficit = 0;
+
+  for (const sub of subjectNames) {
+    const pool = shuffleArray(subjectGroups[sub]);
+    const quota = quotas[sub] || 0;
+    const take = Math.min(quota, pool.length);
+    picked[sub] = pool.slice(0, take);
+    totalPicked += take;
+    deficit += quota - take; // how many we couldn't fill
+  }
+
+  // Second pass: redistribute deficit to subjects that have surplus
+  if (deficit > 0) {
+    for (const sub of subjectNames) {
+      if (deficit <= 0) break;
+      const alreadyPicked = picked[sub].length;
+      const available = subjectGroups[sub].length;
+      const extra = Math.min(deficit, available - alreadyPicked);
+      if (extra > 0) {
+        const pool = shuffleArray(subjectGroups[sub]);
+        picked[sub] = picked[sub].concat(
+          pool.filter((q) => !picked[sub].includes(q)).slice(0, extra)
+        );
+        deficit -= extra;
+      }
+    }
+  }
+
+  // Combine in subject order (Physics → Chemistry → Maths/Bio)
+  const subjectOrder = ["Physics", "Chemistry", "Mathematics", "Biology", "Unknown"];
+  const ordered = subjectOrder.filter((s) => picked[s]?.length > 0);
+  // Add any subjects not in the predefined order
+  for (const s of subjectNames) {
+    if (!ordered.includes(s) && picked[s]?.length > 0) ordered.push(s);
+  }
+
+  let result: any[] = [];
+  for (const sub of ordered) {
+    result = result.concat(picked[sub] || []);
+  }
+
+  return result;
+}

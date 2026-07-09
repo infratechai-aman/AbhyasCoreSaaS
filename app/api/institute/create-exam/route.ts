@@ -13,6 +13,7 @@ import {
   shuffleArray,
   processQuestion,
   stripAnswersForClient,
+  distributeQuestionsBySubject,
 } from "@/lib/exam-utils";
 import type { CreateExamRequest, InstituteExam } from "@/lib/institute-types";
 
@@ -223,9 +224,8 @@ export async function POST(request: Request) {
       );
     }
 
-    // 9. Sample random questions up to the requested count
-    const shuffled = shuffleArray(allQuestions);
-    const finalQuestions = shuffled.slice(0, Math.min(questionCount, shuffled.length));
+    // 9. Distribute questions equally across subjects
+    const finalQuestions = distributeQuestionsBySubject(allQuestions, questionCount, targetExam);
 
     // Assign stable IDs
     const questionsWithIds = finalQuestions.map((q: any, i: number) => ({
